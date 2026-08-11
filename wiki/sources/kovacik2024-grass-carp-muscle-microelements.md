@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kovacik et al. 2024 — Microelements and fatty acids in grass carp muscle, Slovak Republic
 
+## Overview
+
 Kovacik et al. measured 16 microelements plus total mercury in dorsal muscle of 36 grass carp (*Ctenopharyngodon idella*) harvested from a university experimental pond in Kolinany, Slovakia during summer (n=18) and autumn (n=18) seasons. The pond is adjacent to intensive agricultural activity and connected to a wastewater treatment plant. All metals were measured by ICP-OES (Al, As, Ba, Cd, Co, Cr, Cu, Fe, Li, Mn, Ni, Pb, Se, Sr, Zn); total mercury was measured separately by CV-AAS. Cadmium and cobalt were below the limit of quantification in all samples; arsenic was below LOQ in more than 88% of samples; lead was below LOQ in more than 66% of samples; selenium was below LOQ in approximately 50% of samples. The overall elemental ranking was Fe > Zn > Al > Sr > Ba > Ni > Se > Cr > Cu > Mn > Pb > As > Li > Hg. Total hazard quotient (TTHQ) ranged 0.27–0.76, below 1 in all individuals; mercury and nickel jointly accounted for 49% of the TTHQ and were identified as the elements of most concern.
 
 ## Key numbers
@@ -77,15 +79,15 @@ App: Provides baseline ranges for multiple metals in freshwater fish (grass carp
 - [[products/seafood]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

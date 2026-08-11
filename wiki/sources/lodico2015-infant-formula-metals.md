@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Lo Dico et al. 2015 - ICP-MS metals in infant formula
 
+## Overview
+
 Lo Dico and colleagues validated an ICP-MS method for simultaneous determination of arsenic, copper, chromium, selenium, tin, cadmium, antimony, and lead in infant formula after microwave-assisted digestion. The paper is a pure method-validation study and does not report measured concentrations of the eight elements in the 10 commercial liquid-milk infant formulas collected from Sicilian supermarkets in February–March 2015. Those 10 samples served as the matrix for spike-recovery experiments. The paper reports total elements only and does not perform arsenic, chromium, tin, or mercury speciation. The source contributes ICP-MS method-validation context to infant-formula testing-method discussions; it does not contribute occurrence values to the standards pool.
 
 ## Key numbers
@@ -62,15 +64,15 @@ App: No occurrence data to surface; the source informs methodology references ra
 The same DOI was fetched under formula and infant-formula Cd, Pb, Sn, and tAs gaps. This page is the canonical page for those duplicate paths. Arsenic, chromium, tin, and mercury are total-element measurements; no iAs, Cr(VI), inorganic-Sn, or MeHg speciation is performed. Cu and Se are reported in the source but are outside the HMTc analyte vocabulary and are not surfaced in the `metals:` frontmatter. The paper measured liquid-milk (RTF) infant formula only; powder, concentrated-liquid, and soy-based subcategories are not in scope.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9e40f60e0](https://github.com/paleofoundation/heavymetalindex/commit/9e40f60e0) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

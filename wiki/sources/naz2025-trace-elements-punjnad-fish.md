@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Naz et al. 2025 — Cd, Cu, Pb, and Ni in freshwater fish from Punjnad headworks, Pakistan
 
+## Overview
+
 This study measured cadmium, copper, lead, and nickel in the liver, gills, and muscle tissue of five freshwater fish species collected from the right and left banks of Punjnad headworks in Punjab, Pakistan, where five rivers (Beas, Sutlej, Ravi, Chenab, and Jhelum) converge and industrial and agricultural effluents contribute to elevated metal burdens. Wallago attu, a carnivorous catfish at the top of the local food chain, showed the highest accumulation across all four metals and all organs, with liver lead reaching 46.03 mg/kg in the right bank during winter; the right bank consistently showed higher metal concentrations than the left bank, consistent with differential industrial discharge patterns. Human health risk assessment using THQ found that Cd and Pb had THQ >1 for both mature and juvenile regular consumers, and the total target hazard quotient (TTHQ) exceeded 1 for all five species, indicating that fish from both banks were unsafe for consumption under routine intake scenarios. The study is one of the few to characterize Punjnad headworks specifically for multiple metals across seasons and banks, and provides baseline data for a heavily populated agricultural region of Pakistan with few prior contamination records at this site.
 
 ## Key numbers
@@ -70,15 +72,15 @@ App: Provides muscle-tissue Pb and Cd data for freshwater catfish and carp speci
 - [[supply-chain/industrial-discharge-freshwater]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

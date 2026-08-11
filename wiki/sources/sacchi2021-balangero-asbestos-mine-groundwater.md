@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Sacchi et al. 2021 - Natural background levels of PTEs in Balangero asbestos-mine groundwater
 
+## Overview
+
 Sacchi and colleagues derive natural background levels (NBLs) for potentially toxic elements (PTEs) in groundwater from the former Balangero chrysotile asbestos mine in serpentinised mantle peridotite of the Lanzo Massif, a "Contaminated Site of National Interest" 30 km northwest of Turin in the Piedmont region of North Italy. The study illustrates a modified Italian NBL workflow that uses all available measurements rather than per-station medians, in order to capture the high naturally occurring concentrations of Cr, Cr-VI, Ni, Mn and Fe that arise from water-rock interaction with ultramafic and metabasite host rocks, ore minerals, mine tailings and waste sludge. The work is environmental natural-background characterisation, not food, drinking-water-supply, or consumer-product occurrence evidence.
 
 ## Key numbers
@@ -152,15 +154,15 @@ Missing-regulation-slug proposals (surfaced for Karen, not auto-created per Part
 - **Check 2 ⚠️ Two regulation wikilinks not in taxonomy snapshot.** Audit subagent flagged that `[[regulations/italian-groundwater-quality-thresholds]]` and `[[regulations/eu-groundwater-directive-2006-118-ec]]` were listed under "Wiki pages this source may touch" but neither slug exists in `wiki/regulations/` and neither is in the taxonomy snapshot. Verified by listing `wiki/regulations/`: confirmed both are absent (existing groundwater-adjacent regulations are EPA arsenic MCL and EU drinking-water/contaminants regs only). Removed both wikilinks from the page body and added a "Missing-regulation-slug proposals" subsection in Verification notes surfacing the two regulations (D.Lgs. 152/2006 Allegato 5 and EU Groundwater Directive 2006/118/EC) for Karen's review per Part 10 regulation Step 0 Lock.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0377ad4](https://github.com/paleofoundation/heavymetalindex/commit/0377ad4) | 2026-06-03 | audit: sacchi2021-balangero-asbestos-mine-groundwater revised |
-| [1cd4db4](https://github.com/paleofoundation/heavymetalindex/commit/1cd4db4) | 2026-06-03 | ingest: sacchi2021-balangero-asbestos-mine-groundwater fresh from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

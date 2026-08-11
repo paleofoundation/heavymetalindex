@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mahmud et al. 2011 — Chromium(VI) in chicken meat and bones, Lahore, Pakistan
 
+## Overview
+
 This 2011 study from the University of the Punjab, Lahore reported hexavalent chromium (Cr-VI) in multiple meat parts and bones of local Pakistani chickens, finding author-reported Cr-VI at mean concentrations of 0.233 to 1.433 mg/kg across tissues tested. The contamination pathway identified by the authors is specific to Pakistan's poultry industry practice of incorporating leather scraps in chicken feed to provide protein; these leather offcuts retain Cr(VI) from the chrome tanning process (K2CrO4 and K2Cr2O7), and the authors describe accumulation in chicken tissues. Leg muscle had the highest mean Cr-VI in meat parts (1.266 mg/kg); head bone had the highest mean in bones (1.433 mg/kg).
 
 **Critical speciation note:** This paper reports hexavalent chromium (Cr-VI), a Group 1 human carcinogen (IARC), not total chromium (Cr-total). However, the methods section describes ashing, nitric-acid digestion, and atomic absorption spectrophotometry after calibration with potassium dichromate; it does not describe chromatographic separation, colorimetric Cr(VI) confirmation, or a speciation-preservation validation step. Use these values only as author-reported Cr(VI), not as independently validated chromium speciation data, and do not conflate them with total chromium in synthesis.
@@ -83,15 +85,15 @@ Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately
 - The paper calls the analyte Cr(VI), but the reported AAS workflow is not a modern validated speciation method. Retain `metals: [Cr-VI]` because it is the source's declared analyte, with the author-reported speciation caveat above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

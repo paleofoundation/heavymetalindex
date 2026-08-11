@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Obasi and Akudinobi 2020 - Heavy metals in Abakaliki drinking-water sources
 
+## Overview
+
 Obasi and Akudinobi measured heavy metals in 106 water samples from lead-zinc mining communities around Abakaliki, southeast Nigeria, across pre-monsoon and post-monsoon seasons. The study reports very high drinking-water concentrations for Pb, Cd, As, Hg, Cr, Mn, Ni, Se, Ag, Zn, and Co, with groundwater near active mines highlighted as the main high-concentration setting. The paper is direct occurrence evidence for mining-influenced drinking-water sources, but it is not a branded bottled-water or mineral-water market survey.
 
 ## Key numbers
@@ -64,14 +66,15 @@ App: The source may support warnings or context for private wells and community 
 The auto-fetch filename described this as a mineral-water cadmium product hit, but the PDF is an Applied Water Science article on community water resources in Nigerian lead-zinc mining areas. The DOI in the PDF is 10.1007/s13201-020-01233-z, and no existing `wiki/sources/` DOI match was found before ingest. Because the paper reports total As, total Hg, and total Cr without species resolution, the source page does not route those values as iAs, MeHg, or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [d0c918a](https://github.com/paleofoundation/heavymetalindex/commit/d0c918a) | 2026-06-02 | ingest auto-fetched 2026-06-02: obasi2020-abakaliki-drinking-water-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

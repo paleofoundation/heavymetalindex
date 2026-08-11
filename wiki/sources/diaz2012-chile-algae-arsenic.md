@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Díaz et al. 2012 - Chilean algae arsenic
 
+## Overview
+
 Díaz et al. measured total arsenic and inorganic arsenic in 79 algae samples representing 14 economically important species from Chilean coastal zones. The paper reports species-level mean concentrations in `mg kg-1 d.w.` and identifies which species were used for direct consumption, carrageenan, agar agar, or alginates. Total arsenic and inorganic arsenic are reported as separate analytes and are kept separate below.
 
 ## Key numbers
@@ -86,3 +88,17 @@ This source is high-value Chilean seaweed occurrence evidence because it reports
 - Units and basis are preserved as `mg kg-1 d.w.`, `%`, `µg/g dry weight`, and `µg/g dw`; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary occurrence data, exact species/economic-use labels, species sample counts, triplicate analyses, detection limits, recoveries, and CRM QA/QC for total arsenic.
 - Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

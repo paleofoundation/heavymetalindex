@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Izah et al. 2016 — Heavy metals in beverages consumed in Nigeria
 
+## Overview
+
 Izah and colleagues (Niger Delta University, Bayelsa State, Nigeria) review the published literature on heavy metal concentrations in alcoholic and non-alcoholic beverages consumed in Nigeria between 2007 and 2016. The review tabulates concentration ranges from 13 underlying non-alcoholic studies (Table 1) and 5 underlying alcoholic-beverage studies (Table 2), compared against the Standard Organization of Nigeria (SON) and WHO drinking-water guideline limits. The review reports no new measurements, treats drinking-water limits as the reference framework for evaluating beverages, and discusses qualitative health implications for each heavy metal.
 
 ## Key numbers
@@ -34,7 +36,7 @@ This is a narrative review with no new measurements. All values reported below a
 
 ### Table 1 — Non-alcoholic beverages (mg/L unless noted)
 
-Compiled by Izah et al. from 13 underlying Nigerian studies. Categories below describe the beverage type at the product-form / category level; brand names appearing in the source tables are omitted per CLAUDE.md Part 12 brand-firewall (strict reading locked 2026-05-17).
+Compiled by Izah et al. from 13 underlying Nigerian studies. Categories below describe the beverage type at the product-form / category level; brand names appearing in the source tables are omitted brand-firewall (strict reading locked 2026-05-17).
 
 | Beverage category (review's grouping) | Fe | Zn | Cd | Cr | Pb | Hg | Cu | Ni | Mn | Sn | As | Ag | Sb |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -131,13 +133,13 @@ Evidence tier set to C. The source is a narrative review (no new data, no system
 
 ## Verification notes
 
-No brand names appear in the source-page body. The underlying Tables 1 and 2 in the source PDF name many commercial brands of Nigerian and imported beverages (soft drinks, fruit drinks, malt drinks, beers, gins) as the sample sets the underlying primary studies analysed. Per CLAUDE.md Part 12 brand-firewall (strict reading locked 2026-05-17), brand-by-brand listings are not reproduced in the wiki. The Tables 1 and 2 reproduced above describe each row at the product-form / category level (e.g., "Twenty-four selected soft drinks", "Canned beer composite"); brand names are dropped throughout, including the underlying Eno-obong and Ukoha 2013 row originally labelled "Olympic and Three Crown milk" (now "Canned milk beverages") and the underlying ref [54] row originally labelled "peak, milo and five alive juice drink" (now "Canned dairy and juice beverages"). The brand-count annotations ("n=8 brand mix", "21 brands", "38 brands per source") that appeared in an earlier revision of this page were wiki-introduced numbers that did not match the PDF brand lists; they have been removed.
+No brand names appear in the source-page body. The underlying Tables 1 and 2 in the source PDF name many commercial brands of Nigerian and imported beverages (soft drinks, fruit drinks, malt drinks, beers, gins) as the sample sets the underlying primary studies analysed. Per brand-firewall (strict reading locked 2026-05-17), brand-by-brand listings are not reproduced in the wiki. The Tables 1 and 2 reproduced above describe each row at the product-form / category level (e.g., "Twenty-four selected soft drinks", "Canned beer composite"); brand names are dropped throughout, including the underlying Eno-obong and Ukoha 2013 row originally labelled "Olympic and Three Crown milk" (now "Canned milk beverages") and the underlying ref [54] row originally labelled "peak, milo and five alive juice drink" (now "Canned dairy and juice beverages"). The brand-count annotations ("n=8 brand mix", "21 brands", "38 brands per source") that appeared in an earlier revision of this page were wiki-introduced numbers that did not match the PDF brand lists; they have been removed.
 
 The source tin value of 217.6–516.0 µg/mL for canned milk beverages (Eno-obong and Ukoha 2013, reference [54]) is verified against page 7 of the source PDF (Table 1) and is reproduced as the review prints it. The magnitude (≥217.6 mg/L, more than 100,000× the WHO 0.002 mg/L drinking-water Sn guideline) is implausibly high for a finished canned milk product and likely reflects a unit-of-measure or significant-figure issue in the underlying Eno-obong and Ukoha 2013 paper; the review does not flag this and does not propose a correction. The value is reported here as the review prints it; any future direct ingest of the Eno-obong and Ukoha paper should re-derive the canned-milk tin concentration from the original measurements and units.
 
 Mercury concentrations in the broad soft-drink list (ND–11.33 mg/L, attributed to Engwa et al. [39]) are likewise implausibly high relative to the WHO 0.001 mg/L drinking-water guideline; the review reproduces the value as the underlying source published it. The same caveat applies — direct ingest of Engwa et al. 2015 should re-verify the value.
 
-The `metals:` frontmatter lists Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn. The review uses "As" and "Hg" without speciation labels; per CLAUDE.md Part 14 non-negotiable speciation convention, these are recorded as tAs and tHg (total arsenic and total mercury) since no inorganic-arsenic or methylmercury determination is documented in the review. Cr is recorded as elemental Cr (the review does not specify Cr-VI vs Cr-III). Fe is omitted from `metals:` because Fe is not one of the HMI tracked analytes per CLAUDE.md Part 14; the iron values are retained in the body tables for completeness.
+The `metals:` frontmatter lists Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn. The review uses "As" and "Hg" without speciation labels; non-negotiable speciation convention, these are recorded as tAs and tHg (total arsenic and total mercury) since no inorganic-arsenic or methylmercury determination is documented in the review. Cr is recorded as elemental Cr (the review does not specify Cr-VI vs Cr-III). Fe is omitted from `metals:` because Fe is not one of the HMI tracked analytes; the iron values are retained in the body tables for completeness.
 
 The `ingredients:` frontmatter is empty. The review discusses palm sap, sorghum, millet, maize, rice, wheat, acha (Digitaria exilis), Hibiscus sabdariffa, hops, barley, and water as beverage feedstocks, but the underlying Tables 1 and 2 report finished-product values rather than ingredient values, and none of these feedstocks is mapped to an HMI primary tracking ingredient at the finished-beverage scope.
 
@@ -147,17 +149,20 @@ The `matrices:` list includes non-alcoholic-beverages and alcoholic-beverages (t
 
 The `jurisdictions:` list includes NG (Nigeria, the review's geographic scope) and GLOBAL (because the SON and WHO drinking-water guideline rows used as the reference frame are international and because the imported beverages tabulated come from South Korea, China, South Africa, UAE, Germany, Belgium, Hong Kong, Pakistan, Thailand, Holland, USA, and Nigeria itself). No specific other-country jurisdiction is added because the review groups all imported beverages under the same Nigerian-consumption frame.
 
-No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, per CLAUDE.md Part 2 wiki/HMTc firewall.
+No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, wiki/HMTc firewall.
 
 Audit subagent (2026-06-06) raised three ❌ Part 12 findings against the initial revision (three Table 1 row labels still carrying brand names: "cocacola/Amstel/Fanta/malta Guinness/Maltina"; "Olympic and Three Crown milk"; "peak/milo/five alive juice"). All three verified against PDF page 7 and applied: each row label was rewritten to the product-form descriptor alone, matching the strict reading. The audit also raised three ⚠️ Check 1 findings against the Sn-units note: (1) the parenthetical "(0.003–0.261)" was a compression of two separate ref-[40] rows; (2) attribution to "Eno-obong and Ukoha 2013, reference [54]" was wrong because those two Sn values are reference [40] (Maduabuchi et al. 2007); (3) the µg/mL unit claim does not match the PDF asterisk-scoped footnote (ref-[40] rows are not asterisked, so are in mg/L per the table header). All three verified against PDF page 8 and applied: the note was rewritten to scope the µg/mL footnote to the four asterisked rows only and to clarify that the two ref-[40] rows are in mg/L. The audit also raised ⚠️ findings on five wiki-introduced brand-mix counts (n=8 / n=8 / n=5 for Table 2; "21 brands" and "38 brands per source" for Table 1) that did not match the PDF brand lists; all five verified against PDF pages 7 and 9 and applied by removing the count annotations rather than recounting (the source itself does not number the brand mixes, and reintroducing counts would be wiki annotation rather than source content).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f1bd563](https://github.com/paleofoundation/heavymetalindex/commit/f1bd563) | 2026-06-06 | audit: izah2016-beverages-heavy-metals-nigeria [revised] |
-| [d464542](https://github.com/paleofoundation/heavymetalindex/commit/d464542) | 2026-06-06 | ingest: izah2016-beverages-heavy-metals-nigeria [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

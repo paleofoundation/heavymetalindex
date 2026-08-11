@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Dokht Khatibi et al. 2024 — Lead and cadmium in infant formula and infant cereals, Zahedan, Iran
 
+## Overview
+
 This Sigma Journal of Engineering and Natural Sciences paper from Zahedan University of Medical Sciences measured Pb and Cd in 18 brands of powdered infant milk formula and 7 brands of infant cereals / baby foods collected from the Zahedan market (Sistan and Baluchestan Province, southeastern Iran) in March-April 2019. Pb and Cd were quantified by graphite-furnace atomic absorption spectroscopy on dry-ashed samples. Estimated Daily Intake (EDI) and Health Risk Index (HRI) were computed for two infant age strata (0-6 months and 6-12 months) using daily-consumption assumptions of 200 g/day at 6.5 kg body weight and 100 g/day at 10 kg body weight, respectively, drawn from manufacturer feeding tables. Although the article carries a 2024 publication date, the field sampling and laboratory work were conducted in 2019-2020; the authors describe the work as a 2020 Zahedan-market survey.
 
 ## Key numbers
@@ -93,15 +95,15 @@ The authors' regulatory framing compares the sample-mean EDI against Codex TDI/P
 - 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf`) returned REVISE with one ❌ on Check 2, asserting that `[[ingredients/infant-cereal-ingredients]]` was not in the taxonomy snapshot. Verified against `wiki/ingredients/infant-cereal-ingredients.md` (exists) and `docs/gpt-collaboration/taxonomy-snapshot.md` (slug present in the Ingredients line). Finding is a false positive — the subagent's snapshot scan missed the entry. No change applied. All ⚠️ items in Check 1 were re-verified against Tables 1-3 (pp. 617-618) and confirmed correct. Effective verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

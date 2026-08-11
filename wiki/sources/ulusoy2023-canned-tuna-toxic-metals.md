@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ulusoy 2023 - Toxic metals in global canned tuna
 
+## Overview
+
 Ulusoy measured cadmium, lead, total mercury, and total arsenic in canned tuna purchased from supermarkets in 36 countries. The study used ICP-MS and reported country-of-purchase means for Cd, Pb, Hg, total As, and a calculated inorganic-arsenic surrogate. Inorganic arsenic was not directly measured; it was estimated as 3% of total As for the risk calculations.
 
 ## Key numbers
@@ -72,15 +74,15 @@ This source contributes broad global occurrence data for canned tuna. It is usef
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f95be07](https://github.com/paleofoundation/heavymetalindex/commit/f95be07) | 2026-06-08 | ingest: ulusoy2023-canned-tuna-toxic-metals merge from MFK/June 8 New Folder With Items 4 2 |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f95be0787](https://github.com/paleofoundation/heavymetalindex/commit/f95be0787) | 2026-06-08 | major | 1 section added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

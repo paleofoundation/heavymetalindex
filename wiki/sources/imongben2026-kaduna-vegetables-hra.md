@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Imongben et al. 2026 — Heavy metals and health risk in Kaduna market vegetables, Nigeria
 
+## Overview
+
 Imongben and colleagues measured Cr, Mn, Fe, Co, Ni, Cu, Mo, and Zn in 12 commonly consumed vegetable types purchased from five markets in Kaduna Metropolis, Nigeria, using energy-dispersive X-ray fluorescence (ED-XRF) spectrometry. The authors computed Estimated Maximum Daily Intake (EMDI), Hazard Quotient (HQ), Hazard Index (HI), and Incremental Lifetime Cancer Risk (ILCR) for adults (60 kg body weight) and toddlers 1–2 y (10 kg body weight). HI exceeded 1 for every vegetable and both age groups; Cr, Cu, and Ni ILCR values were in the moderate-to-high risk range for most vegetables. The authors attribute the contamination to irrigation with River Kaduna water, which receives untreated effluent from the city's refinery, textile, food and beverage, ceramics, fertilizer, and paper industries.
 
 ## Key numbers
@@ -183,15 +185,15 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

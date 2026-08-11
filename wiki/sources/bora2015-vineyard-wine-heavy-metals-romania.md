@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Bora et al. 2015 — Heavy metals in the soil-grapevine-wine system in NW Romania
 
+## Overview
+
 Bora and colleagues measured concentrations of ten elements (Na, Ca, Mg, Fe, Cu, Zn, Pb, Cd, Ni, Co) by flame atomic absorption spectrophotometry (FAAS) across the soil–grapevine–wine system of three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in the Turulung vineyard (Satu Mare County, NW Romania), 57 km from the Baia Mare metallurgical complex. The vineyard soil exceeded the Romanian maximum limit allowed (MLA) for copper (mean 479.64 mg/kg vs 20 mg/kg MLA), attributed by the authors to long-running Cu-based fungicide treatments and regional smelter emissions; all other soil analytes (Pb, Cd, Zn, Ni, Co) were below their MLAs. In the resulting micro-vinified young wines, all measured heavy metals were below the International Organisation of Vine and Wine (OIV) ceilings: Cu 0.23 mg/L, Zn 0.46 mg/L, Pb 0.09 mg/L, Ni 0.04 mg/L; Cd was under the limit of detection. Transfer-factor analysis showed Cd and Pb preferentially accumulating in leaves rather than in must, consistent with vine-internal sequestration of toxic metals away from the berries.
 
 ## Key numbers
@@ -143,12 +145,15 @@ Table 5 prints the TF_wm right-margin ranking annotation as "Pb > Ni > Cu > Zn",
 Tables 1, 2 and 3 in the source print "Average" rows whose ± values are implausibly tight relative to the per-cultivar spreads in the same tables (e.g., Table 3 leaves Pb Average 4.25 ± 0.03 vs per-cultivar values 4.93 / 3.12 / 4.69, whose cross-cultivar SD is ≈ 0.99; Table 3 leaves Cd Average 0.77 ± 0.03 vs per-cultivar 0.58 / 0.79 / 0.93, cross-cultivar SD ≈ 0.18). The Average-row ± appears to be the within-replicate (n = 3) analytical SD averaged across cultivars rather than the cross-cultivar SD. This page reproduces what the source prints; downstream users should not treat the Average-row SDs as cross-cultivar variability.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [d70d6eb](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb) | 2026-06-06 | audit: bora2015-vineyard-wine-heavy-metals-romania [promoted] |
-| [6d519cf](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf) | 2026-06-06 | ingest: bora2015-vineyard-wine-heavy-metals-romania [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

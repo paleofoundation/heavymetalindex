@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Burden et al. 2019 - honey-bee feeding behavior after metal-spiked sucrose
 
+## Overview
+
 Burden and colleagues tested whether worker honey bees detected, rejected, or changed sucrose responsiveness after acute exposure to cadmium-, copper-, and lead-contaminated sucrose. This is in-scope a4 toxicology and animal-feeding exposure evidence for metals in pollinator food resources, not honey occurrence data.
 
 ## Key numbers
@@ -73,3 +75,17 @@ App: Context only. The source can inform honey-supply-chain and pollinator-healt
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured honey-bee feeding behavior after metal-spiked sucrose rather than honey occurrence. On reading, it is in-scope a4 toxicology and animal-feeding exposure evidence.
 
 Numbers were checked against the abstract, Results, figure captions, Methods, and Discussion in the extracted PDF. Metal forms are recorded as total Cd, Cu, and Pb in the wiki frontmatter because the experimental salts were cadmium chloride, copper chloride, and lead chloride, and the paper does not report consumer-product speciation. Products and ingredients are intentionally empty. `sucrose-solution` is a matrix term added for this controlled feeding assay; it is not an occurrence-product route.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -21,7 +21,11 @@ const validationTone = {
   notice: "notice",
 }
 
-const BASIS_RECONSTITUTION_FACTOR = 7
+// 8:1 powder->prepared, the only government-legislated reconstitution ratio (China GB 2762 footnote
+// c) and the ratified Method v2.0 factor. Was 7 (an unsourced "1 g powder + 6 g water" assumption);
+// corrected 2026-08-06 so this staff tool agrees with the published standards (a ÷7 here produced
+// 714 where the standard publishes 630 for the India infant-foods tin read-across).
+const BASIS_RECONSTITUTION_FACTOR = 8
 
 function basisShortLabel(basis) {
   if (!basis) return ""

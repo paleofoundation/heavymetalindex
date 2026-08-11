@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Schett et al. 1998 — Enhanced hsp70 expression and HSF1 activation in rheumatoid arthritis synovial tissue
 
+## Overview
+
 Schett and colleagues (Division of Rheumatology, University of Vienna; Austrian Academy of Sciences Innsbruck) investigated the regulation of heat shock protein 70 (hsp70) expression and heat shock transcription factor 1 (HSF1) activation in rheumatoid arthritis (RA) synovial tissue. Whole-tissue extracts from RA, osteoarthritis (OA), and aseptic bone necrosis (AN) controls were analysed by Western blotting and gel mobility shift assay; cultured synovial fibroblast-like cells (SFC) were treated with proinflammatory cytokines (TNF-α, IL-1α, IL-6), antiinflammatory or immunosuppressive cytokines (IFN-γ, TGF-β), shear stress (20 dyn/cm² for 30 min), heat stress (42°C for 30 min), nonsteroidal antiinflammatory drugs (indomethacin, ibuprofen, meloxicam), glucocorticoids (dexamethasone), and immunosuppressants (methotrexate, cyclosporine A). The paper does not measure any heavy metal in any matrix; heavy metals appear only as one item in a background list of HSF1-activating stresses ("HSF1 has been shown to respond to stress factors such as elevated temperature, cytokines, heavy metal ions, and shear stress," PDF p. 302 col. 2). The wiki retains this source as mechanistic background on the hsp70 cellular stress-response pathway that overlaps with the heavy-metal-induced hsp70 response described elsewhere in the corpus; it carries no occurrence data, no exposure data, and no regulatory content for HMI's contamination-and-exposure taxonomy.
 
 ## Why this matters
@@ -167,12 +169,15 @@ The editorial decision is to report the scientifically correct units (µM and µ
 **Audit subagent (2026-06-08) verdict: REVISE → applied.** Five checks returned two ❌ on Check 1 (numerical fidelity — NSAID doses and dexamethasone range reported in µM/µg/ml where the PDF text layer prints mM/mg/ml) and ✅ on Checks 2/3/4/5 (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 HMTc firewall). Both ❌ findings were independently re-verified against the PDF and against the cited methodological literature, with the convergent conclusion that the PDF text layer carries a systematic µ→m character substitution (consistent with the parallel α→a, β→b, γ→g, °→8 substitutions in the same text layer and with the pharmacological impossibility of mM-range dosing for these compounds). Values retained as µM/µg/ml; editorial rationale documented in full in the preceding Verification notes paragraph "Unit-prefix transcription discipline". No numerical values changed in Key numbers or Methods; 0 findings rejected as wrong; both findings reframed as appropriate-correction-needs-documentation rather than wrong-value-needs-revert. Audit subagent ID aadc3fd0d190e1d8e.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [02e92e3](https://github.com/paleofoundation/heavymetalindex/commit/02e92e3) | 2026-06-08 | audit: schett1998-hsp70-hsf1-rheumatoid-synovial revised |
-| [2febc49](https://github.com/paleofoundation/heavymetalindex/commit/2febc49) | 2026-06-08 | ingest: schett1998-hsp70-hsf1-rheumatoid-synovial fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

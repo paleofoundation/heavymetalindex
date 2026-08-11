@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # CFS 2012 — Safety Issues of Baby Bottles and Children's Tableware (RAS Report No. 47)
 
+## Overview
+
 The Hong Kong Centre for Food Safety (CFS) review summarises the food-contact-material safety landscape for baby bottles, sippy cups, and children's tableware as of January 2012. The bulk of the document covers two organic migrants — bisphenol A (BPA) from polycarbonate (PC) baby bottles and formaldehyde from melamine-ware — and their regulatory status across the EU, US, mainland China, Australia, and Hong Kong. Heavy-metal relevance for HMI is concentrated in Annex II (Overview of Common Non-Plastics): the table identifies lead and cadmium as the migrants of concern from ceramic glazes and decorative paints, nickel and chromium (including chromium VI) as the components of concern from stainless steel tableware, and aluminium as the component of concern from aluminium drinking bottles. The body narrative additionally notes that migration of heavy metals from metal-ware increases when the article contacts highly acidic foods, and the public advice section recommends avoiding holding highly acidic foods in metal tableware for long periods. No original heavy-metal occurrence or migration data are reported; the document is a qualitative regulatory review with IARC classifications and pointers to the EU, US, and Chinese specific migration limits.
 
 ## Key numbers
@@ -108,15 +110,15 @@ No analytical measurements of heavy metals are reported. The single piece of ori
   - CHECK 4 ⚠️ — Annex III photographs (p. 56–57) include visually identifiable licensed-character merchandise. Verified against the PDF; the captions name only the material type, not the brand or character. No brand or character text crosses into the wiki and no contamination value is attached to any depicted item. Tightened the brand-firewall verification note above to acknowledge the licensed-character merchandise explicitly rather than asserting the photographs are unbranded.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

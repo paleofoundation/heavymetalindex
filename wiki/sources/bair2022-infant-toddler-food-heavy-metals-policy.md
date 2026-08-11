@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Bair 2022 — Heavy metals in infant and toddler foods, and US policy evaluation
 
+## Overview
+
 Bair's review synthesizes US-policy and US-evidence on toxic heavy metal contamination of infant and toddler foods, anchored in the 2021 US House Subcommittee on Economic and Consumer Policy investigation of seven baby food manufacturers. The paper covers four metals (iAs, Pb, tHg, Cd), the FDA Closer-to-Zero (CTZ) action-plan timeline, the Baby Food Safety Act (H.R. 2229) proposed action levels, the Clean Label Project private-standard tolerance limits, and existing federal/international thresholds (FDA, EPA, EC, WHO, Codex). The paper also describes the limited evidence base behind organic certification as a contamination-reduction strategy. The author is the sole contributor and is disclosed as an independent consultant for Else Nutrition, an infant-formula manufacturer; this is documented in the published Conflict of Interest section and is relevant context for citing the review in policy-adjacent work.
 
 ## Key numbers
@@ -121,15 +123,15 @@ Microbiome: Not addressed by the review.
 - Strict Part 12 recheck (Codex, 2026-05-17) removed a named COI manufacturer from source-page prose and removed old sampled-product examples from verification notes. The Congressional Subcommittee investigation remains aggregated as a public-record regulatory event.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # El-Hassanin et al. 2020 — Pb and Cd in Egyptian maize grain, agricultural soil, and irrigation water across freshwater and wastewater-contaminated sites
 
+## Overview
+
 This Egyptian field-survey study quantifies total and soluble Pb and Cd in irrigation water, total and DTPA-available Pb and Cd in agricultural soil (0–30 cm), and total Pb and Cd in mature maize (*Zea mays* L.) grain across nine cultivated sites in three governorates (Giza, Kafr El-Sheikh, El-Beheira), comparing five freshwater-irrigated sites (Nile River water or groundwater) with four sites irrigated with low-quality water (mixed sewage and industrial effluents, or sewage wastewater). Sampling occurred in August 2017; analysis was by ICP-OES (Agilent 5100 SVDV) after acid digestion (soil and water) or dry-ashing with HCl dissolution (grain). Pb and Cd levels in soil and maize grain at low-quality-water sites were 2.4–3.0-fold (soil) and 19–30-fold (grain) higher than at freshwater sites. All maize-grain Pb values at low-quality-water sites exceeded the FAO/WHO permissible limit of 0.20 mg/kg cited by the authors; Cd in maize exceeded the 0.1 mg/kg limit only at Al-Nasiria. Daily intake of metals (DIM) and health risk index (HRI) were computed using a 0.085 fresh-to-dry conversion factor with adult (70.0 kg, 0.345 kg maize/day) and child (32.7 kg, 0.232 kg maize/day) body weight and consumption assumptions, against EPA RfDs of 0.0035 (Pb) and 0.001 (Cd) mg/kg/day; all HRI values were below 1, leading the authors to conclude no potential health risk from maize consumption at the studied sites.
 
 ## Key numbers
@@ -178,15 +180,15 @@ Sample size is small (n = 27 per matrix; 9 sites × 3 replicates), but ICP-OES w
 - **Data integrity.** All 36 water cells (Table 2), 36 soil cells (Table 3), 56 maize Pb/risk cells (Table 4), and 56 maize Cd/risk cells (Table 5) transcribed from the source PDF and verified against the original rendered tables. Two paper-internal inconsistencies in the Cd-total column of Table 3 flagged above; no other transcription discrepancies identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

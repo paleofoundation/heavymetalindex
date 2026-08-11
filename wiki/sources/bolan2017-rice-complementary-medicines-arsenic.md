@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Bolan et al. 2017 - arsenic speciation and bioaccessibility in rice and complementary medicines
 
+## Overview
+
 Bolan and colleagues compared total arsenic, operational arsenic fractions, EXAFS species, and gastric-phase bioaccessibility in selected rice grains and complementary medicines. The rice samples were deliberately high-arsenic materials grown with arsenic-contaminated or arsenic-spiked irrigation water, so they are not a general-market rice baseline. The complementary-medicine set included herbal and ayurvedic medicines; the ayurvedic products had higher total and bioaccessible arsenic than the herbal products.
 
 ## Key numbers
@@ -91,3 +93,17 @@ This source should be treated as targeted arsenic exposure and bioaccessibility 
 - Speciation check: total arsenic is recorded as tAs. Inorganic arsenic is included because the source explicitly reports inorganic fractions dominating ayurvedic medicines and EXAFS-identified arsenic minerals; no numeric iAs concentration is inferred from the figures.
 - Brand firewall: the page does not reproduce manufacturer/brand names or attach values to product labels. Traditional formulation names are not tabulated as brand-ranked values; category-level herbal versus ayurvedic results are used for the occurrence summary.
 - Source-scope caution: rice samples were grown under arsenic-contaminated/spiked irrigation conditions and are not representative general-market rice samples.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

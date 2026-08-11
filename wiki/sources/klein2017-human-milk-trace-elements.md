@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Klein et al. 2017 — Trace elements in human milk across four populations
 
+## Overview
+
 Klein and colleagues measured five essential trace elements (Ca, Zn, Fe, Cu, Mn) and three toxic elements (Pb, As, Cd) in human milk from 70 lactating mothers across four populations: an urban US sample (Boston, n=20), rural Polish villagers from the Mogielica Human Ecology Study Site (n=23), indigenous Qom women of northeastern Argentina (n=21), and semi-nomadic Himba women of northern Namibia (n=6). Concentrations of all elements except zinc varied significantly across populations after controlling for infant age, infant sex, and maternal parity. Cadmium was below the limit of detection in every sample and was excluded from analysis. Mean lead concentrations were low compared with recently published values from other populations, but mean arsenic concentrations were 2 to 5-fold higher than recently reported Taiwanese and Swedish values. This is a small-sample, broadly geographic human-milk exposure paper; it is not an infant-formula, commercial dairy, or product source.
 
 ## Key numbers
@@ -79,15 +81,15 @@ The same DOI was fetched under both the Cd and the Pb human-milk gaps; this page
 Audit applied 2026-06-09 (autonomous fresh-context audit, REVISE verdict): added Table 2 per-population means/SDs/ranges for Pb and tAs; added Table 3 pairwise significance summary; documented Cd-below-LOD exclusion and added Cd to `metals` as a measured-below-LOD signal; added WHO Pb (2–5 µg/L) and EPA/WHO As (0.01 mg/L) regulatory anchors as the source itself reports them; added the Namibia otjize cosmetic-contamination caveat from the Discussion; expanded Methods with ICP-MS instrument (Perkin Elmer ELAN DRC II), digestion (Milestone Ultrawave + BDH Aristar Ultra nitric acid), lab (Harvard School of Public Health Trace Metals Lab), and statistical pipeline (R 3.3.0, Box-Cox / log transforms, Holm correction); dropped the non-existent `ingredients/human-milk` slug from `ingredients` and the "Wiki pages this source may touch" list; dropped `products: ["[[products/infant-food-general]]"]` because this is a human-milk exposure paper, not an infant-food paper; replaced the HMTc-flavored "Certification / Courses / App" implications stub with a literature-faithful summary; restored the arsenic half of the source's "lead but not arsenic was low" comparison.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c396e0393](https://github.com/paleofoundation/heavymetalindex/commit/c396e0393) | 2026-06-09 | major | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

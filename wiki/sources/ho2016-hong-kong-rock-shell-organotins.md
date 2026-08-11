@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ho 2016 - Organotins in Hong Kong rock shell
 
+## Overview
+
 Ho and colleagues measured six organotin compounds in the rock shell *Reishia clavigera* along Hong Kong coastal waters in 2010 and 2015, with supporting seawater and sediment measurements. This is wild gastropod biomonitoring evidence, not a Hong Kong market-seafood survey, but it reports shellfish-tissue organotin concentrations with dry-weight and wet-weight tin-equivalent ranges. The source keeps butyltins, phenyltins, and total organotins distinct and should not be treated as total elemental tin or inorganic tin.
 
 ## Key numbers
@@ -69,11 +71,15 @@ This source contributes Hong Kong shellfish-organotin context for wild gastropod
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [0e923e9b3](https://github.com/paleofoundation/heavymetalindex/commit/0e923e9b3) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

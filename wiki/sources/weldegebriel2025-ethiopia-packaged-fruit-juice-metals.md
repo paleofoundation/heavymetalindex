@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Weldegebriel et al. 2025 — Toxic metals (Cd, Cr, Pb, Ni) in 80 packaged fruit juices marketed to children in Gondar, Ethiopia
 
+## Overview
+
 This peer-reviewed *Scientific Reports* study (Sci Rep 15:36868, 2025) measured cadmium, chromium, lead, and nickel in 80 packaged fruit juice samples consumed by children in Gondar city, Northwest Ethiopia. Samples covered eight Ethiopian-manufactured brands across four juice types (mango, pineapple, strawberry, cocktail) and five packaging formats (tetra pack, glass, carton, plastic, canned). Health risk to children aged 3-14 years was assessed via target hazard quotient (THQ), hazard index (HI), and cancer risk (CR), parameterized from a separately-conducted consumption survey of n=422 Gondar children. Median pooled concentrations across all 80 samples were Cd 0.08 mg/L, Cr 0.004 mg/L, Pb 0.035 mg/L, Ni 0.078 mg/L (Table 5). Several samples exceeded international safety limits for Cd, Ni, and Pb, but all individual-metal THQ values and HI fell below 1, suggesting non-cancer effects are unlikely at the modeled intake (0.034 L/day, 20 kg body weight, 6-year exposure duration). Cancer risk for Cd and Ni exceeded the USEPA 1×10⁻⁶ acceptable threshold. Cr and Ni concentrations differed significantly by juice type (Kruskal-Wallis p=0.018 for Cr, p=0.001 for Ni; Cd p=0.055 is at the conventional threshold but does not meet p<0.05); the authors also report that juices in cans and glass containers carried higher metal loads than tetra pack or plastic containers. Method: 210VGP flame atomic absorption spectroscopy with HNO₃ wet acid digestion, triplicate measurements, certified reference material from an India-accredited laboratory, calibration r² 0.9983-0.9998 (Table 2; the PDF narrative text on p. 3 prints the range as 0.9983-0.9992, a paper-internal inconsistency).
 
 ## Key numbers
@@ -140,15 +142,15 @@ Statistics: data tabulated and managed in Microsoft Excel; transferred to SPSS f
 - Audit subagent (2026-05-20) flagged Check 1 ⚠️ (optional) that the calibration-r² narrative range in PDF p. 3 (0.9983-0.9992) disagrees with Table 2 (which prints values up to 0.9998). Verified; the wiki page Key numbers uses the Table 2 values (0.9998 for Pb). Added to the Limitations contradiction list as paper-internal inconsistency (6) and added a parenthetical note in the opening paragraph that flags both ranges. The page values themselves remain unchanged because Table 2 is the more granular and primary record.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

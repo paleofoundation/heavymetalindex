@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-non-soy-non-rice
 public_page: products/plant-milks-non-soy-non-rice
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Plant milks (almond, oat, coconut, other non-soy/non-rice)
@@ -44,9 +44,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- | --- | --- |
 | [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
 | [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
 | [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
 
 ## Operational reminders
 

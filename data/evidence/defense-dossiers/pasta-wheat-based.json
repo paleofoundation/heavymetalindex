@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-wheat-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "654024bf4f558733d38069a30d340508f13eb0463d6ee921f8cf06e19a637737",
-      "content_bytes": 14245,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "f0e9440fd6dfd45facd2e459b79f1a3a5f7862ae2aeaeb6f1807e697436f29d5",
+      "content_bytes": 15075,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/pasta-wheat-based.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/pasta-wheat-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 17,
+    "contributing_source_count": 18,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/charles2017-instant-noodles-nigeria-risk",
         "content_pin": {
-          "content_sha256": "8e3067a8501ca021155a24eee1195d7038c7e8c322f732eaf44712feec27e7a9",
-          "content_bytes": 5613,
-          "last_commit_sha": "3c2ea92",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "13a1e02fc361f96836eac4b261bc01b02f9a493d822cbeda44a403a8155e6e3b",
+          "content_bytes": 7123,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3c2ea92:wiki/sources/charles2017-instant-noodles-nigeria-risk.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/charles2017-instant-noodles-nigeria-risk.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/elziani2024-instant-noodles-libya-metals",
         "content_pin": {
-          "content_sha256": "d392b683b7cbedad533e88a62019e3d95b4ca428d67475cb73af184fb352869d",
-          "content_bytes": 4695,
-          "last_commit_sha": "3807a04",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ad2eafd334aa3b759571e277779926abd57ea1cd7b7dc810c6f31a96b1f876dd",
+          "content_bytes": 5533,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3807a04:wiki/sources/elziani2024-instant-noodles-libya-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/elziani2024-instant-noodles-libya-metals.md | sha256sum"
         }
       },
       {
@@ -109,12 +109,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "4518a85cd1a34e7c6c6bac437beaffd58fc55818effbf15fde0c731da7e0f0bf",
-          "content_bytes": 10803,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0f93d23b1e25b84f03ff8b0192fa604c6010f8eb65a365ef2b81e2d417612bc6",
+          "content_bytes": 11038,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -130,12 +130,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "0417709aa917d4becfe732be3790c58ab85bda0631900b8288396b0f16b709f0",
-          "content_bytes": 18678,
-          "last_commit_sha": "1be66b2",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "de28e7ed3995a0db38db7e69203c9fc2943d7f700bb3b27e02f8496566972976",
+          "content_bytes": 18981,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1be66b2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iyabo2015-ekiti-staple-foods-metals",
         "content_pin": {
-          "content_sha256": "53e28ea4d7e86385b56b48510863726af5aad72e4e329f8ff26a2925affd512c",
-          "content_bytes": 6879,
-          "last_commit_sha": "eb75b21",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7242c5a73debbc5c098f05db31b0c1c0529c5fa3e74d7d98442276b2d822e12d",
+          "content_bytes": 10022,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show eb75b21:wiki/sources/iyabo2015-ekiti-staple-foods-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/iyabo2015-ekiti-staple-foods-metals.md | sha256sum"
         }
       },
       {
@@ -172,17 +172,16 @@
           "Pb",
           "Cd",
           "tAs",
-          "iAs",
           "tHg"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jakkielska2023-noodles-toxic-metals",
         "content_pin": {
-          "content_sha256": "543b3fdfa75012e3e60d47bfae6e66fa07c5708acff39570145be13266a0cc3c",
-          "content_bytes": 5727,
-          "last_commit_sha": "ba7f1e7",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "de3c8dfa075c9eb91e287489e48b4af3b855c0377f81f24ba4ae46b937d6a852",
+          "content_bytes": 7361,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ba7f1e7:wiki/sources/jakkielska2023-noodles-toxic-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/jakkielska2023-noodles-toxic-metals.md | sha256sum"
         }
       },
       {
@@ -199,12 +198,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
         "content_pin": {
-          "content_sha256": "1fab39320603e89ecae2b8619ee212c4b2443b41cc52451f141c188d6aba5e65",
-          "content_bytes": 5195,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4a3a1805502cec3ad5ead21174db62045854d671c520245c4fde1f80c0096e39",
+          "content_bytes": 5841,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
         }
       },
       {
@@ -219,12 +218,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kongta2023-noodle-products-aluminum-thailand",
         "content_pin": {
-          "content_sha256": "fbf09730f6834582d2ed7427485588f84685843500e9c24f75296e3137043e06",
-          "content_bytes": 5407,
-          "last_commit_sha": "9256725",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cb0cbcd2182c5409b30595eeec976f7ed2e9aae5e372865c671492695ffa5b46",
+          "content_bytes": 6241,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9256725:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
         }
       },
       {
@@ -239,12 +238,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
         "content_pin": {
-          "content_sha256": "240a875947c276bf05b9d9b5f39523499101212ef5e5e6cf71b8041275687985",
-          "content_bytes": 7194,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "348602ee07ce1446350e3d9a6f74581230a15529e79dd8048d5c4c104bacaa2c",
+          "content_bytes": 7429,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
         }
       },
       {
@@ -262,12 +261,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
         "content_pin": {
-          "content_sha256": "8080a1824e02c590594f2746d3ec13c01b42544c105c31c4735483e7c693055a",
-          "content_bytes": 34476,
-          "last_commit_sha": "3ce252a",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fa73532253a1f2eed8d60667077fe11242223cb703172e9d74d151edaad0250b",
+          "content_bytes": 35217,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3ce252a:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
         }
       },
       {
@@ -284,12 +283,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2021-salah-al-din-noodles-metals",
         "content_pin": {
-          "content_sha256": "44c59222426dff93243919154aadbe4147ff43dcc20ab1018337dfe38aad5b58",
-          "content_bytes": 3507,
-          "last_commit_sha": "c216f24",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "924b986d2c607d52c5a3b52becd072e9fe9046fbaf69fad2e241d7580210731f",
+          "content_bytes": 5657,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c216f24:wiki/sources/mohammed2021-salah-al-din-noodles-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/mohammed2021-salah-al-din-noodles-metals.md | sha256sum"
         }
       },
       {
@@ -308,12 +307,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/otitoju2018-noodle-products-nigeria-metals",
         "content_pin": {
-          "content_sha256": "1486ff5aea4e78e4187c0734e4dd3610f873f75d298f9a8e581ccbe92f3ee3ba",
-          "content_bytes": 5302,
-          "last_commit_sha": "3488ede",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c97c63aac1e1c779f984bc5d76b607f78136a95971db260623d841143ee1bd2",
+          "content_bytes": 6138,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3488ede:wiki/sources/otitoju2018-noodle-products-nigeria-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/otitoju2018-noodle-products-nigeria-metals.md | sha256sum"
         }
       },
       {
@@ -331,12 +330,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/safwan2023-instant-soup-chicken-stock-jordan",
         "content_pin": {
-          "content_sha256": "cee0567aefc0df85b757fc98193c93032b9458528c2ae1692ee09c06b1e2066d",
-          "content_bytes": 5643,
-          "last_commit_sha": "db6f012",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e2dcb5b046096d9c06a58750f16c2613fea44eadcd6bbaeadc87678c5008202e",
+          "content_bytes": 6477,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show db6f012:wiki/sources/safwan2023-instant-soup-chicken-stock-jordan.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/safwan2023-instant-soup-chicken-stock-jordan.md | sha256sum"
         }
       },
       {
@@ -354,12 +353,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "5b15cdc6a6025f5ff11359e3797289ba18e357b65b8bffb33e95ad1504eed702",
-          "content_bytes": 14167,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b6752cb8fb9906144bf03a153b22e4fd619c200ec4a40dbcf633710a0081f88a",
+          "content_bytes": 14371,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -376,12 +375,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shamsani2019-instant-noodles-heavy-metals-malaysia",
         "content_pin": {
-          "content_sha256": "db272d8614284c59f3cc68b9e6df7dd669b40f325b2cb30ac0325fa18a762f61",
-          "content_bytes": 12240,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f1160371df953e06b8b4e7872e744ddcdbf1f40694cde2812229a36456eebaae",
+          "content_bytes": 12356,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/shamsani2019-instant-noodles-heavy-metals-malaysia.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/shamsani2019-instant-noodles-heavy-metals-malaysia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stahl2017-aluminum-food-contact-part1",
+        "title": "Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
+        "content_pin": {
+          "content_sha256": "cf870c3769ac695957da5ff27d2d3f32f574253bc4efc8c694f0f6e438ecc336",
+          "content_bytes": 8152,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -399,12 +418,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tajdar-oranj2018-iran-instant-noodles-metals",
         "content_pin": {
-          "content_sha256": "6af316a20bd585dd1efe325f09ee80b9e75da3526d6b4d0fe4d26fa51ced4dc2",
-          "content_bytes": 28099,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0c58128abe034f7334a3a10d5a1180346da51f537ddcc5dc08553a541a8d6a70",
+          "content_bytes": 28329,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tajdar-oranj2018-iran-instant-noodles-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/tajdar-oranj2018-iran-instant-noodles-metals.md | sha256sum"
         }
       },
       {
@@ -422,12 +441,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "2cfc4769003d463626f0b0bd80a0d9bb5327f492e54d61541af97ffc1f6f6b17",
-          "content_bytes": 6251,
-          "last_commit_sha": "0642913",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0291262f43cc2f5e3339e897538f4857524a94593684f7b6593323017f9306d5",
+          "content_bytes": 7911,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0642913:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
         }
       }
     ]

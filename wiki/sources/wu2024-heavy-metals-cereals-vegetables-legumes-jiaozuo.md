@@ -6,9 +6,9 @@ title: "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes 
 authors: [Wu Z]
 year: 2024
 publication: "International Journal of Natural Resources and Environmental Studies, 2(1): 180-200"
-doi: "10.62051/ijnres.v2n1.21"
+doi: "10.62051/10.62051/ijnres.v2n1.21"
 no_doi_assigned: false
-access_url: "https://doi.org/10.62051/ijnres.v2n1.21"
+access_url: "https://wepub.org/index.php/IJNRES/article/view/1230"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC 4.0"
@@ -29,6 +29,8 @@ updated: 2026-05-31
 ---
 
 # Wu 2024 — Heavy metals and arsenic in cereals, vegetables, and legumes from Jiaozuo, China, with consumer health-risk assessment
+
+## Overview
 
 This single-author Henan Polytechnic University study measured eight elements (Pb, Cd, total As, total Hg, Cr, Ni, Cu, Zn) in 244 commercially available cereal, legume, and vegetable samples purchased in 2024 from Jiaozuo City markets (Henan Province, central China) and applied the USEPA target hazard quotient (THQ) and target carcinogenic risk (TCR) framework to estimate non-carcinogenic and carcinogenic risks for adult and child consumers. Pollution-index analysis ranked food categories legumes > cereals > leafy greens > kale > solanaceous fruits > edible mushrooms > tubers, with Hg in rice (mean 0.124 mg/kg; 44.16% of cereal samples exceeding the GB 2762-2022 Hg limit) and Ni in peanuts (75.47% exceedance) as the dominant single-element exceedances. Children's TTHQ for the combined cereal-legume-vegetable diet reached 4.619 (adults 2.518), with rice (TTHQ 5.481, children) and peanuts (TTHQ 2.035, children) contributing most. Cumulative carcinogenic risk remained within the USEPA acceptable range (children 8.92×10⁻⁶; adults 2.65×10⁻⁶). The study uses single-laboratory sampling, single-composite measurement per product without disclosed analytical replicate counts, fresh-weight basis, and the GB 2762-2022 (China) regulatory baseline.
 
@@ -206,22 +208,22 @@ Brand firewall (Part 12) not engaged — no commercial brand names appear in the
 
 Speciation flags: Hg reported as tHg per DMA-80 direct mercury analyser convention (no methyl/inorganic separation); As reported as tAs per ICP-MS without hydride generation or column separation. The metals array includes both `tAs` and `tHg` to preserve speciation discipline; `iAs` and `MeHg` are not asserted because the paper does not measure them.
 
-Frontmatter scope kept broad per CLAUDE.md Part 5b: products include the broad parent slugs (leafy-vegetables-other, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, rice-bulk-grain, flour-non-rice, other-grain-products, soy-products, peanuts, spinach) rather than narrow per-vegetable slugs. Ingredients include the highest-level umbrella slugs (cereals, legumes, vegetables, leafy-greens, root-vegetables) alongside the specific ingredient-level slugs (rice, wheat, maize, soy, peanuts, spinach, cabbage, lettuce, mushrooms, tomato, cucumber, carrot, potatoes, broccoli, cauliflower, yam) that the paper measures distinctly. Ingredients not added to the array because no canonical slug exists in taxonomy-snapshot.md as of 2026-05-31: mung-bean (subsumed under legumes), Chinese chives, pak choi, romaine lettuce (subsumed under lettuce/leafy-greens), needle mushroom, oyster mushroom (subsumed under mushrooms; the taxonomy has wild-mushrooms but no oyster-mushroom slug), eggplant, pepper (ambiguous between black-pepper and green-bell-pepper slugs in the snapshot; left out rather than guessed), daikon, Chinese yam (subsumed under yam). Matrix `edible-mushroom` and `solanaceous-fruit` are descriptive matrix tags used alongside the canonical `cereal-grain`, `leafy-vegetable`, `root-vegetable`, and `legume` tags from the common-matrices list.
+Frontmatter scope kept broad: products include the broad parent slugs (leafy-vegetables-other, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, rice-bulk-grain, flour-non-rice, other-grain-products, soy-products, peanuts, spinach) rather than narrow per-vegetable slugs. Ingredients include the highest-level umbrella slugs (cereals, legumes, vegetables, leafy-greens, root-vegetables) alongside the specific ingredient-level slugs (rice, wheat, maize, soy, peanuts, spinach, cabbage, lettuce, mushrooms, tomato, cucumber, carrot, potatoes, broccoli, cauliflower, yam) that the paper measures distinctly. Ingredients not added to the array because no canonical slug exists in taxonomy-snapshot.md as of 2026-05-31: mung-bean (subsumed under legumes), Chinese chives, pak choi, romaine lettuce (subsumed under lettuce/leafy-greens), needle mushroom, oyster mushroom (subsumed under mushrooms; the taxonomy has wild-mushrooms but no oyster-mushroom slug), eggplant, pepper (ambiguous between black-pepper and green-bell-pepper slugs in the snapshot; left out rather than guessed), daikon, Chinese yam (subsumed under yam). Matrix `edible-mushroom` and `solanaceous-fruit` are descriptive matrix tags used alongside the canonical `cereal-grain`, `leafy-vegetable`, `root-vegetable`, and `legume` tags from the common-matrices list.
 
 Audit subagent 2026-05-31 returned REVISE with multiple Check 1 numerical-fidelity findings and one Check 2 slug finding. Applied corrections: (1) rewrote the rice Hg back-calculation — the correct THQ-implied rice Hg is ≈0.345 mg/kg, not the 0.124 mg/kg originally written (0.124 is the cereals overall Pb mean, conflated in the original draft); (2) corrected vegetable Pb maximum from 0.380 to 0.430 mg/kg per body page 186; (3) clarified that Table 7 prints the legume Hg cell as "0.15–24.22 × 10⁻³" mg/kg and that the 0.500–20.100 range appears only in body page 186 and is the misprint, not Table 7; replaced the invented "Hg mean 0.086 ± 0.0113" string with body-page-188 mean 0.012 mg/kg; (4) added paper-internal flag #3 — body-vs-Table Cu disagreement (9.297 vs 7.297 mg/kg); (5) added paper-internal flag #4 — vegetable Pb max 0.430 mg/kg exceeds the leafy/Brassica limit yet the conclusion calls vegetable Pb "below the corresponding standard limits"; (6) added paper-internal flag #6 — rice Hg back-calculation derivation. Rewrote audit's mistargeted TCR flag: the actual source typo is leafy-greens 6.80×10⁻⁶ → 6.80×10⁻⁷; mushrooms 1.98×10⁻⁶ is correct (verified by averaging Table 11 row values). Sharpened the legume Nemerow paragraph to drop the conflated "legumes 1.114" (1.114 is mung-bean per Figure 2(a)).
 
 Pushed back on audit's Check 2 finding that `mushrooms` ingredient slug is invalid: the taxonomy-snapshot.md `generated: 2026-05-18` is stale; `wiki/ingredients/mushrooms.md` exists on disk (verified `ls wiki/ingredients/ | grep mushroom`). The slug is valid; the snapshot needs regeneration. No frontmatter change.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

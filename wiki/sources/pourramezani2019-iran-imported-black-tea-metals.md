@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Pourramezani et al. 2019 — Heavy metals in imported black tea sold in Hormozgan, Iran
 
+## Overview
+
 Pourramezani and colleagues measured lead, cadmium, copper, total arsenic, and total mercury in 122 commercial black tea leaf samples imported into Hormozgan Province, Iran, from India and Sri Lanka, and computed Hazard Quotient (HQ) and Hazard Index (HI) values against an assumed adult consumption rate of 6 g tea per day and 65 kg body weight. All per-metal means fell below the WHO and Iran national standard limits that the authors cite, and the per-metal HQ and overall HI values were all below 1 for both origins, leading the authors to conclude that the studied teas posed no significant noncarcinogenic health hazard to Iranian consumers. The arsenic and mercury determinations are total values (HGAAS and CV-AAS respectively); no inorganic/organic speciation was performed, which is a non-trivial limitation given that the toxicological floor for tea is set by inorganic arsenic and methylmercury rather than the total fractions reported here.
 
 ## Key numbers
@@ -147,11 +149,15 @@ Arsenic and mercury speciation: HGAAS and CV-AAS measure total fractions only. T
 Copper left-censoring: the reported Cu LOD of 0.033 mg/kg equals the reported Cu minimum for both Indian and Sri Lankan tea samples (Table 2). At least one sample in each origin sat at the detection floor. The paper does not disclose the number of left-censored Cu samples or the censoring substitution rule used in the mean (LOD, LOD/2, or zero). The per-origin Cu means are reported here as printed in Table 2 without adjustment.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6a6ebd3](https://github.com/paleofoundation/heavymetalindex/commit/6a6ebd3) | 2026-06-08 | ingest: pourramezani2019-iran-imported-black-tea-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

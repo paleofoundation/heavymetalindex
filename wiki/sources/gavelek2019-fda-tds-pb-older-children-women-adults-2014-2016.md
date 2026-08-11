@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Gavelek, Spungen, Hoffman-Pennesi, Flannery, Dolan, Dennis, Fitzpatrick 2019 — Lead exposures in older children, women of childbearing age, and adults: FDA TDS 2014-16
 
+## Overview
+
 This Food Additives & Contaminants: Part A paper from a 7-author FDA team extends the [[sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016|Spungen 2019]] FDA Total Diet Study 2014-2016 child Pb exposure analysis to older children (7-17 years), women of childbearing age (16-49 years), and adults (18+ years). Together with Spungen 2019 for the 6-month to 6-year age groups, this paper provides the complete age-stratified U.S. dietary Pb exposure picture from the FDA's most recent TDS sampling window. The two papers are the FDA's empirical evidence base for the FDA Closer-to-Zero Pb-in-food work and for the FDA Interim Reference Levels for dietary Pb published in [[sources/flannery2020-fda-interim-reference-levels-lead|Flannery et al. 2020]].
 
 ## Key conclusions
@@ -42,15 +44,15 @@ Per-age-group estimated daily Pb intake from the FDA TDS 2014-2016 is reported w
 - [[regulations/fda2025-lead-processed-baby-foods]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

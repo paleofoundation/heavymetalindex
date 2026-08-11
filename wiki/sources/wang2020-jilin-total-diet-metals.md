@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang et al. 2020 - Jilin total diet study metals
 
+## Overview
+
 Wang and colleagues measured lead, total arsenic, cadmium, and aluminum in Jilin Province total-diet-study food groups. The study compares Songhua River Basin and other-area composites and uses consumption data from 7700 residents to estimate dietary exposure. Arsenic occurrence values are total arsenic; the risk assessment conservatively evaluates total As as if it were inorganic As.
 
 ## Key numbers
@@ -93,11 +95,15 @@ This source contributes China/Jilin total-diet occurrence and exposure context f
 - Audit revision 2026-06-09: added `[[products/fish-freshwater]]` (carp) and `[[products/fish-marine-non-predatory]]` (cod) for more precise routing of the two named aquatic-products species. Added second-highest contribution percentages for As, Cd, and Al for parity with Pb. Flagged the internal §3.4-vs-Discussion inconsistency on the Al cereal contribution rate (70.22% vs 77.22%); Table 6 arithmetic confirms 70.22% (= 225.282 / 320.802) is correct.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0642913](https://github.com/paleofoundation/heavymetalindex/commit/0642913) | 2026-06-08 | ingest: wang2020-jilin-total-diet-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

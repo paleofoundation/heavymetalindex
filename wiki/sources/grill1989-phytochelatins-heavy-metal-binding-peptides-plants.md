@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Grill et al. 1989 — Phytochelatin synthase characterised from Silene cucubalus
 
+## Overview
+
 Grill and colleagues at Universität München (Lehrstuhl für Pharmazeutische Biologie and Genzentrum) report the isolation and biochemical characterisation of phytochelatin synthase from cell suspension cultures of the campion *Silene cucubalus*, the enzyme responsible for assembling the heavy-metal-binding peptides known as phytochelatins ([Glu(-Cys)]n-Gly oligomers, n = 2 to 11) from glutathione in higher plants. The enzyme is a gamma-glutamylcysteine dipeptidyl transpeptidase that polymerises gamma-Glu-Cys units onto a glutathione or phytochelatin acceptor, requires divalent or monovalent heavy-metal cations for activity (Cd2+ is the most effective activator, followed by Ag+, Bi3+, Pb2+, Zn2+, Cu2+, Hg2+, and Au+), and exhibits self-regulating product inhibition because the synthesised phytochelatin chelates the activating metal and removes it from the enzyme. The paper is the foundational primary citation for phytochelatin biosynthesis in the plant heavy-metal-detoxification literature; in the wiki its role is mechanistic background for `metals/cadmium` and any future page on plant-based mitigation or remediation of cadmium exposure, not occurrence data for food or supply-chain pages.
 
 ## Why this matters
@@ -58,10 +60,10 @@ The fact that MBB-GSH (a thiol-blocked glutathione derivative) has a lower Km th
 Incubation of the purified enzyme with [Glu(-Cys)]n-Gly oligomers (n = 2 to 4 or 5) plus glutathione consistently produced the next higher homologue (n+1) by HPLC analysis with sulfhydryl-specific detection. This established that the enzyme is a phytochelatin-chain-elongating dipeptidyl transpeptidase that acts on phytochelatins of various chain lengths by adding one gamma-Glu-Cys unit and concomitantly liberating one glycine residue. The reaction is summarised as:
 
 ```
-[Glu(-Cys)]n-Gly + [Glu(-Cys)]n-Gly  →  [Glu(-Cys)]n+1-Gly + [Glu(-Cys)]n-1-Gly
+[Glu(-Cys)]n-Gly + [Glu(-Cys)]n-Gly → [Glu(-Cys)]n+1-Gly + [Glu(-Cys)]n-1-Gly
 ```
 
-where n = 1, 2, 3, ... The reaction therefore proceeds by stepwise dipeptidyl transfer rather than en-bloc transfer of an extended peptide block.
+where n = 1, 2, 3,... The reaction therefore proceeds by stepwise dipeptidyl transfer rather than en-bloc transfer of an extended peptide block.
 
 ### Metal specificity (Results, Metal Specificity; Table 1)
 
@@ -149,15 +151,18 @@ The paper is a primary biochemistry study; its scope is the enzyme and its subst
 
 **Reviewer's note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The "Black Market Peptide Metal Survey" folder context is Karen's collection of peptide-metal-binding literature; this is the foundational enzymology paper on plant phytochelatin biosynthesis, which sits squarely inside that frame. It does not address contamination of peptide products or any food/supply-chain occurrence question, and that mismatch is documented above under Implications.
 
-**Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. Two ⚠️ informational findings were verified and applied: (1) the original draft characterised the enzyme purification as a "seven-step procedure" but the PDF (p. 6839) explicitly lists Sephadex G-25 (PD-10) desalting followed by a final Mono Q polish chromatography after the Zn-chelating Sepharose step; the wording has been revised to "multi-column procedure" and the Sephadex G-25 and Mono Q steps have been added to the column sequence. (2) The auditor flagged that `[[mitigation/remediation-evidence]]` is outside the four-category taxonomy snapshot (ingredients / products / metals / regulations) used by the audit-prompt checks; this is a known limitation of the snapshot, and `mitigation/` is a sanctioned wiki area per the 2026-06-02 commit `3f47f95` and CLAUDE.md Part 24. The wikilink is retained. No content corrections beyond the purification-sequence refinement were applied. Numerical fidelity checks on author names (Löffler with correct umlaut), Mr values, kinetic constants (Km glutathione 6.7 mM, Km MBB-GSH 1.5 mM, kcat minimum 0.2 s^-1), Table 1 activations (Cd 100, Ag 58, Bi 56, Pb 43, Zn 33, Cu 27, Hg 26, Au 12; concentrations 0.1/0.1/0.5/0.1/0.1/0.01/0.1/0.1 mM), Table 2 species/family/age/activity (Silene cucubalus 7d/637, Podophyllum peltatum 4d/365, Eschscholtzia californica 6d/145, Beta vulgaris 5d/100, Equisetum giganteum 10d/34 pkat/L), half-lives (6h/34h/140h at 35/22/4 °C), temperature half-max points (20°C and 47°C), NaN3 storage concentration (0.01 %), and 2:1 dipeptide:Cd stoichiometry all matched the PDF without correction.
+**Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. Two ⚠️ informational findings were verified and applied: (1) the original draft characterised the enzyme purification as a "seven-step procedure" but the PDF (p. 6839) explicitly lists Sephadex G-25 (PD-10) desalting followed by a final Mono Q polish chromatography after the Zn-chelating Sepharose step; the wording has been revised to "multi-column procedure" and the Sephadex G-25 and Mono Q steps have been added to the column sequence. (2) The auditor flagged that `[[mitigation/remediation-evidence]]` is outside the four-category taxonomy snapshot (ingredients / products / metals / regulations) used by the audit-prompt checks; this is a known limitation of the snapshot, and `mitigation/` is a sanctioned wiki area per the 2026-06-02 commit `3f47f95` and. The wikilink is retained. No content corrections beyond the purification-sequence refinement were applied. Numerical fidelity checks on author names (Löffler with correct umlaut), Mr values, kinetic constants (Km glutathione 6.7 mM, Km MBB-GSH 1.5 mM, kcat minimum 0.2 s^-1), Table 1 activations (Cd 100, Ag 58, Bi 56, Pb 43, Zn 33, Cu 27, Hg 26, Au 12; concentrations 0.1/0.1/0.5/0.1/0.1/0.01/0.1/0.1 mM), Table 2 species/family/age/activity (Silene cucubalus 7d/637, Podophyllum peltatum 4d/365, Eschscholtzia californica 6d/145, Beta vulgaris 5d/100, Equisetum giganteum 10d/34 pkat/L), half-lives (6h/34h/140h at 35/22/4 °C), temperature half-max points (20°C and 47°C), NaN3 storage concentration (0.01 %), and 2:1 dipeptide:Cd stoichiometry all matched the PDF without correction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [2687dcf](https://github.com/paleofoundation/heavymetalindex/commit/2687dcf) | 2026-06-08 | audit: grill1989-phytochelatins-heavy-metal-binding-peptides-plants revised |
-| [d3d6cc0](https://github.com/paleofoundation/heavymetalindex/commit/d3d6cc0) | 2026-06-08 | ingest: grill1989-phytochelatins-heavy-metal-binding-peptides-plants fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

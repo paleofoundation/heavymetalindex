@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-plastic-tubs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f6a2602302c973e1f05acaafbdfd61075c159752bda9e2e9491beb3d797578f0",
-      "content_bytes": 8479,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "af7064943513251c3a85936115a05f692a955efc478e104ee666ab7820c66e55",
+      "content_bytes": 9664,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,45 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bergerritchie2013-hot-sauce-lead",
         "content_pin": {
-          "content_sha256": "4ca891d8d4c17f365676372ccee07f0951b97dc27c6412d55990db9b89030be8",
-          "content_bytes": 24538,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e9cdb1528871c4df49eab1da129fbe6aa70d79e7842286d724cf1ecdc279c627",
+          "content_bytes": 24759,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2019-plastic-packaging-metal-migration",
+        "title": "Evaluation of heavy metal migration from plastic food packaging materials to aqueous simulants by ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Li",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Sb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2019-plastic-packaging-metal-migration",
+        "content_pin": {
+          "content_sha256": "4edac5b76375b9c1a7a3e778738e0d7305d8ae4431ea42385ff00d0e3361cb69",
+          "content_bytes": 8341,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
         }
       },
       {
@@ -77,12 +110,45 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "c86013e2348f872d54033c147accde35b6be373e8ed66e82790634a6c6e6e5d3",
-          "content_bytes": 21471,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9ebbb5e101de181401d10aa0f090fe5a94a628d24452bdf2b2edee31a3ad6873",
+          "content_bytes": 22137,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zeng2023-disposable-food-containers-metals",
+        "title": "Heavy metal risk of disposable food containers on human health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Be",
+          "V",
+          "Ni",
+          "Zn",
+          "Mn",
+          "Cd",
+          "Cr",
+          "Co",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Fe",
+          "Cu",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
+        "content_pin": {
+          "content_sha256": "065bdf342294ed61f73b59531b8936bf21a50a0b92cd6f17286ef892422b7751",
+          "content_bytes": 7948,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

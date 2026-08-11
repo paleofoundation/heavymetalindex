@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Campaign for Safe Cosmetics 2007 - lead in 33 red lipsticks
 
+## Overview
+
 The Campaign for Safe Cosmetics commissioned Bodycote Testing Group to measure lead in 33 unopened red lipsticks purchased from U.S. retail stores in four cities in August 2007. The report found detectable lead in `61 percent` of tested lipsticks, with source-reported concentrations ranging from `0.03` to `0.65 parts per million (ppm)`, while 13 lipsticks were below the `0.02 ppm` laboratory detection limit. The report is a nonprofit advocacy publication with an independent ISO 17025 laboratory, a small convenience sample, incomplete dissolution in some samples, and an average spike recovery of `53 percent`; use it as B-tier occurrence/context evidence rather than as a representative U.S. market distribution.
 
 ## Key numbers
@@ -70,3 +72,17 @@ App: If the app later includes adult leave-on cosmetics, this source can support
 - Brand firewall: Appendix A names brands, shade names, parent companies, states, dates, and Pb values. This page intentionally reports only category-level counts, ranges, and de-identified value lists; no brand or shade name is attached to a contamination value.
 - Evidence tier: `B` because this is a nonprofit-commissioned third-party laboratory screen using an ISO 17025-accredited lab, but it is not peer-reviewed and the sample is a small convenience set. The source's own methods caveats are material: some samples did not completely dissolve and spike recovery averaged `53 percent`, so the reported values should be treated as lower-confidence occurrence evidence.
 - Routing note: `products/lipstick` exists in the closed taxonomy snapshot but the current wiki page is retired pending a future adult Cat 13 lip-cosmetics row. The exact source matrix is adult lipstick; this page keeps the closed-vocabulary `lipstick` product slug and records the Cat 13 gap here so a later taxonomy pass can reroute it if a non-retired adult lip-cosmetics page is added.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

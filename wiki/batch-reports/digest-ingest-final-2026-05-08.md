@@ -14,6 +14,8 @@ noindex: true
 
 # Digest Ingest Final Report — 2026-05-08
 
+## Overview
+
 This report covers the autonomous-session Digest ingest run from this evening, complementing the parallel agent's [[batch-reports/infant-and-child-overnight-2026-05-08|Phase 6 Infant and Child Foods overnight final report]]. The two reports together cover the full overnight work product: this report covers the Digest folder ingest end-to-end; the parallel report covers the IandC subcategory rebuild work under the Part 19 framework.
 
 ## Source pages created from raw/Digest/

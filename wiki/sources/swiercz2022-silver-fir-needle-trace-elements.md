@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Swiercz et al. 2022 - Silver fir needles as trace-element bioindicators
 
+## Overview
+
 Swiercz and colleagues repeated a 1986 silver-fir biomonitoring design in Swietokrzyski National Park in 2018 to compare trace elements and nutrient supply in fir needles after a multi-decade decline in regional industrial emissions. This is primary environmental biomonitoring evidence, not product or ingredient occurrence evidence. The routeable facts are the fir-needle and forest-soil concentrations for Cd, Cu, Ni, Pb, Zn, Mn, and related elements, plus the air/rainwater deposition context used to interpret the 1986-to-2018 change.
 
 ## Key numbers
@@ -98,15 +100,15 @@ Courses: Useful for explaining environmental bioindicators, historical-method co
 The main source values are contained within the article. Table 3 gives extractable soil concentrations; Figures 2-5 show full needle concentration distributions, but the PDF text extraction exposes only the narrative maxima and trends, so this page does not estimate individual bar heights from the figures. The conclusion/abstract wording says Cd, Cu, Mn, and Zn in three-year-old needles showed a "significant increase" as an indicator, while the Results text states those same elements in three-year-old needles decreased from 1986 to 2018; this page records the explicit Results trend and flags the wording tension rather than deriving a new percent change.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [3b7f1d3](https://github.com/paleofoundation/heavymetalindex/commit/3b7f1d3) | 2026-06-02 | ingest June 2: swiercz2022-silver-fir-needle-trace-elements |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

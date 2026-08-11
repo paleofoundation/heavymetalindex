@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Sharafati Chaleshtori, Rafieian Kopaei & Sharafati Chaleshtori 2016 — Systematic review of Cd, As, Pb, Cr, Co, Ni, and Hg in Iranian rice (2005-2016)
 
+## Overview
+
 This review article aggregates 28 prior studies (25 full-text plus 3 abstracts) published 2005-2016 on heavy metal contamination of rice (Oryza sativa) cultivated in or imported into Iran, drawn from Iranian and international databases (Magiran, Iran Medex, Irandoc, SID, Google Scholar, Scopus, ISI Web of Knowledge, Cochrane CDSR, PubMed). The authors tabulate province-level means and ranges for cadmium, arsenic, lead, chromium, cobalt, nickel, and mercury reported across the assembled corpus (Table 1) and compute a single Iran-wide estimated weekly intake (EWI) per metal for a 60 kg adult under a 165 g/day average per-capita rice consumption assumption (Table 2). The headline finding: averaged across the assembled corpus, weekly intakes of Cd, As, Pb, Cr, Co, and Ni from rice fall below their respective WHO/FAO provisional tolerable weekly intake ceilings, but the average weekly intake of mercury (9.68 µg/kg body weight per week) exceeds the 4 µg/kg bw/week PTWI by approximately 2.4×. The review also reports that in 14 of 23 Cd-reporting studies and 16 of 22 Pb-reporting studies, province-level mean concentrations exceeded the Iranian national standards (ISIRI 12968: 0.06 µg/g Cd, 0.15 µg/g Pb, 0.15 µg/g As).
 
 ## Key numbers
@@ -161,15 +163,15 @@ This source is a systematic literature review that aggregates province-level Ira
 - **Downstream pooling caveat.** Because this is a review aggregating prior values rather than a primary measurement source, the Part 9 synthesis workflow should treat per-study values surfaced by Table 1 as pointers to the constituent paper (the cited study should be ingested individually for authoritative per-study figures), not as independent quantitative observations. The review's value to the wiki is as (a) a corpus pointer for Iranian rice heavy-metals literature 2005-2016, (b) an Iran-wide PTWI-exceedance flag for Hg from rice, and (c) a consolidated Iranian-standard reference table for rice.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

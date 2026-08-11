@@ -17,18 +17,68 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-bulk-grain",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "24e1bbdf437e16541a2712771e6f8d75c57da117da7bedece44de49319f2406e",
-      "content_bytes": 33390,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "b1c52cb8d2fc91108dfe35f02c030dc7e951f01d998fce7f23efdd63ccaf7446",
+      "content_bytes": 39036,
+      "last_commit_sha": "aa06ad499",
+      "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/rice-bulk-grain.md | sha256sum"
+      "verify_command": "git show aa06ad499:wiki/products/rice-bulk-grain.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 66,
+    "contributing_source_count": 78,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia",
+        "title": "Chemical analysis of toxic elements: total cadmium, lead, mercury, arsenic and inorganic arsenic in local and imported rice consumed in the Kingdom of Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia",
+        "content_pin": {
+          "content_sha256": "e6dfc2977daa197a3b1371ae1dae65351e92e4e738a8c2c6b28f12f876709b92",
+          "content_bytes": 5824,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/anses2026-tds3-metals-france",
+        "title": "Opinion of the French Agency for Food, Environmental and Occupational Health & Safety on the results of the Third French Total Diet Study (TDS3) - Acrylamide, aluminium, silver, cadmium, mercury and lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ag",
+          "Cd",
+          "Pb",
+          "tHg",
+          "iHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/anses2026-tds3-metals-france",
+        "content_pin": {
+          "content_sha256": "6ae08083df88e5040719c4e537f913db90774ed7613b646d6cfac745f18d49be",
+          "content_bytes": 7622,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/ataee2016-iran-cereals-pb-cd",
         "title": "Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products",
@@ -42,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ataee2016-iran-cereals-pb-cd",
         "content_pin": {
-          "content_sha256": "a663d9743cffd42fefd971059c2dd38199496d569918d3c2adb9dd20c7784b21",
-          "content_bytes": 13045,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9142dbac760e48e3679e58538a0b3f4226a2acfd23d7307e4be7933af81e0e63",
+          "content_bytes": 13275,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ataee2016-iran-cereals-pb-cd.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/ataee2016-iran-cereals-pb-cd.md | sha256sum"
         }
       },
       {
@@ -64,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/begum2024-rice-fertilization-arsenic",
         "content_pin": {
-          "content_sha256": "d0b132aa35333661477c8bccc4b6de524ea12ddd88c9df05ca068f8376da3ca1",
-          "content_bytes": 3088,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "131fcaa0d9bf9b1479a3c98c9dc753bbb04c35f65795e1b761bde1c474831d59",
+          "content_bytes": 3323,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/begum2024-rice-fertilization-arsenic.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/begum2024-rice-fertilization-arsenic.md | sha256sum"
         }
       },
       {
@@ -86,12 +136,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bhat2022-brick-kilns-milk-rice-heavy-metals",
         "content_pin": {
-          "content_sha256": "6c90fdf84974ead267991cda41a1020ea4eb5c1c2b49b45b386feaaa7d9467b4",
-          "content_bytes": 2954,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cb9576d1cee5abc8e4c7557f7ddcbc14ea0ce9c4cdd51aba395b16e0f70fcf2e",
+          "content_bytes": 5016,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bolan2017-rice-complementary-medicines-arsenic",
+        "title": "Comparative analysis of speciation and bioaccessibility of arsenic in rice grains and complementary medicines",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bolan2017-rice-complementary-medicines-arsenic",
+        "content_pin": {
+          "content_sha256": "e97769d398885f6f74ab8664ea9ea0282ad14899368120d03dd6af32d33822d2",
+          "content_bytes": 8390,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/bolan2017-rice-complementary-medicines-arsenic.md | sha256sum"
         }
       },
       {
@@ -108,12 +179,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carey2015-rice-arsenic-percolating-cooking",
         "content_pin": {
-          "content_sha256": "d9c0abd0429d545a3549629b9259bba381b9dacc9a611788c169c36476b7e41e",
-          "content_bytes": 16758,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "39fd3093dafe4fc771d0347878a818d8fb983c95a51aa1655f2268b45c14e416",
+          "content_bytes": 16999,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/carey2015-rice-arsenic-percolating-cooking.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/carey2015-rice-arsenic-percolating-cooking.md | sha256sum"
         }
       },
       {
@@ -131,12 +202,47 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfia2020-toxic-metals-selected-foods-2018-19",
         "content_pin": {
-          "content_sha256": "7ff00c02dad05f10724a93c465b81f5a358abbc088ecc265d1f9552c30042696",
-          "content_bytes": 11053,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "65e6fe157f8b9dbcf12c8f8668510aecfb3e2d65c0329fee3aec65f87335e0ff",
+          "content_bytes": 11175,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cfs2019-hk-metallic-contamination-guidelines",
+        "title": "Guidelines on the Food Adulteration (Metallic Contamination) (Amendment) Regulation 2018",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "B",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "MeHg",
+          "tHg",
+          "Ni",
+          "Se",
+          "Sn",
+          "U"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2019-hk-metallic-contamination-guidelines",
+        "content_pin": {
+          "content_sha256": "64e0f7b78e65a72be6be7c213a84ee8aaa11edda888b9b189f03184469e31f99",
+          "content_bytes": 22524,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2019-hk-metallic-contamination-guidelines.md | sha256sum"
         }
       },
       {
@@ -152,12 +258,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cr-fsasc2014-arsenic-rice-grains",
         "content_pin": {
-          "content_sha256": "56a559e8e4bb4fbdc88952ce8c5f1039a4eb71b53953690d7665a7eb70815068",
-          "content_bytes": 5953,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1ff918ec3453563e4b1503a7787b008fe7bbda00e6b14b57f831db3a66dd9f1e",
+          "content_bytes": 6188,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cr-fsasc2014-arsenic-rice-grains.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cr-fsasc2014-arsenic-rice-grains.md | sha256sum"
         }
       },
       {
@@ -173,12 +279,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dehghani2020-food-lead-cadmium-mspe",
         "content_pin": {
-          "content_sha256": "9fa0615326c46c9a2bb08daeb3351fcf070b61ad51d6425d5d166f9a76a1f3aa",
-          "content_bytes": 5798,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7e337a1e9075f17d3cd974cc0656aa72398aa601dfa5b79ce1d3bba0b6b42ce7",
+          "content_bytes": 6033,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
         }
       },
       {
@@ -196,12 +302,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ec2004-scoop-heavy-metals-dietary-exposure",
         "content_pin": {
-          "content_sha256": "9cc6569614c57ce17bb25526ae77ae25938373a00be74680ae62bdd1bb38f16a",
-          "content_bytes": 6829,
-          "last_commit_sha": "b82425c",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "daabfe5a94492b9f18ced31edacc329b15b10ce367c6fdcbc7a6780cf15b38d4",
+          "content_bytes": 7665,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b82425c:wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure.md | sha256sum"
         }
       },
       {
@@ -216,12 +322,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "a9e18e6abdbe2e88582689b79abee5c0f8d8b4014da7c4881fe6d5106f5acb39",
-          "content_bytes": 7369,
-          "last_commit_sha": "0226413",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c974f379158a8628b1281c248427bb4d00c3b5117a34289f2dcc9d6acf62736b",
+          "content_bytes": 8207,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0226413:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -237,12 +343,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2014-dietary-exposure-iAs",
         "content_pin": {
-          "content_sha256": "f141a7602459b6b2940a14e7dc754272ca052b69d3c28574d28c719cfa09dce1",
-          "content_bytes": 27529,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ff6e512d73fafc82392dc0701e19fc54660bc061da68f2ab07a3b443f83780f4",
+          "content_bytes": 27737,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2014-dietary-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2014-dietary-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -258,12 +364,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
         "content_pin": {
-          "content_sha256": "51c77ec9f478eb248e23cb26b54dab2e7b7dde96a1421fbbe39691a3d18d4917",
-          "content_bytes": 15819,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "25c852304530d4f6d6bafc153fcb820e2a893cead7d3695581170bb9120f1f97",
+          "content_bytes": 16088,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -278,12 +384,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-organoarsenic-species",
         "content_pin": {
-          "content_sha256": "b7c85e9b69870c35556907fc281219dba5d114d6b359601f2880f8f8475b7fe0",
-          "content_bytes": 24322,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "dbb4abcfbe25b10eb90cf64dcf67c29ae9e749a82fe96c6199a2381480d968a8",
+          "content_bytes": 25014,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
         }
       },
       {
@@ -299,12 +405,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
         "content_pin": {
-          "content_sha256": "27554a912d5c622e9567aeb3176337739daf8200849cdd1b3f1deb9a78b82fe0",
-          "content_bytes": 7506,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d7f42bd40a79e3b709d18175350168491746239fd7d97534626b4a0833f233b6",
+          "content_bytes": 7741,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
         }
       },
       {
@@ -319,12 +425,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/enamorado-montes2021-mercury-rice-colombia-mojana",
         "content_pin": {
-          "content_sha256": "96b5ae11655963827f065215999b8780073f45d3f8eaa0bce2fc2df2f65fde1a",
-          "content_bytes": 7597,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "17edb3658636dab040f008b1ef6349bc34576e4946d501a3a1b836ae6f3034c1",
+          "content_bytes": 7832,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/enamorado-montes2021-mercury-rice-colombia-mojana.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/enamorado-montes2021-mercury-rice-colombia-mojana.md | sha256sum"
         }
       },
       {
@@ -340,12 +446,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "f02fe4a58a05b3208525565e8cb17b4d27b633e8df365948026f03bf5d0f6e0b",
-          "content_bytes": 6368,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6c7496b7296659b53830cef8dcf7b5e74333303acea7b53ea9d5bf82da33b837",
+          "content_bytes": 6603,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -361,12 +467,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-risk-assessment",
         "content_pin": {
-          "content_sha256": "b2e5a1c03c600e58b1876e61864b1475179c6a945ff6b8aa796ba77739fda560",
-          "content_bytes": 6326,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4a41060029b9344101eb124c269f7229df1564b299f19cafc3fe91bb8ae25d5b",
+          "content_bytes": 6561,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fda2016-arsenic-rice-risk-assessment.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fda2016-arsenic-rice-risk-assessment.md | sha256sum"
         }
       },
       {
@@ -398,12 +504,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "4518a85cd1a34e7c6c6bac437beaffd58fc55818effbf15fde0c731da7e0f0bf",
-          "content_bytes": 10803,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0f93d23b1e25b84f03ff8b0192fa604c6010f8eb65a365ef2b81e2d417612bc6",
+          "content_bytes": 11038,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -422,12 +528,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fu2025-low-accumulation-rice-hg-cd",
         "content_pin": {
-          "content_sha256": "2180c85286265e9b6a96ac98772d55f334229a195f1fb3c3cba2fac7aa5eeac5",
-          "content_bytes": 11008,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c2ade08e16bb67f0b6f280d13f8f633d7d21dc82bbec9c3745a1aca6038d714",
+          "content_bytes": 11248,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fu2025-low-accumulation-rice-hg-cd.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fu2025-low-accumulation-rice-hg-cd.md | sha256sum"
         }
       },
       {
@@ -447,12 +553,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hao2022-probabilistic-risk-rice-mining-county",
         "content_pin": {
-          "content_sha256": "bc5938a6f24e5f27445b22b885d817c933857df5f227c994bdbb353594abe8ed",
-          "content_bytes": 6403,
-          "last_commit_sha": "1ab877d",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "dd80875b43aeb25dbf7e7244c9e5a5b12cad6edc02eedd69653b9522e354ff45",
+          "content_bytes": 7310,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1ab877d:wiki/sources/hao2022-probabilistic-risk-rice-mining-county.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hao2022-probabilistic-risk-rice-mining-county.md | sha256sum"
         }
       },
       {
@@ -471,12 +577,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "41b70a89643cddb08f7272cac9c070f44f7296edcb04274ef8d369551723b607",
-          "content_bytes": 11916,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b5227e0c91b116d4b51fb21580984584c1590af368378e0e8129fd1a11ba0371",
+          "content_bytes": 12153,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
         }
       },
       {
@@ -492,12 +598,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/heshmati2020-iran-vegetables-cereals-pb-cd",
         "content_pin": {
-          "content_sha256": "3433e40ff755746f00c7d9ef3a4fc83e31ffcda65c9392b3709742789f4b18da",
-          "content_bytes": 22828,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ec9d12ca4c6779ec01e70f8a543a222a186373b0379bbdad4907acf9ded2464f",
+          "content_bytes": 23058,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd.md | sha256sum"
         }
       },
       {
@@ -512,12 +618,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hossain2024-rice-cadmium-soil-ph",
         "content_pin": {
-          "content_sha256": "4dd483b7e3c8cc3c58139b2eac9a8e3da9d1d38488075045fba85a1f905e9bc0",
-          "content_bytes": 3490,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ef4afd040061db23c5c72516514a982e3609bbb98892fd76ef251f1e48689b34",
+          "content_bytes": 7133,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hossain2024-rice-cadmium-soil-ph.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hossain2024-rice-cadmium-soil-ph.md | sha256sum"
         }
       },
       {
@@ -532,12 +638,45 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/huang2025-biochar-antimony-rhizosphere-rice",
         "content_pin": {
-          "content_sha256": "24ceb941e6763c40b47f9bea3c2b817330a38389771c220a6ef0656686f90776",
-          "content_bytes": 13885,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "798300fbdb8e39e0a7b4b15a52c13d1fe131b70868222663dba9f0c7a7b7da64",
+          "content_bytes": 14057,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/huang2025-biochar-antimony-rhizosphere-rice.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/huang2025-biochar-antimony-rhizosphere-rice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/huda2024-irrigated-rice-metals-pesticides",
+        "title": "A potential toxicological risk assessment of heavy metals and pesticides in irrigated rice cultivars near industrial areas of Dhaka, Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Se",
+          "Pb",
+          "Be",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Mn",
+          "Ni",
+          "Zn",
+          "V",
+          "Fe",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/huda2024-irrigated-rice-metals-pesticides",
+        "content_pin": {
+          "content_sha256": "fcf0e4135b5bdbd0189a83ca7691738814759762553a84c5d47ba5b8afef3a1c",
+          "content_bytes": 7137,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/huda2024-irrigated-rice-metals-pesticides.md | sha256sum"
         }
       },
       {
@@ -552,12 +691,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hussain2024-rice-arsenic-amendments",
         "content_pin": {
-          "content_sha256": "04fe9b1c19516ccfc0aaf72f74d524249148970139f24eb1f8b220d5bf11a9b4",
-          "content_bytes": 4473,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ba8e58e8bfec34d902ecf4822496dcb84809ced34d4eb071e54a3385c775bd3d",
+          "content_bytes": 4703,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hussain2024-rice-arsenic-amendments.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hussain2024-rice-arsenic-amendments.md | sha256sum"
         }
       },
       {
@@ -578,12 +717,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2014-bangladesh-cereals-pulses-metals",
         "content_pin": {
-          "content_sha256": "3e0f8a24d1455dde39c504fce198ce5fd3fb3d501c39ad8381511dd687733e1c",
-          "content_bytes": 6490,
-          "last_commit_sha": "94737ef",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cd77f494614253596f16b757d124afd0c5e848c8620fdd060fe02c40b8bc055c",
+          "content_bytes": 7326,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 94737ef:wiki/sources/islam2014-bangladesh-cereals-pulses-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/islam2014-bangladesh-cereals-pulses-metals.md | sha256sum"
         }
       },
       {
@@ -603,12 +742,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2015-bangladesh-foods-heavy-metals",
         "content_pin": {
-          "content_sha256": "9c5eb4b1220bc870b8784cc59ce97c12ec0dd021f0ae829fcd2494b795ea5fde",
-          "content_bytes": 7843,
-          "last_commit_sha": "b1e03ce",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8e8ba9a5a95f89013a36f7064970e4e4b24986aee931d3f8ceee5465d3878e18",
+          "content_bytes": 8711,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b1e03ce:wiki/sources/islam2015-bangladesh-foods-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/islam2015-bangladesh-foods-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -628,12 +767,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2018-tangail-food-crops-heavy-metals",
         "content_pin": {
-          "content_sha256": "2deb8ce587f834d2658aed588f1fcabe497064b25c92849a9adfb0d217f375ea",
-          "content_bytes": 6606,
-          "last_commit_sha": "7d648b0",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4a6bcb7b66626114e83c7a98007f9760a13365f40b9bf8d1b812472d888c8202",
+          "content_bytes": 8537,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7d648b0:wiki/sources/islam2018-tangail-food-crops-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/islam2018-tangail-food-crops-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -655,12 +794,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jafari2018-iran-rice-meta",
         "content_pin": {
-          "content_sha256": "176b8641715ff9fe50a36eefff44458525c5ff2d05061e0055107dd098cce43d",
-          "content_bytes": 24838,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "836b60c032236d0301f323d8114cc85eeebd2b91d03ec43d03891353c226123a",
+          "content_bytes": 25068,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/jafari2018-iran-rice-meta.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/jafari2018-iran-rice-meta.md | sha256sum"
         }
       },
       {
@@ -676,12 +815,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jiang2022-selenium-cadmium-brown-rice",
         "content_pin": {
-          "content_sha256": "105b455e8d2b86046ae896697f701cc44ca1fd735f517d1b77bb31e5b51484f1",
-          "content_bytes": 5281,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b07b1d7dbf8476d56afb079adac123e81bb2c66c8fb6313dfd165a4ff731701e",
+          "content_bytes": 5516,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/jiang2022-selenium-cadmium-brown-rice.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/jiang2022-selenium-cadmium-brown-rice.md | sha256sum"
         }
       },
       {
@@ -699,17 +838,16 @@
           "Cu",
           "Zn",
           "tAs",
-          "iAs",
           "Cd"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kukusamude2020-thai-rice-heavy-metals",
         "content_pin": {
-          "content_sha256": "6a1af44e4e544186c5985600308b71a54f57529e790c85cc9ff4d5627af09c5e",
-          "content_bytes": 6108,
-          "last_commit_sha": "efeb675",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2d6ec51ef94d07c051741a666ff79e90b02529f6946b09ddb4fbe0482bebf787",
+          "content_bytes": 7052,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show efeb675:wiki/sources/kukusamude2020-thai-rice-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kukusamude2020-thai-rice-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -724,12 +862,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kumar2022-bangladesh-agricultural-products-lead",
         "content_pin": {
-          "content_sha256": "fd82a18d92ad5463f78336af7df0ef6ad557839a2dee5e9446d9953245167738",
-          "content_bytes": 6674,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ca822b2e184d9ddea4c0019224592d2d0411bbcb69dd97f79a36e6b54bc3846e",
+          "content_bytes": 6904,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
         }
       },
       {
@@ -744,12 +882,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2017-jiangsu-rice-cadmium-transfer",
         "content_pin": {
-          "content_sha256": "6b3dfbea15596e4e2efcda99892e0c08816d34d2c97227f32af830b19eddfe9a",
-          "content_bytes": 5972,
-          "last_commit_sha": "c12da72",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "dc32ca0ffee99bb4b0770b2fb1842cb772981d1b2a585c36b59ba69c2ca5e789",
+          "content_bytes": 6845,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c12da72:wiki/sources/li2017-jiangsu-rice-cadmium-transfer.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/li2017-jiangsu-rice-cadmium-transfer.md | sha256sum"
         }
       },
       {
@@ -764,12 +902,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2024-rice-cadmium-biochar",
         "content_pin": {
-          "content_sha256": "65e648964374d40f03a0588d93d979732ec35ccaa9eab39a966c69d3ff359775",
-          "content_bytes": 5011,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "19e0299df709bfde524723f35b3bd5a8c2b20b2fb189f4aaedfce654256da6c2",
+          "content_bytes": 5241,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liang2024-rice-cadmium-biochar.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/liang2024-rice-cadmium-biochar.md | sha256sum"
         }
       },
       {
@@ -788,12 +926,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2022-south-china-rice-cd-as",
         "content_pin": {
-          "content_sha256": "4b031ad4c018bab913902e80f32e736793cdd840f5749035d97fe348a55c7af1",
-          "content_bytes": 3204,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b7b4012d8879a682371bc102762c05934c7419b631fc731e09013fc56c65ff38",
+          "content_bytes": 3439,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liu2022-south-china-rice-cd-as.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/liu2022-south-china-rice-cd-as.md | sha256sum"
         }
       },
       {
@@ -814,12 +952,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2023-xingren-rice-paddy-soil-heavy-metals",
         "content_pin": {
-          "content_sha256": "7fa3953a9df7b1cd12cd2dae9a0a1cb31992eeb39b5fd5945a1236f8d39e6724",
-          "content_bytes": 10333,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5f334edf01cf7c9f769dbe58bc03b3d8d8943d6407a7864a300a92558735074e",
+          "content_bytes": 10561,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liu2023-xingren-rice-paddy-soil-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/liu2023-xingren-rice-paddy-soil-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liu2023-yuyao-soil-crop-metals",
+        "title": "Enrichment Characteristics and Health Risk Assessment of Heavy Metals in Soil-Crop Systems",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liu2023-yuyao-soil-crop-metals",
+        "content_pin": {
+          "content_sha256": "7401b890766653ec82bbfaad83553999c9ee244e12a83bf448658e701b9d8a1a",
+          "content_bytes": 6913,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/liu2023-yuyao-soil-crop-metals.md | sha256sum"
         }
       },
       {
@@ -835,12 +998,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/llorente-mirandes2016-ias-food-analytical-review",
         "content_pin": {
-          "content_sha256": "7783344cf6394f54a3495e89826e1c8c96199e806af824875311d298fe8fd0b3",
-          "content_bytes": 5804,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c104553267f91533a153f5e8c550277b0bffd5d340f424a9d931a22631a162cc",
+          "content_bytes": 6039,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/llorente-mirandes2016-ias-food-analytical-review.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/llorente-mirandes2016-ias-food-analytical-review.md | sha256sum"
         }
       },
       {
@@ -859,12 +1022,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/loutfy2012-ismailia-foodstuffs-metals",
         "content_pin": {
-          "content_sha256": "e1649d0734fe4c1d74a8db05845f3bcf887c90688c306953c9196a1d81c6990b",
-          "content_bytes": 6406,
-          "last_commit_sha": "43b4711",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "af6c1163fd97fd7e174a9855d5743700f6c7f9ab725d237090059610e9915805",
+          "content_bytes": 7655,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 43b4711:wiki/sources/loutfy2012-ismailia-foodstuffs-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/loutfy2012-ismailia-foodstuffs-metals.md | sha256sum"
         }
       },
       {
@@ -882,12 +1045,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
         "content_pin": {
-          "content_sha256": "8080a1824e02c590594f2746d3ec13c01b42544c105c31c4735483e7c693055a",
-          "content_bytes": 34476,
-          "last_commit_sha": "3ce252a",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fa73532253a1f2eed8d60667077fe11242223cb703172e9d74d151edaad0250b",
+          "content_bytes": 35217,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3ce252a:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meharg2008-rice-arsenic-literature-review",
+        "title": "Levels of arsenic in rice - literature review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meharg2008-rice-arsenic-literature-review",
+        "content_pin": {
+          "content_sha256": "b7f4bf1c00a7779559936abb33656429a849d42f15bfd365da8e5017a1cf3363",
+          "content_bytes": 10550,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/meharg2008-rice-arsenic-literature-review.md | sha256sum"
         }
       },
       {
@@ -905,12 +1089,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk",
         "content_pin": {
-          "content_sha256": "707c962e36a53dbee311bb36927ae53538d1be616d6f176b6369745cc504dd9f",
-          "content_bytes": 12802,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fec30e80643b5988efdb679c0247d9a520fb12027470d1e8a756c8b2fc833b9b",
+          "content_bytes": 13032,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk.md | sha256sum"
         }
       },
       {
@@ -928,12 +1112,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moradi2015-iran-isfahan-soil-crops-metals",
         "content_pin": {
-          "content_sha256": "041dc544952fe7cd16a5cc8a554c641e18b7d70d6f730801ff96e92923f446d3",
-          "content_bytes": 33461,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f30f263bc80795f931c9384d74ad70c20cc93fa1979651b43f0f7a3ebe14ec9b",
+          "content_bytes": 33691,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/moradi2015-iran-isfahan-soil-crops-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/moradi2015-iran-isfahan-soil-crops-metals.md | sha256sum"
         }
       },
       {
@@ -949,12 +1133,36 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moreda-pineiro2020-rice-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "aee937420e4777f8edcd51e9492fae0ebd56be664262e3c553b8e698d59f7238",
-          "content_bytes": 3573,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "04ca1c528b9b89ede608cba547d87c5e675c087ab8e89b1d5ff5be90a539c5bb",
+          "content_bytes": 3808,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/moreda-pineiro2020-rice-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/moreda-pineiro2020-rice-arsenic-speciation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/myatsoe2023-myanmar-rice-metals",
+        "title": "Arsenic and heavy metal contents in white rice samples from rainfed paddy fields in Yangon division, Myanmar—Natural background levels?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/myatsoe2023-myanmar-rice-metals",
+        "content_pin": {
+          "content_sha256": "721d5fbe2f3b2c38497e3dfd36591d4e8715929bbfc933fea49fb015977b490e",
+          "content_bytes": 5206,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/myatsoe2023-myanmar-rice-metals.md | sha256sum"
         }
       },
       {
@@ -973,12 +1181,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/naseri2015-iran-shiraz-rice-metals",
         "content_pin": {
-          "content_sha256": "97d9eaed5c787eb5a0e33a976fa14de74dfd96eba615527532d5285d044b9e86",
-          "content_bytes": 28404,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "28ffd01872f0705f5515adb65b417a3855a3cdf83f8e439fc426b7dcf1d7ca8c",
+          "content_bytes": 28634,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/naseri2015-iran-shiraz-rice-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/naseri2015-iran-shiraz-rice-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/noh2023-arsenic-rice-snacks-korea",
+        "title": "Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/noh2023-arsenic-rice-snacks-korea",
+        "content_pin": {
+          "content_sha256": "1b6130a56b98838c2270994522b16ecaa5a4c6d80935e7f5a06aba9bda880110",
+          "content_bytes": 15959,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/noh2023-arsenic-rice-snacks-korea.md | sha256sum"
         }
       },
       {
@@ -993,12 +1222,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/palmieri2020-mercury-rice",
         "content_pin": {
-          "content_sha256": "f65958200500f99af857c984585b4c99c0db98531860a2f943d1fcf07ff65744",
-          "content_bytes": 4371,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a2c5f3701779403b4f0fce6dd0d1617748c897e162cce80a9d13274ad106cd0d",
+          "content_bytes": 4606,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/palmieri2020-mercury-rice.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/palmieri2020-mercury-rice.md | sha256sum"
         }
       },
       {
@@ -1018,12 +1247,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirsaheb2015-iran-kermanshah-cereals-metals",
         "content_pin": {
-          "content_sha256": "558d309efe7f303cc310023c61c451cda7db94d6ce34193fea633ed80aeff8c2",
-          "content_bytes": 20546,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b704ca3f62d0accdc4f4ee29603a21e2ced2840bc73800df5fe52e389a481e69",
+          "content_bytes": 20785,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals.md | sha256sum"
         }
       },
       {
@@ -1041,12 +1270,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pogoson2020-rice-cooking-cadmium-arsenic",
         "content_pin": {
-          "content_sha256": "10395f752b4d166080f418c039d347e1e64da8a0160d8d54113989badcbaca81",
-          "content_bytes": 3396,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5bd07d538e19211e486fbeb9a3f1106bf6c2bd61f89673dfbe33820ae0e0c1f2",
+          "content_bytes": 3631,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pogoson2020-rice-cooking-cadmium-arsenic.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/pogoson2020-rice-cooking-cadmium-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rahman2007-rice-grain-arsenic-fractions",
+        "title": "Accumulation of arsenic in tissues of rice plant (Oryza sativa L.) and its distribution in fractions of rice grain",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rahman2007-rice-grain-arsenic-fractions",
+        "content_pin": {
+          "content_sha256": "ca1b3e30493980d256368149b6f9e3994d34862e748cf7a7b135015ca05a5fee",
+          "content_bytes": 8416,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/rahman2007-rice-grain-arsenic-fractions.md | sha256sum"
         }
       },
       {
@@ -1068,12 +1317,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rittirong2018-cooked-rice-utensil-metals-thailand",
         "content_pin": {
-          "content_sha256": "3e91ef1f3b3fea44ced49d37e3d18a8fb8bbb23b1bddfd837fbf2d9f10d8966c",
-          "content_bytes": 4048,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a021ae0df42e86c52a45fa2ea7d24421ab58c2f2abe47031cd307e4494769acc",
+          "content_bytes": 4278,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
         }
       },
       {
@@ -1090,12 +1339,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/roya2016-iran-torbat-heidarieh-rice-metals",
         "content_pin": {
-          "content_sha256": "a40402e9e817ae4c68fce2478ec3294b55e6743a48d07c82e770af88f91a18ff",
-          "content_bytes": 24935,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "963c02f3aeb099212b71ca312ee0cdf1eee9ebf30c036cf512ca0e3d612c333a",
+          "content_bytes": 25161,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/roya2016-iran-torbat-heidarieh-rice-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/roya2016-iran-torbat-heidarieh-rice-metals.md | sha256sum"
         }
       },
       {
@@ -1114,12 +1363,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals",
         "content_pin": {
-          "content_sha256": "b279aa5b7264de0e9b70d8671b4950dac96f96660cd12623f4d3335a8d3b3dbe",
-          "content_bytes": 23469,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fa6ec4c2b71a61ab48c98030f2957c40ff4c12e5c5e90e634127b02a9c4014c9",
+          "content_bytes": 23686,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -1140,12 +1389,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review",
         "content_pin": {
-          "content_sha256": "2f1d7fa061bdbdeb348698de60f47e1268f848890c97c5cb125436626dcec8d0",
-          "content_bytes": 21528,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1bfb832b72fda35ead4656d61f1b040406d870d13ec2c0a1d4e67ebeeabef326",
+          "content_bytes": 21758,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review.md | sha256sum"
         }
       },
       {
@@ -1162,12 +1411,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sharafi2019-iran-tehran-rice-brands-metals",
         "content_pin": {
-          "content_sha256": "0736667c7fef7f43c34bf81b9c0b6ddb488ab62dc2c381173381b1e7c83f9db6",
-          "content_bytes": 30754,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8bee757316ae0b140692da1cf8f0cdd37ed5da728d6eece8821a42a62924a334",
+          "content_bytes": 30990,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sharafi2019-iran-tehran-rice-brands-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sharafi2019-iran-tehran-rice-brands-metals.md | sha256sum"
         }
       },
       {
@@ -1182,12 +1431,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-grain-cadmium-global-supply-chain",
         "content_pin": {
-          "content_sha256": "d036c1ce81dc2c2766e913be7b587555a4e77669469571ba83676e70c47f113c",
-          "content_bytes": 4090,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "631c67f5af89e10beb27949b7359406dbe560ccf5ec0602c64bbaf6dcdab4d4e",
+          "content_bytes": 4648,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain.md | sha256sum"
         }
       },
       {
@@ -1204,12 +1453,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shirani2017-iran-mashhad-rice-metals",
         "content_pin": {
-          "content_sha256": "0d99df5c04fe2dbdb60a9efa7de81407c2d536eb6aff36a67207e2911f6d19c2",
-          "content_bytes": 23455,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "160322d03c7b2c88861acf02e9d79eee9d17bfbe57bb4712c76697aff35769d1",
+          "content_bytes": 23694,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/shirani2017-iran-mashhad-rice-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/shirani2017-iran-mashhad-rice-metals.md | sha256sum"
         }
       },
       {
@@ -1226,12 +1475,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2016-iAs-rice-iberian-peninsula",
         "content_pin": {
-          "content_sha256": "03d83af0c8ad1ff398e9e49ba04e68eb62ed3d4c8ac077b2728c3c971014ac2d",
-          "content_bytes": 6418,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "24b08239da0f7718e89deafc283143b9df725387e9c3ac0299158a165a25609a",
+          "content_bytes": 6653,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/signes-pastor2016-iAs-rice-iberian-peninsula.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/signes-pastor2016-iAs-rice-iberian-peninsula.md | sha256sum"
         }
       },
       {
@@ -1246,12 +1495,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/silva2023-rice-mycotoxins-ias-portugal",
         "content_pin": {
-          "content_sha256": "659d30c8e9a9121b8bf2356e3a2e1abe984b8d95375ababb8186c0ac699759cf",
-          "content_bytes": 4984,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f27547cc251d87fd45d3a5306b6fe6ef1a1709e15e5fa147da47ad074ce50791",
+          "content_bytes": 5219,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/silva2023-rice-mycotoxins-ias-portugal.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/silva2023-rice-mycotoxins-ias-portugal.md | sha256sum"
         }
       },
       {
@@ -1266,12 +1515,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sun2023-biochar-rice-cadmium-field",
         "content_pin": {
-          "content_sha256": "c4a6b2ff26d01a9a213b6f10e23479347c7edda97618803730f5f43405d7529e",
-          "content_bytes": 10751,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "16505a45a9989e85cd27b0a7b7e064183da9ec3da8ec98db77b832670621fbb0",
+          "content_bytes": 10982,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sun2023-biochar-rice-cadmium-field.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sun2023-biochar-rice-cadmium-field.md | sha256sum"
         }
       },
       {
@@ -1292,12 +1541,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tatahmentan2020-rice-grains-elements",
         "content_pin": {
-          "content_sha256": "0b8b5c285f40f065783860aafaa315f9de33e39fd27904a878e2e552bfae776b",
-          "content_bytes": 5631,
-          "last_commit_sha": "7477f0c",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b033a22b896e99b753545f7919c023468b0b452c7e4ea871cf4a8d5ef7fd71fc",
+          "content_bytes": 6473,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7477f0c:wiki/sources/tatahmentan2020-rice-grains-elements.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/tatahmentan2020-rice-grains-elements.md | sha256sum"
         }
       },
       {
@@ -1313,12 +1562,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/uneyama2007-arsenic-foods-cumulative-data",
         "content_pin": {
-          "content_sha256": "594cb858f1aea7d2e7464a79f634cff8deef97ecf77c43f6d66e9093c01fb7cc",
-          "content_bytes": 8696,
-          "last_commit_sha": "e89e8e6",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "702c7e60205e67ddde5eed16bfcdca4619721d485e47fd680cbb157f718629b1",
+          "content_bytes": 9533,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show e89e8e6:wiki/sources/uneyama2007-arsenic-foods-cumulative-data.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/uneyama2007-arsenic-foods-cumulative-data.md | sha256sum"
         }
       },
       {
@@ -1338,12 +1587,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vatanpour2020-iran-tajan-rice-heavy-metals",
         "content_pin": {
-          "content_sha256": "2d501b6264da6679aa4fcc25b0eab553d254cf29a02f0de12a9a7a6d40950e6c",
-          "content_bytes": 31580,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "298cfad326e3674e110decb74fbab1ec414f2f6bec6b4c25d04694e0f8e4a881",
+          "content_bytes": 31810,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/vatanpour2020-iran-tajan-rice-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/vatanpour2020-iran-tajan-rice-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -1358,12 +1607,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2019-dietary-lead-guangzhou",
         "content_pin": {
-          "content_sha256": "a4980acaa36bd06019ed74519661469fb2a07825c56a6a57ad539b622aa80325",
-          "content_bytes": 6493,
-          "last_commit_sha": "def1a1b",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f7d905cfee5a3d7b28d8c438d14714fcb21e505144283272ae0f7cd935e4d0ef",
+          "content_bytes": 7527,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show def1a1b:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
         }
       },
       {
@@ -1381,12 +1630,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "2cfc4769003d463626f0b0bd80a0d9bb5327f492e54d61541af97ffc1f6f6b17",
-          "content_bytes": 6251,
-          "last_commit_sha": "0642913",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0291262f43cc2f5e3339e897538f4857524a94593684f7b6593323017f9306d5",
+          "content_bytes": 7911,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0642913:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
         }
       },
       {
@@ -1402,12 +1651,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wehmeier2023-ias-rice-cola-field-method",
         "content_pin": {
-          "content_sha256": "65ce8ab53e506523c2a936833fbcf83160da2d20c19e20d4868be0c2da28eee5",
-          "content_bytes": 5094,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "bb2e376cb88bb7059eb34cb2624368ff5535c62a15f57c92d3f685ad42ccc3f6",
+          "content_bytes": 5329,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
         }
       },
       {
@@ -1423,12 +1672,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/welna2018-brown-rice-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "8e0206e0b8242f221dbd6b7ed581888ca5492091f4c936aa9956d54bf10bdb81",
-          "content_bytes": 3412,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "60c1ed877eae751e951f4d27645c8e78088973d4d73c2fb0a2d253abfa203fc5",
+          "content_bytes": 3647,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/welna2018-brown-rice-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/welna2018-brown-rice-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -1444,12 +1693,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/williams2007-rice-arsenic-us-market-basket",
         "content_pin": {
-          "content_sha256": "d10209df074847803b36eac563d9fee802594744caaf3ae1ed62c8739a6cdb74",
-          "content_bytes": 4775,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e967dc5f80c259358cb4f5a148ba61c6508cb75bb8d5a9677577486feec2b6a0",
+          "content_bytes": 5010,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/williams2007-rice-arsenic-us-market-basket.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/williams2007-rice-arsenic-us-market-basket.md | sha256sum"
         }
       },
       {
@@ -1471,39 +1720,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "49f078d8ded21a08a7e7dd34cfbc1e60b9f129bdf2177eae11e760ad46bf583c",
-          "content_bytes": 27265,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "576925538628d930d89396537f0ed9ed8f90d231da5438b82591e1426d7792c0",
+          "content_bytes": 27504,
+          "last_commit_sha": "50c73dc78",
+          "last_commit_date": "2026-08-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
-        "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "Cr",
-          "tAs",
-          "tHg",
-          "Ni",
-          "Cu",
-          "Zn"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
-        "content_pin": {
-          "content_sha256": "a53840472d413d74ab96188889ee2013411b714976cbf0dba59308d802b7041d",
-          "content_bytes": 23917,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50c73dc78:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       },
       {
@@ -1523,12 +1745,85 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xu2022-crop-grains-heavy-metals",
         "content_pin": {
-          "content_sha256": "3f40e77be67199eae2a0818e9afa08ea2f204798d934086ce9e235b1dc6ceddb",
-          "content_bytes": 4900,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "288ea11ff6e28cc0e6c0e4aa8ef9dbe82d361d9f4c87186bf5918c55195d3a14",
+          "content_bytes": 5130,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/xu2022-crop-grains-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/xu2022-crop-grains-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yan2025-rice-heavy-metals-henan-china",
+        "title": "From farm to table: assessing the status and health risk assessment of heavy metal pollution in rice in Henan Province",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yan2025-rice-heavy-metals-henan-china",
+        "content_pin": {
+          "content_sha256": "4c30bd7ff94458b5bcab57dcb73658c4b838fed49c43a473c8a8ab80404260ef",
+          "content_bytes": 4607,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/yan2025-rice-heavy-metals-henan-china.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2020-rice-cadmium-bioaccessibility-supplements",
+        "title": "Effects of Dietary Supplements on the Bioaccessibility of Se, Zn and Cd in Rice: Preliminary Observations from In Vitro Gastrointestinal Simulation Tests",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Se",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2020-rice-cadmium-bioaccessibility-supplements",
+        "content_pin": {
+          "content_sha256": "90af48e2b0ae0d2f27ecc09a630c44065cd30eb752915d7404163d384d095911",
+          "content_bytes": 5255,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/zhang2020-rice-cadmium-bioaccessibility-supplements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhou2000-china-vegetable-heavy-metals-review",
+        "title": "Heavy Metal Contamination in Vegetables and Their Control in China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhou2000-china-vegetable-heavy-metals-review",
+        "content_pin": {
+          "content_sha256": "fef8e9d87d345e8860d5103c622017de367760e1c70bf9d6a7c67827213b1930",
+          "content_bytes": 10383,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/zhou2000-china-vegetable-heavy-metals-review.md | sha256sum"
         }
       }
     ]
@@ -1544,7 +1839,7 @@
     "total_claims": 1,
     "cited_claims": 1,
     "uncited_claims": 0,
-    "distinct_cited_sources": 66,
+    "distinct_cited_sources": 78,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": true
   }

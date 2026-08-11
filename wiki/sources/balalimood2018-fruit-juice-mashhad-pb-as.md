@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Balali-Mood et al. 2018 - arsenic and lead in Mashhad commercial fruit juices
 
+## Overview
+
 This study measured Pb and total As in 50 commercial fruit-juice samples purchased from local markets in Mashhad, Iran during spring and winter 2016. The sampled matrices were grape, apple, orange, pomegranate, and multi-fruit juices. The key HMT&C signal is widespread Pb exceedance: the authors report that 83% of samples were above the Codex fruit-juice Pb maximum level of 30 ng/mL, while all measured total-As values were below the 10 ng/mL comparator used by the paper.
 
 ## Key numbers
@@ -99,15 +101,15 @@ Microbiome: Not addressed.
 - Fresh-context audit (Claude subagent, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against abstract/results/Table 3 (overall Pb mean 39.4 ng/mL range 18.5-54.6, As mean 1.9 ng/mL range 1.52-2.35, 83% Pb exceedance vs Codex 30 ng/mL, all per-fruit ranges, all seasonal SEMs); slug vocabulary verified on disk; speciation discipline correct (tAs explicitly labeled, WHO drinking-water iAs comparator transcribed faithfully without substitution); brand firewall clean (anonymized A-E codes preserved); HMTc firewall clean (no percentile arithmetic, source's own Codex comparator transcribed faithfully). 0 findings applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

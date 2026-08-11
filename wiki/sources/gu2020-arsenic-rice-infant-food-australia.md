@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Gu et al. 2020 — Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia
 
+## Overview
+
 This A-tier peer-reviewed paper measures total arsenic (tAs) and inorganic arsenic (iAs) in 39 rice-based infant food products from the Australian market across four product categories: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12), and rice crackers (n=21). Non-rice comparators (n=3 non-rice milk powder; n=3 wheat pasta) were analyzed in parallel for tAs only. Author scope is exact on matrix axis (rice-based vs non-rice comparator) and exact on format axis per the four sub-product categories. The paper reports that nearly 75% of samples had iAs exceeding the EU maximum level of 0.1 mg/kg for infants and children, and the mean iAs proportion of tAs reached as high as 84.8% in rice pasta. The paper also reports tAs–rice-content correlations, brown-vs-white-rice differentials, country-of-origin patterns, and dietary-exposure estimates for 9-month-old infants and 2–5-year-old children.
 
 ## Key Numbers
@@ -162,15 +164,15 @@ Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mi
 - [[metals/arsenic]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1be66b2](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2) | 2026-06-08 | audit: gu2020-arsenic-rice-infant-food-australia revised |
-| [e22dea4](https://github.com/paleofoundation/heavymetalindex/commit/e22dea4) | 2026-06-08 | ingest: gu2020-arsenic-rice-infant-food-australia enhanced from MFD/Manual Fetch Discovery |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

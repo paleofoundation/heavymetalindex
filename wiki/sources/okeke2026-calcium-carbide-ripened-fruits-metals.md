@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Okeke and Sanda 2026 - Metals in calcium-carbide-ripened fruits
 
+## Overview
+
 Okeke and Sanda measured chromium, lead, and total arsenic in banana, pineapple, and orange after natural ripening and after laboratory calcium-carbide ripening. All measured values were below the paper's cited FAO limits, but the calcium-carbide-ripened fruits had higher Cr, Pb, and As than their naturally ripened counterparts.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: Supports a qualitative note that artificial carbide ripening can increase m
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, sample preparation, metal determination method, Table 1 fruit concentrations, Table 2 EDI/HQ values, Figure 1 hazard-index text, discussion, and conclusions. The paper sometimes writes "FOA" where FAO is evidently intended; this page preserves the cited numerical limits without treating them as independently verified regulatory values. Chromium is total chromium, not Cr(VI), and arsenic is total arsenic, not inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

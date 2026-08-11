@@ -14,6 +14,8 @@ updated: 2026-06-04
 
 # Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports
 
+## Overview
+
 Eight independent datasets converge on a finding that separates tea from most other food-matrix contamination stories. The tea plant (Camellia sinensis) is a multi-metal bioaccumulator, and it is a true aluminium hyperaccumulator, so dry-leaf concentrations of aluminium, lead, cadmium, and chromium are routinely high relative to terrestrial commodities. The non-obvious part is that those dry-leaf totals, which are what national surveillance and product standards almost always report, systematically overstate the metal dose a consumer actually receives. Brewing transfers only a metal-specific and origin-dependent fraction of the leaf load into the cup, and for the two metals that matter most by mass, lead and aluminium, most of the load stays in the spent leaf. The load-bearing quantity for tea exposure is therefore the infusion concentration, and the corpus holds only two infusion-native datasets against roughly a dozen leaf-basis ones. Any assessment of tea that compares dry-leaf concentrations to consumption limits without applying a transfer fraction is measuring the wrong number.
 
 This is a different kind of finding from the seaweed and cocoa cadmium stories. For seaweed (see [[synthesis/seaweed-cd-as-contamination]]), the dry-product concentration is close to the as-consumed concentration because dried seaweed is eaten whole. For tea, the consumed matrix is the infusion, not the leaf, and the gap between the two is the entire point.
@@ -46,7 +48,7 @@ One corpus source on tea-adjacent lead must be kept strictly separate from the p
 
 ## Speciation and basis caveats
 
-Every corpus source that reports arsenic reports total arsenic, every source that reports chromium reports total chromium, and every source that reports mercury reports total mercury. None speciate. The HMT&C analyte vocabulary distinguishes inorganic from total arsenic, hexavalent from total chromium, and methylmercury from total mercury, and none of those distinctions can be made from the present tea corpus. The chromium point matters most: Li et al. 2015 explicitly assessed risk using the trivalent-chromium reference dose on the argument that gastric acidity reduces hexavalent to trivalent chromium, so the corpus contains no basis for a hexavalent-chromium position on tea. The arsenic and mercury totals in tea are low enough that the speciation gap is not currently load-bearing for exposure, but it is a real limit on what the wiki can claim.
+Every corpus source that reports arsenic reports total arsenic, every source that reports chromium reports total chromium, and every source that reports mercury reports total mercury. None speciate. The toxicologically meaningful distinctions for these elements are inorganic from total arsenic, hexavalent from total chromium, and methylmercury from total mercury, and none of those distinctions can be made from the present tea corpus. The chromium point matters most: Li et al. 2015 explicitly assessed risk using the trivalent-chromium reference dose on the argument that gastric acidity reduces hexavalent to trivalent chromium, so the corpus contains no basis for a hexavalent-chromium position on tea. The arsenic and mercury totals in tea are low enough that the speciation gap is not currently load-bearing for exposure, but it is a real limit on what the wiki can claim.
 
 ## Why conventional surveillance mischaracterizes tea
 
@@ -54,13 +56,13 @@ National food surveillance measures tea, when it measures it at all, on a dry-le
 
 ## Strategic implications
 
-For the brand-legal audience, the operative due-diligence metric for a tea or herbal-tea brand is infusion-basis testing under a defined and disclosed brewing protocol, not dry-leaf totals. A brand relying on dry-leaf compliance is over-reporting its own risk for lead and aluminium and under-reporting it for cadmium from high-transfer origins; a brand asserting that infusion exposure is negligible without measuring it is making an unsupported claim that the cadmium-leaching and mature-leaf-aluminium evidence directly undercuts. The defensible position is a measured transfer fraction for the specific product, with origin and grade documented.
+The exposure-relevant measurement for a tea or herbal-tea matrix is infusion-basis concentration under a defined and disclosed brewing protocol, not dry-leaf totals. Dry-leaf compliance over-represents exposure for lead and aluminium and under-represents it for cadmium from high-transfer origins; an assumption that infusion exposure is negligible without measuring it is unsupported, because the cadmium-leaching and mature-leaf-aluminium evidence directly undercuts it. A measured transfer fraction for the specific product, with origin and grade documented, is what the evidence supports as the exposure-relevant characterization.
 
 For the regulator audience, the basis mismatch is the finding. Leaf standards expressed in milligrams per kilogram regulate the commodity but do not characterize consumer exposure, and tea sits awkwardly across food and botanical-supplement frameworks that handle the leaf-versus-infusion question inconsistently. Aluminium, the dominant metal in the matrix, falls outside most heavy-metal limit lists entirely. A harmonized infusion-basis approach, analogous to as-consumed bases used elsewhere in contaminant regulation, would close the gap between what is measured and what is ingested.
 
 For the consumer audience, the practical levers are real and quantified. Discarding the first infusion lowers exposure because metal transfer falls with each successive brew, shorter steeping reduces extracted lead, and lower-grade or compressed teas built from mature leaf carry substantially more aluminium and lead than young-flush teas. Origin matters, but as a determinant rather than a guarantee. None of this makes tea a high-exposure food at typical consumption; the infusion concentrations are low. It makes tea a food where the difference between the leaf number and the cup number is large enough that the distinction has to be stated.
 
-For HMT&C, tea is a category where the threshold-setting methodology must first decide its basis. A leaf-basis standard and an infusion-basis standard are not interchangeable for tea, and the literature supports the infusion basis as the exposure-relevant one while acknowledging that infusion data are currently thin. Per the wiki and HMT&C firewall, this synthesis reports the basis problem and the transfer-fraction evidence; it does not select a threshold, and any certification value will need to name its basis and its brewing assumptions explicitly as part of the rationale.
+A leaf-basis standard and an infusion-basis standard are not interchangeable for tea, and the literature supports the infusion basis as the exposure-relevant one while acknowledging that infusion data are currently thin. Any threshold expressed for tea therefore depends on which basis it is stated in, and a leaf-basis number and an infusion-basis number cannot be compared without applying the transfer fraction.
 
 ## What this synthesis does not yet rest on
 
@@ -72,7 +74,7 @@ On promotion, this page was added to the synthesis index at [[synthesis]], promo
 
 ## Provisional status
 
-This synthesis was established 2026-06-04 on eight anchor sources, of which seven are A-tier and one (Kazeminia et al. 2023) is a B-tier systematic review carrying the corroborating transfer-fraction evidence. The leaf-basis occurrence picture is robust across four independent national and regional Chinese surveys; the transfer-fraction finding rests primarily on Brzezicha-Cirocka et al. 2016 with directional corroboration from Li et al. 2015 and Kazeminia et al. 2023, and is the part most in need of additional infusion-native datasets. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent infusion-basis datasets, on any primary black-tea infusion survey, or on a speciated arsenic or chromium dataset for tea.
+This synthesis was established 2026-06-04 on eight anchor sources, of which seven are A-tier and one (Kazeminia et al. 2023) is a B-tier systematic review carrying the corroborating transfer-fraction evidence. The leaf-basis occurrence picture is robust across four independent national and regional Chinese surveys; the transfer-fraction finding rests primarily on Brzezicha-Cirocka et al. 2016 with directional corroboration from Li et al. 2015 and Kazeminia et al. 2023, and is the part most in need of additional infusion-native datasets. Resynthesis triggers fire on the next two independent infusion-basis datasets, on any primary black-tea infusion survey, or on a speciated arsenic or chromium dataset for tea.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -83,15 +85,37 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/li2021-china-national-tea-reconnaissance|Occurrence, accumulation, and risk assessment of trace metals in tea (Camellia sinensis): A national reconnaissance]]<span class="hmi-ref-meta">Li W, Cheng H, Mu Y, Xu A, Ma B, Wang F, et al. · Science of the Total Environment · 2021 · [doi.org/10.1016/j.scitotenv.2021.148354](https://doi.org/10.1016/j.scitotenv.2021.148354)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hu2023-china-tea-heavy-metals|Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China]]<span class="hmi-ref-meta">Hu C, Zhang X, Zhan N, and Liu Y · Toxics · 2023 · [doi.org/10.3390/toxics11080662](https://doi.org/10.3390/toxics11080662)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/fan2025-hangzhou-green-tea-metals|Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area]]<span class="hmi-ref-meta">Fan J, Wang S, Gong L, Ren R, and Jin Q · Scientific Reports · 2025 · [doi.org/10.1038/s41598-024-84287-2](https://doi.org/10.1038/s41598-024-84287-2)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/li2015-green-tea-jiangxi-al-heavy-metals|A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China]]<span class="hmi-ref-meta">Li L, Fu QL, Achal V, and Liu Y · Environmental Monitoring and Assessment · 2015 · [doi.org/10.1007/s10661-015-4445-2](https://doi.org/10.1007/s10661-015-4445-2)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/salmani2023-herbal-teas-metals-review|Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review]]<span class="hmi-ref-meta">Salmani MH, Gholami M, Ranjbar MJ, and Mokhberi F · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03698-w](https://doi.org/10.1007/s12011-023-03698-w)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/zhang2018-tea-puan-guizhou-heavy-metals|Accumulation of Heavy Metals in Tea Leaves and Potential Health Risk Assessment: A Case Study from Puan County, Guizhou Province, China]]<span class="hmi-ref-meta">Zhang J, Yang R, Chen R, Peng Y, Wen X, and Gao L · International Journal of Environmental Research and Public Health · 2018 · [doi.org/10.3390/ijerph15010133](https://doi.org/10.3390/ijerph15010133)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/brzezicha-cirocka2016-green-tea-geographic-origins|Monitoring of essential and heavy metals in green tea from different geographical origins]]<span class="hmi-ref-meta">Brzezicha-Cirocka J, Grembecka M, and Szefer P · Environmental Monitoring and Assessment · 2016 · [doi.org/10.1007/s10661-016-5157-y](https://doi.org/10.1007/s10661-016-5157-y)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/kazeminia2023-tea-heavy-metals-review|Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review]]<span class="hmi-ref-meta">Kazeminia M, Mehrabi A, Khorrami R, Rezaeifar M, Khedmati Morasa H, and Mahmoudi R · Carpathian Journal of Food Science and Technology · 2023 · [doi.org/10.34302/crpjfst/2023.15.4.3](https://doi.org/10.34302/crpjfst/2023.15.4.3)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/jurowski2023-heavy-metals-green-tea-poland|The Control and Comprehensive Safety Assessment of Heavy Metal Impurities (As, Pb, and Cd) in Green Tea Camellia sinensis (L.) Samples (Infusions) Available in Poland]]<span class="hmi-ref-meta">Jurowski K, Kondratowicz-Pietruszka E, and Krosniak M · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03665-5](https://doi.org/10.1007/s12011-023-03665-5)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/ji2026-agricultural-soil-metals-zhejiang|Assessing spatial variability and source identification of heavy metals in agricultural soils: A geostatistical and multivariate analysis of coastal eastern Zhejiang, China]]<span class="hmi-ref-meta">Ji J and Wu X · PLOS ONE · 2026 · [doi.org/10.1371/journal.pone.0344184](https://doi.org/10.1371/journal.pone.0344184)</span><span class="hmi-ref-tag">Review</span>
+11. [[sources/munilla-garcia2023-lead-kombucha-ceramics|Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers]]<span class="hmi-ref-meta">Munilla García Z, Costa Ferrer MA, Escrivà Cerrudo S, Magistris Sancho A, Rey-Maquieira Palmer T, and Vidal Coll C · Revista Española de Salud Pública · 2023 · [www.sanidad.gob.es](https://www.sanidad.gob.es/biblioPublic/publicaciones/recursos_propios/resp/revista_cdrom/VOL97/ORIGINALES/RS97C_202305040.pdf)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [03c78ff](https://github.com/paleofoundation/heavymetalindex/commit/03c78ff) | 2026-06-08 | synthesis: promote tea (Camellia sinensis) multi-metal bioaccumulation — 8 anchors |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 10 sources added; 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 10 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

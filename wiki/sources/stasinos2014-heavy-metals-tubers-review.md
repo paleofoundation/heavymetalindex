@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Stasinos and others 2014 — Heavy metals in carrots, onions, and potatoes (review)
 
+## Overview
+
 Concise narrative review in *Journal of Food Science* compiling the open-field, greenhouse, and laboratory literature on heavy-metal bioaccumulation in three root and tuber vegetables: carrots (*Daucus carota* L.), onions (*Allium cepa* L.), and potatoes (*Solanum tuberosum* L.). The review's primary policy argument is that EU and US legislation set strict legal limits for heavy metals in water but lack analogous limits in food tubers, creating a regulatory gap that the authors urge EFSA to address. The synthesis is heaviest on Greek studies (Asopos River basin and Thiva basin) where the authors and several frequently cited co-investigators have field sites, and lightest on systematic comparison across the cited heterogeneous bases (dry weight vs. wet weight, soil vs. tissue, edible part vs. whole plant). Cr and Ni receive the most attention by design — the title flags them as the dietary-implications focus — but Pb, Cd, As, Cu, Zn, Al, Mn, Co, and Hg/MeHg also appear in the compiled tables and in the *Allium*-test physiology section. Children and pregnant women are identified throughout as the highest-risk consumer groups.
 
 ## Key numbers
@@ -118,12 +120,12 @@ Merge-enhance pass 2026-05-18 from the original `papers-cube` raw_handle:
 - Corrected `raw_handle` from `papers-cube` (invalid; not a real handle) to `PCMF_article-2` per the Papers Cube Manual Fetch handle convention.
 - Added `raw_sha256: bf4814df3a4fc70805e2739815d8127c11201a310a1bf9f14070e7a4ceeacf66` (was missing).
 - Added `access_url: https://doi.org/10.1111/1750-3841.12433` (was missing).
-- Downgraded `evidence_tier` from A to B. The paper is a peer-reviewed narrative review without PRISMA, quality assessment, or quantitative synthesis; per CLAUDE.md Part 13 it is a B-tier compiled overview rather than an A-tier well-conducted review.
+- Downgraded `evidence_tier` from A to B. The paper is a peer-reviewed narrative review without PRISMA, quality assessment, or quantitative synthesis; it is a B-tier compiled overview rather than an A-tier well-conducted review.
 - Expanded `metals:` from `[Pb, Cd, tAs, Cr, Ni, Al]` to `[Pb, Cd, tAs, Cr, Cr-VI, Ni, Al, tHg, MeHg, Cu, Zn, Mn, Co]` to match the actual analytes the review discusses; Cr-VI is added because Economou-Eliopoulos 2011/2012 and Stasinos & Zabetakis 2013 specifically work with hexavalent Cr.
 - Expanded `jurisdictions:` from `[GR, LV, US, ES, MA, PL]` to add `GB, DE, FR, IT, NL, CZ, BR, IN, NP, PK, ET, TR, CN, DK`; removed `PL` (Poland is not a primary reviewed jurisdiction; Dudka 1996 is the only Polish study cited and the page already covered Pb/Zn smelter context).
 - Removed two fabricated claims from the previous "Onions" Key-numbers paragraph:
-    1. "soil Cr contamination >93% frequency in review areas" — the 93% figure in the source refers to the relative difference of Cu (not Cr) between Thiva onions and control samples (Kirkillis and others 2012, p. R768).
-    2. "half of onions taking up >0.1 mg/kg Cd from contaminated soils" — not found anywhere in the source text or tables.
+ 1. "soil Cr contamination >93% frequency in review areas" — the 93% figure in the source refers to the relative difference of Cu (not Cr) between Thiva onions and control samples (Kirkillis and others 2012, p. R768).
+ 2. "half of onions taking up >0.1 mg/kg Cd from contaminated soils" — not found anywhere in the source text or tables.
 - Removed the unverified "(Germany)" geographic attribution on the Bunzl 2001 slag-soil entry. Bunzl is a German-affiliated study but the slag-soil experiment location is not stated in the review text or Table 1.
 - Removed legacy heading `## Wiki pages updated on ingest`; replaced with current convention `## Wiki pages this source may touch`. Removed the broken `[[supply-chain/irrigation-water]]` wikilink (no such page exists; the supply-chain directory holds only `aluminum-based-packaging.md`, `soil-nickel-screening.md`, and `index.md`).
 - Expanded `## Key numbers` to add separately labeled subsections for Carrots / Onions / Potatoes / Physiology / Dietary intake, capturing values from the review that the prior version omitted (Ebbs 2006 Illinois River carrots; Pendergrass & Butcher 2006 NC; Dahal 2008 Nepal onions; Šrek 2010 Czech potatoes; Albering 1999 Meuse potatoes; Dudka 1996 smelter potatoes; Van Driel 1995 polluted-sediment potatoes; the Stasinos 2013 percent-increase ladder for onion-leaf Cr; Table 5 consumption data; Table 6 PMTDI fractions). Every quoted value was re-verified against the PDF before inclusion.
@@ -168,15 +170,15 @@ Audit subagent ⚠️ findings on Implications-section app/certification framing
 - [[metals/cobalt]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

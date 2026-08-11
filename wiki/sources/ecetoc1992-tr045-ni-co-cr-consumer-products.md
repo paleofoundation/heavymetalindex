@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # ECETOC 1992 — Nickel, cobalt and chromium in consumer products: allergic contact dermatitis (Technical Report No. 45)
 
+## Overview
+
 ECETOC Technical Report No. 45 is an industry-consortium review prepared by a European Chemical Industry Ecology and Toxicology Centre Task Force in response to renewed regulatory interest (post-Nava et al. 1987, Vilaplana et al. 1987, Angelini and Vena 1989) in whether trace nickel, cobalt and chromium impurities in personal-care and domestic-cleaning products contribute to allergic contact dermatitis (ACD). The report pools published analytical data on Ni/Co/Cr concentrations in detergents, dishwashing liquids, surface cleaners, bleaches, textile softeners, shampoos, toothpastes, deodorants, lipsticks, mascaras and other cosmetics with unpublished industry datasets contributed by Unilever (1990) and Procter & Gamble (1985-1990) and presents them as country/product-type cells in Table 6. The Task Force concludes that trace Ni/Co/Cr in modern consumer products are typically below the ~1 ppm minimum eliciting concentration established under 48-hour occluded patch-test conditions on moderately irritated skin, and recommends that current good manufacturing practice ensuring <5 ppm of each metal in finished consumer products be adopted as a standard, with ≤1 ppm as the ultimate target. Because the report is authored by the European chemical industry's own toxicology centre and explicitly oriented toward arguing that consumer products are "not an important source" of metal contact and that regulatory focus should shift to jewellery and metal objects, its conclusions and the rhetorical framing of the Hazard Assessment (Section 6) carry an obvious sponsor-interest signature. The underlying analytical-chemistry data tables (Tables 6-9) are nonetheless an unusually broad multi-country compilation and are the report's primary contribution to the heavy-metals literature.
 
 ## Key numbers
@@ -199,15 +201,15 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 - Audit also flagged ACD prevalence anchors (Moeller 1990 "one in four women" Swedish quote; cobalt and chromium prevalence trend characterisations) as unverified from the pages re-checked. These remain in the wiki as paraphrases of the ECETOC report's own narrative summary in Section 3.2.2.4 and Tables 1-2; the quantitative figures are sourced from the cohort-by-cohort rows of Tables 1-2 rather than from a single quote and are not the primary contribution of this source page to HMI (the contamination-data tables are). Flagging for future fact-check pass without altering the paraphrase.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [c036da0](https://github.com/paleofoundation/heavymetalindex/commit/c036da0) | 2026-06-02 | audit: ecetoc1992-tr045-ni-co-cr-consumer-products revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

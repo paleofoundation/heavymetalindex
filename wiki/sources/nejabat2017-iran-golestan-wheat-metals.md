@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Nejabat et al. 2017 — Total Pb, Cd, Cu, Fe, Zn in bulk wheat grain from 35 silos in Golestan province, Iran, with adult dietary EDI/TDI comparison by graphite-furnace and flame AAS
 
+## Overview
+
 This Iranian post-harvest survey quantifies total Pb, Cd, Cu, Fe, and Zn in bulk wheat grain drawn from 35 storage silos in Golestan province, northern Iran. Wheat from each silo was sampled per Iranian National Standardization Organization (INSO) protocol No. 13535, dried at 100 °C for 24 h, ground, dry-ashed at 450 °C, dissolved in 6 M HCl on a water bath, and re-suspended in 1 % HNO₃ for atomic absorption spectrometry per Jorhem (NMKL1; J. AOAC Int. 2000). Pb and Cd were quantified by graphite-furnace AAS (Perkin-Elmer AAnalyst 800 with Zeeman background correction, AS 800 auto-sampler, L'vov platform, pyrolytic-coated graphite tubes, 99.996 % Argon); Cu, Fe, and Zn by flame AAS (air-acetylene burner, deuterium background correction). Recovery across the five analytes was 70–110 % with RSD < 20 %; LODs (mg/kg) were Cd 0.0007, Pb 0.002, Cu 0.057, Fe 1.4, and Zn 0.56. Mean ± SD concentrations across the 35 silos were Pb 0.057 ± 0.003, Cd 0.016 ± 0.005, Cu 2.7 ± 0.17, Fe 111.2 ± 21, and Zn 5.7 ± 0.22 mg/kg dry weight (ranges Pb 0.013–0.14, Cd 0.008–0.031, Cu 0.48–6.2, Fe 58.50–406.9, Zn 3.41–32.75 mg/kg). The concentration rank was Fe > Zn > Cu > Pb > Cd. All five mean values sat below the FAO/WHO maximum permissible limits cited by the authors (Cd 0.2, Pb 0.3, Cu 73.3, Fe 425.5, Zn 99.4 mg/kg) and below the INSO 2013 limits where applicable (Cd 0.03, Pb 0.15 mg/kg). Estimated daily intakes for an Iranian adult (70 kg body weight, 334 g wheat/person/day) were Pb 0.2679, Cd 0.0752, Cu 12.69, Fe 522.64, and Zn 26.79 µg/kg bw/day — all below the JECFA-derived TDIs the paper cites (Pb 3.5, Cd 0.8, Cu 50, Fe 800, Zn 30–100 µg/kg bw/day). The paper concludes wheat from Golestan does not pose a measurable non-carcinogenic health risk via the cereal pathway alone.
 
 ## Key numbers
@@ -147,15 +149,15 @@ The contribution is bounded by several limitations: the 35 silos are not broken 
 - **Data integrity.** All Table 1 cells (5 metals × 7 columns) and Table 2 cells (5 metals × 2 rows) transcribed verbatim from PDF pages 17–18. Range values cross-referenced between abstract (page 2) and per-metal §§"Cadmium (Cd)", "Lead(Pb)", "Copper (Cu)", "Zinc (Zn)", "Iron (Fe)" (pages 8–9); all four checks pass. Concentration-rank order Fe > Zn > Cu > Pb > Cd confirmed at three locations: abstract (page 2), §"Results" (page 7), and §"Discussion" (page 9). EDI rank-order Fe > Zn > Cu > Cd > Pb confirmed in §"Estimated daily intake (EDI)" (page 11). Both rank-orders are internally consistent (Cd and Pb swap rank between concentration and EDI because Cd's TDI fraction is higher than Pb's, but this is not a rank-order on EDI absolute values where Pb < Cd; the paper's reported EDI rank "Fe > Zn > Cu > Cd > Pb" matches the absolute EDI values 522.64 > 26.79 > 12.69 > 0.0752 > 0.2679 — wait, that gives Fe > Zn > Cu > Pb > Cd, not Fe > Zn > Cu > Cd > Pb; the paper's text page 11 stating "Fe > Zn > Cu > Cd > Pb" appears to be an error since Pb EDI 0.2679 > Cd EDI 0.0752. The wiki page reports the EDI rank in absolute-value order as Fe > Zn > Cu > Pb > Cd, matching the concentration rank, and flags the text-statement rank-order as a probable typo). No other internal arithmetic discrepancies identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

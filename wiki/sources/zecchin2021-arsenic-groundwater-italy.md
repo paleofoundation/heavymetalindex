@@ -6,7 +6,7 @@ title: "Arsenic-Oxidizing Bacteria in Arsenic-Contaminated Groundwaters of Po Pl
 authors: [Zecchin S, Cavalca L, Ferrario C, Viti C, Tredici SM, Manara S, Mapelli F, Daffonchio D, Borin S]
 year: 2021
 publication: "Frontiers in Microbiology"
-doi: 10.3389/fmicb.2021.664548
+doi: "10.3389/fmicb.2021.634025"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -26,6 +26,8 @@ updated: 2026-05-13
 ---
 
 # Zecchin et al. 2021 — Arsenic-contaminated groundwaters in Po Plain, Northern Italy
+
+## Overview
 
 Arsenic contamination of drinking water wells in Northern Italy's Po Plain frequently exceeds the WHO guideline and EU drinking water directive limit of 10 µg/L, posing a health risk to local populations who rely on groundwater for potable supply. This study characterizes the microbial communities in six arsenic-contaminated wells and investigates the phylogenetic and functional potential of arsenic-transforming bacteria, particularly arsenic oxidizers, to understand the geomicrobiological drivers of arsenic mobilization in Alpine Pleistocene sediments.
 
@@ -57,15 +59,15 @@ App: Drinking water from unmonitored wells in Northern Italy should be treated a
 - [[regulations/eu-drinking-water-directive-98-83-ec]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

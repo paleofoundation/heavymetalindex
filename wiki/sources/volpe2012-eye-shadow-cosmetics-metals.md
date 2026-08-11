@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Volpe 2012 - selected metals in eye shadow cosmetics
 
+## Overview
+
 Volpe and colleagues measured lead, cadmium, cobalt, chromium, and nickel in `20` powdered eye shadow cosmetics purchased in Italy and labeled as manufactured in China, Italy, or the United States. Lead is reported in `µg g-1 wet weight`; cadmium, cobalt, chromium, and nickel are reported in `ng g-1 wet weight`. The source includes brand/sample group numbers, but this page reports product-form and origin-country context only.
 
 ## Key numbers
@@ -64,3 +66,17 @@ App: The source supports eye-makeup contamination profiles for Pb, Cd, Co, Cr, a
 - Units are preserved exactly as printed: Pb in `µg g-1 wet weight`, Cd/Co/Cr/Ni in `ng g-1 wet weight`.
 - Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
 - Brand firewall: sample group/brand identifiers are not used to create brand claims; values are summarized at eye-shadow product level.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

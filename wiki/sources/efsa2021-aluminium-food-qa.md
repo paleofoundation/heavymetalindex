@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # EUFIC 2021 — Aluminium in Food: Sources, Safety, and Regulations (Q&A)
 
+## Overview
+
 EUFIC (European Food Information Council) consumer-facing Q&A page, last updated 1 December 2021, summarising the dietary sources, safety assessment, and EU regulatory framework for aluminium in food. The piece is structured as six questions: what aluminium is, where it occurs, dietary sources, safety of dietary intake, regulations on aluminium levels in foods, and regulations on aluminium use during food processing. It draws on the 2008 EFSA AFC panel opinion and 2013 EFSA dietary-exposure assessment for aluminium-containing food additives, and on EU framework and food-additives regulations.
 
 ## Key numbers
@@ -66,7 +68,7 @@ Merge-enhance pass 2026-05-28 (Claude Opus 4.7) of an earlier ingest that contai
 - **Evidence-tier dropped from A to B with rationale.** A-tier is reserved for peer-reviewed primary research and government-agency scientific opinions. A consumer Q&A summarising secondary EFSA opinions does not qualify. B is the NGO/industry-communication tier per the schema convention; the tier rationale flags that this source contributes no original data.
 - **Invalid matrices slugs removed.** Prior version had `matrices: [dietary-intake, food-additives, cookware-migration]`, none of which are food-matrix vocabulary slugs (the matrices field carries food matrices like rice, fish, herbs, etc.). The Q&A measures no specific matrix; set to `[]`.
 - **Products field cleared.** Prior version routed this source to `products/infant-formula`. The Q&A mentions infant formula once, in passing, as a member of the "dairy and soya products" group that can contain aluminium. There is no infant-formula occurrence data, no infant-formula-specific exposure estimate, and no infant-formula regulatory citation. Routing a contentless reference to all four infant-formula product pages overstates this source. Set to `[]`.
-- **`## Implications` section removed.** The legacy section contained Part 2 firewall violations: "HMT&C product threshold-setting pages for products containing high-Al ingredients (tea, cocoa, spices) should reference these values." Per CLAUDE.md Part 2, source pages report what one paper found; they do not direct HMT&C threshold-setting. The section also contained "courses" and "app" implications that are speculative downstream framing rather than what the source states.
+- **`## Implications` section removed.** The legacy section contained Part 2 firewall violations: "HMT&C product threshold-setting pages for products containing high-Al ingredients (tea, cocoa, spices) should reference these values." Source pages report what one paper found; they do not direct HMT&C threshold-setting. The section also contained "courses" and "app" implications that are speculative downstream framing rather than what the source states.
 - **`## Wiki pages updated on ingest` section removed.** Legacy heading per skill v2 EXISTING-path defect list. Downstream routing is the routing audit's job, not the source page's.
 - **`raw_handle` updated from placeholder.** Prior version had `raw_handle: manual-fetch-kimi` (the parent-folder placeholder used in ~100 legacy ingests). Updated to `MFK_aluminum-in-food-qa-sources-safety-and-regulations` per the v2 MFK_ handle convention.
 - **`raw_sha256` populated** (74a64521bc8c0fc4423efc9efc71f181a2698dc034ffcd03eb53df3249ecbe3b) from the on-disk PDF.
@@ -75,15 +77,15 @@ Merge-enhance pass 2026-05-28 (Claude Opus 4.7) of an earlier ingest that contai
 - The substantive Q&A content — six questions, the TWI/PTWI values, the qualitative dietary-source list, the regulatory framework — is preserved and restructured into Key numbers / Dietary sources stated / Regulatory landscape stated / Methods sections that match current source-page conventions.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

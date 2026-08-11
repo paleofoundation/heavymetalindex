@@ -6,6 +6,8 @@ updated: 2026-04-24
 status: stub
 ---
 
+## Overview
+
 This page describes how the Heavy Metal Index is built. It is the first page sophisticated readers are expected to consult, and is maintained as a living document. Substantive changes to methodology are logged; the version history in git is the authoritative record.
 
 ## Current status
@@ -93,4 +95,4 @@ A human review layer is a non-negotiable part of this project. Pure algorithmic 
 
 ## Licensing and access
 
-The Heavy Metal Index is operated by the Paleo Foundation (Cyprus) and is published for public research access under terms that distinguish non-commercial research use from commercial bulk access. The European Union's database-rights framework applies. The terms of use published at [terms](/terms) govern use of the site and its content. Commercial licensing for bulk access or derivative works is available by arrangement with the Paleo Foundation.
+The Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS) (Cyprus) and is published for public research access under terms that distinguish non-commercial research use from commercial bulk access. The European Union's database-rights framework applies. The terms of use published at [terms](/terms) govern use of the site and its content. Commercial licensing for bulk access or derivative works is available by arrangement with the Institute of Contaminant Standards (ICS).

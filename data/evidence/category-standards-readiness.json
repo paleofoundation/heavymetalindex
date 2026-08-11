@@ -1,25 +1,53 @@
 {
-  "6": {
-    "name": "Seafood",
-    "locked_rows": 6,
-    "ready_rows": 4,
-    "manual_ready": false,
+  "3": {
+    "name": "Grains, Cereals, and Rice Products",
+    "locked_rows": 2,
+    "ready_rows": 2,
+    "manual_ready": true,
+    "manual_built": false,
+    "publication_blockers": [],
     "rows": [
       {
-        "slug": "canned-seafood",
+        "slug": "breakfast-cereal-non-rice",
         "ready": true,
         "blocking": []
       },
       {
-        "slug": "fish-freshwater",
+        "slug": "breakfast-cereal-rice-based",
         "ready": true,
         "blocking": []
+      }
+    ]
+  },
+  "6": {
+    "name": "Seafood",
+    "locked_rows": 5,
+    "ready_rows": 1,
+    "manual_ready": false,
+    "manual_built": true,
+    "publication_blockers": [
+      "fish-freshwater:MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "fish-marine-non-predatory:MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "fish-marine-non-predatory:iAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "seaweed-kelp-foods:iAs adjudication-hold (HOLD PROVISIONAL pending source-level adjudication of the new iAs sources: verify analyte )",
+      "seaweed-kelp-foods:tAs adjudication-hold (WITHDRAWN 2026-06-16: seaweed total-As is arsenosugar-dominated; iAs is the toxic AND regu)",
+      "seaweed-kelp-foods:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete",
+      "shellfish:iAs toxic, no mapped government cap — Method v2.0 lookup incomplete"
+    ],
+    "rows": [
+      {
+        "slug": "fish-freshwater",
+        "ready": false,
+        "blocking": [
+          "MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)"
+        ]
       },
       {
         "slug": "fish-marine-non-predatory",
         "ready": false,
         "blocking": [
-          "iAs: no usable evidence (needs data)"
+          "MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+          "iAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)"
         ]
       },
       {
@@ -31,21 +59,145 @@
         "slug": "seaweed-kelp-foods",
         "ready": false,
         "blocking": [
-          "iAs: no usable evidence (needs data)"
+          "iAs adjudication-hold (HOLD PROVISIONAL pending source-level adjudication of the new iAs sources: verify analyte )",
+          "tAs adjudication-hold (WITHDRAWN 2026-06-16: seaweed total-As is arsenosugar-dominated; iAs is the toxic AND regu)",
+          "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
         ]
       },
       {
         "slug": "shellfish",
+        "ready": false,
+        "blocking": [
+          "iAs toxic, no mapped government cap — Method v2.0 lookup incomplete"
+        ]
+      }
+    ]
+  },
+  "24": {
+    "name": "Dairy and Milk Products",
+    "locked_rows": 1,
+    "ready_rows": 0,
+    "manual_ready": false,
+    "manual_built": true,
+    "publication_blockers": [
+      "butter-and-ghee:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+    ],
+    "rows": [
+      {
+        "slug": "butter-and-ghee",
+        "ready": false,
+        "blocking": [
+          "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+        ]
+      }
+    ]
+  },
+  "30": {
+    "name": "Culinary Oils and Fats",
+    "locked_rows": 2,
+    "ready_rows": 1,
+    "manual_ready": false,
+    "manual_built": true,
+    "publication_blockers": [
+      "cooking-oils-other:Cd adjudication-hold (HELD 2026-06-18: pool contaminated by mg/kg-as-ppb autonomy extractor mis-scale (per-row, )"
+    ],
+    "rows": [
+      {
+        "slug": "cooking-oils-other",
+        "ready": false,
+        "blocking": [
+          "Cd adjudication-hold (HELD 2026-06-18: pool contaminated by mg/kg-as-ppb autonomy extractor mis-scale (per-row, )"
+        ]
+      },
+      {
+        "slug": "olive-oil",
         "ready": true,
         "blocking": []
       }
     ]
   },
-  "7": {
-    "name": "Oils, Condiments, and Specialty Foods",
-    "locked_rows": 0,
+  "31": {
+    "name": "Sweeteners and Syrups",
+    "locked_rows": 1,
+    "ready_rows": 1,
+    "manual_ready": true,
+    "manual_built": false,
+    "publication_blockers": [],
+    "rows": [
+      {
+        "slug": "honey",
+        "ready": true,
+        "blocking": []
+      }
+    ]
+  },
+  "32": {
+    "name": "Condiments, Sauces, and Vinegars",
+    "locked_rows": 1,
     "ready_rows": 0,
     "manual_ready": false,
-    "rows": []
+    "manual_built": false,
+    "publication_blockers": [
+      "vinegar:Pb adjudication-hold (REVIEW before publishing firm)",
+      "vinegar:tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "vinegar:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+    ],
+    "rows": [
+      {
+        "slug": "vinegar",
+        "ready": false,
+        "blocking": [
+          "Pb adjudication-hold (REVIEW before publishing firm)",
+          "tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+          "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+        ]
+      }
+    ]
+  },
+  "33": {
+    "name": "Cocoa and Chocolate",
+    "locked_rows": 1,
+    "ready_rows": 0,
+    "manual_ready": false,
+    "manual_built": false,
+    "publication_blockers": [
+      "chocolate:Pb adjudication-hold (REVIEW before publishing firm)"
+    ],
+    "rows": [
+      {
+        "slug": "chocolate",
+        "ready": false,
+        "blocking": [
+          "Pb adjudication-hold (REVIEW before publishing firm)"
+        ]
+      }
+    ]
+  },
+  "34": {
+    "name": "Herbs, Spices, Seasonings, and Salt",
+    "locked_rows": 2,
+    "ready_rows": 0,
+    "manual_ready": false,
+    "manual_built": true,
+    "publication_blockers": [
+      "salt:Cd QC-HELD (C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one obser)",
+      "spices:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+    ],
+    "rows": [
+      {
+        "slug": "salt",
+        "ready": false,
+        "blocking": [
+          "Cd QC-HELD (C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one obser)"
+        ]
+      },
+      {
+        "slug": "spices",
+        "ready": false,
+        "blocking": [
+          "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
+        ]
+      }
+    ]
   }
 }

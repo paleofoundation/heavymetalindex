@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 140f6351b197c1a10303228b5ceffd44e14764f8f4be940acb39fa3eb42d6fac
+source_page_sha256: 8244cb4b8ad16ae7dade20903253d46906fe5ee989b9a8f5a125c844c8ee012c
 total_claims: 96
 cited_claims: 96
 uncited_claims: 0
-distinct_cited_targets: 33
-distinct_cited_sources: 27
+distinct_cited_targets: 35
+distinct_cited_sources: 29
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 6
-audit_log_total_rows: 972
+audit_rows_for_cited_targets: 17
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 96 |
 | cited claims | 96 |
 | uncited claims | 0 |
-| distinct cited targets | 33 |
-| distinct cited `sources/` pages | 27 |
+| distinct cited targets | 35 |
+| distinct cited `sources/` pages | 29 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 6 |
-| audit log rows read | 972 |
+| audit rows on cited target pages | 17 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -54,9 +54,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -68,9 +69,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -82,9 +84,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -158,7 +161,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |`
@@ -168,7 +172,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior`
@@ -178,7 +183,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `10 ppb`
 - Context: `t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equ`
@@ -188,7 +194,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about`
@@ -198,7 +205,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `lized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g`
@@ -208,7 +216,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `2.9 ppb`
 - Context: `0 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb a`
@@ -218,7 +227,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `10 ppb`
 - Context: `65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb as regulatory cap/context and kee`
@@ -228,7 +238,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 ### Distribution Context
 
@@ -868,8 +879,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `tection rates and medians; mixed foods category had highest reported Cd median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -904,6 +917,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -914,8 +929,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `covering mixed-ingredient categories; contributes to the evidence base for the 10 ppb Pb action level applied to mixtur`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -950,6 +967,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -960,8 +979,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `760 µg/kg`
 - Context: `in 43 Brazilian commercial salty purees (mixed-ingredient infant meals up to 2,760 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -996,6 +1017,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1006,8 +1029,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `653 µg/kg`
 - Context: `concentrations for Al, Sb, tAs, Cd, Cr, Ni, Sn, and V in soups/purees (Al mean 653 µg/kg) and vegetable-based ready-to-`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1042,6 +1067,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1052,8 +1079,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `999 µg/kg`
 - Context: `al category-level means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg,`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1088,6 +1117,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1098,8 +1129,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 µg/kg`
 - Context: `el means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1134,6 +1167,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1144,8 +1179,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 µg/kg`
 - Context: `ury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 6`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1180,6 +1217,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1190,8 +1229,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/kg`
 - Context: `oods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg);`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1226,6 +1267,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1236,8 +1279,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 µg/kg`
 - Context: `hout meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to no`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1272,6 +1317,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1282,8 +1329,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `97 µg/kg`
 - Context: `,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to non-rice mixed-me`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1318,6 +1367,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1337,10 +1388,11 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
-| `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
@@ -1364,6 +1416,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
+| `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` | sources | 0 | — | — |
 | `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/zhang2017-red-raspberry-nutrient-profile\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |

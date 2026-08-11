@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lawluvi et al. 2026 — Maternal geophagy in Ghana and multi-metal exposure during pregnancy
 
+## Overview
+
 This mini-review examines the practice of geophagy (intentional clay consumption) among pregnant women in Ghana and synthesizes available evidence on the heavy metal content of geophagic clays and the associated health risks for mothers and fetuses. Geophagic clays sampled in Ghana were found to contain Pb, As, Cd, Cr, and Hg at concentrations exceeding international food safety reference values, with bioaccessibility studies showing increased metal release under simulated gastric conditions, indicating that the orally ingested fraction available for absorption is higher than total-metal concentrations suggest. Naturally occurring radionuclides including K-40, U-238, and Th-232 were also detected in sampled clays, adding a radiological exposure dimension to the chemical metal burden. The review additionally documents microbial and parasitological contamination in geophagic clays, noting that the combined chemical, radiological, and biological hazards make geophagy a compound exposure pathway for pregnant women in Ghana, with fetal developmental risks from Pb, As, and Cd being the primary concern given their transplacental transfer properties.
 
 ## Key numbers
@@ -62,15 +64,15 @@ Microbiome: Combined microbial + chemical exposure via clay ingestion is a poten
 - [[metals/cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

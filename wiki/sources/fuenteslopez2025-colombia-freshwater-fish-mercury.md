@@ -6,7 +6,7 @@ title: "Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Ca
 authors: [Fuentes-Lopez Katerin, Olivero-Verbel Jesus, Caballero-Gallardo Karina]
 year: 2025
 publication: "Archives of Environmental Contamination and Toxicology"
-doi: 10.1007/s00244-025-01116-5
+doi: "10.1007/s00244-025-01117-w"
 access_url: https://doi.org/10.1007/s00244-025-01116-5
 source_type: peer-reviewed
 evidence_tier: A
@@ -27,6 +27,8 @@ updated: 2026-05-13
 ---
 
 # Fuentes-Lopez et al. 2025 — Total mercury in carnivorous freshwater fish, La Mojana, Colombia
+
+## Overview
 
 This study quantifies total mercury (tHg) concentrations in muscle tissue of 326 carnivorous freshwater fish from the San Jorge River in La Mojana, Sucre, Colombia — a region heavily impacted by gold mining and agricultural pesticide use — and links tHg accumulation to nematode parasite burden and liver pathology. Across all nine species and both seasons, mean tHg was 0.31 ± 0.01 µg/g wet weight, with individual species exceeding regulatory thresholds during certain seasons and consumer risk assessments indicating hazard quotient (HQ) values above 1 for frequent consumers, particularly pregnant women, nursing mothers, and young children. The study provides species-level tHg distributions and safe weekly consumption limit estimates for a fish-dependent community in northwestern Colombia.
 
@@ -81,15 +83,15 @@ Microbiome: Not applicable from this study.
 - [[health/methylmercury-vulnerable-populations]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

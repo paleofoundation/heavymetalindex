@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # OEHHA 2025 — Nickel and Nickel Compounds (Proposition 65 fact sheet)
 
+## Overview
+
 The California Office of Environmental Health Hazard Assessment maintains a consumer-facing fact sheet on the Proposition 65 Warnings Website explaining why nickel and nickel compounds carry Prop 65 warnings. The fact sheet announces two distinct Prop 65 listings: the cancer listing covering nickel and nickel compounds as a class (with named target sites of nasal cavity, paranasal sinus, and lungs), and a separate reproductive-toxicity listing restricted to soluble nickel compounds and nickel carbonyl (covering developmental effects during pregnancy and male reproductive effects). The fact sheet is consumer-audience tertiary communication: it does not derive No Significant Risk Levels or Maximum Allowable Daily Levels, and it does not catalogue occurrence values. Its function is to explain the listings to people who encounter a Prop 65 warning label and want to understand the exposure pathways and risk-reduction steps that California identifies as relevant.
 
 ## Summary
@@ -68,12 +70,15 @@ App: low utility — no occurrence data, no thresholds, no matrix-specific guida
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

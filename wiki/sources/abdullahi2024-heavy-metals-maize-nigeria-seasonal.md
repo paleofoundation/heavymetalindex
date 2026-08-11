@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Abdullahi et al. (2024) measured Zn, Pb, Cd, Ni, Co, Cu, Cr, and Hg in maize grain and root composites from 10 sampling sites within the Kano River Irrigation Project (KRIP) in northern Nigeria, sampling once during the 2022 wet season and once during the 2023 dry season, and computed root-to-grain Translocation Factors (TF = Rconc/Gconc) for each site-season pair. The principal finding is a pronounced seasonal effect on grain contamination: Cd, Cr, and Hg were below detection in wet-season grain, whereas dry-season grain showed detectable Cd at all sites and Cr at all sites, with location-mean concentrations of Zn, Pb, Cd, and Cr in dry-season grain exceeding the FAO/WHO permissible limits (PL) cited by the authors (compiled from Ogundele et al. 2015 and Chiroma et al. 2014). The seasonal effect also reorganized root-to-grain partitioning: in the wet season, Ni and Co accumulated preferentially in roots (mean TF > 1) while Zn, Pb, and Cu translocated preferentially to grain; in the dry season, only Cr accumulated preferentially in roots (mean TF 1.70) while every other measured metal translocated preferentially to grain.
 
 ## Key numbers
@@ -143,15 +145,15 @@ Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which was in `routing_
 - Wiki pages updated on ingest — expanded to include `[[metals/zinc]]`, `[[metals/copper]]`, `[[metals/cobalt]]`, and `[[metals/mercury]]` (previously omitted despite being measured).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

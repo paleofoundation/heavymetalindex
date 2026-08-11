@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Barchiesi 2020 - Shellfish metals in central Italy
 
+## Overview
+
 Barchiesi and colleagues analyzed official-monitoring data for cadmium, lead, and mercury in shellfish collected along the Italian coastline from 2017 through 2019. The dataset covered bivalve mollusks, marine gastropods, and sea urchins, with `N = 2207` records after data cleaning. Mercury is reported as `Hg` without methylmercury speciation, so this page records it as total/unspecified mercury (`tHg`).
 
 ## Key numbers
@@ -151,11 +153,15 @@ This source contributes official-monitoring shellfish occurrence data for Cd, Pb
 - Missing closed-vocabulary slugs: sea urchin/echinoderm-specific ingredient and product slugs were not available in the taxonomy snapshot, so frontmatter routes through the broad shellfish row and notes the gap here.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c58449d](https://github.com/paleofoundation/heavymetalindex/commit/c58449d) | 2026-06-08 | ingest: barchiesi2020-shellfish-metals-central-italy fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

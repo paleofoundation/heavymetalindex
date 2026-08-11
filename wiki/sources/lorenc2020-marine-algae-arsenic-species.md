@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Lorenc et al. 2020 - arsenic species in marine algae products
 
+## Overview
+
 Lorenc and colleagues developed and validated a combined HPLC/ICP-MS and UPLC/ESI-MS/MS workflow for arsenic in algae products. The occurrence-relevant data are the total arsenic and arsenic-speciation values in Table 2 for five algae/seaweed materials, including a commercial cooked/dried hijiki product, nori sheets, serrated wrack, and two reference materials. Unknown arsenic and arsenosugar species are kept separate from inorganic arsenic.
 
 ## Key numbers
@@ -95,3 +97,17 @@ This source provides a method-centered but routeable arsenic-speciation dataset 
 - Speciation check: As(III), As(V), DMA, AsB, MMA, unknown arsenic, and arsenosugar/organic species remain separate. No tAs value or arsenosugar identification is promoted to iAs.
 - Brand firewall: the source does not name consumer brands; the page records product forms/material types and CRM/SRM identities only.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact nori, hijiki, serrated wrack, Fucus, and kelp powder terms remain in source text while frontmatter uses broad seaweed/kelp and algae/seaweed supplement slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

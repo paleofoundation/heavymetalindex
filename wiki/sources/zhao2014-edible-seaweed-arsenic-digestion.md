@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zhao et al. 2014 - edible-seaweed arsenic digestion speciation
 
+## Overview
+
 Zhao and colleagues measured total arsenic and four extractable arsenic species in five edible seaweeds purchased from Qingdao supermarkets. The paper separates water-extract, simulated-gastric, and simulated-intestinal arsenic species, so As(III), As(V), DMA, and MMA are recorded separately below. The source is directly relevant to seaweed/kelp foods, especially because the high total arsenic in *Hizikia fusiformis* is paired with high water-extract As(V) but lower simulated-gastric As(III).
 
 ## Key numbers
@@ -98,3 +100,17 @@ This source contributes seaweed/kelp food occurrence evidence for both total ars
 - Speciation check: total As, As(III), As(V), DMA, and MMA are kept distinct. As(III) and As(V) are treated as inorganic arsenic context; DMA and MMA are not promoted to iAs.
 - Brand firewall: samples are supermarket-purchased seaweeds by species, with no product brand names reported.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species remain in Key numbers while frontmatter routes broadly to seaweed/kelp foods.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

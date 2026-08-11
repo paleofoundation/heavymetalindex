@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Tang et al. 2024 - Spent mushroom residue, soil fertility, and soil metals
 
+## Overview
+
 Tang and colleagues tested whether returning spent mushroom residues to a rice-wheat rotation field improved crop yield and soil fertility while changing soil Pb, Cd, and Cr accumulation. This is primary agronomic soil evidence, not crop-metal occurrence evidence: the paper reports rice and wheat grain yields, but heavy-metal concentrations are measured in soil and spent mushroom residues, not in harvested grain.
 
 ## Key numbers
@@ -103,15 +105,15 @@ Courses: Useful for teaching why agronomic yield trials must be separated from f
 This page was built from the full PDF, including the abstract, Table 1 yield values, Figure 1 soil-fertility summary, Figure 2 heavy-metal relative changes and RI index, Figure 3 correlations, field-design methods, Table 2 mushroom-residue properties and application rates, soil-sampling and analytical methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source measures soil metals and residue input metals only; it does not report rice-grain or wheat-grain metal concentrations. The PDF extraction duplicates some figure captions and the peer-review layout, so numeric values were checked against the raw text where possible.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [fafca28](https://github.com/paleofoundation/heavymetalindex/commit/fafca28) | 2026-06-02 | ingest June 2: tang2024-spent-mushroom-residue-soil-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

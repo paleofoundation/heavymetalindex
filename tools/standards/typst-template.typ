@@ -18,7 +18,7 @@
   subtitle: none,
   author: "Karen Pendergrass, Standards Architect",
   edition: "2026 Edition",
-  publisher: "Paleo Certified, Inc. dba The Paleo Foundation",
+  publisher: "Paleo Certified, Inc. dba The Institute of Contaminant Standards (ICS)",
   body
 ) = {
   // Document-level metadata.
@@ -232,7 +232,7 @@
         author,
       )
       linebreak()
-      text(size: 10pt, fill: rgb("#444"), "Standards Architect, The Paleo Foundation")
+      text(size: 10pt, fill: rgb("#444"), "Standards Architect, The Institute of Contaminant Standards (ICS)")
       v(0.2in)
       text(size: 9pt, fill: rgb("#666"), publisher)
     }

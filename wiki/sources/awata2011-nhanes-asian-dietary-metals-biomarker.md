@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Awata et al. 2017 — Dietary intake and metal biomarkers in US Asians: NHANES 2011-2012
 
+## Overview
+
 Note on year: the manifest assigns this paper year 2011, but the paper itself states it was received February 2016, accepted July 2016, published September 2016, and cites NHANES 2011-2012 data. The actual publication year is 2017 (Environmental Health Perspectives, vol. 125, pp. 314-323). The cite_key uses 2011 per the manifest assignment but the year field is corrected to 2017.
 
 This study evaluated dietary intake of arsenic (total and inorganic), cadmium, lead, and mercury as sources of elevated metal biomarker levels among US Asians using NHANES 2011-2012 nationally representative data. Significant associations were found between biomarker levels and estimated dietary metal intake for total arsenic, inorganic arsenic, and mercury among Asians. Asians had the highest daily fish and rice consumption across racial/ethnic groups. Fish was the major dietary contributor to tHg and tAs; rice was the major contributor to iAs. Asian Indians had lower fish consumption than other Asian subgroups, resulting in lower Hg and tAs exposure. Rice consumption was similar across Asian subgroups. Cadmium and lead dietary intake were not significantly associated with their corresponding biomarkers in this Asian sample.
@@ -56,15 +58,15 @@ App: the fish-tHg and rice-iAs linkages directly validate the app's prioritizati
 - [[ingredients/fish]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

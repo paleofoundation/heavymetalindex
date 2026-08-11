@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wang et al. 2020 - Lignin-residue biochar for heavy-metal remediation
 
+## Overview
+
 Wang and colleagues converted lignin-rich residue from a furfural manufacturing process into activated biochars and tested them as aqueous sorbents for Pb(II), Cd(II), and Cu(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are biochar properties, adsorption kinetics, and isotherm capacities rather than concentrations in edible crops, ingredients, consumer products, or drinking water.
 
 ## Key numbers
@@ -101,15 +103,15 @@ Audit subagent (2026-06-02) flagged `[[mitigation/agronomic]]` as a semantic mis
 The `matrices` slugs (`lignin-rich-residue`, `corn-cob-residue`, `biochar`, `aqueous-sorption-test`, `wastewater-remediation`) are remediation-domain proposals outside the project's current food-matrix controlled vocabulary. A future taxonomy refresh should decide whether to formalize a remediation-matrix vocabulary or to route this source via a separate non-food remediation register. The routing audit's malformed entry for this source is advisory (empty `products`/`ingredients`) and reflects the genuine absence of food/ingredient/product scope, not a defect.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [aa6cbef](https://github.com/paleofoundation/heavymetalindex/commit/aa6cbef) | 2026-06-02 | ingest June 2: wang2020-lignin-residue-biochar-heavy-metal-remediation |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

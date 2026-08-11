@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # EDQM 2024 - metals and alloys food-contact-material guide
 
+## Overview
+
 The EDQM / Council of Europe 2nd edition technical guide supplements Resolution `CM/Res(2020)9` for food-contact materials and articles made from metals and alloys. It sets specific release limits (`SRLs`) in `mg/kg food`, summarizes safety reviews for alloy components and metal contaminants, and specifies release-testing approaches for foodstuffs and food simulants. This is regulatory context for metal food-contact materials rather than an occurrence study; its values are release limits and test-method instructions, not measured product concentrations.
 
 ## Key numbers
@@ -146,3 +148,17 @@ App: If a future food-contact-material module surfaces metal kitchenware context
 - HMTc firewall: the guide's SRLs are Council of Europe regulatory values and are not presented as HMTc certification thresholds.
 - Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact product-row slugs for industrial food-processing equipment, pipes, tanks, and coffee-maker pathways are absent or not in the current snapshot, so those use cases are retained in prose rather than added to frontmatter.
 - Missing slug note: the current metal-page vocabulary lacks a `metals/zirconium` page slug, so the Zr SRL is retained in the frontmatter metal list and Key numbers but no zirconium wiki-page link was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

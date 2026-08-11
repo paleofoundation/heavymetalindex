@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Thomas et al. 2022 - lead-contaminated game meat awareness
 
+## Overview
+
 Thomas and colleagues review the human-health exposure pathway from lead-based hunting ammunition into wild game meat and compare the attention given to that pathway by international and national health organizations. The paper is not a new occurrence survey; it synthesizes published evidence on lead fragments, bioavailability, blood lead, high-consumption groups, food-bank distribution, and policy gaps. It is useful as game-meat lead exposure context, not as a concentration-distribution input.
 
 ## Key numbers
@@ -70,3 +72,17 @@ App: The source can support explanatory game-meat lead cards that distinguish pr
 - Speciation: the paper concerns elemental lead from lead ammunition and lead fragments in game meat; no arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: no brand names are attached to contamination values. Firearm/ammunition descriptors are source-pathway context, not product-brand comparisons.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks a `game-meat` ingredient slug, so ingredients route through broad `meat` and `meat-and-poultry`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

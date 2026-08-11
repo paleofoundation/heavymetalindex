@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Chengappa et al. 2025 — Systematic review of heavy metals in over-the-counter toothpastes (11 in vitro studies)
 
+## Overview
+
 This Frontiers in Dental Medicine PRISMA 2020 systematic review compiles in vitro evidence on the presence and concentration of heavy metals in over-the-counter toothpastes from 11 primary studies published between 2013 and 2023, screened from 9,409 database records via Google Scholar, PubMed, Scopus, Springer Link, Embase, and Web of Science. All 11 included studies reported the presence of one or more heavy metals — toxic (Cd, Pb, tHg, tAs, Ag) and essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification — in the toothpastes analysed. Eight of the eleven studies used atomic absorption spectrophotometry (AAS; several specified flame AAS in Table 1); two used ICP-MS; one used microwave plasma-atomic emission spectrometry (MP-AES). Quality assessment with the Quality Assessment Tool for in vitro Studies (QUIN) returned a high risk of bias for seven of the eleven studies and a medium risk for the remaining four (no study met the low-risk threshold). The review identifies regulatory-limit fragmentation across jurisdictions and a near-absence of toothpaste-specific occurrence data from North America, Europe (outside Malta), East Asia, and South America as the primary literature gaps.
 
 ## Key numbers
@@ -146,12 +148,12 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 ## Verification notes
 
 - Brand firewall (Part 12 strict reading, 2026-05-17): the systematic review itself does not name individual toothpaste brands in its body text; it cites the primary studies' authors and per-study aggregate findings. The review explicitly notes in its Limitations (§6.1, p. 7): "the absence of specific brand names of toothpastes in some studies could affect the applicability of the results." This page reports only per-study aggregates and ranges; no brand attribution is reproduced.
-- Speciation discipline: the included primary studies report total arsenic and total mercury without speciation. This page records `tAs` and `tHg` per CLAUDE.md Part 14. Chromium is recorded as total `Cr` (no included study reports Cr-VI separately).
+- Speciation discipline: the included primary studies report total arsenic and total mercury without speciation. This page records `tAs` and `tHg`. Chromium is recorded as total `Cr` (no included study reports Cr-VI separately).
 - Paper-internal discrepancy on Arshad et al. 2020 Cd range (recorded, not adjudicated): §5.3 (p. 4) reports the Arshad et al. Cd range as 0.0125–1.392 ppm; §6 Discussion (p. 6) reports the same range as 0.0037–1.39 ppm. The review does not flag which is the original primary-study value. Synthesis pass should consult the Arshad et al. 2020 primary publication.
 - Paper-internal discrepancy on Valentine & Ozioma 2022 sample size (recorded, not adjudicated): Table 1 (p. 5) reports n=5 for Valentine & Ozioma; the §5.3 narrative (p. 5) describes "their study of ten toothpastes in Nigeria, Valentine and Ozioma (21) reported the presence of the toxic heavy metals cadmium and lead in two of the ten toothpastes." Five-vs-ten cannot both be right. Synthesis pass should consult the Valentine & Ozioma 2022 primary publication.
 - Paper-internal discrepancy on Almukainzi et al. 2022 concentration units (recorded, not adjudicated): the §5.3 narrative reports Cd 8.8–9.19 ppm, Pb 75.86–78.31 ppm, tAs 209.33–221.96 ppm. The independently-ingested Almukainzi 2022 primary study ([[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]) is the canonical source for these values; the review's transport of those concentrations is included here as the review reports them. Synthesis should use the primary source.
 - Regulatory-limit transport: the review transports cosmetic and toothpaste regulatory limits from FDA, WHO, EU, Health Canada, and India BIS via secondary citation. These should be verified against the primary regulatory documents before being placed on `regulations/*` pages or used in HMTc threshold work. The review attributes Pb=20 ppm to FDA cosmetics (ref 26) but the FDA's published cosmetics testing page does not state a 20 ppm Pb limit for cosmetics generally; this is a transport-error candidate that the synthesis pass should reconcile.
-- Evidence tier: A-tier per CLAUDE.md Part 13 (peer-reviewed systematic review, PRISMA 2020-compliant, prospectively registered at OSF). The QUIN-assessed quality of the included primary studies (7 high-risk, 4 medium-risk, 0 low-risk) is a downstream-weighting concern for synthesis, not a reason to downgrade the review itself.
+- Evidence tier: A-tier (peer-reviewed systematic review, PRISMA 2020-compliant, prospectively registered at OSF). The QUIN-assessed quality of the included primary studies (7 high-risk, 4 medium-risk, 0 low-risk) is a downstream-weighting concern for synthesis, not a reason to downgrade the review itself.
 - The lead author Chengappa K of this systematic review is the same author as the primary AAS study Chengappa et al. 2025 ([[sources/chengappa2025-toothpaste-india-aas]], Scientific Reports, doi 10.1038/s41598-025-12748-3). The systematic review (ref 14 in the primary study) was registered before and informed the design of the primary study; both are independently ingested. The primary study supersedes the systematic review's transported Almukainzi values for the Saudi Arabia data point.
 - Empty `ingredients: []` and `matrices: [cosmetic-personal-care]` are intentional: the included studies measure metals as contaminants in finished cosmetic products (toothpastes), not in food-style ingredients. The `cosmetic-personal-care` matrices vocabulary follows the established convention across sibling source pages (chengappa2025-toothpaste-india-aas, jitareanu2025, rbeida2023, balogun2024, massarsky2025, arshad2020).
 - The paper folder location (`03_Contamination_Data` within `June 1 Infant cosmetics metals papers`) is a manual-fetch curation choice; the systematic review itself does not specifically address children's or infant oral-care products (one included study, Odukudu et al. 2013, examined "fluoride and heavy metals" in toothpastes; no included study restricted to children's toothpaste). Routing to [[products/toothpaste]] (Cat 2) is appropriate.
@@ -165,15 +167,15 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - Audit subagent (2026-06-02) flagged the opening paragraph's "essential (Co, Zn, Cr, Cu, Fe, Ni, Sn)" classification as adding Sn to the essential category, where the source p. 4 classifies only "Cobalt, zinc, chromium, copper, iron, and nickel" as essential (Sn is detected by Vella & Attard but not categorically classified in the source's essential/toxic schema). Corrected to "essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

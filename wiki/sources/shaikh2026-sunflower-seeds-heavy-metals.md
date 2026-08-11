@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shar et al. 2026 - metals in sunflower seeds from Sindh ecological zones
 
+## Overview
+
 Shar and coauthors measured Pb, Cd, Cr, Cu, Zn, and Fe in 36 composite sunflower seed samples (six composites from each of six districts) collected from different ecological zones of Sindh, Pakistan during the rabi crop season 2022-2023. The source is directly routeable to sunflower seeds and provides per-site dry-weight means with SDs. Tando jam emerges as the priority Pb/Cd/Cr contamination cluster (attributed to upstream industrial effluents and urban drainage), while Kotri's higher Fe/Zn/Cu is attributed to naturally ferruginous alluvial soils of the lower Indus plain.
 
 ## Key numbers
@@ -62,15 +64,15 @@ Certification: Pakistan/Sindh sunflower-seed occurrence evidence for Cd, Pb, Cr,
 All numeric values verified against the published PDF (Planta Animalia Vol 5 Issue 2, pp. 191-197, DOI 10.71454/PA.005.02.0383). Title, authors, and key numbers transcribed from the published PDF directly, not from the abstract alone. The cite_key (`shaikh2026-...`) preserves the original ingest-time slug for cross-reference stability, but the actual first author is Shar (not Shaikh); downstream tooling that derives author display from frontmatter should read the `authors:` field, not the cite_key prefix. Note an internal inconsistency in the published paper: the Results prose says "Highest cadmium concentration was found in the samples from Tando jam and Tando Allahyar with mean values mean 0.009 mg/kg" but Table 3 shows Tando Allahyar (S3) at 0.006 mg/kg, the lowest of the six sites; the table is treated as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c63b4e9d5](https://github.com/paleofoundation/heavymetalindex/commit/c63b4e9d5) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

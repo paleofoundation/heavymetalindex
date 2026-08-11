@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # ATSDR 2005 — ToxFAQs for Tin and Tin Compounds
 
+## Overview
+
 The August 2005 ATSDR ToxFAQs fact sheet (Tox fact sheet #55) is the two-page consumer-facing summary of the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update). It carries no primary data of its own; its function in the wiki corpus is to document the US federal occupational and food-additive regulatory framework for tin and tin compounds as the agency communicated it to non-specialist audiences in 2005, and to capture the public-health framing ATSDR used to distinguish inorganic tin from the substantially more toxic organotin compounds. The full quantitative profile lives in the sibling page [[sources/atsdr2005-tin-toxicological-profile]].
 
 ## Key numbers
@@ -77,12 +79,15 @@ Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` in
 - No brand-firewall or wiki/HMTc-firewall concerns surfaced; the fact sheet names no brands and makes no HMT&C-comparable threshold claims.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

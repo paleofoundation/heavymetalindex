@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-rtf-dairy
 public_page: products/infant-formula-rtf-dairy
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Infant Formula Rtf Dairy

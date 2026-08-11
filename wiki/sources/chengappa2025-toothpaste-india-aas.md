@@ -20,7 +20,7 @@ matrices: [cosmetic-personal-care]
 jurisdictions: [IN]
 near_duplicates: []
 sample_n: 20
-sample_population: "20 over-the-counter toothpastes selected as the most-popular listings on Amazon, Flipkart, and Myntra Indian e-commerce platforms by customer reviews, ratings, and visibility. Type composition: 2 whitening, 8 herbal/ayurvedic/mint or lemon-mint, 2 anti-bacterial/germ-fighting, 1 kids, 1 anti-cavity, 2 salt-based, 1 everyday-protection, 1 calcium, 1 cooling, 1 charcoal. Samples were anonymised and numbered for analysis; per-sample brand identifiers exist in the source's Table 1 and Table 2 but are not reproduced here per CLAUDE.md Part 12."
+sample_population: "20 over-the-counter toothpastes selected as the most-popular listings on Amazon, Flipkart, and Myntra Indian e-commerce platforms by customer reviews, ratings, and visibility. Type composition: 2 whitening, 8 herbal/ayurvedic/mint or lemon-mint, 2 anti-bacterial/germ-fighting, 1 kids, 1 anti-cavity, 2 salt-based, 1 everyday-protection, 1 calcium, 1 cooling, 1 charcoal. Samples were anonymised and numbered for analysis; per-sample brand identifiers exist in the source's Table 1 and Table 2 but are not reproduced here."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
@@ -31,11 +31,13 @@ created_by: claude_opus_47_session
 
 # Chengappa et al. 2025 — Cu, Zn, tAs, Pb in 20 over-the-counter toothpastes by flame AAS, India
 
+## Overview
+
 This Scientific Reports primary occurrence study quantifies four metals (copper, zinc, total arsenic, lead) by flame atomic absorption spectroscopy in twenty over-the-counter toothpastes purchased on Indian e-commerce platforms in 2024. All twenty samples contained measurable Cu, Zn, and As; five samples were below the lead reporting threshold. The highest single-product concentrations were Cu 0.0620 mg/L, Zn 7.4224 mg/L, As 0.5371 mg/L, and Pb 0.0544 mg/L. Comparing against the strictest jurisdiction the paper invokes — the EU SCCS recommendations of 0.1 mg/L As and 0.5 mg/L Pb in toothpaste — the paper concludes only one sample (the highest-As whitening toothpaste at 0.54 mg/L) exceeds the EU arsenic ceiling; the per-table enumeration shows three samples flagged as exceeding (two whitening and one kids' toothpaste), and a stricter reading of the 0.1 mg/L limit against the per-sample As values would put roughly eleven of twenty above the ceiling. The paper-internal narrative/table/strict-reading mismatch is recorded in Verification notes. No samples exceed the cited US FDA, WHO, Health Canada, or India BIS 6356 limits, all of which are higher than the EU limit by a factor of 5–200 for arsenic and a factor of 10–40 for lead.
 
 ## Key numbers
 
-Sampling and aggregation: 20 toothpastes, each anonymised to a number; Table 2 of the source groups samples by toothpaste type with brand names disclosed. This page reports per-type aggregates only (no brand attribution per CLAUDE.md Part 12 strict reading). Concentrations are in mg/L of the digested toothpaste solution (1.0 g toothpaste digested in 5 mL HNO₃ + 50 mL deionised water, made up to 100 mL final volume).
+Sampling and aggregation: 20 toothpastes, each anonymised to a number; Table 2 of the source groups samples by toothpaste type with brand names disclosed. This page reports per-type aggregates only (no brand attribution strict reading). Concentrations are in mg/L of the digested toothpaste solution (1.0 g toothpaste digested in 5 mL HNO₃ + 50 mL deionised water, made up to 100 mL final volume).
 
 Per-type metal concentration ranges (computed from Table 2, p. 5; ND = below the table's reported LOD):
 
@@ -109,7 +111,7 @@ Digestion: 1.0 g toothpaste + 50 mL deionised water in a 100 mL beaker; 5 mL con
 
 Quantification: Flame atomic absorption spectroscopy on a Thermo Scientific iCE 3000 Series AAS instrument. The paper does not separately report which lamp configurations or flame conditions were used per analyte.
 
-Speciation: Total metals only. The paper reports "arsenic" without species separation; this page therefore records `tAs` per CLAUDE.md Part 14. Lead and copper and zinc are recorded as bare-element measurements.
+Speciation: Total metals only. The paper reports "arsenic" without species separation; this page therefore records `tAs`. Lead and copper and zinc are recorded as bare-element measurements.
 
 Quality control: Reagent blanks (deionised water and nitric acid) analysed alongside samples; certified standard stock solutions used for calibration; glassware soaked in 10% HNO₃ overnight and rinsed with deionised water before use. Blinding: samples masked and numbered prior to analysis. No reference materials, recovery percentages, or spike-recovery values are reported. No replicate analyses (the authors explicitly note this absence as a limitation in the Limitations section, p. 6-7). No statistical analysis or uncertainty/confidence-interval reporting (the authors also note this absence as a limitation).
 
@@ -136,14 +138,14 @@ App: Not directly applicable. The paper measures finished toothpaste products, w
 
 - Brand firewall (Part 12 strict reading, 2026-05-17): the source's Table 1 (p. 3) lists each of the 20 toothpastes with brand name and full ingredient declaration, and the source's Table 2 (p. 5) attaches metal concentration values to brand names. This page aggregates exclusively to toothpaste-type level using the source's own type column (whitening, herbal/ayurvedic/mint/lemon-mint, anti-bacterial/germ-fighting, kids, anti-cavity, salt, everyday-protection, calcium, cooling, charcoal). No brand names are reproduced. The source's Table 1 brand identifiers are not reused for descriptive context anywhere on this page.
 - Paper-internal contradiction on the EU arsenic exceedance count (recorded, not adjudicated):
-  - Abstract (p. 1) states: "the arsenic concentration of one sample exceeded the European Union (EU) standard."
-  - Results body (p. 4) states: "the concentrations of these metals were within the permissible limits prescribed, except for toothpaste 1, which had an arsenic concentration of 0.53 mg/L, which exceeded the European Union standard."
-  - Table 2 (p. 5) "comparison with regulatory limits" column flags three samples (the two whitening samples and the kids' sample) as "Arsenic exceeds EU regulations."
-  - Discussion (p. 5) restates the three-sample reading: "Two of the three samples with arsenic concentration exceeding EU limits were whitening toothpastes and the third sample was found to be a children's toothpaste."
-  - A direct strict-reading comparison of each per-sample As value against the EU SCCS 0.1 mg/L cited cap (Table 2 per-sample values) places ten of twenty samples strictly above 0.1 mg/L, with an eleventh sample (Toothpaste 19) exactly at 0.10 mg/L (eleven samples at "≥0.1"). This page reports all four readings (abstract "one", Table 2 flagged "three", strict "ten above / eleven at-or-above") rather than asserting a single canonical count. The source's "three flagged" interpretation appears to compare against an unstated higher threshold (perhaps 0.2 mg/L or "relatively high" cut-off) but this is not declared in the methods.
+ - Abstract (p. 1) states: "the arsenic concentration of one sample exceeded the European Union (EU) standard."
+ - Results body (p. 4) states: "the concentrations of these metals were within the permissible limits prescribed, except for toothpaste 1, which had an arsenic concentration of 0.53 mg/L, which exceeded the European Union standard."
+ - Table 2 (p. 5) "comparison with regulatory limits" column flags three samples (the two whitening samples and the kids' sample) as "Arsenic exceeds EU regulations."
+ - Discussion (p. 5) restates the three-sample reading: "Two of the three samples with arsenic concentration exceeding EU limits were whitening toothpastes and the third sample was found to be a children's toothpaste."
+ - A direct strict-reading comparison of each per-sample As value against the EU SCCS 0.1 mg/L cited cap (Table 2 per-sample values) places ten of twenty samples strictly above 0.1 mg/L, with an eleventh sample (Toothpaste 19) exactly at 0.10 mg/L (eleven samples at "≥0.1"). This page reports all four readings (abstract "one", Table 2 flagged "three", strict "ten above / eleven at-or-above") rather than asserting a single canonical count. The source's "three flagged" interpretation appears to compare against an unstated higher threshold (perhaps 0.2 mg/L or "relatively high" cut-off) but this is not declared in the methods.
 - Paper-internal contradiction on lead LOD (recorded, not adjudicated): Methods narrative (p. 4) reports Pb LOD 0.007 mg/L; Table 2 footnote (p. 5) reports Pb LOD 0.0005 mg/L. Per-sample Pb values include 0.001 and 0.003 mg/L reported as concrete (not below-LOD) values, which is consistent with the 0.0005 mg/L footnote LOD and inconsistent with the 0.007 mg/L narrative LOD. The "below LOD" notation in Table 2 is preserved as the source reports it; users of this dataset should treat "below LOD" entries cautiously given the dual-LOD problem.
 - Paper-internal contradiction on India BIS year (recorded, not adjudicated): the source cites BIS 6356:2001 in the regulatory-limits paragraph (Introduction, p. 3) and "IS 6356-2021" in the reference list (ref 3); the BIS URL in the reference list points to an unspecified-year BIS page. This page records both citations and routes to a single [[regulations/india-bis-6356-toothpaste]] page (to be created via Karen's Step 0 Lock workflow for regulation pages).
-- Evidence tier: A-tier per CLAUDE.md Part 13 (peer-reviewed primary occurrence study, Scientific Reports), with the methodological caveats noted in Methods (brief) above — no replicates, no reference materials, no recovery data, calibration-standard mismatch with sample concentrations, no statistical analysis. The A-tier rating reflects the publication venue and peer review; downstream synthesis should weight this source against the methodological reservations.
+- Evidence tier: A-tier (peer-reviewed primary occurrence study, Scientific Reports), with the methodological caveats noted in Methods (brief) above — no replicates, no reference materials, no recovery data, calibration-standard mismatch with sample concentrations, no statistical analysis. The A-tier rating reflects the publication venue and peer review; downstream synthesis should weight this source against the methodological reservations.
 - The source's own systematic review (Chengappa et al. 2025, Frontiers in Dental Medicine 6:1543972, ref 30) is a separate paper that motivated the present study; it is not ingested here.
 - Empty `ingredients: []` and `matrices: [cosmetic-personal-care]` are intentional: the paper measures metals as contaminants in a finished cosmetic product (toothpaste), not in a food-style ingredient. The `cosmetic-personal-care` matrices vocabulary follows the established convention across sibling source pages (jitareanu2025, rbeida2023, balogun2024, massarsky2025, arshad2020).
 - The paper folder location (`babycare_04_Shampoo_Wipes_Sunscreen`) is a manual-fetch curation choice; the paper itself covers OTC toothpastes broadly with one kids'-toothpaste sample among twenty. Routing to [[products/toothpaste]] (Cat 2) is appropriate; per-paper data supports both general toothpaste and the Cat 2 kids'-toothpaste row.
@@ -152,15 +154,15 @@ App: Not directly applicable. The paper measures finished toothpaste products, w
 - Audit subagent (2026-05-18) flagged the herbal-group Pb range "ND–0.054" as misleading because the non-ND floor is 0.004 mg/L (Toothpaste 9), not approaching ND — verified against Table 2: three of eight herbal samples are below the Pb LOD (Toothpastes 5, 13, 15) and five report concrete Pb values 0.004, 0.054, 0.024, 0.040, 0.009 mg/L. Corrected the per-type table cell to "ND in 3 of 8; non-ND 0.004–0.054".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Mahmood et al. 2025 - metals in dried fruit from local markets
 
+## Overview
+
 Mahmood and coauthors measured six heavy metals (Cu, Pb, Cr, Ni, Mn, Fe) in eight dried fruit types purchased from public markets, shops, and shopping centers in Anbar Governorate, Iraq, and assessed compliance against WHO and Codex Alimentarius reference limits. Samples were digested in aqua regia and analyzed by flame atomic absorption spectroscopy. The paper does not name any product brand; fruit types are reported in aggregate by fruit identity (plum, banana, orange, kiwi, mango, quince, apple, fig).
 
 ## Key numbers
@@ -74,15 +76,15 @@ Certification: occurrence evidence for Pb, Cr, Ni, Cu, Mn, and Fe in dried fruit
 Metadata and DOI verified from PDF first page. Table 1 contains two values (Cr in plum, Ni in kiwi) that disagree with the narrative text in §3.3 and §3.4 respectively; the narrative values are used as the authoritative reading because they are consistent with the LSD precision and bar-chart axes. AAS instrument vendor/model and certified reference material are not reported in the paper; the methods section here reflects only what the source describes. Wet vs dry weight basis is inferred from the sample preparation (samples oven-dried before digestion) but not explicitly stated by the authors. Sample size is one sample per fruit type with ≥ 3 analytical replicates; downstream pooling should treat this as an n=1 population observation per fruit type rather than as a population distribution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [69152921d](https://github.com/paleofoundation/heavymetalindex/commit/69152921d) | 2026-06-09 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Islam et al. 2018 — Heavy metals in Tangail industrial-area food crops
 
+## Overview
+
 Islam and colleagues measured chromium, nickel, copper, arsenic, cadmium, and lead in rice and seven vegetable/fruit crops grown around industrial areas of Tangail district, Bangladesh. The source reports crop concentrations in `mg/kg dw` and compares them with FAO/WHO food-crop limits. Arsenic is reported as total arsenic in the occurrence table; no inorganic arsenic speciation is provided.
 
 ## Key numbers
@@ -93,11 +95,15 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - Source-internal discrepancy noted (not a wiki defect): the abstract and §2.1 state "Seventy five samples of eight different agricultural crops" and `sample_n: 75` faithfully reports that figure, but the sum of Table 1 row-level n's is 93 (57+3+9+6+6+3+5+4). Carry forward for any future synthesis pass that needs to weight rice-vs-vegetable contributions; the wiki uses the source's stated sample size as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7d648b0](https://github.com/paleofoundation/heavymetalindex/commit/7d648b0) | 2026-06-08 | ingest: islam2018-tangail-food-crops-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

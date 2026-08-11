@@ -10,7 +10,7 @@ doi: 10.5897/JECE2020.0465
 access_url: "https://academicjournals.org/journal/JECE/article-abstract/FD807546393"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A per CLAUDE.md Part 13."
+tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A."
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/14_2020_fd8075463937.pdf"
 raw_sha256: 0a0b5d1790e3b78d6560f5a6efeab22866700cd9db59870b6d12d4392a34be04
@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 ---
 
 # Mohammed et al. 2020 — Pb, Ni, Cr, Cd, Cu, and Mn in children's toys and baby items by FAAS, with USEPA non-carcinogenic ingestion risk assessment (Trinidad and Tobago)
+
+## Overview
 
 This peer-reviewed Journal of Environmental Chemistry and Ecotoxicology paper measures total Pb, Ni, Cr, Cd, Cu, and Mn in eighteen plastic children's toys and baby items (eleven toys, seven baby items) sold in Trinidad and Tobago by Flame Atomic Absorption Spectrophotometry (FAAS) after 550–600 °C ashing and 70% HNO3 digestion. Pb, Ni, and Cr are detected in every sample; Cd, Cu, and Mn are detected in fewer than 40% of samples. Every Pb value in both the toys (2.5–34.5 mg/kg) and the baby items (2.1–14.7 mg/kg) exceeds the EN 71-3:2013 Category I total-content limit of 2 mg/kg; the purple jewellery (34.5 mg/kg Pb) and the rubber duck (4.1 mg/kg Cd) are reported as exceeding the EU regulatory ceilings cited by the authors. Despite these exceedances, the USEPA-style oral ingestion hazard quotients (Pb HQ 0.007–0.115; Ni HQ 0.0015–0.0113; Cr HQ 0.0036–0.0627) and the summed hazard indices (HI 0.0156–0.1447 across the eighteen items) remain below 1 under the authors' default exposure model (15 kg body weight, 0.0002 kg/day intake, 5-year exposure duration), leading the authors to conclude that the items pose generally low ingestion risk to children. The paper also transcribes prior heavy-metals-in-toys ranges from Vietnam, Malaysia, India, Nigeria, China, and Palestine for context.
 
@@ -211,15 +213,15 @@ These are external-study transcriptions for context, not measurements made in th
 - **Folder context.** PDF lives in `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/` — the Kimi download-corruption-issue folder for the infant-contact pacifiers/teethers subtree. The filename `14_2020_fd8075463937.pdf` encodes (sequence 14, publication year 2020, Academic Journals article number fd8075463937).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b81f32ce9](https://github.com/paleofoundation/heavymetalindex/commit/b81f32ce9) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

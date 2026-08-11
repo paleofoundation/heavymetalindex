@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Bhattacharya and Deka 2024 — Metals in traditional rice beers of Assam tribes
 
+## Overview
+
 Bhattacharya and Deka measured concentrations of eleven metals (Cd, Co, Cr, Cu, Fe, Pb, Mn, Ni, K, Na, Zn) in four traditional alcoholic rice beers prepared by indigenous Rabha and Sonowal Kachari communities of Assam, India, by atomic absorption spectroscopy. Concentrations of cadmium (0.002–0.008 mg/L), chromium (0–0.012 mg/L), cobalt (0–0.008 mg/L), nickel (0.024–0.094 mg/L), and lead (0.09–0.19 mg/L) were below the WHO drinking-water guideline values applied as the comparator throughout the paper, while iron (1.09–1.56 mg/L) and manganese (1.67–2.53 mg/L) ranged above the WHO drinking-water guideline for those analytes. Total target hazard quotient (ΣTHQ) was below 1 for all four beers and highest for the Pati Rabha sticky-rice beer (0.351). The paper concludes the beers can be marked as safe relative to WHO drinking-water permissible limits despite the Fe and Mn exceedances noted in its own discussion.
 
 ## Key numbers
@@ -96,7 +98,7 @@ Evidence tier set to B rather than A. The journal is peer-reviewed (Asian Journa
 
 ## Verification notes
 
-The paper exhibits an internal framing tension between its abstract-level safety claim ("all the samples can be marked as safe as the metal concentrations are within the permissible limits of WHO") and its own Results-section statement that "Iron contamination is highest in Rangdani Rabha beer, which is above the WHO permissible limit," followed by a note that manganese also exceeds permissible limits "in all alcoholic beverages." This page reports both claims as the authors stated them and does not adjudicate which framing is correct, per Part 2 of CLAUDE.md (the wiki reports what the literature supports, not what is convenient).
+The paper exhibits an internal framing tension between its abstract-level safety claim ("all the samples can be marked as safe as the metal concentrations are within the permissible limits of WHO") and its own Results-section statement that "Iron contamination is highest in Rangdani Rabha beer, which is above the WHO permissible limit," followed by a note that manganese also exceeds permissible limits "in all alcoholic beverages." This page reports both claims as the authors stated them and does not adjudicate which framing is correct, per (the wiki reports what the literature supports, not what is convenient).
 
 No brand names appear in the paper or on this page. The community and beer-style names recorded here (Pati Rabha, Koch Rabha, Rangdani Rabha, Sonowal Kachari, "Janga", "Rohi") are ethnographic identifiers of indigenous brewing traditions in named geographic districts, not commercial brand names; Part 12 brand-firewall does not apply. Method-vendor references (SPSS Inc., Chicago) are reproduced under the methods-vendor exception.
 
@@ -109,11 +111,15 @@ Table 2 prints the cadmium EDI for Rangdani Rabha as "0.0083" while Table 3 prin
 The authors' choice of EPA oral RfD for Pb (1.5 mg/kg/day, Table 4) is not consistent with current US EPA IRIS practice for lead, which has withdrawn a single oral RfD in favor of BLL-based assessment. The low per-metal Pb THQ values (0.000–0.001) in Table 5 are driven by this divisor and should not be read as the principal HMI-relevant finding for Pb; the concentration data (0.09–0.19 mg/L) are the primary contribution and are reported above without reliance on the THQ framing.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e1d559b](https://github.com/paleofoundation/heavymetalindex/commit/e1d559b) | 2026-06-06 | ingest: bhattacharya2024-rice-beer-assam-metals [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

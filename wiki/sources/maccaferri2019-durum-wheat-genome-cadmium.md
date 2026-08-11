@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Maccaferri et al. 2019 — Durum wheat reference genome; TdHMA3-B1 gene controls grain Cd accumulation
 
+## Overview
+
 Maccaferri et al. present the first high-quality reference genome assembly for durum wheat (*Triticum turgidum* ssp. *durum*), comprising 10.45 Gb across the A and B sub-genomes. The paper is primarily a genomics resource paper, but contains a critical finding for heavy metal contamination: the gene *TdHMA3-B1* (encoding a heavy metal P-type ATPase on chromosome 5B) is identified as the primary determinant of cadmium accumulation in durum wheat grain. Modern high-yielding durum wheat varieties carry a non-functional allele of *TdHMA3-B1* that fails to sequester Cd in root vacuoles, allowing Cd to translocate to grain. Older landraces and some wild relatives carry a functional allele that strongly limits grain Cd accumulation. This explains why modern commercial durum (used in pasta, semolina, couscous) tends to have higher grain Cd than ancient wheat varieties and bread wheat, and it points to a breeding solution.
 
 ## Key numbers
@@ -50,15 +52,15 @@ App: Durum wheat-derived ingredients (semolina, pasta, couscous) should carry an
 - [[supply-chain/cultivar-selection]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

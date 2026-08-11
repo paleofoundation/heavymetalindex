@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # US EPA 1997 — Toxicological review of tributyltin oxide (IRIS)
 
+## Overview
+
 This July 1997 toxicological review by Robert Benson (USEPA Region 8) is the supporting document for the Integrated Risk Information System (IRIS) summary on tributyltin oxide (TBTO, bis-(tri-n-butyltin)-oxide; CAS 56-35-9). It is the document that establishes EPA's chronic oral Reference Dose (RfD) for TBTO at 3 × 10⁻⁴ mg/kg-day (0.3 µg/kg-day), grounded in the Vos et al. 1990 chronic immunotoxicity study in rats with a benchmark dose 10% (BMD10) of 0.03 mg/kg-day, an uncertainty factor of 100, and a modifying factor of 1. EPA assigned high overall confidence to the RfD. No inhalation Reference Concentration (RfC) and no oral cancer slope factor were derived because available data did not meet the minimum requirements. TBTO was assigned to cancer category D (1986 guidelines) / "cannot be determined" (1996 proposed guidelines). The review went through agency-wide consensus approval and external peer review (R. Baggs, M. Holsapple, A. Silverstone).
 
 **Scope note (metals classification).** TBTO is an organotin compound, toxicologically distinct from inorganic tin (Sn²⁺, Sn⁴⁺) by approximately three orders of magnitude in derived reference values. The critical effect for TBTO is immunotoxicity (thymus-dependent immune suppression); the critical effect for inorganic tin is local gastrointestinal irritation. These two classes share an element (Sn) but no toxicological pathway. The frontmatter carries `metals: [Sn]` for element-level routing, but the substantive content routes to [[metals/organotins]] and must not be conflated with inorganic-tin reference values. The 0.3 µg/kg-day RfD reported here is the basis for the ATSDR 2005 chronic oral MRL of 0.3 µg/kg-day for TBTO (see [[sources/atsdr2005-tin-toxicological-profile]]).
@@ -141,15 +143,15 @@ EPA IRIS toxicological review supporting the IRIS Summary record for TBTO (CAS 5
 - 2026-06-03 fresh-context audit subagent (general-purpose) flagged label typo "Oral RfC: not derived" under the Section 5.2 sub-heading; independently verified against PDF p. 27 §5.2 "Inhalation Reference Concentration" — corrected to "Inhalation RfC: not derived." (Oral RfC is not a defined quantity; the two endpoints are oral RfD and inhalation RfC.) Subagent also flagged that the "Critical effect" bullet lists two endpoints (depressed IgE titers + increased T. spiralis larvae in muscle) while BMD10 modeling in §5.1.2 used three endpoints (adds T. spiralis larvae by histology method); verified against PDF — the LOAEL itself on p. 22 is defined by the two endpoints named, while the third endpoint is named in the Methods section as one of the BMD-modeling inputs. Not corrected: the bullet describes the LOAEL definition, not the BMD-modeling input set, and is faithful to PDF p. 22 as written. Subagent also flagged the Provenance Notes / Implications cross-source assertions linking this RfD downstream to ATSDR 2005 MRL, EFSA 2004 TDI, and CFS 2019 — accepted as provenance-framing context, with a note to revisit during the Part 9 organotin synthesis pass.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [3b63925](https://github.com/paleofoundation/heavymetalindex/commit/3b63925) | 2026-06-03 | audit: epa1997-tbto-iris-toxicological-review revised |
-| [0220745](https://github.com/paleofoundation/heavymetalindex/commit/0220745) | 2026-06-03 | ingest: epa1997-tbto-iris-toxicological-review fresh from Manual Fetch Kimi/June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

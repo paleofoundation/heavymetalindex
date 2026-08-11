@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # DeVito and Schecter 2002 — dioxin exposure assessment from tampons and diapers (US)
 
+## Overview
+
 DeVito and Schecter performed a screening-level and refined exposure assessment of dioxin (PCDD/PCDF) uptake from tampons and disposable diapers, motivated by late-1990s public concern that chlorine-bleached pulp products in feminine-hygiene and infant-care sanitary items might be a meaningful dioxin exposure pathway. The analytes are the 17 `2,3,7,8`-chlorine-substituted polychlorinated dibenzo-p-dioxin and dibenzofuran congeners; **no heavy metals were measured**. This page is therefore ingested as out-of-core-scope tampon and diaper contaminant context, parallel to `[[sources/archer2005-tampon-dioxins-furans]]` for tampons and the ANSES/BfR diaper-safety opinions for diapers. It carries the agency-level null finding for HMI's core analytes in these product classes (the most potent dioxin congeners TCDD and `1,2,3,7,8`-pentachlorodibenzo-p-dioxin were not detected in any sample) and the population-frame exposure parameters that may be reusable for HMI's future heavy-metals dermal-exposure modelling in diapers and menstrual products.
 
 ## Key numbers
@@ -129,3 +131,17 @@ Brand firewall (Part 12) clean: the paper uses anonymized brand codes (A, B, C, 
 Wiki/HMTc firewall (Part 2) clean: the paper's "dioxin exposure from these products is negligible compared with dietary intake" conclusion is reported as the authors' own conclusion (their own framing, their own assumptions), not as wiki synthesis or as justification for any HMTc decision. No HMTc threshold proposal, no synthesis claim ("this confirms the literature consensus..."), no consumer risk advisory.
 
 Paper-internal copy-edit slip noted but not propagated: the Results/Diapers paragraph (p. 26) states the diaper dioxin concentration range as `1.6-3.0 pg TEQ/g diaper` while citing Table 1, but Table 1 reports total dioxin mass concentrations of `1.8-3.7 pg/g` (not pg TEQ/g, and not 1.6-3.0). Table 2 separately reports TEQ concentrations of `0.0042-0.023 pg TEQ/g`. The tables themselves are mutually consistent; the textual range conflates Table 1 (total mass) with Table 2 (TEQ) and is off-range for both. This page cites the table values directly and notes the discrepancy in Key numbers. This is a copy-edit slip in the published paper, not a paper-internal data-integrity contradiction that would trigger a stop condition.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

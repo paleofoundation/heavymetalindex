@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang et al. 2019 - Dietary lead exposure in Guangzhou foods
 
+## Overview
+
 Wang and colleagues estimated dietary lead exposure for Guangzhou residents using lead concentrations from the local food safety risk monitoring system. The occurrence dataset included 6339 samples across 27 food categories collected in 2014-2017. The paper reports lead only; it does not measure arsenic, cadmium, mercury, chromium, or tin.
 
 ## Key numbers
@@ -96,11 +98,15 @@ This source contributes Guangzhou market-food occurrence data for Pb across rice
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. Milk and milk-powder findings remain represented by the `[[ingredients/milk-and-dairy]]` ingredient because the current product snapshot does not list a dairy product slug.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [def1a1b](https://github.com/paleofoundation/heavymetalindex/commit/def1a1b) | 2026-06-08 | ingest: wang2019-dietary-lead-guangzhou fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

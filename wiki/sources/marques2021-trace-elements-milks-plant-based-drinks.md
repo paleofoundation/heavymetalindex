@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Marques et al. 2021 — Essential and non-essential trace elements in milks and plant-based drinks (Reus, Catalonia, Spain retail)
 
+## Overview
+
 Marques and colleagues at the Universitat Rovira i Virgili Laboratory of Toxicology and Environmental Health measured seven essential elements (Ca, Co, K, Mg, Mn, Na, Ni, P) and four non-essential/toxic elements (Hg, Pb, U, V) in 32 milk and plant-based drink composites purchased from supermarkets in Reus, Catalonia, Spain in January 2021. The product frame covered cow milk (13 variants enumerated in the Methods text, including whole, semi-skimmed, skimmed, lactose-free, fresh, and organic versions; Table 1 contains 14 cow-milk rows owing to source-paper duplication and labeling inconsistencies), goat milk (4 variants), soy drink (conventional and organic), almond drink (conventional and organic), rice drink (conventional and organic), oat drink (conventional and organic), and seven infant/follow-on formula products. All elements were quantified by inductively coupled plasma mass spectrometry (ICP-MS) following nitric-acid digestion. Of the four toxic elements measured, only Pb was detected (in three samples: non-organic whole cow milk, non-organic skimmed cow milk, and non-organic oat drink); Hg, U, and V were below detection limits in every sample. The authors report that the two non-organic cow milk Pb values exceeded the Codex Alimentarius CODEX STAN 193-1995 maximum limit for milk. Goat milk had the highest essential-element content overall (K, Na, P, Mg); cow milk was richest in Ca; soy drink led plant-based drinks for Mg and Mn; almond drink led plant-based drinks for Ca. Production system (organic vs conventional) and presence of lactose did not produce statistically significant differences in essential-element content; sterilization method (fresh vs UHT) and animal species (cow vs goat) did.
 
 ## Why this matters
@@ -150,15 +152,15 @@ Audit subagent (2026-06-08, agent a3393c0dc09b29b61) returned verdict REVISE wit
 Brand firewall. The source does not name individual brands; samples are reported only by product type (whole cow milk, organic skimmed cow milk, etc.). No brand-firewall (Part 12) translation was needed. The methods section names instrument-vendor materials (E. Merck Darmstadt HNO3 Suprapur, NIST SRM 1570a spinach leaves, NIST SRM 1549a whole milk powder, R 4.0, IBM SPSS 27.0) which are scientific-method-vendor references permitted under the 2026-05-17 strict-reading exception.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [64f281e](https://github.com/paleofoundation/heavymetalindex/commit/64f281e) | 2026-06-08 | audit: marques2021-trace-elements-milks-plant-based-drinks revised |
-| [a45b20f](https://github.com/paleofoundation/heavymetalindex/commit/a45b20f) | 2026-06-08 | ingest: marques2021-trace-elements-milks-plant-based-drinks enhanced from Manual Fetch Discovery |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [64f281eae](https://github.com/paleofoundation/heavymetalindex/commit/64f281eae) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -12,20 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 20]
-    p95_ppb: 27
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
-    typical_ppb: [0, 1]
-    p95_ppb: 1
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,29 +33,25 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
-    speciation: total-As-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -67,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-grapefruit-edible-flesh-wet-weight
-    speciation: total-Cr-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -83,81 +75,47 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 3
 ---
 
 # Grapefruit
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: rare) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 3 jurisdictions, top PL 100% | over-concentrated: PL supplies 100% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 2 claims checked, 2 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming grapefruit: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 92, "Grapefruit, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals
 
-Grapefruit (Citrus paradisi) is a tree fruit with a thick, protective rind that substantially shields the edible inner flesh from surface contamination pathways such as atmospheric deposition of Pb-containing particulates and spray-borne metal residues. Citrus trees are deep-rooted perennial crops that draw metals from subsoil horizons rather than only the topsoil layer, but grapefruit orchards in major commercial growing regions (Florida, Texas, California in the US; Mediterranean Spain; South Africa) typically occupy soils with moderate metal burdens, and the physiology of citrus root metal uptake does not involve the same high-efficiency channels as, for example, leafy vegetables or legumes. The thick rind (flavedo and albedo) accumulates more Pb and other atmospherically deposited metals than the edible flesh, but since the rind is not consumed in typical fresh-fruit use, the consumer exposure from grapefruit flesh is very low. The FDA TDS data for raw grapefruit (n=27) report every measured analyte (Cd, Cr, Ni, Pb, U, tAs, tHg) below its reporting limit across the entire distribution [[sources/fda2022-tds-elements-fy2018-fy2020]]; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the European retail citrus survey that measured grapefruit directly detected lead and cadmium at low but non-zero concentrations in the whole fruit (see the Synthesis basis and censoring treatment section). Grapefruit flesh remains among the lowest-risk food matrices for heavy metal exposure, but the values are low rather than zero.
+Grapefruit (Citrus paradisi) is a tree fruit with a thick, protective rind that substantially shields the edible inner flesh from surface contamination pathways such as atmospheric deposition of Pb-containing particulates and spray-borne metal residues. Citrus trees are deep-rooted perennial crops that draw metals from subsoil horizons rather than only the topsoil layer, but grapefruit orchards in major commercial growing regions (Florida, Texas, California in the US; Mediterranean Spain; South Africa) typically occupy soils with moderate metal burdens, and the physiology of citrus root metal uptake does not involve the same high-efficiency channels as, for example, leafy vegetables or legumes. The thick rind (flavedo and albedo) accumulates more Pb and other atmospherically deposited metals than the edible flesh, but since the rind is not consumed in typical fresh-fruit use, the consumer exposure from grapefruit flesh is very low. The FDA TDS data for raw grapefruit (n=27) show all metals at or below detection limits [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with citrus flesh being among the lowest-risk food matrices for heavy metal exposure.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | <4–20 | 27 | low | [[sources/czech2021-citrus-lead-cadmium\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Cd | n=2 | <1–1 | 1 | low | [[sources/czech2021-citrus-lead-cadmium\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | <3 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=1 | <40 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | <50 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, cadmium, total-arsenic, total-mercury, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw-grapefruit edible-flesh wet-weight basis, the form in which the fresh fruit is consumed. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported all seven of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Grapefruit, raw" (n=27), in which every sample fell below the reporting limit for each metal and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, Cd 1, tAs 3, tHg 1, Ni 40, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound, and, for lead and cadmium, with the detected European retail-citrus distribution. The honest floor for each fully censored analyte is the FDA reporting limit expressed as a left-censored bound, not a measured zero.
-
-Lead and cadmium rest on the single European retail-citrus survey that measured grapefruit by name ([[sources/czech2021-citrus-lead-cadmium|Czech et al. 2021]], ICP-OES, whole fruit, Turkish/Israeli origin via Polish retail, 2019). That study reports whole-fruit lead of 27.2 µg/kg in red grapefruit, 19.6 µg/kg in green grapefruit, and 15.9 µg/kg in white grapefruit, and whole-fruit cadmium of 0.9 µg/kg (red), 1.1 µg/kg (green), and 1.31 µg/kg (white). These are whole-fruit values that include the peel, which Czech et al. show concentrates lead and cadmium above the pulp; they therefore sit at or above the true edible-flesh concentration and are carried as an upper anchor on a flesh page, not as a flesh central. The pooled lead typical of [0, 20] takes the FDA censored floor as the low bound and the white/green whole-fruit central as the upper; the lead 95th-percentile of 27 µg/kg is the red-grapefruit whole-fruit maximum, the top of the ordered pooled set. The cadmium typical of [0, 1] and 95th-percentile of 1 µg/kg likewise span the FDA censored floor to the Czech whole-fruit central, rounded to the resolution the source supports. Both cells are held at low confidence: only two contributors exist, the only positive measurements are whole-fruit rather than pulp-only, and the FDA composite is fully censored.
-
-Total arsenic, total mercury, nickel, and chromium rest on the FDA censored floor alone. No source in the corpus reports a grapefruit-specific positive value for these four analytes: the FDA TDS composite is below the reporting limit for all of them, and the fruit-by-product review that names grapefruit in scope ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]) carries no grapefruit row in its Table 1 — its citrus by-product entries are pomelo, orange, lemon, lime, and mandarin, none of which may be relabeled as grapefruit. Each of these four cells is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and no upper bound or 95th-percentile, at low confidence and a single contributor. Total arsenic is held distinct from inorganic arsenic, which remains a reviewed data gap because no speciated measurement exists for this ingredient. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Chromium is reported as total chromium at low confidence; no grapefruit hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no other source reports an extractable quantitative value, so no distribution is published (the rice-uranium precedent).
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/czech2021-citrus-lead-cadmium\|2]] |
+| Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/czech2021-citrus-lead-cadmium\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -169,7 +127,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -178,21 +136,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Grapefruit, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS data for grapefruit raw (n=27) report all measured analytes below the reporting limit throughout the distribution [[sources/fda2022-tds-elements-fy2018-fy2020]]; these are left-censored bounds, not measured zeros, so they constrain the flesh metal burden from above rather than establishing it at zero. The European retail-citrus survey that measured grapefruit by name detected low but non-zero lead and cadmium in the whole fruit, with a varietal gradient: red grapefruit carried the most lead (27.2 µg/kg whole fruit) and white grapefruit the least (15.9 µg/kg), while cadmium ran the opposite way, highest in white grapefruit (1.31 µg/kg) and lowest in red (0.9 µg/kg) ([[sources/czech2021-citrus-lead-cadmium|Czech et al. 2021]]). These are whole-fruit values that include the peel; the rind fraction, which is excluded from the TDS measurement of the raw edible portion, concentrates Pb and Cd above the pulp and is the principal source of the variation seen across varieties. The pulp-only edible flesh therefore sits at or below these whole-fruit figures. Organic versus conventional production may affect surface residue metals on the rind but would not substantially alter flesh metal concentrations given the protective rind barrier.
+The FDA TDS data for grapefruit raw (n=27) shows all measured analytes at or below the reporting limit, suggesting that geographic and varietal variation in the flesh metal burden is not detectable at the sensitivity of the TDS method [[sources/fda2022-tds-elements-fy2018-fy2020]]. The rind fraction, which is excluded from the TDS measurement of the raw edible portion, would show higher Pb from atmospheric deposition and is not characterized for grapefruit flesh specifically in the current corpus. Pink versus white grapefruit varieties are not expected to differ materially in heavy metal burden, as both use the same root architecture and protective rind structure. Organic versus conventional production may affect surface residue metals on the rind but would not substantially alter flesh metal concentrations given the protective rind barrier.
 
 ## Processing effects
 
@@ -232,10 +190,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in citrus fruit is 0.10 mg/kg wet weight, and for Cd in citrus fruit it is 0.050 mg/kg wet weight. These limits apply to grapefruit as placed on the market in fresh form. Given the FDA TDS finding of all analytes at or below detection limits in 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], grapefruit flesh is expected to present no compliance risk at these limits under typical production and supply chain conditions. There are no specific US FDA action levels for metals in fresh grapefruit.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -245,15 +211,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

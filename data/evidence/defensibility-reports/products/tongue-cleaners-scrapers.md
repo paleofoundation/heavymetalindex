@@ -2,7 +2,7 @@
 source_page: wiki/products/tongue-cleaners-scrapers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5b6c522ac81bd346aed8a7c4e7a0ed64a9d20eb63801824ef18408ab103bbe11
+source_page_sha256: 328d6e3654625d004dd8cffcba37ad1c0d32b6f617368b5b02216a3e53f99074
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 

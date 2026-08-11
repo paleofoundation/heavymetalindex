@@ -29,6 +29,8 @@ updated: 2026-06-07
 
 # Yao et al. 2021 — Fluoride, lead, chromium, and cadmium in Tieguanyin and white tea (Fujian, China)
 
+## Overview
+
 This study reports concentrations of fluoride, lead, chromium, and cadmium in 112 Camellia sinensis tea samples drawn from the major production counties of Fujian Province, China, and uses transfer-rate-adjusted infusion exposures to compute hazard indices and target cancer risks for adult tea consumers. It is routeable for Pb, Cr, and Cd occurrence evidence on Camellia sinensis tea (oolong-class Tieguanyin and unfermented white tea) in a Chinese production-region market.
 
 ## Key numbers
@@ -70,12 +72,15 @@ Audit subagent 2026-06-07 flagged a Pearson correlation transposition in the ori
 The fluoride results are reported in the body because they are an integral part of the paper's risk model, but fluoride is not in the HMI metals vocabulary, so it does not appear in the `metals:` frontmatter array and will not route to a metal page. Chromium is total Cr; the paper does not run a hexavalent-Cr extraction, so it does not route to `metals/chromium-hexavalent`. The white-tea transfer rates for Pb, Cr, and Cd are noted in the body as having been substituted from the green-tea literature because no white-tea-specific rates were available, per Table 4 footnote a; this is the source's own caveat. The Cd transfer rate for white tea was reported as "not detected" (ND), so the white-tea Cd CDI, THQ, and TR rows are intentionally left blank in the paper and are not reconstructed here. Brand and grower names are not attached to any of the sampled lots because the paper does not provide them; all values above are county-stratum-level only, consistent with the public-wiki brand firewall. Method-section instrument and CRM identifiers (Thermo Fisher XSERIES 2, INESA F-ISE, TOPEX microwave digestion, GBW10016 tea CRM, SPSS v20) are preserved per the Part 12 scientific-reproducibility carve-out. The sampling year is not stated in the paper; sampling_year_range is left null.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [64cfb8b](https://github.com/paleofoundation/heavymetalindex/commit/64cfb8b) | 2026-06-07 | audit: yao2021-tieguanyin-white-tea-heavy-metals revised |
-| [cbe427f](https://github.com/paleofoundation/heavymetalindex/commit/cbe427f) | 2026-06-07 | ingest: yao2021-tieguanyin-white-tea-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

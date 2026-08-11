@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Kicińska & Kowalczyk 2025 — Heavy metals (Cr, Fe, Mn, Ni, Zn) in online-market cosmetics with QRA-based health risk
 
+## Overview
+
 This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 23 cosmetic products (foundations, blushes, lipsticks, face creams, face masks, eye shadows) purchased from the online consumer market and computed margin of safety (MoS), hazard quotient (HQ), hazard index (HI), lifetime cancer risk (LCR) and quantitative risk assessment (QRA) per US EPA guidelines. Mean concentrations ranked Fe (6,407) > Zn (190) > Mn (88) > Cr (24) > Ni (8) mg/kg across the 23-sample set. The authors concluded that the calculated MoS, HQ and HI values for all cosmetic samples indicated the products do not present a risk to human health under modeled use, but reported elevated maxima for Cr (416 mg/kg in a blush) and Ni (95 mg/kg in the same blush) that exceed values reported in literature for those product categories.
 
 ## Key numbers
@@ -87,15 +89,15 @@ This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 2
 - Audit subagent (2026-05-17) flagged a textual defect in Implications ("n=12.7 mg/kg Cr"); corrected to attribute the Iwegbue et al. comparison explicitly with both values restated from Table 2.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

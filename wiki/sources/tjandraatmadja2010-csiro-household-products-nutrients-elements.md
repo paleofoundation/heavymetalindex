@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Tjandraatmadja et al. 2010 — Sb, Cr, Co, Mo, Se, F, Cl, N, P in 156 Australian household and personal-care products (CSIRO Smart Water Fund report)
 
+## Overview
+
 A 103-page CSIRO Water for a Healthy Country Flagship report prepared for the Victorian Smart Water Fund (Round 3, Project 5) characterising the concentration of nine priority elements — antimony (Sb), chloride (Cl), cobalt (Co), chromium (Cr, total), fluoride (F), molybdenum (Mo), selenium (Se), Total Kjeldahl Nitrogen (TKN) and total phosphorus (TP) — in 156 household and personal-care products purchased from Melbourne supermarkets in early 2008. The intent of the report is wastewater-management rather than consumer-product safety: the elemental concentrations are converted into weekly per-capita household loads using assumed product dosages and use frequencies (Roberts 2005), then compared against the anthropogenic excretion load to attribute domestic-wastewater pollution between human waste and household-product use. From a heavy-metals occurrence standpoint the analytical-chemistry contribution is the per-category concentration tables for the four panel metals tracked by Heavy Metal Index — antimony (an HMTc Category-1 analyte), chromium (HMTc Cr-VI is not speciated here; total Cr is reported), and the trace-element panel companions cobalt, molybdenum and selenium — measured on an as-purchased finished-product basis. Antimony was the least-frequently detected element (9.6 % of products, detection limit 5 µg/L); chromium was detected in 64 % of products at concentrations ranging from 0.002 to 6.2 mg/kg. Brand identities (private, market-leader, environmental-label) appear as descriptive columns in the source tables and are stripped here per the Part 12 brand firewall; only product-form-and-brand-class descriptors are retained.
 
 ## Key numbers
@@ -236,15 +238,15 @@ The framing for these comparisons is wastewater-management (the load arriving at
   - **(3) Implications-section language tightened.** The phrase "places Australian household-product Sb at the upper-trace-impurity level rather than a deliberate-additive level" was interpretive characterisation slightly ahead of the source's own framing. Rewritten to track the source's own Section 4.1.1 conclusion that Sb is "a minor contaminant in household products". Also removed the "(P97/P45 pooling)" parenthetical from the Sb-implications bullet because P97/P45 is HMTc-side workflow methodology that should not appear on a source page (Part 2 firewall hygiene). No data values changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [a7df828](https://github.com/paleofoundation/heavymetalindex/commit/a7df828) | 2026-06-03 | audit: tjandraatmadja2010-csiro-household-products-nutrients-elements [revised] |
-| [c365a26](https://github.com/paleofoundation/heavymetalindex/commit/c365a26) | 2026-06-03 | ingest: tjandraatmadja2010-csiro-household-products-nutrients-elements [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/08_Laundry_Bleach_Fabric |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

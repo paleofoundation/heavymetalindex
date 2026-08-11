@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Savic et al. 2015 - minerals in clear orange juices
 
+## Overview
+
 This study measured 23 mineral and trace elements in seven clear orange-juice samples purchased from the Leskovac, Serbia local market. The paper is direct non-apple fruit-juice occurrence evidence. Its main HMT&C signal is high total arsenic in all seven samples and lead detected in all seven samples (sample VI an outlier maximum at 1.19 mg/L), with cadmium detected in three samples.
 
 ## Key numbers
@@ -99,15 +101,15 @@ Microbiome: Not addressed.
 - Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Two findings corrected: (1) opening prose updated to state Pb was detected in all seven samples (was "at least one"), with sample VI as outlier maximum; (2) added explicit Sb-below-detection note (LOD 2.44 µg/L per Table 1) and acknowledged the Mn/Co/Cr/B/Sr/Si/Ag screen-but-not-extracted status. All other checks clean: slug vocabulary verified on disk (auditor cross-checked actual files), speciation discipline correct (tAs explicitly labeled, no Cr-VI substitution), brand firewall clean (samples I-VII anonymization preserved), HMTc firewall clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

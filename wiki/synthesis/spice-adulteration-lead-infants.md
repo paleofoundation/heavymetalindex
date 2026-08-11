@@ -21,6 +21,8 @@ updated: 2026-05-13
 
 # Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants
 
+## Overview
+
 The wiki's corpus of heavy metal contamination in food is dominated by agricultural uptake mechanisms: arsenic in flooded paddy soils, cadmium in volcanic-origin cocoa-growing soils, mercury biomagnification in aquatic food chains. These are biogeochemical processes that respond to agronomic, processing, and formulation interventions. Spice adulteration with lead chromate is fundamentally different. It is a deliberate introduction of an industrial pigment into the food supply, driven by market incentives and enabled by regulatory gaps, and it reaches the highest-concern demographic (infants and toddlers) through processed food products that parents purchase with the expectation of safety.
 
 ## The mechanism
@@ -61,9 +63,9 @@ Second, the concentration magnitudes are orders of magnitude higher than agricul
 
 Third, the pathway bypasses agricultural mitigation entirely. Soil amendments, water management, cultivar selection, processing controls, and formulation dilution are the levers the wiki documents for agricultural heavy metal contamination. None of these apply to deliberate adulteration with an industrial chemical. The only effective levers are supply-chain testing at ingredient intake and supplier qualification that traces spice origin and processing history.
 
-## Implications for HMT&C and the wiki
+## Implications for risk management
 
-For brand-legal audiences, this synthesis establishes that any food product containing turmeric, cinnamon, or other spices carries a Pb risk that is categorically different from the agricultural risks the rest of the wiki addresses. The risk cannot be managed by sourcing from "clean" agricultural regions or by processing interventions. It requires ingredient-level Pb testing on every incoming lot of spice material, because the adulteration is episodic, geographically variable, and invisible to visual inspection. The WanaBana recall demonstrates the consequence of not testing: 566 documented cases of childhood lead poisoning from a single product line.
+Any food product containing turmeric, cinnamon, or other spices carries a Pb risk that is categorically different from the agricultural risks the rest of the wiki addresses. The risk cannot be managed by sourcing from "clean" agricultural regions or by processing interventions, because the adulteration is episodic, geographically variable, and invisible to visual inspection. The only documented effective control points are Pb testing of incoming spice material and supplier qualification that traces spice origin and processing history. The WanaBana recall demonstrates the consequence of not testing: 566 documented cases of childhood lead poisoning from a single product line.
 
 For regulators, FDA Import Alert 99-42 has been active since the 1990s, yet US retail turmeric still contains Pb up to 76 times the action level (Lech 2020). The gap between the existence of an enforcement mechanism and its effectiveness on the ground is itself a finding. The Forsyth 2024 data showing that the practice spans at least four countries and has persisted for decades despite periodic enforcement actions suggests that import-level interdiction alone is insufficient without supply-chain-level intervention in producing countries.
 
@@ -98,19 +100,33 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh]]<span class="hmi-ref-meta">Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. · Environmental Research · 2019 · [doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Evidence of turmeric adulteration with lead chromate across South Asia]]<span class="hmi-ref-meta">Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP · Science of the Total Environment · 2024 · [doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/troeschel2024-cinnamon-applesauce-lead|Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024]]<span class="hmi-ref-meta">Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. · Morbidity and Mortality Weekly Report (MMWR) · 2024 · [doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/gafner2026-turmeric-adulteration-six-continents|A scoping review of turmeric adulteration based on data from six continents]]<span class="hmi-ref-meta">Gafner S, Orhan N, Kahraman C, and Blumenthal M · Pharmaceutical Biology · 2026 · [doi.org/10.1080/13880209.2025.2606229](https://doi.org/10.1080/13880209.2025.2606229)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/lech2020-turmeric-lead-united-states|Ground Turmeric as a Source of Lead Exposure in the United States]]<span class="hmi-ref-meta">Lech FA, Brown S, Karagas MR, and Matte TD · Environmental Health Perspectives · 2020 · [doi.org/10.1177/0033354917700109](https://doi.org/10.1177/0033354917700109)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/fda-import-alert-99-42-spice-lead|FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Import Alerts · 2024 · [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html)</span><span class="hmi-ref-tag">Regulation</span>
+7. [[sources/rylander2025-georgia-children-blood-lead|Blood lead levels in children aged 5–7 years in the Republic of Georgia]]<span class="hmi-ref-meta">Rylander C, Sandanger TM, Nguyen TT, Ugulava N, Maglakelidze N, Lomtadze N, et al. · Environmental Health Perspectives · 2025 · [doi.org/10.1289/EHP15788](https://doi.org/10.1289/EHP15788)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 5 sources added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

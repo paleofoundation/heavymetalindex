@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Upson et al. 2022 - menstrual-product environmental chemical exposure review
 
+## Overview
+
 Upson, Shearston, and Kioumourtzoglou reviewed menstrual products as a potential source of environmental chemical exposure from an epidemiologic perspective. The paper is secondary evidence: it summarizes product-chemistry studies and three human biomonitoring studies, but it does not generate new product concentration data. Its metal-specific value is context around Singh et al. 2019 whole-blood cadmium, lead, and mercury in tampon users, not primary tampon occurrence.
 
 ## Key numbers
@@ -82,3 +84,17 @@ Microbiome: The paper discusses menstrual toxic shock syndrome, *S. aureus*, vag
 - Brand firewall: no brand-linked values are reported in this page. Product types are kept at category level.
 - Evidence tier: `B` because the paper is peer-reviewed and useful secondary evidence, but it is a narrative review and not a primary occurrence or systematic-review dataset.
 - Routing: `npm run evidence:source-routes` exited 0. The source generated 6 product routing rows, was absent from `routing_unresolved.csv`, and had only the expected advisory `routing_malformed.csv` entry for empty optional `ingredients`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

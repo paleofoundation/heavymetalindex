@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # WA Ecology 2023 — Phase 1 testing of Pb, Cd, As in 20 lipsticks and powder foundations from Puget Sound retailers; formaldehyde testing of 40 hair products, lotions, and foundations
 
+## Overview
+
 This is a Washington State Department of Ecology legislative report prepared pursuant to ESSB 5693 (2022) Section 302(56), which appropriated $266,000 for Ecology — in consultation with the Department of Health and community/social-justice organisations — to identify cosmetic products marketed to or used by people of colour (adults and children) and to test those products for potentially harmful chemicals. The report covers Phase 1 of the work: laboratory analysis of 50 low-cost cosmetic products purchased from Puget Sound retail chains in July 2022 (with heavy-metal analysis on 20 of them: 10 lipsticks plus 10 powder foundations) at the Washington Department of Ecology Manchester Environmental Laboratory using EPA Method 6020B (ICP-MS) for Pb/Cd/As and EPA Method 8270E-SIM for total formaldehyde. The report also reviews company self-reported chemical-use data submitted under the Washington Children's Safe Products Act (CSPA) and the California Safe Cosmetics Act, and summarises 100+ prior product-testing studies in Appendix C. Phase 2 (ortho-phthalates and asbestos) was anticipated for June 2023 and is not in this report.
 
 ## Key numbers
@@ -215,15 +217,15 @@ The report does NOT support:
 - **Raw path / handle.** Filed under `raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/`. The "Infant cosmetics" folder name is a slight mis-categorisation for this particular file — Phase 1 of the WA Ecology report is primarily an adult-cosmetic testing study (the legislative directive targeted "people of color, including adults and children" and the cosmetic selection skewed adult-market, with only one explicitly children's-marketed product included). Folder placement is preserved as-is for raw-tree immutability; routing reflects the actual content (adult Cat 13 cosmetics + one children's data point flagged in the leave-in conditioner Key numbers).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

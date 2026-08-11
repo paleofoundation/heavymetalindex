@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 4]
+    p95_ppb: 8
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [0, 0]
@@ -92,29 +92,7 @@ sources: 3
 
 # Applesauce
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=15 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 2 jurisdictions, top US 100% | over-concentrated: US supplies 100% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 7 claims checked, 7 supported; 3 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming applesauce: fda2022-tds-elements-fy2018-fy2020, fsa2016-infant-food-formula-metals-survey, napier2024-wanabana-lead-apple-cinnamon |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 84, "Applesauce, bottled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
@@ -126,18 +104,24 @@ Applesauce is a heat-processed purée of whole apples, typically with added wate
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | medium | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | low | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/barber2025-baby-food-elements-us\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]], [[sources/troeschel2024-cinnamon-applesauce-lead\|4]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|5]] |
+| Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile recorded applesauce lead at [0, 0] with a p95 of 0. That value came from the FDA Total Diet Study reporting the three bottled applesauce samples below the 4 ppb reporting limit as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The cell is now treated as left-censored at the 4 ppb reporting limit on a processed-fruit-as-consumed basis, so it reads as below the reporting limit rather than as an absolute zero.
+
+Broader occurrence data confirm apple-based purees are among the lower-lead matrices without being empty. The 2023 FDA convenience survey ([[sources/barber2025-baby-food-elements-us|Barber et al. 2025]]) placed baby-food puree lead at a mean of 1.4 ppb and a P90 of 8 ppb, with the high tail attributable to sweet potato and carrot rather than apple, and fresh apple runs to about 24 ppb ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]). The 2023 to 2024 WanaBana cinnamon-applesauce episode reached roughly 1900 to 3000 ppb lead ([[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel et al. 2024]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC|Napier et al. 2024]]), but that was a criminal lead-chromate adulteration of the cinnamon ingredient and not part of the applesauce occurrence distribution, so it is carried as an adulteration warning and excluded from the percentile estimate.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +133,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,15 +142,15 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Applesauce, bottled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 3 | 0 | 0 | in profile |
+| Cr | 3 | 0 | 0 | in profile |
+| Ni | 3 | 0 | 0 | in profile |
+| Pb | 3 | 0 | 0 | in profile |
+| U | 3 | 0 | 0 | in profile |
+| tAs | 3 | 0 | 0 | in profile |
+| tHg | 3 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -212,10 +196,24 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 For applesauce as a finished food product in the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum levels as a starting point; however, for processed fruit products, a separate ML applies. Processed fruit products (purees, sauces) for the general population are subject to the applicable ML for the corresponding fresh fruit: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight ([[regulations/eu2023-contaminants-maximum-levels]]). For applesauce intended for infants and young children, the EU applies stricter MLs for Pb (0.020 mg/kg, 20 ppb). In the United States, no FDA commodity-specific action level for Pb or Cd in applesauce as a finished retail product exists under current regulations; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) has proposed action levels for Pb in processed foods for babies and young children that may encompass apple-based baby food products. No specific Codex Alimentarius ML for contaminants in applesauce appears in the current corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/barber2025-baby-food-elements-us|Toxic elements in baby and young children's foods in the US and correlation to ingredients]]<span class="hmi-ref-meta">Charles A. Barber, Marc Boyer, Jake A. Carter, Patrick J. Gray, Jennifer Fong Sam, and Mesay M. Wolle · Food Additives & Contaminants: Part B · 2025 · [doi.org/10.1080/19393210.2025.2591749](https://doi.org/10.1080/19393210.2025.2591749)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/troeschel2024-cinnamon-applesauce-lead|Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024]]<span class="hmi-ref-meta">Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. · Morbidity and Mortality Weekly Report (MMWR) · 2024 · [doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC|Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024]]<span class="hmi-ref-meta">Napier MD, Huneycutt A, Moore C, Goforth C, Komlos M, Bryant V, et al. · MMWR Morbidity and Mortality Weekly Report · 2024 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/73/wr/mm7320a1.htm)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/napier2024-wanabana-lead-apple-cinnamon|Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024]]<span class="hmi-ref-meta">Napier MD and et al. · MMWR Morbidity and Mortality Weekly Report · 2024 · [doi.org/10.15585/mmwr.mm7328a2](https://doi.org/10.15585/mmwr.mm7328a2)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -225,15 +223,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10bb2e5ec](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ec) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

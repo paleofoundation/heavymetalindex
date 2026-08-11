@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Savić et al. 2019 - Serbian spices minerals
 
+## Overview
+
 Savić et al. measured 22 elements in ten spice samples sold on the Serbian market using ICP-OES after wet digestion. The paper provides direct spice occurrence data for lead, cadmium, aluminium, nickel, and chromium, although cadmium was detected only in cinnamon and chromium was reported as 0.00 mg/kg for all ten spices. The data are useful as a Serbian-market snapshot, not as a distribution for any single commodity because each spice type appears to be represented by one sample.
 
 ## Key numbers
@@ -78,15 +80,15 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 The PDF title, byline, DOI, journal, year, methods, and Table 4 values were read from the auto-fetched PDF. The paper reports total elemental concentrations and does not provide arsenic, mercury, or chromium speciation. Values reported as 0.00 mg/kg are retained as source-reported table entries rather than interpreted as analytical zeroes. Audit note: the results prose gives manganese as 0.07-6.25 mg/kg, while Table 4 appears to show star anise Mn as 6.26 mg/kg; the page preserves the prose range and flags the source-internal rounding discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
-| [cadd032](https://github.com/paleofoundation/heavymetalindex/commit/cadd032) | 2026-06-03 | ingest auto-fetched 2026-06-03: savic2019-serbian-spices-minerals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -83,34 +83,12 @@ used_in_products: [kombucha-tea-based, matcha, true-tea-camellia-sinensis]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 23
+sources: 24
 ---
 
 # Camellia sinensis
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=70 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | below-tier | 18 jurisdictions, top CN 70% | over-concentrated: CN supplies 70% of sources |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 2 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr CONFIDENT, Sn THIN, tAs POOLABLE | Sn: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | OK | 2 claims checked, 2 supported; 0 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 8 single, 0 unpaired | Sn: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.63, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Camellia sinensis is the tea plant, the source of black, green, white, and oolong teas. Its heavy-metal profile is the subject of a dedicated synthesis, [[synthesis/tea-multi-metal-bioaccumulation]], which carries the load-bearing finding for this ingredient: tea is a multi-metal bioaccumulator and an aluminium hyperaccumulator whose as-consumed exposure is governed by the metal-specific, origin-dependent leaf-to-infusion transfer fraction rather than by the dry-leaf totals tabulated below. The table that follows is on a dry-leaf basis and, per the synthesis, overstates the dose delivered in the brewed cup; the transfer-fraction and infusion-basis caveats live on the synthesis page.
 
@@ -118,18 +96,18 @@ Camellia sinensis is the tea plant, the source of black, green, white, and oolon
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=13 | 400–1500 | 5000 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Cd | n=13 | 40–200 | 350 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=10 | 50–500 | 1830 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| tHg | n=6 | 3–40 | — | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Ni | n=8 | 5000–15000 | 30000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
-| Al | n=6 | 200000–500000 | 975000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
-| Cr | n=12 | 500–3000 | 5060 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Sn | n=2 | 0–200 | — | low | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=13 | 400–1500 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Cd | n=13 | 40–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=10 | 50–500 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| tHg | n=6 | 3–40 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Ni | n=8 | 5000–15000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Al | n=6 | 200000–500000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Cr | n=12 | 500–3000 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Sn | n=2 | 0–200 | low | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -137,12 +115,12 @@ This node is linked from [[products/kombucha-tea-based]], [[products/matcha]], [
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -161,12 +139,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 13 | [[sources/li2021-china-national-tea-reconnaissance\|Li et al. 2021]]. *Occurrence, accumulation, and risk assessment of trace metals in tea (Camellia sinensis): A national reconnaissance*, Science of the Total Environment | 2021 | Peer-reviewed | National-scale Chinese reconnaissance of trace metals in Camellia sinensis tea leaves and infusions; occurrence, accumulation factors, and health risk assessment across growing regions |
 | 14 | [[sources/yao2021-tieguanyin-white-tea-heavy-metals\|Qinghua et al. 2021]]. *Dietary risk assessment of fluoride, lead, chromium, and cadmium through consumption of Tieguanyin tea and white tea*, Food Science and Technology (Campinas) | 2021 | Peer-reviewed | CN Pb, Cd, Cr occurrence in 72 Tieguanyin tea samples (40 from Anxi, 32 from Hua'an) and 40 white tea samples from Fuding, all... (n=112) |
 | 15 | [[sources/pourramezani2019-iran-imported-black-tea-metals\|Pourramezani et al. 2019]]. *Evaluation of heavy metal concentration in imported black tea in Iran and consumer risk assessments*, Food Science & Nutrition | 2019 | Peer-reviewed | IR/IN/LK Pb, Cd, Cu, tAs, tHg occurrence in One hundred twenty-two commercial black tea leaf samples randomly collected from the local market of Hormozgan Province, Iran... (n=122) |
-| 16 | [[sources/jannat2018-iran-tea-heavy-metals\|Jannat et al. 2018]]. *Determination of trace elements and heavy metals content of green and black tea varieties consumed in Iran*, African Journal of Biotechnology | 2018 | Peer-reviewed | IR Pb, Cd, Cu, Zn occurrence in Sixty commercial true-tea samples purchased from local retail markets in Tehran, Iran: 33 black tea and 27 green... (n=60) |
-| 17 | [[sources/yaqub2018-tea-metals-pesticides-pakistan\|Yaqub et al. 2018]]. *Monitoring and risk assessment due to presence of heavy metals and pesticides in tea samples*, Food Science and Technology | 2018 | Peer-reviewed | Heavy metal monitoring and health risk assessment in Pakistani tea samples; provides occurrence context for tea from South Asian supply chains |
-| 18 | [[sources/zhang2018-tea-puan-guizhou-heavy-metals\|Zhang et al. 2018]]. *Accumulation of Heavy Metals in Tea Leaves and Potential Health Risk Assessment: A Case Study from Puan County, Guizhou Province, China*, International Journal of Environmental Research and Public Health | 2018 | Peer-reviewed | Heavy metal accumulation in tea leaves from Puan County, Guizhou (southwest China); health risk assessment in a cadmium-enriched geological province |
-| 19 | [[sources/brzezicha-cirocka2016-green-tea-geographic-origins\|Brzezicha-Cirocka et al. 2016]]. *Monitoring of essential and heavy metals in green tea from different geographical origins*, Environmental Monitoring and Assessment | 2016 | Peer-reviewed | Essential and toxic metal concentrations in green tea samples by geographic origin; quantifies country-of-origin variance in tea metal profiles |
-| 20 | [[sources/li2015-green-tea-jiangxi-al-heavy-metals\|Li et al. 2015]]. *A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China*, Environmental Monitoring and Assessment | 2015 | Peer-reviewed | Al and heavy metal concentrations in Jiangxi green tea leaves and infusions; compares dry-leaf vs brewed-infusion risk and highlights Al as the dominant health concern |
-| 21 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | Analytical review of determination methods for major chemical contaminants in tea matrices; covers metals, pesticides, and other contaminants across dry leaf, infusion, and extract |
+| 16 | [[sources/deoliveira2018-traditional-herbal-teas-metals\|Oliveira et al. 2018]]. *Metal concentrations in traditional and herbal teas and their potential risks to human health*, Science of the Total Environment | 2018 | Peer-reviewed | US Al, tAs, Cd, Cr, Pb occurrence in Forty-seven tea products collected in the US market, covering 16 herbal teas, 16 black teas, 11 green teas,... (n=47) |
+| 17 | [[sources/jannat2018-iran-tea-heavy-metals\|Jannat et al. 2018]]. *Determination of trace elements and heavy metals content of green and black tea varieties consumed in Iran*, African Journal of Biotechnology | 2018 | Peer-reviewed | IR Pb, Cd, Cu, Zn occurrence in Sixty commercial true-tea samples purchased from local retail markets in Tehran, Iran: 33 black tea and 27 green... (n=60) |
+| 18 | [[sources/yaqub2018-tea-metals-pesticides-pakistan\|Yaqub et al. 2018]]. *Monitoring and risk assessment due to presence of heavy metals and pesticides in tea samples*, Food Science and Technology | 2018 | Peer-reviewed | Heavy metal monitoring and health risk assessment in Pakistani tea samples; provides occurrence context for tea from South Asian supply chains |
+| 19 | [[sources/zhang2018-tea-puan-guizhou-heavy-metals\|Zhang et al. 2018]]. *Accumulation of Heavy Metals in Tea Leaves and Potential Health Risk Assessment: A Case Study from Puan County, Guizhou Province, China*, International Journal of Environmental Research and Public Health | 2018 | Peer-reviewed | Heavy metal accumulation in tea leaves from Puan County, Guizhou (southwest China); health risk assessment in a cadmium-enriched geological province |
+| 20 | [[sources/brzezicha-cirocka2016-green-tea-geographic-origins\|Brzezicha-Cirocka et al. 2016]]. *Monitoring of essential and heavy metals in green tea from different geographical origins*, Environmental Monitoring and Assessment | 2016 | Peer-reviewed | Essential and toxic metal concentrations in green tea samples by geographic origin; quantifies country-of-origin variance in tea metal profiles |
+| 21 | [[sources/li2015-green-tea-jiangxi-al-heavy-metals\|Li et al. 2015]]. *A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China*, Environmental Monitoring and Assessment | 2015 | Peer-reviewed | Al and heavy metal concentrations in Jiangxi green tea leaves and infusions; compares dry-leaf vs brewed-infusion risk and highlights Al as the dominant health concern |
+| 22 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | Analytical review of determination methods for major chemical contaminants in tea matrices; covers metals, pesticides, and other contaminants across dry leaf, infusion, and extract |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -227,15 +206,15 @@ Iced tea, kombucha (fermented tea), and tea-based functional beverages inherit t
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to tea sold in California; the serving-based screen governs.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [03c78ff](https://github.com/paleofoundation/heavymetalindex/commit/03c78ff) | 2026-06-08 | synthesis: promote tea (Camellia sinensis) multi-metal bioaccumulation — 8 anchors |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

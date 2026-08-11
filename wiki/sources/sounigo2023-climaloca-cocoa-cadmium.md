@@ -5,14 +5,15 @@ title: "ClimaLOCA project: Fostering innovations for cadmium reduction in cocoa 
 authors: [Sounigo O, Paulin D, Efombagn MIB, Eskes A, Glendinning A, Gonzalez-Manosalva I, Larrea D, Motamayor JC, Maddison A, Sukha D]
 year: 2023
 publication: "CATIE (Centro Agronómico Tropical de Investigación y Enseñanza) Conference Proceedings"
-doi: "10.18400/catie-2023-0006"
+doi: null
+no_doi_assigned: true
 source_type: conference-proceedings
 evidence_tier: B
 license: "unknown"
 raw_path: raw/studies/sounigo2023-climaloca-cocoa-cadmium.pdf
 sha256: 7a7508c8407aca5b9b3fc8f8b433b66de34c271ddc200103d9e5b5553ddacf07
 access_date: 2026-05-12
-access_url: "https://doi.org/10.18400/catie-2023-0006"
+access_url: "https://hal.science/hal-05182059"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]"]
 products: []
@@ -26,6 +27,8 @@ updated: 2026-05-12
 ---
 
 # Sounigo et al. 2023 — ClimaLOCA project: cadmium reduction innovations in Latin American cocoa
+
+## Overview
 
 Sounigo et al. present results from the ClimaLOCA research project (Climate-adapted Low-Cadmium Cacao), a multi-country initiative in Colombia, Ecuador, and Peru aimed at identifying and deploying cacao genotypes with naturally low cadmium accumulation in beans. The project combines germplasm screening, participatory breeding, soil amendment trials, and farmer training to develop an integrated agronomic approach to reducing Cd in commercially produced cacao beans from the highest-risk origin zones in Latin America. The proceedings paper reports on germplasm screening results across multiple CCN-51 and fine-flavor cacao populations, identifying accessions with significantly lower bean Cd than commercial varieties currently grown in high-Cd zones.
 
@@ -52,15 +55,15 @@ App: Low-Cd accessions from high-altitude Ecuador challenge the simple origin-fl
 - [[supply-chain/cultivar-selection]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

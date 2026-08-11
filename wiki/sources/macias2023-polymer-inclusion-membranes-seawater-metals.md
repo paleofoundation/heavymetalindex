@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Macias and Rodriguez de San Miguel 2023 - PIM separation of Pb(II), Cd(II), and Zn(II) from seawater
 
+## Overview
+
 Macias and Rodriguez de San Miguel optimized polymer inclusion membranes (PIMs) for selective transport of Cd(II), Pb(II), and Zn(II) in saline media and seawater matrices. This is primary remediation and separation-method evidence, not seawater occurrence evidence: synthetic and collected seawater matrices were spiked with defined metal-ion concentrations, and the measured endpoints are transport fractions, separation factors, membrane stability, and preconcentration behavior.
 
 ## Key numbers
@@ -95,15 +97,15 @@ Courses: Useful for teaching the distinction between occurrence data and separat
 This page was built from the full PDF, including the abstract, seawater-matrix description, transport-cell methods, Table 2 selectivity design, Table 3 Cd(II) membrane optimization, Pb(II) plasticizer selection, NaCl and pH effects, separation-factor discussion for commercial Gulf of California and Tecolutla seawater matrices, stability/preconcentration discussion, FTIR stability tables, and the conclusion. Brand names for commercial seawater and analytical materials are intentionally omitted under the brand firewall. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [cadcfb2](https://github.com/paleofoundation/heavymetalindex/commit/cadcfb2) | 2026-06-02 | ingest June 2: macias2023-polymer-inclusion-membranes-seawater-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

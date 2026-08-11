@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-apple-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8c448d379f6ee6114a53af8420b45740c069928ee01fa64c44360a53e66f0d46
+source_page_sha256: d5db3e34f9bc7f640b09ae18d82eebff85aa342d29e297bb6a4a86d3a6880449
 total_claims: 46
 cited_claims: 44
 uncited_claims: 2
 distinct_cited_targets: 5
 distinct_cited_sources: 2
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 50
-audit_log_total_rows: 972
+audit_rows_for_cited_targets: 106
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -35,8 +35,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited targets | 5 |
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 50 |
-| audit log rows read | 972 |
+| audit rows on cited target pages | 106 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -170,13 +170,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ations/fda2023-inorganic-arsenic-apple-juice]]: Federal FDA final action level: 10 ug/kg iAs. Scope: apple juice. Basis:`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -186,13 +188,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-strength apple-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -202,13 +206,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `le-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR va`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -218,13 +224,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `iation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are trea`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -234,13 +242,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rovide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -250,13 +260,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `y: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb for the documented lower-bound det`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -266,13 +278,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `| Direct iAs field comparison is available; this 2011 FDA dataset is below the 10 ug/kg action level at p95 and max, bu`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -282,13 +296,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, conce`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -298,13 +314,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-strength apple-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -314,13 +332,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `le-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR va`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -330,13 +350,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `iation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are trea`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -346,13 +368,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rovide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -362,13 +386,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `y: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb for the documented lower-bound det`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -378,13 +404,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `| Direct iAs field comparison is available; this 2011 FDA dataset is below the 20 ug/kg EU fruit-juice maximum at p95 a`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -394,13 +422,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 10 ug/kg Pb. Scope: single-strength appl`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -410,13 +440,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `2018-FY2020 apple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; tota`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -426,13 +458,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `pple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -442,13 +476,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `s provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -458,13 +494,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with no apple-juice iAs speciat`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -474,13 +512,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -490,13 +530,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `2018-FY2020 apple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; tota`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -506,13 +548,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `pple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -522,13 +566,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `s provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -538,13 +584,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with no apple-juice iAs speciat`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -554,13 +602,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `iation row. | EU maximum level loaded; the small-N apple-juice TDS row is below 30 ug/kg, but this is occurrence context`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
@@ -573,48 +623,54 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 #### Claim `9.8 ppb`
 - Context: `apple-containing (direct row-fit) | mean 4.09 ppb (1 source); highest reported 9.8 ppb | 97% detected (91/94, Fda 2011,`
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 #### Claim `10 ppb`
 - Context: `single-strength-juice) | [[regulations/fda2023-inorganic-arsenic-apple-juice]]: 10 ppb (juice) | 1 cited | low (1-2 sour`
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 #### Claim `1.5 ppb`
 - Context: `tals/lead\|Pb]] | apple-containing (summary-only / supporting context) | median 1.5 ppb (1 source); highest reported 2.7`
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 #### Claim `2.7 ppb`
 - Context: `ummary-only / supporting context) | median 1.5 ppb (1 source); highest reported 2.7 ppb | 67% detected (2/3, Fda 2022, F`
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 #### Claim `10 ppb`
 - Context: `rted concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 10 ppb (single-strength ready-to-drink j`
 - Cited targets (2):
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
-  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` (page missing)
-    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md`
+    - audit rows (1):
+      - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
 
 ## Uncited claims
 
@@ -627,9 +683,9 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
-| `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` | regulations | 1 | 2026-05-12 | 2026-05-12 |
 | `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | sources | 0 | — | — |
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
 

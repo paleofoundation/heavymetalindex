@@ -28,7 +28,9 @@ updated: 2026-05-09
 
 # Brombach et al. 2017 — Methylmercury in commercial European rice
 
-This A-tier peer-reviewed analytical study measures total mercury and methylmercury in 87 commercial rice products from European supermarkets, including 7 pre-cooked baby-food rice products and 2 toddler rice cakes. MeHg ranged from 0.11 to 6.45 µg/kg with an arithmetic mean of 1.91 ± 1.07 µg/kg; total Hg ranged from 0.53 to 11.1 µg/kg, mean 3.04 ± 2.7 µg/kg. The mean MeHg fraction of total Hg was 71 ± 26%, with sample-level fractions ranging 6–100% at low total-Hg concentrations and capping at 60% above 6 µg/kg total Hg. The authors explicitly tested and confirmed that **baby-rice samples are not significantly different from other rice products** in MeHg concentration, which is the key author-scope claim that lets the 7-sample baby-rice subset inherit the broader 87-sample distribution as a sample-size-amplified pool. Author scope is exact on matrix axis (rice as the commodity; rice products as finished foods within rice) and exact on format axis where the baby-food rice (samples 11-17) and toddler rice cakes (samples 18-19) are explicitly enumerated. Per the corrected row-fit rule (CLAUDE.md Part 6), Brombach 2017 routes directly to multiple HMTc Category 1 rice-based subcategory pages.
+## Overview
+
+This A-tier peer-reviewed analytical study measures total mercury and methylmercury in 87 commercial rice products from European supermarkets, including 7 pre-cooked baby-food rice products and 2 toddler rice cakes. MeHg ranged from 0.11 to 6.45 µg/kg with an arithmetic mean of 1.91 ± 1.07 µg/kg; total Hg ranged from 0.53 to 11.1 µg/kg, mean 3.04 ± 2.7 µg/kg. The mean MeHg fraction of total Hg was 71 ± 26%, with sample-level fractions ranging 6–100% at low total-Hg concentrations and capping at 60% above 6 µg/kg total Hg. The authors explicitly tested and confirmed that **baby-rice samples are not significantly different from other rice products** in MeHg concentration, which is the key author-scope claim that lets the 7-sample baby-rice subset inherit the broader 87-sample distribution as a sample-size-amplified pool. Author scope is exact on matrix axis (rice as the commodity; rice products as finished foods within rice) and exact on format axis where the baby-food rice (samples 11-17) and toddler rice cakes (samples 18-19) are explicitly enumerated. Per the corrected row-fit rule, Brombach 2017 routes directly to multiple HMTc Category 1 rice-based subcategory pages.
 
 ## Key Numbers
 
@@ -80,7 +82,7 @@ EF-2 reconstructable A-tier evidence at the article level (population summary st
 - Per-sample MeHg values are in supplementary Table S1, not the main PDF; sample-level pooling for the baby-rice (n=7) and toddler-rice-cake (n=2) subsets is deferred until Table S1 is extracted.
 - The 7-sample baby-rice subset n=7 and 2-sample toddler-rice-cake subset n=2 are below the 10-sample defensibility floor on their own. The author's "not significantly different" claim is the basis for inferring from the n=87 pool.
 - European-market focus; the rice itself is sourced globally (India, Cambodia, Thailand, Pakistan as major exporters per the paper). Part 6 jurisdiction-mix labeling required.
-- Total Hg uses bromide/bromate digestion which oxidizes all Hg to Hg(II); this captures both MeHg and inorganic Hg as total. The 71 ± 26% MeHg/tHg ratio means total-Hg-only data can substantially over- or under-represent the MeHg fraction depending on the matrix. Per CLAUDE.md Part 14, MeHg and tHg are non-conflatable; this paper supplies both directly.
+- Total Hg uses bromide/bromate digestion which oxidizes all Hg to Hg(II); this captures both MeHg and inorganic Hg as total. The 71 ± 26% MeHg/tHg ratio means total-Hg-only data can substantially over- or under-represent the MeHg fraction depending on the matrix. MeHg and tHg are non-conflatable; this paper supplies both directly.
 - The paper notes that no rice-based MeHg certified reference material exists; quality control used seafood CRMs (NRCC-DOLT-4, NRCC-DORM-3, NRCC-TORT-2, IAEA-085, NIES CRM 13) which have a different matrix. Standard addition into rice was the matrix-matched control.
 - Polished vs whole-grain rice showed no significant difference in tHg or MeHg (p>0.05), so MeHg can't be reduced by polishing. This is an important upstream ingredient-mitigation finding.
 
@@ -108,15 +110,15 @@ Karen externally fetched this paper on 2026-05-09 by direct email correspondence
 - [[products/infant-and-child-foods-master]] (MeHg rice-cereal cell upgrade)
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

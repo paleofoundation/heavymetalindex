@@ -8,17 +8,16 @@ category: taxonomy-placeholder
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 8]
-    p95_ppb: 78
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: raw-pear-with-peel-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 1.8]
     p95_ppb: 2.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -32,22 +31,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 7.9]
     p95_ppb: 8.5
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-pear-with-peel-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 102.8]
     p95_ppb: 117
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -59,13 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-pear-with-peel-wet-weight
-    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -75,46 +71,24 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-16
 sources: 10
 ---
 
 # Pear
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=16 | labeled data-gaps: Al, Sn |
-| D2 Regional coverage | OK | 4 jurisdictions, top US 57% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); iAs: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming pear: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); iAs: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -128,34 +102,18 @@ The historical use of lead arsenate as an orchard pesticide across the United St
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | <4–8 | 78 | low | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=2 | 0–1.8 | 2.7 | high | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | n=2 | 2–15 | — | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tAs | n=2 | 0–7.9 | 8.5 | high | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–102.8 | 117 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | <50 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw pear-with-peel wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis on which FDA Total Diet Study Food 85 ("Pear, with peel, raw") reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported lead, total mercury, chromium, and uranium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for pear (n=27), in which every sample fell below the reporting limit for each of these four metals and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], all 27 composites below the reporting limit: Pb 4, tHg 1, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound and, for lead, with the detected European fresh-pear distribution. The honest floor for each fully censored analyte is the FDA reporting limit expressed as a left-censored bound, not a measured zero.
-
-Lead is recovered from primary European fresh-pear occurrence literature against the FDA censored floor. Polish retail fresh pear ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], GFAAS, ISO/IEC 17025) reports fresh-pear lead at a mean of 8 µg/kg and a maximum of 17 µg/kg wet weight, the cleanest pear-specific fresh-flesh anchor in the corpus; the pooled lead typical of [0, 8] takes the FDA 4 µg/kg censored floor as the low bound and the Rusin fresh-pear mean as the upper. The 95th-percentile of 78 µg/kg is the Romanian market whole-fruit value from [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]] (Galați County, ICP-MS, fresh-weight basis), which reports washed whole-pear lead of 78.1 µg/kg in market produce and 69.2 µg/kg in amateur-farm produce. The Bora values sit roughly an order of magnitude above the Rusin and FDA anchors and are stratified below as a high-background regional anchor, not as the central tendency; the study itself documents that its market produce ran 67 percent higher in lead than amateur-farm produce, consistent with a contaminated commercial supply-chain context in that county. Lead is held at low confidence: only three contributors exist, two of them fully or partly elevated by whole-fruit or regional-background effects, and the FDA composite is fully censored.
-
-Total mercury, chromium, and uranium rest on the FDA censored floor. Total mercury: no pear-specific positive value exists in the corpus. The FDA pear composite is below the 1 µg/kg reporting limit across all 27 samples, and the Polish fruit monitoring program ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]], CVAAS) reports total mercury only for the broad "other fresh fruits" category (mean 0.3 to 1.7 µg/kg middle-bound, 90th-percentile 0.1 to 4 µg/kg) rather than for pear by name; that category aggregate is cited here as broad-fruit upper context only and is not relabeled as a pear value. The total-mercury cell is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and no upper bound or 95th-percentile, at low confidence and a single pear-specific contributor. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Chromium is reported as total chromium only. No pear-specific positive chromium value exists in the corpus: the FDA composite is below the 50 µg/kg reporting limit across all 27 samples, and the only other corpus measurement, dried pear in an Iraqi-market survey of Iranian-origin dried fruit ([[sources/hadi2025-dried-fruits-heavy-metals-iraq|Hadi et al. 2025]], AAS), reports pear chromium as not detected. The chromium cell is recorded with the FDA reporting limit as a left-censored low bound ([0, null]) at low confidence and a single contributor. No pear hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred from total chromium.
-
-Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no other source in the corpus reports an extractable quantitative pear uranium value, so no distribution is published (the rice-uranium precedent). Cadmium, inorganic arsenic, total arsenic, and nickel retain their prior values and were outside the scope of this resynthesis.
-
-The same Iraqi-market dried-fruit survey reports dried pear cadmium at 378 µg/kg dry weight and lead and chromium as not detected ([[sources/hadi2025-dried-fruits-heavy-metals-iraq|Hadi et al. 2025]]); Rusin reports dried pear lead to 38 µg/kg and cadmium to 16 µg/kg on a dry-weight basis. These dried-form values reflect weight-loss concentration and a separate processing stratum and are not folded into the fresh-pear percentiles above.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cd | n=2 | 0–1.8 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| iAs | n=2 | 2–15 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tAs | n=2 | 0–7.9 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=2 | 0 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Ni | n=2 | 0–102.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Routing
 
@@ -163,7 +121,7 @@ This node is linked from [[products/fruit-purees]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -176,21 +134,21 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pear, with peel, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 1.84 | 2.67 | 4 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 55 | 102.8 | 117 | 130 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 5 | 7.9 | 8.48 | 9.3 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 4 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 130 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 9.3 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-Pear Pb and Cd concentrations in the flesh are consistently among the lowest observed in monitored food categories, with most samples below or near analytical detection limits. Geographic variance is primarily a function of orchard soil history and proximity to industrial emission sources; no large multi-region comparative study specifically for pears is available in the current corpus. The FDA TDS FY2018-FY2020 dataset reports pear with peel (TDS Food 85, n=27) with all 27 composites below the reporting limit for Pb (reporting limit 4 µg/kg), total mercury, chromium, and uranium, alongside Ni at a median of 55 ppb (max 130 ppb), Cd at a 90th percentile of 1.84 ppb, and tAs at a median of 5 ppb, reflecting the US retail distribution of commercial pears ([[sources/fda2022-tds-elements-fy2018-fy2020]]); the below-limit results are carried as left-censored bounds rather than as measured zeros. Primary European fresh-pear surveys detect lead at low but non-zero concentrations: Polish retail fresh pear at a mean of 8 µg/kg (max 17 µg/kg wet weight) ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]), and Romanian market whole pear substantially higher at 78 µg/kg fresh weight in a high-background growing region ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]]). These FDA values represent skin-on fruit, which would carry higher Pb than skin-off preparations.
+Pear Pb and Cd concentrations in the flesh are consistently among the lowest observed in monitored food categories, with most samples below or near analytical detection limits. Geographic variance is primarily a function of orchard soil history and proximity to industrial emission sources; no large multi-region comparative study specifically for pears is available in the current corpus. The FDA TDS FY2018-FY2020 dataset reports pear with peel (TDS Food 85, n=27) with Pb predominantly at zero, Cd predominantly at zero with low-level detection in some market samples, Ni at a median of 55 ppb (max 130 ppb), and tAs at a median of 5 ppb, reflecting the US retail distribution of commercial pears ([[sources/fda2022-tds-elements-fy2018-fy2020]]). These values represent skin-on fruit, which would carry higher Pb than skin-off preparations.
 
 ## Processing effects
 
@@ -232,10 +190,18 @@ Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-lev
 
 FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) addresses lead in fruit purees and juices consumed by infants; pear is within scope as a commonly consumed infant fruit. Codex Alimentarius sets guidance levels for contaminants in fruit generally ([[regulations/codex-cadmium-mls]]). The UK post-Brexit Contaminants Regulation applies the same ML values as the EU for pear in domestic commerce.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -251,15 +217,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

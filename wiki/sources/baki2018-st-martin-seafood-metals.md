@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Baki 2018 - St. Martin Island seafood metals
 
+## Overview
+
 Baki and colleagues measured Cr, Mn, Cu, Zn, arsenic, Cd, Pb, Hg, and Fe in fish and crustaceans from Saint Martin's Island, Bangladesh. The sampled seafood included eight fish species plus shrimp, lobster, and crab species, with crustacean muscle and shell/carapace fractions analyzed separately. The occurrence tables report concentrations on a `mg/kg ww` basis; the text describes the arsenic measurement as inorganic As and reports mercury as total/unspecified Hg, not methylmercury.
 
 ## Key numbers
@@ -63,11 +65,15 @@ This source provides Bangladesh seafood occurrence evidence for fish, shrimp, lo
 - Brand firewall: samples were species/local-market categories, not branded products.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [02e4465](https://github.com/paleofoundation/heavymetalindex/commit/02e4465) | 2026-06-08 | ingest: baki2018-st-martin-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

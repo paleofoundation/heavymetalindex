@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Wang et al. 2024 - Biochar-alginate hydrogel for cadmium soil passivation
 
+## Overview
+
 Wang and colleagues prepared a modified biochar-calcium alginate hydrogel composite, abbreviated MB-CA, and tested its ability to adsorb Cd(II) from solution and passivate cadmium in contaminated soil. This is mitigation evidence for cadmium-contaminated cultivated land; its spiked-solution and soil-culture values must not be used as product occurrence concentrations.
 
 ## Key numbers
@@ -67,3 +69,17 @@ App: No direct ingredient or product-risk distribution; retain as mitigation-con
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, pH experiment, Table 1 narrative, Table 2 kinetic parameters, soil-culture results, conclusions, and materials/methods. Products and ingredients are intentionally empty because the study does not measure a consumer product or edible crop. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

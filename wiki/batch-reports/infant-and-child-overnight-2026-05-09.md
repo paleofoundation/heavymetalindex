@@ -15,6 +15,8 @@ noindex: true
 
 # Infant and Child Foods Overnight Final Report — 2026-05-09
 
+## Overview
+
 This report covers the day-2 autonomous run under Karen's overnight Expansion 1 directive (full 16-subcategory Category 1 scope) and Expansion 2 directive (external corpus acquisition via PubMed for data gaps). It supersedes the 2026-05-08 report by extending coverage from 4 to 16 subcategories and adding an external-acquisition wishlist.
 
 ## Subcategory readiness state per analyte (160 cells)

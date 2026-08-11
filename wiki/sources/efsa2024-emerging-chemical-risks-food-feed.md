@@ -10,7 +10,7 @@ doi: "10.2903/sp.efsa.2024.EN-8992"
 access_url: "https://doi.org/10.2903/sp.efsa.2024.EN-8992"
 source_type: gov-report
 evidence_tier: A
-tier_rationale: "EFSA technical report from the Knowledge, Innovation and Partnership Management (KNOW) Unit, approved 9 August 2024, summarising the 2020-2023 outputs of EFSA's Environmental Scanning and Strategic Options Definition process. Per CLAUDE.md Part 13: EFSA is explicitly named as an A-tier government-report source. The publication is a horizon-scanning meta-document — it indexes other EFSA projects (SCREENER, TIM, CLEFSA, EuroCigua, OCEANS, Circular Economy) and EREN/StaDG-ER briefing notes; it does not itself perform new measurements."
+tier_rationale: "EFSA technical report from the Knowledge, Innovation and Partnership Management (KNOW) Unit, approved 9 August 2024, summarising the 2020-2023 outputs of EFSA's Environmental Scanning and Strategic Options Definition process. Per: EFSA is explicitly named as an A-tier government-report source. The publication is a horizon-scanning meta-document — it indexes other EFSA projects (SCREENER, TIM, CLEFSA, EuroCigua, OCEANS, Circular Economy) and EREN/StaDG-ER briefing notes; it does not itself perform new measurements."
 method_quality_caveat: "Horizon-scanning meta-report. No primary heavy-metal concentration measurements; metals appear only in three indexing contexts: (i) CLEFSA Issue 120 'Heavy metals as As, Pb, Cd' and Issue 116 'Mercury' scored as climate-change-relevant emerging issues; (ii) one circular-economy line noting Cd and Ni in insect prepupae reared on by-product feed; (iii) one 2022 EREN-Estonia briefing note on minerals/heavy-metals/oxalates in chaga mushroom. Useful for regulatory-context citations and driver/horizon framing on metal pages; does not contribute occurrence data to any product or ingredient cell."
 license: "cc-by-nd"
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/EFSA_Emerging_Chemical_Risks_2024.pdf"
@@ -30,6 +30,8 @@ updated: 2026-06-02
 ---
 
 # EFSA 2024 — Emerging chemical risks in food and feed (technical report)
+
+## Overview
 
 This 42-page EFSA technical report (Supporting Publication 2024:EN-8992; Question No. EFSA-Q-2024-00477; approved 9 August 2024) is a horizon-scanning overview of EFSA's emerging-chemical-risk identification activities for the period 2020-2023. It is produced by the Knowledge, Innovation and Partnership Management (KNOW) Unit under Strategic Objective N°2 of the EFSA Strategy 2027. The report indexes six EFSA projects plus the work of the Emerging Risks Exchange Network (EREN) and the Stakeholder Discussion Group on Emerging Risks (StaDG-ER), and closes with a SWOT analysis of EFSA's current approach and forward-looking policy/cooperation recommendations.
 
@@ -80,15 +82,15 @@ EFSA's Environmental Scanning and Strategic Options Definition process runs two 
 - 2026-06-02 — Fresh-context audit subagent (verdict REVISE) flagged that the Figure 3 description omitted Hg from the heavy-metals dot label and placed the dot too centrally in the 33-66% band. Verified independently against p. 14 of the source PDF: the figure label is in fact "Heavy metals as As, Pb, Cd, Hg" (Mercury is bundled into the same dot) and the dot sits in the upper portion of the 33-66% band near the 66-90% boundary. Corrected the Figure 3 sentence accordingly.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

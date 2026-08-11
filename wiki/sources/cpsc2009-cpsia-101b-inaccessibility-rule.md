@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # CPSC (2009) — CPSIA Section 101(b)(2) Inaccessibility Interpretative Rule (16 CFR 1500.87)
 
+## Overview
+
 A fifty-two-page Consumer Product Safety Commission ballot package dated July 23, 2009 (ballot vote due July 30, 2009; rule effective August 14, 2009) containing the Commission's draft Federal Register notice promulgating the final interpretative rule on inaccessible component parts of children's products containing lead under Section 101(b)(2) of the Consumer Product Safety Improvement Act of 2008. The package codifies the rule at a new 16 CFR 1500.87 and consists of: (i) a two-page ballot vote sheet from CPSC Office of General Counsel (Philip Chao, Hyun S. Kim) routed through General Counsel Cheryl A. Falvey and Acting Executive Director Jacqueline Elder to the Commission and Secretary Todd A. Stevenson; (ii) Attachment 1, the thirty-page draft Federal Register notice (16 CFR Part 1500) reproducing the rule preamble (Background, Statutory Authority, Notice of Proposed Rulemaking, Discussion of Comments and Responses, Effective Date, List of Subjects, Conclusion) and the full regulatory text of §1500.87(a) through (j); (iii) Attachment 2, a five-page CPSC staff memorandum "Consumer Product Safety Improvement Act of 2008 (CPSIA) — Guidance for Evaluating Accessibility of Lead-Containing Component Parts" by Robert J. Howell and Kristina M. Hatlelid summarizing the proposed accessibility-assessment framework and the staff's conclusions and recommendation to the Commission; and (iv) Attachment 3, a ten-page CPSC staff memorandum "Response to Public Comments: Inaccessibility of Lead-Containing Components of Children's Products" by Kristina M. Hatlelid (through Lori E. Saltzman to Mary Ann Danello) cataloguing the nine public comments received on the January 15, 2009 notice of proposed rulemaking (74 FR 2439) and the staff's responses, with Appendix A listing the commenters (Office of the Secretary memorandum from Todd A. Stevenson, February 24, 2009). The package contains no primary contamination measurements; it is included in the Heavy Metal Index corpus as the primary-regulatory-record source for the 16 CFR 1500.87 inaccessibility-exclusion framework that any HMTc certification of US children's products covered by CPSIA must reckon with, and as the canonical citation for the statutory-interpretation reasoning the Commission adopted in distinguishing physical accessibility from leaching or ingestion-based accessibility.
 
 ## Key numbers
@@ -100,15 +102,15 @@ A CPSC Office of the Secretary ballot package dated July 23, 2009 transmitting t
 - **Related corpus pages.** [[hatlelid2009-cpsc-cpsia-lead-childrens-products]] is the same staff author's December 2009 fourteen-slide presentation summarising the broader CPSIA Section 101 regime (statutory limits, definitional scope, exclusions framework, determinations rule, paint rule, and testing-methods study); this current source is the primary-regulatory-record document for the specific 16 CFR 1500.87 inaccessibility rule that the December 2009 deck's slide 6 summarises. [[cpsc2012-cpsia-101b-functional-purpose-exception]] is the same series of Section 101(b) interpretive rules (the §1500.91 functional-purpose exception) approached three years later under the same statutory authority; this current source is the older sibling. [[cfa2012-cpsia-lead-fact-sheet]] is a 2012 consumer-advocacy summary of the same CPSIA Section 101 regime, written several years after this 2009 ballot package, that references but does not reproduce the §1500.87 inaccessibility framework. No CPSIA-Section-101-specific regulation page yet exists in `wiki/regulations/`; the natural next-step regulation page would be the routing target for this source, the cpsc2012 source, the cfa2012 source, the hatlelid2009 presentation, and any later Section 101 sources. Per Part 10 and the manual-fetch skill, that regulation page is a Karen-curated new-page proposal rather than something created during this ingest.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

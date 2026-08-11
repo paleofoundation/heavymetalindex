@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Abulude et al. 2007 — Pb, Cd, Ni and Cr in 19 soaps and detergents from Akure (Ondo State), Nigeria
 
+## Overview
+
 A short three-page Academic Journals Inc. paper quantifying lead, cadmium, nickel and total chromium in nineteen soap and detergent products purchased from open-market vendors in Akure, Ondo State, southwestern Nigeria, in July 2006. The sample mix spans toilet (bath/hand) soaps, multi-purpose bar soaps, powdered laundry detergents, a liquid laundry detergent, and one locally produced hand-mould soap. Quantification used dry ashing at 500 °C followed by 2 M HCl dissolution and analysis on a SP 9 Pye Unicam atomic absorption spectrophotometer at triplicate determinations per sample. The paper reports only pooled-distribution statistics (minimum, maximum, mean, standard error of the mean across all nineteen samples) for each metal; per-sample concentrations are not tabulated. Cadmium was below the detection limit in every sample (no LOD value is reported). Pooled means across the nineteen-sample distribution were Pb 3.78 mg/kg, Ni 2.20 mg/kg, and total Cr 1.33 mg/kg on a dry-product, as-purchased basis. The authors do not propose threshold comparisons against any cosmetic, household-cleaning or food regulatory ceiling; the framing throughout is descriptive ("the values obtained for the trace heavy metals determined were low, there is a cause for vigilance") and the discussion section places the Akure results in context against other authors' values for unrelated matrices (tea leaves, deer tissue, street dust, shrimp, coots) rather than against soap- or detergent-specific reference data.
 
 ## Key numbers
@@ -156,15 +158,15 @@ The reported wavelengths for Cd (217 nm), Cr (262 nm) and Ni (260 nm) do not cor
 - Audit verdict: REVISE. Three findings applied (sample-composition table correction; sample_population narrative correction; Implications bullet 2 cross-source comparator strip). Two findings rejected as false positives (bathing-soaps slug; matrices vocabulary).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [5c75530](https://github.com/paleofoundation/heavymetalindex/commit/5c75530) | 2026-06-03 | audit: abulude2007-soaps-detergents-akure-nigeria revised |
-| [6e1b2e5](https://github.com/paleofoundation/heavymetalindex/commit/6e1b2e5) | 2026-06-03 | ingest: abulude2007-soaps-detergents-akure-nigeria fresh from KADC/02_Toilet_Bathroom_Descaler |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

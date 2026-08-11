@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Torabi 2024 - metals in marine fish from the northwest Persian Gulf
 
+## Overview
+
 Torabi and colleagues measured nickel, zinc, copper, lead, and cadmium in muscle tissue from `60` marine fish caught along the northwest Persian Gulf. The abstract and Discussion report aggregate mean concentrations in `µg/g wet weight`, while Table 3 prints much larger species-level values and labels them as `milligrams per gram of wet weight`. Because that table/unit conflict is substantial, this page preserves the source text without reconciling the values.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd
 - Speciation: the paper measured total elemental Ni, Zn, Cu, Pb, and Cd in fish muscle. It did not measure Hg, MeHg, arsenic, or metal speciation.
 - Brand firewall is not relevant; samples are wild fish species and ports, not brands.
 - Source-quality note: no averaging, unit conversion, or table correction was performed because the source itself is internally inconsistent.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

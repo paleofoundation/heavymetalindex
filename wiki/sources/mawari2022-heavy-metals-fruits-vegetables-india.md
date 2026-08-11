@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mawari et al. 2022 — Heavy metals in fruits, vegetables and soil, Solapur, Maharashtra, India
 
+## Overview
+
 This study quantified Pb, Cd, total As, and total Hg in 24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — grown on farms surrounding the industrialized city of Solapur in Maharashtra, India, and in native soil at six sampling locations within a roughly 10 km radius of the city's industrial hub. Samples were collected during winter (January) and summer (April) of 2017. Crops were analysed by ICP-MS (Agilent 7500) after acid digestion following EPA Method 3050B and FSSAI guidance. Mean concentrations across all 24 commodities were Pb 0.17 ± 0.38 mg/kg > Hg 0.06 ± 0.09 mg/kg > Cd 0.02 ± 0.007 mg/kg > As 0.002 ± 0.003 mg/kg. Vegetables accumulated more metal than fruits across all four analytes; the authors attribute this to higher transpiration rates, greater leaf surface area and physical contamination from dust and rainwater. Garlic exhibited the highest Cd concentration (0.37 mg/kg, exceeding the WHO/FAO standard of 0.2 mg/kg), sugarcane the highest Pb (1.741 mg/kg), and sorghum the highest Hg (0.356 mg/kg). Hazard Index exceeded 1 for garlic (HI ≈ 3.00, driven by Cd then Pb) and sugarcane (HI ≈ 2.22, driven by Pb), indicating non-carcinogenic health concern at modeled intakes. Soil concentrations at all six sites remained below Indian and EU regulatory thresholds.
 
 ## Key numbers
@@ -134,15 +136,15 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - [[products/other-grain-products]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e683413](https://github.com/paleofoundation/heavymetalindex/commit/e683413) | 2026-06-08 | ingest: mawari2022-heavy-metals-fruits-vegetables-india duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_01_Fruits_and_Fruit_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [e68341311](https://github.com/paleofoundation/heavymetalindex/commit/e68341311) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -1,8 +1,8 @@
 ---
 type: synthesis
-title: "Bivalve cadmium amplification through filter feeding — why mussels and oysters need a different threshold than finfish"
+title: "Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish"
 slug: bivalve-cadmium-amplification
-audience: [regulator, brand-legal, hmtc-staff, educator]
+audience: [regulator, brand-legal, educator]
 metals: [Cd, Pb, tHg]
 ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]", "[[ingredients/seafood]]"]
 products: ["[[products/seafood]]", "[[products/canned-fish]]"]
@@ -12,11 +12,13 @@ wiki_doi: null
 updated: 2026-05-18
 ---
 
-# Bivalve cadmium amplification through filter feeding — why mussels and oysters need a different threshold than finfish
+# Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish
+
+## Overview
 
 Cadmium concentrations in bivalve molluscs (mussels, clams, oysters, scallops) and cephalopods (squid, octopus, cuttlefish without viscera) are consistently one-to-two orders of magnitude higher than cadmium in finfish muscle from the same waters. The mechanism is filter feeding: bivalves process hundreds of liters of seawater per day, concentrating dissolved and particulate-bound Cd from the water column into their soft tissue. EU regulation acknowledges the differential by setting a 1.0 mg/kg wet-weight Cd cap for bivalves and cephalopods (without viscera) vs the 0.05 mg/kg default for fin-fish muscle — a 20-fold permitted ceiling reflecting the biological reality that bivalves accumulate Cd at qualitatively different rates than fish do.
 
-The certification implication is that HMTc seafood standards should NOT apply the same Cd ceiling across the entire seafood category. Bivalves require a separately-calibrated Cd threshold informed by the bivalve-specific evidence base; conflating bivalves and finfish under a single Cd standard either leaves the bivalve category effectively uncertified (if the threshold is set to the finfish floor, almost no bivalves pass) or under-protects the finfish category (if the threshold is set to the bivalve ceiling, finfish that should be below the line easily clear it).
+Because the bivalve and finfish cadmium distributions are separated by one-to-two orders of magnitude, a single cadmium concentration threshold applied across the whole seafood category is not scientifically supportable: a threshold set near the finfish distribution would exclude nearly all bivalves regardless of how clean the source water is, while a threshold set near the bivalve distribution would fall well above the finfish distribution and discriminate poorly among finfish. EU regulation reflects this by setting separate per-category cadmium ceilings, and the bivalve-specific evidence base is the appropriate reference distribution for any bivalve cadmium benchmark.
 
 ## The bivalve-finfish Cd differential
 
@@ -25,7 +27,7 @@ Across the wiki's seafood-axis evidence base, the Cd concentration pattern is:
 - **Finfish muscle (most species, wild and farmed)**: typically 0.005-0.05 mg/kg wet weight. [[sources/hussein2023-freshwater-marine-fish-egypt|Hussein 2023]] Egyptian fish dataset (n=120, 6 species) reports Cd means 0.03-0.13 mg/kg across species. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Rusko 2026]] Latvian inland freshwater fish (n=460, 7 species) reports Cd ALL below LOQ. [[sources/cardoso2023-mercury-portuguese-coast-seafood|Cardoso 2023]] Portuguese coastal finfish typically below the EU 0.05 mg/kg fin-fish cap.
 - **Bivalves (mussels, clams, oysters)**: typically 0.1-1.0 mg/kg wet weight, with regional outliers approaching the EU 1.0 mg/kg bivalve cap. [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily|Bruno 2024]] reports Sicilian lagoon mussel/clam Cd values approaching the EU bivalve cap in specific sub-locations. [[sources/dogruyol2024-mediterranean-mussels-health-risk|Dogruyol 2024]] Mediterranean mussel survey reports Cd at consumer-relevant concentrations supporting weekly-intake risk modeling. [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] uses single-particle ICP-MS to characterize Cd nanoparticle forms in mussels in addition to total Cd; the nanoparticle form is a load-bearing finding because nanoparticle-bound Cd has potentially different bioavailability than dissolved Cd.
 - **Cephalopods (squid, octopus, cuttlefish, muscle/mantle without viscera)**: typically 0.1-0.5 mg/kg wet weight. Cephalopod viscera (digestive gland) concentrate Cd at much higher levels (often >5 mg/kg) and are typically excluded from the EU cap accordingly.
-- **Cd-rich bivalve species (scallops, certain oysters)**: can approach or exceed the EU 1.0 mg/kg cap routinely; specific HMTc-bound certification standards in scallop-and-oyster sub-categories require source-by-source pooling at the species level rather than the broader bivalve aggregate.
+- **Cd-rich bivalve species (scallops, certain oysters)**: can approach or exceed the EU 1.0 mg/kg cap routinely; characterizing these species reliably requires source-by-source pooling at the species level rather than relying on the broader bivalve aggregate, because the species-level distributions diverge from the pooled bivalve distribution.
 
 The 10-100× differential between finfish-muscle Cd and bivalve Cd is consistent across all geographies and seasons in the wiki's evidence corpus. This is not measurement noise; it is a biological feature of filter feeding.
 
@@ -45,22 +47,16 @@ Hg (specifically MeHg) in bivalves and cephalopods is generally similar to or lo
 
 So the bivalve-finfish differential is Cd-specific. Pb and Hg patterns in bivalves are not similarly amplified.
 
-## Certification implication: separate Cd thresholds for bivalves vs finfish
+## Structure of the seafood cadmium distribution
 
-HMTc certification standards on the seafood category should treat bivalves (mussels, clams, oysters, scallops) and cephalopods (squid, octopus, cuttlefish) as a separately-calibrated sub-category for Cd specifically. A single Cd ceiling applied across the whole seafood category will not work. Three options:
-
-1. **Two-tier Cd standard**: One Cd ceiling for finfish (calibrated against the finfish-muscle distribution, well below the EU 0.05 mg/kg cap), a separate Cd ceiling for bivalves and cephalopods-without-viscera (calibrated against the bivalve distribution, below the EU 1.0 mg/kg cap). This is the simplest defensible approach and mirrors EU regulatory architecture.
-2. **Species-specific Cd standards**: One ceiling per major species (mussel, oyster, scallop, squid, octopus, etc.). More precise but more administrative overhead.
-3. **Source-region Cd standards**: Add origin-specification to the certification, with regional ceilings reflecting documented water-column Cd burden by source region. This is the strictest framework but requires supplier-side traceability documentation.
-
-The two-tier framework (option 1) is the recommended starting point. Option 2 or 3 can be layered on later as evidence accumulates.
+The seafood category does not have a single cadmium distribution; it is at least two distributions separated by one-to-two orders of magnitude. Finfish muscle clusters well below the EU 0.05 mg/kg fin-fish cap, while bivalves and cephalopods-without-viscera occupy a distinct, much higher range bounded by the EU 1.0 mg/kg bivalve cap. EU regulatory architecture mirrors this by setting separate per-category cadmium ceilings rather than a single seafood-wide ceiling. Within the bivalve range, the species-level distributions diverge further: scallops and certain oysters sit higher than mussels and clams, so species-resolved characterization carries more information than the pooled bivalve aggregate. The water-column cadmium burden of the source region is an additional documented axis of variation, which is why origin is informative for cadmium when supplier traceability data are available.
 
 ## What this synthesis does not yet rest on
 
 - **Scallop and oyster-specific evidence is thinner than mussel evidence.** Most of the bivalve corpus in the wiki today is mussel-focused; scallops and oysters have less species-specific characterization. Future ingest should prioritize scallop and oyster-specific surveys for the bivalve sub-category to be evidence-supported beyond extrapolation from mussels.
 - **Nanoparticle-bound Cd bioavailability.** [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] single-particle ICP-MS evidence that some bivalve Cd is in nanoparticle form raises a follow-up question about whether nanoparticle Cd has lower bioavailability than dissolved Cd. If yes, the actual human-relevant exposure may be lower than total-Cd-derived risk models suggest. If no, the existing risk models are accurate. The mechanism is open.
 - **Aquaculture vs wild-caught bivalve Cd.** The aquaculture-vs-wild differential well-documented for finfish ([[synthesis/aquaculture-vs-wild-contamination-differential]]) may operate differently in bivalves because farmed bivalves still filter-feed on ambient water (unlike farmed finfish which eat controlled feed). Whether farmed mussels in Cd-managed waters carry meaningfully different Cd than wild mussels in the same region needs separate characterization.
-- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts. HMTc certification on cephalopod products with viscera-included recipes needs a separate evidence treatment.
+- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts, and viscera-inclusive products fall outside the evidence base that the muscle-only cadmium values characterize. Whole-animal or viscera-inclusive cephalopod products therefore require their own cadmium characterization rather than extrapolation from muscle-only data.
 
 ## Downstream pages updated
 
@@ -79,7 +75,7 @@ The two-tier framework (option 1) is the recommended starting point. Option 2 or
 
 ## How this page was promoted
 
-Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page exists to ensure HMTc Cd certification thresholds on the seafood category are designed with the bivalve-finfish differential built in from the start.
+Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page consolidates that differential and its filter-feeding mechanism into a single literature-native reference.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -90,19 +86,33 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/hussein2023-freshwater-marine-fish-egypt|Risk assessment of toxic residues among some freshwater and marine water fish species]]<span class="hmi-ref-meta">Mohamed A. Hussein, Nanis S. Morsy, Abdallah F. Mahmoud, Wageh S. Darwish, Mohamed T. Elabbasy, František Zigo, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1185395](https://doi.org/10.3389/fvets.2023.1185395)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes]]<span class="hmi-ref-meta">Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M · Foods · 2026 · [doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/cardoso2023-mercury-portuguese-coast-seafood|Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment]]<span class="hmi-ref-meta">Cardoso PG, Morais H, Crespo D, Tavares D, Pereira E, and Pardal MA · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-29495-5](https://doi.org/10.1007/s11356-023-29495-5)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily|Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health]]<span class="hmi-ref-meta">Bruno F, Nava V, Zappalà S, Costa GL, Fazio F, Parrino V, et al. · Frontiers in Toxicology · 2024 · [doi.org/10.3389/ftox.2024.1494977](https://doi.org/10.3389/ftox.2024.1494977)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/dogruyol2024-mediterranean-mussels-health-risk|Evaluation of Health Risks Attributed to Toxic Trace Elements and Selenium in Farmed Mediterranean Mussels from Türkiye and Bulgaria]]<span class="hmi-ref-meta">Dogruyol H, Mol S, Ulusoy S, and Atanasof A · Environmental Science and Pollution Research (published online 1 February 2024) · 2024 · [doi.org/10.1007/s12011-024-04084-w](https://doi.org/10.1007/s12011-024-04084-w)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/bao2024-sp-icp-ms-nps-mussels|Single-particle ICP-MS characterisation of metal nanoparticles in mussels]]<span class="hmi-ref-meta">Bao · unknown · 2024 · [doi.org/10.1093/jaoacint/qsae024](https://doi.org/10.1093/jaoacint/qsae024)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/rohonczy2024-arctic-foodweb-cd-hg|Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay]]<span class="hmi-ref-meta">Rohonczy J, Chételat J, Pienkowski L, Goodwin M, Lerash R, Houde M, et al. · Environmental Science and Pollution Research · 2024 · [doi.org/10.1007/s11356-024-32268-3](https://doi.org/10.1007/s11356-024-32268-3)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 7 sources added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

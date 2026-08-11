@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # de Oliveira et al. 2018 - Metals in traditional and herbal teas
 
+## Overview
+
 de Oliveira and colleagues measured aluminum, total arsenic, cadmium, total chromium, and lead in 47 traditional and herbal tea products collected in the US market, and then measured the same metals in 5-minute boiling-water infusions. The sample set covered herbal, black, green, and oolong teas with declared origins across 13 countries. The source reports both dry tea-leaf concentrations in `mg kg-1` and infusion concentrations in `mg L-1` for aluminum or `µg L-1` for arsenic, cadmium, chromium, and lead.
 
 ## Key numbers
@@ -78,3 +80,17 @@ App: The source can support `tea`, `camellia-sinensis`, and `herbal-botanicals` 
 - Speciation: As is total arsenic and Cr is total chromium. The page does not promote tAs to iAs or Cr to Cr(VI).
 - Brand firewall: Table 1-3 name individual tea brands/products. This page reports tea-type and category-level values only and omits brand names.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `herbal-tea` and `tea-infusion` are matrix descriptors rather than product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

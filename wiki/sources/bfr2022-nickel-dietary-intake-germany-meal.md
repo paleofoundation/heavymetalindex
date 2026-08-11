@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # BfR 2022 — Nickel dietary intake via food based on the BfR MEAL Study (Germany)
 
+## Overview
+
 The German Federal Institute for Risk Assessment (BfR) conducted a total diet study (TDS) on nickel in food as part of the first German MEAL Study, analyzing 356 foods grouped into 19 main food categories and measuring Ni concentrations in 840 pools purchased nationwide between December 2016 and May 2019. The study found that the food groups "Legumes, nuts, oil seeds and spices" and "Coffee, cocoa and tea" carry the highest mean nickel concentrations at 1,583 µg/kg and 1,488 µg/kg respectively, with cocoa powder the single highest item at 11,050 µg/kg, followed by cashew nuts at 5,350 µg/kg. Dietary nickel intake for German adults and adolescents averages 11% of the EFSA-derived TDI of 13 µg/kg BW/day (P50, UB), while children average 42% of the TDI (P50, UB), with fewer than 5% of highly exposed children (ages 0.5–5 years) exceeding the TDI. This report provides the most geographically specific German-population nickel exposure baseline, lower than EFSA's pan-European estimates for the same population when using German consumption data paired with pan-European occurrence data.
 
 ## Key numbers
@@ -142,15 +144,15 @@ Phase 2 audit application 2026-05-20 (fresh-context Agent subagent, verdict REVI
 - [[regulations/efsa-nickel-tdi]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

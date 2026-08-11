@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Balogun et al. 2024 — Pb, Cd, Co, tAs, Mn, Ag, Zn, Ni, Cr, tHg in 20 adult body creams, Delta State, Nigeria
 
+## Overview
+
 This paper quantifies ten heavy metals (lead, cadmium, cobalt, total arsenic, manganese, silver, zinc, nickel, chromium, total mercury) in 20 brand-coded body cream/lotion samples purchased from college business centres at two Nigerian Colleges of Education in Delta State — Warri (COEW; n=10, codes CWBCA–CWBCJ) and Mosogar (COEM; n=10, codes CMBCA–CMBCJ). Quantification used flame atomic absorption spectrophotometry (Buck AAS model 210 VGP) after aqua regia (HNO₃:HClO₄ 3:1) hot-plate digestion. Silver and mercury were below the reporting limit of 0.001 ppm in every sample at both sites. Of the remaining eight metals, manganese and zinc carried the highest concentrations (Mn maximum 1.104 mg/kg at COEM; Zn maximum 0.701 mg/kg at COEW), followed by nickel and chromium at COEW (Ni up to 0.295 mg/kg; Cr up to 0.201 mg/kg) and cobalt and lead at COEM (Co up to 0.362 mg/kg; Pb up to 0.155 mg/kg). The authors note all measured values stay within their cited regulatory references (WHO/Health Canada/FDA Pb cosmetic limit 10 ppm; FDA color-additive Pb limit 20 ppm) but argue long-term bioaccumulation and accidental ingestion via hand-to-mouth transfer warrant regulatory attention.
 
 ## Key numbers
@@ -88,7 +90,7 @@ Digestion: 1.0 g sample + 5.0 mL aqua regia (concentrated HNO₃:HClO₄, 3:1 v/
 
 Quantification: Atomic absorption spectrophotometry on a Buck AAS model 210 VGP (p. 28). The paper does not separately report flame vs graphite-furnace AAS mode; the Buck 210 VGP is a flame-AAS configuration unless explicitly fitted with a furnace accessory, and no furnace accessory is mentioned. No reference materials, recovery percentages, blanks, LODs, LOQs, or QC scheme are reported. The paper reports a single concentration per sample without indicating replicate analyses or uncertainty.
 
-Speciation: Total metals only. The paper reports "arsenic (As)" and "mercury (Hg)" without species separation; this page therefore records `tAs` and `tHg` per CLAUDE.md Part 14. Chromium is total (no Cr-VI speciation reported).
+Speciation: Total metals only. The paper reports "arsenic (As)" and "mercury (Hg)" without species separation; this page therefore records `tAs` and `tHg`. Chromium is total (no Cr-VI speciation reported).
 
 Reporting limit: 0.001 ppm for both Ag and Hg, expressed as the "<0.001" floor in both tables; the same floor applies to several tAs, Co, Cr, and Mn values at COEM.
 
@@ -123,26 +125,26 @@ Microbiome: Not addressed.
 - Filed in `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/` but the paper's sampled population is the adult tertiary-institution populace (students, lecturers, staff, visitors), not children. Routed to `body-hand-leave-on-skin-care` (Cat 13 Row 4) rather than to baby/children's personal-care slugs. The folder-vs-content mismatch is noted for the manual-fetch tracker; this is a Karen-side filing decision, not a content defect.
 - DOI: not reported on the article; ISSN 2354-2918 (SEAHI Publications). Set to `null`; access_url points to the publisher's hosted PDF. Evidence tier B reflects: peer-reviewed but small-journal venue, no QC/recovery/LOD data reported, narrative-vs-table inconsistencies (below) that downgrade analytical confidence.
 - Paper-internal narrative-vs-table inconsistencies (recorded for downstream synthesis to handle correctly):
-  - Abstract (p. 24) reports tAs pooled range "<0.001 – 0.063 ppm" but neither Table 1 nor Table 2 contains any tAs value >0.043 (CMBCC). The 0.063 figure is not traceable to either per-sample table. Tables are authoritative for the per-sample data; the abstract value is treated as an unreconciled author drift.
-  - Abstract (p. 24) reports Ni pooled max 0.291 ppm; Table 1 contains 0.295 (CWBCH) which exceeds 0.291. Tables are authoritative.
-  - Discussion (p. 29) gives COEW Pb range "0.103 – 0.135" — this contradicts Table 1, which shows Pb min 0.010 (CWBCD) and max 0.136 (CWBCE). The Discussion range is incorrect; Table 1 is authoritative.
-  - Discussion (p. 29) gives COEM Ni range "0.043 – 0.83" — Table 2 shows Ni max 0.083 (CMBCF). The "0.83" figure is an unambiguous typographic error for 0.083; Table 2 is authoritative.
-  - Conclusion (p. 30) cites samples "CWBCE, CWBCG, CWBCI and CMBCE that contains high concentration of Nickel and Lead". CWBCE has Ni = 0.016 mg/kg (the lowest Ni value in Table 1), so the Conclusion's grouping of CWBCE under "high Nickel" contradicts its own Table 1. The Pb assignment for CWBCE (0.136 mg/kg, the COEW maximum) is consistent.
-  Per the audit-prompt convention, these are reported as the source's own inconsistencies. The wiki page uses the per-sample tables as the authoritative value source for all numeric claims.
+ - Abstract (p. 24) reports tAs pooled range "<0.001 – 0.063 ppm" but neither Table 1 nor Table 2 contains any tAs value >0.043 (CMBCC). The 0.063 figure is not traceable to either per-sample table. Tables are authoritative for the per-sample data; the abstract value is treated as an unreconciled author drift.
+ - Abstract (p. 24) reports Ni pooled max 0.291 ppm; Table 1 contains 0.295 (CWBCH) which exceeds 0.291. Tables are authoritative.
+ - Discussion (p. 29) gives COEW Pb range "0.103 – 0.135" — this contradicts Table 1, which shows Pb min 0.010 (CWBCD) and max 0.136 (CWBCE). The Discussion range is incorrect; Table 1 is authoritative.
+ - Discussion (p. 29) gives COEM Ni range "0.043 – 0.83" — Table 2 shows Ni max 0.083 (CMBCF). The "0.83" figure is an unambiguous typographic error for 0.083; Table 2 is authoritative.
+ - Conclusion (p. 30) cites samples "CWBCE, CWBCG, CWBCI and CMBCE that contains high concentration of Nickel and Lead". CWBCE has Ni = 0.016 mg/kg (the lowest Ni value in Table 1), so the Conclusion's grouping of CWBCE under "high Nickel" contradicts its own Table 1. The Pb assignment for CWBCE (0.136 mg/kg, the COEW maximum) is consistent.
+ Per the audit-prompt convention, these are reported as the source's own inconsistencies. The wiki page uses the per-sample tables as the authoritative value source for all numeric claims.
 - The COEW Ag/tHg floor value `<0.001` and the abstract phrasing "Ag and Hg were less than 0.001 ppm" are consistent with one another; the page records these analytes as below the reporting limit in all 20 samples and does not impute a numeric mid-point.
 - No brand names appear in the source (the authors deliberately coded samples CWBCA–CWBCJ and CMBCA–CMBCJ). Part 12 brand firewall is intrinsically satisfied; no Part 12 redactions needed.
 - Product slug `body-hand-leave-on-skin-care` is the HMTc Taxonomy v2.0 Cat 13 Row 4 destination and is the only product routing target. `skin-lightening-cream` is not used because (a) it is retired and out of HMTc scope per the Cat 2 Step 0 lock and (b) the paper does not separate concentrations by cream type, so even the bleaching-cream subset cannot be isolated. The matrix `cosmetic-personal-care` matches the existing convention from prior cosmetics ingest pages.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

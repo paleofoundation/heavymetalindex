@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sadee et al. 2023 — Arsenic speciation in vegetables: review
 
+## Overview
+
 Sadee and colleagues provide a systematic review of arsenic speciation, toxicity, and analytical methods as applied to vegetable matrices. The review covers: the chemical forms of arsenic (inorganic species As3+, As5+; organic arsenicals); health effects of prolonged inorganic arsenic exposure (skin, lung, bladder, liver, kidney, and prostate cancer; cardiovascular, respiratory, and renal effects); occurrence data from multiple countries; extraction methods for arsenic species from vegetable matrices; and hyphenated chromatographic-detection techniques (primarily HPLC coupled to ICP-MS or AAS variants). Regulatory context is discussed including FDA's 100 ppb action level for iAs in infant rice cereal and EU maximum levels. The review explicitly acknowledges that the toxicity of arsenic depends critically on its chemical form, making speciation essential for meaningful risk assessment.
 
 ## Key numbers
@@ -46,7 +48,7 @@ Narrative review; no primary data generated. Synthesizes published studies on ex
 
 ## Implications
 
-Certification: Reinforces the non-negotiable iAs/tAs speciation distinction (CLAUDE.md Part 14). Total As measurements in vegetables cannot substitute for iAs when setting limits or interpreting risk.
+Certification: Reinforces the non-negotiable iAs/tAs speciation distinction. Total As measurements in vegetables cannot substitute for iAs when setting limits or interpreting risk.
 
 Courses: Reference for analytical methods module — explains why HPLC-ICP-MS is the gold standard for arsenic speciation in food matrices.
 
@@ -59,15 +61,15 @@ App: Vegetable ingredient arsenic risk requires speciated data; total arsenic al
 - [[ingredients/leafy-vegetables]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

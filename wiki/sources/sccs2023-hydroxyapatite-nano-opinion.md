@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # SCCS 2023 - hydroxyapatite nano opinion for oral cosmetic products
 
+## Overview
+
 The SCCS final opinion on hydroxyapatite (nano) evaluates the safety of a notified nano-form hydroxyapatite material in oral cosmetic products. It is not a finished-product occurrence study, but it contains regulatory-context heavy-metal impurity data for the submitted hydroxyapatite nano paste ingredient and a safe-use envelope for toothpaste and mouthwash. The impurity values below should not be pooled as toothpaste or mouthwash product concentrations.
 
 ## Key numbers
@@ -92,3 +94,17 @@ App: If oral-care ingredient context is surfaced, this source can support an EU 
 - Brand firewall: the source gives a trade name for the notified ingredient material. This page uses the generic phrase "notified hydroxyapatite nano paste ingredient" around impurity values and does not attach consumer-product brands to contamination values.
 - Evidence tier: `A` because this is an EU SCCS final regulatory opinion with DOI-backed publication metadata. The measured impurity values remain ingredient-context, not finished-product occurrence evidence.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` oral-care product routing rows (`toothpaste` and `mouthwash-oral-rinse`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv` because no hydroxyapatite ingredient slug exists.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-29
 
 # Joyce et al. 2016 — Effects of cooking methods on heavy metals in fresh and smoked bush meat (Ghana)
 
+## Overview
+
 This Ghanaian study measured six metals (Fe, Mn, Cu, Zn, Cd, Pb) in 35 bush-meat samples drawn from two commonly hunted species — cane rat (*Thryonomys swinderianus*) and giant rat — sold in three Ashanti Region markets, then compared concentrations across four cooking states (raw, boiled, fried, grilled) plus smoked and smoked-then-boiled processed meat. Lead was the dominant safety concern: fresh and boiled samples sat at multi-ppm concentrations well above the paper's stated 0.01–0.38 ppm reference range, while grilling and smoking reduced lead concentrations substantially. Cadmium was reported as a single uniform value of 0.10 ppm across every cooking method, which the authors interpret as "unaffected by cooking" but which is consistent with the value sitting at or near the instrument's reporting floor.
 
 ## Key numbers
@@ -93,15 +95,15 @@ The paper does not report: instrument make or model, digestion conditions (tempe
 - License: paper carries an explicit CC BY notice on page 1.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

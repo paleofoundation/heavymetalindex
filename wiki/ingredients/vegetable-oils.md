@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 200]
     p95_ppb: 500
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 50]
     p95_ppb: 100
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-05-16
   iAs:
@@ -91,29 +91,7 @@ created_routed_sources: 6
 
 # Vegetable Oils
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=25 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 31 jurisdictions, top CN 32% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs POOLABLE, tHg THIN, Ni POOLABLE, Cr THIN | tHg: needs 2 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 9 claims checked, 9 supported; 6 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Vegetable oils — the broad category of liquid edible oils pressed or solvent-extracted from seeds (sunflower, soybean, rapeseed/canola, corn, peanut, sesame, safflower), fruit (olive, palm), or nuts — share a common heavy-metals profile shaped by upstream seed-source agronomy, the extraction-and-refining processing chain, and packaging-migration during shelf life. The current corpus loads 6 sources covering the global edible-oils literature: González-Torres 2023 systematic review (35 oil types from 24 countries, [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review]]), Mehri 2024 Iranian Hamadan probabilistic risk (n=40, [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes]]), Nazari 2023 seed-crops-and-oil-products threat-to-food-safety review ([[sources/nazari2023-heavy-metals-seed-crops-oil-products-review]]), Pehlivan 2008 Turkish ICP-AES method (n=17, [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]), Tayeb 2025 Iranian olive-and-corn-oil public-health risk (n=60, [[sources/tayeb2025-olive-corn-oil-iran-pb-cd]]), and Yohannes 2024 Ethiopian Gondar City survey (n=17, [[sources/yohannes2024-vegetable-oils-ethiopia-gondar]]). Vegetable oils as a category sit consistently in the lower-middle of the food-system heavy-metals distribution, with most retail product below applicable Codex and EU Pb limits and the worst-case-tail driven by specific origin-and-packaging combinations rather than category-wide elevation.
 
@@ -125,18 +103,18 @@ The vegetable-oil category aggregates oils with different upstream profiles into
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 5–200 | 500 | high | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
-| Cd | n=6 | 1–50 | 100 | high | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=5 | 5–100 | — | medium | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]] |
-| tHg | n=1 | — | — | — | — |
-| Ni | n=4 | 10–300 | — | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | 5–200 | — | low | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 5–200 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
+| Cd | n=6 | 1–50 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 5–100 | medium | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]] |
+| tHg | n=1 | — | — | — |
+| Ni | n=4 | 10–300 | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 5–200 | low | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -180,10 +158,23 @@ Glass is the baseline-cleanest option for retail product. PET is comparable on m
 
 The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets specific heavy-metals provisions for individual oils with iron at 1.5 mg/kg max and copper at 0.1 mg/kg max (virgin oils). The EU Regulation 2023/915 applies the general fats-and-oils Pb maximum of 0.10 mg/kg to vegetable oils. The FDA has not set vegetable-oil-specific action levels but the general adulteration framework applies. The systematic-review and probabilistic-risk literature consistently finds commercial vegetable oils below the EU Pb maximum, with worst-case-tail product (cold-pressed unrefined, certain origin combinations) approaching but not exceeding the limit in most retail surveys.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review|Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils]]<span class="hmi-ref-meta">González-Torres P, Puentes JG, Moya AJ, and La Rubia MD · Applied Sciences · 2023 · [doi.org/10.3390/app13053020](https://doi.org/10.3390/app13053020)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes|A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran]]<span class="hmi-ref-meta">Mehri F, Heshmati A, Talebi Ghane E, Khazaei M, Mahmudiono T, and Fakhri Y · BMC Public Health · 2024 · [doi.org/10.1186/s12889-023-17624-1](https://doi.org/10.1186/s12889-023-17624-1)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review|Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review]]<span class="hmi-ref-meta">Nazari F, Mirza Alizadeh A, Alikord M, Dizaji R, Torki Z, Shoeibi S, et al. · Carpathian Journal of Food Science and Technology, 15(2), 106-124 · 2023 · [doi.org/10.34302/crpjfst/2023.15.2.10](https://doi.org/10.34302/crpjfst/2023.15.2.10)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)]]<span class="hmi-ref-meta">Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM · Grasas y Aceites · 2008 · [doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/tayeb2025-olive-corn-oil-iran-pb-cd|Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis]]<span class="hmi-ref-meta">Tayeb J and Movassaghghazani M · Toxicology Reports · 2025 · [doi.org/10.1016/j.toxrep.2025.101922](https://doi.org/10.1016/j.toxrep.2025.101922)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia]]<span class="hmi-ref-meta">Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D · BMC Public Health · 2024 · [doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -212,15 +203,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 5 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

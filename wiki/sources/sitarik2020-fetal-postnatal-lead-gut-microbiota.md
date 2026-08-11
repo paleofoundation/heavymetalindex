@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Sitarik et al. 2020 — Fetal and early postnatal lead exposure in teeth and infant gut microbiota
 
+## Overview
+
 Sitarik and colleagues used laser ablation inductively coupled plasma mass spectrometry (LA-ICP-MS) on shed deciduous teeth to retrospectively quantify lead exposure across three developmental windows (2nd trimester, 3rd trimester, and postnatal birth-to-~1-year), then tested those exposure measures against bacterial (16S rRNA) and fungal (ITS2) gut microbiome composition in stool collected at 1 month and 6 months of age in 146 maternal-child pairs from the Detroit-area WHEALS birth cohort. In utero tooth lead levels were significantly associated with infant gut fungal community composition at 1 month — higher 2nd-trimester lead with lower abundances of Candida and Aspergillus and higher abundances of Malassezia and Saccharomyces — and 3rd-trimester lead with lower Candida. Lead did not significantly alter overall bacterial community structure, but specific bacterial taxa associated with lead exposure: higher Collinsella (at 1 month) and Bilophila (at 6 months), and lower Bacteroides at both time points.
 
 ## Key numbers
@@ -103,10 +105,10 @@ Enhanced 2026-05-18 from the source PDF (`raw/Papers Cube Manual Fetch/article (
 - **Authors list was hallucinated.** Prior frontmatter listed `[Sitarik AR, Bobbitt KR, Havstad SL, Fujimura KE, Levin AM, Zoratti EM, Kim H, Johnson CC, Lynch SV, Ownby DR, Wegienka GR]`, which appears to be a WHEALS-cohort author roster from a different publication. The actual author list per the PDF title page is the one now in frontmatter: Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, Lynch SV, Park SK, Wu KH, Yong GJM, Cassidy-Bushrow AE. Manish Arora and Christine Austin (Mount Sinai/Lautenberg) ran the LA-ICP-MS work; Bielak (U-Michigan epidemiology) provided cohort statistical input; Park (U-Michigan environmental health) co-authored.
 - **Title corrected** from "Fetal and early postnatal lead exposure and the infant gut microbiota in a birth cohort" to the published title "Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota" (Environment International 144 (2020) 106062, DOI 10.1016/j.envint.2020.106062).
 - **Sequencing platform reversed.** Prior version stated 16S was run on Illumina MiSeq; the paper states the 16S V4 amplicon library was loaded onto the Illumina NextSeq cartridge (Methods §2.3), while ITS2 was run on Illumina MiSeq. Corrected.
-- **ITS region misidentified.** Prior version said "ITS1 sequencing (fungal)"; the paper states "The internal transcribed spacer region (ITS) 2 of the rRNA gene was amplified using the primer pair fITS7 ... and ITS4" (Methods §2.3). Corrected to ITS2.
+- **ITS region misidentified.** Prior version said "ITS1 sequencing (fungal)"; the paper states "The internal transcribed spacer region (ITS) 2 of the rRNA gene was amplified using the primer pair fITS7... and ITS4" (Methods §2.3). Corrected to ITS2.
 - **Key numbers expanded and made specific.** Prior table reported generic "pFDR<0.05" for most findings; the paper reports specific p-values (0.006, 0.003, 0.002, etc.) that have been transcribed. Bilophila timing clarified to 6-month sample (prior table left it ambiguous; the paper specifies 6 months for both 2nd- and 3rd-trimester exposure). Added Penicillium → 6-month postnatal-window decrease (pFDR = 0.002) and the dual Saccharomyces signal (1-month increase, 6-month decrease) that were missing from the prior key-numbers table.
 - **Cohort-flow numbers added.** Prior page reported only n=146; the paper details a more nuanced cohort-flow (1,258 → 512 → 203 → 180 → 146) and gives subset sizes by time point and assay that matter for interpreting fungal-arm statistical power. Added.
-- **Implications softened toward observation, away from synthesis.** The prior Certification subsection asserted that the paper "supports the rationale for precautionary lead limits in foods consumed during pregnancy and early infancy" — a synthesis-toward-HMT&C claim that the wiki/HMT&C firewall (CLAUDE.md Part 2) prohibits in source pages. Replaced with a neutral statement that the paper informs vulnerable-population framing but does not provide threshold-setting inputs.
+- **Implications softened toward observation, away from synthesis.** The prior Certification subsection asserted that the paper "supports the rationale for precautionary lead limits in foods consumed during pregnancy and early infancy" — a synthesis-toward-HMT&C claim that the wiki/HMT&C firewall prohibits in source pages. Replaced with a neutral statement that the paper informs vulnerable-population framing but does not provide threshold-setting inputs.
 - **Wiki pages updated on ingest** pruned. Prior list referenced `[[microbiome/lead-gut-mycobiome]]` and `[[health/vulnerable-populations]]` — pages that do not exist as wiki targets. Routing audit would otherwise mark these as unresolved. Retained only the two extant targets (`metals/lead`, `testing/la-icp-ms`); the microbiome federation candidate is mentioned in Implications prose instead.
 
 Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `evidence_tier: A`, `jurisdictions: [US]`, `metals: [Pb]`, `ingredients: []`, `products: []`, `matrices: [tooth-dentin, stool, infant-gut-microbiome]`, `near_duplicates: []`, `sample_n: 146`.
@@ -119,15 +121,15 @@ Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, 
 - All other audit checks: PROMOTE (numerical fidelity on tables, speciation/methods, brand firewall, wiki/HMTc firewall). No false-positive findings to record.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

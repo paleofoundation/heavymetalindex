@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM 2009 — Arsenic in Food
 
+## Overview
+
 The European Food Safety Authority Panel on Contaminants in the Food Chain Scientific Opinion on arsenic in food, adopted 12 October 2009 in response to Question No EFSA-Q-2008-425 from the European Commission. It assessed risks from inorganic arsenic in food using more than 100,000 occurrence data points submitted by 15 European Member States plus Norway covering 2003 to 2008, and concluded that the long-standing Joint FAO/WHO Expert Committee on Food Additives provisional tolerable weekly intake of 15 µg inorganic arsenic per kilogram body weight per week is no longer appropriate because adverse effects, including cancers of the lung and urinary bladder, have been documented at exposures below the PTWI. In place of a single tolerable intake, the Panel identified a range of BMDL01 values of 0.3 to 8 µg inorganic arsenic per kilogram body weight per day for skin lesions and cancers of the lung, urinary bladder and skin, and recommended that risk be characterised using margins of exposure between this range and estimated dietary exposures. Across the 19 European countries with food consumption data in the EFSA Concise European Food Consumption Database, mean inorganic arsenic exposure for adults was estimated at 0.13 to 0.56 µg/kg b.w./day and 95th percentile exposure at 0.37 to 1.22 µg/kg b.w./day (scenario 5: 70 percent inorganic arsenic in non-fish/non-seafood food categories, fixed values of 0.03 mg/kg in fish and 0.1 mg/kg in seafood, lower-bound to upper-bound). Because these adult exposures fall within the BMDL01 range, the Panel concluded that there is little or no margin of exposure and the possibility of risk to some consumers cannot be excluded. Children under three years of age were estimated to be exposed at 2 to 3 times the per-kg adult rate (0.50 to 2.66 µg/kg b.w./day), and high consumers of rice or algae-based products can reach 1 to 4 µg/kg b.w./day from those food sources alone. The opinion supersedes the JECFA 1989 PTWI for the EU and is the EU reference assessment for inorganic arsenic in food until the 2021 chronic-exposure update (EFSA Journal 2021;19(1):6380, see [[sources/efsa2021-chronic-exposure-iAs]]).
 
 This page covers the published EFSA Journal 1351 record (199 pp.). The published file is the corrected version dated 1 February 2010 that fixed an error in Rahman et al. (2006a) skin-lesion data in Table 41; the underlying conclusions are unchanged from the 22 October 2009 original publication. The opinion was adopted by the Panel on 12 October 2009 and first published 22 October 2009; the corrected file replaces that publication, not the adoption.
@@ -233,15 +235,15 @@ Rejected as false positives (verified against PDF and found to be present in the
 Audit Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall) and 5 (Part 2 wiki/HMTc firewall) were all returned clean by the subagent — no findings to apply or reject in those checks.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [9046e67](https://github.com/paleofoundation/heavymetalindex/commit/9046e67) | 2026-06-03 | audit: efsa-arsenic-contam-2009 audited-revised |
-| [3a92f8a](https://github.com/paleofoundation/heavymetalindex/commit/3a92f8a) | 2026-06-03 | ingest: efsa-arsenic-contam-2009 enhanced from Manual Fetch Kimi /June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9046e67fe](https://github.com/paleofoundation/heavymetalindex/commit/9046e67fe) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

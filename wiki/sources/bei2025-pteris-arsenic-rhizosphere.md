@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Bei et al. 2025 - Pteris vittata rhizosphere arsenic remediation
 
+## Overview
+
 Bei and colleagues examined how rhizosphere microbes, root exudates, and arsenic speciation interact during *Pteris vittata* phytoremediation across multiple soils and arsenic loads. This is in-scope a2 mitigation evidence with strong a3 pathway value because it reports arsenic-contaminated-soil remediation mechanics, root-exudate recruitment, and arsenic-speciation processes rather than consumer-product occurrence.
 
 ## Key numbers
@@ -62,3 +64,17 @@ App: Context only.
 ## Verification notes
 
 The corpus queue mislabeled this record as `WIKIBIOME-HANDOFF`. On deep read it is recoverable HMI a2 evidence because it reports primary arsenic-remediation and rhizosphere-speciation data in contaminated soil. `iAs` and `tAs` are both tagged because the paper discusses arsenic speciation transformation and also measures total arsenic in soils and plant tissues.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [0a1cf4c09](https://github.com/paleofoundation/heavymetalindex/commit/0a1cf4c09) | 2026-06-14 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

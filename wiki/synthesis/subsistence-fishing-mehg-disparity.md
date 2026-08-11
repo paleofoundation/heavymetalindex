@@ -14,7 +14,9 @@ updated: 2026-05-13
 
 # Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address
 
-Three independent A-tier studies from the past eighteen months document the same finding from three different methodological vantage points: the methylmercury exposure profile that underlies regulatory fish-consumption advice (FDA-EPA, EFSA, national-level equivalents) is calibrated against typical Western market consumer patterns, while a substantial and identifiable global subpopulation, the consumers of subsistence-fished and locally-caught freshwater and pelagic fish, faces methylmercury exposures that routinely exceed the thresholds the regulatory advice is built against. The pattern is geographically diverse, holds across both marine and freshwater systems, and is being amplified by climate change. The certification implication is straightforward: any seafood standard calibrated to median-consumer dietary methylmercury intake is calibrated against the wrong population for the consumers most at risk.
+## Overview
+
+Three independent A-tier studies from the past eighteen months document the same finding from three different methodological vantage points: the methylmercury exposure profile that underlies regulatory fish-consumption advice (FDA-EPA, EFSA, national-level equivalents) is calibrated against typical Western market consumer patterns, while a substantial and identifiable global subpopulation, the consumers of subsistence-fished and locally-caught freshwater and pelagic fish, faces methylmercury exposures that routinely exceed the thresholds the regulatory advice is built against. The pattern is geographically diverse, holds across both marine and freshwater systems, and is being amplified by climate change. The scientific implication is straightforward: an exposure profile calibrated to median-consumer dietary methylmercury intake does not describe the consumers most at risk, because subsistence-fishing populations face exposures the median-consumer calibration does not capture.
 
 The pattern is not subtle and it is not new in regional documentation. The synthesis here is that three independently-conducted studies in different geographies and methods converge on the same quantitative claim about scale and population, which is the synthesis-page bar this finding now meets. The wiki should treat the finding as established for the populations the three studies document and provisional for jurisdictions where parallel quantitative work has not yet been done.
 
@@ -24,7 +26,7 @@ The pattern is not subtle and it is not new in regional documentation. The synth
 
 The load-bearing numbers for this synthesis are not the global total but the disparity in catch-weighted concentrations: catch-weighted methylmercury concentrations vary over two orders of magnitude (range 0.004 to 1.7 µg per gram wet weight; geometric mean 0.13 µg/g wet weight), with the highest concentrations in tropical and subtropical regions where large pelagic species are harvested. Tropical and subtropical fisheries account for over 70 percent of methylmercury extracted from the ocean. Subpolar and polar exclusive economic zones are the only coastal regions where catch-weighted omega-3 to methylmercury de minimus ratios are met under the US EPA Reference Dose of 0.1 µg/kg body weight per day; in most global fisheries, the omega-3 content of the catch is insufficient to nutritionally offset the methylmercury risk by the EPA's own framing.
 
-The study's most consequential numerical claim for the certification frame is that 84 to 99 percent of subsistence fishing entities globally are likely to exceed methylmercury exposure thresholds based on typical subsistence consumption rates. This is a global modeling estimate, not a population-cohort measurement, and it should be cited with that caveat. But the directional claim, that subsistence fishing populations as a class face exposures the regulatory framework does not accommodate, is robust to the modeling assumptions in the paper.
+The study's most consequential numerical claim for this synthesis is that 84 to 99 percent of subsistence fishing entities globally are likely to exceed methylmercury exposure thresholds based on typical subsistence consumption rates. This is a global modeling estimate, not a population-cohort measurement, and it should be cited with that caveat. But the directional claim, that subsistence fishing populations as a class face exposures the regulatory framework does not accommodate, is robust to the modeling assumptions in the paper.
 
 ## The freshwater wild fish trajectory (Wu 2025)
 
@@ -46,7 +48,7 @@ Li 2024 quantifies the global scale: tropical and subtropical fisheries, where l
 
 The convergence point that pulls these three studies together is the population they each implicitly identify but no single one names by itself: the global subsistence-fishing-consumer class. This is a population the regulatory framework does not centrally address. FDA-EPA fish consumption advice is calibrated against US market-purchased seafood and US average consumption patterns. EFSA's chronic dietary methylmercury opinion uses European-population intake data. National advisories in Canada, the UK, Australia, and elsewhere follow similar templates. The advisory framework assumes consumers buy fish from regulated retail channels at typical Western consumption frequencies and species mixes. The framework does not centrally address the riverside Amazonian community that catches fish from a mining-impacted basin, the rural Chinese household that eats freshwater wild fish from a local lake, or the Pacific Islander community whose protein supply comes from local subsistence fishing of large pelagic species.
 
-The wiki is in a position to make this disparity visible in a way that current regulatory documents do not. Brand-legal defensibility for any HMTc seafood standard hinges on the certifier being able to say honestly what population the standard is built for and what population it is not built for. A certification standard that addresses subsistence-fishing populations is a different standard from one that addresses market-purchased fish, and the regulatory baseline is not the right anchor for the former.
+This disparity is not made visible by current regulatory documents. The exposure profile relevant to subsistence-fishing populations is materially different from the one relevant to market-purchased fish, and the regulatory baseline, calibrated to median market-consumer intake, is not the right anchor for the former.
 
 ## What this synthesis does not yet rest on
 
@@ -62,11 +64,11 @@ The mechanism in Wu 2025 (photochemical methylation enhanced under climate chang
 
 [[ingredients/fish]] should distinguish the regulatory-target-consumer methylmercury exposure context from the subsistence-consumer context, with Li 2024 as the anchor for the global pattern. The page's audience tagging should make explicit that the consumer-audience section addresses market-purchased fish and points to subsistence-consumption-relevant pages where the dose framing differs materially.
 
-[[products/fish-containing-baby-foods]] should note that the underlying methylmercury exposure data for the product category is calibrated to US-market freshwater and marine fish in baby food, which is different from the subsistence-fishing population context. The certification standard for this product category does not need to address subsistence populations directly, but the page's methodology should distinguish what is and is not within scope.
+[[products/fish-containing-baby-foods]] should note that the underlying methylmercury exposure data for the product category is calibrated to US-market freshwater and marine fish in baby food, which is different from the subsistence-fishing population context. The page's methodology should distinguish what is and is not within the scope of the underlying data, so that the difference between market-purchased and subsistence-fishing exposure contexts is explicit.
 
 [[metals/mercury-methyl]] should carry the subsistence-population exposure framing as a distinct section under vulnerable populations, alongside the existing infant and pregnancy-stage framing.
 
-[[health/vulnerable-populations]] should add subsistence-fishing communities as an explicitly enumerated vulnerable population alongside infants, pregnant women, and other categories. This is the page that would most directly serve a brand-legal reader looking for the wiki's position on who the methylmercury risk story is actually about.
+[[health/vulnerable-populations]] should add subsistence-fishing communities as an explicitly enumerated vulnerable population alongside infants, pregnant women, and other categories. This is the page that most directly states who the methylmercury risk story is actually about.
 
 ## Anchor sources
 
@@ -76,7 +78,7 @@ The mechanism in Wu 2025 (photochemical methylation enhanced under climate chang
 
 ## How this page was promoted
 
-Promoted 2026-05-13 from the candidate queue at [[../data/evidence/synthesis-proposals|data/evidence/synthesis-proposals.md]]. The three anchors meet all four promotion criteria: independent A-tier sources, finding spans multiple ingredient and product pages, finding is not derivable from any single source, strategic relevance to brand-legal (HMTc seafood standard calibration) and educator (vulnerable-population framing) audiences. Re-synthesis is expected when additional non-Amazonian, non-Chinese subsistence-fishing population studies enter the corpus, when individual-level biomonitoring data from the relevant communities is integrated, or when the climate-mediated methylmercury mechanism in Wu 2025 receives independent mechanistic confirmation.
+Promoted 2026-05-13 from the candidate queue at [[../data/evidence/synthesis-proposals|data/evidence/synthesis-proposals.md]]. The three anchors meet all four promotion criteria: independent A-tier sources, finding spans multiple ingredient and product pages, finding is not derivable from any single source, and relevance to the regulatory and educator audiences through the vulnerable-population framing. Re-synthesis is expected when additional non-Amazonian, non-Chinese subsistence-fishing population studies enter the corpus, when individual-level biomonitoring data from the relevant communities is integrated, or when the climate-mediated methylmercury mechanism in Wu 2025 receives independent mechanistic confirmation.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -87,19 +89,31 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2421921122](https://doi.org/10.1073/pnas.2421921122)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin: implications for environmental and human health]]<span class="hmi-ref-meta">Auzier Guimarães KL, do Nascimento Andrade SJ, Liscano-Carreño AA, de Oliveira RB, and Ribeiro Rodrigues LR · ACS Environmental Au · 2025 · [doi.org/10.1021/acsenvironau.4c00053](https://doi.org/10.1021/acsenvironau.4c00053)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/venant2025-lake-victoria-sardine-cd-pb|Community Awareness and Health Risk of Heavy Metals Through Consumption of Sardine (Rastrineobola argentea) From Lake Victoria, Tanzania]]<span class="hmi-ref-meta">Venant HK, Lwetoijera DW, and Kassim N · Food Science & Nutrition · 2025 · [doi.org/10.1002/fsn3.70898](https://doi.org/10.1002/fsn3.70898)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/paul2025-meghna-fish-arsenic|Arsenic bioaccumulation in fish of the lower meghna river: Seasonal dynamics, species sensitivity, and public health implications]]<span class="hmi-ref-meta">Paul SK, Jahan N, Saha D, Sarker BS, Majumdar PR, and Rahman M · PLoS One · 2025 · [doi.org/10.1371/journal.pone.0330602](https://doi.org/10.1371/journal.pone.0330602)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 5 sources added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

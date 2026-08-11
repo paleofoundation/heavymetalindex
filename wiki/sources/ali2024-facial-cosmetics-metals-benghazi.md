@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ali et al. 2024 - toxic metals in facial cosmetics from Benghazi markets
 
+## Overview
+
 Ali, Ahmida, Busaadia, El-zwaey, Towier, and Ahmida measured Cr, Fe, Ni, Pb, and Cd in facial cosmetics purchased from Benghazi, Libya shops during 2022. The study covered mascara, lipstick, and foundation cream and reported concentrations in `mg/kg` finished product. Sample codes are de-identified, so this page preserves product-form means/ranges and code-level maxima without attaching any brand to a contamination value.
 
 ## Key numbers
@@ -78,3 +80,17 @@ App: If adult cosmetic profiles include Libya-market context, this source can su
 - Brand firewall: Table 2 reports product codes, colors, and manufacture countries but no brand names. This page does not identify brands and uses only de-identified code maxima and product-form means/ranges.
 - Evidence tier: `C` because the study is a small Benghazi-market convenience sample with DOI and primary measurements but limited QA/QC reporting. The paper gives duplicate determinations and detection limits but no CRM, recovery, LOQ, or market-representative design.
 - Routing: product slugs `makeup-foundation-powders-blush`, `eye-makeup`, and `lipstick` appear in the taxonomy snapshot. The live `lipstick` page is a retired adult-lipstick placeholder pending a broader Cat 13 adult lip-products destination; this page uses the existing slug and records the gap rather than inventing `lip-products`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

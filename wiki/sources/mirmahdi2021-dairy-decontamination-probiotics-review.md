@@ -28,6 +28,8 @@ updated: 2026-05-30
 
 # Mirmahdi et al. 2021 — Biodecontamination of milk and dairy by probiotics: review (Italian J. Food Science)
 
+## Overview
+
 This narrative review from an Iran–Pakistan author group, published in the Italian Journal of Food Science (Codon Publications, Special Issue 2, 2021), surveys (i) heavy metal and mycotoxin contamination patterns in milk and dairy products worldwide and (ii) the use of probiotic lactic acid bacteria (LAB), kefir grains, and yeast — especially *Saccharomyces cerevisiae* — as biosorbents for in-product decontamination. Heavy metals are the secondary focus; the dominant analytical focus is aflatoxin M1 (AFM1) and other mycotoxins. For the Heavy Metal Index the load-bearing content is Table 1 (country-level Pb / Cd / As concentrations in milk from ten primary studies, 2014–2021), Table 5 (heavy-metal removal efficiencies by LAB and yeasts in milk and kefir matrices), the cited International Dairy Federation (IDF) maximum permissible limits, and the FDA / EU AFM1 ceilings. No primary occurrence measurements are generated; the review is a directional gateway to the cited primary literature.
 
 ## Key numbers
@@ -128,15 +130,15 @@ Narrative review (declared "review article" by the journal; received 17 April 20
 - **Mycotoxin content not extracted in detail.** Table 2 (AFM1 / AFB1 / OA / ZEA / α-ZEA across 21 countries) and Table 4 (aflatoxin decontamination by LAB / yeast / kefir) are summarised in the body text but not transcribed in full; HMI's metals-and-supply-chain remit deprioritises mycotoxin primary numbers. The Table 2 country set is referenced (CN, HR, RS, IR, MK, PK, AR, BA, IT, TZ, MY, XK, SV, TR, ET, KE, BR, EC, ES, IN, MA, MW) but kept off the `jurisdictions:` frontmatter to avoid implying heavy-metal coverage for those countries.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

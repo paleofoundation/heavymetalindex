@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Nic Corcrain 2025 - lead leaching from menstrual products in simulated vaginal fluid
 
+## Overview
+
 Nic Corcrain's research poster reports a small C-tier menstrual-product leaching experiment and a participant survey. The occurrence-relevant result is that tampons released lead into synthetic vaginal fluid at `0.66-6.35 ppb`, while menstrual cups were reported as `<1 ppb`. Arsenic was targeted, but the poster says arsenic detection was compromised by background contamination, so no arsenic occurrence value is recorded.
 
 ## Key numbers
@@ -68,3 +70,17 @@ App: The source can support a low-confidence note that menstrual-product exposur
 - Units are preserved as `ppb`; no conversion to `µg/L` was made.
 - Speciation: arsenic is listed as a target analyte but no arsenic number is used because the poster reports background contamination.
 - Brand firewall: the poster states brand-dependent differences but does not print brand names in the extracted text; no brand names are attached to values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -69,18 +69,22 @@ Flame atomic absorption spectroscopy (Buck Scientific 210 VGA), air/acetylene fl
 
 ## Verification notes
 
-- Concentrations taken from Table 2 (per-sample Zn/Pb/Cd) and the abstract/discussion means. The per-sample brand names and origins in Table 1 are withheld per the brand firewall (CLAUDE.md Part 12); only the category-level distribution and the set of stated national origins are reported here, not any brand-to-value mapping.
+- Concentrations taken from Table 2 (per-sample Zn/Pb/Cd) and the abstract/discussion means. The per-sample brand names and origins in Table 1 are withheld per the brand firewall; only the category-level distribution and the set of stated national origins are reported here, not any brand-to-value mapping.
 - Sample-count discrepancy: the Methods ("Collection Sample") text states "Thirty samples of different types of biscuit samples" were collected, but Table 1 (sample identities/origins) and Table 2 (concentrations) both enumerate 13 sample codes (B1–B13). All reported statistics are computed over the 13 tabulated samples, so sample_n is recorded as 13; the "30" is treated as either total units collected before grouping into 13 product types or a transcription error. Flagged for any future re-read.
 - Units are the source's mg/kg dry weight; ppb conversions here are 1 mg/kg = 1000 µg/kg. Basis is dry weight (oven-dried, pulverized biscuit), not as-consumed.
 - Speciation: total Pb and total Cd by flame AAS; no inorganic/organic speciation claimed and none inferred.
 - Zinc is reported as an essential element for completeness and is not an HMI/HMTc target analyte; it is not routed to a metals page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8c6cd7f](https://github.com/paleofoundation/heavymetalindex/commit/8c6cd7f) | 2026-06-08 | audit-queue: pourramezani2019-iran-imported-black-tea-metals -> audited-promote |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

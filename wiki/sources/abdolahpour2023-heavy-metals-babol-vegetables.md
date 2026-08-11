@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Abdolahpour Alamdari et al. 2023 — Heavy metals in vegetables from Babol, Iran
 
+## Overview
+
 This cross-sectional descriptive study measured copper (Cu), zinc (Zn), cadmium (Cd), and lead (Pb) in eight vegetable types grown in Babol city, Mazandaran Province, northern Iran during the 2021 harvest season. The highest mean Pb (0.5 mg/kg fresh weight) and Cd (0.06 mg/kg fresh weight) in Table 1 were both in parsley, with spinach and basil close behind, consistent with leafy vegetables accumulating more heavy metals than root vegetables or fruit vegetables. All hazard quotients (HQ) for Pb and Cd were below 1; Zn HQ exceeded 1 for parsley and spinach. Pb concentrations in parsley (0.5 mg/kg), spinach (0.48 mg/kg), and basil (0.16 mg/kg) exceeded the Iran National Standard Pb limit for leafy vegetables (0.2 mg/kg); Cd in parsley (0.06 mg/kg) and basil (0.032 mg/kg) exceeded the Iran Cd limit for leafy vegetables (0.05 mg/kg for leafy), while spinach Cd (0.04 mg/kg) was just below. Root and fruit vegetables met both standards. Sample size is small (n=4 per vegetable type, n=32 total), and the study covers a single agricultural area in northern Iran.
 
 ## Key numbers
@@ -68,23 +70,23 @@ Microbiome: Not applicable.
 ## Verification notes
 
 - 2026-05-20 merge-enhance: page predates the 2026-05-14 schema cut-off. Corrections applied to bring frontmatter in line with current convention and to expand the Key numbers section to cover all four measured metals (the prior version dropped Cu and Zn). Specific changes:
-  - `raw_handle` corrected from generic `manual-fetch-kimi` to `MFK_the-health-risk-assessment-of-heavy-metals-in-vege` (matches the imongben2026/clair-caliot2021 MFK_ pattern in this folder).
-  - `raw_path` filename corrected from truncated "...Vegetables Cultivat.pdf" to the full PDF name "...Vegetables Cultivated in Babol City, Iran.pdf".
-  - `metals:` expanded from `[Pb, Cd]` to `[Pb, Cd, Cu, Zn]`. The paper measures all four; the wiki should record all four even though only Pb and Cd are HMTc priority analytes.
-  - Key numbers expanded to include full Cu and Zn means and SDs per Table 1, EDI values per Table 2 for all eight vegetables, and a per-vegetable Iran-standard compliance check.
-  - Added explicit "Abstract/Table discrepancies" section. The prior page noted the Cd-peak abstract/table mismatch in a single Key-numbers bullet; the discrepancies are broader (Cu abstract 12.86 vs Table 1 max 6.67, Cu discussion 12.68 vs Table 1 beans 2.86, parsley Cu 6.63 results-text vs 6.67 Table 1, Zn SD 33.3 results-text vs 3.33 Table 1) and warrant their own section.
-  - Updated `updated:` from 2026-05-13 to 2026-05-20.
-  - `products: []` retained per current vegetable-paper convention (chiutula2025, katebe2024, imongben2026, clair-caliot2021 all `products: []`; the routing layer falls back to broad scope, and none of the matrix slugs used here are in `data/evidence/matrix-to-product-map.json`, so the page passes `audit-routing-discipline`). The build-routing-audit `advisory` row for this source is informational, not blocking.
-  - `matrices: [leafy-vegetable, root-vegetable, legume]` retained as-written; these slugs are used consistently across the vegetable-paper subcorpus even though they are not the leaf-product-page slugs (`leafy-vegetables-other`, `root-tuber-vegetables`, `legumes-pulses-other`). Renaming would be a corpus-wide migration, not a per-paper edit.
-  - `cite_key`, `doi`, `access_url`, `license`, `sample_n`, `sample_population`, ingredient wikilinks, and `jurisdictions` preserved.
+ - `raw_handle` corrected from generic `manual-fetch-kimi` to `MFK_the-health-risk-assessment-of-heavy-metals-in-vege` (matches the imongben2026/clair-caliot2021 MFK_ pattern in this folder).
+ - `raw_path` filename corrected from truncated "...Vegetables Cultivat.pdf" to the full PDF name "...Vegetables Cultivated in Babol City, Iran.pdf".
+ - `metals:` expanded from `[Pb, Cd]` to `[Pb, Cd, Cu, Zn]`. The paper measures all four; the wiki should record all four even though only Pb and Cd are HMTc priority analytes.
+ - Key numbers expanded to include full Cu and Zn means and SDs per Table 1, EDI values per Table 2 for all eight vegetables, and a per-vegetable Iran-standard compliance check.
+ - Added explicit "Abstract/Table discrepancies" section. The prior page noted the Cd-peak abstract/table mismatch in a single Key-numbers bullet; the discrepancies are broader (Cu abstract 12.86 vs Table 1 max 6.67, Cu discussion 12.68 vs Table 1 beans 2.86, parsley Cu 6.63 results-text vs 6.67 Table 1, Zn SD 33.3 results-text vs 3.33 Table 1) and warrant their own section.
+ - Updated `updated:` from 2026-05-13 to 2026-05-20.
+ - `products: []` retained per current vegetable-paper convention (chiutula2025, katebe2024, imongben2026, clair-caliot2021 all `products: []`; the routing layer falls back to broad scope, and none of the matrix slugs used here are in `data/evidence/matrix-to-product-map.json`, so the page passes `audit-routing-discipline`). The build-routing-audit `advisory` row for this source is informational, not blocking.
+ - `matrices: [leafy-vegetable, root-vegetable, legume]` retained as-written; these slugs are used consistently across the vegetable-paper subcorpus even though they are not the leaf-product-page slugs (`leafy-vegetables-other`, `root-tuber-vegetables`, `legumes-pulses-other`). Renaming would be a corpus-wide migration, not a per-paper edit.
+ - `cite_key`, `doi`, `access_url`, `license`, `sample_n`, `sample_population`, ingredient wikilinks, and `jurisdictions` preserved.
 - 2026-05-20 audit-application (subagent verdict REVISE; five findings, four applied, one rejected, none confirmed false positive):
-  - Applied: `ingredients/tomatoes` → `ingredients/tomato`. Verified taxonomy snapshot and `wiki/ingredients/` directly — `tomato.md` exists, `tomatoes.md` does not. Invented-slug correction.
-  - Applied: Iran Pb standard rewrite — auditor caught that source p. 119 puts beans in the 0.2 mg/kg parsley/spinach/beans bucket, not the 0.1 mg/kg bucket. Re-quoted source: "the allowable limit of lead concentration in parsley, spinach and beans is estimated 0.2 and in potatoes, onions, tomatoes and cucumber was estimated to be 0.1." Reformatted the Iran-standards summary and the per-vegetable compliance line accordingly.
-  - Applied: Garbled potatoes Pb compliance line "potatoes Pb 0.20 = 0.2 (at limit for non-leafy 0.1 — exceeds)" replaced with the clean "potatoes Pb 0.20 > 0.1 (exceeds)" framing.
-  - Applied: Removed the Codex/FAO 10 mg/kg Cu advisory-benchmark sentence and the forward-looking "where Cu becomes a covered analyte" framing from Implications. Verified against source — the paper says only "the average concentration of copper in all analyzed products was lower than the FAO/WHO" without quoting a specific Cu limit, so the 10 mg/kg figure was imported from outside knowledge (Part 2 firewall slip).
-  - Applied: Table 2 "second Potatoes row" clarified as almost-certainly-mislabeled Tomatoes (Tomatoes is missing from Table 2 despite being in Table 1; the second row's values fit Table 1's tomato concentrations).
-  - Applied: Zn HQ vs HI conflation tightened — Zn HQ exceeds 1 strictly for parsley (1.10) and spinach (1.14); for cucumbers (Zn HQ 0.83) and beans (Zn HQ 0.93), HI > 1 is because Zn-plus-other contributions sum above 1, not because Zn alone does.
-  - Noted, not changed: `ingredients/basil` is not in the taxonomy snapshot; basil cannot be added to frontmatter without first creating a basil ingredient page. Out of scope per CLAUDE.md (no new ingredient pages created during ingest; auto-stub handles ingredients ≥freq-2 separately).
+ - Applied: `ingredients/tomatoes` → `ingredients/tomato`. Verified taxonomy snapshot and `wiki/ingredients/` directly — `tomato.md` exists, `tomatoes.md` does not. Invented-slug correction.
+ - Applied: Iran Pb standard rewrite — auditor caught that source p. 119 puts beans in the 0.2 mg/kg parsley/spinach/beans bucket, not the 0.1 mg/kg bucket. Re-quoted source: "the allowable limit of lead concentration in parsley, spinach and beans is estimated 0.2 and in potatoes, onions, tomatoes and cucumber was estimated to be 0.1." Reformatted the Iran-standards summary and the per-vegetable compliance line accordingly.
+ - Applied: Garbled potatoes Pb compliance line "potatoes Pb 0.20 = 0.2 (at limit for non-leafy 0.1 — exceeds)" replaced with the clean "potatoes Pb 0.20 > 0.1 (exceeds)" framing.
+ - Applied: Removed the Codex/FAO 10 mg/kg Cu advisory-benchmark sentence and the forward-looking "where Cu becomes a covered analyte" framing from Implications. Verified against source — the paper says only "the average concentration of copper in all analyzed products was lower than the FAO/WHO" without quoting a specific Cu limit, so the 10 mg/kg figure was imported from outside knowledge (Part 2 firewall slip).
+ - Applied: Table 2 "second Potatoes row" clarified as almost-certainly-mislabeled Tomatoes (Tomatoes is missing from Table 2 despite being in Table 1; the second row's values fit Table 1's tomato concentrations).
+ - Applied: Zn HQ vs HI conflation tightened — Zn HQ exceeds 1 strictly for parsley (1.10) and spinach (1.14); for cucumbers (Zn HQ 0.83) and beans (Zn HQ 0.93), HI > 1 is because Zn-plus-other contributions sum above 1, not because Zn alone does.
+ - Noted, not changed: `ingredients/basil` is not in the taxonomy snapshot; basil cannot be added to frontmatter without first creating a basil ingredient page. Out of scope per CLAUDE.md (no new ingredient pages created during ingest; auto-stub handles ingredients ≥freq-2 separately).
 
 ## Wiki pages updated on ingest
 
@@ -99,15 +101,15 @@ Microbiome: Not applicable.
 - [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

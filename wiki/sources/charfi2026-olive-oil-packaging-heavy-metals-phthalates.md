@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Charfi et al. 2026 — Packaging effects on heavy metals and phthalates in Spanish commercial olive oils
 
+## Overview
+
 This study measured twelve metals (Cu, Fe, Zn, Mg, Al, Cr, Mn, Ni, As, Cd, Sb, Pb) and three detected phthalates (DEHP, DIBP, DiNP) in commercial Spanish olive oil samples across four oil grades (extra virgin, virgin, olive oil, olive pomace oil) and six packaging types (glass, PET, tin, porcelain, aluminium, cardboard), collected across two harvest campaigns (2021/2022 and 2022/2023) by ICP-MS (heavy metals) and GC-MS (phthalates). Copper exceeded the IOC/EU limit of 0.1 mg/kg in several premium, pomace, ceramic-packed, tin-packed, and cardboard-packed samples. Cadmium, total arsenic, and antimony were not detected in any sample. Lead exceeded the 0.1 mg/kg regulatory limit in only one sample (EVOO in porcelain containers, 0.10 ± 0.03 mg/kg). Aluminium containers contributed markedly elevated Al to the contained oil (0.67 ± 0.05 mg/kg vs ≤0.12 mg/kg in other packaging). Among phthalates, DEHP was detected in 6/18 samples; one PET-packaged virgin olive oil sample exceeded the EU specific migration limit (SML) sums for both the DEHP group and DiNP+DiDP.
 
 ## Key numbers
@@ -158,15 +160,15 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 - [[supply-chain/aluminum-based-packaging]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

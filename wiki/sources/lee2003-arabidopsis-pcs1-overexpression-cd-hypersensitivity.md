@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lee et al. 2003 — AtPCS1 overexpression paradoxically causes Cd hypersensitivity in Arabidopsis
 
+## Overview
+
 Lee, Moon, Ko, Petros, Goldsbrough, and Korban (Department of Natural Resources and Environmental Sciences, University of Illinois at Urbana-Champaign; Korea Research Institute of Bioscience and Biotechnology; and Department of Horticulture and Landscape Architecture, Purdue University) report that ectopic overexpression of *Arabidopsis* phytochelatin synthase (AtPCS1) under its own 2.0-kb promoter in transgenic *Arabidopsis thaliana* increases phytochelatin (PC) production 1.3- to 2.1-fold under Cd stress but paradoxically decreases — rather than improves — Cd tolerance, with concomitant hypersensitivity to Zn but not to Cu. The mechanism proposed is PC toxicity at supraoptimal concentrations when glutathione (GSH) is the limiting substrate: reducing intracellular GSH with buthionine sulfoximine (BSO) makes pcs lines more Cd-sensitive than the PC-null cad1-3 mutant, and supplementing the medium with 1 mM GSH abolishes the hypersensitivity. The paper is a primary mechanistic plant-biology study published in *Plant Physiology* 131:656–663 (February 2003); its value to the wiki is conceptual background for [[metals/cadmium]] and the mitigation/remediation-evidence section on the question of whether PCS-only genetic engineering is a viable phytoremediation lever, with no occurrence or food-matrix data.
 
 ## Why this matters
@@ -101,7 +103,7 @@ The study is a primary mechanistic experiment in *Arabidopsis thaliana* using a 
 
 **Evidence tier.** A (primary peer-reviewed experimental study). The paper is a controlled molecular-biology experiment in *Plant Physiology* (American Society of Plant Biologists, 2003) with statistical replication (n = 4 for biochemistry, n = 10 for root-length assays), explicit controls (WT, cad1-3, multiple transgenic lines at two expression levels), and complementary perturbations (BSO and GSH supplementation, cad1-3 functional complementation). The work is appropriate for A-tier citation when the wiki discusses the PCS-overexpression paradox or the GSH-PC-Cd mechanistic axis.
 
-**Metals frontmatter.** Cd, Zn, Cu. Cadmium is the primary subject (all main figures and the headline result). Zinc is treated as a secondary result with Zn-hypersensitivity data in Figure 4B and accompanying text (pcs3, pcs9, and pcs1 hypersensitive at 0.5–1.0 mM ZnCl₂; pcs5, pcs8 not). Copper is treated as a control metal showing no genotype effect (Figure 4A), which is itself an informative finding for the [[metals/copper]] page on the question of PC involvement in Cu tolerance. The frontmatter abbreviations follow CLAUDE.md Part 14 vocabulary (Cd, Zn, Cu).
+**Metals frontmatter.** Cd, Zn, Cu. Cadmium is the primary subject (all main figures and the headline result). Zinc is treated as a secondary result with Zn-hypersensitivity data in Figure 4B and accompanying text (pcs3, pcs9, and pcs1 hypersensitive at 0.5–1.0 mM ZnCl₂; pcs5, pcs8 not). Copper is treated as a control metal showing no genotype effect (Figure 4A), which is itself an informative finding for the [[metals/copper]] page on the question of PC involvement in Cu tolerance. The frontmatter abbreviations follow vocabulary (Cd, Zn, Cu).
 
 **Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The source measures nothing in any food matrix; *Arabidopsis thaliana* is the model plant for the experiment, not a sampled food commodity. No regulatory or jurisdictional frame applies (the Illinois Department of Natural Resources funded the work, but the science is conceptually species-general and not US-specific in any regulatory sense).
 
@@ -127,12 +129,15 @@ The study is a primary mechanistic experiment in *Arabidopsis thaliana* using a 
 - Checks 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all ✅. Subagent independently verified all per-line and per-figure numbers, confirmed scientific-method vendor list against p. 662 of the source, confirmed no commercial food/personal-care brand names appear, and confirmed no HMTc-threshold language or consumer risk advisories. 2 findings flagged, 1 corrected (the unit-conversion factor), 1 carried (the known cross-page taxonomy gap, not a defect on this page), 0 rejected. Audit subagent ID aec7faff159538b50.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [43f4b6b](https://github.com/paleofoundation/heavymetalindex/commit/43f4b6b) | 2026-06-08 | audit: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity revised |
-| [86ae207](https://github.com/paleofoundation/heavymetalindex/commit/86ae207) | 2026-06-08 | ingest: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

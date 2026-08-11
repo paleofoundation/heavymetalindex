@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Ben Moussa et al. 2022 — Natural Tunisian clays as adsorbents for heavy-metal removal from phosphogypsum waste (Gabes)
 
+## Overview
+
 Four-page Springer book chapter from a Tunisian–Belgian group testing whether three local clay deposits in the Gabes region (Haidoudi, Romana, Hmaymet) can adsorb heavy metals (the authors emphasise Cd and Cr) from phosphogypsum — the by-product of phosphoric-acid manufacture at the Groupe Chimique Tunisien plant. The paper is qualitative in published form: it asserts that phosphogypsum from Gabes carries "high" concentrations of Cd, Cr, and U "compared to other wastes of phosphogypsum in the world and to the soil remediation limits" without printing the mg/kg values, and reports column-leaching results as "the concentration of metals decreased … all the way down to 0 mg/kg" for the Haidoudi and Romana clays without printing breakthrough curves or numeric removal efficiencies. The Hmaymet clay is reported as "less substantial" in adsorption performance, again without numbers.
 
 Phosphogypsum is upstream of the agricultural-soil cadmium pathway (phosphate-fertiliser raw-material chain), and the paper documents a remediation technology rather than a food-occurrence finding. It is retained in the Heavy Metal Index as a C-tier remediation-leads source for the Tunisian phosphogypsum-storage context, not as occurrence evidence for any food matrix.
@@ -80,15 +82,15 @@ Minimal direct value for the Heavy Metal Index. The wiki's scope is heavy-metal 
 - **Numerical fidelity.** All quantitative statements in this page that originate in the source chapter are restatements of qualitative/descriptive text or of single named numbers (1430 cm⁻¹ FT-IR band, the three clay-deposit names, the 2018 sampling year, the eight-reference list). The chapter does not print mg/kg tables for input or output streams; this page therefore does not assert mg/kg occurrence values.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

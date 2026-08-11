@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # EFSA 2014 — Dietary exposure to inorganic arsenic in the European population
 
+## Overview
+
 This 68-page EFSA Scientific Report (Question No EFSA-Q-2012-00107, approved 28 February 2014) provides the first dedicated EU-wide chronic dietary exposure assessment for inorganic arsenic (iAs) using the EFSA Comprehensive European Food Consumption Database and the FoodEx classification system. A dataset of 107,646 analytical results collected in 21 European countries (2003–2012) was used; 103,773 food samples (including drinking water) supplied the exposure calculation, of which 101,020 were originally reported as total arsenic (tAs) and only 2,753 as iAs. Because direct iAs measurements were sparse, 92.5 % of the tAs data were converted to iAs using a 70 % conversion factor for foods of terrestrial origin (1 % for fish and seafood), except for five rice types and fish/seafood where the reported iAs was used exclusively and tAs results were discarded. Chronic exposure was estimated for 28 dietary surveys from 17 European countries (53,728 individuals). The highest exposures occurred in infants and toddlers; mean dietary exposure across age classes ranged from 0.09 to 1.37 µg iAs/kg b.w. per day (min LB – max UB) and 95th-percentile exposures from 0.14 to 2.09 µg/kg b.w. per day (min LB – max UB). Across all age classes except infants and toddlers, the dominant contributor to iAs exposure was the food group 'Grain-based processed products (non rice-based)', driven by wheat bread and rolls; in infants and toddlers, 'Milk and dairy products' was the main contributor, followed by drinking water, grain-based processed products (non rice-based) and food for infants and young children. Consumption of three 30-g portions per day (90 g/day) of rice-based infant food was estimated to deliver 1.59–1.96 µg iAs/kg b.w. per day, which falls within the BMDL₀₁ range (0.3–8 µg/kg b.w./day) the EFSA CONTAM Panel established in 2009 ([[sources/efsa-arsenic-contam-2009]]). This 2014 report was subsequently superseded in 2021 by the chronic dietary exposure assessment based on directly measured iAs ([[sources/efsa2021-chronic-exposure-iAs]]), which produced estimates 1.5–3× lower because the dominant uncertainty in the present report — conversion of tAs to iAs — was removed.
 
 ## Key numbers
@@ -223,15 +225,15 @@ Fresh-context audit subagent (2026-06-03, REVISE verdict) flagged five Check 1 i
 - Audit subagent flagged matrices vocabulary item `dietary-intake` as a concept rather than a food medium; left in place — the predecessor source page ([[sources/efsa2021-chronic-exposure-iAs]]) uses the same convention, and changing it here without a taxonomy-level fix would create a single-page divergence.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [4074e0c](https://github.com/paleofoundation/heavymetalindex/commit/4074e0c) | 2026-06-03 | audit: efsa2014-dietary-exposure-iAs revised |
-| [04d7dcf](https://github.com/paleofoundation/heavymetalindex/commit/04d7dcf) | 2026-06-03 | ingest: efsa2014-dietary-exposure-iAs fresh from Manual Fetch Kimi/June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

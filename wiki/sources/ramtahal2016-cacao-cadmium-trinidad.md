@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ramtahal et al. 2016 — Cd in cacao tissues and soils across 45 plantations in Trinidad and Tobago
 
+## Overview
+
 Ramtahal et al. measured cadmium in leaves, pod husks, shells, and nibs (beans) of cacao plants, and in corresponding soils, from 45 plantations spanning all seven major soil types (I–VII) across Trinidad and Tobago. The study evaluated whether Cd levels in readily accessible tissues (leaves, pods) could predict Cd in beans (nibs), which would allow screening without waiting for harvest. A wide range of cultivars was sampled, giving the correlations broad applicability.
 
 Cd levels in cacao tissues varied in the order: leaves (0.54–5.21 µg/g) > pods (0.53–4.49 µg/g) > shells (0.44–4.41 µg/g) > nibs (0.35–3.82 µg/g). Soil total extractable Cd ranged 0.3–1.7 µg/g. All inter-tissue correlations were statistically significant (p < 0.05) and strongly positive: nib/shell r = 0.86, nib/leaf r = 0.79, nib/pod r = 0.76, shell/leaf r = 0.83, shell/pod r = 0.68, leaf/pod r = 0.80. Nib-to-soil correlations were weaker but significant: nib/soil r = 0.35, shell/soil r = 0.43. This suggests that leaf and pod Cd can serve as practical predictors of bean Cd, enabling pre-harvest screening of farms and cultivars for Cd compliance before beans are harvested and sold.
@@ -52,15 +54,15 @@ App: Trinidad and Tobago is a secondary high-Cd cacao origin (lower volume than 
 - [[supply-chain/soil-cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

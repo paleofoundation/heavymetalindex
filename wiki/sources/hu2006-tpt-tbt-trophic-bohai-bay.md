@@ -29,6 +29,8 @@ updated: 2026-06-04
 
 # Hu et al. 2006 — Trophic magnification of triphenyltin vs tributyltin in a Bohai Bay marine food web
 
+## Overview
+
 Hu and colleagues measured butyltins (MBT, DBT, TBT) and phenyltins (MPT, DPT, TPT) in plankton, five benthic invertebrate species, six fish species, and 14 paired surface seawater/sediment sites from Bohai Bay (North China) in 2002, and combined the biota concentrations with δ15N-derived trophic levels to compute trophic magnification factors. TPT showed strong food-web biomagnification (TMF = 3.70, r² = 0.78, p < 0.001) while TBT trended downward with trophic level (TMF = 0.59, p = 0.119, not statistically significant), so that mean TPT in fish exceeded mean TBT in fish even though seawater TPT was below detection (<6.8 ng/L) and seawater TBT was 9.8 ng/L. The authors attribute the divergence to TPT's slower metabolic degradation in fish, not to a difference in environmental input.
 
 **Important note on metals classification.** The analytes here are organotin compounds (MBT, DBT, TBT, MPT, DPT, TPT), not inorganic tin. Organotin species are distinct from total tin in toxicology, environmental behavior, and regulatory scope; they reach aquatic food chains primarily through antifouling paints (TBT, TPT) and agricultural fungicide use (TPT on potato, orchard, and cotton crops in China at the time), and they are outside the HMTc 10-analyte certification scope. They are recorded here under `metals: [Sn]` for element-level routing; downstream synthesis should link the toxicological discussion to [[metals/organotins]] and must not pool these values with inorganic Sn occurrence.
@@ -139,12 +141,15 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 - The earlier matrix `seawater` is not in the documented matrices vocabulary; seawater results are confined to the Key numbers narrative and the matrices array lists `sediment` plus the three biota matrices that fan out to routed ingredient pages.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

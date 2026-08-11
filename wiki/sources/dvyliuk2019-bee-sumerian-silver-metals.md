@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Dvyliuk and Kovalchuk 2019 - Bee tissue metals after Sumerian Silver feeding
 
+## Overview
+
 Dvyliuk and Kovalchuk fed isolated honey bees sugar syrup with a silver and copper citrate preparation and measured bee survival plus Ag, Cu, Fe, Zn, and Co in bee tissues. This is in-scope a4 animal biomarker/toxicology context and feed-to-bee transfer evidence, not honey occurrence or chromium occurrence.
 
 ## Key numbers
@@ -77,3 +79,17 @@ App: Context only. The source may support honey-supply-chain questions about bee
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured bee tissues after syrup feeding rather than honey occurrence. On reading, it is in-scope a4 biomarker/toxicology and animal-feed transfer context with measured tissue metal values.
 
 Numbers were checked against the Ukrainian abstract, methods, Table 1, Table 2, conclusion, and the English summary in the extracted PDF. The source reports Ag/Cu/Fe/Zn/Co in bee body tissues as mg/kg natural mass; it does not report honey metal concentrations. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

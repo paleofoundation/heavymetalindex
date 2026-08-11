@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-shampoo-body-wash
 public_page: products/baby-shampoo-body-wash
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Baby Shampoo / Baby Body Wash

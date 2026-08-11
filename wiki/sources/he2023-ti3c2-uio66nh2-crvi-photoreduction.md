@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # He et al. 2023 - Ti3C2/UiO-66-NH2 photoreduction of Cr(VI)
 
+## Overview
+
 He and colleagues synthesized Ti3C2/UiO-66-NH2 composites and tested their visible-light photoreduction of synthetic Cr(VI) as potassium dichromate. This is primary remediation/testing evidence, not occurrence evidence. The routeable numbers are the potassium dichromate challenge concentration, catalyst loading, removal time, and first-order kinetic rate for the optimized 10 wt% Ti3C2 composite.
 
 ## Key numbers
@@ -78,15 +80,15 @@ App: Route to Cr(VI), chromium, titanium/materials, and testing/remediation cont
 The PDF has author attribution and DOI `10.3390/catal13050876`; no DOI conflict was observed. The source reports synthetic potassium dichromate treatment experiments, not natural water, food, ingredient, or product concentrations. Titanium is part of the catalyst material, not a contaminant result.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [aea3747](https://github.com/paleofoundation/heavymetalindex/commit/aea3747) | 2026-06-02 | ingest June 2: he2023-ti3c2-uio66nh2-crvi-photoreduction |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

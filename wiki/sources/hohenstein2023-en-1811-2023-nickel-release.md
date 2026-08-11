@@ -11,7 +11,7 @@ no_doi_assigned: true
 access_url: null
 source_type: industry-guidance
 evidence_tier: C
-tier_rationale: "Per CLAUDE.md Part 13, C-tier covers trade publications and non-peer-reviewed third-party summaries. This is a one-page technical bulletin issued by Hohenstein, a CEN-member accredited German textile and consumer-product testing laboratory, announcing the publication of EN 1811:2023 and summarising the four operative changes from the superseded EN 1811:2011+A1:2015. The bulletin is a derivative communication, not a primary regulatory document — the primary documents are the CEN standard EN 1811:2023 itself, the related CEN standard EN 12472 referenced in the bulletin, and Entry 27 of Annex XVII of EU REACH Regulation (EC) No 1907/2006 under which the standard is expected to be harmonised. Its value to the corpus is as a date-anchored attestation by an accredited testing laboratory that (i) EN 1811:2023 supersedes EN 1811:2011+A1:2015 on a national-implementation deadline of August 2023, (ii) the migration limit comparator at 0.5 µg·cm⁻²·week⁻¹ is unchanged, (iii) the compliance interpretation at that limit changed from strict-inequality (<0.88) to non-strict-inequality (≤0.88), and (iv) revised surface-area calculation for products with internal surfaces may yield higher calculated release values than under the previous version of the standard, so re-testing is appropriate where nickel was detected in relevant quantities below the limit under the previous standard."
+tier_rationale: "C-tier covers trade publications and non-peer-reviewed third-party summaries. This is a one-page technical bulletin issued by Hohenstein, a CEN-member accredited German textile and consumer-product testing laboratory, announcing the publication of EN 1811:2023 and summarising the four operative changes from the superseded EN 1811:2011+A1:2015. The bulletin is a derivative communication, not a primary regulatory document — the primary documents are the CEN standard EN 1811:2023 itself, the related CEN standard EN 12472 referenced in the bulletin, and Entry 27 of Annex XVII of EU REACH Regulation (EC) No 1907/2006 under which the standard is expected to be harmonised. Its value to the corpus is as a date-anchored attestation by an accredited testing laboratory that (i) EN 1811:2023 supersedes EN 1811:2011+A1:2015 on a national-implementation deadline of August 2023, (ii) the migration limit comparator at 0.5 µg·cm⁻²·week⁻¹ is unchanged, (iii) the compliance interpretation at that limit changed from strict-inequality (<0.88) to non-strict-inequality (≤0.88), and (iv) revised surface-area calculation for products with internal surfaces may yield higher calculated release values than under the previous version of the standard, so re-testing is appropriate where nickel was detected in relevant quantities below the limit under the previous standard."
 license: "publisher-copyright (Hohenstein; technical bulletin distributed for industry information, not public-domain; brand customer-service contact 'customerservice@hohenstein.com')"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers/Hohenstein_Technical_Bulletin_Nickel_Norm_2023-07.pdf"
 raw_sha256: e4b9da9ee3b33b8906753c3405aacab502a124108a11c052701f9e61ac929f9b
@@ -29,6 +29,8 @@ created_by: claude-opus-4-7
 ---
 
 # Hohenstein 2023 — EN 1811:2023 nickel-release test method bulletin
+
+## Overview
 
 This one-page technical bulletin issued by Hohenstein in June 2023 announces that CEN (the European Committee for Standardization) has published EN 1811:2023, superseding the previous version EN 1811:2011+A1:2015. EN 1811 is the reference test method for nickel release from articles intended to come into direct and prolonged contact with the skin and is the method through which Entry 27 of Annex XVII of EU REACH Regulation (EC) No 1907/2006 is operationalised once the European Commission accepts the standard as harmonised. The bulletin identifies four operative changes versus the prior version of the standard and flags that a revised surface-area calculation for products with internal surfaces may yield higher calculated release values, making re-testing appropriate where nickel was detected in relevant quantities below the limit under the previous version.
 
@@ -85,15 +87,15 @@ The bulletin is a one-page derivative communication summarising four operative c
 - **Audit subagent (2026-06-01) flagged `matrices: [skin-contact-article]` as not on the controlled matrices vocabulary.** Verified against precedent: the existing [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] source page uses `matrices: [skin-contact-article, piercing-post-assembly, stainless-steel, artificial-sweat, blood-plasma, urine]`, establishing `skin-contact-article` as the corpus convention for non-food dermal-exposure sources. Finding was a low-severity vocabulary concern; the corpus convention is followed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

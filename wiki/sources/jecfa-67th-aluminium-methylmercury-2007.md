@@ -33,6 +33,8 @@ updated: 2026-06-04
 
 # JECFA 67th Meeting (2006) — Aluminium PTWI Revision and Methylmercury PTWI Confirmation (WHO TRS 940)
 
+## Overview
+
 The sixty-seventh meeting of the Joint FAO/WHO Expert Committee on Food Additives (Rome, 20-29 June 2006) addressed five food additives and three contaminants, of which two are within scope for Heavy Metal Index: aluminium from all sources including food additives (Section 4.1, a full re-evaluation that revised the provisional tolerable weekly intake downward from 7 mg/kg b.w./week to 1 mg/kg b.w./week expressed as Al) and methylmercury (Section 4.3, a clarification meeting that confirmed the 1.6 µg/kg b.w./week PTWI set at the [[sources/jecfa-61st-methylmercury|61st meeting in 2003]] and formally withdrew the prior 3.3 µg/kg b.w./week PTWI). The chloropropanols section (Section 4.2, covering 3-chloro-1,2-propanediol and 1,3-dichloro-2-propanol) and the food-additive sections (annatto, lycopene, natamycin, propyl paraben, and seven specifications-only items) are out of scope and are not summarized below.
 
 ## Key numbers
@@ -221,12 +223,15 @@ The 67th-meeting report (TRS 940) is the high-level summary document. The detail
 - [[products/breakfast-cereals]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

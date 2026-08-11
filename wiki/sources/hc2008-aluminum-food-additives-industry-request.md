@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # Health Canada 2008 — Industry information request on aluminum-containing food additives
 
+## Overview
+
 In July 2008, Health Canada's Bureau of Chemical Safety distributed a letter to industry stakeholders requesting information on the use of aluminum-containing food additives in Canadian food products. The letter was triggered by the 2006 Joint FAO/WHO Expert Committee on Food Additives (JECFA) reduction of the Provisional Tolerable Weekly Intake (PTWI) for aluminum from 7 mg/kg body weight per week to 1 mg/kg body weight per week, which prompted Health Canada to review whether dietary aluminum exposure among Canadians is acceptable and whether the existing Maximum Levels of Use under Division 16 of the Canadian Food and Drug Regulations remain appropriate. The accompanying Table 1 enumerates every aluminum-containing food additive permitted in Canada at the time of the request, with functional class and food-by-food maximum levels of use. The page is archived (Date modified 2017-05-04) and is preserved here as a record of the Canadian regulatory baseline for aluminum food additives as of 2008.
 
 ## Key numbers
@@ -96,7 +98,7 @@ Regulatory document, not an analytical study. No analytical methods, sampling de
 
 - Cite-key uses agency abbreviation `hc` (Health Canada) with the year the letter was distributed (2008), consistent with how other agency-letter sources in `wiki/sources/` are keyed; the archived page's Date modified 2017-05-04 is not a substantive content revision.
 - `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same folder, which is byte-identical (SHA-256 match) to the raw_path file.
-- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]` or `[[regulations/jecfa-aluminum-ptwi]]` page exists yet in the taxonomy snapshot; the document references both substantively. These are flagged as backlog regulation-page candidates but are NOT created here (regulation pages require a hard agency identifier per CLAUDE.md Part 10 and are not auto-stubbed during ingest).
+- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]` or `[[regulations/jecfa-aluminum-ptwi]]` page exists yet in the taxonomy snapshot; the document references both substantively. These are flagged as backlog regulation-page candidates but are NOT created here (regulation pages require a hard agency identifier and are not auto-stubbed during ingest).
 - `matrices` mixes canonical entries from the system-prompt list (`dietary-intake`, `eggs`, `flour`, `salt`) with broader food-category descriptors (`food-additive`, `canned-seafood`, `pickles`, `baking-powder`, `processed-cheese`, `beer`) flagged here as additions because no closer-fitting canonical term exists for those Division 16 regulatory scopes.
 - Audit subagent (2026-06-03) flagged the original frontmatter `combined sodium/potassium aluminum sulphate residue` framing for the 900 ppm flour cap; verified against source p. 5 — the source presents the two caps as parallel, separate per-carrier ceilings, not a combined residue. Body text corrected.
 - Audit subagent (2026-06-03) flagged `(and its potassium and sodium derivatives)` paraphrase of source's `(including its potassium and sodium salts)` (p. 3). Body text corrected to use the source's "salts" wording.
@@ -109,11 +111,15 @@ Regulatory document, not an analytical study. No analytical methods, sampling de
 - [[regulations/efsa-aluminium-twi]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

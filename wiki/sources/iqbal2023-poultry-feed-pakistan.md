@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Iqbal et al. 2023 — Heavy metals in poultry feed and poultry products from Rawalpindi/Islamabad farms
 
+## Overview
+
 This Saudi Journal of Medical and Pharmaceutical Sciences article reports concentrations of Pb, Cd, Cr, Hg, and Fe in solid feed, water, liver, breast muscle, thigh muscle, egg albumen, egg yolk, and whole eggs from six poultry farms in Rawalpindi and Islamabad, Pakistan. Mercury was not detected in any sample; lead was present in feed and most tissues with farm-level values often above WHO permissible limits; iron in liver and chromium in feed and certain tissues were similarly elevated. Liver accumulated the highest Fe and Cd concentrations among the tissues.
 
 ## Key numbers
@@ -76,15 +78,15 @@ Six layer-breed chicken samples from each of six farms in Rawalpindi/Islamabad. 
 - 2026-05-29 audit-application: fresh-context Agent subagent (verdict REVISE) flagged the Table 5 comparison sentence as misframed — prior wording claimed the study's feed Pb (2.605 ppm) was "within ranges (7.9-32.6 feed)" when in fact 2.605 is below the 7.9-32.6 prior range; rewritten as tissue-by-tissue Reported / Sample-under-study pairs that preserve direction. Also tightened the LOD/LOQ attribution to reflect what the Limitations paragraph (p. 495) actually says (non-availability of reference limits, not LOD/LOQ specifically). Matrices verification note expanded to flag all four non-standard tokens (`poultry-feed`, `liver`, `breast-muscle`, `thigh-muscle`) rather than just `poultry-feed`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b4d6a2f79](https://github.com/paleofoundation/heavymetalindex/commit/b4d6a2f79) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

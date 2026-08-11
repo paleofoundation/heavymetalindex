@@ -12,20 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 38]
-    p95_ppb: 38
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
-    typical_ppb: [0, 8]
-    p95_ppb: 8
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,28 +33,25 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 18]
-    p95_ppb: 18
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
-  tHg:
-    status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
+    last_reviewed: 2026-05-13
+  tHg:
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -66,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: pork-muscle-pan-cooked-wet-weight
-    speciation: total-Cr-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,46 +75,24 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 4
 ---
 
 # Pork chop
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 5/10 HMTc analytes, total n=14 | common tier expects total n>=15; have 14 |
-| D2 Regional coverage | below-tier | 1 jurisdictions, top CN 100% | only 1 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming pork-chop: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 18, "Pork chop, pan-cooked with oil." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
@@ -129,44 +100,32 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Pork chop is a cut of pork loin or rib, comprising skeletal muscle with associated intramuscular fat and, depending on the cut, a bone. The heavy metal profile of pork loin muscle is among the lowest observed in the monitored food supply. Cadmium in mammals distributes preferentially to the renal cortex (kidney) and liver after intestinal absorption, with skeletal muscle retaining only a small fraction of the body burden; as a result, pork loin muscle Cd is consistently near or below analytical detection limits in food monitoring surveys. Lead distributes primarily to bone and other calcified tissue after absorption, with skeletal muscle again retaining very little. Total mercury in pork muscle is negligible because terrestrial pigs are not exposed to methylmercury, the marine bioaccumulation form; any tHg reflects inorganic mercury in feed at trace background levels.
 
-Feed composition is the primary determinant of pork muscle metal content. Commercial swine compound feed is regulated for cadmium content in the EU and under Codex standards to prevent accumulation in edible tissues; compliance with these regulations effectively caps the dietary Cd input to pigs and limits the Cd that can distribute to muscle. The FDA TDS FY2018-FY2020 data for pan-cooked pork chop (TDS Food 18, n=27) reported every measured analyte (Cd, Cr, Ni, Pb, U, tAs, tHg) below its reporting limit across all 27 samples ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, Cd 1, tAs 3, tHg 1, Ni 40, Cr 50, U 1 µg/kg); those below-limit results are carried as left-censored bounds rather than as measured zeros (see the Synthesis basis and censoring treatment section). The detected-occurrence picture for pork muscle is one of low but non-zero lead, cadmium, and total arsenic from broader meat-group monitoring, consistent with the well-established low-accumulator characterisation of skeletal muscle rather than with literal zeros.
+Feed composition is the primary determinant of pork muscle metal content. Commercial swine compound feed is regulated for cadmium content in the EU and under Codex standards to prevent accumulation in edible tissues; compliance with these regulations effectively caps the dietary Cd input to pigs and limits the Cd that can distribute to muscle. The FDA TDS FY2018-FY2020 data for pan-cooked pork chop (TDS Food 18, n=27) shows all measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) at zero across all 27 samples, confirming the expectation that pork loin muscle is essentially free of detectable heavy metals under normal production conditions ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | <4–38 | 38 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| Cd | n=3 | <1–8 | 8 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–18 | 18 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| tHg | n=2 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]] |
-| Ni | n=1 | <40 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | <50 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, cadmium, total-arsenic, total-mercury, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a pork-muscle pan-cooked wet-weight basis, the form FDA reports for this matrix and the form in which the cooked cut reaches the plate. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported all seven of these analytes at typical and 95th-percentile values of zero at high confidence with n=2. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Pork chop, pan-cooked with oil" (TDS Food 18, n=27), in which every sample fell below the reporting limit for each metal and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, Cd 1, tAs 3, tHg 1, Ni 40, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with left-censored bounds at the FDA reporting limit (reported in the profile table as "<4", "<1", and so on) and, where a positive occurrence value exists in the broader meat literature, carries that value as the upper anchor at low confidence.
-
-The only positive occurrence values that touch this commodity come from the Jilin Province total diet study ([[sources/wang2020-jilin-total-diet-metals|Wang et al. 2020]]), and they are reported for the whole "Meat and its products" food group, not for pork chop specifically: group means of Pb 38 µg/kg (0.038 mg/kg), total arsenic 18 µg/kg (0.018 mg/kg), and cadmium 8 µg/kg (0.008 mg/kg). These are carried as the upper anchor of the typical range and as the only available 95th-percentile reference for Pb, Cd, and tAs, but they are an all-meat aggregate spanning pork, beef, poultry, and processed meats; they are not a pork-chop-specific distribution. Confidence is held at low for every cell on that basis, and no value is relabeled as a pork-chop subgroup figure. The second corroborating result is the Kazakh market-meat survey ([[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]], pork n=67), in which pork was below detection for arsenic, cadmium, mercury, and lead across the four target analytes; that is a second censored negative pork result, consistent with the FDA censoring, and it does not supply a positive value.
-
-Total arsenic and inorganic arsenic are kept as distinct analytes; no speciated measurement exists for this commodity, so iAs remains a reviewed data gap and is not derived from total arsenic. Total mercury is held distinct from methylmercury and is not derived from it: both the FDA composite and the Kazakh pork samples returned total mercury below the reporting limit, so the total-mercury cell carries only the left-censored FDA floor of <1 µg/kg with no positive upper bound, at low confidence.
-
-Nickel and chromium each rest on the FDA censored floor alone. Every pork-chop composite in the FDA Total Diet Study fell below the 40 µg/kg nickel and 50 µg/kg chromium reporting limits, so the honest floor for each is that reporting limit expressed as a left-censored bound, with no positive occurrence value or upper bound published for the commodity. Chromium is reported as total chromium only at low confidence; no fluid-pork hexavalent-chromium occurrence measurement exists. The single chromium-speciation source in the corpus ([[sources/ren2018-crvi-pork-electron-beam|Ren et al. 2018]]) is an in-vitro electron-beam mitigation experiment in which lean pork was spiked with potassium dichromate to defined Cr(VI) levels, not a survey of naturally occurring chromium; its finding that lean pork retains only 2 to 4 percent of total Cr(VI) as free, unbound Cr(VI) is a speciation and mitigation result, not an occurrence value, and it is not used to populate the chromium cell. No Cr-VI value is inferred. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites with no extractable quantitative value and no other source measures it in pork, so no distribution is published (the rice-uranium and whole-milk-uranium precedent).
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Ranges by source, region, and variety
 
-Detected occurrence values for pork muscle are scarce; the available US and Central-Asian monitoring data report pork at or below analytical detection limits, and the only positive figures come from a broad all-meat food-group composite rather than a pork-specific distribution. The FDA TDS FY2018-FY2020 data (n=27) for pan-cooked pork chop in the US reported every analyte (Cd, Cr, Ni, Pb, U, tAs, tHg) below its reporting limit throughout the distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]); these are left-censored bounds, not measured zeros. The Kazakh market-meat survey ([[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]], pork n=67) likewise reported pork below detection for arsenic, cadmium, mercury, and lead. The single set of positive numbers comes from the Jilin Province total diet study, where the all-meat group mean was Pb 38, tAs 18, and Cd 8 µg/kg ([[sources/wang2020-jilin-total-diet-metals|Wang et al. 2020]]); because this is a composite across pork, beef, poultry, and processed meats, it bounds the pork-chop estimate from above but cannot resolve variation by production region, breed, or production system (indoor vs outdoor, organic vs conventional), none of which is documented in the current corpus for pork muscle.
+Pork loin muscle metal concentrations are consistently at or below detection limits across US and European monitoring data, reflecting the systemic biology of metal distribution in pigs rather than geographic or production-system variation. No material difference by production region, breed, or production system (indoor vs outdoor, organic vs conventional) is documented in the current corpus for pork loin Cd or Pb. The TDS data (n=27, all zero across all analytes) represent US market pork chops and are consistent with European monitoring results for pork muscle from regulatory monitoring programs.
 
 ## Processing effects
 
-Pan cooking with oil, as in the TDS preparation protocol, drives moisture loss from the muscle and concentrates metals slightly on a wet-weight basis. Given that every measured analyte fell below its reporting limit in the n=27 TDS samples ([[sources/fda2022-tds-elements-fy2018-fy2020]]), this concentration effect is not analytically resolvable in the FDA data; it would shift any underlying low but non-zero muscle concentration upward only slightly. Marinating in acidic solutions (wine, vinegar) does not mobilise metals from the muscle matrix at concentrations relevant to food safety. Bone-in chops carry bone tissue, which has higher Pb than muscle; consuming the bone tissue or bone marrow is not standard, and the bone fraction does not affect the muscle-tissue profile.
+Pan cooking with oil, as in the TDS preparation protocol, drives moisture loss from the muscle and concentrates metals slightly on a wet-weight basis. Given that all measured values are at zero in n=27 TDS samples ([[sources/fda2022-tds-elements-fy2018-fy2020]]), this concentration effect is not analytically meaningful. Marinating in acidic solutions (wine, vinegar) does not mobilise metals from the muscle matrix at concentrations relevant to food safety. Bone-in chops carry bone tissue, which has higher Pb than muscle; consuming the bone tissue or bone marrow is not standard, and the bone fraction does not affect the muscle-tissue profile.
 
 ## Ingredient-derivative risk
 
@@ -214,7 +173,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -223,41 +182,48 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pork chop, pan-cooked with oil" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 Cd, Cr, Ni, Pb, U, tAs, tHg occurrence distributions for Pork chop, pan-cooked with oil (n=27); all analytes reported as zero (BDL) |
-| 2 | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|Maikanov et al. 2021]]. *Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan*, Veterinary World 14(6):1615-1621 | 2021 | Peer-reviewed | KZ tAs, Cd, tHg, Pb occurrence in Meat from markets in the Shuchinsk-Burabay resort zone: beef 166, horse 42, pork 67, mutton 8, poultry 15. (n=298) |
-| 3 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
-| 4 | [[sources/ren2018-crvi-pork-electron-beam\|Ren et al. 2018]]. *One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation*, Journal of Food Science | 2018 | Peer-reviewed | CN Cr-VI, Cr occurrence in Laboratory experiment using lean, fat, and marbled pork purchased from a market in Hefei, China; pork tissues (2... |
+| 2 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
+| 3 | [[sources/ren2018-crvi-pork-electron-beam\|Ren et al. 2018]]. *One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation*, Journal of Food Science | 2018 | Peer-reviewed | CN Cr-VI, Cr occurrence in Laboratory experiment using lean, fat, and marbled pork purchased from a market in Hefei, China; pork tissues (2... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

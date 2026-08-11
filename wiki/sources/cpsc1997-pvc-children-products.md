@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # CPSC 1997 — Lead and cadmium in children's polyvinyl chloride (PVC) products
 
+## Overview
+
 This U.S. Consumer Product Safety Commission (CPSC) staff report, dated 21 November 1997 and signed out of CPSC headquarters in Washington, D.C., is the federal regulator's formal response to the October 1997 Greenpeace report alleging hazardous lead and cadmium levels in popular vinyl children's products. CPSC staff obtained 12 of the 18 products that Greenpeace had identified as likely to be handled, mouthed, or chewed by young children, screened each colour or component for total Pb and Cd by AOAC 974.02 inductively-coupled-plasma emission spectrometry (ICP-ES), then conducted CPSC 30-stroke moist-filter-paper wipes (surface-dislodgeable) and ASTM-F963-style saline and 0.07 N HCl extractions (mouthing and chewing surrogates) on any product whose total concentration exceeded the CPSC screening thresholds (200 ppm Pb, 100 ppm Cd). Four of the eight screened-positive products yielded detectable dislodgeable or extractable Pb or Cd; none of those four produced a calculated daily exposure exceeding CPSC's chronic-ingestion limits of 15 µg Pb/day or 9.2 µg Cd/day for a 1-year-old. CPSC concluded that none of the tested products posed a lead or cadmium hazard under reasonably foreseeable handling or use and declined to seek corrective action; the report explicitly preserves the gap between Greenpeace's "hazardous levels are present" framing (substrate content + accelerated weathering) and CPSC's "no hazardous exposure under foreseeable use" framing (release under unweathered hand-contact and mouthing conditions).
 
 ## Key numbers
@@ -167,15 +169,15 @@ Of the 26 products in Greenpeace's Table 1 cleared for public release at the tim
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict REVISE with two ⚠️ concerns in Check 1 (numerical fidelity), both verified against the PDF and applied: (1) The Modular Phone Cord ivory-color 97.8 µg Pb/g extraction value was misattributed in the first commit to "6-hour saline extraction"; Table 1 footnote 5 actually identifies it as the 6-hour 0.07 N HCl extraction. Corrected. (2) The Gemini phone-cord Table 3 worked-example line previously stated "Stated daily Pb exposure 9.8 µg/day at realistic use"; the source pairs 9.8 µg/day with the 43-strokes/day threshold figure in Table 2 without explicitly labelling 9.8 µg/day as a realistic-use estimate, so the "at realistic use" framing was wiki interpretation. Reframed to report the Table 2 entry without the interpretive label. Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall, Exception 1 regulatory-event subject), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

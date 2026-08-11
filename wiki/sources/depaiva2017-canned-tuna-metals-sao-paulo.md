@@ -29,6 +29,8 @@ updated: 2026-06-04
 
 # Lima de Paiva et al. 2017 — Cd, Pb, Sn, total Hg, and MeHg in canned tuna from São Paulo, Brazil
 
+## Overview
+
 Paiva, Morgano, and Milani determined cadmium, lead, tin, total mercury, and methylmercury in 30 samples of canned tuna (five anonymised brands, three batches each, conserved in water or oil) acquired from supermarkets in Campinas, São Paulo state, Brazil, in 2015. Cd, Pb, and Sn were measured by ICP-OES after closed-vessel microwave HNO₃/H₂O₂ digestion; total Hg was measured by thermal decomposition–amalgamation atomic absorption (TDA AAS, DMA-80); MeHg was measured by toluene/HCl extraction in a closed microwave vessel, transferred to L-cysteine, then quantified on the DMA-80 with the organic-phase mercury treated as MeHg in full. Twenty per cent of the oil-conserved samples exceeded the Brazilian (ANVISA RDC 42/2013) and EU (Regulation 1881/2006) maximum level of 100 µg/kg for cadmium in fish; no sample exceeded the 300 µg/kg lead limit; tin was below the 94 µg/kg detection limit in every sample. Total Hg ranged 44–402 µg/kg wet weight in the oil conserve and 51–460 µg/kg in the water conserve; MeHg ranged 35–393 µg/kg in the oil conserve and 41–460 µg/kg in the water conserve. The MeHg/total-Hg ratio sat between 82 % and 99 % across all 30 samples. Using a 135 g drained-weight portion and a 60 kg adult, the authors estimated that four cans per week (540 g) of water-conserved tuna and five cans per week (675 g) of oil-conserved tuna would reach 100 % of the JECFA provisional tolerable weekly intake for MeHg (1.6 µg/kg body weight per week).
 
 ## Key numbers
@@ -114,12 +116,15 @@ The four-cans-per-week threshold (water conserve) is the headline number. Adults
 - Sn finding is a non-detect across all 30 samples; this is a coverage-relevant negative for canned-tuna Sn migration discussion on `[[metals/tin]]` and on the canned-fish product page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -9,7 +9,7 @@ doi: null
 no_doi_assigned: true
 source_type: ngo-report
 evidence_tier: B
-tier_rationale: "Per CLAUDE.md Part 13: NGO investigative report rather than peer-reviewed journal article (B-tier ceiling). However, the laboratory analysis was carried out by the Nepal Handicraft Testing Laboratory — a Public-Private Partnership lab operated jointly by the Federation of Handicraft Associations of Nepal (FHAN) and the Nepal Bureau of Standard and Metrology (NBSM, Ministry of Industry, Government of Nepal) — using X-Ray Fluorescence (XRF) instrumentation, which raises confidence on the analytical side. Funded by UNEP Eco-Peace Leadership Program (EPLC) via Yuhan-Kimberly University, South Korea. Sample frame is convenience-sampled from Kathmandu/Bhaktapur/Dhulikhel markets (n=100); not population-representative."
+tier_rationale: "Per: NGO investigative report rather than peer-reviewed journal article (B-tier ceiling). However, the laboratory analysis was carried out by the Nepal Handicraft Testing Laboratory — a Public-Private Partnership lab operated jointly by the Federation of Handicraft Associations of Nepal (FHAN) and the Nepal Bureau of Standard and Metrology (NBSM, Ministry of Industry, Government of Nepal) — using X-Ray Fluorescence (XRF) instrumentation, which raises confidence on the analytical side. Funded by UNEP Eco-Peace Leadership Program (EPLC) via Yuhan-Kimberly University, South Korea. Sample frame is convenience-sampled from Kathmandu/Bhaktapur/Dhulikhel markets (n=100); not population-representative."
 method_quality_caveat: "XRF measures the surface-layer elemental composition of an object, not migration (extractable) or total digested content. Results are therefore reported as bulk-surface ppm of the screened element rather than as soluble/migratable concentrations comparable to EN 71-3 or ASTM F963 leach tests. The report does not specify XRF instrument make/model, calibration standards, replicate-measurement protocol, or per-element limits of detection. Bromine is reported as elemental Br at the toy surface; the report does not speciate brominated flame retardants (PBDEs, HBCD, TBBPA, etc.) or distinguish surface-printed dye sources. Mercury detection is limited to 1 of 100 samples (the report itself flags this as a screening-level finding). Phthalate testing was scoped out of the study due to laboratory-capacity limits stated by the authors."
 license: "© CEPHED 2013 — fair-use summary; report distributed publicly by CEPHED"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf"
@@ -33,6 +33,8 @@ created_by: claude-opus-4-7
 ---
 
 # CEPHED 2013 — Heavy metals in 100 children's toys sampled in Kathmandu Valley and Dhulikhel, Nepal (XRF surface screening)
+
+## Overview
 
 This Centre for Public Health and Environmental Development (CEPHED, Lalitpur) investigative report — funded under the UNEP Eco-Peace Leadership Program through Yuhan-Kimberly University (South Korea) and analytically supported by the Federation of Handicraft Associations of Nepal (FHAN) / Nepal Bureau of Standard and Metrology (NBSM) Public-Private Partnership Nepal Handicraft Testing Laboratory — surveys heavy-metal surface content in 100 children's toys and play-items purchased from Kathmandu Valley and Dhulikhel Municipality markets in 2013. Samples were screened by X-Ray Fluorescence (XRF) for lead (Pb), mercury (Hg), cadmium (Cd), chromium (Cr), and bromine (Br). The report frames itself as the first systematic chemicals-in-children's-toys study performed inside Nepal and pairs the laboratory results with questionnaire surveys of retailers, parents, and school administrators on labelling, purchase factors, and chemical-presence awareness. 54 of 100 toys (54%) had at least one of the five screened elements detected at the toy surface; 27 toys had two or more; 11 had three or more; one toy had four. The report compares per-element detections against the USA CPSIA/CPSC ceiling for total lead in children's products (90 ppm), the corresponding USA limits for Cd (75 ppm) and Cr (60 ppm) used by the authors as reference, and the Philippines ceiling for Hg (1 ppm) used by the authors as reference; XRF surface ppm exceeded the USA Pb ceiling in 46.42% of Pb-positive toys (13 of 28), the USA Cd ceiling in 33.33% of Cd-positive toys (3 of 9), and the USA Cr ceiling in 42.86% of Cr-positive toys (6 of 14). Bromine appeared in 40 toys at 3.6-3923 ppm; the report does not speciate the brominated compound class.
 
@@ -145,15 +147,15 @@ Statistical analysis: results are reported as detection counts, concentration ra
 - 2026-05-18 audit also confirmed all five checks clean on numerical fidelity (Pb/Hg/Cd/Cr/Br detection counts, ranges, percentages, composition + country + market-channel tables, questionnaire numbers, import trends, Table 3 ceilings), speciation discipline (XRF correctly mapped to tHg + Cr without speciation claims), brand firewall (Annex 1 brand-bearing item names — Nivia, Spider Man, Mickey, Angry Bird, Pizza Party Creatives — correctly aggregated to generic categories; Yuhan-Kimberly correctly framed as funder; FHAN/NBSM lab naming permitted under Exception 2), and Part 2 wiki/HMTc firewall (no threshold proposals, no consumer advisories, no cross-source synthesis). One internal-to-source numerical inconsistency surfaced: PDF Section 11.3 point 3 (p. 23) prints "9 ppm to 409.5 ppm" for the Cd range, while Table 5 (p. 22) and the Executive Summary (p. 4) both print "16.2 ppm to 409.5 ppm" — the Table-5 value is used here as the authoritative figure.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

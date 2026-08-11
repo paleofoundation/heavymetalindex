@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Sule et al. 2026 - Metals and modeled health risk in Gombe drinking water
 
+## Overview
+
 Sule, Olowolafe, and Dabi assessed Pb, Fe, Cu, Cr, Mn, and Cd in 87 drinking-water samples from Gombe Local Government Area, Nigeria, including tap, borehole, well, vendor, rainwater, sachet-water, and bottled-water sources. The paper reports source-type chronic daily intake, hazard quotient, hazard index, and incremental lifetime cancer risk outputs for adults, children, and infants. It is useful for drinking-water source context in Nigeria and for source-specific risk documentation, but the PDF does not print the underlying AAS concentration table, so the modeled risk outputs should not be used as benchmark concentration values.
 
 ## Key numbers
@@ -115,15 +117,15 @@ App: Can support a context note that Gombe LGA tap, well, and sachet water were 
 - The source reports modeled CDI/HQ/HI/ILCR outputs. Because the underlying concentration table is not printed in the PDF, no HMTc benchmark concentration row should be pooled from this page without a supplemental data table or re-contacted article data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [bdad521](https://github.com/paleofoundation/heavymetalindex/commit/bdad521) | 2026-06-08 | audit: sule2026-gombe-drinking-water-metals promoted per autonomous audit |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2308475](https://github.com/paleofoundation/heavymetalindex/commit/2308475) | 2026-06-02 | ingest auto-fetched 2026-06-02: sule2026-gombe-drinking-water-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [bdad52137](https://github.com/paleofoundation/heavymetalindex/commit/bdad52137) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

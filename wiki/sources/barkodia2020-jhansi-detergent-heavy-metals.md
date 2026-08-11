@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Barkodia, Tiwari & Yadav 2020 — Heavy metals in detergent samples from Jhansi, India
 
+## Overview
+
 A short undergraduate-led study from the Department of Chemistry, Bipin Bihari Degree College (Jhansi, Uttar Pradesh) measuring iron, copper, manganese and zinc in six commercially marketed household detergents purchased on the Jhansi retail market and analysed by double-beam flame atomic absorption spectrometry (Chemito AA203D). The headline finding is that Fe, Mn and Zn fell within the Indian drinking-water tolerance limits (BIS 10500:1991) on a per-gram-of-product basis, while copper at 0.48-0.69 mg/kg in every sample exceeded the 0.05 mg/L drinking-water permissible limit by roughly 10-14×, though remained below the 1.5 mg/L tolerance limit for inland surface water (IS 2296-1982). None of the four analytes is on the Heavy Metal Index priority panel (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn); the paper's relevance to HMI is as a non-priority-metals baseline for South Asian laundry-detergent formulations and as one of the few publicly available analytical-chemistry datasets from the Indian market in this product category. JETIR is an open-access journal that has been flagged in several index-quality assessments as predatory or near-predatory; the analytical methodology (AAS wavelengths, digestion protocol) is conventional, but the small sample size, single-laboratory single-run design, absence of QC/replicate structure, and several internal text-vs-table inconsistencies (see Limitations) place this source in the C-tier on the HMI evidence ladder.
 
 ## Key numbers
@@ -138,18 +140,18 @@ The wiki has not independently verified the Allen 1995 numbers; they appear in t
 - Audit subagent (2026-06-02) flagged four brand-derived parenthetical taglines in the Key Numbers per-sample table ("maha shaktishali wash", "gently clean and softener", "oxi action", "plus" formulation) as Part 12 brand-firewall leaks. Verified against PDF Table 1 — these are sub-brand / product-line taglines tied to specific commercial brands (Ghadi, Easy, Vanish, Tide). Stripped all four parentheticals; product-form descriptors alone retain the analytical-chemistry-relevant information.
 - Audit subagent (2026-06-02) flagged Implications bullet 4 ("strengthening confidence that laundry-detergent product matrices are not a meaningful exposure source for the HMTc analytes Pb, Cd or As") as cross-source synthesis on the source page (Part 9 workflow scope), and internally inconsistent because neither this study nor the cited ECETOC 1992 dataset measures Pb, Cd or As. Verified — the conclusion does not follow from the premises stated. Rewrote the bullet to defer cross-source synthesis to the Part 9 workflow.
 - Audit subagent (2026-06-02) flagged Implications bullet 3 ("would reduce a 0.69 mg/kg per-product copper concentration to roughly 7 µg/L at-skin / at-fabric — comfortably below the 0.05 mg/L drinking-water cap") as wiki-generated risk arithmetic that goes beyond reporting what the literature supports. Verified — the source mentions a 2.5-3.5% detergent concentration only in the context of fish mortality, not a 1% in-use wash dilution; the 7 µg/L number and the "comfortably below" framing are wiki-side. Rewrote the bullet as a methodological note that the source does not perform the in-use dilution step required to compare the per-product Cu concentration against a per-volume water limit.
-- Audit subagent (2026-06-02) flagged `metals: [Fe, Cu, Mn, Zn]` as missing from the CLAUDE.md Part 14 canonical-abbreviation list and `matrices: [laundry-detergent, household-cleaning-product]` as not visibly in the taxonomy snapshot. Verified — element-symbol slugs Fe/Cu/Mn/Zn are consistent with the symbol convention used elsewhere in the corpus (e.g., Co, Mo) and CLAUDE.md Part 14 enumerates *priority* analytes rather than an exhaustive permitted-abbreviation list. The matrices `laundry-detergent` and `household-cleaning-product` are both used in [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]] frontmatter, which is precedent in the corpus. Finding rejected as a false positive on the precedent basis; no slug change applied.
+- Audit subagent (2026-06-02) flagged `metals: [Fe, Cu, Mn, Zn]` as missing from the canonical-abbreviation list and `matrices: [laundry-detergent, household-cleaning-product]` as not visibly in the taxonomy snapshot. Verified — element-symbol slugs Fe/Cu/Mn/Zn are consistent with the symbol convention used elsewhere in the corpus (e.g., Co, Mo) and enumerates *priority* analytes rather than an exhaustive permitted-abbreviation list. The matrices `laundry-detergent` and `household-cleaning-product` are both used in [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]] frontmatter, which is precedent in the corpus. Finding rejected as a false positive on the precedent basis; no slug change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [bb51519](https://github.com/paleofoundation/heavymetalindex/commit/bb51519) | 2026-06-02 | audit: barkodia2020-jhansi-detergent-heavy-metals revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

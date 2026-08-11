@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Han 2025 — Dual perspectives on peptide–zinc complexation (aquatic and other natural origins)
 
+## Overview
+
 Han, Dong, Yang, and Hu reviewed the chemistry, production, bioavailability, and clinical use of peptide–zinc complexes, with particular emphasis on zinc-chelating peptides derived from aquatic protein sources (oyster, sea cucumber, scallop, Alaska pollock, Antarctic krill, marine octopus, tilapia, pufferfish, silver carp). The framing is dietary supplementation of the essential trace element zinc through peptide carriers that improve solubility and intestinal absorption over inorganic salts such as ZnSO₄ and zinc gluconate. The review also touches on therapeutic chelation of free Zn²⁺ in Alzheimer's disease (sequestration of Zn²⁺ to reduce Aβ₁–₄₀ aggregation). Zinc is not among the heavy metals tracked by HMI (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn); the source is recorded here for its mechanism content on peptide–metal coordination — binding groups (carboxylate, imidazole, sulfhydryl, amide carbonyl, phenolic hydroxyl), molecular-weight effects, hydrophobic-pocket encapsulation, and intestinal transport pathways — which is the same coordination chemistry that governs binding of toxic divalent metals such as Pb²⁺ and Cd²⁺ to food protein hydrolysates. No occurrence data for HMI-regulated heavy metals appear in this review.
 
 ## Key numbers
@@ -78,11 +80,15 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 - Adjacent context: see [[wang2022-therapeutic-peptides-review]], [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]] for related peptide-binding mechanism reviews already in the corpus.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [36496fb](https://github.com/paleofoundation/heavymetalindex/commit/36496fb) | 2026-06-08 | ingest: han2025-peptide-zinc-complexation-aquatic-review fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

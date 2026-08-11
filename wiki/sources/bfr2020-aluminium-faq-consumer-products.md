@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # BfR 2020 — Aluminium in food and consumer products (FAQ)
 
+## Overview
+
 The German Federal Institute for Risk Assessment (BfR) issued this consumer-facing FAQ on 20 July 2020 to consolidate its position on aluminium exposure from food, food-contact materials, cosmetics, and medicines, incorporating a 2020 revision of its earlier antiperspirant assessment in light of new SCCS data on dermal uptake of aluminium chlorohydrate. The document reaffirms that food remains the dominant exposure pathway — the majority of adolescents and adults in Germany already consume roughly half of the EFSA tolerable weekly intake of 1 mg Al/kg body weight from food alone — and that aggregate intake from food plus food-contact migration plus cosmetics plus medication can exceed the EFSA TWI, while remaining below the higher JECFA provisional TWI of 2 mg/kg bw/week. The revised antiperspirant position is that dermal absorption under realistic application conditions is considerably lower than the BfR's 2014 and 2019 assessments had estimated, making cosmetics a small contributor to total intake relative to food.
 
 ## Key numbers
@@ -121,15 +123,15 @@ Risk-communication FAQ. No original measurement, no sample frame, no analytical 
 **App:** The cosmetic-product aluminium concentration ranges (antiperspirants ~2.8–5.8% Al; lipstick up to 3%; whitening toothpaste up to 4.5%; sun cream up to 0.8%) and the lye-pretzel >10 mg/kg finding can populate Al contamination-profile data points on the corresponding product pages.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0123eaf](https://github.com/paleofoundation/heavymetalindex/commit/0123eaf) | 2026-06-03 | audit: bfr2020-aluminium-faq-consumer-products revised |
-| [598ca8b](https://github.com/paleofoundation/heavymetalindex/commit/598ca8b) | 2026-06-03 | ingest: bfr2020-aluminium-faq-consumer-products fresh from Manual Fetch Kimi/June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

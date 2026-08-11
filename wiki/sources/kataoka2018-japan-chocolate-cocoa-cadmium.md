@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Kataoka et al. 2018 - Cadmium in chocolate and cocoa powder products in Japan
 
+## Overview
+
 Kataoka and colleagues measured cadmium in 180 chocolate products and 140 cocoa powder products sold in Japan. The survey found broad product-level variation: chocolate products ranged from 0.00021 to 2.3 mg/kg Cd, while cocoa powder ranged from 0.015 to 1.8 mg/kg Cd. The paper is direct occurrence evidence for cadmium in chocolate and cocoa powder as sold in the Japanese retail market.
 
 ## Key numbers
@@ -62,13 +64,15 @@ App: Chocolate and cocoa powder should remain high-priority cadmium ingredients/
 The PDF title, byline, journal issue, DOI, sample counts, analytical method, and summary values were read from the source PDF. The source reports total cadmium only; it does not provide lead, arsenic, mercury, or cadmium speciation data. Brand names are not reproduced here; sample-level values are anonymized by sample number in the paper.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [ead8551](https://github.com/paleofoundation/heavymetalindex/commit/ead8551) | 2026-06-03 | frank-intake: dedup june-1-gems-data (skip-list + novelty) |
-| [fad08a8](https://github.com/paleofoundation/heavymetalindex/commit/fad08a8) | 2026-06-03 | ingest auto-fetched 2026-06-03: kataoka2018-japan-chocolate-cocoa-cadmium |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

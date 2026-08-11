@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Ataee et al. 2016 — Pb and Cd in Kermanshah-market cereals and pulses by MA-DLLME-SFO/GFAAS
 
+## Overview
+
 This methodological-validation study reports total Pb and Cd in seven Iranian cereal and pulse commodities — rice, wheat, barley, peas, beans, corn, and lentil — purchased from three local markets in Kermanshah province (West Iran) and quantified by graphite-furnace atomic absorption spectrometry after microwave-assisted dry ashing and a dispersive liquid–liquid microextraction step based on solidification of a floating organic drop (MA-DLLME-SFO). Pb concentrations in every rice and wheat sample across all three markets exceeded the WHO maximum allowable level for cereals (0.2 mg/kg) cited by the authors, ranging from 202 to 320 µg/kg in rice and 202 to 267 µg/kg in wheat. Cd was elevated above the WHO 0.1 mg/kg ceiling only in Market 1 rice (108 µg/kg). Method validation against two Chinese reference cereals (NCS ZC 73,008 rice and 73,009 wheat) returned recoveries within ~3 % of certified values.
 
 ## Key numbers
@@ -141,15 +143,15 @@ The single-province sampling footprint (three markets in Kermanshah) and small p
 - **Data integrity.** All 42 commodity×market×metal cells transcribed from Table 4 (pp. 279–280) and verified against the original PDF. Spike-recovery section (Market 1 only) and CRM results (§3.9) likewise transcribed and verified. No paper-internal contradictions identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

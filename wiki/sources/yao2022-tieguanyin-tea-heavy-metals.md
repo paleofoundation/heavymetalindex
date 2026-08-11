@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Yao et al. 2022 — Copper, lead, cadmium, chromium, and nickel in Tieguanyin tea (Fujian, China)
 
+## Overview
+
 This study quantifies copper, lead, cadmium, chromium, and nickel in 91 Tieguanyin oolong tea samples from Fujian Province, China, characterises their transfer rates from dry leaf to brewed infusion in a fixed-protocol brewing experiment, and computes hazard quotients and lifetime carcinogenic risks for six demographic subpopulations (male/female, age 18–40/age ≥41, urban/rural) using subpopulation-specific tea consumption and body-weight inputs from the authors' previous consumption survey. It is routeable for Cu, Pb, Cd, Cr, and Ni occurrence evidence on Camellia sinensis tea (oolong-class Tieguanyin) and on Tieguanyin tea infusions in a Chinese production-region market.
 
 ## Key numbers
@@ -73,11 +75,15 @@ The raw PDF is filed under `raw/Manual Fetch Discovery/yao2022-matcha-heavy-meta
 Chromium values are total Cr; the paper does not speciate Cr-III vs Cr-VI and does not extract Cr-VI specifically, so the source does not route to `metals/chromium-hexavalent`. The paper's application of the Cr-VI oral slope factor to total-Cr exposure for the cancer-risk calculation is reported in Key numbers and Implications as a paper-internal assumption, not adopted by the wiki as a synthesis claim. Below-detection Cd values were assigned the LOQ rather than half-LOQ per the paper's own convention (§2.2 last sentence). The sampling year is not stated in the paper and `sampling_year_range` is left null. Method-section instrument and CRM identifiers (Thermo Fisher XSERIES 2 ICP-MS, TOPEX microwave digestion system, GBW10052 green-tea CRM) are preserved per the Part 12 scientific-reproducibility carve-out. No brand or grower names appear in the source's findings, so the brand firewall is not engaged. The paper is open-access under CC BY 4.0 (MDPI Foods).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e4938ae](https://github.com/paleofoundation/heavymetalindex/commit/e4938ae) | 2026-06-08 | ingest: yao2022-tieguanyin-tea-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

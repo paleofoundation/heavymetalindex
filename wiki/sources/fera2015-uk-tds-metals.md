@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # FERA / FSA 2015 - UK Total Diet Study of metals and other elements in food
 
+## Overview
+
 This UK Food Standards Agency total diet study measured metals and other elements in 3312 retail food samples collected from 24 UK locations. Foods were prepared as for consumption, composited into 138 food categories and 28 food groups, and analyzed primarily by ICP-MS. The report is valuable because it gives as-consumed UK baseline concentrations for broad food groups and category composites, and because it reports inorganic arsenic separately from total arsenic. All values below are mg/kg as received or prepared unless otherwise noted; the source uses a leading `~` for values above LoD but below LoQ.
 
 ## Key numbers
@@ -161,15 +163,15 @@ Microbiome: Not addressed in this study.
 - Fresh-context audit subagent (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against `docs/gpt-collaboration/system-prompt.md` matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

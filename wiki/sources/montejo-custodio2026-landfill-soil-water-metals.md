@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Montejo-Custodio et al. 2026 - Landfill soil and water metals near mango agriculture
 
+## Overview
+
 Montejo-Custodio and colleagues assessed soil, water, mineralogical, and hydrological indicators around a municipal solid-waste disposal site in Reforma de Pineda, Oaxaca, Mexico. This is in-scope supply-chain pathway and source-attribution evidence because it quantifies landfill-associated metals in environmental compartments adjacent to a mango cultivation plot and identifies runoff and groundwater transport pathways; it is not bottled mineral-water occurrence evidence.
 
 ## Key numbers
@@ -83,3 +85,17 @@ App: Context only. The source can inform environmental due diligence for agricul
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it did not measure bottled or drinking mineral water. On reading, it is in-scope lane a3 supply-chain pathway and source-attribution evidence because it measures metals in landfill-adjacent water and soil compartments, names landfill waste and agricultural inputs as sources, and models runoff and groundwater pathways relevant to agricultural land.
 
 Numbers were checked against the summary, methods, Table 1 physical-soil values, Table 2 water-metal values, the metals-in-soil-and-water discussion, the runoff-model discussion, and the conclusion in the extracted PDF text. Chromium is total Cr, not Cr-VI. Cadmium is included because it was measured and reported below detection in all soil and water samples. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # DTU 2024 - lead and cadmium food-contact-material migration limits
 
+## Overview
+
 The DTU National Food Institute prepared this memo for the Danish Veterinary and Food Administration as a working document proposing national maximum limits for migration of lead and cadmium from ceramic, glass, and enamelled food-contact materials. The memo is a regulatory source, not a peer-reviewed primary occurrence paper; it combines proposed limits, analytical LOQ reasoning, and secondary summaries of migration studies. The routeable HMI signal is food-contact-material leachate and food-simulant context for ceramic and glass tableware, decorated rims/coatings, ceramic-coated/enamelled cookware, bakeware, and infant feeding bottles.
 
 ## Key numbers
@@ -94,3 +96,17 @@ App: If surfaced, this source can support a food-contact-material warning that P
 - Brand firewall: no brand names are attached to contamination values. The memo reports categories and cited-study summaries, not brand-by-brand product results.
 - HMTc firewall: the suggested maximum limits are DTU/DVFA source-side regulatory proposals, not HMTc thresholds. The Implications section does not propose HMTc values or compare against certification thresholds.
 - Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact enamelled-cast-iron and lead-crystal-glass sub-slugs are not available; they are retained in prose rather than invented in frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

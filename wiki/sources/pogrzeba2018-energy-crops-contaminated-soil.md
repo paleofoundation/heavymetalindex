@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pogrzeba et al. 2018 - energy crops on contaminated soil
 
+## Overview
+
 Pogrzeba and colleagues measured cadmium, lead, and zinc in two perennial energy crops grown on contaminated arable soil in Upper Silesia, Poland. This is mitigation and phytoremediation evidence: it reports soil and non-food biomass concentrations under fertilization treatments, but it does not measure bottled water, mineral water, edible crops, ingredients, or consumer-product occurrence.
 
 ## Key numbers
@@ -77,3 +79,17 @@ Courses: This is a useful teaching case for preserving matrix fit. The same anal
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, site description, experimental design, Table 1 soil characteristics, Figure 3/Table 2 biomass-pattern summaries, Table 3 ANOVA summary, methods, discussion, and conclusions. Products and ingredients are intentionally empty because the source does not measure edible commodities, mineral water, or consumer products. The source reports total elemental Pb, Cd, and Zn after digestion; no speciation is reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

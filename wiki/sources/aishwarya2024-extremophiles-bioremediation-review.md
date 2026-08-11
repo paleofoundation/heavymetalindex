@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Aishwarya et al. 2024 — Extremophiles in heavy-metal and e-waste bioremediation (Springer book-chapter review)
 
+## Overview
+
 Single-chapter narrative review of extremophilic microorganisms (thermophiles, halophiles, acidophiles, psychrophiles, polyextremophiles) and their potential for bioremediation of heavy-metal-contaminated environments and e-waste. The chapter surveys (a) the molecular mechanisms underlying heavy-metal resistance in extremophiles — efflux pumps (Cus, CopA), mercury reductase (MerA), organomercurial lyase (MerB), Cr(VI)→Cr(III) reduction, metalloproteins with cysteine-thiol metal binding, HKT1-mediated salt-and-metal tolerance — (b) biosorption versus bioaccumulation as the two principal microbial metal-removal modes, with a tabulated efficiency inventory drawn from primary literature, and (c) the composition and remediation prospects of e-waste, which contains Pb, Cd, Hg, Cr-VI, Ni, Cu, Be, Ba, Co, Fe, Li, La, Mn, Mo, Ag plus persistent organic pollutants (dioxins, PCBs, PBDEs, PVC). The chapter is descriptive: it walks through each mechanism and bacterial genus with examples drawn from 60+ cited references, names representative biosorption and bioaccumulation efficiency figures from the primary literature, and frames extremophile bioremediation as underexplored. There is no primary sampling, no inclusion criteria, no quality assessment, and no quantitative synthesis. The scope is environmental bioremediation engineering, not food or supply-chain contamination; relevance to the Heavy Metal Index is limited to (a) the mechanistic vocabulary it provides for downstream microbiome-and-metal pages, and (b) the bacterial-strain inventory at Tables 1 and 2, which restates primary biosorption and bioaccumulation efficiency figures. Evidence tier C; cite as a leads document only.
 
 ## Key numbers
@@ -130,15 +132,15 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - Frontmatter `matrices:` uses `[contaminated-soil, mine-drainage, e-waste, bacterial-cell]`. `bacterial-cell` is precedented (see [[sources/chandrangsu2017-metal-homeostasis-resistance-bacteria]]). `contaminated-soil`, `mine-drainage`, and `e-waste` are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`industrial-soil`, `agro-industrial-waste`, `leachate`) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Nyamukamba et al. 2023 — Heavy metals, formaldehyde and pH in baby diapers from the South African market
 
+## Overview
+
 This study quantifies extractable heavy metals (Pb, Cu, As, Zn, Co, Ni, Cr, Cd, Mn, Se), formaldehyde, and pH in 20 disposable baby diapers (DBD) purchased from high-, medium-, and low-end retail stores in Cape Town. Extractable metals were determined via ICP-OES after separate extractions in ISO-3160/2 artificial sweat (24 h) and a modified Brian-and-Shmaefsky artificial urine (extraction time not stated). All measured metal concentrations fell below the Oeko-Tex Standard 100 limits except for nickel, which exceeded the 0.1 mg/kg ceiling in one high-end diaper (H2, sweat extract: 0.197 mg/kg) and one low-end diaper (L2, urine extract: 0.224 mg/kg). Formaldehyde exceeded the Oeko-Tex 16 mg/kg recommended limit in 10/20 diapers (50%), with the highest readings (17.617 mg/kg) concentrated in medium-end products (M2, M5, M8). All 20 diapers had alkaline pH (7.32-8.93); only 5/20 (25%) fell within the Oeko-Tex 4.0-7.5 range. The authors conclude that diaper rash among South African babies could be driven by high alkaline skin pH and formaldehyde exceedances rather than by the measured heavy-metal content.
 
 ## Key numbers
@@ -129,15 +131,15 @@ Microbiome: Not addressed.
 - **Audit correction 2026-05-18 (fresh-context subagent).** The first commit of this page reported "n.d. in 6 samples" for both urine-extract As and urine-extract Co. Re-counting Table 5 (PDF p. 10): As n.d. = 5 (H2, H3, M1, M10, L4); Co n.d. = 5 (H1, H4, H5, M5, L3). Corrected to "n.d. in 5 samples" with the sample codes named explicitly. The audit subagent flagged the As count as 4 (missed L4) and the Co count as 5; an independent re-read confirmed 5 for both, so the larger of the two flagged counts was adopted with explicit sample-code attribution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

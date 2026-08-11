@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Shibata et al. 2016 — Arsenic Risk Assessment for US Infant Rice Cereal
 
+## Overview
+
 Shibata and colleagues (Northern Illinois University; Global Environmental Health LAB, Brooklyn) constructed a probabilistic Monte Carlo risk assessment of inorganic-arsenic exposure for US infants and toddlers ages 4–24 months, drawing concentration inputs for rice cereal from FDA market-survey data and inputs for drinking water, infant formula, and other infant solid foods (purees, 2nd/3rd-stage foods, fruits, vegetables, meats) from EPA and published literature. The objective was to evaluate whether detected iAs concentrations in US-market rice cereal are safe for infant consumption and to derive a candidate maximum contaminant level (MCL) for iAs in rice cereal given overall background exposure. Evidence tier B because the concentration data are modeled inputs rather than independently measured samples.
 
 ## Key numbers
@@ -70,15 +72,15 @@ Enhanced 2026-06-08 (Claude session) from the 2026-05-12 revision after re-readi
 - Preserved cite_key, raw_handle (FM_4661673 Marker handle is the canonical ingest source; the duplicate PDF at raw/Manual Fetch Discovery/shibata2016arsenic-rice-cereal-dietary-infants.pdf was auto-fetched by the discover skill and triggered this merge-enhance pass), raw_path, license, access_url. No frontmatter slug changes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5c2ca53](https://github.com/paleofoundation/heavymetalindex/commit/5c2ca53) | 2026-06-08 | ingest: shibata2016-arsenic-rice-cereal-risk-assessment-us enhanced from Manual Fetch Discovery |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [5c2ca53f1](https://github.com/paleofoundation/heavymetalindex/commit/5c2ca53f1) | 2026-06-08 | major | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

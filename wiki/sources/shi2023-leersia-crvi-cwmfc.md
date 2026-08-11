@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Shi et al. 2023 - Leersia CW-MFC Cr(VI) reduction
 
+## Overview
+
 Shi and colleagues tested whether cathode aeration improves Cr(VI) reduction in a lab-scale *Leersia hexandra* constructed wetland-microbial fuel cell (CW-MFC). The source is primary remediation evidence for synthetic chromium wastewater, not food or ingredient occurrence evidence. The best-performing condition was 4.5 mg/L dissolved oxygen (DO), where the system reached 520 mV, 93.73% COD removal, and 97.77% Cr(VI) removal while shifting chromium toward Cr(III) and residual/bound forms in the substrate and plant tissues.
 
 ## Key numbers
@@ -98,18 +100,18 @@ App: Route as Cr(VI) wastewater remediation context. Do not apply the 80 mg/L sy
 
 The PDF has author attribution and DOI `10.3390/app13053309`; no DOI conflict was observed. The PDF text extraction duplicates some two-column lines, but the numeric table values are visible in the repeated table blocks and agree with the abstract/conclusion for the headline 520 mV, 93.73% COD removal, and 97.77% Cr(VI) removal. Methods describe direct measurement of Cr(VI) and total Cr; the Cr(III) values are reported in the paper's tables and are interpreted here as the study's reported species balance rather than independently speciated isotope-dilution Cr(III). This is synthetic wastewater remediation evidence, not food or consumer-water occurrence evidence.
 
-Audit subagent (2026-06-02) flagged `[[mitigation/remediation-evidence]]` as a missing taxonomy target; verified against the wiki — false positive, `wiki/mitigation/remediation-evidence.md` exists and the wikilink resolves. The audit's taxonomy snapshot did not include the `mitigation/` area. Audit subagent flagged `Cr-III` as a novel metal abbreviation; verified — false positive, `Cr-III` is the standard speciation counterpart to `Cr-VI` and is widely used across the source corpus, consistent with the iAs/tAs and MeHg/tHg speciation discipline in CLAUDE.md Part 14. Audit subagent flagged the matrices vocabulary (chromium-wastewater, constructed-wetland, microbial-fuel-cell, plant-tissue, activated-carbon-substrate) as non-standard; verified — false positive, these matrices accurately describe a non-food remediation study and the routing layer correctly records the source as advisory (products/ingredients legitimately empty) rather than blocking-malformed.
+Audit subagent (2026-06-02) flagged `[[mitigation/remediation-evidence]]` as a missing taxonomy target; verified against the wiki — false positive, `wiki/mitigation/remediation-evidence.md` exists and the wikilink resolves. The audit's taxonomy snapshot did not include the `mitigation/` area. Audit subagent flagged `Cr-III` as a novel metal abbreviation; verified — false positive, `Cr-III` is the standard speciation counterpart to `Cr-VI` and is widely used across the source corpus, consistent with the iAs/tAs and MeHg/tHg speciation discipline. Audit subagent flagged the matrices vocabulary (chromium-wastewater, constructed-wetland, microbial-fuel-cell, plant-tissue, activated-carbon-substrate) as non-standard; verified — false positive, these matrices accurately describe a non-food remediation study and the routing layer correctly records the source as advisory (products/ingredients legitimately empty) rather than blocking-malformed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [abce584](https://github.com/paleofoundation/heavymetalindex/commit/abce584) | 2026-06-02 | ingest June 2: shi2023-leersia-crvi-cwmfc |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

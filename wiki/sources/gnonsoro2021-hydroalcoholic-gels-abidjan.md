@@ -21,13 +21,15 @@ matrices: [cosmetic-personal-care]
 jurisdictions: [CI]
 near_duplicates: []
 sample_n: 30
-sample_population: "Thirty hydroalcoholic gel (alcohol-based hand sanitizer) samples produced in Côte d'Ivoire and chosen from the high-consumption brands identified through interviews with cosmetics sellers. Samples were collected at random from supermarkets across the district of Abidjan between 03 and 12 March 2020. Brand identities and per-sample brand attribution are not reproduced here under the wiki brand firewall (CLAUDE.md Part 12); the source enumerates samples only as numbered units in its bar charts."
+sample_population: "Thirty hydroalcoholic gel (alcohol-based hand sanitizer) samples produced in Côte d'Ivoire and chosen from the high-consumption brands identified through interviews with cosmetics sellers. Samples were collected at random from supermarkets across the district of Abidjan between 03 and 12 March 2020. Brand identities and per-sample brand attribution are not reproduced here under the wiki brand firewall; the source enumerates samples only as numbered units in its bar charts."
 sampling_locations: ["Abidjan", "Côte d'Ivoire"]
 sampling_year_range: "March 2020 (sample collection)"
 updated: 2026-06-02
 ---
 
 # Gnonsoro et al. 2021 — Heavy metals (Pb, Cd, Hg) in hydroalcoholic gels of Abidjan, Côte d'Ivoire
+
+## Overview
 
 Gnonsoro and colleagues at LANADA (Laboratoire National d'Appui au Développement Agricole) and Université Félix Houphouët Boigny measured lead, cadmium, and total mercury in 30 hydroalcoholic gels (alcohol-based hand sanitizers) collected from supermarkets in Abidjan during the first weeks of the COVID-19 pandemic in March 2020. The paper reports per-sample bar charts and pooled mean ± SD with min/max for each metal, then calculates dermal chronic daily intake (CDI), hazard quotients (HQ), hazard index (HI), and incremental lifetime cancer risk (ILCR) using standard US-EPA dermal-exposure equations parameterised for an adult (70 kg body weight, 420 cm² hand surface area, 350 days/year for 30 years). All three metals were quantifiable in most samples but all sample concentrations fell below the Health Canada cosmetic-skin limits for Pb (10 mg/kg) and Cd (3.0 mg/kg) and below the US FDA Pb-as-impurity-in-colour-additives limit (20 mg/kg); no jurisdiction-specific limit was cited for Hg in this product class. The hazard index (∑HQ) was 7.10×10⁻⁵ — three orders of magnitude below the unit threshold — and the cumulative ILCR for Pb plus Cd was 3.07×10⁻⁸, two orders of magnitude below the 10⁻⁶ insignificance floor. The authors report the per-analyte contribution to non-carcinogenic health risk in the order mercury > cadmium > lead, with mercury the dominant driver in the Kp set used (0.001 cm/h for Cd and Hg vs 0.0001 for Pb).
 
@@ -79,7 +81,7 @@ Source-page typographic note on the HQdermal Pb range: source Table 8 prints "3.
 
 ### Pearson correlation matrix (Source Table 7)
 
-|  | pH | Density | Pb | Cd | Hg |
+| | pH | Density | Pb | Cd | Hg |
 |---|---:|---:|---:|---:|---:|
 | pH | 1.00 | — | — | — | — |
 | Density | 0.10 | 1.00 | — | — | — |
@@ -125,9 +127,9 @@ Microbiome: No microbiome data in this source.
 
 **Year/citation styling:** DOI 10.1007/s12011-021-02822-y was issued in 2021 (received 24 May 2021; accepted 6 July 2021; published online 7 September 2021); the print volume (Biological Trace Element Research vol. 200) carries 2022. Cite-key uses 2021 to match the DOI-issue year, the publication online date, and the Kimi-folder filename; the print-volume year is preserved in the `publication` frontmatter string.
 
-**Brand firewall (CLAUDE.md Part 12, locked 2026-05-17):** The source repeatedly references "high-consumption brands" of hydroalcoholic gels sold in Abidjan supermarkets but does not name individual brand identities for the 30 sampled units; the bar charts (Figures 1 and 2) display sample-number 1–30 without brand attribution. No brand-stripping was needed in writing this page. Methods-section vendor names that ARE preserved per the 2026-05-17 carve-out for scientific reproducibility: Spectra A100 Varian spectrophotometer (Australia); GTA-110 graphite furnace; Milestone Ethos microwave digester; SHIMADZU UW4200H balance (Philippines); Lovibond SensoDirect 150 pH meter (Dortmund, Germany); Merck HNO₃; Normex Pb/Cd standards; Statistica 7.1 (2006). These are not Part 12 violations.
+**Brand firewall (, locked 2026-05-17):** The source repeatedly references "high-consumption brands" of hydroalcoholic gels sold in Abidjan supermarkets but does not name individual brand identities for the 30 sampled units; the bar charts (Figures 1 and 2) display sample-number 1–30 without brand attribution. No brand-stripping was needed in writing this page. Methods-section vendor names that ARE preserved per the 2026-05-17 carve-out for scientific reproducibility: Spectra A100 Varian spectrophotometer (Australia); GTA-110 graphite furnace; Milestone Ethos microwave digester; SHIMADZU UW4200H balance (Philippines); Lovibond SensoDirect 150 pH meter (Dortmund, Germany); Merck HNO₃; Normex Pb/Cd standards; Statistica 7.1 (2006). These are not Part 12 violations.
 
-**Wiki/HMTc firewall (CLAUDE.md Part 2):** The source itself draws comparative conclusions against Health Canada and US FDA cosmetic limits and against other countries' shower-gel literature (Nigeria Iwegbue et al. 2016, Korea Duck et al. 2018). Those source-internal comparisons are preserved as the paper's own framing; this page does not synthesise across other wiki sources or propose HMTc thresholds. The Implications section names Hg-speciation as a future-certification requirement but does not quantify it.
+**Wiki/HMTc firewall:** The source itself draws comparative conclusions against Health Canada and US FDA cosmetic limits and against other countries' shower-gel literature (Nigeria Iwegbue et al. 2016, Korea Duck et al. 2018). Those source-internal comparisons are preserved as the paper's own framing; this page does not synthesise across other wiki sources or propose HMTc thresholds. The Implications section names Hg-speciation as a future-certification requirement but does not quantify it.
 
 **Audit-trail note:** This is a fresh ingest (NEW path) from the Kimi corruption-issue folder `household_papers/01_AP_Countertop_Tile_Floor/`. PDF content was first-pages-verified against the filename promise before frontmatter was committed (PDF title and authors match the Gnonsoro 2021 Côte d'Ivoire hydroalcoholic-gels paper as named; this slot does NOT have the filename/content corruption flagged in two earlier Basketter slots in the same subfolder per `data/evidence/autonomy/manual-fetch-stops-2026-06-02.md`).
 
@@ -150,15 +152,15 @@ Microbiome: No microbiome data in this source.
 - [[metals/mercury-total]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [130d229](https://github.com/paleofoundation/heavymetalindex/commit/130d229) | 2026-06-02 | ingest: gnonsoro2021-hydroalcoholic-gels-abidjan fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

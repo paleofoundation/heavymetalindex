@@ -11,10 +11,19 @@ import { concatenateResources } from "../util/resources"
 
 interface Options {
   layout: "modern" | "legacy"
+  // "left" places the modern TOC in the left sidebar as the per-page
+  // section-nav (DECISIONS: section-nav above the Explorer). It reuses the
+  // modern markup/script verbatim — only an extra wrapper class + a left-rail
+  // title are added — so the scroll-spy (a[data-for] / .in-view) keeps working.
+  position?: "right" | "left"
+  // Heading shown above the entries. Defaults to the i18n TOC title; the left
+  // section-nav overrides it to "On this page".
+  title?: string
 }
 
 const defaultOptions: Options = {
   layout: "modern",
+  position: "right",
 }
 
 // Product-category TOC display map.
@@ -55,6 +64,7 @@ const productTocLabels = new Map([
 let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
+  const position = opts?.position ?? defaultOptions.position
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
   const TableOfContents: QuartzComponent = ({
     fileData,
@@ -78,15 +88,69 @@ export default ((opts?: Partial<Options>) => {
 
     if (tocEntries.length === 0) return null
 
+    // Left section-nav (Examine-style accordion): top-level sections shown,
+    // their sub-sections nested and hidden, revealed for the active section via
+    // CSS :has(.in-view). Short and curated — no scroll, no OverflowList.
+    if (position === "left") {
+      // Apparatus sections (Sources / Page history) are reached via the page
+      // foot and the utility links, not the section nav — drop them so the nav
+      // stays a curated reading map.
+      let entries = tocEntries.filter((e) => !/^(sources|references|page history|update history)$/i.test((e.text ?? "").trim()))
+      if (entries.length === 0) entries = tocEntries
+      const minD = Math.min(...entries.map((e) => e.depth))
+      const topCount = entries.filter((e) => e.depth === minD).length
+      if (topCount === 1 && entries.length > 1) {
+        // Drop the lone leading page-title entry so H2s become the sections.
+        entries = entries.filter((e) => e.depth > minD)
+      }
+      const sectionD = entries.length ? Math.min(...entries.map((e) => e.depth)) : 0
+      const sections: any[] = []
+      for (const e of entries) {
+        if (e.depth === sectionD || sections.length === 0) {
+          sections.push({ slug: e.slug, text: e.text, children: [] as any[] })
+        } else {
+          sections[sections.length - 1].children.push(e)
+        }
+      }
+      const leftTitle = opts?.title ?? "On this page"
+      return (
+        <nav class={classNames(displayClass, "toc toc-left")} aria-label={leftTitle}>
+          <div class="toc-left-title">{leftTitle}</div>
+          <ul class="toc-tree">
+            {sections.map((s) => (
+              <li class={s.children.length ? "toc-section has-sub" : "toc-section"}>
+                <a class="toc-section-link" href={`#${s.slug}`} data-for={s.slug}>
+                  {s.text}
+                </a>
+                {s.children.length > 0 ? (
+                  <ul class="toc-subsections">
+                    {s.children.map((c: any) => (
+                      <li>
+                        <a href={`#${c.slug}`} data-for={c.slug}>
+                          {c.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+
     const id = `toc-${numTocs++}`
+    const tocTitle =
+      opts?.title ?? (position === "left" ? "On this page" : i18n(cfg.locale).components.tableOfContents.title)
     return (
-      <div class={classNames(displayClass, "toc")}>
+      <div class={classNames(displayClass, position === "left" ? "toc toc-left" : "toc")}>
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}
           aria-expanded={!fileData.collapseToc}
         >
-          <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+          <h3>{tocTitle}</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Bassioni et al. 2012 — Aluminum leaching from foil and pans into acidic meat-cooking solutions, UAE
 
+## Overview
+
 The authors quantified aluminum migration from aluminum foil into six controlled cooking-solution recipes built on a 40% minced-beef extract base, with tomato juice, citric acid, salt, apple vinegar, and spices used as acidifying and seasoning vehicles. Foil and pan contact was tested in three modes: liquid-phase immersion at boiling temperature for 2 hours, vapor-phase exposure above boiling solution for 2 hours, and oven baking at 185°C for 1.5 hours in an aluminum pan covered with aluminum foil. Aluminum mass loss was determined gravimetrically (weight-loss corrosion-rate measurement); the surface morphology of the foil before and after contact was imaged by environmental scanning electron microscopy (ESEM) with energy-dispersive X-ray; and aluminum content of the contacted solutions was determined by ICP-MS for two recipe variants. The work is small (single laboratory, two replicates per condition, no compositional characterisation of the foil alloy, only two ICP-MS values reported) and the gravimetric "intake" figures depend on a per-meal extrapolation chain (per-person serving derived as one-third of the dish weight) that the wiki preserves but flags. It is included as evidence on the food-contact-materials route because the magnitudes are large and consistent with the broader foil-leaching literature.
 
 ## Key numbers
@@ -86,15 +88,15 @@ App: The aluminum contamination_profile cell for the foils/wraps product row and
 - Audit subagent (2026-06-02, general-purpose fresh context) verdict REVISE; 0 ❌ findings, 3 ⚠️ concerns. Applied: (1) the "~9× the TDI" wiki-derived multiplier for Solution (5) 537.2 mg/person was wiki arithmetic the source did not perform — replaced with the source's own published characterisation of Solution (4) 465 mg/person as a seven-day-equivalent meal (§3.1, p. 4504) and a note that the 537.2 figure is the largest in the dataset without a source-stated TDI comparison; (2) `baked-food` matrices label flagged as not in the formal snapshot — verified as corpus convention via Dordevic 2019 precedent and documented above; (3) "higher-tier complement" phrasing in §Implications approached a tier-ranking synthesis claim — neutralised to a methodology-descriptive cross-reference. Zero findings rejected.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

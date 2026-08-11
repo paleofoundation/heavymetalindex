@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Juskowiak 2008 — Synthesis, screening, and sequencing of cysteine-rich OBOC peptide libraries
 
+## Overview
+
 Juskowiak, McGee, Greaves, and Van Vranken at UC Irvine reported the first method for synthesizing, screening, and sequencing one-bead one-compound (OBOC) peptide libraries that incorporate cysteine at variable positions. The paper is a synthetic and analytical chemistry methodology study: it solves three coupled bench problems that had previously kept cysteine out of OBOC libraries — tritylcysteine aggregation during Fmoc solid-phase synthesis, side-product formation during cyanogen bromide cleavage of cysteine-rich peptides from TentaGel beads, and direct MS/MS sequencing of cleaved cysteine-rich peptides from single 130 µm beads. Validation used the biarsenical fluorophore FlAsH·EDT2 to retrieve beads bearing the known tetracysteine binding motif CCXXCC. The motivation cited for the work spans tetracysteine tags for live-cell fluorescence imaging, environmental remediation and phytoremediation of cadmium and mercury via cysteine-rich peptide ligands, and cysteine-rich pharmaceuticals; the experimental work itself does not measure cadmium, mercury, lead, or any other HMI-tracked heavy metal in any food, personal-care, or environmental matrix. The paper enters the HMI corpus as upstream methodology context for the bioremediation-peptide and metal-chelating-peptide literature already represented in the same Kimi peptide folder ([[luo2024-peptides-heavy-metal-remediation]], [[lu2022-metal-chelating-peptides-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[shalev2022-peptide-metal-nmr-review]], [[han2025-peptide-zinc-complexation-aquatic-review]], [[urbina2018-biomining-peptide-metal-recovery]], [[spallacci2025-bioinformatics-biomimetic-metal-peptide]]).
 
 ## Key numbers
@@ -83,12 +85,15 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
 - Audit subagent (2026-06-08) flagged internal inconsistency between the `sample_population` frontmatter blob ("2 mM tris-carboxyethylphosphine") and the Key numbers table (2.6 mM). The paper itself is internally inconsistent — main text page 3 says "tris-carboxyethylphosphine (2 mM)" while Experimental Section page 5 says "2.6 mM tris-carboxyethylphosphine·HCl". The Experimental Section is the authoritative protocol value; the frontmatter blob has been aligned to 2.6 mM with a parenthetical note about the paper's main-text rounding. All other audit checks (numerical fidelity, slug vocabulary, methods, brand firewall, wiki/HMTc firewall) passed with no findings to apply. Subagent verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f81f4b8](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b8) | 2026-06-08 | audit: juskowiak2008-cysteine-rich-oboc-peptide-libraries promoted |
-| [f35ea13](https://github.com/paleofoundation/heavymetalindex/commit/f35ea13) | 2026-06-08 | ingest: juskowiak2008-cysteine-rich-oboc-peptide-libraries fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

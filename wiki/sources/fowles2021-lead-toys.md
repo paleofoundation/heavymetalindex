@@ -11,7 +11,7 @@ no_doi_assigned: true
 access_url: null
 source_type: regulatory
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13, A-tier covers government reports (FDA, EFSA, EPA, WHO, Codex) and national-agency authoritative risk assessments. The Institute of Environmental Science and Research (ESR) is a New Zealand Crown Research Institute; this report is a numbered ESR Client Report (FW21014) commissioned by the NZ Ministry of Health, peer-reviewed internally by Peter Cressey, and authored by Jeff Fowles (Tox-Logic). The report functions as the NZ Ministry of Health's risk-assessment basis for evaluating the existing 90 mg Pb/kg migration limit for children's toys under the NZ Unsafe Goods (Lead in Children's Toys) Indefinite Prohibition Notice 2009 and parallels the BfR 2009 Opinion on the same question in scope and regulatory standing."
+tier_rationale: "A-tier covers government reports (FDA, EFSA, EPA, WHO, Codex) and national-agency authoritative risk assessments. The Institute of Environmental Science and Research (ESR) is a New Zealand Crown Research Institute; this report is a numbered ESR Client Report (FW21014) commissioned by the NZ Ministry of Health, peer-reviewed internally by Peter Cressey, and authored by Jeff Fowles (Tox-Logic). The report functions as the NZ Ministry of Health's risk-assessment basis for evaluating the existing 90 mg Pb/kg migration limit for children's toys under the NZ Unsafe Goods (Lead in Children's Toys) Indefinite Prohibition Notice 2009 and parallels the BfR 2009 Opinion on the same question in scope and regulatory standing."
 license: "public-domain (NZ Crown Research Institute report commissioned by NZ Ministry of Health)"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/05_2021_FW21014-Lead-in-Toys-FINAL-30-June-2021.pdf"
 raw_sha256: 1fe5ef5ec35e5b7d8a54975f2d961a85f8a4dbc2bcadb94d276e8ae9dbda1044
@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Fowles 2021 — Health risk assessment: Lead in children's toys (ESR Client Report FW21014)
 
+## Overview
+
 This Institute of Environmental Science and Research (ESR) Client Report FW21014, prepared by Jeff Fowles for the New Zealand Ministry of Health in May 2021 and peer-reviewed by Peter Cressey, is a generic toxicological risk assessment of children's exposure to lead (Pb) from toys containing Pb at or above the New Zealand allowable migration limit of 90 mg Pb/kg. The report contextualises Pb-from-toys against background environmental Pb exposures (diet, drinking-water, soils/dust, air), reviews international regulatory limits for Pb in children's products, and computes three explicit exposure scenarios for a 2-3 year old child. The principal finding is that a toy at the 90 mg Pb/kg allowable limit, under a swallowing scenario, can deliver a Pb dose of 27 µg/day — by itself roughly equal to the daily Pb dose that would result in a 5 µg/dL (0.24 µmol/L) blood Pb level in young children, the recently lowered NZ and US notification level — so non-compliant toys remain a significant individual-child hazard even though Pb in toys is not a population-wide concern.
 
 ## Key numbers
@@ -40,8 +42,8 @@ This Institute of Environmental Science and Research (ESR) Client Report FW21014
 - **US CDC blood Pb reference level (2012):** 5 µg/dL, set at the 97.5th percentile of the blood Pb distribution in US children aged 1-5 years in the NHANES database (CDC 2012; p. 2).
 - **US CDC potential future reference level:** 3.5 µg/dL "under consideration" at the time of the report (Zartarian et al. 2017; p. 3).
 - **Blood Pb notification levels — international (Table 1, p. 4):**
-  - New Zealand, Australia, USA: 0.24 µmol/L (5 µg/dL)
-  - UK, Canada: 0.48 µmol/L (10 µg/dL)
+ - New Zealand, Australia, USA: 0.24 µmol/L (5 µg/dL)
+ - UK, Canada: 0.48 µmol/L (10 µg/dL)
 - **NZ biomonitoring blood Pb (2014-2016, 't Mannetje et al. 2020):** geometric mean 0.86 µg/dL in 191 NZ children aged 5-18 years (p. 2).
 - **US NHANES blood Pb (2015-2016):** geometric mean 0.758 µg/dL (ages 1-5), 0.57 µg/dL (ages 6-11) (p. 2, Figure 1).
 - **NZ population blood Pb trend:** ~90% reduction since the 1970s, attributed primarily to removal of Pb from petrol and soldered tin cans ('t Mannetje et al. 2020; p. 2).
@@ -113,15 +115,15 @@ This Institute of Environmental Science and Research (ESR) Client Report FW21014
 ### Three exposure scenarios — calculated daily Pb dose (2-3 year old child)
 
 - **Scenario 1 — touching/mouthing a 10 cm² surface of a 10 g toy at the 90 mg/kg NZ allowable limit (Section 5, p. 14):**
-  - Object-to-mouth: 90 µg Pb/g × 10 g toy × 0.01 BA × 0.24 TE × 10 events/day × 0.30 Abs = **6.5 µg Pb/day**.
-  - Hand-to-mouth: 90 µg Pb/g × 10 g toy × 0.01 BA × 0.24 TE × 20 events/day × 0.30 Abs = **13 µg Pb/day**.
+ - Object-to-mouth: 90 µg Pb/g × 10 g toy × 0.01 BA × 0.24 TE × 10 events/day × 0.30 Abs = **6.5 µg Pb/day**.
+ - Hand-to-mouth: 90 µg Pb/g × 10 g toy × 0.01 BA × 0.24 TE × 20 events/day × 0.30 Abs = **13 µg Pb/day**.
 - **Scenario 2 — mouthing/handling a non-compliant toy yielding 0.7 µg Pb/contact (CPSC 1997 dislodgeable Pb measurement; Section 5, p. 14):**
-  - Object-to-mouth: 0.7 µg Pb × 10 events/day × 0.30 Abs = 2 µg Pb/day.
-  - Hand-to-mouth: 0.7 µg Pb × 20 events/day × 0.30 Abs = 4 µg Pb/day.
-  - Total Scenario 2: **6 µg Pb/day**.
+ - Object-to-mouth: 0.7 µg Pb × 10 events/day × 0.30 Abs = 2 µg Pb/day.
+ - Hand-to-mouth: 0.7 µg Pb × 20 events/day × 0.30 Abs = 4 µg Pb/day.
+ - Total Scenario 2: **6 µg Pb/day**.
 - **Scenario 3 — swallowing 1 g of a non-compliant toy at the 90 mg/kg NZ allowable limit (Section 5, p. 14):**
-  - Total Pb in 1 g toy = 90 mg Pb/kg × 0.001 kg = 0.09 mg = 90 µg Pb.
-  - Exposure: 90 µg Pb/day × 0.30 oral bioavailability = **27 µg Pb/day**.
+ - Total Pb in 1 g toy = 90 mg Pb/kg × 0.001 kg = 0.09 mg = 90 µg Pb.
+ - Exposure: 90 µg Pb/day × 0.30 oral bioavailability = **27 µg Pb/day**.
 - The report explicitly notes that the scenarios estimate "rare events and short-term timeframes," not typical or long-term exposures (p. 14).
 
 ### Estimated daily Pb exposures in context (Table 3, p. 15)
@@ -172,10 +174,10 @@ This is a generic toxicological risk-assessment report; no primary analytical wo
 - **Source-type rationale.** `source_type: regulatory`: matches the existing handling of national-agency risk-assessment reports and staff reports in the corpus. The report is the agency-commissioned scientific advice underpinning the NZ Ministry of Health's evaluation of whether the existing 90 mg Pb/kg migration limit for children's toys remains defensible in light of the 2021 lowering of the blood-Pb notification level to 5 µg/dL.
 - **License rationale.** `public-domain`: ESR Client Reports commissioned by the NZ Ministry of Health are NZ Crown Research Institute publications made available on the Ministry's request without licensing restriction; treated as public-domain in the corpus consistent with the analogous BfR and CPSC handling.
 - **Frontmatter `products:` field.** Three slugs selected from the 2026-05-18 taxonomy snapshot that best match the report's scope:
-  - `toys-painted` — paints, varnishes, and coatings on toys are explicitly identified as the primary release pathway in Section 3.5 ("Some painted or coated toys, including such things as toy jewelry, manufactured often in China, can present a significant Pb exposure risk", p. 9) and are the focus of the US CPSC 90 ppm coating limit and the NZ 90 mg/kg migration limit;
-  - `toys-substrate-materials` — substrate materials of toys releasing Pb under the swallowing scenario (Scenario 3, p. 14) and addressed by the US CPSIA 100 ppm total Pb content limit (p. 11) and the EU 2009/48/EC scraped-off material limit (p. 11);
-  - `pacifiers-and-sucking-teething-aids` — Section 5 Exposure Scenarios explicitly addresses mouthing as a release pathway with transfer-efficiency parameters from Sahmel et al. (2015) and CalEPA (2011) and uses hand-to-mouth and object-to-mouth event frequencies from Cressey and Horn (2016); this is the mouthing pathway central to pacifiers and teething aids.
-  - The report is broadly about all toys covered by the NZ Unsafe Goods Notice and the US/EU/CA/AU regulatory equivalents, not a specific toy form. Per the Phase 1 broad-scope rule, slugs are not over-narrowed to specific sub-categories of toys (toys-balls, toys-rattles, toys-squeeze, etc.) that the report does not separately analyse. Matches the broad-scope handling of the sibling `bfr2009-lead-cadmium-toys` and `cpsc1997-pvc-children-products` regulatory sources.
+ - `toys-painted` — paints, varnishes, and coatings on toys are explicitly identified as the primary release pathway in Section 3.5 ("Some painted or coated toys, including such things as toy jewelry, manufactured often in China, can present a significant Pb exposure risk", p. 9) and are the focus of the US CPSC 90 ppm coating limit and the NZ 90 mg/kg migration limit;
+ - `toys-substrate-materials` — substrate materials of toys releasing Pb under the swallowing scenario (Scenario 3, p. 14) and addressed by the US CPSIA 100 ppm total Pb content limit (p. 11) and the EU 2009/48/EC scraped-off material limit (p. 11);
+ - `pacifiers-and-sucking-teething-aids` — Section 5 Exposure Scenarios explicitly addresses mouthing as a release pathway with transfer-efficiency parameters from Sahmel et al. (2015) and CalEPA (2011) and uses hand-to-mouth and object-to-mouth event frequencies from Cressey and Horn (2016); this is the mouthing pathway central to pacifiers and teething aids.
+ - The report is broadly about all toys covered by the NZ Unsafe Goods Notice and the US/EU/CA/AU regulatory equivalents, not a specific toy form. Per the Phase 1 broad-scope rule, slugs are not over-narrowed to specific sub-categories of toys (toys-balls, toys-rattles, toys-squeeze, etc.) that the report does not separately analyse. Matches the broad-scope handling of the sibling `bfr2009-lead-cadmium-toys` and `cpsc1997-pvc-children-products` regulatory sources.
 - **Frontmatter `ingredients: []`** is correct — the report is a children's-product consumer-product risk assessment; no food ingredients are involved. Dietary Pb intake is referenced as a comparison baseline (background environmental Pb exposures against which the toy contribution is measured), but no specific food commodity is in scope.
 - **Frontmatter `matrices: []`** is correct — no primary measurements are reported in any food or biological matrix. The report synthesises external dietary-intake (NZ TDS, Spungen 2019), drinking-water (NZ MAV; Cressey and Horn 2016), house-dust (Kim and Fergusson 1993; Doyi et al. 2019; Gulson et al. 2018), and biomonitoring blood-Pb data (NHANES; 't Mannetje et al. 2020), but reports no new matrix measurements. Matches the matrices-empty handling of the sibling regulatory sources `bfr2009-lead-cadmium-toys` and `cpsc1997-pvc-children-products`.
 - **Frontmatter `metals: [Pb]`** is correct — the report addresses lead only. No other metals are within scope; cadmium, mercury, arsenic, antimony etc. are not discussed. No speciation question arises: the report reports dietary, drinking-water, blood-Pb, and toy-migration values in total elemental Pb, consistent with how the upstream reference values (JECFA, EFSA, FDA IRL, blood Pb notification levels) are expressed.
@@ -188,20 +190,20 @@ This is a generic toxicological risk-assessment report; no primary analytical wo
 - **Near-duplicates.** None identified. The report is a stand-alone ESR Client Report. Sibling regulatory sources in the corpus that address the same regulatory question (Pb in children's toys, EU/national-agency view) are `bfr2009-lead-cadmium-toys` (German BfR Opinion No. 048/2009) and `cpsc1997-pvc-children-products` (US CPSC staff report on Pb/Cd in PVC children's products). Fowles 2021 cites both indirectly via CPSC 1997, Schmidt 2008, and the Greenpeace/Di Gangi 1997 PVC-toy report. Not a near-duplicate of either; the three sources address the same regulatory question from three different national-agency perspectives and time periods.
 - **Raw integrity.** raw_sha256 = 1fe5ef5ec35e5b7d8a54975f2d961a85f8a4dbc2bcadb94d276e8ae9dbda1044 verified by `shasum -a 256` against the file at `raw_path`.
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict PROMOTE with one ⚠️ in Check 5 (Part 2 wiki/HMTc firewall) and source-internal-consistency advisories in Check 1 (not wiki defects). The Check 5 ⚠️ finding was verified against source and applied:
-  - Check 5 ⚠️ "HMTc audit implications" bullet cross-referenced sibling cite-keys ("alongside the BfR 2009 Opinion (`bfr2009-lead-cadmium-toys`) and the CPSC 1997 PVC staff report (`cpsc1997-pvc-children-products`)") — the "alongside" clause is structurally a forward cross-source synthesis statement pre-bundling this report with sibling literature as a triangulation set, matching the failure mode the audit prompt Check 5 calls out ("synthesis claims that compare this paper to other literature"). Sibling source page `bfr2009-lead-cadmium-toys` does not cross-reference sibling source pages by cite-key in its corresponding Implications bullet; consistency favors keeping each source page strictly about what THAT source contributes, leaving cross-source triangulation to the Part 9 synthesis pass. The "alongside…" clause was removed; the bullet now reports what this report contributes to threshold-setting governance without naming sibling literature.
-  - Check 1 (numerical fidelity) returned ⚠️ on two source-internal inconsistencies in the PDF itself — (i) Sahmel et al. cited as "2015" in the in-text paragraph p. 13 but "2016" in the in-box equations p. 13-14; (ii) ECHA 2013 release-rate criterion stated as "0.05 µg/cm² per hour (0.05 µg/g per hour)" with apparent unit-disagreement between cm² and g in the source itself. The wiki page faithfully reproduces the source's exact wording in both cases; not wiki defects.
-  - Checks 2 (slug vocabulary), 3 (speciation and methods — Pb-only, total elemental, no speciation question), 4 (Part 12 brand firewall — Barbie™ phone cord and Trade Aid 2017 NZ recall both anchored under Exception 1 regulatory-event subject) all returned ✅ clean.
+ - Check 5 ⚠️ "HMTc audit implications" bullet cross-referenced sibling cite-keys ("alongside the BfR 2009 Opinion (`bfr2009-lead-cadmium-toys`) and the CPSC 1997 PVC staff report (`cpsc1997-pvc-children-products`)") — the "alongside" clause is structurally a forward cross-source synthesis statement pre-bundling this report with sibling literature as a triangulation set, matching the failure mode the audit prompt Check 5 calls out ("synthesis claims that compare this paper to other literature"). Sibling source page `bfr2009-lead-cadmium-toys` does not cross-reference sibling source pages by cite-key in its corresponding Implications bullet; consistency favors keeping each source page strictly about what THAT source contributes, leaving cross-source triangulation to the Part 9 synthesis pass. The "alongside…" clause was removed; the bullet now reports what this report contributes to threshold-setting governance without naming sibling literature.
+ - Check 1 (numerical fidelity) returned ⚠️ on two source-internal inconsistencies in the PDF itself — (i) Sahmel et al. cited as "2015" in the in-text paragraph p. 13 but "2016" in the in-box equations p. 13-14; (ii) ECHA 2013 release-rate criterion stated as "0.05 µg/cm² per hour (0.05 µg/g per hour)" with apparent unit-disagreement between cm² and g in the source itself. The wiki page faithfully reproduces the source's exact wording in both cases; not wiki defects.
+ - Checks 2 (slug vocabulary), 3 (speciation and methods — Pb-only, total elemental, no speciation question), 4 (Part 12 brand firewall — Barbie™ phone cord and Trade Aid 2017 NZ recall both anchored under Exception 1 regulatory-event subject) all returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

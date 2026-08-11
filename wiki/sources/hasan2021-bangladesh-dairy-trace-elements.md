@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Hasan and Khanam 2021 — Trace elements in Bangladeshi cheese, ghee, and butter
 
+## Overview
+
 This nationwide Bangladesh dairy survey reports concentrations of eight metals (Fe, Cu, Mn, Zn, Pb, Cd, Cr, total As) in cheese, ghee, and locally processed butter purchased from local shops across 64 administrative districts. Analysis is by flame atomic absorption spectrophotometry (AAS) on a Thermo Scientific iCE-3000, with microwave digestion in HNO₃/H₂O₂. The paper applies the standard EPA-based EDI / THQ / TTHQ / TCR risk framework for the adult population (60 kg BW), using the BBS 2011 Household Income and Expenditure Survey to set daily intake rates (cheese 14.053 mg/day, ghee 786.965 mg/day, butter 14.053 mg/day as stated by the authors).
 
 The headline finding is that for cheese and butter all THQ and TTHQ values fall below 1 and TCR values for As, Pb, and Cd fall below 10⁻⁶, indicating negligible non-carcinogenic and carcinogenic risk at typical Bangladeshi adult consumption. For ghee, however, the TTHQ reaches 1.247 — above the threshold of concern — driven primarily by Cu, tAs, and Cd contributions in the much higher daily-intake matrix; the authors note this implies a potential adverse-health-effect signal for ghee specifically. Carcinogenic risk (TCR) for ghee remains within the conventionally acceptable 10⁻⁶ to 10⁻⁴ range for As and below 10⁻⁶ for Pb.
@@ -148,15 +150,15 @@ App: Supports flagging ghee as a higher-cumulative-exposure dairy matrix for Pb,
 - [[metals/chromium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

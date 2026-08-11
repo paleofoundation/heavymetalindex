@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Hossain et al. 2024 - cadmium uptake in salt-tolerant rice genotypes
 
+## Overview
+
 Hossain and coauthors tested how soil pH and organic matter affected cadmium accumulation in rice grains grown in Cd-contaminated soil. This is controlled pot-experiment evidence for rice Cd drivers, not edible-salt occurrence evidence. The source is most useful for mitigation and source-apportionment logic because it links grain Cd to soil pH, organic matter, genotype, and soil-bioavailable Cd.
 
 ## Key numbers
@@ -98,15 +100,15 @@ App: Should not directly set consumer rice occurrence values, but can inform sou
 The fetched filename placed the paper in a salt Cd queue because "salt tolerant rice" appeared in the title. The actual matrix is rice grain from a controlled pot experiment, not edible salt; routing should ignore the salt cue from the filename. The `sample_n: 36` frontmatter value represents the 4 varieties × 3 pH × 3 OM = 36 unique treatment cells; the paper ran two separate factorial experiments (pH series and OM series), each replicated in triplicate, so total pot count is higher. BRRI 28, BRRI 47, BRRI 67, and Heera are rice cultivar/genotype identifiers (Bangladesh Rice Research Institute lines and a private hybrid), not consumer brands, and are retained per the scientific-method exception to Part 12.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [421849435](https://github.com/paleofoundation/heavymetalindex/commit/421849435) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

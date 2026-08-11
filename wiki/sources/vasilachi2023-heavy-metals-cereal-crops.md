@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This 50-page narrative review published in Agriculture (MDPI, 2023) synthesises the literature on how heavy metals in contaminated soils affect cereal crop physiology, growth, and grain food safety. The authors (from Iași, Romania) cover four interlocking themes: visible phytotoxicity (chlorosis, stunted growth, necrosis, leaf deformities, water stress); the mechanisms behind those symptoms (enzyme disruption, reactive-oxygen-species generation, membrane integrity loss, nutrient imbalances); soil and environmental factors that modulate metal toxicity (pH, organic matter, soil texture, temperature, humidity); and the defence machinery cereals deploy in response (metal transporters, sequestration, chelation by phytochelatins and metallothioneins, enhanced efflux, mycorrhizal symbiosis, plant growth-promoting bacteria). The paper is plant-science and agronomy-oriented — it does not report measured concentrations in harvested grain from real food supply chains, and it presents no occurrence tables for ppb values in cereal products. Its value to this wiki is mechanistic: it explains *why* soil-to-grain transfer varies with pH, organic matter, cultivar, and metal speciation, and which agronomic levers (liming, organic amendments, biochar, crop rotation, low-Cd cultivars, mycorrhizal inoculation) reduce that transfer.
 
 ## Key numbers
@@ -35,9 +37,9 @@ The paper is primarily mechanistic and reviews prior literature; it presents no 
 
 - **Soil pH cut-off for Cd mobility.** In highly acidic soils with a pH below 5, the solubility of cadmium increases significantly, leading to elevated Cd in the soil solution and greater uptake by cereal crops. In soils with pH above 7, Ni, Cd, and Zn are more likely to form less soluble compounds. The optimal pH range for cereal growth and moderate metal bioavailability is given as 6–7. No specific solubility multiplier is reported.
 - **PGPB biosorption examples (legume-focused, cited for context, not direct cereal grain numbers).**
-  - *Pseudomonas* Y3-B1A (rhamnolipid-producing): 85.5% vanadium removal efficiency reported for contaminated sediment.
-  - *Bacillus subtilis*: biosorption capacity equivalent to Cd²⁺ solutions of 10–20 mg L⁻¹.
-  - *Mesorhizobium* sp. RC3 + chickpea (*Cicer arietinum*) in Cr-amended soil: vs uninoculated controls — 71% increase in dry matter, 86% increase in nodule number, 36% increase in seed yield, 16% increase in grain protein, 46% / 40% increase in root / shoot N, reaching 136 mg Cr/kg.
+ - *Pseudomonas* Y3-B1A (rhamnolipid-producing): 85.5% vanadium removal efficiency reported for contaminated sediment.
+ - *Bacillus subtilis*: biosorption capacity equivalent to Cd²⁺ solutions of 10–20 mg L⁻¹.
+ - *Mesorhizobium* sp. RC3 + chickpea (*Cicer arietinum*) in Cr-amended soil: vs uninoculated controls — 71% increase in dry matter, 86% increase in nodule number, 36% increase in seed yield, 16% increase in grain protein, 46% / 40% increase in root / shoot N, reaching 136 mg Cr/kg.
 - **Specific cultivar / transporter examples.** "Low-cadmium rice" (*Oryza sativa*) varieties bred for reduced grain Cd accumulation are referenced as an established mitigation route, without ppb figures. ZmHMA3 (maize) facilitates Cd and Zn efflux from root cells; OsHMA2 (rice) prevents Cd entry into xylem vessels, limiting long-distance transport to aerial parts.
 - **No grain ppb values, no soil ppb values, no soil-to-grain transfer coefficients** are reported in the review; readers are referred throughout to the 321 cited primary sources for numerical data.
 
@@ -63,7 +65,7 @@ Narrative literature review. No primary measurements, no analytical methods, no 
 - "Mycorrhizal inoculation cited as reducing Cd uptake by 20–60% in controlled experiments on wheat and barley" — *not in source.* The paper describes mycorrhizal sequestration and pH-modulation mechanisms qualitatively (section 6.7, pp. 32–33) without giving the 20–60% range or naming the wheat/barley experiments.
 - "Root barrier formation (Casparian strip apoplastic barriers) limits Pb and Cd translocation to shoots in excluder-type cereals" — *partially invented.* The paper mentions "root barrier formation" in the abstract but does not name the Casparian strip mechanism specifically nor invoke "excluder-type cereals" as a term.
 
-All five invented claims have been removed. Replaced with the actual quantitative content the paper does carry (PGPB biosorption examples, pH cut-offs, specific transporter examples). Frontmatter normalised: raw_handle corrected from `papers-cube` to `PCMF_article-1-copy-7` per the PCMF folder convention; `access_url` and `raw_sha256` added; matrices tightened from `soil` to `agricultural-soil`; metal list extended to include MeHg (the paper specifically calls out methylmercury formation in waterlogged paddy soils, p. 7). The pre-existing "Wiki pages updated on ingest" footer was removed because two of its four listed targets (`supply-chain/soil-contamination`, `mitigation/agronomic-levers`) do not exist as wiki pages and were speculative routing claims; downstream routing is now the system's responsibility per CLAUDE.md Part 5b.
+All five invented claims have been removed. Replaced with the actual quantitative content the paper does carry (PGPB biosorption examples, pH cut-offs, specific transporter examples). Frontmatter normalised: raw_handle corrected from `papers-cube` to `PCMF_article-1-copy-7` per the PCMF folder convention; `access_url` and `raw_sha256` added; matrices tightened from `soil` to `agricultural-soil`; metal list extended to include MeHg (the paper specifically calls out methylmercury formation in waterlogged paddy soils, p. 7). The pre-existing "Wiki pages updated on ingest" footer was removed because two of its four listed targets (`supply-chain/soil-contamination`, `mitigation/agronomic-levers`) do not exist as wiki pages and were speculative routing claims; downstream routing is now the system's responsibility.
 
 **Audit application, 2026-05-18.** Fresh-context audit subagent (verdict REVISE, one ⚠️ on slug vocabulary) flagged four points; verified each against the PDF:
 
@@ -73,15 +75,15 @@ All five invented claims have been removed. Replaced with the actual quantitativ
 - ⚠️→rejected as false positive: the audit raised concern that `cereal-grain` and `agricultural-soil` may not be canonical matrices slugs because they do not appear in the taxonomy-snapshot doc. Verified against the actual matrices inventory: both slugs are in widespread use across `wiki/sources/` (the taxonomy snapshot enumerates ingredients/products/metals/regulations but not the matrices vocabulary, which is documented by usage). No change made; flagging here so the snapshot can be expanded if useful.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

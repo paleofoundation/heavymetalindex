@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1139b3bf741478bef95f0520e055d735088665aac4ee34b931bdee27603d156c
+source_page_sha256: 21203d8429c861b0526bd3581cf376fb817c0994ef68703ad7e7321fd7ffc753
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 120
-distinct_cited_sources: 115
-audit_rows_for_page: 1
-audit_rows_for_cited_targets: 62
-audit_log_total_rows: 972
+distinct_cited_targets: 172
+distinct_cited_sources: 167
+audit_rows_for_page: 2
+audit_rows_for_cited_targets: 95
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,15 +32,16 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 116 |
 | cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 120 |
-| distinct cited `sources/` pages | 115 |
-| audit rows on this page | 1 |
-| audit rows on cited target pages | 62 |
-| audit log rows read | 972 |
+| distinct cited targets | 172 |
+| distinct cited `sources/` pages | 167 |
+| audit rows on this page | 2 |
+| audit rows on cited target pages | 95 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=f86d8595-2ab0-4ed7-a35b-f8645720a808` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-30T17:56:01.000Z · span=levers-to-reduce-contamination
+- `edit_id=title-mismatch-doi-2026-08-09-infant-formula-carignan-repoint` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T10:56:03.089Z · span=Processing-water table row — repointed the hand-written citation of Carignan 2015 research data (formula-fed vs breastfed 5.5x iAs EDI; wells to 189 ug/L) from the deleted mis-keyed duplicate [[sources/carignan2015-arsenic-infancy-well-water-breast-milk]] to the canonical research page [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants]] (10.1289/ehp.1408789), which is the correct provenance for that data.
 
 ## Claims by section
 
@@ -52,9 +53,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `97 ppb`
 - Context: `er (direct row-fit) | mean/median 0.2 to 64.2 ppb (6 sources); highest reported 97 ppb | 73% detected (169/230, FDA 2026`
@@ -62,9 +64,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `20 ppb`
 - Context: `26, prepared-for-feeding) | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 6`
@@ -72,9 +75,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `8 ppb`
 - Context: `|Cd]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0.17 to 8 ppb (7 sources); highest reported 12.3`
@@ -82,9 +86,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `12.3 ppb`
 - Context: `wder (direct row-fit) | mean/median 0.17 to 8 ppb (7 sources); highest reported 12.3 ppb | 63% detected (145/230, FDA 20`
@@ -92,9 +97,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `10 ppb`
 - Context: `145/230, FDA 2026, prepared-for-feeding) | [[regulations/eu-2023-915-cadmium]]: 10 ppb (product as placed on market) | 7`
@@ -102,9 +108,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `34 ppb`
 - Context: `|tAs]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0.4 to 34 ppb (3 sources); highest reported 34`
@@ -112,9 +119,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `34 ppb`
 - Context: `wder (direct row-fit) | mean/median 0.4 to 34 ppb (3 sources); highest reported 34 ppb | 92% detected (212/230, FDA 2026`
@@ -122,9 +130,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `7 ppb`
 - Context: `] | non-soy (cow milk-based), powder (summary-only / supporting context) | mean 7 ppb (1 source); highest reported 7 ppb`
@@ -132,9 +141,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `7 ppb`
 - Context: `r (summary-only / supporting context) | mean 7 ppb (1 source); highest reported 7 ppb | Sample-level detection rate not`
@@ -142,9 +152,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `20 ppb`
 - Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 1`
@@ -152,9 +163,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `113 ppb`
 - Context: `l\|tHg]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0 to 113 ppb (2 sources); highest reported 11`
@@ -162,9 +174,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `113 ppb`
 - Context: `owder (direct row-fit) | mean/median 0 to 113 ppb (2 sources); highest reported 113 ppb | 1% detected (3/230, FDA 2026,`
@@ -172,9 +185,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `100 ppb`
 - Context: `] | non-soy (cow milk-based), powder (summary-only / supporting context) | mean 100 ppb (1 source); highest reported 100`
@@ -182,9 +196,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `100 ppb`
 - Context: `(summary-only / supporting context) | mean 100 ppb (1 source); highest reported 100 ppb | Sample-level detection rate no`
@@ -192,9 +207,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `1241 ppb`
 - Context: `luminum\|Al]] | non-soy (cow milk-based), powder (direct row-fit) | mean 177 to 1241 ppb (4 sources); highest reported 1`
@@ -202,9 +218,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `1520 ppb`
 - Context: `), powder (direct row-fit) | mean 177 to 1241 ppb (4 sources); highest reported 1520 ppb | 100% detected (57/57, Dabeka`
@@ -212,9 +229,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `75 ppb`
 - Context: `(cow milk-based), powder (summary-only / supporting context) | highest reported 75 ppb | Sample-level detection rate not`
@@ -222,9 +240,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `95 ppb`
 - Context: `on-soy (cow milk-based), powder (summary-only / supporting context) | mean 7 to 95 ppb (2 sources); highest reported 95`
@@ -232,9 +251,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `95 ppb`
 - Context: `ary-only / supporting context) | mean 7 to 95 ppb (2 sources); highest reported 95 ppb | Sample-level detection rate not`
@@ -242,9 +262,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -254,9 +275,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -266,9 +288,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -278,9 +301,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -290,9 +314,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -302,9 +327,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -314,9 +340,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -326,9 +353,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -338,9 +366,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -350,9 +379,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -362,9 +392,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -374,9 +405,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -390,7 +422,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `5 ppb`
 - Context: `| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-in`
@@ -400,7 +433,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 ### Source Evidence Inventory
 
@@ -409,8 +443,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -420,6 +452,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `5.75 ppb`
@@ -427,8 +461,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -438,6 +470,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `5.75 ppb`
@@ -445,8 +479,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -456,6 +488,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `0.98 ppb`
@@ -463,8 +497,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -474,6 +506,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `3.58 ppb`
@@ -481,8 +515,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -492,6 +524,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `3.58 ppb`
@@ -499,8 +533,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -510,6 +542,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `3.32 ppb`
@@ -517,8 +551,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -528,6 +560,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `7.87 ppb`
@@ -535,8 +569,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -546,6 +578,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `7.87 ppb`
@@ -553,8 +587,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -564,6 +596,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `27.38 ppb`
@@ -571,8 +605,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -582,6 +614,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `83.80 ppb`
@@ -589,8 +623,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -600,6 +632,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `83.80 ppb`
@@ -607,8 +641,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -618,6 +650,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `24 ppb`
@@ -625,8 +659,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -636,6 +668,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `12 ppb`
@@ -643,8 +677,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -654,6 +686,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `33 ppb`
@@ -661,8 +695,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -672,6 +704,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `75 ppb`
@@ -679,8 +713,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -690,6 +722,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `1241 ppb`
@@ -697,8 +731,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -708,6 +740,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `1241 ppb`
@@ -715,8 +749,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -726,6 +758,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `34 ppb`
@@ -733,8 +767,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -744,6 +776,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `34 ppb`
@@ -751,8 +785,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -762,6 +794,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `95 ppb`
@@ -769,8 +803,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -780,6 +812,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `95 ppb`
@@ -787,8 +821,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -798,6 +830,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `1.8 ppb`
@@ -805,8 +839,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -816,6 +848,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `1.8 ppb`
@@ -823,8 +857,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -834,6 +866,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4 ppb`
@@ -841,8 +875,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -852,6 +884,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4 ppb`
@@ -859,8 +893,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -870,6 +902,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4 ppb`
@@ -877,8 +911,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -888,6 +920,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4 ppb`
@@ -895,8 +929,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -906,6 +938,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `54 ppb`
@@ -913,8 +947,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -924,6 +956,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `54 ppb`
@@ -931,8 +965,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -942,6 +974,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `0.6 ppb`
@@ -949,8 +983,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -960,6 +992,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4.3 ppb`
@@ -967,8 +1001,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -978,6 +1010,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4.3 ppb`
@@ -985,8 +1019,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -996,6 +1028,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4.5 ppb`
@@ -1003,8 +1037,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1014,6 +1046,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `4.5 ppb`
@@ -1021,8 +1055,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1032,6 +1064,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `43.9 ppb`
@@ -1039,8 +1073,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1050,6 +1082,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `43.9 ppb`
@@ -1057,8 +1091,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1068,6 +1100,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `12 ppb`
@@ -1075,8 +1109,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1086,6 +1118,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 #### Claim `12 ppb`
@@ -1093,8 +1127,6 @@ This report joins every numerical claim on the page to its citation chain and th
 - Cited targets (7):
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md`
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements.md`
-    - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md`
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
@@ -1104,6 +1136,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md`
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md`
+    - audit rows: none
+  - `wiki/sources/su2020-infant-formula-china-toxic-elements.md`
     - audit rows: none
 
 ### Structured Concentration Rows
@@ -1329,7 +1363,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `41.4 µg/L`
 - Context: `UK prescription infant formulas prepared per manufacturer instructions (low end 41.4 µg/L; high end >1900 µg/L); two ami`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1341,7 +1375,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `1900 µg/L`
 - Context: `t formulas prepared per manufacturer instructions (low end 41.4 µg/L; high end >1900 µg/L); two amino-acid powders at 41`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1353,7 +1387,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `44.4 µg/L`
 - Context: `ns (low end 41.4 µg/L; high end >1900 µg/L); two amino-acid powders at 41.4 and 44.4 µg/L bound the achievable floor, in`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1365,7 +1399,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `0.22 µg/kg`
 - Context: `New Hampshire private-well-water region (n=72) had a median iAs daily intake of 0.22 µg/kg bw/day versus 0.04 µg/kg bw/d`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1377,7 +1411,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `0.04 µg/kg`
 - Context: `l-water region (n=72) had a median iAs daily intake of 0.22 µg/kg bw/day versus 0.04 µg/kg bw/day for breastfed infants,`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1389,7 +1423,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `189 µg/L`
 - Context: `xposure in early infancy, not the formula powder itself." Sampled wells reached 189 µg/L versus the EPA MCL of 10 µg/L.`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1401,7 +1435,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `10 µg/L`
 - Context: `he formula powder itself." Sampled wells reached 189 µg/L versus the EPA MCL of 10 µg/L. | [[sources/carignan2015-arseni`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1413,7 +1447,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `411 µg/L`
 - Context: `| Chuchu 2013 reported prepared-milk Al concentrations of approximately 106 to 411 µg/L across 18 non-soy powdered form`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1425,7 +1459,7 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `756 µg/L`
 - Context: `pproximately 106 to 411 µg/L across 18 non-soy powdered formulas versus 656 and 756 µg/L for two soy-based powders, with`
 - Cited targets (4):
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+  - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md`
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
     - audit rows: none
@@ -1438,9 +1472,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (96):
-  - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
-    - audit rows: none
+- Cited targets (148):
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
@@ -1451,13 +1483,101 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/arsenic2012-arsenic-organic-foods-brown\.md` (page missing)
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-review-nutritional-ecology-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-lead-chambers-of-installations-reddish-sediment-was-obtained\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2020-aluminium-faq-consumer-products\.md` (page missing)
     - audit rows: none
@@ -1469,8 +1589,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
@@ -1479,9 +1597,9 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/chuchu2013-aluminium-in-infant-formulas\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2003-infant-food-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
@@ -1494,6 +1612,10 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/demir2023-infant-formulas-turkey-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dobrzynska2025-milk-formulae-elemental-composition\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
@@ -1515,8 +1637,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/estimated2015-estimated-exposure-arsenic-breastfed\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/eticha2018-infant-formula-metals-mekelle-ethiopia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
@@ -1525,7 +1645,11 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/frisbie2019-manganese-infant-formula-beverages\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsanz2011-23rd-australian-total-diet-study\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gardener2019-pb-cd-us-infant-formula-baby-foods\.md` (page missing)
     - audit rows: none
@@ -1551,13 +1675,19 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
+  - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/kuznetsova2019-milk-infant-formulas-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/largueza2026-milk-formulas-toxic-elements-review\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/ljung2007-manganese-drinking-water-guideline\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lodhi2021-methyl-inorganic-mercury-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/lodico2015-infant-formula-metals\.md` (page missing)
     - audit rows: none
@@ -1567,19 +1697,25 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/martincarrasco2023-breast-milk-infant-formula-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/may2021-journal-of-animal-science-2021-vol-99-no\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/mielech2021-contamination-food-infants-toddlers\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -1589,11 +1725,11 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
     - audit rows: none
   - `wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\.md` (page missing)
     - audit rows: none
@@ -1601,9 +1737,9 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/schmidt2015-arsenic-infancy-commentary\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us\.md` (page missing)
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-infant-arsenic-solid-food\.md` (page missing)
+  - `wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
@@ -1611,15 +1747,17 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/soto-ocana2024-metal-availability-early-life-microbiome\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/su2020-infant-formula-china-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -1741,9 +1879,8 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
-| `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
-| `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` | sources | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` | sources | 0 | — | — |
 | `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` | sources | 0 | — | — |
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md` | sources | 0 | — | — |
@@ -1751,28 +1888,70 @@ _All claims trace to at least one cited source._
 | `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md` | sources | 0 | — | — |
 | `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/arsenic2012-arsenic-organic-foods-brown\.md` | sources | 0 | — | — |
+| `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` | sources | 0 | — | — |
+| `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` | sources | 0 | — | — |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-review-nutritional-ecology-of-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-lead-chambers-of-installations-reddish-sediment-was-obtained\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-craig-t-martin-department-head\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2020-aluminium-faq-consumer-products\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
 | `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` | sources | 0 | — | — |
+| `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` | sources | 0 | — | — |
-| `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md` | sources | 0 | — | — |
-| `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk\.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\.md` | sources | 0 | — | — |
 | `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
-| `wiki/sources/chung2021-china-infant-formula-toxic-elements.md` | sources | 0 | — | — |
-| `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/cot2003-infant-food-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` | sources | 0 | — | — |
@@ -1781,6 +1960,8 @@ _All claims trace to at least one cited source._
 | `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` | sources | 0 | — | — |
 | `wiki/sources/demir2023-infant-formulas-turkey-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/dobrzynska2025-milk-formulae-elemental-composition\.md` | sources | 0 | — | — |
 | `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` | sources | 0 | — | — |
 | `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` | sources | 0 | — | — |
 | `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
@@ -1791,14 +1972,15 @@ _All claims trace to at least one cited source._
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2024-organoarsenic-species\.md` | sources | 0 | — | — |
 | `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` | sources | 0 | — | — |
-| `wiki/sources/estimated2015-estimated-exposure-arsenic-breastfed\.md` | sources | 0 | — | — |
 | `wiki/sources/eticha2018-infant-formula-metals-mekelle-ethiopia\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/floresaguilar2022-infant-formula-lead-spe-ce\.md` | sources | 0 | — | — |
 | `wiki/sources/frisbie2019-manganese-infant-formula-beverages\.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2014-infant-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
+| `wiki/sources/fsanz2011-23rd-australian-total-diet-study\.md` | sources | 0 | — | — |
 | `wiki/sources/gardener2019-pb-cd-us-infant-formula-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/gredilla2022-powdered-milk-hazardous-elements\.md` | sources | 0 | — | — |
@@ -1812,47 +1994,55 @@ _All claims trace to at least one cited source._
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\.md` | sources | 0 | — | — |
+| `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` | sources | 0 | — | — |
 | `wiki/sources/kazi2009-toxic-elements-in-infant-formulae.md` | sources | 0 | — | — |
 | `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` | sources | 0 | — | — |
-| `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
+| `wiki/sources/kuznetsova2019-milk-infant-formulas-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/largueza2026-milk-formulas-toxic-elements-review\.md` | sources | 0 | — | — |
 | `wiki/sources/ljung2007-manganese-drinking-water-guideline\.md` | sources | 0 | — | — |
+| `wiki/sources/lodhi2021-methyl-inorganic-mercury-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/lodico2015-infant-formula-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/lutfullah2014-peshawar-dried-fluid-milk-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
+| `wiki/sources/martincarrasco2023-breast-milk-infant-formula-review\.md` | sources | 0 | — | — |
+| `wiki/sources/may2021-journal-of-animal-science-2021-vol-99-no\.md` | sources | 0 | — | — |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 0 | — | — |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mielech2021-contamination-food-infants-toddlers\.md` | sources | 0 | — | — |
 | `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` | sources | 0 | — | — |
-| `wiki/sources/open2017-open-infants-dietary-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` | sources | 0 | — | — |
 | `wiki/sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\.md` | sources | 0 | — | — |
 | `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md` | sources | 0 | — | — |
 | `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\.md` | sources | 0 | — | — |
-| `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` | sources | 0 | — | — |
 | `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md` | sources | 0 | — | — |
 | `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium\.md` | sources | 0 | — | — |
+| `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` | sources | 0 | — | — |
 | `wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/schmidt2015-arsenic-infancy-commentary\.md` | sources | 0 | — | — |
+| `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` | sources | 0 | — | — |
 | `wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us\.md` | sources | 0 | — | — |
-| `wiki/sources/signes-pastor2018-infant-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
 | `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md` | sources | 0 | — | — |
 | `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas\.md` | sources | 0 | — | — |
+| `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` | sources | 0 | — | — |
 | `wiki/sources/soto-ocana2024-metal-availability-early-life-microbiome\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` | sources | 0 | — | — |
+| `wiki/sources/su2020-infant-formula-china-toxic-elements.md` | sources | 0 | — | — |
 | `wiki/sources/su2020-infant-formula-china-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
-| `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` | sources | 0 | — | — |
 | `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` | sources | 0 | — | — |
 | `wiki/sources/unuvar2017-commercial-infant-formula-elements-turkey\.md` | sources | 0 | — | — |

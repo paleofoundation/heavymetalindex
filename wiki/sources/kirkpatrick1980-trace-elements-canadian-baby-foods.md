@@ -5,15 +5,15 @@ title: "The Trace Element Content of Canadian Baby Foods and Estimation of Trace
 authors: ["Kirkpatrick DC", "Conacher HBS", "Méranger JC", "Dabeka R", "Collins B", "McKenzie AD", "Lacroix GMA", "Savary G"]
 year: 1980
 publication: "Canadian Institute of Food Science and Technology Journal 13(4):154-161"
-doi: "10.1016/S0315-5463(80)73332-1"
+doi: "10.1016/S0315-5463(80)73396-5"
 source_type: peer-reviewed
 evidence_tier: A
 evidence_fitness: EF-3
-authoring_authority: "Health Protection Branch, Health and Welfare Canada (government agency authors — also satisfies CLAUDE.md Part 13 government-report A-tier criterion in addition to peer-reviewed primary status)"
+authoring_authority: "Health Protection Branch, Health and Welfare Canada (government agency authors — also satisfies government-report A-tier criterion in addition to peer-reviewed primary status)"
 method_quality_caveat: "AAS at LOD 0.01 ppm = 10 ppb across all elements (two orders of magnitude higher than modern ICP-MS). LOD-substitution policy (samples <LOD set to LOD for averages) systematically inflates means by 1-2 orders of magnitude vs modern data. Cd recovery 80.4% (low; sugar interference). Only category-level mean/min/max published; sample-level data not in paper. Treat as **historical-baseline reference** within A-tier — useful for 50-year trajectory documentation (1980 mean Pb prepared formula 30 ppb vs FDA 2026 0.4 ppb = ~75× reduction) but NOT a modern-percentile-math driver."
-tier_rationale: "Per CLAUDE.md Part 13 A-tier = peer-reviewed primary studies + government reports. This paper satisfies BOTH criteria (peer-reviewed publication AND Canadian government agency authorship). Method-modernity and journal-era concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
+tier_rationale: "Per A-tier = peer-reviewed primary studies + government reports. This paper satisfies BOTH criteria (peer-reviewed publication AND Canadian government agency authorship). Method-modernity and journal-era concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
 license: "publisher-licensed (Pergamon Press / Elsevier)"
-access_url: "https://doi.org/10.1016/S0315-5463(80)73332-1"
+access_url: "https://doi.org/10.1016/S0315-5463(80)73396-5"
 raw_path: "raw/external-fetch/kirkpatrick1980 (1).pdf"
 metals: [Cd, Cr-total, Co, Cu, Fe, Pb, Mn, Ni, Zn]
 products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, meat-and-poultry-purees, non-root-vegetable-purees, root-vegetable-purees, fruit-purees, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
@@ -29,6 +29,8 @@ updated: 2026-05-09
 ---
 
 # Kirkpatrick et al. 1980 — Trace elements in Canadian baby foods (historical baseline)
+
+## Overview
 
 This **B-tier 1980 historical reference paper** from Health Protection Branch, Health and Welfare Canada (Bureau of Chemical Safety + Bureau of Nutritional Sciences) measures nine trace elements (Cd, Cr-total, Co, Cu, Fe, Pb, Mn, Ni, Zn) in 330 combined baby-food samples covering 11 categories from the 1975 Canadian market, then estimates infant dietary intake from 0-12 months using Nutrition Canada National Survey 24-hour dietary recall data (n=257 infants). The methodology is **Atomic Absorption Spectrophotometry (AAS) with LOD = 0.01 ppm = 10 ppb** for all elements except Cu/Fe/Mn/Zn (which use a different AAS instrument); this LOD floor is **two orders of magnitude higher than modern ICP-MS** (typical Pb LOD ~0.05 ppb). Per the paper's explicit caveat: "any sample values which were below the detection limit were set equal to the detection limit in calculating average levels. Hence, the estimated average levels will tend to be overestimates of the population average." This makes Kirkpatrick 1980 a **historical-baseline reference** rather than a percentile-math contributor for modern HMTc thresholds. The principal value is documenting the **50-year reduction trajectory**: 1980 mean Pb in prepared formula was 0.03 ppm (= 30 ppb, with LOD floor) versus FDA 2026 mean 0.4 ppb — an ~75× reduction over five decades, driven by elimination of lead-soldered cans, regulatory tolerance tightening, and ingredient-sourcing improvements.
 
@@ -57,7 +59,7 @@ This **B-tier 1980 historical reference paper** from Health Protection Branch, H
 - **1980 mean Pb prepared formula 30 ppb** (LOD-floored) vs **FDA 2026 mean Pb milk-based formula 0.4 ppb** (clean ICP-MS): demonstrates ~75× reduction over 50 years.
 - **1980 mean Pb juice category 220 ppb** (LOD-floored) vs **FDA 2024 mean Pb juices 1.5 ppb** (modern): ~150× reduction reflecting lead-soldered can phaseout.
 - **1980 mean Cd cereals 70 ppb** (LOD-floored) vs **FDA 2024 mean Cd rice cereals 11.4 ppb** (modern): ~6× reduction.
-- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; per CLAUDE.md Part 14 + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
+- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
 
 ### Estimated daily intake (μg/kg body weight/day, as consumed)
 
@@ -88,7 +90,7 @@ The 1980 Pb intake estimates (4.4-8.1 μg/kg bw/day) **exceeded the FAO/WHO PTWI
 
 ## Geographic-context flag
 
-Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. Per CLAUDE.md Part 6, this jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
+Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. This jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
 
 ## Methods (brief)
 
@@ -102,7 +104,7 @@ EF-3 limited evidence with B-tier rating. The methodology is appropriate for 198
 
 - **AAS LOD floor 0.01 ppm = 10 ppb** for all elements — vastly higher than modern ICP-MS LOD ~0.05 ppb for Pb. LOD-substitution for <LOD samples inflates means.
 - **Cd recovery 80.4% (low)** explicitly attributed to sugar interference in fruit/dessert categories (category 7-8); other-category recovery 85%.
-- **Cr is total, not speciated** — per CLAUDE.md Part 14, total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
+- **Cr is total, not speciated** —, total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
 - **Mn LOD effects** in formula (0.94 ppm in powdered, 0.38 ppm in liquid) reflect Canadian fortification at 1980 levels; modern infant formula Mn is comparable.
 - **Pb max 0.84 ppm in juices** is lead-soldered-can era and not representative of modern juice supply.
 - **No Al, As (total or inorganic), or Hg measured** — paper covers a narrower analyte set than modern HMTc 10-analyte panel.
@@ -137,15 +139,15 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # Health Canada 2020 — Guideline Technical Document, Cadmium in drinking water
 
+## Overview
+
 This Health Canada Guideline Technical Document, prepared in collaboration with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) of 0.007 mg/L (7 µg/L) for total cadmium in drinking water based on a sample taken at the consumer's tap. The guideline replaces earlier Canadian drinking-water cadmium guidance and is derived from kidney effects (renal tubular damage measured by β2-microglobulinuria) as the critical health endpoint, using the JECFA (2011) tolerable monthly intake of 25 µg/kg body weight per month as the toxicological anchor. The document is the operative federal-level reference for cadmium in Canadian drinking-water programs and incorporates an extensive Canadian provincial/territorial occurrence dataset, an analytical-method inventory, treatment-technology review (with emphasis on galvanized-steel plumbing as the dominant source), and an international comparison with U.S. EPA, Australian NHMRC, WHO, and EU drinking-water values.
 
 ## Key numbers
@@ -164,7 +166,7 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Cite-key uses the `hc` (Health Canada) agency abbreviation with the publication year (2020), consistent with other Health Canada source pages in `wiki/sources/` (e.g., `hc2008-aluminum-food-additives-industry-request`, `hc2008-review-dietary-exposure-aluminum`).
 - The sibling file `drinking-water-quality-guideline-cadmium.pdf` in the same folder is byte-identical (SHA-256 match) to `raw_path`; listed in `near_duplicates`.
 - `matrices` includes general drinking-water descriptors (drinking-water, tap-water, source-water, raw-water, treated-water, distribution-water) that span the document's data tables; no closer-fitting canonical matrix slug for treated/distributed water exists in the system-prompt list.
-- No matching `[[regulations/canada-cadmium-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for cadmium in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock per CLAUDE.md Part 10).
+- No matching `[[regulations/canada-cadmium-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for cadmium in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock).
 - Canadian provincial table (Table 2) reproduces the document's footnote citations 1–12 in the table header explanation; values are quoted exactly as the document reports them, including the visually unusual entries (e.g., Quebec mean 0.20 µg/L vs median 0.01 µg/L — a wide right tail; Alberta well median 15.0 µg/L > mean 13.4 µg/L — an artifact of the 0.30% detection rate with very small detected-fraction n).
 - Document references but does not reproduce the underlying primary leaching datasets (Viraraghavan et al. 2000, Samuels and Meranger 1984, Schock and Neff 1988, Subramanian et al. 1991); Key numbers explicitly attributes leaching ranges to the document's own citation chain rather than direct measurement here.
 - No brand names appear in the source's contamination data; vendor names in the analytical-methods table (U.S. EPA, APHA) are method-publishing standards bodies, not Part 12 violations.
@@ -184,12 +186,15 @@ No new analytical measurements are reported. The document operates as a synthesi
 - [[regulations/efsa-cadmium-twi]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

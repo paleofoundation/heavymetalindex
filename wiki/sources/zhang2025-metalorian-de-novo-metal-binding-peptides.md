@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zhang et al. 2025 — Metalorian: a classifier-guided diffusion model that designs *de novo* heavy-metal-binding peptides, with in vitro validation against Cu and Zn
 
+## Overview
+
 Zhang and colleagues (University of Pennsylvania, Duke-NUS Medical School, Duke University) report a two-component computational platform for *de novo* design of heavy-metal-binding peptides: **MetaLATTE**, a multi-label classifier built on the ESM-2 protein language model that predicts metal-binding propensity across 14 transition/heavy metals from sequence alone, and **Metalorian**, a co-evolving conditional diffusion model that uses MetaLATTE as a guidance classifier to generate short metal-binding peptides (30-80 residues) with controllable length and target-metal specificity. The pipeline was validated in two stages: (i) in silico molecular-dynamics simulations comparing generated Cu- and Cd-binding peptides to wild-type metal-binding proteins, and (ii) in vitro ELISA-based binding assays for three SUMO-fusion-expressed Metalorian-generated constructs (two Cu binders and one Zn binder) against Cu- or Zn-coated microplates. The MbPA training database covers fourteen metal labels (Ag, Cd, Co, Cu, Fe, Hg, Mn, Mo, Ni, Pb, Pt, V, W, Zn). The paper is a methods-and-design contribution; there are no food, cosmetic, or human-exposure measurements. It is a bioRxiv preprint posted 2025-07-10 and not certified by peer review.
 
 ## Why this matters
@@ -169,12 +171,15 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; b
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [16fb63b](https://github.com/paleofoundation/heavymetalindex/commit/16fb63b) | 2026-06-08 | audit: zhang2025-metalorian-de-novo-metal-binding-peptides revised |
-| [86d0037](https://github.com/paleofoundation/heavymetalindex/commit/86d0037) | 2026-06-08 | ingest: zhang2025-metalorian-de-novo-metal-binding-peptides fresh from Manual Fetch Kimi/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

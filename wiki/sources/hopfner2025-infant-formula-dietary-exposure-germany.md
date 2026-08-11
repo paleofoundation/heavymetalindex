@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Höpfner et al. 2025 — Infant Formula Contribution to Dietary Exposure of Nine Elements in Germany
 
+## Overview
+
 This peer-reviewed German total diet study (TDS) quantifies both the occurrence of nine contaminants and essential elements in powdered infant formula — iAs, Cd, Cr, Pb, Mn, Hg, Ni, Se, and Zn — and the dietary exposure of formula-consuming infants and toddlers aged 0.5 to 3 years, using measured consumption data from the KiESEL survey (n=114 children) combined with occurrence data from the BfR MEAL Study. The study compares exposure against health-based guidance values (HBGVs) and uses a margin of exposure (MoE) approach for Pb and iAs, finding that Cd exposure exceeded the TWI for approximately 30% of infants and toddlers, and that iAs MoEs fell below one for all formula-consuming children. Infant formula contributed up to 64% of reported Zn exposure in infants; reported formula-contribution proportions for iAs, Cr, and Ni were 18%, 19%, and 20%, while Mn was 7%.
 
 ## Key numbers
@@ -112,15 +114,15 @@ The study does not provide per-product concentration distributions usable as a P
 - Fresh-context audit (Codex subagent Hume, 2026-05-18) returned REVISE. Applied the verified findings: corrected the intro sentence that wrongly grouped Mn with the ~20% formula-contribution analytes (source Table 5: iAs 18%, Cr 19%, Ni 20%, Mn 7%, Zn 64% for infants), clarified that the Key numbers parenthetical contribution percentages are source-reported Table 5 proportions, and softened the Methods description so only the special-medical-needs subsample is described as cow-milk-based per source p. 3. Also changed routing from the non-soy powder row to generic `infant-formula-powder` because the source does not clearly resolve the soy/non-soy split.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

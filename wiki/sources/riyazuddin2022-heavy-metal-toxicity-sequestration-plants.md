@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Riyazuddin et al. 2022 — Heavy metal toxicity and sequestration in plants
 
+## Overview
+
 Riyazuddin, Nisha, Ejaz, Khan, Kumar, Ramteke, and Gupta (corresponding author Gupta at Kookmin University, Seoul, with co-authors at the University of Szeged, Szent István University, Jamia Hamdard University, Dongguk University, and Mandsaur University) review the published evidence on how heavy metals (HMs) impair plant growth and on the morphological, physiological, biochemical, and molecular mechanisms plants deploy to tolerate and sequester them. The paper is a "Review" article in *Biomolecules* (MDPI) covering 264 cited references, three schematic figures (Figure 1 morphological symptoms; Figure 2 the ROS / phytochelatin / metallothionein / antioxidant-enzyme response axis; Figure 3 phytohormone crosstalk under HM exposure), and one synthesis table (Table 1) cataloguing genes whose differential expression has been linked to HM tolerance in transgenic or knockout systems. The review reports no primary chemical, occurrence, or exposure measurements in any food, beverage, supplement, personal-care, or environmental matrix; its value to the wiki is conceptual background for the plant-side biology of metal uptake, translocation, chelation, and vacuolar sequestration, on which the wiki's metals/ and mitigation/remediation-evidence pages may draw when explaining why specific crops accumulate specific metals and what biological levers exist for plant-side mitigation.
 
 ## Why this matters
@@ -175,12 +177,15 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Checks 4 (Part 12 brand firewall) and 5 (Part 2 wiki/HMTc firewall) ✅. Subagent verified that no commercial food/supplement/personal-care brand names appear in the body, that plant species names (Arabidopsis, Brassica juncea, rice, wheat) and cultivar/genotype identifiers (Yan66/Ea52 barley, Milas flax) are not brand attributions, that the Implications section does not propose HMTc thresholds or issue consumer risk advisories, and that the *TaPCS1*-Cd-sensitive rice hedge is faithful to the source rather than wiki-side synthesis. 2 findings flagged, 2 corrections applied, 0 rejected. Audit subagent ID ab86d090ed8a14aad.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c36d38b](https://github.com/paleofoundation/heavymetalindex/commit/c36d38b) | 2026-06-08 | audit: riyazuddin2022-heavy-metal-toxicity-sequestration-plants revised |
-| [9b3f9fe](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fe) | 2026-06-08 | ingest: riyazuddin2022-heavy-metal-toxicity-sequestration-plants fresh from Manual Fetch Kimi/June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Shamsani et al. 2019 — Pb, Cd and As in Malaysian-market instant noodles
 
+## Overview
+
 Shamsani et al. measured lead, cadmium, and total arsenic in seven brands of commercially popular instant noodles purchased from the Malaysian retail market. Each sample combined noodles plus the accompanying seasoning/flavouring powder, homogenized and dry-ashed before ICP-MS analysis. All seven samples carried detectable Pb, Cd, and As. Two of the seven samples exceeded the Malaysian Food Regulation 1985 maximum permitted level of 2 mg/kg for Pb (samples coded A and C, at 2.94 and 2.52 mg/kg respectively); all seven samples exceeded the Codex Alimentarius (CXS 193-1995) Pb maximum of 0.2 mg/kg used by the authors as a cereal-grain comparator, and three samples exceeded the Codex Cd maximum of 0.2 mg/kg used as a wheat comparator. No Codex maximum was applied to As. Cd ranged 0.03–0.37 mg/kg and total As 0.25–0.81 mg/kg across the seven samples; no sample exceeded the Malaysian Food Regulation 1985 ceilings of 1 mg/kg for Cd or As.
 
 ## Key numbers
@@ -106,15 +108,15 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 - Brand firewall: no brand names appear in the source paper. No redaction needed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [7edbd28](https://github.com/paleofoundation/heavymetalindex/commit/7edbd28) | 2026-06-02 | ingest: shamsani2019-instant-noodles-heavy-metals-malaysia fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

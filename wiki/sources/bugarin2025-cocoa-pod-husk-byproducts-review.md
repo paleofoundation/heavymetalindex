@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Bugarin et al. 2025 — Cocoa pod husk valorization: conventional and emerging technologies
 
+## Overview
+
 Bugarin and colleagues review conventional and emerging technologies for extracting the lignocellulosic structural compounds (cellulose, hemicellulose, lignin, and pectin) from cocoa pod husk (CPH) — the agro-industrial residue that accounts for roughly 76 percent of the cocoa fruit by weight — and the application of the resulting by-products across the food, biopolymer, biofuel, medicine and cosmetics, and agriculture-and-environment sectors. Heavy-metal-relevant content in the review is confined to two short subsections plus scattered paragraphs in the application sections. The authors highlight high-voltage electric discharge (HVED) as the principal emerging technology proposed for reducing cadmium in CPH prior to downstream extraction, and describe CPH-derived biochar as a high-efficiency adsorbent for Pb, Hg, and Cd from aqueous phase. The review reports no original heavy-metal measurements, no occurrence distributions for finished cocoa products, and no analytical method validation; all quantitative heavy-metal figures are second-hand from cited primary studies.
 
 ## Key numbers
@@ -107,11 +109,15 @@ App: No ingredient `contamination_profile` impact. The review contributes no con
 - `evidence_tier: B` reflects the narrative-review character of this source. `evidence_fitness: EF-4` (Context only) and `public_evidence_label: Context only` reflect that the source contributes no primary heavy-metal occurrence values.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

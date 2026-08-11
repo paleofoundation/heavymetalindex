@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Clair-Caliot et al. 2021 — Arsenic uptake by irrigated vegetables and cooked foods in Burkina Faso
 
+## Overview
+
 This greenhouse study characterizes the transfer of arsenic from geogenic As-contaminated irrigation water to seven vegetables commonly grown and consumed in Burkina Faso (amaranth, carrot, green bean, lettuce, okra, spinach, tomato), and separately assesses how cooking with As-spiked or As-free water affects final As content in both greenhouse vegetables and locally purchased staple foods. Arsenic was measured as total As (tAs) by ICP-MS after HNO3/H2O2 digestion; speciation into inorganic vs organic arsenic was not performed. At the mid-point irrigation concentration of 500 µg/L As(V), edible-part concentrations were: spinach 6.6, lettuce 3.9, carrot 3.5, amaranth 2.2, okra 0.9, green bean 0.8, and tomato 0.2 µg/g dry mass. Cooking contaminated vegetables with As-free water reduced As content by an average of 39%, while cooking with As-contaminated water transferred As to the cooked food; steaming reduced As by 8- to 18-fold compared to boiling.
 
 ## Key numbers
@@ -125,15 +127,15 @@ Microbiome: Not applicable.
 2026-05-20 audit-application (fresh-context subagent, verdict REVISE): two ⚠️ findings verified against PDF and applied. (1) Cancer-risk sentence corrected — prior wording said "leafy vegetables (amaranth, lettuce, spinach) and carrot under 500 and 1,000 µg/L" exceeded 1E-4. Verified against Table 3 (p. 10) and Discussion text (p. 8): amaranth CR at 500 µg/L is 9.5E-05 (below 1E-4), exceeds only at 1,000; green bean exceeded at 500 and 1,000 (was entirely missing from prior wording); carrot exceeded at all spiked treatments (100, 500, 1,000), not just 500 and 1,000. Sentence rewritten to match author wording exactly. (2) Added specific ingredient slugs `green-beans` (paper studies *Phaseolus vulgaris* pods explicitly in the greenhouse experiment) and `maize` (paper measures maize flour used for tô) — both exist in current taxonomy. Generic `beans` retained as umbrella for black-eyed pea/niébé market-food data. Carrots-vs-carrot slug choice noted by audit as inconsistent with tomato singular-form fix; not applied — both `carrot` and `carrots` exist in the taxonomy snapshot with comparable corpus usage (9 vs 12 sources), so the existing `carrots` declaration is preserved to avoid introducing slug churn.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

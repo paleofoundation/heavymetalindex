@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bezrodnykh et al. 2023 - Crayfish chitosan residual metals
 
+## Overview
+
 Bezrodnykh and colleagues describe a laboratory-scale route from crayfish shell waste to chitin, chitosan, and oligochitosan hydrochloride, with ICP-MS and EDX checks for residual proteins and metals. This is processed-ingredient evidence for shellfish-derived chitosan, not edible crayfish occurrence evidence. The routeable metal finding is that crude shell waste contained Fe 23.0 ppm, Cr 0.4 ppm, and Ni 0.3 ppm, while processed chitosan and oligochitosan retained only low Fe (3.7 and 2.8 ppm) with Cr and Ni not found; the text states Cd, Pb, Hg, and As were absent.
 
 ## Key numbers
@@ -89,15 +91,15 @@ Merge-enhanced 2026-06-02 to document the matrices-vocabulary additions and the 
 Audit subagent (2026-06-02) ran the five-check audit and returned REVISE with one warning: `[[mitigation/processing]]` flagged as a target outside the closed taxonomy. Verified against the working tree: `wiki/mitigation/processing.md` exists. The audit's taxonomy snapshot does not include the `mitigation/` directory, which produced the false positive (the same pattern was logged on the shi2023-leersia and other recent audits). Wikilink retained; no page change applied for this finding.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [2b356c7](https://github.com/paleofoundation/heavymetalindex/commit/2b356c7) | 2026-06-02 | ingest June 2: bezrodnykh2023-crayfish-chitosan-residual-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

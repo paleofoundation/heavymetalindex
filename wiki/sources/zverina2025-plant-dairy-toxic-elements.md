@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zvěřina et al. 2025 — Essential and toxic elements in plant-based dairy alternatives (Czech Republic market)
 
+## Overview
+
 Zvěřina and colleagues at Masaryk University, the Czech Academy of Sciences, and Comenius University in Bratislava measured four essential elements (Ca, P, Fe, Zn) and two toxic elements (Cd, Pb) in 54 plant-based dairy alternative (PBDA) samples drawn from the Czech market and from a laboratory-prepared homemade oilseed-milk panel. Calcium, phosphorus, iron and zinc were quantified by high-resolution continuum source flame atomic absorption spectrometry (HR-CS FAAS, Ca) or electrothermal atomic absorption spectrometry (HR-CS ETAAS, Fe, P, Zn); cadmium and lead were quantified by HR-CS ETAAS on the same digests. Non-fortified PBDAs were markedly poorer in Ca, Fe and Zn than the cow's-milk reference range, with median Ca in store-bought plant milks 25-fold lower than cow's milk (4.71 vs roughly 120 mg/100 mL) and median Ca/P ratios below the 1.1–2 ESPGHAN window in every PBDA category except cheese alternatives. Lead concentrations were below the 7 µg/kg limit of detection in every sample (store-bought and homemade alike). Cadmium concentrations were below the 0.7 µg/kg LOD in store-bought milks, creams, yogurts, cheeses, and in sesame-seed homemade milks, but were elevated in tofu (median 14.5 µg/kg) and in three of the homemade oilseed milks (median Cd: flax 18.3 µg/kg, pumpkin 1.2 µg/kg, hemp 1.0 µg/kg). Homemade poppy-seed milk carried the highest Cd burden by an order of magnitude (median 58.8 µg/kg, range 13.4 to 85.0 µg/kg), reflecting the well-documented cadmium-accumulation behaviour of *Papaver somniferum*.
 
 ## Why this matters
@@ -165,11 +167,15 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 **Sample-size attribution caveat.** The source's Methods text places "n=35" on the milk-alternatives bucket (20 store-bought + 15 homemade across five seed types). The 15 homemade samples are explicitly described as three samples per seed type for five seed types; the 20 store-bought milk-alternatives count does not enumerate per-base-ingredient (soy/oats/almond/coconut/rice/hemp/flax/poppy/pumpkin/sesame/other) subcounts, so per-store-bought-base-ingredient sample sizes cannot be recovered from the published Methods text alone (Supplementary Table S1 was not retrieved with this PDF and would need separate fetch to recover those per-base counts).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b78ddfa](https://github.com/paleofoundation/heavymetalindex/commit/b78ddfa) | 2026-06-08 | ingest: zverina2025-plant-dairy-toxic-elements fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

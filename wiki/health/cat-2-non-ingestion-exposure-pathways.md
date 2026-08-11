@@ -5,12 +5,14 @@ audience: [regulator, educator, researcher, brand-legal]
 updated: 2026-05-14
 sources: 5
 created_by: claude_opus_47_session
-note: "Methodology supplement for HMTc Category 2. Describes the toxicokinetic / exposure-pathway differences between food (Cat 1) and personal-care products (Cat 2) that govern how the HMTc Cat 2 thresholds will be calibrated. Per OPERATING.md Part 7 initiative 3.1, this supplement is a prerequisite for defensible Cat 2 certification. The supplement reports what the literature supports; the staff Standards Workbench applies these factors to specific Cat 2 thresholds (CLAUDE.md Part 2 firewall)."
+note: "Describes the toxicokinetic and exposure-pathway differences between food and children's personal-care products (dermal, inhalation, accidental-ingestion, and trans-placental routes). Reports what the peer-reviewed literature supports; certification criteria are set separately under the certification program, not on this page."
 ---
 
 # Cat 2 (Children Personal Care) non-ingestion exposure pathways
 
-The HMTc certification program covers Category 2 (Children Personal Care): toothpaste, lipstick and other lip products, baby talcum powder, baby lotion/oil, sunscreen, shampoo and other rinse-off products, wet wipes, disposable diapers, and children's makeup. These products differ from Category 1 (food) in how heavy metals reach the child's body. Food is ingested; personal-care products reach the body via at least four mechanisms — and each mechanism has a different absorption fraction, a different time profile, and different vulnerable-population implications. This page documents those mechanisms so the Cat 2 threshold methodology is interpretable and defensible against expert cross-examination.
+## Overview
+
+The HMTc certification program covers Category 2 (Children Personal Care): toothpaste, lipstick and other lip products, baby talcum powder, baby lotion/oil, sunscreen, shampoo and other rinse-off products, wet wipes, disposable diapers, and children's makeup. These products differ from Category 1 (food) in how heavy metals reach the child's body. Food is ingested; personal-care products reach the body via at least four mechanisms — and each mechanism has a different absorption fraction, a different time profile, and different vulnerable-population implications. This page documents those mechanisms so the exposure-pathway evidence for these products is interpretable and defensible against expert cross-examination.
 
 ## The four exposure pathways for Cat 2 products
 
@@ -42,18 +44,28 @@ Children 6-12 face a different mix: lower per-application dose factors than infa
 
 Adolescents 13-18 approach adult exposure factors but retain elevated sensitivity for endocrine-active metals (Cd, organotin) during the puberty window.
 
-## How HMTc Cat 2 thresholds use this supplement
+## How this evidence relates to certification
 
-This page reports the toxicokinetic and exposure-pathway evidence. The staff Standards Workbench (`data/workbench/standards/<cat2-row>.md`, not yet generated) applies these factors per row to convert literature concentration ranges into estimated systemic doses, then compares against analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) per the same methodology as Cat 1. The Cat 2 thresholds will be calibrated so that under realistic upper-bound use scenarios, the systemic dose stays below the analyte's RfD/TDI with the safety margin defined in the HMTc Governing Principles v2.0.
-
-The gap between literature evidence (this page reports it) and HMTc Cat 2 thresholds (set on the workbench) is named honestly on the workbench per CLAUDE.md Part 2 firewall. The four CLAUDE.md Part 19 rationale tags (literature-baseline, regulatory-alignment, feasibility-driven, precautionary) apply equally to Cat 2 as to Cat 1.
+This page reports the toxicokinetic and exposure-pathway evidence. Certification criteria for these products are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which draws on this evidence — together with analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) — as one input among others; this public page publishes no certification thresholds. The distinction between what the literature supports and any certification criterion is maintained deliberately: this page reports the evidence, and the certification program documents the rationale for its criteria separately.
 
 ## Open questions
 
-- **Per-row dermal absorption fraction**: published values for Pb, Cd, Hg through intact infant skin are sparse. Where the Cat 2 thresholds depend critically on this factor, the workbench should document the assumed value and the source.
+- **Per-row dermal absorption fraction**: published values for Pb, Cd, Hg through intact infant skin are sparse. Where certification criteria depend critically on this factor, the assumed value and its source should be documented.
 - **Per-row aerosolization fraction for talcum**: similarly sparse for the specific particle-size distribution of commercial baby talc.
 - **Organotin pharmacokinetics in infants**: ([[sources/smajgl2015-tin-baby-diapers-croatia|Šmajgl 2015]]) cites the 20-100 % of TDI estimate for diaper organotin, but this rests on conservative absorption assumptions. A targeted toxicokinetics study would tighten the estimate.
 - **Hand-to-mouth transfer factor** for product-mediated ingestion of body lotions, body paints, sunscreens. Surrogate data from soil-Pb hand-to-mouth modelling is the typical fallback; cosmetic-specific transfer factors are not yet a published consensus.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/attard2022-heavy-metals-cosmetics-review|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Attard T and Attard E · Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) · 2022 · [doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis]]<span class="hmi-ref-meta">Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. · Frontiers in Public Health 9:766984 · 2021 · [doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
 
 ## Sources
 
@@ -62,3 +74,17 @@ The gap between literature evidence (this page reports it) and HMTc Cat 2 thresh
 - [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] — toothpaste ingestion fractions in children + HRA framework
 - [[sources/smajgl2015-tin-baby-diapers-croatia]] — diaper organotin + infant dermal-contact exposure estimate
 - [[sources/li2021-lead-lip-cosmetics-china-ecommerce]] — lip-cosmetic Pb + ALM/IEUBK blood-Pb modelling
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | 1 section added and 1 removed; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 4 sources added; 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+<!-- END: hmi-page-history -->

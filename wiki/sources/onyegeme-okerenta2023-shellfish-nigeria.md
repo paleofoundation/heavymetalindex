@@ -6,8 +6,8 @@ title: "Potential Toxic elements in shellfish from three rivers in Niger Delta, 
 authors: [Onyegeme-Okerenta BM, West LO]
 year: 2023
 publication: "Environmental Analysis, Health and Toxicology"
-doi: 10.5620/eaht.2023015
-access_url: "https://doi.org/10.5620/eaht.2023015"
+doi: "10.5620/eaht.2023011"
+access_url: "https://doi.org/10.5620/eaht.2023011"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -27,6 +27,8 @@ updated: 2026-05-13
 ---
 
 # Onyegeme-Okerenta & West 2023 — Shellfish PTE contamination, Niger Delta Nigeria
+
+## Overview
 
 Onyegeme-Okerenta and West measured five potential toxic elements (As, Cd, Cr, Pb, Ni) in three shellfish species — shrimp (Penaeus monodon), oyster (Crassostrea rhizophorae), and periwinkle (Tympanostomus fuscatus) — from three rivers in the Niger Delta region of Nigeria (Buguma, Krakrama, Bonny Rivers), which are heavily impacted by oil and gas exploration and illegal artisanal refining. Concentrations in several species from the Buguma River exceeded FAO/WHO and EU regulatory limits for Cd and Cr. Dietary intake calculations for children showed Cd exposure from P. monodon and T. fuscatus from Buguma exceeds the tolerable daily intake, and Pb EDI for both age classes frequently exceeded TDI from several shellfish/river combinations. Hazard index (HI) values were above 1 for all species due primarily to elevated chromium, and total cancer risk (TCR) values for all species from all rivers exceeded the 1×10−4 priority risk threshold.
 
@@ -84,15 +86,15 @@ App: For shellfish ingredients, Niger Delta or similar West African industrializ
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

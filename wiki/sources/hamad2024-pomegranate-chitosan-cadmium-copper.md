@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Hamad and Ibrahim 2024 - Pomegranate and chitosan composites for Cd/Cu adsorption
 
+## Overview
+
 Hamad and Ibrahim fabricated two bio-based adsorbent composites, CS@Fe-PA and MgO@Pp, and tested their removal of cadmium and copper ions from aqueous solutions. This is mitigation and wastewater-remediation evidence with extractable adsorption efficiencies and capacities; it is not consumer-product occurrence evidence.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: No direct ingredient or product-risk signal; retain as mitigation-method co
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, material/methods, batch adsorption setup, dose-response results, contact-time results, initial-concentration results, kinetic-fit discussion, and Table 1 kinetic parameters. Products and ingredients are intentionally empty because the study uses synthetic aqueous metal solutions and adsorbent composites. The auto-fetch filename's "fabric-contact-products" label is not supported by the paper content.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

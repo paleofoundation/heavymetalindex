@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Asgher, Rehaman, Islam, Arshad & Khan 2023 — Selenium-mediated tolerance of plants to heavy-metal stress (narrative review)
 
+## Overview
+
 This MDPI Agriculture review synthesises laboratory and greenhouse evidence on how exogenous selenium (Se) — applied as selenite (SeO₃²⁻), selenate (SeO₄²⁻), selenocysteine (SeCys), selenomethionine (SeMT), or selenium nanoparticles (SeNPs) — modulates uptake, translocation, antioxidant metabolism, osmolyte production, phytohormone signalling, secondary-metabolite biosynthesis, and mineral-nutrient acquisition in crop and model plants exposed to cadmium, lead, arsenic, chromium, nickel, copper, zinc, aluminium, and mercury. The paper is a narrative review with no independent measurements, no primary data extraction, and no quantitative meta-analysis; quantitative entries in Tables 1–3 are experimental treatment doses and qualitative response statements drawn from cited primary studies rather than occurrence values. It is ingested as an out-of-core-scope agronomic-mitigation-context reference following the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for methodology / context reviews without primary metal-occurrence data; `metals: []`, `ingredients: []`, and `products: []` are correct because the paper contributes no measured contamination values to any HMI ingredient, product, or metal page. The review is potentially useful as a starting point for an HMI mitigation-lever entry on Se biofortification / Se co-application as an agronomic intervention to reduce heavy-metal accumulation in cereal and vegetable crops, but each specific mechanistic claim should be sourced from its underlying primary citation rather than from this review.
 
 ## Key numbers
@@ -149,15 +151,15 @@ This is a narrative agronomic-mitigation review; it contributes context rather t
 - 2026-06-02 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/agriculture13051083` not present; raw_handle `MFK_agriculture-13-01083-v2` not present; cite-key stem `asgher2023` not present. PDF SHA-256 `c5a2bdd8aaf709da97fc50a2a436722d31ca4ad6f6e039d6274e91cc272de32e`. Paper is a narrative review of selenium-mediated plant tolerance to heavy-metal stress; no primary occurrence measurements. Ingested as out-of-core-scope agronomic-mitigation-context reference per the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent; `metals: []`, `ingredients: []`, `products: []` correctly reflect that no contamination values are contributed to any wiki page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [01ccf60](https://github.com/paleofoundation/heavymetalindex/commit/01ccf60) | 2026-06-02 | audit: asgher2023-selenium-heavy-metal-stress-plants revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

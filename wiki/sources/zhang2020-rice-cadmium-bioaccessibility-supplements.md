@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2020 — Rice cadmium bioaccessibility under dietary-supplement additions
 
+## Overview
+
 Zhang et al. measured selenium, zinc, and cadmium in steamed rice from Guangxi Province and tested how common dietary supplement additions changed in vitro gastrointestinal bioaccessibility. The source contributes rice occurrence and bioaccessibility context for cadmium, while the supplement additions are mitigation/intervention conditions rather than measurements of supplement contamination.
 
 ## Key numbers
@@ -65,3 +67,17 @@ Microbiome: Not a microbiome study.
 
 - DOI, title, authors, journal, year, license, concentration values, digestion conditions, supplement doses, and analytical method were transcribed from the PDF.
 - The same `nu12061769` thyroid-gut review appeared as a separate auto-fetch hit in both probiotic and vitamin-mineral queues and was skipped separately; this page is the distinct IJERPH rice bioaccessibility paper with DOI 10.3390/ijerph17144978.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

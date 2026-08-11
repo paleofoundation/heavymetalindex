@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hussain 2019 - Plant-food heavy metal review
 
+## Overview
+
 Hussain and colleagues reviewed arsenic, cadmium, lead, mercury, and nickel contamination in plant-based foods. The chapter is not a primary sampling study; it compiles literature tables for cereal grains, vegetables, fruits, nuts, pulses, and plant oils. This page records the review-level ranges and routing context only, and downstream quantitative pooling should prefer the underlying primary studies when those are already in the corpus or can be retrieved.
 
 ## Key numbers
@@ -61,11 +63,15 @@ This source is useful as a broad map of plant-food occurrence literature and as 
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; generic "nuts" is not an ingredient slug, so nuts route through peanuts plus the broad `nuts-seeds-other` product row. `jurisdictions: [GLOBAL]` is used because the review compiles studies across many countries and does not have one sampling jurisdiction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [9fa1a51](https://github.com/paleofoundation/heavymetalindex/commit/9fa1a51) | 2026-06-08 | ingest: hussain2019-plant-food-heavy-metal-review fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

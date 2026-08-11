@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Colapinto et al. 2016 - Tea intake and maternal blood metals in MIREC
 
+## Overview
+
 Colapinto and colleagues analysed tea intake against maternal whole-blood metals, cord-blood metals, and first-trimester urinary arsenic species in the Canadian MIREC cohort. This is lane a4 biomonitoring and dietary-exposure evidence, not a coffee or tea occurrence study. The strongest reported signal was for blood lead, especially green and herbal tea categories, while most adjusted mercury, cadmium, arsenic, and manganese comparisons were not significant for any tea versus no tea.
 
 ## Key numbers
@@ -73,3 +75,17 @@ Microbiome: No microbiome endpoints.
 - Speciation: blood mercury is total mercury (`tHg`); blood arsenic is reported as arsenic/total As (`tAs`); urinary arsenic species are listed separately in Key numbers.
 - Products and ingredients are intentionally empty because this is a biomonitoring association study, not a tea occurrence paper.
 - The file was fetched under a coffee-cadmium gap name, but the paper itself is about tea intake and maternal/cord-blood metals.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

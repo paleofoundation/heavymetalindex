@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Urbina 2018 — Biomining dissertation: isothermal-titration characterisation of natural and rationally-designed Cu/Zn/Ni-binding peptides, and a flagellin-knockout strain for surface-display metal recovery
 
+## Overview
+
 Urbina's PhD dissertation at UC Santa Cruz frames biomining (microbial extraction of metals from materials that are not traditionally mined, principally end-of-life electronics) as the application context and then reports two pieces of primary work in support of that goal. Chapter 1 is a review of the state of biomining (biooxidation of metal sulfides, heap bioleaching, basalt and silicate-mineral bioleaching, electronic-component bioleaching, and bioengineering of bacterial surfaces). Chapter 2 measures the intrinsic binding affinity (Kₐ, ΔH, n) of eight short peptides for Cu²⁺, Zn²⁺, and Ni²⁺ by isothermal titration calorimetry (ITC) and the apparent affinity for Cu when a competing ion (Zn or Ni) is pre-bound, contrasting naturally-occurring metal-binding motifs against motifs designed *in silico* by Kožíšek et al. (2008). Chapter 3 constructs and characterises a Bacillus subtilis flagellin-knockout strain (PY79 ΔhagAB::ery) intended as a chassis for displaying random peptide libraries on flagella for affinity-based screening of metal-binding peptides. The dissertation does not measure heavy metals in food, cosmetics, or any human-exposure matrix; its relevance to the Heavy Metal Index is to the peptide-Cu / peptide-Ni / peptide-Zn coordination-chemistry literature that already includes [[sources/luo2024-peptides-heavy-metal-remediation]], [[sources/shalev2022-peptide-metal-nmr-review]], [[sources/spallacci2025-bioinformatics-biomimetic-metal-peptide]], [[sources/zhang2025-metalorian-de-novo-metal-binding-peptides]], and [[sources/grill1989-phytochelatins-heavy-metal-binding-peptides-plants]].
 
 ## Why this matters
@@ -160,12 +162,15 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; C
 - [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [534c0e1](https://github.com/paleofoundation/heavymetalindex/commit/534c0e1) | 2026-06-08 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [6ff6179](https://github.com/paleofoundation/heavymetalindex/commit/6ff6179) | 2026-06-08 | ingest: urbina2018-biomining-peptide-metal-recovery fresh from MFK/June 8 Black Market Peptide Metal Survey |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

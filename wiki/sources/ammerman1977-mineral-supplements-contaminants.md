@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ammerman et al. 1977 - contaminants in animal mineral supplements
 
+## Overview
+
 Ammerman and coauthors reviewed contaminating elements in feed-grade mineral supplements used for domestic animals. The strongest HMI-relevant primary data are example analyses of micro-mineral supplement materials, especially Table 2's Pb, As, Cd, Al, and Hg entries. These values are supply-chain context for livestock-derived foods, not finished meat, poultry, milk, or dairy occurrence values.
 
 ## Key numbers
@@ -88,3 +90,17 @@ The paper documents a plausible livestock supply-chain pathway: feed-grade miner
 - Speciation check: As and Hg are not speciated in Table 2 or the summary text; they are recorded as tAs and tHg. The review discusses methylmercury in secondary toxicology examples, but no feed-grade supplement MeHg occurrence value is reported.
 - Units and basis are preserved as printed (`ppm`, `ppb`, dry matter, wet tissue, or wet tissue basis where stated). No values were converted or normalized.
 - Brand firewall: the table footnote names a data contributor, not sampled brands; no commercial source is tied to a contamination value.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

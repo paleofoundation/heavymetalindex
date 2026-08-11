@@ -17,7 +17,7 @@ metals: [Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/non-soy-infant-formula]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-dairy]]"]
 matrices: [infant-formula-powder, commercial-infant-formula]
-jurisdictions: [TR, EU]
+jurisdictions: [TR]
 near_duplicates: []
 sample_n: 72
 sample_population: "72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on milk, growing-up milk, premature formula, low-birth-weight formula, and additional specialty formula groups."
@@ -28,6 +28,8 @@ updated: 2026-05-19
 ---
 
 # Demir and Agaoglu 2023 - toxic elements in powdered infant formulas, Turkiye
+
+## Overview
 
 This study measured eleven elements (Al, Mn, Co, Cu, Zn, total As, Se, Cd, Sn, Pb, and total Hg) in 72 powdered infant formula samples from the Turkish market by ICP-MS and estimated age-group dietary intakes. The sample set is entirely powdered formula and largely cow-milk based, with groups covering standard infant formula, follow-on formula, growing-up milk, premature formula, low-birth-weight formula, and specialty formulas.
 
@@ -110,15 +112,15 @@ Microbiome: Not addressed.
 - Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Brodziak-Dopierała and Fischer 2023 — total mercury in fish from Polish retail
 
+## Overview
+
 Brodziak-Dopierała and Fischer measured total mercury in 68 fish purchased from points of sale across Poland in 2021-2022, covering 18 species split into 12 saltwater and 6 freshwater. Analysis used direct thermal-decomposition atomic absorption spectrometry (AMA 254). The range of Hg across all samples was 4-827 µg/kg wet weight; the arithmetic mean in marine fish (100 µg/kg) was higher than in freshwater fish (63 µg/kg), but the difference was not statistically significant (p = 0.097). Tuna species — yellowfin and Atlantic bluefin — carried the highest per-species means (265 and 278 µg/kg) and were the only two species in the dataset with Estimated Hazard Quotient values above 1 (1.22 and 1.28); for every other species tested, EHQ stayed below 1 and the authors classified consumption as low-risk. None of the per-sample values exceeded the EU regulatory ceilings under EC 1881/2006.
 
 ## Key numbers
@@ -131,14 +133,15 @@ Speciation: The paper measured total mercury by direct thermal-decomposition AAS
 Brand-firewall handling: No brand names appear in the source. Sample identification used species names and FAO catch areas only. Scientific-equipment vendor names (AMA 254 / Altec; IKA Analytical Mill; RADWAG balance; Statistica / Statsoft; MODAS CRMs from the Institute of Nuclear Chemistry and Technology and Technical University of Gdańsk) are retained per the Part 12 Exception 2 scientific-method carve-out.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [6c04f51](https://github.com/paleofoundation/heavymetalindex/commit/6c04f51) | 2026-06-03 | ingest: brodziak-dopierala2023-mercury-fish-poland [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

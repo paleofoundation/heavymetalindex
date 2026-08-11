@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # González-Arqueros et al. 2021 — Morelia closed-dump metals
 
+## Overview
+
 González-Arqueros and colleagues sampled urban solid waste (USW) from eight opencast wells in the closed dump of Morelia, Michoacán, Mexico, to test whether hazardous waste had been illegally co-confined with USW during the dump's 1997-2007 operational life. The closed site sits in the Trans-Mexican Volcanic Belt over a fractured, permeable recharge zone of an overexploited aquifer that supplies water to more than 120,000 people. This is primary environmental solid-waste evidence for metals and arsenic in landfill material, not occurrence evidence for food, ingredients, or consumer products.
 
 ## Key numbers
@@ -128,15 +130,15 @@ Merge-enhance 2026-06-02 (Claude, re-ingest under the v2 audit pipeline): matric
 The cite-key `gonzalez-arqueros2021-morelia-dump-metals` is preserved per merge-enhance discipline; an earlier in-session attempt under a different cite-key was discarded once it became clear the original committed page (commit fbdb9d1) had been deleted from disk in the working tree without being staged, producing a false-negative on the initial DOI grep.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0fc71d8](https://github.com/paleofoundation/heavymetalindex/commit/0fc71d8) | 2026-06-02 | ingest: gonzalez-arqueros2021-morelia-dump-metals [enhanced] from Manual Fetch Kimi /June 2 Manual Fetches |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [0fc71d8fe](https://github.com/paleofoundation/heavymetalindex/commit/0fc71d8fe) | 2026-06-02 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

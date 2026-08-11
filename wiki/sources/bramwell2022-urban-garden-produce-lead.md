@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Bramwell et al. 2022 - Urban garden produce and adult lead biomarkers
 
+## Overview
+
 Bramwell and colleagues tested whether gardening on Newcastle urban agriculture sites with elevated soil Pb translated into higher adult Pb body burdens. The main paper reports blood, saliva, soil, tap-water, and diet findings; it also summarizes Pb concentrations in fruits and vegetables collected for the same study, with root vegetables showing the highest mean Pb range among crop groups.
 
 ## Key numbers
@@ -74,3 +76,17 @@ App: Supports qualitative risk context that root vegetables grown in Pb-contamin
 ## Verification notes
 
 This page was built from the full PDF text, including the abstract, participant recruitment, biomonitoring methods, environmental sampling methods, results for blood Pb, saliva Pb, soil Pb, tap-water Pb, Table 3 consumption-rate context, and the discussion paragraph summarizing fruit and vegetable Pb concentrations. The source reports lead only. Produce values are summarized crop-group means from the associated Newcastle allotment study and are labeled here as summarized context rather than sample-level occurrence tables.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

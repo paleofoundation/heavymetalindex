@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Marinescu et al. 2020 - Romanian herbs and spices metals
 
+## Overview
+
 Marinescu et al. measured arsenic, cadmium, copper, iron, mercury, and lead in 42 Romanian medicinal-plant and culinary herb/spice samples. The spice subset covers dill, marjoram, oregano, peppermint, parsley, and thyme, with packaged samples and spontaneous-flora samples. The source is routeable occurrence evidence for herbs/spices and herbal-tea matrices, but packaged and wild-growing samples should not be silently pooled because the authors observed higher cadmium in spontaneous-flora spice samples.
 
 ## Key numbers
@@ -85,15 +87,15 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 The PDF title, byline, DOI, year, journal, sample descriptions, methods, and Tables III-IV values were read from the auto-fetched PDF. The paper reports element names without arsenic or mercury speciation, so arsenic and mercury are treated as total-element occurrence evidence. Packaged and wild-growing samples are source-distinct and should not be pooled without a logged basis decision. Matrix note: `spices` is a controlled matrix-map label; `medicinal-plants` and `herbal-teas` are source-scope descriptors retained to separate the medicinal-plant/herbal-tea portion of the source from the culinary-spice subset.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
-| [89904f9](https://github.com/paleofoundation/heavymetalindex/commit/89904f9) | 2026-06-03 | ingest auto-fetched 2026-06-03: marinescu2020-romanian-herbs-spices-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

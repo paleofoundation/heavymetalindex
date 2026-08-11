@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Dabeka 1995 - Canadian food composite metals
 
+## Overview
+
 Dabeka and McKenzie measured lead, cadmium, fluoride, nickel, and cobalt in Canadian total-diet food composites prepared from retail foods purchased in five cities during `1986-1988`. Lead and cadmium were analyzed in all city composite sets, while fluoride, nickel, and cobalt were city-limited. Fluoride is documented here because the paper reports it, but it is not lifted into the HMTc metals frontmatter.
 
 ## Key numbers
@@ -85,11 +87,15 @@ This source provides Canadian total-diet composite occurrence and intake context
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow total-diet composite slugs include canned luncheon meats, canned citrus fruit, canned peaches, canned pears, cherries, meat organs, potato chips, and soups, so broad product/category routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [df08614](https://github.com/paleofoundation/heavymetalindex/commit/df08614) | 2026-06-08 | ingest: dabeka1995-canadian-food-composites-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

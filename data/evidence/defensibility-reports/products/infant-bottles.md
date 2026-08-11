@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-bottles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 06cf3fa429f1b969ecb2d6c99e82eb75efd43c12bc00ba3860207eb56e6919f2
+source_page_sha256: 9ddd1625d6a30ec688074d1d715fa9f65222410428956cc43f22f257183d853e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=365a0b17-71fa-4c9d-8744-b35bc806b30e` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-contact-products-standard-build] · agreement=not_applicable · applied=2026-08-10T11:03:12.864Z · span=cat9-step0-lock-flags
 
 ## Claims by section
 

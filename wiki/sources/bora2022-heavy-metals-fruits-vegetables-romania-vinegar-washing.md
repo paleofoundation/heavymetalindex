@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Bora et al. 2022 — Heavy metals in Romanian fruits and vegetables, with vinegar washing reduction
 
+## Overview
+
 This study quantified total arsenic, cadmium, lead, and zinc in 80 fruit and vegetable samples from Galați County, Romania using ICP-MS, comparing contamination between vegetable/fruit market and amateur-farm produce, then testing 5% and 10% acetic-acid vinegar washing as a mitigation intervention. Market-sourced samples carried higher metal loads than amateur-farm samples across all four analytes (means up to 35% higher for As, 68% for Cd, 67% for Pb, 3% for Zn). Washing with 10% vinegar reduced As by 45%, Cd by 65%, and Pb by 33% relative to water-washed baselines, with the strongest per-commodity reductions reaching 93% (tomato As, tomato Cd) and 100% (red cherry tomato Pb); zinc was largely unaffected (~5–13% reduction). The page's downstream value is twofold: (1) Romanian occurrence data for 21 fresh-produce commodities across four metals on a fresh-weight basis, and (2) empirical evidence on acetic-acid washing as a partial-mitigation intervention for produce metals.
 
 ## Key numbers
@@ -191,15 +193,15 @@ Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original P
 Auto-audit subagent (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: `wiki/ingredients/onions.md` declares `aliases: [onion, garlic, allium-vegetables]` and `wiki/ingredients/squash.md` declares `aliases: [zucchini]`; the routing audit script (`tools/evidence/build-routing-audit.mjs` line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

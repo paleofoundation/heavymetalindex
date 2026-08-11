@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Masri et al. 2025 — Dietary consumption of toxicant-laden foods and beverages in Southern California
 
+## Overview
+
 This is a population dietary-intake study, not a contamination occurrence study. The authors deployed a one-week online food frequency questionnaire to 186 Southern California residents (60.8% adults, 39.2% adolescents) covering staple foods and the food categories most commonly targeted under California's Proposition 65 for lead and acrylamide exposure: root vegetables, rice, leafy greens, pasta/noodles, tea, juice, seafood, twenty individual herbs/spices, stuffed grape leaves, tamarind/chili candy, chocolate products, nutritional powders, and traditional beverage powders such as matcha. The study reports daily intake (g/day), portion size, eating-occasion frequency, and home-food behaviors (homegrown food, store-bought soil use, tap-water reliance, pre-1978 housing) by age and race/ethnicity, then uses one Prop 65 consent-judgment threshold to demonstrate the magnitude of underestimated single-day lead exposure from stuffed grape leaves. The contribution to the Heavy Metal Index corpus is **exposure-side**: it provides population intake denominators that downstream synthesis can multiply against published contamination concentrations to estimate dietary exposure, and it documents underestimation patterns in Prop 65's product-by-product exposure assessment methodology for herbs and spices (which cumulate to ~8.3 g/day mean across the food category but are conventionally assessed at a 0.5 g RACC per single herb). The study itself measures no metal concentrations and proposes no contamination thresholds.
 
 ## Key numbers
@@ -334,12 +336,15 @@ The paper references the following lead ceilings as context for population expos
 - 2026-06-08 — Audit subagent flagged an in-paper race/ethnicity figure discrepancy: §3.1 narrative (PDF page 5) reports Asian/Pacific Islander 38.3%, Latino/Hispanic 22.9%, White/Caucasian 11.2%, while Table 1 (page 6) reports 40.9% (n=76), 28.0% (n=52), 11.8% (n=22) for the same groups. The wiki page reproduces Table 1 (the formal demographic table) rather than the §3.1 narrative because Table 1 carries the cell counts and is the consistent source for the gender (62.9% / 36.0% / 1.1%) and education breakdowns the wiki also uses. The §3.1 narrative figures appear to be an editorial error in the manuscript; the Table 1 figures are internally consistent (sum to 100% across the six race/ethnicity rows excluding rounding). Flagged here so downstream synthesis using this source is aware of the source-internal inconsistency.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3ce252a](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a) | 2026-06-08 | audit: masri2025-toxicant-foods-california revised |
-| [54c9910](https://github.com/paleofoundation/heavymetalindex/commit/54c9910) | 2026-06-08 | ingest: masri2025-toxicant-foods-california fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

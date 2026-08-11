@@ -50,22 +50,18 @@ const productSlug = args.get("product") ?? "infant-formula-powder-non-soy"
 // AI implementation acknowledgment lives in the Provenance Footer, NOT in
 // the byline. Claude is a tool that can't testify; putting it in the
 // authors line invites mockery without supplying a defense witness.
-const authorsList = (args.get("authors") ?? "Karen Pendergrass, Standards Architect, Paleo Foundation")
+const authorsList = (args.get("authors") ?? "Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)")
   .split(";")
   .map((s) => s.trim())
   .filter(Boolean)
 const implementationCredit = args.get("implementation-credit") ??
   "Methodology implementation: deterministic open-source pooling engine and document generator (this file's repository at the commit named in the Provenance Footer). Engine code and document templates were drafted with AI assistance (Claude, Anthropic) under the supervision and direction of the Standards Architect. All policy decisions, methodology choices, source-admission rules, basis conventions, and final values are the Standards Architect's; the AI assistance is a calculator-and-drafter, not a co-author."
 const ceoDualRoleNote = args.get("ceo-dual-role-note") ??
-  "Karen Pendergrass also serves as CEO of the Paleo Foundation, which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title."
+  "Karen Pendergrass also serves as CEO of the Institute of Contaminant Standards (ICS), which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title."
 
 // HMTc-10 analyte order (per CLAUDE.md Part 19, ordered for briefing readability)
 const ANALYTE_ORDER = ["Pb", "iAs", "tAs", "Sn", "Ni", "Cd", "Cr-VI", "Al", "tHg", "MeHg"]
 
-// HMTc primary increment ladder (per the hmtc-standards skill rule #4)
-const INCREMENT_LADDER = [
-  0.5, 1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000,
-]
 
 // MeHg read-across constants
 const MEHG_LOQ_PPB = 0.1            // typical ICP-MS-HG LOQ for MeHg in formula
@@ -128,6 +124,35 @@ function loadPooledRows(slug) {
   return parseCsv(text).filter((r) => r.product_slug === slug)
 }
 
+// Cells flagged in the outlier-adjudication register are HELD PROVISIONAL — they
+// render "adjudication pending", never a firm published value, until adjudicated
+// (Karen global-pool-flag-and-adjudicate policy, 2026-06-16).
+function loadAdjudicationFlags(slug) {
+  const p = path.join(path.dirname(pooledPath), "standards-outlier-adjudication.csv")
+  const flags = new Map()
+  if (!fs.existsSync(p)) return flags
+  for (const r of parseCsv(fs.readFileSync(p, "utf8"))) {
+    // A CLEARED disposition means the flag was reviewed and the cell may publish
+    // (e.g. a regulatory cap binds below an outlier tail, so the outlier is immaterial).
+    // Only HELD / pending cells render "adjudication pending".
+    if (r.row_slug === slug && !/^cleared/i.test(r.disposition || ""))
+      flags.set(r.metal_species, r.flag || r.disposition || "under review")
+  }
+  return flags
+}
+
+// Cells in the not-material registry render a DEFINITIVE "not material" judgment — the analyte
+// is structurally not a contaminant for this matrix (lipid non-partition, permitted additive,
+// natural accumulator). This is a resolved scientific call, distinct from "adjudication pending".
+function loadNotMaterial(slug) {
+  const p = path.join(path.dirname(pooledPath), "standards-not-material.csv")
+  const flags = new Map()
+  if (!fs.existsSync(p)) return flags
+  for (const r of parseCsv(fs.readFileSync(p, "utf8")))
+    if (r.row_slug === slug) flags.set(r.metal_species, r.rationale || "not a material contaminant for this matrix")
+  return flags
+}
+
 function indexRegulations() {
   const map = new Map()
   if (!fs.existsSync(regulationDir)) return map
@@ -157,6 +182,8 @@ function indexRegulations() {
 
 function buildAnalyteRecords(product, pooledRows, regs) {
   const rowByMetal = new Map(pooledRows.map((r) => [r.metal_species, r]))
+  const adjFlags = loadAdjudicationFlags(product.slug)
+  const notMaterialFlags = loadNotMaterial(product.slug)
   const records = []
   for (const metal of ANALYTE_ORDER) {
     const pooled = rowByMetal.get(metal)
@@ -225,7 +252,19 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       methodologyChain = null
     }
 
-    const published = candidate !== null ? roundToLadder(candidate) : null
+    // Round DOWN to 2 sig figs so a published limit is never looser than the
+    // pooled evidence (a ratcheting program must not loosen a standard through
+    // rounding — the old round-UP-to-ladder did, e.g. 1829 → 2000). When a
+    // regulatory cap binds, publish the cap EXACTLY (Governing Principle 4: a
+    // published value may never exceed the cap, and the ML is a precise legal number).
+    let published
+    if (candidate === null) {
+      published = null
+    } else if (capValue !== null && candidate >= capValue - 1e-9) {
+      published = capValue
+    } else {
+      published = roundStandardDown(candidate)
+    }
     const ciLo = numericOrNull(pooled.target_ci_lo)
     const ciHi = numericOrNull(pooled.target_ci_hi)
     const cross = crossBasisEquivalent(candidate, basis)
@@ -237,6 +276,10 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       candidate,
       candidate_precise: candidate,
       candidate_published: published,
+      adjudication_pending: adjFlags.has(metal),
+      adjudication_flag: adjFlags.get(metal) || "",
+      not_material: notMaterialFlags.has(metal),
+      not_material_reason: notMaterialFlags.get(metal) || "",
       candidate_basis: basis,
       candidate_cross_basis: cross,
       rationale,
@@ -263,18 +306,35 @@ function buildAnalyteRecords(product, pooledRows, regs) {
   return records
 }
 
-function roundToLadder(value) {
-  if (value === null || value === undefined || !Number.isFinite(value)) return null
-  // Round UP to the next ladder bin (more conservative for limits).
-  for (const bin of INCREMENT_LADDER) {
-    if (bin >= value) return bin
-  }
-  return INCREMENT_LADDER[INCREMENT_LADDER.length - 1]
+// Round a literature value DOWN to `sig` significant figures. Rounding toward
+// zero guarantees a published standard is never looser than the pooled evidence —
+// the direction a ratcheting program must round. (Replaces round-UP-to-ladder,
+// which loosened: 1829 → 2000, and a 300 ppb value → 500.) Mirrors
+// roundStandardDown in build-standards-catalog.mjs.
+function roundStandardDown(value, sig = 2) {
+  if (value === null || value === undefined || !Number.isFinite(value) || value <= 0) return null
+  const magnitude = Math.floor(Math.log10(value))
+  const factor = Math.pow(10, magnitude - (sig - 1))
+  return Math.round(Math.floor(value / factor) * factor * 1e6) / 1e6
+}
+
+// Basis predicate: an as-sold-native category (seafood, oils, etc.) is sold and consumed
+// in the same edible-tissue/as-sold basis. It has NO powder→prepared reconstitution
+// partner, so the 1:7 reconstitution conversion does not apply and no cross-basis
+// [prepared] column should be emitted. The 1:7 ratio is specific to infant formula
+// (powder_as_placed). Lumping as_sold into the reconstitution set is the bug that put a
+// meaningless "≈ X ppb [prepared] (÷7)" column on fish/shellfish rows.
+function isAsSoldBasis(basis) {
+  return basis === "as_sold" || basis === "as_sold_or_source_reported"
 }
 
 function crossBasisEquivalent(value, basis) {
   if (value === null || value === undefined) return null
-  const POWDER = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
+  // Only true powder rows reconstitute 1:7. as_sold / as_sold_or_source_reported have no
+  // prepared partner → no cross-basis. (dry_as_sold is left here to preserve the Cat-1
+  // infant-cereal manual's exact reproduction on regeneration; its 1:7 is a separate
+  // infant-review item, not a seafood concern.)
+  const POWDER = new Set(["powder_as_placed", "dry_as_sold"])
   const PREPARED = new Set(["prepared_for_feeding", "as_consumed"])
   if (POWDER.has(basis)) {
     return {
@@ -335,10 +395,10 @@ function renderBriefing(product, analytes, sourceLookup) {
     renderTitle(productLabel, variantRole, nativeBasis, today),
     renderAudienceMap(),
     renderMasterLimitTable(analytes),
-    renderMethodologyOnePage(),
+    renderMethodologyOnePage(nativeBasis),
     renderPerAnalyteSections(analytes, sourceLookup),
-    renderAdversarialRead(analytes),
-    renderAntiCircumvention(),
+    renderAdversarialRead(analytes, nativeBasis),
+    renderAntiCircumvention(nativeBasis),
     renderPrePublicationChecklist(analytes),
     renderSourcesCited(analytes, sourceLookup),
     renderProvenanceFooter(),
@@ -394,18 +454,26 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 function renderMasterLimitTable(analytes) {
   const rows = analytes
     .map((a) => {
-      const limit = a.candidate_published !== null
-        ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
-        : "*data gap*"
-      const cross = a.candidate_cross_basis
-        ? `≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
+      const limit = a.not_material
+        ? `_not material_`
+        : a.adjudication_pending
+        ? `_adjudication pending_`
+        : a.candidate_published !== null
+          ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
+          : "*data gap*"
+      const cross = (!a.not_material && a.candidate_cross_basis)
+        ? `≈ ${formatNumber(roundStandardDown(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
         : ""
       // Show the pre-cap pooled P97 explicitly when the cap binds — that's
       // what the methodology produced before regulatory-alignment capped it.
       // For non-cap-bound rows, pooled P97 == candidate. For MeHg read-across
       // rows, pooled P97 is null and we show the read-across-derived value.
       let precise
-      if (a.is_mehg_readacross) {
+      if (a.not_material) {
+        // Show the pool we saw, marked as deliberately not standardized — transparency that
+        // the value was seen and declined as not-material, not missed.
+        precise = a.pooled_p97 !== null ? `${formatNumber(a.pooled_p97, 3)} ppb (pool not standardized — not material)` : "—"
+      } else if (a.is_mehg_readacross) {
         precise = `${formatNumber(a.candidate_precise, 3)} ppb (read-across)`
       } else if (a.pooled_p97 !== null && a.candidate_precise !== null && a.pooled_p97 > a.candidate_precise + 0.01) {
         precise = `${formatNumber(a.pooled_p97, 3)} ppb (capped to ${formatNumber(a.candidate_precise)} by reg cap)`
@@ -436,7 +504,10 @@ ${rows}
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: \`literature-baseline\` (pooled value binds), \`regulatory-alignment\` (regulatory ceiling binds), \`feasibility-driven\` (analytical method binds), and \`precautionary\` (manual override below pooled and regulatory).`
 }
 
-function renderMethodologyOnePage() {
+function renderMethodologyOnePage(nativeBasis) {
+  const basisPara = isAsSoldBasis(nativeBasis)
+    ? `**Basis.** Each product row's standard is published in the native basis of the product form, the form as sold and placed on market. Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.`
+    : `**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.`
   return `## Methodology — one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -447,7 +518,7 @@ function renderMethodologyOnePage() {
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+${basisPara}
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is \`regulatory-alignment\`. When the pooled value is below the cap, the rationale is \`literature-baseline\` and the cap is shown for context only.
 
@@ -464,22 +535,27 @@ function renderPerAnalyteSections(analytes, sourceLookup) {
 }
 
 function renderOneAnalyte(a, sourceLookup) {
-  const lim = a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
-  const precise = a.candidate_precise !== null ? `${formatNumber(a.candidate_precise, 3)} ppb (pre-rounding)` : ""
-  const cross = a.candidate_cross_basis
-    ? `Cross-basis: ≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
+  const lim = a.not_material ? `**not material** — ${a.not_material_reason}` : a.adjudication_pending ? `adjudication pending — held provisional (${a.adjudication_flag})` : a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
+  // Suppress the pre-rounding pooled value for not-material cells — there is no published number.
+  const precise = (!a.not_material && a.candidate_precise !== null) ? `${formatNumber(a.candidate_precise, 3)} ppb (pre-rounding)` : ""
+  // A not-material cell has no published number — suppress every value-derived render
+  // (cross-basis, CI, numeric sensitivity, and the "tests at or below X ppb" retailer callouts).
+  const cross = (!a.not_material && a.candidate_cross_basis)
+    ? `Cross-basis: ≈ ${formatNumber(roundStandardDown(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
     : ""
-  const ci = a.ci_lo !== null && a.ci_hi !== null
+  const ci = (!a.not_material && a.ci_lo !== null && a.ci_hi !== null)
     ? `Bootstrap 95% CI: [${formatNumber(a.ci_lo, 2)}, ${formatNumber(a.ci_hi, 2)}] ppb`
     : ""
-  const sens = a.sens_lognormal !== null
+  const sens = a.not_material
+    ? ""
+    : a.sens_lognormal !== null
     ? `Sensitivity: log-normal ${formatNumber(a.sens_lognormal, 2)} · gamma ${formatNumber(a.sens_gamma, 2)} · nonparametric ${formatNumber(a.sens_nonparametric, 2)} ppb · spread ${a.sens_spread_pct ?? "—"}% (${a.sensitivity_band})`
     : a.sensitivity_band
 
   const sourcesBlock = renderAnalyteSources(a.contribution_log, sourceLookup)
   const methodologyBlock = a.methodology_chain ? renderMeHgChain(a.methodology_chain) : ""
   const defensibility = renderAnalyteDefensibility(a)
-  const audienceCallouts = renderAudienceCallouts(a)
+  const audienceCallouts = a.not_material ? "" : renderAudienceCallouts(a)
 
   return `### ${a.metal}
 
@@ -569,10 +645,15 @@ ${rows}
 </details>`
 }
 
-function renderAdversarialRead(analytes) {
+function renderAdversarialRead(analytes, nativeBasis) {
   const provisional = analytes.filter((a) => a.sensitivity_band === "provisional")
   const feasibility = analytes.filter((a) => a.rationale === "feasibility-driven")
   const capBound = analytes.filter((a) => a.rationale === "regulatory-alignment")
+  const attack7 = isAsSoldBasis(nativeBasis)
+    ? `**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.`
+    : `**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
+Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.`
   return `## Adversarial Read — what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -589,14 +670,16 @@ Response: P45 of the dirty subcategory's distribution, applied per-analyte, deli
 ${capBound.length > 0 ? `**Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
 Response: For ${capBound.map((a) => a.metal).join(", ")}, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.\n\n` : ""}${provisional.length > 0 ? `**Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
 Response: The sensitivity bands are explicitly reported per analyte. ${provisional.length} analytes (${provisional.map((a) => a.metal).join(", ")}) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.\n\n` : ""}${feasibility.length > 0 ? `**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
-Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged \`feasibility-driven\` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.\n\n` : ""}**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged \`feasibility-driven\` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.\n\n` : ""}${attack7}
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.`
 }
 
-function renderAntiCircumvention() {
+function renderAntiCircumvention(nativeBasis) {
+  const move3 = isAsSoldBasis(nativeBasis)
+    ? `**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.`
+    : `**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.`
   return `## Anti-Circumvention — the six-move argument
 
 Per the hmtc-standards skill rule #6, every Standards Briefing publishes the anti-circumvention argument that defends the program against the most common evasion strategies. The six moves are:
@@ -605,7 +688,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+${move3}
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 
@@ -625,7 +708,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 |---|---|---|
 | 1 | All HMTc-10 analytes have a row in the Master Limit Table | ${analytes.length === 10 ? "✓ PASS" : `✗ FAIL (${analytes.length} of 10)`} |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ${analytes.every((a) => ["literature-baseline", "regulatory-alignment", "feasibility-driven", "precautionary", "no-data"].includes(a.rationale)) ? "✓ PASS" : "✗ FAIL"} |
-| 3 | Every published value is on the primary increment ladder | ${analytes.filter((a) => a.candidate_published !== null).every((a) => INCREMENT_LADDER.includes(a.candidate_published)) ? "✓ PASS" : "✗ FAIL"} |
+| 3 | Every published value rounds toward the evidence (≤ the precise candidate; never loosened) | ${analytes.filter((a) => a.candidate_published !== null).every((a) => a.candidate_precise === null || a.candidate_published <= a.candidate_precise + 1e-9) ? "✓ PASS" : "✗ FAIL"} |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ${analytes.every((a) => a.candidate_published === null || a.cap_value === null || a.candidate_published <= a.cap_value) ? "✓ PASS" : "✗ FAIL"} |
 | 5 | Every basis-tagged value carries the cross-basis equivalent | ${analytes.filter((a) => a.candidate_published !== null).every((a) => a.candidate_cross_basis !== null) ? "✓ PASS" : "⚠ partial (non-formula rows may have no defined cross-basis)"} |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |

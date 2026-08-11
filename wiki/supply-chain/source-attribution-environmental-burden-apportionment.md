@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Source attribution and environmental burden apportionment
 
+## Overview
+
 The other supply-chain hubs in this index follow a metal from the environment into the food: soil to plant, water to fish, deposition to leaf. This hub asks the question that sits one step further upstream, before any of those pathways begins. It does not ask how a metal reaches the food but how the metal came to be in the shared environment in the first place, and which human activity put it there. A cadmium atom in a cacao bean arrived by root uptake from soil, but the cadmium in that soil may have come from the parent rock, from decades of phosphate-fertiliser application, from atmospheric fallout off a distant smelter, or from sewage sludge spread as an amendment, and those origins are not interchangeable. Source attribution is the body of method that separates them. This page is the cross-cutting hub for that literature; it spans the soil, aquatic, atmospheric, and irrigation-water pathways rather than sitting inside any one of them, it sets out the apportionment methods the field uses, it catalogues the principal anthropogenic sources those methods repeatedly identify, and it states plainly both the strategic value of the evidence and the quantitative discipline that keeps it honest.
 
 ## What apportionment evidence is, and what it is not
@@ -29,3 +31,17 @@ The commercial significance of this corpus follows directly from what it documen
 ## How this evidence connects to the ingredient and metal pages
 
 Source-attribution sources are upstream evidence in the same sense as the soil and water hubs, and the routing layer attaches each one to the consumable it informs as exposure and provenance context rather than as direct food-occurrence evidence. A receptor-model study apportioning the cadmium in a cacao-growing region's soils supports the synthesis on [cocoa](/ingredients/cocoa) by explaining how much of the burden is geogenic and how much follows from fertiliser and deposition, and it connects to [cadmium](/metals/cadmium); an isotopic study fingerprinting the lead in an urban or roadside soil supports [root-vegetables](/ingredients/root-vegetables) and [leafy-vegetables](/ingredients/leafy-vegetables) and connects to [lead](/metals/lead); a sediment-apportionment study in an estuary or coastal shelf supports [fish](/ingredients/fish), [seafood](/ingredients/seafood), [shellfish](/ingredients/shellfish), and [molluscs](/ingredients/molluscs) by characterising the metal load of the water body in which the catch accumulates its burden, with mercury attribution connecting to [methylmercury](/metals/mercury-methyl); an irrigation-water or geogenic-groundwater attribution in a paddy region supports [rice](/ingredients/rice) and connects to [inorganic arsenic](/metals/arsenic-inorganic). In every case the attached source explains provenance and does not supply a food concentration. Because the apportionment question cuts across pathways, this hub is the natural companion to the pathway-specific hubs that carry the burden the rest of the way to the plate: the [atmospheric deposition](/supply-chain/atmospheric-deposition) hub, the [irrigation water and soil amendments](/supply-chain/irrigation-and-soil-amendments) hub, the established [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub, and the aquatic-bioaccumulation hub that will sit alongside them in this section, each of which takes a source identified here and traces it forward into a measured food-occurrence record.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

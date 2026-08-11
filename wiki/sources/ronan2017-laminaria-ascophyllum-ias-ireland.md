@@ -26,6 +26,8 @@ sampling_year_range: 2015
 
 # Ronan 2017 — Inorganic vs total arsenic across thallus parts of kelp (L. digitata) and wrack (A. nodosum)
 
+## Overview
+
 Ronan and colleagues measured total arsenic and inorganic arsenic (as As(V)) by ICP-MS and HPLC-ICP-MS across the different thallus parts of two wild Irish brown seaweeds: the kelp *Laminaria digitata* and the intertidal wrack *Ascophyllum nodosum*. Total arsenic was similar between species (36–131 mg/kg dry weight in *L. digitata*, 38–111 in *A. nodosum*), but the inorganic fraction diverged sharply: inorganic arsenic was always below 1% of total in *A. nodosum* (≤0.703 mg/kg DW) yet reached 2.2–87 mg/kg DW in *L. digitata*, rising along the thallus from the stipe to the decaying distal blades and exceeding 50% of total arsenic in the middle, distal, and decaying-distal blades. This establishes that high inorganic arsenic in edible seaweed is not confined to hijiki: kelp harvested from a clean site carried inorganic arsenic an order of magnitude above the French (3 mg/kg) and Australia–New Zealand (1 mg/kg) seaweed limits.
 
 ## Key numbers
@@ -74,12 +76,15 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f732e64](https://github.com/paleofoundation/heavymetalindex/commit/f732e64) | 2026-06-08 | audit: ronan2017-laminaria-ascophyllum-ias-ireland revised |
-| [ab2b5a0](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a0) | 2026-06-08 | ingest: ronan2017-laminaria-ascophyllum-ias-ireland fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

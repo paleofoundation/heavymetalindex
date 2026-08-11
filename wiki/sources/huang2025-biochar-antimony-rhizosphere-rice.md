@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Huang et al. 2025 - Biochar, antimony, rhizosphere-rice system
 
+## Overview
+
 Huang and colleagues ran a five-month rice pot experiment in mining-contaminated soil from Dongzhi County, Anhui Province, China to test how a 3% addition of Paulownia bio-waste biochar reshapes antimony bioavailability, soil-fraction redistribution, and root-to-grain translocation across four rice growth stages. The source is primary evidence for antimony behaviour in a rhizosphere-rice system under a contaminated-field intervention, not a market-basket distribution. Total soil Sb was 94.41 mg/kg (contaminant factor 38.35, "high contamination" category) and grain Sb in the biochar-amended treatment rose slightly from 0.35 to 0.38 mg/kg, so the grain values should be routed as agronomic-intervention evidence rather than a normal commercial-rice benchmark pool.
 
 ## Key numbers
@@ -133,15 +135,15 @@ DOI `10.3390/toxics13050389` matches the published PDF; Toxics 2025, 13, 389 wit
 Fresh-context audit subagent (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) clean or near-clean. Findings applied: (a) Eh S1-BC Span-column cell mislabel — verified against PDF p.6 (S1-BC Eh "decreased from 379.28 mV to 114.85 mV" CK-to-MAT is -69.72%; the "2.73-27.46%" range is the per-stage reduction of S1-BC vs matched S1 stage); cell relabeled to disambiguate both quantities. (b) Methods detail — added the 0.22 microm filtration step for the plant Sb digest and corrected "Microsoft Excel 2010" to "Microsoft 2010" per the exact PDF p.5 wording. Findings rejected as false positives: (c) Check 2 ❌ on `[[supply-chain/soil-to-plant-transfer]]` and `[[mitigation/agronomic]]` — both wikilinks resolve to live wiki pages (`wiki/supply-chain/soil-to-plant-transfer.md` and `wiki/mitigation/agronomic.md`) and are precedented across many other source pages (sun2023, lu2025, wang2020, rusanescu2023, etc.); the taxonomy snapshot is intentionally scoped to Ingredients / Products / Metals / Regulations only and does not enumerate the supply-chain or mitigation namespaces. (d) Check 2 ⚠️ matrices vocabulary concern — the soil and plant-organ matrices entries (`rhizosphere-soil`, `contaminated-paddy-soil`, `biochar-amended-paddy-soil`, `rice-plant-organs`, `rice-grain`) are precedented in the comparable rice-and-biochar source `sun2023-biochar-rice-cadmium-field`; the matrices vocabulary covers study-design matrix descriptors, not just consumer-food matrices.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [bd8e306](https://github.com/paleofoundation/heavymetalindex/commit/bd8e306) | 2026-06-02 | audit: huang2025-biochar-antimony-rhizosphere-rice revised |
-| [bc3330c](https://github.com/paleofoundation/heavymetalindex/commit/bc3330c) | 2026-06-02 | ingest: huang2025-biochar-antimony-rhizosphere-rice fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

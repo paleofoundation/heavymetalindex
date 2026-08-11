@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # Health Canada 2008 — Review of dietary exposure to aluminum (Q&A overview)
 
+## Overview
+
 In the wake of the 2006 Joint FAO/WHO Expert Committee on Food Additives (JECFA) re-evaluation of aluminum toxicology and its associated reduction of the Provisional Tolerable Weekly Intake (PTWI), Health Canada's Bureau of Chemical Safety (BCS) initiated a review of aluminum in foods available in Canada. This archived Canada.ca page is the public-facing Q&A overview that accompanies the BCS industry-information request documented separately in `hc2008-aluminum-food-additives-industry-request.md`. The Q&A frames why the review was initiated, how aluminum enters the Canadian food supply (naturally occurring background, aluminum-containing food additives, and migration from cookware/packaging), how Canadian additive permissions are administered (pre-clearance, Good Manufacturing Practice convention, numerical maximum levels), how dietary exposure is monitored (Canadian Total Diet Study), and what health effects are associated with aluminum exposure at the population level. The page also notes a parallel Health Canada/Environment Canada review of aluminum under the Canadian Environmental Protection Act, 1999 (CEPA 1999) Priority Substances framework. The page is archived ("we have archived this page and will not be updating it"; Date modified 2025-04-02 reflects formatting, not content) and is preserved here as the Canadian regulatory communication record of how Health Canada explained the 2006 JECFA-triggered aluminum review to the public.
 
 ## Key numbers
@@ -90,7 +92,7 @@ Regulatory-communication document, not an analytical study. The page is the Q&A 
 - Cite-key follows the same agency-and-year pattern (`hc2008-`) as the companion industry-letter source page; the suffix `review-dietary-exposure-aluminum` mirrors the canada.ca URL slug `review-dietary-exposure-aluminum.html`.
 - The "Date modified: 2025-04-02" at the foot of the archived page reflects formatting/archive maintenance, not substantive content revision; year is recorded as 2008 (the contemporaneous period when BCS initiated the review and distributed the companion industry letter dated July 03, 2008).
 - `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same Manual Fetch Kimi/June 3 Folder; both files are the same size (105,422 bytes) — flagged for downstream dedupe.
-- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]`, `[[regulations/jecfa-aluminum-ptwi]]`, or `[[regulations/cepa-1999-priority-substances-aluminum]]` page exists in the current taxonomy snapshot; the document references all three substantively and they are flagged here as backlog regulation-page candidates — NOT created here, since regulation pages require a hard agency identifier per CLAUDE.md Part 10.
+- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]`, `[[regulations/jecfa-aluminum-ptwi]]`, or `[[regulations/cepa-1999-priority-substances-aluminum]]` page exists in the current taxonomy snapshot; the document references all three substantively and they are flagged here as backlog regulation-page candidates — NOT created here, since regulation pages require a hard agency identifier.
 - Frontmatter `ingredients` populated with the in-taxonomy slugs whose pages correspond to foods named in the page body (`processed-american-cheese` for processed cheeses, `wheat` for flour, `water` for the drinking-water-treatment use of aluminum compounds). `products`: `flour-non-rice` only (the only in-snapshot product slug that maps to a named additive-bearing food in this Q&A page; baking powder, processed cheese spreads beyond `processed-american-cheese`, sea urchin roe, and icing sugar lack closer in-snapshot slugs and are captured via the matrices entries).
 - `jurisdictions` includes `GLOBAL` alongside `CA` because the JECFA PTWI revision is an international determination cited as the trigger for the Canadian-jurisdictional review; the page's content is otherwise Canada-specific.
 - The page is a qualitative regulatory communication; only one numerical occurrence/ceiling value (350 ppm potassium aluminum silicate in sea urchin roe) is present in the text. Other quantitative content (Division 16 maximum levels of use across the full list of aluminum-containing additives, JECFA 7 → 1 mg/kg bw/week PTWI revision) is captured on the companion sister page and not duplicated here.
@@ -103,11 +105,15 @@ Regulatory-communication document, not an analytical study. The page is the Q&A 
 - [[regulations/efsa-aluminium-twi]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: childrens-nail-polish
 public_page: products/childrens-nail-polish
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Children's Nail Polish (ages 0-5)

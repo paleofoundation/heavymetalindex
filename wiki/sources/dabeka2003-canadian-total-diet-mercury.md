@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Dabeka 2003 - Canadian total-diet mercury
 
+## Overview
+
 Dabeka, McKenzie, and Bradley measured total mercury in Canadian total-diet food composites from Whitehorse and Ottawa. The paper reports total mercury occurrence by composite and food category, plus age/sex dietary-intake estimates. Mercury is not speciated in the occurrence data; comparisons to methylmercury guidance values are risk-context estimates rather than measured MeHg.
 
 ## Key numbers
@@ -98,11 +100,15 @@ This source supplies Canadian total-diet evidence for total mercury, with fish a
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow slugs include composite-fish subtypes and fast-food composite types, so broad routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [9e5a91a](https://github.com/paleofoundation/heavymetalindex/commit/9e5a91a) | 2026-06-08 | ingest: dabeka2003-canadian-total-diet-mercury fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

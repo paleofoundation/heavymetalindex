@@ -6,7 +6,7 @@ title: "Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed i
 authors: [Rubio C, Gutiérrez AJ, Hardisson A, Martín V, Revert C, Fernandes PJP, Lopes DJH, Paz-Montelongo S]
 year: 2023
 publication: "Biological Trace Element Research"
-doi: 10.1007/s12011-023-03644-4
+doi: "10.1007/s12011-023-03643-x"
 access_url: "https://doi.org/10.1007/s12011-023-03644-4"
 source_type: peer-reviewed
 evidence_tier: A
@@ -27,6 +27,8 @@ updated: 2026-05-13
 ---
 
 # Rubio et al. 2023 — Cd, Pb, Hg in cereals from Madeira and Azores
+
+## Overview
 
 Rubio and colleagues measured cadmium, lead, and total mercury in cereals and cereal derivatives commercially sold in Madeira and the Azores (Portugal's Atlantic island archipelagos) and assessed dietary exposure against EU regulatory maxima and tolerable intake values. The study found widespread exceedances of EU maximum levels: in Madeira, all cereals except maize exceeded the EU Cd maximum, and 50% of rye and 25% of corn flour samples exceeded the EU Pb limit. Oats showed the highest Cd (0.307 mg/kg) and rye showed the highest Pb (0.347 mg/kg). The results indicate that consumers relying on locally sold cereals in these island territories face meaningful dietary exposures to Cd and Pb, with Margin of Exposure (MOE) values for Pb from rye and corn flour falling below levels generally considered to indicate low concern for toxicity.
 
@@ -72,15 +74,15 @@ App: Rye, oats, and corn flour from Atlantic island origins are flagged risk ing
 - [[regulations/eu-1881-2006]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Manouchehri et al. 2021 — Heavy metals in honey: systematic review (Uludag Bee Journal)
 
+## Overview
+
 This systematic review from Iranian and Turkish authors, published in the Turkish Uludag Bee Journal, evaluates the presence of toxic and carcinogenic heavy metals in honey, covering bee uptake pathways (contaminated water, pollen, nectar, inhalation during flight, adhesion to hairy body surfaces), the health effects of consuming contaminated honey, and findings from studies across multiple countries. Bees act as biomonitors for environmental heavy metal pollution, and honey from industrial areas consistently shows higher metal levels than honey from rural regions. Key geographic findings reviewed include: in Iran, most honey samples showed low contamination but Cd and Hg exceeded permitted limits in some regions tied to industrial proximity; in Croatia and Kosovo, Pb content was higher than reported in other European countries; in Nigeria, Fe, Cu, Mn, and Zn exceeded WHO/FAO permitted levels; studies in Turkey showed a direct correlation between honey metal contamination rates and proximity to industrial centres. The review also describes Pb and Sn migration as a storage-container pathway for acidic honey.
 
 ## Key numbers
@@ -100,15 +102,15 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 - 2026-05-18 audit-subagent finding (verified against Table 1 column order on PDF p.240): the prior Magna et al. 2018 Ghana bullet transposed Pb and Ni — the 79.815 ± 16.796 value sits in the Lead column, not the Nickle column. Corrected, and the false WHO/FAO Ni-exceedance synthesis statement that accompanied it (the actual WHO/FAO-exceedance statement in the review is for Toma et al. Nigeria Fe/Cu/Mn/Zn, not Magna Ghana Ni) was removed. The audit subagent also flagged the Aljedani Saudi Arabia bullet for attribution ambiguity between Table 1 and the discussion text (the same "0.008 ± 0.008" value is attributed to Aljedani in Table 1 and to Saghaei in the p.242 discussion); the bullet was dropped because the review's internal inconsistency makes it unusable as a citation. Sajtos Hungary method label was reconciled by noting Table 1 (ICP-OES) and the cited paper title (MP-AES) disagree.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

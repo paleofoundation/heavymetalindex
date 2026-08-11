@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Jadhav and Medynska-Juraszek 2025 — Microplastics as modifiers of heavy metal uptake in lettuce
 
+## Overview
+
 This controlled pot study examines how different microplastic types alter heavy metal mobility and uptake in lettuce grown in contaminated soil. It is an a3 soil-to-plant-transfer and pathway paper rather than a benchmark occurrence paper because the matrix is experimentally contaminated soil under greenhouse conditions. The paper matters because it shows how co-contaminants such as microplastics can change cadmium and lead behavior in crop systems.
 
 ## Key numbers
@@ -57,3 +59,17 @@ Health: The food-safety framing is still relevant because the edible plant tissu
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [40fcf5462](https://github.com/paleofoundation/heavymetalindex/commit/40fcf5462) | 2026-06-15 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

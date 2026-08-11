@@ -30,6 +30,8 @@ updated: 2026-05-17
 
 # OPSS / Axford et al. 2023 — UK market survey of Sb, tAs, Cd, Pb, tHg in 91 cosmetics; international regulatory feasibility review
 
+## Overview
+
 This report is a UK government feasibility study commissioned by the Office for Product Safety and Standards (OPSS) and executed by LGC under Contract FM21190. It combines (1) a comprehensive international review of regulatory limits and non-regulatory guidance values for technically-unavoidable heavy-metal impurities (Sb, As, Cd, Pb, Hg) in cosmetic products, (2) identification and verification of a fit-for-purpose analytical method based on ISO 21392:2021 (microwave-assisted HNO₃/HCl ± HF digestion + ICP-MS), and (3) a small UK-market survey of 91 cosmetic products covering 10 product types across high-street and online retailers. The report concludes that the German BVL guidance values (Sb <0.5, As <0.5, Cd <0.1, Pb <2.0 general / <0.5 toothpaste / <5.0 theatre-make-up, Hg <0.1 mg/kg) can be applied to the UK market with minimal impact at the 90 % compliance threshold the BVL itself uses, with eye shadow as the principal exception (3 of 9 eye-shadow samples exceeded the BVL 2 mg/kg Pb general-cosmetics limit; max Pb 8.8 mg/kg). Regulatory framing rests on UK EU-retained law Regulation (EC) No 1223/2009 Article 17 (technically-unavoidable trace impurities permitted in good manufacturing practice) read with Article 3 (safety) and Article 8 (GMP).
 
 ## Key numbers
@@ -144,15 +146,15 @@ Limitations OPSS acknowledges: small sample size (9-10 per product group), no an
 - **Audit subagent application (2026-05-17).** Fresh-context audit subagent reviewed against the PDF; verdict REVISE. Findings applied: (a) corrected Table 16e Hg LOQ range in Key numbers from "<0.005-<0.073" to "<0.002-<0.073" (mouthwash LOQ <0.002 was the true minimum, not <0.005); (b) added a flag that the Foundation Hg row in Table 16e (LOQ 0.015, 1 >BVL, max 0.585) is identical to the Sb-Foundation row in Table 16a and contradicts the Section 4.5 chart on p. 37 — the row appears to be a source-side copy-paste error in the OPSS report; (c) completed the semi-quantitative-scan element enumeration to match Appendix 3 (Ba, Co, Cr, Cu, Li, Mo, Ni, Sn, Tl, V, Zr) rather than the truncated list previously written; (d) softened "policy-actionable" to "strongest direct-evidence signal" in Implications to keep the wording in the literature-reporting register rather than the policy register; (e) removed unsupported method-vendor name examples (NRCC, JMP/SAS) from this brand-firewall note since neither is mentioned in the OPSS paper itself. Findings rejected as false positives: the audit flagged four `products:` slugs (eye-makeup, makeup-foundation-powders-blush, sun-suntan-products, mouthwash-oral-rinse) as absent from the 2026-05-17 taxonomy snapshot; verified that all four exist as live pages under `wiki/products/` and the routing audit run on this source resolved all five product targets cleanly (0 unresolved). The taxonomy snapshot is stale relative to the Cat 13 / Cat 20 scaffolding committed earlier on 2026-05-17; the snapshot needs refreshing, not the source page. Net verdict: revised, retained.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

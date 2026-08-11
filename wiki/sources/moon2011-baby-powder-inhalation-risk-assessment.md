@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Moon et al. 2011 — Simulated baby-powder inhalation exposure for a baby doll and adult applicator, with asbestos-in-talc lung-load risk projection
 
+## Overview
+
 This Toxicological Research mini-review and exposure-assessment study simulates a routine baby-powder application episode in a residential setting to estimate airborne particulate exposure for the baby and for the adult applicator and to project the asbestos-fiber lung load that would accumulate over a 2-year exposure window if the talc were contaminated at the 0.1 % (w/w) asbestos regulatory limit. The motivation was the April 2009 Korean Food and Drug Administration finding that 8 of 12 talc-based baby powders sold in Korea contained asbestos. The work measures **no heavy metals** and contributes no occurrence data to the HMI corpus; it is ingested as an inhalation-pathway methodology reference for the Cat 2 Row 4 baby-talcum-powder product line. The 100 mg/application consumption value, the breathing-zone airborne concentrations (applicator 0.00527 mg/m³; baby 0.02207 mg/m³), and the 2-year lung-load arithmetic are reusable for future heavy-metal inhalation assessments on the same product form (e.g., should a future study measure Pb, Cd, Ni, Cr-VI, or Sb in the talc-mineral fraction of a baby powder, the same per-application airborne fraction would multiply the metal mass loading to give an inhaled-metal dose).
 
 ## Key numbers
@@ -99,15 +101,15 @@ Simulated-use exposure assessment, conducted in 2010-2011 at Hoseo University To
 - 2026-05-17 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.5487/TR.2011.27.3.137` not present; raw_handle `MFK_risk-assessment-of-baby-powder-exposure-through-in` not present; cite-key stem `moon2011` not present. PDF SHA-256 `5ad8486b14a5bd1855912983c1f12b53c1e02158f43ca6267f9f48a7fdbc85a7`. Paper measures total-mass airborne baby powder dust and projects an asbestos lung-load — zero heavy metals — ingested as methodology / inhalation-pathway reference per the lai2025 precedent. Routed to `[[products/baby-talcum-powder]]` (HMTc Cat 2 Row 4, locked 2026-05-16) for discoverability as an inhalation-route exposure-methodology paper but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

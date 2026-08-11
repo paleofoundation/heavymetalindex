@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bauer et al. 2023 - Metals in Brazilian sardine
 
+## Overview
+
 Bauer and colleagues measured metal and metalloid concentrations in edible muscle tissue of Brazilian sardine from northern and southern sectors of the Southwestern Atlantic Continental Shelf. Total arsenic and total mercury are reported separately from the risk-assessment assumptions used later in the paper. Most Cd and Pb results were below the source's LOQ, so the authors excluded Cd and Pb from the concentration/risk analysis.
 
 ## Key numbers
@@ -78,11 +80,15 @@ This source contributes Brazilian marine non-predatory fish occurrence data for 
 - Audit 2026-06-09: fresh-context subagent audit returned PROMOTE. Two ⚠️ completeness notes applied: instrument models (Varian 720 ES ICP-OES, CEM Mars Xpress microwave) and source LOQ table added to Methods for reproducibility and Cd/Pb censoring traceability. All Table 2/Table 3 numbers, sector sample sizes (n=42 north, n=32 south), exceedance percentages, and speciation logic (tAs/tHg/Cr) re-verified against the PDF — clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a2ef710](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710) | 2026-06-08 | ingest: bauer2023-brazilian-sardine-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

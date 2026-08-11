@@ -80,59 +80,52 @@ used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 15
+sources: 19
 ---
 
 # Non-soy Infant Formula
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=23 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 14 jurisdictions, top US 47% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 13 claims checked, 13 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tAs, tHg |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tAs, tHg; pairing 0 paired, 5 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.75, scale 0.75 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient/profile node for non-soy infant formula routing. Finished formula occurrence values belong on the relevant formula product pages unless a source reports ingredient-only values.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review]]<span class="hmi-ref-meta">Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. · American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 · 2025 · [doi.org/10.1016/j.ajcnut.2025.07.039](https://doi.org/10.1016/j.ajcnut.2025.07.039)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia|Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia]]<span class="hmi-ref-meta">Tadele Eticha, Melat Afrasa, Getu Kahsay, and Hailekiros Gebretsadik · International Journal of Analytical Chemistry, Vol. 2018, Article 2985698 · 2018 · [doi.org/10.1155/2018/2985698](https://doi.org/10.1155/2018/2985698)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation]]<span class="hmi-ref-meta">Lawrence H. Pacquette and Anumolu Anumula · Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 · 2016 · [doi.org/10.5740/jaoacint.15-0304](https://doi.org/10.5740/jaoacint.15-0304)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|Thoerig et al. 2025]]. *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*, American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 | 2025 | Peer-reviewed | Systematic review of As, Cd, Pb, Hg, and PFAS in US human milk and infant formula; most comprehensive current US synthesis of toxic elements in infant feedings, covering both non-soy and soy formula matrices; shows formula concentrations generally exceed human milk on a per-serving basis |
-| 2 | [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\|Pikounis et al. 2024]]. *Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula*, Environmental Epidemiology | 2024 | Peer-reviewed | Urinary biomarkers of iAs, Pb, Cd, Hg, and Mn in US formula-fed versus breastfed infants (Dartmouth/Harvard cohort); formula-fed infants show higher urinary As and Mn than breastfed infants, providing biomarker-validated evidence for feeding-mode-driven differences in infant toxic-element exposure |
-| 3 | [[sources/soto-ocana2024-metal-availability-early-life-microbiome\|Ocaña et al. 2024]]. *Metal availability shapes early life microbial ecology and community succession*, mBio 15(7):e00854-24 | 2024 | Peer-reviewed | Zn, Mn, Fe, and Cu in infant gut comparing formula-fed and breastfed infants (CHOP/Penn/Vanderbilt cohort); formula-fed infants have markedly higher gastrointestinal metal levels driving distinct early microbial community assembly via calprotectin-mediated nutritional immunity |
-| 4 | [[sources/demir2023-infant-formulas-turkey-toxic-elements\|Demir et al. 2023]]. *Estimated daily intake and health risk assessment of toxic elements in infant formulas*, British Journal of Nutrition | 2023 | Peer-reviewed | TR/EU Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg occurrence in 72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on... (n=72) |
-| 5 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
-| 6 | [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, International Journal of Analytical Chemistry, Vol. 2018, Article 2985698 | 2018 | Peer-reviewed | Pb, Cd, As, and Cr in retail infant formula products from the Mekelle, Ethiopia market (AAS); per-day infant exposure estimates against international reference values; extends the formula occurrence evidence base to sub-Saharan African market context |
-| 7 | [[sources/durovic2017-human-milk-infant-formula-microelements\|Durovic et al. 2017]]. *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*, Acta Chimica Slovenica | 2017 | Peer-reviewed | ME/RS Zn, Fe, Cu occurrence in 28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products... (n=43) |
-| 8 | [[sources/unuvar2017-commercial-infant-formula-elements-turkey\|Unuvar et al. 2017]]. *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*, Atomic Spectroscopy | 2017 | Peer-reviewed | TR Al, Pb, Fe, Mg, Zn occurrence in Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped... (n=20) |
-| 9 | [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|Carignan et al. 2016]]. *Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort*, Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457 | 2016 | Peer-reviewed | iAs and tAs exposure from breast milk and formula across the first year of life in a US prospective cohort (New Hampshire Birth Cohort Study); longitudinal feeding-mode-stratified arsenic exposure trajectory, with formula-fed infants accumulating more arsenic than breastfed infants over the same time window |
-| 10 | [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|Pacquette et al. 2016]]. *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*, Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 | 2016 | Peer-reviewed | Single-laboratory ICP-MS method validation for simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula; validated against NIST SRM 1548a, 1577c, and 1568b; analytical method basis for infant formula occurrence surveillance |
-| 11 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | iAs and tAs exposure estimated by urinary biomarker and dietary intake in breastfed versus formula-fed US infants (Dartmouth New Hampshire Birth Cohort); formula-fed infants had higher urinary arsenic biomarkers than breastfed infants, establishing the US cohort evidence base for formula-associated infant As exposure |
-| 12 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
-| 13 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | UK Al occurrence in Synthesis of UK Drinking Water Inspectorate 2011 tap-water survey (n=42,400 England/Wales, n=1,730 Northern Ireland, n=5,020 Scotland); FSA 2006... |
-| 14 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | tAs and iAs with full speciation (arsenite, arsenate, MMA, DMA) in US infant formulas and first foods by HPLC-ICP-MS; rice-component formulas carry substantially higher iAs than non-rice formulas; primary US speciation dataset for infant formula iAs assessment |
-| 15 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | UK Al occurrence in Fifteen commercial infant formula products on the UK market; ready-made liquid and powdered formats; cow-milk-based and soya-based; first-infant,... (n=15) |
+| 1 | [[sources/largueza2026-milk-formulas-toxic-elements-review\|Largueza et al. 2026]]. *Essential and Potentially Toxic Elements in Commercial Milk Formulas: Health Risk Assessment Through a Systematic Review and Meta-analysis*, Biological Trace Element Research | 2026 | Peer-reviewed | BR/EU/US Al, iAs, tAs, Cd, Co, Cr, Cu, Fe, MeHg, Mn, Ni, Pb, U, Zn occurrence in Systematic review with meta-analysis of 30 observational studies (PRISMA, OSF.IO/2YNKB registered), 18 with pooled meta-analysis data, covering three... (n=30) |
+| 2 | [[sources/dobrzynska2025-milk-formulae-elemental-composition\|Dobrzyńska et al. 2025]]. *Analysis of the Elemental Composition of Milk Formulae: Impact on the Nutritional Status of Infants From Birth to 1 Year of Age*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU tAs, Cd, tHg, Ni, Sn, Cr, Co, Cu, Mn occurrence in All powdered milk formulae available on the Polish market 2019-2023 for infants up to 12 months of age:... (n=149) |
+| 3 | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|Thoerig et al. 2025]]. *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*, American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 | 2025 | Peer-reviewed | Systematic review of As, Cd, Pb, Hg, and PFAS in US human milk and infant formula; most comprehensive current US synthesis of toxic elements in infant feedings, covering both non-soy and soy formula matrices; shows formula concentrations generally exceed human milk on a per-serving basis |
+| 4 | [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\|Pikounis et al. 2024]]. *Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula*, Environmental Epidemiology | 2024 | Peer-reviewed | Urinary biomarkers of iAs, Pb, Cd, Hg, and Mn in US formula-fed versus breastfed infants (Dartmouth/Harvard cohort); formula-fed infants show higher urinary As and Mn than breastfed infants, providing biomarker-validated evidence for feeding-mode-driven differences in infant toxic-element exposure |
+| 5 | [[sources/soto-ocana2024-metal-availability-early-life-microbiome\|Ocaña et al. 2024]]. *Metal availability shapes early life microbial ecology and community succession*, mBio 15(7):e00854-24 | 2024 | Peer-reviewed | Zn, Mn, Fe, and Cu in infant gut comparing formula-fed and breastfed infants (CHOP/Penn/Vanderbilt cohort); formula-fed infants have markedly higher gastrointestinal metal levels driving distinct early microbial community assembly via calprotectin-mediated nutritional immunity |
+| 6 | [[sources/demir2023-infant-formulas-turkey-toxic-elements\|Demir et al. 2023]]. *Estimated daily intake and health risk assessment of toxic elements in infant formulas*, British Journal of Nutrition | 2023 | Peer-reviewed | TR/EU Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg occurrence in 72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on... (n=72) |
+| 7 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
+| 8 | [[sources/bfr2018-infant-food-cadmium-lead\|BfR 2018]]. *EU maximum levels for cadmium in food for infants and young children sufficient - Exposure to lead should fundamentally be reduced to the achievable minimum*, BfR Opinion No. 026/2018 | 2018 | Government report | DE/EU Cd, Pb occurrence in BfR assessment of German Federal Control Plan 2015 and Monitoring 2015 occurrence data for foods for infants and... (n=522) |
+| 9 | [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, International Journal of Analytical Chemistry, Vol. 2018, Article 2985698 | 2018 | Peer-reviewed | Pb, Cd, As, and Cr in retail infant formula products from the Mekelle, Ethiopia market (AAS); per-day infant exposure estimates against international reference values; extends the formula occurrence evidence base to sub-Saharan African market context |
+| 10 | [[sources/durovic2017-human-milk-infant-formula-microelements\|Durovic et al. 2017]]. *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*, Acta Chimica Slovenica | 2017 | Peer-reviewed | ME/RS Zn, Fe, Cu occurrence in 28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products... (n=43) |
+| 11 | [[sources/unuvar2017-commercial-infant-formula-elements-turkey\|Unuvar et al. 2017]]. *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*, Atomic Spectroscopy | 2017 | Peer-reviewed | TR Al, Pb, Fe, Mg, Zn occurrence in Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped... (n=20) |
+| 12 | [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|Carignan et al. 2016]]. *Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort*, Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457 | 2016 | Peer-reviewed | iAs and tAs exposure from breast milk and formula across the first year of life in a US prospective cohort (New Hampshire Birth Cohort Study); longitudinal feeding-mode-stratified arsenic exposure trajectory, with formula-fed infants accumulating more arsenic than breastfed infants over the same time window |
+| 13 | [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|Pacquette et al. 2016]]. *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*, Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 | 2016 | Peer-reviewed | Single-laboratory ICP-MS method validation for simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula; validated against NIST SRM 1548a, 1577c, and 1568b; analytical method basis for infant formula occurrence surveillance |
+| 14 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | iAs and tAs exposure estimated by urinary biomarker and dietary intake in breastfed versus formula-fed US infants (Dartmouth New Hampshire Birth Cohort); formula-fed infants had higher urinary arsenic biomarkers than breastfed infants, establishing the US cohort evidence base for formula-associated infant As exposure |
+| 15 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
+| 16 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | UK Al occurrence in Synthesis of UK Drinking Water Inspectorate 2011 tap-water survey (n=42,400 England/Wales, n=1,730 Northern Ireland, n=5,020 Scotland); FSA 2006... |
+| 17 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | tAs and iAs with full speciation (arsenite, arsenate, MMA, DMA) in US infant formulas and first foods by HPLC-ICP-MS; rice-component formulas carry substantially higher iAs than non-rice formulas; primary US speciation dataset for infant formula iAs assessment |
+| 18 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | UK Al occurrence in Fifteen commercial infant formula products on the UK market; ready-made liquid and powdered formats; cow-milk-based and soya-based; first-infant,... (n=15) |
+| 19 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -144,18 +137,18 @@ Non-soy formula carries a substantially different heavy-metal profile from [[ing
 
 The body-level analyte snapshot for non-soy formula follows the per-format pages: see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]] for the format-specific concentration tables. The non-soy profile is dominated by trace Pb (≈1-10 ppb) and trace iAs (≈3-8 ppb), with Cd and Hg at near-LOQ background.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 1–10 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| Cd | n=4 | 0.5–5 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| iAs | n=5 | 3–8 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|5]] |
-| tAs | n=7 | 3–9 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]] |
-| tHg | n=3 | 0.1–2 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 1–10 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| Cd | n=4 | 0.5–5 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| iAs | n=5 | 3–8 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|5]] |
+| tAs | n=7 | 3–9 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]] |
+| tHg | n=3 | 0.1–2 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -196,15 +189,15 @@ Non-soy formula derivatives span the three format families: powder (most common)
 - FDA Closer to Zero broader infant-food framework also covers non-rice infant foods; ongoing rulemaking will set quantitative action levels.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 4 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,15 +2,15 @@
 source_page: wiki/products/root-vegetable-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3ce5cfb1405c96b4e32e1cd6fdfba852a8f41d0193503faaba89e9d7db09f29a
+source_page_sha256: 51f95c13945da09303cc7f8774d92e12b993b95fd962ca3773fdf461fd3c7fb4
 total_claims: 135
 cited_claims: 133
 uncited_claims: 2
-distinct_cited_targets: 35
-distinct_cited_sources: 29
+distinct_cited_targets: 196
+distinct_cited_sources: 190
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 50
-audit_log_total_rows: 972
+audit_rows_for_cited_targets: 81
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 135 |
 | cited claims | 133 |
 | uncited claims | 2 |
-| distinct cited targets | 35 |
-| distinct cited `sources/` pages | 29 |
+| distinct cited targets | 196 |
+| distinct cited `sources/` pages | 190 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 50 |
-| audit log rows read | 972 |
+| audit rows on cited target pages | 81 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -53,7 +53,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Cited targets: **none in section** — claim has no traceable provenance
 
 #### Claim `20 ppb`
-- Context: `lue inside the cited literature for root-vegetable purees, against the FDA 2025 20 ppb root-vegetable cap.</dd>     </di`
+- Context: `lue inside the cited literature for root-vegetable purees, against the FDA 2025 20 ppb root-vegetable cap.</dd>  </div>`
 - Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal / Regulatory Limits vs Field Findings
@@ -64,9 +64,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -80,9 +81,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -96,9 +98,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -112,9 +115,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -128,9 +132,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -144,9 +149,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -160,9 +166,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -176,9 +183,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -192,9 +200,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -208,9 +217,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -224,9 +234,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -240,9 +251,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -256,9 +268,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -272,9 +285,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -288,9 +302,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -304,9 +319,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -320,9 +336,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -336,9 +353,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -352,9 +370,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -368,9 +387,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -384,9 +404,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -400,9 +421,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -416,9 +438,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -432,9 +455,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -448,9 +472,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
@@ -518,7 +543,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `10 ppb`
 - Context: `d | Single-ingredient carrots or sweet potatoes; root mixtures can route to the 10 ppb mixture value | | [[regulations/e`
@@ -528,7 +554,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `route to the 10 ppb mixture value | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |`
@@ -538,7 +565,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior`
@@ -548,7 +576,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `-specific food limit. | | HMTc standards use | ppb-normalized context | The FDA 20 ppb value applies only to covered sin`
@@ -558,7 +587,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `only to covered single-ingredient root vegetables; the Prop 65 screen is about 4.5 ppb at 110 g/day. | Use the FDA root`
@@ -568,7 +598,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 ### Distribution Context
 
@@ -1630,16 +1661,306 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `2025 | Government guidance | FDA Closer to Zero final guidance establishing the 20 ppb Pb action level for single-ingred`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1649,39 +1970,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `21 ppb`
 - Context: `tudy exposure analysis identifying sweet-potato baby food as a named Pb signal (21 ppb hybrid mean) and supplying exposu`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1691,39 +2334,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `c Monte Carlo modeling Pb intake reduction from FDA action levels including the 20 ppb root-vegetable cap; ~26% dietary`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1733,39 +2698,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `48 ppb`
-- Context: `-vegetable group (N=9) with min/mean/median/max statistics; highest Pb maximum (48 ppb) in this source set | | 11 | [[so`
-- Cited targets (19):
+- Context: `-vegetable group (N=9) with min/mean/median/max statistics; highest Pb maximum (48 ppb) in this source set | | 113 | [[s`
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1775,39 +3062,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `21 ppb`
 - Context: `FS102048 | 2016 | Government report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoe`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1817,39 +3426,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `1 ppb`
 - Context: `nt report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoes) for UK infant-diet veget`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1859,39 +3790,361 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `n in 330 baby-food samples including strained and junior vegetables by AAS; LOD 10 ppb makes values a historical ceiling`
-- Cited targets (19):
+- Cited targets (180):
+  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-income-levels-and-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-mercury-removal-hot-paper\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-journal-of-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-systems-biology-of-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-against-arsenic-stress-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-chromium-using-fusarium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
@@ -1901,25 +4154,57 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` (page missing)
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/li2023-ready-to-eat-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` (page missing)
     - audit rows: none
 
 ## Uncited claims
@@ -1927,7 +4212,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
 - `20 ppb` in section _Who this page is for_ — context: `d and cadmium uptake from soil; root vegetables sit under a wider FDA 2025 cap (20 ppb Pb) than other baby-food categori`
-- `20 ppb` in section _Who this page is for_ — context: `lue inside the cited literature for root-vegetable purees, against the FDA 2025 20 ppb root-vegetable cap.</dd>     </di`
+- `20 ppb` in section _Who this page is for_ — context: `lue inside the cited literature for root-vegetable purees, against the FDA 2025 20 ppb root-vegetable cap.</dd>  </div>`
 
 ## Defensibility chain — distinct cited targets
 
@@ -1936,36 +4221,197 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
-| `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
+| `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` | sources | 0 | — | — |
+| `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury\.md` | sources | 0 | — | — |
+| `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2007-or-posting-on-open-internet-sites-your-personal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2011-income-levels-and-continents\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2011-part-of-the-study-begins-by-describing-its\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-increasingly-shows-that-chronic-exposure-to-a-broad\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-topoisomerases-by-organomercury\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2017-mercury-removal-hot-paper\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-minerals-and-heavy-metals-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-toxic-metals-like-arsenic-cadmium-and-lead-as\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-journal-of-toxicology\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-role-of-silicon-in-mitigation-of-heavy-metal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-environmental-toxicology-and-chemistry-volume-40-number-10\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-methods-of-extracting-the-compounds-of-interest-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-printed-edition-of-the-special-issue-published-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-total-and-bioaccessible-heavy-metals-in-cabbage\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-chromium-through-cr-stressed-life-sciences-faculty-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-compared-to-the-chemical-fertilizer-in-organic-fertilizer\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-inducement-due-to-radiation-exposure-is-within-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-the-concentration-of-potentially-toxic-elements-ptes-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-the-who-recommends-monitoring-iodine-status-in-all\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-crops-a-step-towards-incorporating-genomic-tools\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-essential-and-non-essential-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-imidazole-derivatives-including-2-2-hydroxyphenyl-1-h\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-kerala-university-of-fisheries-and-ocean\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-open-access-reconstituting-the-main\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-systems-biology-of-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-the-inception-of-agriculture-farmers-and-plant-breeders\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-against-arsenic-stress-in\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-detection-of-heavy-metals-in-some-edible\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-fungi-in-remediating-toxic-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-impact-of-arsenic-stress-on-the-antioxidant-system\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-lenop-can-bind-transition-and-heavy-metals-metal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-rapid-and-in-situ-detection-of-different-heavy\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-rare-earth-and-platinum-group-elements-in-environmental\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-to-heavy-metals-are-differentially\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-adsorption-of-heavy-metals-onto\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-amazon-about-mehg-intoxication\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-concentrations-in-commonly-consumed-seafood-species\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-evaluating-leaves-and-flowers-for-medicinal-applications\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-glucose-potato-broth-and-malt-broth-for-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-profile-and-associated-health-risks-resulting-from-untreated\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-1-fisheries-laboratory-department-of-zoology-university-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-chromium-using-fusarium\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-craig-t-martin-department-head\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-departamento-de-investigacio-n-en-toxicologi-a-y\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-when-citing-please-reference-the-published-version\.md` | sources | 0 | — | — |
+| `wiki/sources/azevedo2016-cadmium-application-in-tomato-nutritional-imbalance\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-heavy-metals-infant-toddler-foods.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/chemistry2022-bio-accumulation-of-heavy-metals-in-some-north\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays\.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
+| `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with\.md` | sources | 0 | — | — |
+| `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` | sources | 0 | — | — |
+| `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal\.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2014-infant-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
+| `wiki/sources/ganguly2021-mercury-and-movement-disorders\.md` | sources | 0 | — | — |
 | `wiki/sources/gardener2019-lead-cadmium-infant-formula-baby-food.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` | sources | 0 | — | — |
+| `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
+| `wiki/sources/li2023-ready-to-eat-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/liu2025-mercury-poisoning-associated-membranous\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/manuscript2019-gerald-geroldinger1-matthias-tonner1-judith-quirgst1-martin-walter2\.md` | sources | 0 | — | — |
+| `wiki/sources/manuscript2022-investigate-processes-causing-attenuation-of-a-hexavalent-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/manuscript2026-rev-environ-contam-toxicol-author-manuscript-available-in\.md` | sources | 0 | — | — |
+| `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in\.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-baby-food-lead-biokinetic-models.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` | sources | 0 | — | — |
+| `wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami\.md` | sources | 0 | — | — |
+| `wiki/sources/r2022-heavy-metal-stress-insights-into-life-sciences-faculty\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
+| `wiki/sources/sources1990-heavy-metals-in-air-soil-and\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` | sources | 0 | — | — |
+| `wiki/sources/university2025-bioaccumulation-of-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet\.md` | sources | 0 | — | — |
 

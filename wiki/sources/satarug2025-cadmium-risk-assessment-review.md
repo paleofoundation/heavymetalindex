@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Satarug 2025 - Challenges in toxicological risk assessment of environmental cadmium exposure
 
+## Overview
+
 Satarug, writing from the Centre for Kidney Disease Research at the Translational Research Institute in Brisbane, reviews the methodology and evidence base behind dietary cadmium exposure guidelines and argues that current threshold-based risk assessments substantially underestimate Cd nephrotoxicity. The review highlights two methodological problems: the JECFA 5.24 microg/g creatinine threshold (derived from a beta2-microglobulinuria endpoint at 300 microg/g creatinine) is too high to be protective for low-iron and low-zinc subpopulations, and the conventional practice of normalizing urinary Cd to creatinine excretion (Ecr) introduces non-differential errors that bias dose-response relationships toward the null. Normalizing to creatinine clearance (Ccr) instead recovers stronger associations between Cd exposure and low eGFR, proteinuria, and CKD. The review then summarizes benchmark dose (BMD) modeling results across six named population datasets and concludes that current dietary Cd guidelines do not adequately protect kidney function.
 
 ## Key numbers
@@ -177,15 +179,15 @@ The age-category POR values in Table 3 (e.g., 141.2 for the 66-87 y group, 95% C
 Fresh-context audit subagent (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity, all tabulated values cross-checked against pp.3-15), 3 (speciation/methods), and 4 (Part 12 brand firewall) clean. Findings applied: (a) Table 3/4 framing — verified against PDF p.9 footnote (Table 3 n=917 from [76]) and p.10 footnote (Table 4 n=405 from [80]); the prior overarching sentence "Both tables are reanalyses of data from 917 subjects" was wrong and was rewritten to distinguish the two tables. (b) `[[health/cadmium-developmental-toxicity]]` removed from "Wiki pages this source may touch" — verified that `wiki/health/cadmium-developmental-toxicity.md` does not exist (the sibling chandravanshi2021 review wikilinks the same slug, suggesting the target page should exist but is missing; flagged as a separate issue, not for this page to create). (c) Implications App paragraph — softened "supports the case for tighter Cd thresholds in the I and C product rows" to "contributes occurrence-of-effect data on tubular and glomerular endpoints relevant to infant-and-child Cd threshold work" to stay on the contributes-data side of the Part 2 boundary; replaced "premenopausal women, adolescent girls, pregnant women" with the source-faithful "children and adolescent females [49,50]; women of reproductive age [51,52]" per PDF p.5. Findings retained as flagged (not rejected, not modified): Check 2 ⚠️ on matrices vocabulary (`urine`, `blood`, `kidney`, `bone`, `dietary-intake`, `risk-assessment-methodology`) — the standard matrices vocabulary is scoped to consumer-food matrices; review-type sources extend it to subject-matter matrices, precedented by sibling reviews. Flagged for Karen's confirmation if the matrices vocabulary should be formally extended. Check 5 ⚠️ on Implications Certification paragraph noting HMTc product categories that drive dietary Cd burden — retained because the page stays on "contributes occurrence-of-effect data for category X" wording, the allowed side of the Part 2 boundary.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0a09ab3](https://github.com/paleofoundation/heavymetalindex/commit/0a09ab3) | 2026-06-02 | audit: satarug2025-cadmium-risk-assessment-review revised |
-| [f15f433](https://github.com/paleofoundation/heavymetalindex/commit/f15f433) | 2026-06-02 | ingest: satarug2025-cadmium-risk-assessment-review fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

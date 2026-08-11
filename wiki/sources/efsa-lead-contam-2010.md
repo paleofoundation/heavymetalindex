@@ -35,6 +35,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM 2010 — Scientific Opinion on Lead in Food
 
+## Overview
+
 The EFSA Panel on Contaminants in the Food Chain Scientific Opinion on Lead in Food, adopted 18 March 2010 (re-published 2013 with editorial corrections), pooled 94,126 quantified analytical results submitted by 14 Member States and Norway over 2003–2009 and concluded that the prior JECFA provisional tolerable weekly intake of 25 µg/kg body weight per week was no longer appropriate because the available human data show no threshold for the critical lead-induced effects. The Panel derived three Benchmark Dose Lower Confidence Limits from blood lead concentrations and identified developmental neurotoxicity in young children, increased systolic blood pressure in adults, and chronic kidney disease in adults as the critical endpoints. Estimated dietary exposures in European 1–7 year-old children and in some high-consumer adults sit at or above the BMDL intake values, so the possibility of effects in those subgroups cannot be excluded. This opinion is the literature backbone behind EU contaminant limits for lead and supplies the BMDL₀₁ of 12 µg/L B-Pb (≈ 0.50 µg/kg b.w. per day dietary equivalent) used as the children's neurodevelopmental reference point throughout European regulatory practice.
 
 ## Key numbers
@@ -166,8 +168,8 @@ Microbiome: Not directly addressed by this opinion.
 
 - Merge-enhanced 2026-06-03 from the prior 2026-04-25 page by reading the full PDF (151 pp.) end-to-end. The prior page had a thin Key numbers table covering only the three BMDLs and the country-range exposures; this revision adds the EU-pooled occurrence statistics by food category, the margin-of-exposure table, the toxicokinetic anchors, the non-dietary pathway estimates, and the breast-milk / infant-formula concentration data, all keyed to the source tables and page numbers.
 - The pre-2026-05-14 page used legacy `## Summary` and `## Wiki pages updated on ingest` headings; replaced with the current opening-prose convention and removed the trailing wikilink stub (routing is handled by the audit layer per Part 5b).
-- The Kimi PDF copy (`raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2010 -  - Scientific Opinion on Lead in Food (1).pdf`, sha 61e2e32d…) is recorded as a near-duplicate of the existing curated raw file at `raw/reports/scientific-opinion-on-lead-in-food-2010.pdf` (sha 897e8bc3…). Both are the same EFSA opinion, DOI 10.2903/j.efsa.2010.1570, EFSA Journal 2010;8(4):1570; the second download came from the Wiley Online Library mirror and the bit-level mismatch is the Wiley re-publication wrapper, not a content difference.
-- Prior `products: []` was a Phase 1 defect under CLAUDE.md Part 5; populated with the product-category slugs the opinion supplies measurement data for (infant formula powder, infant and child foods master, bottled and mineral water, breakfast cereals, fresh and canned fish, processed meats, game meats). No new product slugs were proposed.
+- The Kimi PDF copy (`raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2010 - - Scientific Opinion on Lead in Food (1).pdf`, sha 61e2e32d…) is recorded as a near-duplicate of the existing curated raw file at `raw/reports/scientific-opinion-on-lead-in-food-2010.pdf` (sha 897e8bc3…). Both are the same EFSA opinion, DOI 10.2903/j.efsa.2010.1570, EFSA Journal 2010;8(4):1570; the second download came from the Wiley Online Library mirror and the bit-level mismatch is the Wiley re-publication wrapper, not a content difference.
+- Prior `products: []` was a Phase 1 defect; populated with the product-category slugs the opinion supplies measurement data for (infant formula powder, infant and child foods master, bottled and mineral water, breakfast cereals, fresh and canned fish, processed meats, game meats). No new product slugs were proposed.
 - Frontmatter scope deliberately kept broad: `infant-formula-powder` rather than soy/non-soy splits because the EFSA category "infant and follow-on formulae" does not separate them, and `wild-mushrooms` rather than narrower fungi sub-classes because Table 8 reports the broader category. Routing audit fans broad scopes to sibling pages.
 - Game-meat numbers retain the source's own attribution as "high consumer" exposures rather than category means — the 867 mg/kg maximum is for wild pig muscle near a shot wound (sample retained by EFSA after removal of a 3,090 mg/kg outlier). This is the cleanest defensible reading of Table 14 and the surrounding paragraph.
 - No brand names appear in this source (it is a pooled regulatory occurrence assessment), so the Part 12 firewall is not engaged.
@@ -188,15 +190,15 @@ Fresh-context general-purpose audit subagent (verdict REVISE) flagged six numeri
 Subagent's minor-stylistic concerns about children's survey-count attributions ("9 surveys" for 1–3 y, "9–13 surveys" for 4–7 y) and vegetarian "5 countries" were retained as-is after independent verification: Table 24 actually shows surveys per age 1=6, 2=8, 3=9 and 4=13, 5=13, 6=13, 7=9, so the wiki ranges reflect endpoint counts, which is conventional rather than incorrect; and Section 6.3 p. 48 confirms 65 lacto-ovo-vegetarians from 5 countries (DK was the sixth language-screened country and contributed zero). Subagent's audit did not flag any wiki/HMTc, brand-firewall, or speciation issues; verdict was REVISE only on numerical fidelity.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [e45b705](https://github.com/paleofoundation/heavymetalindex/commit/e45b705) | 2026-06-03 | audit: efsa-lead-contam-2010 revised |
-| [5ca5d5d](https://github.com/paleofoundation/heavymetalindex/commit/5ca5d5d) | 2026-06-03 | ingest: efsa-lead-contam-2010 enhanced from Manual Fetch Kimi /June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

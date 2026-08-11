@@ -6,7 +6,7 @@ name: Tin, inorganic
 species: [Sn2+, Sn4+, SnCl2, SnCl4]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
-sources: 11
+sources: 14
 wiki_doi: null
 updated: 2026-05-08
 status: scaffold
@@ -15,7 +15,9 @@ n_sources: 4
 
 # Tin, Inorganic
 
-Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form HMTc certifies against under the analyte symbol Sn (per CLAUDE.md Part 14); when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
+## Overview
+
+Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form addressed by the standard heavy-metal analyte symbol Sn; when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
 
 ## Toxicology
 
@@ -71,24 +73,63 @@ How does the introduction of plant-derived can-lining lacquers (replacements for
 
 What is the dietary tin intake for infants on heavy reliance on canned commercial baby food (versus home-prepared or pouched alternatives)? The 50 mg/kg EU canned-baby-food limit prevents acute exposures but does not prevent chronic body-burden from frequent canned-product feeding; a body-weight-normalized exposure assessment is missing from the loaded corpus.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Where does the tin in my food actually come from?
+
+The dominant dietary source of inorganic tin is food packaged in tinplated metal cans, where acidic contents dissolve elemental tin from the lining. Light-colored fruits and fruit juices in unlacquered cans are the highest-tin products, though more than 90 percent of cans now use lacquered linings that keep finished-product tin below 25 ppm versus up to 100 ppm in unlacquered cans ([[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]]). Foods not packaged in metal cans generally contain tin below 2 ppm, and drinking water is typically below 0.003 mg per liter.
+
+### What are the health effects of swallowing too much inorganic tin?
+
+The main effect is acute local irritation of the gastrointestinal lining, causing nausea, vomiting, and diarrhea. In controlled human single-dose challenges, symptoms appeared at roughly 1,000 to 1,400 ppm tin in fruit juices, and below that level single-dose ingestion is generally well tolerated ([[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy, Hooper, Schneider 1971]]). Systemic absorption is limited (about 99 percent of an ingested dose leaves in the feces in rat studies), so inorganic tin acts mainly as a local irritant rather than a systemic poison.
+
+### Is inorganic tin the same as the tin in seafood I've read about?
+
+No. Inorganic tin (the +2 and +4 forms bound to chloride, sulfate, or oxide) acts as a local gastrointestinal irritant, while organotin compounds are systemic immunotoxicants and neurotoxicants at doses about three orders of magnitude lower. This mechanism difference is described as the central toxicological fact about tin, which is why honest exposure assessment requires separating the two species. Organotin loading is documented in matrices such as seafood, drinking water from PVC pipes, and food contacting PVC plastics; see [[metals/organotins]].
+
+### Are there legal limits on how much tin canned food can contain?
+
+Yes. The EU sets binding maximum levels of 200 mg/kg in canned food other than beverages, 100 mg/kg in canned beverages, and 50 mg/kg in canned infant formula and baby food ([[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]]). Codex Alimentarius sets looser limits of 250 mg/kg for canned foods and 150 mg/kg for canned beverages. The U.S. has no equivalent federal FDA action level for tin in food, addressing it instead through Total Diet Study surveillance and contact-material guidance.
+
+### Are babies and young children more at risk from tin in canned food?
+
+Infants and young children fed canned baby food are the principal dietary vulnerable group, which is why the EU sets the 50 mg/kg infant and baby-food limit at one quarter of the general canned-food limit ([[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]]). Body-weight-normalized tin intake from canned baby food can be substantially higher than adult intake from canned beverages, even at lower per-product concentrations, because small infants consume larger fractions of body weight per serving. People with acidic-food-heavy diets (canned tomato products, citrus juice, pickles, sauerkraut) also take in more inorganic tin than typical mixed diets.
+
+### How is tin measured in food, and does testing separate the different forms?
+
+Atomic absorption spectrophotometry has historically been the workhorse, while ICP-MS is now the routine multi-element method, producing total-tin values that in canned food are treated as inorganic tin. Methods that separate stannous (Sn2+) from stannic (Sn4+) forms are uncommon because their toxicological difference is small compared with the inorganic-versus-organotin split. Separating inorganic tin from organotin compounds does require dedicated speciation methods (such as gas chromatography or HPLC with ICP-MS detection), which are essential for matrices like seafood or PVC-contacted water where organotin is suspected.
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]] — Comprehensive ATSDR Toxicological Profile for Tin and Tin Compounds. Source for inorganic-tin MRLs (intermediate oral MRL 0.3 mg Sn/kg/day for stannous chloride), food occurrence summary, exposure-route discussion, and toxic-mechanism characterization.
 - [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy, Hooper, Schneider 1971]] — Primary controlled-dose canned-juice toxicity study; establishes the 1,000-1,400 ppm symptomatic threshold and the local-irritation absorption-limited mechanism.
 - [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan, Silalahi, Muchlisyam 2016]] — Indonesian canned-beverage tin occurrence with pH-and-storage-time dependence; supporting evidence on the release mechanism.
-- [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle the wiki and HMTc both maintain.
+- [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the inorganic-tin-versus-organotin species-distinction principle.
 - [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] — Binding maximum levels for inorganic tin in canned food, canned beverages, and canned infant/young-child foods.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/benoy1971-tin-toxicity-canned-fruit-juices|The Toxicity of Tin in Canned Fruit Juices and Solid Foods]]<span class="hmi-ref-meta">Christine J. Benoy, Patricia A. Hooper, and R. Schneider · Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 · 1971 · [doi.org/10.1016/0015-6264(71)90152-0](https://doi.org/10.1016/0015-6264(71)90152-0)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/atsdr2005-tin-toxicological-profile|Toxicological Profile for Tin and Tin Compounds]]<span class="hmi-ref-meta">Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry · U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry · 2005 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/tarigan2016-factors-tin-released-canned-beverages|Factors are Affecting Tin Released in Canned Beverages]]<span class="hmi-ref-meta">Rida Evalina Tarigan, Jansen Silalahi, and Muchlisyam · International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 · 2016 · [sphinxsai.com](https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 8 sections added; narrative text revised |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 9 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mercan et al. 2024 — 14-element inorganic and allergen-fragrance profile of toy makeup products from Istanbul, with health-risk modelling
 
+## Overview
+
 This open-access Environmental Science and Pollution Research paper quantifies 14 inorganic elements (Al, As, Ba, Cd, Co, Cr, Cu, Hg, Mn, Ni, Se, Sb, Pb, Zn) by ICP-MS in 63 toy makeup products (eye shadow, nail polish, lipstick-type cosmetic toys) purchased from Istanbul toy stores and computes systemic exposure dosage (SED), margin of safety (MoS), lifetime cancer risk (LCR), hazard quotient (HQ), and hazard index (HI) per SCCS 2012 dermal-exposure modelling using a 5-year-old child receptor. The qualitative organic profile of the same products is screened by GC–MS for allergen fragrance. Of 63 toy makeup samples, 57 (90.48%) exceeded at least one regulatory permissible limit for a toxic element, with descending exceedance order Ni > Cr > Co > Pb > Sb > Cd > As > Hg. The paper concludes that toy makeup products marketed in Istanbul toy stores are predominantly unsafe for children and calls for regular monitoring and stricter enforcement.
 
 ## Key numbers
@@ -73,12 +75,12 @@ The source body explicitly notes: "the highest Pb concentration was observed …
 - **Any-toxic-element exceedance:** 57/63 (90.48%) toy makeup samples exceeded the maximum permissible limit for at least one toxic element. Descending order of exceedance frequency across the eight regulated toxic elements: Ni > Cr > Co > Pb > Sb > Cd > As > Hg.
 - **MoS < 150 (SCCS pediatric safe threshold):** 57.15% of samples were unsafe by MoS for at least one of Al, As, Cd, Co, Hg, Mn, Sb, or Zn. Mn (n=53), Al (n=42), and Zn (n=32) were the most MoS-limit-exceeding elements.
 - **LCR > 1×10⁻⁶ (IARC carcinogens Cr, Ni, As, Cd, Pb):**
-  - Cr: 100% (n=63)
-  - Ni: 79.37% (n=50)
-  - As: 85.71% (n=54)
-  - Pb: 77.78% (n=49)
-  - Cd: 18.87% (n=10)
-  - Descending LCR order: Cr > As > Ni > Pb > Cd.
+ - Cr: 100% (n=63)
+ - Ni: 79.37% (n=50)
+ - As: 85.71% (n=54)
+ - Pb: 77.78% (n=49)
+ - Cd: 18.87% (n=10)
+ - Descending LCR order: Cr > As > Ni > Pb > Cd.
 - **HQ ≥ 1 (non-cancer hazard):** 80% of samples exceeded the HQ safe limit (HQ ≥ 1) for at least one inorganic element.
 - **SED > TDI (worst-case 95th-percentile exposure):** Al SED > TDI in 7 of 10 brands; Pb SED > TDI in 1 brand (worst-case sample 4.92 µg/g context — Hg also exceeded in BRAND I only).
 - **Skin-sensitization risk (> 5 mg/kg in cosmetics, Basketter et al.):** Cr 26.98% (n=17), Ni 9.52% (n=6). Co did not exceed this threshold in any sample.
@@ -137,7 +139,7 @@ The sample set is geographically restricted to Istanbul toy retailers between an
 ## Verification notes
 
 - Cite-key follows the pattern firstauthor-year-location-key-element-count established by similar children's-product source pages in the wiki.
-- Source uses a closed BRAND A–J anonymization scheme. Per the brand firewall (CLAUDE.md Part 12, strict reading locked 2026-05-17), per-brand-letter ranking and brand-by-brand exceedance lists from Table 1 and Table 4 are deliberately not reproduced; instead, distributions are summarized as across-brand mean ranges, single-sample min–max, and counts of exceedances against named regulatory thresholds. The BRAND-A-4-coded sample with the 171.200 µg/g Pb maximum is reported as "single-sample maximum 171.20 µg/g, 85-fold above the BVL permissible limit" without the brand-letter attribution.
+- Source uses a closed BRAND A–J anonymization scheme. Per the brand firewall (, strict reading locked 2026-05-17), per-brand-letter ranking and brand-by-brand exceedance lists from Table 1 and Table 4 are deliberately not reproduced; instead, distributions are summarized as across-brand mean ranges, single-sample min–max, and counts of exceedances against named regulatory thresholds. The BRAND-A-4-coded sample with the 171.200 µg/g Pb maximum is reported as "single-sample maximum 171.20 µg/g, 85-fold above the BVL permissible limit" without the brand-letter attribution.
 - The 54.55% / 9.09% Al/Pb SED-vs-TDI exceedance ratios on p. 33985 use a denominator that does not reconcile cleanly with either the 10-brand or 63-sample base (54.55% = 6/11 algebraically; 9.09% = 1/11 or 6/66). The source text reads "n=6" and "n=8" for these two ratios. The Key-numbers entry preserves the source-reported percentages and counts verbatim; downstream synthesis should treat the Al/Pb SED-vs-TDI brand-level exceedance as "majority of brand-mean entries" (Al) and "a minority of brand-mean entries" (Pb) rather than recomputing.
 - The skin-sensitization-limit count for Cr (n=17) on p. 33981 and the LCR-Cd denominator (n=53 for Cd > LOQ) on p. 33979 reflect text-versus-table inconsistencies the source itself does not resolve. The narrative preserves the source's printed values.
 - The single qualitative organic finding (2-phenoxyethanol) is recorded as detected/not-quantitated per the GC–MS scan limitations stated by the authors. The page does not extrapolate a per-product 2-phenoxyethanol concentration.
@@ -147,15 +149,15 @@ The sample set is geographically restricted to Istanbul toy retailers between an
 - Audit subagent (2026-05-18) flagged the "7 of 10 brands exceeded Al TDI" attribution to Table 3 worst-case 95th-percentile section as misattributed to Table 3 instead of Table 2 mean SED. Independent re-verification against p. 33985 (paragraph 1) shows the source explicitly attributes this to the worst-case exposure scenario: "According to the worst-case exposure scenario results, 7 out of 10 brands (BRAND A, C, E, F, G, H, and I) exceeded the TDI levels for Al. Also, the worst-case exposure scenario results exceeded the TDI levels in BRAND A for both Pb and As as the prominent toxic elements." Finding rejected as a false positive — the wiki's attribution to Table 3 worst-case 95th-percentile is correct per the source text.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

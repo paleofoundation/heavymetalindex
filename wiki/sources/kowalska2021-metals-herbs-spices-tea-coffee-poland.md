@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Kowalska 2021 — Heavy metals in Polish herbs, spices, tea, and coffee
 
+## Overview
+
 This Polish study measured Cd, Pb, total As, and total Hg in 240 plant material samples — 163 herb samples across 40 species, 61 spice samples across 11 species, 8 green China tea samples, and 8 roasted Arabica coffee bean samples — collected 2015–2018 from farms in eastern Poland and from Lublin supermarkets. Analysis was by ICP-MS (Cd, Pb, As) and direct mercury analyzer AMA 254 (Hg). Among the four analytes, lead showed the widest concentration range across the dataset (0.010–5.680 mg/kg DM); mercury was uniformly low (range <LOQ to 0.030 mg/kg DM). Results were referenced against two limit frameworks: the World Health Organisation guideline values for herbal raw materials (Cd 0.3, Pb 10.0, As 5.0, Hg 0.2 mg/kg) and Commission Regulation (EU) No. 420/2011, which sets maximum levels for certain contaminants in fresh herbs converted to dry matter at 90% water content. No herb sample exceeded the WHO Pb 10 mg/kg limit; the abstract reports 24 herb samples (18%) exceeded "the limits," which from the section 3.2 detail aligns with the EU 420/2011 converted dry-matter equivalent. For Cd, 24 herb samples (15%) exceeded the WHO 0.3 mg/kg guideline. No spice, tea, or coffee sample exceeded any limit for any metal. Probabilistic risk assessment showed total target hazard quotient (TTHQmax) below 1 for all four product categories at Polish per-capita consumption rates, and carcinogenic risk from arsenic below the USEPA 1×10⁻⁴ maximum-acceptable threshold.
 
 ## Key numbers
@@ -141,7 +143,7 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 - Removed cross-source synthesis from `## Implications`: prior page text "This is the reference study cited by both Fischer 2022 and Winiarska-Mieczan 2023 for Polish herb/spice background context" was a citation-network claim about other wiki sources, which belongs at the synthesis layer, not on a single-source page. Also removed an iAs-vs-tAs threshold comparison against an external regulatory value, replaced with neutral speciation-caveat wording.
 - Methods: added Altec, Czech Republic for AMA 254; added Mulgrave, Australia for Varian 820-MS; added MARS Express microwave mineraliser model and supplier; added WPS 50 SX moisture analyser; added analyte-specific reference doses, As cancer slope factor, and noncarcinogen-vs-carcinogen treatment per section 2.6.
 - Frontmatter: populated `sampling_year_range: "2015–2018"` (was null).
-- Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` initially fixed to `[[regulations/eu-1881-2006-contaminants-superseded]]`, then removed entirely after Phase 2 audit. The paper does not directly discuss EU 1881/2006; the regulation it actually cites for fresh-herb Pb limits is Commission Regulation (EU) No. 420/2011 (which amends 1881/2006 for herbs), and no slug for 420/2011 exists in the current regulations taxonomy. Per CLAUDE.md Part 10 (do not create new regulation pages mid-ingest), the regulation entry is dropped from the page-touch list.
+- Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` initially fixed to `[[regulations/eu-1881-2006-contaminants-superseded]]`, then removed entirely after Phase 2 audit. The paper does not directly discuss EU 1881/2006; the regulation it actually cites for fresh-herb Pb limits is Commission Regulation (EU) No. 420/2011 (which amends 1881/2006 for herbs), and no slug for 420/2011 exists in the current regulations taxonomy. Per (do not create new regulation pages mid-ingest), the regulation entry is dropped from the page-touch list.
 - Flagged European blueberry leaves Pb mean-below-range-minimum inconsistency in Table 2 (parallel to the China-tea Cd issue), added during Phase 2 audit application.
 - Paper-internal data-integrity issue preserved as-printed (not corrected on the wiki page): Table 2 reports China-tea Cd range 0.069–0.098 with mean 0.034 — mathematically impossible since mean lies below range minimum; section 3.1 text gives the tea+coffee Cd range as "<LOQ (0.020 mg/kg) to 0.098 mg/kg," so the printed lower bound 0.069 in Table 2 appears to be a typo. Wiki page reports as printed and flags the inconsistency.
 
@@ -158,15 +160,15 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 - [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

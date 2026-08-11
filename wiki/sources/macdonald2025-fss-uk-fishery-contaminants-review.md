@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # MacDonald, Stead, Rose, Boss & Campbell 2025 — Chemical contaminants in wild-caught fishery products of Scottish and wider UK waters
 
+## Overview
+
 Fera Science Ltd, commissioned by Food Standards Scotland, screened over 3,600 records and selected 125 for inclusion to evaluate the occurrence of regulated and emerging chemical contaminants in wild-caught and smoked fish, shellfish, crustaceans, and cephalopods landed in Scotland and wider UK fishing waters. The review integrates UK-funded surveys from 2009 (FSAS), 2015 (FSA-Fera), and the 2022-23 FSA Wild Caught Fish study reported in 2025, alongside published primary literature. Heavy-metal results are reported below the maximum permitted level (ML) for most species, with the principal regulated-metal exceedances identified as cadmium in crab and scallops, lead in mussels, and mercury in sea bass. Emerging and unregulated contaminants — PBDEs, PCNs, PXDD/Fs, PFAS, microplastics — were detected widely; PFAS in particular exceeded EU MLs in several species despite not being currently regulated in Great Britain. The report concludes that significant data gaps exist for Scottish-landed fish across PFAS, dioxins, PCBs, and inorganic arsenic.
 
 ## Key numbers
@@ -157,7 +159,7 @@ App: Contextual signal that mercury in sea bass is the regulated-metal exceedanc
 
 ## Verification notes
 
-- Speciation: the report reports mercury as total mercury throughout unless explicitly noted (FSAS 2009 methylmercury subset); the page uses `tHg` as the primary metal and `MeHg` only for the FSAS 2009 subset that was actually speciated. Arsenic is reported predominantly as total; the page uses both `tAs` and `iAs` because the report includes a meaningful subset with HPLC-ICP-MS speciation (FSA-Fera 2015 and 2022-23 survey). `Cr` (not `Cr-VI`) per CLAUDE.md Part 14, since neither the report nor its cited primary surveys speciated hexavalent chromium.
+- Speciation: the report reports mercury as total mercury throughout unless explicitly noted (FSAS 2009 methylmercury subset); the page uses `tHg` as the primary metal and `MeHg` only for the FSAS 2009 subset that was actually speciated. Arsenic is reported predominantly as total; the page uses both `tAs` and `iAs` because the report includes a meaningful subset with HPLC-ICP-MS speciation (FSA-Fera 2015 and 2022-23 survey). `Cr` (not `Cr-VI`), since neither the report nor its cited primary surveys speciated hexavalent chromium.
 - Sample-size attribution: `sample_n: 192` reflects the headline pooled regulated-metals table (Table 13, Mortimer 2018). The 2022-23 FSA Wild Caught Fish survey adds n=152 across 16 species categories and is reported with full ranges in Key numbers, but the field carries the pooled-table value because it is the primary cross-species summary the report itself foregrounds.
 - Units: all metal concentrations reported as mg/kg whole weight (wet weight) unless otherwise stated. PCB / PCDD-F WHO-TEQ in ng/kg whole; PCNs in ng/kg ww; PBDEs in µg/kg ww or pooled lipid weight as flagged in Key numbers; PAHs in µg/kg.
 - Geographic scope: the report's title and FSS commissioning frame this as "Scottish and wider UK," but UK-funded survey coverage is heavily England-and-Wales-dominated in the most recent (2022-23) wild-caught survey. The report itself flags data gaps for Scottish-landed fish, particularly for PFAS, dioxins, PCBs, and inorganic arsenic. Jurisdictions field uses `GB` and `EU` to reflect the regulatory comparators rather than narrower country codes.
@@ -170,15 +172,15 @@ App: Contextual signal that mercury in sea bass is the regulated-metal exceedanc
 - The Fernandes 2009b / FSAS 2009 mercury range "0.025 to 0.47 mg/kg" appears in the report twice with slightly different formulations (0.025-0.047 mg/kg in the §9.3 narrative text; 0.025-0.47 mg/kg in the Mercury summary on p. 63 and Table 17 row). The page records the 0.025-0.47 mg/kg value because the report itself uses that range in the summary table that draws together the multiple FSAS 2009 result threads.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [488ba73](https://github.com/paleofoundation/heavymetalindex/commit/488ba73) | 2026-06-03 | audit: macdonald2025-fss-uk-fishery-contaminants-review [revised] |
-| [2ed6603](https://github.com/paleofoundation/heavymetalindex/commit/2ed6603) | 2026-06-03 | ingest: macdonald2025-fss-uk-fishery-contaminants-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

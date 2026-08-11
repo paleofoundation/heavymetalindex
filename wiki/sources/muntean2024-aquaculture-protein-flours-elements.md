@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Muntean et al. 2024 - elemental content of alternative aquaculture protein flours
 
+## Overview
+
 Muntean and colleagues evaluated animal- and plant-derived protein flours as alternative ingredients for fish nutrition, including spent coffee grounds and other food-industry by-products. The study reports elemental composition for each flour type, including aluminum, nickel, total arsenic, cadmium, and lead; these are feed-ingredient and supply-chain values, not finished coffee or fish occurrence values.
 
 ## Key numbers
@@ -64,3 +66,17 @@ App: Context only unless a downstream fish-product synthesis explicitly models f
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Molecules PDF. The paper reports arsenic only as As, so this page records it as total arsenic and does not infer inorganic arsenic. The auto-fetched filename is a coffee/cadmium gap hit because spent coffee grounds are one tested feed-ingredient flour; products are intentionally empty because the source does not measure finished coffee or fish products.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

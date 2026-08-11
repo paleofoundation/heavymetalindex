@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ruttkay-Nedecky et al. 2013 — The role of metallothionein in oxidative stress
 
+## Overview
+
 Ruttkay-Nedecky and colleagues at the Central European Institute of Technology and Mendel University in Brno, with co-authors from Masaryk University, Charles University, and University Hospital Motol in Prague, review the published literature on metallothionein (MT) as a small cysteine-rich heavy-metal-binding protein that participates in cellular protective responses against oxidative stress. The review compiles evidence from mammalian cell-line, transgenic mouse, and *Drosophila* knockout systems on MT's structure, its role as a zinc reservoir and cysteine-thiol-mediated radical scavenger, its induction by oxidative and nitrosative stimuli, and its relevance to cancer and apoptosis. The paper reports no primary chemical or toxicological measurements; its value to the wiki is mechanistic — it organises the vocabulary used by the underlying cadmium-toxicology and zinc-homeostasis literature on which subsequent occurrence and exposure papers depend.
 
 ## Why this matters
@@ -136,12 +138,15 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Audit subagent (2026-06-08) verdict: REVISE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ at the body level with three ⚠️ findings and no ❌. (1) The Why-this-matters bullet compressed Shiraishi et al.'s two distinct endpoints (5-fold MT-Zn content; 15-fold MT protein content) into a single ambiguous "5–15-fold" range; verified against PDF p. 6054 ("the hepatic MT-Zn content increased five-fold, and MT protein content increased 15-fold by 18 h following irradiation") — the body section already had the two-endpoint phrasing; the bullet has been rewritten to mirror it. (2) The MT-redox-cycle bullet contained a self-referential wikilink `[[ruttkay-nedecky2013-metallothionein-oxidative-stress]]-derived secondary literature` that was a copy-paste template artifact; removed, replaced with "review-derived secondary literature". (3) The auditor flagged `[[mitigation/remediation-evidence]]` as outside the taxonomy snapshot's vocabulary; verified against `wiki/mitigation/remediation-evidence.md` (which exists) — finding is a false positive because the taxonomy snapshot scopes ingredients/products/metals/regulations as the auditor's drafting vocabulary, not the full wiki section index; the `mitigation/` subtree is a legitimate routing destination (same wikilink form is used in the sibling yang2024-metallothionein-comprehensive-review page). No change applied on finding (3).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8f4be10](https://github.com/paleofoundation/heavymetalindex/commit/8f4be10) | 2026-06-08 | audit: ruttkay-nedecky2013-metallothionein-oxidative-stress revised |
-| [5096d9b](https://github.com/paleofoundation/heavymetalindex/commit/5096d9b) | 2026-06-08 | ingest: ruttkay-nedecky2013-metallothionein-oxidative-stress fresh from MFK/June 8 Black Market Peptide Metal Survey |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

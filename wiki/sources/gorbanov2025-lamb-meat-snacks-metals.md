@@ -25,6 +25,8 @@ updated: 2026-05-31
 
 # Gorbanov and Giro 2025 — Toxic elements in lamb meat used for meat-snack production
 
+## Overview
+
 Gorbanov and Giro tested lamb muscle tissue from Edilbay-breed sheep after a 90-day feeding trial with the bifidogenic feed supplement LaktuVet-1, then used the tested meat to formulate dried lamb meat snacks. Lead was detected at 0.02 mg/kg in the supplemented group and 0.03 mg/kg in the control group, while cadmium and arsenic were both reported below 0.01 mg/kg in both groups. The article is routeable to lamb/mutton and processed meat snack context, but the auto-fetch filename is a false soy-products/cadmium match.
 
 ## Key numbers
@@ -64,15 +66,15 @@ This source contributes a small controlled-feeding lamb-meat occurrence point fo
 PDF extracted 2026-05-31 from the auto-fetched queue. The downloaded filename incorrectly identifies the paper as a soy-products cadmium result; the article itself is a Russian lamb meat safety and meat-snack formulation study. Metadata are taken from the bilingual title page: Proceedings of VSUET, 2025, volume 87, issue 1, pages 86-92, DOI 10.20914/2310-1202-2025-1-86-92. Numerical values were transcribed from Table 1 and checked against the English and Russian abstracts. The table reports censored Cd and As as <0.01 mg/kg in both groups; this page preserves the censoring and treats As as total arsenic (tAs) because the paper does not speciate inorganic arsenic. Matrix terms are normalized to the existing broad descriptors `meat` and `processed-meat`; lamb-specific and sheep-muscle detail remains in `sample_population` and body text. No consumer brand contamination data are present; LaktuVet-1, Prestart FB SAZ, AQUASEARCHER, Kitfort, and GOST/TR TS references are feed additive, starter culture, instrument, equipment, and standards/method names used in methods, not consumer brand occurrence findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

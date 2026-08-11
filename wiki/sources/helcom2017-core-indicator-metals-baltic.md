@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # HELCOM 2017 — Pb, Cd, and Hg status assessment in Baltic Sea fish, mussels, sediment, and seawater (2011-2015)
 
+## Overview
+
 The HELCOM core indicator on metals evaluates the contamination status of the Baltic Sea marine environment for cadmium (Cd), lead (Pb), and total mercury (Hg) measured in seawater, biota (fish muscle, fish liver, mussel soft body), and sediment over the assessment period 2011-2015, against threshold values derived from EU Environmental Quality Standards (Water Framework Directive Directive 2008/105/EC, amended by Directive 2013/39/EU) and OSPAR Background Assessment Criteria. Good Environmental Status was not achieved for cadmium across most of the southern Baltic, was achieved for lead in northern and central sub-basins but exceeded the lead threshold in mussel and fish liver across the southwestern Baltic, and was not achieved for mercury in fish muscle in any of the assessed sub-basins. The assessment uses the HELCOM COMBINE monitoring database (hosted at ICES) and the agreed MIME R script that returns the upper bound of the 95 percent confidence level as the representative concentration per assessment unit.
 
 ## Key numbers
@@ -200,14 +202,15 @@ Two internal source-text inconsistencies are recorded faithfully rather than sil
 - [[products/seafood]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [4dbd673](https://github.com/paleofoundation/heavymetalindex/commit/4dbd673) | 2026-06-03 | ingest: helcom2017-core-indicator-metals-baltic [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

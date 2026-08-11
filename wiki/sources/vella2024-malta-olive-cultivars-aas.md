@@ -28,6 +28,8 @@ updated: 2026-05-28
 
 # Vella et al. 2024 — Heavy metals in Maltese oil-olive cultivars and mill waste via FAAS
 
+## Overview
+
 This study measured iron, copper, cobalt, nickel, zinc, cadmium, and strontium in four olive cultivars (Carolea, Cipressina, Leccino, Bidni) grown in Malta and sampled from a single cultivator's October 2023 harvest, using Flame Atomic Absorption Spectrometry (FAAS) with the method of standard additions. Analytes were measured across four fractions — skin, pit, solid waste, and liquid waste from a two-phase continuous-centrifugation mill — to characterise distribution within the olive and its processing byproducts. The authors emphasise that the olives sampled were grown for olive-oil production, not as table olives, which constrains the direct applicability of EU Regulation 2023/915 (a table-olive cadmium limit of 0.02 mg/kg) and the Codex Alimentarius vegetable cadmium limit of 0.2 mg/kg. The cadmium finding is methodologically compromised: FAAS was insufficiently sensitive at the low concentrations regulated for table olives, producing standard errors equal to or larger than the measured values (0.2–1.1 mg/kg SE on 0.4–2.1 mg/kg means), so no defensible conclusion on regulatory compliance could be drawn for cadmium. For all other metals, results were treated as valid; statistical testing (Shapiro–Wilk, one-way ANOVA, Kruskal–Wallis at α = 0.05) found no significant difference in concentration between cultivars but significant differences between fractions for several metals, particularly between the liquid waste fraction and the solid fractions.
 
 ## Key numbers
@@ -119,15 +121,15 @@ Page was first ingested under the legacy `raw_handle: manual-fetch-kimi` and las
 Preserved unchanged: `cite_key`, `doi: null` / `no_doi_assigned: true`, `license: unknown`, `near_duplicates: []`, evidence tier B, `sample_n: 4`, `jurisdictions: [MT]`, and the metals list (Sr was reported in the source but is not in the wiki metals taxonomy, so it is mentioned in Key numbers without being declared in frontmatter).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

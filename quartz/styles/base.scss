@@ -2,7 +2,11 @@
 
 @use "./variables.scss" as *;
 @use "./syntax.scss";
-@use "./callouts.scss";
+// callouts.scss REMOVED. It was 187 lines of Obsidian admonition styling with
+// nothing to style: 0 files under wiki/ use `> [!note]` syntax and 0 built pages
+// emit `class="callout"`. It also squatted the name the v3 caveat callout wants
+// (COMPONENTS.md item 9), so per METHOD.md §1 it dies before that lands rather
+// than being out-specified around.
 
 html {
   scroll-behavior: smooth;
@@ -511,10 +515,14 @@ code {
   background: var(--lightgray);
 }
 
+// v3 body copy is 16.5px / 1.78 (artifact 476). An ABSOLUTE 1.6rem here set
+// line-height directly on every <p>, so the relative 1.78 inherited from
+// .wiki-content could never win no matter what that rule said — the render
+// disagreed with correct-looking source. Corrected, not out-specified.
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.78;
 }
 
 .table-container {

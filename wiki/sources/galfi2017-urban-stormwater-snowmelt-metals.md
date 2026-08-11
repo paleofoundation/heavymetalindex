@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Galfi et al. 2017 - Urban stormwater and snowmelt trace metals
 
+## Overview
+
 Galfi and colleagues measured mineral inorganics and trace metals in urban stormwater, snowmelt runoff, and baseflow in four Swedish catchments to distinguish geological from anthropogenic sources and characterize mobility patterns. This is a3 source-attribution evidence: it does not measure bottled water or food products, but it directly quantifies heavy metals in urban runoff pathways that can load receiving waters and downstream environments.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: Context only for environmental-burden and receiving-water pathway explanati
 Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:not-food-occurrence` pathway disposition. The corrected scope treats urban runoff heavy-metal measurements as in-scope a3 source-attribution evidence rather than requiring a finished-food matrix.
 
 Products and ingredients are intentionally empty. The paper measures stormwater, snowmelt, and baseflow, not a consumer product. The paper reports elemental trace metals only; no arsenic or mercury speciation issue applies here because those species are not part of the selected frontmatter metals for this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [3f9c42c30](https://github.com/paleofoundation/heavymetalindex/commit/3f9c42c30) | 2026-06-13 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

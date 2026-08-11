@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Pehlivan et al. 2008 — Inorganic metals in Turkish edible vegetable oils by ICP-AES
 
+## Overview
+
 This study determined nine metals (Cu, Fe, Mn, Co, Cr, Pb, Cd, Ni, Zn) in 17 edible vegetable oil samples from Turkish markets using ICP-AES after direct acid extraction with dilute nitric acid. The study demonstrates a simple sample preparation approach — 2–3 g oil + 1 mL 10% HNO3, shaken and incubated 2 h at 50°C, then centrifuged — that avoided the losses associated with wet digestion or dry ashing. Lead concentrations were below the [[regulations/eu-466-2001-contaminants-superseded|EC 466/2001]] vegetable-oil Pb limit cited by the authors; the paper does not provide vegetable-oil regulatory limits for most other measured metals. Virgin olive oil had the highest lead among oil types (0.0074 mg/kg), and almond oil showed the highest values for Cu, Cr, Ni, and Zn.
 
 Note on evidence tier: downgraded from A to B. The study is older (2008), uses ICP-AES without speciation, and the variety of oil subtypes within a single category (e.g., 5 sunflower oil brands) means per-variety n=1. Total chromium is reported; this cannot be treated as Cr-VI.
@@ -108,15 +110,15 @@ Limitation: This is a 2008 study with no speciation. The method is dilute-acid e
 - Source-internal note: the Discussion prose says the lowest Pb value was 0.012 mg/kg for sunflower oil (c), but Table 3 reports 0.0012 mg/kg for sunflower oil (c) and several 0.0000 entries; this page follows Table 3. The prose also says the lowest Cd value was 0.0003 mg/kg in almond oil, while Table 4 reports 0.0002 mg/kg in corn oil (a); this page follows Table 4.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

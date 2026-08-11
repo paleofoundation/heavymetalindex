@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Adaileh et al. 2025 - PAN composite for lead and cadmium wastewater removal
 
+## Overview
+
 Adaileh and colleagues fabricated a Cu-ZnO/ZrO2 polyacrylonitrile polymer composite and tested it for simultaneous removal of Pb(II), Cd(II), sulfamethoxazole, and ibuprofen from water. This is remediation and treatment-technology evidence. The reported concentrations, adsorption capacities, and percent removals describe wastewater-treatment performance, not heavy-metal occurrence in a consumer product.
 
 ## Key numbers
@@ -60,3 +62,17 @@ App: No direct consumer-product risk distribution. The source can support contex
 ## Verification notes
 
 This page was built from the PDF title page, abstract, contact-time results, concentration/isotherm sections, kinetic discussion, reusability results, and conclusion. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content. Products and ingredients are intentionally empty because the study reports aqueous remediation performance, not consumer-product occurrence.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

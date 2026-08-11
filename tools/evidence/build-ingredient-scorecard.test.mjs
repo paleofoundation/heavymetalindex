@@ -48,9 +48,9 @@ test("known-page chips match hand-computed counts (rice)", () => {
   assert.match(r.dims.D1.have, /8\/10 HMTc analytes/)
 
   // total_n: sum of n_studies across the whole profile.
-  // Pb61+Cd86+iAs74+tHg45+Ni23+Al11+Cr30+Sn11+tAs95+U4 = 440
-  assert.equal(r.dims.D1.totalN, 440)
-  assert.match(r.dims.D1.have, /total n=440/)
+  // Pb5+Cd8+iAs8+tHg5+Ni23+Al11+Cr3+Sn11+tAs6+U0 = 80
+  assert.equal(r.dims.D1.totalN, 80)
+  assert.match(r.dims.D1.have, /total n=80/)
 
   // D6 speciation: rice declares iAs/tAs/tHg, no bare As/Hg cell -> OK.
   assert.equal(r.dims.D6.status, "OK")
@@ -129,7 +129,7 @@ test("tier table present: D1 renders against the tier, not tier-unset", () => {
   const r = scoreIngredient("rice", riceFm, riceContent, ctx)
   assert.match(r.dims.D1.label, /tier: staple/)
   assert.notEqual(r.dims.D1.status, "tier-unset")
-  // staple bar is total n>=40; rice has 440 -> not below-tier on depth
+  // staple bar is total n>=40; rice has 80 -> not below-tier on depth
   assert.notEqual(r.dims.D1.status, "below-tier")
   fs.rmSync(dir, { recursive: true, force: true })
 })

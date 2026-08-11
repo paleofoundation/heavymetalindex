@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Lin et al. 2024 — Twelve heavy metals across 24 edible-oil types in Taiwan
 
+## Overview
+
 Lin and colleagues measured 12 heavy metals (As, Pb, Cd, Ni, V, Cr, Co, Cu, Fe, Zn, Mn, Ba — mercury was not analysed) in 50 commercial edible-oil samples representing 24 oil types (12 refined, 12 unrefined) sold in Taiwan, using ICP-MS after microwave digestion. None of the sampled oils exceeded Taiwan, CODEX, IOC, or EU limits for any analyte. Unrefined (cold-pressed and virgin) oils carried significantly higher concentrations than refined counterparts for 8 of 12 metals, with the largest fold-changes in Mn (468-fold), Ba (23-fold), and Zn (11-fold). Olive oil was the consistent exception: per the source text (page 177), refined olive oil carried higher metal concentrations than unrefined extra-virgin olive oil for every measured metal except Pb, Cr, and Co (note: Table 1 vs Table 2 values in fact show refined > unrefined for Pb and Cr in olive; this paper-internal text-vs-table inconsistency is flagged in Verification notes rather than silently re-synthesised here). Incremental lifetime cancer risk from arsenic exceeded 10⁻⁶ for unrefined oils in every age group except 19–65 years, with the unrefined-sesame-oil ILCR in the 0–3 year group also exceeding 10⁻⁶.
 
 ## Key numbers
@@ -142,15 +144,15 @@ Arsenic is reported as total arsenic (no speciation between inorganic and organi
 - 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE, with three ❌ findings on Check 1 (numerical fidelity) and four ⚠️ concerns. Findings applied: (a) Verification-notes Mn anchor corrected from "tea seed oil" to "camellia oil" with Table 2 verification (above); (b) App-section Pb-percentile sentence corrected from a four-oil list ("camellia 45 %, tea seed 28 %, peanut 18 %, sesame 17 %", two values fabricated) to the source's actual three-oil list (camellia 45.2 %, peanut 17.7 %, sunflower 16.2 % per page 181); (c) "Olive oil reverses the pattern: refined > unrefined for every analyte" replaced in the body intro and in the Refined-vs-unrefined comparison block with the source's stated exception ("except for Pb, Cr, and Co", page 177), with a flag of the source's internal text/table contradiction; (d) sunflower-refined Cd SD corrected from "± 0.388" to "± 0.116" — the "± 0.388" value matched the Ni column ± 0.388 on the same row and produced a mean ± SD range "0.079 ± 0.388" mathematically inconsistent with the printed range "ND~0.289"; ± 0.116 mirrors the adjacent V-column SD and is consistent with the printed range; (e) PC1 driver list expanded from five metals (Cd, Ba, Fe, Pb, Co) to the seven listed on page 181 (Cd, Ba, Fe, Pb, Co, Zn, Mn); (f) cluster 2 oil list expanded to include soybean oil (page 181); (g) ILCR-range attribution scope corrected from "unrefined oils" to "refined and unrefined oils across age groups". Findings rejected (false positives): none. The audit subagent's ⚠️ on sesame-unrefined Ni "2.907 vs 2.906" was a last-digit transcription whose materiality is below the 0.001 µg/kg threshold; left unchanged.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

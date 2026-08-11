@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Godwill et al. 2015 - Soft-drink heavy metals in Nigeria
 
+## Overview
+
 Godwill and colleagues measured cadmium, lead, and total mercury in 26 Nigerian soft-drink and juice samples purchased from local grocery stores in Enugu, Enugu State. Heavy metals were quantified by atomic absorption spectrophotometry after nitric-acid digestion. The paper reports lead in all samples, mercury in most samples, and cadmium in one sample, with all concentration units preserved as `mg/L`.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: The source can contribute Cd, Pb, and tHg occurrence context for `beverages
 - Speciation: the paper reports cadmium, lead, and mercury by AAS with no species separation. Mercury is therefore recorded as `tHg`, not MeHg.
 - Brand firewall: the original table lists named beverages. This page omits sample names and reports only aggregate/category-level findings.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `beverage` and `soft-drink` are matrix descriptors rather than product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

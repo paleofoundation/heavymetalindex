@@ -26,6 +26,8 @@ updated: 2026-06-07
 
 # Wale 2024 — Digestion methods for heavy metals in fruits (Science Journal of Analytical Chemistry)
 
+## Overview
+
 This single-author 6-page review article (Vol. 12, No. 1, pp. 7-12, doi 10.11648/j.sjac.20241201.12) compares the wet-digestion methodologies most commonly used to release heavy metals from fruit and fruit-juice matrices prior to instrumental quantification, and concludes that microwave-assisted pressurized wet digestion in closed vessels is preferred over open-vessel wet digestion, conventional thermally convective wet pressure digestion, UV-photolysis digestion, and ultrasound-assisted acid decomposition for routine fruit-matrix analysis. It carries no original measurements. The only quantitative table is a reproduction of a WHO/FAO acceptable-limits table tertiary-cited from Ihesinachi and Eresiya 2014, the same table that appears (with a paper-internal units-label defect) in the same author's wale2023 review; flagged below. Evidence tier C: short single-author review at a Science Publishing Group venue with no primary data, no PRISMA flow, and no risk-of-bias appraisal of the cited methodological literature.
 
 ## Key numbers
@@ -113,12 +115,15 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 - [[ingredients/fruit-juice]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1c1eeb3](https://github.com/paleofoundation/heavymetalindex/commit/1c1eeb3) | 2026-06-07 | audit: wale2024-fruit-digestion-methods-review promoted |
-| [e6ae7b7](https://github.com/paleofoundation/heavymetalindex/commit/e6ae7b7) | 2026-06-07 | ingest: wale2024-fruit-digestion-methods-review fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

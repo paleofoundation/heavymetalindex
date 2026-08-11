@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # EU Regulation 2015/1006 - inorganic arsenic in rice and rice products
 
+## Overview
+
 Commission Regulation (EU) 2015/1006 amended Regulation (EC) No 1881/2006 by adding maximum levels for inorganic arsenic in rice and selected rice products. The maximum levels applied from 1 January 2016 and remained part of the EU contaminants framework until EC 1881/2006 was recast by [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] on 25 May 2023.
 
 This page exists as the historical regulatory anchor for literature that cites the 2015 amendment directly, including infant rice-food studies published around the January 2016 implementation date.
@@ -50,16 +52,24 @@ For current-facing EU comparisons, use [[regulations/eu2023-contaminants-maximum
 - Created 2026-05-18 during Codex auto-fetch merge-enhancement of [[sources/signes-pastor2017-infant-arsenic-rice-weaning]].
 - EUR-Lex verifies Article 2 application from 1 January 2016 and the Annex rows 3.5.1 through 3.5.4 for inorganic arsenic in rice and rice products.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added; narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lu 2022 — Research progress of metal chelating peptides
 
+## Overview
+
 Lu and Dong reviewed the preparation, structural characterization, isolation and purification, and physiological activity of metal chelating peptides derived from food proteins. The metals in scope are the nutritionally essential ions Ca²⁺, Fe²⁺, Zn²⁺, and Cu²⁺; the review's framing is dietary supplementation of essential trace elements through peptide carriers, not contamination by toxic heavy metals. This source is recorded here for its mechanism content on peptide-metal coordination chemistry (binding groups, binding sites, amino acid sequence determinants), which is the same chemistry that governs binding of toxic metals to food protein hydrolysates and therefore provides context for several heavy-metal occurrence and bioavailability questions in the HMI corpus. No occurrence values for HMI's regulated heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) appear in this review.
 
 ## Key numbers
@@ -76,11 +78,15 @@ The peptide-metal coordination chemistry described in this review — binding of
 - Wiki/HMTc firewall: no synthesis claims about contamination thresholds or HMTc standards were imported from the review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8ea98a0](https://github.com/paleofoundation/heavymetalindex/commit/8ea98a0) | 2026-06-08 | ingest: lu2022-metal-chelating-peptides-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

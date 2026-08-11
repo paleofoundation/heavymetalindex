@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Yildirim et al. 2021 — Humic + Fulvic acid mitigation of soil Cd uptake by garden cress (Erzurum, Turkey)
 
+## Overview
+
 This greenhouse pot study tested whether soil application of a commercial humic + fulvic acid product (Powhumus, 80–85% humic substances composed of 90% humic acid + 10% fulvic acid) reduced the uptake of cadmium into the edible aerial tissue of garden cress (*Lepidium sativum* cv Helen) grown in artificially Cd-spiked soil. Authors used a 3×4 factorial of soil Cd (0, 100, 200 mg/kg as CdSO4·8H2O) crossed with HA+FA solution (0, 3500, 5250, 7000 mg/L). The principal finding for the wiki is that, at the highest HA+FA rate (7000 mg/L), Cd uptake into garden cress leaves was reduced by 95% relative to the no-amendment control at 200 mg/kg soil Cd, and Cl uptake by 80%. HA+FA also mitigated Cd-driven losses of leaf and root biomass, leaf area, chlorophyll content, leaf relative water content, and antioxidant enzyme stress markers. The study is an agronomic / soil-amendment intervention, not a food-occurrence survey: it does not measure Cd in retail or harvested commercial cress and the soil Cd doses are far above typical agricultural-soil contamination.
 
 ## Key numbers
@@ -112,15 +114,15 @@ Harvest at day 50. Plant tissue dried at 70 °C for 48 h. Quadruplicate analyses
 - Audit's three other checks (slug-validity, brand-firewall, HMTc-firewall) all returned ✅ with no findings. Numeric fidelity check otherwise ✅ across all 12 cells of Table 5, Tables 1–3 biomass/stress markers, soil characterization, and Cd reduction recomputations.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

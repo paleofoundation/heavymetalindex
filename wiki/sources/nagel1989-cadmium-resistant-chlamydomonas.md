@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Nagel & Voigt 1989 — In vitro evolution of a Cd-resistant Chlamydomonas reinhardtii population
 
+## Overview
+
 Nagel and Voigt (Universität Hamburg; Institut für Biochemie und Lebensmittelchemie and Institut für Allgemeine Botanik und Botanischer Garten) describe the laboratory selection of a cadmium-tolerant population (CW15-Cdr) from the cadmium-sensitive cell-wall-deficient *Chlamydomonas reinhardtii* mutant CW-15, and compare cadmium uptake and intracellular cadmium distribution between the parent and the tolerant derivative to ask whether tolerance is mediated by the phytochelatin/cadmium-binding-peptide (CBP) detoxification system. The paper is a short three-page Notes article that reports a single 48-hour radiolabel experiment (29 μM 109CdCl2, 0.25 MBq of 109CdCl2) and ancillary growth, chlorophyll, and starch measurements. The headline finding is that the tolerant strain takes up *more* total Cd than the sensitive strain (220 ± 25 vs 190 ± 25 kcpm per 10^9 cells) but binds *less* of it to the CBP fraction (25,000 ± 5,000 cpm/10^9 cells, ~39% of cytosolic Cd, vs 45,000 ± 3,750 cpm/10^9 cells, ~67%), supporting the authors' conclusion that Cd tolerance in CW15-Cdr is driven by genetically determined alterations of metabolism (specifically the photosystem II/chloroplast pathway) rather than by an enhanced phytochelatin-mediated detoxification system. In the wiki, this source is mechanistic background for [[metals/cadmium]] on the limits of the phytochelatin paradigm in unicellular algae; it carries no food-matrix occurrence data and no regulatory content.
 
 ## Why this matters
@@ -137,7 +139,7 @@ Funded by Deutsche Forschungsgemeinschaft grant Na 146/1.
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry. No firewall action required.
 
-**Speciation note.** The paper uses "Cd" and "Cd²⁺" interchangeably; all measurements are of total cadmium (Cd as CdCl2 in medium, total 109Cd in cellular fractions). No methylated, organic, or oxidation-state-specific cadmium species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed; see CLAUDE.md Part 14).
+**Speciation note.** The paper uses "Cd" and "Cd²⁺" interchangeably; all measurements are of total cadmium (Cd as CdCl2 in medium, total 109Cd in cellular fractions). No methylated, organic, or oxidation-state-specific cadmium species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed;).
 
 **Date arithmetic.** Received 25 July 1988; accepted 16 November 1988; published February 1989 (Vol. 55, No. 2). Consistent with `year: 1989` frontmatter and DOI year `1989`.
 
@@ -154,12 +156,15 @@ Funded by Deutsche Forschungsgemeinschaft grant Na 146/1.
 4 findings, 4 applied, 0 rejected. Audit subagent ID afa53bf8abf85e78a.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b1522f2](https://github.com/paleofoundation/heavymetalindex/commit/b1522f2) | 2026-06-08 | audit: nagel1989-cadmium-resistant-chlamydomonas revised |
-| [b26a1aa](https://github.com/paleofoundation/heavymetalindex/commit/b26a1aa) | 2026-06-08 | ingest: nagel1989-cadmium-resistant-chlamydomonas fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

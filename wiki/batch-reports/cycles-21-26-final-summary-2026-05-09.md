@@ -16,6 +16,8 @@ noindex: true
 
 # Heavy Metal Index — Cycles 21-26 Extension Final Summary
 
+## Overview
+
 This report documents the post-cycle-20 extension run (cycles 21-26) triggered by Karen's directive to (a) continue the re-ingest queue, (b) begin Priority 5, and (c) regenerate the gap report. The autonomous /loop has now exhausted tractable in-corpus cell-closing work and is stopping until new directives, new external sources, or Step 0 architectural input arrive.
 
 ## Headline outcomes (post-cycle-26 state)

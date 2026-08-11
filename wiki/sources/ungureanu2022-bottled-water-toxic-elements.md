@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ungureanu et al. 2022 - potentially toxic elements in bottled drinking water
 
+## Overview
+
 Ungureanu et al. measured 12 potentially toxic elements in 50 bottled drinking-water samples sold on the Romanian market. The sample set included still, spring, sparkling, table, semi-sparkling, and artesian waters in PET bottles, mostly produced in Romania with additional European and Fiji-origin products. Most measured elements were below applicable drinking-water limits, but one sample exceeded the Pb limit and several samples had elevated Fe.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: The study supports bottled-water and mineral-water evidence surfaces, with 
 - The source title page reports publication in 2022 even though the auto-fetched filename includes 2023.
 - Table 1 appears to print unusually large uncertainty values for several means, including Pb and Cd. This page preserves the table text and separately records the authors' detection-rate and exceedance statements.
 - The paper measures total chromium only; it does not provide Cr(VI) speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

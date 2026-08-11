@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Napier et al. 2024 (NC + CDC) — WanaBana apple cinnamon puree childhood Pb exposure outbreak
 
+## Overview
+
 This MMWR report documents the public-health investigation of the **2023-2024 WanaBana apple cinnamon fruit puree pouches childhood lead exposure outbreak**, one of the most significant recent baby food contamination events in the US. Between June 2023 and January 2024, routine pediatric blood lead testing in North Carolina identified four asymptomatic children with blood lead levels (BLLs) ≥5 µg/dL — including one child with BLLs >14 µg/dL. Home environmental investigations identified WanaBana brand apple cinnamon fruit puree pouches as the only common potential exposure source across the affected households. **Product samples contained 1.9-3.0 ppm of lead — approximately 190-300x the FDA's then-proposed action level of 10 ppb (0.01 ppm) for fruit purees.** An expanded nationwide investigation found approximately 500 cases of childhood lead exposure linked to apple cinnamon purees nationally (22 in NC). FDA issued a nationwide public health advisory October 28, 2023; the manufacturer voluntary recall followed two days later. Subsequent investigation traced the contamination to cinnamon imported from Ecuador, with intentional lead chromate adulteration suspected.
 
 ## Key numbers
@@ -111,15 +113,15 @@ Microbiome: Not addressed.
 - [[regulations/nc-clppp-pb-reportable-1ppm]] (NC state-level reporting threshold)
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

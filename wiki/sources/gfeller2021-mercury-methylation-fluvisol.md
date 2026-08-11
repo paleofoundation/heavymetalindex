@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Gfeller et al. 2021 - mercury methylation in polluted Fluvisol
 
+## Overview
+
 Gfeller and colleagues tested how liquid cow manure and flooding-draining cycles changed mercury mobility, colloid formation, and methylmercury production in Hg-polluted agricultural floodplain soils. This is upstream supply-chain pathway evidence: the paper does not measure a finished food, but it directly addresses how manure application and redox cycling in agricultural soil can mobilize total Hg and promote or limit MeHg formation.
 
 ## Key numbers
@@ -80,3 +82,17 @@ App: Context only for product thresholds. The HgT and MeHg values are soil, manu
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason failed because the paper measures Hg and MeHg behavior in agricultural soil under manure and flooding conditions, an a3 supply-chain pathway and soil-amendment mechanism even without a finished-food concentration table.
 
 All key numbers were checked against the extracted PDF text, especially Table 1, Table 3, the Results section on net MeHg production, and the Discussion estimate of Hg evacuated during sampling. Speciation is preserved: HgT is total mercury, MeHg is methylmercury, and the page does not promote HgT to MeHg. Products and ingredients are intentionally empty because the paper reports soil, manure, and microcosm data only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Naccari et al. 2025 — Toxic metals and microelements in Calabrian honey, Italy
 
+## Overview
+
 Naccari et al. measured Pb, Cd, As (toxic metals) and a suite of microelements (Cr, Ni, Co, Mn, Fe, Cu, Zn, Se, Al) in 38 honey samples of five floral varieties collected from beekeeping farms in the Calabria region of southern Italy. Analysis was by ICP-MS (Agilent 7700x) following microwave acid digestion per UNI EN 13805:2002; LOD/LOQ ranged 0.001–0.005 mg/kg; recoveries 96–105%. All analyzed metals were detected above the LOD in every sample. The key regulatory finding is that Pb exceeded the EU MRL of 0.1 mg/kg (EU Regulation 2023/915) in the majority of samples: 80% of Wildflower, 50% of Citrus and Honeydew, and 25% of Chestnut and Erika samples. Despite these exceedances, the contribution to PTWI, PTMI, and THQ at typical honey consumption rates (1.92 g/day) remained a small fraction of reference values, as honey is a minor dietary vehicle. Cadmium and arsenic were well below regulatory limits. Aluminum was the most abundant microelement (mean 4.5–6.0 mg/kg by variety). The authors use the honey mineral profile as a biomonitoring tool for environmental pollution in apiary areas, noting that Wildflower honey was the most contaminated, consistent with generalist foraging across diverse agricultural land.
 
 ## Key numbers
@@ -75,15 +77,15 @@ App: Honey (Italy, Calabria): Pb mean 0.079–0.125 mg/kg by variety; Cd 0.006�
 - [[ingredients/honey]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

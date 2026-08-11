@@ -8,9 +8,11 @@ updated: 2026-05-28
 
 # Roadmap
 
+## Overview
+
 This page is the public 10-year direction for the Heavy Metal Index. It is intentionally direct about what the Index is becoming, because the defensibility argument the Index rests on — that it is the canonical curated reference for heavy metals in food — requires that direction to be visible, not hidden. Brand-legal, regulatory affairs, retailer category-floor programs, the standards-body community, and AI integrators considering building on the Index can read this page and know what they are building on top of.
 
-The strategic frame is in [[CLAUDE|CLAUDE.md § Part 1]] (the internal operating manual). This page is the public-facing version.
+This page is the public-facing statement of the Index's strategic frame.
 
 ## What the Index is today
 
@@ -53,7 +55,7 @@ Today the Index publishes to one surface (heavymetalindex.com). The mature state
 - A **brand-legal export bundle** — on-demand PDFs and signed manifests with DOI-pinned page versions, suitable for filing as litigation exhibits.
 - A **regulator-facing API** under explicit licence to FDA / EFSA / WHO with provenance attestations.
 - A **multilingual synthesis layer.** Source pages stay in English; the synthesis layer (the prose readers actually read) is translated into Chinese, Spanish, Portuguese, Korean, Japanese, French, and German.
-- A **Journal of Food Metallomics** publication track at [heavymetaltested.com/journal-of-food-metallomics](https://heavymetaltested.com/journal-of-food-metallomics) where synthesis pages graduate to peer-reviewed publications with the wiki page as supplementary data.
+- A planned **Journal of Food Metallomics** publication track where vetted synthesis pages can graduate to externally peer-reviewed publications, with the wiki page as supplementary data. The venue is not yet established — no ISSN, editorial board, or completed reviews — and its independence from the certification program is a precondition for launch.
 - A **WikiBiome federation feed** sending heavy-metal-microbiome content to [WikiBiome](https://wikibiome.com).
 
 ### Shift 4: Authority through citation
@@ -78,7 +80,7 @@ The gap is not capability — the building blocks are in place. The gap is **dis
 Worth naming because the gravitational pull toward these is real.
 
 - **Personalised health advice.** "Given your diet, here is your exposure" is the consumer app's job, downstream. The Index stays at population-level evidence.
-- **Brand rankings.** Even in 10 years, even with massive demand, the brand-firewall holds. Brand-identifying contamination data lives in a separate private build (see [[CLAUDE|CLAUDE.md § Part 26]]), never in the public Index.
+- **Brand rankings.** Even in 10 years, even with massive demand, the brand-firewall holds. Brand-identifying contamination data lives in a separate private build, never in the public Index.
 - **Replacement of regulatory bodies.** The Index is the reference regulators use, not a regulator itself. Standards-setting is the [Heavy Metal Tested & Certified program's](https://heavymetaltested.com) job, kept architecturally separate from the Index (see [[editorial-standards]]).
 - **Recommendations.** "Eat this, not that" is not the Index's voice. The Index reports what the literature supports; readers decide what to do with it.
 
@@ -114,6 +116,6 @@ Five disciplines applied to current work so the 10-year transition costs less wh
 
 ## Status report
 
-This page is the public commitment. The corresponding internal status is in `wiki/sprint-status.md` and the daily autonomy reports under `data/evidence/autonomy/`. The full strategic frame and the wiki/HMTc firewall are in [[CLAUDE|CLAUDE.md]] for readers who want the operating-manual depth.
+This page is the public commitment. The full strategic frame and the wiki/HMTc firewall separation are described in the [[editorial-standards|editorial standards]].
 
 For comments, partnership inquiries, or integration questions: karen@paleofoundation.com.

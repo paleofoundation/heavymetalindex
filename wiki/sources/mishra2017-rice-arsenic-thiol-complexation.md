@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Mishra et al. 2017 — Thiol complexation restricts arsenic translocation from rice roots to shoots, but methylated arsenic is more mobile
 
+## Overview
+
 This Scientific Reports paper investigated *in planta* accumulation, redox transformation and thiol-complexation of inorganic arsenate (AsV), methylarsonate (MAV) and dimethylarsinate (DMAV) in rice (cv. Triguna) under 7-day hydroponic exposure. Roots and shoots were analyzed by anion-exchange HPLC-ICP-MS (redox/species) and RP-HPLC-(ICP-MS)-(ESI-MS) in parallel (thiol complexes). AsV and MAV were efficiently reduced to AsIII and MAIII respectively in both roots and shoots; no trivalent DMA was detected. In roots, up to 48% of root As in AsV-exposed plants and 83% of root As in MAV-exposed plants was bound as thiol complexes covering up to 20 and 16 distinct As-species, including PC2, hm-PC2, des-Gly-PC2, hm-GSH and γ-EC homologues. Despite extensive complexation in roots, shoot transfer factor (TF, shoot/root As) ranked DMAV (4.91) > MAV (0.18) > AsV (0.033), and in shoots 78% of total As in MAV-exposed and 71% of As in AsV-exposed plants was present as weakly bound MAIII and AsIII respectively.
 
 ## Key numbers
@@ -124,15 +126,15 @@ Audit subagent (2026-05-28) flagged the following; verified against source and a
 - **Extraction-efficiency sample size n=48** flagged by audit subagent as a transcription error. Source p. 2 ¶3 actually states "The extraction efficiency of As was 91 ± 5.3% (n = 32)"; Fig 3 caption does not mention n=48. Audit finding was a false positive — wiki value n=32 matches the source. No correction applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

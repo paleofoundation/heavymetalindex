@@ -26,6 +26,8 @@ updated: 2026-06-05
 
 # Enemuor et al. 2021 - Heavy metals in Kogi East palm oil
 
+## Overview
+
 Enemuor and colleagues measured physicochemical quality, microbial contamination, and selected heavy metals in traditionally processed palm oil sold in three Kogi East markets in Nigeria. The routeable HMI evidence is Table 3, which reports market-level mean concentrations in ppm for cadmium, chromium, lead, arsenic, copper, and iron. Cadmium was highest in Idah market samples, while arsenic and iron were highest in Anyigba and Idah samples respectively.
 
 ## Key numbers
@@ -75,12 +77,15 @@ Microbiome: No direct microbiome endpoint.
 - Internal inconsistency in the source: the heavy-metals methods section lists only Pb, Cd, Fe, As, and Cu as analytes, but Table 3 reports Cr alongside the other five. No separate Cr digestion or instrument calibration step is described. The Cr values are preserved on this page because they appear in the source's own results table, but Cr should be treated as having weaker methods provenance than the other five metals.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [4496362](https://github.com/paleofoundation/heavymetalindex/commit/4496362) | 2026-06-05 | ingest auto-fetched 2026-06-05: enemuor2021-palm-oil-kogi-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9986cc7f3](https://github.com/paleofoundation/heavymetalindex/commit/9986cc7f3) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

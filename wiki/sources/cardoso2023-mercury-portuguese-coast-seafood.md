@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cardoso et al. 2023 — Seasonal mercury in three Portuguese estuaries and seafood health risk
 
+## Overview
+
 This study characterises seasonal variability in total mercury (tHg) contamination across three distinct Portuguese estuarine systems (Ria de Aveiro, Tagus estuary, Ria Formosa), measuring tHg in water, primary producers, and macrobenthos including edible bivalves. The study evaluates both human health risk from bivalve consumption and environmental risk. Ria de Aveiro and Tagus estuary reflect historical industrial mercury contamination from chlor-alkali plants; Ria Formosa represents a less industrialised southern system. The study finds that tHg concentrations in surface waters were higher in Ria de Aveiro and Tagus than in Ria Formosa, with particular concern in Ria de Aveiro during autumn where Hg levels approached approximately 100 µg/L. For edible species, tHg concentrations in bivalves were below 0.5 µg/g wet weight across all systems, representing no human health risk under standard consumption scenarios. An environmental risk quotient greater than 0.1 (moderate risk) was observed in Ria de Aveiro during autumn, indicating ecosystem-level concern even where human health risk is low.
 
 ## Key numbers
@@ -57,15 +59,15 @@ Microbiome: Not addressed.
 - [[health/methylmercury-exposure]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

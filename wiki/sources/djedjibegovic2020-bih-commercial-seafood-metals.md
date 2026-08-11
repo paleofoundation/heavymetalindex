@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Djedjibegovic 2020 - Commercial seafood metals in Bosnia and Herzegovina
 
+## Overview
+
 Djedjibegovic and colleagues measured cadmium, mercury, and lead in `37` commercial fish and seafood samples sold at retail in Bosnia and Herzegovina. The study reports wet-weight concentrations for frozen fish, canned tuna, canned mackerel, squid, mussel, shrimp, and prawn products, then models adult exposure by age and socioeconomic group. Mercury is reported as total/unspecified `Hg`; the paper does not measure methylmercury separately.
 
 ## Key numbers
@@ -72,11 +74,15 @@ This source provides primary Bosnia and Herzegovina retail-market occurrence evi
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include squid, mussel, shrimp, and prawn product rows, so broad `shellfish`/`seafood` routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a9c056a](https://github.com/paleofoundation/heavymetalindex/commit/a9c056a) | 2026-06-08 | ingest: djedjibegovic2020-bih-commercial-seafood-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

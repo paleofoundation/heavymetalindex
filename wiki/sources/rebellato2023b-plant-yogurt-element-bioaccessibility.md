@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Rebellato et al. 2023 — Composition and bioaccessibility of inorganic elements in plant-based yogurts (Brazil retail)
 
+## Overview
+
 Rebellato and colleagues at the Institute of Food Technology (ITAL, São Paulo) and Adolfo Lutz Institute measured 10 essential inorganic elements (Ca, Cu, Fe, K, Mg, Mn, Na, P, Zn, Se) by inductively coupled plasma optical emission spectrometry (ICP-OES) and 6 trace elements (Al, Ba, Co, Cr, Mo, Ni) by inductively coupled plasma mass spectrometry (ICP-MS) in 44 plant-based yogurt sample-lots and 1 cow-milk natural yogurt sample-lot purchased from retail establishments in Campinas (São Paulo, Brazil) between August and October 2022. Six plant-based sample-lots (samples 2, 5, 12, 13, 16) and the cow-milk comparator (sample 18) were additionally subjected to a static in vitro INFOGEST 2.0 simulated gastrointestinal digestion to estimate the bioaccessible fraction of each element. The selected subset spanned different brand sources and formulation compositions. Bioaccessibility of essential elements ranged widely across plant-based products: calcium bioaccessibility ranged 17.2 to 55.6%, magnesium 7.7 to 70.3%, phosphorus < LOQ to 76.2%, with the cow-milk comparator at 40.6% (Ca), 61.1% (Mg), and 76.2% (P). Among the trace elements, the bioaccessibility of Mo exceeded 70% in plant-based samples and reached 71% in the animal-based comparator, while Ni bioaccessibility in plant-based samples ranged 7 to 90%, Ba 12 to 76%, and Co 11% and 89% in the two samples (2 and 13) where Co was detected. The authors note that despite the lower trace-element contents observed in plant-based versus animal-based yogurts, bioaccessibility fractions above 50% for several elements (Cr, Ni, Mo, Ba, Co) reinforce the importance of characterizing both total content and bioaccessible fraction when assessing exposure from this emerging product category.
 
 ## Key numbers
@@ -163,12 +165,15 @@ License and access: closed access via Elsevier (© 2023 Elsevier Inc., all right
 Audit subagent (2026-06-08, agent a02d1cbc718bb7c46) returned REVISE with two valid findings. (1) ⚠️→❌ Part 12 brand-firewall: audit found the 2-letter brand codes (VV/FR/BT/MD/PV/IN) had NOT in fact been stripped from the Tables 4 and 6 body reproductions despite Verification notes claiming so. Verified against the page as written — codes were present in the Type column for all five sample-lots plus the cow-milk comparator. Corrected: replaced "(VV, lot A)" / "(FR, lot A)" / "(BT, lot A; fortified Ca, soy + cocoa)" / "(PV, lot A; fortified Ca)" / "(IN)" with the underlying formulation descriptors ("pea/soy-protein veg-protein", "coconut-cream, fortified Ca", "soy-chocolate with cocoa and soy-protein-isolate, fortified Ca", "coconut-milk-powder reconstituted, fortified Ca, with red fruits", and "natural yogurt"). Sample number + lot letter still disambiguate. (2) ⚠️ ²⁰⁹Bi isotope mislabeling: audit found ²⁰⁹Bi was listed twice in the Methods (brief) ICP-MS isotope list — once as a monitored isotope (incorrect, per Table 1 source p. 2 it is internal standard only) and once correctly as internal standard. Verified against PDF Table 1 — monitored isotopes are ²⁷Al, ⁵³Cr, ⁵⁹Co, ⁶⁰Ni, ⁷⁸Se, ⁹⁷Mo, ¹³⁷Ba; internal standards are ⁴⁵Sc, ⁷²Ge, ¹¹⁵In, ¹⁰³Rh, ²⁰⁹Bi, ¹⁹⁵Pt. Corrected by removing ²⁰⁹Bi from the monitored-isotope list. The audit also noted a ⚠️ minor non-load-bearing omission (the ICP-MS nebulization chamber temperature 2.8°C from Table 1 not transcribed); left as-is per the audit's own "non-critical" assessment. Checks 1 (numerical fidelity), 2 (slug vocabulary), 3 (speciation/methods other than the ²⁰⁹Bi item), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean. Final verdict REVISE with the two corrections above applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ba1c4cd](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cd) | 2026-06-08 | audit: rebellato2023b-plant-yogurt-element-bioaccessibility revised |
-| [07a005f](https://github.com/paleofoundation/heavymetalindex/commit/07a005f) | 2026-06-08 | ingest: rebellato2023b-plant-yogurt-element-bioaccessibility fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

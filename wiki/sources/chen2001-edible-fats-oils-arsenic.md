@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Chen et al. 2001 - Arsenic in edible fats and oils from Taiwan
 
+## Overview
+
 Chen et al. developed a focused microwave digestion and atomic fluorescence spectrometry method for arsenic in edible fats and oils, then applied it to 21 market samples. The market-sample results ranged from 0.005 to 0.027 ppm arsenic, all below Taiwan's 0.1 ppm maximum permissible concentration for edible fats and oils cited by the authors. The paper is useful both as total-arsenic occurrence evidence for fats and oils and as a method-validation source for oil-matrix digestion.
 
 ## Key numbers
@@ -106,15 +108,15 @@ Microbiome: Not addressed.
 - Matrices vocabulary: the `matrices:` array lists thirteen source-specific oil and fat descriptors plus `edible-fats-and-oils`. Several entries (`salad-oil`, `teaseed-oil`, `winter-oil`, `lard`) are source-specific descriptors that do not have wiki ingredient or product pages of their own; they are preserved in matrices for source-fidelity and are recognized as a known limitation rather than invented controlled-vocabulary slugs.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [aa4d396](https://github.com/paleofoundation/heavymetalindex/commit/aa4d396) | 2026-06-02 | audit: chen2001-edible-fats-oils-arsenic revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

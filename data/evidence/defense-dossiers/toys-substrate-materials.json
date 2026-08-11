@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-substrate-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8ca944bd364c8737c8d1fdf3076183d20b1bc101574aff6b9eeca0e2234a7e7a",
-      "content_bytes": 20952,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "72090a2ee48f37315dfa55dcb89e426be2dc4e7d1bbca7a8601f48d93585d59b",
+      "content_bytes": 22687,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/toys-substrate-materials.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/toys-substrate-materials.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 23,
+    "contributing_source_count": 26,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/allwood2024-cpsc-childrens-product-lead-recalls",
         "content_pin": {
-          "content_sha256": "9b3650e94ac88ea4dc9ac1133463dc246b21a10f75a20f0f60c261d5119e1df0",
-          "content_bytes": 27148,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cf4b08f095663064bbaf14cff8b131e68087d58cfe1687d0843654ad970c61fd",
+          "content_bytes": 27378,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
         "content_pin": {
-          "content_sha256": "4a8e09318ac4ef8aca104e7ca53cc971c62e048bd74f9193df551c31dccb334d",
-          "content_bytes": 23813,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "265f0fbc9a6244537a933e55b4a21def7429ad9d41535b040d9d80d718ae440c",
+          "content_bytes": 24063,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "content_pin": {
-          "content_sha256": "2b90742db5c9958f2d8d0478f725af6821b2919ea2a6e6f385dab7127a4fc65e",
-          "content_bytes": 14855,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f6b2f56331eafd319a6841beb9392c22109cfa5917bc637639913f9830c406c3",
+          "content_bytes": 15090,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
         }
       },
       {
@@ -112,12 +112,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "1e4417a2424511aa65261b784173926b52c461c0e1a7ef240a521df7e7efee66",
-          "content_bytes": 34262,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0783923bbfae9d21d9163734617816ea6087df4531207c6c28e5ad5419182f83",
+          "content_bytes": 34492,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       },
       {
@@ -133,12 +133,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
         "content_pin": {
-          "content_sha256": "6c26f40112d43f1a1589004d2f8e9e89778e953d44b16ffcc149f98cc1d00e7f",
-          "content_bytes": 29279,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "eb6430e239a2ec0359b3fc80c251b9f865fd4c29dffdb54a3ee33590a6b0d78b",
+          "content_bytes": 29509,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101-procedures-npr",
         "content_pin": {
-          "content_sha256": "b72b9fa9c09fbcecc7f726a776a95eb36c119aab66a651e8bfa1cc1f3a8060b0",
-          "content_bytes": 29681,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fab0bc59fdd517a3a9ed405717c66940ac901eb1865a7a950e33d32bde5408e3",
+          "content_bytes": 29911,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cpsc2009-cpsia-101-procedures-npr.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2009-cpsia-101-procedures-npr.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101b-inaccessibility-rule",
         "content_pin": {
-          "content_sha256": "05c9568d29187c1cd4ab411114fd0da60f218ede7cca491a65a71be4e69f20ab",
-          "content_bytes": 31652,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "290747cb6b9bfd62443cab233e5e1e4d94a7e817ce7978680b024fc387cc817b",
+          "content_bytes": 31882,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
         }
       },
       {
@@ -193,12 +193,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2011-cpsia-100ppm-tech-feasibility",
         "content_pin": {
-          "content_sha256": "25905eb0191c71a41bd9a879637245b3dd59a040a3b81b01813316677d2fb603",
-          "content_bytes": 42045,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f54292a4a27fab8bf66fd70bbda0edf745e89bb48001975f13f5aed8fc337340",
+          "content_bytes": 42275,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md | sha256sum"
         }
       },
       {
@@ -213,12 +213,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2012-cpsia-101b-functional-purpose-exception",
         "content_pin": {
-          "content_sha256": "cc64905344387a6943561d790a18a9f32445b9fc57f2bd62ae068ea690c2c94d",
-          "content_bytes": 27304,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3c827d276153a29198180f09d1fe90a74e0daccc7f7eb66fe606da4433c14b10",
+          "content_bytes": 27534,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cstee2003-organotin-consumer-exposure",
+        "title": "Opinion on the non-food aspects of assessment of the risks to health and the environment posed by the use of organostannic compounds",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cstee2003-organotin-consumer-exposure",
+        "content_pin": {
+          "content_sha256": "be79c4042ebdd4d71f8227429aa5f2d1d606d240165407e9a4795a8a780b5eed",
+          "content_bytes": 9372,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
         }
       },
       {
@@ -240,12 +260,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "91b420186c36663f17dbe2a9b6727a88d29d533e5555d33d9dd5b0b126a25fb8",
-          "content_bytes": 40943,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "bb78608996b9b43a50a9a3282edaabecea8021fb51dffa0243efd341a09a19a8",
+          "content_bytes": 41122,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -261,12 +281,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/digangi1997-greenpeace-vinyl-children-products",
         "content_pin": {
-          "content_sha256": "f005a59d50074d474fe22d98984371d21cbe00cb5c4de8f86749529f7b90ee92",
-          "content_bytes": 38682,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "12a28435c77220305e78920360bf40cc3f489fb1d2f2ddff625d01670a593bb0",
+          "content_bytes": 38912,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
         }
       },
       {
@@ -281,12 +301,38 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
         "content_pin": {
-          "content_sha256": "8e84c70a03e102de79c3ad3fb83d910cc241cc65c5ac5de6205827b56b3fd3e6",
-          "content_bytes": 33022,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a8ed2f1c488d0924ca4a090fa67765cca7ed1ddada56f587180c2a6be17d54c2",
+          "content_bytes": 33267,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gul2022-karachi-plastic-toys-metals",
+        "title": "Contamination by Hazardous Elements in Low-Priced Children's Plastic Toys Bought on the Local Markets of Karachi, Pakistan",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Zn",
+          "Cr",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gul2022-karachi-plastic-toys-metals",
+        "content_pin": {
+          "content_sha256": "fd68bac35b74f774a140507383ee8337da9309c3ec4470f8f16a6c613a916c0b",
+          "content_bytes": 12153,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/gul2022-karachi-plastic-toys-metals.md | sha256sum"
         }
       },
       {
@@ -301,12 +347,46 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products",
         "content_pin": {
-          "content_sha256": "a7a3dff23e6c9cac8eb7ec2070b52783ee39f41adbc2aae04350c9d4d46a5111",
-          "content_bytes": 19382,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e1a86e7560525e0ad2072417214846cdc2814eef7c9027d15cd70d5629e2c123",
+          "content_bytes": 19612,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ismail2017-low-priced-toys-metals",
+        "title": "Heavy Metals Content in Low-Priced Toys",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Co",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Ni",
+          "Se",
+          "Sr",
+          "Sn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ismail2017-low-priced-toys-metals",
+        "content_pin": {
+          "content_sha256": "231db74967d16ec210a11af100edbad17228e7db546ab4237ce605079b6f713f",
+          "content_bytes": 11070,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/ismail2017-low-priced-toys-metals.md | sha256sum"
         }
       },
       {
@@ -328,12 +408,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "1b24bee8321a6fcd1c517a44f737bc377d626abb69fb35b11141b9dd3134a281",
-          "content_bytes": 33683,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "86b33fb48ceebda4e13c0cdfb1b91a3f05c88f09c599e8504ccef5fad416cd07",
+          "content_bytes": 33878,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
         }
       },
       {
@@ -356,12 +436,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/johnson2012-cpsc-astm-f963-status",
         "content_pin": {
-          "content_sha256": "2ab750b97eb323ed1c7598fe51f67d32461a78552613805f0a758a6bb266b575",
-          "content_bytes": 42184,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9117a663f4ae33eca55dae95900656b1c08d75c1203bcd23be66bc6b853efdbe",
+          "content_bytes": 42399,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/johnson2012-cpsc-astm-f963-status.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/johnson2012-cpsc-astm-f963-status.md | sha256sum"
         }
       },
       {
@@ -381,12 +461,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "1ada4c7461d3aceca4cd225c62bbf305fd050ee37a09e4a415183891cf0234af",
-          "content_bytes": 29653,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a4f519a8eb10f4a38bc7b970b450d61af76327770be3691e4c1cf6cdf28b1172",
+          "content_bytes": 29883,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -403,12 +483,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirg2010-trouble-in-toyland",
         "content_pin": {
-          "content_sha256": "584ee453313f45ea394de24323bc31734930d8783c15ca3eaf09bb0c371ebd61",
-          "content_bytes": 28065,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b96d4b9e797f0b4555a4be9208ebdd56591f03b34f93d74e8c1a9301386c4b34",
+          "content_bytes": 28316,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
         }
       },
       {
@@ -425,12 +505,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "1de137d8dc1b0b85bd50e91d1d596b5741e65f3f06e4cd66840c9cb4ecdbb65a",
-          "content_bytes": 33456,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5807b300d52b6d4b170c4b84bd5dba6073788a2f70bafbbacac614f3bec05580",
+          "content_bytes": 33686,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       },
       {
@@ -452,12 +532,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sgs2009-canada-toy-coating-heavy-metals",
         "content_pin": {
-          "content_sha256": "b86d74f47a6149c9637b255763c5f4d9add840e23598b3b7a7550a9acdf7a503",
-          "content_bytes": 23324,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f2f3a24d3e4e857b8644af4c1d2c121cfd3d9fd508721b71933179f1386b6a11",
+          "content_bytes": 23531,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sgs2009-canada-toy-coating-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sgs2009-canada-toy-coating-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -474,12 +554,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "406d7ec851e2aec334f83f2f1ed7c006a4220c5ff89c511a0456be6d544e9681",
-          "content_bytes": 33076,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "05deefc1719cdb17409bd098b50e839203bc0b18e77a0141ac4eb217a60abb61",
+          "content_bytes": 33306,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -500,12 +580,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "4de57bb5a7dcc8e59990c2c1fc5d6a7d877ed227a4d583617d5000b33e7522d0",
-          "content_bytes": 40591,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2d05112f212d97f55688e76ade2e93df4249b1502dbb13671b07419d49b66d07",
+          "content_bytes": 40821,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -527,12 +607,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "2c7cd44904ba216629459e1d42ae831486c0e1fb96a5795dd6a641b3c1625840",
-          "content_bytes": 31726,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cc5a62892b696dd2bcfcad0fc32db16e101c165d33c46100159c837449f6a052",
+          "content_bytes": 31905,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       },
       {
@@ -547,12 +627,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/villarreal2021-ic-icpms-cr-vi-toys",
         "content_pin": {
-          "content_sha256": "4621ee1f9de982d39fcb05e5a9ae7e76741f5cbc1dbbbd6e925cc512a935594c",
-          "content_bytes": 24899,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "66fd845cd589a8288ca9be0ac52ce4b3070d5605cf8ed4e94cb4b420c5250d8e",
+          "content_bytes": 25098,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
         }
       }
     ]
@@ -568,7 +648,7 @@
     "total_claims": 2,
     "cited_claims": 2,
     "uncited_claims": 0,
-    "distinct_cited_sources": 23,
+    "distinct_cited_sources": 26,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": true
   }

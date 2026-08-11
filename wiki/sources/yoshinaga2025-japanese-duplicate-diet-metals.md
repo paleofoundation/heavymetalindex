@@ -6,7 +6,7 @@ title: "Duplicate diet study to assess dietary exposure to metals in a Japanese 
 authors: [Yoshinaga J, Ogawa M]
 year: 2025
 publication: "Environmental Monitoring and Contaminants Research"
-doi: "10.5985/emcrr.20250008"
+doi: "10.5985/emcr.20250008"
 no_doi_assigned: false
 access_url: "https://doi.org/10.5985/emcrr.20250008"
 source_type: peer-reviewed
@@ -29,6 +29,8 @@ updated: 2026-05-25
 ---
 
 # Yoshinaga and Ogawa 2025 — Duplicate diet study: dietary metal exposure in Japanese adults
+
+## Overview
 
 This duplicate diet study measured 12 metals (V, Co, Ni, Rb, Sr, Mo, Ag, Cd, Sb, Cs, Ba, and Pb) in 150 complete 24-hour dietary samples from adult Japanese, collected 2017–2019. Each participant provided a duplicate portion of every food and beverage consumed across the sampling day, which was homogenized, freeze-dried, acid-digested, and analyzed by ICP-MS. The duplicate diet approach measures what people actually consumed rather than estimating intake from food composition tables and market basket statistics. The authors also estimated the contributions of incidental soil and house-dust ingestion to total oral metal exposure and compared dietary intakes against US EPA Reference Doses.
 
@@ -155,15 +157,15 @@ The recruitment was non-random (newspaper plus university convenience sampling, 
 - **2026-05-25 (audit subagent — matrices vocabulary, noted only):** Audit subagent flagged ⚠️ on `matrices: [total-diet-study, duplicate-diet]` because these bare-string matrix labels are not in the taxonomy snapshot provided to the audit subagent. The matrix vocabulary is documented in `docs/gpt-collaboration/system-prompt.md`, not in the taxonomy snapshot (which only enumerates ingredient/product/metal/regulation slugs). The label `total-diet-study` is in active use in the wiki (`wiki/sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016.md`), and the routing layer reports this source as `severity: advisory` (missing optional `products`/`ingredients` fields), which is the correct treatment for a whole-diet study that does not measure individual products or ingredients. No change applied; the audit was flagging the absence of the matrix vocabulary in its reference file, not a defect in this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

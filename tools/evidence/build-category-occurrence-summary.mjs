@@ -59,9 +59,59 @@ const CATEGORY_MAP = {
     "shellfish": "shellfish",
     "seaweed": "seaweed-kelp-foods",
   },
+  // Conservative expansion 2026-06-11: only clear ingredient->row correspondences.
+  // Integrity-backlog cells (data/evidence/contamination-profile-integrity-backlog.md)
+  // are skipped per-metal by the exclusion below, so mapping a backlog ingredient
+  // here is safe — its corrupt metals are dropped, its clean metals still bridge.
+  11: {
+    "beef": "beef-product",
+    "ground-beef": "beef-product",
+    "lamb": "lamb-mutton",
+    "lamb-chop": "lamb-mutton",
+    "chicken": "poultry-product",
+    "poultry": "poultry-product",
+    "turkey": "poultry-product",
+    "pork-chop": "pork-product",
+    "pork-bacon": "pork-product",
+    "pork-sausages": "pork-product",
+    "eggs": "eggs-product",
+    "organ-meats": "game-meats",
+    "bologna-luncheon-meat": "processed-meats",
+  },
+  24: {
+    "whole-milk": "dairy-milk-cow",
+    "skim-milk": "dairy-milk-cow",
+    "reduced-fat-milk": "dairy-milk-cow",
+    "semi-skimmed-milk": "dairy-milk-cow",
+    "milk-and-dairy": "dairy-milk-cow",
+    "yogurt": "dairy-yogurt-cultured",
+    "cheddar-cheese": "dairy-cheese",
+    "processed-american-cheese": "dairy-cheese",
+  },
 }
 
 const ANALYTES = ["Pb", "Cd", "iAs", "tAs", "tHg", "MeHg", "Ni", "Cr", "Sn", "Al"]
+
+// Integrity exclusion (added 2026-06-11): never bridge an (ingredient, metal) cell
+// that the contamination-profile integrity guard has flagged as a censored-zero or
+// degenerate-upper-tail artifact. Bridging those would pipe known-understated values
+// into the standards pipeline. The set is rebuilt from the guard's backlog file each
+// run; when the backlog drains to zero the exclusion becomes a no-op automatically.
+function loadIntegrityExclusions() {
+  const set = new Set()
+  const fp = path.join(evidenceDir, "contamination-profile-integrity-backlog.md")
+  if (!fs.existsSync(fp)) return set
+  const metalToken = /\b(Pb|Cd|iAs|tAs|tHg|MeHg|Ni|Cr|Sn|Al|U)\b/g
+  for (const line of fs.readFileSync(fp, "utf8").split("\n")) {
+    const m = line.match(/\[\[ingredients\/([a-z0-9-]+)\]\]\s*\|(.*)\|/)
+    if (!m) continue
+    const ingredient = m[1]
+    const metals = m[2].match(metalToken) || []
+    for (const metal of metals) set.add(`${ingredient}::${metal}`)
+  }
+  return set
+}
+const INTEGRITY_EXCLUDE = loadIntegrityExclusions()
 
 function num(v) { return typeof v === "number" && Number.isFinite(v) ? v : null }
 
@@ -114,6 +164,10 @@ function buildCategory(catNum, map) {
     for (const metal of ANALYTES) {
       const block = profile[metal]
       if (!block || block.status !== "populated") continue
+      if (INTEGRITY_EXCLUDE.has(`${ingredient}::${metal}`)) {
+        console.log(`  skip (integrity backlog): ${ingredient} ${metal}`)
+        continue
+      }
       const typical = Array.isArray(block.typical_ppb) ? block.typical_ppb : [null, null]
       const lo = num(typical[0]); const hi = num(typical[1])
       const p95 = num(block.p95_ppb)

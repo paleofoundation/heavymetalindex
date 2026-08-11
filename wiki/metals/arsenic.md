@@ -3,13 +3,13 @@ title: Arsenic
 type: metal
 symbol: As
 name: Arsenic
-species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine]
+species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine, arsenosugars, arsenolipids]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
-updated: 2026-04-30
-sources: 352
+updated: 2026-08-09
+sources: 878
 ---
 
 # Arsenic
@@ -47,6 +47,17 @@ Inorganic arsenic biomethylation, reviewed by [[sources/thomas-2021-arsenic-meth
 
 The January 2025 EPA IRIS Toxicological Review of Inorganic Arsenic is the current US federal scientific anchor for arsenic dose-response and supersedes prior IRIS values. The full quantitative outputs (oral RfD, oral cancer slope factor) require detailed extraction from the review document and are pending consolidation on this wiki.
 
+## Arsenic speciation and the organoarsenical inertness assumption
+<!-- audience: regulator, educator -->
+
+The regulatory architecture for arsenic rests on a species distinction. Inorganic arsenic is the carcinogen of concern and is regulated, characterized with dose-response relationships, and the subject of the FDA Closer to Zero initiative and EU maximum levels, whereas organic arsenic species in seafood, principally arsenobetaine, have historically been excluded from risk characterization on the assumption that they are metabolically inert and pass through the body unchanged. That assumption is what makes the inorganic-versus-total-arsenic distinction meaningful in practice: a product reporting total arsenic at 200 ppb that is 97 percent arsenobetaine has been treated as fundamentally different from one at 200 ppb that is 97 percent inorganic arsenic.
+
+The organoarsenical inertness assumption is now under active challenge on three independent evidentiary fronts, drawn together in the Heavy Metal Index synthesis [[synthesis/organoarsenical-inertness-assumption|The organoarsenical inertness assumption is increasingly contested]]. On the biomonitoring front, [[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other|Davydiuk et al. 2023]] documents that arsenosugars and arsenolipids from seafood are metabolized to dimethylarsinic acid (DMA) by a route that does not pass through the inorganic arsenic methylation sequence, so studies that use urinary percent-DMA as a methylation-efficiency index in seafood-eating populations can systematically underestimate those populations' inorganic arsenic exposure. On the metabolism front, [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]] found that organic arsenicals in crab and scallop underwent a two- to threefold increase in the inorganic As(V) fraction during a standardized in vitro gastrointestinal digestion, indicating that the speciation measured in a food at the moment of consumption is not necessarily the speciation present at the point of intestinal absorption. On the epidemiology front, the [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]] J-MICC Daiko prospective cohort of 2,709 Japanese adults reported that serum total arsenic, estimated at 98 percent arsenobetaine, was associated with dose-dependent hypertension risk after adjustment for fish-consumption frequency and cardiovascular risk factors, an association the inertness assumption would not predict.
+
+The concern is not confined to marine fish. [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]] found that 57 percent of the total arsenic in the green microalga Chlamydomonas reinhardtii exists as arsenolipids, which bears on spirulina, chlorella, and algae-protein ingredients whose total-arsenic measurement may not quantitatively recover the arsenolipid fraction. [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]] identified a previously unreported arsenobetaine amide in four mushroom species, extending the diversity of dietary organoarsenicals beyond the well-characterized marine suite. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]] found that Laminaria digitata carries more than half of its total arsenic as inorganic arsenic, showing that the default assumption that seaweed arsenic is organic and therefore low-risk is wrong for this commercially important kelp genus, a matrix for which EU Regulation 2023/915 now sets specific inorganic arsenic limits.
+
+These findings do not refute the inertness assumption, and they do not demonstrate that arsenobetaine is toxic. Arsenobetaine remains the dominant arsenic species in marine fish, and high fish consumption remains a net nutritional benefit for most populations. What the evidence establishes is narrower and load-bearing for how this wiki characterizes arsenic in seafood-containing products: total arsenic in seafood is not equivalent to inorganic arsenic in seafood, and it is also not equivalent to harmless organic arsenic. The unqualified statement that organic arsenic from seafood is not a health concern can no longer be reproduced without qualification, because it is now inconsistent with the published literature. The missing evidence that would resolve the question is a controlled human in vivo feeding study measuring inorganic arsenic absorption from a seafood meal; until it is conducted, seafood and microalgae-derived matrices tested for total arsenic only are incompletely characterized with respect to their inorganic arsenic burden. See [[synthesis/organoarsenical-inertness-assumption]] for the full synthesis and its eight anchor sources.
+
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
@@ -64,7 +75,7 @@ Dietary intake is the dominant route in non-groundwater-affected populations ([[
 | Seaweed (especially hijiki) | Can carry elevated inorganic As; species variation substantial |
 | Apple and grape juice | Documented elevated inorganic As in some products; FDA has issued guidance |
 | Certain leafy vegetables grown on As-contaminated soil | Geography-dependent |
-| Finfish | Mostly arsenobetaine (organic, nontoxic); dietary risk minimal for As specifically |
+| Finfish | Predominantly arsenobetaine; historically treated as low-risk for As specifically, though the organoarsenical inertness assumption is now under active challenge (see the arsenic speciation section) |
 | Bivalves and crustaceans | Mixed organic and inorganic species; total-As tests can mislead |
 | Rice protein powder and [[ingredients/rice|rice]] syrup | Concentrate iAs from source [[ingredients/rice|rice]]; per-product characterization needed |
 
@@ -88,13 +99,13 @@ For older children and adults: white [[ingredients/rice|rice]] carries less inor
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EPA (US) | Drinking water MCL (total As) | 10 ppb | [[regulations/epa-arsenic-mcl]] |
-| EPA (US) | IRIS oral RfD and cancer slope (iAs) | January 2025 finalized; values pending detailed extraction | [[regulations/epa-iris-inorganic-arsenic-rfd]] |
-| FDA (US) | CTZ infant [[ingredients/rice|rice]] cereal action level (iAs) | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb]] |
-| ATSDR (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] |
-| OEHHA (US-CA) | Prop 65 cancer listing (iAs) | NSRL pending separate ingest | [[regulations/oehha-arsenic-prop65]] |
-| EFSA (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
-| JECFA (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
+| [[regulators/us-epa\|EPA]] (US) | Drinking water MCL (total As) | 10 ppb | [[regulations/epa-arsenic-mcl]] |
+| [[regulators/us-epa\|EPA]] (US) | IRIS oral RfD and cancer slope (iAs) | January 2025 finalized; values pending detailed extraction | [[regulations/epa-iris-inorganic-arsenic-rfd]] |
+| [[regulators/us-fda\|FDA]] (US) | CTZ infant [[ingredients/rice|rice]] cereal action level (iAs) | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb]] |
+| [[regulators/atsdr\|ATSDR]] (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] |
+| [[regulators/oehha\|OEHHA]] (US-CA) | Prop 65 cancer listing (iAs) | NSRL pending separate ingest | [[regulations/oehha-arsenic-prop65]] |
+| [[regulators/efsa\|EFSA]] (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
+| [[regulators/jecfa\|JECFA]] (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -164,7 +175,7 @@ Machine-readable takeaways from this synthesis for the Heavy Metal Index consume
 
 The reference-value scale for inorganic arsenic, like lead, is qualitatively complicated by the absence of an internationally harmonized PTWI. The app should reference (a) the EPA drinking water MCL of 10 µg/L for water-source iAs benchmarking, (b) the FDA infant [[ingredients/rice|rice]] cereal action level of 100 ppb for the [[ingredients/rice|rice]]-cereal infant exposure case, (c) the ATSDR chronic oral MRL of 0.3 µg As/kg/day for general dietary benchmarking, and (d) the EFSA cancer BMDL01 range of 0.3 to 8 µg iAs/kg/day depending on endpoint for users wanting an explicit cancer-risk anchor.
 
-Critical app handling: total-arsenic measurements are not interchangeable with inorganic-arsenic measurements. The app must distinguish total-As from iAs in any input data and must not display "percent of MRL" or "percent of MCL" against total-As when the relevant reference is iAs. For seafood especially, total-As measurements substantially overstate iAs because arsenobetaine and other organic species dominate.
+Critical app handling: total-arsenic measurements are not interchangeable with inorganic-arsenic measurements. The app must distinguish total-As from iAs in any input data and must not display "percent of MRL" or "percent of MCL" against total-As when the relevant reference is iAs. For seafood especially, total-As measurements substantially overstate iAs because arsenobetaine and other organic species dominate. That a matrix is organic-arsenic-dominant does not, however, make it zero-risk: following the [[synthesis/organoarsenical-inertness-assumption|organoarsenical inertness synthesis]], ingredients whose arsenic is primarily organic (finfish, shellfish, and microalgae-derived ingredients such as spirulina and chlorella) should not receive a zero-risk modifier on the strength of the organic classification alone. Where only total arsenic is available for such a matrix, the app should model it as arsenic speciation incompletely characterized and surface an uncertainty flag rather than a dismissal.
 
 Pediatric multipliers for arsenic: 2 to 3x adult per-kg for children under age 3, per [[sources/efsa-arsenic-contam-2009|EFSA 2009]]. Combined with the high GI absorption of inorganic arsenic (80 to 90 percent of soluble forms), pediatric exposure-to-blood translation is approximately linear with intake.
 
@@ -187,6 +198,35 @@ Second, the dietary contribution to inorganic arsenic cancer risk at general-pop
 
 Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-individual susceptibility is an active research area with implications for biomarker interpretation and for the operational meaning of "individual exposure" in chronic-disease risk modeling. The [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review summarizes host-enzyme AS3MT-pathway evidence; microbiome contributions complicate the simple dose-response framing and are flagged for future microbiome-ingest synthesis.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Does the form of arsenic matter more than the total amount?
+
+Yes. Inorganic arsenic (iAs) is the toxicologically dominant form and the carcinogen of regulatory concern, and it is what the wiki's content focuses on ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Total-arsenic measurements that do not distinguish inorganic from organic species are not informative for risk, so when you see a "total arsenic" number the actionable question is what fraction is inorganic. Distinguishing them often requires speciation analysis (HPLC-ICP-MS) rather than total-arsenic ICP-MS ([[sources/navaretnam-2025-rice-as-speciation|Navaretnam et al. 2025]]).
+
+### What foods are the biggest source of inorganic arsenic in the diet?
+
+For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup. Finfish arsenic is predominantly arsenobetaine and has historically been treated as low-risk for arsenic specifically, though the long-standing assumption that seafood organoarsenicals are biologically inert is now under active scientific challenge ([[synthesis/organoarsenical-inertness-assumption|Heavy Metal Index synthesis]]).
+
+### Why is inorganic arsenic a health concern, and what are its effects?
+
+Inorganic arsenic is classified as a Group 1 human carcinogen by IARC, with dose-response associations for lung, bladder, and skin cancer at chronic exposures ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Non-cancer effects documented in the literature include cardiovascular effects, neurodevelopmental effects in children, dermal effects such as hyperpigmentation and keratosis, peripheral neuropathy, and emerging diabetes associations ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]). Mechanistically it binds sulfhydryl groups in proteins, generates oxidative stress, and inhibits DNA repair rather than forming direct DNA adducts ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
+
+### Who is most vulnerable to arsenic exposure?
+
+Infants fed rice cereal as a first solid food are a key vulnerable group, which is why the FDA set a 100 ppb action level for infant rice cereal ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Children under three are exposed at 2 to 3 times adult per-kilogram rates because of greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Private-well users in arsenic-affected regions fall outside EPA drinking-water monitoring, and people with low folate or B12 status have reduced methylation efficiency, increasing retention of inorganic species ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
+
+### What are the regulatory limits for arsenic in water and food?
+
+The EPA drinking-water Maximum Contaminant Level for total arsenic is 10 ppb (10 µg/L), lowered from the earlier 50 ppb standard, and it applies to public water systems but not private wells ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]). The FDA set a 100 ppb action level for inorganic arsenic in infant rice cereal in 2020 ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Major bodies have declined to set a single tolerable intake: JECFA withdrew its PTWI of 15 µg/kg body weight per week in 2010, and EFSA reports cancer BMDL01 values of 0.3 to 8 µg iAs/kg body weight per day instead ([[sources/jecfa-82nd-arsenic|JECFA 82nd]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). ATSDR derives a chronic oral MRL of 0.3 µg As/kg/day anchored on dermal effects ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]).
+
+### How can I reduce arsenic exposure from rice and well water?
+
+For infants, choosing non-rice or rice-minor first cereals such as oat, barley, or multi-grain lowers exposure, since these carry substantially less inorganic arsenic per serving than rice cereal. For older children and adults, white rice carries roughly 50 percent less inorganic arsenic than brown rice from the same source, and cooking rice in excess water that is drained off reduces iAs by approximately 40 to 50 percent ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Private-well users in arsenic-affected regions should test their water through an EPA-certified lab and treat, substitute, or reduce use if levels exceed 10 µg/L ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]).
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] — ATSDR, August 2007. Toxicological Profile for Arsenic.
@@ -202,19 +242,53 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 - [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Coryell, Roggenbeck, Walk 2019]] — Canonical synthesis of microbial As biotransformation in the human gut; maps ars operon, arsM methyltransferase, aioAB/arxAB oxidases, arrAB respiration, thiolation; documents germ-free and antibiotic data establishing microbiome-mediated As excretion.
 - [[sources/balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood et al. 2021]] — Cross-metal mechanistic-toxicology synthesis. For iAs: documents AS3MT/SAM-depleting methylation pathway, BER/NER repair inhibition, trivalent methylated intermediates (MMA(III)/DMA(III)) as putative proximate carcinogens, and the proliferative/epigenetic carcinogenesis mechanism distinguishing iAs from genotoxic Cr(VI).
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other|Davydiuk et al. 2023]] — Critical review: seafood arsenosugars and arsenolipids yield urinary DMA by a route independent of inorganic arsenic methylation, confounding percent-DMA biomonitoring indices in seafood-eating populations.
+- [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]] — In vitro gastrointestinal digestion of crab and scallop; organic arsenicals show a two- to threefold rise in the inorganic As(V) fraction, so speciation at consumption does not equal speciation at absorption.
+- [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]] — J-MICC Daiko prospective cohort (n=2,709); serum total As (about 98 percent arsenobetaine) associated with dose-dependent hypertension after adjustment for fish intake and cardiovascular risk factors.
+- [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]] — 57 percent of total As in Chlamydomonas reinhardtii is arsenolipid; total-As measurement may under-recover arsenolipids in microalgae-derived ingredients.
+- [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]] — Novel arsenobetaine amide detected in four mushroom species; extends organoarsenical diversity beyond the marine suite.
+- [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]] — HPLC-ICP-MS validation; Laminaria digitata carries more than 50 percent of its total As as iAs, so seaweed is not a low-iAs matrix by default.
 
-See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
+See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/, and [[synthesis/organoarsenical-inertness-assumption]] for the Heavy Metal Index synthesis that draws these seafood-speciation sources together.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/atsdr-arsenic-toxprofile-2007|Toxicological Profile for Arsenic]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2007 · [doi.org/10.15620/cdc:11481](https://doi.org/10.15620/cdc:11481)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/epa-iris-inorganic-arsenic-2025|IRIS Toxicological Review of Inorganic Arsenic]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment · EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System · 2025 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/efsa-arsenic-contam-2009|Scientific Opinion on Arsenic in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2009;7(10):1351 · 2009 · [doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/jecfa-82nd-arsenic|Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series 73 · 2017 · [www.who.int](https://www.who.int/publications/i/item/9789241660730)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/oehha-arsenic-prop65-listing|Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/epa-arsenic-drinking-water-mcl|EPA Drinking Water Arsenic MCL Rule (10 ppb)]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Office of Water · 2001 · [www.epa.gov](https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/fda-iAs-rice-cereal-2020|Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2020 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants)</span><span class="hmi-ref-tag">Government</span>
+8. [[sources/fda-epa-fish-consumption-advice|Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years]]<span class="hmi-ref-meta">U.S. Food and Drug Administration and U.S. Environmental Protection Agency · U.S. FDA and U.S. EPA · 2017 · [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish)</span><span class="hmi-ref-tag">Government</span>
+9. [[sources/thomas-2021-arsenic-methylation|Arsenic Methylation — Lessons from Three Decades of Research]]<span class="hmi-ref-meta">Thomas DJ · Toxicology 457:152800 · 2021 · [doi.org/10.1016/j.tox.2021.152800](https://doi.org/10.1016/j.tox.2021.152800)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+11. [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in brown rice: do the benefits outweigh the risks?]]<span class="hmi-ref-meta">Su LJ, Chiang TC, and O'Connor SN · Frontiers in Nutrition · 2023 · [doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574)</span><span class="hmi-ref-tag">Review</span>
+12. [[sources/navaretnam-2025-rice-as-speciation|Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment]]<span class="hmi-ref-meta">Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. · Environmental Geochemistry and Health 47:411 · 2025 · [doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2)</span><span class="hmi-ref-tag">Review</span>
+13. [[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other|Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans]]<span class="hmi-ref-meta">davydiuk · Environment &amp; Health · 2023 · [doi.org/10.1021/envhealth.3c00090](https://doi.org/10.1021/envhealth.3c00090)</span><span class="hmi-ref-tag">Review</span>
+14. [[sources/liu2023-arsenic-seafood-digestion|Transformation of arsenic species from seafood consumption during in vitro digestion]]<span class="hmi-ref-meta">Liu B, Sui J, Feng R, Lin H, Han X, Sun X, et al. · Frontiers in Nutrition · 2023 · [doi.org/10.3389/fnut.2023.1207732](https://doi.org/10.3389/fnut.2023.1207732)</span><span class="hmi-ref-tag">Review</span>
+15. [[sources/kagawa2023-fish-arsenic-hypertension-japan|Elevated arsenic level in fasting serum via ingestion of fish meat increased the risk of hypertension in humans and mice]]<span class="hmi-ref-meta">Kagawa T, Ohgami N, He T, Tazaki A, Ohnuma S, Naito H, et al. · European Heart Journal Open · 2023 · [doi.org/10.1093/ehjopen/oead074](https://doi.org/10.1093/ehjopen/oead074)</span><span class="hmi-ref-tag">Review</span>
+16. [[sources/raab2024-arsenolipids-chlamydomonas.md|Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)]]<span class="hmi-ref-meta">Raab A, Zhang X, Ge H, and Feldmann J · Metallomics · 2024 · [doi.org/10.1007/s00216-023-05122-7](https://doi.org/10.1007/s00216-023-05122-7)</span><span class="hmi-ref-tag">Review</span>
+17. [[sources/walenta2024-arsenic-speciation-mushrooms|Arsenobetaine amide: a novel arsenic species detected in several mushroom species]]<span class="hmi-ref-meta">Walenta M, Raab A, Braeuer S, Steiner L, Borovička J, and Goessler W · 2024 · [doi.org/10.1007/s00216-024-05132-z](https://doi.org/10.1007/s00216-024-05132-z)</span><span class="hmi-ref-tag">Review</span>
+18. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach]]<span class="hmi-ref-meta">Sim M, Weyer C, and Pétursdóttir ÁH · Food Chemistry · 2024 · [doi.org/10.1007/s00216-024-05250-8](https://doi.org/10.1007/s00216-024-05250-8)</span><span class="hmi-ref-tag">Review</span>
+19. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Review</span>
+20. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
+21. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|The Human Gut Microbiome's Influence on Arsenic Toxicity]]<span class="hmi-ref-meta">Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk · Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504 · 2019 · [doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 3 sources added and 3 removed; narrative text revised |
+| [bfce46805](https://github.com/paleofoundation/heavymetalindex/commit/bfce46805) | 2026-08-09 | major | 6 sources added; 1 section added; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 6 sources added; 7 sections added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 13 sources added; 9 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

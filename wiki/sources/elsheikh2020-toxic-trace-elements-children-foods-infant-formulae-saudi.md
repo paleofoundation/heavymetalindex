@@ -11,7 +11,7 @@ evidence_tier: A
 evidence_fitness: EF-3
 journal_impact: lower-tier (Asian J Chem is below Q1 food-safety venues; methodology reasonable but reporting density lower than premier journals)
 method_quality_caveat: "ICP-OES at LOD/LOQ ppm: Al 0.0055/0.064; Pb 0.0062/0.086; Cd 0.0051/0.013; As 0.0054/0.046. Recovery 92.3-101.6%. Formula subset n=3 brands and Cerelac n=1 brand are below the 10-sample defensibility floor; outlier Al values (brand 19 baby powder milk 391 µg/kg/day daily intake; biscuit brand 6 291,900 ppb total Al) flagged as possibly real Saudi-market signal or possibly method-sensitivity artefact pending brand-level follow-up."
-tier_rationale: "Per CLAUDE.md Part 13 A-tier = peer-reviewed primary studies; Asian J Chem is peer-reviewed. Journal-impact concern is captured in journal_impact field; method/sample-size concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
+tier_rationale: "Per A-tier = peer-reviewed primary studies; Asian J Chem is peer-reviewed. Journal-impact concern is captured in journal_impact field; method/sample-size concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
 license: "CC BY 4.0"
 access_url: "https://doi.org/10.14233/ajchem.2020.22499"
 raw_path: "raw/external-fetch/elsheikh2020.pdf"
@@ -30,7 +30,9 @@ updated: 2026-05-09
 
 # Elsheikh et al. 2020 — Toxic and essential trace elements in Saudi children's foods and infant formulae
 
-This B-tier peer-reviewed analytical study (Asian Journal of Chemistry; not Q1-tier journal) measures nine elements in 57 samples covering 19 brands of children's foods and infant formulae purchased in Turabah province, Saudi Arabia. The paper's scope is broader than HMTc Category 1 — most of the 16 children's-food brands are general snack products (potato chips, popcorn, biscuits, cocoa sweets, indomie noodles) that fall outside the IandC subcategory architecture. Three brands are infant formulae (including baby powder milk, brand 19) and one brand is Cerelac (infant cereal). The principal findings: Cd and As were mostly not detected (ND) across all sample types; Pb detected in some samples but generally low (highest in biscuit brand 6 at 0.230 ppm = 230 ppb); **Al was detected in many samples, with two notable outliers — biscuit brand 6 at 291.90 ppm = 291,900 ppb total Al concentration, and baby powder milk brand 19 yielding a daily Al intake of 391.12 µg/kg bw/day, both exceeding the FAO/WHO PTDI guidance of 285.7 µg/kg bw/day**. Author scope is partial on matrix axis (formula vs cereal vs general snacks distinguished but soy/non-soy formula not split, rice/non-rice cereal not enumerated for Cerelac) and partial on format axis. Per the corrected row-fit rule (CLAUDE.md Part 6), this routes to HMTc Cat 1 only for the infant-formula and Cerelac subsets; the snack-food data is out-of-scope context.
+## Overview
+
+This B-tier peer-reviewed analytical study (Asian Journal of Chemistry; not Q1-tier journal) measures nine elements in 57 samples covering 19 brands of children's foods and infant formulae purchased in Turabah province, Saudi Arabia. The paper's scope is broader than HMTc Category 1 — most of the 16 children's-food brands are general snack products (potato chips, popcorn, biscuits, cocoa sweets, indomie noodles) that fall outside the IandC subcategory architecture. Three brands are infant formulae (including baby powder milk, brand 19) and one brand is Cerelac (infant cereal). The principal findings: Cd and As were mostly not detected (ND) across all sample types; Pb detected in some samples but generally low (highest in biscuit brand 6 at 0.230 ppm = 230 ppb); **Al was detected in many samples, with two notable outliers — biscuit brand 6 at 291.90 ppm = 291,900 ppb total Al concentration, and baby powder milk brand 19 yielding a daily Al intake of 391.12 µg/kg bw/day, both exceeding the FAO/WHO PTDI guidance of 285.7 µg/kg bw/day**. Author scope is partial on matrix axis (formula vs cereal vs general snacks distinguished but soy/non-soy formula not split, rice/non-rice cereal not enumerated for Cerelac) and partial on format axis. Per the corrected row-fit rule, this routes to HMTc Cat 1 only for the infant-formula and Cerelac subsets; the snack-food data is out-of-scope context.
 
 ## Key Numbers
 
@@ -72,7 +74,7 @@ These outliers should be flagged in the rice-cereal Al cell discussion as eviden
 
 ## Geographic-context flag
 
-Saudi Arabian (Turabah province) market, 2019 sample collection. The high-Al outliers (brand 6 biscuit, brand 19 baby powder milk) suggest possible regional processing-input or sourcing differences. Per CLAUDE.md Part 6, jurisdiction-mix labeling required when this source contributes to a global aggregate.
+Saudi Arabian (Turabah province) market, 2019 sample collection. The high-Al outliers (brand 6 biscuit, brand 19 baby powder milk) suggest possible regional processing-input or sourcing differences. Jurisdiction-mix labeling required when this source contributes to a global aggregate.
 
 ## Methods (brief)
 
@@ -113,15 +115,15 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

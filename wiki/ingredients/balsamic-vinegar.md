@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 500]
     p95_ppb: 1500
-    confidence: high
+    confidence: medium
     n_studies: 4
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 30]
     p95_ppb: null
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   iAs:
@@ -31,7 +31,7 @@ contamination_profile:
     status: populated
     typical_ppb: [20, 200]
     p95_ppb: 500
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   tHg:
@@ -91,29 +91,7 @@ created_routed_sources: 4
 
 # Balsamic Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 3 jurisdictions, top US 50% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd THIN, tAs THIN, Ni THIN, Al THIN, Cr THIN | Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 3 claims checked, 3 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Al, Cr; pairing 0 paired, 6 single, 0 unpaired | Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Balsamic vinegar — the aged grape-must-derived condiment from the Modena and Reggio Emilia regions of Italy, made traditionally in a sequence of progressively smaller wooden barrels for 12-25 years (Aceto Balsamico Tradizionale di Modena DOP/Reggio Emilia DOP) or industrially produced from concentrated grape must and wine vinegar with optional brief aging — sits at the high end of the vinegar-category heavy-metals distribution. The traditional aging-vessel chain (a sequence of chestnut, cherry, oak, mulberry, juniper, ash barrels) is the dominant heavy-metals risk because the acidic must (pH 2.5-3.0) extracts trace metals from the wood and from previous batches' residual concentrate over decades-long aging cycles. The current corpus loads 4 sources: ESCP 2021 FDA petition (n=24 US-market balsamic vinegar samples with Pb and tAs at regulatory-concern levels, [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]), Karavoltsos 2020 Greek balsamic-vs-common-vinegar comparison (n=43, 7-metal panel, [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 Pb-in-vinegar analytical method (n=59, [[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish MIP-OES method (n=32, including balsamic, [[sources/ozbek2016-mip-oes-turkish-vinegars]]). The ESCP 2021 petition is the policy-anchor source: in 2021, the Environmental and Safety Compliance Project petitioned the US FDA to set a maximum lead level for balsamic vinegar after documenting elevated Pb across 24 US-market samples ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]).
 
@@ -125,18 +103,18 @@ Balsamic vinegar accumulates heavy metals through two principal pathways: the gr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 50–500 | 1500 | high | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|3]] |
-| Cd | n=2 | 1–30 | — | medium | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 20–200 | 500 | medium | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=2 | 10–200 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
-| Al | n=2 | 50–500 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Cr | n=2 | 10–100 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 50–500 | medium | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|3]] |
+| Cd | n=2 | 1–30 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 20–200 | low | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 10–200 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
+| Al | n=2 | 50–500 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Cr | n=2 | 10–100 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -180,10 +158,21 @@ Glass packaging is the baseline-clean option. Avoid ceramic decanters with unver
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a balsamic-vinegar-specific maximum. The EU Regulation 2023/915 applies general food-category limits to balsamic vinegar; the Italian DOP/IGP geographic-indication protocols do not set heavy-metals limits as part of the GI framework. The US FDA has not set a balsamic-specific action level but received the 2021 ESCP petition for action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]); the petition remains pending and is a current policy-monitoring item. The CFIA 2025 Canadian survey did not identify balsamic-specific exceedances of Canadian limits in the surveyed product set.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA]]<span class="hmi-ref-meta">Corrigan ZB, Braiman J, and Chittenden C · Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter · 2021</span><span class="hmi-ref-tag">NGO</span>
+2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/ozbek2016-mip-oes-turkish-vinegars|A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry]]<span class="hmi-ref-meta">Ozbek N, Koca M, and Akman S · Food Analytical Methods · 2016 · [doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -194,15 +183,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

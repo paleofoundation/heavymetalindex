@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # People of California v. McWane (AB&I Foundry) — Hexavalent Chromium, Proposition 65
 
+## Overview
+
 This is a primary legal filing: a civil complaint brought by the **California Attorney General (Rob Bonta)**, in the name of the People of the State of California, against **McWane, Inc.** (doing business as **AB&I Foundry**) in the Superior Court of California, County of Alameda, filed **15 February 2022**. It seeks injunctive relief and civil penalties for the foundry's emission of **hexavalent chromium** into the air of an East Oakland community **without providing the warnings required by Proposition 65** (the Safe Drinking Water and Toxic Enforcement Act of 1986, Health & Safety Code § 25249.5 et seq.). It is a public-record government enforcement action; the defendant is named here as the subject of that action, consistent with the Part 12 treatment of recalls and enforcement events, not as a contamination ranking.
 
 ## Why this source matters to the index
@@ -51,14 +53,15 @@ The case is an instance of **hexavalent chromium being actively litigated at the
 Ingested 2026-06-03 from `raw/Manual Fetch Kimi /June 3 Folder/ABI Complaint.pdf` (sha256 710fd64b…), read in full (11 pages: caption, introduction, parties, jurisdiction, statutory background, facts, three causes of action, prayer for relief; signed by Deputy Attorney General Erin Ganahl, dated 15 February 2022). All figures above are as alleged in the complaint (a complaint states allegations, not adjudicated findings); evidence tier B reflects that this is a primary but unadjudicated legal filing. The case number is left blank in the filed copy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [b623a2a](https://github.com/paleofoundation/heavymetalindex/commit/b623a2a) | 2026-06-03 | ingest: CA-AG v. McWane Cr-VI Prop 65 complaint; strengthen Brief 7 chromium + litigation |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

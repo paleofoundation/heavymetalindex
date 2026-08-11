@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Munir et al. 2022 — Heavy metal contamination of natural foods: a review (Sustainability)
 
+## Overview
+
 This open-access narrative review in MDPI *Sustainability* surveys the literature on heavy metal contamination in plant-based foods (cereals, root and leafy vegetables, fruits), focusing on the five metals the authors treat as the most relevant for dietary toxicity — arsenic, cadmium, lead, mercury, and chromium — with additional sections on nickel and iron. It is structured in three blocks: a per-metal toxicology block (mechanisms of action, target organs, carcinogenicity), a per-crop occurrence block reporting concentration ranges cited from prior studies for rice, wheat, potato, tomato, lettuce, cabbage, carrot, avocado, orange, pawpaw, and pineapple, and a biomarkers block covering internal-dose, biologically-active-dose, and susceptibility biomarkers. The authors retrieved literature from Science Direct, PubMed, Google Scholar, and the Directory of Open Access Journals; no systematic-review protocol (PRISMA, defined inclusion/exclusion criteria, risk-of-bias assessment) is reported. The paper makes no primary measurements and presents no new occurrence data — every concentration value in the body is paraphrased from a cited secondary source.
 
 ## Key numbers
@@ -110,15 +112,15 @@ Non-systematic narrative literature review. No PRISMA flow, no documented inclus
 - [[ingredients/fruits]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

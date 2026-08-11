@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Luvonga 2020 — Analytical methodologies for organoarsenicals in edible marine species (methods review)
 
+## Overview
+
 Luvonga and colleagues (US National Institute of Standards and Technology) reviewed the analytical methodologies for determining organoarsenicals in edible marine species (seafood and seaweed): sample handling, extraction, cleanup, chromatographic separation, element-specific detection, and molecular characterization. This is a methods review with no primary occurrence measurements; its relevance to the Category 6 seaweed-kelp-foods row is methodological and toxicological framing rather than concentration data. Its load-bearing point for the row is that total arsenic is an inadequate dietary-risk indicator for seaweed: organoarsenicals (predominantly arsenosugars) make up >85% of total arsenic in most seafood, several organoarsenicals (arsenic-containing hydrocarbons and fatty acids) have toxicity approaching inorganic arsenic, and seaweed arsenic is especially difficult to extract and speciate reliably — so speciated inorganic-arsenic measurement (with quality standards and CRMs) is essential for credible risk assessment and regulation.
 
 ## Key numbers
@@ -66,12 +68,15 @@ Narrative review (received 2019, published 2020). The authors survey the arsenic
 - Cross-source note: this review cites many primary speciation studies, some held in this folder (e.g., Llorente-Mirandes, Narukawa); cross-source reconciliation belongs to the Part 9 synthesis pass.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7b0d096](https://github.com/paleofoundation/heavymetalindex/commit/7b0d096) | 2026-06-08 | audit: luvonga2020-organoarsenicals-marine-methods-review revised |
-| [5b27d45](https://github.com/paleofoundation/heavymetalindex/commit/5b27d45) | 2026-06-08 | ingest: luvonga2020-organoarsenicals-marine-methods-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

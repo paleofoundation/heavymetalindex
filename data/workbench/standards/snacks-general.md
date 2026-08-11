@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: snacks-general
 public_page: products/snacks-general
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Snacks, General

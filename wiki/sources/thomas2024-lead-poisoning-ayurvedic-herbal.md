@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Thomas et al. 2024 — Lead poisoning from Ayurvedic herbal diabetes capsule, Kerala
 
+## Overview
+
 This case report describes a 58-year-old female who presented with generalized tiredness, decreased food intake, and abdominal pain. Peripheral blood smear showed basophilic stippling and ring sideroblasts, leading to investigation for heavy metal exposure. Blood lead was 121.20 µg/dL (reference: <25 µg/dL) and random urine lead was 400.2 µg/dL (reference: <80 µg/dL). The patient had been taking Sheopal's Herbal Diabetes Care Capsule — an Ayurvedic supplement purchased via the internet — for 1.5 months prior to presentation. The capsule was submitted for analysis, revealing lead content of 40,657 ppm (40,657 µg/g), compared to the permissible limit of 10 ppm per the Ayurvedic Pharmacopoeia of India. The patient was treated with BAL followed by d-penicillamine oral chelation for 6 weeks, with normalization of blood and urine lead levels.
 
 ## Key numbers
@@ -61,15 +63,15 @@ Clinical case report. Blood and urine lead measured by standard clinical laborat
 - [[ingredients/herbal-supplements]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Lehel et al. 2023 - Potentially toxic elements in yellowfin tuna from the Indian Ocean
 
+## Overview
+
 Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively coupled plasma optical emission spectrometry (ICP-OES) in the flesh of 40 yellowfin tuna (Thunnus albacares) purchased at a fishery market in Hungary but originating from Sri Lanka in FAO Fishing Area 57 (Indian Ocean, Eastern), subarea 57.1 (Bay of Bengal). Mean total arsenic was 0.98 ± 0.47 mg/kg wet weight, but total As is not regulated; estimating inorganic As as 5% of total As gave a mean of 0.05 ± 0.02 mg/kg, with estimated daily intake (EDI) values (0.03-0.09 µg/kg/day) well below the 0.3 µg/kg/day dietary reference. Cadmium was detected above the limit of detection (0.05 mg/kg) in only 20% of samples and all detected values stayed below the EU 2023/915 maximum level (0.10 mg/kg for tuna species); EDI values (0.05-0.07 µg/kg/day) were below the 1 µg/kg/day reference. Mercury was below the limit of detection (0.50 mg/kg) in 90% of samples and below the EU 2023/915 maximum (1.0 mg/kg for tuna species) in all samples; EDI was below the 0.3 µg/kg/day reference in 90% of samples but exceeded it in 2 samples (0.69 and 0.82 µg/kg/day). Lead exceeded the EU 2023/915 maximum level (0.30 mg/kg, muscle meat of fish) in 40% of samples, with detected values from 0.30 to 1.59 mg/kg; EDI values (0.28-1.49 µg/kg/day) were above the dietary reference values for both adults (0.16 µg/kg/day) and children (0.26 µg/kg/day) in 100% of samples, which the authors flagged as a potential harm and a call to attention for environmental pollution and consumer protection.
 
 ## Key numbers
@@ -35,28 +37,28 @@ Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively
 Wet-weight concentrations (Table 3, mg/kg w.w.; n=40 yellowfin tuna flesh samples):
 
 - Total arsenic (tAs):
-  - Mean ± SD: 0.98 ± 0.47 mg/kg.
-  - Minimum (LOD): 0.50; minimum (measured): 0.51; maximum (measured): 2.05 mg/kg.
-  - Regulated maximum: not regulated for total As in fish.
-  - Detected above LOD in 100% of samples.
+ - Mean ± SD: 0.98 ± 0.47 mg/kg.
+ - Minimum (LOD): 0.50; minimum (measured): 0.51; maximum (measured): 2.05 mg/kg.
+ - Regulated maximum: not regulated for total As in fish.
+ - Detected above LOD in 100% of samples.
 - Inorganic arsenic (iAs, estimated as 5% of total As per the authors' convention):
-  - Mean ± SD: 0.05 ± 0.02 mg/kg.
-  - Minimum (LOD-derived): 0.03; minimum (measured-derived): 0.03; maximum (measured-derived): 0.10 mg/kg.
+ - Mean ± SD: 0.05 ± 0.02 mg/kg.
+ - Minimum (LOD-derived): 0.03; minimum (measured-derived): 0.03; maximum (measured-derived): 0.10 mg/kg.
 - Cadmium (Cd):
-  - Mean ± SD: 0.03 ± 0.01 mg/kg.
-  - Minimum (LOD): 0.05; minimum (measured): 0.05; maximum (measured): 0.07 mg/kg.
-  - Regulated maximum: 0.10 mg/kg (EU 2023/915, tuna species).
-  - Detected above LOD in 20% of samples; 100% of all samples below the regulated limit.
+ - Mean ± SD: 0.03 ± 0.01 mg/kg.
+ - Minimum (LOD): 0.05; minimum (measured): 0.05; maximum (measured): 0.07 mg/kg.
+ - Regulated maximum: 0.10 mg/kg (EU 2023/915, tuna species).
+ - Detected above LOD in 20% of samples; 100% of all samples below the regulated limit.
 - Mercury (tHg):
-  - Mean ± SD: NA (90% of samples below the LOD of 0.50 mg/kg, so statistical analysis was not performed).
-  - Minimum (LOD): 0.50; minimum (measured): 0.73; maximum (measured): 0.88 mg/kg.
-  - Regulated maximum: 1.0 mg/kg (EU 2023/915, tuna species).
-  - All samples below the regulated limit.
+ - Mean ± SD: NA (90% of samples below the LOD of 0.50 mg/kg, so statistical analysis was not performed).
+ - Minimum (LOD): 0.50; minimum (measured): 0.73; maximum (measured): 0.88 mg/kg.
+ - Regulated maximum: 1.0 mg/kg (EU 2023/915, tuna species).
+ - All samples below the regulated limit.
 - Lead (Pb):
-  - Mean ± SD: 0.39 ± 0.37 mg/kg.
-  - Minimum (LOD): 0.20; minimum (measured): 0.30; maximum (measured): 1.59 mg/kg.
-  - Regulated maximum: 0.30 mg/kg (EU 2023/915, muscle meat of fish).
-  - 47.5% of samples below the LOD; among detected samples, 40% of all samples exceeded the regulated limit.
+ - Mean ± SD: 0.39 ± 0.37 mg/kg.
+ - Minimum (LOD): 0.20; minimum (measured): 0.30; maximum (measured): 1.59 mg/kg.
+ - Regulated maximum: 0.30 mg/kg (EU 2023/915, muscle meat of fish).
+ - 47.5% of samples below the LOD; among detected samples, 40% of all samples exceeded the regulated limit.
 
 Estimated daily intake (Table 4, µg/kg/day; calculated as concentration × 65.7 g/day average EU fish consumption / 70 kg body weight, per EFSA convention):
 
@@ -81,8 +83,8 @@ EDI was calculated as the metal concentration × 65.7 g/day fish consumption (EU
 
 ## Speciation and interpretation notes
 
-- The measured arsenic analyte is total As (tAs); inorganic As (iAs) is not directly speciated but estimated from the convention that "the remaining amount (5%) is incorporated as inorganic derivatives" (Section 3.1). The frontmatter `metals` array therefore lists only `tAs`, not `arsenic-inorganic`, per CLAUDE.md Part 14: the iAs values in the Key numbers are derived from the 5% convention and must be read as estimates, not measurements.
-- The measured mercury analyte is total mercury (tHg); methylmercury was not speciated. The page reports `metals: [tHg]` rather than `MeHg`, per CLAUDE.md Part 14. The authors compare the tHg result against the EU 2023/915 limit for tuna species (1.0 mg/kg total Hg). MeHg-specific reference values (e.g., FDA 0.46 µg/kg/day RfD or 1.0 mg/kg JECFA PTWI equivalent) are not directly addressed.
+- The measured arsenic analyte is total As (tAs); inorganic As (iAs) is not directly speciated but estimated from the convention that "the remaining amount (5%) is incorporated as inorganic derivatives" (Section 3.1). The frontmatter `metals` array therefore lists only `tAs`, not `arsenic-inorganic`,: the iAs values in the Key numbers are derived from the 5% convention and must be read as estimates, not measurements.
+- The measured mercury analyte is total mercury (tHg); methylmercury was not speciated. The page reports `metals: [tHg]` rather than `MeHg`,. The authors compare the tHg result against the EU 2023/915 limit for tuna species (1.0 mg/kg total Hg). MeHg-specific reference values (e.g., FDA 0.46 µg/kg/day RfD or 1.0 mg/kg JECFA PTWI equivalent) are not directly addressed.
 - Cadmium and lead were quantified as total Cd and total Pb (no speciation reported); the page uses the umbrella `Cd` and `Pb` slugs.
 - The mercury EDI computation in the discussion treats below-LOD samples as half the LOD (0.25 mg/kg), which is why the Hg EDI mean of 0.23 µg/kg/day is reported even though the concentration mean is "NA" in Table 3. Two samples exceeded the 0.3 µg/kg/day reference at EDI 0.69 and 0.82 µg/kg/day; these correspond to the 0.73-0.88 mg/kg measured maximum range in Table 3 multiplied by the standard 65.7 g/day / 70 kg factor.
 - The lead detection rate (47.5% of samples below LOD 0.20 mg/kg) combined with the 40% exceedance of the 0.30 mg/kg regulated limit implies a sharply bimodal distribution: roughly half the samples were undetectable, while a substantial fraction of the detected samples cluster above the regulatory limit. The 1.59 mg/kg maximum is more than five times the EU 2023/915 limit. The authors interpret this as evidence of environmental Pb pollution and a consumer-protection concern, while noting that mean EDI (0.37 µg/kg/day) exceeds both the adult (0.16 µg/kg/day) and child (0.26 µg/kg/day) dietary reference values in 100% of samples - the latter calculation uses the average concentration, so even non-detect samples (substituted at half-LOD) contribute to the EDI ratio.
@@ -122,18 +124,18 @@ This page contributes a regulatory-grade ICP-OES dataset for fresh yellowfin tun
 - Brand firewall (Part 12): the source describes a generic "fishery market in Hungary" and identifies the original catch origin (FAO 57.1) but does not name brands or specific market operators; no brand attribution to redact.
 - Analyte speciation: Hg method is ICP-OES on total digest (no MeHg speciation), so `metals: [tHg]` rather than `[MeHg]` or `[tHg, MeHg]`. iAs is estimated at 5% of total As per the EFSA convention used by the authors, not directly speciated; the page lists both `tAs` and `arsenic-inorganic` in the metals array but flags the iAs estimation in the speciation notes.
 - The regulation cross-link list includes the available `eu-2023-915-cadmium` page and the `eu-reg-2022-617-mercury-fish` page. The paper itself cites only EU 2023/915 (reference 29); these wiki-link references are jurisdictional context for the regulatory framework, not a claim that the paper analyzes these specific sub-rules. There is no Pb-in-fish-muscle sub-page in the current taxonomy, so the EU 2023/915 lead context for muscle meat of fish (0.30 mg/kg) is described in prose only.
-- 2026-06-03 Claude audit subagent (fresh context) verdict: REVISE. Findings applied: (1) removed `arsenic-inorganic` from `metals` array (paper estimates iAs at 5% per EFSA convention rather than speciating, so per CLAUDE.md Part 14 only `tAs` belongs in the array; the iAs estimation discussion remains in this section); (2) removed the `eu-2023-915-lead-infant-young-child-foods` cross-link (paper's Pb comparator is the EU 2023/915 muscle-meat-of-fish limit at 0.30 mg/kg, not the infant-foods sub-rule); (3) trimmed the cross-source comparator paragraph in the speciation notes to a pointer-only list (the synthesis sentence "Pb in the Lehel dataset is at the upper end... while Cd and Hg are at the lower end" was a my-voice synthesis claim, removed); (4) trimmed routing-layer instruction in Implications ("Routing should treat this source as direct evidence...") per CLAUDE.md Part 5b (routing is the system's job, not the model's); (5) clarified the Hg EDI 0.23 µg/kg/day figure as the source's parenthetical for the 90% below-reference group computed via half-LOD substitution, since Table 4 omits Hg. Findings rejected as false positives: (a) audit flagged `[[ingredients/tuna]]` as missing from the taxonomy snapshot, but the routing audit's `routing_unresolved.csv` does NOT flag it and 5+ existing source pages (bae2023, bfr2024, blanco2023, chamorro2024, fsai2016) already use this slug, so it is accepted convention; (b) audit flagged the Hg EDI 0.23 µg/kg/day as a Claude-derived number not in the source, but the value appears verbatim in Section 3.3 of the PDF as the parenthetical "(0.23 µg/kg/day)" immediately following "(90%)".
+- 2026-06-03 Claude audit subagent (fresh context) verdict: REVISE. Findings applied: (1) removed `arsenic-inorganic` from `metals` array (paper estimates iAs at 5% per EFSA convention rather than speciating, so only `tAs` belongs in the array; the iAs estimation discussion remains in this section); (2) removed the `eu-2023-915-lead-infant-young-child-foods` cross-link (paper's Pb comparator is the EU 2023/915 muscle-meat-of-fish limit at 0.30 mg/kg, not the infant-foods sub-rule); (3) trimmed the cross-source comparator paragraph in the speciation notes to a pointer-only list (the synthesis sentence "Pb in the Lehel dataset is at the upper end... while Cd and Hg are at the lower end" was a my-voice synthesis claim, removed); (4) trimmed routing-layer instruction in Implications ("Routing should treat this source as direct evidence...") (routing is the system's job, not the model's); (5) clarified the Hg EDI 0.23 µg/kg/day figure as the source's parenthetical for the 90% below-reference group computed via half-LOD substitution, since Table 4 omits Hg. Findings rejected as false positives: (a) audit flagged `[[ingredients/tuna]]` as missing from the taxonomy snapshot, but the routing audit's `routing_unresolved.csv` does NOT flag it and 5+ existing source pages (bae2023, bfr2024, blanco2023, chamorro2024, fsai2016) already use this slug, so it is accepted convention; (b) audit flagged the Hg EDI 0.23 µg/kg/day as a Claude-derived number not in the source, but the value appears verbatim in Section 3.3 of the PDF as the parenthetical "(0.23 µg/kg/day)" immediately following "(90%)".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [97b8a2c](https://github.com/paleofoundation/heavymetalindex/commit/97b8a2c) | 2026-06-03 | audit: lehel2023-yellowfin-tuna-indian-ocean revised |
-| [d9bb8ce](https://github.com/paleofoundation/heavymetalindex/commit/d9bb8ce) | 2026-06-03 | ingest: lehel2023-yellowfin-tuna-indian-ocean fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

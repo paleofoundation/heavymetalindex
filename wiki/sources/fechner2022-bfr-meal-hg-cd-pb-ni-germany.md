@@ -29,6 +29,8 @@ updated: 2026-05-26
 
 # Fechner et al. 2022 — BfR MEAL Study: Hg, Cd, Pb, and Ni in 356 German foods
 
+## Overview
+
 This peer-reviewed paper reports concentration data for total mercury (tHg), cadmium (Cd), lead (Pb), and nickel (Ni) from the first German Total Diet Study, the BfR MEAL Study (Mahlzeiten für die Expositionsschätzung und Analyse von Lebensmitteln — "meals for exposure assessment and analysis of foods"), initiated in 2015. Foods were purchased representatively across Germany in 2017–2019, prepared as consumed in a study kitchen, and pooled (869 pooled samples from 356 MEAL foods) before analysis. The study is one of the most extensive TDSs worldwide by the number of foods and substances analysed. All measured levels were below applicable EU maximum levels. This paper is the primary data-reporting publication for the metals component of the BfR MEAL Study; a companion paper (Sarvan et al. 2021, Food and Chemical Toxicology) reported MeHg speciation in fish; a BfR Communication 033/2022 reported the Ni exposure assessment; a BfR Opinion 023/2024 applied MEAL MeHg data to fish consumption risk assessment.
 
 This paper is distinct from both previously ingested BfR MEAL sources in this corpus: `bfr2022-nickel-dietary-intake-germany-meal.md` (a government communication on Ni intake) and `bfr2024-methylmercury-fish-seafood-germany.md` (a 2024 risk assessment opinion for MeHg in fish).
@@ -134,15 +136,15 @@ Microbiome: Not directly addressed.
 - Audit subagent (2026-05-26) flagged: (1) `[[metals/mercury-methyl]]` in the wiki-pages-touched list inconsistent with the corrected frontmatter (paper does not measure MeHg) — verified against page Methods §"Speciation note" and source Section 2.5; removed the wikilink. (2) Implications opening framed relevance through "HMT&C-certified products" which tilts toward Part 2 HMT&C-convenience register — verified; reframed as "spanning the breadth of the HMI ingredient and product taxonomy" to keep audience-neutral. (3) Methods stripped instrument vendor names but Part 12 Exception 2 explicitly permits these for reproducibility — verified against source Section 2.4 (Grindomix GM300, Retsch GmbH; Milli-Q Integral 5, Merck) and Section 2.6 (Microsoft Excel 2016, IBM SPSS Statistics v26); restored. All three findings applied; 0 rejected.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

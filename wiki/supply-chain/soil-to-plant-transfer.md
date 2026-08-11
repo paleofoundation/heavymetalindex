@@ -8,6 +8,8 @@ updated: 2026-05-30
 
 # Soil-to-plant transfer of heavy metals
 
+## Overview
+
 Root uptake from soil is the dominant pathway by which cadmium, arsenic, nickel, and a large share of the lead found in plant-derived foods enter the food system. For these elements the soil is the principal reservoir, and the concentration measured in an edible crop is the downstream result of a transfer process that begins in the soil solution. Understanding that process is what allows the literature to explain why a given commodity carries the contamination it does, rather than merely recording that it does. This page is the hub for that upstream half of the corpus; it sets out the mechanism, the quantitative discipline that governs how soil evidence may be used, and the element-specific behaviour that connects soil geochemistry to the [ingredient](/ingredients) pages downstream.
 
 ## Soil concentration is not food concentration
@@ -37,3 +39,17 @@ Soil metal burdens arise from two broad origins that the literature treats diffe
 ## How upstream-source evidence connects to food pages in this index
 
 Source pages reporting soil, irrigation-water, fertiliser, or atmospheric-deposition data are upstream evidence. They attach to the [ingredients](/ingredients) they inform as exposure context rather than as direct food-occurrence evidence, preserving the separation set out above, and they support the synthesis of why a commodity carries its contamination profile. The index currently holds a substantial body of such evidence, and the routing layer connects each upstream source to the crop it studies so that the soil literature for rice arsenic, cacao cadmium, and leafy-vegetable cadmium is visible from the corresponding ingredient page without being mistaken for a measured food concentration. The element-by-element and crop-by-crop causal accounts build on this hub as dedicated synthesis pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [a2f3a812b](https://github.com/paleofoundation/heavymetalindex/commit/a2f3a812b) | 2026-05-31 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

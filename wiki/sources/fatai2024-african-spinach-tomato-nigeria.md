@@ -27,6 +27,8 @@ updated: 2026-06-07
 
 # Fatai et al. 2024 — Heavy metals in African spinach and tomato from Ashaka, Nigeria
 
+## Overview
+
 Fatai et al. measured Cu, Ni, Zn, Cd, Cr, and Pb in African spinach (*Amaranthus hybridus*) and tomato (*Solanum lycopersicum*) collected around Ashaka community in Gombe State, Nigeria. The source is direct occurrence evidence for field-grown leafy vegetables and tomatoes from this local context, with African spinach reporting Cd at 0.210 mg/kg and Pb at 0.290 mg/kg. The study is useful for geography-specific context but has limited benchmark value because it reports two vegetable matrices as summary rows rather than sample-level distributions.
 
 ## Key numbers
@@ -74,12 +76,15 @@ Fresh African spinach and tomato samples were collected from two locations in As
 - The conclusion text appears to say Cd in tomatoes exceeded the FAO/WHO limit, but Table 1 and the Results text identify African spinach Cd 0.210 mg/kg as the exceedance; this source page follows Table 1 and the Results discussion.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [46843a9](https://github.com/paleofoundation/heavymetalindex/commit/46843a9) | 2026-06-07 | apply audit fatai2024 african spinach tomato |
-| [f388120](https://github.com/paleofoundation/heavymetalindex/commit/f388120) | 2026-06-07 | ingest auto-fetched 2026-06-07: fatai2024-african-spinach-tomato-nigeria |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lorenzana 2009 - Seafood arsenic speciation
 
+## Overview
+
 Lorenzana, Yeow, Colman, Chappell, and Choudhury reviewed arsenic speciation evidence for seafood risk assessment, focusing on the fraction of total arsenic present as inorganic arsenic. The paper is a literature survey and does not contribute a single new sampling campaign. Its main contribution is context for keeping measured total arsenic separate from inorganic arsenic in seafood, shellfish, freshwater fish, and seaweed.
 
 ## Key numbers
@@ -78,11 +80,15 @@ This review supports seafood evidence routing as speciation context rather than 
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; broad seafood, shellfish, fish, and seaweed routing is used because the review spans multiple species and markets.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [01b3122](https://github.com/paleofoundation/heavymetalindex/commit/01b3122) | 2026-06-08 | ingest: lorenzana2009-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

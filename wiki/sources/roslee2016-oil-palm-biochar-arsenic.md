@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Roslee 2016 - Oil-palm empty-fruit-bunch biochar and arsenic availability
 
+## Overview
+
 Roslee tested whether oil-palm empty-fruit-bunch biochar changed arsenic availability in artificially contaminated soil during a four-week aerobic incubation. This is mitigation and soil-pathway context, not palm-oil occurrence evidence.
 
 ## Key numbers
@@ -57,3 +59,17 @@ App: Context only. The result may support a remediation/pathway note for oil-pal
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the thesis as out of scope because it was not palm-oil product occurrence. On reading, it is in-scope a2 mitigation and a3 soil-pathway context because it tests arsenic availability in contaminated soil using oil-palm empty-fruit-bunch biochar.
 
 Numbers were checked against the extracted PDF abstract and table of contents. The text extraction did not preserve the underlying results tables for As concentration, pH, or electrical conductivity, so this page reports only the extractable application rates, four-week sampling window, and 25.2% reduction statement. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

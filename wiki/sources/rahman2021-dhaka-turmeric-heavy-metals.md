@@ -6,7 +6,7 @@ title: "Analysis of heavy metal contents in some commercial turmeric samples ava
 authors: [Rahman MA, Akter T, Akter R, Sarkar BK, Rafiquzzaman M]
 year: 2021
 publication: "Jahangirnagar University Journal of Biological Sciences"
-doi: 10.3329/jujbs.v9i1.53703
+doi: "10.3329/jujbs.v9i1-2.53703"
 source_type: peer-reviewed
 evidence_tier: A
 license: "not stated"
@@ -23,6 +23,8 @@ updated: 2026-06-03
 ---
 
 # Rahman et al. 2021 - Dhaka turmeric heavy metals
+
+## Overview
 
 Rahman et al. measured eight metals in nine turmeric samples from Dhaka and Savar, Bangladesh: unpacked bulk powder from three local markets, packed commercial turmeric powder from three companies, and raw turmeric from three local farmlands. The paper is direct occurrence evidence for turmeric powder and raw turmeric, with one unpacked bulk sample exceeding the authors' cited lead comparator. The figures contain the full per-sample profiles; the prose provides several exact maxima/minima and compliance statements.
 
@@ -75,15 +77,15 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 The PDF title, byline, DOI, year, journal, sample frame, methods, and source-reported numeric maxima/minima were read from the auto-fetched PDF. Figures 1-3 contain additional plotted per-sample values, but the text layer does not preserve all plotted numbers cleanly; this page records exact values stated in prose and keeps the rest as qualitative comparator statements. The source reports arsenic and chromium without speciation, so these values must not substitute for inorganic arsenic or Cr(VI). Audit note: `turmeric-powder` is retained as an established matrix-map label used by sibling turmeric source pages and `data/evidence/matrix-to-product-map.json`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
-| [2207ee9](https://github.com/paleofoundation/heavymetalindex/commit/2207ee9) | 2026-06-03 | ingest auto-fetched 2026-06-03: rahman2021-dhaka-turmeric-heavy-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

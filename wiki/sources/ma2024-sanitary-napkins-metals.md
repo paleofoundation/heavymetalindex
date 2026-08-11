@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ma et al. 2024 — Heavy metals in sanitary napkins from seven countries
 
+## Overview
+
 Ma et al. measured eight metals in 56 sanitary-napkin samples collected from China, Japan, South Korea, the United States, the United Kingdom, Australia, and Germany. The study reports country-level median concentrations and ranges in `μg/kg` for As, Co, Cu, Pb, Cd, Zn, Ni, and Cr. Arsenic and chromium were not speciated, so this page records arsenic as total arsenic and chromium as total chromium.
 
 ## Key numbers
@@ -77,3 +79,17 @@ Microbiome: Not applicable.
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.1016/j.eti.2024.103606`, raw handle `MFK_1-s2-0-s2352186424000828-main`, cite key `ma2024-sanitary-napkins-metals`, or the exact title. The DOI, title, authors, journal, year, and CC BY-NC-ND license were checked against the first page and PDF metadata. Table 1 values were re-opened from `/tmp/hmi-fem-003.txt` and checked against the source table; units remain `μg/kg`, and values below LOQ remain marked with `<`. Table 4 exposure estimates and Section 3.4 HI/CR values were checked separately and kept as source-side exposure context. The paper does not measure inorganic arsenic, Cr(VI), or any mercury species; frontmatter therefore uses `tAs` and `Cr` only. The source describes brand selection but this page intentionally reports only country/category and study-level statistics under the brand firewall. Frontmatter product and matrix slugs were checked against the closed taxonomy snapshot; no new slugs were invented. `npm run evidence:source-routes` exited 0 and generated one `menstrual-pads` route; `routing_malformed.csv` contains the same advisory-only missing-ingredients warning already present for other personal-care source pages because the closed ingredient vocabulary has no valid sanitary-napkin material slug, so `ingredients: []` is intentionally retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

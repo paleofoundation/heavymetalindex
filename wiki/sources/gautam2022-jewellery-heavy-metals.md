@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2022 - lead, cadmium, and nickel in jewelry risk assessment
 
+## Overview
+
 This ESR client report for the New Zealand Ministry of Health develops a generic risk assessment for incidental oral and dermal exposure to Pb, Cd, and Ni in jewelry. It is not a New Zealand occurrence survey; the report explicitly says no New Zealand jewelry recall data and no New Zealand occurrence/prevalence data were available. The quantitative sections summarize overseas metal-content, bioaccessibility, and risk-assessment studies, then interpret those studies for children and adults who mouth, swallow, or wear jewelry.
 
 ## Key numbers
@@ -121,3 +123,17 @@ App: If a jewelry or pierced-contact-product exposure surface is built, this sou
 - Product slug note: no adult-jewelry product slug is available in the current routing vocabulary, so the page routes to the existing children's jewelry and piercing-post product pages and records the broader adult-jewelry context in text only.
 - Evidence tier: `A` because this is an ESR/Ministry of Health agency risk-assessment report with transparent source tables, regulatory review, and risk-characterization logic. Its occurrence contribution is secondary/contextual, not primary market sampling.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` product routing row (`childrens-jewelry`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients;matrices` advisory in `data/evidence/routing_malformed.csv` because this is a non-food hard-goods/jewelry source with no ingredient matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

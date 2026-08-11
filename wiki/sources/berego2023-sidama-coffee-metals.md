@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Berego et al. 2023 - metals in Sidama coffee beans and soils
 
+## Overview
+
 Berego and colleagues measured essential and toxic metals in coffee beans and associated agricultural soils from Dale Woreda in Sidama, Ethiopia. The coffee-bean tables report Pb, Cd, Cr, and Co as not detected in both farm and washing-plant beans, while Ni, Cu, Zn, Mn, Na, K, and Ca were quantifiable at low mg/kg levels. Soil Cd exceeded the authors' cited agricultural-soil comparator, so this source is useful for both coffee occurrence routing and supply-chain soil context without treating the soil values as coffee-product concentrations.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: The coffee-facing takeaway is that this Sidama sample set found no detected
 - The coffee tables use mg/kg and ppm interchangeably; this page preserves the source units as mg/kg and does not convert to ppb.
 - Soil Cd exceedance is not a coffee-product occurrence value. It is retained only as agricultural-soil and supply-chain context.
 - The Table 7 text extraction visibly drops some column alignment for Cr and Pb; the narrative and Table 8 both support Cr, Pb, and Cd as not detected in washing-industry beans.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

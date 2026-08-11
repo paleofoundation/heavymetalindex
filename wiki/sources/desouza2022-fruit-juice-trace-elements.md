@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # de Souza et al. 2022 - trace elements in fruit juices by ICP OES and ICP-MS
 
+## Overview
+
 This study measured essential and toxic trace elements in 21 fruit juice and nectar samples from Spain and Portugal. Commercial matrices included orange, tangerine, red berries, peach, pineapple, apple, grape-containing blends, mango-orange juice, passion-fruit nectar, and purple-pear nectar, with two fresh-squeezed orange juices and one fresh-squeezed lemon juice prepared in the laboratory. The strongest HMT&C signal is a single apple-juice Pb exceedance, while As and Sb were not detected and Cd was only quantified in two samples.
 
 ## Key numbers
@@ -112,15 +114,15 @@ Microbiome: Not addressed.
 - Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Three findings corrected: (1) Pb row leads with the precise 61.7 ± 7.2 µg/L text value with Table V rounding noted, plus explicit citation of the EU 2021/1317 and ANVISA IN 88/2021 comparators the paper invokes; (2) Co row notes the text-vs-Table-V discrepancy (37.8 vs 38 ± 2); (3) recovery range corrected from 89-103% to 89-108% to capture the Mg 108 ± 5 maximum. Slug vocabulary clean, speciation discipline correct (tAs/Cr-total/Sb explicitly labeled), brand firewall clean (sample labels anonymized as in source), HMTc firewall clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

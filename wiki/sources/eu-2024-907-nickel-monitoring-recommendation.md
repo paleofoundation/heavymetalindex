@@ -25,12 +25,14 @@ sampling_locations: []
 sampling_year_range: 2025-2027
 superseded_by: null
 wiki_doi: null
-updated: 2026-06-03
+updated: 2026-06-22
 ---
 
 # Commission Recommendation (EU) 2024/907 — Monitoring of Nickel in Food
 
-Commission Recommendation (EU) 2024/907, adopted 22 March 2024 and published in the Official Journal L series on 26 March 2024, directs European Union Member States to monitor the presence of nickel in food. It is a non-binding Commission act (Article 292 TFEU) that operationalises the regulatory response to the European Food Safety Authority's 2020 nickel risk assessment, and it is the companion instrument to the maximum levels established for nickel in food under [[regulations/eu2023-contaminants-maximum-levels|Commission Regulation (EU) 2023/915]]. Signed by Commissioner Stella Kyriakides.
+## Overview
+
+Commission Recommendation (EU) 2024/907, adopted 22 March 2024 and published in the Official Journal L series on 26 March 2024, directs European Union Member States to monitor the presence of nickel in food. It is a non-binding Commission act (Article 292 TFEU) that operationalises the regulatory response to the European Food Safety Authority's 2020 nickel risk assessment, and it is the precursor and companion monitoring instrument to the EU's nickel maximum levels. Those binding levels were set four months later, by [[sources/eu-2024-1987-nickel-maximum-levels|Commission Regulation (EU) 2024/1987]] of 30 July 2024, which inserted nickel as Annex I point 3.6 of [[regulations/eu2023-contaminants-maximum-levels|Commission Regulation (EU) 2023/915]] (applying from 1 July 2025; 1 July 2026 for cereals). Signed by Commissioner Stella Kyriakides.
 
 ## The scientific basis the Commission cited (recital 6)
 
@@ -56,25 +58,28 @@ The recommendation notes that for some foods that are relevant contributors to n
 
 ## Relevance to the Heavy Metal Index
 
-This is a primary, citable instrument for the proposition that the European Union is actively regulating and surveilling nickel in food, naming the specific high-nickel categories the wiki already tracks (cocoa and chocolate, oats and cereals, tea, soy, pulses, nuts, seafood). It is the regulatory counterpart to [[metals/nickel]] and the downstream policy uptake of [[sources/efsa-nickel-contam-2020|EFSA 2020]]. The maximum levels themselves are recorded under [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2024-907-nickel-monitoring]].
+This is a primary, citable instrument for the proposition that the European Union is actively regulating and surveilling nickel in food, naming the specific high-nickel categories the wiki already tracks (cocoa and chocolate, oats and cereals, tea, soy, pulses, nuts, seafood). It is the regulatory counterpart to [[metals/nickel]] and the downstream policy uptake of [[sources/efsa-nickel-contam-2020|EFSA 2020]]. The binding maximum levels themselves were set by [[sources/eu-2024-1987-nickel-maximum-levels|Commission Regulation (EU) 2024/1987]] and are recorded under [[regulations/eu-2024-1987-nickel-maximum-levels]] and [[regulations/eu2023-contaminants-maximum-levels]].
 
-## Provenance note on the maximum-level instrument
+## Provenance note on the maximum-level instrument (resolved 2026-06-22)
 
-Recital 7 of this recommendation states that nickel maximum levels "have been established for nickel in various foods in Commission Regulation (EU) 2023/915." Some secondary trade sources attribute the operative nickel maximum levels to an amending regulation, Commission Regulation (EU) 2024/1987 (reported adopted July 2024); the precise amending instrument and its application dates were not confirmed against the Official Journal during this ingest, because this primary recommendation (dated March 2024) already refers to the levels as established in 2023/915. Treat the existence of EU nickel food maximum levels as primary-verified here; treat the exact amending-regulation citation as pending a EUR-Lex confirmation.
+Recital 7 of this recommendation states that nickel maximum levels "have been established for nickel in various foods in Commission Regulation (EU) 2023/915." That quote is verbatim and accurate, but the present-perfect tense is anachronistic relative to this March-2024 recommendation: the binding levels were not actually inserted into Annex I to 2023/915 until **Commission Regulation (EU) 2024/1987 of 30 July 2024** (OJ L, 31.7.2024), four months later. The recommendation and the amending regulation were drafted as a single package, which is why the recital reads as though the levels already existed.
+
+The earlier open item — confirming the amending instrument against the Official Journal — is now resolved. The full primary OJ text of Regulation (EU) 2024/1987 has been ingested as [[sources/eu-2024-1987-nickel-maximum-levels]] (raw PDF hashed; complete Annex I point 3.6 transcribed; application dates 1 July 2025, and 1 July 2026 for cereals). Both the existence of EU nickel food maximum levels and the exact amending-regulation citation, values, and dates are now primary-confirmed.
 
 ## Verification notes
 
 Ingested 2026-06-03 from the Official Journal PDF supplied at `raw/Manual Fetch Kimi /June 3 Folder/OJ_L_202400907_EN_TXT.pdf` (sha256 c88ecf52…), read in full (2 pages, recitals 1–9 and operative recommendations 1–5). Quotations above are verbatim from the OJ text. ELI: http://data.europa.eu/eli/reco/2024/907/oj.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0aa71d5](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d5) | 2026-06-03 | ingest: EU 2024/907 nickel-monitoring recommendation + EFSA exceedance; ground Brief 7 nickel in primaries |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 2 removed; narrative text revised |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

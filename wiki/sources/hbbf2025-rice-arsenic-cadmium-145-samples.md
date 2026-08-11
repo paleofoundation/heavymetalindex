@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # HBBF 2025 — Total and inorganic arsenic, cadmium, lead, and mercury in 145 US retail rice samples and 66 alternative grain samples
 
+## Overview
+
 Healthy Babies Bright Futures commissioned Brooks Applied Labs to test 211 containers of rice and alternative grains purchased from retailers in 20 US metro areas during 2024-2025, measuring total arsenic, inorganic arsenic, cadmium, lead, and total mercury. Inorganic arsenic was detected in 100% of 145 rice samples, with more than one in four (>25%) exceeding the FDA action level of 100 ppb iAs for infant rice cereal. Brown rice grown in the Southeastern US and arborio risotto rice from Italy showed the highest average total heavy metal burdens (151 ppb and 142 ppb respectively); California-grown rice averaged 65 ppb total heavy metals, the lowest of the rice categories tested. Alternative grains averaged 33 ppb total heavy metals versus 108 ppb for rice, a roughly 69% reduction.
 
 ## Key numbers
@@ -85,15 +87,15 @@ Testing performed by Brooks Applied Laboratories (BAL, near Seattle, Washington)
 - 2026-05-29 audit application (fresh-context subagent, REVISE verdict): corrected three Appendix A sample-count typos carried over from the 2026-05-17 version (Calrose n=6 → 5; Brown rice n=16 → 15; Quinoa n=8 → 9); reconciled an inconsistency in the Implications opener (said "10 named rice subtypes" but enumerated 16 from Figure 3); tightened the FDA exceedance figure from ">25% (more than one in four)" to the source's precise "28%"; corrected the saffron-rice Pb comparison wording from "5 times the next-highest non-saffron sample" to the source-verbatim "5 times the next-highest sample from any other brand" (p. 16); expanded Methods with Appendix B detail (NELAP/ISO 17025 accreditation, AOAC 2015.01 modified microwave digestion with H₂O₂+HNO₃, ICP-QQQ-MS for total metals, IC-ICP-CRC-MS for As speciation, QA/QC batch composition). One ⚠️ left unaddressed: the audit flagged `matrices: [rice, cereal-grain]` as possibly-novel matrices vocabulary; left as-is because `cereal-grain` was inherited from the 2026-05-17 version and the matrices snapshot is open. The audit also briefly named brands inside the audit's own change-log when describing the brand-stripping edits; rewritten here to avoid re-introducing brand names in the wiki body.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aa829f52a](https://github.com/paleofoundation/heavymetalindex/commit/aa829f52a) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

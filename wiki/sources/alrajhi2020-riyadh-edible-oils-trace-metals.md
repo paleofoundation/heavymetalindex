@@ -22,6 +22,8 @@ updated: 2026-06-02
 
 # Alrajhi and Idriss 2020 - Trace metals in Riyadh edible oils
 
+## Overview
+
 Alrajhi and Idriss measured trace metals in 54 edible vegetable oil samples bought from supermarkets around Riyadh. The study is routeable occurrence evidence for the broad cooking-oils row because Table I reports sample-level and summary concentrations for Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, total As, and Se in finished edible oils on an mg/kg basis.
 
 ## Key numbers
@@ -85,15 +87,15 @@ Audit subagent 2026-06-02 flagged `matrices: [edible-oil, vegetable-oil, soybean
 `[[testing/icp-oes]]` is referenced in the "Wiki pages this source may touch" section but no `wiki/testing/icp-oes.md` exists yet. Retained because five other source pages use the same placeholder; flagging `testing/icp-oes` as a proposed testing-methods page (companion to the existing `wiki/testing/icp-ms.md`).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [d86ebb7](https://github.com/paleofoundation/heavymetalindex/commit/d86ebb7) | 2026-06-02 | ingest June 2: alrajhi2020-riyadh-edible-oils-trace-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

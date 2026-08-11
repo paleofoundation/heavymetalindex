@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Reczajska et al. 2005 — Chromium content of plant-origin foods and beverages in Poland
 
+## Overview
+
 A total of 272 samples of fresh edible plants and beverages were analyzed for total chromium using electrothermal atomic absorption spectrometry with Zeeman background correction (ZETAAS) to assess dietary chromium from plant sources in Poland. Chromium content ranged from below 1 to 183 µg/kg fresh weight across solid foods, with the highest mean concentrations in wheat grains, strawberries, and cucumbers and values below the 1 µg/L detection limit in juices. Regional differences across three Polish provinces were observed, and results were generally lower than older Polish reference values, which the authors attribute to improved analytical methods that reduce contamination artifacts from earlier techniques.
 
 ## Key numbers
@@ -81,7 +83,7 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 
 ## Implications
 
-**Certification:** Total Cr values in Polish fresh fruits, vegetables, and wheat grain from this 2001 survey are generally low — mean values below 40 µg/kg fresh weight for solid foods and below 13 µg/L for alcoholic beverages, with juices below the 1 µg/L detection limit. These are total chromium occurrence values; the source does not distinguish Cr(III) from Cr(VI). Per CLAUDE.md Part 14, total Cr values may not be carried as Cr(VI) without explicit speciation.
+**Certification:** Total Cr values in Polish fresh fruits, vegetables, and wheat grain from this 2001 survey are generally low — mean values below 40 µg/kg fresh weight for solid foods and below 13 µg/L for alcoholic beverages, with juices below the 1 µg/L detection limit. These are total chromium occurrence values; the source does not distinguish Cr(III) from Cr(VI). Total Cr values may not be carried as Cr(VI) without explicit speciation.
 
 **Courses:** Illustrates two reusable points: geographic variation in chromium content within a single country (regional means differ by roughly a factor of two for strawberries and wheat across three Polish provinces), and the importance of contamination-controlled analytical methods (the authors note that older Polish reference values appear systematically higher because of pre-microwave sample-prep contamination).
 
@@ -113,15 +115,15 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 - [[ingredients/wheat]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

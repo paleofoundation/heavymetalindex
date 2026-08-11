@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Abdulrasheed et al. 2026 — Toxic metals in informally manufactured Nigerian cookware
 
+## Overview
+
 Abdulrasheed and colleagues measured Mn, Pb, Cr, Cd, and Ni in informally manufactured cookware from Saki, southwest Nigeria, along with moulding inputs and site soils. The paper is direct product evidence for metal-alloy cookware composition and supply-chain evidence for informal manufacturing inputs. Its leaching test found no detectable metals in boiled-water leachates, so the total cookware concentrations should not be treated as the amount transferred to food.
 
 ## Key numbers
@@ -62,3 +64,17 @@ App: Can support product-context warnings that informally manufactured metal coo
 - The auto-fetch row labelled this as nonstick-coated cookware, but the source describes informally manufactured iron cookware; routing uses the broader `cookware-metal-alloy` page.
 - Leachates were below detection only for distilled-water boiling. The authors explicitly note that acidic or salty foods could increase metal mobility, so the negative leachate result should not be generalized to all cooking conditions.
 - Chromium is total Cr by flame AAS; no Cr-VI value is inferred.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

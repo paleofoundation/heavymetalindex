@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zakaria 2015 - lead, cadmium, and chromium in lipsticks sold in Malaysia
 
+## Overview
+
 Zakaria and Ho measured lead, cadmium, and chromium in `15` lipstick products selected from popularity rankings among surveyed lipstick users in Malaysia. The study reports concentrations in `mg kg-1` and analyzes each lipstick in triplicate. Brand names were collected in the survey workflow, but this page reports only product category, country of production, price category, and coded sample values.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: The source can support lipstick contamination profiles for Malaysian-market
 - Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
 - Brand firewall: the survey collected brand information, but no brand names are reported in this page and values are summarized by coded samples, price category, country of production, and product category.
 - Source-internal range note: the abstract's Cr range (`0.48-2.50 mg kg-1`) differs from Table 2, which includes two `0.24 mg kg-1` means; both are recorded without correction.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

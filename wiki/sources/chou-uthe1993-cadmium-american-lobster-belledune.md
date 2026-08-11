@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Chou & Uthe 1993 — Cadmium and other metals in American lobster, Belledune Harbour, New Brunswick, 1980-1992
 
+## Overview
+
 Chou and Uthe extend an earlier Department of Fisheries and Oceans monitoring series (1980-1984; Uthe et al. 1987, Uthe and Chou 1985) with a further eight years of cadmium data for American lobster (*Homarus americanus*) captured in and around Belledune Harbour, New Brunswick — a Baie des Chaleurs coastal industrial zone hosting a lead smelter and fertilizer plant whose effluents have driven a closed and controlled-fishery regime for the harbour proper since 1980. Annual geometric mean Cd was measured in lobster digestive gland (tomalley, "hepatopancreas") and in cooked tail+claw+knuckle meat from individual animals at eight sites, and Hg, As, Cu, Ag, and Pb were measured in pooled cooked-meat composites in selected years (1984-1992). Statistical-trend models published in 1987 had predicted that contamination would have decayed enough by 1989 to allow normal-fishery reopening, but Cd concentrations in digestive gland from the two intra-harbour sites instead spiked in 1987 and remained elevated through 1992 despite major dredging and reconstruction of the harbour in 1991. The authors conclude that ongoing Cd input to the harbour from ill-defined sources, rather than legacy sediment, is now the dominant contamination driver, and that lobsters from inside the harbour remain unfit for an open fishery.
 
 ## Key numbers
@@ -146,7 +148,7 @@ All methods had been used successfully in ICES (International Council for the Ex
 - **Reporting basis.** This is a Canadian government technical report, not a peer-reviewed journal article. Methods are referenced to earlier papers (Uthe et al. 1983; Freeman et al. 1976; Armstrong and Uthe 1971) rather than re-stated in full; LODs, LOQs, certified reference materials, and digestion conditions are not tabulated here.
 - **Pooled cooked-meat analyses (Hg, As, Cu, Ag, Pb).** The cooked-meat data for these analytes is one pool per site per year, with the within-pool SD reflecting analytical replication (3 analyses), not animal-to-animal variation. Inter-animal variance for non-Cd analytes cannot be estimated from this design.
 - **Cd in cooked meat at HRI in 1980 and at most sites in 1980 is missing** because the cooked-meat program was not started at all sites until 1981.
-- **Speciation.** The source does not separate iAs from organic As nor MeHg from inorganic Hg; the As and Hg routing in this page uses tAs and tHg per CLAUDE.md Part 14 speciation discipline.
+- **Speciation.** The source does not separate iAs from organic As nor MeHg from inorganic Hg; the As and Hg routing in this page uses tAs and tHg speciation discipline.
 - **Pb-cooking effect not characterized.** The source notes uncertainty about how cooking affects Cu and Ag concentrations in muscle tissue (and implicitly Pb as well); cooked-meat values may differ from raw-meat values by an unquantified factor.
 - **Brand-level reporting absent.** The source does not name commercial brands; processed lobster from the controlled fishery was sold as "cooked, frozen lobster meat" with no brand-by-brand contamination listing.
 
@@ -189,20 +191,20 @@ The pooled-tissue Hg values are uniformly below 0.5 µg·g⁻¹ wet wt. and add 
 - The Canadian Hg-in-fish tolerance of 0.5 µg·g⁻¹ wet wt. referenced by the authors is a Health Canada / Canadian Food Inspection Agency regulatory value. No corresponding `regulations/canada-hg-fish-tolerance` slug exists in the current taxonomy snapshot; flagged here as a potential future regulation page rather than inventing a slug. Page omits the regulation cross-link.
 - Eight site abbreviations (HRI, L1W, HW, HE, LOBE, L1E, L4E, PET) and their geographic positions are preserved verbatim from the source's Figure 1 caption and Table 1 headers to enable later replication or audit.
 - 2026-06-03 Claude audit subagent (fresh context) verdict: PROMOTE. Two ⚠️ concerns, neither requiring page changes:
-  - Check 2 — `metals: [Cd, Pb, tHg, tAs, Cu, Ag]` includes `Cu` and `Ag`, which are not in the Part 14 abbreviation vocabulary (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). Both metals were measured by the source and the corresponding `metals/copper` and `metals/silver` page slugs exist in the taxonomy. Disposition: leave as recorded — dropping the analytes from frontmatter would silently lose information about what this source measures. Tracked as a Part 14 vocabulary-extension schema question, not a page defect.
-  - Check 3 — L4E geographic descriptor: wiki front matter and `sampling_locations` call L4E "four miles ESE of Chapel Point," matching PDF Table 1 header text. PDF p.1 Introduction prose calls the controlled-fishery zone L1W → L4E "1 mile northwest … to 4 miles southwest of the harbour," which is a source-internal inconsistency between the Introduction text and the Table 1 site headers. Disposition: wiki preserves the table-header convention (which is the more granular and the convention used throughout Table 1 and Figure 1). No correction warranted; flagged here so future readers know the source is internally inconsistent.
-  - All five checks otherwise clean: ✅ Check 1 (60+ cell values spot-checked across Tables 1, 2, 3 — no transpositions, no Cd/Pb swaps, no DG/cooked-meat swaps, no geometric/arithmetic conflation); ✅ Check 4 (no commercial brand names; Belledune Harbour + lead smelter + fertilizer plant are regulatory-event identifiers permitted under Part 12 Exception 1); ✅ Check 5 (no HMTc threshold proposals, no consumer advisories, no cross-literature synthesis claims).
+ - Check 2 — `metals: [Cd, Pb, tHg, tAs, Cu, Ag]` includes `Cu` and `Ag`, which are not in the Part 14 abbreviation vocabulary (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). Both metals were measured by the source and the corresponding `metals/copper` and `metals/silver` page slugs exist in the taxonomy. Disposition: leave as recorded — dropping the analytes from frontmatter would silently lose information about what this source measures. Tracked as a Part 14 vocabulary-extension schema question, not a page defect.
+ - Check 3 — L4E geographic descriptor: wiki front matter and `sampling_locations` call L4E "four miles ESE of Chapel Point," matching PDF Table 1 header text. PDF p.1 Introduction prose calls the controlled-fishery zone L1W → L4E "1 mile northwest … to 4 miles southwest of the harbour," which is a source-internal inconsistency between the Introduction text and the Table 1 site headers. Disposition: wiki preserves the table-header convention (which is the more granular and the convention used throughout Table 1 and Figure 1). No correction warranted; flagged here so future readers know the source is internally inconsistent.
+ - All five checks otherwise clean: ✅ Check 1 (60+ cell values spot-checked across Tables 1, 2, 3 — no transpositions, no Cd/Pb swaps, no DG/cooked-meat swaps, no geometric/arithmetic conflation); ✅ Check 4 (no commercial brand names; Belledune Harbour + lead smelter + fertilizer plant are regulatory-event identifiers permitted under Part 12 Exception 1); ✅ Check 5 (no HMTc threshold proposals, no consumer advisories, no cross-literature synthesis claims).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [1e3ff4b](https://github.com/paleofoundation/heavymetalindex/commit/1e3ff4b) | 2026-06-03 | audit: chou-uthe1993-cadmium-american-lobster-belledune promoted |
-| [a0d92da](https://github.com/paleofoundation/heavymetalindex/commit/a0d92da) | 2026-06-03 | ingest: chou-uthe1993-cadmium-american-lobster-belledune fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

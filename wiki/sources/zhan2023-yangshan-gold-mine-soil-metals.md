@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Zhan et al. 2023 - Yangshan gold-mine soil metals
 
+## Overview
+
 Zhan and colleagues measured As, Cd, Hg, and Pb in soil around the Anba-Getiaowan mining area of the Yangshan Gold Belt in Gansu, China. This is source-attribution and soil-pathway evidence: it does not measure mineral water or food, but it documents arsenic loading in mining-area soils and nearby surface water, tied by the authors to arsenic-bearing gold-mineralization and mining-development context.
 
 ## Key numbers
@@ -66,3 +68,17 @@ App: Context only. This paper can support source-pathway and regional-risk expla
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The prior skip dropped the paper because it had no mineral-water or food table; under the corrected rule it is a3 source-attribution and mining-area soil-pathway evidence.
 
 The Cd-query PDF and tAs-query PDF are byte-identical (`8f1a21163e66d8b6cda7e93cb1f6eea802c96880b763fe3537b699755fbe4c34`) and represent the same DOI. A later Pb-query worklist row for the same DOI is also covered by this page. Numeric values were checked against the extracted text around the abstract, Section 3, Section 4.1, Tables 1-3, and the conclusion. Arsenic and mercury are treated as total elemental measurements (`tAs`, `tHg`) because the analytical methods do not report inorganic arsenic or methylmercury speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

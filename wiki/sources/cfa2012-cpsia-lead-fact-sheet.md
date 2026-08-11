@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Consumer Federation of America (c. 2012) — CPSIA and Lead Fact Sheet
 
+## Overview
+
 This is a two-page advocacy fact sheet published by the Consumer Federation of America (CFA) summarising the lead-content provisions of the Consumer Product Safety Improvement Act of 2008 (CPSIA), the pre-CPSIA regulatory baseline, the August 2011 HR 2175 amendment (Public Law 112-28), and the contextual public-health framing for lead exposure in children. The fact sheet contains no primary measurements; it is included in the Heavy Metal Index corpus as a regulatory-history reference for the federal US lead-in-children's-products limit (the phased-in 600 → 300 → 100 ppm Section 101 standard) and as the consumer-advocacy framing that accompanied the 2012 CDC blood-lead-reference-value revision.
 
 ## Key numbers
@@ -78,15 +80,15 @@ Two-page consumer-advocacy fact sheet authored by the Consumer Federation of Ame
 - **Related corpus pages.** No CPSIA-specific sources are currently in the corpus. `washington-tfca-toothpaste-pb-1000ppb` and `oehha-lead-prop65` are the closest existing US state-level lead-in-product regulations in the wiki's regulation taxonomy; FDA Closer-to-Zero (`fda-closer-to-zero`, `fda-ctz-Pb-babyfood-10ppb`, etc.) is the food-side federal counterpart. The CPSIA-Section-101 regulation page proposed in the verification notes above would fill the corresponding non-food children's-products slot.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Hisam et al. 2022 - Water spinach phytoremediation
 
+## Overview
+
 Hisam and colleagues tested water spinach as a phytoremediation system for cadmium, copper, and zinc in wastewater. This is in-scope lane a2 mitigation evidence and not spinach food-occurrence evidence.
 
 ## Key numbers
@@ -56,3 +58,17 @@ App: Context only.
 ## Verification notes
 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip dropped a prepared-solution phytoremediation study; on re-read it is in-scope lane a2 mitigation evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [7faea44b2](https://github.com/paleofoundation/heavymetalindex/commit/7faea44b2) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

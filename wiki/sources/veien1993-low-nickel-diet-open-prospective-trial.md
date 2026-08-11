@@ -5,7 +5,7 @@ title: "Low nickel diet: An open, prospective trial"
 authors: ["Niels K. Veien", "Thais Hattel", "Grete Laurberg"]
 year: 1993
 publication: "Journal of the American Academy of Dermatology 29(6):1002-1007"
-doi: "10.1016/S0190-9622(08)82038-4"
+doi: "10.1016/0190-9622(93)70281-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: elsevier
@@ -25,6 +25,8 @@ updated: 2026-05-11
 ---
 
 # Veien, Hattel, Laurberg 1993 — Low nickel diet: an open, prospective trial
+
+## Overview
 
 This Journal of the American Academy of Dermatology open prospective trial from the Aalborg (Denmark) dermatology group is the second-generation low-nickel-diet study after Kaaber 1978 and remains a foundational reference for the dietary-nickel-and-dermatitis literature. 90 nickel-sensitive patients with a documented flare of dermatitis after oral 2.5 mg nickel challenge (and no reaction to placebo) were instructed to follow a low-nickel diet. The short-term and long-term benefits are large: 64.4 percent had short-term benefit; 73 percent of those who responded short-term sustained the improvement at 1 to 2 years follow-up. The paper also documents that patients with strongly positive patch tests to nickel had less benefit from the diet than patients with moderately positive patch tests, an early observation that complicates the simple patch-test-positivity-predicts-diet-response model.
 
@@ -55,15 +57,15 @@ Open prospective design. Inclusion: positive oral nickel challenge (2.5 mg) with
 - [[health/nickel-allergy]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

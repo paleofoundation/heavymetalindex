@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kukusamude et al. 2020 — Heavy metals in Thai local rice
 
+## Overview
+
 Kukusamude and colleagues measured Cr, Mn, Co, Ni, Cu, Zn, As, and Cd in 55 Thai local rice samples representing four regional rice varieties. The study reports total metal concentrations by rice variety, then uses Thai rice-consumption and body-weight inputs to calculate estimated weekly intake, hazard quotients, hazard index, and lifetime cancer-risk outputs. The occurrence table reports total arsenic; inorganic arsenic appears only as a source-estimated risk input based on a 70% conversion factor from total arsenic.
 
 ## Key numbers
@@ -74,11 +76,15 @@ This source contributes Thai-market rice-grain occurrence data for Cr, Mn, Co, N
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [efeb675](https://github.com/paleofoundation/heavymetalindex/commit/efeb675) | 2026-06-08 | ingest: kukusamude2020-thai-rice-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

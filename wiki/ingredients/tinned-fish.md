@@ -24,7 +24,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 66.5]
     p95_ppb: 88.8
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 30.8]
     p95_ppb: 36.6
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -88,29 +88,7 @@ sources: 21
 
 # Tinned fish
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 7/10 HMTc analytes, total n=21 | labeled data-gaps: Ni |
-| D2 Regional coverage | OK | 50 jurisdictions, top EU 25% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tHg POOLABLE, Al THIN, Sn THIN, tAs THIN | iAs: needs 2 more study(ies); Al: needs 1 more study(ies); Sn: needs 2 more study(ies); tAs: THIN |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming tinned-fish: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Al |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn, tAs; pairing 0 paired, 7 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); Al: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); tAs: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -122,18 +100,18 @@ Tinned fish is a broad category of heat-processed canned fish products including
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 0–60 | 90.5 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| Cd | n=4 | 0–73.2 | 110 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| iAs | n=1 | 0–66.5 | 88.8 | medium | — |
-| tAs | n=4 | 500–1500 | 3000 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| tHg | n=5 | 0–72 | 110 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/blanco2023-mercury-fish-valencia\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | n=2 | 0–1752 | 2617 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/kosker2023-canned-fish-turkey\|2]] |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–30.8 | 36.6 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–60 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| Cd | n=4 | 0–73.2 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| iAs | n=1 | 0–66.5 | low | — |
+| tAs | n=4 | 500–1500 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| tHg | n=5 | 0–72 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/blanco2023-mercury-fish-valencia\|3]] |
+| Ni | data gap | — | — | — |
+| Al | n=2 | 0–1752 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/kosker2023-canned-fish-turkey\|2]] |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–30.8 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +119,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
@@ -185,10 +163,18 @@ The choice between lacquer-lined (enameled) and plain tinplate cans is the prima
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for fish (muscle meat) is 0.30 mg/kg (300 ppb) wet weight. The Cd maximum level for fish muscle is 0.050 mg/kg (50 ppb) wet weight for most species, rising to 0.10 mg/kg (100 ppb) for species such as tuna, anchovies, and bonito that are known Cd accumulators. The total Hg (tHg) maximum level for fish is 0.50 mg/kg (500 ppb) wet weight for most commercial species, with a higher limit of 1.0 mg/kg (1,000 ppb) for predatory species such as marlin, swordfish, and shark. For canned fish products, a specific Sn maximum of 200 mg/kg applies under EU rules, reflecting the can-migration pathway. In the United States, FDA and EPA have established consumption frequency guidance for fish based on Hg content, including specific guidance for pregnant women, nursing mothers, and young children. FDA does not publish a numerical Hg action level for canned fish equivalent to the EU limits, but the consumption guidance is functionally equivalent for high-exposure populations. The broader FDA Closer to Zero program (see [[regulations/fda-closer-to-zero]]) does not specifically address canned fish as a primary category for Pb reduction efforts, given that Hg rather than Pb is the dominant concern for this food type.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -215,15 +201,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

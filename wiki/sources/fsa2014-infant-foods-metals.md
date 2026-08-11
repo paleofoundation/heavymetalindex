@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # FSA 2014 - metals in UK infant foods, formula and other infant-diet foods
 
+## Overview
+
 The UK Food Standards Agency commissioned a survey of metals and other elements in ready-to-feed infant formula, dry infant formula, commercial infant foods, and other foods consumed by infants and young children. The report is A-tier occurrence and exposure evidence for infant foods because it gives category mean concentrations and total infant-diet exposure estimates. Brand-name products were measured, but the report calculates exposure by category and food group; this page follows that firewall.
 
 ## Key numbers
@@ -84,3 +86,17 @@ App: The source can support infant formula, baby cereal, baby snacks, fruit/meat
 - Units and basis are preserved: ready-to-feed formula values use `µg/l`, dry formula and foods use `µg/kg`, and exposure estimates use `µg/kg bw/day`. Powder formula and dried cereal products are as sold, not reconstituted.
 - Speciation: total arsenic and inorganic arsenic are separated. Chromium is total Cr assumed by the source to be Cr(III) for exposure; no Cr(VI) values are inferred. Mercury exposure is total mercury assumed as methylmercury by the source for risk assessment, but this page labels product occurrence as `tHg`.
 - Brand firewall: the report measured brand-name products, but this page records only category/group values and no brand-by-value table.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

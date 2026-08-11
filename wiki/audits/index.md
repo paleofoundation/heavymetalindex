@@ -2,45 +2,45 @@
 title: Audit dashboard
 description: Auto-regenerated transparency dashboard. Every dimension of the wiki's Cochrane-level defensibility is scored here, with cross-links to the detail audit files.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist, external-reviewer]
-updated: 2026-06-08
+updated: 2026-08-11
 ---
 
 # Audit dashboard
 
 This dashboard is auto-regenerated on every build from the wiki's audit harness. It is the single transparency surface for reading "what is the current Cochrane-level defensibility of the wiki, by dimension." External reviewers, regulatory affairs, and brand legal teams auditing the wiki should land here.
 
-Generated: **2026-06-08**.  Baseline snapshot: [[audits/2026-06-08-baseline|2026-06-08-baseline]].
+Generated: **2026-08-11**.  Baseline snapshot: [[audits/2026-08-11-baseline|2026-08-11-baseline]].
 
 ## Scorecard
 
 | Dimension | Score | Status |
 |---|---:|:---:|
-| Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 274 / 277 (99%) | WARN |
-| Routing audit (unresolved source routings) | 18 unresolved | FAIL |
-| Routing rows generated | 3688 | — |
-| Ingredient mandatory sections (non-stub pages) | 229 / 229 (100%) | PASS |
-| Product mandatory sections (non-stub pages) | 235 / 259 (91%) | WARN |
-| Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 10 failures | WARN |
-| Routing discipline check 2 (HMTc-locked products with zero routed sources) | 0 of 337 | INFO |
-| Source page DOI completeness | 4 missing | WARN |
-| Claim provenance — body-prose numerical claims with traceable citation | 5178/5178 (100%) | PASS |
+| Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 347 / 356 (97%) | WARN |
+| Routing audit (unresolved source routings) | 8 unresolved | FAIL |
+| Routing rows generated | 6443 | — |
+| Ingredient mandatory sections (non-stub pages) | 229 / 230 (100%) | PASS |
+| Product mandatory sections (non-stub pages) | 255 / 280 (91%) | WARN |
+| Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 42 failures | FAIL |
+| Routing discipline check 2 (HMTc-locked products with zero routed sources) | 40 of 388 | INFO |
+| Source page DOI completeness | 8 missing | WARN |
+| Claim provenance — body-prose numerical claims with traceable citation | 4160/4160 (100%) | PASS |
 
 ## Taxonomy v2.0 coverage
 
-Total subcategories defined by HMTc Taxonomy v2.0: **277**.  Pages scaffolded or content-filled: **274** (99%).  Missing: **0**.
+Total subcategories defined by HMTc Taxonomy v2.0: **356**.  Pages scaffolded or content-filled: **347** (97%).  Missing: **0**.
 
-- Exact frontmatter declaration (hmtc_category + hmtc_row): 266
-- Slug-alias match (frontmatter needs backfill): 8
+- Exact frontmatter declaration (hmtc_category + hmtc_row): 341
+- Slug-alias match (frontmatter needs backfill): 6
 - Missing destination pages: 0
 
 Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-coverage-audit.md]].  Full PRISMA-equivalent: [[coverage]].
 
 ## Routing audit
 
-Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 3688 routing rows in current audit.
+Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 6443 routing rows in current audit.
 
-- Unresolved targets (source frontmatter declares a slug that doesn't exist): **18**
-- Malformed sources (missing required frontmatter fields): **855** (non-blocking)
+- Unresolved targets (source frontmatter declares a slug that doesn't exist): **8**
+- Malformed sources (missing required frontmatter fields): **2082** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 
@@ -48,14 +48,14 @@ Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_sourc
 
 **Check 1** — sources with product-shaped `matrices:` slugs but empty `products: []` and no `pending_category_lock` flag.  These are sources that should route to a product page but the frontmatter doesn't declare it.
 
-- Sources scanned: 1730
-- Sources with product-shaped matrices: 662
-- **Failures: 10**
+- Sources scanned: 3065
+- Sources with product-shaped matrices: 1208
+- **Failures: 42**
 
 **Check 2** — HMTc-locked product pages (carrying hmtc_category + hmtc_row) with zero routed sources.  These are scaffolded destinations that haven't received their Phase 1 ingest yet.
 
-- HMTc-locked products: 337
-- Products with no routed sources: 0
+- HMTc-locked products: 388
+- Products with no routed sources: 40
 
 Check 2 is informational, not a failure: the scaffolded universe (277 taxonomy rows) is larger than the current ingested universe (897 source pages); rows without sources are the priority queue for the next ingest pass, not defects.
 
@@ -65,8 +65,8 @@ Detail: [[data/evidence/routing-discipline-audit|data/evidence/routing-disciplin
 
 Non-stub ingredient pages must carry 8 H2 sections per CLAUDE.md Part 6 (Why this commodity accumulates / Heavy metal contamination profile / Ranges by source, region, and variety / Processing effects / Ingredient-derivative risk / Mitigation options / Regulatory limits that apply / Sources). Stubs (untouched pages with all-pending contamination_profile) are exempt.
 
-- Non-stub passing: **229** of 229 (100%)
-- Non-stub failing: **0**
+- Non-stub passing: **229** of 230 (100%)
+- Non-stub failing: **1**
 - Stubs (exempt): 27
 
 Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingredient-mandatory-sections-audit.csv]].
@@ -75,99 +75,104 @@ Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingred
 
 Non-stub product-category pages must carry 10 H2 sections per CLAUDE.md Part 6 (Who this page is for / Methodology / Literature Evidence Summary / Source Evidence Inventory / Broad Product Context / Federal/Regulatory Limits / Levers to reduce contamination / How standards math uses this page / Historical recalls and enforcement / Sources). Stubs (scaffolded pages with no routed sources) are exempt.
 
-- Non-stub passing: **235** of 259 (91%)
-- Non-stub failing: **24**
-- Stubs (exempt): 105
+- Non-stub passing: **255** of 280 (91%)
+- Non-stub failing: **25**
+- Stubs (exempt): 136
 
 Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-mandatory-sections-audit.csv]].
 
 ## Source page corpus
 
-Total source pages in wiki/sources/: **1730**.
+Total source pages in wiki/sources/: **3065**.
 
 By evidence tier:
-- A: 1286
-- A-tier: 1
-- B: 367
-- C: 75
-- unknown: 1
+- A: 1502
+- B: 1460
+- C: 103
 
 By source type:
-- agency-report: 3
+- academic-thesis: 1
+- agency-report: 5
 - agency_database: 1
+- application_note: 1
 - book-chapter: 6
 - conference-abstract: 2
-- conference-proceedings: 2
+- conference-poster: 1
+- conference-proceedings: 5
 - dataset: 1
 - dissertation: 1
 - gov-data: 5
-- gov-guidance: 16
+- gov-guidance: 18
 - gov-regulation: 3
-- gov-report: 79
-- government-guidance: 1
+- gov-report: 87
+- government: 5
+- government-guidance: 2
 - government-policy: 1
+- government-regulation: 106
 - government-regulatory: 8
-- government-report: 43
+- government-report: 46
 - government_dataset: 5
 - government_documentation: 1
-- government_report: 3
+- government_report: 6
 - gray-literature: 2
 - grey-literature: 1
 - industry: 2
 - industry-application-note: 3
 - industry-guidance: 4
-- industry-report: 3
+- industry-report: 5
 - industry-white-paper: 1
 - journal: 1
-- journal-article: 4
-- journal_article: 1
+- journal-article: 3
 - legal-filing: 1
 - news-article: 2
 - news-commentary: 1
 - ngo: 1
+- ngo-advocacy: 2
 - ngo-briefing: 1
 - ngo-educational: 1
-- ngo-report: 10
+- ngo-report: 11
 - ngo-scoping-report: 1
-- nonprofit: 3
-- peer-reviewed: 1381
+- nonprofit: 5
+- peer-reviewed: 2547
 - peer-reviewed-journal: 1
-- peer-reviewed-review: 7
-- peer_reviewed_journal: 1
-- preprint: 6
-- regulation: 8
+- peer-reviewed-review: 12
+- preprint: 10
+- regulation: 11
 - regulatory: 17
-- regulatory-agency-report: 2
+- regulatory-agency-report: 4
 - regulatory-consultation-deck: 1
 - regulatory-factsheet: 1
 - regulatory-guideline: 2
+- regulatory-opinion: 2
 - regulatory-report: 1
-- regulatory-standard: 3
+- regulatory-standard: 4
 - regulatory-standard-comparison: 1
 - regulatory-user-manual: 1
-- review: 59
+- regulatory_guideline: 1
+- regulatory_opinion: 1
+- regulatory_report: 2
+- research_brief: 1
+- review: 63
 - review-article: 1
 - review-chapter: 1
 - study: 1
-- systematic-review: 1
 - textbook-chapter: 3
-- thesis: 5
-- trade-publication: 1
-- unknown: 1
+- thesis: 9
+- trade-publication: 2
 
-DOI completeness: 1726 of 1730 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **4**.
+DOI completeness: 3057 of 3065 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **8**.
 
 ## Claim provenance (trace-every-claim audit v1)
 
 Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
-- Total claims scanned: **5178**
-- Supported: **5178** (100%)
+- Total claims scanned: **4160**
+- Supported: **4160** (100%)
 - Unsupported: **0**
 
 By page type:
-- ingredient: 2817/2817 (100%)
-- product: 2361/2361 (100%)
+- ingredient: 2233/2233 (100%)
+- product: 1927/1927 (100%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
 

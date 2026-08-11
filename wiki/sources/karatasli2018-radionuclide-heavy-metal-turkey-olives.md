@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Karatasli 2018 — Radionuclides and heavy metals in Turkish Mediterranean table olives
 
+## Overview
+
 This study determined concentrations of natural and anthropogenic radionuclides (226Ra, 232Th, 40K, 137Cs) and heavy metals (Cr, Mn, Fe, Co, Ni, Cu, Zn, Sr, Pb) in 26 table olive samples from the Mediterranean region of Turkey, and assessed associated health risks via estimated annual effective radiation dose and daily intake of heavy metals. The author concludes that neither radionuclide nor heavy metal levels in these samples pose health hazards: the average annual effective radiation dose from ingestion was 11 µSv/year (paper reports this as "far below the recommended level of 1000 mSv" — likely a units typo in the paper for 1 mSv = 1000 µSv, but the comparison to the 2400 µSv/year global ingestion average reported elsewhere in the same paper is the more meaningful benchmark), and daily heavy metal intakes were below WHO maximum daily intake recommendations. Notably, cadmium and arsenic — the two analytes most regulated in food safety contexts — were not measured in this study; the heavy metal panel was limited to Cr, Mn, Fe, Co, Ni, Cu, Zn, Sr, and Pb.
 
 ## Key numbers
@@ -107,15 +109,15 @@ App: The Pb range (3.88–5.22 mg/kg dw ≈ 0.78–1.04 mg/kg fw) and Ni range (
 - [[metals/manganese]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ff6360eee3789a2ca141a6f01c04a519a600f8b384940d7969c2a2b37136e642",
-      "content_bytes": 8629,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "2d3c11a9610e329dcb2da98f89a9251f7f50580cfaf48a4a2d51227afa447c20",
+      "content_bytes": 9383,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/supplements-oral-solids-powders.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-solids-powders.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -45,12 +45,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brizio2013-italian-food-supplements-metals",
         "content_pin": {
-          "content_sha256": "cf2d1aa5cd7c0828e8314e9bcf3a7c8d9c23650427602c37e114a8ab1840e04b",
-          "content_bytes": 4816,
-          "last_commit_sha": "fba840f",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b87bec6139d558128644a36692340c95d7b6c302aee303bbb7b1a4bfef94a153",
+          "content_bytes": 5652,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fba840f:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2017-spirulina-arsenic-speciation",
+        "title": "Determination of different arsenic species in food-grade spirulina powder by ion chromatography combined with inductively coupled plasma mass spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2017-spirulina-arsenic-speciation",
+        "content_pin": {
+          "content_sha256": "e657ac5e90878cb1638a26a9903551975fa38f4811581402ef45d437a1701180",
+          "content_bytes": 8133,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/li2017-spirulina-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -81,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "fd7971d9d7dc253e3e238a359c673e49e40a9283d4b3504e447ca7df129bb892",
-          "content_bytes": 24114,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c4dbb8278e681fdaa83159d4f615c33a834b6f010e7a5b7e06f745c46949bd92",
+          "content_bytes": 24806,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

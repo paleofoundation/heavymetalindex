@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Joshi et al. 2017 - Charcoal point-of-use water filter optimization
 
+## Overview
+
 Joshi and colleagues tested homemade charcoal and activated-charcoal filter media for a portable point-of-use water filter intended for surface water and groundwater treatment in Nepal. This is a2 mitigation evidence: it reports filter-media design and water-quality changes before versus after charcoal-based treatment rather than a packaged-water occurrence survey.
 
 ## Key numbers
@@ -58,3 +60,17 @@ App: Context-only mitigation evidence for household arsenic and iron treatment s
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` disposition. The old skip was too narrow because the paper is direct point-of-use treatment evidence for arsenic/iron-bearing waters.
 
 Products and ingredients are intentionally empty because the matrix is source water passed through charcoal filter media, not a market food or packaged-water product. The extracted text available in this run did not expose a fully legible table of arsenic before/after concentrations, so only numerically explicit statements visible in the extracted PDF are reproduced here.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [c971e8abb](https://github.com/paleofoundation/heavymetalindex/commit/c971e8abb) | 2026-06-13 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

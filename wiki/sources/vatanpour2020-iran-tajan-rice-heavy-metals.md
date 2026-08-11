@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Vatanpour et al. 2020 — Pb, Cd, Cr, Zn, Fe and Cu accumulation in cultivated rice, paddy soil and irrigation water across the Tajan river basin, northern Iran
 
+## Overview
+
 This Tajan-river-basin survey reports total concentrations of lead, cadmium, chromium, zinc, iron and copper in 33 cultivated rice samples drawn from 11 paddy locations along the 140-km Tajan river course (Mazandaran province, northern Iran) in the summer of 2018, alongside 33 paired paddy-soil samples and 75 winter + 33 summer surface-water samples. The paper computes soil-to-plant transfer factors (TF), USEPA target hazard quotients (THQ) and a summed hazard index (HI) for adult human consumption of the cultivated rice. The reported per-metal mean concentrations in rice (Pb 9.02 ± 0.2 mg/kg, Cd 0.7 mg/kg per Tables 2–3, Cr 7.7 ± 0.39 mg/kg, Zn 10.7 ± 0.67 mg/kg, Cu 10.4 ± 0.32 mg/kg, Fe 2526 ± 77.13 mg/kg) and the resulting THQ values (Pb 13.80, Fe 7.73, Cr 5.51 per the abstract / 0.08 per Table 3 — the Table 3 row transposition is flagged in Verification notes, Cd 1.50, Zn 5.51 per Table 3 / not stated in the abstract, Cu 0.56) push the summed Hazard Index for adult rice consumers in the basin to 29.18 — i.e., roughly 29× the USEPA non-carcinogenic threshold. TF ranges for the two most toxicologically relevant elements (Pb 4.89–23.65, Cd 3.67–12.42) sit one to two orders of magnitude above the WHO permissible-crop ceiling. The basin's Pb/Zn mineral processing operations, road dust along the highway-adjacent paddies, and phosphate-fertiliser use are advanced by the authors as the likely anthropogenic sources, supported by a principal-components analysis that loads Cr, Fe, Cd and Pb on PC1 (79.7% of variance in rice) and Zn + Cu on PC2 (14.4%).
 
 ## Key numbers
@@ -172,15 +174,15 @@ This source contributes a high-contamination, single-basin Iranian rice-cultivat
 - **Audit subagent (Claude general-purpose, 2026-06-01) findings applied.** Verdict: REVISE. Six findings independently verified against the source PDF and applied: (1) soil Fe panel mean corrected from 113.4 → 71.89 mg/kg (Table 2 SS1–SS18 arithmetic mean); (2) soil Cu mean 25.6 → 25.42 mg/kg; (3) soil Cr mean 0.176 → 0.180 mg/kg; (4) soil Zn mean 52.5 → 52.32 mg/kg; (5) water summer-mean Cr 0.197 → 0.180 mg/L (matches Table 1 SW1–SW18 arithmetic mean); (6) water summer-mean Cu 0.262 → 0.243 mg/L. The "one-order-of-magnitude transcription error" descriptor for the body-text soil Fe (15,026 mg/kg) was upgraded to "approximately two orders of magnitude" (actual ratio ≈ 70× the Table 2 max) and expanded with a Table 1↔Table 2 column-duplication observation: the captured Table 2 soil Fe column is bitwise-identical to the Table 1 summer-water Fe column across all eleven paired locations. A parallel body-text-vs-Table 2 disagreement for soil Cr (body text 108 mg/kg vs Table 2 panel mean 0.180 mg/kg) was added as a fifth flagged data-integrity issue. The Lemly (1996) HI = 10 high-hazard-tier reference in the Implications section was removed (the paper itself cites only Harmanescu et al. 2011 for the THQ ≥ 1 threshold, not Lemly's HI-tier framework). The `matrices: [rice-grain]` slug was left unchanged: the audit flagged the slug as a ⚠️ concern because the audit-prompt example list mentions only "rice", but the precedent set by [[sources/shirani2017-iran-mashhad-rice-metals]], [[sources/sharafi2019-iran-tehran-rice-brands-metals]], [[sources/roya2016-iran-torbat-heidarieh-rice-metals]] and [[sources/naseri2015-iran-shiraz-rice-metals]] (all of which use `rice-grain`) supports the slug as in-vocabulary, and the rice-plant-vs-rice-grain matrix-ambiguity flag in the Verification notes makes the choice transparent for downstream pooling.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

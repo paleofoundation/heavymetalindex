@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Diviš et al. 2020 — Total mercury in fish sauces by DGT-TDA-AAS
 
+## Overview
+
 This methods-development and application paper validates a Diffusive Gradients in Thin Films (DGT) preconcentration approach combined with thermal decomposition gold amalgamation atomic absorption spectroscopy (TDA-AAS) for total dissolved mercury measurement in fish sauce — a high-salt fermented condiment matrix that otherwise corrodes the metal components of TDA-AAS instruments. The validated method is then applied to ten commercial fish sauces from Vietnam (three) and Thailand (seven). Total Hg ranged from 0.8 to 42.8 µg/kg across the ten samples; every sample sat well below the EU Commission Regulation (EC) No 1881/2006 maximum of 500 µg/kg for fish products. The DGT preconcentration step achieved a ten-fold lower LOD than direct TDA-AAS and was unaffected by NaCl concentrations up to 50 g/L or pH values in the range 3–6 typical of fish sauce.
 
 Mercury speciation note: the study measures total dissolved Hg only. It does not speciate methylmercury (MeHg) or distinguish inorganic from organic species. The companion paper Reichstädter et al. 2020 (Talanta 217, 121059), cited as reference [30], reports simultaneous Hg, Cd, and Pb determination in fish sauce by DGT and shares first-author overlap with this work.
@@ -85,31 +87,31 @@ Speciation gap: the analyte is total dissolved Hg only. MeHg fraction in ferment
 
 Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite-key, raw_handle, products/ingredients/matrices/jurisdictions arrays, near_duplicates, and license preserved verbatim). Changes:
 
-1. **raw_path corrected** — prior revision truncated the filename to "...Thermal Decomposition .pdf"; actual on-disk filename is "Determination of Mercury in Fish Sauces by Thermal Decomposition Amalgamation Atomic Absorption Spec.pdf". The truncated path would not resolve.
+1. **raw_path corrected** — prior revision truncated the filename to "...Thermal Decomposition.pdf"; actual on-disk filename is "Determination of Mercury in Fish Sauces by Thermal Decomposition Amalgamation Atomic Absorption Spec.pdf". The truncated path would not resolve.
 2. **access_url added** — present-schema sources carry a resolvable URL alongside the DOI.
 3. **sample_population reworded** to surface the Vietnam-3 / Thailand-7 split and the per-sample anchovy fraction (range 55–97% for nine samples, n.a. for FS8) that the prior revision elided.
 4. **Key numbers table expanded** to include cDGT and cTDA-AAS columns from Table 2 of the paper, not just the calculated mass-concentration column c (µg/kg). Both methods are reported in the source; reproducing only c discards the methods-comparison information the paper is built around.
 5. **Method-performance metrics expanded** from LOD-only to the full Table 1 row (LOD, LOQ, RSDr, RSDR, relative bias, expanded uncertainty for both TDA-AAS and DGT) and added the ERM-CC580 sediment CRM daily-control numbers and the interlaboratory PT/CHA/2/2018 Z-score that the prior revision omitted.
 6. **Effective diffusion coefficient De = (3.42 ± 0.23) × 10⁻⁶ cm²/s** and **DBL = 50 µm** added to Key numbers; these are the DGT-specific validation outputs that future methods-development reads will care about.
 7. **EDI and highest-sample EWI numbers** added from Section 3.4. Prior revision included only the mean-based EWI.
-8. **Implications section trimmed** to remove an HMT&C-program scope speculation ("For HMT&C, fish sauce is not currently a primary product category but is relevant to condiment and fermented-food modules") that crossed the wiki/HMT&C firewall per CLAUDE.md Part 2. Also removed prior `## Implications → Courses` and `→ App` audience translations, which are audience-rendering decisions made downstream of the source page, not source-page content.
+8. **Implications section trimmed** to remove an HMT&C-program scope speculation ("For HMT&C, fish sauce is not currently a primary product category but is relevant to condiment and fermented-food modules") that crossed the wiki/HMT&C firewall. Also removed prior `## Implications → Courses` and `→ App` audience translations, which are audience-rendering decisions made downstream of the source page, not source-page content.
 9. **Methods (brief) expanded** with the Purolite S924 milling protocol (0.5–0.8 mm milled to ~0.1 mm), agarose gel preparation, DGT piston / membrane filter vendor detail, 5-fold dilution and 24 h deployment timing, the diffusive-gel thicknesses tested for DBL determination, the XLstat statistical package, and the four limitations stated by the authors (sample size, single-purchase, no speciation, no fish-sauce CRM). Vendor-name retention follows the methods-vendor carve-out in `docs/gpt-collaboration/verification-checklist.md` §4.
 10. **Wiki pages updated on ingest** expanded to include `[[metals/mercury-total]]` and the two product slugs, both of which the source's frontmatter declares but the prior list did not surface.
 
 No brand names appear in either the existing page or the source paper itself — fish sauces are coded FS1…FS10 throughout the paper with only origin country and label-stated anchovy fraction, so no Part 12 redaction was required.
 
-Audit subagent (2026-05-28, fresh-context general-purpose) returned PROMOTE: numerical fidelity ✅ (full Table 1 / Table 2 / Section 3.4 cross-check passed), speciation and methods ✅, Part 12 brand firewall ✅, Part 2 wiki/HMTc firewall ✅. The one ⚠️ concern was that `ingredients/fish-sauce`, `ingredients/anchovy`, and `products/fish-sauce` are not yet entries in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified: the routing audit (`npm run evidence:source-routes`) resolves all three under the provisional-scaffold mechanism per CLAUDE.md Part 10, with zero unresolved and zero malformed entries for this source. Slugs are descriptively accurate to the paper (fish sauce as the analyte matrix; anchovy as the dominant fish source in 9 of 10 samples; fish-sauce as the product form distinct from the umbrella `condiments-general` row). Retained without change.
+Audit subagent (2026-05-28, fresh-context general-purpose) returned PROMOTE: numerical fidelity ✅ (full Table 1 / Table 2 / Section 3.4 cross-check passed), speciation and methods ✅, Part 12 brand firewall ✅, Part 2 wiki/HMTc firewall ✅. The one ⚠️ concern was that `ingredients/fish-sauce`, `ingredients/anchovy`, and `products/fish-sauce` are not yet entries in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified: the routing audit (`npm run evidence:source-routes`) resolves all three under the provisional-scaffold mechanism, with zero unresolved and zero malformed entries for this source. Slugs are descriptively accurate to the paper (fish sauce as the analyte matrix; anchovy as the dominant fish source in 9 of 10 samples; fish-sauce as the product form distinct from the umbrella `condiments-general` row). Retained without change.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

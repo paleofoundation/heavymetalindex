@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Yorgwara et al. 2026 - heavy metals in personal-care products from Eleme, Nigeria
 
+## Overview
+
 Yorgwara and colleagues measured Pb, Cd, total Cr, total As, total Hg, and Co in 26 cosmetic and personal-care products purchased from cosmetic stores and markets in Eleme LGA, Rivers State, Nigeria. The source groups the samples as facial cosmetics, skin/body-care cosmetics, and hair-care cosmetics, then reports concentration tables plus dermal-exposure calculations. The page preserves the source's table units and total-metal speciation, while suppressing brand and product names attached to individual contamination values.
 
 ## Key numbers
@@ -91,3 +93,17 @@ App: If adult personal-care profiles are expanded, the category ranges and risk-
 - Brand firewall: Tables 4.1-4.8 attach named products/brands to contamination and risk values. This page reports only product-category ranges and de-identified risk maxima; no consumer brand or shade/product name is attached to a contamination value.
 - Evidence tier: `C` because the paper is peer-reviewed and contains primary occurrence tables, but the methods and reporting are weak for benchmark use: no sampling year, no LOD/LOQ, no CRM or recovery results, no replicate precision, no uncertainty, inconsistent units, and several table/prose discrepancies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult lip-products slug, no adult bar-soap/bathing-soap slug, no facial-powder-only slug, and no explicit hair-food slug. This page uses broad available products (`lipstick`, `body-wash-shower-gel`, `makeup-foundation-powders-blush`, and `leave-on-hair-preparations`) rather than inventing new slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Acar 2012 — Cd, Pb, Cu, Fe, Zn in Turkish dietary vegetable oils and olives by ETAAS/FAAS
 
+## Overview
+
 This study determined Cd, Pb, Cu, Fe, and Zn in 53 edible vegetable oil samples (soybean, sunflower, flower, nut, corn, olive) and 70 table olive samples (olive-1, black, green, and black/green crushed-with-seeds preparations) purchased from supermarkets in Ankara, Turkey. Cd, Pb, and Cu were determined by electrothermal atomic absorption spectrometry (ETAAS) using a novel Sc + Ir + NH4H2PO4 chemical modifier mixture; Fe and Zn were determined by flame atomic absorption spectrometry (FAAS). All samples were prepared by microwave-assisted nitric acid/hydrogen peroxide digestion. Across vegetable oils, Cd ranged 31–58 µg/kg, Pb 0.04–0.11 mg/kg, Cu 0.04–0.13 mg/kg, Fe 0.96–2.14 mg/kg, and Zn 1.01–1.74 mg/kg. Across table olive preparations, Cd ranged 43–108 µg/kg, Pb 0.11–0.32 mg/kg, Cu 2.17–3.80 mg/kg, Fe 10.6–18.1 mg/kg, and Zn 2.33–4.44 mg/kg. The author reports Cd in olive samples as higher than several literature values cited but in agreement with the EC Commission Regulation 1881/2006 maximum contaminant levels and Turkish food codex regulations. The paper measures total Pb and total Cd (no speciation); arsenic and mercury are not measured.
 
 Note on evidence tier: assigned B. Single-author study with reasonable analytical rigor (SRM 1577b bovine liver recovery 96–101%, RSDs 3.4–6.2%, microwave digestion, well-described modifier optimisation), but per-oil-type n is small (n=8–12), the geographic frame is restricted to Ankara market supply, and the panel omits arsenic and mercury (the two HMI-priority analytes most regulated in food safety contexts). Total Cd and total Pb are reported without speciation, which is appropriate for these elements in foods.
@@ -152,15 +154,15 @@ Basis: wet weight throughout (page 387, section 3.4: "All metal concentrations f
 - 2026-06-01 Audit confirmed all 55 numeric cells in Table 3 (oils and olives), all SRM 1577b recoveries, all LODs, characteristic masses, calibration ranges, RSDs, ETAAS heating-program temperatures, modifier composition, and microwave digestion conditions are faithful to the source. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (brand firewall — only Exception 2 scientific vendor names), and 5 (wiki/HMTc firewall) all clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

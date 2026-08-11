@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Jalal 2020 - cadmium, chromium, copper, and nickel in children's modeling clay
 
+## Overview
+
 Jalal and colleagues measured Cd, total Cr, Cu, and Ni in colorful children's modeling clay sold in Erbil city markets. The paper is routeable for art and craft materials because it reports finished-product clay concentrations in `mg/kg` after acid digestion and FAAS analysis. The source uses brand tables; this page keeps values at aggregate or de-identified sample/category level under the brand firewall.
 
 ## Key numbers
@@ -73,3 +75,17 @@ App: The source can support an Erbil/Iraq market context flag for modeling clay,
 - Brand firewall: the source tables name and code brands. This page records aggregate ranges, detection counts, regulatory comparison values, and de-identified exceedance facts, but does not attach consumer brand names to contamination values.
 - Product slug note: the current taxonomy has `art-craft-materials`, which explicitly includes modeling clay, but no exact modeling-clay product or matrix slug. The page therefore uses broad product routing and leaves `matrices` empty.
 - Evidence tier: `B` because this is a peer-reviewed local market survey with primary measurements but limited QA/QC detail and small geography-specific sample frame.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

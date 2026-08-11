@@ -24,6 +24,10 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import {
+  displayType,
+  renderAuthorLabel,
+} from "../lib/citation-format.mjs"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -56,39 +60,6 @@ const METAL_PAGES = {
   Sn: "tin",
   Sb: "antimony",
   U: "uranium",
-}
-
-const KNOWN_ORG_LABELS = {
-  fda: "FDA", eu: "EU", efsa: "EFSA", jecfa: "JECFA", who: "WHO",
-  epa: "EPA", usda: "USDA", atsdr: "ATSDR", codex: "Codex",
-  iarc: "IARC", iom: "IOM", cfia: "CFIA", fsanz: "FSANZ", fsa: "FSA",
-  cdc: "CDC", nih: "NIH", ec: "EC", echa: "ECHA", ema: "EMA",
-  hpfb: "HPFB", anses: "ANSES", bfr: "BfR", rivm: "RIVM",
-  cr: "CR",  // Consumer Reports
-  hbbf: "HBBF",
-  ewg: "EWG",
-}
-
-// Normalizes the various source_type spellings to a small display vocabulary.
-function displayType(srcType) {
-  if (!srcType) return "—"
-  const s = String(srcType).toLowerCase().trim().replace(/_/g, "-")
-  if (s === "peer-reviewed") return "Peer-reviewed"
-  if (s === "regulation" || s === "gov-regulation" || s === "government-regulatory") return "Regulation"
-  if (s.startsWith("review") || s === "systematic-review") return "Review"
-  if (s.startsWith("gov") && s.includes("data")) return "Government dataset"
-  if (s === "dataset") return "Government dataset"
-  if (s.startsWith("gov") && s.includes("guidance")) return "Government guidance"
-  if (s.startsWith("gov")) return "Government report"
-  if (s.startsWith("textbook")) return "Textbook chapter"
-  if (s.startsWith("ngo")) return "NGO report"
-  if (s === "industry" || s.startsWith("industry")) return "Industry"
-  if (s.startsWith("news")) return "News"
-  if (s.startsWith("conference")) return "Conference proceedings"
-  if (s === "study") return "Study"
-  if (s === "database") return "Database"
-  // Fallback: capitalize first letter, replace hyphens with spaces
-  return s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, " ")
 }
 
 function isDuplicateSource(fm) {
@@ -258,7 +229,11 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
     BEGIN_MARKER,
     "## Sources",
     "",
-    `_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as ${'`*[awaiting synthesis]*`'}._`,
+    // COMPONENTS §10 caption: emitted as a classed HTML paragraph (not markdown
+    // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
+    // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
+    // line below separates it from the markdown table so the table still parses.
+    `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",
@@ -346,47 +321,14 @@ function isSimpleBulletList(content) {
   return bullets.every((b) => /^- \[\[sources\/[a-z0-9._-]+/i.test(b.trim()))
 }
 
-function renderAuthorLabel(authors, year, citeKey) {
-  if (!Array.isArray(authors) || authors.length === 0) {
-    return inferOrgLabelFromCiteKey(citeKey, year)
-  }
-  const first = String(authors[0] || "").trim()
-  // Institutional/agency authors — surname extraction doesn't apply.
-  if (isInstitutionalAuthor(first)) {
-    return inferOrgLabelFromCiteKey(citeKey, year, first)
-  }
-  const surname = extractSurname(first)
-  if (authors.length === 1) {
-    return `${surname} ${year ?? ""}`.trim()
-  }
-  return `${surname} et al. ${year ?? ""}`.trim()
-}
 
-function isInstitutionalAuthor(name) {
-  return /\b(Administration|Commission|Agency|Authority|Department|Ministry|Organization|Council|Committee|Service|Centre|Center|Institute|Codex|EFSA|JECFA|WHO|FDA|EPA|USDA|ATSDR|EU|Office|Bureau|CFIA|FSANZ|FSA|CDC|NIH|IARC|IOM)\b/i.test(name)
-}
 
-function inferOrgLabelFromCiteKey(citeKey, year, fallbackName) {
-  if (!citeKey) return fallbackName ?? `Source ${year ?? ""}`.trim()
-  const head = String(citeKey).split("-")[0]
-  const orgKey = head.replace(/\d+$/, "")
-  const display =
-    KNOWN_ORG_LABELS[orgKey] ||
-    (fallbackName ? shortenOrgName(fallbackName) : capitalize(orgKey))
-  return `${display} ${year ?? ""}`.trim()
-}
 
 // "U.S. Food and Drug Administration" → "FDA" (already in known map)
 // "European Commission" → "European Commission"
 // "Health Canada" → "Health Canada"
 // Last-resort shortening for unknown orgs: keep the original name if short
 // enough; otherwise return the first 3-4 words.
-function shortenOrgName(name) {
-  const trimmed = String(name).trim()
-  if (trimmed.length <= 25) return trimmed
-  const words = trimmed.split(/\s+/).slice(0, 4)
-  return words.join(" ")
-}
 
 // Extracts a surname from a single author string. Handles three common forms:
 //   - "Lastname F" or "Lastname FI" → first token (e.g. "Chung S" → "Chung")
@@ -395,21 +337,6 @@ function shortenOrgName(name) {
 // Heuristic: if the last whitespace-separated token looks like initials
 // (1-3 capital letters, optionally with periods), the first token is the
 // surname; otherwise the last token is the surname.
-function extractSurname(author) {
-  if (!author) return ""
-  const cleaned = String(author).trim()
-  if (cleaned.includes(",")) {
-    return cleaned.split(",")[0].trim()
-  }
-  const tokens = cleaned.split(/\s+/)
-  if (tokens.length <= 1) return cleaned
-  const last = tokens[tokens.length - 1]
-  // Initials: like "S", "S.", "SR", "S.R.", "SRC" — 1-3 caps, allow periods
-  if (/^[A-Z](\.|[A-Z]\.?){0,2}\.?$/.test(last)) {
-    return tokens[0]
-  }
-  return last
-}
 
 function upsertLegend(raw, citeKeys, targetPath, targetKey) {
   // Case 1: marker block exists → parse existing contributions, regenerate
@@ -418,7 +345,13 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
     const m = raw.match(re)
     const preserved = m ? parseExistingContributions(m[1]) : new Map()
     const rendered = renderLegend(citeKeys, preserved)
-    return raw.replace(re, rendered)
+    // Function replacer, not a string: a string replacement would interpret
+    // `$&`, `$1`, `$'`, etc. inside the rendered table. Preserved "Used on
+    // this page for" cells routinely contain literal dollar amounts (e.g.
+    // chiger2017's "$12–18 billion"), where `$1` would expand to capture
+    // group 1 — the entire matched block — re-inserting every prior table on
+    // each run. That was the source-legend non-idempotency bug.
+    return raw.replace(re, () => rendered)
   }
   // Case 2: page has an existing `## Sources` heading with content
   const sourcesHeadingMatch = raw.match(/(^|\n)##\s+Sources\s*\n([\s\S]*?)(?=\n##\s+|\n\s*$)/i)
@@ -436,7 +369,10 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
     const isStructuredTable = preserved.size > 0
     const isBulletList = isSimpleBulletList(existingContent)
     const rendered = renderLegend(citeKeys, preserved)
-    return raw.replace(sourcesHeadingMatch[0], `\n${rendered}\n`)
+    // Function replacer for the same reason as Case 1 — keep `$`-bearing
+    // citation/contribution text literal rather than letting String.replace
+    // treat it as a backreference.
+    return raw.replace(sourcesHeadingMatch[0], () => `\n${rendered}\n`)
   }
   // Case 3: no `## Sources` heading at all — append at end of page
   const rendered = renderLegend(citeKeys)

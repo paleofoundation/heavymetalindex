@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Orisakwe et al. 2016 - toxic metals in toothpastes commonly used in Nigeria
 
+## Overview
+
 Orisakwe and colleagues measured lead, cobalt, total chromium, nickel, and cadmium in 35 toothpaste products purchased in Port Harcourt, Nigeria. The paper reports finished-product `mg/kg` concentrations for 20 local/manufactured-in-Nigeria toothpastes and 15 imported toothpastes, then models daily metal intake and target hazard quotients from incidental toothpaste ingestion. The source names commercial products in its tables and abstract, so this page reports category-level ranges and strata only under the HMI brand firewall.
 
 ## Key numbers
@@ -79,3 +81,17 @@ App: If oral-care product profiles are surfaced, this source can support a Niger
 - Brand firewall: the source names commercial toothpaste products in Tables 1 and 2 and in the abstract's examples. This page suppresses brand-by-value rows and reports only local/imported and all-sample ranges.
 - Evidence tier: `B` because this is a peer-reviewed finished-product occurrence study with 35 market samples, triplicate AAS measurements, and reported LODs, but no DOI, no CRM/recovery data, and no non-Nigerian market coverage.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

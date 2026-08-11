@@ -25,6 +25,8 @@ updated: 2026-06-07
 
 # Jannat et al. 2018 - Trace elements and heavy metals in Iranian green and black tea
 
+## Overview
+
 Jannat and colleagues measured zinc, cadmium, lead, and copper in 60 commercial green and black tea samples from the Tehran retail market by differential pulse polarography. The source is routeable for true-tea dry-leaf occurrence evidence because it reports per-brand means, per-class means, and overall ranges for each of the four elements in mg/100 g of dry tea leaves. Cadmium and lead were detected in many samples at concentrations well above the standard limits the authors used as their reference benchmark, even though the paper's narrative concludes that mean concentrations fell within an acceptable range; this internal disconnect is preserved verbatim in this page rather than reconciled.
 
 ## Key numbers
@@ -106,12 +108,15 @@ The paper's Sampling section lists 22 commercial brand names by name while the s
 Audit subagent (2026-06-07) flagged `products/tea` as absent from the taxonomy snapshot; verified independently against docs/gpt-collaboration/taxonomy-snapshot.md line 45 — finding was a false positive because the `tea` product slug is present in the snapshot's Products line alongside `tea-infusions` and `true-tea-camellia-sinensis`. No frontmatter change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5dce0bd](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
-| [175d297](https://github.com/paleofoundation/heavymetalindex/commit/175d297) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

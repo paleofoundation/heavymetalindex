@@ -26,6 +26,8 @@ updated: 2026-05-20
 
 # Szymczykowska et al. 2026 — Elemental composition of Japanese matcha powder and infusions
 
+## Overview
+
 This study analyzed the macro- and microelemental profiles of two organic Japanese matcha types — daily matcha (DM, second-to-third harvest) and traditional matcha (TM, first-to-second harvest) — from the Uji region of Kyoto. Each type was analyzed in both powder and infusion form, with infusions prepared at 25, 70, 80, and 90 °C, all in triplicate. Quantification used ICP-OES (Thermo Fisher iCAP 7400) with yttrium internal standard and validation against NIST SRM 8414. Of the heavy metals tracked by Heavy Metal Index, the paper measured Pb, Cr (total), and Ni; it did not measure Cd, As (iAs or tAs), Hg (tHg or MeHg), Al, Sn, Sb, or U. Brewing temperature had no statistically significant effect on elemental content in either infusion type. Matcha type (DM vs TM) showed statistically significant differences only for Ca and Na (higher in DM) and K and Ni (higher in TM); no significant DM/TM differences were detected for any element in the powder. Nickel was detected in both infusion types but was below the detection threshold in the powders; the authors attribute this to matrix interferences in the digested powder samples rather than true absence. Lead concentrations in all tested products fell within the permissible range of EU Commission Regulation 2023/915 (0.050–0.9 mg/kg in plant products depending on category), according to the authors.
 
 ## Key numbers
@@ -114,7 +116,7 @@ Microbiome: Not addressed in this paper.
 
 Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
 
-- **Stripped invalid ingredient slug `[[ingredients/green-tea]]`.** No `wiki/ingredients/green-tea.md` exists in the current taxonomy; `green-tea` is an alias on the umbrella `[[ingredients/tea]]` page (and exists separately as a matrices-vocabulary token). Per CLAUDE.md Part 10 (5-paper threshold for sub-variant creation), the ingredient array now uses the umbrella `[[ingredients/tea]]` alongside the matcha-specific `[[ingredients/matcha-powder]]`. The green-tea pedagogy is preserved verbatim in the body prose.
+- **Stripped invalid ingredient slug `[[ingredients/green-tea]]`.** No `wiki/ingredients/green-tea.md` exists in the current taxonomy; `green-tea` is an alias on the umbrella `[[ingredients/tea]]` page (and exists separately as a matrices-vocabulary token). Per (5-paper threshold for sub-variant creation), the ingredient array now uses the umbrella `[[ingredients/tea]]` alongside the matcha-specific `[[ingredients/matcha-powder]]`. The green-tea pedagogy is preserved verbatim in the body prose.
 - **Stripped invalid product slug `[[products/matcha-beverages]]`.** No `wiki/products/matcha-beverages.md` exists. The two existing routing destinations are `[[products/matcha]]` (the matcha product category) and `[[products/tea-infusions]]` (the broader umbrella for brewed tea drinks). Both are retained; the invented `matcha-beverages` slug is dropped.
 - **Corrected matrices token `matcha-infusion` → `tea-infusion`.** No `matcha-infusion` token exists in the matrices controlled vocabulary visible in the taxonomy snapshot or in any other tea/matcha source page. All other tea-infusion source pages (ozturk2024, brzezicha-cirocka2016, jurowski2023, li2013, kazeminia2023) use `tea-infusion`. Conformed for cross-source consistency. `matcha-powder` retained since it is in the matrices vocabulary.
 - **Corrected `## Wiki pages updated on ingest` list.** Prior version listed `[[ingredients/matcha]]` (no such page) and `[[ingredients/green-tea]]` (no such page). Replaced with `[[ingredients/matcha-powder]]` and `[[ingredients/tea]]`. Added `[[products/matcha]]` (was missing from list despite being declared in frontmatter).
@@ -138,15 +140,15 @@ Phase 2 audit application 2026-05-20 (fresh-context Agent subagent, verdict REVI
 - No findings rejected as false positives. All three ⚠️ findings were verified against the PDF and applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

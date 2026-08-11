@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # Grimaldi 2017 — Prop 65 chocolate settlement establishes tiered Pb and Cd warning triggers
 
+## Overview
+
 This is a December 30, 2017 attorney-commentary article by Ann Grimaldi (Grimaldi Law Offices, San Francisco) summarizing the comprehensive Proposition 65 settlement reached among nine chocolate-industry settling defendants and As You Sow over lead and cadmium in chocolate products. The article documents the settlement's tiered warning-trigger structure (cacao-percentage-stratified Pb and Cd concentrations in ppm), the immediate triggers, the year-7 automatic drop-down levels, the Expert Committee's mandate to investigate root causes and feasibility-of-reduction, the maximum settlement payment ($210,375 for a large grinder/wholesaler), and the implicit settlement acknowledgment that lead and cadmium in chocolate are naturally occurring. The article was written in anticipation of the San Francisco Superior Court's review hearing scheduled for February 14, 2018.
 
 ## Source role
@@ -95,12 +97,15 @@ Settlement-trigger tables (Pb and Cd, immediate and drop-down ladders) cross-che
 - [[regulations/oehha-cadmium-prop65]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -9,6 +9,8 @@ sources: 0
 
 # Quality Assurance Audit Protocol
 
+## Overview
+
 This page defines how the Heavy Metal Index audits its own public evidence output before moving from preview into general availability, and how it performs ongoing quality assurance after launch.
 
 ## Audit goal
@@ -129,3 +131,17 @@ After general availability, quality assurance continues through four channels.
 ## Why this matters
 
 The Heavy Metal Index is most valuable when a skeptical reader can see not only the evidence, but also the discipline used to keep the evidence map honest. A public QA protocol is part of that discipline.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [e142f34a3](https://github.com/paleofoundation/heavymetalindex/commit/e142f34a3) | 2026-05-07 | major | 1 section added; narrative text revised |
+<!-- END: hmi-page-history -->

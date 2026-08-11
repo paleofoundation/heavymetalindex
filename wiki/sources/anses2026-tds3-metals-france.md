@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # ANSES 2026 - French TDS3 aluminium, silver, cadmium, mercury and lead
 
+## Overview
+
 ANSES reported the first results from the Third French Total Diet Study for acrylamide and five trace elements: silver, cadmium, lead, aluminium, and mercury. Foods were sampled from French supply channels, prepared as consumed, and paired with INCA3 food-consumption data for dietary-exposure assessment. Mercury speciation is explicit: methylmercury and inorganic mercury were measured in a targeted set of foods, while total mercury was measured in all samples.
 
 ## Key numbers
@@ -83,3 +85,17 @@ App: The source supports broad French-market context for seafood MeHg, crustacea
 - Units are preserved as printed: concentrations use `mg/kg fresh weight` for aluminum and `µg/kg fresh weight` for silver, cadmium, mercury, and lead; exposure uses `µg (kg bw-1) day-1` or `µg (kg bw-1) week-1`.
 - Speciation: methylmercury, inorganic mercury, and total/inorganic mercury assumptions are kept distinct. This page does not promote total mercury to methylmercury.
 - Brand firewall: INCA3 could record brands, but ANSES reports composite food groups and exposure categories; no brand-linked values are used.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

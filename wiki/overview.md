@@ -6,7 +6,9 @@ audience: [regulator, educator, consumer]
 
 # Heavy Metal Index — Overview
 
-Heavy Metal Index is a curated reference on heavy metals in food, the supply chain that delivers food, the remediation interventions available to growers and processors, and the regulatory findings that govern the trade. The index is operated by the Paleo Foundation and lives at heavymetalindex.com.
+## Overview
+
+Heavy Metal Index is a curated reference on heavy metals in food, the supply chain that delivers food, the remediation interventions available to growers and processors, and the regulatory findings that govern the trade. The index is operated by the Institute of Contaminant Standards (ICS) and lives at heavymetalindex.com.
 
 The index reports what the peer-reviewed and regulatory literature supports. It does not prescribe thresholds, it does not rank brands, and it does not substitute for reading the primary sources. Every quantitative claim on this wiki carries a citation that links back to a source page, which in turn links to the raw document.
 
@@ -18,7 +20,7 @@ Microbiome effects of heavy metal exposure are in scope where the primary connec
 
 ## What this index does not cover
 
-Brand-level testing results, certification decisions, and internal lab data do not appear in this wiki. Those live in separate infrastructure. The index is evidentially independent from the Paleo Foundation's [[heavy-metal-tested-certified|Heavy Metal Tested and Certified]] program; keeping that architectural separation intact is what makes the index defensible as a reference.
+Brand-level testing results, certification decisions, and internal lab data do not appear in this wiki. Those live in separate infrastructure. The index is evidentially independent from the Institute of Contaminant Standards (ICS)'s [[heavy-metal-tested-certified|Heavy Metal Tested and Certified]] program; keeping that architectural separation intact is what makes the index defensible as a reference.
 
 ## Methodology
 

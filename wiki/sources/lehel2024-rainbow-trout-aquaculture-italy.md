@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Lehel et al. 2024 — Potentially toxic elements in farmed rainbow trout, Italy
 
+## Overview
+
 Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively coupled plasma optical emission spectrometry (ICP-OES) in the flesh of 40 farmed rainbow trout (Oncorhynchus mykiss) purchased at a Hungarian fishery market but originating from an aquaculture farm in Treviso County, Veneto Region, Italy. Mean total arsenic was 1.65 ± 0.49 mg/kg, but the authors note total As cannot be evaluated against a regulatory limit because none exists; estimating inorganic As as 5% of total As gave a mean of 0.08 ± 0.02 mg/kg, with estimated daily intake (EDI) and target hazard quotient (THQ) below reference values. Cadmium exceeded the EU maximum level in 30% of samples, but its EDI and THQ stayed below recommended limits. Mercury was below the limit of detection in all samples. Lead exceeded the EU maximum level in 10% of samples, while its EDI and THQ remained below the reference dose. The hazard index (HI) was below 1 for adults (0.86) but above 1 for children (1.22), so the authors concluded the fish is safe for adult consumption but poses a slight risk to children, particularly during long-term intake.
 
 ## Key numbers
@@ -109,15 +111,15 @@ Fresh-context audit subagent (2026-05-30) verdict PROMOTE; all five checks clean
 - Numerical fidelity (Tables 1–3, text §3.1–3.5), speciation (tAs total with iAs estimated at 5%; tHg with no MeHg speciation), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

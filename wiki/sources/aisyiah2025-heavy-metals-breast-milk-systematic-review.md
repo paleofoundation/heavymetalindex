@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This systematic review, registered on PROSPERO (ID: CRD42024545030), searched PubMed, Scopus, and Science Direct for primary studies published 2013–2023 reporting heavy metals in human breast milk and contributing maternal/environmental factors. Of 355 records screened, 22 articles were assessed full-text and 9 met inclusion criteria. The review identified Pb, Cd, Al, Cu, Cr, Hg, and As (with Ni and Zn in some studies) in breast milk across studies from Taiwan, Spain, China, Palestine, Nigeria, Egypt, and Slovenia, and found that food intake (seafood, fruit, canned food), water consumption, smoking, regional location, and medical conditions were associated factors. Key quantitative findings drawn from the reviewed studies include: Pb concentrations 13.22 ± 3.58 ng/mL in colostrum (Chao, Taiwan, n=34); Pb 6.49 ± 5.23 ng/mL in mature milk (Lin, Taiwan, n=228); tHg geometric mean 14 ng/mL in 195/197 samples (Li, China); Cd 1.37 ± 0.94 ng/mL in colostrum (Chao, Taiwan); Al 56.45 ± 22.77 ng/mL in colostrum (Chao, Taiwan); As 1.50 ± 1.50 ng/mL in colostrum (Chao, Taiwan).
 
 ## Key numbers
@@ -104,15 +106,15 @@ Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonizati
 - Prior verification note (2026-05-17 cross-vendor strict Part 12 recheck) is superseded by this 2026-05-19 pass.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

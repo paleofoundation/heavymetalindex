@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Lopez et al. 2022 - biochar mitigation of cadmium uptake in cacao
 
+## Overview
+
 Lopez and colleagues tested whether biochars made from coffee husk, quinoa straw, and oil palm residues could reduce bioavailable Cd in cacao-growing soils and Cd uptake into cacao plants. This is crop-mitigation evidence for cacao supply chains, not finished chocolate or cocoa-powder occurrence evidence.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: Context only. The paper does not measure finished consumer foods or ingredi
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Heliyon PDF. The auto-fetched filename is a coffee/cadmium gap hit because coffee-husk biochar is one tested amendment, but the target matrix is cacao-growing soil and cacao leaves. Products are intentionally empty; the routeable value is mitigation performance, not finished chocolate or cocoa occurrence.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

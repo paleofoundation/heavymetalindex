@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Rebellato et al. 2023 — Inorganic contaminants in plant-based yogurts (Brazil retail)
 
+## Overview
+
 Rebellato and colleagues at the Institute of Food Technology (ITAL, São Paulo) and Adolfo Lutz Institute measured 11 inorganic elements (Al, Cr, Co, Ni, As, Mo, Cd, Sb, Ba, Hg, Pb) in 43 plant-based yogurt sample-lots and 1 cow-milk natural yogurt sample-lot purchased from retail establishments in Campinas (São Paulo, Brazil) between August and October 2022. Quantification was by inductively coupled plasma mass spectrometry (ICP-MS) on an iCAP RQ instrument following ultrasound-assisted nitric acid / hydrogen peroxide digestion at 80 °C for 35 minutes. Element-detection patterns differed sharply between plant- and animal-based yogurts: in plant-based samples Al, Cr, Co, Ni, Mo, Ba and Pb were quantified at appreciable concentrations across multiple samples, with Cd detected in 2 sample-lots and As detected in 3 sample-lots; Sb and Hg were below the limit of quantification (LOQ) in all 44 sample-lots. In the cow-milk yogurt comparator, only Mo (72.54 µg/kg) and Ba (160.76 µg/kg) were above LOQ. Estimated dietary intake values from a single unit of the highest-concentration plant-based yogurt remained below available PTWI, PTMI, and BMDL reference values for adults but reached 46.7% of the EFSA tolerable daily intake (TDI) for nickel in children, rising to 93.4% of the Ni TDI at 2 units/day.
 
 ## Key numbers
@@ -177,12 +179,15 @@ License confirmed CC-BY 4.0 from source p. 1 (Copyright notice: "© 2023 by the 
 Audit subagent (2026-06-08, agent a12b08e73c3132bbc) flagged four findings. (1) ❌ Mo highest-sample misattribution: page reported "355.70 ± 3.70 (sample A, veg-protein cookies-and-cream, lot 2)" but Table 3 shows sample A lot 2 = 348.39 ± 8.47 and the 355.70 ± 3.66 value is in sample B (veg-protein peanut butter) lot 1. Verified against PDF Table 3, p. 6 — correct attribution is sample B lot 1, SD 3.66. Corrected. (2) ❌ Mo IVV-cohort range misattribution: page reported "highest in IVV-brand veg-protein samples A, B, C (190.39 to 355.70 µg/kg)" but Table 3 shows samples A/B/C lots span 293.41 (C lot 1) to 355.70 (B lot 1); the 190.39 µg/kg floor is sample M lot 1 (soy-chocolate), not A/B/C. The source narrative (p. 10, Section 3.2.6) describes the COMBINED A/B/C and M cohort as ranging 190.39 to 355.70 µg/kg. Corrected to show A/B/C range (293.41–355.70) and M range (190.39–207.61) separately, with a note on the source's combined-cohort range. (3) ⚠️ Part 12 strict reading on brand codes (IVV/IFR/IBT/IMD/IPV/INB): audit argued sample letter + lot number already disambiguate replicates, so attaching brand codes to per-sample contamination values constitutes brand attribution. Verified the strict-reading argument is correct. Brand codes stripped from Key numbers, narrative, and per-element Verification-note tabulations; the brand-code-to-sample-group mapping is retained in a single traceability paragraph above. (4) ⚠️ Matrices vocabulary: audit flagged `plant-based-drink` and `dairy-alternative` as non-canonical (yogurt is the load-bearing matrix). Verified against the system-prompt matrices vocabulary — `yogurt` is the canonical entry; the other two are not. Removed; matrices now `[yogurt]`. All other audit checks (slug vocabulary for ingredient/metal wikilinks, speciation discipline tAs/tHg/Cr, ICP-MS methods fidelity, Part 2 wiki/HMTc firewall) returned ✅ clean. Verdict REVISE with the four corrections above applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [12afd41](https://github.com/paleofoundation/heavymetalindex/commit/12afd41) | 2026-06-08 | audit: rebellato2023-plant-yogurt-inorganic-contaminants revised |
-| [e6e7a75](https://github.com/paleofoundation/heavymetalindex/commit/e6e7a75) | 2026-06-08 | ingest: rebellato2023-plant-yogurt-inorganic-contaminants fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

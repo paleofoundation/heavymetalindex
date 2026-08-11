@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2023 - Heavy metals in seaweeds and halophytes
 
+## Overview
+
 EFSA assessed occurrence and dietary exposure for cadmium, lead, total arsenic, inorganic arsenic, total mercury, and iodine in seaweeds, halophytes, and products based on or containing seaweed in Europe. The report used sampling years 2011-2021 and separates total arsenic from inorganic arsenic, and total mercury from the few reported methylmercury and inorganic-mercury records. The PDF-visible tables provide aggregate occurrence means by FoodEx-style seaweed group and exposure estimates for current seaweed consumers and replacement-scenario products.
 
 ## Key numbers
@@ -79,15 +81,15 @@ This A-tier EFSA report contributes occurrence and exposure context for seaweed-
 - 2026-06-09 audit pass (autonomous QA subagent) verified all Table 3-7 occurrence values, all Table 23 exposure values, and the Cd/Pb/tAs/iAs/tHg occurrence-count totals against the PDF; verdict PROMOTE with the LC%-dash normalization above as the only adjusted item.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [d9030ea](https://github.com/paleofoundation/heavymetalindex/commit/d9030ea) | 2026-06-08 | ingest: efsa2023-heavy-metals-seaweed merge from MFK/June 8 New Folder With Items 4 2 |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [977b4b50f](https://github.com/paleofoundation/heavymetalindex/commit/977b4b50f) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

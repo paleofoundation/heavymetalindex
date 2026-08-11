@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Sher et al. 2025 — Antibiotic resistance in Shewanella species and heavy-metal co-selection (narrative review)
 
+## Overview
+
 Narrative review in Microorganisms (MDPI) of the genus Shewanella as an emerging multi-drug-resistant pathogen in clinical and aquatic environmental settings. For HMI purposes the relevance is the paper's Section 5 on heavy-metal co-selection of antibiotic resistance: arsenic, mercury, cadmium, and chromium exposure is shown across cited studies to drive antibiotic-resistance acquisition in Shewanella via co-resistance (linked genes), cross-resistance (shared efflux systems), and co-regulation (shared promoter regions). The paper contains no primary food-contamination measurements and no ppb-level occurrence data; it is microbiome/AMR context for the heavy-metal-driven selection pressure that contaminated estuaries and aquaculture environments place on resistant pathogen reservoirs.
 
 ## Key numbers
@@ -106,11 +108,15 @@ PDF dropped into `raw/Manual Fetch Kimi /June 2 Manual Fetches/` by Karen on 202
 - [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

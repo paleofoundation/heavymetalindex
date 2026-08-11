@@ -6,7 +6,7 @@ title: "Demographic Predictors of Urinary Arsenic in a Low-Income Predominantly 
 authors: [Farzan SF, Howe CG, Chavez T, Chen JC, Martinez MP, Toledo-Corral C, Dunton GF, Grubbs BH, Al-Marayati L, Casbas-Hernandez P, Pinder R, Habre R, Bastain TM, Breton CV]
 year: 2021
 publication: "Journal of Exposure Science and Environmental Epidemiology"
-doi: 10.1038/s41370-020-00283-8
+doi: "10.1038/s41370-020-0251-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: null
@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Farzan et al. 2021 — Urinary arsenic in a Hispanic pregnancy cohort in Los Angeles
 
+## Overview
+
 This study examined urinary arsenic species (total As, inorganic As, MMA, DMA) in 241 low-income predominantly Hispanic pregnant women enrolled in the MADRES (Maternal And Developmental Risks from Environmental and Social stressors) cohort in Los Angeles, California. Total urinary arsenic ranged widely from 0.8 to 506.2 µg/L, with a mean of 9.0 µg/L. Demographic predictors of higher urinary arsenic included rice consumption and seafood consumption, with rice being a particularly important dietary predictor in this Hispanic cohort where rice is a dietary staple. The study highlights the food consumption-based arsenic exposure pathway as a significant contributor to inorganic arsenic body burden in a vulnerable population (pregnant women) and a minority group with distinctive dietary patterns. The iAs to DMA ratio reflects individual variation in arsenic methylation capacity.
 
 ## Key numbers
@@ -46,15 +48,15 @@ App: Rice consumption frequency and type (white vs. brown) are key drivers of iA
 - [[health/arsenic-pregnancy]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

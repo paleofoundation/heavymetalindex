@@ -1,10 +1,11 @@
 import { i18n } from "../i18n"
-import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, getFileExtension, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -30,16 +31,60 @@ function frontmatterBoolean(value: unknown): boolean {
   return false
 }
 
+// og:type — "article" for substantive documents (metal/ingredient/regulation/
+// synthesis/source reviews…) so social cards render as articles; "website" for
+// the homepage and section/list landings (category-index, corpus-index, lint…).
+// Driven by the `type` frontmatter, which nearly every wiki page carries, with a
+// content-slug PREFIX fallback for the rare untyped page. The prefix (foo/ not
+// foo) matches the individual page (`metals/lead`) but not the folder landing
+// (`metals`), which should stay "website".
+const OG_ARTICLE_TYPES = new Set([
+  "source",
+  "ingredient",
+  "product-category",
+  "regulation",
+  "metal",
+  "synthesis",
+  "regulator",
+  "supply-chain",
+  "weekly-briefing",
+  "mitigation",
+  "methodology",
+  "testing-method",
+  "article",
+  "review",
+  "standard",
+  "analyte",
+])
+const OG_ARTICLE_PREFIXES = [
+  "metals/",
+  "ingredients/",
+  "regulations/",
+  "synthesis/",
+  "sources/",
+  "analytes/",
+  "mitigation/",
+  "supply-chain/",
+]
+function isArticlePage(frontmatter: Record<string, unknown> | undefined, slug: string | undefined): boolean {
+  if (slug === "index" || slug === "404" || slug === undefined) return false
+  const fmType = frontmatterString(frontmatter?.type)?.toLowerCase()
+  if (fmType) return OG_ARTICLE_TYPES.has(fmType)
+  return OG_ARTICLE_PREFIXES.some((p) => slug.startsWith(p))
+}
+
 function CitationMetadata({
   frontmatter,
   slug,
   title,
   socialUrl,
+  hasPdf,
 }: {
   frontmatter: Record<string, unknown> | undefined
   slug: FullSlug | undefined
   title: string
   socialUrl: string
+  hasPdf: boolean
 }) {
   if (!frontmatter) return null
   const slugStr = (slug ?? "") as string
@@ -90,27 +135,30 @@ function CitationMetadata({
       frontmatterString(frontmatter.updated) ??
       frontmatterString(frontmatter.created)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
-    const isSynthesis = frontmatter.type === "synthesis" || slugStr.startsWith("synthesis/")
+    // hasPdf is computed by the caller via hasScholarlyPdf(fileData) — the same
+    // rule the generator applies — so citation_pdf_url, the Download PDF button
+    // and the rendered file can never disagree.
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
         <meta name="citation_author" content="Pendergrass, Karen" />
         <meta
           name="citation_author_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
-        <meta name="citation_publisher" content="Paleo Foundation" />
+        <meta name="citation_publisher" content="Institute of Contaminant Standards" />
         <meta
           name="citation_technical_report_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
         {pubDate && (
           <meta name="citation_publication_date" content={pubDate.replace(/-/g, "/")} />
         )}
         <meta name="citation_abstract_html_url" content={socialUrl} />
         <meta name="citation_fulltext_html_url" content={socialUrl} />
-        {/* Google Scholar strongly prefers a PDF; synthesis pages ship one. */}
-        {isSynthesis && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
+        {/* Google Scholar strongly prefers a PDF; synthesis + developed metal
+            reviews ship one at <url>.pdf (postbuild-synthesis-pdf.mjs). */}
+        {hasPdf && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
         {wikiDoi && <meta name="citation_doi" content={wikiDoi} />}
       </>
     )
@@ -141,14 +189,21 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page
+    // Url of current page. simplifySlug strips the trailing `index` so the
+    // homepage canonicalizes to `/` (not `/index`) and folder pages to `/foo/`
+    // (not `/foo/index`) — matching the served URL. A cross-domain canonical or
+    // a self-canonical pointing at a non-served path is the duplicate-content
+    // defect that folded the old paleofoundation.com↔heavymetaltested.com pair.
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), simplifySlug(fileData.slug!))
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogType = isArticlePage(fileData.frontmatter, fileData.slug) ? "article" : "website"
 
     return (
       <head>
@@ -169,7 +224,7 @@ export default (() => {
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={ogType} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
@@ -183,7 +238,7 @@ export default (() => {
             <meta name="twitter:image" content={ogImageDefaultPath} />
             <meta
               property="og:image:type"
-              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
+              content={`image/${(getFileExtension(ogImageDefaultPath) ?? "png").replace(/^\./, "")}`}
             />
           </>
         )}
@@ -207,6 +262,7 @@ export default (() => {
           slug={fileData.slug}
           title={title}
           socialUrl={socialUrl}
+          hasPdf={hasScholarlyPdf(fileData)}
         />
         <meta name="generator" content="Quartz" />
 

@@ -14,13 +14,15 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 13
+sources: 15
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Laundry detergents (liquid, powder, pods/sheets, delicates)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and Fabric-Contact Home Products), Row 1: **Laundry detergents (liquid, powder, pods/sheets, delicates)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [laundry-detergents]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and Fabric-Contact Home Products), Row 1: **Laundry detergents (liquid, powder, pods/sheets, delicates)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [laundry-detergents]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +32,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Laundry detergents (liquid, powder, pods/sheets, delicates), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Laundry detergents (liquid, powder, pods/sheets, delicates), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Laundry detergents (liquid, powder, pods/sheets, delicates), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Laundry detergents (liquid, powder, pods/sheets, delicates), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in laundry detergents (liquid, powder, pods/sheets, delicates). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in laundry detergents (liquid, powder, pods/sheets, delicates). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **Green Seal GS-48, EPA Safer Choice**.
 
@@ -102,7 +104,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -113,24 +115,26 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/ral2024-eu-ecolabel-factsheet-household-detergents\|RAL gGmbH (German EU 2024]]. *The EU Ecolabel for household detergents — The EU Ecolabel is the official European Union label for environmental excellence*, EU Ecolabel consumer factsheet, September 2024 (two-page factsheet jointly branded with the European Commission, the German Federal Ministry for the Environment (BMUV), the German Federal Environment Agency (Umweltbundesamt), and RAL gGmbH as the German competent body for the EU Ecolabel; #euecolabel) | 2024 | Regulatory factsheet | A two-page consumer-facing factsheet dated September 2024, issued by RAL gGmbH (the German national competent body for the EU Ecolabel)... |
 | 6 | [[sources/torres2024-soap-detergent-heavy-metals-brazil\|Torres et al. 2024]]. *Potentially Toxic Elements in Commercial Soap and Powder Detergent Samples*, Journal of the Brazilian Chemical Society 35(4): e-20230164, 1-10 (Sociedade Brasileira de Quimica) | 2024 | Peer-reviewed | BR Pb, Cd, Zn, Mg occurrence in Nine commercial cleaning products purchased in the metropolitan region of Recife, Pernambuco, Brazil: one powder detergent (J1), four... (n=9) |
 | 7 | [[sources/barkodia2020-jhansi-detergent-heavy-metals\|Barkodia et al. 2020]]. *Analysis of heavy metals in Detergent Sample of Jhansi, India*, Journal of Emerging Technologies and Innovative Research (JETIR), Volume 7, Issue 3, March 2020, pages 58-60 (article ID JETIR2003310; ISSN 2349-5162) | 2020 | Journal article | IN Fe, Cu, Mn, Zn occurrence in Six (abstract states seven, but Table 1 reports values for six brand columns) commercially marketed household detergents purchased... (n=6) |
-| 8 | [[sources/nydec2020-cleansing-product-disclosure-bmp\|New York State Department 2020]]. *Cleansing Product Information Disclosure Program — Recommended Best Management Practices*, New York State Department of Environmental Conservation (NY DEC) — undated post-court-ruling Recommended Best Management Practices (BMP) document supporting the statutory household-cleansing-product disclosure requirement at 6 NYCRR Part 659.6 (authorised by Environmental Conservation Law (ECL) Article 35). The predecessor Program Policy on Household Cleansing Product Information Disclosure was declared null and void by the NYS Supreme Court (Household & Commercial Products Association v. Seggos, ruling issued August 2020); DEC maintains the present BMP document as recommended practice while moving forward to implement the underlying statute and regulation. Document text references EPA's pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS (70 ppt combined), consistent with pre-July-2020 publication of the BMP framework prior to NY DOH's August 2020 adoption of stricter state MCLs for those chemicals. | 2020 | Government guidance | US-NY Pb, Cd, tAs, tHg, Cr-VI, Ni occurrence in Not applicable: post-2020 court-ruling Recommended Best Management Practices (BMP) guidance document. The 22-page document (sections A. Form of... |
-| 9 | [[sources/iwegbue2019-household-hygienic-products-nigeria\|Iwegbue et al. 2019]]. *Risk of human exposure to metals in some household hygienic products in Nigeria*, Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) | 2019 | Peer-reviewed | NG Cd, Pb, Cr, Cu, Co, Ni, Mn, Zn, Fe occurrence in Twenty-seven brands of household hygienic products purchased in Abraka, Sapele and Warri (Delta State, southern Nigeria), comprising ten... (n=27) |
-| 10 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
-| 11 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
-| 12 | [[sources/abulude2007-soaps-detergents-akure-nigeria\|Abulude et al. 2007]]. *Assessment of the Content of Pb, Cd, Ni and Cr in Soaps and Detergents from Akure, Nigeria*, Research Journal of Environmental Toxicology 1(2): 102-104 (Academic Journals Inc.; ISSN 1819-3420) | 2007 | Peer-reviewed | NG Pb, Cd, Ni, Cr occurrence in Nineteen soap and detergent samples purchased in Akure, Ondo State, Nigeria in July 2006. The sample mix as... (n=19) |
-| 13 | [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products\|European Chemical Industry Ecology 1992]]. *Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis*, ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) | 1992 | Industry | EU/US/IL Ni, Co, Cr, Cr-VI occurrence in Literature-review compilation of nickel, cobalt and chromium concentrations measured in consumer products by 28 published studies (1956-1990) and... |
+| 8 | [[sources/greenseal2020-gs51-laundry-care-products\|Green Seal 2020]]. *GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6*, Green Seal, Inc. voluntary environmental certification standard; Edition 1.6 issued April 8, 2020, replacing Edition 1.5 from September 12, 2019, with corrections/clarifications last made July 30, 2021. | 2020 | Regulatory standard | US Pb, tHg, Cd, Cr-VI, tAs, Co, Mn, Ni occurrence in Not applicable: this is the binding text of Green Seal GS-51 Edition 1.6 for industrial and institutional laundry... |
+| 9 | [[sources/nydec2020-cleansing-product-disclosure-bmp\|New York State Department 2020]]. *Cleansing Product Information Disclosure Program — Recommended Best Management Practices*, New York State Department of Environmental Conservation (NY DEC) — undated post-court-ruling Recommended Best Management Practices (BMP) document supporting the statutory household-cleansing-product disclosure requirement at 6 NYCRR Part 659.6 (authorised by Environmental Conservation Law (ECL) Article 35). The predecessor Program Policy on Household Cleansing Product Information Disclosure was declared null and void by the NYS Supreme Court (Household & Commercial Products Association v. Seggos, ruling issued August 2020); DEC maintains the present BMP document as recommended practice while moving forward to implement the underlying statute and regulation. Document text references EPA's pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS (70 ppt combined), consistent with pre-July-2020 publication of the BMP framework prior to NY DOH's August 2020 adoption of stricter state MCLs for those chemicals. | 2020 | Government guidance | US-NY Pb, Cd, tAs, tHg, Cr-VI, Ni occurrence in Not applicable: post-2020 court-ruling Recommended Best Management Practices (BMP) guidance document. The 22-page document (sections A. Form of... |
+| 10 | [[sources/iwegbue2019-household-hygienic-products-nigeria\|Iwegbue et al. 2019]]. *Risk of human exposure to metals in some household hygienic products in Nigeria*, Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) | 2019 | Peer-reviewed | NG Cd, Pb, Cr, Cu, Co, Ni, Mn, Zn, Fe occurrence in Twenty-seven brands of household hygienic products purchased in Abraka, Sapele and Warri (Delta State, southern Nigeria), comprising ten... (n=27) |
+| 11 | [[sources/bcpp2017-ca-sb258-factsheet\|Partners et al. 2017]]. *SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet*, Coalition advocacy factsheet (two-page NGO joint-statement document) in support of California SB 258 (Sen. Ricardo Lara), the Cleaning Product Right to Know Act of 2017. Headers carry the logos of Breast Cancer Prevention Partners (BCPP), Environmental Working Group (EWG), Natural Resources Defense Council (NRDC), and Women's Voices for the Earth (WVE), in that order. Contact block on p. 2 names Nancy Buermeyer (BCPP), Bill Allayaud (EWG), Avi Kar (NRDC), and Jamie McConnell (WVE). | 2017 | NGO report | This is a two-page coalition advocacy factsheet circulated by Breast Cancer Prevention Partners (BCPP), the Environmental Working Group (EWG), the... |
+| 12 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
+| 13 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
+| 14 | [[sources/abulude2007-soaps-detergents-akure-nigeria\|Abulude et al. 2007]]. *Assessment of the Content of Pb, Cd, Ni and Cr in Soaps and Detergents from Akure, Nigeria*, Research Journal of Environmental Toxicology 1(2): 102-104 (Academic Journals Inc.; ISSN 1819-3420) | 2007 | Peer-reviewed | NG Pb, Cd, Ni, Cr occurrence in Nineteen soap and detergent samples purchased in Akure, Ondo State, Nigeria in July 2006. The sample mix as... (n=19) |
+| 15 | [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products\|European Chemical Industry Ecology 1992]]. *Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis*, ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) | 1992 | Industry | EU/US/IL Ni, Co, Cr, Cr-VI occurrence in Literature-review compilation of nickel, cobalt and chromium concentrations measured in consumer products by 28 published studies (1956-1990) and... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

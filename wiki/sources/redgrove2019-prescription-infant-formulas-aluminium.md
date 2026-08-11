@@ -26,6 +26,8 @@ updated: 2026-05-17
 
 # Redgrove, Rodriguez, Mahadevan-Bava, Exley 2019 — Prescription infant formulas are contaminated with aluminium
 
+## Overview
+
 This International Journal of Environmental Research and Public Health article from the Birchall Centre at Keele University and Russells Hall Hospital, Dudley, is the first systematic survey of aluminium in prescription infant formulas. Twenty-four specialised UK formulas (ready-to-drink and powdered) were obtained from a paediatric clinic and analysed by transversely heated graphite furnace atomic absorption spectrometry (TH GFAAS) following microwave-assisted acid/peroxide digestion. The headline finding: ready-to-drink concentrations range from 49.9 µg/L in a preterm ready-to-drink formula to 1956.3 µg/L in an apple-flavoured ready-to-drink weight-gain supplement, a roughly 40-fold range. The highest-Al product delivers 391.3 µg Al per 200 mL serving. Some prescription formulas, including two amino-acid powders prepared according to manufacturer instructions at 41.4 and 44.4 µg/L, were the lowest-Al formulas measured in the Keele group's accumulated experience, demonstrating that the contamination of infant formulas with aluminium is not inevitable. Powdered formulas were generally less contaminated than ready-to-drink products, which inverts the pattern seen for off-the-shelf formulas in their prior work.
 
 ## Key numbers
@@ -102,15 +104,15 @@ Twenty-four prescription infant formulas obtained pristine and unopened from the
 - Brand names are present in the source tables, but this source page intentionally uses product-form descriptors only because no public-record regulatory event exception applies.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

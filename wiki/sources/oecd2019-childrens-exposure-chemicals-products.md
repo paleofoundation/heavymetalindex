@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # OECD 2019 — Considerations when assessing children's exposure to chemicals from products (Series on Testing and Assessment No. 310)
 
+## Overview
+
 This OECD Environment Directorate / Joint Meeting of the Chemicals Committee and Working Party on Chemicals, Pesticides and Biotechnology document presents a five-question decision tree (Q0–Q5) for determining whether a child-specific exposure assessment is needed for a chemical in a consumer product, and a checklist of child-specific physiological and behavioural factors (Table 1) that influence inhalation, oral and dermal exposure routes. Three modelled case studies illustrate the framework: two hair sprays (non-VOC and VOC), a kitchen cleaner spray, and a post-application MCPA herbicide scenario in a public park. The focus is "industrial chemicals" in "consumer products"; exposure via food or the environment is explicitly treated as background and is out of scope. No analytical occurrence data on heavy metals are reported; the document is methodology and exposure-modelling guidance, not an occurrence study.
 
 ## Key numbers
@@ -88,15 +90,15 @@ OECD WPEA-led methodology and decision-tree development. The decision tree (Figu
 - 2026-06-01 audit subagent (fresh-context Agent, general-purpose) verdict PROMOTE. One ⚠️ concern in Check 1: child-air-intake bullet was attributed to "Section 3, Discussion p. 16," but the passage sits in Section 2 (Decision Tree) prose on p. 16, not Section 3 (Case Studies, begins p. 19) or Section 4 (Discussion and Conclusion, begins p. 25). Verified independently against source pp. 14–20; finding correct. Corrected attribution to "Section 2 Decision Tree discussion, p. 16". One ⚠️ concern in Check 2 noted that `international` is not strictly in the taxonomy snapshot's jurisdiction vocabulary; precedent established by sibling [[oecd2024-crafts-toys-children-exposure]]; left as-is and surfaced for next taxonomy-snapshot refresh. 0 ❌ definite-error findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

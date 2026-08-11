@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Xiong et al. 2025 — Heavy metals (9-analyte panel) in 33 infant/adult clothing samples with bioaccessibility, HQ/HI/CR and HaCaT cytotoxicity
 
+## Overview
+
 This Toxics paper measured total and artificial-sweat-bioaccessible concentrations of nine heavy metals (As, Cd, Cr, Cu, Mn, Ni, Pb, Zn, Fe) by ICP-MS in 33 unwashed clothing samples purchased from online retail platforms, then computed ECHA-/US-EPA-formula dermal exposure, hazard quotient (HQ), hazard index (HI) and carcinogenic risk (CR) across five wear-scenario groups (adult-male T-shirt, adult-male underwear, adult-woman blouse, adult-woman underwear and infant under 1 year in a one-piece pajama). Infant-scenario HI exceeded the safe threshold (HI = 1.13) driven by Cd (HQ = 1.12), and infant Cr CR reached 4.35 × 10⁻⁵, approximately 27-fold higher than infant As CR. Artificial-sweat bioaccessibility was highest for Cr (37.78%) and Ni (28.51%); Pb and Fe were below detection in the sweat extract. HaCaT keratinocyte assays of sweat extracts produced dose-dependent cytotoxicity (22-59% viability reduction across T1-T5 groups) and ROS elevation (+130-131% in T2/T4; +17% in T1/T3/T5), with T2 the most pronounced cytotoxic group.
 
 ## Key numbers
@@ -119,15 +121,15 @@ This Toxics paper measured total and artificial-sweat-bioaccessible concentratio
 - Audit subagent (2026-05-17) ⚠️-flagged `matrices: [textile]` as a new vocabulary entry; finding accepted as documented above — this Verification notes already declares `textile` as a proposed bare-string vocabulary addition awaiting formal review, parallel to the `cosmetics` precedent. No correction needed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

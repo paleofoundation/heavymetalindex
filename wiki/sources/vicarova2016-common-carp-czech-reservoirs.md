@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Vičarová et al. 2016 — Heavy metals in common carp from three Czech reservoirs
 
+## Overview
+
 Vičarová and colleagues measured cadmium, lead, and total mercury in the dorsal muscle and liver of 75 common carp (*Cyprinus carpio* L.), 25 from each of three reservoirs (Pilská, Domaninský, Matějovský) in the Bohemian-Moravian Highlands of the Czech Republic, caught by anglers between April 2013 and September 2014. Cadmium and lead were determined by electrothermal high-resolution continuum-source atomic absorption spectrometry; total mercury by cold-vapour AAS on an AMA 254 analyser. All tissue concentrations are expressed on a fresh-weight basis. Cadmium accumulated preferentially in the liver (means up to 258.1 µg/kg FW at Domaninský), while mercury accumulated preferentially in the dorsal muscle (up to 72.4 µg/kg FW at Domaninský), a tissue-distribution pattern the authors associate with clean rather than heavily contaminated localities. Lead was highest at the Pilská reservoir (muscle 253.3 µg/kg FW, liver 262.7 µg/kg FW), which the authors attribute to legacy traffic-related deposition near a busy road. In all edible muscle samples, cadmium, lead, and mercury complied with the EU maximum limits (Cd 50, Pb 300, Hg 500 µg/kg). The authors conclude that common carp from these reservoirs pose no health risk for human consumption, because the elevated cadmium occurs in liver, which is not commonly eaten.
 
 ## Key numbers
@@ -115,15 +117,15 @@ Fresh-context audit subagent (2026-05-30) verdict PROMOTE; all five checks clean
 - Check 5 (Part 2 wiki/HMTc firewall): clean — no synthesis, no threshold proposals; consumer/risk statements are the authors' own attributed conclusions.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # LHAAC 2025 — CSP41: Microbial and heavy metal detections in herbs and spices, Western Australia
 
+## Overview
+
 This government surveillance project (Coordinated Sampling Project 41, conducted 18 November 2024 to 31 January 2025) assessed the microbiological safety and heavy metal contamination of 380 herb and spice products purchased from retail businesses across 23 local government areas of Western Australia. ICP-MS analysis screened for nine metals (Al, As, Cd, Cr, Cu, Pb, Hg, Ni, Zn) following NATA-accredited methods; results were benchmarked against Codex Alimentarius standards (CXS 193-1995), the Australia New Zealand Food Standards Code, and EU MLs (Regulation 1881/2006 as amended by 2021/1317). The project was conducted in direct response to FSANZ recommendations following the 2023 US cinnamon applesauce recall and global concerns about lead in cinnamon products; Environmental Health Officers were specifically instructed to prioritise cinnamon-containing products. Key finding: As, Cd, and Hg remained within conservative safety thresholds at the population level; Cr exceeded 2 mg/kg in 5.8% of samples (with extreme dried-herb outliers in the hundreds of mg/kg); and lead exceeded the Codex/EU ML of 0.8 mg/kg for dried spices in 29 spice-powder samples and the EU ML of 10 mg/kg for dried herbs in 6 dry-herb samples, with ground cinnamon the dominant offending commodity.
 
 ## Key numbers
@@ -125,15 +127,15 @@ ICP-MS following acidic digestion with an automated hot block; both NATA-accredi
 - [[regulations/jecfa-methylmercury-ptwi]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

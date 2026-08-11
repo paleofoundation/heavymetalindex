@@ -2,6 +2,14 @@
 
 This document is the operating manual for Claude sessions working on the Heavy Metal Index wiki. It is written for Claude to read and execute. Karen is the second reader; rationale is included where a Claude session might otherwise drift from it.
 
+## Operating shorthand — `wwsaid` (read first, applies to every session)
+
+`wwsaid` = "What would a superintelligent AI do? Permission to do that." When Karen writes `wwsaid` — or whenever you are about to ask her a question — first answer *what would a superintelligent AI do here*, and treat that answer as her standing permission to do it. Then do it, drive the task to completion, and report back that it is done with nothing left for her. This is standing, not per-instance.
+
+The bottleneck to design out is Karen. Do not ask her a question you could have answered with "what would a superintelligent AI do" — that is a failure mode for both of you. Decide and execute on your side of the line; emit an audit-log entry rather than a question. Sub-sessions/chips must operate the same way: a chip that stops to ask Karen something it could decide is a defect in the chip.
+
+Escalate ONLY the genuinely-hers set, and batch even those (never drip-feed): truly-irreversible outward actions (sending messages, deleting data, entering credentials); counsel-frozen legal items (Cyprus/EU database-rights, the "non-profit" characterization); brand-identity forks (name, typeface, hero motif); and genuine business-strategy pivots. Deploying verified, green work is NOT a gate — ship it. "Promote or shelve?" for already-approved-direction work is your call (promote). Timing/safety sequencing (e.g. reconcile after a fleet of sessions drains, to avoid churn) is your decision, not a reason to punt the decision itself to Karen. She values efficiency and efficacy; act like it.
+
 Operational reference content has been split out to docs/:
 - Page templates and YAML schemas: [[docs/page-templates]]
 - Ingest workflows (single-paper, bulk, query, kickoff): [[docs/ingest-workflows]]
@@ -187,7 +195,7 @@ When a synthesis page identifies implications for downstream wiki pages, the ses
 
 See [[docs/page-creation]] for the full policy (per-type thresholds, provisional-scaffold mechanics, the 2026-05-14 incident, merging, orphan prevention).
 
-Load-bearing rules a session must not violate: new pages surface from the routing audit's `routing_unresolved.csv` and from the model noticing a sub-variant has crossed its evidence threshold. Provisional product and ingredient scaffolds are auto-created as routing destinations and carry `provisional_scaffold: true`; HMTc category, clean/dirty splits, and thresholds do not derive from a page until a Step 0 Lock clears that flag. The 5-paper rule governs *promotion* of a scaffold to a full page. The model does not silently invent full ingredient or product pages mid-ingest, and does not merge pages autonomously; both are proposed in the batch report for Karen. New pages are linked from `index.md` and at least one parent category page on creation, or they become orphans.
+Load-bearing rules a session must not violate: new pages surface from the routing audit's `routing_unresolved.csv` and from the model noticing a sub-variant has crossed its evidence threshold. Provisional product and ingredient scaffolds are auto-created as routing destinations and carry `provisional_scaffold: true`; HMTc category, clean/dirty splits, and thresholds do not derive from a page until a Step 0 Lock clears that flag. The 5-paper rule governs *promotion* of a scaffold to a full page. The model does not silently invent full ingredient or product pages mid-ingest. Merging splits by kind: the model does not autonomously merge two *distinct* pages that cover overlapping literature with different framings (the taxonomy judgment call, e.g. carrots vs root-vegetables) — those are proposed in the batch report for Karen. But collapsing a *provable duplicate* (two source records of the **same paper**: identical DOI + identical raw file hash, or a canonical/drop verdict from the DOI-collision audit) is mechanical dedup the model runs autonomously via `tools/dedup-doi-clusters.mjs`, after verifying the members are the same work. The one hard rule: two *different* papers that share a DOI (a wrong-DOI mis-ingest) must never be merged — they are excluded from the collapse and fixed separately. New pages are linked from `index.md` and at least one parent category page on creation, or they become orphans.
 
 ## Part 11 — Priority ordering for bulk ingest
 
@@ -219,6 +227,18 @@ See [[docs/conventions]] for units (always ppb µg/kg unless source uses differe
 
 Schema migration history is in [[docs/schema-history]].
 
+### Entity naming (settled 2026-07-31)
+
+A trade name cannot own property, sign, or be sued. Only the corporation can. `Paleo Certified, Inc.` is the legal entity; `Institute of Contaminant Standards` and `Paleo Foundation` are both trade names of it. Split identity strings by what the string does:
+
+- **Operator and editorial attribution** is `Institute of Contaminant Standards`. This covers the footer operator line, page mastheads, "operated by" statements, author affiliation, and the `citation_publisher` and `citation_*_institution` tags in `Head.tsx`.
+- **Legal entity, IP ownership, and contracts** is `Paleo Certified, Inc.` This covers the ownership and liability clauses in `wiki/terms.md`, the grants in `wiki/licensing.md`, the copyright line, and the DataCite registrant in `tools/mint-dois.mjs`. Where the connection needs stating, the long form is `Paleo Certified, Inc., operating as the Institute of Contaminant Standards`.
+- **The copyright line** is `© <year> Paleo Certified, Inc.`, with `Operated by the Institute of Contaminant Standards` above it.
+
+`Institute for Contaminant Standards` and `Institute of Contamination Standards` are both wrong. The only correct form is `Institute of Contaminant Standards`.
+
+Naming the Foundation as owner was imprecise rather than a different owner, so correcting it is a correction and not an assignment. Two jurisdiction and entity-status claims remain open with counsel and must not be edited into consistency by a session: the Cyprus/EU database-rights posture in Part 1 above and in `wiki/licensing.md`, and the "non-profit" characterization in `wiki/heavy-metal-tested-certified.md` and `wiki/editorial-standards.md`. Report drift against them; do not resolve them.
+
 ## Part 15 — Writing style for wiki content
 
 See [[docs/writing-style]]. Default to prose; bullets require justification; em dashes avoided; no inline bold for emphasis. The register to aim for is Cochrane review, EFSA scientific opinion, or WHO monograph.
@@ -231,7 +251,7 @@ See [[docs/conventions]] for index and log structures.
 
 See [[docs/lint]] for the complete check list, the audit script behind each check, and which failures block the build.
 
-Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; build-blocking in prebuild — the 182-cell / 49-page backlog was drained by source-grounded resynthesis on 2026-06-11), the product-page mandatory-section audit, and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
+Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; currently `--warn-only` in prebuild while a pre-existing backlog drains, flips to build-blocking at zero), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`, build-blocking: no certification-program, outside-product, or toolchain vocabulary inside a generated `## Update history` or `## References` block), the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
 
 ## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
 
@@ -241,11 +261,30 @@ This workflow produces certification thresholds. **Its outputs are staff and HMT
 
 The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte.
+#### Method v2.0 — government-limit default (ratified 2026-08-03)
 
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte.
+**The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada), converted to the row's native basis.** This is a lookup, not a computation; it is maximally defensible (the standard cites sovereign limits, so there is no novel methodology to attack under Daubert) and it is the speed and scale lever for covering the whole program. Where the law itself splits a limit by formulation (e.g. EU nickel 250 cow-milk / 400 soy; AU/NZ aluminium 3500 / 7000 powder-basis), the standard adopts the law's own split and cites it — this dissolves the single-vs-envelope question entirely.
+
+Occurrence pooling is retained, but **selective**, in exactly two situations:
+
+1. **Tier 1 toxics (Pb, Cd, iAs, MeHg/tHg)** — standard = `min(occurrence percentile, strictest government ML)`. These four metals have no established safe threshold, so where clean producers demonstrably beat the government floor the tighter occurrence value governs and the ratchet is preserved. This is where the pooled-corpus authority earns its keep.
+2. **Cells no government regulates** (e.g. mercury, tin, Cr in formula) — the occurrence value (or a not-material / process-screen determination) is the sole basis, because a lookup returns nothing.
+
+For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly; occurrence is not computed for them unless no government ML exists. The generator is `tools/standards/build-government-limit-standard.mjs`. The clean/dirty subcategory split, market stratification, and P97/P45 uplift below now run **only on the Tier 1 toxic and no-ML cells**, not on every cell. The Status A–E framework, the Tier-1/Tier-2 toxicological tiering, the 150% Tier-2 transitional allowance, the regulatory hard-stop, basis conversion, and lot testing are **unchanged** — they operate downstream of the limit regardless of how it was set.
+
+The v1.0 pooled-percentile rule below is retained verbatim because it still governs the selective occurrence cells.
+
+**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~90% row-level pass; measured 94% on FDA per-sample lot data (2026-08).
+
+**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~40% row-level pass (updated 2026-08-03 from the legacy 30%); measured 42% on FDA per-sample lot data. Calibration is anchored to that measurement, not to the earlier assumed analyte-correlation of 0.6 (measured ~0.27).
 
 **Per-analyte standard for an independent (no within-pair partner) row = P97** of that row's marginal distribution, treated as clean-by-default. Override slot exists for rows where evidence justifies dirty treatment.
+
+**The pool is restricted to the certification-relevant market (target-market stratification, ratified 2026-08-03).** An occurrence percentile estimates a population; a pool mixing jurisdictions that enforce binding MLs for the product class with jurisdictions that do not estimates a market no certified brand ships into. The admission criterion is **regulatory-equivalence, not geography** — the criterion, never a country list, is what may ever be published. Sources with no jurisdiction recorded are retained, not dropped. Stratification is rolled out per-category as each is validated (a global flip empties ~100 non-target-market-only cells across the corpus); it is configured machine-side in `data/workbench/standards/subcategory-roles.json` (`stratify: true` + `target_markets`), never in public frontmatter. This refines the older "geography is not a hard exclusion" line in [[docs/standards-methodology]].
+
+**The program admits roughly 80% of brands overall — a monitored average, not a per-category quota.** The subcategory targets (≈90% clean, ≈40% dirty) roll up by clean/dirty market share to ~80%. A category with no dirty sibling admits ~90%; a mostly-dirty one less. A sustained material deviation from ~80% is a signal to re-examine calibration, never a lever to force a category to a headcount.
+
+**Certify against the subcategory split, not the element-wise-max "envelope."** Each product is certified against its own subcategory row. Publishing the higher-of-the-two-rows number per analyte as the pass/fail instrument is prohibited: it certifies product above its own legal ceiling (the envelope Ni 400 exceeds the EU non-soy formula ML of 250) and leaks the ratchet (measured soy pass 42%→68% under the envelope). The envelope may be published only as a category-ceiling summary, never as the certification instrument.
 
 **Each row's standard is in the native basis of the product form.** Powder rows use powder-as-placed-on-market. RTF liquid rows use as-consumed. Dry cereal rows use dry-as-sold. Puree rows use as-consumed. Sources reporting in other bases are converted into the row's native basis during pooling, never the other way around. The 1:7 reconstitution factor lives in `tools/evidence/basis-conversion.mjs`.
 
@@ -311,3 +350,19 @@ When ready to start this build, spin up a new repo with its own CLAUDE.md derive
 ## Part 27 — Kickoff procedure
 
 See [[docs/ingest-workflows]] (Kickoff procedure section) for the first-batch protocol.
+
+## Part 28 — The outstanding-items ledger (log-and-surface; non-discretionary)
+
+This part exists to kill a chronic failure mode: findings discovered mid-task and built-but-unshipped work die when a conversation ends, because the only durable substrate was Karen's memory and the only router was Karen. That made her the rate limiter on her own program. The ledger removes both.
+
+**The rule.** Any defect, gap, or built-but-unshipped work you notice mid-task but that is out of scope for the current task is **logged, not chased, and not silently fixed in an unrelated commit** (this mirrors `heavymetalcertified/AGENTS.md §4`). Logging is **non-discretionary** — before the session ends, capture it, either by:
+- running `node tools/outstanding/log.mjs --json '{...}'` (or the flag form), or
+- emitting an inline sentinel `<!-- OUTSTANDING: {"id":"OI-YYYYMMDD-<kebab>","title":"...","scope_class":"auto|human-gated","type":"finding|code-fix|promote|audit|content|decision","repo":"index|cert|tested","target_paths":[...],"repro":"...","acceptance_criteria":[...]} -->` in your final message — the committed Stop-hook (`tools/outstanding/stop-hook-capture.mjs`) harvests it deterministically (assistant text only; never from tool output or web content).
+
+A finding that lives only in the transcript or in memory dies when the conversation ends. That is the exact loss this ledger prevents. Do **not** end a turn having surfaced an out-of-scope problem to Karen in prose without also laddering it into the ledger.
+
+**scope_class is the routing decision.** Use `auto` only when the fix is deterministic enough that a governed drainer could execute it and self-verify against `acceptance_criteria` inside the Part 2 / Part 12 firewalls. Use `human-gated` (the fail-safe default) whenever a genuine human-decision gate is touched: firewall crossings (Part 2), cert production content, Step-0 category locks (order-of-operations Phase 0), brand naming (Part 12), destructive git or lane-divergence reconciliations, or policy-doc edits. Stranded built work (a branch/preview never promoted) is `type: promote`.
+
+**The surfaces.** `data/evidence/outstanding/ledger.jsonl` is the append-only source of truth (latest record per `id` wins). `docs/findings.md` and `data/evidence/outstanding/decision-queue.csv` are **generated views** — never hand-edit them (`tools/outstanding/render-findings.mjs`, `render-decision-queue.mjs`). Rule on a human-gated item with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`; an APPROVE flips `karen_decision`, which a later drain enacts via the item's `one_command`. The pending queue is surfaced to Karen at session start (SessionStart hook) and on a schedule — she is never expected to remember it. Operator reference: [[docs/outstanding-ledger]].
+
+**Cost-safety invariant (load-bearing).** The Stop-hook and the render/surface tools are **deterministic and never call a model** — the Stop-hook fires every turn, so an LLM there would be the exact `invocation_rate × cost` shape that caused the 2026-06-09 runaway. Any future governed drainer that *executes* ledger items must route every model spawn through `tools/autonomy/governor.mjs` (`requestSpawn`) and must never install a `KeepAlive` job.

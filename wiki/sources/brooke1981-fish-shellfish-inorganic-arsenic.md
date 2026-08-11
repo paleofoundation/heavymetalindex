@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Brooke 1981 - Fish and shellfish inorganic arsenic
 
+## Overview
+
 Brooke and Evans developed two methods for determining total inorganic arsenic in fish, shellfish, and fish products. The paper is method-focused, but Table V reports occurrence-style values for total arsenic and inorganic arsenic in fish and shellfish sample rows. Inorganic arsenic is reported as the sum of the inorganic valency states isolated by the methods; total arsenic remains a separate `tAs` measurement.
 
 ## Key numbers
@@ -66,11 +68,15 @@ This source provides historical fish and shellfish evidence for inorganic arseni
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species/product slugs for herring, haddock, whelks, lobster, prawns, and plaice are not in the closed product vocabulary, so broad seafood/fish/shellfish routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [10ae140](https://github.com/paleofoundation/heavymetalindex/commit/10ae140) | 2026-06-08 | ingest: brooke1981-fish-shellfish-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # David Suzuki Foundation 2014 — qualitative narrative on twelve chemical hazards in household cleaning products (Canadian regulatory frame)
 
+## Overview
+
 A David Suzuki Foundation consumer-education article (web copy, archived as a 7-page PDF, © 2014) framing twelve chemical hazards in household cleaning products against the Canadian regulatory landscape. The article is non-quantitative narrative aimed at the general public: it names twelve chemical classes (2-butoxyethanol, ammonia, coal tar dyes, MEA/DEA/TEA, fragrance chemicals, nonylphenol ethoxylates, phosphates, quaternary ammonium compounds, silica powder, sodium dichloroisocyanurate dihydrate, sodium hydroxide, sodium lauryl/laureth sulfate, triclosan, trisodium nitrilotriacetate), summarises the human-health and aquatic-toxicity concerns for each in plain-language paragraphs, and lists representative product categories where each chemical is "found in." There are no original measurements, no analytical methods, no sample sizes, and no contamination values quantified in this article.
 
 The HMI-relevant content is narrow. The only heavy-metal claim in the article appears in the coal tar dyes paragraph: coal tar dyes are "derived from petrochemicals, and may be contaminated with trace amounts of heavy metals like arsenic, cadmium and lead" (p. 2). The dye paragraph applies broadly to "most types of cleaning products" (p. 3) per the article's own "Found in" footer. The remaining eleven chemical-class discussions concern volatile organic compounds, surfactants, biocides, fragrance allergens, eutrophication agents, corrosive bases and quaternary ammonium compounds — all out of the heavy-metal-and-food/supply-chain scope of this wiki. The article is retained here as a C-tier qualitative source documenting an NGO-asserted route by which arsenic, cadmium and lead may enter the household-cleaning-product matrix (synthetic dyes derived from petrochemicals), together with light Canadian regulatory context (Canadian Environmental Protection Act schedules, Health Canada exposure-pathway findings, Environment Canada Pollution Prevention planning, Canada Gazette concentration limits for 2-butoxyethanol and phosphorus).
@@ -161,15 +163,15 @@ Not applicable. This is an NGO consumer-education article, not an experimental s
 - Audit verdict was PROMOTE. After this audit-application pass: two minor findings applied (Steinemann sampling-structure phrasing and reference count); one finding rejected as a false positive (coal-tar-dye locator). No heavy-metal data integrity issues. No firewall changes. Page is REVISE-grade per the audit on the strength of the two ⚠️ Check 1 fixes being applied; treated as audited-revised in the audit queue.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2401454](https://github.com/paleofoundation/heavymetalindex/commit/2401454) | 2026-06-03 | audit: davidsuzuki2014-toxic-household-cleaners revised |
-| [668eb9c](https://github.com/paleofoundation/heavymetalindex/commit/668eb9c) | 2026-06-03 | ingest: davidsuzuki2014-toxic-household-cleaners fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

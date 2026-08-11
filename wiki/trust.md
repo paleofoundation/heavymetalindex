@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Trust Center
 
+## Overview
+
 This page is the single navigator a sophisticated reader can reach to confirm how the Heavy Metal Index is built, who is accountable for it, and what they can do with what they read here. It is intentionally one page and intentionally short. Each section names the canonical artifact and links straight to it; the depth lives on the linked pages, not here.
 
 This page is referenced from [[curators]] as the future hub for editorial governance. Brand legal, regulatory-affairs, retailer compliance, and academic-peer readers should be able to confirm every defensibility claim the Index rests on by reading this page and following one link.
@@ -26,7 +28,7 @@ The strategic frame is at [[roadmap]]: what the Index is today, the four shifts 
 ## Who is accountable
 
 - [[curators]] — named curators of the Index, their credentials, domain expertise, and conflict-of-interest disclosures. Scaffold state today; the structural slots are in place, named individuals fill in as the curatorial board finalises. Recusal log is on the page.
-- The principal conflict — the Paleo Foundation's parallel operation of the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program — is disclosed on every editorial page and is the central question the [[editorial-standards|editorial firewall]] answers.
+- The principal conflict — the Institute of Contaminant Standards (ICS)'s parallel operation of the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program — is disclosed on every editorial page and is the central question the [[editorial-standards|editorial firewall]] answers.
 
 ## How errors are handled
 
@@ -59,7 +61,7 @@ The roadmap commits to api.heavymetalindex.com as a first-class surface. The cur
 
 ## How the wiki and the certification program relate
 
-The [[heavy-metal-tested-certified|Heavy Metal Tested & Certified]] program at heavymetaltested.com is operated by the same non-profit (the Paleo Foundation). The two are kept architecturally separate by design. The wiki reports what the literature supports; the certification program applies those findings to set thresholds. The gap between them is stated and intentional — the certification program's thresholds may be tighter than the literature baseline for precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment reasons, and that gap is the mechanism of market ratcheting, not a defect.
+The [[heavy-metal-tested-certified|Heavy Metal Tested & Certified]] program at heavymetaltested.com is operated by the same organization (the Institute of Contaminant Standards). The two are kept architecturally separate by design. The wiki reports what the literature supports; the certification program applies those findings to set thresholds. The gap between them is stated and intentional — the certification program's thresholds may be tighter than the literature baseline for precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment reasons, and that gap is the mechanism of market ratcheting, not a defect.
 
 The full firewall posture is at [[editorial-standards]].
 

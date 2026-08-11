@@ -3,7 +3,7 @@
 // Designed for the public-briefing format: 5-15 page communications pieces
 // addressed to brand legal, retailer compliance, regulators, or adversarial
 // readers. Same typographic family as the Program Manual book template
-// (FreightText Pro body, Avenir Next display, red Paleo Foundation accent)
+// (FreightText Pro body, Avenir Next display, red Institute of Contaminant Standards (ICS) accent)
 // but sized and structured for a standalone document rather than a bound
 // volume:
 //
@@ -18,11 +18,11 @@
 #let red-accent = rgb("#9c1b1b")
 
 #let briefing(
-  overline: "A Standards Briefing · The Paleo Foundation",
+  overline: "A Standards Briefing · The Institute of Contaminant Standards (ICS)",
   title: "Briefing",
   subtitle: none,
   author: "Karen Pendergrass",
-  author-title: "Standards Architect, The Paleo Foundation",
+  author-title: "Standards Architect, The Institute of Contaminant Standards (ICS)",
   date: none,
   body,
 ) = {

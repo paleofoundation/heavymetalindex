@@ -96,3 +96,17 @@ Clean Label Project procured 160 protein powder products from 70 brands sourced 
 - **Bisphenol comparison:** the 2018 reference figure ("55%") refers to Clean Label Project's prior 2018 protein-powder investigation, not to the 2020 collagen study at [[sources/cleanlabel2020-collagen-heavy-metals]]; the 2020 collagen white paper did not report bisphenols and is not the comparator.
 - **Scaffold-introducing slugs:** matrices labels `plant-based-protein`, `chocolate-flavor`, and `vanilla-flavor` are not yet in `docs/gpt-collaboration/taxonomy-snapshot.md`. The existing `protein-powder`, `whey-protein`, and `collagen-supplement` labels follow the convention established by [[sources/bandara2020-protein-powder-heavy-metals]] and [[sources/cleanlabel2020-collagen-heavy-metals]]. New slugs surfaced for the next taxonomy-snapshot regeneration.
 - **Evidence tier B rationale:** non-peer-reviewed industry/advocacy report published as a downloadable PDF on cleanlabelproject.org; no DOI; no per-product data; no concentration distribution; no QA/QC reporting. Analytical chemistry performed by an accredited third-party lab (Ellipse Analytics) using standard methods (ICP-MS for metals, LC-MS/MS for bisphenols), which justifies B over C, but the absence of peer review, of per-product reporting, of statistical detail on the underlying distributions, and of serving-size/exposure-conversion methodology prevents A-tier classification.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [87bea2733](https://github.com/paleofoundation/heavymetalindex/commit/87bea2733) | 2026-06-08 | major | 2 sources added; 6 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Chiger & Lynch (Abt/HBBF) 2017 — IQ loss and monetized benefits of reducing iAs in infant rice cereal
 
+## Overview
+
 Abt Associates prepared this December 2017 report for Healthy Babies Bright Futures to quantify avoided IQ loss and the monetized economic benefit of reducing inorganic arsenic exposure from infant rice cereal and broader rice consumption in U.S. children aged 0–6. The report does not generate primary measurements; it pools published distributions of iAs in infant rice cereal (FDA 2016a/c, FDA Total Diet Study, Consumer Reports 2012/2014, Juskelis et al. 2013, Brockman & Brown 2012, Karagas et al. 2016, Carignan et al. 2016, Shibata et al. 2016) with consumption data (NHANES/WWEIA, FITS 2002/2008, Karagas et al. 2016) and applies five concentration-response functions (Hamadani 2011 log-linear and linear; Wasserman 2004 quadratic and linear-extrapolation; Wasserman 2007 log-linear) drawn from Bangladeshi child cohorts to estimate IQ point loss and dollar value across the U.S. cohort. Headline findings: replacing all rice and rice products with arsenic-free alternatives in U.S. children 0–6 would avoid more than 9 million IQ points per year and yield $12–18 billion in additional annual earnings; replacing infant rice cereal specifically would avoid almost 1 million IQ points per year and yield $1.2–1.8 billion in additional earnings. Both headline ranges in the Executive Summary are drawn from the Wasserman et al. (2004) quadratic / linear-extrapolation CRFs at the 0 ppb (full replacement) scenario; the report's wider per-CRF sensitivity envelope is much larger (see Key numbers).
 
 ## Key numbers
@@ -201,15 +203,15 @@ Microbiome: not addressed; this is exposure + dose-response + economic valuation
   No findings were rejected as false positives. Routing audit re-run clean after edits.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c82a3a747](https://github.com/paleofoundation/heavymetalindex/commit/c82a3a747) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

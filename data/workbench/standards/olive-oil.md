@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: olive-oil
 public_page: products/olive-oil
-updated: 2026-06-04
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Olive oil

@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Qvarfort and Holmgren 2025 - game meat lead bioaccessibility
 
+## Overview
+
 Qvarfort and Holmgren measured total lead and simulated gastrointestinal release of lead from metallic fragments in wild-boar tissues collected around bullet wound channels. The study is not a representative market-occurrence survey; it deliberately sampled the most contaminated wound-channel tissues so that metallic-lead dissolution could be tested. It is useful as game-meat lead-fragment bioaccessibility context, with its measured tissue lead values kept on the source's `mg/kg ww` basis.
 
 ## Key numbers
@@ -124,3 +126,17 @@ App: The source can support explanatory game-meat cards about lead-fragment diss
 - Speciation: the source concerns metallic elemental lead fragments and dissolved/bioaccessible lead compounds from those fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: ammunition model names printed in table headings and methods were not attached to contamination values on this page. Instrument and laboratory details are scientific-method context.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks exact `wild-boar-meat` or `game-meat` ingredient slugs, so ingredients route through broad `meat`, `meat-and-poultry`, and `organ-meats`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

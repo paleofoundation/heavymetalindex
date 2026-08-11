@@ -12,18 +12,16 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 7]
-    p95_ppb: 7
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: cantaloupe-raw-frozen-edible-flesh-wet-weight
-    speciation: total-Pb
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [2.5, 14.8]
     p95_ppb: 21.6
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -37,23 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 18]
     p95_ppb: 18.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: cantaloupe-raw-frozen-edible-flesh-wet-weight
-    speciation: total-Hg-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 172]
     p95_ppb: 234
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -65,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 92]
-    p95_ppb: 114
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: cantaloupe-raw-frozen-edible-flesh-wet-weight
-    speciation: total-Cr-only
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -81,83 +75,47 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 3
 ---
 
 # Cantaloupe
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 2 jurisdictions, top IN 50% | only 2 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 13 claims checked, 13 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cantaloupe: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 89, "Cantaloupe, raw/frozen." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals
 
-Cantaloupe (Cucumis melo) is a cucurbit fruit with one of the lowest heavy metal accumulation profiles among common food crops. The edible interior flesh is protected by a thick, netted outer rind that physically separates it from direct soil contact, and the plant does not prioritize metal translocation to fruit tissue in the way that leafy vegetables or root crops do. Lead uptake from soil into melon flesh is limited both by physical rind protection and by the low phloem mobility of Pb, which restricts translocation from roots to developing fruit. Cadmium uptake is higher in cucurbits than lead, but cantaloupe flesh still shows Cd well below levels typical of brassica vegetables or root crops in the same soil. The FDA FY2018-FY2020 Total Diet Study confirms this low-accumulation pattern, with Pb, Cr, tHg, and U below the reporting limit across all 27 composites and Cd in the single-digit to low-teen ppb range [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]; those below-limit results are carried as left-censored bounds rather than as measured zeros (see the Synthesis basis and censoring treatment section), and a riverbank-grown Indian cantaloupe survey detected low but non-zero lead and chromium in the edible pulp on a dry-weight basis. Nickel and total arsenic are detectable but at modest concentrations. Cantaloupe is not a canned product in the TDS food assessed (TDS Food 89 is raw/frozen), so tin migration from packaging is not a factor for this commodity.
+Cantaloupe (Cucumis melo) is a cucurbit fruit with one of the lowest heavy metal accumulation profiles among common food crops. The edible interior flesh is protected by a thick, netted outer rind that physically separates it from direct soil contact, and the plant does not prioritize metal translocation to fruit tissue in the way that leafy vegetables or root crops do. Lead uptake from soil into melon flesh is limited both by physical rind protection and by the low phloem mobility of Pb, which restricts translocation from roots to developing fruit. Cadmium uptake is higher in cucurbits than lead, but cantaloupe flesh still shows Cd well below levels typical of brassica vegetables or root crops in the same soil. The FDA FY2018-FY2020 Total Diet Study confirms this low-accumulation pattern, with Pb, Cr, tHg, and U at or below the reporting limit, and Cd in the single-digit to low-teen ppb range [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel and total arsenic are detectable but at modest concentrations. Cantaloupe is not a canned product in the TDS food assessed (TDS Food 89 is raw/frozen), so tin migration from packaging is not a factor for this commodity.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | <4–7 | 7 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Cd | n=2 | 2.5–14.8 | 21.6 | high | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–18 | 18.7 | high | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–172 | 234 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | <50–92 | 114 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a cantaloupe raw/frozen edible-flesh wet-weight basis, the form in which the fruit is consumed and the basis FDA Total Diet Study Food 89 reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported lead, total mercury, chromium, and uranium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Cantaloupe, raw/frozen" (n=27), in which every sample fell below the reporting limit for each of these four metals and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], reporting limits Pb 4, tHg 1, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound, and, for lead and chromium, with the detected riverbank-grown cantaloupe values from the one survey that measured the named cultivar by name.
-
-Lead and chromium rest on the FDA censored floor plus a single Indian riverbank survey that measured the cantaloupe muskmelon cultivar (*Cucumis melo* var. Cantaloupe) directly ([[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Elbagory et al. 2025]], ICP-OES, edible pulp, ten Ganges-Yamuna riverbank sites, 2024). That study reports cantaloupe-cultivar lead of 0.03 mg/kg dry weight (range 0.01–0.06) and total chromium of 0.76 mg/kg dry weight (range 0.55–0.95) in dried edible pulp. These are dry-weight pulp values; applying the source's own ~88 percent melon-pulp moisture assumption, the wet-weight equivalents are roughly an order of magnitude lower, near 4 µg/kg (range about 1–7) for lead and near 92 µg/kg (range about 66–114) for total chromium. The pooled lead typical of [0, 7] takes the FDA censored floor as the low bound and the wet-weight-equivalent top of the Elbagory cantaloupe range as the upper, with the 95th-percentile set at that same 7 µg/kg upper anchor. The chromium typical of [0, 92] spans the FDA censored floor to the wet-weight-equivalent Elbagory cantaloupe central, and the 95th-percentile of 114 µg/kg is the wet-weight-equivalent top of the Elbagory cantaloupe range. The wet-weight-equivalent chromium central sits above the FDA chromium reporting limit of 50 µg/kg: the FDA composite places US cantaloupe chromium below 50 µg/kg, while the riverbank-grown Indian pulp converts to a higher figure, a contradiction most plausibly explained by the source's dry-weight-to-wet-weight conversion uncertainty and by riverbank cultivation under contaminated irrigation; the cell is therefore held at low confidence with the tension stated rather than averaged away. Both cells are held at low confidence: only two contributors exist, the only positive measurements are dry-weight pulp from a single contaminated-irrigation growing region, and the FDA composite is fully censored. Chromium is reported as total chromium only; no cantaloupe hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred.
-
-Total mercury rests on the FDA censored floor alone. No source in the corpus reports a cantaloupe-specific positive value: the FDA TDS composite is below the 1 µg/kg reporting limit across all 27 composites, and neither the Elbagory riverbank survey nor the Malaysian rock-melon survey measured mercury. The cell is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and no upper bound or 95th-percentile, at low confidence and a single contributor. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no other source reports an extractable quantitative cantaloupe value, so no distribution is published (the rice-uranium precedent). Inorganic arsenic remains a reviewed data gap because no speciated measurement exists for this ingredient; total arsenic is held distinct from it and is unchanged in this pass.
-
-A second cantaloupe-relevant survey, the Malaysian rock-melon study ([[sources/rashid2015-metals-rock-melon-malaysia|Rashid and Yaacob 2015]], *Cucumis melo* cv. Glamour), reports much higher pulp lead (1.82 mg/kg) and total chromium (6.42 mg/kg) but is excluded from the pooled cantaloupe percentiles on two grounds: it measured a different muskmelon cultivar marketed as rock melon rather than cantaloupe, and its farms were deliberately selected because preliminary testing had already shown elevated metals, with an unstated wet-versus-dry-weight basis and no reported limits of detection or quality control. It is carried below as a stratified broad-melon outlier, not relabeled as cantaloupe.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cd | n=2 | 2.5–14.8 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–18 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–172 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -169,7 +127,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -178,21 +136,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Cantaloupe, raw/frozen" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 2.46 | 7.1 | 14.8 | 21.6 | 36 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 75 | 172 | 234 | 270 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 7 | 18 | 18.7 | 26 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 36 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 270 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 26 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study reports Cd in cantaloupe (raw/frozen) in the range of 0 to 36 ppb (median 7.1 ppb, p90 14.8 ppb, n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 270 ppb (median 75 ppb, p90 172 ppb), which is unexpectedly high relative to other low-accumulation fruits and may warrant confirmation with independent sources. Total arsenic ranged from 0 to 26 ppb (median 7 ppb). Pb, Cr, tHg, and U were below the reporting limit across all 27 composites; these are left-censored bounds, not measured zeros, so they constrain the flesh metal burden from above rather than establishing it at zero. The one survey that measured the cantaloupe cultivar by name, a riverbank-grown Indian study, detected low but non-zero lead and total chromium in the dried edible pulp ([[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Elbagory et al. 2025]]): cantaloupe-cultivar lead averaged 0.03 mg/kg dry weight (range 0.01–0.06) and total chromium 0.76 mg/kg dry weight (range 0.55–0.95), which convert to roughly 4 and 92 µg/kg wet weight respectively under the source's ~88 percent moisture assumption. Cadmium and total arsenic in that survey ran 0.05–0.20 and 0.02–0.08 mg/kg dry weight, consistent with the modest FDA wet-weight figures. The Malaysian rock-melon survey ([[sources/rashid2015-metals-rock-melon-malaysia|Rashid and Yaacob 2015]]) reports far higher pulp lead (1.82 mg/kg) and total chromium (6.42 mg/kg) in a different muskmelon cultivar grown on farms deliberately selected for known contamination, with an unstated reporting basis; it is an upper-bound broad-melon outlier rather than a representative cantaloupe value and is not pooled into the cantaloupe percentiles. The Ni values are the most notable finding in the FDA TDS data for this commodity; the corpus currently does not include independent studies to confirm or contextualize the cantaloupe Ni range. Geographic variation is expected to be minimal in protected commercial flesh given the physical protection afforded by the rind, but riverbank and contaminated-irrigation cultivation can lift pulp lead and chromium well above the low-accumulation baseline, as the Indian and Malaysian surveys show.
+The FDA FY2018-FY2020 Total Diet Study reports Cd in cantaloupe (raw/frozen) in the range of 0 to 36 ppb (median 7.1 ppb, n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 270 ppb (median 75 ppb), which is unexpectedly high relative to other low-accumulation fruits and may warrant confirmation with independent sources. Total arsenic ranged from 0 to 26 ppb (median 7 ppb). Pb, Cr, tHg, and U were at or below the reporting limit across 27 composites. The Ni values are the most notable finding in the TDS data for this commodity; the corpus currently does not include independent studies to confirm or contextualize the cantaloupe Ni range. Geographic variation is expected to be minimal given the physical protection afforded by the rind; regional soil quality differences that substantially affect root or leafy vegetables have a smaller impact on cucurbit flesh.
 
 ## Processing effects
 
@@ -232,10 +190,18 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in fruit of 0.10 mg/kg (100 ppb) wet weight and for Cd in fruit of 0.050 mg/kg (50 ppb) wet weight. Cantaloupe falls under these general fruit limits. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets analogous Cd limits for fruit. No specific FDA action levels for cantaloupe are currently operative. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], any cantaloupe puree marketed as a food for young children would fall within the scope of Pb action levels under development for fruit-based baby foods.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -245,15 +211,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

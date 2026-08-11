@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Naseem & Bashir 2026 — Seasonal fluctuation of heavy metals in water and fish (TEMJ review)
 
+## Overview
+
 Naseem Bhanu (Research Scholar) and Haroom Bashir (Assistant Professor), both at Sunrise University, Alwar, Rajasthan (India), published a four-section narrative review in Transformative Education: A Multidisciplinary Journal (TEMJ), Volume 2 Issue 1, January 2026 (pp. 99–105). The paper has no original measurements, no quantitative meta-analysis, no concentration tables, and no figures: it is a textbook-style overview of how rainfall, temperature, pH, dissolved oxygen, sediment dynamics, and fish physiology jointly drive within-year variability in dissolved-metal concentrations in water bodies and in metal bioaccumulation in fish tissues. The metals named in the body text are lead, cadmium, mercury, chromium, arsenic, copper, zinc, and nickel; speciation is not addressed, so total mercury and total arsenic are the only defensible readings of the paper's mercury and arsenic discussion.
 
 ## Key numbers
@@ -75,15 +77,15 @@ Narrative theoretical review structured in four sections (Introduction; Heavy me
 - The brand-firewall (Part 12) is not implicated: the paper names no brands, no products by trade name, and no specific water bodies or fisheries. The wiki/HMT&C firewall (Part 2) is not implicated: the paper proposes no thresholds and the Implications section here explicitly disclaims HMT&C use.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

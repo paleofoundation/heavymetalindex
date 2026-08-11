@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Karavoltsos et al. 2020 — Copper complexation and 16 trace metals in Greek vinegars
 
+## Overview
+
 This study applied differential pulse anodic stripping voltammetry (DPASV) to characterize copper complexing capacity in 43 vinegars retailed in Greece, and used ICP-MS to quantify 16 trace elements (Al, As, Ba, Cd, Co, Cr, Cs, Cu, Fe, Mn, Ni, Pb, Rb, Sr, V, Zn). Balsamic vinegars consistently showed higher concentrations of Al, Cr, Fe, Mn, Rb, Co, Sr, and Cs compared to common vinegars, reflecting their production from cooked concentrated grape must. Of the toxicologically significant metals, Pb concentrations reached 86 µg/L in one balsamic red vinegar with honey, and two samples (5% of total) exceeded the California state maximum-allowed Pb intake equivalent of 34 µg/L; total As and Cd were lower but detectable.
 
 ## Key numbers
@@ -123,7 +125,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 
 - Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_copper-complexing-capacity-and-trace-metal-content` handle.
 - Correct the truncated `raw_path` (prior path was missing the space after "Kimi" and truncated the filename mid-word).
-- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated (CLAUDE.md Part 14).
+- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated.
 - Expand `metals:` to all 16 elements the paper actually measures by ICP-MS, for documentary fidelity. The routing layer maps only HMTc-relevant abbreviations (tAs, Pb, Cd, Al, Cr, Ni, Cu) into product-row rows; the remainder (Fe, Mn, Zn, Co, Ba, Cs, Rb, Sr, V) are recorded for the page's documentary completeness, consistent with the convention used on the sibling vinegar paper [[ozbek2016-mip-oes-turkish-vinegars]].
 - Simplify `matrices:` from the prior over-granular `[balsamic-red-vinegar, balsamic-white-vinegar, wine-red-vinegar, wine-white-vinegar, apple-cider-vinegar, fruit-vinegar]` to the broadest accurate set `[balsamic-vinegar, wine-vinegar, apple-cider-vinegar, fruit-vinegar]` per the broad-scope-frontmatter rule in `docs/gpt-collaboration/system-prompt.md`. Subgroup detail (BR, BRH, BW, WR, WW, F) remains in the body, which is where it belongs.
 - Add `wine-vinegar` and `apple-cider-vinegar` to `ingredients:` (the WR and WW samples are wine vinegars; the apple-fruit samples in F are apple-cider vinegars).
@@ -140,15 +142,15 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 Auto-audit subagent (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 all clean. The sole ⚠️ flagged `fruit-vinegar` in `matrices:` as not present in the taxonomy snapshot. Verified against the corpus: the matrices vocabulary is documented in `docs/gpt-collaboration/system-prompt.md` as "bare strings; broad scope" with the rule that the snapshot's "common matrices" list is illustrative and category-specific extensions are accepted (the routing layer treats matrices as a free-text controlled-by-convention field, not a closed enumeration). The corpus already contains ~18 distinct vinegar-prefixed matrices slugs across other source pages (e.g., `apple-vinegar`, `grape-vinegar`, `pomegranate-vinegar`, `fig-vinegar`, `homemade-vinegar`, `date-vinegar`, `sherry-vinegar`, `malt-vinegar`, `balsamic-reduction`, `balsamic-glaze`, etc.). `fruit-vinegar` is the source paper's own subgroup label (the "F" subset comprising 3 apple + 1 pomegranate + 1 sea buckthorn) and the routing audit accepts the source with no `routing_malformed` or `routing_unresolved` entry. Finding documented as a false positive; no page change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

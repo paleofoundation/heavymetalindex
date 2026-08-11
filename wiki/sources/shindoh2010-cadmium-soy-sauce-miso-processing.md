@@ -32,6 +32,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shindoh, Abe & Yasui 2010 — Cadmium fate during miso and soy sauce processing
 
+## Overview
+
 Shindoh and coauthors tracked cadmium mass balance through bench-scale laboratory preparation of two traditional Japanese fermented soybean condiments — salty rice miso and koikuchi soy sauce — using two soybean lots of contrasting cadmium content (0.040 µg/g and 0.320 µg/g fresh weight). The processing fate of cadmium differed substantially between the two product types. In rice miso preparation, 83% of the total cadmium in the raw soybeans remained in the final product, regardless of starting soybean cadmium level. In koikuchi soy sauce preparation, only 43% (soybean A) to 53% (soybean B) of the soybean cadmium was estimated to transfer to the final raw soy sauce at the bench-scale 60–62% nitrogen yield, with 30–40% of soybean cadmium retained in the pressed soybean cake. The authors note that miso receives material contributions of cadmium from the rice koji ingredient as well — 69% of total cadmium in soybean-A miso was attributable to rice koji rather than to soybeans — so the rice koji input becomes important to cadmium loading whenever the soybean itself is comparatively clean. For soy sauce, the soybean lot's processing characteristics rather than starting cadmium content appear to govern transfer to the final product, with the moromi-mash pressing step identified as the key locus of cadmium partitioning between liquid (soy sauce) and solid (cake) fractions.
 
 ## Key numbers
@@ -136,7 +138,7 @@ The analytical procedure follows the method used by the Ministry of Agriculture,
 
 **Soybean processing.** 1 kg of raw soybeans was soaked in 3 L of water overnight, drained, and autoclaved under steam pressure of 0.7 kg/cm² (112 °C) for 30 min, yielding approximately 2.20 kg of autoclaved soybeans (the moisture-driven mass increase).
 
-**Salty rice miso preparation.** Target composition: 12% salt, 45% moisture. The 2.20 kg of autoclaved soybeans was mixed with 0.92 kg of rice koji (soybean : rice = 10 : 8, w/w), 0.44 kg of sodium chloride, and a quantity of water adjusted to the moisture content of each mixed material. The mixture was minced with a hand-turned meat grinder, placed into a 3-L beaker under a 0.8-kg weight for pressing, and fermented at 30 °C for 40 days.
+**Salty rice miso preparation.** Target composition: 12% salt, 45% moisture. The 2.20 kg of autoclaved soybeans was mixed with 0.92 kg of rice koji (soybean: rice = 10: 8, w/w), 0.44 kg of sodium chloride, and a quantity of water adjusted to the moisture content of each mixed material. The mixture was minced with a hand-turned meat grinder, placed into a 3-L beaker under a 0.8-kg weight for pressing, and fermented at 30 °C for 40 days.
 
 **Koikuchi soy sauce preparation.** The 2.20 kg of autoclaved soybeans was mixed with 1.00 kg of roasted and crushed wheat, inoculated with 0.4 g of tane-koji (mold spore inoculum, Nihon Jozo Kogyo Corp., Tokyo), and incubated at 25–30 °C under 95% relative humidity for 3 days to make soy sauce koji. The koji was mixed with 2.7 L of 23% sodium chloride solution in a 5-L beaker to form the moromi mash, which was fermented under the following temperature programme (Shimura 1998, Nippon Jozo Kyokai Shi 93, 120–128): 15 °C for the first 20 days, 25 °C for 10 days, 30 °C for 30 days, and 25 °C for the final 90 days. Moromi was stirred occasionally during fermentation. After fermentation, the mash was filtered through a small centrifugal filter (SYG-3800-15A, Sanyo Physical & Chemical Appliances Mfg. Co., Tokyo, mesh 15A, 6000 rpm for 10 min) to separate raw soy sauce from cake.
 
@@ -192,7 +194,7 @@ Not appropriate for:
 - **Evidence-tier B rationale.** Peer-reviewed institutional technical report with replicated cadmium analyses (n=2 or 3 per sample) and explicit mass-balance accounting. Methodological strength: APDC-butyl-acetate extraction is the published MAFF cadmium method for high-salt matrices, and the AAS detection limit is well below the measured cadmium concentrations. Primary tier-B limitations: n=2 soybean lots, single-laboratory bench-scale preparation rather than commercial process, and the scanned-PDF tables (Tables 1–4) carry numerical entries (moisture %, Cd content µg/g fw, weight g, total Cd µg, yield %) that did not extract cleanly through the OCR pipeline. The tabular standard deviations therefore appear as `±` placeholders in the Key numbers tables above; the numerical values were verified against the body-text discussion of the same tables, which independently states the 83% miso retention, 43–53% soy sauce transfer, the 31%/69% and 78%/22% miso source-attribution splits, the 37%/63% and 82%/18% moromi source-attribution splits, the 60% and 62% nitrogen yields, the 53.6% and 49.0% cake moisture values, and the 3257 g and 3557 g soy sauce yields.
 - **Year attribution.** The PDF carries `平成 21年10月30日受付 / 平成 21年10月30日受理` (received and accepted 2009-10-30); the journal is Rep. Nat'l Food Res. Inst. No. 74, which was published in 2010 (the references include a MAFF URL "Accessed 5 Jan 2010" indicating editorial-period dating consistent with a 2010 issue). Cite-key year is 2010.
 - **No DOI.** Reports of the National Food Research Institute are not routinely DOI-minted; `doi: null` with `no_doi_assigned: true` and a Google Scholar search `access_url` is the documented fallback pattern (see `wiki/lint/2026-05-13-doi-fallback-followup.md`). NARO maintains an institutional repository where the report PDF can be retrieved, but no stable DOI redirect or verified institutional-repository URL was identified during ingest. A future FIX-MISSING-DOIS pass may upgrade the `access_url` to the NARO repository URL if confirmed.
-- **`soy-sauce` and `miso` product slugs absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Current routing uses `[[products/condiments-general]]` for the soy-sauce side and `[[products/soy-products]]` for the miso side. Per CLAUDE.md, this ingest skill does not create product pages; the gap is logged for the taxonomy review pass.
+- **`soy-sauce` and `miso` product slugs absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Current routing uses `[[products/condiments-general]]` for the soy-sauce side and `[[products/soy-products]]` for the miso side. This ingest skill does not create product pages; the gap is logged for the taxonomy review pass.
 - **Folder placement.** PDF is filed under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/`. The folder is the upstream sorter's category and is preserved (immutable per Part 4). This is the fifth file in the 03_Condiments subfolder; companion sources from the same subfolder include `rodriguez2009-fish-sauce-arsenic-speciation.md` (02_Rodriguez) and `bergerritchie2013-hot-sauce-lead.md` (likely earlier in the numbered sequence).
 
 ## Wiki pages this source may touch
@@ -209,15 +211,15 @@ Not appropriate for:
 - Future [[ingredients/rice-koji]] (does not yet exist; rice is the current routing destination)
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

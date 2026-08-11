@@ -34,6 +34,8 @@ audience: [regulator, educator, app]
 
 # IARC Monograph Volume 49 (1990) — Chromium, Nickel and Welding
 
+## Overview
+
 The IARC Working Group convened in Lyon (5-13 June 1989) reviewed the human, animal, and mechanistic evidence for chromium compounds, nickel compounds, and welding fume exposures, and issued the foundational carcinogenicity classifications that subsequent food-safety, occupational-health, and drinking-water authorities continue to cite. The volume establishes Cr[VI] compounds (as encountered in chromate production, chromate pigment production, and chromium plating) and nickel compounds (sulfate and sulfide/oxide combinations encountered in refining) as Group 1 human carcinogens; metallic chromium and Cr[III] are Group 3; metallic nickel is Group 2B; welding fumes are Group 2B. The monograph also catalogues background concentrations of chromium and nickel in food, drinking water, air, and human biological samples, plus the analytical methods then in use across all those matrices.
 
 ## Key numbers
@@ -134,14 +136,15 @@ Source-handling notes:
 - Audit subagent (2026-06-04) flagged the gloss "(dry weight equivalent)" on the Ni EAAS tissue/food/faeces detection limit. The PDF p. 317 prints "10 ng/g (dry wet)" — an ambiguous/typesetting fragment; "(dry weight equivalent)" is retained because the EAAS sample-preparation conventions for tissues and foods in Table 21 use acid digestion of dry-weight-equivalent material, and the gloss is the standard interpretation in clinical-chemistry usage of this monograph. Verified against the source but the gloss is interpretive, not verbatim.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [d34b553](https://github.com/paleofoundation/heavymetalindex/commit/d34b553) | 2026-06-03 | ingest June 3: iarc1990-chromium-nickel-welding |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

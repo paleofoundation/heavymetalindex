@@ -40,6 +40,8 @@ updated: 2026-06-08
 
 # FDA TDS — Fiscal Years 2018-2020 Elements Data Report
 
+## Overview
+
 The July 2022 FDA Total Diet Study Report is the first analytical report from the modernized TDS (population-based sampling across six US regions, redesigned food list, expanded baby-food sampling). It summarizes element concentrations for lead, total and inorganic arsenic, cadmium, total mercury, nickel, chromium, uranium, and select nutrient elements across 3,276 composite food/beverage/water samples collected in fiscal years 2018–2020 and analyzed for up to 25 elements per sample by ICP-AES and ICP-MS, with HPLC-ICP-MS speciation of total arsenic in 54 selected samples. Toxic elements were not detected in the majority of analytical results (68%); all measured concentrations for foods covered by FDA Action Levels (apple juice, chocolate/hard candy, infant rice cereal) or bottled-water standards fell below those levels. This report is the narrative companion to the row-level CSV dataset captured by [[sources/fda2022-tds-elements-fy2018-fy2020]] and the field-definition documentation in [[sources/fda2022-tds-elements-analytical-key]].
 
 ## Key numbers
@@ -273,15 +275,15 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - [[regulations/fda-cpg-540-600-methylmercury-fish]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [91de7ee](https://github.com/paleofoundation/heavymetalindex/commit/91de7ee) | 2026-06-08 | ingest: fda-tds-elements-2018-2020 duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_01_Fruits_and_Fruit_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [91de7ee31](https://github.com/paleofoundation/heavymetalindex/commit/91de7ee31) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Normatov et al. 2025 - Syrdarya river heavy-metal migration
 
+## Overview
+
 Normatov and colleagues monitored heavy-metal migration and sedimentation along the Syrdarya River in Tajikistan, with attention to the Kayrakkum Reservoir and irrigation-water relevance. This is upstream water-pathway evidence: it measures metals in river water and models mobility/sedimentation, not bottled or mineral-water products.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: Context only. The paper supports upstream water-pathway explanations, not c
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The paper is a3 irrigation-water and river-source-pathway evidence.
 
 Text extraction preserved the abstract, methods narrative, Table 3, Table 4, and captions. The heavy-metal distribution values were printed in Figure 3 rather than a text table; I transcribed only labels that were visually legible from the rendered PDF page image and explicitly marked them as deviations from the river average, not absolute concentrations. No product or ingredient routes are assigned.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

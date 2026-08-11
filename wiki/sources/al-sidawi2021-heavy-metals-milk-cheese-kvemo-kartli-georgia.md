@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study characterized 11 elements (Cr, Mn, Fe, Co, Ni, Cu, Zn, Se, Mo, Cd, Pb) in raw cow's milk (n=195, 9 villages) and traditional Georgian cheeses (n=25; 16 Imeruli, 9 Sulguni) from the Kvemo Kartli region of Georgia, an agricultural area along the Mashavera River with documented soil, water, and pasture contamination from the Madneuli polymetallic mining plant (operating since 1975) and the RMG gold/copper mine (since 2014). Quantification was by ICP-MS (Agilent 7800) on samples ashed with concentrated HNO3 (65%) in a muffle furnace, with quality control via ISO 17034 traceable CRMs and the GOST 26929-94 Georgian national method. Mean Cd in milk was below LOD (<0.001 mg/L) in all villages. Mean Pb in milk ranged 0.004–0.048 mg/L across villages, with seven individual samples exceeding the EU limit of 0.020 mg/L in Kvemo Bolnisi, Bolnisi, Mtskneti, and Ratawani. Cu means in Sabereti and Vanati (0.568 and 0.592 mg/L) exceeded the EU limit of 0.4 mg/L. In cheese, Pb in both Imeruli (mean 0.121 mg/kg ww) and Sulguni (mean 0.258 mg/kg ww) exceeded the EU/Codex maximum level of 0.020 mg/kg but were below the Georgian regulation MPC of 0.500 mg/kg; Mn, Cr, Se, Mo, Zn, and Fe in both cheeses also exceeded the cited permissible limits. A t-test showed Sulguni cheese had significantly higher Cr, Se, Mn, Pb, Co, Cu, and Ni than Imeruli cheese, consistent with the fact that Sulguni is made by re-processing Imeruli curd and that heavy metals partition preferentially into the casein/curd fraction. A second t-test on milk samples grouped by river basin showed significantly higher Fe, Mn, Cu, Pb, and Cr in the Mashavera-region villages than in the Khrami-region villages.
 
 ## Key numbers
@@ -160,15 +162,15 @@ App: Contributes per-village raw cow's milk and traditional Georgian cheese occu
 **Products field.** `products: []` is retained because no raw-cow-milk or traditional-cheese product slug exists in the current taxonomy; the Category 5 (Dairy/Eggs/Alternatives) Step 0 Lock has not yet been authored. The matrices field carries the product-form specificity (`raw-cow-milk`, `cheese`, `imeruli-cheese`, `sulguni-cheese`).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

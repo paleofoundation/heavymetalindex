@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Wei et al. 2021 - eggshell and ureolytic bacteria for Pb/Cd remediation
 
+## Overview
+
 Wei and colleagues tested microbially induced carbonate precipitation as a remediation strategy for Pb- and Cd-contaminated water and soil. The source is mitigation evidence, not mineral-water occurrence evidence: all Pb and Cd values are spiked-solution or spiked-soil treatment endpoints.
 
 ## Key numbers
@@ -66,3 +68,17 @@ App: Context only. The source does not estimate consumer-product contamination p
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated "not bottled/mineral-water occurrence" as exclusionary, but the paper is in-scope a2 mitigation/remediation evidence.
 
 All numbers above were re-checked against the extracted PDF text, including the abstract, Materials and Methods, Tables 1 and 2, and the Results sections on removal efficiency, Pb/Cd fractionation, DTPA-extractable metals, pH/CEC, and enzyme activity. Units are preserved as reported. The source is a Research Square preprint; the title page states that a version of record was published in Environmental Science and Pollution Research with DOI 10.1007/s11356-021-15138-0.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

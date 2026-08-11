@@ -14,13 +14,15 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 7
+sources: 8
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Carpet cleaners
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cleaning and Dishwashing), Row 8: **Carpet cleaners**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [carpet-cleaners]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cleaning and Dishwashing), Row 8: **Carpet cleaners**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [carpet-cleaners]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +32,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Carpet cleaners, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Carpet cleaners, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Carpet cleaners, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Carpet cleaners, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in carpet cleaners. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in carpet cleaners. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **EPA (Safer Choice), Green Seal, state disclosure laws**.
 
@@ -102,7 +104,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -111,20 +113,21 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/greenseal2024-gs37-industrial-institutional-cleaners\|Green Seal 2024]]. *GS-37: Green Seal Standard for Cleaning Products for Industrial and Institutional Use — Edition 7.8 (New Format), June 23, 2022 (corrections/clarifications last made August 23, 2024)*, Green Seal, Inc. — voluntary environmental certification standard for industrial and institutional general-purpose, restroom, glass, and carpet cleaners. Edition 7.8 (New Format) was issued June 23, 2022, replacing Edition 7.7 (November 11, 2021); the version retrieved (filename Green_Seal_GS-37_Industrial_Institutional_Cleaners_2024.pdf, ©2024 Green Seal, Inc.) carries corrections/clarifications last made on August 23, 2024 per the Foreword. 27 pages including five normative annexes (A Definitions, B Closed Dilution-Control System, C Powders/Solids/Non-Aqueous Liquids, D Enzymes, E Microorganisms) and an informative Appendix 1 enumerating in-scope and out-of-scope product categories. | 2024 | Regulatory standard | US [[metals/lead]], [[metals/mercury]], [[metals/cadmium]], [[metals/chromium-hexavalent]], [[metals/arsenic]], [[metals/nickel]], [[metals/cobalt]], [[metals/manganese]] occurrence in Not applicable: this is the binding text of a third-party voluntary environmental certification standard (Green Seal GS-37 Edition... |
 | 4 | [[sources/greenseal2022-gs8-household-cleaners\|Green Seal 2022]]. *GS-8: Green Seal Standard for Cleaning Products for Household Use, Edition 5.7, June 23, 2022*, Green Seal, Inc. — voluntary environmental certification standard for general-purpose, bathroom, glass, and carpet cleaning products marketed specifically for household use. Edition 5.7 was issued June 23, 2022, replacing Edition 5.6 from November 11, 2021; per the Foreword (p. 4) corrections/clarifications were last made to the standard on January 28, 2022. The version retrieved (filename Green_Seal_GS-8_Household_Cleaners_2022.pdf, ©2021 Green Seal, Inc.) is 22 pages including six main clauses (Scope; Product-Specific Performance Requirements; Product-Specific Health and Environmental Requirements; Packaging Requirements; Product Label Requirements; Trademark Use Requirements), four normative annexes (A Definitions, B Powders/Solids/Non-Aqueous Liquids, C Enzymes, D Microorganisms), and one informative appendix (Appendix 1 Scope). | 2022 | Regulatory standard | US [[metals/lead]], [[metals/mercury]], [[metals/cadmium]], [[metals/chromium-hexavalent]] occurrence in Not applicable: this is the binding text of a third-party voluntary environmental certification standard (Green Seal GS-8 Edition... |
 | 5 | [[sources/nydec2020-cleansing-product-disclosure-bmp\|New York State Department 2020]]. *Cleansing Product Information Disclosure Program — Recommended Best Management Practices*, New York State Department of Environmental Conservation (NY DEC) — undated post-court-ruling Recommended Best Management Practices (BMP) document supporting the statutory household-cleansing-product disclosure requirement at 6 NYCRR Part 659.6 (authorised by Environmental Conservation Law (ECL) Article 35). The predecessor Program Policy on Household Cleansing Product Information Disclosure was declared null and void by the NYS Supreme Court (Household & Commercial Products Association v. Seggos, ruling issued August 2020); DEC maintains the present BMP document as recommended practice while moving forward to implement the underlying statute and regulation. Document text references EPA's pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS (70 ppt combined), consistent with pre-July-2020 publication of the BMP framework prior to NY DOH's August 2020 adoption of stricter state MCLs for those chemicals. | 2020 | Government guidance | US-NY Pb, Cd, tAs, tHg, Cr-VI, Ni occurrence in Not applicable: post-2020 court-ruling Recommended Best Management Practices (BMP) guidance document. The 22-page document (sections A. Form of... |
-| 6 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
-| 7 | [[sources/greenseal2009-gs37-version-comparison\|Green Seal 2009]]. *Version Comparison of Green Seal's Environmental Standard for Industrial and Institutional Cleaners, GS-37 — Third Edition (February 27, 2006) vs. Fourth Edition (August 29, 2008)*, Green Seal, Inc. — version-comparison document (18 pages, dated August 29, 2009) for the GS-37 Environmental Standard for Industrial and Institutional Cleaners, presenting the Third Edition (February 27, 2006) and the Fourth Edition (August 29, 2008) of GS-37 side by side in tabular form, with revised criterion language highlighted in red. The document expressly states (p. 1) that 'This is not the complete standard or criteria, but rather differences between the two versions. Please refer to the complete standard for exact criteria and the list of acronyms and abbreviations, available at www.greenseal.org.' | 2009 | Regulatory standard comparison | US [[metals/lead]], [[metals/mercury]], [[metals/cadmium]], [[metals/chromium-hexavalent]], [[metals/chromium]], [[metals/arsenic]], [[metals/nickel]], [[metals/cobalt]] occurrence in Not applicable: a programme-comparison document, not an experimental study and not the binding GS-37 standard text. The document... |
+| 6 | [[sources/bcpp2017-ca-sb258-factsheet\|Partners et al. 2017]]. *SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet*, Coalition advocacy factsheet (two-page NGO joint-statement document) in support of California SB 258 (Sen. Ricardo Lara), the Cleaning Product Right to Know Act of 2017. Headers carry the logos of Breast Cancer Prevention Partners (BCPP), Environmental Working Group (EWG), Natural Resources Defense Council (NRDC), and Women's Voices for the Earth (WVE), in that order. Contact block on p. 2 names Nancy Buermeyer (BCPP), Bill Allayaud (EWG), Avi Kar (NRDC), and Jamie McConnell (WVE). | 2017 | NGO report | This is a two-page coalition advocacy factsheet circulated by Breast Cancer Prevention Partners (BCPP), the Environmental Working Group (EWG), the... |
+| 7 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
+| 8 | [[sources/greenseal2009-gs37-version-comparison\|Green Seal 2009]]. *Version Comparison of Green Seal's Environmental Standard for Industrial and Institutional Cleaners, GS-37 — Third Edition (February 27, 2006) vs. Fourth Edition (August 29, 2008)*, Green Seal, Inc. — version-comparison document (18 pages, dated August 29, 2009) for the GS-37 Environmental Standard for Industrial and Institutional Cleaners, presenting the Third Edition (February 27, 2006) and the Fourth Edition (August 29, 2008) of GS-37 side by side in tabular form, with revised criterion language highlighted in red. The document expressly states (p. 1) that 'This is not the complete standard or criteria, but rather differences between the two versions. Please refer to the complete standard for exact criteria and the list of acronyms and abbreviations, available at www.greenseal.org.' | 2009 | Regulatory standard comparison | US [[metals/lead]], [[metals/mercury]], [[metals/cadmium]], [[metals/chromium-hexavalent]], [[metals/chromium]], [[metals/arsenic]], [[metals/nickel]], [[metals/cobalt]] occurrence in Not applicable: a programme-comparison document, not an experimental study and not the binding GS-37 standard text. The document... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

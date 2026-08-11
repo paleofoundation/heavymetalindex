@@ -35,7 +35,7 @@ updated: 2026-06-09
 
 ## Summary
 
-This is a Clinical Pharmacology & Toxicology "Pearl of the Week" educational bulletin from the Alberta Health Services Clinical Pharmacology service (University of Calgary Cumming School of Medicine, reviewed 2026-04-20). It summarizes four poison-centre case reports of harm from unauthorized injectable peptides (a 66-fold GHK-Cu overdose, an acute CJC-1295 reaction, a peptide-polypharmacy inflammatory response, and an adolescent acute kidney injury / hypoglycaemia case) and reviews the category-level safety problem. The Heavy Metal Index relevance is contained in two general claims drawn from prior literature: that "some [unauthorized injectable peptides] contain toxic contaminants (e.g., arsenic, lead) or undeclared drugs," and that "falsified peptides have been found to contain arsenic (up to 10× ICH limits), lead, endotoxins, and incorrect or absent active ingredients." Both claims are tertiary — they cite [[sources/janvier2018-falsified-peptides-elemental-impurities|Janvier et al. 2018]] and Vanhee et al. 2015 rather than reporting original measurements — but the bulletin establishes that heavy-metal contamination of unauthorized injectable peptides is now part of formal clinician-facing toxicology guidance from a Canadian poison-control programme. It also documents Health Canada enforcement actions against named vendors of unauthorized injectable peptides (a regulatory-event context per CLAUDE.md Part 12 Exception 1).
+This is a Clinical Pharmacology & Toxicology "Pearl of the Week" educational bulletin from the Alberta Health Services Clinical Pharmacology service (University of Calgary Cumming School of Medicine, reviewed 2026-04-20). It summarizes four poison-centre case reports of harm from unauthorized injectable peptides (a 66-fold GHK-Cu overdose, an acute CJC-1295 reaction, a peptide-polypharmacy inflammatory response, and an adolescent acute kidney injury / hypoglycaemia case) and reviews the category-level safety problem. The Heavy Metal Index relevance is contained in two general claims drawn from prior literature: that "some [unauthorized injectable peptides] contain toxic contaminants (e.g., arsenic, lead) or undeclared drugs," and that "falsified peptides have been found to contain arsenic (up to 10× ICH limits), lead, endotoxins, and incorrect or absent active ingredients." Both claims are tertiary — they cite [[sources/janvier2018-falsified-peptides-elemental-impurities|Janvier et al. 2018]] and Vanhee et al. 2015 rather than reporting original measurements — but the bulletin establishes that heavy-metal contamination of unauthorized injectable peptides is now part of formal clinician-facing toxicology guidance from a Canadian poison-control programme. It also documents Health Canada enforcement actions against named vendors of unauthorized injectable peptides (a regulatory-event context Exception 1).
 
 ## Key numbers
 
@@ -86,3 +86,17 @@ Educational clinical bulletin; not an analytical study. Sources of information c
 - `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in `docs/gpt-collaboration/system-prompt.md`. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
 - Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
 - Sample sizes (`sample_n:`) intentionally null because the four cases are clinical reports, not analytical samples; the underlying contamination claims have their own sample sizes on the cited primary sources.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

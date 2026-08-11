@@ -4,8 +4,8 @@
   "product": {
     "slug": "products/sunflower-seed-butter",
     "title": "Sunflower Seed Butter",
-    "hmtc_category": 4,
-    "hmtc_row": 16,
+    "hmtc_category": 28,
+    "hmtc_row": 5,
     "category_label": "Fruits, Vegetables, and Produce",
     "age_range": null,
     "label": "Sunflower Seed Butter",
@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sunflower-seed-butter",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8fb4b6ac1659d207bad5e86365fd937a9539c8dd556c7a47f426bf6b7c31c167",
-      "content_bytes": 10597,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "79374d321fc041159da7b89425c3e4b003b956f7d4ea7f4c44e0632a4f0931b7",
+      "content_bytes": 11341,
+      "last_commit_sha": "ad172bca7",
+      "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/sunflower-seed-butter.md | sha256sum"
+      "verify_command": "git show ad172bca7:wiki/products/sunflower-seed-butter.md | sha256sum"
     }
   },
   "evidence_base": {

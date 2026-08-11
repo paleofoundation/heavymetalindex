@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Falandysz et al. 2020 - Mercury in Yunnan wild and medicinal fungi
 
+## Overview
+
 Falandysz and colleagues measured total mercury in traditionally foraged edible and medicinal fungi from Yunnan province, China, and compared low-mercury wood-decaying medicinal species with higher-mercury soft-flesh edible Boletaceae and related mushrooms. The study is occurrence evidence for total mercury in wild mushrooms, medicinal mushroom materials, and mushroom-derived capsule exposure scenarios; it does not report methylmercury concentrations in the occurrence table.
 
 ## Key numbers
@@ -75,3 +77,17 @@ App: Can inform wild-mushroom and mushroom-supplement mercury priors, especially
 ## Verification notes
 
 This page was built from the PDF title/byline, abstract, methods, Table 1, results, exposure-estimation discussion, and topsoil context. The page uses `tHg` because the reported mushroom occurrence values are total mercury; the discussion mentions methylmercury toxicology but does not provide mushroom methylmercury occurrence rows. Values are dry weight unless explicitly stated otherwise.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

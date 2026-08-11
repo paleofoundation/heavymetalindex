@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Meng et al. 2023 — Electrochemical sensors for heavy metal detection in food
 
+## Overview
+
 Meng and colleagues survey the state of electrochemical sensor (ECS) technology for detecting heavy metals in food matrices through roughly 2022. The review organizes the literature by electrode-modification material — inorganic nanomaterials (Au, Ag, Bi, Pt nanoparticles; metal-oxide nanoparticles including Fe₃O₄, TiO₂, ZnO, MnO₂, MgO, Co₃O₄, Co₂O₃; carbon nanotubes; graphene), organic materials (small molecules such as GSH, DTT, NAC, MPA; polymers including PGA and PPy; metal-organic frameworks), and biomaterials (nucleic-acid aptamers and DNAzymes; enzymes including urease, choline oxidase, catalase) — and assesses each class for sensitivity, selectivity, linear range, and limit of detection. The authors recommend Fe₃O₄/graphene/nucleic-acid composites as the optimal materials combination for electrode modification, balancing economy, sensitivity, specificity, and stability.
 
 ## Key numbers
@@ -125,15 +127,15 @@ B-tier industry-style methods review. CC BY 4.0 license. Coverage is restricted 
 - Audit subagent (2026-05-18) flagged the Bi-CNT bullet under Check 1 as having a Cd/Pb LOD attribution transposition (proposed swap to Pb=0.2 / Cd=0.4). Verified against p. 5 of the source: the actual text reads "the detection of Cd²⁺ and Pb²⁺ with LOD of 0.2 and 0.4 µg L⁻¹" — positional matching gives Cd=0.2 / Pb=0.4, which is what the wiki already had. The subagent's specific value-swap finding is a false positive (the subagent appears to have inverted the source's species order in its quoted excerpt). However, the verification surfaced a real but different error: the LOD pair was misattributed to Hwang et al. 2008 when the source actually attributes it to Chamjangali et al. 2015 (the MWCNT/poly/bismuth-modified CNT well-water electrode); the Hwang 2008 reference in the same paragraph reports a separate stream-water Bi-CNT sensor without LOD values. The bullet has been rewritten to correct the citation attribution while leaving the (correct) Cd=0.2 / Pb=0.4 assignment unchanged.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

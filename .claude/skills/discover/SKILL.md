@@ -59,7 +59,7 @@ For each `novel` candidate, compute `recommend_score`:
 - **+1** if open-access URL is available
 - **+1** if year ≥ 2020
 - **+1** if journal is in the A-tier list (Food Chemistry, Environmental Health Perspectives, Journal of Agricultural and Food Chemistry, Science of the Total Environment, Food Additives & Contaminants, Nature Food, Lancet, NEJM, JAMA, BMJ, EFSA Journal)
-- **−3** if title or abstract contains any negative keyword from `tools/wishlist/find-candidates.mjs`'s NEGATIVE_KEYWORDS list (biosensor, perovskite, transgenic, AMR, case report, etc.)
+- **−3** if title or abstract contains a negative keyword from the *junk-only* categories of `tools/wishlist/find-candidates.mjs`'s NEGATIVE_KEYWORDS — i.e. genuinely off-topic work: sensors/biosensors, materials-science synthesis (perovskite, photovoltaic, MOF), plant molecular-biology gene studies (transcriptomic, CRISPR, transgenic), AMR/microbiology, clinical case reports, and food-as-adsorbent water treatment. **Do NOT down-score in-scope upstream-mechanism, remediation, or exposure literature.** Phytoremediation, phytoextraction, soil-to-plant transfer, transfer factor, atmospheric deposition, exposure assessment, and systematic reviews / meta-analyses are IN SCOPE per CLAUDE.md inclusion-by-default and must not trigger this penalty (the standalone wishlist regex is tuned for the *retail-occurrence* fetch lane, a narrower scope than discovery).
 
 Set `recommend_reason` to a short tag list, e.g. `title-metal+matrix,oa,A-tier,recent`.
 

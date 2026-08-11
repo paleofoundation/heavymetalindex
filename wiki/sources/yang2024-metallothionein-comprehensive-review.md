@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Yang et al. 2024 — Metallothionein: a comprehensive review of classification, structure, biological functions, and applications
 
+## Overview
+
 Yang and colleagues at the Key Laboratory of Precision Nutrition and Food Quality, College of Food Science and Nutritional Engineering, China Agricultural University, with co-authors from the College of Engineering, review the published literature on metallothionein (MT) — a cysteine-rich, low-molecular-weight metal-binding protein first isolated from equine kidneys by Margoshes and Vallee in 1957. The review covers MT classification (15 evolutionary families across vertebrates, invertebrates, plants, and microbes), structure (α- and β-domains forming a dumbbell-like tertiary fold), and five categories of biological function (heavy metal detoxification, antioxidant activity, neuroprotection, anticancer effects, anti-inflammatory effects). Sections 4.1–4.3 then catalogue applications in environmental monitoring and removal of Pb, Cd, Cr⁶⁺, and Ni from contaminated water; in disease prediction and diagnosis (Wilson disease, schizophrenia, hepatocellular carcinoma); and in skincare functional ingredients. The review is a secondary narrative synthesis with no primary measurements; its value to the wiki is conceptual — it organises the MT isoform vocabulary (MT1–MT4, MT1A/B/E/F/G/H/M/X, MT2A) and the chelation chemistry that downstream pages on peptide-based detoxification and metal-binding peptide mechanisms will need.
 
 ## Why this matters
@@ -176,12 +178,15 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Audit subagent (2026-06-08) verdict: REVISE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ at the body level with two ⚠️ findings, both minor; no ❌. (1) Table 1 row 9 initially read "MT expressed by engineered *Rhodococcus* (EcN-MT)"; verified against the PDF Table 1 Cont. on p. 5 and reference [35] (Zou et al. 2022, *Front. Pharmacol.* 13:857869, "Engineered Bacteria EcN-MT Alleviate Liver Injury in Cadmium-Exposed Mice via its Probiotics Characteristics and Expressing of Metallothionein") — the PDF says "engineered bacterium EcN-MT" and EcN denotes *E. coli* Nissle, not *Rhodococcus*; corrected to "engineered bacterium EcN-MT (*E. coli* Nissle, per ref 35)". (2) The auditor flagged `[[mitigation/remediation-evidence]]` in `## Wiki pages this source may touch` as outside the taxonomy snapshot's vocabulary; verified against `wiki/mitigation/remediation-evidence.md` (which exists) and against the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` — finding is a false positive because the taxonomy snapshot scopes ingredients/products/metals/regulations as GPT's drafting vocabulary, not the full wiki section index; the `mitigation/` subtree is a legitimate routing destination (and the same wikilink form is used in the sibling luo2024-peptides-heavy-metal-remediation page). No change applied on finding (2).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a9883dd](https://github.com/paleofoundation/heavymetalindex/commit/a9883dd) | 2026-06-08 | audit: yang2024-metallothionein-comprehensive-review revised |
-| [584b8c3](https://github.com/paleofoundation/heavymetalindex/commit/584b8c3) | 2026-06-08 | ingest: yang2024-metallothionein-comprehensive-review fresh from MFK/June 8/Kimi_Agent_Black Market Peptide Metal Survey |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

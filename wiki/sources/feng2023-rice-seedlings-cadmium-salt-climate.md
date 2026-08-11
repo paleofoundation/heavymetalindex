@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Feng et al. 2023 - Rice seedling cadmium and salt uptake under temperature and CO2 shifts
 
+## Overview
+
 Feng and colleagues exposed rice seedlings to cadmium, sodium chloride, and combined cadmium-plus-sodium stress under two temperatures and three CO2 levels. The study is supply-chain and plant-uptake mechanism evidence for rice cultivation stressors, not market occurrence evidence for rice grain, salt, or finished foods.
 
 ## Key numbers
@@ -93,3 +95,17 @@ App: Context only for rice supply-chain risk explanation. The paper does not pro
 The auto-fetch filename framed this as salt/cadmium. The PDF measures Cd and Na uptake in rice seedlings under controlled climate and hydroponic stress, not heavy metals in market salt. Products are intentionally empty. `ingredients` includes rice because the source directly uses Oryza sativa seedlings and informs rice supply-chain uptake mechanisms, but the page repeatedly marks the data as non-occurrence and non-grain.
 
 The extracted text renders some plant-tissue concentration units as `mg/g DW`, but Figure 2 and Figure 3 captions specify `ug/g dry weight`; the reported Na narrative maximum of about 15 mg/g is consistent with 14898.06 ug/g rather than 14898.06 mg/g. Values above are therefore recorded as ug/g dry weight for Cd and Na tissue ranges, with the source's own mg/g summary retained only where the authors explicitly express the maximum in mg/g.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

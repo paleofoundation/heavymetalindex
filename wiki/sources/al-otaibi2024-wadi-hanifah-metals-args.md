@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Al-Otaibi et al. 2024 - Heavy metals and antibiotic resistance genes in Wadi Hanifah water
 
+## Overview
+
 Al-Otaibi and colleagues sampled Wadi Hanifah surface water in Riyadh, Saudi Arabia, for Li, Be, Cr, Co, total As, Cd, Sn, total Hg, Pb, and antibiotic-resistance genes. The source is primary environmental-water evidence and microbiome/AMR context, not food-product or drinking-water occurrence evidence. Its most useful contribution is the paired metal and ARG screening: the paper reports higher ARG burden upstream, while heavy-metal and ARG correlation was weak and not statistically significant.
 
 ## Key numbers
@@ -99,18 +101,18 @@ The PDF has author attribution and DOI `10.3390/antibiotics13050426`; no DOI con
 
 **2026-06-02 (Claude session, merge-enhance after routing_malformed advisory):** PDF re-read end-to-end against the existing page. Frontmatter `matrices` was `[surface-water, wadi-water, environmental-water, antibiotic-resistance-gene-screening]`; the two invented slugs were removed. `wadi-water` had no corpus precedent outside this page; `antibiotic-resistance-gene-screening` is a screening modality, not a sample matrix. Retained `surface-water` (13 corpus uses) and `environmental-water` (11 corpus uses) as established matrix vocabulary for environmental-water studies. `products`/`ingredients` remain empty (advisory-level routing_malformed entry); this is environmental surface water, not a food or product matrix, so the empty arrays are the honest declaration, not a defect. The paper's own statement that catII was present in 72.2% of sites while listing 14 specific positive sites (1, 3, 4, 5, 6, 9, 10, 12, 13, 14, 15, 16, 17, 18; 14/18 = 77.7%) and that "sites # 12–18 from downstream points" conflicts with the paper's own upstream/downstream split (sites 1-12 upstream, 13-18 downstream) is a minor paper-internal inconsistency in the ARG reporting; the page records the paper's stated aggregate percentage (72.2%) rather than recomputing from the site list. The heavy-metal values in Table 4 are internally consistent and are the routeable record for this page.
 
-**2026-06-02 (audit subagent, Claude general-purpose, REVISE verdict — one ⚠️ finding, rejected as false positive after corpus check):** Audit flagged frontmatter `metals: [Li, Be, Cr, Co, tAs, Cd, Sn, tHg, Pb]` for including `Li`, `Be`, and `Co` outside the HMTc-locked abbreviation list (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U per CLAUDE.md Part 14). Independent corpus check via `grep -l "metals:.*\bX\b" wiki/sources/*.md`: `Co` appears in 120 source pages, `Be` in 15, `Li` in 10. Standard chemical symbols for non-HMTc-canonical metals are an established corpus convention, with `metals/lithium`, `metals/beryllium`, and `metals/cobalt` as backing wiki pages. The HMTc-locked abbreviation list governs the 10 HMTc certification analytes, not the broader chemical-symbol vocabulary used to route literature evidence for any element a paper measures. Finding noted, no edit applied. Numerical fidelity (Tables 3 and 4 spot-checked field-by-field), speciation (correct tAs/tHg/Cr usage), Part 12 brand firewall, and Part 2 HMTc firewall all passed cleanly.
+**2026-06-02 (audit subagent, Claude general-purpose, REVISE verdict — one ⚠️ finding, rejected as false positive after corpus check):** Audit flagged frontmatter `metals: [Li, Be, Cr, Co, tAs, Cd, Sn, tHg, Pb]` for including `Li`, `Be`, and `Co` outside the HMTc-locked abbreviation list (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). Independent corpus check via `grep -l "metals:.*\bX\b" wiki/sources/*.md`: `Co` appears in 120 source pages, `Be` in 15, `Li` in 10. Standard chemical symbols for non-HMTc-canonical metals are an established corpus convention, with `metals/lithium`, `metals/beryllium`, and `metals/cobalt` as backing wiki pages. The HMTc-locked abbreviation list governs the 10 HMTc certification analytes, not the broader chemical-symbol vocabulary used to route literature evidence for any element a paper measures. Finding noted, no edit applied. Numerical fidelity (Tables 3 and 4 spot-checked field-by-field), speciation (correct tAs/tHg/Cr usage), Part 12 brand firewall, and Part 2 HMTc firewall all passed cleanly.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [bf58886](https://github.com/paleofoundation/heavymetalindex/commit/bf58886) | 2026-06-02 | audit: al-otaibi2024-wadi-hanifah-metals-args revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

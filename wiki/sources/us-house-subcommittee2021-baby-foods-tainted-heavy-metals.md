@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # US House Subcommittee 2021 — Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury
 
+## Overview
+
 The U.S. House Subcommittee on Economic and Consumer Policy compiled internal testing records subpoenaed from seven major US baby-food manufacturers between November 2019 and February 2021 and reported sample-level inorganic arsenic, total arsenic, lead, cadmium, and mercury concentrations across ingredient pre-shipment tests and finished-product tests. The staff report aggregates manufacturer-provided test results for products marketed for infants and young children, identifies internal corporate threshold values that exceed every existing US and international regulatory standard for related products (drinking water, infant formula, juice, candy), documents a confidential August 2019 Hain presentation to FDA showing that finished-product inorganic arsenic levels run 28-93% higher than ingredient testing alone predicts, and recommends mandatory finished-product testing, mandatory labeling, voluntary phase-out of high-contamination ingredients (notably rice), uniform FDA action levels across all infant and toddler foods, and parental avoidance guidance. The report is a public-record Congressional oversight document; the manufacturers named are subjects of the investigation per Part 12 Exception 1.
 
 ## Key numbers
@@ -82,15 +84,15 @@ Fresh ingest 2026-06-02 from `raw/manual-fetch/Kimi_Agent_Download Corruption Is
 Audit subagent (2026-06-02) returned QUARANTINE with three ❌ findings; three findings were verified and applied as follows. (1) Finding "Blueberry Beet Rice Cakes at 14 ppb Pb is not in the source": verified correct against PDF page 36, which shows Blueberry Beet Rice Cakes at <4.0 ppb Pb on 10/14/19; the 14 ppb value was a misread, removed. (2) Finding "Stage 2 Apple Spinach Pea and Kiwi descriptor is invented; PDF uses Baby 7+ Months": verified correct, the Stage 2 qualifier was removed, and the branded SKU was replaced with a product-form descriptor. (3) Finding "Part 12 brand firewall violated by branded-SKU + value enumeration (both HappyBABY/Nurture finished-product spot-checks and HBBF non-cooperator product values)": verified correct under the strict 2026-05-17 reading; regulatory-event Exception 1 covers naming the manufacturers as investigation subjects, not reproducing branded-product-name + value rows. Both enumeration paragraphs were rewritten to use product-form aggregations (apple-and-broccoli puff snacks, strawberry-and-beet puff snacks, pea-and-spinach teething wafers, multigrain teething wafers, rice-rusk snacks, quinoa-and-rice puff snacks, multigrain soft-baked snack bars, strawberry-yogurt cereal snacks) while preserving the cooperation-status fact. Finding "ingredients/cumin is not in the taxonomy snapshot" was rejected as a false positive: `wiki/ingredients/cumin.md` exists as a provisional scaffold (created 2026-06-02 by ingest of sabri2025-moroccan-spices-casablanca-metals), so the slug is valid; the audit subagent's `docs/gpt-collaboration/taxonomy-snapshot.md` reference is stale relative to today's autonomy-stub additions. Check 5 ⚠️ on the Certification implication paragraph (methodology prescription tone) was accepted and the paragraph was trimmed to occurrence-data framing.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [c2d9535](https://github.com/paleofoundation/heavymetalindex/commit/c2d9535) | 2026-06-02 | audit: us-house-subcommittee2021-baby-foods-tainted-heavy-metals revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Good et al. 2026 — Heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks (Houston, US retail)
 
+## Overview
+
 Good and colleagues at Texas Southern University measured four heavy metals (Cr, total As, Cd, Pb), four macronutrients (Na, Mg, K, Ca), four micronutrients (Fe, Cu, Zn, Mn), and 24 organochlorine pesticides (OCPs) in 22 commercially available milk products purchased from Houston, Texas grocery retailers — cow milk plus seven plant-based milk alternative (PBMA) categories (almond, soy, oat, coconut, hemp, rice, cashew). Heavy metals and minerals were quantified by inductively coupled plasma mass spectrometry (ICP-MS); OCPs by gas chromatography with electron capture detection (GC-ECD) following USEPA Method 8081B. PBMAs exhibited higher and more variable concentrations of Cr, As, and Cd than cow milk, with rice milk showing the highest arsenic (0.64 µg/L) and hemp milk the highest chromium (0.68 µg/L). Lead concentrations were comparable across all milk types (0.18 to 0.28 µg/L). All measured concentrations of heavy metals fell well below applicable regulatory thresholds for drinking water and milk; the authors flag that no harmonized heavy-metal maximum limits currently apply to plant-based milk alternatives. Detectable residues of multiple OCPs (dicofol, hexachlorobenzene, mirex, toxaphene, kepone, and others) were observed across all milk categories.
 
 ## Key numbers
@@ -145,7 +147,7 @@ Internal inconsistency in the source's brand-count narrative: the Materials and 
 
 Arsenic speciation: the authors did not perform inorganic-arsenic speciation; the reported "As" values are total arsenic (tAs) per the Materials and Methods ICP-MS protocol. The Discussion contextualizes the rice and hemp milk arsenic values against the WHO inorganic arsenic provisional tolerable daily intake of 2.1 µg/kg body weight per day, which is an inorganic-As reference framework being applied to total-As measurements without an explicit iAs/tAs conversion factor; this introduces an interpretive limitation that future synthesis touching this paper should preserve.
 
-Mercury (total or methyl) was not measured. Other CLAUDE.md Part 14 priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: frontmatter array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
+Mercury (total or methyl) was not measured. Other priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: frontmatter array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
 
 Hemp does not have a dedicated ingredient slug in the current taxonomy snapshot (no `ingredients/hemp.md`); the Wiki-pages-this-source-may-touch list routes hemp milk to `[[ingredients/non-rice-grains]]` as the closest umbrella slug for cereal/seed-derived plant beverages. If a `hemp` or `hemp-seed` ingredient page is created via Karen's Step 0 Lock in the future, this source should be added to its inbound routing.
 
@@ -162,12 +164,15 @@ License confirmed CC-BY 4.0 from source p. 11 (Additional information / Open Acc
 Audit subagent (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [207e794](https://github.com/paleofoundation/heavymetalindex/commit/207e794) | 2026-06-08 | audit: good2026-plant-milk-heavy-metals revised |
-| [5e01108](https://github.com/paleofoundation/heavymetalindex/commit/5e01108) | 2026-06-08 | ingest: good2026-plant-milk-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

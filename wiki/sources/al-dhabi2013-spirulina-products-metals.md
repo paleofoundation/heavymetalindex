@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Al-Dhabi 2013 - metals in commercial Spirulina supplements
 
+## Overview
+
 Al-Dhabi measured nickel, zinc, mercury, platinum, magnesium, and manganese in 25 commercial Spirulina products sold for direct human consumption. The study sampled tablets and capsules from seven declared countries of origin, digested powdered product material, and quantified elements by ICP-MS. Values are reported on a dry-weight basis in `mg/kg d.w.`; mercury is reported only as Hg with no methylmercury speciation, so this page records it as total mercury (`tHg`).
 
 ## Key numbers
@@ -79,3 +81,17 @@ This source adds a small, original occurrence dataset for algae-based dietary su
 - Speciation check: Hg is not speciated and is recorded as tHg. The paper does not report MeHg, inorganic mercury, arsenic, cadmium, lead, or chromium data.
 - Brand firewall: Table 1 lists product codes, manufacturers, and countries of origin, but this page does not reproduce brand/manufacturer names or attach contamination values to product codes. Values are summarized at the Spirulina supplement category level.
 - Missing-slug note: the taxonomy snapshot has no exact `spirulina` ingredient slug. Following the existing Spirulina/Chlorella source-page convention, `ingredients: []` is left blank while products route to algae/seaweed supplements and dietary-supplement oral solid rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

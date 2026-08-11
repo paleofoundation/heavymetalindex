@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/intimate-washes-cleansers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4892e03fe3a803a3dcb4d1b25ea2c34735ee708388cc3ee1c6c35854ecf0f007",
-      "content_bytes": 8665,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "809ae199430f1222ea54c7c62010b0ed5499395b54df4d80fad395226bbed194",
+      "content_bytes": 9359,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/intimate-washes-cleansers.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/intimate-washes-cleansers.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/gao2020-feminine-hygiene-edcs",
+        "title": "Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
+        "content_pin": {
+          "content_sha256": "029630c6a15095f3119acbed0d68ccf0dd421202beb0d974e73783ae8fd51d72",
+          "content_bytes": 8578,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/waecology2024-chemicals-cosmetics-phase2",
         "title": "Chemicals in Cosmetics Used by Washington Residents: Phase Two Results — Report to the Legislature Pursuant to ESSB 5693 (2022) Section 302 (56)",
@@ -39,12 +57,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-chemicals-cosmetics-phase2",
         "content_pin": {
-          "content_sha256": "e142484c8d32316ce1d25521b2ec5ff71feed85e4a3cdf5b64a3b0c2353357a5",
-          "content_bytes": 38979,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8a6699f605455391c2cda2792fdf218cd531b93280a4b297d3a4e137c0927a2d",
+          "content_bytes": 39221,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/waecology2024-chemicals-cosmetics-phase2.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/waecology2024-chemicals-cosmetics-phase2.md | sha256sum"
         }
       },
       {
@@ -59,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
         "content_pin": {
-          "content_sha256": "0f96701317a7023c022bed1658d555c1f16d45a9306751447432144af544b101",
-          "content_bytes": 28363,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "39ad9bcc5897b3459823ce33e8f7f4d5e8713bfc8bf45549a57cc95feddd56bc",
+          "content_bytes": 28602,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
         }
       }
     ]

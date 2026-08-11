@@ -29,6 +29,8 @@ updated: 2026-05-29
 
 # Rudy et al. 2019 — Review of toxic elements in wild boar, roe deer, and red deer tissues, 2003–2017
 
+## Overview
+
 This Polish peer-reviewed narrative review synthesises 41 primary studies published between 2003 and 2017 on Pb, Cd, As, and Hg concentrations in the muscle, liver, and kidney of wild boar (*Sus scrofa*), roe deer (*Capreolus capreolus*), and red deer (*Cervus elaphus*) hunted across Central and Western Europe — predominantly Poland, with comparisons to Croatia, Italy, Slovakia, Hungary, and Spain. The authors report per-tissue mean ± SD with min/max and an "UP" column expressing each cell as a percentage of the applicable EU or Polish regulatory threshold (EU 1881/2006 for Pb and Cd in pig meat and offal, applied as a livestock proxy; the Polish Chief Veterinary Officer's national action levels for As; EU 2018/73 amending EU 396/2005 for Hg in game meat and offal). The reproduced data document substantial regional contrast — Polish Upper Silesia (Górny Śląsk) kidney Cd in roe deer averaging 80.26 mg/kg w.w. (`8026 % UP`), versus Polish Masurian Lake District (Pojezierze Mazurskie) roe deer muscle Cd at 0.007 mg/kg w.w. (`14 % UP`) — and confirm the broader literature pattern that kidney and liver carry the highest Pb, Cd, and Hg burdens, with muscle Pb in red deer (Croatian and Polish data) and roe deer (Croatian data) exceeding the EU pig-meat 0.10 mg/kg threshold across most regional cells reported.
 
 The paper does not generate new measurements; values are attributed to the underlying primary studies via numeric citations (1)–(41) printed in the source-citation column of each table. Several of those primaries are or will be ingested as their own wiki source pages — Gašparík 2017 (S/N (16) in the review's reference list does not match Gašparík 2017's metals paper; see Verification notes for the disambiguation against Kramárová 2005, which is the actual (16) cited here).
@@ -193,10 +195,10 @@ The authors' overall framing (page 208): "results indicate that meat and interna
 ## Verification notes
 
 - 2026-05-29 (Claude Opus 4.7, ingest-next-manual-fetch-pdf v2.0 — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned PROMOTE with one ⚠️ presentation finding on Check 1 and one ⚠️ observation on Check 2. All other three checks (speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall) returned clean. Numerical fidelity spot-check across all four tables (17 cells across Pb/Cd/As/Hg) returned exact matches with the source PDF. Applied findings:
-  - ⚠️ (Check 1) Pb-in-kidney bullet in "Authors' narrative summary" was ambiguously worded — read as if Upper Silesia showed both the highest and lowest cells. Rewrote as a wild-boar-kidney row comparison: highest at Upper Silesia, lowest at Vukovar Croatia. No values changed.
-  - ⚠️ (Check 2) `matrices:` slugs (`game-meat`, `wild-boar-muscle`, etc.) cannot be machine-verified against the taxonomy snapshot because matrices vocabulary is not snapshot-tracked. Observation only — the matrices align with the Gašparík 2017 precedent and are declared in this Verification notes section. No correction applied; surfaced as a future taxonomy-snapshot enhancement candidate.
+ - ⚠️ (Check 1) Pb-in-kidney bullet in "Authors' narrative summary" was ambiguously worded — read as if Upper Silesia showed both the highest and lowest cells. Rewrote as a wild-boar-kidney row comparison: highest at Upper Silesia, lowest at Vukovar Croatia. No values changed.
+ - ⚠️ (Check 2) `matrices:` slugs (`game-meat`, `wild-boar-muscle`, etc.) cannot be machine-verified against the taxonomy snapshot because matrices vocabulary is not snapshot-tracked. Observation only — the matrices align with the Gašparík 2017 precedent and are declared in this Verification notes section. No correction applied; surfaced as a future taxonomy-snapshot enhancement candidate.
 - 2026-05-29 (Claude Opus 4.7, ingest-next-manual-fetch-pdf v2.0 — Phase 1): NEW path source page written from the auto-fetched PDF in `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`. Three identity checks negative: DOI grep on 10.21521/mw.6202, raw_handle grep on `auto-game-meats-cd-product-2019-10-21521-mw-6202`, cite-key grep on `mw-6202` / `rudy` — no existing wiki page.
-- Paper is a peer-reviewed narrative literature review (`Artykuł przeglądowy / Review` per the journal section heading on page 203), not original research. Evidence tier B accordingly (per CLAUDE.md Part 13: review articles are B-tier; the underlying primaries that this review cites can be A-tier when ingested independently). The `sample_n` field is set to `null` because the review does not have its own sample — per-row sample sizes are owned by the underlying primary studies and recorded in the Key numbers tables.
+- Paper is a peer-reviewed narrative literature review (`Artykuł przeglądowy / Review` per the journal section heading on page 203), not original research. Evidence tier B accordingly (per: review articles are B-tier; the underlying primaries that this review cites can be A-tier when ingested independently). The `sample_n` field is set to `null` because the review does not have its own sample — per-row sample sizes are owned by the underlying primary studies and recorded in the Key numbers tables.
 - Speciation: paper reports total As and total Hg with no separation. Metals field uses `tAs` and `tHg`. Paper does not measure Cr, Ni, Al, Sn, U; those metals are correctly absent from the metals list. The Hg column is captioned "Rtęć" (Polish for mercury) and explicitly references the EU MRL framework for "rtęć" generally — no methylmercury speciation is claimed or measured in any of the reviewed primary cells.
 - Brand firewall (Part 12): the paper names no commercial brand of game meat. The only proper nouns in the data tables are geographic regions, species, and bibliographic citations. No Part 12 issues.
 - Wiki/HMTc firewall (Part 2): the paper is a literature review that discusses regulatory exceedances against existing EU and Polish thresholds; the source page reports those exceedance counts as the review reports them. No HMTc threshold proposals are made on this page; the Implications section is explicit that Cochrane-bar threshold work should anchor on the underlying primaries rather than on the review's aggregated cells.
@@ -220,15 +222,15 @@ The authors' overall framing (page 208): "results indicate that meat and interna
 - [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

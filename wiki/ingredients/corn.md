@@ -12,12 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 60]
-    p95_ppb: 130
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-06-11
-    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
+    typical_ppb: [0, 20]
+    p95_ppb: 200
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [1.4, 3.5]
@@ -34,22 +33,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 7]
-    p95_ppb: 10
+    typical_ppb: [0, 3]
+    p95_ppb: 8
     confidence: low
-    n_studies: 4
-    last_reviewed: 2026-06-11
-    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
-    speciation: total-As-only
+    n_studies: 3
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
     typical_ppb: [0, 1]
-    p95_ppb: 18
+    p95_ppb: 2
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
-    speciation: total-Hg-only
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 54.4]
@@ -66,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 256]
-    p95_ppb: 740
+    typical_ppb: [0, 50]
+    p95_ppb: 600
     confidence: low
-    n_studies: 5
-    last_reviewed: 2026-06-11
-    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
-    speciation: total-Cr-only; no Cr-VI measurement in corpus
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,46 +75,24 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 52
+updated: 2026-05-13
+sources: 49
 ---
 
 # Corn
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=83 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | OK | 20 jurisdictions, top CN 26% | — |
-| D3 Anthropogenic evidence | GAP | 4 soil + 2 agricultural-soil + 1 irrigation-water + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 7 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs CONFIDENT, tHg POOLABLE, Ni POOLABLE, Cr CONFIDENT, U THIN | U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 24 claims checked, 24 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming corn: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 54, "Corn, frozen, boiled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
@@ -129,42 +100,30 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Maize (corn) accumulates cadmium through root uptake from soil, a mechanism that is modulated by soil pH, organic matter content, and the competing presence of zinc. In acidic soils or soils with elevated cadmium from phosphate fertilizer application, maize grain can carry detectable cadmium, though whole-grain corn is generally a lower Cd accumulator than leafy vegetables or root vegetables because the grain is a reproductive structure with some buffering against cadmium translocation from vegetative tissue. [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining]] documented substantially elevated cadmium, chromium, lead, and arsenic in maize grain grown near mining operations in Ecuador, where soil-to-plant transfer is driven by contaminated parent rock and tailings rather than agricultural inputs alone.
 
-Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data report total arsenic below the 3 µg/kg reporting limit across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], and the primary corn-grain literature confirms a low but non-zero total-arsenic burden (Beijing retail corn flour 7 µg/kg, Nigerian corn grain at or below 10 µg/kg dry weight), consistent with corn not concentrating arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a p90 of 54.4 ppb and a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead, total mercury, total chromium, and uranium are all below their respective reporting limits across the FDA composites; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the routed primary literature recovers low but non-zero lead, mercury, and chromium in corn grain (see the Synthesis basis and censoring treatment section).
+Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data shows tAs at or near zero across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the broader literature showing that corn does not concentrate arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead and mercury are essentially non-detectable in the TDS corn dataset.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | <4–60 | 130 | medium | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/ataee2016-iran-cereals-pb-cd\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Cd | n=18 | 1.4–3.5 | 3.8 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | <3–7 | 10 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/abatemi-usman2023-corn-cement-nigeria\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | <1–1 | 18 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=8 | 0–54.4 | 60.1 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=5 | <50–256 | 740 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–20 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/el-hassanin2020-egypt-maize-pb-cd\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|4]], [[sources/rubio2023-metals-cereals-madeira-azores\|5]] |
+| Cd | n=18 | 1.4–3.5 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/masite2022-mopane-trace-metals\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Ni | n=8 | 0–54.4 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 
-The lead, total-arsenic, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11. The native basis for this page is corn grain as sold; FDA Total Diet Study Food 54 reports the matrix as "Corn, frozen, boiled" (whole-kernel corn), while most of the routed primary literature reports corn grain or corn flour on a dry-weight basis. Where dry-weight or corn-flour anchors are pooled against the FDA whole-kernel composite, the basis difference is stated rather than silently harmonized, and the mixed basis is recorded in the cell as `corn-grain-as-sold-mixed-wet-and-dry-weight`. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+The lead, total arsenic, total mercury and chromium cells on this page previously read typical [0,0] with a p95 of 0. That pattern is an artifact of coding below-limit non-detects as literal zeros rather than as left-censored observations. In the FDA Total Diet Study, frozen boiled corn returned non-detect in all 27 composites for each of these four analytes, at reporting limits of 4 ppb for lead, 3 ppb for total arsenic, 1 ppb for total mercury and 50 ppb for chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Those results establish that US commercial corn sits at or below the reporting limit, which is a bound rather than a measured zero, so each cell is now expressed as left-censored at its limit with a central range that starts at the limit and a p95 drawn from real upper-tail commercial data.
 
-The earlier profile reported lead, total arsenic, total mercury, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composite for frozen boiled corn (n=27), in which every sample fell below the reporting limit for each of these five analytes and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, tAs 3, tHg 1, Cr 50, U 1 µg/kg). Cadmium and nickel were not part of this resynthesis: they carry genuine FDA detects (Cd p50 2.6 µg/kg, max 4.8; Ni p90 54.4 µg/kg, max 160) and remain as previously synthesized. The resynthesis replaces the literal zeros for the five censored analytes with a left-censored floor at the FDA reporting limit and recovers the upper distribution from the routed primary corn-grain occurrence literature, in which lead, total arsenic, total mercury, and total chromium are low but non-zero in corn grain.
-
-Lead rests on the FDA censored floor for the low bound and on commercial-market corn anchors for the central and upper distribution. Beijing retail corn flour carried lead at 60 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]); Kermanshah retail corn ran 93 to 146 µg/kg dry weight across three markets ([[sources/ataee2016-iran-cereals-pb-cd|Ataee et al. 2016]]); and an industrial-region Chinese cereal survey reported a mean of 45 µg/kg with a maximum of 284 µg/kg ([[sources/wang2023-toxic-metals-daily-diet-ningxia|Wang et al. 2023]]). The clean-platform floor is corroborated by Egyptian freshwater-irrigated maize, which ran below detection to 40 µg/kg at all five Nile-irrigated sites ([[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). The pooled lead typical of [0, 60] takes the FDA censored floor as the low bound and the Beijing retail-flour and Kermanshah lower-market values as the upper central; the 95th-percentile of 130 µg/kg is anchored to the elevated commercial-market tail (Ataee 146 µg/kg, Wang 284 µg/kg maximum). Confidence is held at medium: the pool is deep, but the contributors mix whole-kernel, dry-weight, and corn-flour bases and span commercial markets of differing background burden.
-
-Total arsenic is genuinely low in corn, in contrast to flooded-paddy rice, because corn is not grown under the anaerobic conditions that mobilize arsenite into grain. The honest floor is the FDA 3 µg/kg reporting limit; the central rests on Beijing retail corn flour at 7 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]) and on Nigerian cement-vicinity corn grain, in which total arsenic was uniformly at or below 10 µg/kg dry weight across all sites including the contaminated downwind farmlands ([[sources/abatemi-usman2023-corn-cement-nigeria|Abatemi-Usman et al. 2023]]). The pooled typical of [0, 7] and 95th-percentile of 10 µg/kg reflect this narrow low-arsenic band. Confidence is low because only two primary anchors report an extractable positive corn total-arsenic value. Total arsenic is held distinct from inorganic arsenic, which remains a reviewed data gap for this commodity; no speciated corn-arsenic measurement exists in the corpus, and the inorganic fraction is never inferred from total arsenic.
-
-Total mercury rests on the FDA censored floor and two primary anchors. Guangxi maize grain carried total mercury at a mean of about 1 µg/kg with a maximum of 33 µg/kg ([[sources/gu2019-maize-peanut-heavy-metals-guangxi|Gu et al. 2019]]), and Beijing retail corn flour carried total mercury at 18 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]). The pooled typical of [0, 1] spans the FDA reporting-limit floor to the Guangxi central; the 95th-percentile of 18 µg/kg is the Beijing retail-flour value, which sits at the top of the ordered pooled set. Confidence is low: only two single-region positive contributors exist. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Chromium is reported as total chromium only, and no corn hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. Total chromium is the standout analyte in commercial corn-derived products: an independent Lebanese retail survey of 42 cornflake products found chromium at the highest mean concentration of the five metals measured ([[sources/hassan2025-cornflakes-lebanon-metals|Hassan et al. 2025]]). The honest floor is the FDA 50 µg/kg reporting limit; the central and upper distribution rest on Beijing retail corn flour at 76 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]), an industrial-region Chinese cereal mean of 256 µg/kg with a maximum of 770 µg/kg ([[sources/wang2023-toxic-metals-daily-diet-ningxia|Wang et al. 2023]]), and Kermanshah retail corn at 740 µg/kg ([[sources/pirsaheb2015-iran-kermanshah-cereals-metals|Pirsaheb et al. 2015]]). The pooled typical of [0, 256] and 95th-percentile of 740 µg/kg span the FDA floor to the Wang and Pirsaheb commercial-market central-to-upper values. Confidence is low because total chromium carries no speciation, the contributors mix whole-kernel and dry-weight bases, and the distribution is wide.
-
-The mining-area, industrial, and wastewater-irrigated corn anchors are deliberately excluded from the headline percentiles above and recorded as a separate contamination stratum. Maize grown adjacent to a Chongqing manganese mining and smelting area, in an oil-industry zone of Khuzestan Province (lead mean 1,840 µg/kg, total arsenic 1,570 µg/kg, chromium 4,920 µg/kg), in the industrialized Chengdu Plain (maize lead mean 290 µg/kg), near the Obajana cement plant (corn lead 230 to 380 µg/kg dry weight downwind, chromium 2,080 to 3,560 µg/kg), and on Egyptian sites irrigated with mixed sewage and industrial effluent (maize lead 260 to 550 µg/kg, 19 to 30-fold above the freshwater-irrigated controls) all carried metal burdens far above commercial-market corn ([[sources/zhang2026-trace-metals-five-crops-chongqing|Zhang et al. 2026]]; [[sources/gholami2025-heavy-metals-corn-iran-khuzestan|Gholami et al. 2025]]; [[sources/liu2022-heavy-metals-rice-maize-chengdu|Liu et al. 2022]]; [[sources/abatemi-usman2023-corn-cement-nigeria|Abatemi-Usman et al. 2023]]; [[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). These define an upper bound for industrially or geologically anomalous origins and are not representative of the general commercial corn supply.
-
-Uranium is recorded as a reviewed data gap. The only corn uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 frozen-boiled-corn composites below the 1 µg/kg reporting limit), and no routed primary source reports an extractable quantitative corn-grain uranium value. The FDA cornbread composite carries detectable uranium (2.2 to 2.7 µg/kg), but cornbread is a flour-and-leavening derivative, not corn grain, and its value is not relabeled as corn. With no positive corn-grain anchor, no distribution is published, following the rice-uranium precedent.
+Corn does not concentrate arsenic or mercury the way flooded-paddy rice concentrates arsenic, and clean freshwater-irrigated maize carries lead below detection to about 40 ppb ([[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). The right tail is set by general commercial markets rather than by contaminated sites: fertilizer-influenced Ethiopian market maize reached a lead mean of 370 ppb and a chromium mean of 1840 ppb ([[sources/getu2022-heavy-metals-cereals-ethiopia|Getu et al. 2022]]), and Madeira corn flour reached a lead maximum of 720 ppb ([[sources/rubio2023-metals-cereals-madeira-azores|Rubio et al. 2023]]). Industrial and mining-zone values are treated as elevated context only and are excluded from the central: the Khuzestan industrial-zone maize of 1840 ppb lead, 1570 ppb arsenic and 4920 ppb chromium is flagged by its own source as not representative of global commercial corn ([[sources/gholami2025-heavy-metals-corn-iran-khuzestan|Gholami et al. 2025]]), and the Nigerian household mercury median near 3000 ppb is flagged by its source as an artisanal-gold-mining anomaly and probable method artifact ([[sources/ibrahim2024-food-heavy-metals-nigeria|Ibrahim et al. 2024]]).
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -176,7 +135,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -185,15 +144,15 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Corn, frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.36 | 2.6 | 3.54 | 3.81 | 4.8 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 54.4 | 60.1 | 160 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 4.8 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 160 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -243,60 +202,72 @@ _No quantified data on packaging or storage effects on heavy metal content in co
 
 The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in cereals (including corn) of 0.10 mg/kg (100 ppb) wet weight. For lead in cereals, the EU limit is 0.20 mg/kg (200 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a maximum level of 0.10 mg/kg for cadmium in grain crops including maize and 0.20 mg/kg for lead. The US TDS market-basket Cd maximum of 4.8 ppb and Pb at zero are well below these regulatory limits for the sampled commercial products. No US federal maximum level for cadmium or lead in corn grain has been finalized for the general food supply as of 2026.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining|Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador]]<span class="hmi-ref-meta">Romero-Crespo P, Jiménez-Oyola S, Salgado-Almeida B, Zambrano-Anchundia J, Goyburo-Chávez C, González-Valoys A, et al. · Environmental Geochemistry and Health · 2023 · [doi.org/10.1007/s10653-023-01514-x](https://doi.org/10.1007/s10653-023-01514-x)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/el-hassanin2020-egypt-maize-pb-cd|Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater]]<span class="hmi-ref-meta">Adel S. El-Hassanin, Magdy R. Samak, Gomaa N. Abdel-Rahman, Yahia H. Abu-Sree, and Essam M. Saleh · Toxicology Reports 7:10-15 · 2020 · [doi.org/10.1016/j.toxrep.2019.11.018](https://doi.org/10.1016/j.toxrep.2019.11.018)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/getu2022-heavy-metals-cereals-ethiopia|Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia]]<span class="hmi-ref-meta">Getu A, Seid Y, and Asrade B · International Journal of Analytical Chemistry · 2022 · [doi.org/10.1155/2022/7146439](https://doi.org/10.1155/2022/7146439)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/rubio2023-metals-cereals-madeira-azores|Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed in Madeira and the Azores]]<span class="hmi-ref-meta">Rubio C, Gutiérrez AJ, Hardisson A, Martín V, Revert C, Fernandes PJP, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03643-x](https://doi.org/10.1007/s12011-023-03643-x)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/gholami2025-heavy-metals-corn-iran-khuzestan|Health risk assessment Pb, As and Cr in corn (Zea mays) of Behbahan and Dezful from Khuzestan Province, Iran]]<span class="hmi-ref-meta">Gholami Z, Mohammadi Rouzbahani M, Payandeh K, and Sabzalipour S · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-89281-w](https://doi.org/10.1038/s41598-025-89281-w)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/ibrahim2024-food-heavy-metals-nigeria|Correlates of Food Contamination by Heavy Metals in Northwest Nigeria]]<span class="hmi-ref-meta">Ibrahim UM, Karkarna MZ, Babura SM, Matazu MA, Jibo AM, Umar ML, et al. · Environmental Health Insights · 2024 · [doi.org/10.1177/11786302241301700](https://doi.org/10.1177/11786302241301700)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/zhang2026-trace-metals-five-crops-chongqing\|Zhang et al. 2026]]. *Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China*, Scientific Reports | 2026 | Peer-reviewed | tAs, Pb, Cd, Cr, and Ni in maize grain (n=15) plus four other crops near a Chongqing manganese mining and smelting area, anchoring mining-adjacent grain contamination patterns for the corn page |
-| 2 | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | NZ Cd, Pb, tAs, Ni, Cr, Tl, tHg occurrence in 153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites... (n=153) |
-| 3 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-286 | 2025 | Peer-reviewed | RS Cu, Mn, Zn occurrence in 12 popcorn hybrids grown 2021-2022 at Maize Research Institute Zemun Polje, Belgrade, Serbia; 4 replicates each (n=12) |
-| 4 | [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|Gholami et al. 2025]]. *Health risk assessment Pb, As and Cr in corn (Zea mays) of Behbahan and Dezful from Khuzestan Province, Iran*, Scientific Reports | 2025 | Peer-reviewed | IR Pb, tAs, Cr occurrence in 50 corn (Zea mays) samples and 50 soil samples from 5 farms in Dezful and 5 farms in... (n=100) |
-| 5 | [[sources/hassan2025-cornflakes-lebanon-metals\|Hassan et al. 2025]]. *Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance*, RSC Advances | 2025 | Peer-reviewed | Measured tAs, Cd, Cr, tHg, and Pb in 42 commercial cornflake products from Lebanese retail; Cr showed the highest mean concentrations; risk assessment for adult and child consumers |
-| 6 | [[sources/liu2025-nanyang-crops-heavy-metals\|Liu et al. 2025]]. *Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin*, Scientific Reports | 2025 | Peer-reviewed | CN tAs, Cd, Cr, tHg, Pb occurrence in 5778 surface soil samples, 185 wheat samples, 75 corn samples, 114 peanut samples, and 374 root soil samples... (n=6252) |
-| 7 | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|Saleem et al. 2025]]. *Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables*, Foods | 2025 | Peer-reviewed | US Cd, Pb, tAs, tHg, Cr, Ni, Co, Cu, Zn, Mn, Se occurrence in 82 samples of 13 locally grown vegetable types from the Town Square Farmer's Market in Grand Forks, North... (n=82) |
-| 8 | [[sources/ibrahim2024-food-heavy-metals-nigeria\|Ibrahim et al. 2024]]. *Correlates of Food Contamination by Heavy Metals in Northwest Nigeria*, Environmental Health Insights | 2024 | Peer-reviewed | Pb, Cd, and tHg by AAS in 361 raw staple food samples including maize from Jigawa State (Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg |
-| 9 | [[sources/si2024-nanomaterial-detection-heavy-metals-food\|Si et al. 2024]]. *Research progress in the detection of trace heavy metal ions in food samples*, Frontiers in Chemistry | 2024 | Review | CN Pb, Cd, tHg, Cr-VI, Cu, Zn, Fe occurrence in Mini-review of nanomaterial-based analytical methods for trace heavy-metal detection in food samples; covers electrochemical, colorimetric, and fluorescence sensing... |
-| 10 | [[sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\|Toledo et al. 2024]]. *Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment*, International Journal of Environmental Research and Public Health 21(4):381 | 2024 | Peer-reviewed | BR Ag, Al, tAs, iAs, B, Ba, Cd, Co, Cr, Cu, Mn, Ni, Pb, Se, Sr, Zn occurrence in Eighteen Brazilian infant-cereal samples acquired in 2014-2015: 9 rice cereals, 5 multi-grain cereals containing rice, and 4 non-rice-based... (n=18) |
-| 11 | [[sources/abatemi-usman2023-corn-cement-nigeria\|Abatemi-Usman et al. 2023]]. *Trace elements concentrations in soil contaminate corn in the vicinity of a cement-manufacturing plant: potential health implications*, Journal of Exposure Science & Environmental Epidemiology | 2023 | Peer-reviewed | NG Pb, Cd, tAs, Cr, Ni, Cu occurrence in Corn grain and surface soil from 5 farmlands near Obajana cement plant, Kogi State, Nigeria (n=89) |
-| 12 | [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|Gacal et al. 2023]]. *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*, Annales Academiae Medicae Silesiensis | 2023 | Peer-reviewed | Cd and Pb in gluten-free breads typically containing maize and rice flour against gluten-containing breads on the Polish market (n=50), with gluten-free at the lowest Cd mean (0.021 mg/kg) and Pb above LOQ in only one wheat sample |
-| 13 | [[sources/jakkielska2023-noodles-toxic-metals\|Jakkielska et al. 2023]]. *Risk profiling of exposures to potentially toxic metals PTM(s) through noodles consumption. A case study of human health risk assessment*, Acta Universitatis Cibiniensis Series E: Food Technology | 2023 | Peer-reviewed | PL Pb, Cd, tAs, iAs, tHg occurrence in Twenty commercially available 500 g noodle/pasta products collected from markets in Poland, covering wheat, durum wheat, corn-flour gluten-free,... (n=20) |
-| 14 | [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|Romero-Crespo et al. 2023]]. *Heavy metals in soils and crops in a mining area of Ecuador*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | Measured As, Cd, Cr, Cu, Ni, Pb, and Zn in food crops including corn near mining operations in Ecuador; mining-area contamination transfer into maize grain |
-| 15 | [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|Romero-Crespo et al. 2023]]. *Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | EC tAs, Cd, Cr, Ni, Pb occurrence in 9 crop samples and 8 farmland soil samples from agricultural orchards in Ponce Enriquez gold mining area, Azuay... (n=17) |
-| 16 | [[sources/rubio2023-metals-cereals-madeira-azores\|Rubio et al. 2023]]. *Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed in Madeira and the Azores*, Biological Trace Element Research | 2023 | Peer-reviewed | PT Cd, Pb, tHg occurrence in Cereals and cereal derivatives marketed in Madeira and the Azores (Portuguese Atlantic archipelagos); multiple cereal types including rice,... |
-| 17 | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|Wang et al. 2023]]. *Deterministic and Probabilistic Health Risk Assessment of Toxic Metals in the Daily Diets of Residents in Industrial Regions of Northern Ningxia, China*, Archives of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | CN Al, tAs, Cr, Cd, Ni, Pb occurrence in 187 samples (36 drinking water + 151 food) from villages and towns in industrial regions of northern Ningxia,... (n=187) |
-| 18 | [[sources/agarwal2022-heavy-metals-vegetables-east-kolkata\|Agarwal et al. 2022]]. *Seasonal Variations in Bioaccumulation and Translocation of Toxic Heavy Metals in the Dominant Vegetables of East Kolkata Wetlands: a Case Study with Suggestive Ecorestorative Strategies*, Water, Air, & Soil Pollution | 2022 | Peer-reviewed | IN Pb, Cd, Cr, tHg occurrence in Three vegetable species from Dhapa waste dumping site, East Kolkata Wetlands, India; 2016-2017 across three seasons |
-| 19 | [[sources/bai2022-arsenic-coal-burning-shaanxi\|Bai et al. 2022]]. *Investigation Into Environmental Selenium and Arsenic Levels and Arseniasis Prevalence in an Arsenic-Affected Coal-Burning Area*, Frontiers in Nutrition | 2022 | Peer-reviewed | CN tAs occurrence in 100 arseniasis patients and 50 healthy controls in coal-burning area of Shaanxi Province, China (n=150) |
-| 20 | [[sources/bazie2022-burkina-faso-foodstuffs-metals\|Bazie et al. 2022]]. *Evaluation of metallic trace elements contents in some major raw foodstuffs in Burkina Faso and health risk assessment*, Scientific Reports | 2022 | Peer-reviewed | BF Cd, Pb, Cr, Ni occurrence in rice, maize, peanut, tomato, and dried fish samples in Burkina Faso (n=222) |
-| 21 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in corn-based TDS food items (TDS Food varies; n varies by analyte) |
-| 22 | [[sources/getu2022-heavy-metals-cereals-ethiopia\|Getu et al. 2022]]. *Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia*, International Journal of Analytical Chemistry | 2022 | Peer-reviewed | Cr, Cu, Pb, and Cd by MP-AES in maize and three other cereal types from Debre Markos (Ethiopia), with Pb and Cd above FAO/WHO permissible limits in all four cereal types linked to local fertilizer use |
-| 23 | [[sources/li2022-guizhou-cd-grains\|Li et al. 2022]]. *Spatial distribution and risk assessment of fluorine and cadmium in rice, corn, and wheat grains in most karst regions of Guizhou province, China*, Frontiers in Nutrition | 2022 | Peer-reviewed | Cadmium in 119 corn grain samples from karst regions of Guizhou (China), with Cd range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg |
-| 24 | [[sources/liu2022-heavy-metals-rice-maize-chengdu\|Liu et al. 2022]]. *Health risk assessment of heavy metals in soils and food crops from a coexist area of heavily industrialized and intensively cropping in the Chengdu Plain, Sichuan, China*, Frontiers in Chemistry | 2022 | Peer-reviewed | tAs, Cd, tHg, and Pb in 10 maize grain samples from an industrialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both exceeding national limits and 78% of all grains failing GB 2762-2017 Cd |
-| 25 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Co, Cr, Ni, and Pb by ICP-OES in roasted sweet corn purchased from South African markets, with tAs exceeding maximum allowable thresholds in all three product matrices |
-| 26 | [[sources/cfia2020-toxic-metals-selected-foods-2018-19\|CFIA 2020]]. *Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2020 | Government report | CA tAs, Cd, Pb, tHg occurrence in Retail food samples (bran products, infant formula, meal replacement beverages, protein powders, rice products) collected from 6 Canadian... (n=985) |
-| 27 | [[sources/el-hassanin2020-egypt-maize-pb-cd\|El-Hassanin et al. 2020]]. *Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater*, Toxicology Reports 7:10-15 | 2020 | Peer-reviewed | EG Pb, Cd occurrence in Soil (0–30 cm), irrigation water, and maize grain composites collected in August 2017 from nine cultivated sites across... (n=27) |
-| 28 | [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|Gu et al. 2019]]. *Prediction and risk assessment of five heavy metals in maize and peanut: a case study of Guangxi, China*, Environmental Toxicology and Pharmacology | 2019 | Peer-reviewed | CN Cd, Cu, tHg, Pb, Zn occurrence in Sixty-five maize grain samples and thirty-five peanut grain samples paired with rhizosphere soils from Binyang County and Xingbin... (n=100) |
-| 29 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | Pb, Cd, Cr, tAs, and tHg in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and vegetables jointly contributing 91.5% of total dietary Cd and 67.1% of total Pb |
-| 30 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | Pb and Cr by F-AAS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 0.36 mg/kg) from Addis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg |
-| 31 | [[sources/khalil2017-snacks-peshawar-pakistan-heavy-metals\|Khalil et al. 2017]]. *Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan*, Professional Medical Journal | 2017 | Peer-reviewed | Pb, Cd, and total Cr by AAS in branded and non-branded corn-based snacks from Peshawar (Pakistan, n=96), with total Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg |
-| 32 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | IR Pb, Cd occurrence in 21 cereal composites (7 grain types — rice, wheat, barley, peas, beans, corn, lentil — × 3 local... (n=21) |
-| 33 | [[sources/dufault2015-blood-mercury-glucose-nhanes\|Dufault et al. 2015]]. *Blood inorganic mercury is directly associated with glucose levels in the human population and may be linked to processed food intake*, Integrative Molecular Medicine | 2015 | Peer-reviewed | NHANES (n=16,232) epidemiological evidence linking blood inorganic Hg to fasting glucose (p<0.001), implicating high-fructose corn syrup manufactured with mercury-cell chlor-alkali processes as a Hg dietary-exposure pathway via corn derivatives |
-| 34 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | IR Pb, Cd, Cr, Ni, Zn, Cu occurrence in 150 packed cereal samples representing 7 commodity types (rice, wheat, corn, peas, lentil, bean, split peas) collected from... (n=150) |
-| 35 | [[sources/solidum2013-metro-manila-junk-food-metals\|Solidum et al. 2013]]. *Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines*, Advanced Materials Research | 2013 | Peer-reviewed | PH Pb, Cd, Cr occurrence in Thirty-six junk-food samples randomly selected from sari-sari stores in Metro Manila, Philippines, in June 2012. (n=36) |
+| 2 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-286 | 2025 | Peer-reviewed | RS Cu, Mn, Zn occurrence in 12 popcorn hybrids grown 2021-2022 at Maize Research Institute Zemun Polje, Belgrade, Serbia; 4 replicates each (n=12) |
+| 3 | [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|Gholami et al. 2025]]. *Health risk assessment Pb, As and Cr in corn (Zea mays) of Behbahan and Dezful from Khuzestan Province, Iran*, Scientific Reports | 2025 | Peer-reviewed | IR Pb, tAs, Cr occurrence in 50 corn (Zea mays) samples and 50 soil samples from 5 farms in Dezful and 5 farms in... (n=100) |
+| 4 | [[sources/hassan2025-cornflakes-lebanon-metals\|Hassan et al. 2025]]. *Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance*, RSC Advances | 2025 | Peer-reviewed | Measured tAs, Cd, Cr, tHg, and Pb in 42 commercial cornflake products from Lebanese retail; Cr showed the highest mean concentrations; risk assessment for adult and child consumers |
+| 5 | [[sources/liu2025-nanyang-crops-heavy-metals\|Liu et al. 2025]]. *Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin*, Scientific Reports | 2025 | Peer-reviewed | CN tAs, Cd, Cr, tHg, Pb occurrence in 5778 surface soil samples, 185 wheat samples, 75 corn samples, 114 peanut samples, and 374 root soil samples... (n=6252) |
+| 6 | [[sources/ibrahim2024-food-heavy-metals-nigeria\|Ibrahim et al. 2024]]. *Correlates of Food Contamination by Heavy Metals in Northwest Nigeria*, Environmental Health Insights | 2024 | Peer-reviewed | Pb, Cd, and tHg by AAS in 361 raw staple food samples including maize from Jigawa State (Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg |
+| 7 | [[sources/si2024-nanomaterial-detection-heavy-metals-food\|Si et al. 2024]]. *Research progress in the detection of trace heavy metal ions in food samples*, Frontiers in Chemistry | 2024 | Review | CN Pb, Cd, tHg, Cr-VI, Cu, Zn, Fe occurrence in Mini-review of nanomaterial-based analytical methods for trace heavy-metal detection in food samples; covers electrochemical, colorimetric, and fluorescence sensing... |
+| 8 | [[sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\|Toledo et al. 2024]]. *Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment*, International Journal of Environmental Research and Public Health 21(4):381 | 2024 | Peer-reviewed | BR Ag, Al, tAs, iAs, B, Ba, Cd, Co, Cr, Cu, Mn, Ni, Pb, Se, Sr, Zn occurrence in Eighteen Brazilian infant-cereal samples acquired in 2014-2015: 9 rice cereals, 5 multi-grain cereals containing rice, and 4 non-rice-based... (n=18) |
+| 9 | [[sources/abatemi-usman2023-corn-cement-nigeria\|Abatemi-Usman et al. 2023]]. *Trace elements concentrations in soil contaminate corn in the vicinity of a cement-manufacturing plant: potential health implications*, Journal of Exposure Science & Environmental Epidemiology | 2023 | Peer-reviewed | NG Pb, Cd, tAs, Cr, Ni, Cu occurrence in Corn grain and surface soil from 5 farmlands near Obajana cement plant, Kogi State, Nigeria (n=89) |
+| 10 | [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|Gacal et al. 2023]]. *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*, Annales Academiae Medicae Silesiensis | 2023 | Peer-reviewed | Cd and Pb in gluten-free breads typically containing maize and rice flour against gluten-containing breads on the Polish market (n=50), with gluten-free at the lowest Cd mean (0.021 mg/kg) and Pb above LOQ in only one wheat sample |
+| 11 | [[sources/jakkielska2023-noodles-toxic-metals\|Jakkielska et al. 2023]]. *Risk profiling of exposures to potentially toxic metals PTM(s) through noodles consumption. A case study of human health risk assessment*, Acta Universitatis Cibiniensis Series E: Food Technology | 2023 | Peer-reviewed | PL Pb, Cd, tAs, iAs, tHg occurrence in Twenty commercially available 500 g noodle/pasta products collected from markets in Poland, covering wheat, durum wheat, corn-flour gluten-free,... (n=20) |
+| 12 | [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|Romero-Crespo et al. 2023]]. *Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | EC tAs, Cd, Cr, Ni, Pb occurrence in 9 crop samples and 8 farmland soil samples from agricultural orchards in Ponce Enriquez gold mining area, Azuay... (n=17) |
+| 13 | [[sources/rubio2023-metals-cereals-madeira-azores\|Rubio et al. 2023]]. *Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed in Madeira and the Azores*, Biological Trace Element Research | 2023 | Peer-reviewed | PT Cd, Pb, tHg occurrence in Cereals and cereal derivatives marketed in Madeira and the Azores (Portuguese Atlantic archipelagos); multiple cereal types including rice,... |
+| 14 | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|Wang et al. 2023]]. *Deterministic and Probabilistic Health Risk Assessment of Toxic Metals in the Daily Diets of Residents in Industrial Regions of Northern Ningxia, China*, Archives of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | CN Al, tAs, Cr, Cd, Ni, Pb occurrence in 187 samples (36 drinking water + 151 food) from villages and towns in industrial regions of northern Ningxia,... (n=187) |
+| 15 | [[sources/agarwal2022-heavy-metals-vegetables-east-kolkata\|Agarwal et al. 2022]]. *Seasonal Variations in Bioaccumulation and Translocation of Toxic Heavy Metals in the Dominant Vegetables of East Kolkata Wetlands: a Case Study with Suggestive Ecorestorative Strategies*, Water, Air, & Soil Pollution | 2022 | Peer-reviewed | IN Pb, Cd, Cr, tHg occurrence in Three vegetable species from Dhapa waste dumping site, East Kolkata Wetlands, India; 2016-2017 across three seasons |
+| 16 | [[sources/bai2022-arsenic-coal-burning-shaanxi\|Bai et al. 2022]]. *Investigation Into Environmental Selenium and Arsenic Levels and Arseniasis Prevalence in an Arsenic-Affected Coal-Burning Area*, Frontiers in Nutrition | 2022 | Peer-reviewed | CN tAs occurrence in 100 arseniasis patients and 50 healthy controls in coal-burning area of Shaanxi Province, China (n=150) |
+| 17 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in corn-based TDS food items (TDS Food varies; n varies by analyte) |
+| 18 | [[sources/getu2022-heavy-metals-cereals-ethiopia\|Getu et al. 2022]]. *Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia*, International Journal of Analytical Chemistry | 2022 | Peer-reviewed | Cr, Cu, Pb, and Cd by MP-AES in maize and three other cereal types from Debre Markos (Ethiopia), with Pb and Cd above FAO/WHO permissible limits in all four cereal types linked to local fertilizer use |
+| 19 | [[sources/li2022-guizhou-cd-grains\|Li et al. 2022]]. *Spatial distribution and risk assessment of fluorine and cadmium in rice, corn, and wheat grains in most karst regions of Guizhou province, China*, Frontiers in Nutrition | 2022 | Peer-reviewed | Cadmium in 119 corn grain samples from karst regions of Guizhou (China), with Cd range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg |
+| 20 | [[sources/liu2022-heavy-metals-rice-maize-chengdu\|Liu et al. 2022]]. *Health risk assessment of heavy metals in soils and food crops from a coexist area of heavily industrialized and intensively cropping in the Chengdu Plain, Sichuan, China*, Frontiers in Chemistry | 2022 | Peer-reviewed | tAs, Cd, tHg, and Pb in 10 maize grain samples from an industrialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both exceeding national limits and 78% of all grains failing GB 2762-2017 Cd |
+| 21 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Co, Cr, Ni, and Pb by ICP-OES in roasted sweet corn purchased from South African markets, with tAs exceeding maximum allowable thresholds in all three product matrices |
+| 22 | [[sources/cfia2020-toxic-metals-selected-foods-2018-19\|CFIA 2020]]. *Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2020 | Government report | CA tAs, Cd, Pb, tHg occurrence in Retail food samples (bran products, infant formula, meal replacement beverages, protein powders, rice products) collected from 6 Canadian... (n=985) |
+| 23 | [[sources/el-hassanin2020-egypt-maize-pb-cd\|El-Hassanin et al. 2020]]. *Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater*, Toxicology Reports 7:10-15 | 2020 | Peer-reviewed | EG Pb, Cd occurrence in Soil (0–30 cm), irrigation water, and maize grain composites collected in August 2017 from nine cultivated sites across... (n=27) |
+| 24 | [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|Gu et al. 2019]]. *Prediction and risk assessment of five heavy metals in maize and peanut: a case study of Guangxi, China*, Environmental Toxicology and Pharmacology | 2019 | Peer-reviewed | CN Cd, Cu, tHg, Pb, Zn occurrence in Sixty-five maize grain samples and thirty-five peanut grain samples paired with rhizosphere soils from Binyang County and Xingbin... (n=100) |
+| 25 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | Pb, Cd, Cr, tAs, and tHg in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and vegetables jointly contributing 91.5% of total dietary Cd and 67.1% of total Pb |
+| 26 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | Pb and Cr by F-AAS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 0.36 mg/kg) from Addis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg |
+| 27 | [[sources/khalil2017-snacks-peshawar-pakistan-heavy-metals\|Khalil et al. 2017]]. *Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan*, Professional Medical Journal | 2017 | Peer-reviewed | Pb, Cd, and total Cr by AAS in branded and non-branded corn-based snacks from Peshawar (Pakistan, n=96), with total Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg |
+| 28 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | IR Pb, Cd occurrence in 21 cereal composites (7 grain types — rice, wheat, barley, peas, beans, corn, lentil — × 3 local... (n=21) |
+| 29 | [[sources/dufault2015-blood-mercury-glucose-nhanes\|Dufault et al. 2015]]. *Blood inorganic mercury is directly associated with glucose levels in the human population and may be linked to processed food intake*, Integrative Molecular Medicine | 2015 | Peer-reviewed | NHANES (n=16,232) epidemiological evidence linking blood inorganic Hg to fasting glucose (p<0.001), implicating high-fructose corn syrup manufactured with mercury-cell chlor-alkali processes as a Hg dietary-exposure pathway via corn derivatives |
+| 30 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD Cr, Ni, Cu, tAs, Cd, Pb occurrence in Commonly consumed meat, egg, fish, milk, vegetable, cereal, and fruit foods collected from agriculture fields, farms, river, and... |
+| 31 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | IR Pb, Cd, Cr, Ni, Zn, Cu occurrence in 150 packed cereal samples representing 7 commodity types (rice, wheat, corn, peas, lentil, bean, split peas) collected from... (n=150) |
+| 32 | [[sources/solidum2013-metro-manila-junk-food-metals\|Solidum et al. 2013]]. *Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines*, Advanced Materials Research | 2013 | Peer-reviewed | PH Pb, Cd, Cr occurrence in Thirty-six junk-food samples randomly selected from sari-sari stores in Metro Manila, Philippines, in June 2012. (n=36) |
+| 33 | [[sources/mfds2012-food-code-heavy-metals\|Korea Food and Drug 2012]]. *Article 2. Common Standards and Specifications for General Foods*, Korean Food Code | 2012 | Government report | KR Pb, Cd, tHg, MeHg concentrations |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8f8a060dc](https://github.com/paleofoundation/heavymetalindex/commit/8f8a060dc) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
+| [4365cdb39](https://github.com/paleofoundation/heavymetalindex/commit/4365cdb39) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

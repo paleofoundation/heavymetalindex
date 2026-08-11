@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Tolkou, Toubanaki & Kyzas 2023 — As, Cr, Cd, Pb, Hg in fish: a four-continent literature review
 
+## Overview
+
 Tolkou, Toubanaki & Kyzas (2023) present a narrative review of arsenic, chromium, cadmium, lead, and mercury concentrations in fish muscle tissues across 4 continents (Asia, Europe, Africa, Latin America), 13 countries, and more than 50 fish species, drawing on primary studies published between 2003 and 2023. The review compiles per-species mean concentrations in mg/kg, compares them against FAO/WHO permissible limits (As 0.1; Cr 0.15; Cd 0.05; Pb 0.5/2.0; Hg 0.5 mg/kg), and reports the overall sequence of accumulation in fish as As > Cr > Pb > Cd > Hg. Asia is identified as the region with the most frequent exceedances across multiple analytes, while in Europe and Africa the principal exceedance is for arsenic, predominantly in marine fish.
 
 ## Key numbers
@@ -105,7 +107,7 @@ App: Contextual signal that fish marketed from Asian (especially Bangladeshi and
 
 ## Verification notes
 
-- Speciation: the review reports all values as totals (As, Cr, Cd, Pb, Hg) with no inorganic-vs-organic separation; this page uses `tAs` and `tHg` accordingly, and `Cr` (not `Cr-VI`) per CLAUDE.md Part 14.
+- Speciation: the review reports all values as totals (As, Cr, Cd, Pb, Hg) with no inorganic-vs-organic separation; this page uses `tAs` and `tHg` accordingly, and `Cr` (not `Cr-VI`).
 - Cr units in Resma et al. (Southern Bangladesh) are flagged in the source table as `***` = drinking-water values in mg/L, not fish-tissue values in mg/kg. The Key numbers section preserves that distinction explicitly.
 - The Pb FAO/WHO limit footnote in the source tables shows "0.5/2.0" (the lower for general fish; 2.0 for some categories); the page preserves the source's exact notation.
 - Shrimp (Penaeus notialis, Metapenaeus tenuipes/Spinulatus) is included in some tables; this page uses `shellfish` as the broad-scope ingredient/matrix slug for crustacean entries rather than creating species-level slugs.
@@ -115,15 +117,15 @@ App: Contextual signal that fish marketed from Asian (especially Bangladeshi and
 - Audit subagent (2026-06-03) flagged "Asia — As >50% of studies" as a loose paraphrase of Figure 6's ~57% bar. Tightened to "~57%" to match the figure directly.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [d70cbb5](https://github.com/paleofoundation/heavymetalindex/commit/d70cbb5) | 2026-06-03 | audit: tolkou2023-fish-heavy-metals-review [revised] |
-| [95725ae](https://github.com/paleofoundation/heavymetalindex/commit/95725ae) | 2026-06-03 | ingest: tolkou2023-fish-heavy-metals-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

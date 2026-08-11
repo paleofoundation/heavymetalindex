@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Liu et al. 2022 — Heavy metals in rice, maize, and soil, Chengdu Plain, China
 
+## Overview
+
 This study quantified concentrations of As, Cd, Hg, Pb, Cu, and Zn in rice grain (n = 40), maize grain (n = 10), and their respective soils (n = 50 total) from the Shifang area of the Chengdu Plain, Sichuan — a region where heavy industrial activities (metallurgy, chemicals, cement, phosphorus mining) coexist with intensive rice and maize cultivation. Analysis was by AAS (graphite furnace for Pb, Cd, Cu, Zn) and AFS (atomic fluorescence spectrometry) for As and Hg. A certified rice flour reference material (GBW10044) was used for quality control with recoveries of 91–105% across all metals.
 
 The dominant finding is severe cadmium contamination: mean Cd in rice was 0.46 mg/kg and in maize 0.26 mg/kg (dry weight). 78% of all grain samples failed China's national maximum limit for Cd (GB 2762-2017: 0.2 mg/kg rice; 0.1 mg/kg other grains). Mean Pb in rice (0.30 mg/kg) and maize (0.29 mg/kg) also exceeded the national limit of 0.2 mg/kg for both. Soil Cd mean (0.84 mg/kg) was approximately six times the local background value (0.14 mg/kg) and 98% of paddy soils exceeded China's risk-control screening value (0.30 mg/kg). Estimated daily intakes (EDI) for As, Cd, Hg, Cu, and Zn exceeded oral reference doses for adults consuming local staple quantities; Pb EDI was below its reference dose.
@@ -68,15 +70,15 @@ App: Rice Cd contamination profile — Chinese industrial zone data contributes 
 - [[regulations/china-gb-2762-2017]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

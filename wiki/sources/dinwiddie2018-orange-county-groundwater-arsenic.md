@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Dinwiddie and Liu 2018 - Orange County groundwater arsenic
 
+## Overview
+
 Dinwiddie and Liu investigated geologic controls on arsenic in private-well groundwater in Orange County, North Carolina. This is upstream groundwater and source-attribution evidence: it does not measure bottled or mineral-water products, but it links private-well arsenic detections to bedrock units, pH, alkalinity, fluoride, and likely oxidation of arsenic-bearing sulfide minerals.
 
 ## Key numbers
@@ -66,3 +68,17 @@ App: Context only. The paper supports regional groundwater-pathway explanations,
 Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated private-well groundwater geochemistry as out of scope because it was not mineral-water product occurrence; under the corrected rule it is a3 groundwater pathway and geogenic source-attribution evidence.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Data and Methods, Table 1, Table 2, pluton-proximity results, PCA results, discussion, and conclusion. The supplementary Table S5 groundwater-by-unit values were not fully present in the extracted text; only the text-reported Neoproterozoic epiclastics average of 1.25 ug/L is used here. Arsenic is tagged as `tAs` because the methods report elemental arsenic analysis and do not separate inorganic arsenic species.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

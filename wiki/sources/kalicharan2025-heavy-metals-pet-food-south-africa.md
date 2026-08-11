@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Kalicharan et al. 2025 — Heavy metal contamination in extruded pet food, South Africa
 
+## Overview
+
 Kalicharan and colleagues quantified nine metals (As, Cd, Co, Cu, Fe, Ni, Pb, Zn by ICP-OES; Hg by HGAAS) in 31 extruded dry kibble products available in South Africa, split between 14 premium brands (PB) and 17 supermarket brands (SB) and across protein formulations (red meat, poultry, fish, meat medley, "other"). Concentrations are reported as mean ± SD with min-max ranges in mg/kg on an as-purchased basis and compared against FDA/NRC and FEDIAF maximum tolerable limits (MTLs). The paper is held in this wiki as a methodological and supply-chain cross-reference: the matrix is pet food, outside HMT&C's human-food scope.
 
 **Scope classification:** This source does not contribute occurrence data to any HMT&C-scope product page. It is routed only to `pet-food-dry-kibble` (HMTc Cat 17 Row 1, pet-food taxonomy) and not to human-poultry, human-fish, or human-meat product pages, even though the kibble formulations are described by their human-style protein source.
@@ -88,15 +90,15 @@ Cross-reference value for the wiki: methodological corroboration of multi-elemen
 - 2026-05-18 audit-subagent application (Claude Opus 4.7): Subagent flagged Table 7 DF-SB Red meat SD as 44.27, claiming 44.55 in wiki was a transcription error — verified false positive: PDF p. 5 Table 7 prints "812.01 ± 44.55" for DF-SB Red meat (and a min-max range "846.94–762.23" that is itself impossibly inverted but is also faithfully reproduced from the published table). No change applied. Subagent flagged Table 6 DF Zn mean (25.25 ± 68.21) as inconsistent with the same row's range (79.86–353.55) and exceedance count (13 of 15 above 227 mg/kg MTL) — verified correct: the printed mean cannot coexist with the printed range, indicating a typo in the source paper itself; added an inline footnote and explanatory paragraph beneath the essential-metals table preserving the printed value while flagging the source-level anomaly so downstream synthesis does not naively rely on 25.25. Subagent also noted absence of a `## Wiki pages this source may touch` section — intentional given the pet-food scope classification (paper does not contribute to any human-food product, ingredient, or regulation page), no change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

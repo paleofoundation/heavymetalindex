@@ -2,15 +2,15 @@
 source_page: wiki/products/pacifiers-and-sucking-teething-aids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b30dc88dcf0e4f37c699a13d93910d1ffc279802eddc7fc8b4a1088aac2abd1f
+source_page_sha256: 092731c3a9bf14c0a438f800a3a479de97116a525f2627216b16b40cd159b5d0
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=e0edb6e2-59d3-4e09-af01-cb866c5344c7` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-contact-products-standard-build] · agreement=not_applicable · applied=2026-08-10T11:03:12.864Z · span=cat9-step0-lock-flags
 
 ## Claims by section
 

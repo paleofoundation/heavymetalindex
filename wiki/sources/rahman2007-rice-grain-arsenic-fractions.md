@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Rahman 2007 - total arsenic distribution across Bangladesh rice grain fractions
 
+## Overview
+
 Rahman and colleagues measured total arsenic in rice plants and milled rice fractions from two Bangladesh rice varieties grown in arsenic-affected Satkhira district fields. The paper reports dry-weight total arsenic values for raw rice, brown rice, bran-polish, polish rice, husk, straw, root, soil, and irrigation water. For HMI routing, the edible rice-grain values are the product occurrence data; soil, water, straw, root, husk, and bran-polish values are supply-chain context rather than direct rice-bulk-grain occurrence rows.
 
 ## Key numbers
@@ -72,3 +74,17 @@ App: The source adds a rice ingredient contamination-profile example for `tAs` o
 - Scope separation: edible raw rice, brown rice, and polish rice values are product occurrence evidence; soil, irrigation water, root, straw, husk, and bran-polish are recorded as supply-chain or processing context.
 - Missing table extraction: the source states that Table 4 contains the grain-fraction values. The extracted text provides the edible-rice and husk/BRRI dhan28 bran-polish values in the Results prose, but the BRRI hybrid dhan1 bran-polish numeric cells did not extract cleanly; those cells are therefore not reconstructed.
 - Closed-vocabulary check: `ingredients/rice`, `products/rice-bulk-grain`, `matrices: [rice-grain]`, `jurisdictions: [BD]`, and `metals: [tAs]` match the current taxonomy/metals vocabulary. No rice-fraction-specific product slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Stefaniak et al. 2014 — Dissolution of Ni, Be, Cr in artificial sweat for dermal bioaccessibility
 
+## Overview
+
 This Environmental Science: Processes & Impacts paper compares reactant-assisted digestion ("total" or "soluble" mass) vs artificial-sweat extraction (bioaccessible mass) for three metal sensitizers - beryllium metal, nickel metal, and chromium carbide (Cr3C2) - and uses speciated isotope dilution mass spectrometry (SIDMS) to determine Cr-VI vs Cr-III speciation in artificial sweat over time. The work establishes that reactant-assisted digestion overstates bioaccessible (dermal) exposure to all three metals, and that Cr-VI added to artificial sweat decays into Cr-III over hours.
 
 ## Key numbers
@@ -68,15 +70,15 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - 2026-05-17 audit-application pass (fresh-context subagent REVISE verdict, 2 concerns applied, 0 rejected): restored potassium (K+ 6.1 mM) to the artificial-sweat highest-concentration components list (verified PDF p. 344); split conflated initial-rapid-phase half-times so Be is 4-6 h and Cr is 3-5 h separately (verified PDF p. 345). Soft-flags on Implications framing and limitations gloss reviewed and left as-is: both stay within Part 2 bounds (no HMTc threshold proposal, no consumer risk advisory) and within faithful source rendering.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

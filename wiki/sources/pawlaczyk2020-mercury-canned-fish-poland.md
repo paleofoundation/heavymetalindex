@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Pawlaczyk et al. 2020 - mercury in canned fish from Polish retail
 
+## Overview
+
 Pawlaczyk and colleagues measured total mercury in 84 canned fish products (plus seafood comparators and the non-fish packaging matrices) purchased in Lodz, Poland in 2019-2020, using cold-vapor atomic absorption spectrometry on an MA-3000 gold-amalgamation analyzer. The study compared mercury content across fish species, predatory versus non-predatory groupings, country of production, and packaging matrix, and used the standard Burger 1.12 division factor to estimate methylmercury from total mercury for the exposure assessment. None of the 489 individual analytical samples exceeded the EU regulatory ceilings, but tuna - and one Bonito-in-oil product in particular at 336 µg/kg - drove both the highest mean concentrations and the only meaningful share of the modeled tolerable weekly intake.
 
 ## Key numbers
@@ -176,14 +178,15 @@ Brand-firewall handling: The paper uses two-letter anonymised producer codes (HH
 Speciation: The paper measured total mercury by CV-AAS and estimated methylmercury by dividing total Hg by 1.12 (the Burger 2004 correction factor). The metals frontmatter carries `tHg` and `MeHg` so the source routes to both metal pages, but the wiki narrative explicitly distinguishes measured tHg from estimated MeHg-equivalent throughout to satisfy the iAs/tAs/MeHg/tHg speciation discipline.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [3934559](https://github.com/paleofoundation/heavymetalindex/commit/3934559) | 2026-06-03 | ingest: pawlaczyk2020-mercury-canned-fish-poland [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

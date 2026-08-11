@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM 2014 — Chromium in Food and Drinking Water
 
+## Overview
+
 The EFSA Panel on Contaminants in the Food Chain Scientific Opinion on chromium in food and drinking water, adopted 27 February 2014 (EFSA Journal 2014;12(3):3595, 261 pp.) responds to a request from the Hellenic Food Authority (EFET) and treats trivalent chromium (Cr(III)) and hexavalent chromium (Cr(VI)) on different footings: a tolerable daily intake of **300 µg Cr(III)/kg b.w. per day** anchored on a NOAEL of 286 mg/kg b.w. per day from the 2-year NTP chronic oral toxicity study in rats (uncertainty factors 100 × 10 for absence of adequate reproductive/developmental data), and a margin-of-exposure approach for Cr(VI) using three reference points from the NTP 2-year sodium-dichromate-dihydrate drinking-water bioassay — a BMDL10 of 1.0 mg Cr(VI)/kg b.w. per day for combined adenomas and carcinomas of the mouse small intestine (neoplastic effects), a BMDL10 of 0.11 mg Cr(VI)/kg b.w. per day for diffuse epithelial hyperplasia of the duodenum in male mice (non-neoplastic effects), and a BMDL05 of 0.2 mg Cr(VI)/kg b.w. per day for decreased haematocrit in male rats (haematotoxic effects). Because no occurrence data on Cr(VI) in food were available and food is by-and-large a reducing medium, the Panel assumed all chromium in food to be Cr(III) and all chromium in water to be Cr(VI). Mean and 95th-percentile dietary exposure to Cr(III) across all age groups was well below the TDI; MOEs for Cr(VI) intake via drinking water indicate low concern for average consumers across all age groups (mean-exposure MOEs > 10,000 except for infants at upper-bound estimates), with a potential concern at upper-bound 95th-percentile exposure in 'Infants', 'Toddlers' and 'Other children'.
 
 The opinion identifies cinnamon (mean ≈ 84,250 µg/kg in four quantified Cinnamomum verum samples), cocoa powder (mean 4,345 µg/kg, n = 239), products for special nutritional use (mean 12,129 µg/kg, n = 2,131; combined vitamin/mineral supplements 23,441-23,514 µg/kg, n = 582) and sunflower oil (LB 592-UB 680 µg/kg, n = 57) as the highest-occurrence food sub-groups. Across European populations 'Toddlers' showed the highest mean chronic exposure to Cr(III) (2.3 LB-5.9 UB µg/kg b.w./day) and the dominant contributors to Cr(III) exposure in infants and toddlers were 'Foods for infants and small children' and 'Milk and dairy products', followed by 'Bread and rolls' and 'Chocolate (cocoa) products' in older children and adults. The Panel concluded that current dietary exposure to Cr(III) does not raise concern for public health and that current exposure to Cr(VI) via drinking water is of low concern for average consumers but warrants attention for high consumers in the youngest age classes, and recommended generation of speciated Cr(III)/Cr(VI) occurrence data for both food and drinking water and further data characterising Cr(VI) reduction in the GI tract at human-relevant doses.
@@ -202,15 +204,15 @@ The opinion is internally inconsistent about which sex the BMDL10 of 0.11 mg Cr(
 Fresh-context audit subagent (Claude Opus 4.7, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [dc4ecda](https://github.com/paleofoundation/heavymetalindex/commit/dc4ecda) | 2026-06-03 | audit: efsa-chromium-contam-2014 revised |
-| [75d8263](https://github.com/paleofoundation/heavymetalindex/commit/75d8263) | 2026-06-03 | ingest: efsa-chromium-contam-2014 fresh from Manual Fetch Kimi/June 3 Folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

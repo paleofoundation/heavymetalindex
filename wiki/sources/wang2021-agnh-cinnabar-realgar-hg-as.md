@@ -6,7 +6,7 @@ title: "AGNH Protects Against Cinnabar and Realgar-Induced Hepatorenal Toxicity 
 authors: [Wang X, Zhang R, Ma X, Chen L, Meng H, Xu Q]
 year: 2021
 publication: "Frontiers in Pharmacology"
-doi: 10.3389/fphar.2021.647694
+doi: "10.1155/2021/5566078"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
@@ -26,6 +26,8 @@ updated: 2026-05-13
 ---
 
 # Wang et al. 2021 — AGNH protects against cinnabar and realgar toxicity in mice
+
+## Overview
 
 Cinnabar (HgS) and realgar (As4S4) are mercury and arsenic sulfide minerals used in traditional Chinese medicine (TCM) formulations. This study investigates whether AGNH (a herbal preparation) can attenuate the hepatorenal toxicity induced by these mineral-based TCM ingredients, measuring Hg and As species in liver and kidney tissue of dosed mice using IC-ICP-MS (ion chromatography coupled to ICP-MS). The paper provides quantitative data on Hg and As tissue concentrations following oral administration of HgS and As4S4, directly relevant to supplement safety assessment.
 
@@ -56,15 +58,15 @@ App: TCM supplements containing cinnabar or realgar should be flagged as high-Hg
 - [[ingredients/traditional-chinese-medicine]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

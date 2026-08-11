@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/floss-interdental-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "44e84e8867edd898ae89a744f3a22ec4e5efa50b1463520fce5730f1260903be",
-      "content_bytes": 7618,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "573b188a5c1dab1640764c9938b7295bb2e55a439facf99945e0944e1b7a5623",
+      "content_bytes": 7810,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/floss-interdental-cleaners.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/floss-interdental-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

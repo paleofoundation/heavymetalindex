@@ -124,7 +124,7 @@ celery,D4,driver-citation,confirm prose cites a source for each driver
 celery,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 cereals,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 cereals,D4,driver-citation,confirm prose cites a source for each driver
-cereals,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, MMA, DMA, tAs, Cd, Pb, tHg, MeHg, Tl, As, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, Mo, Ag, B, Sr"
+cereals,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, Cd, Pb, iAs, tHg, MeHg, Tl, DMA, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, Mo, Ag, B, Sr"
 cereals,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 chapattis,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 chapattis,D4,driver-citation,confirm prose cites a source for each driver
@@ -245,7 +245,7 @@ fresh-herbs,D4,driver-citation,confirm prose cites a source for each driver
 fresh-herbs,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 freshwater-fish,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 freshwater-fish,D4,driver-citation,confirm prose cites a source for each driver
-freshwater-fish,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Cd, tHg, MeHg, Pb, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, Mn, I, Fe, U, As, Mo"
+freshwater-fish,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Cd, tHg, MeHg, Pb, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, Mn, I, Fe, U"
 freshwater-fish,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 fromage-frais,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 fromage-frais,D4,driver-citation,confirm prose cites a source for each driver
@@ -265,7 +265,7 @@ fruit-purees,D4,driver-citation,confirm prose cites a source for each driver
 fruit-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 fruit,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 fruit,D4,driver-citation,confirm prose cites a source for each driver
-fruit,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Sb, Cr, Cu, Mn, Ni, Se, Sn, Zn, U, As, Mo, Cr-total, Co, Fe, Mg, V, Ag, Li, Ba, Be, Hg"
+fruit,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Cu, Zn, Ni, Sb, Cr, Mn, Se, Sn, U, Cr-total, Co, Fe, Mg, Mo, V, Ag, Li, Ba, Be, Hg"
 fruit,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 grape-juice,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 grape-juice,D4,driver-citation,confirm prose cites a source for each driver
@@ -314,14 +314,14 @@ iceberg-lettuce,D4,driver-citation,confirm prose cites a source for each driver
 iceberg-lettuce,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-cereal-ingredients,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-cereal-ingredients,D4,driver-citation,confirm prose cites a source for each driver
-infant-cereal-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, MMA, DMA, tAs, Pb, Cd, tHg, MeHg, Tl, As, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, Ag, B, Sr, Mo"
+infant-cereal-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, DMA, Ag, B, Sr, Mo"
 infant-cereal-ingredients,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-concentrated-liquid,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-formula-concentrated-liquid,D4,driver-citation,confirm prose cites a source for each driver
 infant-formula-concentrated-liquid,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-ingredients,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-formula-ingredients,D4,driver-citation,confirm prose cites a source for each driver
-infant-formula-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cd, tAs, Cr, Ni, Fe, Zn, Cu, iAs, DMA, MMA, Al, U, Mn, Sn, tHg, MeHg, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, Ca, AsB, metals/arsenic, Sr, I"
+infant-formula-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: Ni, Pb, Cd, Fe, Zn, Cu, tAs, Al, Cr, Mn, Sn, MeHg, tHg, iAs, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, MMA, DMA, U, Ca, Sr, I"
 infant-formula-ingredients,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-ingredients,balance,dose-anchor,child-consumed ingredient lacks a quantified dose/frequency anchor
 infant-formula-powder,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
@@ -362,7 +362,7 @@ mango-juice,D4,driver-citation,confirm prose cites a source for each driver
 mango-juice,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 mango,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 mango,D4,driver-citation,confirm prose cites a source for each driver
-mango,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Sb, Cr, Cu, Mn, Ni, Se, Sn, Zn, U, As, Mo, Cr-total, Co, Fe"
+mango,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Cu, Zn, Ni, Sb, Cr, Mn, Se, Sn, U, Cr-total, Co, Fe"
 mango,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 margarine,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 margarine,D4,driver-citation,confirm prose cites a source for each driver
@@ -378,7 +378,7 @@ meat-and-poultry-purees,D4,driver-citation,confirm prose cites a source for each
 meat-and-poultry-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 meat-and-poultry,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 meat-and-poultry,D4,driver-citation,confirm prose cites a source for each driver
-meat-and-poultry,D6,missing-metal-species,"routing flags missing species in bridged products: Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V, Pb, tHg, iAs, Cu, I, Fe, Mn, Se, Zn, U, As, Mo, Tl, Cr-total, Cr-VI, Cr-III, MeHg"
+meat-and-poultry,D6,missing-metal-species,"routing flags missing species in bridged products: Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V, Pb, tHg, iAs, Cu, I, Fe, Mn, Se, Zn, U, Cr-total, Cr-VI, Cr-III, MeHg, Tl, As"
 meat-and-poultry,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 meat,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 meat,D4,driver-citation,confirm prose cites a source for each driver
@@ -388,7 +388,7 @@ melon,D4,driver-citation,confirm prose cites a source for each driver
 melon,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 milk-and-dairy,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 milk-and-dairy,D4,driver-citation,confirm prose cites a source for each driver
-milk-and-dairy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cd, tAs, Cr, Ni, Fe, Zn, Cu, iAs, DMA, MMA, Al, U, Mn, Sn, tHg, MeHg, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, Ca, AsB, metals/arsenic, Sr"
+milk-and-dairy,D6,missing-metal-species,"routing flags missing species in bridged products: Ni, Pb, Cd, Fe, Zn, Cu, tAs, Al, Cr, Mn, Sn, MeHg, tHg, iAs, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, MMA, DMA, U, Ca, Sr"
 milk-and-dairy,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 mixed-meals,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 mixed-meals,D4,driver-citation,confirm prose cites a source for each driver
@@ -536,7 +536,7 @@ rice-puffs,D4,driver-citation,confirm prose cites a source for each driver
 rice-puffs,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 rice,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 rice,D4,driver-citation,confirm prose cites a source for each driver
-rice,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, tAs, MMA, DMA, AsB, metals/arsenic, Cd"
+rice,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, tAs, tHg, MeHg, Cd"
 rice,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 root-vegetable-purees,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 root-vegetable-purees,D4,driver-citation,confirm prose cites a source for each driver
@@ -544,6 +544,9 @@ root-vegetable-purees,D10,not-comparable,confirm matrix-scope fit and like-for-l
 root-vegetables,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 root-vegetables,D4,driver-citation,confirm prose cites a source for each driver
 root-vegetables,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
+salt,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
+salt,D4,driver-citation,confirm prose cites a source for each driver
+salt,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 saltine-crackers,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 saltine-crackers,D4,driver-citation,confirm prose cites a source for each driver
 saltine-crackers,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
@@ -579,7 +582,7 @@ soy-protein-isolate,D4,driver-citation,confirm prose cites a source for each dri
 soy-protein-isolate,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 soy,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 soy,D4,driver-citation,confirm prose cites a source for each driver
-soy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cu, tAs, Cd, Al, Cr, Mn, Ni, Sn, Zn, iAs, tHg, MeHg, Tl, Sb, Co, V, Se, Fe, iHg, Li, Mg, Ti, Ba, Mo, As, Hg, MMA, DMA, U, Ca, AsB, metals/arsenic, Sr, I"
+soy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cu, tAs, Cd, Al, Cr, Mn, Ni, Sn, Zn, MeHg, tHg, iAs, Tl, Sb, Co, V, Se, Fe, iHg, Li, Mg, Ti, Ba, Mo, As, Hg, MMA, DMA, U, Ca, Sr, I"
 soy,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 soybean-oil,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 soybean-oil,D4,driver-citation,confirm prose cites a source for each driver
@@ -647,7 +650,7 @@ vegetable-purees,D4,driver-citation,confirm prose cites a source for each driver
 vegetable-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 vegetables,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 vegetables,D4,driver-citation,confirm prose cites a source for each driver
-vegetables,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Mn, Se, Zn, I, Fe, Cr-total, Cr-VI, Cr-III, As"
+vegetables,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Zn, Mn, Se, I, Fe, Cr-total, Cr-VI, Cr-III, As"
 vegetables,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 vinegar,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 vinegar,D4,driver-citation,confirm prose cites a source for each driver
@@ -731,9 +734,7 @@ apple-juice,data-hygiene,missing-bridge,missing-bridge: U has no bridged product
 apple,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 apple,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
-apple,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
-apple,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
@@ -830,6 +831,7 @@ black-pepper,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged prod
 black-pepper,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 black-pepper,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 black-pepper,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+black-pepper,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 blueberries,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 blueberries,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 blueberries,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1005,7 +1007,7 @@ celery,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row;
 cereals,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=4
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=23 vs distinct_sources=4
-cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=10 vs distinct_sources=4
+cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=10 vs distinct_sources=6
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=8 vs distinct_sources=1
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=14 vs distinct_sources=2
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=1
@@ -1251,7 +1253,7 @@ fish,data-hygiene,missing-primary-metals,missing-primary-metals: derived priorit
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=49 vs distinct_sources=1
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=48 vs distinct_sources=3
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=18 vs distinct_sources=1
-fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=70 vs distinct_sources=5
+fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=70 vs distinct_sources=3
 fish,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=11 vs distinct_sources=1
 fish,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
@@ -1328,7 +1330,7 @@ fruit-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged produ
 fruit-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 fruit,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=21 vs distinct_sources=3
-fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=4
+fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=5
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=8 vs distinct_sources=3
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=12 vs distinct_sources=4
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=8 vs distinct_sources=3
@@ -1448,6 +1450,8 @@ iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged pr
 iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 infant-cereal-ingredients,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 infant-formula-ingredients,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+infant-formula-ingredients,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=7 vs distinct_sources=4
+infant-formula-ingredients,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=5 vs distinct_sources=2
 infant-formula-ingredients,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 infant-formula-powder,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 infant-formula-powder,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
@@ -1566,15 +1570,15 @@ melon,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row;
 melon,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 melon,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 milk-and-dairy,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=6
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=7
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=3
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=6
 milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=6 vs distinct_sources=2
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=14 vs distinct_sources=3
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=11 vs distinct_sources=2
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=12 vs distinct_sources=6
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=16 vs distinct_sources=4
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=14 vs distinct_sources=2
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=11 vs distinct_sources=3
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=12 vs distinct_sources=5
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=16 vs distinct_sources=5
 milk-and-dairy,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=5 vs distinct_sources=2
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=5 vs distinct_sources=1
 molluscs,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 molluscs,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 molluscs,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1604,12 +1608,15 @@ non-rice-grains,data-hygiene,missing-bridge,missing-bridge: Al has no bridged pr
 non-rice-grains,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 non-rice-grains,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
+non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 non-soy-infant-formula,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 non-soy-infant-formula,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 non-soy-infant-formula,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1887,17 +1894,17 @@ rice-flour,data-hygiene,missing-primary-metals,missing-primary-metals: derived p
 rice-flour,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 rice-flour,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 rice,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=61 vs distinct_sources=0
-rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=86 vs distinct_sources=1
-rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=74 vs distinct_sources=1
-rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=45 vs distinct_sources=0
+rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=5 vs distinct_sources=0
+rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=8 vs distinct_sources=1
+rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=8 vs distinct_sources=1
+rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=5 vs distinct_sources=0
 rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=23 vs distinct_sources=0
 rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=11 vs distinct_sources=0
 rice,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=11 vs distinct_sources=0
-rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=95 vs distinct_sources=0
-rice,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
+rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=6 vs distinct_sources=0
 root-vegetable-purees,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
@@ -1911,6 +1918,8 @@ root-vegetables,data-hygiene,missing-bridge,missing-bridge: Al has no bridged pr
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+salt,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+salt,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 saltine-crackers,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 saltine-crackers,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 saltine-crackers,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1973,8 +1982,9 @@ soy-based-infant-formula,data-hygiene,missing-primary-metals,missing-primary-met
 soy-based-infant-formula,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 soy-based-infant-formula,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 soy,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=9 vs distinct_sources=5
+soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=9 vs distinct_sources=4
 soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=6 vs distinct_sources=2
+soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=7 vs distinct_sources=4
 soy,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 soybean-oil,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 soybean-oil,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
@@ -2029,13 +2039,15 @@ sweet-potato,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged produ
 sweet-potato,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 sweet-potato,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 tea,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=8 vs distinct_sources=1
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=8 vs distinct_sources=1
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=8 vs distinct_sources=0
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=8 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=5 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=1
+tea,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+tea,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 tinned-fish,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 tinned-fish,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 tinned-fish,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence

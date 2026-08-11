@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-oils",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2bc0b695ad17df4e2709e34ce854d6a0efca1eb950cd8927b79f0bb432396c41",
-      "content_bytes": 7381,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "83661abc42bec086f73842b1c29a46066846b522c155bc80226b386e22d3a238",
+      "content_bytes": 7573,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/pet-supplements-oils.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/pet-supplements-oils.md | sha256sum"
     }
   },
   "evidence_base": {

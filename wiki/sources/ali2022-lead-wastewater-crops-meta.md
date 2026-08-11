@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ali et al. 2022 — Meta-analysis of lead in wastewater-irrigated soil and crops
 
+## Overview
+
 This systematic review and meta-analysis synthesises 24 studies across 13 countries to quantify the accumulation of lead in municipal wastewater, wastewater-irrigated soil, and edible crops, and to assess associated public health risks. The studies are concentrated in South and East Asia (India, Pakistan, Iran, China), where large-scale untreated wastewater irrigation is documented. The review includes 44 crops, of which 38 are leafy and non-leafy vegetables. Key finding: in all studied crops produced using untreated wastewater, lead concentrations in edible parts exceeded WHO limits for edibility, and health risk indices (HRI) calculated for multiple countries (India, Iraq, Morocco, Egypt) exceed 1, indicating unacceptable risk.
 
 ## Key numbers
@@ -64,15 +66,15 @@ Microbiome: Not directly applicable.
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Preserved the source text's reported soil unit in Key numbers, tightened HMT&C/app language away from wiki-side sourcing directives, corrected matrix vocabulary, removed a non-taxonomy supply-chain wikilink, and removed named analysis-software vendors from Methods while preserving the meta-analysis workflow.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

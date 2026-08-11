@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Grochowska-Niedworok et al. 2020 — Cadmium and lead in Polish tomatoes and tomato products
 
+## Overview
+
 This Polish study assessed cadmium and lead contamination across 25 samples of fresh tomatoes (multiple varieties and farming systems) and processed tomato products (concentrates, purees, juices, sauces, dried tomatoes), comparing measured concentrations against EU maximum levels set in Commission Regulation (EC) No 1881/2006. Nearly all samples fell within regulatory limits; the sole exceedance was a canned tomato concentrate with Cd at 0.064 mg/kg fresh weight, modestly above the 0.050 mg/kg EU limit. The study found generally low contamination levels consistent with tomatoes being among the least heavy-metal-laden vegetable groups, while flagging that frequent consumption and the bioaccumulative nature of both metals warrant ongoing monitoring.
 
 ## Key numbers
@@ -112,15 +114,15 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 - Cross-vendor audit (Codex, 2026-05-18) retained the source-specific matrix labels `[fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]` as custom matrix descriptors because the current common matrices vocabulary does not have a clean fresh-tomato / tomato-product equivalent; downstream routing is carried by the live ingredient and product wikilinks above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

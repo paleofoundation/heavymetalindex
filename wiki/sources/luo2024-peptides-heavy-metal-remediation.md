@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Luo et al. 2024 — Peptides used for heavy metal remediation: a review of mechanisms and sources
 
+## Overview
+
 Luo and colleagues at the Key Laboratory of Coarse Cereal Processing (Sichuan Engineering & Technology Research Center of Coarse Cereal Industrialization, Chengdu University) review the published literature on peptide-based remediation of heavy metal pollution, covering peptide sources (animal, plant, microbial-fermentation, and chemical-synthesis routes), peptide-metal binding chemistry, the chelation reaction mechanism, phytochelatins, metallothioneins, and the cell-transducing TAT peptide. The review is a secondary synthesis with no primary measurements; its value to the wiki is conceptual — it organises the amino-acid residues, peptide families, and binding modes most cited in the peptide-remediation literature and is therefore a routing-relevant background source for `mitigation/remediation-evidence.md` and for any future page on peptide-based contamination mitigation.
 
 ## Why this matters
@@ -171,12 +173,15 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (which lists only ingredients/products/metals/regulations) but confirmed it points to a real wiki section under `wiki/mitigation/remediation-evidence.md`. The wikilink has been normalised to the no-extension, no-alias convention used elsewhere in the corpus. The `mitigation/` subtree is a legitimate routing destination under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`; the taxonomy snapshot's closed list is GPT-5.5's drafting vocabulary, not the wiki's exhaustive section index. No content corrections were applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ba01991](https://github.com/paleofoundation/heavymetalindex/commit/ba01991) | 2026-06-08 | audit: luo2024-peptides-heavy-metal-remediation promoted |
-| [3ffa5dd](https://github.com/paleofoundation/heavymetalindex/commit/3ffa5dd) | 2026-06-08 | ingest: luo2024-peptides-heavy-metal-remediation fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

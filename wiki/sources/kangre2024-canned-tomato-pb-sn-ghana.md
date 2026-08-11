@@ -28,6 +28,8 @@ updated: 2026-05-28
 
 # Kangre 2024 — Lead and tin in canned tomato mix, Ghana (storage display conditions)
 
+## Overview
+
 An MPhil thesis from the University of Education, Winneba (Ghana) examined Pb and Sn in 32 cans of canned tomato mix (a single canned tomato paste brand) under two retail display conditions: sunlight-exposed outdoor stalls vs enclosed shops. Samples were collected from the Effutu Municipality and analysed by ICP-MS at the Ghana Standards Authority. Both metals were below Codex limits on a mean basis. Pb mean was numerically higher in sunlight-exposed product (0.052 ± 0.12 mg/kg, SE) than enclosed-shop product (0.038 ± 0.02 mg/kg, SE), and Sn mean was numerically lower in sunlight-exposed product (2.304 ± 0.83 mg/kg, SE) than enclosed-shop product (2.656 ± 0.79 mg/kg, SE). An independent-samples t-test found no statistically significant difference between display models for either metal (p > 0.05); the null hypothesis of equal means was retained. A dietary survey of 400 university students supplied consumption parameters, and Monte Carlo simulation (Palisade @Risk, 100,000 iterations) produced incremental lifetime cancer risk (ILCR) for Pb and margin-of-exposure (MoE) for chronic kidney disease, with the 95th-percentile ILCR for Pb exceeding the US EPA de minimis 1×10⁻⁶ in all four gender × display strata, and 5th-percentile Pb and Sn MoE values below 1 in every stratum.
 
 ## Key numbers
@@ -137,7 +139,7 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 2026-05-28 enhance pass (Claude): re-read source thesis (pp. 88–130 verified in full; abstract p. xiii). Schema reconciled to the post-2026-05-14 source template and several substantive defects corrected against the source. Specifically:
 
 - Frontmatter `products` corrected from `[products/canned-tomato, products/tomato-sauce]` (the first slug does not exist in `wiki/products/`; the second slug names a thinner product than the "tomato mix" the source describes) to `[products/tomato-paste, products/canned-tomatoes]`. "Tomato mix" in the Ghanaian / West African retail context is a concentrated canned tomato paste; routing to the paste page is the literal match, and the canned-tomatoes page captures the can-lining migration angle that the source emphasises.
-- Body language "Tasty Tom" / "Tasty Tom brand" dropped from prose and frontmatter sample_population per CLAUDE.md Part 12 brand firewall. The fact that the study examines a single brand is preserved (as a methods detail and a limitation), but the brand name is not propagated through the wiki.
+- Body language "Tasty Tom" / "Tasty Tom brand" dropped from prose and frontmatter sample_population brand firewall. The fact that the study examines a single brand is preserved (as a methods detail and a limitation), but the brand name is not propagated through the wiki.
 - "±" labeling corrected from SD to SE throughout. Table 4 (p. 103) and Table 3 (p. 118) of the thesis both label the dispersion as standard error, not standard deviation.
 - Pb display-model claim corrected. The prior wiki said "Pb was significantly higher in sunlight-exposed products"; the source (p. 107) explicitly reports the independent-samples t-test as p > 0.05 and states "the null hypothesis was maintained". The means are numerically higher in sunlight-exposed product but not statistically significantly so; the wiki now reflects that.
 - Sn values added. The prior wiki recorded Sn as "consistent" with no numeric values; Table 4 reports enclosed-shop mean 2.656 ± 0.79 mg/kg (SE) and sunlight-exposed mean 2.304 ± 0.83 mg/kg (SE), and Table 3 reports the underlying per-sample range and percentiles. Sn was numerically lower (not equal) in the sunlight-exposed stratum, and the independent t-test for Sn was also non-significant (p > 0.05).
@@ -149,15 +151,15 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 - `raw_path`, `cite_key`, `raw_handle`, `evidence_tier`, `license` ("unknown" — the IR.uew.edu.gh institutional repository serves the thesis without an explicit reuse licence), `near_duplicates`, and `sample_n` preserved from the prior revision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

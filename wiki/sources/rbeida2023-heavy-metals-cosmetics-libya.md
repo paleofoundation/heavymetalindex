@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Rbeida et al. 2023 — Pb, tAs, Cd, Ni in 12 cosmetic samples (Henna leaves, Henna paste, baby Talcum powder, Khol stones), Tripoli, Libya
 
+## Overview
+
 This Mediterranean Journal of Pharmacy & Pharmaceutical Sciences study quantifies four heavy metals (lead, total arsenic, cadmium, nickel) by atomic absorption spectroscopy (Shimadzu AAS-6300) in 12 cosmetic samples purchased from public markets in Tripoli, Libya in winter 2022: three brands each of Henna leaves, Henna paste, baby Talcum powder, and Khol stones. Khol stones carry the highest lead by an order of magnitude relative to the other three product categories: one sample reaches 102.1 µg/g, roughly 51× the BVL Germany cosmetic limit (2.0 µg/g), 10× the WHO/Health Canada limit (10 µg/g), and 200× the EU limit (0.5 µg/g). One Henna paste sample reaches 41.2 µg/g Pb; one baby Talcum powder sample reaches 33.6 µg/g Pb. Cd and tAs are present at lower but still appreciable levels in henna and kohl; Ni is largely below the limit of detection in henna and talc but reaches 1.5 µg/g in one kohl sample. The paper's central argument is that international cosmetic heavy-metal guidelines diverge widely (FDA, EU 1223/2009, WHO, Health Canada, German BVL) and that the Libyan National Centre for Standardization and Metrology (LNCSM) lacks national specifications for cosmetic heavy-metal limits; the authors call for harmonization.
 
 ## Key numbers
@@ -147,15 +149,15 @@ Speciation: total arsenic and total cadmium/lead/nickel only — no inorganic/or
   - CHECK 1 (Table 3 per-sample values, per-category ranges, Table 1 BVL Germany values, Table 2 multi-jurisdiction limits), CHECK 3 (speciation tAs/Pb/Cd/Ni correct, methods accurately reflect PDF Methods section), and CHECK 4 (brand firewall — paper-side anonymisation preserved, method-vendor names retained per Exception 2): ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Hussain et al. 2016 - Spinach cadmium under soil Cd:Zn ratios
 
+## Overview
+
 Hussain and colleagues tested whether changing the Cd:Zn ratio in contaminated soil changed cadmium uptake into edible spinach leaves. This is in-scope mitigation and soil-to-plant pathway evidence: the spinach was grown in deliberately Cd-spiked glasshouse soil, so these values should not be treated as ordinary market spinach occurrence.
 
 ## Key numbers
@@ -106,3 +108,17 @@ App: Context only. This source can inform spinach Cd pathway notes and supplier 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. On reading, the paper is in scope as lane a2 mitigation/remediation and lane a3 soil-to-plant transfer evidence because it measures Cd in spinach leaves, roots, and post-harvest soil under controlled Cd/Zn soil treatments.
 
 Numbers were checked against the extracted PDF text, especially Tables 1-6 and the conclusion. Units are preserved as printed (`mg kg-1`, `g pot-1`, and coefficient values). Pb appears only in the baseline soil-characterization table and is not treated as spinach occurrence. Products and ingredients are intentionally empty because the experiment used spiked glasshouse soil rather than market spinach.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

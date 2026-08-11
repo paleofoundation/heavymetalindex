@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # Aljedani 2017 — Heavy metals and elements in honeybees and honey from Saudi Arabia
 
+## Overview
+
 Honeybee (Apis mellifera jemenatica) bodies and honey samples were collected from four agricultural regions of Saudi Arabia (Jazan, Asir, Al-Baha, Makkah) in March 2017 and analyzed for eight heavy metals (Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn) and four mineral elements (Ca, K, Mg, Na) by ICP-OES after dry-ashing. In honeybee tissue, Cd, Cr, Ni, and Pb were not detected (mean ± SD = 0.000 ± 0.000 mg/g) in any region; Fe was the dominant heavy metal (2.088–8.794 mg/g across regions). In honey, Cd, Mn, and Pb were not detected; Cr and Ni were quantified only in Al-Baha honey (Cr 0.1599 mg/L, Ni 0.037 mg/L); Fe was again the most concentrated heavy metal (0.907–1.904 mg/L). The author concludes that all measured values fell within international permissible limits for honey and bee products in Saudi Arabia, providing a low-contamination baseline for honey from agricultural regions distant from heavy industry.
 
 ## Key numbers
@@ -115,15 +117,15 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 2026-06-08 byte-identical filesystem-copy enhancement: added `raw_sha256` (`71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing frontmatter changed).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7bf1c3e](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3e) | 2026-06-08 | ingest: aljedani2017-honeybee-honey-saudi-arabia duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_07_Processed_Foods_Snacks_Beverages |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [7bf1c3ea4](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

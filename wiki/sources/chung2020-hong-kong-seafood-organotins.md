@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Chung 2020 - Organotins in Hong Kong market seafood
 
+## Overview
+
 Chung and colleagues measured four organotin compounds in edible portions of Hong Kong market seafood: DBT, TBT, TPhT, and DOT. The survey covered 341 fish, crustacean, and mollusc samples collected in 2017-2018 and analyzed by GC-ICP/MS. These are organotin tin species reported as `μg Sn kg−1 wet weight`, not total inorganic tin.
 
 ## Key numbers
@@ -113,11 +115,15 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - Same audit caught real issues: `matrices` was missing the `organotins` speciation token (6+ sibling pages include it); `market-fish` was an idiomatic outlier (corpus uses `market-samples` or `<country>-market`). Both fixed. `products/seafood` added to capture the broad multi-group scope per lee2016-taiwan-seafood-organotins precedent.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3f11482](https://github.com/paleofoundation/heavymetalindex/commit/3f11482) | 2026-06-08 | ingest: chung2020-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -72,7 +72,10 @@ ${endMarker}`
 
 function upsertSection(text, section) {
   const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
-  if (pattern.test(text)) return text.replace(pattern, section)
+  // Function replacer: the Author-scope table carries source-derived prose that
+  // can contain `$`-sequences; a string replacement would interpret them as
+  // backreferences (the source-legend idempotency bug class).
+  if (pattern.test(text)) return text.replace(pattern, () => section)
 
   for (const anchor of ["\n## Internal Standards Boundary", "\n## Sources"]) {
     const index = text.indexOf(anchor)

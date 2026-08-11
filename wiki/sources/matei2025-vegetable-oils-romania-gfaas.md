@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Matei et al. 2025 — Cd, Pb, Cu, Cr, Co, Mn, Ni in eight Romanian edible vegetable oils by GF-AAS
 
+## Overview
+
 This study determined seven trace metals (Cd, Pb, Cu, Cr, Co, Mn, Ni) and seven physicochemical quality indices (acidity index, moisture content, peroxide value, refractive index, iodine value, saponification value, total phenolic compounds) in eight types of edible vegetable oil purchased from local markets in Constanta, Romania, in 2024. Three samples of each oil type were analyzed (24 samples total) by graphite furnace atomic absorption spectrometry after microwave-assisted nitric acid/hydrogen peroxide digestion. Across all eight oils, Cd was 0.001–0.010 mg/kg, Pb 0.011–0.217 mg/kg, Cu 0.010–0.672 mg/kg, Cr <LD–0.062 mg/kg, Co 0.003–0.031 mg/kg, Mn 0.007–0.083 mg/kg, and Ni 0.003–0.015 mg/kg. The authors report that three values exceed the 0.1 mg/kg FAO/WHO 2002 ceiling cited for Cu in vegetable oils (blend oil 0.672, organic extra virgin olive 0.312, sunflower not exceeding) and for Pb (rice oil 0.217, organic extra virgin olive 0.101 at the cap). Target hazard quotient (THQ) and hazard index (HI) values were below 1 for all oils (HI range 0.00369–0.02672), and the sum of incremental lifetime cancer risks (∑ILCR, for Cr, Cd, Pb, Ni) ranged 4.41×10⁻⁶ to 16.39×10⁻⁶ for adults — within the U.S. EPA acceptable range of 1×10⁻⁶ to 1×10⁻⁴. The paper measures total Pb, total Cd, and total Cr (no speciation); arsenic and mercury were not measured.
 
 Note on evidence tier: assigned B. Peer-reviewed MDPI Applied Sciences with a complete methods description, calibration and digestion documentation, but per-oil-type n is small (n=3) and the geographic frame is a single Romanian city (Constanta) market in a single year (2024). The seven-metal panel omits the two HMI-priority analytes most regulated in food-safety contexts (arsenic and mercury). Total Pb, total Cd, and total Cr are reported without speciation, which is appropriate for these elements in oils.
@@ -198,15 +200,15 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 - Article metadata: Applied Sciences 2025, 15, 6269. Received 23 April 2025; revised 28 May 2025; accepted 2 June 2025; published 3 June 2025. DOI 10.3390/app15116269. CC BY 4.0 (MDPI standard, confirmed in copyright statement: "open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license").
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -6,13 +6,13 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-20
-provisional_reason: "heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic-a declared product/infant-food-fruits, no close-slug match"
-provisional_source: "[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-food-fruits, no close-slug match"
+provisional_source: "[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]"
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 0
 wiki_doi: null
 updated: 2026-05-20
 ---
@@ -21,13 +21,21 @@ updated: 2026-05-20
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic-a declared product/infant-food-fruits, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-food-fruits, no close-slug match
 >
-> **Triggering source:** [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a]]
+> **Triggering source:** [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Infants' dietary arsenic exposure during transition to solid food]]<span class="hmi-ref-meta">Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. · Scientific Reports 8(1):7114 · 2018 · [doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -36,7 +44,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
+| 1 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -45,7 +53,7 @@ This provisional page is for readers tracking fruit-based infant-food evidence t
 
 ## Methodology
 
-The current evidence is exposure-route evidence rather than finished-product concentration testing. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a]] measured urinary arsenic species in infants during transition to solid food and reported associations between fruit intake and urinary inorganic arsenic. Because the endpoint is urine and dietary intake, this page can support exposure-context prose and gap flags, but it cannot by itself supply finished fruit-food concentration distributions. Inorganic arsenic, MMA, DMA, and arsenobetaine remain separate species, and fruit evidence should not be pooled with rice-cereal concentration data.
+The current evidence is exposure-route evidence rather than finished-product concentration testing. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] measured urinary arsenic species in infants during transition to solid food and reported associations between fruit intake and urinary inorganic arsenic. Because the endpoint is urine and dietary intake, this page can support exposure-context prose and gap flags, but it cannot by itself supply finished fruit-food concentration distributions. Inorganic arsenic, MMA, DMA, and arsenobetaine remain separate species, and fruit evidence should not be pooled with rice-cereal concentration data.
 
 ## Literature Evidence Summary
 
@@ -55,7 +63,7 @@ _Pending: regenerated by `tools/evidence/apply-product-hmtc-evidence-summaries.m
 
 ## Source Evidence Inventory
 
-[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a]] contributes a small prospective cohort of 15 infants followed through the weaning transition, with urinary arsenic speciation and dietary recall. The source reports that fruit consumption correlated with urinary inorganic arsenic at follow-up, alongside stronger rice-cereal and vegetable associations. Its value here is to show that fruit-based infant foods belong in arsenic exposure review; its limitation is that it does not isolate a fruit-product concentration, brand, or formulation basis.
+[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] contributes a small prospective cohort of 15 infants followed through the weaning transition, with urinary arsenic speciation and dietary recall. The source reports that fruit consumption correlated with urinary inorganic arsenic at follow-up, alongside stronger rice-cereal and vegetable associations. Its value here is to show that fruit-based infant foods belong in arsenic exposure review; its limitation is that it does not isolate a fruit-product concentration, brand, or formulation basis.
 
 ## Broad Product Context: Author-Scope Index
 
@@ -75,22 +83,22 @@ For fruit infant foods, current evidence supports keeping arsenic testing in the
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 
 No fruit-infant-food recall or enforcement synthesis has been promoted for this provisional page. Regulatory discussion should remain limited to applicable child-food or juice standards once a locked product row is chosen. The current source supports exposure relevance, not an enforcement history.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

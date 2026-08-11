@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 90]
-    p95_ppb: 230
+    typical_ppb: [0, 60]
+    p95_ppb: 250
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-06-11
+    n_studies: 6
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [36.4, 44.4]
@@ -33,18 +33,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [5, 36]
-    p95_ppb: 71
+    typical_ppb: [5, 30]
+    p95_ppb: 70
     confidence: medium
     n_studies: 6
-    last_reviewed: 2026-06-11
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 3]
+    p95_ppb: 5
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [408, 528]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 290]
-    p95_ppb: 720
-    confidence: low
+    typical_ppb: [150, 290]
+    p95_ppb: 700
+    confidence: medium
     n_studies: 5
-    last_reviewed: 2026-06-11
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,35 +86,13 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 35
+updated: 2026-05-16
+sources: 37
 ---
 
 # Peanuts
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=50 | labeled data-gaps: Al, Sn |
-| D2 Regional coverage | OK | 27 jurisdictions, top CN 34% | — |
-| D3 Anthropogenic evidence | GAP | 2 soil + 2 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 4 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Cr POOLABLE, U THIN | U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 10 claims checked, 10 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming peanuts: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 48, "Peanuts, dry roasted, salted." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
@@ -128,30 +106,24 @@ Cadmium accumulation in peanuts is further documented in authoritative toxicolog
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=7 | 0–90 | 230 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| Cd | n=11 | 36.4–44.4 | 44.7 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| iAs | n=3 | 1–2 | 2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
-| tAs | n=6 | 5–36 | 71 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/chen2022-peanut-elements-china\|3]] |
-| tHg | n=3 | 0 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=9 | 408–528 | 539 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=5 | 0–290 | 720 | low | [[sources/chen2022-peanut-elements-china\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/alatise2025-fruit-nuts-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 0–60 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|4]], [[sources/bielecka2021-nuts-toxic-elements-poland\|5]], [[sources/belew2024-peanuts-date-palm-metals\|6]] |
+| Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
+| tAs | n=6 | 5–30 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/bielecka2021-nuts-toxic-elements-poland\|4]], [[sources/belew2024-peanuts-date-palm-metals\|5]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|6]] |
+| tHg | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/blair2017-us-peanut-heavy-metals\|2]], [[sources/bielecka2021-nuts-toxic-elements-poland\|3]] |
+| Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=5 | 150–290 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]], [[sources/belew2024-peanuts-date-palm-metals\|4]], [[sources/alatise2025-fruit-nuts-metals\|5]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 
-The lead, total-arsenic, and chromium cells above were resynthesized on 2026-06-11 on a whole peanut-kernel basis, the form in which peanuts enter the ingredient supply chain. Most primary occurrence literature reports kernel concentrations on a dry or as-sold basis; the FDA Total Diet Study figures for dry-roasted salted peanuts (TDS Food 48, n=3 per analyte) are carried as a corroborating as-consumed anchor rather than the headline basis. Inorganic arsenic and total arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; only the speciated peanut-butter measurement ([[sources/hovanec2004-peanut-butter-arsenic-speciation|Hovanec 2004]]) populates the iAs cell, and the total-arsenic values synthesized here are not propagated to it.
+The lead, total mercury and chromium cells previously read typical [0,0] with a p95 of 0, and the total arsenic cell read a collapsed [1,5] with a p95 equal to its typical maximum of 5. Both patterns trace to leaning entirely on the three FDA dry-roasted salted composites, in which lead, mercury and chromium were non-detect at reporting limits of 4, 1 and 50 ppb and arsenic detected in two of three at a maximum of 5 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Because peanuts are geocarpic and fill their pods in direct soil contact, kernel-level ICP-MS surveys record materially higher and genuinely detectable concentrations, so the FDA non-detects are treated as left-censored bounds and the central ranges are anchored on the kernel datasets.
 
-Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, total arsenic, and chromium at typical and 95th-percentile values that mis-recorded FDA reporting-limit non-detects as literal zeros. In the FDA TDS composites every dry-roasted-peanut sample fell below the reporting limit for lead (4 µg/kg) and chromium (50 µg/kg), and the total-arsenic distribution collapsed against a 3 µg/kg reporting limit (one of three samples non-detect, the rest pinned near 5 µg/kg). The resynthesis replaces those degenerate cells with the detected kernel distributions from the primary literature, in which all three metals are low but non-zero, with right tails driven by market-sample and contaminated-soil production. The honest floor for lead and chromium is the FDA reporting limit expressed as a left-censored bound (`<4` and `<50` µg/kg respectively), not zero.
-
-The lead distribution rests on US farmer-stock data ([[sources/blair2017-us-peanut-heavy-metals|Blair et al. 2017]], n=290, regression-on-order-statistics mean 32 µg/kg, 95% upper confidence limit 37 µg/kg, with 94 of 290 samples censored below 20 µg/kg) together with Polish-market surveys ([[sources/bielecka2021-nuts-toxic-elements-poland|Bielecka et al. 2021]], peanut median 82 µg/kg, mean 189 µg/kg; [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]], peanut mean 229 µg/kg, 49 percent below the quantification limit) and Chinese provincial data ([[sources/chen2022-peanut-elements-china|Chen et al. 2022]], province means 7 to 60 µg/kg, Hebei non-detect). The 95th-percentile anchor of 230 µg/kg is set at the Polish retail mean; documented single-sample maxima (Bielecka 1,354 µg/kg, Ćwieląg-Drabek 818 µg/kg, Blair 640 µg/kg Virginia-Carolina outlier) and a 5,800 µg/kg peanut from a Burkina Faso open market ([[sources/bazie2022-burkina-faso-foodstuffs-metals|Bazie et al. 2022]]) are reported as a separate market-contamination and mining-region stratum and are not folded into the global percentile.
-
-The total-arsenic distribution rests on Blair et al. 2017 (US, ROS mean 28 µg/kg, 109 of 290 censored below 20 µg/kg, single Southwest-region outlier at 410 µg/kg), Bielecka et al. 2021 (peanut median 24 µg/kg, mean 36 µg/kg, range 21 to 71 µg/kg), Chen et al. 2022 (province means 9 to 20 µg/kg), and Belew et al. 2024 (Ethiopia, mean 17 µg/kg, range 1 to 50 µg/kg). The typical band of 5 to 36 µg/kg spans the FDA as-consumed central value to the Polish retail mean; the 95th-percentile anchor of 71 µg/kg is the Bielecka upper range, with the Blair 410 µg/kg Southwest outlier held out of the percentile.
-
-Chromium is reported as total chromium at low confidence; no peanut-kernel hexavalent-chromium measurement exists in the corpus, and no Cr-VI value is inferred from the total. The total-chromium distribution rests on Chen et al. 2022 (province means 234 to 293 µg/kg by ICP-MS), Ćwieląg-Drabek et al. 2025 (peanut mean approximately 230 µg/kg, 4 percent below the quantification limit), Belew et al. 2024 (Ethiopia, mean 145 µg/kg, range 10 to 500 µg/kg), and Alatise et al. 2025 (Nigeria, peanut 720 µg/kg). The typical band of `<50` to 290 µg/kg runs from the FDA left-censored floor to the upper Chinese provincial mean; the 95th-percentile anchor of 720 µg/kg is the Nigerian market value. Legume composites that pool peanut with soybean ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]], legume Cr to 2,600 µg/kg) are soybean-driven and are not adopted as a peanut percentile.
+For chromium the correction is the largest: Chinese kernels ran 234 to 293 ppb across six provinces and Polish-market peanuts about 230 ppb, both far above the 50 ppb FDA limit that produced the false zero ([[sources/chen2022-peanut-elements-china|Chen et al. 2022]]; [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]]). Total arsenic centres near 5 to 30 ppb across US, Chinese, Polish and Ethiopian kernels and peanut butter, with an upper tail reaching the Polish-market maximum of 71 ppb ([[sources/blair2017-us-peanut-heavy-metals|Blair 2017]]; [[sources/bielecka2021-nuts-toxic-elements-poland|Bielecka et al. 2021]]; [[sources/belew2024-peanuts-date-palm-metals|Belew et al. 2024]]; [[sources/hovanec2004-peanut-butter-arsenic-speciation|Hovanec 2004]]). Lead carries a heavy right tail from single high kernels (1354, 818 and 640 ppb) that drive the right tail, and mercury has only one quantified distribution, a Polish-market median of 2.46 ppb, so it stays a left-censored bound. The mining-site kernels of [[sources/zhang2026-trace-metals-five-crops-chongqing|Zhang et al. 2026]] and the US Southwest arsenic outlier of 410 ppb are extreme-tail context and do not drive any central value.
 
 ## Ranges by source, region, and variety
 
@@ -197,7 +169,7 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 ## Regulatory limits that apply
 
-Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in groundnuts (peanuts) intended for direct human consumption is 0.10 mg/kg fresh weight, and the ML for lead in peanuts for direct human consumption is 0.10 mg/kg ([[regulations/eu-2023-915-cadmium]]). Codex Alimentarius has adopted a Cd ML for groundnuts intended for further processing that differs from the direct-consumption ML; the relevant Codex document is [[regulations/codex-cadmium-mls]]. The 17th Session of the Codex Committee on Contaminants in Foods (2024) reviewed trace metal limits for nuts and legumes including peanuts ([[sources/codex-cccf17-2024]]). No US FDA action level for Cd or Ni in peanuts applies under the current regulatory framework; FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list peanuts as a priority category. EFSA's 2020 Ni risk assessment ([[sources/efsa-nickel-contam-2020]]) identifies peanuts as a high-Ni food and uses European peanut occurrence data in chronic exposure modelling, providing the regulatory toxicology basis for evaluating Ni exposure from peanut consumption.
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in groundnuts (peanuts) intended for direct human consumption is 0.10 mg/kg fresh weight, and the ML for lead in peanuts for direct human consumption is 0.10 mg/kg ([[regulations/eu-2023-915-cadmium]]). Codex Alimentarius has adopted a Cd ML for groundnuts intended for further processing that differs from the direct-consumption ML; the relevant Codex document is [[regulations/codex-cadmium-mls]]. The 17th Session of the Codex Committee on Contaminants in Foods (2024) reviewed trace metal limits for nuts and legumes including peanuts ([[sources/codex-cccf17-2024]]). For nickel, Commission Regulation (EU) 2024/1987 set a binding EU maximum level for peanuts of 12 mg/kg (Annex I point 3.6.10.2), applying from 1 July 2025 ([[regulations/eu-2024-1987-nickel-maximum-levels]]); reported peanut Ni (roughly 400–550 ppb) sits well below this level. No US FDA action level for Cd or Ni in peanuts applies under the current regulatory framework; FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list peanuts as a priority category. EFSA's 2020 Ni risk assessment ([[sources/efsa-nickel-contam-2020]]) identifies peanuts as a high-Ni food and uses European peanut occurrence data in chronic exposure modelling, providing the regulatory toxicology basis for evaluating Ni exposure from peanut consumption.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -209,7 +181,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -218,35 +190,55 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Peanuts, dry roasted, salted" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 3 | 35 | 36.4 | 42 | 44.4 | 44.7 | 45 | in profile |
-| Cr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 3 | 400 | 408 | 440 | 528 | 539 | 550 | in profile |
-| Pb | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 3 | 0 | 0.98 | 4.9 | 4.98 | 4.99 | 5 | in profile |
-| tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 3 | 35 | 45 | in profile |
+| Cr | 3 | 0 | 0 | in profile |
+| Ni | 3 | 400 | 550 | in profile |
+| Pb | 3 | 0 | 0 | in profile |
+| U | 3 | 0 | 0 | in profile |
+| tAs | 3 | 0 | 5 | in profile |
+| tHg | 3 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Nickel Content of Food and Estimation of Dietary Intake]]<span class="hmi-ref-meta">Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen · Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 · 1984 · [doi.org/10.1007/BF01043419](https://doi.org/10.1007/BF01043419)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/nordberg2015-cadmium-chapter|Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals]]<span class="hmi-ref-meta">Nordberg GF, Nogawa K, and Nordberg M · Academic Press / Elsevier, Amsterdam · 2015 · [doi.org/10.1016/B978-0-444-59453-2.00032-9](https://doi.org/10.1016/B978-0-444-59453-2.00032-9)</span><span class="hmi-ref-tag">Textbook</span>
+5. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/chen2022-peanut-elements-china|Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization]]<span class="hmi-ref-meta">Chen L, Ding M, Li Z, Li X, and Deng L · RSC Advances · 2022 · [doi.org/10.1039/d2ra02148j](https://doi.org/10.1039/d2ra02148j)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers]]<span class="hmi-ref-meta">Ćwieląg-Drabek M, Nieć-Leśniak J, Białek-Dratwa A, Piekut A, Kiciak A, Dziubanek G, et al. · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-024-04438-4](https://doi.org/10.1007/s12011-024-04438-4)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/blair2017-us-peanut-heavy-metals|Evaluating Concentrations of Pesticides and Heavy Metals in the U.S. Peanut Crop in the Presence of Detection Limits]]<span class="hmi-ref-meta">Blair BF and Lamb MC · Peanut Science · 2017</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/bielecka2021-nuts-toxic-elements-poland|Assessment of the Safe Consumption of Nuts in Terms of the Content of Toxic Elements with Chemometric Analysis]]<span class="hmi-ref-meta">Bielecka J, Puscion-Jakubik A, Markiewicz-Zukowska R, Soroczynska J, Nowakowski P, Grabia M, et al. · Nutrients · 2021 · [doi.org/10.3390/nu13103606](https://doi.org/10.3390/nu13103606)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/belew2024-peanuts-date-palm-metals|Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia]]<span class="hmi-ref-meta">Belew AA, Besha AT, Assege MA, and Moges GW · Discover Environment · 2024 · [doi.org/10.1007/s44274-024-00151-0](https://doi.org/10.1007/s44274-024-00151-0)</span><span class="hmi-ref-tag">Review</span>
+11. [[sources/hovanec2004-peanut-butter-arsenic-speciation|Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS]]<span class="hmi-ref-meta">Hovanec BM · Journal of Analytical Atomic Spectrometry · 2004 · [doi.org/10.1039/b402561j](https://doi.org/10.1039/b402561j)</span><span class="hmi-ref-tag">Review</span>
+12. [[sources/zhang2026-trace-metals-five-crops-chongqing|Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China]]<span class="hmi-ref-meta">Zhang Y, Li X, and Kong F · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-37535-6](https://doi.org/10.1038/s41598-026-37535-6)</span><span class="hmi-ref-tag">Review</span>
+13. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/zhang2026-trace-metals-five-crops-chongqing\|Zhang et al. 2026]]. *Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China*, Scientific Reports | 2026 | Peer-reviewed | tAs, Pb, Cd, Cr, and Ni in 10 peanut kernels alongside four other crops adjacent to a Mn mining and smelting area in Xiushan County, Chongqing, by ICP-MS; peanut occurrence under mining-impacted soil conditions |
 | 2 | [[sources/alatise2025-fruit-nuts-metals\|Alatise et al. 2025]]. *Assessment of natural radioactivity and heavy metal accumulation in selected edible fruit nuts from Lagos and Ogun State markets, Nigeria*, Nigerian Journal of Theoretical and Environmental Physics | 2025 | Peer-reviewed | NG Pb, Cd, Cr, Ni, tAs, tHg occurrence in peanuts, cashew nuts, walnuts, date nuts, tiger nuts, and kola nuts from Lagos and Ogun State markets (n=six nut types) |
-| 3 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Cd, Pb, Cr, and Ni by ETAAS in 16 peanut samples on the Polish market (one Polish-origin peanut exceeded the Chinese 0.2 mg/kg Pb limit at 0.818); HQ analysis shows moderate-to-high risk for high-intake children |
-| 4 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Companion ETAAS occurrence dataset for peanuts among five nut types on the Polish market; peanuts carry the highest mean Cd (0.092 mg/kg) and Pb among the five, with HQ >1 for infants 6–11 months |
-| 5 | [[sources/liu2025-nanyang-crops-heavy-metals\|Liu et al. 2025]]. *Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin*, Scientific Reports | 2025 | Peer-reviewed | CN tAs, Cd, Cr, tHg, Pb occurrence in 5778 surface soil samples, 185 wheat samples, 75 corn samples, 114 peanut samples, and 374 root soil samples... (n=6252) |
-| 6 | [[sources/belew2024-peanuts-date-palm-metals\|Belew et al. 2024]]. *Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia*, Discover Environment | 2024 | Peer-reviewed | ET tAs, Pb, Cr occurrence in six peanut samples and six date palm samples from Jigjiga City markets, Ethiopia (n=12) |
-| 7 | [[sources/codex-cccf17-2024\|Codex 2024]]. *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission | 2024 | Government report | Regulatory context for Pb, Cd, iAs, and Hg limits applicable to nuts and legumes under Codex; also covers new quinoa Cd ML adopted at this session |
+| 3 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Companion ETAAS occurrence dataset for peanuts among five nut types on the Polish market; peanuts carry the highest mean Cd (0.092 mg/kg) and Pb among the five, with HQ >1 for infants 6–11 months |
+| 4 | [[sources/liu2025-nanyang-crops-heavy-metals\|Liu et al. 2025]]. *Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin*, Scientific Reports | 2025 | Peer-reviewed | CN tAs, Cd, Cr, tHg, Pb occurrence in 5778 surface soil samples, 185 wheat samples, 75 corn samples, 114 peanut samples, and 374 root soil samples... (n=6252) |
+| 5 | [[sources/belew2024-peanuts-date-palm-metals\|Belew et al. 2024]]. *Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia*, Discover Environment | 2024 | Peer-reviewed | ET tAs, Pb, Cr occurrence in six peanut samples and six date palm samples from Jigjiga City markets, Ethiopia (n=12) |
+| 6 | [[sources/codex-cccf17-2024\|Codex 2024]]. *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission | 2024 | Government report | Regulatory context for Pb, Cd, iAs, and Hg limits applicable to nuts and legumes under Codex; also covers new quinoa Cd ML adopted at this session |
+| 7 | [[sources/eu-2024-1987-nickel-maximum-levels\|EU 2024]]. *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*, Official Journal of the European Union, L series, 2024/1987 (31.7.2024) | 2024 | Regulation | EU Ni concentrations |
 | 8 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | EU Ni concentrations |
-| 9 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, tAs, tHg, Cr, Ni, Cu, Zn occurrence in 244 commercially purchased food samples from six supermarkets, six farmers' markets, and one wholesale market across Shanyang and... (n=244) |
-| 10 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
+| 9 | [[sources/fsanz2024-schedule-19-contaminants\|Zealand 2024]]. *Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants*, Federal Register of Legislation, Authorised Version F2024C00908 | 2024 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, Sn concentrations |
+| 10 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
 | 11 | [[sources/ding2023-peanut-cadmium-arsenic-transfer\|Ding et al. 2023]]. *Characteristics and Mechanisms of Soil Co-Contamination Affecting the Transfer of Cadmium and Arsenic in Peanut (Arachis hypogaea L.)*, Agronomy | 2023 | Peer-reviewed | CN Cd, tAs occurrence in Outdoor pot experiment using peanut cultivar Ganhua No. 5 in red soil from China, with four replicate pots... (n=4) |
 | 12 | [[sources/meng2023-electrochemical-sensors-food-heavy-metals\|Meng et al. 2023]]. *The innovative and accurate detection of heavy metals in foods: A critical review on electrochemical sensors*, Food Control | 2023 | Review | CN/WHO Pb, Cd, iAs, tHg, Cr, Cr-VI, Cu, Zn, Ag occurrence in Critical review of the electrochemical-sensor literature (through ~2022) for heavy-metal detection in food matrices. |
 | 13 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | Narrative review of tAs, Pb, Cd, tHg, Ni, and Cr in oilseeds including peanuts and derived oils; flags Pb and Cd as the most frequently documented oilseed concerns and gaps in commodity-specific MLs |
@@ -269,21 +261,23 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 30 | [[sources/iyabo2015-ekiti-staple-foods-metals\|Iyabo et al. 2015]]. *Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria*, International Journal of Chemistry | 2015 | Peer-reviewed | NG Zn, Cu, Cd, Pb occurrence in Thirty listed staple food items identified from a questionnaire of 200 volunteered Ekiti State University students and purchased... (n=30) |
 | 31 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical Cd toxicology chapter identifying peanuts and sunflower seeds as elevated-Cd oilseed crops due to soil accumulation |
 | 32 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
-| 33 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion; peanuts identified as a contributing Cd source in European dietary exposure assessment |
-| 34 | [[sources/hovanec2004-peanut-butter-arsenic-speciation\|Hovanec 2004]]. *Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS*, Journal of Analytical Atomic Spectrometry | 2004 | Peer-reviewed | tAs and iAs speciation by IC-ICP-MS in 6 US retail peanut butter samples plus NIST SRM 2387; the first peanut butter speciation study, showing organic species (DMA, MMA) dominate over inorganic As — lower toxicological concern than iAs-dominated matrices |
-| 35 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni occurrence dataset (2,221 food samples); peanuts reported as a high-Ni food with disproportionate load factor relative to dietary weight |
+| 33 | [[sources/iarc2012-nickel-compounds-monograph-100c\|IARC 2012]]. *Nickel and Nickel Compounds (IARC Monographs Volume 100C — A Review of Human Carcinogens: Arsenic, Metals, Fibres, and Dusts)*, IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, Vol. 100C, pp. 169–218. International Agency for Research on Cancer, Lyon. | 2012 | Government report | INTL Ni occurrence in Human carcinogenicity evidence drawn from occupational cohort and nested case–control studies of nickel-producing and nickel-using workers (smelting, refining,... |
+| 34 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion; peanuts identified as a contributing Cd source in European dietary exposure assessment |
+| 35 | [[sources/fsanz2008-cadmium-peanuts-assessment\|Zealand 2008]]. *Final Assessment Report - Application A552: Cadmium in peanuts*, Food Standards Australia New Zealand Final Assessment Report 12-08 | 2008 | Government report | AU/NZ/CN Cd occurrence in FSANZ regulatory assessment using Australian AQIS 2001-2006 imported-food cadmium tests, USFDA Total Diet Study 1991-2004 peanut values, Chinese... |
+| 36 | [[sources/hovanec2004-peanut-butter-arsenic-speciation\|Hovanec 2004]]. *Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS*, Journal of Analytical Atomic Spectrometry | 2004 | Peer-reviewed | tAs and iAs speciation by IC-ICP-MS in 6 US retail peanut butter samples plus NIST SRM 2387; the first peanut butter speciation study, showing organic species (DMA, MMA) dominate over inorganic As — lower toxicological concern than iAs-dominated matrices |
+| 37 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni occurrence dataset (2,221 food samples); peanuts reported as a high-Ni food with disproportionate load factor relative to dietary weight |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0a907f56a](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a) | 2026-08-09 | correction | Narrative text revised |
+| [4365cdb39](https://github.com/paleofoundation/heavymetalindex/commit/4365cdb39) | 2026-08-09 | correction | 8 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -20,18 +20,1486 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-wipes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "522a284242966941f6df77a27516a6011880e06648855b078920ad71effc30c7",
-      "content_bytes": 12349,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "9bc3d81c0e06f52d60a71553da3814116e047114652143e075c8709e3419ef4a",
+      "content_bytes": 38482,
+      "last_commit_sha": "ad172bca7",
+      "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/baby-wipes.md | sha256sum"
+      "verify_command": "git show ad172bca7:wiki/products/baby-wipes.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 7,
+    "contributing_source_count": 81,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the",
+        "title": "There is a growing global concern for the environmental and health hazards posed by heavy metal contaminants, espe-",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the",
+        "content_pin": {
+          "content_sha256": "2294c859180fd6cf55705b51213fc9d898dc009b2acc4a2211a13e0208c01106",
+          "content_bytes": 6930,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/article2019-distinct-size-dependent-properties-led-to-the-development",
+        "title": "distinct size-dependent properties led to the development of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/article2019-distinct-size-dependent-properties-led-to-the-development",
+        "content_pin": {
+          "content_sha256": "f7c9bbcd39feab03f2d299c5a6d0dd02f5e74b857f593004adb209c9dac01334",
+          "content_bytes": 9339,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/article2019-distinct-size-dependent-properties-led-to-the-development.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors1993-of-lead-exposure-in-utero-and-in-early",
+        "title": "of lead exposure in utero and in early childhood. Blood lead levels in the children ranged from 10 to showed that 6% of children 1–4 years old had",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors1993-of-lead-exposure-in-utero-and-in-early",
+        "content_pin": {
+          "content_sha256": "a933e16892bd855ba64703c5f8a64cc92c9d52f1c71404f8148c8a63e94bf81b",
+          "content_bytes": 10193,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors1993-of-lead-exposure-in-utero-and-in-early.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2002-ettinger-adrienne-s-robert-l-bornschein-mark-farfel",
+        "title": "Ettinger, Adrienne S., Robert L. Bornschein, Mark Farfel, Carla Campbell, N. Beth Ragan,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2002-ettinger-adrienne-s-robert-l-bornschein-mark-farfel",
+        "content_pin": {
+          "content_sha256": "7c242ff20c84adcf5b055ed87456a556634dc468355a7d0a52de704a6b37723c",
+          "content_bytes": 10754,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2002-ettinger-adrienne-s-robert-l-bornschein-mark-farfel.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2007-weathers-naturally-human-exposure-to-acq-might-occur",
+        "title": "weathers naturally, human exposure to ACQ might occur through dermal contact or incidental",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2007-weathers-naturally-human-exposure-to-acq-might-occur",
+        "content_pin": {
+          "content_sha256": "f492c5dca3eb9868db1f640e7c56d42f0c9d55e69104803c766d96a1f0112b81",
+          "content_bytes": 8182,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2007-weathers-naturally-human-exposure-to-acq-might-occur.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2010-3agency-for-toxic-substances-and-disease-registry-atlanta",
+        "title": "3Agency for Toxic Substances and Disease Registry, Atlanta, Georgia, USA; 4Guy’s and St Thomas’ NHS Foundation Trust and King’s",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2010-3agency-for-toxic-substances-and-disease-registry-atlanta",
+        "content_pin": {
+          "content_sha256": "468483d84f31e828310aa2acbb78bf5cae32f5863f2d4968371548ff183ba30d",
+          "content_bytes": 10762,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2010-3agency-for-toxic-substances-and-disease-registry-atlanta.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2014-journal-of-exposure-science-and-environmental-epidemiology-2014",
+        "title": "Journal of Exposure Science and Environmental Epidemiology (2014) 24, 185–191",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2014-journal-of-exposure-science-and-environmental-epidemiology-2014",
+        "content_pin": {
+          "content_sha256": "74902b22957591a8653b1d64e4af202cf4fdad1defdc66d7a33ec15e1ac6130b",
+          "content_bytes": 10724,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2014-journal-of-exposure-science-and-environmental-epidemiology-2014.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2014-potential-health-effects-associated-with-dermal-exposure-to",
+        "title": "Potential Health Effects Associated with Dermal Exposure to Occupational",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Ni",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2014-potential-health-effects-associated-with-dermal-exposure-to",
+        "content_pin": {
+          "content_sha256": "22bbf822ace4ff5ca2468d5b5821e206b082535f9cc6a93fef928de3826d633f",
+          "content_bytes": 6078,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2014-potential-health-effects-associated-with-dermal-exposure-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2015-adverse-effects-of-nanoparticles-to-infants-and-children",
+        "title": "Adverse effects of nanoparticles to infants and children",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2015-adverse-effects-of-nanoparticles-to-infants-and-children",
+        "content_pin": {
+          "content_sha256": "d6a7108dce22e1e2e7cc4cbb16a32e408155eb9898cb6789bc6d2a06a8dc2e7e",
+          "content_bytes": 4337,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2015-adverse-effects-of-nanoparticles-to-infants-and-children.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2015-assessment-of-heavy-metals-in-indoor",
+        "title": "Assessment of Heavy Metals in Indoor",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2015-assessment-of-heavy-metals-in-indoor",
+        "content_pin": {
+          "content_sha256": "ae0f9df0dc0dcd9dae987e3812a4f76a770c7322caa7621107c027b65d9d6e14",
+          "content_bytes": 6861,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2015-assessment-of-heavy-metals-in-indoor.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2015-immediate-screening-of-lead-exposure-in-the",
+        "title": "Immediate screening of lead exposure in the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2015-immediate-screening-of-lead-exposure-in-the",
+        "content_pin": {
+          "content_sha256": "cada5e1fda7042ace25a232a592360b9292be7b871b378a63a2e11cac240699a",
+          "content_bytes": 7493,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2015-immediate-screening-of-lead-exposure-in-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-comparison-of-lead-and-tin-concentrations-in-air",
+        "title": "Comparison of Lead and Tin Concentrations in Air at a Solder",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-comparison-of-lead-and-tin-concentrations-in-air",
+        "content_pin": {
+          "content_sha256": "ea1c3884eda7319725f354a718b0e37186ea87a2424b76649fea76707cb167a8",
+          "content_bytes": 7379,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2016-comparison-of-lead-and-tin-concentrations-in-air.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-nm-l-shahidehnia-j-environ-anal-toxicol-2016",
+        "title": "nm l Shahidehnia, J Environ Anal Toxicol 2016, 6:4",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-nm-l-shahidehnia-j-environ-anal-toxicol-2016",
+        "content_pin": {
+          "content_sha256": "1fdfb882f61ad249daae21657946e1e3f20e7b44b5fc3f21595569c97a90c191",
+          "content_bytes": 8076,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2016-nm-l-shahidehnia-j-environ-anal-toxicol-2016.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-residual-metal-impurities-in-carbon-nanotubes-cnts-provide",
+        "title": "Residual metal impurities in carbon nanotubes (CNTs) provide a means to distinguish CNT from non-CNT sources of elemental",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-residual-metal-impurities-in-carbon-nanotubes-cnts-provide",
+        "content_pin": {
+          "content_sha256": "f58ff4cf884624754750ccbe4af5fa8e819a0eea591ecb559bfa4c53fa3a272d",
+          "content_bytes": 9896,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2016-residual-metal-impurities-in-carbon-nanotubes-cnts-provide.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-exposures-to-harmful-metals",
+        "title": "exposures to harmful metals",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-exposures-to-harmful-metals",
+        "content_pin": {
+          "content_sha256": "573af1d2e9644bce2cc11d4940e8d5f6d4005f4098a1232595cd51985b983363",
+          "content_bytes": 9211,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-exposures-to-harmful-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-journal-of-exposure-science-and-environmental-epidemiology-2017",
+        "title": "Journal of Exposure Science and Environmental Epidemiology (2017) 27, 47–55",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-journal-of-exposure-science-and-environmental-epidemiology-2017",
+        "content_pin": {
+          "content_sha256": "1cea16931dd903691947ba2f41f9bf989e32ff5ee754924eacebe6297025ffcb",
+          "content_bytes": 7643,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-journal-of-exposure-science-and-environmental-epidemiology-2017.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-risk-assessment-and-implication-of-human-exposure",
+        "title": "Risk Assessment and Implication of Human Exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "tAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-risk-assessment-and-implication-of-human-exposure",
+        "content_pin": {
+          "content_sha256": "4313458c789ce13cd71cac64e4b5bed3e74f1dec1e3073d966c4ca97df398411",
+          "content_bytes": 8637,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-risk-assessment-and-implication-of-human-exposure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-risk-assessment-for-children-exposed-to-arsenic",
+        "title": "Risk Assessment for Children Exposed to Arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "iAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic",
+        "content_pin": {
+          "content_sha256": "6002554b1a527c26360f9c4920d83e11611753912f1f24d73ade11f8b949b024",
+          "content_bytes": 9015,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide",
+        "title": "their exposure assessment sampling strategies in a wide range of workplaces. This article discusses",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "Ni",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide",
+        "content_pin": {
+          "content_sha256": "f98e55021ffabc79879466ac4bde7e769695b46ac67af64c676777411f81de1c",
+          "content_bytes": 6444,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2018-influence-of-heavy-metals-on-nematode-community-structure",
+        "title": "Inﬂuence of heavy metals on nematode community structure in deteriorated T",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2018-influence-of-heavy-metals-on-nematode-community-structure",
+        "content_pin": {
+          "content_sha256": "1e54c6e57207c46a6861dbd6ce08441099b38f1275d88b24b5e2872a80998edd",
+          "content_bytes": 9832,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2018-influence-of-heavy-metals-on-nematode-community-structure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2018-information-on-elements-such-as-potentially-toxic-trace",
+        "title": "Information on elements, such as potentially toxic trace elements, and on concentrations of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2018-information-on-elements-such-as-potentially-toxic-trace",
+        "content_pin": {
+          "content_sha256": "c2649af5db68119e8c05d0030304ee4ffd9a99e3781d9685eda17e22ef6a9f83",
+          "content_bytes": 8075,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2018-information-on-elements-such-as-potentially-toxic-trace.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-agnese-araja-maris-bertins-gunita-celma-lauma-busa",
+        "title": "Agnese Araja * , Maris Bertins , Gunita Celma , Lauma Busa and Arturs Viksna",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-agnese-araja-maris-bertins-gunita-celma-lauma-busa",
+        "content_pin": {
+          "content_sha256": "cf386c23949e1a176e5765d6a2addd1f2e3be9eebf18a03c4136b073193a1733",
+          "content_bytes": 7961,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-agnese-araja-maris-bertins-gunita-celma-lauma-busa.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-approach-to-speciation-analysis-as-in-previous-years",
+        "title": "approach to speciation analysis. As in previous years, As speciation continues to dominate the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "iAs",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years",
+        "content_pin": {
+          "content_sha256": "1f841b467234216763cac6825364d47fae6eeab0ce6b2963302a3b381ca61618",
+          "content_bytes": 9287,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-catabolism-in-order-to-restore-skin-continuity-within",
+        "title": "catabolism in order to restore skin continuity. Within these processes, elements such as metallic ions are involved due to their",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-catabolism-in-order-to-restore-skin-continuity-within",
+        "content_pin": {
+          "content_sha256": "5269a15fba315028c556cea9ba968a157046cd7f0b8e6cf1981d8a1723b09499",
+          "content_bytes": 8439,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-catabolism-in-order-to-restore-skin-continuity-within.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-gradually-getting-close-to-that-of-developed-ones",
+        "title": "gradually getting close to that of developed ones, in which AD affects 20% of the paediatric population. Such an increment,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-gradually-getting-close-to-that-of-developed-ones",
+        "content_pin": {
+          "content_sha256": "c48446fe6e9cbecf218e42f5c38ab788678f804fb3fe977fca56482314361498",
+          "content_bytes": 4393,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-gradually-getting-close-to-that-of-developed-ones.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-infant-skin-care-products",
+        "title": "Infant Skin Care Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-infant-skin-care-products",
+        "content_pin": {
+          "content_sha256": "bb6ab0b19b5fdc3f69bcf2b1e8d6fe534154953f7d78063956e6dafcb513bb4c",
+          "content_bytes": 4704,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-infant-skin-care-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-integrating-environmental-health-and-genomics-research-in",
+        "title": "Integrating environmental health and genomics research in",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-integrating-environmental-health-and-genomics-research-in",
+        "content_pin": {
+          "content_sha256": "bc4599c02568b7917bb8bad23b9134041411b5ff5be85df3380f1e4f50f9b87b",
+          "content_bytes": 5017,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-integrating-environmental-health-and-genomics-research-in.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-lead-exposure-in-young-children-over-a-5",
+        "title": "Lead exposure in young children over a 5-year period from",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-lead-exposure-in-young-children-over-a-5",
+        "content_pin": {
+          "content_sha256": "f0002edd37662456e198800f0a4cc6adf526035d7e4e759acc32c8974c6f0ff2",
+          "content_bytes": 8535,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-lead-exposure-in-young-children-over-a-5.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-occupational-and-nonoccupational-settings-because",
+        "title": "occupational and nonoccupational settings. Because",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-occupational-and-nonoccupational-settings-because",
+        "content_pin": {
+          "content_sha256": "63428fc2801f5673b5fb7d15b66629d562fca9bf7772a65ccf7248d2d87b6f41",
+          "content_bytes": 4231,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-occupational-and-nonoccupational-settings-because.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal",
+        "title": "Spatial contamination and health risks of heavy metal(loid)s",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal",
+        "content_pin": {
+          "content_sha256": "0fd10099ea2958bc61e461d653a5a0b7781418927b18c3033596eec829933c5e",
+          "content_bytes": 8466,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-face-masks-massive-research-effort-has-been-launched",
+        "title": "Face masks massive research effort has been launched to understand, characterize, and estimate the exposure risks of PPE",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-face-masks-massive-research-effort-has-been-launched",
+        "content_pin": {
+          "content_sha256": "bdb540162bad0378bdee0646715b38b2d81897319cbf4ff140db4feb629ebbba",
+          "content_bytes": 8840,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2020-face-masks-massive-research-effort-has-been-launched.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-it-can-continue-providing-a-valuable-service-many",
+        "title": "it can continue providing a valuable service. Many successful busi- allow customers to rent prams and other baby equipment as a ser-",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-it-can-continue-providing-a-valuable-service-many",
+        "content_pin": {
+          "content_sha256": "4bac17c8c40ed3ee7bf78bb896e0daabc301cd1a4b72ff923d73bf882a1f0e54",
+          "content_bytes": 5563,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2020-it-can-continue-providing-a-valuable-service-many.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-aglobal-product-stewardship-toxicology-phillips-66-bartlesville-ok",
+        "title": "aGlobal Product Stewardship & Toxicology, Phillips 66, Bartlesville, OK 74003, USA",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-aglobal-product-stewardship-toxicology-phillips-66-bartlesville-ok",
+        "content_pin": {
+          "content_sha256": "5cbaf672a11ce296a4e4cfd50a5c2a66f3adff4e15c304d14245e6727f925d4e",
+          "content_bytes": 6449,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-aglobal-product-stewardship-toxicology-phillips-66-bartlesville-ok.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-aquatic-environment-exposure-and-toxicity-of-engineered",
+        "title": "Aquatic Environment Exposure and Toxicity of Engineered",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-aquatic-environment-exposure-and-toxicity-of-engineered",
+        "content_pin": {
+          "content_sha256": "8a3eeb1ee9b1d80d60d9916b947c5488f21d562c391bdf77ac870bb3fc0cdb86",
+          "content_bytes": 8503,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-aquatic-environment-exposure-and-toxicity-of-engineered.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin",
+        "title": "Ariane Krause 1 & Franziska Häfner & Florian Augustin & Kai M. Udert",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin",
+        "content_pin": {
+          "content_sha256": "b3e4c684b15da4c584c1683887fc2e15f2eaabb1e69106a6cee2a0be1fc84a15",
+          "content_bytes": 8682,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-ariane-krause-1-franziska-ha-fner-florian-augustin.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-collecting-hand-wipe-samples-to",
+        "title": "Collecting Hand Wipe Samples to",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-collecting-hand-wipe-samples-to",
+        "content_pin": {
+          "content_sha256": "892c7ab892fe9eccf2357ede31e5af325faf721b13a7241f196fadce4b5d6234",
+          "content_bytes": 5890,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-collecting-hand-wipe-samples-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali",
+        "title": "Ileana Ielo 5 , Dario Drommi 6 , Elisabetta Scali 7 , Maria Rosaria Plutino 5 , Giuseppe Rosace 8",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali",
+        "content_pin": {
+          "content_sha256": "c9143a4de0565c2ea3fa30fbe64760c863201bd58519b843d72721a92e7e2292",
+          "content_bytes": 5952,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-reported-facts-about-high-loads-of-lead-mercury",
+        "title": "reported facts about high loads of lead, mercury, copper, and others hazardous and cancerous",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-reported-facts-about-high-loads-of-lead-mercury",
+        "content_pin": {
+          "content_sha256": "132baf91e3bd72e605246f96a370e5435970ee282f89fb7f5a2a863d4aef67db",
+          "content_bytes": 5883,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-reported-facts-about-high-loads-of-lead-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-a-low-cost-method-shows-potentially-toxic-element",
+        "title": "A Low-Cost Method Shows Potentially Toxic Element Levels",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-a-low-cost-method-shows-potentially-toxic-element",
+        "content_pin": {
+          "content_sha256": "9f407258a0cb0298418fb3d00ff9c97397f9eccfe815cd4a2d161b0bbfb3f2e9",
+          "content_bytes": 7937,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-a-low-cost-method-shows-potentially-toxic-element.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-assessment-of-children-s-metal-exposure-via-hand",
+        "title": "Assessment of Children’s Metal Exposure via Hand Wipe,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-assessment-of-children-s-metal-exposure-via-hand",
+        "content_pin": {
+          "content_sha256": "1f45df3cdcb0d52a86545af549978471f5c4d4c50f0f4e8f56319dd116dd591d",
+          "content_bytes": 8336,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-assessment-of-children-s-metal-exposure-via-hand.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-characterizing-behaviors-associated-with-enteric-pathogen-exposure-amo",
+        "title": "Characterizing Behaviors Associated with Enteric Pathogen Exposure among Infants in Rural",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-characterizing-behaviors-associated-with-enteric-pathogen-exposure-amo",
+        "content_pin": {
+          "content_sha256": "190c32234c5e485881f69044ab9ded7eac2e37107268b8a609e3b3210afd2c3f",
+          "content_bytes": 7055,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-characterizing-behaviors-associated-with-enteric-pathogen-exposure-amo.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-hbm4eu-chromates-study-determinants-of-exposure-to",
+        "title": "HBM4EU Chromates Study: Determinants of Exposure to",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-hbm4eu-chromates-study-determinants-of-exposure-to",
+        "content_pin": {
+          "content_sha256": "5391b2e5909d90056645a5e46d3f734b345b358c78cb0ef499438f320c6b7a54",
+          "content_bytes": 8254,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-hbm4eu-chromates-study-determinants-of-exposure-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-keywords-ants-i-biochemical-oxygen-demand-bod-and",
+        "title": "Keywords: ants: (i) biochemical oxygen demand (BOD) and ammonia; (ii) heavy metals; (iii) sewage-associated organic pollutants",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-keywords-ants-i-biochemical-oxygen-demand-bod-and",
+        "content_pin": {
+          "content_sha256": "686260fafa4c202935dfba0a3879acf449da0b549ffaa818f08a65247ca605e5",
+          "content_bytes": 11238,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-keywords-ants-i-biochemical-oxygen-demand-bod-and.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-lead-and-other-toxic-metals-in-plastic-play",
+        "title": "Lead and other toxic metals in plastic play foods: Results from testing",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play",
+        "content_pin": {
+          "content_sha256": "92470cc12be35f3d48b66d21cca2e60d9f9bbb32bca69fbaa4983874cf83023e",
+          "content_bytes": 11108,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-lead-and-other-toxic-metals-in-plastic-play.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-mineral-trace-element-and-toxic-metal-concentration",
+        "title": "Mineral, trace element, and toxic metal concentration",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration",
+        "content_pin": {
+          "content_sha256": "c67a996231d9705e8d4fa5bc7d6512f77e535fff8def4791d10f216a624015a8",
+          "content_bytes": 8886,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-patch-testing-we-will-review-updates-on-the",
+        "title": "patch testing. We will review updates on the pathophysiology of contact dermatitis, discuss new contact allergens, explore",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-patch-testing-we-will-review-updates-on-the",
+        "content_pin": {
+          "content_sha256": "e58afa38d52624a082446d4e10d00817b4ce10dad0f56bc69864e93e386b9769",
+          "content_bytes": 7192,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-patch-testing-we-will-review-updates-on-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-assessing-lead-exposure-in-u-s-pregnant-women",
+        "title": "Assessing lead exposure in U.S. pregnant women using biological and",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-assessing-lead-exposure-in-u-s-pregnant-women",
+        "content_pin": {
+          "content_sha256": "d2c2c85a27add32b7397b9416eab2a6f5eca622cf3dfc41a415028a92cec17fb",
+          "content_bytes": 10185,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-assessing-lead-exposure-in-u-s-pregnant-women.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-centre-dust-and-the-exposure-risk-for-young",
+        "title": "centre dust and the exposure risk for young",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-centre-dust-and-the-exposure-risk-for-young",
+        "content_pin": {
+          "content_sha256": "bc8261daba5ddc3c8e86f05609324985aa61de005b2dd457377bf4822fc61168",
+          "content_bytes": 8540,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-centre-dust-and-the-exposure-risk-for-young.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-consistent-with-existing-literature-data-the-analysis-of",
+        "title": "consistent with existing literature data. The analysis of the Re-Os systematics of minute sample powders revealed",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-consistent-with-existing-literature-data-the-analysis-of",
+        "content_pin": {
+          "content_sha256": "2cab782bdd6d676dcf06f8fc039c393252675d15cb40e1773c8f5397debca049",
+          "content_bytes": 8755,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-consistent-with-existing-literature-data-the-analysis-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-justine-briard-sophie-ayrault-matthieu-roy-barman-louise",
+        "title": "Justine Briard, Sophie Ayrault, Matthieu Roy-Barman, Louise Bordier, Maxime",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-justine-briard-sophie-ayrault-matthieu-roy-barman-louise",
+        "content_pin": {
+          "content_sha256": "60be4ce48de14079b0bd58cb05dda01aeece1fb9d3c4726ed5878ae5a01d5dd3",
+          "content_bytes": 8824,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-justine-briard-sophie-ayrault-matthieu-roy-barman-louise.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which",
+        "title": "The paper provides an overview of biocosmetics, which has tremendous potential for growth and is attracting huge business",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which",
+        "content_pin": {
+          "content_sha256": "20845068d908bbd15acdc0d2b24949b2ed0c92fa2ab276d8491e3075441bfd1f",
+          "content_bytes": 6620,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-time-patterns-in-internal-human-exposure-data-to",
+        "title": "Time Patterns in Internal Human Exposure Data to Bisphenols,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-time-patterns-in-internal-human-exposure-data-to",
+        "content_pin": {
+          "content_sha256": "d79f0d62cd8c233bfbda46565e2df8d4bab3d9576ee82eaf921686c6aee0bb07",
+          "content_bytes": 6312,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-wipe-sampling-is-a-commonly-used-method-for",
+        "title": "Wipe sampling is a commonly used method for testing a surface for beryllium or other metal particle",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-wipe-sampling-is-a-commonly-used-method-for",
+        "content_pin": {
+          "content_sha256": "84e8b9226d0f2612b3db7b37bc2c59966dbe222e1d9378162a210f4b134d2f37",
+          "content_bytes": 6713,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2023-wipe-sampling-is-a-commonly-used-method-for.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2",
+        "title": "ACCESS Metrics & More Article Recommendations * Supporting Information",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2",
+        "content_pin": {
+          "content_sha256": "8c8a099f7ad4f6e66c6c2bb444d135bb55de678dbd297d3ffdd5b8c1de466046",
+          "content_bytes": 10062,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-centre-hospitalier-universitaire-vaudois-emmanuel-obeng-gyasi-1",
+        "title": "Centre Hospitalier Universitaire Vaudois Emmanuel Obeng-Gyasi 1, Cristina Fayad-Martinez 2,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-centre-hospitalier-universitaire-vaudois-emmanuel-obeng-gyasi-1",
+        "content_pin": {
+          "content_sha256": "ceb54ab6b7976579c8d8efd98c4270517f23a0fdc741bbd2b38df595e0db9696",
+          "content_bytes": 7093,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2024-centre-hospitalier-universitaire-vaudois-emmanuel-obeng-gyasi-1.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-finding-the-achilles-heel-investigating-how-to",
+        "title": "FINDING THE ACHILLES HEEL: INVESTIGATING HOW TO",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-finding-the-achilles-heel-investigating-how-to",
+        "content_pin": {
+          "content_sha256": "8179e8a1c6371005dbc43f7a501046c2729819f9ccb0cefb2d4ff2a58de018ee",
+          "content_bytes": 8648,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-prenatal-exposure-to-trace-elements-impacts",
+        "title": "Prenatal exposure to trace elements impacts",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-prenatal-exposure-to-trace-elements-impacts",
+        "content_pin": {
+          "content_sha256": "ed108435022e32851c81358f2bd3580a67dc746501b2ad96143056a7ab861bb3",
+          "content_bytes": 11156,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2024-prenatal-exposure-to-trace-elements-impacts.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-evaluation-of-heavy-metals-and-essential-minerals-in",
+        "title": "Evaluation of Heavy Metals and Essential Minerals in the Hair",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-evaluation-of-heavy-metals-and-essential-minerals-in",
+        "content_pin": {
+          "content_sha256": "a8b9c658a2f3f84d4b3ce0ecd5505e133a717bf5fcfcbd6e5a3dbb109f10617b",
+          "content_bytes": 7412,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2025-evaluation-of-heavy-metals-and-essential-minerals-in.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-setac-europe-35-th-annual-meeting",
+        "title": "SETAC EUROPE 35 TH ANNUAL MEETING",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-setac-europe-35-th-annual-meeting",
+        "content_pin": {
+          "content_sha256": "51960f0e87d10ceea201f3e7ec007dbd318e860c88fd28d0f4b599a5c85ce593",
+          "content_bytes": 9575,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2025-setac-europe-35-th-annual-meeting.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-access-metrics-more-article-recommendations-supporting-information",
+        "title": "ACCESS Metrics & More Article Recommendations * Supporting Information",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-access-metrics-more-article-recommendations-supporting-information",
+        "content_pin": {
+          "content_sha256": "9591a38f20c47428160b4d43d17a759fc0d588ce67075796e34b435d052808be",
+          "content_bytes": 8595,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2026-access-metrics-more-article-recommendations-supporting-information.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-but-also-leads-to-the-continual-infiltration-of",
+        "title": "but also leads to the continual infiltration of illegal products into the market, posing serious health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-but-also-leads-to-the-continual-infiltration-of",
+        "content_pin": {
+          "content_sha256": "0d47c46fea958010dbd600fa04b5961275fba88bfa8a3ad973eb776b8d24b5bb",
+          "content_bytes": 7881,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2026-but-also-leads-to-the-continual-infiltration-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-exposure-and-health-2026-18-14",
+        "title": "Exposure and Health (2026) 18:14",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-exposure-and-health-2026-18-14",
+        "content_pin": {
+          "content_sha256": "7ad700fae3db3f487220aa2a0b51e5834760fa109fc870d7ac49dfdb63f4eee6",
+          "content_bytes": 9646,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2026-exposure-and-health-2026-18-14.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-heavy-metals-persistent-organic-pollutants-and-other-contaminants",
+        "title": "heavy metals, persistent organic pollutants, and other contaminants. This review explains",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-heavy-metals-persistent-organic-pollutants-and-other-contaminants",
+        "content_pin": {
+          "content_sha256": "fe29c7e2b349653202a461286673065ee9020b41f793390f20e3e93d2ad2f631",
+          "content_bytes": 4020,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2026-heavy-metals-persistent-organic-pollutants-and-other-contaminants.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-optimization-of-a-method-for-collecting-infant-and",
+        "title": "Optimization of a method for collecting infant and toddler urine",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-optimization-of-a-method-for-collecting-infant-and",
+        "content_pin": {
+          "content_sha256": "431be74381de7d5ae880d293b09b0ab5834dba2690e73649c46054a4e358217d",
+          "content_bytes": 7350,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2026-optimization-of-a-method-for-collecting-infant-and.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/buffalo2018-policies-to-reduce-lead-exposure-lessons-from",
+        "title": "Policies to Reduce Lead Exposure: Lessons from",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/buffalo2018-policies-to-reduce-lead-exposure-lessons-from",
+        "content_pin": {
+          "content_sha256": "be4117da02c21299d517e5d3fd59f2b1cb1b66213e6385b44e2cd008e14fee68",
+          "content_bytes": 3380,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/buffalo2018-policies-to-reduce-lead-exposure-lessons-from.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/convenience2020-the-toxicity-associated-with-a-product-loaded-with",
+        "title": "The toxicity associated with a product loaded with chemicals and a conscious choice that is to",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/convenience2020-the-toxicity-associated-with-a-product-loaded-with",
+        "content_pin": {
+          "content_sha256": "3d9a9c9b26377bb22749fe2611ef173ed96c9c4102ea618c4f537443940ba3e2",
+          "content_bytes": 4941,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/convenience2020-the-toxicity-associated-with-a-product-loaded-with.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/echa2023-cmr-childcare-articles",
         "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
@@ -52,12 +1520,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "deec29aa07591db0b3df2f33b9efd50ae44f48252adb685b0bc798814976f643",
+          "content_bytes": 59537,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -73,12 +1541,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
         "content_pin": {
-          "content_sha256": "f9d97e3d626ead2662742af2d66e1838ed1bb84ae79fefaef66852531c8aa9e3",
-          "content_bytes": 24362,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8dbac75ef2f568744e0f05b9952002da18c27978216efdee44d3926d4bfad919",
+          "content_bytes": 24599,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/faraca2023-commission-nor-any-person-acting-on-behalf-of",
+        "title": "Commission nor any person acting on behalf of the Commission is responsible for the use that might be made of this",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/faraca2023-commission-nor-any-person-acting-on-behalf-of",
+        "content_pin": {
+          "content_sha256": "aa6c54bfc3ef39dfaf1d2e1f8614214e11df5e8867d480a4cd6e19d8b6e62129",
+          "content_bytes": 8045,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/faraca2023-commission-nor-any-person-acting-on-behalf-of.md | sha256sum"
         }
       },
       {
@@ -91,12 +1582,60 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "fd8cd057ffa77f12558b709bfb13220de9555bbcb5765d0d3d0ce8170644e38a",
-          "content_bytes": 8540,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9cb6135b05dd81982e14d48b59d82e8e805599fdb1113c9ddc1670f707d6889f",
+          "content_bytes": 8775,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/issues2024-environmental-contaminants-in-fish-products-food-safety",
+        "title": "Environmental Contaminants in Fish Products: Food Safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "iAs",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/issues2024-environmental-contaminants-in-fish-products-food-safety",
+        "content_pin": {
+          "content_sha256": "33a04bae39a3675222e8b8f44b564728fdd8c4fb0fdb1fb9bc707dd704dea8b1",
+          "content_bytes": 7301,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/issues2024-environmental-contaminants-in-fish-products-food-safety.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine",
+        "title": "Remediation of Manufactured Methamphetamine in Clandestine",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine",
+        "content_pin": {
+          "content_sha256": "29fcc8175f281ee757821b4ecc5eab9c4c2d6540a777611f279aa3c7ae7cd24f",
+          "content_bytes": 7702,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine.md | sha256sum"
         }
       },
       {
@@ -109,12 +1648,55 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/rahma2022-infant-skin-barrier-function-review",
         "content_pin": {
-          "content_sha256": "8314fff85fac94ede2e58d6d6e5b7e719515778ed01bb5033260d0099cbfe4e6",
-          "content_bytes": 15959,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "dbca2897975cca1b98bc5476a56df47b7ac1bca368ce4a8a9518abe5beee8dde",
+          "content_bytes": 16194,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rio2017-a-comparison-of-arsenic-exposure-in-young",
+        "title": "A comparison of arsenic exposure in young",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rio2017-a-comparison-of-arsenic-exposure-in-young",
+        "content_pin": {
+          "content_sha256": "a99c525a4919978b9b9a1da14a8299788cb1daf3d600631d236a7b0ef6b14a50",
+          "content_bytes": 9013,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/rio2017-a-comparison-of-arsenic-exposure-in-young.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rothstein2021-vulnerable-families-and-costly-formula-a",
+        "title": "Vulnerable families and costly formula: a",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rothstein2021-vulnerable-families-and-costly-formula-a",
+        "content_pin": {
+          "content_sha256": "1d3668402901a96109d0aec17eb0a1759a92a38cd65b69e3f34674953e52c402",
+          "content_bytes": 7310,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a.md | sha256sum"
         }
       },
       {
@@ -135,12 +1717,60 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "2febe72debf98bc32e35d9a721a87f6e204843c4c1c532f0cfefc01b86f9d985",
-          "content_bytes": 24346,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2154f537917798a94e810feb8c8b7f24107a023381f8e3c0a4a036cee3029c93",
+          "content_bytes": 24581,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shawahna2023-breastmilk-cadmium-levels-and-estimated",
+        "title": "Breastmilk cadmium levels and estimated",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated",
+        "content_pin": {
+          "content_sha256": "54d57494f87aab165f60e0fc8c2f88e7e422e454e3b715d0623cedf9d8e775f8",
+          "content_bytes": 7824,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite",
+        "title": "signiﬁcant risks for dermal-oral lead exposures, despite their attempts to",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite",
+        "content_pin": {
+          "content_sha256": "457e5c4a05d952c87169f243c86d25f136e7fd978d8ccace1258225ea4b91875",
+          "content_bytes": 6004,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite.md | sha256sum"
         }
       },
       {
@@ -164,12 +1794,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "ec51dbda3bf0dc9f6381879a351c71a8d2e46fb9e2dc5f45da12041975003949",
-          "content_bytes": 39492,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "dbfaf5a9f504ebed8ef894a2499884932f0cc23df2f7eae9fbb908dbb5ff88aa",
+          "content_bytes": 39747,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/surface2012-when-citing-papers-from-this-publication-the-appropriate",
+        "title": "When citing papers from this publication, the appropriate citation includes the paper",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/surface2012-when-citing-papers-from-this-publication-the-appropriate",
+        "content_pin": {
+          "content_sha256": "ab03ca65c41a13a2589247d780ddac866dfb7197b6bfd1f4ee2da7d5e4e89c71",
+          "content_bytes": 7714,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/surface2012-when-citing-papers-from-this-publication-the-appropriate.md | sha256sum"
         }
       },
       {
@@ -182,12 +1837,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "7c084db648a27770989212b919d6cac3540af9b5860430bf9bd4aa418a2bdbfe",
-          "content_bytes": 31113,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e8e0e55159cdb6da9b0a73333fdd8141212f2174148e186aaa993c45c57500ae",
+          "content_bytes": 31343,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

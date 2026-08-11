@@ -32,6 +32,8 @@ audience: [regulator, educator, consumer, app]
 
 # Sadeghi et al. 2021 — Heavy metals in tahini from the Tehran retail market (DPASV)
 
+## Overview
+
 Sadeghi and coauthors surveyed cadmium, lead, copper, and zinc concentrations in 37 commercial tahini brands (n=74 duplicate samples) purchased from Tehran retail markets, using differential-pulse anodic-stripping voltammetry (DPASV) on a 746 VA trace analyzer with a hanging mercury drop electrode. Across all 37 brands, mean concentrations were 0.015 ± 0.01 µg/100g for lead and 0.012 ± 0.007 µg/100g for cadmium — equivalent to 0.15 ppb Pb and 0.12 ppb Cd on a per-kg basis, both well below the Codex CXS 193-1995 maximum level of 0.01 mg/kg (10 ppb) for tahini. Mean zinc was 3.79 ± 2.43 µg/100g and mean copper was 1.48 ± 0.08 µg/100g (the abstract conclusion transposes the Cd and Cu mean values; see Verification notes for the cross-check against Table 1 and Figure 1). The authors conclude that Tehran-market tahini is a high-value food meeting nutritional needs without toxic concern from lead or cadmium at the concentrations they measured, while recommending continued attention to soil-uptake risks in sesame cultivation given the crop's known sensitivity to soil contamination.
 
 ## Key numbers
@@ -122,15 +124,15 @@ Ingredient slug note: `[[ingredients/sesame]]` and `[[ingredients/tahini]]` are 
 Regulation slug note: the paper cites "Codex" maximum levels for Zn (4 mg/kg), Cu (2 mg/kg), and Pb/Cd (both 0.01 mg/kg) in tahini. The closest existing regulation page in the current taxonomy is [[regulations/codex-cxs-193-1995-tin-canned-foods]] (the Codex General Standard for Contaminants and Toxins in Food and Feed, CXS 193-1995, which contains the metal MLs across food categories). The taxonomy snapshot does not yet contain a tahini- or sesame-specific Codex MLs slug; the existing CXS 193 page is the correct routing target for these limits.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

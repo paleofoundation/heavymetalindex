@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tongue-cleaners-scrapers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "be833d2ba592585265a030e02bc69d0523c657c94df1b6832ee4c9906962c2bd",
-      "content_bytes": 7340,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "4a673a3f5d8b373b45e4d720e69a79fa6bf3b2b1e81414047d08ffc3ee777226",
+      "content_bytes": 7532,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/tongue-cleaners-scrapers.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/tongue-cleaners-scrapers.md | sha256sum"
     }
   },
   "evidence_base": {

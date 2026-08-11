@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juices-apple-containing
 public_page: products/fruit-juices-apple-containing
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Fruit juices, apple-containing
@@ -36,8 +36,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2023_ias_apple_juice_10). |
-| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2022_draft_pb_apple_juice_10). |
+| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2023_ias_apple_juice_10). |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2022_draft_pb_apple_juice_10). |
 
 ## Operational reminders
 

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Pagels 2009 - candle smoke particle composition and metal emissions
 
+## Overview
+
 Pagels and colleagues measured candle-smoke particle composition from two tapered candle types during steady burn, sooting burn, and smouldering in a controlled chamber. The study is routeable as home-air emission product context because Table 3 reports metal component emission factors for Cu, Sn, Co, Zn, and Pb from the candle-smoke particles. The source reports emission factors in `µg h-1` and particle-mass emission factors in `mg h-1`; no product-content concentration, migration value, or consumer threshold is inferred here.
 
 ## Key numbers
@@ -99,3 +101,17 @@ App: If home-air emission sources are surfaced, this study can support a note th
 - Brand firewall: the paper describes candle types and notes that both were manufactured by market-leading Swedish companies, but it does not name brands in the extracted text. This page does not attach brand names to emission values.
 - Product slug note: the current taxonomy has `scented-candles` but no generic unscented/tapered candle slug. Because the source studies tapered candles without stating that they are scented, the page routes through `home-air-emission-products-other` and records the missing generic candle route here rather than forcing the source into `scented-candles`.
 - Evidence tier: `B` because this is a peer-reviewed controlled emissions study with detailed methods and repeated chamber experiments, but it tests only two representative candle types and reports emissions rather than product occurrence concentrations.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

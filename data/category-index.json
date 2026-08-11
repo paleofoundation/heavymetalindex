@@ -1,0 +1,825 @@
+{
+  "generatedFrom": "tools/build-category-pages.mjs",
+  "products": [
+    {
+      "slug": "infant-and-child-foods",
+      "label": "Infant and Child Foods",
+      "count": 16,
+      "samples": [
+        "Infant formula (powder)",
+        "Infant formula (ready-to-feed, liquid)",
+        "Baby cereals / grain products (dry)",
+        "Fruit purées (general)"
+      ]
+    },
+    {
+      "slug": "infant-and-child-personal-care",
+      "label": "Infant and Child Personal Care",
+      "count": 16,
+      "samples": [
+        "Baby lotion and cream",
+        "Baby oil",
+        "Baby powder, cornstarch base (clean counterpart)",
+        "Baby talcum powder (talc, dirty)"
+      ]
+    },
+    {
+      "slug": "grains-cereals-and-rice-products",
+      "label": "Grains, Cereals, and Rice Products",
+      "count": 15,
+      "samples": [
+        "Flour (wheat, corn, other)",
+        "Bread and baked goods",
+        "Pasta (wheat-based)",
+        "Pasta (rice-based)"
+      ]
+    },
+    {
+      "slug": "fruits-vegetables-and-produce",
+      "label": "Fruits, Vegetables, and Produce",
+      "count": 10,
+      "samples": [
+        "Fresh/frozen fruits",
+        "Dried fruit",
+        "Fruit snacks",
+        "Leafy/green vegetables, other (clean vs spinach)"
+      ]
+    },
+    {
+      "slug": "beverages",
+      "label": "Beverages",
+      "count": 18,
+      "samples": [
+        "Fruit juices, non-apple",
+        "Fruit juices, apple-containing (iAs)",
+        "Vegetable juices, non-root",
+        "Vegetable juices, root-vegetable-containing"
+      ]
+    },
+    {
+      "slug": "seafood",
+      "label": "Seafood",
+      "count": 6,
+      "samples": [
+        "Fish — freshwater (tilapia, catfish, trout)",
+        "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",
+        "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",
+        "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)"
+      ]
+    },
+    {
+      "slug": "water-and-water-based-products",
+      "label": "Water and Water-Based Products",
+      "count": 3,
+      "samples": [
+        "Bottled drinking water (purified, spring, artesian)",
+        "Mineral water",
+        "Sparkling/carbonated water (unflavored)"
+      ]
+    },
+    {
+      "slug": "infant-and-child-contact-products",
+      "label": "Infant and Child Contact Products",
+      "count": 8,
+      "samples": [
+        "Bottles (plastic, glass, stainless steel)",
+        "Bottle nipples and spouts",
+        "Sippy cups and toddler drinkware components",
+        "Pacifiers and sucking/teething aids"
+      ]
+    },
+    {
+      "slug": "infant-and-child-durable-goods-and-textiles",
+      "label": "Infant and Child Durable Goods and Textiles",
+      "count": 11,
+      "samples": [
+        "Cribs and bassinets",
+        "Play yards and gates/enclosures",
+        "Strollers",
+        "Walkers"
+      ]
+    },
+    {
+      "slug": "meat-poultry-and-eggs",
+      "label": "Meat, Poultry, and Eggs",
+      "count": 9,
+      "samples": [
+        "Beef",
+        "Pork",
+        "Lamb/mutton",
+        "Poultry (chicken, turkey, duck)"
+      ]
+    },
+    {
+      "slug": "household-cleaning-and-dishwashing",
+      "label": "Household Cleaning and Dishwashing",
+      "count": 21,
+      "samples": [
+        "All-purpose cleaners",
+        "Kitchen/countertop cleaners",
+        "Bathroom/tub/tile cleaners",
+        "Toilet bowl cleaners"
+      ]
+    },
+    {
+      "slug": "cosmetics-and-personal-care-leave-on",
+      "label": "Cosmetics and Personal Care — Leave-on",
+      "count": 20,
+      "samples": [
+        "Fragrance preparations (perfumes, colognes, body sprays)",
+        "Dusting/talc powders (adult)",
+        "Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)",
+        "Body/hand leave-on skin care"
+      ]
+    },
+    {
+      "slug": "cosmetics-and-personal-care-rinse-off",
+      "label": "Cosmetics and Personal Care — Rinse-off",
+      "count": 13,
+      "samples": [
+        "Shampoo (general adult)",
+        "Conditioner (general adult, rinse-out)",
+        "Body wash/shower gel",
+        "Facial cleansers (foaming, cream, gel, oil, micellar)"
+      ]
+    },
+    {
+      "slug": "feminine-care",
+      "label": "Feminine Care",
+      "count": 10,
+      "samples": [
+        "Menstrual tampons (scented/unscented; applicator tested as distinct component)",
+        "Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)",
+        "Menstrual cups (silicone/latex/other polymers)",
+        "Menstrual discs"
+      ]
+    },
+    {
+      "slug": "dietary-supplements-human",
+      "label": "Dietary Supplements (Human)",
+      "count": 24,
+      "samples": [
+        "Oral solids: tablets/caplets",
+        "Oral solids: capsules",
+        "Oral solids: softgels/gelcaps",
+        "Oral solids: gummies/chewables"
+      ]
+    },
+    {
+      "slug": "pet-foods",
+      "label": "Pet Foods",
+      "count": 10,
+      "samples": [
+        "Complete & balanced dry (kibble)",
+        "Complete & balanced canned/wet",
+        "Semi-moist pet foods",
+        "Raw pet foods (frozen/chilled raw diets)"
+      ]
+    },
+    {
+      "slug": "pet-supplements",
+      "label": "Pet Supplements",
+      "count": 7,
+      "samples": [
+        "Vitamin/mineral supplements",
+        "Oils (omega-3, fish oil, coconut oil)",
+        "Probiotics/digestive aids",
+        "Botanical/herbal blends"
+      ]
+    },
+    {
+      "slug": "laundry-and-fabric-contact-home-products",
+      "label": "Laundry and Fabric-Contact Home Products",
+      "count": 13,
+      "samples": [
+        "Laundry detergents (liquid, powder, pods/sheets, delicates)",
+        "Laundry detergent boosters/additives",
+        "Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers",
+        "Bleaching/whitening additives"
+      ]
+    },
+    {
+      "slug": "oral-care",
+      "label": "Oral Care",
+      "count": 10,
+      "samples": [
+        "Dentifrices (toothpaste, gel, powder, tablets)",
+        "Mouthwash/oral rinse",
+        "Breath fresheners (sprays/strips/lozenges)",
+        "Toothbrushes (manual, electric heads)"
+      ]
+    },
+    {
+      "slug": "children-s-toys-arts-and-crafts",
+      "label": "Children's Toys, Arts, and Crafts",
+      "count": 22,
+      "samples": [
+        "General toys with paint/surface coatings",
+        "Toy substrate materials (accessible plastics/metals/woods/rubbers)",
+        "Stuffed toys and bean bag-type toys",
+        "Stuffing materials"
+      ]
+    },
+    {
+      "slug": "home-air-and-inhalation-adjacent-products",
+      "label": "Home Air and Inhalation-Adjacent Products",
+      "count": 15,
+      "samples": [
+        "Instant air refreshment sprays (aerosol cans, trigger sprays)",
+        "Electric plug-in evaporators",
+        "Automatic puff releasers",
+        "Sensor puff releasers"
+      ]
+    },
+    {
+      "slug": "food-contact-consumer-goods-and-kitchenware",
+      "label": "Food-Contact Consumer Goods and Kitchenware",
+      "count": 29,
+      "samples": [
+        "Cans/lids",
+        "Glass jars",
+        "Plastic tubs",
+        "Paperboard cartons"
+      ]
+    },
+    {
+      "slug": "dairy-and-milk-products",
+      "label": "Dairy and Milk Products",
+      "count": 9,
+      "samples": [
+        "Liquid milk — cow",
+        "Liquid milk — goat / sheep / other ruminant",
+        "Camel milk",
+        "Cheese"
+      ]
+    },
+    {
+      "slug": "cannabis-hemp-and-cbd-products",
+      "label": "Cannabis, Hemp, and CBD Products",
+      "count": 6,
+      "samples": [
+        "Cannabis flower / dried herb",
+        "Edibles (gummies, baked goods, beverages)",
+        "Tinctures and sublingual oils",
+        "Topicals (creams, balms, salves)"
+      ]
+    },
+    {
+      "slug": "peptides-sarms-and-research-chemicals",
+      "label": "Peptides, SARMs, and Research Chemicals",
+      "count": 5,
+      "samples": [
+        "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",
+        "Oral SARMs",
+        "Injectable anabolic-androgenic steroids (AAS)",
+        "Raw AAS / peptide powders (pre-formulation)"
+      ]
+    },
+    {
+      "slug": "legumes-and-pulses",
+      "label": "Legumes and Pulses",
+      "count": 4,
+      "samples": [
+        "Legumes/pulses (beans, lentils, chickpeas, peas)",
+        "Soy products",
+        "Peanuts",
+        "Peanut butter"
+      ]
+    },
+    {
+      "slug": "nuts-seeds-and-their-butters",
+      "label": "Nuts, Seeds, and Their Butters",
+      "count": 5,
+      "samples": [
+        "Tree nuts and seeds (whole, raw, roasted)",
+        "Cashews",
+        "Sunflower seeds",
+        "Nut and seed butters, other"
+      ]
+    },
+    {
+      "slug": "edible-fungi",
+      "label": "Edible Fungi",
+      "count": 3,
+      "samples": [
+        "Mushrooms — cultivated (clean counterpart)",
+        "Mushrooms — wild and processed-wild (contaminated)",
+        "Other"
+      ]
+    },
+    {
+      "slug": "culinary-oils-and-fats",
+      "label": "Culinary Oils and Fats",
+      "count": 2,
+      "samples": [
+        "Olive oil",
+        "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)"
+      ]
+    },
+    {
+      "slug": "sweeteners-and-syrups",
+      "label": "Sweeteners and Syrups",
+      "count": 4,
+      "samples": [
+        "Honey",
+        "Tree and plant syrups (maple, agave, molasses)",
+        "Refined sugars (cane, beet, brown)",
+        "Rice and grain syrups"
+      ]
+    },
+    {
+      "slug": "condiments-sauces-and-dressings",
+      "label": "Condiments, Sauces and Dressings",
+      "count": 6,
+      "samples": [
+        "Vinegar",
+        "Soy sauce and fermented sauces",
+        "Fish sauce",
+        "Tomato condiments (ketchup, salsa)"
+      ]
+    },
+    {
+      "slug": "chocolate-cocoa-and-confectionery",
+      "label": "Chocolate, Cocoa and Confectionery",
+      "count": 3,
+      "samples": [
+        "Cocoa and chocolate products (cocoa powder, dark, milk, chips)",
+        "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",
+        "Gummies and jelly sweets"
+      ]
+    },
+    {
+      "slug": "herbs-spices-seasonings-and-salt",
+      "label": "Herbs, Spices, Seasonings and Salt",
+      "count": 4,
+      "samples": [
+        "Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)",
+        "Salt (table, sea, Himalayan)",
+        "Hot sauce and chili sauces",
+        "Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)"
+      ]
+    },
+    {
+      "slug": "prepared-and-packaged-meals",
+      "label": "Prepared and Packaged Meals",
+      "count": 2,
+      "samples": [
+        "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
+        "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "fruits",
+      "label": "Fruits",
+      "count": 26,
+      "samples": [
+        "Apple",
+        "Applesauce",
+        "Avocado",
+        "Banana"
+      ]
+    },
+    {
+      "slug": "vegetables",
+      "label": "Vegetables",
+      "count": 30,
+      "samples": [
+        "Asparagus",
+        "Baked potato with peel",
+        "Broccoli",
+        "Butternut squash"
+      ]
+    },
+    {
+      "slug": "grains-and-cereals",
+      "label": "Grains & cereals",
+      "count": 26,
+      "samples": [
+        "Blueberry muffin",
+        "Bran cereal with raisins",
+        "Canned spaghetti in tomato sauce",
+        "Cereals"
+      ]
+    },
+    {
+      "slug": "legumes-and-pulses",
+      "label": "Legumes & pulses",
+      "count": 8,
+      "samples": [
+        "Baked beans",
+        "Beans",
+        "Canned pork and beans",
+        "Frozen peas"
+      ]
+    },
+    {
+      "slug": "nuts-and-seeds",
+      "label": "Nuts & seeds",
+      "count": 5,
+      "samples": [
+        "Cashews",
+        "Hazelnuts",
+        "Peanut butter",
+        "Peanuts"
+      ]
+    },
+    {
+      "slug": "oils-and-fats",
+      "label": "Oils & fats",
+      "count": 13,
+      "samples": [
+        "Corn Oil",
+        "Margarine",
+        "Niger seed oil",
+        "Non-dairy creamer"
+      ]
+    },
+    {
+      "slug": "herbs-spices-and-botanicals",
+      "label": "Herbs, spices & botanicals",
+      "count": 12,
+      "samples": [
+        "Black Pepper",
+        "Camellia sinensis",
+        "Cinnamon",
+        "Coffee"
+      ]
+    },
+    {
+      "slug": "meat-and-poultry",
+      "label": "Meat & poultry",
+      "count": 9,
+      "samples": [
+        "Bologna luncheon meat",
+        "Eggs",
+        "Frankfurter",
+        "Ground beef"
+      ]
+    },
+    {
+      "slug": "fish-and-seafood",
+      "label": "Fish & seafood",
+      "count": 8,
+      "samples": [
+        "Canned Tuna",
+        "Fish fingers",
+        "Freshwater Fish",
+        "Marlin"
+      ]
+    },
+    {
+      "slug": "dairy-and-eggs",
+      "label": "Dairy & eggs",
+      "count": 11,
+      "samples": [
+        "Cheddar cheese",
+        "Chocolate reduced-fat milk",
+        "Fromage frais",
+        "Half and half"
+      ]
+    },
+    {
+      "slug": "beverages-and-water",
+      "label": "Beverages & water",
+      "count": 11,
+      "samples": [
+        "Apple juice",
+        "Fruit Juice",
+        "Fruit juice ready drinks",
+        "Grapefruit juice"
+      ]
+    },
+    {
+      "slug": "sweeteners-and-condiments",
+      "label": "Sweeteners & condiments",
+      "count": 9,
+      "samples": [
+        "Apple Cider Vinegar",
+        "Balsamic Vinegar",
+        "Honey",
+        "Ketchup"
+      ]
+    },
+    {
+      "slug": "prepared-and-composite-foods",
+      "label": "Prepared & composite foods",
+      "count": 7,
+      "samples": [
+        "Chicken noodle soup",
+        "Chicken potpie",
+        "Chili con carne with beans",
+        "Chocolate cake with chocolate icing"
+      ]
+    },
+    {
+      "slug": "other",
+      "label": "Other",
+      "count": 82,
+      "samples": [
+        "Almond",
+        "Baby Cereals Dry",
+        "Baby Food",
+        "Bee Pollen"
+      ]
+    }
+  ],
+  "metals": [
+    {
+      "slug": "core-toxic-metals",
+      "label": "Core toxic metals",
+      "count": 17,
+      "members": [
+        {
+          "slug": "metals/aluminum",
+          "title": "Aluminum",
+          "symbol": "Al"
+        },
+        {
+          "slug": "metals/antimony",
+          "title": "Antimony",
+          "symbol": "Sb"
+        },
+        {
+          "slug": "metals/arsenic",
+          "title": "Arsenic",
+          "symbol": "As"
+        },
+        {
+          "slug": "metals/arsenic-inorganic",
+          "title": "Arsenic, Inorganic",
+          "symbol": "iAs"
+        },
+        {
+          "slug": "metals/arsenic-total",
+          "title": "Arsenic, Total",
+          "symbol": "tAs"
+        },
+        {
+          "slug": "metals/cadmium",
+          "title": "Cadmium",
+          "symbol": "Cd"
+        },
+        {
+          "slug": "metals/chromium",
+          "title": "Chromium",
+          "symbol": "Cr"
+        },
+        {
+          "slug": "metals/chromium-hexavalent",
+          "title": "Chromium, Hexavalent",
+          "symbol": "Cr-VI"
+        },
+        {
+          "slug": "metals/lead",
+          "title": "Lead",
+          "symbol": "Pb"
+        },
+        {
+          "slug": "metals/mercury",
+          "title": "Mercury",
+          "symbol": "Hg"
+        },
+        {
+          "slug": "metals/mercury-total",
+          "title": "Mercury, Total",
+          "symbol": "tHg"
+        },
+        {
+          "slug": "metals/mercury-methyl",
+          "title": "Methylmercury",
+          "symbol": "MeHg"
+        },
+        {
+          "slug": "metals/nickel",
+          "title": "Nickel",
+          "symbol": "Ni"
+        },
+        {
+          "slug": "metals/organotins",
+          "title": "Organotins",
+          "symbol": "organotin"
+        },
+        {
+          "slug": "metals/tin",
+          "title": "Tin",
+          "symbol": "Sn"
+        },
+        {
+          "slug": "metals/tin-inorganic",
+          "title": "Tin, Inorganic",
+          "symbol": "Sn-inorganic"
+        },
+        {
+          "slug": "metals/uranium",
+          "title": "Uranium",
+          "symbol": "U"
+        }
+      ]
+    },
+    {
+      "slug": "also-tracked",
+      "label": "Also tracked",
+      "count": 19,
+      "members": [
+        {
+          "slug": "metals/barium",
+          "title": "Barium",
+          "symbol": "Ba"
+        },
+        {
+          "slug": "metals/beryllium",
+          "title": "Beryllium",
+          "symbol": "Be"
+        },
+        {
+          "slug": "metals/cesium",
+          "title": "Cesium",
+          "symbol": "Cs"
+        },
+        {
+          "slug": "metals/cobalt",
+          "title": "Cobalt",
+          "symbol": "Co"
+        },
+        {
+          "slug": "metals/copper",
+          "title": "Copper",
+          "symbol": "Cu"
+        },
+        {
+          "slug": "metals/gold",
+          "title": "Gold",
+          "symbol": "Au"
+        },
+        {
+          "slug": "metals/iron",
+          "title": "Iron",
+          "symbol": "Fe"
+        },
+        {
+          "slug": "metals/lithium",
+          "title": "Lithium",
+          "symbol": "Li"
+        },
+        {
+          "slug": "metals/magnesium",
+          "title": "Magnesium",
+          "symbol": "Mg"
+        },
+        {
+          "slug": "metals/manganese",
+          "title": "Manganese",
+          "symbol": "Mn"
+        },
+        {
+          "slug": "metals/molybdenum",
+          "title": "Molybdenum",
+          "symbol": "Mo"
+        },
+        {
+          "slug": "metals/palladium",
+          "title": "Palladium",
+          "symbol": "Pd"
+        },
+        {
+          "slug": "metals/platinum",
+          "title": "Platinum",
+          "symbol": "Pt"
+        },
+        {
+          "slug": "metals/silver",
+          "title": "Silver",
+          "symbol": "Ag"
+        },
+        {
+          "slug": "metals/tellurium",
+          "title": "Tellurium",
+          "symbol": "Te"
+        },
+        {
+          "slug": "metals/thallium",
+          "title": "Thallium",
+          "symbol": "Tl"
+        },
+        {
+          "slug": "metals/titanium",
+          "title": "Titanium",
+          "symbol": "Ti"
+        },
+        {
+          "slug": "metals/vanadium",
+          "title": "Vanadium",
+          "symbol": "V"
+        },
+        {
+          "slug": "metals/zinc",
+          "title": "Zinc",
+          "symbol": "Zn"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "slug": "north-america",
+      "label": "North America",
+      "count": 1350,
+      "samples": [
+        "United States",
+        "Canada",
+        "Mexico",
+        "Greenland"
+      ]
+    },
+    {
+      "slug": "latin-america",
+      "label": "Latin America & Caribbean",
+      "count": 151,
+      "samples": [
+        "Brazil",
+        "Peru",
+        "Ecuador",
+        "Argentina"
+      ]
+    },
+    {
+      "slug": "europe",
+      "label": "Europe",
+      "count": 593,
+      "samples": [
+        "European Union",
+        "Poland",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "slug": "middle-east-north-africa",
+      "label": "Middle East & North Africa",
+      "count": 286,
+      "samples": [
+        "Iran",
+        "Turkey",
+        "Egypt",
+        "Iraq"
+      ]
+    },
+    {
+      "slug": "sub-saharan-africa",
+      "label": "Sub-Saharan Africa",
+      "count": 190,
+      "samples": [
+        "Nigeria",
+        "Ethiopia",
+        "Ghana",
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "south-central-asia",
+      "label": "South & Central Asia",
+      "count": 228,
+      "samples": [
+        "India",
+        "Bangladesh",
+        "Pakistan",
+        "Sri Lanka"
+      ]
+    },
+    {
+      "slug": "east-southeast-asia",
+      "label": "East & Southeast Asia",
+      "count": 438,
+      "samples": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Indonesia"
+      ]
+    },
+    {
+      "slug": "oceania",
+      "label": "Oceania",
+      "count": 58,
+      "samples": [
+        "Australia",
+        "New Zealand",
+        "Fiji",
+        "Papua New Guinea"
+      ]
+    },
+    {
+      "slug": "international",
+      "label": "International & multi-country",
+      "count": 259,
+      "samples": [
+        "International / multi-country",
+        "EAC",
+        "KS",
+        "EAEU"
+      ]
+    }
+  ]
+}

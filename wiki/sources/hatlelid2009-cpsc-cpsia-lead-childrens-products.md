@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Hatlelid (2009) — CPSC Regulation of Lead in Children's Products
 
+## Overview
+
 A fourteen-slide presentation authored by Kris Hatlelid (Ph.D., M.P.H.), toxicologist in the CPSC Directorate for Health Sciences, dated 12/17/2009 and bearing the staff caveat "These comments are those of the CPSC staff, have not been reviewed or approved by, and may not necessarily reflect the views of, the Commission." The deck summarises the lead-content provisions of the Consumer Product Safety Improvement Act of 2008 (CPSIA Section 101), the Section 101(b) exclusions framework, the Section 101 determinations rule, the amended 16 CFR Part 1303 lead-in-paint rule, the XRF testing-method study released by CPSC staff in August 2009, and the practical considerations for manufacturers and importers. It contains no primary contamination measurements; it is included in the Heavy Metal Index corpus as a contemporaneous staff-level reference for the structure of the CPSIA Section 101 regulatory regime and as a primary citation for the specific Federal Register notices and 16 CFR sub-parts implementing it.
 
 ## Key numbers
@@ -82,15 +84,15 @@ A 14-slide staff presentation by Kris Hatlelid, Ph.D., M.P.H. (Toxicologist, CPS
 - **Related corpus pages.** `cfa2012-cpsia-lead-fact-sheet` is the closest existing corpus item: a 2012 consumer-advocacy summary of the same CPSIA Section 101 regime, written several years after this 2009 CPSC staff deck. This Hatlelid 2009 source is the primary-agency-staff-level companion to that NGO summary; it predates the August 2011 HR 2175 amendment and so does not discuss the bicycle-specific 300 ppm carve-out or the "products that need lead to work properly" exemption framework that HR 2175 introduced. `cpsc1997-pvc-children-products` is an older CPSC source on a different metal/material (PVC, not lead substrate or paint). `johnson2012-cpsc-astm-f963-status` is a later CPSC-adjacent reference for toy-safety standards. `padoh2023-pahan-727-cpsc-lead-cup-recall` is a state-public-health document about a CPSC lead-cup recall and references CPSIA in that context. No CPSIA-Section-101-specific regulation page yet exists in `wiki/regulations/`; the natural next-step page (proposed in the `cfa2012-cpsia-lead-fact-sheet` verification notes) would be the routing target for both that source and this one. Per Part 10 and the manual-fetch skill, that regulation page is a Karen-curated new-page proposal rather than something created during this ingest.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

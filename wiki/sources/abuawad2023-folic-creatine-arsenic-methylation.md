@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Abuawad et al. 2023 - Folic acid and creatine effects on blood arsenic metabolites
 
+## Overview
+
 Abuawad and colleagues analyzed blood arsenic metabolite outcomes from the Folic Acid and Creatine Trial in Bangladesh. Participants received folic acid, creatine, both, or placebo, and all participants also received arsenic-removal water filters at baseline. The source is intervention and exposure-biomarker evidence for arsenic methylation; it does not measure heavy-metal contamination in supplements or filter materials.
 
 ## Key numbers
@@ -71,3 +73,17 @@ Microbiome: No microbiome findings.
 - DOI, title, authors, journal, year, trial size, intervention arms, baseline water arsenic range, filter protocol, arsenic speciation method, and blood metabolite changes were transcribed from the PDF.
 - The auto-fetch filename mapped this source to water filters. The PDF is mainly a folic-acid/creatine supplementation trial, with water filters provided to all arms as exposure-source control.
 - The page keeps inorganic arsenic, MMAs, and DMAs as blood/urine biomarkers. It does not treat changes in blood metabolites as product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

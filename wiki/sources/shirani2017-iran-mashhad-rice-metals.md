@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Shirani et al. 2017 — Cd, Pb and tAs in 120 Iranian-, Indian- and Pakistani-origin rice samples on the Mashhad retail market
 
+## Overview
+
 This Mashhad market-survey paper reports total concentrations of cadmium, lead and arsenic (the latter measured by hydride-generation AAS on the wet-ashed extract, treated here as total arsenic in the absence of any inorganic-species separation step) in 120 packed rice samples collected from local agricultural agencies and retail markets in Mashhad. Samples were split into four producer-origin groups of n=30 each: two domestic Iranian categories (Mazandaran and Gilan provinces — together accounting for >80% of Iranian rice cultivation per the paper) and two imported categories (Pakistani and Indian). Across the full panel the Cd concentrations ranged 0.001-0.156 mg/kg (mean 0.064 ± 0.001 mg/kg), the Pb concentrations ranged 0.108-0.234 mg/kg (mean 0.153 ± 0.001 mg/kg), and the As concentrations ranged 0.039-0.378 mg/kg (mean 0.129 ± 0.017 mg/kg). The paper reports significant differences between Iranian- and imported-origin rice for all three metals but no significant difference between Mazandaran and Gilan or between Pakistani and Indian (one-way ANOVA, Tukey post-test, p<0.05). Estimated daily intakes for the population-weighted "mean rice" via Equation 1 (EF 365 d/y, ED 70 y, FIR 100 g/person/day, WAB 70 kg) were 0.217 µg/kg bw/day for Pb, 0.183 µg/kg bw/day for As, and 0.090 µg/kg bw/day for Cd. Target hazard quotients (THQ = EDI × 7 / PTWI) were below 1 for every metal in every origin group; the hazard index HI summed across the three metals was 0.331 for the population-weighted mean. The paper concludes there is no aggregate health risk from rice-borne Pb, As and Cd at the modelled consumption rate, while noting that 96.66% of the 120 samples exceeded the Iranian national lead ceiling and 58.33% exceeded the Iranian arsenic ceiling (all four origin-group mean Cd concentrations also exceeded the Iranian Cd ceiling). The compliance contrast against FAO/WHO is much milder.
 
 ## Key numbers
@@ -117,7 +119,7 @@ Sample preparation. Dry-ashing for Cd and Pb: 5 g of each sample dried at 80 °C
 
 Instrumentation. Atomic absorption spectrophotometry on a Varian model AA-1275 (Varian Medical Systems, Inc., Palo Alto, CA, USA). Pb and Cd determined by graphite-furnace AAS with auto-sampler at furnace temperatures of 1,800 °C (Pb) and 2,100 °C (Cd). As determined by hydride-generation AAS on the wet-ashed extracts using the same Varian AA-1275 platform fitted with a hydride generation system. Three replicates per sample. Reagent blanks and a "standard plant sample" run alongside; recovery and CRM values not published.
 
-Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs` per CLAUDE.md Part 14. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
+Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs`. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
 
 Statistical analysis. SPSS v13.0 (SPSS Inc., Chicago, IL, USA). Mean ± SD by descriptive statistics. One-way ANOVA with Tukey post-test for per-province comparisons. Significance threshold p < 0.05.
 
@@ -159,15 +161,15 @@ This source contributes Iranian retail-market occurrence data for Cd, Pb and tot
 - **Basis.** The paper does not state explicitly whether the published concentrations are on a wet-weight or dry-weight basis, but the dry-ashing protocol (samples dried at 80 °C for 2 h then 105 °C for 6 h before ashing) effectively removes the free water and ash-trapped values are referenced back to the original "5 g of each sample" weight. The "5 g of each sample" weighing step is described after the drying step in the Methods §2.2 dry-ashing paragraph, indicating that the 5 g is the dry weight; values are therefore on a dry-weight basis. The wiki Key numbers tables label the values in mg/kg without an explicit `dw` suffix because the paper itself does not make the basis explicit; downstream pooling work that needs the basis explicit should treat the values as dry-weight per this transcription note. The Iranian and FAO/WHO cereal ceilings cited (0.04-0.20 mg/kg) are not basis-labelled in either standard but are conventionally interpreted on the as-marketed packed-rice basis (low moisture, effectively dry); the discrepancy between the paper's dry-weight measurements and the ceilings' as-marketed reference frame is small for polished packed rice and is not flagged by the paper.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

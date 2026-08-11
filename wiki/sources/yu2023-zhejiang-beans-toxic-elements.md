@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Yu 2023 - Zhejiang beans toxic elements
 
+## Overview
+
 Yu, Pan, and Han measured arsenic, cadmium, chromium, mercury, and lead in `692` dried bean samples from local commercial markets in Zhejiang Province, southeast China. The bean panel included black bean, broad bean, mung bean, soybean, red bean, kidney bean, and pea. The occurrence measurements are total/unspecified arsenic and total/unspecified mercury; the paper's health-risk model estimates inorganic arsenic from total arsenic using a `72%` assumption from prior crop literature, but it does not measure inorganic arsenic speciation in these bean samples.
 
 ## Key numbers
@@ -92,11 +94,15 @@ This source supplies Zhejiang-market dried-bean occurrence evidence for total ar
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow slugs for black bean, broad bean, mung bean, red bean, kidney bean, and pea are not available, so broad beans/legumes routing is used with soy added for soybean rows.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [72249d7](https://github.com/paleofoundation/heavymetalindex/commit/72249d7) | 2026-06-08 | ingest: yu2023-zhejiang-beans-toxic-elements fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

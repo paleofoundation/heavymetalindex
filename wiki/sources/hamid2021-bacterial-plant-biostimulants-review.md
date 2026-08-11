@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Hamid et al. 2021 — Bacterial plant biostimulants for crop growth, productivity, and health (MDPI Sustainability narrative review)
 
+## Overview
+
 Narrative review of plant growth-promoting rhizobacteria (PGPR) as bacterial plant biostimulants (BPBs) covering five mechanism classes: (i) nutrient acquisition via N₂ fixation and solubilization of P, K, and Zn through organic acids and siderophores; (ii) antimicrobial metabolite and lytic-enzyme production; (iii) phytohormone modulation; (iv) abiotic stress amelioration including drought, salinity, temperature extremes, oxidative stress, and heavy metals; and (v) induction of systemic resistance (SAR, ISR, IST). The paper is primarily an agronomy/sustainable-agriculture review; heavy-metal contamination of food or supply chains is not its scope. Section 3.3.5 ("Heavy Metal Stress," p. 12) contains the entire heavy-metals content: a single qualitative paragraph naming Hg, As, Cd, Pb, and Al as toxic metals that reduce crop productivity, and listing PGPR genera (*Pseudomonas*, *Bacillus*, *Methylobacterium*, *Streptomyces*) reported to mitigate heavy-metal toxicity through chelation, precipitation, complexation, redox reactions, adsorption, and exopolysaccharide-mediated biosorption. Table 3 (pp. 10–11) lists two heavy-metal-stress entries: *Pseudomonas fluorescens* on maize (IAA production) and *Azotobacter chroococcum* on maize (IAA, ammonia, ACC-deaminase production). No measured metal concentrations, no exposure values, no thresholds, no regulatory limits. Evidence tier C; relevant to HMI only as a leads document for the bioremediation/microbiome-and-metals angle.
 
 ## Key numbers
@@ -103,15 +105,15 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - Audit subagent (2026-06-02, PROMOTE verdict, all 5 checks clean) flagged one minor descriptive overreach in Limitations: an earlier draft claimed Cr was "discussed only in §3.4 contexts" — verified against the source that §3.4 (Disease Suppression) does not discuss Cr in any heavy-metals sense; the Limitations bullet was corrected to remove that overreach. No other findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [30763fe](https://github.com/paleofoundation/heavymetalindex/commit/30763fe) | 2026-06-02 | audit: hamid2021-bacterial-plant-biostimulants-review [promoted] |
-| [2ed65c4](https://github.com/paleofoundation/heavymetalindex/commit/2ed65c4) | 2026-06-02 | ingest: hamid2021-bacterial-plant-biostimulants-review [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

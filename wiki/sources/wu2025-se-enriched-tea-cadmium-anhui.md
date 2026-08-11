@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Wu et al. 2025 — Cadmium in the Soil–Tea–Infusion Continuum of Se-Enriched Gardens (Anhui, China)
 
+## Overview
+
 This peer-reviewed field study, published in Foods (MDPI, CC BY 4.0), characterized cadmium migration through the soil-to-tea-tree-to-infusion continuum across 12 selenium-enriched tea gardens in southwestern Anhui Province, China, and evaluated whether co-occurring soil Se modulates Cd accumulation in tea leaves. The authors collected 36 topsoil samples and 216 tea-tree organ samples (fibrous roots, taproots, main stems, lateral stems, old leaves, young leaves), prepared tea infusions from young-leaf samples using traditional Chinese green-tea production methods, and quantified Cd and Se in all matrices by ICP-MS (Thermo Fisher iCAP RQ; LOD Cd 0.002 mg/kg, Se 0.005 mg/kg) per Chinese national standard GB 5413.21-2010. Mean soil Cd was 0.37 mg/kg (3.81× background) with 67% of gardens exceeding the Cd safety standard (pollution index Pi > 1.0); mean soil Se was 2.58 mg/kg (above the 0.40 mg/kg Chinese Se-enriched-soil standard). Cd in tea-tree organs followed a descending root-to-leaf gradient — fibrous root 1.17 > taproot 0.29 ≈ main stem 0.27 ≈ lateral stem 0.28 > old leaf 0.07 > young leaf 0.02 mg/kg — with all leaf values well below the 1 mg/kg Chinese tea Cd limit. Cd in tea infusion averaged 0.141 µg/L (mean leaching rate 13.33%), below the 5 µg/L Chinese permissible limit for food/beverage Cd. The authors reported a threshold antagonism: when fibrous-root Se < 2.0 mg/kg, Se and Cd accumulated together (positive correlation); when fibrous-root Se ≥ 2.0 mg/kg, Se inhibited Cd uptake (significant negative correlation). Estimated annual carcinogenic risk of Cd from single-brew tea consumption ranged 2.53 × 10⁻⁸ to 3.84 × 10⁻⁸, and a worst-case 100%-leaching scenario produced 1.60 × 10⁻⁷ to 5.03 × 10⁻⁷ — both within the ICRP-acceptable bound of 5 × 10⁻⁵.
 
 ## Key numbers
@@ -120,11 +122,15 @@ Field-survey design across 12 Se-enriched tea gardens in southwestern Anhui Prov
 Source page newly created from `raw/Manual Fetch Discovery/wu2025-matcha-heavy-metal.pdf` (Manual Fetch Discovery folder). The PDF filename includes "matcha" but the paper is not about matcha — it characterizes green tea from cultivars 'Chuye' and 'Liuye' processed by "traditional green tea production methods." The cite-key was set to `wu2025-se-enriched-tea-cadmium-anhui` to reflect the actual subject; the misleading raw-handle is preserved for filesystem traceability. Three identity checks ran clean: DOI grep (`grep -rl "10.3390/foods14183156" wiki/sources/`) returned no hits; raw_handle grep returned no hits; `ls wiki/sources/ | grep wu2025` returned only `wu2025-climate-meghan-freshwater-fish-china.md` (different paper). No commercial brand attributions in the source; ICP-MS vendor (Thermo Fisher iCAP RQ) and statistical-software names (SPSS, Origin, RStudio rfPermute) are method-vendor mentions allowed under Part 12 Exception 2. Se data are reported here as context for the Cd–Se interaction finding; HMI tracks Cd, not Se, so Se appears only where it modulates Cd behavior.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0d0cfb7](https://github.com/paleofoundation/heavymetalindex/commit/0d0cfb7) | 2026-06-08 | ingest: wu2025-se-enriched-tea-cadmium-anhui fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

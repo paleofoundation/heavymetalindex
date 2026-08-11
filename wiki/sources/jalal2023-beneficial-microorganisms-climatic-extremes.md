@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Jalal, da Silva Oliveira, Rosa, Galindo & Teixeira Filho 2023 — Plant growth-promoting microorganisms mitigating climatic-extreme abiotic stresses (narrative review)
 
+## Overview
+
 This MDPI *Life* review synthesises laboratory, greenhouse, and field evidence on how plant growth-promoting rhizobacteria (PGPB, including *Azospirillum*, *Bradyrhizobium*, *Pseudomonas*, *Bacillus*, *Enterobacter*, *Burkholderia*, *Pantoea*, *Rhizobium*, *Serratia*, *Arthrobacter*, *Microbacterium* spp. and others) and plant growth-promoting fungi (PGPF, including arbuscular mycorrhizal fungi *Glomus / Funneliformis / Rhizophagus*, *Trichoderma*, *Penicillium*, *Aspergillus* spp.) ameliorate the impact of climatic-extreme abiotic stresses on cereal, legume, oilseed, vegetable, and forage crops. The abstract (page 1) groups the stresses into six categories — "drought, salinity, heavy metals, flooding, extreme temperatures, and intense light" — and the body splits "extreme temperatures" into separate high-temperature (Section 5) and low-temperature (Section 6) sections, yielding seven body chapters: drought, salinity, heavy metals, high temperature, low temperature, flooding/oxygen deficit, and intense light. The paper is a narrative review with no independent measurements, no primary data extraction, and no quantitative meta-analysis; tabular entries in Tables 1–3 are microorganism / stress / host-plant pairings catalogued from cited primary studies rather than occurrence values. It is ingested as an out-of-core-scope agronomic-mitigation-context reference following the [[sources/asgher2023-selenium-heavy-metal-stress-plants]] and [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for methodology / context reviews without primary metal-occurrence data; `metals: []`, `ingredients: []`, and `products: []` are correct because the paper contributes no measured contamination values to any HMI ingredient, product, or metal page. The heavy-metals section (Section 4, pages 7–8, and Table 2) is potentially useful as a starting point for a future HMI mitigation-lever entry on microbial bioremediation / phytostabilisation / phytoextraction / phyto-volatilisation as a soil-side intervention to reduce heavy-metal uptake into crops, but each specific mechanistic or quantitative claim should be sourced from its underlying primary citation rather than from this tertiary review.
 
 ## Key numbers
@@ -131,11 +133,15 @@ This is a narrative agronomic-mitigation review; it contributes context rather t
 - 2026-06-02 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/life13051102` not present; raw_handle `MFK_life-13-01102` not present; cite-key stem `jalal2023` not present. PDF SHA-256 `4ed843c1496521777731230f175e1450c8aa10697f55a98fc864aa704bf57ec6`. Paper is a narrative review of plant growth-promoting microorganisms (bacteria and fungi) mitigating seven climatic-extreme abiotic stresses including heavy metals; no primary occurrence measurements. Ingested as out-of-core-scope agronomic-mitigation-context reference per the [[sources/asgher2023-selenium-heavy-metal-stress-plants]] precedent; `metals: []`, `ingredients: []`, `products: []` correctly reflect that no contamination values are contributed to any wiki page. Heavy-metals content captured: Section 4 framing (pages 7–8), Table 2 microbe × metal pairings (page 8), and the Farwell / Cao co-stress passages from Section 7 (page 12).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

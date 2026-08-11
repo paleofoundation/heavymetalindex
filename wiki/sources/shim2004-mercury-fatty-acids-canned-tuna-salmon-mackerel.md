@@ -6,8 +6,8 @@ title: "Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel"
 authors: [Shim SM, Dorworth LE, Lasrado JA, Santerre CR]
 year: 2004
 publication: "Journal of Food Science"
-doi: 10.1111/j.1365-2621.2004.tb15529.x
-access_url: "https://doi.org/10.1111/j.1365-2621.2004.tb15529.x"
+doi: 10.1111/j.1365-2621.2004.tb09915.x
+access_url: "https://doi.org/10.1111/j.1365-2621.2004.tb09915.x"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A
@@ -28,6 +28,8 @@ updated: 2026-06-08
 ---
 
 # Shim et al. 2004 — Mercury and fatty acids in canned tuna, salmon, and mackerel
+
+## Overview
 
 This 2004 US study analyzed total mercury (tHg) and polyunsaturated fatty acids in canned tuna (n=240), salmon (n=16), and mackerel (n=16) purchased from stores in Lafayette, Indiana. Mercury was measured as total Hg by thermal decomposition amalgamation atomic absorption spectrophotometry (TDA/AAS); the paper does not speciate MeHg from inorganic Hg, but notes that up to 90% of Hg in fish is typically found as MeHg. Overall mean tHg was 188 ppb in tuna, 45 ppb in salmon, and 55 ppb in mackerel — all below the FDA action level of 1000 ppb. The paper's central trade-off is that white/albacore tuna rows had higher tHg and higher EPA+DHA than light tuna in water, while salmon and mackerel had lower tHg and higher EPA+DHA than the tuna category average.
 
@@ -103,15 +105,15 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - 2026-06-08 merge-enhance: removed the `products/fresh-fish` slug from frontmatter (paper studied only canned tuna, salmon, and mackerel — no fresh fish samples were analyzed; the slug was over-specifying frontmatter and fanning broad-context rows to fish-freshwater, fish-marine-predatory, and fish-marine-non-predatory rows for which the paper provides no direct evidence). Added the `products/canned-seafood` slug to reflect that the three product forms studied are all canned-seafood Cat 6 row members (direct evidence rather than seafood-broad-context only).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b394c32](https://github.com/paleofoundation/heavymetalindex/commit/b394c32) | 2026-06-08 | ingest: shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel enhanced from MFK/04_Meat_Poultry_Seafood |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b394c328b](https://github.com/paleofoundation/heavymetalindex/commit/b394c328b) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

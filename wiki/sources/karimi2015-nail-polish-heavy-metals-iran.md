@@ -26,6 +26,8 @@ updated: 2026-06-11
 
 # Karimi and Ziarati 2015 - Heavy metals in nail polishes sold in Tehran
 
+## Overview
+
 Karimi and Ziarati measured Cd, total As, total Cr, Pb, and Ni in 150 nail-polish samples purchased from Tehran beauty shops in 2014. The sample frame covered 13 colours and products made in several countries. This is direct lane a1 occurrence evidence for leave-on manicuring preparations, with brand names stripped under the Part 12 firewall.
 
 ## Key numbers
@@ -75,3 +77,17 @@ Microbiome: No microbiome endpoints.
 - Speciation: arsenic is total As (`tAs`); chromium is total Cr (`Cr`). The paper discusses chromium VI toxicity in background text but does not measure Cr-VI.
 - Brand firewall: the source names product brands in narrative passages, but this page reports only colour-level, country-origin, and product-category values. No brand name is attached to a contamination value.
 - The generic `products/nail-polish` page is retired to `products/manicuring-preparations-leave-on`; routing therefore uses the active HMTc row slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

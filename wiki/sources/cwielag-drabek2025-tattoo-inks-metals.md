@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Cwielag-Drabek et al. 2025 - Heavy metals in tattoo and permanent makeup inks
 
+## Overview
+
 Cwielag-Drabek and colleagues measured 12 trace elements in 41 tattoo and permanent makeup ink products available to European consumers after the 2022 REACH restrictions took effect. The source is direct product-occurrence evidence for tattoo inks and related permanent makeup pigments: the authors report finished-ink concentrations in mg/kg, identify EU-limit exceedances, and model dermal exposure scenarios. Mercury was not detected above the 0.008 mg/kg LOQ in any sample, while copper, nickel, arsenic, chromium, and lead drove the main compliance and risk findings.
 
 ## Key numbers
@@ -75,3 +77,17 @@ Microbiome: No microbiome-specific findings.
 - Brand names and manufacturer identities are not reproduced in this source page. The study's product-level supplement can support internal audit, but the public wiki keeps the finding at product-category level.
 - The article reports arsenic as "arsenic (inorganic)" in the analytical-method section. Because the measurement is by ICP-OES after acid digestion rather than a chromatographic speciation method, downstream routing should keep the source's own wording visible and avoid silently substituting it for independently speciated inorganic arsenic.
 - The authors' Table 5 variance values appear internally inconsistent for some elements relative to the reported SD values; this page uses the reported means and maxima and does not reuse the variance values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

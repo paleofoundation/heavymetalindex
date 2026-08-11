@@ -27,6 +27,8 @@ updated: 2026-05-19
 
 # Katrynska et al. 2026 — Human milk as a biomonitor of toxic metal exposure
 
+## Overview
+
 This structured narrative review with systematic search elements synthesizes 112 studies (2010–2025) on heavy metal contamination in human milk, with particular emphasis on maternal–infant transfer pathways, environmental and dietary determinants of exposure, and geographical variability. The review covers Pb, Cd, tHg (including MeHg in fish-eating populations), tAs, Cr, and Al. Under typical (low-exposure) conditions the authors report population-level concentration ranges of approximately 2–5 µg/L for Pb, 1.4–1.7 µg/L for tHg, and below 1 µg/L for Cd. Substantially higher values occur in industrialized and mining regions, with extreme isolated reports exceeding 1000 µg/L for Pb (Turkey, max 1515 µg/L) and ~104 µg/L for tHg (Amazon, max). The review frames human milk as a context-dependent biomarker reflecting both current environmental exposure and long-term mobilization of maternal stores during lactation (bone resorption for Pb, adipose mobilization for lipophilic organometals). Infants are described as a particularly vulnerable subpopulation due to immature hepatic and renal detoxification, higher per-body-weight intake, and increased gastrointestinal absorption (Pb absorption is several times higher in infants than adults). The authors conclude that breastfeeding's benefits clearly outweigh its risks under typical exposure conditions but flag industrial/mining-area and chronic-water-contamination settings as warranting closer monitoring.
 
 ## Key numbers
@@ -158,15 +160,15 @@ Microbiome: Exposure of the infant gut to Pb, Cd, and Al during the early coloni
 **Sample size:** `sample_n: null` is correct because this is a review of 112 included primary studies, not a single primary study with a defined biological sample size; per-paper sample sizes are heterogeneous and the review does not aggregate them quantitatively.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

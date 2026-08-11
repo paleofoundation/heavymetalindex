@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
 
+## Overview
+
 Health Canada issued this guidance to communicate technically avoidable impurity limits for lead, arsenic, cadmium, mercury, and antimony in cosmetics sold in Canada. The PDF is a regulatory guidance document, not a market-sampling paper: it states policy limits and toxicological context but does not print the underlying Health Canada laboratory dataset. This page records the source-stated limits as Canadian regulatory context, with total arsenic and total mercury kept distinct from inorganic arsenic and methylmercury occurrence.
 
 ## Key numbers
@@ -76,3 +78,17 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 - Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
 - Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
 - Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

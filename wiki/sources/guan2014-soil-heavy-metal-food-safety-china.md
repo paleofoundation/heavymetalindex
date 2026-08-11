@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Guan and Sun 2014 — Soil heavy metal pollution and food safety, China
 
+## Overview
+
 Guan and Sun present a three-page narrative overview of soil heavy metal pollution sources, characteristics, and food safety implications, framed primarily around Chinese conditions. The paper was published in Applied Mechanics and Materials, a Trans Tech Publications conference proceedings volume (Vols. 675-677, 2014, pp 612-614), as part of the "Environmental Technology and Resource Utilization II" symposium. It reports no original experimental data; it synthesizes previously published findings on pollution sources (industrial "three wastes" emissions, mining and smelting, coal combustion, vehicle exhaust, agricultural inputs including chemical fertilizers and sewage irrigation) and mitigation approaches (physical-chemical soil replacement, leaching technology, bioremediation, agronomic measures, cultivar selection, and planting-structure adjustment in contaminated zones).
 
 This is a C-tier reference: a short Chinese conference paper from 2014 with no original data, predating the substantial expansion of high-quality food heavy metal occurrence literature published in 2015-2025. It is retained in the corpus primarily as a historical baseline document attesting to Chinese scientific awareness of soil-to-food heavy metal transfer circa 2014.
@@ -89,15 +91,15 @@ App: not applicable. No food-form or contamination-likelihood data.
 - **2026-05-18 (Claude session, merge-enhance):** Full 3-page PDF re-read end-to-end. Prior page (updated 2026-05-15, `raw_handle: papers-cube` legacy placeholder, `source_type: peer-reviewed`) was substantively accurate but missing the mandatory `## Key numbers` section, missing `## Methods` section, used the legacy `## Wiki pages updated on ingest` heading instead of the current `## Wiki pages this source may touch` form, and did not surface the quantitative claims the paper does carry (3,000 mg/kg factory soil Zn+Pb; 10-20× cancer mortality in sewage irrigation areas; Minamata Bay 1956-1960; Songhua River fish Hg). Updated `raw_handle` from `papers-cube` to `PCMF_guan2014` per current convention. Updated `source_type` from `peer-reviewed` to `review` since this is a narrative overview with no original data. Added `Cu` to `metals:` since the paper explicitly names copper alongside Pb, Cd, and Zn in the vehicle-exhaust list. Added `fish` to `matrices:` (Songhua/Minamata fish-mercury context) and added `JP` to `jurisdictions:` (Minamata Bay and itai-itai are Japanese contexts; the paper is China-framed but cites these as the canonical food-chain heavy-metal poisoning episodes). Kept `iAs`/`tAs` out of `metals:` because the paper does not discuss arsenic. Kept `MeHg` out of `metals:` because the paper does not speciate mercury despite invoking Minamata; `tHg` is the correct unambiguous tag. Frontmatter `products`/`ingredients` remain empty: this is a soil-and-food-safety overview, not a measured-food study; the routing_malformed advisory for those fields is informational, not a defect. Strict Part 12 brand-firewall check: no brand names present.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

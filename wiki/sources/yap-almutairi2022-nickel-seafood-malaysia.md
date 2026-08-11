@@ -34,6 +34,8 @@ updated: 2026-06-03
 
 # Yap & Al-Mutairi 2022 — Ni in 19 marine fish species, two molluscs, and one cited mussel dataset from Peninsular Malaysia, with EDI/THQ/EWI risk assessment
 
+## Overview
+
 This MDPI Biology paper measured nickel in three locally caught seafood types from Peninsular Malaysia — 19 commercial marine fish species from Setiu (Terengganu) on the east coast, the mangrove snail *Cerithidea obtusa* pooled from 17 west-coast mangrove sites, and the cockle *Anadara granosa* pooled from 12 west-coast intertidal sites — and compared the resulting human-health risk profile (estimated daily intake, target hazard quotient, and estimated weekly intake) to a 40-site green-lipped mussel *Perna viridis* dataset that the same group had previously published. Nickel was determined by air-acetylene flame atomic absorption spectrometry on nitric-acid digests of dried-and-ground tissue; DOLT-3 (dogfish liver) certified reference material was recovered at 88.8–119%. Wet-weight Ni ranged 0.11–0.90 mg/kg in the fish muscle, 0.40–6.14 mg/kg in the snail total soft tissue, and 0.15–3.23 mg/kg in the cockle total soft tissue, with all three datasets falling well below the only Ni regulatory ceiling the authors could find (the US FDA molluscan-shellfish action level of 80 mg/kg wet weight). Target hazard quotients for nickel were <1.00 for average and high-level consumers across all three newly measured seafood types; only the high-level mussel consumers of the *P. viridis* dataset from the polluted Kampung Pasir Puteh sites had THQ values >1.00 in the cited comparison data.
 
 ## Key numbers
@@ -111,14 +113,15 @@ This paper is also useful as a worked example of the EFSA-TDI-to-PTWI recalculat
 - The EWI body-text "mg/week" notation on p. 14 of 20 and the Table 1 "EWI" notation in µg/week are reconciled in Key numbers: the Table 1 EWI columns are per-mean values in µg/week (a single mean fish replicate yields 1.24–10.2 µg/week Ni intake at the species mean), and the body-text MWI in mg/week is the per-consumer weekly intake after the 0.70 kg/week or 1.40 kg/week consumption multiplier (e.g., for *Atule maculatus* at 0.90 mg/kg WW, MWI = 0.90 × 0.70 = 0.63 mg/week ≈ 11.2% of 5642 µg/week PTWI).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2eb0dab](https://github.com/paleofoundation/heavymetalindex/commit/2eb0dab) | 2026-06-03 | ingest: yap-almutairi2022-nickel-seafood-malaysia [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

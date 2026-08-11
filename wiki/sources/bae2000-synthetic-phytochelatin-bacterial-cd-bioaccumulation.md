@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bae et al. 2000 — Synthetic phytochelatins displayed on E. coli enhance Cd²⁺ bioaccumulation
 
+## Overview
+
 Bae, Chen, Mulchandani, and Mehra (Department of Chemical and Environmental Engineering and Environmental Toxicology Program, University of California, Riverside) report the construction and characterisation of recombinant *Escherichia coli* JM105 strains that display synthetic phytochelatin analogs of defined chain length (EC8, EC11, EC20 with 8, 11, and 20 cysteines respectively) on the cell surface via a Lpp-OmpA fusion anchor, and demonstrate that whole cells displaying the longest analog (EC20) accumulate ≈15-fold more Cd²⁺ on a dry-weight basis than the wild-type control and ≈2-fold more than cells expressing EC20 periplasmically as an MBP fusion. Purified MBP-EC20 is shown to bind Cd²⁺ at a stoichiometry of ≈10 Cd²⁺ per peptide — about 40 % higher than the canonical 7 Cd²⁺ per peptide reported for mammalian metallothioneins. The paper reports no measurements in any food or environmental matrix; its value to the wiki is conceptual background for the [[metals/cadmium]] page and for the mitigation/remediation-evidence section on engineered-microbial biosorbents.
 
 ## Why this matters
@@ -40,12 +42,12 @@ Bae, Chen, Mulchandani, and Mehra (Department of Chemical and Environmental Engi
 - **EC20 Cd²⁺ binding stoichiometry, purified MBP-EC20 fusion after DTT reduction:** **9.9, 10.1, 9.8** Cd²⁺ per EC20 in Sephadex G-25 fractions 6, 7, 8 respectively (Fig. 4, p. 521). Reported in the Abstract as a stoichiometry of **10 Cd²⁺ per peptide**.
 - **Mammalian metallothionein (MT) reference stoichiometry the authors compare against:** **7 Cd²⁺ per MT** (Hamer 1986; Stillman et al. 1992 — cited values, not measured here). Authors conclude EC20 has **≈40 % higher Cd²⁺ binding capacity than MTs** on a per-peptide basis (Discussion, p. 522).
 - **Whole-cell Cd²⁺ accumulation, *E. coli* JM105 strains grown in MJS medium with 0.1 mM CdSO4, 1 mM IPTG induction, monitored to 16 h (Fig. 6, p. 522):**
-  - pUC18 negative control: **≈4 nmol Cd²⁺/mg dry cell weight** (Fig. 5; the exact bar value is not numerically tabulated and is read from the graph).
-  - pLO8 (Lpp-OmpA-EC8, 8 cysteines): **≈18 nmol Cd²⁺/mg dry cells**.
-  - pLO11 (Lpp-OmpA-EC11, 11 cysteines): **≈29 nmol Cd²⁺/mg dry cells**.
-  - pLO20 (Lpp-OmpA-EC20, 20 cysteines, surface-displayed): **≈60 nmol Cd²⁺/mg dry cells** (called out in the Abstract as "a maximum of 60 nmoles of Cd²⁺/mg dry cells").
-  - pM20 (MBP-EC20, periplasmic expression): **≈35 nmol Cd²⁺/mg dry cells** (Fig. 5).
-  - Surface-displayed pLO20 / periplasmic pM20 ratio: ≈**2-fold higher whole-cell Cd²⁺ accumulation** for the surface-displayed construct (Abstract; Fig. 5).
+ - pUC18 negative control: **≈4 nmol Cd²⁺/mg dry cell weight** (Fig. 5; the exact bar value is not numerically tabulated and is read from the graph).
+ - pLO8 (Lpp-OmpA-EC8, 8 cysteines): **≈18 nmol Cd²⁺/mg dry cells**.
+ - pLO11 (Lpp-OmpA-EC11, 11 cysteines): **≈29 nmol Cd²⁺/mg dry cells**.
+ - pLO20 (Lpp-OmpA-EC20, 20 cysteines, surface-displayed): **≈60 nmol Cd²⁺/mg dry cells** (called out in the Abstract as "a maximum of 60 nmoles of Cd²⁺/mg dry cells").
+ - pM20 (MBP-EC20, periplasmic expression): **≈35 nmol Cd²⁺/mg dry cells** (Fig. 5).
+ - Surface-displayed pLO20 / periplasmic pM20 ratio: ≈**2-fold higher whole-cell Cd²⁺ accumulation** for the surface-displayed construct (Abstract; Fig. 5).
 - **Periplasmic MBP-EC20 native binding (before DTT):** **less than 1 Cd²⁺ per MBP-EC20** fusion in the unprocessed periplasmic preparation (p. 521).
 - **CdSO4 challenge concentration in the bioaccumulation assays:** **100 µM CdSO4** (Materials and Methods, p. 519); whole-cell experiments used **0.1 mM CdSO4** (Results, p. 522) — these are the same value reported in two unit conventions.
 - **Replicate counts:** **n = 5 independent experiments** for the whole-cell Cd²⁺ accumulation data in Figs. 5 and 6 (figure legends, p. 521–522).
@@ -86,11 +88,11 @@ The work is bench-scale on whole cells grown in defined laboratory medium with a
 
 **Existing-page check.** DOI grep on `10.1002/1097-0290(20001205)70` over `wiki/sources/` on 2026-06-08 returned no matches. raw_handle grep on `MFK_52-enhanced-bioaccumulation` returned no matches. Cite-key glob `bae2000-*` over `wiki/sources/` returned no matches. The four `phytochelatin`-keyword hits ([[cobbett2002-phytochelatins-metallothioneins-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[marques2025-phytochelatins-cadmium-mitigation]], [[seregin2023-phytochelatins-sulfur-metal-chelating]]) are all different papers. This is a NEW source page; no prior version to merge-enhance.
 
-**Evidence tier.** A (primary peer-reviewed quantitative study with explicit methodology, sample sizes, and statistical reporting). The work is bench bioengineering on recombinant *E. coli* with clearly described constructs, growth conditions, replicate counts, and instrumentation. Per CLAUDE.md Part 13, primary peer-reviewed studies are A-tier regardless of whether the contribution is occurrence/exposure or mitigation/remediation; tier reflects methodological reliability of what the source reports, not HMI-scope fit.
+**Evidence tier.** A (primary peer-reviewed quantitative study with explicit methodology, sample sizes, and statistical reporting). The work is bench bioengineering on recombinant *E. coli* with clearly described constructs, growth conditions, replicate counts, and instrumentation. Primary peer-reviewed studies are A-tier regardless of whether the contribution is occurrence/exposure or mitigation/remediation; tier reflects methodological reliability of what the source reports, not HMI-scope fit.
 
 **Metals frontmatter.** `[Cd]` only. The paper measures cadmium exclusively. Mercury appears in the Discussion only as a one-sentence reference to Chen and Wilson (1997)'s analogous limitation in mercury transport; no Hg measurement is reported here. Lead appears only as a citation to Mehra et al. (1996a) in the reference list; no Pb measurement is reported here. The title's plural "heavy metals" is forward-looking framing for the broader bioremediation programme the authors situate themselves in, not a description of this paper's experimental scope.
 
-**Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The paper measures nothing in any food or personal-care matrix. The matrix is *E. coli* whole cells in defined laboratory medium (MJS); per CLAUDE.md Part 5b the routing layer should not fan this paper out to any consumer product or ingredient page. The work is geographically institutional (UC Riverside) but conceptually international; no national regulatory or occurrence frame applies, so `jurisdictions:` remains empty.
+**Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The paper measures nothing in any food or personal-care matrix. The matrix is *E. coli* whole cells in defined laboratory medium (MJS); the routing layer should not fan this paper out to any consumer product or ingredient page. The work is geographically institutional (UC Riverside) but conceptually international; no national regulatory or occurrence frame applies, so `jurisdictions:` remains empty.
 
 **Sample size.** Null. There is no human, animal, or food-sample sampling frame. The figure replicate counts (n=5 independent experiments for Figs. 5–6 whole-cell uptake; n=3 Sephadex fractions for the binding-stoichiometry measurement) are recorded in the `sample_population` block but `sample_n` is reserved for human/biological/food-sample N and is null here.
 
@@ -112,12 +114,15 @@ The work is bench-scale on whole cells grown in defined laboratory medium with a
 - Checks 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all ✅. Subagent verified the Methods (brief) section against the source row-by-row (JM105 host, Lpp-OmpA fusion via pUC18, pMAL-p2x for periplasmic MBP, MJS medium with 50 µg/mL ampicillin at 30 °C, 1 mM IPTG, [35S]-cysteine at 5 µCi/mL from ICN at 1075 Ci/mmol, 12.5 % SDS-PAGE per Laemmli, proteinase K at 10 µg/mL with the 3 min / 10 min / 1 h / 2 h / 5 h / 21 h time points, 5 mM DTT for 2 h at 37 °C reduction, 300 nmol Cd²⁺ for 1 h at 37 °C binding, Sephadex G-25 fractionation, flame AAS PerkinElmer AAS3100, Grassetti–Murray 1967 thiol assay, 481-bp lpp-ompA cassette and Richins et al. 1997 source) with no invented analytical methods, LODs, or reference materials; that the only metal measured is Cd and the `metals: [Cd]` frontmatter is correct without speciation issues; that no consumer-product brand names appear and the scientific-vendor mentions (PerkinElmer, Research Genetics, Promega, New England BioLabs, ICN, Sigma) are method-context per Exception 2; and that the Implications section explicitly disclaims any HMTc threshold-setting contribution. 1 finding flagged, 0 corrections applied (the ⚠️ was a known cross-page taxonomy gap, not a defect on this page), 0 rejected. Audit subagent ID aa8d3586d3cd812a4.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [be1a5cc](https://github.com/paleofoundation/heavymetalindex/commit/be1a5cc) | 2026-06-08 | audit: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation promoted |
-| [e5daa6d](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6d) | 2026-06-08 | ingest: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

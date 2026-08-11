@@ -19,7 +19,7 @@ primary_metals_of_concern: [Cd, tHg, Pb]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 6
+sources: 7
 wiki_doi: null
 updated: 2026-06-09
 ---
@@ -34,12 +34,20 @@ updated: 2026-06-09
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/hanc2021-amanita-muscaria-hg-se|Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria]]<span class="hmi-ref-meta">Hanc A, Fernandes AR, Falandysz J, and Zhang J · Environmental Science and Pollution Research · 2021 · [doi.org/10.1007/s11356-021-14740-6](https://doi.org/10.1007/s11356-021-14740-6)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -47,20 +55,23 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/asensio2023-madrid-mushrooms-mercury\|Peinador 2023]]. *Study of Heavy Metals and Methyl-Mercury in Fungi in Markets of Madrid*, Spectroscopy | 2023 | Peer-reviewed | ES/EU Cd, Pb, tHg, MeHg occurrence in 48 cultivated and wild edible mushroom samples purchased in local markets in Madrid, Spain, with wild samples supplied... (n=48) |
 | 3 | [[sources/keles2023-turkiye-wild-mushrooms-elements\|Keles et al. 2023]]. *Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment*, Anatolian Journal of Botany 7(1):50-59 | 2023 | Peer-reviewed | TR Ni, Cd, Pb, Mn, Fe, Zn, Cu occurrence in Twenty-four wild edible mushroom species collected from Bayburt, Gumushane, Rize, and Artvin in the Eastern Black Sea Region... (n=24) |
 | 4 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
-| 5 | [[sources/hanc2021-amanita-muscaria-hg-se\|Hanc et al. 2021]]. *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | PL tHg, Se occurrence in Amanita muscaria fruiting bodies collected in six developmental-stage pools from one Pomeranian forest site in Poland in September... (n=181) |
-| 6 | [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland\|Brzezicha-Cirocka et al. 2016]]. *Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland*, Environmental Science and Pollution Research | 2016 | Peer-reviewed | PL/EU Cd, Ag, Cu, Zn, Fe, Mn occurrence in Pooled edible wild mushroom samples from Morag, north-eastern Poland, and the Tarnobrzeska Plain, south-eastern Poland; seven species with... (n=213) |
+| 5 | [[sources/usman2022-pleurotus-mushroom-substrates\|Usman et al. 2022]]. *Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria*, GSC Biological and Pharmaceutical Sciences | 2022 | Peer-reviewed | NG Pb, Cd, Cr occurrence in Pleurotus tuberregium mushrooms grown in four replicates on topsoil, sawdust, riversand, and a riversand-sawdust mixture in Aba, Nigeria. (n=16) |
+| 6 | [[sources/hanc2021-amanita-muscaria-hg-se\|Hanc et al. 2021]]. *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | PL tHg, Se occurrence in Amanita muscaria fruiting bodies collected in six developmental-stage pools from one Pomeranian forest site in Poland in September... (n=181) |
+| 7 | [[sources/falandysz2020-yunnan-fungi-mercury\|Falandysz et al. 2020]]. *Mercury in traditionally foraged species of fungi (macromycetes) from the karst area across Yunnan province in China*, Applied Microbiology and Biotechnology | 2020 | Peer-reviewed | CN tHg occurrence in Composite samples from 42 traditionally foraged or medicinal fungal species collected at 23 sites across Yunnan province, China,... |
+| 8 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
+| 9 | [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland\|Brzezicha-Cirocka et al. 2016]]. *Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland*, Environmental Science and Pollution Research | 2016 | Peer-reviewed | PL/EU Cd, Ag, Cu, Zn, Fe, Mn occurrence in Pooled edible wild mushroom samples from Morag, north-eastern Poland, and the Tarnobrzeska Plain, south-eastern Poland; seven species with... (n=213) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

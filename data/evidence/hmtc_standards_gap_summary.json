@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T11:13:27.469Z",
+  "generated_at": "2026-08-10T09:30:46.449Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -12,29 +12,31 @@
     "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
     "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv",
     "data/evidence/category6_occurrence_summary.csv",
-    "data/evidence/category7_occurrence_summary.csv"
+    "data/evidence/category7_occurrence_summary.csv",
+    "data/evidence/category11_occurrence_summary.csv",
+    "data/evidence/category24_occurrence_summary.csv"
   ],
-  "total_gap_rows": 630,
-  "rows_in_locked_hmtc_scope": 530,
-  "rows_outside_locked_hmtc_scope": 100,
+  "total_gap_rows": 690,
+  "rows_in_locked_hmtc_scope": 596,
+  "rows_outside_locked_hmtc_scope": 94,
   "by_aggregate_status": {
-    "POOLING ENGINE PENDING: ready for pooling math": 67,
-    "POOLING ENGINE PENDING: single poolable source": 127,
-    "BLOCKED: no structured evidence loaded": 232,
-    "BLOCKED: local extraction pending": 61,
-    "OUT OF SCOPE: not a locked HMTc standards row": 74,
-    "BLOCKED: PDF match review pending": 14,
-    "POOLING ENGINE PENDING: process local extraction backlog first": 21,
-    "BLOCKED: species-specific evidence missing": 3,
+    "POOLING ENGINE PENDING: ready for pooling math": 74,
+    "POOLING ENGINE PENDING: single poolable source": 172,
+    "BLOCKED: no structured evidence loaded": 230,
+    "POOLING ENGINE PENDING: process local extraction backlog first": 31,
+    "BLOCKED: local extraction pending": 65,
+    "OUT OF SCOPE: not a locked HMTc standards row": 68,
+    "BLOCKED: PDF match review pending": 13,
+    "BLOCKED: species-specific evidence missing": 6,
     "CONTEXT ONLY: not a locked HMTc standards row": 26,
     "BLOCKED: local candidate review pending": 5
   },
   "by_standard_percentile_target": {
     "clean_p97_pooled": 91,
-    "independent_p97_pooled": 439,
-    "not_applicable": 100
+    "independent_p97_pooled": 505,
+    "not_applicable": 94
   },
-  "rows_with_pending_local_extracts": 121,
+  "rows_with_pending_local_extracts": 147,
   "rows_with_missing_pdfs": 1,
   "rows_with_local_candidate_values": 10,
   "rows_with_context_dispositions": 0,

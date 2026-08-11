@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6039e26a0be01e859bae939766f195508a9d6b9d5d7882e466044d9294c1ed50",
-      "content_bytes": 9871,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "012e4ef21a2718488d826abda99dba3d9d38f6395850896102d263c2ae0a1197",
+      "content_bytes": 10607,
+      "last_commit_sha": "a31b0f2f5",
+      "last_commit_date": "2026-08-10",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/infant-bottles.md | sha256sum"
+      "verify_command": "git show a31b0f2f5:wiki/products/infant-bottles.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
-          "content_bytes": 19130,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "30ce3fb8283d4a706093361161e2c04e94b9ab5adbacb3d232603d4a3d20de5f",
+          "content_bytes": 19360,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dtu2024-food-contact-pb-cd-limits",
+        "title": "Suggestive maximum limits for lead and cadmium in food contact materials",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
+        "content_pin": {
+          "content_sha256": "cfd222b5de4c822bb307c454720ced4047088c5c15bc9e82e6cbc50d02ae58f0",
+          "content_bytes": 12831,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
         }
       },
       {
@@ -74,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "deec29aa07591db0b3df2f33b9efd50ae44f48252adb685b0bc798814976f643",
+          "content_bytes": 59537,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -92,12 +113,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/onghena2016-baby-bottle-migration-duration-tests",
         "content_pin": {
-          "content_sha256": "282d5c84c5ddf22664d4f6fdb64132c953b502ec8ee9a2713b5b9f2384279bfe",
-          "content_bytes": 30515,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7d1e36e1b6eb70421eabbe623f02a20b751a61755ed5c28682ee5e6e011f6bed",
+          "content_bytes": 30745,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/onghena2016-baby-bottle-migration-duration-tests.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/onghena2016-baby-bottle-migration-duration-tests.md | sha256sum"
         }
       },
       {
@@ -112,12 +133,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
         "content_pin": {
-          "content_sha256": "1f00f2f448e881fb6ea16f006b9f75276612372dc830d6d3d2d9eba8d9fe0751",
-          "content_bytes": 18063,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "79a93e8d1ee86984c38c2b1740c43be0a555075c6f1d8ac28f1790fc7e71e022",
+          "content_bytes": 18293,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
         }
       }
     ]

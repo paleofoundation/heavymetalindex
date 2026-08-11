@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ericson et al. 2020 — Lead in Georgian spices
 
+## Overview
+
 Ericson and colleagues investigated potential sources of elevated blood lead levels in Georgian children and found exceptionally high Pb concentrations in multiple spices. Although the auto-fetch row was labelled as cookware, the routeable consumer-product evidence is for spices; cookware, paint, soil, dust, toys, and water were comparison media and were generally within applied guidance values. The paper is strong direct evidence that adulterated or contaminated spices can be a high-lead exposure source in a specific market.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: Supports a market-context warning that some spices can be extreme Pb outlie
 - The PDF filename and auto-fetch row point to cookware, but the source's own conclusion identifies spices as the elevated Pb matrix. Cookware is retained only as a comparison matrix.
 - The paper reports total lead in spices by pXRF with ICP-MS subset adjustment. No brand-level values are reproduced.
 - Market scope is Georgia; benchmark pooling for another jurisdiction needs explicit stratification.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

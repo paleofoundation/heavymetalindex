@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rajeshkumar et al. 2018 — Seasonal Pollution of Heavy Metals in Fish and Oyster, Taihu Lake, China
 
+## Overview
+
 This study measured Pb, Cd, Cr, and Cu in surface water, sediment, and tissues of crucian carp (Carassius carassius) and Pacific oyster (Crassostrea gigas) across four seasons (winter, spring, summer, autumn 2016) at seven sites in Meiliang Bay of Taihu Lake, China's third-largest freshwater lake. Metal concentrations in water, sediment, and biota were significantly higher in winter and summer than in spring and autumn (one-way ANOVA, p<0.001), attributed to greater agricultural waste, sewage, and flood inputs during those periods. The order of accumulation across compartments was Pb > Cu > Cr > Cd in fish and Pb > Cu > Cr > Cd in oyster; in fish organs the order was liver > kidney > gill > intestine > muscle. The pollution load index (PLI) exceeded 1 across all sediment sites and seasons, and the contamination factor (CF) for Cr in winter sediment reached the "very high degree" category (CF ≥ 6). Average winter oyster Pb (3.03 µg/g wet weight) exceeded the Chinese Ministry of Agriculture residue limit for aquatic products (NY 5073-2001, 1.0 µg/g); average oyster Cu in winter (2.74 µg/g) and summer (1.48 µg/g) exceeded the Chinese Ministry of Health Maximum Levels of Contaminants in Foods (GB 2762-2005, 0.5 µg/g for Cu in aquatic products).
 
 ## Key numbers
@@ -157,15 +159,15 @@ Open-access mode unconfirmed. Article published in *Chemosphere* (Elsevier, Volu
   **Net of audit:** 4 findings; 2 applied (regulation labels + FEPA year); 2 rejected (both product slugs do exist; subagent misread taxonomy snapshot). Verdict REVISE → applied → revised.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Heshmati et al. 2020 — Total Pb and Cd in eight Hamadan-market vegetables and cereals (western Iran) by GF-AAS with adult exposure and risk assessment
 
+## Overview
+
 This Iranian market-basket survey quantifies total Pb and total Cd in eight commodities — potato, onion, tomato, lettuce, leek, carrot, wheat, and rice — purchased from local markets, supermarkets, and grocery stores in Hamadan province, western Iran, between August 2017 and February 2018. Fifty composites per commodity (n=400 total) were microwave-digested in HNO₃/H₂O₂ and quantified by graphite-furnace atomic absorption spectrometry (Thermo Scientific CE 3300) at 217 nm (Pb) and 228.8 nm (Cd). All eight commodity means for both Pb and Cd were below the EU 1881/2006 maximum allowable concentrations (MAC) cited by the authors, but Pb exceeded the MAC in 4 % of carrot samples, 10 % of wheat samples, and 8 % of rice samples; no Cd sample in any commodity exceeded the EU MAC. Adult (70 kg, single-cohort) exposure assessment used Iranian per-capita consumption (68 g/d potato; 39 g/d onion, leek, carrot; 109 g/d tomato; 58 g/d lettuce; 322 g/d wheat; 322 g/d rice from Table 4) and yielded total Cd EDI 0.49 µg/kg bw/day (below JECFA PTDI ≈ 0.8 µg/kg bw/day), all per-commodity Cd THQ values < 1, and all per-commodity Pb MOE values > 1 (range 2.12 wheat / 2.69 rice / 42.86 potato / 133.33 onion), supporting the authors' conclusion of no significant non-carcinogenic health risk from Pb and Cd exposure through these eight commodities for the adult population.
 
 ## Key numbers
@@ -199,15 +201,15 @@ Sample size is moderate (50 composites per commodity, triplicate measurements). 
 - **Data integrity.** All 8 commodity × 2 metal × (mean ww, SD ww, mean dw, SD dw, range min, range max, n below MAC, n above MAC) = 128 Table 2/3 cells transcribed from the original PDF (pages 103, 104). All Table 4 cells (8 commodities × 7 columns + TTHQ) likewise transcribed. Table 1 method-validation cells (Cd and Pb × 5 columns) likewise transcribed. EDI = C × FIR / bw recomputed verbatim for all eight commodities and both metals against the Table 4 column inputs, with no internal arithmetic discrepancies in Table 4 itself. The 332-vs-322 g/day discrepancy and the EDI rank-order statements are the two paper-internal contradictions identified; both flagged above. No other contradictions.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

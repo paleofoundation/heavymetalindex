@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # CFIA 2020 — Toxic metals in selected foods, April 2018–March 2019
 
+## Overview
+
 The Canadian Food Inspection Agency tested 985 samples of bran products, infant formula, meal replacement products, protein powders, and rice products collected from retail outlets in six Canadian cities (Halifax, Montreal, Toronto, Ottawa, Vancouver, Calgary) over fiscal year 2018–2019 for arsenic, cadmium, lead, and mercury. Across all 985 samples, 70% contained at least one of the four metals and 12% contained traces of all four; rice products had the highest mean arsenic level (0.263 ppm, max 1.13 ppm in brown rice bran/germ powder) and protein powders had the highest mean cadmium (0.060 ppm), lead (0.035 ppm), and mercury (0.003 ppm) levels. Infant formula had the lowest detection rates and the lowest mean values for all four metals; all arsenic and lead results in ready-to-serve infant formula and ready-to-serve meal replacement beverages met Canada's existing tolerances, and Health Canada concluded that no sample in the survey posed a concern to human health.
 
 ## Key numbers
@@ -99,15 +101,15 @@ The "food as sold" basis means powder protein and powder formula values cannot b
 - Speciation: arsenic and mercury are total-only in this report (no iAs/MeHg breakout). Chromium and tin were not measured.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [ee7adcf](https://github.com/paleofoundation/heavymetalindex/commit/ee7adcf) | 2026-06-02 | ingest: cfia2020-toxic-metals-selected-foods-2018-19 fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Rashid and Yaacob 2015 — Metal contamination in rock melon and coco peat from Malaysian farms
 
+## Overview
+
 Rock melon fruits (Cucumis melo, cultivar 'Glamour', n=70) from five Malaysian farm locations — selected because preliminary testing had already shown elevated metals — were analyzed for Al, B, Co, Cr, Cu, Fe, Mn, Ni, Pb, and Zn by ICP-OES. Six of the ten elements (Al, Cr, Cu, Fe, Pb, Zn) exceeded Malaysian Food Act (1983) / Malaysian Food Regulation (1985) maximum allowable limits (MALs) in the fruit; B, Mn, and Ni did not exceed; Co was not detected. The coco peat growth medium used in the fertigation system also showed elevated metals (Al, Cu, Fe, Mn, Ni, Pb above MAL in coco peat), which the authors propose as a contamination pathway pending confirmatory work.
 
 ## Key numbers
@@ -36,16 +38,16 @@ Concentrations in Cucumis melo (means ± SD across 5 farms, ppm = mg/kg in the a
 
 | Element | Mean ± SD (ppm) | Malaysian MAL (ppm) | Exceeds MAL? |
 |---------|-----------------|---------------------|--------------|
-| Al      | 60.14 ± 0.393   | 50   | Yes (~1.2×) |
-| B       | 15.00           | 18   | No |
-| Co      | not detected    | 15   | — |
-| Cr      | 6.42 ± 0.170    | 5    | Yes (~1.3×) |
-| Cu      | 17.4 ± 0.079    | 4    | Yes (~4×) |
-| Fe      | 102.62 ± 0.114  | 50   | Yes (~2×) |
-| Mn      | 4.43            | 20   | No |
-| Ni      | 3.25            | 8    | No |
-| Pb      | 1.82 ± 0.235    | 0.5  | Yes (~3.6×) |
-| Zn      | 11.97 ± 0.821   | 1.2  | Yes (~10×) |
+| Al | 60.14 ± 0.393 | 50 | Yes (~1.2×) |
+| B | 15.00 | 18 | No |
+| Co | not detected | 15 | — |
+| Cr | 6.42 ± 0.170 | 5 | Yes (~1.3×) |
+| Cu | 17.4 ± 0.079 | 4 | Yes (~4×) |
+| Fe | 102.62 ± 0.114 | 50 | Yes (~2×) |
+| Mn | 4.43 | 20 | No |
+| Ni | 3.25 | 8 | No |
+| Pb | 1.82 ± 0.235 | 0.5 | Yes (~3.6×) |
+| Zn | 11.97 ± 0.821 | 1.2 | Yes (~10×) |
 
 Per-farm Pb means (Table 2): Mantin-1 1.81, Mantin-2 1.89, Mantin-3 1.78, Klang-1 1.74, Klang-2 1.82 ppm. Mean Pb range across farms 1.74–1.89 ppm. Mean Pb across all 70 fruits 1.82 ppm; SPI/MPI/PI risk indices were not reported.
 
@@ -88,20 +90,20 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 
 ## Verification notes
 
-- 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular `wiki/ingredients/melon.md`); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` frontmatter from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list per CLAUDE.md Part 14); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
+- 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular `wiki/ingredients/melon.md`); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` frontmatter from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
 - Part 12 (brand firewall) re-check: paper identifies sampling locations by geography (Mantin, Negeri Sembilan; Jalan Kebun, Klang) and by cultivar name ('Glamour'), not by commercial brand owner. The Star newspaper reference is a citation to a news article; no brand-by-brand contamination tables are reproduced. No firewall issue.
-- Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against CLAUDE.md Part 14: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
+- Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

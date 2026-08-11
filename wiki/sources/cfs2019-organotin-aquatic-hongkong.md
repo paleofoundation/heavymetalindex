@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Centre for Food Safety 2019 — Organotin compounds in aquatic products, Hong Kong
 
+## Overview
+
 This 2019 government risk assessment report from Hong Kong's Centre for Food Safety (CFS) measured four organotin compounds (OTC) — tributyltin (TBT), dibutyltin (DBT), di-n-octyltin (DOT), and triphenyltin (TPT) — in 341 samples of fish, crustaceans, and molluscs collected from local markets in 2017–2018, finding detection in 60% of samples with TPT as the dominant compound. Dietary exposures for both average (0.020-0.021 mcg/kg bw/day as Sn) and high (0.0574-0.0588 mcg/kg bw/day as Sn) consumers were below the EFSA group TDI of 0.1 mcg/kg bw/day (expressed as Sn), representing 20-21% and 57-59% of the TDI respectively, and the CFS concluded no adverse health outcome was likely.
 
 **Important note on metals classification:** The analytes in this paper are organotin compounds (TBT, DBT, DOT, TPT), not inorganic tin. Organotin species are distinct from total tin (Sn) in toxicological profile, environmental behavior, and regulatory framework. These compounds enter aquatic food chains primarily through antifouling paints on ships and from agricultural pesticide use; they are endocrine disruptors at very low concentrations (1 ng/L in water for TBT and TPT imposex effects) and are outside the HMTc 10-analyte scope. They are included here under `metals: [Sn]` for element-level routing because they are tin-organic compounds, but synthesis should route the toxicological discussion to [[metals/organotins]] and must not conflate organotins with inorganic Sn.
@@ -100,15 +102,15 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 - 2026-05-30 manual-fetch merge-enhance re-verified all Key numbers against Tables 1–4 and the per-species appendices (I–IV). Corrected a species-attribution error: the DBT maximum of 8.8 mcg/kg (4.5 as Sn) occurs in coral clam (Appendix II, mollusc group), not Chinese noodle fish — the prior merge had mis-copied the TBT maximum's Chinese-noodle-fish attribution onto DBT. Chinese noodle fish DBT reaches only 4.3 mcg/kg (2.2 as Sn). TBT maximum (60 mcg/kg / 24 as Sn) in Chinese noodle fish, all TPT per-species means/ranges (mangrove snapper 450 / 41–1400; giant grouper 220 / 11–1400; sea bass 140; golden thread 130; tuna 130), and the no-detectable-TBT species list (salmon, grass carp, eel, grey mullet, cod, sole, turbot) all re-confirmed correct.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [669db40ac](https://github.com/paleofoundation/heavymetalindex/commit/669db40ac) | 2026-05-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

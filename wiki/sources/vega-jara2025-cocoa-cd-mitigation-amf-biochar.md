@@ -5,14 +5,15 @@ title: "Mitigation of Cadmium Accumulation in Cocoa Beans Using Arbuscular Mycor
 authors: [Vega-Jara L, Palacin Agüero J, Farfán Tucto S, Vangeli S, Márquez-Dávila K]
 year: 2025
 publication: "Folia Amazónica"
-doi: "10.24841/fa.v34i2.800"
+doi: null
+no_doi_assigned: true
 source_type: peer-reviewed
 evidence_tier: B
 license: "cc-by"
 raw_path: raw/studies/vega-jara2025-cocoa-cd-mitigation-amf-biochar.pdf
 sha256: 62a6629133c514a6580aad9a8d6bc8e6cbf812d9285af062b5f64956b3b8f3b4
 access_date: 2026-05-12
-access_url: "https://doi.org/10.24841/fa.v34i2.800"
+access_url: "https://revistas.iiap.gob.pe/index.php/foliaamazonica/article/view/800"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]"]
 products: []
@@ -26,6 +27,8 @@ updated: 2026-05-12
 ---
 
 # Vega-Jara et al. 2025 — Mitigation of cadmium accumulation in cocoa beans using AMF, biochar, and Callisia repens
+
+## Overview
 
 This field experiment tested three biological and organic mitigation strategies for reducing Cd uptake in cocoa beans in Huánuco, Peru — a region where soil Cd is elevated (0.78 mg/kg total) and baseline bean Cd (1.07 mg/kg) substantially exceeds the EU maximum permissible level (0.8 mg/kg for chocolate with ≥50% cocoa solids). Arbuscular mycorrhizal fungi (AMF) applied alone reduced bean Cd concentration by 40.43%; Callisia repens (a herbaceous competitor plant) applied alone reduced bean Cd by 30.85%; their combination achieved a 24.47% reduction; biochar at 1% and 2% w/w did not produce statistically significant effects. Critically, Cd concentrations still exceeded EU limits under all treatment conditions after six months, indicating that these strategies alone cannot bring a highly contaminated site into compliance within a single growing season.
 
@@ -67,15 +70,15 @@ Single site, single growing season (6 months), single genotype (CCN51). No basel
 - [[mitigation/cocoa-cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

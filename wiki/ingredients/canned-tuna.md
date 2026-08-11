@@ -38,7 +38,7 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 500]
     p95_ppb: 1500
-    confidence: high
+    confidence: medium
     n_studies: 5
     last_reviewed: 2026-05-16
   Ni:
@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 23
+sources: 25
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -91,31 +91,9 @@ created_routed_sources: 4
 
 # Canned Tuna
 
-<!-- hmi-completeness-scorecard -->
+## Overview
 
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=25 | — |
-| D2 Regional coverage | OK | 56 jurisdictions, top EU 29% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg CONFIDENT, Ni THIN, Al THIN, Cr THIN, Sn THIN | iAs: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: THIN; Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming canned-tuna: ali2025-carbon-dots-aluminum-cobalt-canned-food |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
-Canned tuna is the dominant retail-market form of tuna globally and the largest single dietary methylmercury source for many Western populations. The defining heavy-metals concern is mercury — specifically methylmercury (MeHg), the bioaccumulated organomercury form that concentrates up the marine food chain from microalgae to small forage fish to predatory tuna. Tuna species sit at differing trophic levels: skipjack tuna (Katsuwonus pelamis, the small "light tuna" species, ~1-2 year lifespan, lower trophic position) carries roughly one-third the methylmercury of albacore tuna (Thunnus alalunga, the "white tuna" species, ~5-15 year lifespan, higher trophic position), and yellowfin and bigeye tuna sit at or above the albacore level. Beyond mercury, canned tuna carries elevated total arsenic (mostly as low-toxicity organoarsenic forms; the iAs fraction is small but should be characterised separately per CLAUDE.md Part 14), and the canning step contributes Pb, Sn, and Al from the can interior. The current corpus loads 6 sources spanning Ecuador (Aguilar-Miranda 2024 n=60, [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]), global ICP method development (Ali 2025 aluminum-cobalt sensor), Brazil (DeLima 2021 multi-metal n=20, [[sources/delima2021-metals-canned-tuna-sardines-brazil]]), Mexico (Rodriguez-Mendivil 2019 Tijuana n=68, [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana]]), the US (Shim 2004 n=272, [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]), and the 36-jurisdiction Ulusoy 2023 multinational comparison (n=222, [[sources/ulusoy2023-canned-tuna-toxic-metals]]).
+Canned tuna is the dominant retail-market form of tuna globally and the largest single dietary methylmercury source for many Western populations. The defining heavy-metals concern is mercury — specifically methylmercury (MeHg), the bioaccumulated organomercury form that concentrates up the marine food chain from microalgae to small forage fish to predatory tuna. Tuna species sit at differing trophic levels: skipjack tuna (Katsuwonus pelamis, the small "light tuna" species, ~1-2 year lifespan, lower trophic position) carries roughly one-third the methylmercury of albacore tuna (Thunnus alalunga, the "white tuna" species, ~5-15 year lifespan, higher trophic position), and yellowfin and bigeye tuna sit at or above the albacore level. Beyond mercury, canned tuna carries elevated total arsenic (mostly as low-toxicity organoarsenic forms; the iAs fraction is small but should be characterised separately), and the canning step contributes Pb, Sn, and Al from the can interior. The current corpus loads 6 sources spanning Ecuador (Aguilar-Miranda 2024 n=60, [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]), global ICP method development (Ali 2025 aluminum-cobalt sensor), Brazil (DeLima 2021 multi-metal n=20, [[sources/delima2021-metals-canned-tuna-sardines-brazil]]), Mexico (Rodriguez-Mendivil 2019 Tijuana n=68, [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana]]), the US (Shim 2004 n=272, [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]), and the 36-jurisdiction Ulusoy 2023 multinational comparison (n=222, [[sources/ulusoy2023-canned-tuna-toxic-metals]]).
 
 ## Why this commodity accumulates heavy metals
 
@@ -125,18 +103,18 @@ Mercury in canned tuna originates from the marine biogeochemical cycle: atmosphe
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 5–100 | 300 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| Cd | n=4 | 5–50 | 150 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| iAs | n=1 | 1–20 | — | low | — |
-| tAs | n=3 | 500–5000 | 10000 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| tHg | n=5 | 100–500 | 1500 | high | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ec-reg-2022-617-mercury-fishery\|2]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|3]] |
-| Ni | n=2 | 50–500 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| Al | n=2 | 100–2000 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| Cr | n=3 | 10–200 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| Sn | n=1 | 0–500 | — | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 5–100 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Cd | n=4 | 5–50 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| iAs | n=1 | 1–20 | low | — |
+| tAs | n=3 | 500–5000 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| tHg | n=5 | 100–500 | medium | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ec-reg-2022-617-mercury-fishery\|2]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|3]] |
+| Ni | n=2 | 50–500 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Al | n=2 | 100–2000 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Cr | n=3 | 10–200 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Sn | n=1 | 0–500 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -180,10 +158,23 @@ Pouches eliminate the can-leaching pathway. Modern fully-welded steel cans with 
 
 The Codex Alimentarius General Standard CXS 193-1995 sets a methylmercury maximum of 1.2 mg/kg fresh weight for predatory fish including tuna, with the implicit application to canned tuna meat as consumed. The EU Regulation 2023/915 sets a tuna-specific mercury maximum of 1.0 mg/kg fresh weight for tuna and 0.30 mg/kg fresh weight for other fish; this is the EU's tightest fish-mercury cap that explicitly addresses tuna. The FDA Action Level for methylmercury in seafood is 1.0 mg/kg, applied to commercial product. The FDA "Net Effects" Tool and consumer-advice frameworks recommend limiting canned albacore to 1 serving (6 oz) per week for pregnant and nursing women, and canned light tuna to 2-3 servings per week; the underlying mercury data align with the Shim 2004 distribution and the broader literature. The Ulusoy 2023 cross-jurisdiction work found commercial canned tuna generally compliant with the 1.0 mg/kg fresh-weight regulatory limit but with substantial within-product variance ([[sources/ulusoy2023-canned-tuna-toxic-metals]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Total mercury exposure through canned tuna in water sold in Quito, Ecuador]]<span class="hmi-ref-meta">Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/delima2021-metals-canned-tuna-sardines-brazil|Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil]]<span class="hmi-ref-meta">de Lima NV, de Padua Melo ES, Arakaki DG, Tschinkel PFS, de Souza ID, Ulbrecht MOO, et al. · Data in Brief · 2021 · [doi.org/10.1016/j.dib.2021.106865](https://doi.org/10.1016/j.dib.2021.106865)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico]]<span class="hmi-ref-meta">Rodriguez-Mendivil DD, Garcia-Flores E, Temores-Pena J, and Wakida FT · Health Scope · 2019 · [doi.org/10.5812/jhealthscope.78956](https://doi.org/10.5812/jhealthscope.78956)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel]]<span class="hmi-ref-meta">Shim SM, Dorworth LE, Lasrado JA, and Santerre CR · Journal of Food Science · 2004 · [doi.org/10.1111/j.1365-2621.2004.tb09915.x](https://doi.org/10.1111/j.1365-2621.2004.tb09915.x)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/ulusoy2023-canned-tuna-toxic-metals|Determination of toxic metals in canned tuna sold in developed and developing countries: Health risk assessment associated with human consumption]]<span class="hmi-ref-meta">Ulusoy S · Marine Pollution Bulletin · 2023 · [doi.org/10.1016/j.marpolbul.2022.114518](https://doi.org/10.1016/j.marpolbul.2022.114518)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/ali2025-carbon-dots-aluminum-cobalt-canned-food|Carbon Dots Fluorometric Sensor for Simultaneous Detection of Aluminum and Cobalt in Canned Foods]]<span class="hmi-ref-meta">Ali A, Khan S, and Iqbal A · 2025 · [doi.org/10.1039/d5ra00448a](https://doi.org/10.1039/d5ra00448a)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -207,20 +198,22 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 18 | [[sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\|EFSA 2015]]. *Statement on the benefits of fish/seafood consumption compared to the risks of methylmercury in fish/seafood*, EFSA Journal 2015;13(1):3982, 36 pp. | 2015 | Government report | EU MeHg, tHg occurrence in Scenario-based risk-benefit assessment across 26 chronic dietary surveys from 17 EU Member States (Belgium, Bulgaria, Cyprus, Czech Republic,... |
 | 19 | [[sources/olmedo2013-andalusia-fish-shellfish-metals\|Olmedo et al. 2013]]. *Determination of toxic elements (mercury, cadmium, lead, tin and arsenic) in fish and shellfish samples. Risk assessment for the consumers*, Environment International | 2013 | Peer-reviewed | ES/MA/MR tHg, MeHg, Cd, Pb, Sn, tAs occurrence in Fresh, canned, and frozen fish and shellfish products representing 43 frequently consumed species/products in Andalusia, Spain; samples collected... (n=485) |
 | 20 | [[sources/trandafir2012-tin-canned-foods-icp-ms\|Trandafir et al. 2012]]. *Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry*, Polish Journal of Environmental Studies | 2012 | Peer-reviewed | RO/EU Sn occurrence in 14 canned food products (4 pineapple brands, mandarin oranges, fruit cocktail, small whole carrots, mushrooms, 2 peeled-tomato-in-juice brands,... (n=14) |
-| 21 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
-| 22 | [[sources/voegborlo1999-libya-canned-tuna-metals\|Voegborlo et al. 1999]]. *Mercury, cadmium and lead content of canned tuna fish*, Food Chemistry | 1999 | Peer-reviewed | LY tHg, Cd, Pb occurrence in Fifty 5 kg cans of tuna fish from the Tuna Canning Factory in Misurata, Libya; tuna were caught... (n=50) |
+| 21 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
+| 22 | [[sources/cot2004-mercury-fish-shellfish\|Committee on Toxicity of 2004]]. *Updated COT statement on a survey of mercury in fish and shellfish*, Advice on fish consumption, Annex 3 | 2004 | Government report | GB tHg, MeHg occurrence in COT/SACN review of the 2002 FSA fish and shellfish mercury survey, 1998 MAFF marine fish/shellfish survey context, and... |
+| 23 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
+| 24 | [[sources/voegborlo1999-libya-canned-tuna-metals\|Voegborlo et al. 1999]]. *Mercury, cadmium and lead content of canned tuna fish*, Food Chemistry | 1999 | Peer-reviewed | LY tHg, Cd, Pb occurrence in Fifty 5 kg cans of tuna fish from the Tuna Canning Factory in Misurata, Libya; tuna were caught... (n=50) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

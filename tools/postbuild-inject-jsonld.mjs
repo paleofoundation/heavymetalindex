@@ -16,7 +16,7 @@
 //                          `about`)
 //   wiki/synthesis/*     → ScholarlyArticle (analytic synthesis claim)
 //
-// All injected JSON-LD declares the Paleo Foundation as `publisher`, the
+// All injected JSON-LD declares the Institute of Contaminant Standards as `publisher`, the
 // Heavy Metal Index as `isPartOf`, and a `creator` Organization. The
 // `identifier` field is populated from `wiki_doi:` when present; absent that,
 // the canonical URL is the identifier. This is the field path downstream
@@ -30,14 +30,38 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
 
 const repoRoot = process.cwd()
+const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
 const publicDir = path.join(repoRoot, "public")
 const wikiDir = path.join(repoRoot, "wiki")
 
+// Canonical external-entity links for metal pages (sameAs). Wikidata QIDs and
+// PubChem CIDs for the substance, so the scholarly/knowledge graph can resolve
+// "the metal this page is about" to the canonical entity. Keyed by the metal
+// page slug. Element-symbol pages only — this is the substance entity, NOT any
+// HMTc analyte/species choice (which is policy and stays off the index).
+const METAL_ENTITY_LINKS = {
+  lead: ["https://www.wikidata.org/wiki/Q708", "https://pubchem.ncbi.nlm.nih.gov/element/82"],
+  cadmium: ["https://www.wikidata.org/wiki/Q1096", "https://pubchem.ncbi.nlm.nih.gov/element/48"],
+  arsenic: ["https://www.wikidata.org/wiki/Q871", "https://pubchem.ncbi.nlm.nih.gov/element/33"],
+  mercury: ["https://www.wikidata.org/wiki/Q925", "https://pubchem.ncbi.nlm.nih.gov/element/80"],
+  nickel: ["https://www.wikidata.org/wiki/Q1085", "https://pubchem.ncbi.nlm.nih.gov/element/28"],
+  aluminum: ["https://www.wikidata.org/wiki/Q663", "https://pubchem.ncbi.nlm.nih.gov/element/13"],
+  aluminium: ["https://www.wikidata.org/wiki/Q663", "https://pubchem.ncbi.nlm.nih.gov/element/13"],
+  chromium: ["https://www.wikidata.org/wiki/Q725", "https://pubchem.ncbi.nlm.nih.gov/element/24"],
+  tin: ["https://www.wikidata.org/wiki/Q1096901", "https://pubchem.ncbi.nlm.nih.gov/element/50"],
+  antimony: ["https://www.wikidata.org/wiki/Q1099", "https://pubchem.ncbi.nlm.nih.gov/element/51"],
+  uranium: ["https://www.wikidata.org/wiki/Q1098", "https://pubchem.ncbi.nlm.nih.gov/element/92"],
+}
+
 const PUBLISHER = {
+  // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
+  // url stays on the live Foundation site until contaminantstandards.com
+  // serves; a correctly-branded dead link is worse than a live stale one.
   "@type": "Organization",
-  name: "Paleo Foundation",
+  name: "Institute of Contaminant Standards",
   url: "https://paleofoundation.com",
 }
 // Named, ORCID-identified author of the Index's own content — the human
@@ -48,7 +72,7 @@ const AUTHOR = {
   "@id": "https://orcid.org/0000-0002-2348-7259",
   identifier: "https://orcid.org/0000-0002-2348-7259",
   sameAs: ["https://orcid.org/0000-0002-2348-7259"],
-  affiliation: { "@type": "Organization", name: "Paleo Foundation" },
+  affiliation: { "@type": "Organization", name: "Institute of Contaminant Standards" },
 }
 const REFERENCE_WORK = {
   "@type": "WebSite",
@@ -62,6 +86,7 @@ const TYPE_MAP = {
   products: { type: "ScholarlyArticle", section: "Product-category profile" },
   metals: { type: "ScholarlyArticle", section: "Metal profile" },
   regulations: { type: "ScholarlyArticle", section: "Regulation reference" },
+  regulators: { type: "GovernmentOrganization", section: "Regulatory body profile" },
   synthesis: { type: "ScholarlyArticle", section: "Synthesis" },
 }
 
@@ -73,6 +98,82 @@ if (!fs.existsSync(publicDir)) {
 let injected = 0
 let alreadyHasBlock = 0
 let skippedNoHtml = 0
+
+// The homepage: the category loop skips index.md, so the site's most-linked
+// page had no structured data. Organization declares NO parentOrganization /
+// subOrganization / memberOf — the Index sits outside the certification org
+// tree on purpose (docs/architecture/cross-site-seo-wiring.md §1); a runtime
+// assertion enforces that so a later edit can't quietly wire it in.
+function injectHomepage() {
+  const htmlPath = path.join(publicDir, "index.html")
+  if (!fs.existsSync(htmlPath)) return "no index.html"
+  let html = fs.readFileSync(htmlPath, "utf8")
+  if (html.includes("HMI-JSONLD-START")) return "already present"
+
+  const fm = matter(fs.readFileSync(path.join(wikiDir, "index.md"), "utf8")).data
+  const SITE = "https://heavymetalindex.com"
+  const orgId = `${SITE}/#organization`
+  const siteId = `${SITE}/#website`
+
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": orgId,
+    name: "Heavy Metal Index",
+    url: `${SITE}/`,
+    description:
+      "A public reference on heavy metals in food, ingredients, consumer-product categories, and regulation, compiled from peer-reviewed and regulatory literature.",
+    publisher: PUBLISHER,
+    founder: AUTHOR,
+  }
+  if (/parentOrganization|subOrganization|memberOf/.test(JSON.stringify(organization))) {
+    console.error("postbuild-inject-jsonld: homepage Organization declares a parent/sub/member edge; the Index is deliberately outside the cert org tree (cross-site-seo-wiring.md §1).")
+    process.exit(1)
+  }
+
+  const website = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": siteId,
+    name: "Heavy Metal Index",
+    url: `${SITE}/`,
+    inLanguage: "en",
+    publisher: { "@id": orgId },
+  }
+
+  const collection = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE}/#webpage`,
+    url: `${SITE}/`,
+    name: fm.title ?? "Heavy Metal Index",
+    description: fm.description ?? undefined,
+    isPartOf: { "@id": siteId },
+    publisher: PUBLISHER,
+    license: `${SITE}/licensing`,
+    dateModified: fm.updated ? String(fm.updated) : undefined,
+    hasPart: [
+      { "@type": "CollectionPage", name: "Metals", url: `${SITE}/metals` },
+      { "@type": "CollectionPage", name: "Ingredients", url: `${SITE}/ingredients` },
+      { "@type": "CollectionPage", name: "Products", url: `${SITE}/products` },
+      { "@type": "CollectionPage", name: "Regulations", url: `${SITE}/regulations` },
+      { "@type": "CollectionPage", name: "Sources", url: `${SITE}/sources` },
+    ],
+  }
+
+  const objects = [organization, website, collection]
+  const faq = buildFaqPage("index", "", html, `${SITE}/`)
+  if (faq) objects.push(faq)
+
+  const block =
+    `<!-- HMI-JSONLD-START -->\n` +
+    objects.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") +
+    `\n<!-- HMI-JSONLD-END -->`
+  const next = html.includes("</head>") ? html.replace("</head>", `${block}\n</head>`) : `${html}\n${block}`
+  fs.writeFileSync(htmlPath, next, "utf8")
+  return `${objects.length} object(s)${faq ? " incl. FAQPage" : ""}`
+}
+const homepageResult = injectHomepage()
 
 for (const [category, meta] of Object.entries(TYPE_MAP)) {
   const wikiCatDir = path.join(wikiDir, category)
@@ -94,8 +195,21 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
     let html = fs.readFileSync(htmlPath, "utf8")
     if (html.includes("HMI-JSONLD-START")) { alreadyHasBlock += 1; continue }
 
-    const ld = buildJsonLd(category, slug, fm, meta)
-    const block = `<!-- HMI-JSONLD-START -->\n<script type="application/ld+json">${JSON.stringify(ld)}</script>\n<!-- HMI-JSONLD-END -->`
+    const ld = buildJsonLd(category, slug, fm, meta, html)
+
+    // The page-level JSON-LD plus, when the rendered page carries a
+    // Key-questions accordion, a sibling FAQPage object. Each is emitted as its
+    // own <script> so a single malformed object can never void the others.
+    const ldObjects = [ld]
+    const faq = buildFaqPage(category, slug, html)
+    if (faq) ldObjects.push(faq)
+
+    const block =
+      `<!-- HMI-JSONLD-START -->\n` +
+      ldObjects
+        .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
+        .join("\n") +
+      `\n<!-- HMI-JSONLD-END -->`
 
     // Inject just before </head>; if no <head>, before </body>; else append.
     let next
@@ -115,6 +229,7 @@ console.log(`postbuild-inject-jsonld:`)
 console.log(`  injected:        ${injected}`)
 console.log(`  already-present: ${alreadyHasBlock}`)
 console.log(`  no-html-output:  ${skippedNoHtml}`)
+console.log(`  homepage:        ${homepageResult}`)
 
 function findHtmlOutput(category, slug) {
   // Quartz emits either public/<category>/<slug>.html or public/<category>/<slug>/index.html
@@ -129,7 +244,7 @@ function findHtmlOutput(category, slug) {
   return null
 }
 
-function buildJsonLd(category, slug, fm, meta) {
+function buildJsonLd(category, slug, fm, meta, html) {
   const url = `https://heavymetalindex.com/${category}/${slug}`
   const identifier = fm.wiki_doi || url
 
@@ -200,7 +315,143 @@ function buildJsonLd(category, slug, fm, meta) {
     }
   }
 
+  // Regulator (body) pages: the page is the canonical node for a government
+  // body. @type is GovernmentOrganization (from TYPE_MAP); link out to the
+  // body's official site + Wikidata via sameAs, and declare its jurisdiction.
+  if (category === "regulators") {
+    delete ld.headline
+    if (fm.abbreviation) ld.alternateName = String(fm.abbreviation)
+    const sa = []
+    if (fm.homepage) sa.push(String(fm.homepage))
+    if (Array.isArray(fm.sameAs)) sa.push(...fm.sameAs.map(String))
+    if (sa.length) ld.sameAs = [...new Set(sa)]
+    if (fm.jurisdiction) ld.areaServed = Array.isArray(fm.jurisdiction) ? fm.jurisdiction.join(", ") : String(fm.jurisdiction)
+  }
+
+  // Metal pages: sameAs entity links (Wikidata / PubChem) so the substance
+  // resolves to its canonical knowledge-graph node, plus `citation` edges to
+  // every source page this metal page cites. The latter turns the page into a
+  // first-class node in the scholarly graph: each cited source is a
+  // ScholarlyArticle whose @id is its index URL (the canonical page about that
+  // paper). Both are derived, not hand-maintained.
+  if (category === "metals") {
+    const entities = METAL_ENTITY_LINKS[slug]
+    if (entities && entities.length) ld.sameAs = entities
+
+    const citations = citationEdgesFromHtml(html)
+    if (citations.length) ld.citation = citations
+  }
+
   return ld
+}
+
+// Pull the set of source pages a rendered page links to, and express each as a
+// ScholarlyArticle citation edge keyed by its canonical index URL. We read the
+// rendered HTML (not the markdown) so this counts what actually shipped, and we
+// resolve hrefs whether Quartz emitted /sources/<slug> or /sources/<slug>/.
+function citationEdgesFromHtml(html) {
+  if (!html) return []
+  const slugs = new Set()
+  // Match anchors into the sources space: href="…/sources/<slug>" with an
+  // optional trailing slash and optional #fragment. Tolerant of relative
+  // (../sources/x) and absolute (/sources/x) hrefs.
+  const re = /href="[^"]*?\/sources\/([a-z0-9][a-z0-9._-]*?)\/?(?:#[^"]*)?"/gi
+  let m
+  while ((m = re.exec(html)) !== null) {
+    const s = m[1]
+    if (!s || s === "index") continue
+    slugs.add(s)
+  }
+  return [...slugs].sort().map((s) => ({
+    "@type": "ScholarlyArticle",
+    "@id": `https://heavymetalindex.com/sources/${s}`,
+    url: `https://heavymetalindex.com/sources/${s}`,
+  }))
+}
+
+// Build an FAQPage object from the rendered Key-questions accordion. The
+// acceptedAnswer is the VISIBLE verbatim text (the <p> inside the answer div),
+// so the structured answer is exactly what a human reads — never a separate
+// summary that could drift from, or over-claim beyond, the page. Each candidate
+// answer is re-checked against the SAME firewall guard the generator used, so a
+// derived HMTc value / P-value can never reach the structured layer even if a
+// stale block predates the generator's guard. Firewall-tripping items are
+// dropped (Part 2: skip honestly), not softened.
+function buildFaqPage(category, slug, html, pageUrlOverride) {
+  if (!FAQ_CATEGORIES.has(category)) return null
+  if (!html || !html.includes('data-hmi-faq')) return null
+
+  const pageUrl = pageUrlOverride ?? `https://heavymetalindex.com/${category}/${slug}`
+  const items = extractAccordionItems(html)
+  const mainEntity = []
+  for (const it of items) {
+    if (!it.question || !it.answer) continue
+    // Defense in depth: re-apply the firewall guard to the question AND answer.
+    if (answerTripsFirewall(it.answer) || answerTripsFirewall(it.question)) continue
+    mainEntity.push({
+      "@type": "Question",
+      name: it.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: it.answer,
+        url: it.anchor ? `${pageUrl}#${it.anchor}` : pageUrl,
+      },
+    })
+  }
+  if (mainEntity.length < 2) return null // not enough to be a useful FAQPage
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${pageUrl}#faq`,
+    url: pageUrl,
+    isPartOf: { "@type": "WebSite", name: "Heavy Metal Index", url: "https://heavymetalindex.com" },
+    inLanguage: "en",
+    mainEntity,
+  }
+}
+
+// Parse <details class="hmi-faq-item" …> blocks out of rendered HTML.
+// Reads data-question / data-anchor attributes (authored by the generator) and
+// the visible answer text from the <p> inside .hmi-faq-answer. Decodes HTML
+// entities and strips tags so the JSON text matches what the reader sees.
+function extractAccordionItems(html) {
+  const items = []
+  const blockRe =
+    /<details\b[^>]*\bdata-hmi-faq=[^>]*>([\s\S]*?)<\/details>/gi
+  let bm
+  while ((bm = blockRe.exec(html)) !== null) {
+    const block = bm[0]
+    const inner = bm[1]
+    const question =
+      attrOf(block, "data-question") ?? textOf(inner.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i)?.[1])
+    const anchor = attrOf(block, "data-anchor")
+    // Visible answer = first <p> inside the answer div (excludes the read-more).
+    const answerScope = inner.match(/<div\b[^>]*data-hmi-faq-answer[^>]*>([\s\S]*?)<\/div>/i)?.[1] ?? inner
+    const firstP = answerScope.match(/<p\b(?![^>]*hmi-faq-readmore)[^>]*>([\s\S]*?)<\/p>/i)?.[1]
+    const answer = textOf(firstP)
+    items.push({ question, anchor, answer })
+  }
+  return items
+}
+
+function attrOf(html, attr) {
+  const m = html.match(new RegExp(`${attr}="([^"]*)"`, "i"))
+  return m ? decodeEntities(m[1]) : undefined
+}
+function textOf(htmlFragment) {
+  if (!htmlFragment) return undefined
+  const stripped = htmlFragment.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim()
+  return stripped ? decodeEntities(stripped) : undefined
+}
+function decodeEntities(s) {
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#x27;/gi, "'")
 }
 
 function toIso(value) {

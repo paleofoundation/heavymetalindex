@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Charles et al. 2017 — Metals and PAHs in instant noodles from Port Harcourt
 
+## Overview
+
 Charles and colleagues measured Pb, As, Ni, Hg, Cu, Cd, Al, and Cr in six instant-noodle brands commonly consumed in Port Harcourt, Nigeria, and also measured PAHs. The paper reports coded brand identifiers; this page reports aggregate ranges and coded-brand counts rather than pairing identifiers with values. Pb, Ni, Cu, Al, and Cr were detected, while As, Hg, and Cd were not detected in the noodle samples. Arsenic, mercury, and chromium are reported only as total analytes, with no iAs, MeHg, or Cr-VI speciation.
 
 ## Key numbers
@@ -85,11 +87,15 @@ This source contributes Nigeria-market instant-noodle occurrence evidence for Pb
 - Autonomous audit 2026-06-09 flagged Ni row inconsistency (only maximum detected value reported, unlike Pb and Cr which show full detected range); applied — Ni row now reports both ND-to-max and detected min-to-max for parallelism. Audit also flagged `dry-weight` in matrices and unverified "70% market share" claim; verified both as false positives — `dry-weight` is established matrices vocabulary across 82+ source pages (precedent: elziani2024-instant-noodles-libya-metals), and the 70% claim is supported verbatim by the source (Sampling section, citing Marketing Edge 2017).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3c2ea92](https://github.com/paleofoundation/heavymetalindex/commit/3c2ea92) | 2026-06-08 | ingest: charles2017-instant-noodles-nigeria-risk fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

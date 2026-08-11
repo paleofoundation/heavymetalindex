@@ -24,6 +24,8 @@ updated: 2026-06-07
 
 # Al-Faraji 2023 - Minerals and lead in powdered infant formula from Baghdad markets
 
+## Overview
+
 Al-Faraji measured calcium, iron, zinc, copper, and lead in 10 powdered infant formula samples sold in Baghdad Governorate, Iraq. The source is routeable for powdered infant formula occurrence evidence because it reports sample-level lead and copper concentrations from atomic absorption analysis. The paper does not resolve soy versus non-soy formula status, so it should route at the broad powdered-infant-formula level rather than to a soy or dairy subrow.
 
 ## Key numbers
@@ -77,11 +79,15 @@ The abstract says lead was measured in powdered infant formula and the results s
 The paper carries an internal date discrepancy on the sample-collection window: the abstract reports "for the period from February to August 2021" while the Materials and Methods section reports "for the period from July to August 2021". This source page follows the Materials and Methods statement (July-August 2021) on the basis that the M&M section is the authoritative sample-collection record.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [826e27a](https://github.com/paleofoundation/heavymetalindex/commit/826e27a) | 2026-06-07 | ingest auto-fetched 2026-06-07: alfaraji2023-infant-formula-baghdad-minerals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

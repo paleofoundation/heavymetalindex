@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Makarova et al. 2021 - Trifolium phytoextraction amendments
 
+## Overview
+
 Makarova and colleagues tested whether K2HEDP, plant growth regulators, and iron chelate could improve or redirect Cd, Ni, and Cu phytoextraction by white clover seedlings compared with Na2EDTA. This is primary laboratory phytoremediation evidence in plant shoots and roots, not occurrence evidence for a food, ingredient, supplement, or consumer product.
 
 ## Key numbers
@@ -92,15 +94,15 @@ This page was built from the full PDF, including the abstract, problem formulati
 2026-06-02 merge-enhance pass: added K2HEDP root fold-increases for Ni (2.63x) and Cu (1.58x) from the discussion section, and added instrument-vendor and statistical-method detail (Thermo Scientific iCAP-6500 ICP-AES, Thermo Electron X-7 ICP-MS, Fisher's test in Excel) under the scientific-method exception to the brand firewall. No numerical values in Table 4 were altered; verification of Tables 3-4 and Figures 3-5 confirmed prior values were correct.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [e4e75bb](https://github.com/paleofoundation/heavymetalindex/commit/e4e75bb) | 2026-06-02 | ingest June 2: makarova2021-trifolium-phytoextraction-amendments |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

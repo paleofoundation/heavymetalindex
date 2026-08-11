@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)
 
+## Overview
+
 Under the Closer to Zero program, the US Food and Drug Administration has established a 10 ppb action level for lead in a consolidated category of processed foods intended for babies and young children less than two years of age ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The category covers fruits (single-ingredient or combination), vegetables excluding single-ingredient root vegetables (single-ingredient or combination), mixtures including grain-based and meat-based mixtures, yogurts, custards and puddings, and single-ingredient meats. Root vegetables and dry infant cereals are addressed by separate action levels under the same program, because the occurrence data supported neither a tighter uniform level across all matrices nor equivalent achievability at 10 ppb for those two categories ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
 ## Scope
@@ -74,7 +76,7 @@ The action level was selected to ensure dietary exposure from the covered foods 
 
 ## History
 
-The Closer to Zero program was initiated in April 2021. FDA's IRLs for dietary lead were first established in 2018 (3 µg/day for children, 12.5 µg/day for women of childbearing age) and updated in 2022 (2.2 µg/day and 8.8 µg/day respectively) ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). This final guidance was issued in January 2025; an earlier draft was issued under the same docket, FDA-2022-D-0278 ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The Joint FAO/WHO Expert Committee on Food Additives withdrew its provisional tolerable weekly intake for lead in 2011, concluding that no PTWI could be considered health protective ([[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]]); since then, FDA and other authorities have operated against the IRL or analogous benchmarks rather than a single international lead reference value.
+The Closer to Zero program was initiated in April 2021. FDA's IRLs for dietary lead were first established in 2018 (3 µg/day for children, 12.5 µg/day for women of childbearing age) and updated in 2022 (2.2 µg/day and 8.8 µg/day respectively) ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). This final guidance was issued in January 2025; an earlier draft was issued under the same docket, FDA-2022-D-0278 ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The Joint FAO/WHO Expert Committee on Food Additives withdrew its provisional tolerable weekly intake for lead in 2011, concluding that no PTWI could be considered health protective ([[sources/jecfa-73rd-lead-2010|JECFA 73rd 2010]]); since then, FDA and other authorities have operated against the IRL or analogous benchmarks rather than a single international lead reference value.
 
 ## Comparison to EU, Codex, and state rules
 
@@ -89,16 +91,26 @@ For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]
 
 - [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] (evidence tier A, US government work)
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
+2. [[sources/cdc-blood-lead-reference-value|Blood Lead Reference Value (3.5 µg/dL)]]<span class="hmi-ref-meta">U.S. Centers for Disease Control and Prevention · 2021 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/jecfa-73rd-lead-2010|Lead (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 960 (2011); lead addendum in WHO Food Additives Series No. 64 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209601)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ee52c633b](https://github.com/paleofoundation/heavymetalindex/commit/ee52c633b) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

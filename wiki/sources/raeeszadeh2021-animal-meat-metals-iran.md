@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Raeeszadeh 2021 - metals in sheep, beef, turkey, and ostrich meat in western Iran
 
+## Overview
+
 Raeeszadeh, Gravandi, and Akbari measured selenium and eight heavy metals in `170` meat samples from Sanandaj distribution centers in western Iran. The preprint reports concentrations in `mg/kg` based on dry weight of the meat samples. Arsenic and chromium are reported as total arsenic and total chromium; the paper does not report inorganic arsenic or chromium(VI).
 
 ## Key numbers
@@ -73,3 +75,17 @@ App: The source can populate international meat contamination context for Pb, Cd
 - Speciation: arsenic is `tAs` and chromium is total `Cr`; no iAs or Cr(VI) values are reported.
 - Source inconsistencies are flagged in Key numbers for ostrich lead, beef arsenic range, and turkey chromium SD.
 - Closed-vocabulary note: no ostrich or sheep-meat ingredient slug exists, so routing uses broad `meat`, `meat-and-poultry`, `beef`, `turkey`, `lamb-mutton`, and `game-meats` slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

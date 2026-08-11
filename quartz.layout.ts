@@ -52,10 +52,57 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
 };
 
 // components shared across all pages
+//
+// `header` is the global TopNav. renderPage.tsx lifts this array into a
+// full-width <header class="hmi-topnav-shell"> OUTSIDE #quartz-root, so it spans
+// the viewport as a sticky bar rather than rendering inside the centered grid.
+//
+// CiteThisPage moved OUT of afterBody and INTO the right rail (see
+// defaultContentPageLayout.right) so the citation/provenance affordance lives in
+// the actions column. RelatedPages ("See also") stays in afterBody — it is the
+// rich in-body lateral-nav block, distinct from the compact left-rail
+// DedicatedPages group.
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [Component.Corrections(), Component.RelatedPages(), Component.CiteThisPage()],
+  header: [Component.TopNav()],
+  afterBody: [
+    // Self-gates to type === "brand-pre-screen-tool" (null everywhere else).
+    // Lives here, visible, instead of the hidden beforeBody `.page-header`.
+    Component.BrandPreScreenTool(),
+    Component.Corrections(),
+    // RelatedPages ("See also") removed: it rendered the SAME relatedByCategory
+    // graph the right-rail "Connections" already shows compactly (cap 3),
+    // including the inbound direction — a whole-graph duplicate at the page
+    // bottom that read as clutter and undercut the curated-reference posture.
+    // The rail keeps the compact version; the shared graph lives in relatedGraph.ts.
+    //
+    // The relationship apparatus (end matter, like a journal's citation network):
+    //   - Backlinks ("Referenced by"): a rendered list of <a> edges — the
+    //     crawlable, LLM-extractable relationship surface, overflow-capped, with
+    //     sources and retired stubs excluded. Self-gates (null when empty).
+    //   - Graph: the per-page LOCAL interactive graph (credibility + lateral
+    //     navigation). The whole-corpus global graph is a ~4,000-node force
+    //     hairball, so it is disabled; sources and retired stubs are dropped and
+    //     the neighbourhood is node-capped so metal hubs stay performant. The
+    //     canvas is invisible to crawlers, which is why Backlinks carries the
+    //     SEO/LLMO weight and the Graph is the visual/navigation layer.
+    // Both reflect the REAL concept graph because ConceptLinks folds structured
+    // frontmatter relationships into file.data.links (see conceptLinks.ts).
+    Component.Backlinks(),
+    Component.Graph({
+      enableGlobalGraph: false,
+      hideOnTypes: ["source"],
+      localGraph: {
+        depth: 1,
+        scale: 1.1,
+        focusOnHover: true,
+        enableRadial: false,
+        removeSourcePrefixes: ["sources/"],
+        removeRetired: true,
+        maxNodes: 100,
+      },
+    }),
+  ],
   footer: Component.Footer(),
 };
 
@@ -64,73 +111,65 @@ export const sharedPageComponents: SharedLayout = {
 // Dense graph and backlink widgets are useful during corpus development,
 // but they compete with the primary reading path on public reference pages.
 export const defaultContentPageLayout: PageLayout = {
+  // The v3 hero owns the breadcrumb, title, and updated-date, and the right
+  // rail owns provenance. The old beforeBody stack (Breadcrumbs / ArticleTitle /
+  // ContentMeta / TagList) therefore rendered into `.page-header`, which
+  // proof-design.scss hides on every non-home page — a second, invisible
+  // breadcrumb <nav> and <h1> shipped to Google and screen readers on every
+  // content page. Those are removed; the hero is the single source.
+  //
+  // ProductEvidenceSummary is intentionally retained here (still hidden). Its
+  // provenance facts duplicate the hero, but its category shortcuts have no hero
+  // equivalent; surfacing only those unique parts is a content task tracked as a
+  // follow-up, not a mechanical slot move, so it is not rushed here.
+  //
+  // BrandPreScreenTool was ALSO in this hidden slot — which meant the interactive
+  // lab-result comparator was invisible on its own page while the prose explained
+  // a tool no one could see. It moves to the shared afterBody (visible), where it
+  // self-gates to the one page whose type is "brand-pre-screen-tool".
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    // Reading time disabled: a reference work is consulted, not read
-    // start-to-finish, so a "166 min read" estimate on a long synthesis
-    // page is misleading and discouraging rather than informative. The
-    // last-updated date is the meta that matters here.
-    Component.ContentMeta({ showReadingTime: false }),
-    Component.EvidenceHeader(),
     Component.ProductEvidenceSummary(),
-    Component.BrandPreScreenTool(),
-    Component.SourceCitationPanel(),
-    Component.TagList(),
   ],
+  // Curated left rail (Examine-style): a slim search, the per-page section nav,
+  // and a compact cross-reference count group. The global file-tree Explorer was
+  // removed — it read as a raw dump and undercut the "established reference"
+  // posture; global navigation now lives in the TopNav + Search. PageTitle and
+  // the left-rail AskIndex were removed as duplicates of the TopNav wordmark and
+  // Ask launcher.
+  // Proof's curated .snav: section accordion + the apparatus links (Sources,
+  // Update History, References). Search + dark mode live in the TopNav.
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.AskIndex(),
-    Component.Explorer({
-      title: "Index",
-      folderDefaultState: "collapsed",
-      useSavedState: false,
-      filterFn: primaryNavFilter,
-    }),
+    Component.Snav(),
   ],
-  right: [Component.DesktopOnly(Component.TableOfContents())],
+  // Right rail = actions / provenance column.
+  //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
+  //     anchor sources / corpus count) read from frontmatter.
+  //   - CiteThisPage: moved from afterBody so the citation + evidence-packet
+  //     affordance lives in the actions column.
+  //   - Follow: placeholder control (no JS wiring yet) for a future
+  //     update-subscription affordance.
+  //   - SourceCitationPanel: renders only on source pages (self-gates on
+  //     type === "source" / slug startsWith "sources/").
+  // Proof's .rail: light action buttons + provenance card.
+  right: [
+    Component.Rail(),
+    Component.DesktopOnly(Component.SourceCitationPanel()),
+  ],
 };
 
 // components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: false }),
-  ],
+  // Index/list pages render the same v3 hero, which owns the breadcrumb, title,
+  // and date. The old beforeBody stack was hidden in `.page-header` here too;
+  // removed for the same reason as the content layout above.
+  beforeBody: [],
+  // Index/list pages use the same proof rail as content pages: curated .snav
+  // (section nav from the page's headings + the apparatus links) and the .rail.
+  // Keeps landing pages visually consistent with the rest.
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.AskIndex(),
-    Component.Explorer({
-      title: "Index",
-      folderDefaultState: "collapsed",
-      useSavedState: false,
-      filterFn: primaryNavFilter,
-    }),
+    Component.Snav(),
   ],
-  right: [],
+  right: [
+    Component.Rail(),
+  ],
 };

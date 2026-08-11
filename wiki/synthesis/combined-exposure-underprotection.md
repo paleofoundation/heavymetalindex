@@ -14,9 +14,11 @@ updated: 2026-05-13
 
 # Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure
 
+## Overview
+
 The regulatory architecture for heavy metals in food is built almost entirely on single-metal reference values. EFSA's tolerable weekly intake for cadmium, JECFA's provisional tolerable monthly intake for cadmium, the FDA's action levels for inorganic arsenic in infant rice cereal, the EU's maximum levels under Regulation 2023/915, and the parallel national-level frameworks all set thresholds one metal at a time. Three lines of recent evidence converge on the finding that this architecture systematically underprotects: even when consumers are at or near the most permissive single-metal reference value for each individual metal, their cumulative dietary exposure to the regulated metal mixture exceeds the cumulative hazard threshold for health-protective endpoints. The single-metal floor is the wrong floor.
 
-This is the synthesis foundation for HMTc's combined-exposure framing. The wiki documents the regulatory positions honestly per the firewall rule in [[../CLAUDE|CLAUDE.md]] Part 2; the synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. The certification implication is that a program calibrated to cumulative exposure rather than single-metal floors rests on a defensible scientific footing that the floors themselves cannot support.
+The synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. A framework calibrated to cumulative exposure rather than to single-metal floors is what the convergent evidence below supports.
 
 ## A national-population baseline with HI greater than one (Suomi 2023)
 
@@ -30,11 +32,11 @@ The dietary attribution in Suomi 2023 is also worth noting because it does not m
 
 ## A regulatory-internal acknowledgment of saturation (JECFA 91st 2022)
 
-[[sources/jecfa-91st-cadmium-2022|JECFA's 91st meeting]] (November 2020, monograph published 2022) carried the 1989-vintage provisional tolerable monthly intake for cadmium of 25 µg/kg body weight per month forward without revision while updating the dietary exposure assessment with 2019 occurrence data. The updated exposure assessment is the load-bearing finding for this synthesis. Updated cocoa-product occurrence data pushed total dietary cadmium exposure in children aged 0.5 to 12 years to as high as 96 percent of the JECFA PTMI in subpopulations. The lighter regulatory reference value, the one with the looser end of the EFSA-JECFA divergence documented in [[../synthesis|the cadmium regulatory synthesis section of synthesis.md]], is approached or saturated in the population most at developmental risk, from cadmium alone.
+[[sources/jecfa-91st-cadmium-2022|JECFA's 91st meeting]] (November 2020, monograph published 2022) carried the provisional tolerable monthly intake for cadmium of 25 µg/kg body weight per month, established at JECFA's 73rd meeting in 2010 (WHO Technical Report Series No. 960), forward without revision while updating the dietary exposure assessment with 2019 occurrence data. The updated exposure assessment is the load-bearing finding for this synthesis. Updated cocoa-product occurrence data pushed total dietary cadmium exposure in children aged 0.5 to 12 years to as high as 96 percent of the JECFA PTMI in subpopulations. The lighter regulatory reference value, the one with the looser end of the EFSA-JECFA divergence documented in [[../synthesis|the cadmium regulatory synthesis section of synthesis.md]], is approached or saturated in the population most at developmental risk, from cadmium alone.
 
 The JECFA finding is a single-metal saturation result, not a cumulative-exposure result. But its implication for the cumulative framing is direct. If cadmium alone reaches 96 percent of the most-permissive single-metal reference value in a vulnerable subpopulation, the cumulative HI for that subpopulation across the full regulated mixture is necessarily above 1 even before lead, arsenic, mercury, nickel, and aluminum contributions are added. The single-metal saturation finding from JECFA's own assessment is the regulatory-internal acknowledgment that the cumulative framing is needed.
 
-The point matters for HMTc certification calibration because the population JECFA documents at saturation is the population HMTc certifies for: infants and children, in the matrices (cocoa, rice cereal, baby food) where the program operates. The JECFA finding is not from an outside-the-system researcher pointing to a gap; it is from the same body whose reference value is the operative regulatory floor in much of the world.
+The point matters because the population JECFA documents at saturation — infants and children, in the cocoa, rice cereal, and baby food matrices — is the population for which the developmental-risk case is strongest. The JECFA finding is not from an outside-the-system researcher pointing to a gap; it is from the same body whose reference value is the operative regulatory floor in much of the world.
 
 ## The third independent confirmation (EFSA 2024 iAs)
 
@@ -48,9 +50,7 @@ In the EFSA framing, MOE below 1 for inorganic arsenic at the mean adult Europea
 
 Three independent assessments, three different methods, three different jurisdictions, three different endpoint classes, one finding: the regulatory architecture for heavy metals in food is calibrated to a level of risk that population-level data show is regularly exceeded. Suomi 2023 measures cumulative dietary exposure against neurotoxic and renal endpoints in Finland and finds HI greater than 1 across all adult age groups. JECFA's 91st meeting measures single-metal cadmium exposure against the JECFA PTMI in the under-12 child population and finds saturation at 96 percent. EFSA 2024 measures single-metal inorganic arsenic exposure against a rigorous genotoxic-carcinogen Benchmark Dose and finds Margins of Exposure below 1 across the full adult European population.
 
-The three studies are not measuring the same thing. They are measuring different aspects of the same architectural problem. The regulatory floors that the food-safety system relies on are not, in aggregate, health-protective for the consumers the system is built to protect. This is the synthesis foundation that HMTc's combined-exposure standards rest on. The certification program is not setting tighter limits because it can; it is setting tighter limits because the literature documents that the looser limits do not add up to safety.
-
-The brand-legal implication is the cleanest of the four wiki-relevant implications. A defense counsel reading a class-action complaint about an HMTc-certified product needs to be able to point to a published, peer-reviewed evidence base that justifies why the certification standard is tighter than the regulatory floor. The three anchor sources for this synthesis page are that evidence base, presented honestly without overclaim, with the regulatory positions stated accurately and the gap between regulatory positions and population-level outcomes documented in the regulators' own framings.
+The three studies are not measuring the same thing. They are measuring different aspects of the same architectural problem. The regulatory floors that the food-safety system relies on are not, in aggregate, health-protective for the consumers the system is built to protect. They are presented here as the regulators' own framings state them, with the gap between those framings and the population-level outcomes documented in the three anchor sources.
 
 ## What this synthesis does not yet rest on
 
@@ -67,18 +67,15 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 [[metals/cadmium]] should carry the JECFA 91st 2022 cocoa-driven exposure update with its 96 percent of PTMI finding in children. The page should also reference [[../synthesis|the cadmium regulatory divergence content in synthesis.md]] which documents the EFSA-JECFA-ATSDR-EPA divergence in reference values.
 
 [[metals/arsenic-inorganic]] should carry the EFSA 2024 MOE update with its below-1 findings for adult European consumers across the full intake range. The MOE framing is methodologically distinct from the cadmium PTMI framing and should be presented as such; speciation discipline applies (inorganic arsenic specifically, not total arsenic).
-
-[[certification/scientific-basis]], if it exists or when it is written, is the most directly downstream consumer of this synthesis. The combined-exposure framing is the scientific basis for HMTc's existence as a tighter-than-regulatory standard; this synthesis page is what the certification document should cite.
-
 ## Anchor sources
 
 - [[sources/suomi2023-finland-dietary-metals-cumulative|Suomi and Tuominen 2023]]. *Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults*, Environmental Science and Pollution Research. FinDiet 2012 national dietary survey, n=1,295 Finnish adults aged 25-74; six-metal mixture (Cd, Pb, iAs, MeHg, Ni, Al); relative potency factors referenced to lead neurotoxicity; HI greater than 1 across all adult age groups for neurotoxicity and kidney endpoints; >95 percent of women under 45 have HI greater than 1 for neurotoxicity.
-- [[sources/jecfa-91st-cadmium-2022|JECFA 91st meeting 2022]]. *Cadmium (Addendum) — 91st meeting of the Joint FAO/WHO Expert Committee on Food Additives*. Carried 1989 PTMI of 25 µg/kg b.w./month forward without revision; updated 2019 cocoa occurrence data pushed total dietary Cd exposure in children 0.5-12 years to up to 96 percent of PTMI in subpopulations.
+- [[sources/jecfa-91st-cadmium-2022|JECFA 91st meeting 2022]]. *Cadmium (Addendum) — 91st meeting of the Joint FAO/WHO Expert Committee on Food Additives*. Carried the 2010 PTMI (JECFA 73rd, WHO TRS 960) of 25 µg/kg b.w./month forward without revision; updated 2019 cocoa occurrence data pushed total dietary Cd exposure in children 0.5-12 years to up to 96 percent of PTMI in subpopulations.
 - [[sources/efsa2024-risk-assessment-iAs-update|EFSA CONTAM Panel 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal. 191-page Scientific Opinion adopted November 2023; iAs classified as genotoxic carcinogen requiring Margin of Exposure approach; BMDL05 of 0.06 µg iAs/kg bw/day from US skin cancer case-control study; adult MOEs from 2 to 0.4 (mean consumers) and 0.9 to 0.2 (95th percentile), all below threshold MOE of 1.
 
 ## How this page was promoted
 
-Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, strategic relevance to brand-legal (HMTc combined-exposure standard scientific basis), regulator (cumulative-exposure framework gap), and educator (the architectural argument for tighter-than-regulatory certification) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
+Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, with relevance to regulator (the cumulative-exposure framework gap) and educator (the architectural argument that single-metal floors under-protect) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -89,19 +86,30 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/suomi2023-finland-dietary-metals-cumulative|Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults]]<span class="hmi-ref-meta">Suomi J and Tuominen P · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s10661-023-11427-y](https://doi.org/10.1007/s10661-023-11427-y)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/efsa2024-risk-assessment-iAs-update|Update of the risk assessment of inorganic arsenic in food]]<span class="hmi-ref-meta">EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. · EFSA Journal · 2024 · [doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8ba2d1818](https://github.com/paleofoundation/heavymetalindex/commit/8ba2d1818) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

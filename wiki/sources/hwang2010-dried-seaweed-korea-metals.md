@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hwang 2010 - Metals in Korean dried seaweed
 
+## Overview
+
 Hwang and colleagues measured total arsenic, total mercury, lead, and cadmium in 426 dried edible seaweed samples sold in Korea during 2007-2008. The study covers laver, brown seaweed, kelp, and sea lettuce, with results reported on a dry-weight basis. Arsenic was measured as total arsenic, not inorganic arsenic.
 
 ## Key numbers
@@ -72,11 +74,15 @@ This source contributes Korean-market dried-seaweed occurrence data for total ar
 - Source-internal discrepancy noted: the abstract reports weekly intakes of `0.11`, `0.65`, and `0.45 µg kg−1 body weight week−1` for total mercury, lead, and cadmium, while Table 4 reports `0.010`, `0.658`, and `0.472`. The Pb and Cd abstract figures are consistent with Table 4 to rounding; the abstract's tHg `0.11` value is ten times the Table 4 value (`0.010`) and is almost certainly a typo in the abstract. The page uses the Table 4 values throughout.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a6d2d79](https://github.com/paleofoundation/heavymetalindex/commit/a6d2d79) | 2026-06-08 | ingest: hwang2010-dried-seaweed-korea-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Tavakkoli & Khanjani 2016 — Systematic review of human cadmium biomonitoring in Iran
 
+## Overview
+
 This narrative systematic review aggregates 18 Iranian biomonitoring studies (of 25 retrieved) reporting cadmium concentrations in human matrices — blood, urine, breast milk, hair, saliva, amniotic fluid, umbilical cord blood, and deciduous teeth — across general, occupational, and clinical populations in Iran, with sampling years spanning roughly 2003 through 2015. The authors report no formal meta-analysis because of population heterogeneity; the review's value is corpus-level: it surfaces the Iranian biomonitoring evidence base for Cd, in one place, with consistent attribution. Three headline patterns emerge from the assembled corpus: (1) Cd concentrations are systematically higher in industrial workers than in general-population referents (Yazd electroplating glazers post-shift urine 10.85 ± 12.88 µg/g creatinine vs office-worker referents 3.07 ± 7.24 µg/g; Borujen natural-gas-pipeline back welders 1.72 ± 0.65 µg/g creatinine vs unexposed controls 0.04 ± 0.07 µg/g); (2) Cd concentrations are higher in smokers than non-smokers in general-population samples (Farzin et al. blood Cd in male smokers 2.18 ± 0.89 µg/L vs male non-smokers 1.74 ± 0.66 µg/L; Ebrahim et al. amniotic-fluid Cd in pregnant smokers vs non-smokers, with a smoking-thiocyanate correlation r=0.882); and (3) Cd concentrations are elevated in residents of industrial regions relative to non-industrial regional referents (Tadayon et al. hair Cd Tehran 1.76 ± 1.09 µg/g vs Tekab 0.35 ± 0.56 µg/g; Norouzi et al. breast-milk Cd Lenjan/Mobarakeh-steel-region 2.31 µg/L vs Konjedjan rural-referent 0.772 µg/L). The review does not aggregate food-matrix Cd data and does not propose Iranian exposure or dietary-intake thresholds; the JECFA/FAO 25 µg/kg body weight per month provisional tolerable monthly intake is cited but not compared to per-study figures.
 
 ## Key numbers
@@ -158,15 +160,15 @@ This source is a narrative systematic review aggregating Iranian human biomonito
 - **Downstream pooling caveat.** Because this is a narrative review aggregating prior values rather than a primary measurement source, the Part 9 synthesis workflow should treat per-study values surfaced by Table 1 as pointers to the constituent paper (the cited study should be ingested individually for authoritative per-study figures), not as independent quantitative observations. The review's value to the wiki is as (a) a corpus pointer for Iranian Cd biomonitoring literature 2003-2015, (b) a consolidated Iran-specific occupational-vs-environmental gradient, and (c) a smoking-Cd and transplacental-Cd-transfer signal corroborated across multiple Iranian cohorts.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

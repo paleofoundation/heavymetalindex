@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Dulshan et al. 2018 - Clay water filter for CKDu-related nephrotoxic constituents
 
+## Overview
+
 Dulshan and colleagues evaluated a clay-and-rice-husk point-of-use water filter for removal of nephrotoxic water constituents associated with CKDu-prevalent areas in Sri Lanka. This is a2 mitigation evidence: it uses synthesized feed waters and treatment performance metrics rather than a packaged-water occurrence survey.
 
 ## Key numbers
@@ -58,3 +60,17 @@ App: Context-only mitigation evidence for household water-treatment design.
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` lineage. The paper is direct point-of-use treatment evidence even though it uses synthesized water rather than a retail product matrix.
 
 Products and ingredients are intentionally empty. This is filter-performance evidence in simulated source-water conditions, not occurrence surveillance in a market product.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [96df55230](https://github.com/paleofoundation/heavymetalindex/commit/96df55230) | 2026-06-13 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Xu & Polya 2020 — UK rice-iAs intake and hypertension association
 
+## Overview
+
 This cross-sectional secondary analysis quantified daily inorganic-arsenic intake from rice and rice products (E-iAs_ing,rice) in 598 UK adults using the NDNS Rolling Programme Years 7-8 (April 2014 to August 2016) and examined associations with five blood-pressure endpoints (general hypertension, SBP add 10, DBP add 10, mean arterial pressure, mean pulse pressure) via generalized linear models adjusted for established hypertension risk factors. iAs intake was estimated by multiplying food-diary rice consumption by EFSA 2014 concentration estimates and applying a cooking-loss factor of 5% for not-ready-to-eat and 0% for ready-to-eat foods; iAs was not directly measured in the food samples participants consumed. The authors report a negative but statistically non-significant association between E-iAs_ing,rice and adjusted hypertension risks, with effect modification by sex, age, ethnicity, BMI, and alcohol consumption suggesting higher risks for male, middle-aged (35-49), overweight, alcohol-consuming, and Asian or Asian British, Black or Black British, and mixed ethnic subgroups. The authors characterize the study as exploratory and the overall association as weak and inconclusive due to cross-sectional design, modest sample size in stratified subgroups, and the use of EFSA literature-derived rather than directly measured iAs concentrations.
 
 ## Key numbers
@@ -135,15 +137,15 @@ Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PD
 - [[metals/arsenic-inorganic]] (UK dietary-iAs intake distribution and health-outcome context)
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

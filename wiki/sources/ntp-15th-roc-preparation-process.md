@@ -30,6 +30,8 @@ updated: 2026-06-04
 
 # NTP (2021) — Process for Preparation of the Report on Carcinogens (RoC 15th Edition Front Matter)
 
+## Overview
+
 A two-page procedural insert reproduced in the front matter of the Report on Carcinogens, Fifteenth Edition (December 2021), prepared by the U.S. National Toxicology Program (NTP) on behalf of the Secretary of Health and Human Services. The insert describes the four-part NTP process by which a substance, mixture, exposure circumstance, or other agent becomes listed in the RoC as either *known to be a human carcinogen* or *reasonably anticipated to be a human carcinogen*, the two RoC listing categories. The Report on Carcinogens is a Congressionally-mandated, science-based public health document; each edition is cumulative and incorporates newly reviewed substances alongside those previously listed. The document contains no primary contamination measurements, exposure data, or substance-specific carcinogenicity findings; its contribution to the Heavy Metal Index corpus is as the primary-record procedural account of how the RoC listing recommendations cited elsewhere in the corpus (notably [[ntp-15th-roc-nickel-2021]] for nickel compounds and metallic nickel) are produced.
 
 ## Key numbers
@@ -81,12 +83,15 @@ Procedural-record reproduction of the NTP front-matter description of the four-p
 - **Audit subagent (2026-06-04) ⚠️ Check 5 wiki/HMTc firewall:** flagged Implications → Certification and Methods (brief) for enumerating substance-specific RoC classifications (nickel/Cr-VI/arsenic/cadmium/lead/beryllium with "known" or "reasonably anticipated" labels) that are *not* in this 2-page procedural PDF. Verified against source: the PDF discusses only the four-step procedural pipeline, with no per-substance listings. Both passages were cross-corpus synthesis attributed to a procedural source that does not carry the claim — corrected to drop the substance enumeration in Methods (brief) and to reframe the Implications → Certification block around process-rigor citation (with classifications routed to the per-substance source pages such as [[ntp-15th-roc-nickel-2021]]).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Mirosławski and Paukszto 2017 - metals in Polish medicinal herbs and infusions
 
+## Overview
+
 Mirosławski and Paukszto measured cadmium, chromium, nickel, and lead in Polish pharmacy-market peppermint-leaf and chamomile-blossom herbal preparations, then repeated the measurements on herb material remaining after preparation of 200 ml infusions. The study is occurrence evidence for dried medicinal-botanical raw material and extraction evidence for prepared herbal infusions. It reports total elemental Cd, Cr, Ni, and Pb only; no speciation beyond the element level was performed.
 
 ## Key numbers
@@ -78,3 +80,17 @@ App: The source can support the `herbal-botanicals` and `dried-herbs` contaminat
 - Speciation check: Cd, Cr, Ni, and Pb are total elemental measurements by AAS; the source does not report Cr-VI.
 - The source's WHO comparison line prints permissible levels for arsenic, cadmium, and lead as `1.0, 0.3, and 10.0 (μg kg−1)` while discussing dry-weight medicinal-plant raw material. The page records the authors' exceedance statement but does not use that line to derive any HMTc threshold or consumer-facing interpretation.
 - `matrices: [medicinal-plants, dried-herbs, herbal-infusion]` uses corpus-established descriptive matrix terms because the canonical examples do not have a single term for pharmacy-market brewing-bag medicinal herbs plus their prepared infusion.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

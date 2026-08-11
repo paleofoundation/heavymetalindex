@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Matsumoto-Tanibuchi et al. 2019 - inorganic arsenic in seaweed and seafood by LC-ICP-MS
 
+## Overview
+
 Matsumoto-Tanibuchi and colleagues validated an LC-ICP-MS method for inorganic arsenic in seaweed, seafood, and seafood products purchased from a local market in Japan. The occurrence-relevant data are Table 4 product concentrations and Table 5 tissue-part concentrations, which report inorganic arsenic, total arsenic, total arsenic in extracts, and extraction rates. The page keeps inorganic arsenic and total arsenic separate throughout.
 
 ## Key numbers
@@ -114,3 +116,17 @@ This source provides direct Japanese-market occurrence evidence for inorganic ar
 - Speciation check: inorganic arsenic is recorded only where the source reports As(III)+As(V). Total arsenic, AB, MMA, DMA, AC, TMAO, and TeMA are not substituted for iAs.
 - Brand firewall: no consumer brands were attached to contamination values. Instrument and reagent vendor names in the methods are scientific reporting, not brand contamination ranking.
 - Missing-slug check: no missing product or ingredient slug blockers for broad routing. Exact product names such as nam pla and oyster sauce route through `condiments-general`; exact species and tissue parts remain in Key numbers and methods text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

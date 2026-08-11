@@ -112,7 +112,10 @@ footer.site-footer {
 }
 
 .site-footer-column a {
-  color: rgba(255, 255, 255, 0.82) !important;
+  // !important removed: component CSS is now inside the `legacy` layer, and a
+  // layered !important outranks an unlayered normal declaration, so this was
+  // beating the v3 chrome sheet's link colour.
+  color: rgba(255, 255, 255, 0.82);
   display: inline-block;
   font-size: 0.95rem;
   line-height: 1.35;
@@ -132,7 +135,10 @@ footer.site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   box-sizing: border-box;
   display: flex;
-  gap: 1rem;
+  // Three items now that the operator attribution lives here rather than in the
+  // TopNav masthead; wrap instead of crushing them on narrower viewports.
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1180px;
@@ -142,6 +148,14 @@ footer.site-footer {
 .site-footer-bottom p {
   font-size: 0.78rem;
   line-height: 1.45;
+}
+
+// The operator statement is provenance, so it reads a step above the
+// boilerplate around it and takes its own line.
+.site-footer-operator {
+  flex-basis: 100%;
+  font-weight: 600;
+  opacity: 0.92;
 }
 
 @media all and (max-width: 1100px) {
@@ -179,3 +193,130 @@ footer.site-footer {
     grid-template-columns: 1fr;
   }
 }
+
+// ══ v3 footer (artifact lines 1482-1506) ═════════════════════════════════
+// Dark burgundy #4a1526, a 1.5fr + 4x1fr grid at 1900px, mono column heads,
+// and a mono bottom bar. Appended as an override block so the earlier rules
+// stay legible as history.
+//
+// `footer.site-footer` rather than `.site-footer`: the original rule is an
+// element+class selector (0,1,1) and beats a bare class regardless of order,
+// which is why the burgundy kept winning.
+footer.site-footer {
+  background: #4a1526;
+  color: rgba(255, 255, 255, 0.76);
+  border-top: 0;
+}
+
+.site-footer .site-footer-inner {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 76px 56px 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr));
+  gap: 72px;
+  align-items: start;
+}
+
+.site-footer .site-footer-brand {
+  display: block;
+
+  & .site-footer-logo {
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    margin-bottom: 14px;
+    text-decoration: none;
+  }
+
+  & p {
+    margin: 0 0 20px;
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 42ch;
+  }
+
+  & p:last-of-type { margin-bottom: 0; }
+
+  // v3's footer brand column carries prose only.
+  & .site-footer-ask { display: none; }
+}
+
+.site-footer .site-footer-nav {
+  display: contents;
+}
+
+.site-footer .site-footer-column {
+  & h2,
+  & h3,
+  & .site-footer-column-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.52);
+    padding: 0 0 12px;
+    margin: 0 0 12px;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  & li { margin: 0; }
+
+  & a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration: none;
+
+    &:hover { color: #fff; text-decoration: none; }
+  }
+
+  & .site-footer-external-icon { display: none; }
+}
+
+.site-footer .site-footer-bottom {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 22px 56px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 40px;
+  align-items: baseline;
+  background: none;
+
+  & p {
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  & a { color: rgba(255, 255, 255, 0.66); }
+}
+
+// NOTE: a `@media (max-width: 1149px)` block used to sit here, collapsing the
+// footer to one column with 24px padding. It was invented. v3's footer is a
+// plain inline style (artifact 1483 and 1500) with NO `w ?` ternary — every
+// responsive value in the design lives in the block at artifact 2008-2030, and
+// the footer is not in it. The footer's geometry is now stated unconditionally
+// in styles/v3-chrome.scss, which is unlayered and therefore beats the
+// max-width 1100/800/520 blocks above at every width.
+
+// v3 has no dark variant; the footer is #4a1526 in both themes.
+:root[saved-theme="dark"] footer.site-footer { background: #4a1526; }

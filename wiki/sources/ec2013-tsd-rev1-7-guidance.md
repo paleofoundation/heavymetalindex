@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # European Commission 2013 — Toy Safety Directive 2009/48/EC, Explanatory Guidance Document (Rev 1.7)
 
+## Overview
+
 This is the European Commission DG Enterprise and Industry guidance document (Rev 1.7, 13 December 2013) explaining the application of Directive 2009/48/EC on the safety of toys (the Toy Safety Directive, "TSD"). The guidance has no binding legal force on its own — the directive and its national transpositions are what bind — but it represents the consensus interpretation reached between Member State experts, European industry, European standardisation bodies, European consumer organisations, and Notified Bodies, and is the document Notified Bodies and market-surveillance authorities reference when applying the directive's chemical-safety provisions. The chemical-properties content relevant to heavy-metal limits is concentrated in Section III of Annex II, particularly Points 1, 3-7 (CMR provisions and food-contact-material derogation) and Point 13 (the 19-element migration-limit table for three toy-material categories).
 
 ## Key numbers
@@ -145,21 +147,21 @@ The directive itself is silent on which analytical instruments are required; the
 - Frontmatter `ingredients: []` and `matrices: []`: this is a regulatory document about toy materials, not foods or personal-care products. The "toy-material categories" (dry/brittle/powder-like/pliable; liquid/sticky; scraped-off) are toy material classes, not food matrices, and so do not enter the matrices vocabulary.
 - DOI: EU Commission guidance documents of this kind are not minted with DOIs. The access URL pointing to the now-superseded `enterprise/sectors/toys/index_en.htm` is the URL printed in the document body (pp. 2-3); the current canonical URL for TSD guidance has migrated to `ec.europa.eu/growth/sectors/toys` and successor pages, but the access_url field preserves what the source document itself cites.
 - License: EU Commission documents are reusable under Commission Decision 2011/833/EU. Recorded.
-- The companion SCHER 2010 opinion (`scher2010-toy-migration-limits-opinion`) already exists and explicitly noted "A dedicated regulation page for EU TSD 2009/48/EC migration limits does not yet exist" — this source page does not create that regulation page (per Part 10 of CLAUDE.md, regulation pages are created on first encounter, but the routing layer will surface the unresolved regulation slug if a future ingest declares it). For now the directive is referenced via the source page itself.
+- The companion SCHER 2010 opinion (`scher2010-toy-migration-limits-opinion`) already exists and explicitly noted "A dedicated regulation page for EU TSD 2009/48/EC migration limits does not yet exist" — this source page does not create that regulation page (per, regulation pages are created on first encounter, but the routing layer will surface the unresolved regulation slug if a future ingest declares it). For now the directive is referenced via the source page itself.
 - Part 12 brand-firewall: no brand attribution risk (regulatory text, no products are measured).
 - Part 2 wiki/HMTc firewall: no HMTc threshold proposals in the body. The "half of considered safe" derivation is the directive's own design principle, reported as such; no HMTc value is suggested.
-- Audit subagent (2026-06-01) verdict PROMOTE; all five checks clean except two ⚠️ slug-vocabulary concerns in Check 2. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md`: `metals/cobalt` and `metals/manganese` ARE in the snapshot's Metals list — those subagent findings were false positives (the subagent misread the snapshot). The other elements the subagent named (`metals/boron`, `metals/selenium`, `metals/strontium`) are correctly absent from the snapshot, but this page references those metals only via standard chemical-symbol abbreviations (B, Se, Sr) in the frontmatter `metals:` array, not as page-slug wikilinks in the body, so no actual slug-vocabulary violation. The B/Se/Sr abbreviations follow the standard chemical-symbol convention used elsewhere in the corpus for elements outside the CLAUDE.md Part 14 explicitly-enumerated abbreviation set; consider expanding Part 14's vocabulary spec to formally cover the additional TSD elements.
+- Audit subagent (2026-06-01) verdict PROMOTE; all five checks clean except two ⚠️ slug-vocabulary concerns in Check 2. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md`: `metals/cobalt` and `metals/manganese` ARE in the snapshot's Metals list — those subagent findings were false positives (the subagent misread the snapshot). The other elements the subagent named (`metals/boron`, `metals/selenium`, `metals/strontium`) are correctly absent from the snapshot, but this page references those metals only via standard chemical-symbol abbreviations (B, Se, Sr) in the frontmatter `metals:` array, not as page-slug wikilinks in the body, so no actual slug-vocabulary violation. The B/Se/Sr abbreviations follow the standard chemical-symbol convention used elsewhere in the corpus for elements outside the explicitly-enumerated abbreviation set; consider expanding Part 14's vocabulary spec to formally cover the additional TSD elements.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

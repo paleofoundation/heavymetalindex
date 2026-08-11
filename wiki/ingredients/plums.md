@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 100]
     p95_ppb: 250
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 30]
     p95_ppb: 80
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   iAs:
@@ -91,29 +91,7 @@ created_routed_sources: 2
 
 # Plums
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: rare) | GAP | 4/10 HMTc analytes, total n=7 | only 4/10 analytes have evidence |
-| D2 Regional coverage | OK | 5 jurisdictions, top RO 25% | — |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, Ni THIN, Cr THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 2 more study(ies); Ni: needs 2 more study(ies); Cr: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 6 claims checked, 6 supported; 2 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Cr; pairing 0 paired, 5 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 2 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below rare bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Plums (Prunus domestica, European plum; Prunus salicina, Japanese plum) are stone fruits grown commercially across temperate climates: California (US), China (the world's largest producer), Serbia, Romania, Turkey, France, and Italy. The current corpus loads 2 directly-routed sources: Lee 2023 South Korean fresh fruits 7-metal panel covering plums within the broader survey (n=207 across multiple fruits, [[sources/lee2023-south-korea-fresh-fruits-seven-metals]]) and Sembratowicz 2010 Polish domestic fruits nitrate-Pb-Cd panel covering plums (n=108, [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits]]). Plums sit at the lower-middle of the fresh-fruit category for Pb-and-Cd; dried plums (prunes) carry concentrated metals on a dry-weight basis through the drying step.
 
@@ -125,18 +103,18 @@ Plums take metals from soil through root uptake into the fruit-bearing tissue, a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 5–100 | 250 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
-| Cd | n=2 | 1–30 | 80 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | 1–50 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=1 | 50–500 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | 10–200 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 5–100 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| Cd | n=2 | 1–30 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=1 | 1–50 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| tHg | data gap | — | — | — |
+| Ni | n=1 | 50–500 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=1 | 10–200 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -180,10 +158,19 @@ Standard food-grade packaging does not contribute to plum or prune metal load. F
 
 The Codex Alimentarius General Standard CXS 193-1995 applies the general fresh-fruit Pb maximum of 0.10 mg/kg fresh weight and Cd at 0.05 mg/kg for fresh fruit (general). The EU Regulation 2023/915 applies the same fresh-fruit Pb limit of 0.10 mg/kg and Cd at 0.020 mg/kg for fresh fruit. For prunes (dried plums), the EU 2023/915 applies a dried-fruit limit framework that allows for the dry-weight basis conversion. The FDA has not set plum-specific action levels.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea]]<span class="hmi-ref-meta">Lee J, Hwang I, Park YS, and Lee DY · Applied Biological Chemistry · 2023 · [doi.org/10.1186/s13765-023-00799-x](https://doi.org/10.1186/s13765-023-00799-x)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits]]<span class="hmi-ref-meta">Sembratowicz I, Rusinek E, and Ognik K · Polish Journal of Environmental Studies · 2010</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -195,15 +182,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

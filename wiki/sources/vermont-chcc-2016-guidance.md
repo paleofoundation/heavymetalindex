@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Vermont CHCC Rule (2016) — Chemical Disclosure Program guidance document
 
+## Overview
+
 This is the Vermont Department of Health's manufacturer-facing guidance document for the state's Chemical Disclosure Program, implementing 18 V.S.A. Chapter 38A (Act 188 of 2014) and the Vermont Chemicals of High Concern to Children (CHCC) Rule. The document is the February 16, 2016 DRAFT, issued in advance of the program's first reporting period that opened on January 1, 2016 and closed on July 1, 2016. The guidance does not establish chemical lists, numerical concentration limits, or product-specific bans on its own face — those are products of the statute (the chemicals-of-high-concern list at 18 V.S.A. § 1773) and a separate CHCC Rule. The guidance explains who must report, what must be reported, when reports are due, how reporting interacts with chemicals intentionally added versus present as contaminants, and which products and chemical uses are exempt. It is one of the four state children's-products programmes (WA, OR, VT, ME) referenced as a programme model in [[sources/ny-dec-tccp-2023-chem-pqls-draft]].
 
 ## Key numbers
@@ -100,15 +102,15 @@ App: Country-of-origin / state-of-sale "US-VT" plus product-category "children's
 - **Vermont downstream regulatory products not in corpus.** The chemicals-of-high-concern list at 18 V.S.A. § 1773 (66 chemicals as of the document's issue date), the PQL list hosted on the Health Department website, the implementing CHCC Rule cross-referenced in the guidance (§§ 4.6, 6.1.6–6.1.7, 8.3), the eventual sale-prohibition rules under 18 V.S.A. § 1776, and the Working Group's biennial review under § 1774 are separate regulatory artefacts that descend from this programme. None are presently in the HMI corpus. When they enter, they should be ingested as separate source pages with their own cite-keys; this guidance is the manufacturer-facing implementation document and should be wikilinked from each.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

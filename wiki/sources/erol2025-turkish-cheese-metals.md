@@ -6,15 +6,15 @@ title: "Safety and Nutritional Profile of Traditional Turkish Cheeses: A Compreh
 authors: [Erol S, Ürkek B]
 year: 2025
 publication: "Food Science & Nutrition"
-doi: 10.1002/fsn3.4863
-access_url: https://doi.org/10.1002/fsn3.4863
+doi: 10.1002/fsn3.70560
+access_url: https://doi.org/10.1002/fsn3.70560
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12277537/FM_12277537.md
 metals: [Pb, tHg, Al, tAs, Cd, Ni, Cr]
 ingredients: ["[[ingredients/milk-and-dairy]]"]
-products: []
+products: ["[[products/dairy-cheese]]"]
 matrices: [cheese]
 jurisdictions: [TR]
 near_duplicates: []
@@ -27,6 +27,8 @@ updated: 2026-05-12
 ---
 
 # Erol and Ürkek 2025 — Heavy metals in traditional Turkish cheeses (Aho, Golot, Telli)
+
+## Overview
 
 This study measures 18 elements — including the heavy metals Pb, Hg, As, Cd, Ni, Co, Cr, and Al — in 30 samples of three artisanal cheeses from Turkey's Black Sea region (Trabzon Province): Aho (a pressed cow's-milk cheese), Golot (a semi-hard cheese from cow or mixed milk), and Telli (a string-type cheese). Analysis was by ICP-MS (Agilent 7700). The key safety finding is that two outlier samples (6.7% of the 30-sample set) exceeded the hazard index (HI) threshold of 1, driven by a single Golot cheese sample with a Pb concentration of 1788.75 µg/kg and a single Telli cheese sample with a Hg concentration of 468.71 µg/kg. The remaining 28 samples showed HI <1, and mean concentrations for most heavy metals were low relative to European regulatory benchmarks for dairy. The paper demonstrates that artisanal production without standardized sanitation controls can produce occasional extreme outlier values for both Pb and Hg, even in a matrix (cheese) where such values are uncommon.
 
@@ -92,15 +94,15 @@ App: Supports flagging artisanal cheeses as potentially elevated in Pb and tHg, 
 - [[metals/aluminium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

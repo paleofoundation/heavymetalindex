@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Dobrzyńska et al. 2025 — elemental composition of milk formulae on the Polish market
 
+## Overview
+
 Dobrzyńska and colleagues measured nine basic elements (Na, K, Ca, P, Mg, Fe, Zn, Cu, Mn) and seven toxic or potentially toxic elements (As, Cd, Co, Cr, Hg, Sn, Ni) by ICP-MS in 149 powdered milk formulae available on the Polish market between 2019 and 2023. Cadmium, mercury, and arsenic were below the analytical detection limit in every sample; nickel was detected in 62 of 149 samples (highest 17 µg/kg wet weight in a powder formula) and the estimated daily intake exceeded the EFSA lowest-observed-adverse-effect level of 4.3 µg/kg body weight for eczematous skin reactions in one-month-old infants for every formula category analyzed. Copper exceeded the EU compositional maximum in 18 samples and was below the minimum in 43; potassium exceeded the EU maximum in 63 samples; and manganese varied across roughly two orders of magnitude (1-91 µg/100 kcal). Lead and selenium were excluded from this paper — Pb due to spectral interference in the analytical run, Se reported in a separate publication.
 
 ## Key numbers
@@ -99,6 +101,20 @@ Lead is intentionally not in the metals list. The Discussion section explicitly 
 
 The 78 formulae for special medical purposes (FSMP) span an HMTc product class not currently represented as a wiki product slug; the routing audit will surface this. Goat-milk-based powdered formula (n=15) is also not represented as a wiki ingredient slug; the routing audit will surface this. Per the ingest-skill rules, this page does not create new ingredient or product pages.
 
-Brand identification is not provided in the paper, so the brand firewall (CLAUDE.md Part 12) is automatically satisfied. Methods-section vendor and instrument names (CEM MARS6, Linde, ROMIL, Milli-Q/Merck Millipore, Romil standards, ERM-BD150) are retained per the 2026-05-17 scientific-method exception.
+Brand identification is not provided in the paper, so the brand firewall is automatically satisfied. Methods-section vendor and instrument names (CEM MARS6, Linde, ROMIL, Milli-Q/Merck Millipore, Romil standards, ERM-BD150) are retained per the 2026-05-17 scientific-method exception.
 
 Audit subagent (2026-06-09) flagged `[[ingredients/cow-milk-infant-formula]]` and `[[ingredients/milk-based-infant-formula]]` as invented slugs not present in the taxonomy snapshot. Verified false positive: both pages exist at `wiki/ingredients/cow-milk-infant-formula.md` and `wiki/ingredients/milk-based-infant-formula.md`, and the routing audit accepted both wikilinks cleanly with zero unresolved targets for this source. The discrepancy is a staleness gap in `docs/gpt-collaboration/taxonomy-snapshot.md`, not a defect in this source page. The audit subagent also questioned the Ni FSMP maximum being rendered as `0-12` rather than `0-12.5`; verified false positive — Table 9 shows the FSMP Ni range as `<0-12>` with no decimal, matching the page text. Audit verdict was REVISE; on independent verification no frontmatter or body changes are warranted.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+<!-- END: hmi-page-history -->

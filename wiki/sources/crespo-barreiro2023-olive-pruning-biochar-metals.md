@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Crespo-Barreiro et al. 2023 - Metals and PAHs in olive-pruning biochar
 
+## Overview
+
 Crespo-Barreiro and colleagues scaled olive-tree-pruning biochar production from semi-pilot to pilot and industrial pyrolysers, then measured heavy metals, PAHs, pH, carbon stability, and germination-index phytotoxicity. The source is primary evidence for agricultural-input contamination and soil-amendment quality control, not food occurrence evidence: it measures biochar made from olive pruning residues and does not report metal concentrations in olives, olive oil, soil after application, or edible crops.
 
 ## Key numbers
@@ -117,15 +119,15 @@ Audit subagent (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a pap
 Audit subagent (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in `docs/gpt-collaboration/system-prompt.md`. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at `wiki/supply-chain/soil-to-plant-transfer.md` and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [4c89e25](https://github.com/paleofoundation/heavymetalindex/commit/4c89e25) | 2026-06-02 | audit: crespo-barreiro2023-olive-pruning-biochar-metals revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

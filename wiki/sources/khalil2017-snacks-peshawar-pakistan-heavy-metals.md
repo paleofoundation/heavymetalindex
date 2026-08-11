@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Khalil et al. 2017 — Heavy metals in branded and local snacks in Peshawar, Pakistan
 
+## Overview
+
 This cross-sectional study from Khyber Medical College, Peshawar, measured Pb, Cd, Cr (total), and Cu concentrations in 96 potato- and corn-based snacks sampled from district Peshawar markets, comparing branded products (9 potato brands and 3 corn brands, n=29) against locally produced non-branded snacks (n=67) across four administrative towns. The principal findings were that total chromium exceeded the authors' cited FAO/WHO "allowed limit" in every sample (branded and local alike) and that lead exceeded permissible limits in the majority of branded snacks and in several non-branded sampling locations; cadmium and copper were within reference ranges across most samples. The study is a snapshot of Peshawar market conditions over a five-month sampling window and is most useful as a regional contextual baseline rather than as a methodologically rigorous occurrence dataset.
 
 **Important note on chromium speciation:** the analyte reported is total chromium by atomic absorption spectrometry; the paper does not distinguish Cr-VI from total Cr. Regulatory limits and toxicological reference values differ substantially between these two species, so the values on this page are routed to [[metals/chromium]] and must not be conflated with Cr-VI occurrence data.
@@ -101,15 +103,15 @@ Significant methodological limitations relevant to downstream use:
 - Cu added to `metals:` because the paper measures Pb/Cd/Cr/Cu, but Cu is reported as low across both branded and non-branded samples and does not bind any HMTc analyte (Cu is not in the HMTc 10-analyte vocabulary); it is included for fidelity to the source and routes to [[metals/copper]] only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

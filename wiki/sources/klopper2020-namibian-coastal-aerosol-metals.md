@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Klopper et al. 2020 - Namibian coastal aerosol metals
 
+## Overview
+
 Klopper and colleagues measured inorganic elements and water-soluble ions in PM10 aerosols at the Henties Bay Aerosol Observatory on the Namibian coast and used positive matrix factorisation to apportion sources. This is upstream atmospheric-deposition and source-attribution evidence: it does not measure bottled water or a finished product, but it identifies heavy-metal aerosol burdens and likely source classes that can deposit to coastal land and marine systems.
 
 ## Key numbers
@@ -74,3 +76,17 @@ App: Context only for product thresholds. The aerosol concentrations are not pro
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason was too narrow because the paper measures heavy metals in atmospheric aerosols and apportions them to upstream source classes relevant to atmospheric deposition and environmental burden sharing.
 
 All key numbers were checked against the extracted PDF text, especially Table 1, Section 4.2.3, Section 4.2.5, the abstract, and the conclusion. Units are preserved as ng m−3 for elemental aerosol concentrations and percent mass contribution for PMF components. Arsenic is treated as total arsenic (`tAs`) because XRF elemental analysis did not speciate inorganic arsenic. Products and ingredients are intentionally empty; the filename's mineral-water query label is not the paper's matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -8,6 +8,8 @@ sources: 0
 
 # Corpus Promotion Queue
 
+## Overview
+
 This is a pilot machine-generated queue from the raw markdown corpus. Items marked as candidates need human/LLM source-page promotion before they can support public wiki claims.
 
 - **FM_12019543** (2021) — OPEN. Metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; products: infant-formula-powder-non-soy, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, root-vegetable-purees; status: candidate for review; raw: `raw/markdown/FM_12019543/FM_12019543.md`.

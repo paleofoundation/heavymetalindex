@@ -27,6 +27,8 @@ updated: 2026-05-28
 
 # Schaefer et al. 2020 — Cadmium: Mitigation strategies to reduce dietary exposure
 
+## Overview
+
 This peer-reviewed concise review, authored by FDA/CFSAN scientists, synthesises the scientific basis for cadmium in the food supply and evaluates mitigation strategies across the full supply chain from agronomic production through processing to consumer preparation. Published in the Journal of Food Science (Vol. 85, Iss. 2, 2020), the paper draws on the 2011 JECFA review, the 2009 and 2011 EFSA scientific opinions, and the FDA Total Diet Study 2014–2016 to provide US-centric concentration data. Key findings: diet is the dominant cadmium exposure pathway (approximately 90% of non-occupational, non-smoking exposure); leafy vegetables, root crops, cereals, and grains are the primary dietary contributors; and the paper identifies reducing initial plant uptake (soil pH management, cultivar selection, fertiliser choice) as a key step to reducing dietary cadmium, alongside complementary measures further down the supply chain. The paper explicitly identifies data gaps and recommends commodity-specific codes of practice.
 
 ## Key numbers
@@ -78,7 +80,7 @@ Concise review (not a systematic meta-analysis). Primary source synthesis from J
 - 2026-05-28 (Claude Opus 4.7): Merge-enhance pass against `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf` (8 pages). Changes: (a) `raw_handle` updated from legacy `manual-fetch-kimi` to current `MFK_cadmium-mitigation-strategies-to-reduce-dietary-ex` convention; (b) `raw_path` corrected to include the trailing space in `Manual Fetch Kimi /` that matches the on-disk path; (c) `products` list corrected — `products/cereal` does not exist as a wiki product page; replaced with `breakfast-cereals` (anchored on the 51 µg/kg shredded wheat cereal TDS value), `peanut-butter` (anchored on the 53 µg/kg TDS value), and preserved `sunflower-seeds`; (d) JECFA 0.1–4.8 mg/kg range reframed — the source states this range collectively for the named food-category group, not per-category; prior wording implied each category individually spanned 0.1–4.8 mg/kg, which the source does not support; (e) added p. citations to Key numbers entries to make per-claim provenance auditable; (f) added Cd body-distribution (60% liver+kidney) and 75–128 day blood half-life from p. 261 that were previously elided; (g) softened the mitigation-hierarchy framing in the opening prose — the paper does not explicitly rank soil pH > cultivar > fertiliser > processing > diet, only emphasises that initial uptake prevention is a key step; (h) added "Verification notes" section per current source-page template.
 - Brand-firewall check: paper names no brands; no scrubbing required.
 - Wiki/HMTc firewall check: synthesis claims softened to what the source explicitly states; no comparison to HMTc thresholds introduced.
-- 2026-05-28 (audit subagent application, Claude Opus 4.7): Fresh-context audit (general-purpose subagent) returned verdict REVISE with 7 ⚠️ findings, 0 ❌. All 7 verified against the source PDF and applied: (1) "children twofold higher Cd intake" attribution expanded from "EFSA, as cited" to "Clemens et al. 2013; EFSA 2009, as cited" — source p. 262 cites both; (2) Reeves & Chaney 10-fold absorption attribution sharpened from "Reeves & Chaney animal studies" to "Reeves & Chaney 2008 review" — source p. 261 specifically cites the 2008 review; (3) `matrices` ad-hoc terms `[dietary-intake, soil, crops, plant-tissue]` replaced with food-category controlled vocab `[cereals, vegetables, nuts-oilseeds, organ-meats, seafood, soil]` matching the food groups the paper actually discusses; (4) broken wikilink `[[mitigation/cadmium-agronomic-levers]]` replaced with `[[mitigation/agronomic]]` (the existing page covering this content); (5) added `wheat` and `potatoes` to "Wiki pages updated on ingest" list to match `ingredients:` frontmatter; (6) Implications/Certification softened — removed pre-deciding of specific ppb anchor values, reframed as data contribution to the synthesis pass per CLAUDE.md Part 9 separation; (7) Implications/App softened similarly. No findings rejected — all were correct.
+- 2026-05-28 (audit subagent application, Claude Opus 4.7): Fresh-context audit (general-purpose subagent) returned verdict REVISE with 7 ⚠️ findings, 0 ❌. All 7 verified against the source PDF and applied: (1) "children twofold higher Cd intake" attribution expanded from "EFSA, as cited" to "Clemens et al. 2013; EFSA 2009, as cited" — source p. 262 cites both; (2) Reeves & Chaney 10-fold absorption attribution sharpened from "Reeves & Chaney animal studies" to "Reeves & Chaney 2008 review" — source p. 261 specifically cites the 2008 review; (3) `matrices` ad-hoc terms `[dietary-intake, soil, crops, plant-tissue]` replaced with food-category controlled vocab `[cereals, vegetables, nuts-oilseeds, organ-meats, seafood, soil]` matching the food groups the paper actually discusses; (4) broken wikilink `[[mitigation/cadmium-agronomic-levers]]` replaced with `[[mitigation/agronomic]]` (the existing page covering this content); (5) added `wheat` and `potatoes` to "Wiki pages updated on ingest" list to match `ingredients:` frontmatter; (6) Implications/Certification softened — removed pre-deciding of specific ppb anchor values, reframed as data contribution to the synthesis pass separation; (7) Implications/App softened similarly. No findings rejected — all were correct.
 
 ## Wiki pages updated on ingest
 
@@ -95,15 +97,15 @@ Concise review (not a systematic meta-analysis). Primary source synthesis from J
 - [[mitigation/agronomic]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

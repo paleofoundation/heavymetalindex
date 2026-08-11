@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month
 
+## Overview
+
 The Joint FAO/WHO Expert Committee on Food Additives established a provisional tolerable monthly intake for cadmium of 25 µg per kilogram body weight per month at its 73rd meeting in 2010 ([[sources/jecfa-73rd-cadmium-2010|JECFA 73rd 2010]]), with the associated 73rd-meeting report published in 2011 as WHO Technical Report Series No. 960. The PTMI is the international health-based reference value for dietary cadmium exposure, chosen on a monthly rather than weekly averaging window specifically to reflect cadmium's long biological half-life (10 to 30 years in kidney and liver) ([[sources/jecfa-73rd-cadmium-2010|JECFA 73rd 2010]]). It is the reference value against which Codex Alimentarius maximum levels for cadmium are aligned ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]), and against which dietary exposure assessments are routinely expressed as percent-of-PTMI ([[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]]).
 
 The 73rd meeting monograph (WHO Food Additives Series No. 64) is the primary published derivation document and is in the corpus ([[sources/jecfa-73rd-cadmium-2010|JECFA 73rd 2010]]). The 91st meeting monograph (WHO Food Additives Series No. 82, 2022) carries the value forward and explicitly attributes it to the 73rd meeting ([[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]]).
@@ -84,16 +86,27 @@ The factor-of-approximately-2.3 gap between the JECFA PTMI (weekly-equivalent 5.
 
 _Pending: WHO Technical Report Series No. 960 (2011) summary report companion to the 73rd meeting._
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/jecfa-73rd-cadmium-2010|Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241660648)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

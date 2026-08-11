@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: childrens-makeup
 public_page: products/childrens-makeup
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Children's Makeup (ages 0-5)

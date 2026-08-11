@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Noh et al. 2023 — Arsenic species in rice-based processed products in South Korean markets
 
+## Overview
+
 Cross-sectional market-survey monitoring study of total arsenic (tAs) and four arsenic species (AsV, AsIII, MMA, DMA) in 239 rice-based processed foods purchased from South Korean domestic markets between February and August 2019. The authors stratified samples into ten product categories (seven adult, three for infants and young children) and ran a margin-of-exposure (MOE) risk assessment against the EFSA BMDL₀₁ of 0.3 µg iAs/kg bw/day across five Korean age strata. Inorganic arsenic (iAs) was computed as the sum of AsV and AsIII. The paper concludes that mean iAs is broadly comparable to international rice-based-food monitoring data; that rice cakes, adult snacks, and rice-based baby powder represent the categories with MOE values low enough to flag for age-specific concern; and that the iAs/tAs correlation is modulated by ingredient diversity (seaweed-containing categories show low iAs/tAs because organoarsenicals from seaweed inflate tAs without inflating iAs).
 
 ## Key numbers
@@ -117,3 +119,17 @@ The paper contributes A-tier occurrence data for the rice-bulk-grain, rice-cake 
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/teething-and-snacks-rice-based]]
 - [[products/infant-porridges-dairy-free]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

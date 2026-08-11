@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Lai et al. 2025 — Phthalates in disposable diapers and paired urinary metabolites/8-OHdG in 66 Guangzhou infants
 
+## Overview
+
 This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-detectable isomers) in inner-layer disposable-diaper samples from 66 Guangzhou infants and nine urinary phthalate monoester metabolites (mEP, miBP, mnBP, mEHP, mEHHP, mEOHP plus the non-detectable mBzP and mMP) and 8-hydroxydeoxyguanosine (8-OHdG) in paired spot urine. Authors estimate the daily intake (DI) of each phthalate via dermal absorption from diapers and the proportion that diaper-derived dermal absorption contributes to the total daily intake (TDI back-calculated from urinary metabolites). DEHP was the predominant phthalate in diapers (median 1670 ng/g, 48.8 % of ΣPAEs); urinary mEHP-derived DEHP metabolites were the most abundant (Σ mDEHP 87.1 ng/mL median). Diaper DnBP correlated weakly with urinary mnBP (r = 0.259, p = 0.035), and urinary metabolites correlated with the oxidative-DNA-damage biomarker 8-OHdG (r = 0.265-0.316, p < 0.01). The paper measures **no heavy metals** and contributes no occurrence data to the HMI corpus; it is ingested as a methodology and exposure-pathway reference for diaper-derived dermal absorption in infants — the paired diaper + urine + biomarker design and the body-burden / TDI ratio framework are reusable for HMI heavy-metals modeling if/when comparable analyte data become available.
 
 ## Key numbers
@@ -107,15 +109,15 @@ Cross-sectional paired-sample study, Guangzhou Women and Children's Medical Cent
 - 2026-05-17 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/toxics13030218` not present; raw_handle `MFK_infants-dermal-exposure-to-phthalates-from-disposa` not present; cite-key stem `lai2025` not present. PDF SHA-256 `3a4b48c9a92214b7d1a3e0ba16da8937b157e226ca915de5de8ca49a3472f736`. Paper measures phthalates only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lea2018 and aurisano2022 precedents. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) for discoverability as a diaper-paper but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

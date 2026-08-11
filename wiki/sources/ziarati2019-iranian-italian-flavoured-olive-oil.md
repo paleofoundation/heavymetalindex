@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Ziarati et al. 2019 — Toxic metals in Iranian and Italian flavoured olive oil
 
+## Overview
+
 This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Table 3 reports higher Iranian Pb, Cd, and As combined means than Italian samples and a lower Iranian Ni combined mean, although the narrative text states that Iranian Ni was higher; treat the country-level Ni comparison as source-internal contradictory. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
 
 ## Key numbers
@@ -87,15 +89,15 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 - 2026-05-25 Claude cross-audit (fresh-context subagent): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

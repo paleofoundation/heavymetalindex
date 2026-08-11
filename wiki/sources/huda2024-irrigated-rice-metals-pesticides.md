@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Huda et al. 2024 - Heavy metals and pesticides in irrigated rice near Dhaka
 
+## Overview
+
 Huda et al. (2024) measured metal and pesticide residues in a soil-water-rice system near Gazipur, Bangladesh, where three rice fields were irrigated with water sources influenced by nearby industrial activity. The routeable product occurrence data are the rice-grain concentrations in Table 3; soil, irrigation water, husk, and stem values are supply-chain context and should not be pooled as finished-grain values. Arsenic and mercury are reported only as total/unspecified As and Hg, so this page records them as tAs and tHg, not inorganic arsenic or methylmercury.
 
 ## Key numbers
@@ -74,3 +76,17 @@ This source supports a local, industrial-area rice occurrence route for harveste
 - Matrix separation: soil, irrigation water, husk, and stem values are documented only as context. The routeable product occurrence values are rice grain only.
 - Table/prose discrepancy: the narrative paragraph on p. 7 states that Field-III Pb was higher in stems at `5966.54 µg/kg` and husks at `497.93 µg/kg`, but Table 3 places approximately `5.96 x 10^3 µg/kg` under Field-III husk and `4.97 x 10^2 µg/kg` under Field-III stem. This page follows Table 3 and flags the discrepancy rather than silently swapping labels.
 - No brand names were present. Instrument/vendor names are retained only in Methods.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

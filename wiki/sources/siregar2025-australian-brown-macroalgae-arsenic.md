@@ -26,6 +26,8 @@ sampling_year_range: 2021
 
 # Siregar 2025 — Total and inorganic arsenic across thallus sections of seven Australian brown macroalgae
 
+## Overview
+
 Siregar and colleagues measured total arsenic and water-soluble arsenic speciation (As(V), methylated arsenicals, and four arsenosugars) by HPLC-ICP-MS in seven wild brown macroalgae taxa from Mosquito Bay (NSW, Australia), sectioned into holdfast, old stipe, young stipe, and blade. Total arsenic ranged 32.3–70.2 µg/g dry weight (whole thallus), arsenosugars dominated (66–97% of arsenic, predominantly the phosphate arsenosugar), and inorganic arsenic (measured as As(V)) ranged 0.04–14.0 µg/g dw, highest in *Fucus vesiculosus* (blade) and generally higher in upper/younger sections (young stipe, blade) than in holdfast/old stipe. Inorganic arsenic in almost all taxa and sections exceeded the Australia–New Zealand 1 mg/kg seaweed limit, although these are wild seaweeds not harvested for consumption; estimated dietary-intake risk indices (THQ, CR) were below thresholds given low Australian seaweed consumption.
 
 ## Key numbers
@@ -85,12 +87,15 @@ Seven dominant brown macroalgae taxa were collected within a <100 m² area at Mo
 - Cross-source note: comparisons to Ronan 2017, Taylor & Jackson 2016, Sim 2023, Huang 2022, Wolle 2021 etc. (the source's Table 1/2 cross-study comparisons) belong to the Part 9 synthesis pass; this page reports only this study's own measurements.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e459171](https://github.com/paleofoundation/heavymetalindex/commit/e459171) | 2026-06-08 | audit: siregar2025-australian-brown-macroalgae-arsenic revised |
-| [6fe667b](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b) | 2026-06-08 | ingest: siregar2025-australian-brown-macroalgae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

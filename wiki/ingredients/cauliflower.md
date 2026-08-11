@@ -12,18 +12,16 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: cauliflower-fresh-frozen-boiled-wet-weight
-    speciation: total-Pb-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [5.9, 18.4]
     p95_ppb: 21.1
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,27 +33,23 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: cauliflower-fresh-frozen-boiled-wet-weight
-    speciation: total-As-only
-  tHg:
-    status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: cauliflower-fresh-frozen-boiled-wet-weight
-    speciation: total-Hg-only
+    last_reviewed: 2026-05-13
+  tHg:
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 97]
     p95_ppb: 128
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -67,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: cauliflower-fresh-frozen-boiled-wet-weight
-    speciation: total-Cr-only; no Cr-VI measurement in corpus
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -85,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 1.0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -94,35 +86,13 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 8
+updated: 2026-05-13
+sources: 7
 ---
 
 # Cauliflower
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | OK | 6 jurisdictions, top IN 25% | — |
-| D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 10 claims checked, 10 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cauliflower: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 4 metal(s) covered | unmapped analytes: tAs, Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 116, "Cauliflower, fresh/frozen, boiled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
@@ -134,32 +104,18 @@ Cauliflower is a Brassica vegetable that accumulates cadmium primarily through r
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | <4 | — | low | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|1]], [[sources/samma2024-bangladesh-vegetable-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=2 | 5.9–18.4 | 21.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | <3 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]] |
-| Ni | n=2 | 0–97 | 128 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | <50 | — | low | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 1.0 | high | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, total-arsenic, total-mercury, and chromium cells were resynthesized on 2026-06-11 on a cauliflower fresh/frozen/boiled wet-weight basis, the form FDA Total Diet Study Food 116 reports and the form in which the vegetable is consumed. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported all four of these analytes at typical and 95th-percentile values of zero at high confidence; those figures were an artifact of the FDA Total Diet Study composite for "Cauliflower, fresh/frozen, boiled" (n=27), in which every sample (or all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]; reporting limits Pb 4, tAs 3, tHg 1, Cr 50 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound, and recovers what the broader cauliflower-specific occurrence literature supports at the upper end. The honest floor for each analyte is the FDA reporting limit, not a measured zero.
-
-Lead rests on the FDA censored floor plus two cauliflower-specific positive surveys, both on a dry-weight basis and both from contaminated growing contexts that are not directly comparable to the FDA boiled-wet-weight composite. The Indian market-basket survey ([[sources/salhotra2017-vegetables-fruits-heavy-metals|Salhotra et al. 2017]], single composite, Jagdalpur, Chhattisgarh) reports cauliflower lead at 0.92 mg/kg dry weight, the highest lead among the five vegetables it measured. The Bangladeshi survey of the industrialized Bogura district ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]) reports cauliflower lead ranging 4.76 to 22.84 mg/kg dry weight, exceeding the Bangladesh Food Safety Authority maximum across all sites; these are industrial-district outlier values and are stratified out of the headline cell rather than pooled into it. No cauliflower-specific lead measurement on a wet-weight or boiled basis exists in the corpus, so the lead cell is published as a left-censored floor (typical [0, null]) at low confidence with no upper bound or 95th-percentile, with the dry-weight detected values carried in prose as evidence that cauliflower lead is low but non-zero in fresh produce. The pooled lead distribution moves toward the literature, away from the prior literal-zero cell, but is not given a false wet-weight quantile that the sources do not support.
-
-Total arsenic rests on the FDA censored floor alone: the FDA TDS composite is below the 3 µg/kg reporting limit across all 27 samples, and no cauliflower-specific positive arsenic measurement exists in the corpus. The total-arsenic cell is therefore a left-censored floor (typical [0, null]) at low confidence with a single contributor. Total arsenic is held distinct from inorganic arsenic, which remains a reviewed data gap because no speciated measurement exists for this ingredient.
-
-Total mercury rests on the FDA censored floor and a corroborating broad-survey non-detect. FDA reports cauliflower mercury below the 1 µg/kg reporting limit across all 27 composites. The New Zealand market-garden survey ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]) reported mercury below its 0.01 mg/kg fresh-weight limit of detection in all 153 vegetable composites across seventeen genera (including the Brassica group that contains cauliflower); that survey reports mercury only at the whole-survey level and not for cauliflower specifically, so it is carried as a broad-vegetable corroborating non-detect rather than as a cauliflower value. The total-mercury cell is a left-censored floor (typical [0, null]) at low confidence. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Chromium is reported as total chromium only at low confidence; no cauliflower hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The FDA TDS composite reports 26 of 27 samples below the 50 µg/kg reporting limit, with a single detect carrying the maximum to 600 µg/kg and the 95th-percentile still at the reporting floor. The cauliflower-specific positive anchor is the Nigerian market survey ([[sources/imongben2026-kaduna-vegetables-hra|Imongben et al. 2026]], Kaduna Metropolis), which reports cauliflower total chromium at 12.1 mg/kg dry weight; this is a dry-weight value from a market where every vegetable except carrot exceeded the cited 0.3 mg/kg EU reference, so it sits well above the FDA wet-weight floor and is not pooled into a wet-weight quantile. The chromium cell is published as a left-censored floor (typical [0, null]) at low confidence, with the dry-weight detect and the single FDA wet-weight tail (max 600 µg/kg) carried in prose. The Bangladeshi survey reported cauliflower chromium from below detection upward, with the highest chromium in tomato rather than cauliflower, and is not a cauliflower chromium anchor.
-
-Across all four cells the dominant cauliflower-specific positive data are dry-weight surveys from industrialized or contaminated growing regions in South Asia and West Africa, which cannot be relabeled as US boiled-wet-weight values and are not folded into the headline percentiles. The wastewater-irrigated Indian survey ([[sources/pal2017-wastewater-vegetables-heavy-metals|Jitender et al. 2017]]) measured cauliflower under domestic-wastewater irrigation in Hisar district, reporting elevated zinc and a chromium transfer factor for cauliflower; its cauliflower values are an exposure-pathway outlier for wastewater-irrigated produce and are excluded from the occurrence headline. The broad Chinese retail survey ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]) reported only category-level means for an all-vegetable pool and a combined brassica "kale" group of cauliflower, cabbage, and broccoli; it carries no cauliflower-specific row and is treated as broad-vegetable context, not a cauliflower value.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cd | n=2 | 5.9–18.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–97 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -171,7 +127,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -180,21 +136,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Cauliflower, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 3.5 | 5.92 | 11 | 18.4 | 21.1 | 28 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 600 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 97 | 128 | 150 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0.98 | 1.9 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 3.5 | 28 | in profile |
+| Cr | 27 | 0 | 600 | in profile |
+| Ni | 27 | 0 | 150 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 1.9 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA Total Diet Study FY2018-FY2020 provides the primary quantitative baseline for cauliflower in the US market, reporting cadmium concentrations with a median of 11 ppb and a 90th percentile of 18.4 ppb (n=27, wet weight) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Lead, total arsenic, and total mercury were below their reporting limits (4, 3, and 1 ppb respectively) in all 27 TDS composites, and chromium was below the 50 ppb reporting limit in 26 of 27 with a single detect carrying the maximum to 600 ppb; these are left-censored bounds rather than measured zeros, so they constrain the boiled-cauliflower metal burden from above rather than establishing it at zero. The low US lead result is consistent with the protected head structure of cauliflower limiting atmospheric Pb deposition, but cauliflower lead is low rather than absent: market-basket surveys that measured cauliflower by name in India ([[sources/salhotra2017-vegetables-fruits-heavy-metals|Salhotra et al. 2017]], 0.92 mg/kg dry weight) and in the industrialized Bogura district of Bangladesh ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]], 4.76 to 22.84 mg/kg dry weight) detect appreciable lead, and the Bangladeshi values exceed regulatory limits as an industrial-district outlier. Nickel was detectable at the 90th percentile (97 ppb) but below the reporting limit at the median, indicating a skewed distribution with a subset of samples from higher-Ni-soil origins [[sources/fda2022-tds-elements-fy2018-fy2020]]. Chromium in the Nigerian Kaduna market survey reached 12.1 mg/kg dry weight in cauliflower ([[sources/imongben2026-kaduna-vegetables-hra|Imongben et al. 2026]]), again a dry-weight value from a contaminated market rather than a US wet-weight equivalent. Geographic variation in metal load is expected to be moderate to high across growing regions given differences in soil background, fertiliser inputs, and irrigation water quality, with wastewater-irrigated and industrial-district produce carrying the heaviest burdens; the current corpus supports a clean separation between the low US boiled-cauliflower baseline and these contaminated-region dry-weight outliers, but not a fully resolved region-by-region wet-weight breakdown for cauliflower specifically.
+The FDA Total Diet Study FY2018-FY2020 provides the primary quantitative baseline for cauliflower in the US market, reporting cadmium concentrations with a median of 11 ppb (n=27, wet weight) and a right-skewed distribution extending into the upper tail [[sources/fda2022-tds-elements-fy2018-fy2020]]. Lead was below the reporting limit in all 27 TDS samples, consistent with the protected head structure of cauliflower limiting atmospheric Pb deposition. Nickel was detectable in the upper part of the distribution but below the reporting limit at the median, indicating skewed distribution with a subset of samples from higher-Ni-soil origins [[sources/fda2022-tds-elements-fy2018-fy2020]]. A survey of vegetables in Bogura, Bangladesh found elevated cadmium in soil and transfer to Brassica species in that region, though exact cauliflower-specific values from that source are pending structured extraction [[sources/samma2024-bangladesh-vegetable-metals]]. Geographic variation in Cd load is expected to be moderate to high across growing regions given differences in soil cadmium background, fertiliser inputs, and irrigation water quality; the current corpus does not support a region-by-region breakdown for cauliflower specifically.
 
 ## Processing effects
 
@@ -236,33 +192,41 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU Regulation (EC) No 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets a maximum level of 0.050 mg/kg fresh weight for cadmium in fresh vegetables of the Brassica genus, which includes cauliflower. The lead maximum level for fresh vegetables under the same regulation is 0.10 mg/kg fresh weight. No specific US FDA action level applies to lead or cadmium in fresh cauliflower; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) is focused on infant and toddler foods rather than fresh vegetables. The Codex general standard for contaminants (CXS 193-1995, [[regulations/codex-cadmium-mls]]) provides an international cadmium maximum of 0.050 mg/kg for Brassica vegetables. The FDA TDS median Cd value of 11 ppb is approximately 22% of the EU maximum level, indicating typical US market cauliflower is well within regulatory limits on average.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/samma2024-bangladesh-vegetable-metals|Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach]]<span class="hmi-ref-meta">Samma S, Islam Khan MS, Islam Chowdhury MT, Islam MA, Fick J, and Kaium A · Environmental Health Insights · 2024 · [doi.org/10.1177/11786302241282601](https://doi.org/10.1177/11786302241282601)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/imongben2026-kaduna-vegetables-hra\|Imongben et al. 2026]]. *Determination of some heavy metals and their potential risk in selected vegetables on sale within Kaduna Metropolis, Kaduna State, Nigeria*, World Nutrition | 2026 | Peer-reviewed | NG Cr, Mn, Fe, Co, Ni, Cu, Mo, Zn occurrence in 12 vegetable types (carrots, sweet potatoes, celery, lettuce, spinach, cabbage, broccoli, cauliflower, eggplant, avocado, peas, beans) purchased from... (n=60) |
-| 2 | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | NZ Cd, Pb, tAs, Ni, Cr, Tl, tHg occurrence in 153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites... (n=153) |
-| 3 | [[sources/samma2024-bangladesh-vegetable-metals\|Samma et al. 2024]]. *Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach*, Environmental Health Insights | 2024 | Peer-reviewed | BD Pb, Cr, Cu occurrence in Composite vegetable and soil samples from 5 vegetable species across 6 upazilas in Bogura district, Bangladesh (northern industrial... (n=30) |
-| 4 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, tAs, tHg, Cr, Ni, Cu, Zn occurrence in 244 commercially purchased food samples from six supermarkets, six farmers' markets, and one wholesale market across Shanyang and... (n=244) |
-| 5 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
-| 6 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Cauliflower, fresh/frozen, boiled (n=27); detectable concentrations for Cd, Cr, Ni, U |
-| 7 | [[sources/pal2017-wastewater-vegetables-heavy-metals\|Jitender et al. 2017]]. *Heavy Metals in Soil and Vegetables and their Effect on Health*, International Journal of Engineering Science Technologies | 2017 | Peer-reviewed | IN Cd, Pb, Cu, Zn, Cr, Ni occurrence in Vegetables grown on domestic-wastewater-irrigated farmland around Hisar district, Haryana, India |
-| 8 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=ten vegetables and fruits) |
+| 2 | [[sources/samma2024-bangladesh-vegetable-metals\|Samma et al. 2024]]. *Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach*, Environmental Health Insights | 2024 | Peer-reviewed | BD Pb, Cr, Cu occurrence in Composite vegetable and soil samples from 5 vegetable species across 6 upazilas in Bogura district, Bangladesh (northern industrial... (n=30) |
+| 3 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
+| 4 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Cauliflower, fresh/frozen, boiled (n=27); detectable concentrations for Cd, Cr, Ni, U |
+| 5 | [[sources/ullah2022-khyber-vegetables-metals\|Ullah et al. 2022]]. *Health Risk Assessment and Multivariate Statistical Analysis of Heavy Metals in Vegetables of Khyber Pakhtunkhwa Region, Pakistan*, Biological Trace Element Research | 2022 | Peer-reviewed | PK Pb, Cr, Cd, Cu, Zn, Ni, Fe, Mn occurrence in Nine locally grown vegetable types from three peri-urban D.I. Khan sectors: sectors X and Y irrigated with untreated... |
+| 6 | [[sources/pal2017-wastewater-vegetables-heavy-metals\|Jitender et al. 2017]]. *Heavy Metals in Soil and Vegetables and their Effect on Health*, International Journal of Engineering Science Technologies | 2017 | Peer-reviewed | IN Cd, Pb, Cu, Zn, Cr, Ni occurrence in Vegetables grown on domestic-wastewater-irrigated farmland around Hisar district, Haryana, India |
+| 7 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=ten vegetables and fruits) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

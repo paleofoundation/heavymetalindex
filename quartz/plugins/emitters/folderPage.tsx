@@ -15,7 +15,7 @@ import {
   simplifySlug,
 } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { FolderContent } from "../../components"
+import { CategoryDirectory } from "../../components"
 import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
@@ -38,7 +38,7 @@ async function* processFolderInfo(
     const slug = joinSegments(folder, "index") as FullSlug
     const [tree, file] = folderContent
     const cfg = ctx.cfg.configuration
-    const externalResources = pageResources(pathToRoot(slug), resources)
+    const externalResources = pageResources(pathToRoot(slug), resources, ctx)
     const componentData: QuartzComponentProps = {
       ctx,
       fileData: file.data,
@@ -104,7 +104,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
-    pageBody: FolderContent({ sort: userOpts?.sort }),
+    pageBody: CategoryDirectory({ sort: userOpts?.sort }),
     ...userOpts,
   }
 

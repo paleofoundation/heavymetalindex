@@ -2,15 +2,15 @@
 source_page: wiki/products/breakfast-cereal-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bdeca094876f8a4555b32bb412319d4f164edd9ab8efa8fcd6216beb3fc85d2c
+source_page_sha256: eadf331f00149d8af6d7e6d7b9a7fe6ca80f0508f466223942c0245acb316aa9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 1
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,13 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 1 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=cat3-breakfast-cereal-create-breakfast-cereal-non-rice-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat3-breakfast-cereal-create
+- `edit_id=7bb7c5a1-2240-4546-a039-deccefca9211` · retrieval=2026-08-06 · models=[claude-opus-4-8/standards-capbound-promoter] · agreement=not_applicable · applied=2026-08-06T19:43:10.707Z · span=across_row_review_hook
 
 ## Claims by section
 

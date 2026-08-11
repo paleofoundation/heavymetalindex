@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Rahati et al. 2026 — Heavy Metals in Infant Formula and Baby Food, Iranian Market
 
+## Overview
+
 This 2026 Journal of Health, Population and Nutrition study from Mashhad University of Medical Sciences measured 13 trace and toxic elements in 80 powdered infant formula and 27 baby food samples drawn from the Mashhad (Iran) retail market across three seasonal sampling rounds between June 2020 and June 2021, then applied deterministic and probabilistic (Monte Carlo, 10,000 iterations, 95th percentile) health risk assessment covering Hazard Quotient (HQ), Hazard Index (HI), and Cancer Risk (CR) for infants aged 0–24 months. Lead, cadmium, and mercury were below the instrument LOD in all samples; concentrations of aluminium, cobalt, chromium, copper, iron, and zinc exceeded FAO/WHO limits and drove all-age-group HI values above the EPA non-cancer threshold of 1.0. The authors summarize chromium cancer risks as ranging from 9.55 × 10⁻⁵ to 3.57 × 10⁻⁴ in the abstract and discussion, while Table 3 reports 3.75 × 10⁻⁴ for the 18–24 month infant-formula stratum.
 
 ## Key numbers
@@ -198,15 +200,15 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 - 2026-05-17 second-pass merge-enhance (Claude Code, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior subagent PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

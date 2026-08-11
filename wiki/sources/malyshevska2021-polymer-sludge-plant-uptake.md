@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Malyshevska 2021 - Polymer-waste sludge plant uptake
 
+## Overview
+
 Malyshevska evaluated the phytotoxicity of sludge from mechanical processing and washing of mixed polymer waste, then measured Pb, Cu, Cd, Zn, and Ni in growth substrates and plant material. This is not soy-product occurrence evidence: it is upstream soil-amendment and plant-uptake evidence showing how lead in a waste-derived growth substrate can migrate into plants.
 
 ## Key numbers
@@ -79,3 +81,17 @@ App: Context only. The source can support an upstream pathway explanation for le
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because the auto-fetch filename targeted soy products and the paper did not measure a finished soy product. On reading, the paper is in-scope a3 supply-chain pathway evidence because it measures heavy metals in polymer-waste sludge, growth substrates, and plant material.
 
 Numbers were checked against the extracted PDF text, especially the English abstract, Table 1, Table 2, Table 3, the discussion, and the conclusions. Decimal-comma table values are preserved as printed. Products and ingredients are intentionally empty because the paper does not report routeable finished-food occurrence values. The paper reports Pb, Cu, Cd, Zn, and Ni as total elemental heavy metals/mobile or bound forms; no arsenic, mercury, chromium, inorganic arsenic, methylmercury, or Cr(VI) data are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

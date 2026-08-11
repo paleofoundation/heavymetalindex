@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "70f2fefb9a01cd2c211c5250fc47e29d18b545a8c7326bc00ee1e4283e968790",
-      "content_bytes": 9156,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "efc07f151ecda0a05d3c2dbd30b80764ac70fd32cc9ad7b5df18d5783fce62c2",
+      "content_bytes": 10548,
+      "last_commit_sha": "9882fa9f2",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/food-packaging-foils-wraps.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/food-packaging-foils-wraps.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 7,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
         "content_pin": {
-          "content_sha256": "a351796eb4ff74bf4dfc1d45627e1ded4e8f8de9117cf55f4f45a4a27615f50f",
-          "content_bytes": 16873,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "96341355bf4d750185f608471c97fd983254db2a03da65dfe5c3e8cc7a001f8e",
+          "content_bytes": 17103,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
         }
       },
       {
@@ -61,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
         "content_pin": {
-          "content_sha256": "8ae1333eae90919f83f32ba07cbdffe61b50cb2b649669ec367e82e6c97ab0a9",
-          "content_bytes": 14794,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a8fda472a72a63cf09ff1ddfb0494e10ab106261739ae13315cd4c02d9e87213",
+          "content_bytes": 14982,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,55 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dordevic2019-aluminum-foil-culinary-baking-czech",
         "content_pin": {
-          "content_sha256": "2195b8d12c0f156edf9ac07f7565c12cbe1bb6206c7f5d53614cfcf902a74b93",
-          "content_bytes": 14861,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0c506f94bddac5b3f0042027e8d505561dfe458e127ec6155c50976a41b266f5",
+          "content_bytes": 15091,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/edqm2024-metals-alloys-food-contact-guide",
+        "title": "Metals and alloys used in food contact materials and articles: a technical guide for manufacturers and regulators, 2nd edition",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "Cr",
+          "Co",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Ag",
+          "Sn",
+          "Ti",
+          "V",
+          "Zn",
+          "Zr",
+          "tAs",
+          "Ba",
+          "Be",
+          "Cd",
+          "Pb",
+          "Li",
+          "tHg",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
+        "content_pin": {
+          "content_sha256": "325577b52e63230174d22066d794f4421bed97fbdb85a29b9e05b86a0ad7cbfb",
+          "content_bytes": 10748,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       },
       {
@@ -101,12 +144,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-aluminium-afc-2008",
         "content_pin": {
-          "content_sha256": "b324d422761dfd161b0cb304f3988985c395a5d42cf4b9453b8cf4c128dd7538",
-          "content_bytes": 21502,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "346f730990b467137c6c91846579c035119238484018f6d3cb8f8f7c77860eb7",
+          "content_bytes": 21646,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
         }
       },
       {
@@ -121,12 +164,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "5d870cdb1238a0b13b18fc0d07c6cffc7689a1a7dfdf681076686b2ec2a4cc98",
-          "content_bytes": 22319,
-          "last_commit_sha": "246411e",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a10c90f4309af4f9d07fddad67cc92b01a17cae1e00d990455a2512329b1cecb",
+          "content_bytes": 23062,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 246411e:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stahl2017-aluminum-food-contact-part1",
+        "title": "Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
+        "content_pin": {
+          "content_sha256": "cf870c3769ac695957da5ff27d2d3f32f574253bc4efc8c694f0f6e438ecc336",
+          "content_bytes": 8152,
+          "last_commit_sha": "9882fa9f2",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9882fa9f2:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       }
     ]

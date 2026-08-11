@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Atmospheric deposition of heavy metals
 
+## Overview
+
 A second upstream pathway runs in parallel to root uptake from soil, and for some elements it is the one that explains the contamination a food carries. Heavy metals released into the air as fine particles and vapours travel with the wind, fall back to the ground, and settle onto soil, standing crops, surface water, and grazing land. The metal that lands this way is added to the burden a plant or animal is exposed to, sometimes by adhering directly to the harvested surface and sometimes by accumulating in the soil over years until it becomes part of the reservoir that the [soil-to-plant pathway](/supply-chain/soil-to-plant-transfer) then draws on. This page is the hub for the deposition half of the corpus. It sets out the major emission sources whose plumes carry metals to agricultural land, the physics of how that metal is delivered and redistributed, the quantitative discipline that governs how an air or deposition measurement may be used, and the way this evidence attaches to the ingredient and metal pages downstream. Lead is the element for which this pathway matters most, and much of what follows is organised around it, but cadmium, arsenic, nickel, and mercury all have meaningful atmospheric components.
 
 ## Emission sources whose plumes deposit metals
@@ -39,3 +41,17 @@ Deposition studies do double duty. A near-source gradient downwind of a smelter,
 ## How upstream-source evidence connects to food pages in this index
 
 Source pages reporting ambient-air concentrations, deposition fluxes, biomonitor surveys, near-source gradients, and emission inventories are upstream evidence, and the routing layer attaches each of them to the consumable it informs as exposure context rather than as direct food-occurrence evidence. A smelter-gradient study of lead in roadside soil and vegetation routes to [lead](/metals/lead) and to the [leafy vegetables](/ingredients/leafy-vegetables) and [root vegetables](/ingredients/root-vegetables) pages as deposition context; a study of cadmium and arsenic deposition near a coal-fired plant routes to [cadmium](/metals/cadmium) and [inorganic arsenic](/metals/arsenic-inorganic) and feeds the soil-reservoir account that the [soil-to-plant pathway](/supply-chain/soil-to-plant-transfer) develops; a port-air nickel-and-vanadium study routes to [nickel](/metals/nickel); a coal-combustion mercury study routes to the atmospheric account behind [methylmercury](/metals/mercury-methyl), with the reminder that the dietary mercury problem is downstream in the aquatic food web, not in the deposition itself. Aluminium appears chiefly through coal-combustion and industrial dusts and routes to [aluminum](/metals/aluminum) as exposure context. The actionable counterpart to the deposition narrative is the [agronomic mitigation](/mitigation/agronomic) page, where site selection away from active and legacy deposition sources, soil-dust management, and post-harvest washing and peeling are collected as levers. Throughout, the separation set out above holds: the deposition evidence explains the contamination, and only the measured food concentration records it.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | Contamination-profile values revised; 6 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

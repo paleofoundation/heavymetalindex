@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Andrade et al. 2023 - Metals in Portuguese cow milk and soy beverages
 
+## Overview
+
 Andrade and colleagues measured lead, cadmium, and manganese in 28 retail beverages purchased on the Portuguese market in Lisbon between February and May 2019, split evenly between 14 cow-milk (CM) brands and 14 soy-beverage (SB) brands. The basis is liquid as-purchased, measured in micrograms per liter; the authors do not convert to per-kilogram or apply a reconstitution factor. Soy beverages carried significantly higher cadmium (mean 5.6 μg/L vs 2.15 μg/L, p < 0.05) and roughly twenty-fold higher manganese (mean 117.4 μg/L vs 5.93 μg/L, p < 0.05) than cow milk; lead was numerically higher in cow milk (19.3 vs 13.4 μg/L) but the difference was not statistically significant (p > 0.05). The cow-milk Pb mean sat just under the EU 2023/915 maximum level of 20 μg/kg, and one cow-milk brand's cadmium value exceeded the 5 μg/kg EU ceiling that applies to infant-formula products manufactured from cow's milk proteins.
 
 ## Key numbers
@@ -96,12 +98,15 @@ The source reports its cow-milk Cd and Mn global means at two different precisio
 Audit subagent (2026-06-08) flagged `products/milk-and-dairy` as absent from `docs/gpt-collaboration/taxonomy-snapshot.md`; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. `wiki/products/milk-and-dairy.md` exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No frontmatter change applied. Audit subagent (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [4808881](https://github.com/paleofoundation/heavymetalindex/commit/4808881) | 2026-06-08 | audit: andrade2023-cow-milk-soy-metals revised |
-| [38e8071](https://github.com/paleofoundation/heavymetalindex/commit/38e8071) | 2026-06-08 | ingest: andrade2023-cow-milk-soy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

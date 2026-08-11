@@ -33,6 +33,8 @@ created_by: claude-opus-4-7
 
 # Kopru & Soylak 2024 — Trace metals in Turkish children's cosmetics by ICP-MS [RETRACTED]
 
+## Overview
+
 > **RETRACTED ARTICLE.** The published PDF supplied for ingest carries a "RETRACTED ARTICLE" watermark on every page. The retraction notice text itself is not part of the supplied PDF, and the retraction date and stated grounds are not visible in this file. This page is preserved as a record of the published claims but evidence tier is downgraded to C and the values must not be pooled into HMTc threshold-setting synthesis or into the consumer-app scoring layer. Any downstream use requires Karen's review of the retraction notice first.
 
 This open-access Optical and Quantum Electronics study (received 24 Nov 2023, accepted 19 Dec 2023, published online 22 Jan 2024) tested thirty children's-cosmetics products purchased from the Turkish market for thirteen elemental impurities (Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Hg, Cd, Pb) by inductively coupled plasma mass spectrometry following microwave acid digestion (HNO₃ 65 % + H₂O₂ 35 %, 9:1). The panel covered 22 eye shadows, 4 lipsticks, and 4 nail polishes drawn from three anonymized "children's toy makeup kits" (Brand 1, Brand 2, Brand 3) marketed for children in Turkey. The authors compared their findings against US FDA cosmetic limits (Pb 20 µg g⁻¹ for color additives), Health Canada Product Safety Laboratory limits (3 µg g⁻¹ for As/Cd/Hg; 10 µg g⁻¹ for Pb), and the German BfR cosmetic-impurity guidance (Cd 5, As 5, Hg 1, Pb 20 µg g⁻¹), reporting that "the results of As, Cd, Hg, Pb … are below the limits set by the Food and Drug Administration (FDA) and Health Canada Product Safety Laboratory (PSL) for the 3 brands" — a conclusion that the per-product Table 4/5 values do not uniformly support (see Implications). Evidence tier is **C**: the article is retracted, the n=1 sample structure per (brand × color) combination limits standalone weight on any single value, calibration range (0-50 µg L⁻¹) is narrow relative to several reported in-product concentrations (notably Al), and the paper presents per-color findings without aggregating to product-form pooled summaries. Retracted-article status overrides any consideration of B-tier on the basis of method clarity.
@@ -220,15 +222,15 @@ The authors describe lead exposure across all 22 eye shadows in 3 brands and acr
 - 2026-06-01 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. Three numerical-fidelity findings (one ❌ on a panel-maxima narrative misattribution, one ⚠️ on an imputed value not in source, one ⚠️ raising two additional discussion-vs-table contradictions). Two of three findings confirmed and applied; one ⚠️ sub-claim (Pb 10.7 vs 12.2 for Brand 1) verified as a false positive (different product forms) and rejected with documentation. Checks 2-5 (slug vocabulary, speciation/methods, brand firewall, wiki-HMTc firewall) all clean. No changes to per-product Tables 4-5 transcription (verified clean cell-by-cell against the source PDF).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

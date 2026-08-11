@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Augustine et al. 2020 - Lafia irrigated farmland soil
 
+## Overview
+
 Augustine and colleagues measured lead and cobalt in surface soils from an irrigated vegetable farmland near the Amba River in Lafia, Nigeria. The source is not utensils or finished-product occurrence evidence: it is upstream irrigation/farmland pathway evidence for metals in soil where vegetables are grown.
 
 ## Key numbers
@@ -77,3 +79,17 @@ App: Context only. The page can support pathway and source-attribution narrative
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked finished-food or utensil occurrence values. On reading, it is in-scope a3 pathway evidence because it measures Pb and Co in irrigated vegetable-farmland soil and links the soil context to Amba River irrigation inputs.
 
 Numbers were checked against the extracted PDF text, especially the abstract, sampling section, Table 1, Table 2, Table 3, Table 4, the heavy-metals discussion, and the conclusion. Units and digestion methods are preserved as printed. The page does not infer crop concentrations from soil values, and no brand or product route is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

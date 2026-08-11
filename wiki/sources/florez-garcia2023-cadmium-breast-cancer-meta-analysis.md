@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Florez-Garcia et al. 2023 — Meta-analysis of cadmium exposure and female breast cancer: pooled OR 1.13, dietary route non-significant
 
+## Overview
+
 This random-effects meta-analysis of 17 epidemiological studies evaluates the association between cadmium exposure and female breast cancer incidence, stratifying by exposure route (dietary, airborne, biomarker-based). The pooled odds ratio across all routes is 1.13 (95% CI: 1.00, 1.28; I² = 77%), indicating a borderline elevated risk with substantial heterogeneity. When stratified by exposure route, dietary cadmium alone is not linked to elevated risk (OR: 1.05; 95% CI: 0.91, 1.21; I² = 69%), but biomarker-based studies show a non-significant elevated pooled estimate (OR: 1.37; 95% CI: 0.96, 1.94; I² = 84%). Only two of the 17 studies addressed airborne cadmium directly. No clear difference in risk by menopausal status was observed. The authors note that residual confounding by tobacco smoke constituents (a major Cd exposure route) remains a concern in interpreting the biomarker-based subgroup.
 
 ## Key numbers
@@ -57,15 +59,15 @@ Microbiome: Not directly relevant.
 - [[health/cadmium-carcinogenicity]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Adegbola et al. 2015 — Metals in snacks and drinks sold in Ibadan, Nigeria
 
+## Overview
+
 Adegbola and colleagues measured calcium, chromium, copper, iron, lead, and cadmium in 34 snack, drink, candy, biscuit, concentrate, and milk-product samples sold in Ibadan, Nigeria. The samples were cold-digested with hydrochloric acid and nitric acid and analyzed by flame atomic absorption spectrophotometry. The paper reports coded sample IDs rather than public brand names in its tables; this page keeps the occurrence data at the product-group level. Chromium is reported as total Cr only, with no Cr-VI speciation.
 
 ## Key numbers
@@ -85,11 +87,15 @@ This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr,
 - 2026-06-09 audit (autonomous): REVISE verdict. Numerical fidelity ✅ across all four tables; methods ✅; speciation ✅; brand firewall ✅; HMTc firewall ✅. The audit's only ❌/⚠️ concerns were the source-internal sample-count discrepancy (added to verification notes here) and a flag on `matrices:` vocabulary. The matrices flag was a false positive: per existing wiki convention `matrices:` is a free-form descriptive vocabulary listing the physical sample types in the source, not a closed slug list like `products:` or `ingredients:`, and product/matrix overlap (e.g., `carbonated-drinks` matrix vs `soft-drinks-carbonated-beverages` product) is expected — the two vocabularies serve different purposes (what was sampled vs HMTc routing).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ae87c34](https://github.com/paleofoundation/heavymetalindex/commit/ae87c34) | 2026-06-08 | ingest: adegbola2015-nigeria-snacks-drinks-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

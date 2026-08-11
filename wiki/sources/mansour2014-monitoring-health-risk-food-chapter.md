@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Mansour 2014 — Monitoring and health risk assessment of heavy metals in food (Wiley book chapter)
 
+## Overview
+
 Chapter 13 of *Practical Food Safety: Contemporary Issues and Future Directions* (Bhat & Gómez-López, eds., Wiley-Blackwell 2014) by Sameeh A. Mansour of Egypt's National Research Centre. The chapter has two halves: §13.2 surveys the analytical-method toolbox for heavy metals in food (colorimetric, FAAS, GFAAS, ICP-AES, ICP-MS, XRF screening) with detection-limit characteristics, and §§13.3–13.5 compile contamination occurrence and dietary-health-risk-assessment results from a broad international literature (with the author's own Egyptian cucumber and potato farming-system work as the most extensively reported primary data). Quantitative anchors include Tables 13.1–13.4 plus Figures 13.1–13.5: Egyptian-market medicinal-plant concentrations of 10 metals (Abou-Arab et al. 1999), seasonal heavy-metal content in cucumber from conventional/greenhouse/organic Egyptian farms (Mansour et al. 2009a), the same for potato tubers (Mansour et al. 2009b), Egyptian Pb and Cd dietary intakes from 20 vegetables and fruits (Soliman et al. 1997), and HRI bars for Cd and Pb in 10 Indian foodstuffs from wastewater-irrigated sites (Singh et al. 2010). The framework half lays out DIM, DDI, HQ, HRI, PTWI/RfD/ADI methodology with the standard equations.
 
 ## Key numbers
@@ -235,15 +237,15 @@ Three definite errors flagged by the fresh-context audit subagent and verified a
 No false positives in this round. All other audit checks returned ✅.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

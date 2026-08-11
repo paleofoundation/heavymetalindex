@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # EL Daouk et al. 2020 — Aluminum exposure from food in the Lebanese population
 
+## Overview
+
 This is the first national-scope study of dietary aluminum (Al) exposure in Lebanon. The authors combined a targeted retail-market survey of 97 food items measured by flame atomic absorption spectrometry (FAAS) with a self-administered Electronic Food Frequency Questionnaire (E-FFQ) completed by 167 Lebanese adults to estimate Daily Dietary Exposure (DDE) and Provisional Tolerable Weekly Intake (PTWI) for Al. Food selection followed the second French Total Diet Study (EAT2) and Lebanese Food Based Dietary Guidelines, with explicit inclusion of traditional Lebanese foods cooked in aluminum utensils (kanafeh, maamoul, foul, falafel, shawarma) and acidic foods stored in metal cans or aluminum foil. Mean Al concentration across the 97 items was 3.56 ± 2.08 mg/kg fresh weight (range 0.14–9.37 mg/kg), with the highest group-mean concentrations in vegetables, sauces and condiments, candies, ready meals, potatoes, and coffee/cocoa/tea. Mean DDE was estimated at 4341.18 µg/day, giving a 50th-percentile Dietary Weekly Intake (DWI) of 0.50 mg/kg bw/week at an assumed 60 kg body weight — half of the JECFA/EFSA PTWI of 1 mg/kg bw/week — and a 95th-percentile DWI of 1.01 mg/kg bw/week, at the threshold. Top contributors to ingested Al by total daily food mass were soft drinks, fresh tomatoes, tea, ice cream, Turkish coffee, and fresh lettuce. The authors attribute the bulk of Al loading to packaging (cans, foil, capsules), cookware migration into acidic foods, and food additives, with secondary contribution from soil/irrigation-water uptake into vegetables.
 
 ## Key numbers
@@ -222,12 +224,15 @@ None of the gender, age-group, or region differences reached p < 0.05; reported 
 - 2026-06-08 — Paper-internal inconsistency in Methods Section 2.3.1 + Table 1: the text states "Flame Atomic Absorption Spectrometry (FAAS) … Nitrous oxide (N₂O) was used as oxidant gas", but Table 1 (titled "FAAS operating parameters for the determination of Al, Shimadzu cookbook") lists an eight-step temperature program ramping from 60 °C to 2600 °C with internal N₂ flow 0.10–1.00 L/min — a graphite-furnace AAS (GFAAS) atomizer program, not a flame AAS instrument profile (which does not have a programmable temperature ramp). The Shimadzu AA-6800 supports both flame and graphite-furnace modes, but the table parameters describe the GFAAS pathway while the text describes a flame N₂O-acetylene Al determination. The recovery, LOD, LOQ, and accuracy values reported in Section 2.3.3 are consistent with FAAS-Al performance; we reproduce both descriptions as printed and note the inconsistency here rather than silently picking one. Not a stop condition: the analytical results stand on their reported recovery/LOD/precision against CRM regardless of which atomization pathway was used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [246411e](https://github.com/paleofoundation/heavymetalindex/commit/246411e) | 2026-06-08 | audit: el-daouk2020-aluminum-food-lebanon revised |
-| [234c2cf](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf) | 2026-06-08 | ingest: el-daouk2020-aluminum-food-lebanon fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2023 - ESR tattoo-ink heavy-metal risk assessment
 
+## Overview
+
 Gautam prepared an ESR health-risk assessment for Manatu Hauora/Te Whatu Ora on heavy metals in tattoo inks used for professional permanent tattoos. The report is not a new laboratory survey, but it selects maximum concentrations from the 2012 New Zealand Ministry of Health tattoo-ink survey for exposure assessment and summarizes international occurrence studies, NZ/EU/US regulatory context, and EU recall patterns. It is A-tier regulatory/exposure context for tattoo inks; occurrence values should be traced to the source surveys named in the report.
 
 ## Key numbers
@@ -87,3 +89,17 @@ App: For tattoo-ink pages, this source can support cards on NZ EPA impurity limi
 - Brand firewall: Table 2 names recalled tattoo-ink products and attaches metal concentrations to those recall events. This page summarizes only aggregate recall counts and de-identified maxima; no product/brand name is attached to a contamination value.
 - Evidence tier: `A` because this is an agency risk-assessment report prepared by ESR for New Zealand health authorities, with clear scope, exposure assumptions, regulatory citations, and peer/management review. It remains regulatory/exposure context rather than a primary measurement source.
 - Routing: all frontmatter product slugs appear in `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

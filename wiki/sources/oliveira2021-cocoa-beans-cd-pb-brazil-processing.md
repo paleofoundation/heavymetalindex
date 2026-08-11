@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Ferreira de Oliveira et al. 2021 — Cd and Pb in cocoa beans from Brazil, Côte d'Ivoire and Ecuador, with a pilot-scale processing-partition study
 
+## Overview
+
 Ferreira de Oliveira and colleagues at ITAL Campinas and UNICAMP measured cadmium and lead by ICP OES in 90 batches of fermented, dried cocoa beans from four Brazilian states (Bahia, Pará, Espírito Santo, Rondônia), Côte d'Ivoire, and Ecuador, then processed one Bahia batch in a pilot-scale "bulk" line (roast → grind → press) into shells, liquor, cocoa powder, and cocoa butter to track how Cd and Pb partition through the chain. Cd ranged from <0.0015 to 1.598 mg/kg across beans; Pb ranged from <0.022 to 2.528 mg/kg. Eight percent of bean batches exceeded the cocoa-liquor Cd ceiling (Brazil/Mercosul 0.3 mg/kg), 66% exceeded the cocoa-liquor Pb ceiling (0.5 mg/kg), and all four Ecuador batches exceeded both Brazil/Mercosul (0.3) and EU (0.6 mg/kg, cocoa powder) Cd ceilings. The processing study showed Cd concentrates in the non-lipid fractions: 59% of bean Cd was retained in the mill residue during grinding, 35% went to liquor and then to cocoa powder during pressing, 6% stayed in the shell, and cocoa butter was effectively Cd-free (<0.0015 mg/kg LOD). A worst-case 15.75 g/day 100%-cocoa-chocolate exposure scenario for Brazilian consumers showed the Ecuador-bean and Pará-bean Cd levels alone would push child intake to 204% and 105% of the JECFA PTMI respectively; the 30.4 g/day German consumption scenario hit 398% of PTMI for children using Ecuadorian beans.
 
 ## Filename / paper-identity note
@@ -167,15 +169,15 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 - 2026-06-02 — Fresh-context audit subagent (general-purpose) returned REVISE with two ⚠️ in Check 2 and three ⚠️ in Check 5. Applied: (i) softened the cross-source "consistent with" framing in §3.3 to an observational note that defers cross-source reconciliation to a synthesis pass; (ii) reworded the Implications/Certification block to remove a clean/dirty subcategory pre-decision (Part 19 / Part 2 firewall — clean/dirty designations are Standards Workbench outputs and do not live in `wiki/`) and to remove a prescriptive "belongs in chocolate Levers section" implication-list line; (iii) added regulation wikilinks for EU 1881/2006, EU 2021/1323, EU 2023/915, China GB 2762-2012, and Codex Cd MLs to fan the source to those pages. Findings rejected as false positives: none. Matrices vocabulary (`cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate`) is intentionally form-specific because the paper operationally distinguishes these as separate sample forms with separate measured values; sibling source `cbi2024-cocoa-eu-market-requirements` uses overlapping vocabulary (`cocoa, chocolate, cocoa-powder, dark-chocolate, milk-chocolate`).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # AICIS 2022 - Aluminium in antiperspirants and deodorants
 
+## Overview
+
 The Australian Industrial Chemicals Introduction Scheme evaluated aluminium salts used in antiperspirants and deodorants as a public human-health risk assessment. The report does not contain new product testing, but it summarizes SCCS concentration and exposure data for deodorant and antiperspirant formulations. This page records the finished-product aluminium context and exposure assumptions without treating the report as a market survey.
 
 ## Key numbers
@@ -73,3 +75,17 @@ App: The source can support an Australian regulatory-context card for antiperspi
 - Brand firewall: the report uses formulation/product categories and an anonymized industry survey; no brand-linked values are reported here.
 - Evidence tier: `A` because this is an official AICIS regulatory evaluation. It is not primary occurrence evidence because AICIS did not generate the concentration data.
 - Routing: product slug `deodorants` and metal slug `aluminum` appear in the taxonomy snapshot. No closed ingredient slug is appropriate for the aluminium-salt group, so `ingredients` is left empty rather than inventing a salt-specific slug. `npm run evidence:source-routes` exited 0, generated one `deodorants` product route, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking empty-ingredients advisory in `routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

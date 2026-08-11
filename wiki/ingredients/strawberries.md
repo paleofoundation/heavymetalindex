@@ -8,11 +8,11 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 10]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [2.1, 15]
@@ -36,18 +36,16 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 2]
-    p95_ppb: 5
+    typical_ppb: [0, 1]
+    p95_ppb: 3
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: fresh-strawberry-wet-weight
-    speciation_note: total-Hg-only; no MeHg measurement in corpus; upper anchor is a Polish fresh-berry-subgroup proxy, not strawberry-specific
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 64]
     p95_ppb: 70.5
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-13
   Al:
@@ -59,13 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [6, 32]
+    typical_ppb: [0, 32]
     p95_ppb: 56
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: fresh-strawberry-wet-weight
-    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 14.1]
@@ -77,7 +73,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0.8
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -86,35 +82,13 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 9
 ---
 
 # Strawberries
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=25 | — |
-| D2 Regional coverage | OK | 5 jurisdictions, top PL 57% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg CONFIDENT, Ni CONFIDENT, Al THIN, Cr CONFIDENT, Sn THIN, U THIN | iAs: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming strawberries: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -126,28 +100,24 @@ Strawberries (Fragaria x ananassa and related species) are a low-accumulation fr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| Cd | n=4 | 2.1–15 | 17.8 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| iAs | n=1 | 21.4–66.3 | 75.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=3 | 0–5.7 | 6.0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| tHg | n=2 | 0–2 | 5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
-| Ni | n=3 | 0–64 | 70.5 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Al | n=1 | 236.5–1665 | 1668 | low | — |
-| Cr | n=2 | 6–32 | 56 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
-| Sn | n=1 | 0–14.1 | 14.5 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
-| U | n=2 | 0 | 0.8 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–10 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|4]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|5]] |
+| Cd | n=4 | 2.1–15 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| iAs | n=1 | 21.4–66.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=3 | 0–5.7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
+| Ni | n=3 | 0–64 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Al | n=1 | 236.5–1665 | low | — |
+| Cr | n=3 | 0–32 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/reczajska2005-chromium-plant-foods-poland\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
+| Sn | n=1 | 0–14.1 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 
-The total mercury and chromium cells were resynthesized on 2026-06-11 on a fresh-strawberry wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis FDA Total Diet Study Food 86 ("Strawberry, raw/frozen") reports.
+The earlier profile carried strawberry lead, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros were an artifact of the FDA Total Diet Study reporting the 27 strawberry samples below their reporting limits (lead below 4 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each cell is now treated as left-censored at its reporting limit, with dry-weight sources converted to fresh weight using the strawberry edible fraction of 0.09.
 
-Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported total mercury and chromium at typical and 95th-percentile values of zero with high confidence. Those figures were an artifact of the FDA Total Diet Study composites for strawberry, in which every sample fell below the reporting limit and the reported zeros were pooled as literal zeros. For total mercury, FDA reported all 27 composites below the 1 µg/kg reporting limit; for chromium, all 27 below the 50 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). A fully censored cell does not establish that the analyte is absent; it establishes only that the analyte is below the reporting limit in this dataset. The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and recovers the upper distribution from primary fresh-fruit occurrence literature.
-
-Total mercury is recovered at low confidence. No strawberry-specific quantitative mercury value exists in the corpus: the only strawberry-specific measurement is the fully censored FDA cell. The upper anchor is a Polish national-monitoring proxy ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]], total mercury by cold-vapor atomic absorption), which reports the fresh-berries-and-small-fruits subgroup — a group the source defines to include strawberries, raspberries, currants, blackberries, gooseberries, cranberries, blueberries, and grapes — at a mean of 0.4 to 2.1 µg/kg fresh weight (lower-to-upper-bound substitution) and a 90th percentile of 1 to 5 µg/kg fresh weight. Because this anchor is a berry-subgroup aggregate and not a strawberry-specific measurement, it is carried as an explicitly labeled proxy and caps confidence at low; the typical upper bound of 2 µg/kg is the subgroup mean upper bound and the published 5 µg/kg figure entered as the p95 anchor is the subgroup 90th percentile (no true 95th percentile is published). Mercury here is total mercury measured by cold-vapor AAS; no methylmercury speciation exists for this matrix, and methylmercury is never inferred from total mercury. Mania's authors note that mercury in fruit is treated as essentially inorganic for exposure modeling, consistent with EFSA's position that organic mercury contributes negligibly outside fish and seafood.
-
-Chromium is recovered at low confidence and is reported as total chromium only; no strawberry hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The distribution rests on a strawberry-specific Polish survey ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]], total chromium by Zeeman electrothermal atomic absorption, n=42), in which strawberries were among the highest-chromium plant commodities measured, with a range of 6 to 134 µg/kg fresh weight, a mean of 32 µg/kg, a median of 28 µg/kg, and a 90th percentile of 56 µg/kg. Regional means within Poland varied roughly twofold, from 21 µg/kg in Lubelskie to 47 µg/kg in Kujawsko-Pomorskie, with the single highest lot of 134 µg/kg in Mazowieckie. The typical band of 6 to 32 µg/kg is anchored to the Reczajska range minimum and mean; the p95 anchor of 56 µg/kg is the Reczajska 90th percentile, with the species maximum of 134 µg/kg noted as the upper tail rather than folded into the headline percentile. The South Korean fresh-fruit survey ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]]) corroborates the central tendency at the fruit-category level — total chromium was detected in 100 percent of 207 fruit samples at a fruit-wide mean of 30.7 µg/kg fresh weight, with apple highest at 56.7 µg/kg and persimmon lowest at 15.5 µg/kg — but does not report a strawberry-specific chromium mean, so it is carried as fruit-category corroboration rather than as a strawberry anchor. The fully censored FDA cell (all 27 composites below the 50 µg/kg reporting limit) is consistent with the Reczajska distribution, whose median of 28 µg/kg sits well below that reporting limit. A separate strawberry-pomace value of below 0.01 mg/kg total chromium appears in a by-product review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]); it is a processing-fraction (pomace) measurement, not fresh fruit, and is not folded into the fresh-strawberry percentiles.
+Fresh-weight surveys show these metals are consistently detectable. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]] reported strawberry lead at a mean of 6 ppb, [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] fresh berries lead at 8 to 17 ppb with a P90 of 26 to 38 and mercury at a middle-bound mean of 0.4 to 2.1 ppb, [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]] Polish fresh strawberry lead at a mean of 9 ppb (max 27), and [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]] Romanian strawberry lead near 10 to 11 ppb. For chromium, [[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]] measured total chromium directly in 42 Polish strawberries at a mean of 32 ppb, median 28, P90 56, and maximum 134 ppb fresh weight, corroborated by the Lee fruit chromium near 31 ppb. Elevated allotment-garden lead from [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]] is carried as a tail; chromium values are total chromium, not Cr-VI.
 
 ## Routing
 
@@ -155,7 +125,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -168,15 +138,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Strawberry, raw/frozen" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 1.8 | 2.06 | 8.5 | 15 | 17.8 | 34 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 64 | 70.5 | 76 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0.77 | 9.5 | in profile |
-| tAs | 27 | 0 | 0 | 3.3 | 5.74 | 6.01 | 8.3 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 1.8 | 34 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 76 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 9.5 | in profile |
+| tAs | 27 | 0 | 8.3 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -222,10 +192,25 @@ _No quantified data on packaging or storage effects on strawberry metal content 
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), strawberries fall within the berries and small fruits category. The applicable Pb maximum level is 0.10 mg/kg (100 ppb) wet weight, and the Cd maximum level is 0.050 mg/kg (50 ppb) wet weight. The FDA does not publish a specific action level for Pb or Cd in strawberries; the general tolerance framework under 21 CFR applies. The Closer to Zero program (see [[regulations/fda-closer-to-zero]]) addresses Pb reduction in foods for babies and young children broadly, and strawberry purees used in infant and toddler food formulations fall within scope of the CTZ reduction goals even where no berry-specific numerical limit currently exists.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+3. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea]]<span class="hmi-ref-meta">Lee J, Hwang I, Park YS, and Lee DY · Applied Biological Chemistry · 2023 · [doi.org/10.1186/s13765-023-00799-x](https://doi.org/10.1186/s13765-023-00799-x)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment]]<span class="hmi-ref-meta">Mania M, Rebeniak M, Chabros E, Orshulyak O, and Postupolski J · Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) · 2021 · [doi.org/10.32394/rpzh.2021.0188](https://doi.org/10.32394/rpzh.2021.0188)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania]]<span class="hmi-ref-meta">Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. · Horticulturae · 2022 · [doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/reczajska2005-chromium-plant-foods-poland|Determination of Chromium Content of Food and Beverages of Plant Origin]]<span class="hmi-ref-meta">Reczajska W, Jedrzejczak R, and Szteke B · Polish Journal of Food and Nutrition Sciences · 2005</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits]]<span class="hmi-ref-meta">Sembratowicz I, Rusinek E, and Ognik K · Polish Journal of Environmental Studies · 2010</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -241,15 +226,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10bb2e5ec](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ec) | 2026-08-09 | correction | 7 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

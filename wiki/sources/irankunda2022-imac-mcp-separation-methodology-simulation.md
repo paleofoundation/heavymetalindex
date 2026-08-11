@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Irankunda 2022 — Metal-chelating peptides separation using IMAC: methodology and simulation
 
+## Overview
+
 Irankunda and co-authors review the experimental methodology of Immobilized Metal Ion Affinity Chromatography (IMAC) for separating metal-chelating peptides (MCPs) from enzymatic protein hydrolysates and propose a chromatography-modelling and simulation workflow in which sorption-isotherm parameters measured by Surface Plasmon Resonance (SPR) are used as input data for a transport-dispersive model of IMAC. The review's framing is functional-food and nutraceutical manufacturing — MCPs as carriers for nutritionally essential metals (Ca²⁺, Fe²⁺, Zn²⁺, Cu²⁺) and as antioxidants — not contamination of food by toxic heavy metals. The paper notes in passing that MCPs can also remove heavy metals such as Cd²⁺, Ni²⁺, As³⁺ and Pb²⁺ from the environment for decontamination applications, but reports no measurements on such removal. This source is recorded here for its coordination-chemistry background — HSAB classification of metal ions and amino-acid donor groups, complexing-agent denticity, and the parameters controlling peptide–metal binding — which underpins primary studies in the HMI corpus that quantify binding of toxic heavy metals to food protein hydrolysates. No occurrence values for HMI's regulated heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) appear.
 
 ## Key numbers
@@ -83,11 +85,15 @@ The HSAB-framework classification, the donor-atom preferences of peptide side ch
 - Speciation: As³⁺ in Table 2 is the inorganic species; the paper does not separately classify As⁵⁺. Pb is given only as Pb²⁺. Hg is given as both Hg⁺ and Hg²⁺; the paper does not distinguish methylmercury. No HMI speciation flags (iAs vs tAs, MeHg vs tHg, Cr-VI vs Cr) need to be set on this page because no measurements are reported.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [d050fde](https://github.com/paleofoundation/heavymetalindex/commit/d050fde) | 2026-06-08 | ingest: irankunda2022-imac-mcp-separation-methodology-simulation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

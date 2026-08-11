@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # NCI 2024 — Nickel Compounds (Cancer-Causing Substances factsheet)
 
+## Overview
+
 The National Cancer Institute's consumer-facing factsheet in its Cancer-Causing Substances series summarises the carcinogenicity of nickel compounds for a general-public audience. It states that exposure to various nickel compounds increases the risks of lung cancer and nasal cancer, that occupational inhalation in mining, smelting, welding, casting, and grinding is the dominant exposure route, and that general-population exposures via air, water, food, tobacco smoke, and nickel-plated materials (coins, jewellery, stainless steel cooking and eating utensils) are "almost always too low to be of concern." The page is a tertiary synthesis: its four cited references are the EPA Health Effects Notebook for Hazardous Air Pollutants (2000), the IARC Monograph Volume 100C (2012), the NIOSH Pocket Guide to Chemical Hazards (2010), and the NTP 15th Report on Carcinogens (2021).
 
 ## Summary
@@ -60,12 +62,15 @@ App: low utility — no occurrence data, no thresholds, no matrix-specific guida
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

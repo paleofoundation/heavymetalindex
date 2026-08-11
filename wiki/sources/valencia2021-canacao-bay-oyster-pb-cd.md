@@ -6,8 +6,8 @@ title: "Heavy metal accumulation and risk assessment of lead and cadmium in cult
 authors: [Valencia HB, Caballar EJM, Dioneda SCC, Gomez JAE, Obanan SP]
 year: 2021
 publication: "Sustinere: Journal of Environment and Sustainability 5(2), 64-78"
-doi: 10.22515/sustinerejes.v5i2.159
-access_url: "https://doi.org/10.22515/sustinerejes.v5i2.159"
+doi: "10.22515/sustinere.jes.v5i2.159"
+access_url: "https://doi.org/10.22515/sustinere.jes.v5i2.159"
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
@@ -28,6 +28,8 @@ updated: 2026-06-03
 ---
 
 # Valencia et al. 2021 — Pb and Cd in cultured *Crassostrea iredalei* oysters, Cañacao Bay, Philippines
+
+## Overview
 
 Valencia and colleagues measured lead and cadmium in 214 cultured slipper-cupped oysters (*Crassostrea iredalei*) and parallel surface-seawater samples taken from three sampling stations across the Cañacao Bay mariculture area (Cavite Province, Luzon, Philippines) over the four months October 2016 to January 2017, spanning the wet-to-dry seasonal transition. The bay is a section of the larger Manila Bay and is bordered by a residential coastal community, the Cavite-Manila ferry route, and a steel corporation outfall. Concentrations were quantified by inductively coupled plasma optical emission spectrometry (ICP-OES) on a Shimadzu ICPE-9810 after dry-ashing acid digestion, with results expressed in mg/kg for oyster soft tissue and mg/L for seawater. Tissue Pb and Cd ranged below the maximum permitted levels set by FAO, FSAI, and FSANZ in every month at every station; target hazard quotients (THQ) and total target hazard quotient (TTHQ) computed for a Filipino adult reference (65 kg BW, 71-year exposure duration, 3.50 g/person/day oyster ingestion) were below 1.0 in every monthly cell, indicating no appreciable non-carcinogenic risk for the modelled adult population. Pb in oyster tissue varied significantly between wet and dry seasons (p<0.05); Cd did not. No significant differences in either metal were observed across the three sampling stations.
 
@@ -156,22 +158,22 @@ Three sampling stations were established within the Cañacao Bay mariculture are
 - Full paper pages 1-10 (abstract, methods, all results/tables 1-3, figures 2-3, discussion, conclusion, opening of references) read directly from the PDF. Tables 1-3 numeric values transcribed verbatim, including the (*) "below detection limit" footnotes and the "*computed at 0.1 mg/kg" annotation on the October and January Pb THQ rows.
 - Speciation flags: the source measures total Pb (elemental Pb by ICP-OES at 220.353 nm) and total Cd (elemental Cd by ICP-OES at 226.502 nm). No methylmercury, no inorganic-arsenic-vs-total-arsenic distinction (arsenic is not measured in this study).
 - Units preserved as the source reports them: mg/kg for oyster soft tissue (fresh-weight basis; the dry-ashing digestion is sample preparation, not a basis change), mg/L for seawater, dimensionless THQ/TTHQ. No silent conversion to ppb or ppm.
-- Method-vendor names retained per CLAUDE.md Part 12 Exception 2: Shimadzu ICPE-9810 (ICP-OES instrument), Garmin GPSMAP 62s (geolocation), FLIR Systems ExStik II DO600 and pH meter (in-situ physicochemical), APEL PD-303UV (turbidity spectrophotometer), IBM SPSS Statistics 20.0 (statistical software), GraphPad Prism 7 (statistical software).
+- Method-vendor names retained Exception 2: Shimadzu ICPE-9810 (ICP-OES instrument), Garmin GPSMAP 62s (geolocation), FLIR Systems ExStik II DO600 and pH meter (in-situ physicochemical), APEL PD-303UV (turbidity spectrophotometer), IBM SPSS Statistics 20.0 (statistical software), GraphPad Prism 7 (statistical software).
 - Brand-firewall: no consumer-brand contamination attributions appear in the source. The steel corporation adjacent to Station 3 is not named in the paper and is not named here.
 - Part 2 wiki/HMTc firewall: this page reports the Cañacao Bay Pb and Cd values, the THQ/TTHQ computation, and the FAO/FSAI/FSANZ ceilings the authors cite. It does not propose, soften, or strengthen any HMTc shellfish threshold; the Implications section is restricted to noting routing destinations and the source's status as one contributor among many for any future HMTc percentile-pool analysis.
 - One textual oddity in the source (resolved against Table 1, no correction to wiki values needed): page 4 of the PDF (paragraph immediately above the oyster-Pb paragraph that precedes Table 1) reads "Cd concentrations ranged from 0.2 mg/kg to 0.9 mg/kg levels." This sentence is inconsistent with Table 1 (Cd-in-oyster individual-station values 0.02-0.09 mg/kg; monthly means 0.027-0.083 ± 0.006 mg/kg) and with the abstract (Cd 0.027 ± 0.006 to 0.083 ± 0.006 mg/kg), and the 0.2-0.9 mg/kg range is exactly 10× the actual Table 1 Cd-in-oyster individual-station range. The most parsimonious reading is a decimal-place typographical error in the source itself (intended Cd-in-oyster-tissue range, miswritten by one order of magnitude); the surrounding paragraph context (Gobas 2001 cited for detection-limit discussion, sediment-binding gloss) makes the "comparison study" reading less likely. The Key-numbers table values for Cd in Cañacao oysters come from Table 1 and the abstract and are internally consistent at the 0.02-0.09 mg/kg order of magnitude.
 - 2026-06-03 — Fresh-context audit subagent (verdict REVISE) flagged two ⚠️ concerns: (a) the 0.2-0.9 mg/kg textual oddity is most plausibly a decimal-place typo (10× the actual Table 1 Cd-in-oyster range), not a comparison-study gloss as the initial draft hedged; (b) the "15-20 samples per station per month" wording read as if quoted from source but is a derived figure consistent with the monthly total of 52-57 divided across three stations. Both ⚠️ concerns verified independently against the PDF and applied: typo-reading clarified in this Verification-notes section above and `sample_population` reworded to reflect that the per-station figure is consistent-with rather than verbatim-quoted. No ❌ definite-error findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [3f56d4a](https://github.com/paleofoundation/heavymetalindex/commit/3f56d4a) | 2026-06-03 | audit: valencia2021-canacao-bay-oyster-pb-cd revised |
-| [b0f84a5](https://github.com/paleofoundation/heavymetalindex/commit/b0f84a5) | 2026-06-03 | ingest: valencia2021-canacao-bay-oyster-pb-cd fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

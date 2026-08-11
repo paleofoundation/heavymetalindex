@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hasan et al. 2022 - Heavy metals in raw and pasteurized liquid milk from Bangladesh
 
+## Overview
+
 Hasan and colleagues measured Fe, Cu, Mn, Zn, Pb, Cd, Cr, and total As in 128 milk samples from Bangladesh, split evenly between raw cow milk and liquid pasteurized milk. The paper is routeable for milk occurrence because it reports concentration means, minima, maxima, and SDs in mg/kg for each matrix, with separate raw and pasteurized rows. The highest mean values in both matrices were for Cu and Cr; Pb averaged 0.013 mg/kg in both raw and pasteurized milk, while Cd averaged 0.032 mg/kg in raw milk and 0.027 mg/kg in pasteurized milk.
 
 ## Key numbers
@@ -37,7 +39,7 @@ All concentration values below are reported by the paper in mg/kg.
 
 ## Methods (brief)
 
-Samples were digested and analyzed by atomic absorption spectrophotometry for Fe, Cu, Mn, Zn, Pb, Cd, Cr, and As. The paper reports separate descriptive statistics for raw cow milk and liquid pasteurized milk, allowing row-fit to stay in the native milk forms rather than mixing raw and processed samples. The arsenic result is total arsenic; no inorganic arsenic speciation is provided.
+Samples were collected in sterile glass bottles, held below 4 C during transport and storage, and analyzed within 24 hours. Digestion used microwave digestion with 5 mL 65% nitric acid and 2 mL 30% hydrogen peroxide, and metals were measured on a Thermo Scientific iCE 3000 atomic absorption spectrophotometer for Fe, Cu, Mn, Zn, Pb, Cd, Cr, and As. Reported method detection limits were 0.005 mg/kg for Cr and Zn, 0.002 mg/kg for Mn and Pb, and 0.001 mg/kg for Cd, Fe, and Cu; the extracted method text does not list an As detection limit. The paper reports separate descriptive statistics for raw cow milk and liquid pasteurized milk, allowing row-fit to stay in the native milk forms rather than mixing raw and processed samples. The method reports total element concentrations: total arsenic, total chromium, total lead, and total cadmium. The arsenic result is total arsenic; no inorganic arsenic speciation is provided.
 
 ## Implications
 
@@ -65,15 +67,15 @@ The source contributes Bangladesh-market cow milk occurrence data for [[metals/l
 - The raw and pasteurized matrices are reported separately in the paper and should remain separated during pooling unless a downstream milk category explicitly admits both forms.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [a203c6947](https://github.com/paleofoundation/heavymetalindex/commit/a203c6947) | 2026-06-11 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

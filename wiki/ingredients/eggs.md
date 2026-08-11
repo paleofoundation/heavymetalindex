@@ -8,52 +8,46 @@ category: animal-food
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 200]
-    p95_ppb: 690
-    confidence: medium
-    n_studies: 4
-    basis: whole-egg-fresh-weight
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 12]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 37]
-    p95_ppb: 67
+    typical_ppb: [0, 3]
+    p95_ppb: 6
     confidence: low
     n_studies: 4
-    basis: whole-egg-fresh-weight
-    last_reviewed: 2026-06-11
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
-  tAs:
-    status: populated
-    typical_ppb: [0, 230]
-    p95_ppb: 230
-    confidence: low
-    n_studies: 5
-    basis: whole-egg-fresh-weight
-    p95_note: highest grounded egg-fraction tAs value (Islam2015 chicken egg, whole egg); prior 600 was Ezike2024 max across 36 pooled poultry-product samples (muscle/gizzard/yolk/albumen), not an egg-fraction value
-    last_reviewed: 2026-06-11
-  tHg:
-    status: populated
-    typical_ppb: [0, 43]
-    p95_ppb: 266
-    confidence: low
-    n_studies: 4
-    basis: whole-egg-fresh-weight
-    last_reviewed: 2026-06-11
-  Ni:
-    status: populated
-    typical_ppb: [0, 63]
-    p95_ppb: 1300
+    typical_ppb: [0, 3]
+    p95_ppb: 5
     confidence: low
     n_studies: 2
-    basis: whole-egg-fresh-weight
-    last_reviewed: 2026-06-11
+    last_reviewed: 2026-08-09
+  tAs:
+    status: populated
+    typical_ppb: [0, 15]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
+  tHg:
+    status: populated
+    typical_ppb: [0, 1]
+    p95_ppb: 3
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
+  Ni:
+    status: populated
+    typical_ppb: [0, 30]
+    p95_ppb: 63
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [0, 1773]
@@ -63,63 +57,38 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 140]
-    p95_ppb: 140
+    typical_ppb: [0, 50]
+    p95_ppb: 100
     confidence: low
     n_studies: 3
-    basis: whole-egg-fresh-weight
-    species_note: total-Cr-only; no Cr-VI speciation in corpus
-    p95_note: anchored to Li2026 whole-egg total Cr (140 µg/kg); prior 190 was Mahbub2018 egg-albumen, the same feed-contaminated cohort whose Pb (3340 µg/kg) is stratified out, so stratified out here for consistency
-    last_reviewed: 2026-06-11
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 35.5]
     p95_ppb: 47.2
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 32
+updated: 2026-05-13
+sources: 34
 ---
 
 # Eggs
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=57 | — |
-| D2 Regional coverage | OK | 27 jurisdictions, top CN 38% | — |
-| D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni CONFIDENT, Al THIN, Cr POOLABLE, Sn THIN, U THIN | Al: needs 1 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 4 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming eggs: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Al: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -127,7 +96,7 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Eggs are a low-to-negligible heavy metal risk food under normal commercial production conditions. The mechanism by which metals enter eggs is dietary transfer from the laying hen's feed: cadmium, lead, arsenic, and other metals ingested by the hen distribute between excretion, tissue accumulation (liver and kidney are the primary accumulation organs), and limited transfer to the egg. Transfer rates from feed to egg for cadmium and lead are very low, typically below 1% on a weight basis, which means that even hens consuming moderately contaminated feed produce eggs with very low metal concentrations. Mercury follows a somewhat different pathway and accumulates in hen tissues more readily at high exposure, but under commercial feed conditions mercury exposure is minimal.
 
-The FDA TDS FY2018-FY2020 data for hard-boiled eggs (n=27 composites, TDS Food 37) reports every measured toxic-metal analyte below its reporting limit across all 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]] (reporting limits of 4 µg/kg for lead, 1 µg/kg for cadmium, 3 µg/kg for total arsenic, 1 µg/kg for total mercury, 40 µg/kg for nickel, 50 µg/kg for chromium, and 1 µg/kg for uranium). This is a strong low-risk signal for the US market basket, but it is a left-censored result rather than a measured zero: the primary occurrence literature detects all of these metals in eggs at low but non-zero concentrations, with elevated tails in free-range, contaminated-environment, and feed-contaminated production. The corrected per-analyte values and their censoring treatment are set out in the Synthesis basis section below. This censored-clean US result is consistent with the expectation for eggs from commercial laying hens on formulated feeds under normal production conditions.
+The FDA TDS FY2018-FY2020 data for hard-boiled eggs (n=27 composites, TDS Food 37) reports all seven measured analytes at zero across all 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], which is the most unambiguous low-risk signal in the TDS dataset for any commodity in this wiki batch. This result is consistent with the expectation for eggs from commercial laying hens on formulated feeds under normal production conditions in the US market basket.
 
 The exception to this low-risk characterization is environmental contamination at extreme levels. [[sources/aendo2024-thailand-egg-metals-goldmine]] documented elevated Pb, Cd, and other metals in eggs from poultry farms near an active gold mine in northern Thailand, demonstrating that when hens are exposed to highly contaminated feed or free-range environments adjacent to industrial contamination sources, metals transfer to the egg at detectable and toxicologically relevant concentrations. This exception underscores that the low-risk characterization applies to commercial production systems with controlled feed, not to backyard or free-range production in contaminated environments.
 
@@ -135,32 +104,24 @@ The exception to this low-risk characterization is environmental contamination a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–200 | 690 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Cd | n=4 | <1–37 | 67 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
-| iAs | n=4 | 0 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| tAs | n=5 | <3–230 | 230 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
-| tHg | n=4 | <1–43 | 266 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Ni | n=2 | <40–63 | 1300 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]] |
-| Al | n=2 | 0–1773 | 2689 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Cr | n=3 | <50–140 | 140 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]], [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|3]] |
-| Sn | n=1 | 0–35.5 | 47.2 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0–12 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|3]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|4]], [[sources/ezike2024-nigerian-poultry-pte\|5]], [[sources/aendo2024-thailand-egg-metals-goldmine\|6]] |
+| Cd | n=4 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|4]] |
+| iAs | n=2 | 0–3 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| tAs | n=3 | 0–15 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|4]], [[sources/ezike2024-nigerian-poultry-pte\|5]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]], [[sources/aendo2024-thailand-egg-metals-goldmine\|4]] |
+| Ni | n=3 | 0–30 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | n=2 | 0–1773 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=3 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|3]] |
+| Sn | n=1 | 0–35.5 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 
-The lead, cadmium, total arsenic, total mercury, nickel, and chromium cells were resynthesized on 2026-06-11 on a whole-egg fresh-weight basis, the form in which eggs enter the ingredient supply chain. Most primary occurrence literature reports whole-egg or separated yolk/albumen concentrations in mg/kg wet weight, which converts directly to ppb. Total arsenic and inorganic arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; the iAs cell is unchanged by this pass and only speciated measurements populate it. Total mercury and methylmercury are likewise kept distinct.
+The earlier all-zero contamination profile for eggs was a censoring artifact rather than a finding. FDA hard-boiled egg composites (n=27) fell below the reporting limit for every analyte, with reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb for total arsenic, 1 ppb for total mercury, 40 ppb for nickel and 50 ppb for chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Those below-limit results were coded as literal zeros and pooled, which understated occurrence. Re-synthesis treats each nondetect as left-censored at its reporting limit and anchors the central range on whole-egg surveys that quantify below those limits. On a wet-weight basis of whole-egg homogenate, [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]] measured lead at about 5 to 18 ppb, total arsenic at 6 to 19 ppb, nickel at 15 to 63 ppb, chromium at 53 to 140 ppb and cadmium at 1.5 to 2.3 ppb, and [[sources/rokanuzzaman2022-bangladesh-eggs-metals|Rokanuzzaman et al. 2022]] reported chicken egg-content lead near 10 ppb after dry-to-wet conversion at 0.24. Eggs are a low-metal matrix, but the honest central value is a small left-censored number, not zero.
 
-The earlier profile reported lead, cadmium, total arsenic, total mercury, nickel, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for hard-boiled eggs (TDS Food 37, n=27), in which every sample of every analyte fell below the reporting limit and the reported zeros were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The reporting limits were 4 µg/kg for lead, 1 µg/kg for cadmium, 3 µg/kg for total arsenic, 1 µg/kg for total mercury, 40 µg/kg for nickel, 50 µg/kg for chromium, and 1 µg/kg for uranium. Values below the analytical limit are treated as left-censored, not as measured zeros: the honest low end of each cell is written as a less-than bound at the FDA reporting limit, and the detected distributions are taken from the primary literature, in which all six resynthesized metals are low but non-zero, with right tails driven by free-range, contaminated-environment, and feed-contaminated production.
-
-The lead distribution rests on whole-egg Chinese data ([[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]], whole-egg mean 12 µg/kg, range 5.4 to 18 µg/kg across nine areas), Bangladeshi market eggs ([[sources/islam2015-bangladesh-foods-heavy-metals|Islam et al. 2015]], chicken egg mean 200 µg/kg, duck egg 100 µg/kg), and Italian retail eggs ([[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], supermarket yolk 186 µg/kg, supermarket albumen 688 µg/kg by edible fraction), with the 95th-percentile anchor set by the Guerrini supermarket albumen value. Bangladeshi smallholder rinsings ([[sources/rokanuzzaman2022-bangladesh-eggs-metals|Rokanuzzaman et al. 2022]]) corroborate the low-to-moderate central range (brown-layer egg content 44 µg/kg). The cadmium distribution rests on the same Li, Islam, and Rokanuzzaman whole-egg data plus Nigerian poultry products ([[sources/ezike2024-nigerian-poultry-pte|Cosmas et al. 2024]], albumen Cd up to 67.2 µg/kg, which sets the 95th-percentile anchor); Li reports whole-egg cadmium at 1.5 to 2.3 µg/kg near the FDA floor, Islam chicken egg at 37 µg/kg. Total arsenic rests on a very clean Iranian commercial cohort ([[sources/abedi2023-arsenic-mercury-hen-eggs-iran|Abedi et al. 2023]], whole-egg mean 0.79 µg/kg) and Li (6.0 to 19 µg/kg) at the low end and Islam chicken egg (230 µg/kg) at the upper-typical end, which also sets the 95th-percentile anchor because it is the highest egg-fraction total-arsenic value in the corpus. The Nigerian poultry-products study ([[sources/ezike2024-nigerian-poultry-pte|Cosmas et al. 2024]]) reports a total-arsenic range of 0.0403 to 0.5970 mg/kg, but the 0.5970 mg/kg (597 µg/kg) maximum is the highest value across all 36 pooled poultry-product samples (muscle, gizzard, yolk, and albumen), not an egg-fraction value; the only egg-fraction value the study isolates is yolk at 0.1213 mg/kg (121 µg/kg). The earlier profile anchored the 95th percentile to the 597 µg/kg pooled-poultry maximum, which over-stated the egg-fraction tail; the cell is re-anchored to the highest grounded egg-fraction value (230 µg/kg) and the poultry-product maximum is treated as a non-egg-fraction proxy only.
-
-Total mercury rests on Abedi (whole-egg mean 0.18 µg/kg) and Chongqing total-diet eggs ([[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Chen et al. 2025]], eggs 1.2 to 3.1 µg/kg) at the clean floor, a Jakarta market value ([[sources/kurniawati2021-jakarta-staple-foods-naa|Kurniawati et al. 2021]], egg 43 µg/kg by neutron activation) at the upper-typical end, and a highly variable Italian supermarket albumen ([[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], albumen mean 266 µg/kg, one supermarket sample to 1077 µg/kg) at the 95th percentile. Nickel rests on the clean whole-egg Li distribution (15 to 63 µg/kg, the only corpus distribution that resolves below the FDA 40 µg/kg reporting limit) for the central estimate, with Islam Bangladeshi chicken egg (1300 µg/kg) setting a wide, low-confidence 95th-percentile spread; the Islam dataset reports a uniformly elevated nickel baseline across all commodities and is read as a high-analytical-baseline anchor rather than a typical value. Chromium rests on Li whole-egg total chromium (53 to 140 µg/kg) and a low Jakarta value ([[sources/kurniawati2021-jakarta-staple-foods-naa|Kurniawati et al. 2021]], egg 20 µg/kg), with the 95th percentile anchored to the Li whole-egg upper bound (140 µg/kg). The Bangladeshi egg-albumen value ([[sources/mahbub2018-poultry-feed-meat-eggs-metals|Mahbub et al. 2018]], albumen total chromium to 190 µg/kg) comes from the same feed-loaded albumen cohort whose lead (3340 µg/kg) is stratified out of the lead central estimate as feed-contaminated; for consistency that cohort's chromium is treated the same way and is not used to set the chromium 95th percentile. The earlier profile anchored the chromium 95th percentile to that Mahbub albumen value while excluding the same cohort's lead, an inconsistency this pass corrects by stratifying both.
-
-Chromium is reported as total chromium at low confidence; no egg hexavalent-chromium measurement exists in the corpus and no Cr-VI fraction is inferred. Uranium is recorded as a reviewed data gap: the FDA Total Diet Study egg composite reports uranium fully below its 1 µg/kg reporting limit, and no non-FDA egg-uranium occurrence value with an extractable number is present in the routed corpus, so no distribution is published.
-
-Documented mining, industrial, and feed-contaminated outliers are stratified separately and do not set the central estimates above. Pakistani feed-contaminated poultry ([[sources/iqbal2023-poultry-feed-pakistan|Iqbal et al. 2023]], whole-egg lead mean 8956 µg/kg and chromium 1952 µg/kg, driven by Farm E/F feed exceedances) and Bangladeshi feed-loaded eggs ([[sources/mahbub2018-poultry-feed-meat-eggs-metals|Mahbub et al. 2018]], albumen lead to 3340 µg/kg) represent contaminated-feed strata. Duck eggs from mercury-mining areas in Guizhou ([[sources/guo2024-duck-eggs-hg-mining-china|Guo et al. 2024]], yolk chromium 410 µg/kg dry weight, lead 80 µg/kg dry weight) and goldmine-adjacent poultry in Thailand ([[sources/aendo2024-thailand-egg-metals-goldmine|Aendo et al. 2024]]) document the contaminated-environment ceiling that the low-risk commercial characterization explicitly excludes. These strata are reported in prose and are not folded into the global percentiles.
+Inorganic and total arsenic are kept separate. Fresh chicken eggs were below the 3 ppb inorganic-arsenic detection limit in the direct-speciation Hong Kong Total Diet Study ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), and inorganic arsenic is only a small fraction of the low total arsenic measured elsewhere, so the inorganic-arsenic cell is published as a thin, left-censored value rather than derived from total arsenic. Values from environmentally contaminated or compartment-specific studies are held as elevated context and are not allowed to drive central estimates: the free-range mining-area eggs in [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]], the yolk and albumen values of Italian supermarket and rural eggs in [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], the Nigerian farm poultry of [[sources/ezike2024-nigerian-poultry-pte|Ezike et al. 2024]], and the gold-mine-area duck eggs of [[sources/aendo2024-thailand-egg-metals-goldmine|Aendo et al. 2024]] all sit well above the commercial central range and inform only the upper tail.
 
 ## Routing
 
@@ -168,7 +129,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -181,15 +142,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Eggs, hard-boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -243,10 +204,26 @@ _No quantified data on packaging or storage effects on heavy metal content in eg
 
 Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in eggs is 0.10 mg/kg (100 ppb) on a fresh weight basis, and for cadmium in eggs it is 0.050 mg/kg (50 ppb) fresh weight. These limits reflect the historical possibility of elevated metals in eggs from free-range hens on contaminated land, rather than a risk specific to commercial production. The US TDS all-zero result for hard-boiled eggs [[sources/fda2022-tds-elements-fy2018-fy2020]] is consistent with the EU limits being non-binding in practice for commercially produced US market eggs. No US federal maximum level for lead or cadmium in eggs has been finalized as of 2026. Codex Alimentarius (CXS 193-1995 and revisions) sets a general lead limit of 0.10 mg/kg for eggs, consistent with the EU limit.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+3. [[sources/aendo2024-thailand-egg-metals-goldmine|Heavy metal contamination in eggs on poultry farms and ecological risk assessment around a gold mine area in northern Thailand]]<span class="hmi-ref-meta">Aendo P, Mingkhwan R, Senachai K, Pinniam N, Sonthong K, and Tulayakul P · Environmental Geochemistry and Health · 2024 · [doi.org/10.1007/s10653-024-02215-9](https://doi.org/10.1007/s10653-024-02215-9)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Heavy metal concentrations in Chinese chicken eggs: insights from comparative study of urban and mining areas]]<span class="hmi-ref-meta">Li X, An Y, and Wang Z · PeerJ · 2026 · [doi.org/10.7717/peerj.20896](https://doi.org/10.7717/peerj.20896)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/rokanuzzaman2022-bangladesh-eggs-metals|Assessment of Heavy Metals and Trace Elements in Eggs and Eggshells of Gallus gallus domesticus, Coturnix coturnix and Anas platyrhynchos from Bangladesh]]<span class="hmi-ref-meta">B. M. Rokanuzzaman, Umme Salma, Nasrin Akter Bristy, Shoumik Kundu, Sayeda Sadia Alam, and Md. Ibrahim Khalil · Saudi Journal of Biomedical Research · 2022 · [doi.org/10.36348/sjbr.2022.v07i04.004](https://doi.org/10.36348/sjbr.2022.v07i04.004)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/cfs2012-hktds-inorganic-arsenic|The First Hong Kong Total Diet Study: Inorganic Arsenic]]<span class="hmi-ref-meta">Centre for Food Safety FEHD HKSAR · Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region · 2012 · [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm]]<span class="hmi-ref-meta">Guerrini A, Roncada P, Al-Qudah KM, Isani G, Pacicco F, Peloso M, et al. · Animals · 2024 · [doi.org/10.3390/ani14071133](https://doi.org/10.3390/ani14071133)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/ezike2024-nigerian-poultry-pte|An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products]]<span class="hmi-ref-meta">Ezike Chidiebere Cosmas, Ekere Nwachukwu Romanus, Abugu Hillary Onyeka, Ihedioha Janefrances Ngozi, Odum Paul Ugochukwu, Nwoke Stanley Ugochukwu, et al. · International Journal of Agricultural Invention · 2024 · [doi.org/10.46492/ijai/2024.9.1.23](https://doi.org/10.46492/ijai/2024.9.1.23)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/dai2024-chongqing-dietary-arsenic-exposure|Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China]]<span class="hmi-ref-meta">Dai Xinghui, Li Mintao, Chen Jiahui, Feng Ping, Chen Jingrong, Zhao Jian, et al. · Chinese Journal of Public Health · 2024 · [doi.org/10.12182/20241160509](https://doi.org/10.12182/20241160509)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -256,44 +233,46 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 4 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | CN tAs occurrence in Chongqing city residents; food samples from 39 districts collected 2018-2023 covering 10 food categories; dietary consumption data from... (n=4900) |
 | 5 | [[sources/ezike2024-nigerian-poultry-pte\|Cosmas et al. 2024]]. *An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products*, International Journal of Agricultural Invention | 2024 | Peer-reviewed | NG tAs, Pb, Cd occurrence in Broiler muscle, gizzard, yolk, and albumen samples from four poultry farms in Nigeria (n=36) |
 | 6 | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|Guerrini et al. 2024]]. *Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm*, Animals | 2024 | Peer-reviewed | tAs, Cd, tHg, and Pb separately in yolk, albumen, and eggshell of 141 rural Italian eggs (5 hen genotypes) and 60 commercial organic eggs by ICP-MS; supermarket eggs had higher Pb (yolk 0.186 vs 0.089 mg/kg), rural eggs higher tAs in albumen and shell |
-| 7 | [[sources/guo2024-duck-eggs-hg-mining-china\|Guo et al. 2024]]. *Heavy metal contamination in duck eggs near mercury mining areas in southwest China*, Frontiers in Public Health | 2024 | Peer-reviewed | Cr, Pb, Zn, Sr, and Ba in 50 duck eggs across five farms in a Guizhou Hg mining area by ICP-MS; Cr and Pb exceeded Chinese food safety limits at the most contaminated sites |
-| 8 | [[sources/guo2024-duck-eggs-hg-mining-china\|Guo et al. 2024]]. *Heavy metal contamination in duck eggs from a mercury mining area, southwestern China*, Frontiers in Public Health | 2024 | Peer-reviewed | Pb and Cr in 20 paired duck eggs from the Wuchuan Hg mining area vs Anshun background area, southwestern China, by ICP-MS; mining-area yolks consistently higher than whites and higher than background, with non-negligible child health risk |
-| 9 | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|Abedi et al. 2023]]. *Consumer health risk assessment of Arsenic and Mercury in hen eggs through Monte Carlo simulations*, BMC Public Health | 2023 | Peer-reviewed | IR tAs, tHg occurrence in 84 hen eggs from 21 major commercial brands purchased from 30 supermarkets in five districts of Tehran, Iran,... (n=84) |
-| 10 | [[sources/aljohani2023-heavy-metal-toxicity-poultry\|Aljohani 2023]]. *Heavy metal toxicity in poultry: a comprehensive review*, Frontiers in Veterinary Science | 2023 | Peer-reviewed | Worldwide narrative review of Pb, Cd, tAs, and tHg in poultry eggs and tissues drawing from primary studies in 12 countries (Turkey, Pakistan, China, Saudi Arabia, etc.); cross-country reference for egg-tissue metal occurrence and histopathological effects |
+| 7 | [[sources/guo2024-duck-eggs-hg-mining-china\|Guo et al. 2024]]. *Heavy metal contamination in duck eggs near mercury mining areas in southwest China*, Frontiers in Public Health | 2024 | Peer-reviewed | Pb and Cr in 20 paired duck eggs from the Wuchuan Hg mining area vs Anshun background area, southwestern China, by ICP-MS; mining-area yolks consistently higher than whites and higher than background, with non-negligible child health risk |
+| 8 | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|Abedi et al. 2023]]. *Consumer health risk assessment of Arsenic and Mercury in hen eggs through Monte Carlo simulations*, BMC Public Health | 2023 | Peer-reviewed | IR tAs, tHg occurrence in 84 hen eggs from 21 major commercial brands purchased from 30 supermarkets in five districts of Tehran, Iran,... (n=84) |
+| 9 | [[sources/aljohani2023-heavy-metal-toxicity-poultry\|Aljohani 2023]]. *Heavy metal toxicity in poultry: a comprehensive review*, Frontiers in Veterinary Science | 2023 | Peer-reviewed | Worldwide narrative review of Pb, Cd, tAs, and tHg in poultry eggs and tissues drawing from primary studies in 12 countries (Turkey, Pakistan, China, Saudi Arabia, etc.); cross-country reference for egg-tissue metal occurrence and histopathological effects |
+| 10 | [[sources/bazzaz2023-poultry-products-erbil-heavy-metals\|Bazzaz et al. 2023]]. *Determination of some heavy metals resides in different types of poultry production*, Tikrit Journal for Agricultural Sciences | 2023 | Peer-reviewed | IQ Cu, tAs, Pb occurrence in Erbil-market poultry products, dry-weight XRF analysis: frozen chicken thigh and breast muscle from Brazilian and Turkish imports plus... |
 | 11 | [[sources/iqbal2023-poultry-feed-pakistan\|Iqbal et al. 2023]]. *Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products*, Saudi Journal of Medical and Pharmaceutical Sciences 9(7): 489-495 | 2023 | Peer-reviewed | PK Pb, Cd, Cr, tHg, Fe occurrence in 6 solid feeds, 6 liquid feeds (water), 33 livers (composite from 6 farms), 33 breast muscles (composite), 33... (n=39) |
 | 12 | [[sources/sofyan2023-banana-steamed-cake-metals-indonesia\|Sofyan 2023]]. *Uji Cemaran Mikroba Dan Cemaran Logam Bolu Kukus Berbasis Pisang Ambon (Musa acuminta Colla) Sebagai Camilan Alternatif Pada Pasien Hipertensi*, JP: Jurnal Pharmacopoeia, 2(1): 23-32 | 2023 | Peer-reviewed | ID Pb, Cu, Zn, tAs occurrence in Three laboratory-prepared formulations of banana-based steamed sponge cake (bolu kukus pisang ambon) varying the pisang ambon (Musa acuminata... (n=3) |
 | 13 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr occurrence in null |
 | 14 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 15 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 Cd, Cr, Ni, Pb, U, tAs, tHg occurrence distributions for Eggs, hard-boiled (n=27); all analytes reported as zero (BDL) |
 | 16 | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|Kim et al. 2022]]. *Dietary effects of black soldier fly larvae oil on laying hen performance, egg quality, and egg safety*, Animal Bioscience | 2022 | Peer-reviewed | Al, tAs, Pb, tHg, and Cd in Korean laying-hen eggs across 0–8% black soldier fly larvae oil inclusion replacing soybean oil; all metals below Korean permissible limits — feed-substitution safety evidence |
-| 17 | [[sources/wu2022-selenized-yeast-laying-hens\|al. 2022]]. *Ameliorative effects of selenized yeast on laying hen performance and heavy metal residues in eggs*, Frontiers in Veterinary Science | 2022 | Peer-reviewed | CN Pb, Cd, Hg, Cr occurrence in Laying hens in controlled feeding experiment, China, 12-week study (n=160) |
-| 18 | [[sources/zhao2022-china-tds6-lead-cadmium-exposure\|Zhao et al. 2022]]. *Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019*, China CDC Weekly | 2022 | Government report | CN Pb, Cd occurrence in 288 composite samples from the 24 provincial-level administrative divisions (PLADs) of the Sixth China Total Diet Study, covering... (n=288) |
-| 19 | [[sources/kurniawati2021-jakarta-staple-foods-naa\|Kurniawati et al. 2021]]. *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*, AIP Conference Proceedings (4th International Seminar on Chemistry) | 2021 | Peer-reviewed | Cr and tHg in egg samples from 14 Jakarta staple foods (5 traditional markets) by neutron activation analysis; egg Cr 0.02 mg/kg (lowest of all commodities) and Hg modest relative to crackers and rice |
-| 20 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
-| 21 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
-| 22 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | BD Cr, Pb, tAs occurrence in Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh |
-| 23 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | ES/DE/AU Al occurrence in Compiled literature review of Al concentrations across food groups and drinks; intake estimated against Spanish population consumption data... |
-| 24 | [[sources/song2017-china-dietary-cadmium-exposure\|Song et al. 2017]]. *Dietary cadmium exposure assessment among the Chinese population*, PLoS ONE 12(5): e0177978 | 2017 | Peer-reviewed | CN Cd occurrence in 228,687 food samples collected from supermarkets, local markets, and field harvest sites across 31 provinces, autonomous regions, and... (n=228687) |
-| 25 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | UK FERA/FSA TDS occurrence of Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in the eggs food group composited from 3,312 retail samples across 24 UK locations on an as-consumed basis |
-| 26 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD Cr, Ni, Cu, tAs, Cd, Pb occurrence in Commonly consumed meat, egg, fish, milk, vegetable, cereal, and fruit foods collected from agriculture fields, farms, river, and... |
-| 27 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 | 2014 | Peer-reviewed | AZ Pb, Cd, Cr, Ni, Cu, Zn occurrence in 57 adults (28 men, 29 women, age 19–49) sampled by random selection from Baku, Azerbaijan; 18 food items... (n=57) |
-| 28 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | HK Al, Sb, Cd, Pb, MeHg, Ni, Sn, V occurrence in Hong Kong general adult population aged 20-84; 150 TDS food items purchased on 4 occasions (March 2010 to... (n=1800) |
-| 29 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2012 | Government report | First HKTDS direct iAs speciation occurrence in the eggs food category by hydride generation ICP-MS (LOD 3 µg/kg) among 600 composite samples from 150 food items; eggs as minor contributor relative to rice (45.2% of total iAs exposure) |
-| 30 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
-| 31 | [[sources/hc2008-aluminum-food-additives-industry-request\|Health Canada Bureau of 2008]]. *ARCHIVED — Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives*, Health Canada, Food Directorate, Bureau of Chemical Safety | 2008 | Regulation | CA Al occurrence in null |
-| 32 | [[sources/uneyama2007-arsenic-foods-cumulative-data\|Uneyama et al. 2007]]. *Arsenic in various foods: Cumulative data*, Food Additives & Contaminants | 2007 | Peer-reviewed | JP/US/GB tAs, iAs occurrence in Cumulative review of arsenic measurements in food from PubMed, Japanese local-authority research databases, and national food-safety surveillance reports;... |
+| 17 | [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|Rokanuzzaman et al. 2022]]. *Assessment of Heavy Metals and Trace Elements in Eggs and Eggshells of Gallus gallus domesticus, Coturnix coturnix and Anas platyrhynchos from Bangladesh*, Saudi Journal of Biomedical Research | 2022 | Peer-reviewed | BD Pb, Cd, Cr, Cu, Fe, Zn occurrence in Five egg-content samples and five eggshell samples collected from the Jahangirnagar University area of Savar, Bangladesh, covering indigenous... (n=10) |
+| 18 | [[sources/wu2022-selenized-yeast-laying-hens\|al. 2022]]. *Ameliorative effects of selenized yeast on laying hen performance and heavy metal residues in eggs*, Frontiers in Veterinary Science | 2022 | Peer-reviewed | CN Pb, Cd, Hg, Cr occurrence in Laying hens in controlled feeding experiment, China, 12-week study (n=160) |
+| 19 | [[sources/zhao2022-china-tds6-lead-cadmium-exposure\|Zhao et al. 2022]]. *Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019*, China CDC Weekly | 2022 | Government report | CN Pb, Cd occurrence in 288 composite samples from the 24 provincial-level administrative divisions (PLADs) of the Sixth China Total Diet Study, covering... (n=288) |
+| 20 | [[sources/kurniawati2021-jakarta-staple-foods-naa\|Kurniawati et al. 2021]]. *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*, AIP Conference Proceedings (4th International Seminar on Chemistry) | 2021 | Peer-reviewed | Cr and tHg in egg samples from 14 Jakarta staple foods (5 traditional markets) by neutron activation analysis; egg Cr 0.02 mg/kg (lowest of all commodities) and Hg modest relative to crackers and rice |
+| 21 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
+| 22 | [[sources/cfs2019-hk-metallic-contamination-guidelines\|Centre for Food Safety 2019]]. *Guidelines on the Food Adulteration (Metallic Contamination) (Amendment) Regulation 2018*, USDA Foreign Agricultural Service GAIN Report HK1922, relaying the Hong Kong Centre for Food Safety Guidelines for the Food Adulteration (Metallic Contamination) (Amendment) Regulation 2018 (Cap. 132V sub. leg.) | 2019 | Government report | HK Sb, tAs, iAs, Ba, B, Cd, Cr, Cu, Pb, Mn, MeHg, tHg, Ni, Se, Sn, U occurrence in Not a sampling study. Regulatory document setting maximum levels (MLs) for 14 metallic contaminants across food and food... |
+| 23 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
+| 24 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | BD Cr, Pb, tAs occurrence in Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh |
+| 25 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | ES/DE/AU Al occurrence in Compiled literature review of Al concentrations across food groups and drinks; intake estimated against Spanish population consumption data... |
+| 26 | [[sources/song2017-china-dietary-cadmium-exposure\|Song et al. 2017]]. *Dietary cadmium exposure assessment among the Chinese population*, PLoS ONE 12(5): e0177978 | 2017 | Peer-reviewed | CN Cd occurrence in 228,687 food samples collected from supermarkets, local markets, and field harvest sites across 31 provinces, autonomous regions, and... (n=228687) |
+| 27 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | UK FERA/FSA TDS occurrence of Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in the eggs food group composited from 3,312 retail samples across 24 UK locations on an as-consumed basis |
+| 28 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD Cr, Ni, Cu, tAs, Cd, Pb occurrence in Commonly consumed meat, egg, fish, milk, vegetable, cereal, and fruit foods collected from agriculture fields, farms, river, and... |
+| 29 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 | 2014 | Peer-reviewed | AZ Pb, Cd, Cr, Ni, Cu, Zn occurrence in 57 adults (28 men, 29 women, age 19–49) sampled by random selection from Baku, Azerbaijan; 18 food items... (n=57) |
+| 30 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | HK Al, Sb, Cd, Pb, MeHg, Ni, Sn, V occurrence in Hong Kong general adult population aged 20-84; 150 TDS food items purchased on 4 occasions (March 2010 to... (n=1800) |
+| 31 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2012 | Government report | First HKTDS direct iAs speciation occurrence in the eggs food category by hydride generation ICP-MS (LOD 3 µg/kg) among 600 composite samples from 150 food items; eggs as minor contributor relative to rice (45.2% of total iAs exposure) |
+| 32 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
+| 33 | [[sources/hc2008-aluminum-food-additives-industry-request\|Health Canada Bureau of 2008]]. *ARCHIVED — Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives*, Health Canada, Food Directorate, Bureau of Chemical Safety | 2008 | Regulation | CA Al occurrence in null |
+| 34 | [[sources/uneyama2007-arsenic-foods-cumulative-data\|Uneyama et al. 2007]]. *Arsenic in various foods: Cumulative data*, Food Additives & Contaminants | 2007 | Peer-reviewed | JP/US/GB tAs, iAs occurrence in Cumulative review of arsenic measurements in food from PubMed, Japanese local-authority research databases, and national food-safety surveillance reports;... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [20b813b5b](https://github.com/paleofoundation/heavymetalindex/commit/20b813b5b) | 2026-08-09 | correction | 7 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 13 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

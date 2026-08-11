@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Janvier et al. 2019 — Metals in Mondia whytei root bark used as a food supplement
 
+## Overview
+
 Janvier et al. measured minerals, vitamins, protein, and sugars in root bark of Mondia whytei, a Rwandan wild edible plant consumed fresh or powdered as a food supplement. The heavy-metal-relevant findings are dry-weight Pb and Cd concentrations in root bark across Rwandan localities and in old versus young Byangabo plants.
 
 ## Key numbers
@@ -65,3 +67,17 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, authors, journal, license, and final citation are visible in the PDF. The auto-fetched filename places this in a vitamin-mineral supplement lead queue, but the actual matrix is Mondia whytei root bark used as a wild edible plant and food supplement. Table 3 appears to repeat Kinkware as the last column while the discussion identifies that high-K/Pb column as Kinigi; this page follows the table values and notes the locality label issue for future synthesis review.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

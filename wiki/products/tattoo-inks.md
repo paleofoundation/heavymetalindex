@@ -14,13 +14,15 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Tattoo inks (permanent and temporary)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 14: **Tattoo inks (permanent and temporary)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [tattoo-inks]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 14: **Tattoo inks (permanent and temporary)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [tattoo-inks]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +32,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Tattoo inks (permanent and temporary), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Tattoo inks (permanent and temporary), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Tattoo inks (permanent and temporary), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Tattoo inks (permanent and temporary), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in tattoo inks (permanent and temporary). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in tattoo inks (permanent and temporary). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA cosmetics, EU Cosmetics Regulation 1223/2009**.
 
@@ -102,23 +104,28 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cirs2023-reach-annex-xvii-restrictions\|CIRS – C&K Testing (Hangzhou C&K Testing Technic Co. 2023]]. *REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles*, CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd), Hangzhou, China; downloadable consolidated reproduction of Annex XVII to EU REACH Regulation (EC) No 1907/2006; document header states 'Last update: 2023-07-17'. 64 pages, two-column 'Column 1 (substance or group) / Column 2 (conditions of restriction)' tabular layout reproducing entries 1 through 77. | 2023 | Industry | EU Pb, Cd, tHg, iHg, Cr-VI, Ni, tAs, Sn occurrence in Not a primary-measurement study. The document is a third-party reproduction of Annex XVII to EU REACH Regulation (EC)... |
+| 1 | [[sources/cwielag-drabek2025-tattoo-inks-metals\|Cwielag-Drabek et al. 2025]]. *Heavy Metal Content in Tattoo and Permanent Makeup Inks and European Standards-Is There Still a Health Risk?*, Toxics | 2025 | Peer-reviewed | EU Pb, Cd, Zn, Cr, Cr-VI, Ni, Cu, iAs, Co, Sb, Se, Mn, tHg occurrence in Commercial tattoo inks, permanent makeup inks, and dual-use inks purchased in the European Union in 2022-2023 (n=41) |
+| 2 | [[sources/hardy2025-uk-reach-tattoo-pmu-decision\|Hardy 2025]]. *Substances in tattoo inks and permanent make-up: restriction decision*, UK REACH restriction decision report, Department for Environment, Food and Rural Affairs | 2025 | Government report | GB Ni, Cr-VI occurrence in UK REACH regulatory decision for tattoo inks and permanent make-up, drawing on the Health and Safety Executive Agency... |
+| 3 | [[sources/cirs2023-reach-annex-xvii-restrictions\|CIRS – C&K Testing (Hangzhou C&K Testing Technic Co. 2023]]. *REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles*, CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd), Hangzhou, China; downloadable consolidated reproduction of Annex XVII to EU REACH Regulation (EC) No 1907/2006; document header states 'Last update: 2023-07-17'. 64 pages, two-column 'Column 1 (substance or group) / Column 2 (conditions of restriction)' tabular layout reproducing entries 1 through 77. | 2023 | Industry | EU Pb, Cd, tHg, iHg, Cr-VI, Ni, tAs, Sn occurrence in Not a primary-measurement study. The document is a third-party reproduction of Annex XVII to EU REACH Regulation (EC)... |
+| 4 | [[sources/gautam2023-tattoo-ink-heavy-metals-risk\|Gautam 2023]]. *Health Risk Assessment: Heavy Metals (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, and Nickel) in Tattoo Ink (Intra-Dermal Contact)*, Institute of Environmental Science and Research Limited (ESR) client report FW23035, prepared for Manatu Hauora/Te Whatu Ora | 2023 | Government report | NZ/EU/US Ba, Pb, Ni, Cr-VI, tHg, Cd, Sb, tAs occurrence in Agency health-risk assessment using maximum tattoo-ink metal concentrations selected from the 2012 New Zealand Ministry of Health survey... (n=169) |
+| 5 | [[sources/zafarzadeh2018-cosmetics-lead-cadmium-iran\|Zafarzadeh et al. 2018]]. *Assessment of cadmium and lead concentrations in different types of cosmetics products consumed in Iran*, National Journal of Physiology, Pharmacy and Pharmacology 8(8):1200-1204 | 2018 | Peer-reviewed | IR/CN/TR Cd, Pb occurrence in 264 cosmetic products purchased from shops in Gorgan, Iran from September 2016 to March 2017: 24 samples each... (n=264) |
+| 6 | [[sources/piccinini2016-tattoo-pmu-safety\|Piccinini et al. 2016]]. *Safety of tattoos and permanent make-up. Final report*, JRC Science for Policy report EUR 27947 EN, JRC101601; prepared for DG JUST under Administrative Arrangement N. 2014-33617 | 2016 | Government report | EU/CH/DE tAs, Ba, Cd, Co, Cr, Cr-VI, Cu, tHg, Ni, Pb, Se, Sb, Sn, Zn occurrence in JRC synthesis of RAPEX notifications and national tattoo/permanent-make-up ink surveillance: 126 RAPEX alerts for tattoo/PMU inks through 2015... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

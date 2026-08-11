@@ -27,6 +27,8 @@ updated: 2026-05-25
 
 # Anastario et al. 2025 — Metal profiling of Hass avocados: ICP-MS and pXRF
 
+## Overview
+
 This pilot study quantified 24 elements across 24 Hass avocado samples using ICP-MS (primary) and portable XRF (pXRF, screening tool validation), stratifying by country of origin (California, USA vs. Michoacán, Mexico) and agricultural practice (organic vs. conventional). It provides baseline data on elemental distribution between the edible mesocarp (pulp) and exocarp (peel), finding that metals generally accumulate more in the exocarp. Notably, mercury was elevated in avocado tissues relative to comparable tropical fruits, particularly in exocarp and in USA-sourced samples, which the authors attribute to possible Hg accumulation in lipophilic matrices. Cd, Pb, and As were detected at relatively low concentrations in mesocarp.
 
 ## Key numbers
@@ -112,19 +114,19 @@ App: n=24 with 6 per origin×practice stratum is below the threshold for app-fac
 - 2026-05-25: Flagged Pb mesocarp Cal-USA organic = 0.14 µg/g as a single-detect outlier (only 1 of 6 samples above LOD), not a stratum geometric mean. This value drove the Pb loading on mesocarp PC1 and the "moderate Pb" cluster identified in the K-means analysis. Correct interpretation: organic Cal-USA mesocarp has at least one fruit with anomalously elevated Pb relative to all other strata; the geometric-mean value is not representative.
 - 2026-05-25: Corrected `raw_path` frontmatter (previously truncated to `P0309.pdf`; actual file is `P0309_Metal profiling of Hass avocados.pdf`).
 - 2026-05-25 (audit-application): Fresh-context audit subagent (REVISE verdict) flagged the `n>LOD (of 48)` column header as potentially misleading because Table 1's n>LOD column is a single combined-tissue count, not per-tissue. Verified against Table 1 — the column shows e.g. Pb=12 with no tissue split. Relabeled column to `n>LOD (combined tissues, of 48)` in both mesocarp and exocarp tables.
-- 2026-05-25 (audit-application): Subagent flagged three phrases in Implications/Certification as drifting toward HMTc programmatic recommendation rather than literature reporting ("supporting inclusion of tHg in risk monitoring," "actionable for supply-chain screening guidance," "Flag as provisional"). Verified against CLAUDE.md Part 2 — these phrases do cross from "what the literature reports" into "what HMTc should do." Rewrote the Certification paragraph to factual occurrence-data framing and softened App-section advisory language. Preserved the substantive findings (Hg fresh-weight reconstruction, EFSA/Codex comparison, Pb single-detect outlier, origin-linked Co/Ni signature) without programmatic verbs.
+- 2026-05-25 (audit-application): Subagent flagged three phrases in Implications/Certification as drifting toward HMTc programmatic recommendation rather than literature reporting ("supporting inclusion of tHg in risk monitoring," "actionable for supply-chain screening guidance," "Flag as provisional"). Verified against — these phrases do cross from "what the literature reports" into "what HMTc should do." Rewrote the Certification paragraph to factual occurrence-data framing and softened App-section advisory language. Preserved the substantive findings (Hg fresh-weight reconstruction, EFSA/Codex comparison, Pb single-detect outlier, origin-linked Co/Ni signature) without programmatic verbs.
 - 2026-05-25 (audit-application note): Subagent flagged `avocado-mesocarp` and `avocado-exocarp` matrix slugs as outside the documented snapshot. These were preserved from the prior version of the page; the current routing audit accepts them and the source is not in `routing_malformed.csv` or `routing_unresolved.csv`. Tissue-level matrix slugs are the correct granularity for this paper because the mesocarp/exocarp distinction is foundational to its findings (different metal-mixture signatures by tissue, only mesocarp is consumed). Slug-vocabulary governance for tissue-level matrices is a routing-layer concern, not a per-source fix; leaving slugs as-is.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

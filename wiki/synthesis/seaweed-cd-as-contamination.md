@@ -14,7 +14,9 @@ updated: 2026-05-16
 
 # Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize
 
-Three independent A-tier datasets — a 12-site spatial-temporal survey of New Zealand kelp, a 43-site Salish Sea contaminant assessment across three commercially harvested brown seaweeds, and the EFSA CONTAM Panel's full European-population dietary exposure assessment built on more than two thousand occurrence data points — converge on a finding the wiki must surface prominently: commercial edible seaweed and kelp products carry systematically elevated cadmium and arsenic concentrations that conventional terrestrial-food-chain surveillance frameworks do not capture, and that the certification and consumer-communication infrastructure built around terrestrial commodities does not address.
+## Overview
+
+Three independent A-tier datasets — a 12-site spatial-temporal survey of New Zealand kelp, a 43-site Salish Sea contaminant assessment across three commercially harvested brown seaweeds, and the EFSA CONTAM Panel's full European-population dietary exposure assessment built on more than two thousand occurrence data points — converge on a single finding: commercial edible seaweed and kelp products carry systematically elevated cadmium and arsenic concentrations that conventional terrestrial-food-chain surveillance frameworks do not capture.
 
 The finding is distinct from the established [[synthesis/organoarsenical-inertness-assumption|organoarsenical inertness synthesis]], which addressed the toxicological status of organic-arsenic species in seafood, fungi, microalgae, and seaweed. That synthesis is about the assumption that organoarsenicals are biologically inert. This synthesis is about the contamination magnitude and the regulatory blind spot at the product-distribution end of the supply chain. The two synthesis pages are complementary: the inertness synthesis tells us we cannot read total arsenic minus inorganic arsenic as "the safe part"; this synthesis tells us the totals themselves are large enough that the framing question matters at population scale.
 
@@ -34,7 +36,7 @@ The Salish Sea is a temperate, industrialized coastline with a long history of i
 
 [[sources/efsa2023-heavy-metals-seaweed|EFSA CONTAM Panel 2023]] is the definitive EU-level scientific opinion on heavy metals in seaweeds and halophytes as food. The opinion analyzed 2,093 Cd occurrence data points, 1,988 Pb, 1,934 tAs, 920 iAs, and 1,499 tHg data points across the seaweed species relevant to European food markets, including laver, kombu, kelp, nori, spirulina, and chlorella. Laver red algae exhibited the highest Cd, reaching 1,675 to 1,676 µg/kg on a wet-weight basis (which translates upward by roughly an order of magnitude on a dry-weight basis as consumed in dried seaweed products). Kombu and kelp had among the highest iAs concentrations of any food matrix in the EU dataset.
 
-The opinion concludes that seaweed consumption — particularly Asian-style dried seaweed products and seaweed-containing food supplements — is a meaningful contributor to dietary heavy-metal exposure for European consumers, with the iAs contribution from seaweed food supplements potentially approaching or exceeding the BMDL01 for some high-consumption scenarios. EFSA's framing is the regulatory anchor the wiki position needs: this is not a contested or emerging finding; the EU's contaminants panel has formally assessed it and concluded that the existing regulatory framework does not adequately characterize the exposure pathway.
+The opinion concludes that seaweed consumption — particularly Asian-style dried seaweed products and seaweed-containing food supplements — is a meaningful contributor to dietary heavy-metal exposure for European consumers, with the iAs contribution from seaweed food supplements potentially approaching or exceeding the BMDL01 for some high-consumption scenarios. EFSA's framing is the regulatory anchor for this finding: this is not a contested or emerging finding; the EU's contaminants panel has formally assessed it and concluded that the existing regulatory framework does not adequately characterize the exposure pathway.
 
 ## The mechanistic explanation
 
@@ -48,21 +50,19 @@ For lead, the picture is different. Lead is not bioaccumulated by brown algae th
 
 Conventional food-safety surveillance frameworks are built around terrestrial commodity matrices: cereals, fruit, vegetables, meat, dairy, fish. Seaweed enters most national food databases either as a minor entry in the "other algae" category or not at all. The 2,093-record EFSA dataset is the result of the panel pulling occurrence data from many specialized sources rather than a routine national-monitoring stream. The USDA FoodData Central database does not list seaweed-specific heavy-metal occurrence in any structured form. The FDA Total Diet Study has minimal seaweed coverage.
 
-The consequence is that brands selling dried seaweed snacks, kelp supplements, spirulina powders, and seaweed-containing meal-replacement products operate in a category where the contamination magnitudes are large, the regulatory limits are inconsistently applied across jurisdictions, and the consumer assumption is generally that "sea vegetable" is a healthy minimally-processed food. The category combines a high-magnitude contamination problem with a low-surveillance signal and a positive consumer perception. That combination is the structural condition under which a class-action attack surface develops.
+The consequence is that dried seaweed snacks, kelp supplements, spirulina powders, and seaweed-containing meal-replacement products sit in a category where the contamination magnitudes are large, the regulatory limits are inconsistently applied across jurisdictions, and the consumer assumption is generally that "sea vegetable" is a healthy minimally-processed food. The category combines a high-magnitude contamination problem with a low-surveillance signal and a positive consumer perception.
 
-## The strategic implications
+## What the evidence implies for testing, regulation, and consumption
 
-For the brand-legal audience: any brand marketing seaweed, kelp, laver, kombu, nori, or sea-vegetable-derived ingredients into US, EU, UK, or AU markets should expect a class-action defense to require independent Cd and iAs (not tAs) lot-level testing as standard due diligence. The three-source preponderance documented here, the EFSA regulatory positioning, and the biological-feature nature of the Cd contamination together make the "we did not know" defense unavailable. Brands operating in this category that are not testing on the EFSA-monitored analyte set are accepting a level of exposure that the literature does not support as reasonable.
+Because cadmium and inorganic arsenic in seaweed are a biological feature of the product class rather than a site-specific quality-control failure, total arsenic alone does not characterize the toxicologically relevant exposure. Speciation matters: the safety-relevant quantities are cadmium and inorganic arsenic (not total arsenic), and characterizing a seaweed product against the analyte set the EFSA opinion monitors requires measuring Cd and iAs directly rather than inferring them from tAs. The three-source preponderance documented here, the EFSA regulatory positioning, and the biological-feature nature of the Cd contamination together make seaweed and kelp a category where the contamination is foreseeable from the published literature.
 
-For the regulator audience: the EU has a formal CONTAM opinion on seaweed; the US FDA has guidance on iAs in rice cereal but no comparable seaweed-specific limit-setting in force. The regulatory asymmetry is itself a load-bearing finding. US-market seaweed-snack and kelp-supplement products are sold under a framework where the iAs and Cd content is unconstrained by any federal product-specific limit; state-level Prop 65 enforcement is the only operative pressure, and that operates through a different mechanism than the FDA Closer to Zero or EU 2023/915 frameworks. The case for harmonized seaweed-specific limit-setting in the US is supported by the present synthesis.
+On the regulatory side, the EU has a formal CONTAM opinion on seaweed; the US FDA has guidance on iAs in rice cereal but no comparable seaweed-specific limit-setting in force. This regulatory asymmetry is itself a load-bearing finding. US-market seaweed-snack and kelp-supplement products are sold under a framework where the iAs and Cd content is unconstrained by any federal product-specific limit; state-level Prop 65 enforcement is the only operative pressure, and that operates through a different mechanism than the FDA Closer to Zero or EU 2023/915 frameworks. The literature synthesized here supports the case for harmonized seaweed-specific limit-setting in the US.
 
-For the consumer audience: seaweed and kelp products are not low-heavy-metal foods. The wiki position should be that consumers concerned about heavy-metal exposure should treat seaweed-containing products as a meaningful contributor to Cd and iAs intake, that brands marketing seaweed as a "superfood" or "sea vegetable" without disclosing heavy-metal content are operating against the available evidence, and that occurrence-tested certification (HMTc) is the operative quality signal in this category because organic certification (per [[synthesis/organic-certification-not-protective]]) does not address the contamination mechanism here either.
-
-For HMTc: seaweed and kelp are a category where HMTc certification adds load-bearing safety information that no other certification scheme on the market currently provides. The product-category pages [[products/seaweed-snacks]], [[products/dietary-supplements]] (kelp-containing subset), and any future [[products/seaweed-meal-replacement]] should be developed as HMTc-priority categories with Cd, iAs, and Pb as the operative analytes and tAs as the speciation prerequisite metric. The Path A literature anchors for the seaweed HMTc standard are the three sources above plus the broader EFSA dataset.
+For consumers, seaweed and kelp products are not low-heavy-metal foods. Consumers concerned about heavy-metal exposure should treat seaweed-containing products as a meaningful contributor to Cd and iAs intake. Marketing seaweed as a "superfood" or "sea vegetable" without reference to its heavy-metal content runs against the available evidence, and organic certification (per [[synthesis/organic-certification-not-protective]]) does not address the contamination mechanism here, because the cadmium and arsenic enter the tissue through algal physiology rather than through agricultural inputs. The quality signal that distinguishes products in this category is direct occurrence testing for Cd and iAs.
 
 ## What this synthesis does not yet rest on
 
-A US-specific FDA-equivalent occurrence dataset for the US retail market is not in the corpus. The Hahn 2022 Salish Sea dataset is the closest US-relevant anchor but represents harvested-from-coast biological material rather than commercial-retail product. A US retail-market survey across the major commercial seaweed-snack and kelp-supplement product lines would strengthen the brand-legal positioning meaningfully and is a candidate for a Journal of Food Metallomics paper.
+A US-specific FDA-equivalent occurrence dataset for the US retail market is not in the corpus. The Hahn 2022 Salish Sea dataset is the closest US-relevant anchor but represents harvested-from-coast biological material rather than commercial-retail product. A US retail-market survey across the major commercial seaweed-snack and kelp-supplement product lines would meaningfully strengthen the occurrence evidence for the US retail product class and is a candidate for a Journal of Food Metallomics paper.
 
 Spirulina and chlorella are mentioned in the EFSA dataset and warrant their own treatment. They are biologically distinct from brown-algae kelp (spirulina is a cyanobacterium; chlorella is a green microalga) and the contamination mechanism for As in microalgae is different from the brown-algae mechanism described here. The [[synthesis/organoarsenical-inertness-assumption]] page covers the speciation question for microalgae; the magnitude question for spirulina and chlorella Cd is not yet synthesized.
 
@@ -76,7 +76,7 @@ The Cd-bioaccumulation magnitude across non-brown-algae species (red algae such 
 
 [[ingredients/kelp]], [[ingredients/laver]], [[ingredients/kombu]], [[ingredients/wakame]], and [[ingredients/nori]] should each carry their species-specific contamination profile when stub pages are created or upgraded.
 
-[[products/seaweed-snacks]] should be developed as an HMTc-priority product category with this synthesis as the literature anchor for threshold-setting work.
+[[products/seaweed-snacks]] should be developed as a product-category page with this synthesis as the literature anchor for the Cd, iAs, and tAs occurrence profile.
 
 [[products/dietary-supplements]] should carry a subsection on kelp-supplement Cd and iAs as a distinct risk pathway within the supplement category, separate from the [[synthesis/organic-certification-not-protective|organic certification null finding]] and from the spice-adulteration synthesis.
 
@@ -84,7 +84,7 @@ The wiki's [[overview]] should reference seaweed-as-a-Cd-pathway alongside the e
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
+This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -95,19 +95,29 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata]]<span class="hmi-ref-meta">Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M · Journal of Applied Phycology · 2023 · [doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hahn2022-salish-seaweed-contaminants|Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption]]<span class="hmi-ref-meta">Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. · PLOS ONE · 2022 · [doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

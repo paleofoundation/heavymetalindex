@@ -119,10 +119,10 @@ Open-access MDPI article published under CC BY 4.0 on 27 February 2023 (received
 Fresh ingest 2026-06-08 (Claude Opus 4.7, autonomous /ingest-next-manual-fetch-pdf cycle from `raw/Manual Fetch Discovery/`).
 
 - **Filename–content mismatch documented.** The source PDF was auto-fetched by the discover skill into `raw/Manual Fetch Discovery/peng2023-matcha-heavy-metal.pdf` with the suffix `-matcha-heavy-metal`, which appears to be a generic discover-skill template suffix rather than an accurate paper descriptor. The paper does not measure matcha. The paper is a hydroponic plant-physiology study on Camellia sinensis seedlings under controlled Al and F stress. The cite_key `peng2023-al-fluoride-tea-stress` describes the actual paper; the raw_handle `MFD_peng2023-matcha-heavy-metal` preserves the original auto-fetch filename for traceability per the existing MFD ingest pattern (cf. [[sources/el-daouk2020-aluminum-food-lebanon]] and [[sources/masri2025-toxicant-foods-california]], which followed the same convention for similarly-templated MFD filenames).
-- **Routing scope kept broad.** Frontmatter declares `products: [tea]` (umbrella) and `ingredients: [tea]` (umbrella) only. The paper studies tea plant tissue in general, not any specific tea product form (black, green, white, oolong, matcha, kombucha, supplement). Per CLAUDE.md Part 5b, broad scope is the correct routing-layer input for a paper of this kind; the routing layer is responsible for any downstream fan-out, not this source page.
-- **Fluoride not declared in `metals:`.** Fluoride is not a heavy metal and is not in the HMTc 10-analyte slate. The paper measures fluoride extensively but per CLAUDE.md Part 14 metal-name vocabulary, only Al is declared. The fluoride findings are preserved verbatim in Key numbers, Methods, and Implications because they are integral to interpreting the Al data (Al–F antagonism is a central finding of the paper).
+- **Routing scope kept broad.** Frontmatter declares `products: [tea]` (umbrella) and `ingredients: [tea]` (umbrella) only. The paper studies tea plant tissue in general, not any specific tea product form (black, green, white, oolong, matcha, kombucha, supplement). Broad scope is the correct routing-layer input for a paper of this kind; the routing layer is responsible for any downstream fan-out, not this source page.
+- **Fluoride not declared in `metals:`.** Fluoride is not a heavy metal and is not in the HMTc 10-analyte slate. The paper measures fluoride extensively but metal-name vocabulary, only Al is declared. The fluoride findings are preserved verbatim in Key numbers, Methods, and Implications because they are integral to interpreting the Al data (Al–F antagonism is a central finding of the paper).
 - **Evidence Fitness set to EF-4 Context only.** The Al/F tissue values are produced by 10-day hydroponic step-change exposures at 0.4–2.5 mM Al and 10 mM F, not by ordinary field cultivation. They are not representative of consumer-form tea or matcha. The Evidence Fitness section explicitly states what this source can and cannot support, per the EF-X schema. This page should not be pooled into any tea or matcha contamination_profile.
-- **No brand naming.** Methods sections name instrument vendors (Agilent 1100, NanoDrop 2000, Hitachi L-8900, Illumina HiSeq2500, Tiangen Biotech, Takara, Sigma-Aldrich, Aladdin, Wako, TBtools v1.108, SPSS v18) per CLAUDE.md Part 12 Exception 2 (scientific-method vendor/material allowance). No consumer-product brand names appear in the source.
+- **No brand naming.** Methods sections name instrument vendors (Agilent 1100, NanoDrop 2000, Hitachi L-8900, Illumina HiSeq2500, Tiangen Biotech, Takara, Sigma-Aldrich, Aladdin, Wako, TBtools v1.108, SPSS v18) Exception 2 (scientific-method vendor/material allowance). No consumer-product brand names appear in the source.
 - **No new pages proposed.** The source's slugs (`tea` ingredient, `tea` product, `aluminum` metal, China jurisdiction, `tea-leaves` matrix) all exist in the current taxonomy. No ingredient or product scaffold-creation triggers fired during this ingest.
 
 Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROMOTE):
@@ -132,12 +132,15 @@ Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROM
 - No content edits applied. Audit-application commit records the verdict and the false-positive disposition only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6b2d57e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e) | 2026-06-08 | audit: peng2023-al-fluoride-tea-stress promoted |
-| [0e3900b](https://github.com/paleofoundation/heavymetalindex/commit/0e3900b) | 2026-06-08 | ingest: peng2023-al-fluoride-tea-stress fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

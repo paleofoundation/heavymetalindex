@@ -107,7 +107,7 @@ function buildPage(cat, sub) {
   const body = `
 # ${sub.name}
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category ${cat.n} (${cat.name}), Row ${sub.row}: **${sub.name}**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of \`products: [${sub.slug}]\`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category ${cat.n} (${cat.name}), Row ${sub.row}: **${sub.name}**. Evidence ingest into this row is in progress. Sections below are populated as sources are added to the corpus; where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Who this page is for
 
@@ -115,7 +115,7 @@ ${STAKEHOLDER_BLOCK_TEMPLATE.replace(/<ROWNAME>/g, sub.name)}
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in ${sub.name.toLowerCase()}. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in ${sub.name.toLowerCase()}. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **${cat.regulatory_jurisdiction}**.
 

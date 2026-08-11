@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Zmudzinska et al. 2022 — Heavy Metals in Ready-to-Eat Baby Foods, Poland
 
+## Overview
+
 Polish survey assessing As, Cd, Hg, and Pb in 397 ready-to-eat products marketed for children aged 0.5–3 years, sampled across six product categories from Polish brick-and-mortar and online retail between December 2020 and September 2021. The study reports per-category means, maxima, exceedance counts against EU baby-food limits, and exposure estimates (EDI, EWI, PTWI%, BMDL%, THQ, CR) by age subgroup. Pb exceeded the applicable EU limit in 4.53% of samples and Hg in 1.5%; As and Cd showed no exceedances.
 
 ## Key numbers
@@ -143,7 +145,7 @@ Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fet
 
 2. **Corrected Hg-max attribution.** Prior version stated "poultry dinners (37.25 µg/kg)" for the Hg maximum, copied from the abstract. Source body (Results §3.1, line "The highest Hg value was 37.25 µg/kg in a lunch based on vegetables, rice, and hake") and Discussion ("those containing hake had the highest levels of Hg (37.25 µg/kg)") both state the highest-Hg product was a **hake (fish) baby dinner**, not poultry. The abstract's "dinners with poultry" wording is a paper-internal abstract/body discrepancy resolvable in favour of the body; the prior session flagged this as anomalous in a footnote but did not correct the attribution. Corrected to "hake/rice/vegetable baby dinner." The earlier defensive note about "fish-containing components in multi-ingredient poultry dinners" is removed as no longer needed.
 
-3. **Methods section expanded** with instrument vendors (PerkinElmer NexION 300D for ICP-MS; Leco AMA-254 for Hg amalgamation; Berghof Speedwave microwave digester), reference materials (Corn Flour INCT-CF-3, Skim Milk Powder CRM 63R, Simulated Diet D), LODs (As 0.019, Cd 0.017, Pb 0.16 µg/kg; Hg 0.003 ng/kg), full digestion protocol, statistical software, and the explicit US EPA / JECFA constants used for the EDI/PTWI/BMDL/THQ/CR calculations. Vendor/material names are scientific-method exception per the locked 2026-05-17 brand-firewall reading (CLAUDE.md Part 12 Exception 2), not brand-attribution-to-contamination.
+3. **Methods section expanded** with instrument vendors (PerkinElmer NexION 300D for ICP-MS; Leco AMA-254 for Hg amalgamation; Berghof Speedwave microwave digester), reference materials (Corn Flour INCT-CF-3, Skim Milk Powder CRM 63R, Simulated Diet D), LODs (As 0.019, Cd 0.017, Pb 0.16 µg/kg; Hg 0.003 ng/kg), full digestion protocol, statistical software, and the explicit US EPA / JECFA constants used for the EDI/PTWI/BMDL/THQ/CR calculations. Vendor/material names are scientific-method exception per the locked 2026-05-17 brand-firewall reading (Exception 2), not brand-attribution-to-contamination.
 
 4. **Key numbers expanded** with the full Table 3 (per-category exceedance counts), Table 5 (EDI/EWI/PTWI/BMDL by category), Table 6 (THQ/CR by category), and Table 7 (age-subgroup means). Prior version had only the abstract-level summary.
 
@@ -164,15 +166,15 @@ Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fet
 Preserved from prior revision: cite_key, raw_handle, raw_path, license, access_url, evidence_tier, doi.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

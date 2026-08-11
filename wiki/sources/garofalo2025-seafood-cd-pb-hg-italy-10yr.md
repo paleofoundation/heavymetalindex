@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Garofalo et al. 2025 — Ten-year Italian seafood Cd/Pb/Hg compliance monitoring
 
+## Overview
+
 A ten-year (2014-2023) regulatory compliance monitoring programme run by the Italian Istituto Zooprofilattico Sperimentale del Lazio e della Toscana (IZSLT) analysed 5,854 seafood samples / 9,809 chemical analyses for cadmium, lead, and total mercury against the EU 2023/915 maximum levels (which superseded EC 1881/2006). One hundred forty-two samples (2.43%) were non-compliant. Cadmium exceedances concentrated in cephalopod molluscs (17 of 22 Cd exceedances were cephalopods, mainly squids); mercury exceedances concentrated in marine apex predators (118 of 119 Hg exceedances were marine fish, with swordfish at 11.30%, shark species at 6.48%, and tuna species at 3.11% non-compliance); lead exceedances were rare (one bivalve sample, a truncate donax). A preliminary estimated-weekly-intake calculation for swordfish raised concerns for frequent consumers in the Italian population.
 
 ## Key numbers
@@ -198,7 +200,7 @@ Microbiome: Not addressed.
 
 2026-05-29 merge-enhance pass (Claude Opus 4.7, manual-fetch-PDF skill v2.0): the prior 2026-05-15 page version was re-ingested against the full PDF and corrected on the following points.
 
-- `metals:` removed `MeHg`. The paper measured total Hg only (by both ICP-MS at 200Hg and by CVAAS on the PerkinElmer FIMS-100). The MeHg/THg ratio of 100% used in the EWI section is an EFSA modelling convention, not a measured speciation. Per CLAUDE.md Part 14, metals frontmatter must reflect what was measured.
+- `metals:` removed `MeHg`. The paper measured total Hg only (by both ICP-MS at 200Hg and by CVAAS on the PerkinElmer FIMS-100). The MeHg/THg ratio of 100% used in the EWI section is an EFSA modelling convention, not a measured speciation. Metals frontmatter must reflect what was measured.
 - `products:` removed `canned-fish` and `fish-containing-baby-foods` (the paper studies raw whole-seafood regulatory monitoring and does not address canned product or baby-food formulations). Added `fish-marine-predatory`, `fish-marine-non-predatory`, and `fish-freshwater` (the paper's Table 7 reports species-group-resolved data directly relevant to these product rows).
 - `ingredients:` added `swordfish` and `shark` (direct evidence per Table 7).
 - `matrices:` replaced the generic `[whole-food, regulatory-compliance-monitoring]` with the actual seafood-matrix vocabulary present in the dataset.
@@ -206,7 +208,7 @@ Microbiome: Not addressed.
 - Key numbers section: added the full Table 2, 3, 4, 7, and 8 contents, which were absent from the prior version.
 - Cd exceedance count corrected from "17" to 22 total (17 cephalopods + 3 bivalves + 2 crustaceans per Table 6). The prior page conflated the cephalopod-only count with the total.
 - Hg exceedance count corrected from "118, all marine fish" to 119 total (118 marine fish + 1 Peruvian squid per Sections 3.2 and 4).
-- Implications section toned down per CLAUDE.md Part 2: removed prior page's "HMTc certification can either (a) preclude these species ... or (b) require species-specific testing at every lot" framing, which proposed certification policy. The current text describes what the paper contributes to threshold work, not what HMTc should do.
+- Implications section toned down: removed prior page's "HMTc certification can either (a) preclude these species... or (b) require species-specific testing at every lot" framing, which proposed certification policy. The current text describes what the paper contributes to threshold work, not what HMTc should do.
 - Section heading renamed `## Methods` → `## Methods (brief)` per the source-page template.
 - `sampling_year_range` populated (`2014-2023`); `sampling_locations` populated.
 - Brand-firewall (Part 12): no food brands appear in this paper. Instrument/reference-material vendor names (Thermo Fisher iCap Q, PerkinElmer FIMS-100, MILESTONE ETHOS ONE, CETAC ASX-520, NRC Canada DORM-5, StataCorp Stata/SE 16.1) are scientific-method names and are retained per the 2026-05-17 strict-reading Exception 2.
@@ -214,15 +216,15 @@ Microbiome: Not addressed.
 Preserved from prior version: `cite_key`, `raw_handle`, `raw_path`, `license`, `near_duplicates`, `ingest_method`, `created_by`, page filename, and the `
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

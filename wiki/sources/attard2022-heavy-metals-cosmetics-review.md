@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Attard & Attard 2022 — Heavy metals in cosmetics (review)
 
+## Overview
+
 Open-access IntechOpen book chapter compiling published occurrence data and toxicological information on five heavy metals (Pb, Cd, Ni, Hg, As) across sixteen cosmetic formulation categories. Tables 1-3 aggregate reported concentration ranges from the underlying primary literature for face products, body products, and face/body products. Table 4 reports a Spearman correlation matrix across the five metals; a Principal Component Analysis on the same data identifies lipsticks, eye shadows, face paints, makeup foundation, and skin-lightening creams as the high-metal-load categories. The chapter also catalogs the regulatory limits set by FDA CIR, WHO, EU, and Health Canada and summarizes metallokinetics (dermal absorption, stratum-corneum reservoir effect, allergic contact dermatitis for Ni). Useful as broad regulatory and occurrence context for Cat 2 (Children Personal Care) work; the underlying primary studies are the authoritative occurrence source.
 
 ## Key numbers
@@ -139,15 +141,15 @@ Microbiome: Not addressed.
 - Audit subagent (2026-05-18) flagged an internal chapter inconsistency: Section 5 narrative on p. 11 states "Pearson correlation statistics (Table 4) reveal a relationship between all five metals (r > 0.466)," but Cd-Hg (0.334), Ni-Hg (0.446), and Hg-As (0.465) in Table 4 are all below 0.466 — verified by direct inspection of the table. The wiki preserves the chapter's narrative claim and matrix values as reported; the discrepancy is the authors', not the wiki's, but is recorded here so downstream synthesis does not rest the matrix-wide claim on this chapter alone. Also note Table 4 caption labels these as Spearman correlations while the narrative text calls them "Pearson correlation statistics" — same chapter-internal inconsistency.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

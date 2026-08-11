@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # CPSC Staff (2012) — CPSIA §101(b) Functional Purpose Exception: Public-Health-Protection Criterion
 
+## Overview
+
 A 26-page U.S. Consumer Product Safety Commission staff report dated November 2012, bearing the standard CPSC staff caveat that "these comments are those of the CPSC staff and have not been reviewed or approved by, and may not necessarily reflect the views of, the Commission." The report addresses the third of three statutory criteria the Commission must find to grant a functional-purpose exception from the CPSIA Section 101(a) 100 ppm total-lead content limit for children's products: that the exception "will have no measurable adverse effect on public health or safety," where the Public Law 112-28 amendment to §101(b) defines "no measurable adverse effect" as "no measurable increase in blood lead levels of a child." Staff derive a quantitative interpretation: a measurable BLL increase is approximately 0.8 µg/dL, and the daily exposure to lead from a children's product that would produce that BLL increase is approximately 2.2 µg/day. The report contains no primary lead-occurrence measurements; it is a methodology and threshold-derivation document built from published BLL biokinetic modelling (EPA IEUBK), the Lanphear et al. (2005) international pooled BLL–IQ dose-response analysis, the Parsons et al. (2001) interlaboratory BLL-reference-material analysis, and the OEHHA (2007) child-specific benchmark BLL-change framework, and includes a January–March 2012 external scientific peer review by five reviewers with staff responses.
 
 ## Key numbers
@@ -86,15 +88,15 @@ This is a regulatory-derivation document, not an analytical-chemistry study. The
 - **Related corpus pages.** `hatlelid2009-cpsc-cpsia-lead-childrens-products` (a 12/17/2009 14-slide CPSC staff presentation on the same CPSIA §101 regulatory regime, predating the Public Law 112-28 amendment to §101(b)) is the closest existing companion source; that earlier deck described the unamended §101(b) exclusion framework (no-absorption and no-other-adverse-impact criteria), while this 2012 staff report develops the public-health-protection methodology required by the amended §101(b) (functional-purpose exception with the "no measurable adverse effect" / "no measurable increase in BLL" criteria). `cfa2012-cpsia-lead-fact-sheet` is a contemporaneous consumer-advocacy summary of the same regulatory regime. `johnson2012-cpsc-astm-f963-status` is a CPSC-adjacent reference for toy-safety standards (different regulatory hook). No CPSIA-§101-specific regulation page yet exists in `wiki/regulations/`; the same observation appears in the `hatlelid2009-cpsc-cpsia-lead-childrens-products` and `cfa2012-cpsia-lead-fact-sheet` verification notes. Per Part 10 and the manual-fetch skill, a regulation-page proposal is a Karen-curated step, not an ingest-time auto-creation.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

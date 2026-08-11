@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Beltcheva et al. 2025 - Modified clinoptilolite as oral Cd sorbent in ICR mice
 
+## Overview
+
 Beltcheva and colleagues ran a 45-day in vivo experiment testing whether Na-exchanged and tribo-activated natural clinoptilolite from the Beli Plast deposit in Bulgaria, administered as a 12.5 wt.% dietary supplement, mitigates cadmium toxicity in male ICR (CD-1) mice exposed to environmentally relevant Cd through drinking water. This is primary remediation-mechanism evidence in a mammalian model, not food or product occurrence data: the measured endpoints are Cd accumulation in liver, kidney, and feces (ICP-MS), hematological indices, oxidative stress markers (MDA and GSH in liver and kidney homogenates), body and organ mass, and genotoxicity (peripheral-blood micronucleus frequency).
 
 ## Key numbers
@@ -175,15 +177,15 @@ Brand-firewall scan: the source does not name any consumer-product brands attach
 Audit subagent (2026-06-02) flagged two units concerns; both verified against PDF p. 13 Table 4 header. Applied: MO column units corrected from `MO (10^9/L)` to `MO (10^8/L)` to match the source header. Documented: the wiki's WBC column units `(10^9/L)` are a silent normalisation of the source's `WBC (g/L)` (clearly a source-side typo, since g/L is a protein-concentration unit and the other leucocyte columns in the same table use 10^x/L); the underlying numerical values are unchanged. The source also reports an anomalous RBC value for the C (control) group at day 45 of 0.9 +/- 2.6 (mean smaller than SD, and an order of magnitude below the C group's day-30 RBC of 5.3 +/- 2.0); the wiki reproduces this verbatim because the auditor confirmed it is in the source as printed, but downstream synthesis passes should treat the C day-45 RBC datum as a likely source-side transcription error.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [1409a48](https://github.com/paleofoundation/heavymetalindex/commit/1409a48) | 2026-06-02 | audit: beltcheva2025-clinoptilolite-cd-mice-detox [revised] |
-| [1368bb9](https://github.com/paleofoundation/heavymetalindex/commit/1368bb9) | 2026-06-02 | ingest: beltcheva2025-clinoptilolite-cd-mice-detox [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

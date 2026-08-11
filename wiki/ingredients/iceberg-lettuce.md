@@ -12,17 +12,16 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-iceberg-lettuce-edible-leaf-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [16, 61.2]
     p95_ppb: 64.4
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -34,26 +33,23 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-iceberg-lettuce-edible-leaf-wet-weight
-    speciation: total-As-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-iceberg-lettuce-edible-leaf-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 168]
     p95_ppb: 215
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -65,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 100]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: raw-iceberg-lettuce-edible-leaf-wet-weight
-    speciation: total-Cr-only
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -81,81 +75,47 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 4
+updated: 2026-05-13
+sources: 2
 ---
 
 # Iceberg lettuce
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 5/10 HMTc analytes, total n=14 | common tier expects total n>=15; have 14 |
-| D2 Regional coverage | below-tier | 1 jurisdictions, top US 100% | only 1 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 22 claims checked, 22 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming iceberg-lettuce: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 109, "Lettuce, iceberg, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals
 
-Iceberg lettuce is a head-forming variety of Lactuca sativa with a notably high water content (approximately 95 percent) relative to other leafy vegetables. Like all leafy vegetables, it is capable of accumulating cadmium through root uptake from soil and lead through atmospheric deposition on leaf surfaces. However, several features of iceberg lettuce distinguish its contamination profile from denser leafy greens such as spinach or kale. The tight head structure means that outer wrapper leaves, which are the primary site of atmospheric Pb deposition, largely enclose and protect the inner leaves that reach the consumer; outer leaves are typically removed during harvesting and packing. The high water content dilutes metal concentrations on a fresh-weight basis relative to more concentrated leafy vegetables. Soil Cd is the dominant pathway for the Cd detected in iceberg lettuce, operating through root uptake into the edible leaf tissue; the FDA FY2018-FY2020 TDS data show Cd detectable in all 27 samples, with a median of 27 ppb and a maximum of 73 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel is also consistently detected, with a median of 90 ppb and a maximum of 250 ppb, reflecting the general tendency of leafy vegetables to accumulate Ni from soil. Lead, total arsenic, total mercury, and uranium were below their reporting limits across all 27 TDS samples, and chromium was below the limit in 26 of 27 with a single detect at 100 ppb; these below-limit results are carried as left-censored bounds rather than as measured zeros, so they constrain the edible-leaf metal burden from above rather than establishing it at zero (see the Synthesis basis and censoring treatment section). The head-leaf structure and commercial trimming of outer wrapper leaves are consistent with the low lead burden, but the FDA composite is fully censored for lead and cannot by itself confirm a zero value.
+Iceberg lettuce is a head-forming variety of Lactuca sativa with a notably high water content (approximately 95 percent) relative to other leafy vegetables. Like all leafy vegetables, it is capable of accumulating cadmium through root uptake from soil and lead through atmospheric deposition on leaf surfaces. However, several features of iceberg lettuce distinguish its contamination profile from denser leafy greens such as spinach or kale. The tight head structure means that outer wrapper leaves, which are the primary site of atmospheric Pb deposition, largely enclose and protect the inner leaves that reach the consumer; outer leaves are typically removed during harvesting and packing. The high water content dilutes metal concentrations on a fresh-weight basis relative to more concentrated leafy vegetables. Soil Cd is the dominant pathway for the Cd detected in iceberg lettuce, operating through root uptake into the edible leaf tissue; the FDA FY2018-FY2020 TDS data show Cd detectable in all 27 samples, with a median of 27 ppb and a maximum of 73 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel is also consistently detected, with a median of 90 ppb and a maximum of 250 ppb, reflecting the general tendency of leafy vegetables to accumulate Ni from soil. Lead was below the reporting limit across all 27 TDS samples, confirming that the head-leaf structure and commercial trimming practices effectively limit Pb exposure for the edible product.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | <4 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 16–61.2 | 64.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | <3 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–168 | 215 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | <50–100 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, total-arsenic, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw-iceberg-lettuce edible-leaf wet-weight basis, the form in which the trimmed head is consumed and the basis FDA Total Diet Study Food 109 reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported lead, total arsenic, total mercury, chromium, and uranium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Lettuce, iceberg, raw" (n=27), in which every sample (or, for chromium, all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], reporting limits Pb 4, tAs 3, tHg 1, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound. No source in the corpus reports an iceberg-specific positive value for any of these five analytes, so the censored FDA composite is the only iceberg-fidelity occurrence evidence and each cell is held at a single contributor and low confidence.
-
-Lead, total arsenic, and total mercury rest on the FDA censored floor alone. FDA reports all 27 iceberg composites below the reporting limit for each: Pb below 4 µg/kg, total arsenic below 3 µg/kg, total mercury below 1 µg/kg. Each cell is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and no upper bound or 95th-percentile. Total arsenic is held distinct from inorganic arsenic, which remains a reviewed data gap because no speciated measurement exists for this ingredient. Total mercury is held distinct from methylmercury and is not derived from it.
-
-Chromium is reported as total chromium at low confidence; the FDA iceberg composite was below the 50 µg/kg reporting limit in 26 of 27 samples with a single detect of 100 µg/kg as the distribution maximum, so the cell is carried as a left-censored floor with that single detect as the upper bound ([0, 100]) and no 95th-percentile, since one detect cannot anchor a percentile. No iceberg hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred from total chromium. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no other source reports an extractable quantitative iceberg value, so no distribution is published (the rice-uranium precedent).
-
-Two retail surveys measure lettuce but not iceberg specifically and are carried only as broad-lettuce proxies in prose, never folded into the iceberg percentiles. A southern-Iran retail survey from the Behbahan oil-and-petrochemical corridor reports mean lettuce lead of 134 µg/kg, total chromium of 306 µg/kg, cadmium of 60 µg/kg, and nickel of 320 µg/kg on a wet-weight basis, with per-store lead spanning roughly 120 to 340 µg/kg ([[sources/armand2026-lettuce-cabbage-behbahan|Armand et al. 2026]], generic lettuce, industrial-impact region; the authors themselves state these values should not be treated as representative of global lettuce baselines). A Ghanaian survey of lettuce grown on anthropogenic-activity sites (traffic corridors, a sewage-treatment farm) in Kumasi reports extreme site means including lettuce nickel to 137 mg/kg dry weight ([[sources/owusuadoma2024-ghana-lettuce-metals|Owusu Adoma et al. 2024]], generic lettuce, contaminated urban-farming sites). Both are wastewater/industrial-impact, generic-lettuce data; they bound the upper tail of what contaminated-region lettuce can carry but cannot be relabeled as iceberg or as ordinary-market baseline, and neither reports a usable iceberg-fidelity central value.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 16–61.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–168 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -167,7 +127,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -176,21 +136,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Lettuce, iceberg, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 8.4 | 16 | 27 | 61.2 | 64.4 | 73 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 100 | in profile |
-| Ni | 27 | 0 | 0 | 90 | 168 | 215 | 250 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 8.4 | 73 | in profile |
+| Cr | 27 | 0 | 100 | in profile |
+| Ni | 27 | 0 | 250 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study measured iceberg lettuce (TDS Food 109, "Lettuce, iceberg, raw") with n=27 composite samples and found Cd ranging from a minimum of 8.4 ppb to a maximum of 73 ppb, with a median of 27 ppb and a p90 of 61.2 ppb; Ni ranging from 0 to a maximum of 250 ppb with a median of 90 ppb; and Cr below the 50 ppb reporting limit in 26 of 27 samples with a single detect at 100 ppb as the distribution maximum [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Pb (reporting limit 4 ppb), tAs (3 ppb), tHg (1 ppb), and U (1 ppb) were below their reporting limits across all 27 samples; these are left-censored bounds, not measured zeros, and constrain the metal burden from above rather than establishing it at zero. The TDS reflects the US retail market, which sources iceberg lettuce predominantly from California and Arizona. Iceberg lettuce grown in regions with elevated soil Cd (associated with certain phosphate-fertilized soils or historically contaminated fields) would be expected to show higher Cd concentrations; California growing regions for iceberg lettuce are generally well-characterized with respect to soil quality, and the TDS median of 27 ppb Cd is consistent with this agricultural context. No iceberg-specific occurrence survey beyond the FDA composite exists in the current corpus; two generic-lettuce retail surveys (Behbahan, Iran and Kumasi, Ghana) measured lettuce in industrial-impact and anthropogenic-activity settings and report substantially higher lead and chromium, but are carried only as broad-lettuce industrial-region proxies and not as iceberg baselines (see the Synthesis basis and censoring treatment section).
+The FDA FY2018-FY2020 Total Diet Study measured iceberg lettuce (TDS Food 109, "Lettuce, iceberg, raw") with n=27 composite samples and found Cd ranging from a minimum of 8.4 ppb to a maximum of 73 ppb, with a median of 27 ppb; Ni ranging from 0 to a maximum of 250 ppb with a median of 90 ppb; and Cr with a maximum of 100 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Pb, tAs, tHg, and U were below the reporting limit across all samples. The TDS reflects the US retail market, which sources iceberg lettuce predominantly from California and Arizona. Iceberg lettuce grown in regions with elevated soil Cd (associated with certain phosphate-fertilized soils or historically contaminated fields) would be expected to show higher Cd concentrations; California growing regions for iceberg lettuce are generally well-characterized with respect to soil quality, and the TDS median of 27 ppb Cd is consistent with this agricultural context. European data for lettuce (various varieties) generally show Cd in the range of 10 to 100 ppb depending on soil and cultivation conditions.
 
 ## Processing effects
 
@@ -230,10 +190,18 @@ Iceberg lettuce is not packaged in tin-lined cans; Sn migration is not a relevan
 
 EU Regulation 2023/915 sets maximum levels for Pb in leafy vegetables at 0.30 mg/kg fresh weight and for Cd in leafy vegetables at 0.20 mg/kg fresh weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum for Cd in iceberg lettuce (73 ppb, equivalent to 0.073 mg/kg) is well below the EU Cd limit of 0.20 mg/kg. The EU Cd limit for lettuce specifically under [[regulations/eu-2023-915-cadmium]] is 0.20 mg/kg fresh weight; Cd levels in the TDS distribution are consistent with compliance. The United States does not set a statutory maximum for Pb or Cd in leafy vegetables. Codex Alimentarius does not set a specific ML for Cd or Pb in lettuce as a distinct commodity [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -242,15 +210,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Jafari et al. 2018 — Iran systematic review of heavy metals in Iranian-grown vs imported rice (10 studies, 2000-2017) with adult EWI/PTWI comparison
 
+## Overview
+
 This Data in Brief paper is a systematic-review companion data article that pools 10 primary Iranian rice-contamination studies retrieved from Persian and English databases over a 2000-2017 search window. The authors recomputed weighted-mean concentrations (mg/kg dry weight) of eight elements — Cd, Pb, total As, total Cr, Zn, Ni, Cu, Co — separately for Iranian-grown and imported rice brands sold in Iran, then computed estimated weekly intakes (EWI) at 770 g/week per-capita rice consumption and 60 kg adult body weight, comparing each EWI against the FAO/WHO PTWI. Across both rice categories, every EWI was below its PTWI. The pooled Iranian-grown vs imported means (mg/kg dry weight) were Cd 0.16 vs 0.13, Pb 0.196 vs 0.55, tAs 0.046 vs 0.057, Cr 0.29 vs 0.61, Zn 26.13 vs 3.46, Ni 0.22 vs 0.76, Cu 16 vs 2.08, and Co 0.29 vs 0.29; significant differences (P<0.001) were reported between Iranian-grown and imported rice for all elements except Co (P=0.99) and Zn (P=0.99). Imported rice was higher in Pb, tAs, Cr, and Ni; Iranian-grown rice was higher in Zn and Cu. The paper is a pooled summary, not original primary measurements, and the constituent-study labels in Tables 1-2 are partly mislabelled relative to the reference list (see Verification notes); the pooled means in Table 3 are the operative result. Evidence tier B.
 
 ## Key numbers
@@ -188,15 +190,15 @@ This is a B-tier source: peer-reviewed in Data in Brief (CC BY 4.0 open access),
 - **Data integrity.** All Table 1 (7 rows × 10 columns), Table 2 (6 rows × 10 columns), Table 3 (16 rows × 7 columns), and Table 4 (8 rows × 5 columns) cells transcribed from the original PDF (pages 456-458). Pooled N sums verified for Cd (Iranian 295 = 45+30+7+99+15+99 ✓; imported 160 = 81+30+14+35 ✓), Pb (Iranian 295 = 45+30+7+99+15+99 ✓; imported 320 = 100+81+60+30+14+35 ✓), and Zn (Iranian 144 = 45+99 ✓; imported 100 = 100 ✓). The paper-internal label-vs-reference mismatches in Tables 1-2 are documented above and do not affect the pooled values.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

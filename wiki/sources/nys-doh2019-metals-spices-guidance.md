@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # NYS DOH 2019 — Health-based guidance values for metals in spices
 
+## Overview
+
 The New York State Department of Health (NYS DOH) Bureau of Toxic Substance Assessment derived health-based guidance values for inorganic arsenic, cadmium, hexavalent chromium, and lead in spices, at the request of the NYS Department of Agriculture & Markets. Using the standard EPA risk-assessment paradigm (hazard identification, dose-response, exposure assessment, risk characterization), the document establishes recommended screening-level concentrations in spices that would be protective of both cancer and noncancer health effects for children and adults. The guidance explicitly calls for speciation of arsenic (iAs, not tAs) and chromium (Cr-VI, not total Cr) when comparing analytical results to the derived values, and acknowledges that lead has no threshold, requiring an as-low-as-achievable approach.
 
 ## Key numbers
@@ -92,7 +94,7 @@ Key limitations: guidance values express concentration in any single spice, not 
 
 ## Implications
 
-**Certification:** This is an explicit US-jurisdiction health-based reference set for metals in spices stratified by population subgroup. Recommended guidance values: iAs 0.0030 mg/kg, Cd 0.019 mg/kg, Cr-VI 0.058 mg/kg, Pb 0.21 mg/kg. The document also states explicitly that some health-based values may be below typical background concentrations and recommends that screening levels be reconciled against measured background. Contributes baseline reference values and stratified consumption data for threshold work on the spice category; the speciation discipline (iAs not tAs; Cr-VI not total Cr) is consistent with CLAUDE.md Part 14 and constrains how analytical results from upstream sources must be reported to be comparable.
+**Certification:** This is an explicit US-jurisdiction health-based reference set for metals in spices stratified by population subgroup. Recommended guidance values: iAs 0.0030 mg/kg, Cd 0.019 mg/kg, Cr-VI 0.058 mg/kg, Pb 0.21 mg/kg. The document also states explicitly that some health-based values may be below typical background concentrations and recommends that screening levels be reconciled against measured background. Contributes baseline reference values and stratified consumption data for threshold work on the spice category; the speciation discipline (iAs not tAs; Cr-VI not total Cr) is consistent with and constrains how analytical results from upstream sources must be reported to be comparable.
 
 **Courses:** Worked example of how a single oral reference dose translates into very different food-matrix action levels depending on the consumption rate used. Demonstrates the structural reason spice action levels end up far below regulatory maxima for staple foods using the same toxicological endpoints. Also illustrates EPA-paradigm uncertainty-factor stacking (CA EPA chRfD for cadmium uses UF of 90: 10 intrahuman × 3 for LOEL extrapolation × 3 for child-adult GI absorption difference).
 
@@ -119,15 +121,15 @@ Key limitations: guidance values express concentration in any single spice, not 
 - [[regulations/nys-metals-spices-guidance-2019]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

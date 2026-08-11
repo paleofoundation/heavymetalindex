@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Seyfferth et al. 2025 — Rice water management trade-offs: As and Hg vs. Cd across a soil-redox gradient
 
+## Overview
+
 This 2-year field study (University of Delaware, 2016–2017) grew rice across six paddies managed under a continuous gradient of soil redox conditions, spanning fully flooded to non-flooded furrow-irrigated conditions, and measured grain concentrations of inorganic and organic arsenic species, total and methyl mercury, and cadmium alongside methane emissions. The central finding is a fundamental trade-off: drier water management significantly reduces grain As and Hg (both total and methylated species) and cuts CH4 emissions, but substantially raises grain Cd, with the driest paddy exceeding the CODEX limit of 0.4 mg/kg Cd in both years. Because row rice and alternate wetting-and-drying (AWD) irrigation are being rapidly adopted in the US and globally as climate-smart practices, the study warns that historical risk assessments anchored in flooded-rice Cd data may materially underestimate the Cd risk in the emerging production system.
 
 ## Key numbers
@@ -85,15 +87,15 @@ Microbiome: the flooded-paddy sulfate-reducing bacteria that drive MeHg producti
 - [[regulations/fda-ctz-iAs-cereal-100ppb]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

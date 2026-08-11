@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 62334d93bebaf339f1c664797baae981be152cd6b75dd3cba5e3e877d20ab80f
+source_page_sha256: fd5640f2b352743fcd6a6b7060a9d57d0ba23b140bbf67fcd54dcfa6ad8e24ab
 total_claims: 20
 cited_claims: 17
 uncited_claims: 3
-distinct_cited_targets: 10
-distinct_cited_sources: 9
+distinct_cited_targets: 11
+distinct_cited_sources: 10
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 20 |
 | cited claims | 17 |
 | uncited claims | 3 |
-| distinct cited targets | 10 |
-| distinct cited `sources/` pages | 9 |
+| distinct cited targets | 11 |
+| distinct cited `sources/` pages | 10 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -116,7 +116,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 µg/kg`
 - Context: `LC-ICP-MS speciation of iAs in 25 Italian-market rice-based beverages (mean iAs 15 µg/kg); primary direct iAs occurrence`
-- Cited targets (8):
+- Cited targets (9):
   - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
@@ -128,6 +128,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
     - audit rows: none
@@ -136,7 +138,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `428 ppb`
 - Context: `P-MS tAs and iAs measurement in 3 Australian rice milk powder samples (mean tAs 428 ppb; mean iAs 160 ppb); triangulatio`
-- Cited targets (8):
+- Cited targets (9):
   - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
@@ -148,6 +150,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
     - audit rows: none
@@ -156,7 +160,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `160 ppb`
 - Context: `easurement in 3 Australian rice milk powder samples (mean tAs 428 ppb; mean iAs 160 ppb); triangulation source confirmin`
-- Cited targets (8):
+- Cited targets (9):
   - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
@@ -168,6 +172,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
     - audit rows: none
@@ -176,7 +182,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6.45 µg/kg`
 - Context: `CV-AFS MeHg speciation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides M`
-- Cited targets (8):
+- Cited targets (9):
   - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
@@ -188,6 +194,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
     - audit rows: none
@@ -196,7 +204,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.91 µg/kg`
 - Context: `ation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides MeHg ingredient ca`
-- Cited targets (8):
+- Cited targets (9):
   - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
@@ -208,6 +216,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
     - audit rows: none
@@ -272,6 +282,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/good2026-plant-milk-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
+| `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` | sources | 0 | — | — |
 | `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` | sources | 0 | — | — |
 

@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
 
+## Overview
+
 This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI exceed permissible limits in lotions and sunblock creams for Cd, Cr, and Pb (MoS <100; HQ and HI >1); the remaining four categories (hair dye, foundation, whitening cream, lipstick) stay within limits. LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use.
 
 ## Key numbers
@@ -154,15 +156,15 @@ Microbiome: Not addressed.
 - Added PerkinElmer AAnalyst 700 instrument vendor and NIST SRM 1515 reference material to Methods (Part 12 Exception 2 — scientific reproducibility).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

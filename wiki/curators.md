@@ -9,12 +9,12 @@ curators:
   - name: "Karen Pendergrass"
     slug: karen-pendergrass
     role: founder-editor-in-chief
-    affiliation: "Paleo Foundation (Cyprus)"
-    credentials: "Founder and Chief Executive Officer, Paleo Foundation. Architect of the Heavy Metal Index and the Heavy Metal Tested & Certified (HMT&C) certification program. Curator of the corpus and editor of substantive synthesis claims."
+    affiliation: "Institute of Contaminant Standards (ICS) (Cyprus)"
+    credentials: "Founder and Chief Executive Officer, Institute of Contaminant Standards (ICS). Architect of the Heavy Metal Index and the Heavy Metal Tested & Certified (HMT&C) certification program. Curator of the corpus and editor of substantive synthesis claims."
     domain_expertise: "Heavy metals in food, food certification program design, supply-chain quality assurance, regulatory comparative analysis, standards-setting methodology"
     conflicts_of_interest:
       - "Operates the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] § Editorial firewall and enforced architecturally (one-way linking, no brand-level data in the wiki, no HMT&C-certified brand mentions, evidence-state separation between public wiki claims and HMT&C internal records)."
-      - "Operates additional Paleo Foundation certification programs unrelated to heavy metals. None of those programs interact with Heavy Metal Index editorial decisions."
+      - "Operates additional Institute of Contaminant Standards (ICS) certification programs unrelated to heavy metals. None of those programs interact with Heavy Metal Index editorial decisions."
     contact: "karen@paleofoundation.com"
     recusal_pages: []
 external_reviewers:
@@ -72,6 +72,8 @@ last_review_board_update: 2026-05-28
 
 # Curators and conflict-of-interest disclosure
 
+## Overview
+
 This page names the curators of the Heavy Metal Index, lists their relevant credentials and domain expertise, and discloses conflicts of interest. It is the defensibility surface that distinguishes a curated reference from an anonymous compilation — Cochrane has it, EFSA scientific opinions have it, every credible standards body has it. The Heavy Metal Index has one because the [[methodology|methodology]] and [[editorial-standards|editorial-standards]] arguments depend on it.
 
 The page is a **scaffold**. The structural slots are in place; the named individuals will be filled in as the curatorial board is finalised. The placeholders are explicit so a reader can see what is and is not yet named. The placeholders will be replaced (not removed) as the board comes together.
@@ -90,9 +92,9 @@ The current composition is in the page frontmatter under `external_reviewers:`. 
 
 ## Conflicts of interest, principal disclosure
 
-The Paleo Foundation operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
+The Institute of Contaminant Standards (ICS) operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
 
-The firewall, as documented in [[editorial-standards|editorial-standards.md]] and [[CLAUDE|CLAUDE.md § Part 2]]:
+The firewall, as documented in [[editorial-standards|editorial-standards.md]] and:
 
 1. **The Index reports what the literature supports.** It does not soften claims to make HMT&C thresholds look more aligned with the literature than they are, and it does not strengthen claims to make those thresholds look more evidence-based than they are.
 2. **HMT&C threshold deviations from the literature baseline are labeled, not hidden.** Where HMT&C certifies to a value tighter than the literature mandates, the rationale is named — precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment.

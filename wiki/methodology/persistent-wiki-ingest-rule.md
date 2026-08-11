@@ -9,6 +9,8 @@ sources: 0
 
 # Persistent Wiki Ingest Rule
 
+## Overview
+
 The Heavy Metal Index is not a query-time file bucket. It is a persistent, compiled wiki that sits between the raw source corpus and every downstream use: public product pages, ingredient pages, metal pages, standards development, retailer review, quality-control operations, legal due diligence, and Ask the Index.
 
 The operating rule is simple: a source is not "ingested" because a PDF exists locally, because a source page exists, or because a language model can retrieve the file later. A source is ingested only when its evidence has been compiled into the Index's persistent structures and routed to the correct wiki destinations.
@@ -168,3 +170,17 @@ The user should not need to keep handing the same paper back to the system for r
 - No one-off manual product-page fix if the behavior belongs in the central generator.
 
 That is the Heavy Metal Index version of an LLM-maintained wiki: persistent, routed, auditable, and cumulative.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+<!-- END: hmi-page-history -->

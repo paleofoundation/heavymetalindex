@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Llorente-Mirandes 2011 — Total arsenic and arsenic speciation in six commercial edible seaweeds (Spain)
 
+## Overview
+
 Llorente-Mirandes and colleagues determined total arsenic and water-soluble arsenic speciation (arsenosugars, methylated species, and inorganic arsenic) by LC-ICP-MS in six commercial edible seaweeds sold in Spain. Total arsenic ranged 5.8–56.8 mg As/kg dry weight; arsenosugars dominated (>90% of extracted arsenic in four of six species), and inorganic arsenic [As(III)+As(V)] was a small fraction, detected in only three of the six samples at 0.29–0.51 mg/kg and below detection in the two kombu species (*Laminaria ochroleuca*, *L. saccharina*) and nori. All six were below the French inorganic-arsenic seaweed limit (3 mg/kg dw). The certified reference material *Sargassum fulvellum* (a hijiki relative), run throughout, by contrast carried 69.9 mg/kg inorganic arsenic (69% of extracted As). The study refines the row picture: the kombu/*Laminaria* genus is not uniformly high-iAs — these European-market kombu species were low, in contrast to the elevated *L. digitata* reported elsewhere.
 
 ## Key numbers
@@ -73,12 +75,15 @@ Six dried edible seaweeds (Galician coast, bought in Barcelona) were oven-dried 
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; Checks 1–4 clean (all Table 1 values, the iAs/tAs speciation labeling, and brand firewall verified exact — no arsenosugar/organic value mislabeled as iAs). One Check 5 ⚠️ applied: the Implications section had attributed the contrasting high-iAs of *L. digitata* to "(Ronan 2017, Taylor 2016)" as if established by this paper, which neither measured *L. digitata* nor cited those works; reworded so the within-genus refinement is presented as internal to this study and the cross-source *L. digitata* contrast is flagged as belonging to the Part 9 synthesis pass, not this source page. No numeric/speciation corrections needed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b0202f2](https://github.com/paleofoundation/heavymetalindex/commit/b0202f2) | 2026-06-08 | audit: llorente-mirandes2011-commercial-seaweed-arsenic revised |
-| [addea1c](https://github.com/paleofoundation/heavymetalindex/commit/addea1c) | 2026-06-08 | ingest: llorente-mirandes2011-commercial-seaweed-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

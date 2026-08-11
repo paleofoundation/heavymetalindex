@@ -12,20 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 30]
-    p95_ppb: 100
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
-    typical_ppb: [0, 2]
-    p95_ppb: 10
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,28 +33,25 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 10]
-    p95_ppb: 10
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
-  tHg:
-    status: populated
-    typical_ppb: [0, 30]
-    p95_ppb: 30
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
+    last_reviewed: 2026-05-13
+  tHg:
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
-    typical_ppb: [0, null]
-    p95_ppb: null
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -66,13 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 25]
-    p95_ppb: 83
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: lamb-chop-muscle-wet-weight
-    speciation: total-Cr-only
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,83 +75,47 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
-sources: 6
+updated: 2026-05-13
+sources: 1
 ---
 
 # Lamb chop
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 0 jurisdictions | only 0 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 10 claims checked, 10 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming lamb-chop: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 22, "Lamb chop, pan-cooked with oil." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals
 
-Lamb chop is skeletal muscle from young sheep, and its metal contamination profile follows the general pattern of grazing ruminant muscle tissue. Sheep are pasture-fed and ingest metals primarily through forage, soil particles adhering to grass, and water. Unlike cattle, which are often grain-finished in feedlot systems, lamb in many production systems (UK, Australia, New Zealand) is predominantly pasture-raised throughout its lifespan, meaning pasture soil geochemistry is the dominant environmental exposure variable. Cadmium in sheep accumulates preferentially in the kidney cortex (sometimes called "lamb kidneys" for the retail product), with muscle tissue receiving a much smaller fraction of absorbed Cd. Pastoral UK and European studies have documented low but detectable Cd in sheep muscle tissue, with concentrations influenced by the Cd content of the underlying pasture soil. Lead in lamb muscle is typically at or near the reporting limit, consistent with the general principle that lead partitions to bone and soft organs more readily than to skeletal muscle. The FDA FY2018-FY2020 TDS data for lamb chop (pan-cooked with oil) show Cd with a maximum of 1 ppb and Pb with a maximum of 4.4 ppb across 27 samples, with all other measured analytes below their reporting limits; these below-limit FDA results are carried as left-censored bounds rather than measured zeros, and the detected clean-market sheep-muscle literature places lead, cadmium, total arsenic, total mercury, and total chromium at low but non-zero concentrations (see the Synthesis basis and censoring treatment section) [[sources/fda2022-tds-elements-fy2018-fy2020]].
+Lamb chop is skeletal muscle from young sheep, and its metal contamination profile follows the general pattern of grazing ruminant muscle tissue. Sheep are pasture-fed and ingest metals primarily through forage, soil particles adhering to grass, and water. Unlike cattle, which are often grain-finished in feedlot systems, lamb in many production systems (UK, Australia, New Zealand) is predominantly pasture-raised throughout its lifespan, meaning pasture soil geochemistry is the dominant environmental exposure variable. Cadmium in sheep accumulates preferentially in the kidney cortex (sometimes called "lamb kidneys" for the retail product), with muscle tissue receiving a much smaller fraction of absorbed Cd. Pastoral UK and European studies have documented low but detectable Cd in sheep muscle tissue, with concentrations influenced by the Cd content of the underlying pasture soil. Lead in lamb muscle is typically at or near the reporting limit, consistent with the general principle that lead partitions to bone and soft organs more readily than to skeletal muscle. The FDA FY2018-FY2020 TDS data for lamb chop (pan-cooked with oil) show Cd with a maximum of 1 ppb and Pb with a maximum of 4.4 ppb across 27 samples, confirming the low-concentration character of this matrix [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–30 | 100 | medium | [[sources/gorbanov2025-lamb-meat-snacks-metals\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
-| Cd | n=4 | <1–2 | 10 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–10 | 10 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=2 | <1–30 | 30 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Ni | n=1 | <40 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | <50–25 | 83 | low | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, cadmium, total-arsenic, total-mercury, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a lamb-chop muscle wet-weight basis, the form in which the ingredient enters the supply chain and the form FDA prepares and reports ("Lamb chop, pan-cooked with oil"). Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
-
-The earlier profile reported all of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Lamb chop, pan-cooked with oil" (n=27), in which every or nearly every sample fell below the reporting limit for each metal and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, Cd 1, tAs 3, tHg 1, Ni 40, Cr 50, U 1 µg/kg; only two single composites carried a detected value, a Pb maximum of 4.4 µg/kg and a Cd maximum of 1 µg/kg). The resynthesis replaces the literal zeros with the detected lamb/sheep-muscle distributions from the primary occurrence literature, in which lead, cadmium, total arsenic, total mercury, and total chromium are all low but non-zero. The honest floor for each fully censored analyte is the FDA reporting limit expressed as a left-censored bound, not a measured zero.
-
-Lead rests on clean-market sheep-muscle surveys: a Russian controlled-feeding trial in Edilbay-breed lambs ([[sources/gorbanov2025-lamb-meat-snacks-metals|Gorbanov and Giro 2025]], muscle 20 µg/kg in the supplemented group and 30 µg/kg in the control group, n=40), a Kazakh market survey ([[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]], mutton 100 µg/kg, n=8), the lamb subgroup of a Libyan imported-frozen-meat survey ([[sources/altalib2025-frozen-meat-libya|Altalib et al. 2025]], lamb-stratified mean 2.12 µg/kg, n≈7), and the FDA censored floor (max 4.4 µg/kg, reporting limit 4 µg/kg). The clean-market central runs from the FDA left-censored floor up to roughly 30 µg/kg (the Gorbanov control value), and the 95th percentile is anchored on the Maikanov mutton value of 100 µg/kg, the highest clean-market lamb-muscle mean in the pool. Cadmium rests on the lamb subgroup of Altalib et al. (1.51 µg/kg), the FDA censored maximum of 1 µg/kg, Gorbanov and Giro's censored result (both groups below 10 µg/kg), and Maikanov's mutton value reported at zero; the central low bound is the FDA left-censored floor and the upper bound is roughly 2 µg/kg, with the 95th percentile carried at the 10 µg/kg Gorbanov censoring bound. Total arsenic rests on Maikanov et al. (mutton 10 µg/kg), Gorbanov and Giro (below 10 µg/kg, censored), and the FDA censored floor (reporting limit 3 µg/kg, all 27 composites below limit); every value is at or below 10 µg/kg, so the cell is held at low confidence with both the upper typical bound and the 95th percentile at 10 µg/kg.
-
-Total arsenic and inorganic arsenic are kept as distinct analytes; only speciated measurements would populate the inorganic-arsenic cell, and no speciated value exists for this ingredient, so iAs remains a reviewed data gap. Total mercury is held distinct from methylmercury and is not derived from it. The total-mercury cell rests on a single positive lamb-muscle value, Maikanov et al.'s mutton mercury of 30 µg/kg (which the authors note reached the 0.03 mg/kg permissible threshold), against the FDA censored floor of below 1 µg/kg across all 27 composites; with only two contributors and one positive value the cell is carried at low confidence with the typical upper bound and the 95th percentile both at 30 µg/kg and the low bound left-censored at the FDA reporting limit.
-
-Chromium is reported as total chromium at low confidence; no lamb-muscle hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The total-chromium central rests on the Libyan imported-meat survey, whose chromium was reported only as an all-meat aggregate (mean 24.4 µg/kg, range 9–83 µg/kg across chicken, beef, and lamb, with no statistically significant difference by meat type, ANOVA p=0.535), and on the FDA censored floor (reporting limit 50 µg/kg, all 27 composites below limit). Because the Altalib chromium figure is an all-meat aggregate rather than a lamb-stratified value, it is carried explicitly as broad-meat context: the typical upper bound of 25 µg/kg and the 95th percentile of 83 µg/kg reflect the aggregate distribution, not a lamb-specific measurement, and confidence is held low for that reason. Nickel is recorded with only the FDA censored floor of below 40 µg/kg: every lamb-chop composite in the FDA Total Diet Study FY2018-FY2020 fell below the 40 µg/kg nickel reporting limit, and no clean-market lamb-muscle survey in the corpus reports a positive wet-weight nickel concentration, so the honest floor is that reporting limit expressed as a left-censored bound and no positive occurrence value or upper bound is published for the commodity. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no other source in the corpus measures uranium in lamb muscle, so no distribution is published (the rice-uranium precedent).
-
-Elevated and contaminated-region strata are documented separately and are not folded into the central estimate. Bangladesh mutton from the Bogra district ([[sources/islam2015-bangladesh-foods-heavy-metals|Islam et al. 2015]], Pb 180 µg/kg, Cd 46 µg/kg, total As 200 µg/kg, total Cr 2100 µg/kg, Ni 1600 µg/kg fresh weight) and western-Iran sheep muscle ([[sources/raeeszadeh2021-animal-meat-metals-iran|Raeeszadeh et al. 2021]], Pb mean 11790 µg/kg with a range to 58900 µg/kg, Cd 2790 µg/kg, total As 230 µg/kg, total Cr 1660 µg/kg, Ni 540 µg/kg dry weight) sit one to three orders of magnitude above every clean-market lamb-muscle survey and are treated as contaminated-region (and, for Raeeszadeh, dry-weight) outliers rather than commodity-wide baselines. A broad all-meat Beijing aggregate ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]], pooled pork/beef/mutton/chicken on a dry-weight basis: Cr 573, Pb 167, Cd 15, tAs 53, tHg 18 µg/kg) is recorded as dry-weight all-meat context and is not attributed to lamb, because relabeling a pooled-meat aggregate as a lamb-specific value would misrepresent the source. Lamb offal and casings are distinct higher-accumulator matrices and are not part of the muscle headline: sheep liver carries cadmium and lead several-fold above muscle ([[sources/khatemeh2022-pb-cd-sheep-liver-flukes|Khatemeh et al. 2022]], uninfected liver Pb 120 µg/kg, Cd 70 µg/kg, total Cr 400 µg/kg wet weight), and salted natural sheep casings carry a lead mean of 77 µg/kg and total-arsenic mean of 36 µg/kg ([[sources/wysok2025-heavy-metals-sheep-casings|Wysok et al. 2025]], n=35).
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -170,7 +127,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -179,21 +136,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Lamb chop, pan-cooked with oil" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 1 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 4.4 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 1 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 4.4 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study measured lamb chop (TDS Food 22, "Lamb chop, pan-cooked with oil") with n=27 composites and found Cd with a maximum of 1 ppb and all other values below the reporting limit; Pb with a maximum of 4.4 ppb and otherwise below detection; and Cr, Ni, tAs, tHg, and U all below the reporting limit across the full distribution [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. These below-limit FDA results are carried as left-censored bounds rather than as measured zeros. The detected clean-market lamb-muscle distributions in the primary literature place lead at a central of roughly the FDA censored floor up to 30 µg/kg, with a Kazakh mutton survey reaching 100 µg/kg ([[sources/gorbanov2025-lamb-meat-snacks-metals|Gorbanov and Giro 2025]] 20–30 µg/kg; [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]] 100 µg/kg; [[sources/altalib2025-frozen-meat-libya|Altalib et al. 2025]] lamb subgroup 2.12 µg/kg), cadmium below roughly 2 µg/kg, total arsenic at or below 10 µg/kg, and total mercury reaching 30 µg/kg in the Kazakh mutton survey. The US retail lamb market draws on domestic production (Colorado, California, Texas) as well as imports from Australia and New Zealand; Australian and New Zealand pastoral systems are characterized by extensive low-Cd pastures, and lamb from these origins tends to show uniformly low muscle-tissue metal concentrations. Sheep muscle from contaminated regions sits one to three orders of magnitude higher: Bangladesh mutton carried Pb of 180 µg/kg, total Cr of 2100 µg/kg, and Ni of 1600 µg/kg ([[sources/islam2015-bangladesh-foods-heavy-metals|Islam et al. 2015]]), and western-Iran sheep muscle carried a lead mean of 11790 µg/kg on a dry-weight basis ([[sources/raeeszadeh2021-animal-meat-metals-iran|Raeeszadeh et al. 2021]]). These contaminated-region values are stratified out of the central estimate, which reflects clean-market wet-weight lamb muscle.
+The FDA FY2018-FY2020 Total Diet Study measured lamb chop (TDS Food 22, "Lamb chop, pan-cooked with oil") with n=27 composites and found Cd with a maximum of 1 ppb and all other values below the reporting limit; Pb with a maximum of 4.4 ppb and otherwise below detection; and Cr, Ni, tAs, tHg, and U all below the reporting limit across the full distribution [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. These near-BDL results are consistent with the general understanding of lamb muscle as a low-metal matrix. The US retail lamb market draws on domestic production (Colorado, California, Texas) as well as imports from Australia and New Zealand. Australian and New Zealand pastoral systems are characterized by extensive low-Cd pastures, and lamb from these origins tends to show uniformly low muscle-tissue metal concentrations. European pastoral lamb, particularly from the UK and France, may show slightly more geographic variability in soil Cd, but market-level composites are expected to remain well below regulatory limits.
 
 ## Processing effects
 
@@ -233,31 +190,34 @@ Lamb chop is packaged in vacuum pouches or modified-atmosphere trays; Sn migrati
 
 EU Regulation 2023/915 sets maximum levels for Pb in meat (muscle meat of sheep/lamb) at 0.10 mg/kg wet weight and for Cd at 0.050 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum values for Pb (4.4 ppb) and Cd (1 ppb) in pan-cooked lamb chop are well within both limits. No US statutory maximum for Pb or Cd in lamb muscle exists. The EU Cd limit for sheep muscle meat of 0.050 mg/kg (50 ppb) is the operative regulatory cap for EU market access [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a distinct ML for lamb or sheep muscle as a separate category from other meat [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Lamb chop, pan-cooked with oil (n=27); left-censored floors for Pb, Cd, tAs, tHg, Ni, Cr, U |
-| 2 | [[sources/gorbanov2025-lamb-meat-snacks-metals\|Gorbanov and Giro 2025]]. *Evaluation of lamb meat safety for meat snack production after the use of the feed supplement LaktuVet-1 in animal diets*, Proceedings of VSUET 87(1):86-92 | 2025 | Peer-reviewed | RU Edilbay-lamb muscle Pb 20–30 µg/kg, censored Cd and tAs (<10 µg/kg), n=40 controlled-feeding trial |
-| 3 | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|Maikanov et al. 2021]]. *Heavy metals in meat from the Shuchinsk-Burabay resort zone*, n/a | 2021 | Peer-reviewed | KZ mutton Pb 100 µg/kg, tAs 10 µg/kg, tHg 30 µg/kg, Cd reported as zero (n=8) |
-| 4 | [[sources/altalib2025-frozen-meat-libya\|Altalib et al. 2025]]. *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*, Mediterranean Journal of Medical Research | 2025 | Peer-reviewed | LY lamb-subgroup Pb 2.12 µg/kg and Cd 1.51 µg/kg; all-meat total-Cr aggregate 9–83 µg/kg (mean 24.4) |
-| 5 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD mutton Pb 180, Cd 46, tAs 200, total Cr 2100, Ni 1600 µg/kg fw; documented contaminated-region stratum |
-| 6 | [[sources/raeeszadeh2021-animal-meat-metals-iran\|Raeeszadeh et al. 2021]]. *Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich)*, n/a | 2021 | Peer-reviewed | IR sheep muscle Pb mean 11790 µg/kg (dry weight); documented contaminated-region/dry-weight outlier stratum |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Lamb chop, pan-cooked with oil (n=27); detectable concentrations for Cd, Pb |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

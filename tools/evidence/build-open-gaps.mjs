@@ -96,10 +96,28 @@ function merge(existing, detected) {
 
 // ── source 1: hmtc_standards_gap_report.csv ──────────────────────────────────
 
+// The gap-report CSV carries no hmtc_category column; the authoritative source
+// is each product page's own frontmatter. Build slug -> hmtc_category once.
+function buildProductCategoryIndex() {
+  const dir = path.join(repoRoot, "wiki/products")
+  const idx = new Map()
+  if (!fs.existsSync(dir)) return idx
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md") || file === "index.md") continue
+    try {
+      const fm = matter(fs.readFileSync(path.join(dir, file), "utf8")).data || {}
+      const cat = (fm.hmtc_category ?? "").toString().trim()
+      if (cat) idx.set(file.replace(/\.md$/, ""), cat)
+    } catch {}
+  }
+  return idx
+}
+
 function gapsFromStandardsReport() {
   const csvPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
   if (!fs.existsSync(csvPath)) return []
   const rows = parseCsv(fs.readFileSync(csvPath, "utf8"), { columns: true, skip_empty_lines: true })
+  const productCategory = buildProductCategoryIndex()
   const gaps = []
   const now = nowIso()
 
@@ -111,7 +129,8 @@ function gapsFromStandardsReport() {
     const page = `wiki/products/${row.product_slug}.md`
     const metal = (row.metal_species ?? "").trim()
     const matrix = (row.product_standard_scope ?? "").trim()
-    const population = (row.hmtc_category ? `category${row.hmtc_category}` : "")
+    const hmtcCategory = (row.hmtc_category ?? productCategory.get(row.product_slug) ?? "").toString().trim()
+    const population = (hmtcCategory ? `category${hmtcCategory}` : "")
 
     if (!metal) continue
 
@@ -121,6 +140,7 @@ function gapsFromStandardsReport() {
       metal,
       matrix,
       population,
+      hmtc_category: hmtcCategory,
       why: "no_cited_evidence",
       opened_at: now,
       last_attempted_at: null,
@@ -153,6 +173,7 @@ function gapsFromContaminationProfiles() {
       const pageType = fm.type ?? ""
       const matrix = fm.category ?? fm.slug ?? entry.name.replace(".md", "")
       const population = fm.vulnerable_population ?? ""
+      const hmtcCategory = (fm.hmtc_category ?? "").toString().trim()
 
       for (const [metal, profile] of Object.entries(fm.contamination_profile)) {
         if (!profile || typeof profile !== "object") continue
@@ -163,6 +184,7 @@ function gapsFromContaminationProfiles() {
           metal,
           matrix,
           population,
+          hmtc_category: hmtcCategory,
           why: "pending_contamination_profile",
           opened_at: now,
           last_attempted_at: null,
@@ -198,6 +220,7 @@ function gapsFromRoutingUnresolved() {
       metal: "",
       matrix: targetKind,
       population: "",
+      hmtc_category: "",
       why: "routing_unresolved",
       opened_at: now,
       last_attempted_at: null,
@@ -237,6 +260,7 @@ function gapsFromTbdSections() {
         metal: "",
         matrix,
         population,
+        hmtc_category: "",
         why: "tbd_section",
         opened_at: now,
         last_attempted_at: null,
@@ -280,16 +304,35 @@ function main() {
 
   fs.writeFileSync(outputPath, final.map((r) => JSON.stringify(r)).join("\n") + "\n")
 
+  // Per-category rollup so "pull papers for product-category N gaps" is a direct
+  // lookup, not an implicit join through the population string.
+  const rollup = new Map() // `${cat}|${why}|${status}` -> count
+  for (const r of final) {
+    const cat = (r.hmtc_category ?? "").toString().trim() || "(uncategorized)"
+    const key = `${cat}|${r.why}|${r.status}`
+    rollup.set(key, (rollup.get(key) ?? 0) + 1)
+  }
+  const rollupRows = [...rollup.entries()]
+    .map(([k, count]) => { const [hmtc_category, why, status] = k.split("|"); return { hmtc_category, why, status, count } })
+    .sort((a, b) => (a.hmtc_category.localeCompare(b.hmtc_category) || b.count - a.count))
+  const rollupPath = path.join(gapsDir, "open_gaps_by_category.csv")
+  fs.writeFileSync(
+    rollupPath,
+    ["hmtc_category,why,status,count", ...rollupRows.map((r) => `${r.hmtc_category},${r.why},${r.status},${r.count}`)].join("\n") + "\n",
+  )
+
   // Summary
   const byCause = {}
   for (const r of final) { byCause[r.why] = (byCause[r.why] ?? 0) + 1 }
   const byStatus = {}
   for (const r of final) { byStatus[r.status] = (byStatus[r.status] ?? 0) + 1 }
+  const withCat = final.filter((r) => (r.hmtc_category ?? "").toString().trim()).length
 
-  console.log(`open_gaps.jsonl: ${final.length} gaps`)
+  console.log(`open_gaps.jsonl: ${final.length} gaps (${withCat} carry an hmtc_category)`)
   for (const [k, v] of Object.entries(byCause)) console.log(`  ${k}: ${v}`)
   console.log("by status:", byStatus)
-  console.log("→", outputPath)
+  console.log(`→ ${outputPath}`)
+  console.log(`→ ${rollupPath} (per-category rollup)`)
 }
 
 main()

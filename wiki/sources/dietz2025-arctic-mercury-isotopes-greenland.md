@@ -6,7 +6,7 @@ title: "Stable isotopes unveil ocean transport of legacy mercury into Arctic foo
 authors: [Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, Futsaeter G, Galatius A, Garbus SE, Gustavson K, Kalia V, Kirk JL, Larsen MM, Letcher RJ, Lippold A, Madsen J, McKinney MA, Sonne C, Stroh E, Styrishave B]
 year: 2025
 publication: "Nature Communications"
-doi: 10.1038/s41467-025-59785-5
+doi: "10.1038/s41467-025-60356-6"
 access_url: https://doi.org/10.1038/s41467-025-59785-5
 source_type: peer-reviewed
 evidence_tier: A
@@ -25,6 +25,8 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
 ---
+
+## Overview
 
 Dietz et al. (2025) present Hg stable isotope data for key aquatic predatory species sampled across Greenland between 1983 and 2024, including Arctic char (Salvelinus alpinus), shorthorn sculpin (Myoxocephalus scorpius), ringed seal (Pusa hispida), glaucous gull, and polar bear. The study found that total Hg concentrations in muscle tissue are lowest in sculpins, ringed seals, and polar bears (medians 0.09–0.36 µg/g wet weight) and highest in Arctic char and glaucous gull (medians 0.61–0.66 µg/g ww). Isotope analysis demonstrates that ocean currents carrying legacy Hg — not atmospheric deposition — are the dominant pathway driving Hg uptake in Arctic marine and coastal areas, explaining the paradox of decreasing atmospheric Hg emissions but increasing Hg loads in many Arctic species.
 
@@ -64,15 +66,15 @@ App: Arctic fish (especially freshwater wild char) carry elevated tHg flags; reg
 - [[ingredients/marine-fish]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

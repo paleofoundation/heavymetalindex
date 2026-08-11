@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Taghavi et al. 2023 - trace elements in saffron-cultivation soils
 
+## Overview
+
 Taghavi and colleagues measured trace elements in agricultural soils used for saffron cultivation in Gonabad County, Iran. This is upstream supply-chain evidence: it reports the soil reservoir and soil-exposure indices that can inform saffron-origin contamination context, but it does not measure saffron stigmas or finished spice. The page therefore treats the values as soil-to-crop pathway context, not as saffron occurrence data.
 
 ## Key numbers
@@ -72,3 +74,17 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 All key numbers were checked against the extracted PDF text, especially Tables 3, 6, and 7 and the pollution-index prose. The paper reports soil values only; no saffron stigma, spice, infant-formula, or finished-product concentrations were found in extracted text. Products and ingredients are intentionally empty, and the soil numbers must not enter HMTc occurrence or threshold pools.
 
 The extracted prose contains an apparent typo saying lead concentrations had median 34.234 mg/kg; Table 3 shows the Pb average as 13.617 mg/kg and 34.234 mg/kg as the Ni average. This page follows Table 3.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

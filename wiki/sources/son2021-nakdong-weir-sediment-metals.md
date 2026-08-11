@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Son et al. 2021 - Nakdong River weir sediment metals
 
+## Overview
+
 Son and colleagues measured Cu, Zn, and Pb in river sediments upstream of the Hapcheon-Changnyeong weir on the Nakdong River in South Korea. The study combines aqua regia extraction, Tessier five-step sequential extraction, and sediment-quality comparisons to evaluate whether the weir promotes metal accumulation. This is primary environmental sediment evidence, not food, ingredient, drinking-water, or consumer-product occurrence evidence.
 
 ## Key numbers
@@ -162,15 +164,15 @@ Findings retained as informational (not applied):
 - Check 2 minor note that the `matrices:` array uses non-food descriptive slugs (`river-sediment`, `weir-impounded-river`, `surface-water-quality`, `sequential-extraction`, `aqua-regia-extraction`) outside the food-matrix controlled vocabulary. This is the same posture established for non-food environmental and remediation sources (e.g., [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]], [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]); the routing-audit advisory row in `routing_malformed.csv` already records the empty `products`/`ingredients` arrays, which is the correct surfacing channel for this scope.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [aeb3d84](https://github.com/paleofoundation/heavymetalindex/commit/aeb3d84) | 2026-06-03 | audit: son2021-nakdong-weir-sediment-metals revised |
-| [549d33d](https://github.com/paleofoundation/heavymetalindex/commit/549d33d) | 2026-06-03 | ingest: son2021-nakdong-weir-sediment-metals enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aeb3d8491](https://github.com/paleofoundation/heavymetalindex/commit/aeb3d8491) | 2026-06-03 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

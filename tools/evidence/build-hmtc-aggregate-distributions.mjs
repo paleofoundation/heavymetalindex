@@ -53,6 +53,23 @@ const pseudoSampleCap = Number(args.get("pseudo-sample-cap") ?? 500)
 const CLEAN_TARGET_P = 0.97       // per-analyte clean standard
 const DIRTY_TARGET_P = 0.45       // per-analyte dirty standard
 const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/dirty
+
+// Machine-only clean/dirty/independent role assignment, keyed by product_slug.
+// See data/workbench/standards/subcategory-roles.json for why this exists: the
+// role must not live in public product frontmatter (firewall leak), so the
+// public `variant_type` token gets rewritten and the engine's dirty branch
+// never matched — 0 dirty rows corpus-wide. Reading the role from this config
+// FIRST decouples the percentile choice from the public page.
+const subcategoryRolesPath = path.join(repoRoot, "data/workbench/standards/subcategory-roles.json")
+const subcategoryRoles = (() => {
+  if (!fs.existsSync(subcategoryRolesPath)) return {}
+  try {
+    return JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).roles ?? {}
+  } catch (err) {
+    console.error(`subcategory-roles.json failed to parse: ${err.message}`)
+    return {}
+  }
+})()
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
 const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
 const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
@@ -130,32 +147,113 @@ function deriveNativeBasis(slug, variantType) {
 
 // ---- Load all structured CSVs + samples CSVs
 
+// Rows the pre-pool validation gate (tools/autonomy/validate-extracted-values.mjs)
+// flagged as gross-error-band or intra-cell outliers are held from the pool.
+// Scoped to the autonomy extractor's own output and keyed semantically
+// (source_id|metal|product), so it survives a deterministic re-extract without
+// depending on fragile row indices.
+const AUTONOMY_SUMMARY_FILE = "category1_autonomy_extracted_summary.csv"
+
+function loadQuarantineKeys() {
+  const qp = path.join(repoRoot, "data/evidence/autonomy/extraction-quarantine.csv")
+  if (!fs.existsSync(qp)) return new Set()
+  const keys = new Set()
+  for (const r of parseCsv(fs.readFileSync(qp, "utf8"))) {
+    keys.add(`${(r.source_id ?? "").trim()}|${(r.metal_species ?? "").trim()}|${(r.product_label ?? "").trim()}`)
+  }
+  return keys
+}
+
+// Sources placed on HOLD in the outlier adjudication registry
+// (data/evidence/standards-outlier-adjudication.csv) are held from EVERY pool,
+// not just the autonomy extractor's output. Keyed semantically by
+// (source_id|metal_species|row_slug) so a re-extract cannot reintroduce a held
+// outlier. Only registry rows that name a specific source_id drop pool rows;
+// cell-level holds (blank source_id, e.g. a whole-cell sensitivity hold) are a
+// QC-gate signal, not a pool exclusion, so they are skipped here. An empty
+// metal or slug on a source-specific hold acts as a wildcard for that field.
+function loadHoldKeys() {
+  const hp = path.join(repoRoot, "data/evidence/standards-outlier-adjudication.csv")
+  if (!fs.existsSync(hp)) return { exact: new Set(), wildMetal: new Set(), wildSlug: new Set(), wildBoth: new Set() }
+  const exact = new Set()
+  const wildMetal = new Set() // source|slug  (any metal)
+  const wildSlug = new Set() // source|metal  (any slug)
+  const wildBoth = new Set() // source        (any metal, any slug)
+  for (const r of parseCsv(fs.readFileSync(hp, "utf8"))) {
+    if (!(r.disposition ?? "").trim().toUpperCase().startsWith("HOLD")) continue
+    const sourceId = (r.source_id ?? "").trim()
+    if (!sourceId) continue // cell-level hold -> QC gate, not a pool exclusion
+    const metal = (r.metal_species ?? "").trim()
+    const slug = (r.row_slug ?? "").trim()
+    if (metal && slug) exact.add(`${sourceId}|${metal}|${slug}`)
+    else if (slug) wildMetal.add(`${sourceId}|${slug}`)
+    else if (metal) wildSlug.add(`${sourceId}|${metal}`)
+    else wildBoth.add(sourceId)
+  }
+  return { exact, wildMetal, wildSlug, wildBoth }
+}
+
+function isHeld(row, hold) {
+  const sourceId = (row.source_id ?? "").trim()
+  if (!sourceId) return false
+  const metal = (row.metal_species ?? "").trim()
+  const slug = (row.product_slug || row.row_slug || "").trim()
+  return (
+    hold.exact.has(`${sourceId}|${metal}|${slug}`) ||
+    hold.wildMetal.has(`${sourceId}|${slug}`) ||
+    hold.wildSlug.has(`${sourceId}|${metal}`) ||
+    hold.wildBoth.has(sourceId)
+  )
+}
+
 function loadStructuredRows() {
+  const quarantineKeys = loadQuarantineKeys()
+  const hold = loadHoldKeys()
   const summaryFiles = fs
     .readdirSync(path.join(repoRoot, "data/evidence"))
     .filter((f) => /^category\d.*_summary\.csv$/.test(f))
     .map((f) => path.join(repoRoot, "data/evidence", f))
   const rows = []
+  let quarantinedDropped = 0
+  let heldDropped = 0
   for (const f of summaryFiles) {
+    const base = path.basename(f)
     const parsed = parseCsv(fs.readFileSync(f, "utf8"))
     for (const row of parsed) {
-      rows.push({ ...row, _source_file: path.basename(f) })
+      if (base === AUTONOMY_SUMMARY_FILE && quarantineKeys.size) {
+        const key = `${(row.source_id ?? "").trim()}|${(row.metal_species ?? "").trim()}|${(row.product_label ?? "").trim()}`
+        if (quarantineKeys.has(key)) { quarantinedDropped++; continue }
+      }
+      if (isHeld(row, hold)) { heldDropped++; continue }
+      rows.push({ ...row, _source_file: base })
     }
+  }
+  if (quarantinedDropped) {
+    console.log(`  pool admission: excluded ${quarantinedDropped} quarantined autonomy row(s) (validation gate)`)
+  }
+  if (heldDropped) {
+    console.log(`  pool admission: excluded ${heldDropped} HOLD-registry row(s) (outlier adjudication)`)
   }
   return rows
 }
 
 function loadSampleRows() {
+  const hold = loadHoldKeys()
   const sampleFiles = fs
     .readdirSync(path.join(repoRoot, "data/evidence"))
     .filter((f) => /^category\d.*_samples\.csv$/.test(f))
     .map((f) => path.join(repoRoot, "data/evidence", f))
   const rows = []
+  let heldDropped = 0
   for (const f of sampleFiles) {
     const parsed = parseCsv(fs.readFileSync(f, "utf8"))
     for (const row of parsed) {
+      if (isHeld(row, hold)) { heldDropped++; continue }
       rows.push({ ...row, _source_file: path.basename(f) })
     }
+  }
+  if (heldDropped) {
+    console.log(`  sample admission: excluded ${heldDropped} HOLD-registry sample row(s) (outlier adjudication)`)
   }
   return rows
 }
@@ -385,55 +483,76 @@ function pool(rowsForCell, productNativeBasis, rng) {
   const admittedContribs = contributions.filter((c) => c.admitted)
   const sampleVectors = admittedContribs.map((c) => c.samples.slice())
 
-  // Closed-form relative-share cap. For source i with original length n_i and
-  // others' total m_i, the post-cap length n_i' satisfies n_i' / (n_i' + m_i)
-  // ≤ S. Solving: n_i' ≤ m_i × S / (1 - S). For S = 0.5, n_i' ≤ m_i (a
-  // single source can match — but not exceed — the sum of all others).
-  // We apply this in one pass; if multiple sources are over the cap, each
-  // one's allowance is computed against the others' lengths *after* their
-  // own caps are applied. Solve iteratively but with a convergent shrinkage
-  // rule: each pass strictly reduces over-cap sources by at least 5% until
-  // all sit at or below the cap.
+  // The share cap is applied by WEIGHTING, not by discarding observations.
+  //
+  // Why this matters: the previous implementation enforced the share cap by
+  // downsampling the largest source. Because a source may contribute at most
+  // the sum of all others (S = 0.5), one large high-quality source pooled with
+  // several small ones was truncated to the size of the small ones. Rice-based
+  // cereal cadmium is the worst case: FDA 2024 contributes 252 real
+  // sample-level measurements, the other three sources total 16, so FDA was
+  // cut to 16 and the pool came out at 32. Two hundred and thirty-six real
+  // measurements were thrown away to keep a reconstructed basket entry
+  // proportionate, and the resulting n could no longer support the P97 the
+  // methodology assigns the cell.
+  //
+  // Downsampling is the wrong instrument for the job. The share cap exists to
+  // stop a BIASED source from dominating; discarding observations does not
+  // remove bias, it only adds sampling error on top of it, and it destroys the
+  // precision the pool is being built for. Weighting bounds influence exactly
+  // as intended while keeping every observation in the estimate.
+  //
+  // So: each source i receives total weight W_i, initialised proportional to
+  // its sample count and shrunk until W_i / sum(W) <= S by the same closed
+  // form as before (W_i <= others x S/(1-S)). Every sample survives, carrying
+  // per-sample weight W_i / n_i. Percentiles downstream are weighted.
+  //
+  // Precision is then reported honestly as Kish's effective sample size,
+  // n_eff = (sum w)^2 / sum(w^2), which is what unequal weighting actually
+  // buys and what the minimum-n gate must be judged against. Equal weights
+  // give n_eff = n; a pool dominated by one heavily-weighted source gives a
+  // smaller n_eff, correctly.
   const ratio = MAX_SOURCE_SHARE / (1 - MAX_SOURCE_SHARE)
-  // Up to 200 iterations is plenty; each pass strictly shrinks.
+  const sourceWeight = sampleVectors.map((s) => s.length)
   let safety = 200
   while (safety-- > 0) {
-    const lens = sampleVectors.map((s) => s.length)
-    const total = lens.reduce((a, b) => a + b, 0)
-    if (total === 0) break
+    const totalW = sourceWeight.reduce((a, b) => a + b, 0)
+    if (totalW === 0) break
     let changed = false
-    for (let i = 0; i < sampleVectors.length; i++) {
-      const others = total - lens[i]
-      const allowed = Math.max(1, Math.floor(others * ratio))
-      if (sampleVectors[i].length > allowed) {
-        sampleVectors[i] = downsampleUniform(sampleVectors[i], allowed)
+    for (let i = 0; i < sourceWeight.length; i++) {
+      if (!sampleVectors[i].length) continue
+      const others = totalW - sourceWeight[i]
+      const allowed = others * ratio
+      if (sourceWeight[i] > allowed + 1e-9) {
+        sourceWeight[i] = Math.max(allowed, 1e-9)
         changed = true
       }
     }
     if (!changed) break
   }
 
-  const pooled = []
+  // Expand to per-sample (value, weight) pairs, sorted by value.
+  const pairs = []
   for (let i = 0; i < admittedContribs.length; i++) {
-    const c = admittedContribs[i]
     const samples = sampleVectors[i]
-    for (const v of samples) pooled.push(v)
-    c.sample_count_admitted = c.samples.length
-    c.sample_count_after_cap = samples.length
-    c.pool_share = samples.length === 0
-      ? 0
-      : Number((samples.length / Math.max(pooled.length, 1)).toFixed(4))
-    delete c.samples
+    if (!samples.length) continue
+    const w = sourceWeight[i] / samples.length
+    for (const v of samples) pairs.push({ v, w })
   }
-  pooled.sort((a, b) => a - b)
+  pairs.sort((a, b) => a.v - b.v)
+  const pooled = pairs.map((p) => p.v)
+  const weights = pairs.map((p) => p.w)
 
-  // Final-share audit for the assertion downstream.
-  const total = pooled.length
+  const totalW = weights.reduce((a, b) => a + b, 0)
+  const sumSq = weights.reduce((a, b) => a + b * b, 0)
+  const effectiveN = sumSq > 0 ? (totalW * totalW) / sumSq : 0
+
   for (let i = 0; i < admittedContribs.length; i++) {
     const c = admittedContribs[i]
-    c.pool_share = total === 0
-      ? 0
-      : Number((sampleVectors[i].length / total).toFixed(4))
+    c.sample_count_admitted = c.samples.length
+    c.sample_count_after_cap = sampleVectors[i].length // nothing is discarded now
+    c.pool_share = totalW === 0 ? 0 : Number((sourceWeight[i] / totalW).toFixed(4))
+    delete c.samples
   }
 
   const medianN =
@@ -442,6 +561,8 @@ function pool(rowsForCell, productNativeBasis, rng) {
       : 0
   return {
     pooled,
+    weights,
+    effectiveN,
     contributions,
     capN: null,
     medianN,
@@ -456,6 +577,39 @@ function downsampleUniform(samples, target) {
     out.push(samples[Math.floor((i * samples.length) / target)])
   }
   return out
+}
+
+// Weighted percentile over value-sorted `sorted` with parallel `weights`.
+// Uses the standard cumulative-midpoint convention: sample k spans the weight
+// interval centred on its own cumulative midpoint, and the percentile is
+// linearly interpolated between adjacent midpoints. With equal weights this
+// reduces to the unweighted percentile above, so a pool with no capped source
+// returns exactly what it returned before this change.
+function weightedPercentile(sorted, weights, p) {
+  if (!sorted.length) return null
+  if (!weights || weights.length !== sorted.length) return percentile(sorted, p)
+  if (sorted.length === 1) return sorted[0]
+  const total = weights.reduce((a, b) => a + b, 0)
+  if (!(total > 0)) return percentile(sorted, p)
+  const mid = []
+  let cum = 0
+  for (let i = 0; i < sorted.length; i++) {
+    mid.push((cum + weights[i] / 2) / total)
+    cum += weights[i]
+  }
+  // Rescale midpoints onto [0,1] so the extremes are reachable, matching the
+  // unweighted function's behaviour at p=0 and p=1.
+  const lo0 = mid[0]
+  const hi0 = mid[mid.length - 1]
+  const span = hi0 - lo0
+  const target = span > 0 ? lo0 + p * span : p
+  if (target <= mid[0]) return sorted[0]
+  if (target >= mid[mid.length - 1]) return sorted[sorted.length - 1]
+  let i = 0
+  while (i < mid.length - 1 && mid[i + 1] < target) i++
+  const denom = mid[i + 1] - mid[i]
+  const w = denom > 0 ? (target - mid[i]) / denom : 0
+  return sorted[i] * (1 - w) + sorted[i + 1] * w
 }
 
 function percentile(sorted, p) {
@@ -479,8 +633,8 @@ function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
       ...row,
       _sensitivity_variant: variant,
     }))
-    const { pooled } = pool(adjustedRows, productNativeBasis, rng)
-    results[variant] = pooled.length > 0 ? percentile(pooled, targetP) : null
+    const { pooled, weights } = pool(adjustedRows, productNativeBasis, rng)
+    results[variant] = pooled.length > 0 ? weightedPercentile(pooled, weights, targetP) : null
   }
   return results
 }
@@ -507,8 +661,8 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
     for (let i = 0; i < rowsForCell.length; i++) {
       drawnRows.push(rowsForCell[Math.floor(iterRng.next() * rowsForCell.length)])
     }
-    const { pooled } = pool(drawnRows, productNativeBasis, iterRng)
-    if (pooled.length > 0) draws.push(percentile(pooled, targetP))
+    const { pooled, weights } = pool(drawnRows, productNativeBasis, iterRng)
+    if (pooled.length > 0) draws.push(weightedPercentile(pooled, weights, targetP))
   }
   draws.sort((a, b) => a - b)
   return {
@@ -518,26 +672,233 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
   }
 }
 
+// ---- Market stratification
+//
+// An occurrence percentile is an estimate of a population. If the pool mixes
+// markets, the percentile estimates a population no brand ships into. HMTc
+// certifies product sold under binding infant-formula MLs and comparable
+// oversight, so --markets restricts the pool to those jurisdictions and the
+// resulting percentile is an estimate of the market the certification applies
+// to. Off by default: the unstratified pool remains the published corpus-wide
+// view, and stratification is an explicit, auditable choice per run.
+//
+// Source jurisdiction comes from the `jurisdictions:` frontmatter on the source
+// page. A source with NO jurisdiction recorded is retained rather than dropped:
+// silently discarding unlabelled evidence would bias the pool in an
+// undocumented direction. Those retentions are reported.
+// Two ways stratification turns on:
+//   1. --markets=... on the CLI forces stratification of EVERY row against that list
+//      (ad-hoc analysis / whole-corpus stratified runs).
+//   2. A row configured `stratify: true` in subcategory-roles.json is stratified on
+//      EVERY build against the config's `target_markets` — no flag needed. This is how
+//      a ratified methodology change is made concrete for a category. Rollout is
+//      per-category: a global default would empty ~100 non-target-market-only cells.
+const marketsArg = args.get("markets") ?? ""
+const cliTargetMarkets = marketsArg
+  ? new Set(marketsArg.split(",").map((m) => m.trim().toUpperCase()).filter(Boolean))
+  : null
+const configTargetMarkets = (() => {
+  if (!fs.existsSync(subcategoryRolesPath)) return null
+  try {
+    const list = JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).target_markets
+    return Array.isArray(list) && list.length
+      ? new Set(list.map((m) => String(m).trim().toUpperCase()).filter(Boolean))
+      : null
+  } catch {
+    return null
+  }
+})()
+const sourceJurisdictions = loadSourceJurisdictions()
+const marketDropped = new Map()
+const marketUnlabelled = new Set()
+
+function stratifyMarketsForSlug(slug) {
+  // CLI flag wins and applies to all rows; otherwise a row is stratified only if its
+  // config marks stratify:true, and then against the config's target_markets.
+  if (cliTargetMarkets) return cliTargetMarkets
+  if (subcategoryRoles[slug]?.stratify && configTargetMarkets) return configTargetMarkets
+  return null
+}
+
+function loadSourceJurisdictions() {
+  const dir = path.join(repoRoot, "wiki/sources")
+  const map = new Map()
+  if (!fs.existsSync(dir)) return map
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md")) continue
+    const head = fs.readFileSync(path.join(dir, file), "utf8").slice(0, 4000)
+    const m = head.match(/^jurisdictions:\s*\[([^\]]*)\]/m)
+    if (!m) continue
+    const list = m[1]
+      .split(",")
+      .map((s) => s.trim().replace(/^["']|["']$/g, "").toUpperCase())
+      .filter(Boolean)
+    if (list.length) map.set(file.replace(/\.md$/, ""), list)
+  }
+  return map
+}
+
+function inTargetMarket(row, slug) {
+  const markets = stratifyMarketsForSlug(slug)
+  if (!markets) return true
+  const sid = row.source_id
+  if (!sid) return true
+  const juris = sourceJurisdictions.get(sid)
+  if (!juris || juris.length === 0) {
+    marketUnlabelled.add(sid)
+    return true
+  }
+  if (juris.some((j) => markets.has(j))) return true
+  marketDropped.set(sid, `${juris.join("/")} [${slug}]`)
+  return false
+}
+
 // ---- Regulatory cap lookup
 
-function lookupRegCap(productSlug, metal, gapRows) {
+// Regulatory MLs carry their own basis text (regulatory_limits.csv `basis`), which
+// is free-form legal phrasing rather than the engine's basis vocabulary. Map the
+// phrasings we have adjudicated; anything unrecognized returns null so the cap is
+// used unconverted and flagged, never silently mis-scaled.
+//
+// "product as placed on market" and its variants are product-relative: they mean
+// the form the product is sold in, which IS the row's native basis. They therefore
+// resolve to the native basis (factor 1) rather than to any fixed token.
+const REG_BASIS_NATIVE_RELATIVE = new Set([
+  "product as placed on market",
+  "product as sold",
+  "as sold or ready-to-eat as applicable",
+  "edible part",
+  "commodity",
+  "wet weight",
+  "wet weight, edible portion",
+])
+const REG_BASIS_PREPARED = new Set([
+  "portion ordinarily consumed",
+  "ready to use",
+  "wet weight or reconstituted juice",
+  "single-strength ready-to-drink juice",
+  "ready-to-drink juice",
+])
+const REG_BASIS_DRY = new Set([
+  "dry infant cereal",
+  "as sold infant rice cereal",
+  "dried spice",
+  "rice commodity",
+])
+
+function normalizeRegulatoryBasis(regBasis, nativeBasis) {
+  const text = String(regBasis ?? "").trim().toLowerCase()
+  if (!text) return null
+  if (REG_BASIS_NATIVE_RELATIVE.has(text)) return nativeBasis
+  if (REG_BASIS_PREPARED.has(text)) return "as_consumed"
+  if (REG_BASIS_DRY.has(text)) return "dry_as_sold"
+  return null
+}
+
+// The 1:7 factor in convertBasis is the infant-formula reconstitution ratio
+// (1 g powder + 6 g water). It is only physically meaningful for product forms
+// that are actually reconstituted before consumption. Applying it to a cap on a
+// dried-fruit, cereal, or ready-to-drink-juice row would inflate a legal ceiling
+// sevenfold — a loosening drift. For those rows a cross-class basis mismatch is
+// reported as unresolved and the cap is used unconverted, which is conservative.
+function hasReconstitutionRelationship(slug, nativeBasis) {
+  if (!/formula/.test(slug)) return false
+  return nativeBasis === "powder_as_placed" || nativeBasis === "concentrated_liquid_as_placed"
+}
+
+const POWDER_BASIS_CLASS = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
+const PREPARED_BASIS_CLASS = new Set(["prepared_for_feeding", "as_consumed"])
+
+function crossesReconstitutionBoundary(fromBasis, toBasis) {
+  return (
+    (POWDER_BASIS_CLASS.has(fromBasis) && PREPARED_BASIS_CLASS.has(toBasis)) ||
+    (PREPARED_BASIS_CLASS.has(fromBasis) && POWDER_BASIS_CLASS.has(toBasis))
+  )
+}
+
+function parseRegulatoryCaps(encoded) {
+  return String(encoded ?? "")
+    .split(";")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const [source, value, ...basisParts] = part.split("|")
+      return { source, value: numberOrNull(value), basis: basisParts.join("|") }
+    })
+    .filter((cap) => cap.value !== null)
+}
+
+function lookupRegCap(productSlug, metal, gapRows, nativeBasis) {
   const row = gapRows.find(
     (r) =>
       r.product_slug === productSlug &&
       String(r.metal_species ?? "").trim() === metal,
   )
   if (!row) return { value: null, source: null }
-  const cap = numberOrNull(row.lowest_regulatory_cap_ug_kg)
+
+  const caps = parseRegulatoryCaps(row.regulatory_caps_all)
+  if (caps.length === 0) {
+    // Pre-basis-column gap reports: fall back to the legacy single-cap fields.
+    return {
+      value: numberOrNull(row.lowest_regulatory_cap_ug_kg),
+      source: row.lowest_regulatory_cap_source || null,
+      reference_status: row.regulatory_reference_status || null,
+    }
+  }
+
+  // Convert every mapped cap into the row's native basis, THEN take the lowest.
+  // Selecting first and converting second (the previous behaviour) compares
+  // legal ceilings across incompatible bases.
+  const converted = caps.map((cap) => {
+    const fromBasis = normalizeRegulatoryBasis(cap.basis, nativeBasis)
+    if (!fromBasis) {
+      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
+    }
+    if (crossesReconstitutionBoundary(fromBasis, nativeBasis) && !hasReconstitutionRelationship(productSlug, nativeBasis)) {
+      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
+    }
+    const c = convertBasis(cap.value, fromBasis, nativeBasis)
+    return {
+      ...cap,
+      native_value: c.value,
+      conversion_factor: c.factor,
+      basis_unresolved: Boolean(c.unknown_conversion),
+    }
+  })
+  converted.sort((left, right) => left.native_value - right.native_value)
+  const binding = converted[0]
+
   return {
-    value: cap,
-    source: row.lowest_regulatory_cap_source || null,
+    value: binding.native_value,
+    source: binding.source,
     reference_status: row.regulatory_reference_status || null,
+    cap_published_value: binding.value,
+    cap_published_basis: binding.basis,
+    cap_conversion_factor: binding.conversion_factor,
+    cap_basis_unresolved: binding.basis_unresolved,
   }
 }
 
 // ---- Target picker per variant_type
 
 function targetForProduct(product) {
+  // Machine-only role config wins over public frontmatter. This is the fix for
+  // the dead dirty branch: a slug marked "dirty" here computes at P45 regardless
+  // of what firewall-fix.mjs did to its public variant_type token.
+  const configured = subcategoryRoles[product.slug]
+  if (configured?.role) {
+    if (configured.role === "clean") {
+      return { target_p: configured.target_percentile ?? CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
+    }
+    if (configured.role === "dirty") {
+      const p = configured.target_percentile ?? DIRTY_TARGET_P
+      return { target_p: p, target_label: `dirty_p${Math.round(p * 100)}`, role: "dirty_subcategory" }
+    }
+    if (configured.role === "independent") {
+      return { target_p: configured.target_percentile ?? INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
+    }
+  }
+  // Fallback: public frontmatter variant_type (legacy path for unconfigured rows).
   const v = product.variant_type || ""
   if (v.includes("clean_benchmark")) {
     return { target_p: CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
@@ -548,13 +909,41 @@ function targetForProduct(product) {
   return { target_p: INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
 }
 
-// ---- Rationale tag
+// ---- Pool usability + rationale tag
 
-function rationaleTag(pooled, regCap) {
-  if (pooled === null) return "no-data"
-  if (regCap.value === null) return "literature-baseline"
-  if (pooled > regCap.value) return "regulatory-alignment"
-  return "literature-baseline"
+// A pooled VALUE is unusable only when there is no evidence at all, or when the
+// pool is affirmatively CORRUPT (p95/p10 > 1e4 ⇒ almost certainly mixed units,
+// i.e. a value wrong by orders of magnitude where publishing it would mislead).
+//
+// Thinness and parametric-sensitivity disagreement do NOT make a value unusable —
+// they make it PROVISIONAL. HMTc exists to set standards where regulators have not
+// (Part 1: ratcheting, epistemic asymmetry). Refusing to emit a standard merely
+// because the literature is sparse, for an analyte no one else regulates, is
+// antithetical to the program: the standard is emitted, graded low/provisional,
+// and ratchets as data accumulates. BLOCK is reserved for zero-evidence or a
+// corrupt value, never for sparse-but-clean evidence. (Karen, 2026-06-16.)
+// Shared by the candidate picker, the rationale tag, and the verdict so they
+// cannot disagree.
+function valueUnusableReason({ pooledLength, pooledP10, pooledP95 }) {
+  if (pooledLength === 0) return "no usable evidence"
+  if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
+    return "pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)"
+  return null
+}
+
+// Rationale per CLAUDE.md Part 19. When the pool is usable, the lower of the
+// pooled percentile and the regulatory cap binds (regulatory-alignment when the
+// cap is the lower value, else literature-baseline). When the pool is NOT usable,
+// a binding regulatory ceiling is still a defensible interim standard
+// (regulatory-alignment; occurrence characterization pending — Karen decision
+// 2026-06-16). Only a cell with neither a usable pool nor a cap is genuine no-data.
+function rationaleTag(targetValue, regCap, poolUsable) {
+  if (poolUsable && targetValue !== null) {
+    if (regCap.value === null) return "literature-baseline"
+    return targetValue > regCap.value ? "regulatory-alignment" : "literature-baseline"
+  }
+  if (regCap.value !== null) return "regulatory-alignment"
+  return "no-data"
 }
 
 // ---- Main loop
@@ -620,13 +1009,13 @@ function main() {
     for (const metal of metalsToProcess) {
       if (metalFilter && metal !== metalFilter) continue
       const key = `${slug}::${metal}`
-      const summaryRowsForCell = rowsByKey.get(key) ?? []
+      const summaryRowsForCell = (rowsByKey.get(key) ?? []).filter((r) => inTargetMarket(r, slug))
 
       // De-dup contribution sources: when samples CSV holds raw values for a
       // source that the summary CSV also has, prefer the sample-level
       // reconstruction and drop the summary-row reconstruction so the same
       // physical paper isn't admitted twice.
-      const samplesForCell = samplesByKey.get(key) ?? []
+      const samplesForCell = (samplesByKey.get(key) ?? []).filter((r) => inTargetMarket(r, slug))
       const samplesBySourceId = new Map()
       for (const sample of samplesForCell) {
         const sid = sample.source_id
@@ -680,7 +1069,7 @@ function main() {
       const seed = hashSeed(slug + ":" + metal)
       const rng = new SeededRng(seed)
 
-      const { pooled, contributions, capN, medianN, share_cap } = pool(
+      const { pooled, weights, effectiveN, contributions, capN, medianN, share_cap } = pool(
         rowsForCell,
         product.native_basis,
         rng,
@@ -702,16 +1091,16 @@ function main() {
         (c) => c.admitted && c.reconstruction_method === "percentile_interpolation",
       ).length
 
-      const targetValue = pooled.length > 0 ? percentile(pooled, target.target_p) : null
+      const targetValue = pooled.length > 0 ? weightedPercentile(pooled, weights, target.target_p) : null
       const pooledStats = pooled.length > 0
         ? {
-            p10: percentile(pooled, 0.1),
-            p30: percentile(pooled, 0.3),
-            p45: percentile(pooled, 0.45),
-            p50: percentile(pooled, 0.5),
-            p90: percentile(pooled, 0.9),
-            p95: percentile(pooled, 0.95),
-            p97: percentile(pooled, 0.97),
+            p10: weightedPercentile(pooled, weights, 0.1),
+            p30: weightedPercentile(pooled, weights, 0.3),
+            p45: weightedPercentile(pooled, weights, 0.45),
+            p50: weightedPercentile(pooled, weights, 0.5),
+            p90: weightedPercentile(pooled, weights, 0.9),
+            p95: weightedPercentile(pooled, weights, 0.95),
+            p97: weightedPercentile(pooled, weights, 0.97),
             p100: pooled[pooled.length - 1],
           }
         : { p10: null, p30: null, p45: null, p50: null, p90: null, p95: null, p97: null, p100: null }
@@ -742,12 +1131,23 @@ function main() {
             )
           : { lo: null, hi: null }
 
-      const regCap = lookupRegCap(slug, metal, gapRows)
+      const regCap = lookupRegCap(slug, metal, gapRows, product.native_basis)
+      const poolUsable =
+        valueUnusableReason({
+          pooledLength: pooled.length,
+          pooledP10: pooledStats.p10,
+          pooledP95: pooledStats.p95,
+        }) === null
+      // A usable pool can tighten the standard below the cap; an unusable pool
+      // (empty/thin/mixed-unit/unstable) falls back to the cap as an interim
+      // regulatory-alignment standard — never to an unreliable pooled value.
       const candidate =
-        targetValue !== null && regCap.value !== null
-          ? Math.min(targetValue, regCap.value)
-          : targetValue ?? regCap.value
-      const tag = rationaleTag(targetValue, regCap)
+        poolUsable && targetValue !== null
+          ? regCap.value !== null
+            ? Math.min(targetValue, regCap.value)
+            : targetValue
+          : regCap.value ?? targetValue
+      const tag = rationaleTag(targetValue, regCap, poolUsable)
 
       const verdict = deriveVerdict({
         admittedCount,
@@ -774,6 +1174,7 @@ function main() {
         distinct_sources: distinctSources,
         sample_level_contributing: sampleLevelCount,
         pooled_n: pooled.length,
+        pooled_n_effective: pooled.length > 0 ? Math.round(effectiveN) : 0,
         median_source_n: round(medianN ?? 0, 1),
         cap_n: capN,
         pooled_p10: round(pooledStats.p10, 4),
@@ -803,6 +1204,14 @@ function main() {
         // primary_metals_of_concern; false when the union surfaced it from data.
         metal_in_concern_list: curatedMetals.includes(metal),
         contribution_log: JSON.stringify(contributions),
+        // Cap basis audit trail: the ML as published, its published basis, and the
+        // factor applied to bring it into the row's native basis. When
+        // cap_basis_unresolved is true the published basis text is not in the
+        // adjudicated vocabulary and the cap was used unconverted.
+        cap_published_value: regCap.cap_published_value ?? "",
+        cap_published_basis: regCap.cap_published_basis ?? "",
+        cap_conversion_factor: regCap.cap_conversion_factor ?? "",
+        cap_basis_unresolved: regCap.cap_basis_unresolved ?? "",
       }
       outputRows.push(out)
 
@@ -847,6 +1256,15 @@ function main() {
   })
 
   console.log(`Wrote ${outputRows.length} aggregate-distribution rows to ${path.relative(repoRoot, outputPath)}`)
+  const stratifiedSlugs = cliTargetMarkets
+    ? "ALL rows (--markets flag)"
+    : Object.entries(subcategoryRoles).filter(([, v]) => v.stratify).map(([k]) => k).join(", ") || "none"
+  if (marketDropped.size || cliTargetMarkets || stratifiedSlugs !== "none") {
+    console.log(`Market stratification ACTIVE for: ${stratifiedSlugs}`)
+    console.log(`  excluded ${marketDropped.size} source-instance(s) as out-of-market:`)
+    for (const [sid, j] of [...marketDropped].sort()) console.log(`    ${sid} (${j})`)
+    console.log(`  retained ${marketUnlabelled.size} source(s) with no jurisdiction recorded (not dropped, by design)`)
+  }
   console.log(`Wrote summary to ${path.relative(repoRoot, summaryOutputPath)}`)
   console.log(
     `Pool starvation: ${starvation.summary.stranded_rows_total} stranded rows ` +
@@ -855,12 +1273,28 @@ function main() {
   )
 }
 
-function deriveVerdict({ admittedCount, distinctSources, sampleLevelCount, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
-  if (pooled.length === 0) return "BLOCKED: no usable evidence"
-  if (distinctSources < 2) return "BLOCKED: pool too thin (≥2 distinct sources required)"
-  if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
-    return "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)"
-  if (sensBand === "needs_review") return "BLOCKED: sensitivity unstable across parametric assumptions"
+function deriveVerdict({ distinctSources, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
+  const unusable = valueUnusableReason({
+    pooledLength: pooled.length,
+    pooledP10,
+    pooledP95,
+  })
+  if (unusable) {
+    // A binding regulatory ceiling is still a defensible interim standard even
+    // when the pool is empty or corrupt (Karen decision 2026-06-16). Only cells
+    // with neither a usable value nor a cap stay BLOCKED.
+    if (regCap.value !== null)
+      return "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)"
+    return `BLOCKED: ${unusable}`
+  }
+  // The value is usable. Grade confidence rather than blocking: a sparse or
+  // sensitivity-divergent pool yields a PROVISIONAL standard that ratchets as
+  // data accumulates — HMTc sets standards where regulators have not, rather
+  // than refusing to regulate the under-studied. (Karen decision 2026-06-16.)
+  if (distinctSources < 2)
+    return "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates"
+  if (sensBand === "needs_review")
+    return "PROVISIONAL: sensitivity unstable across parametric assumptions"
   if (sensBand === "provisional") return "PROVISIONAL: review sensitivity disagreement"
   if (regCap.value !== null) return "READY FOR REVIEW (regulatory cap applies)"
   return "READY FOR REVIEW"

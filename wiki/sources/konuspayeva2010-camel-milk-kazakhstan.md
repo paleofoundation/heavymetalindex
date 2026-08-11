@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Konuspayeva et al. 2009 — Heavy metals in camel milk, shubat, and fodder from Kazakhstan
 
+## Overview
+
 Konuspayeva and colleagues from Al-Farabi Kazakh National University and CIRAD conducted the first published assessment of heavy-metal contamination in camel milk from Kazakhstan, a country with documented environmental burdens from Soviet-era nuclear testing, polymetal mining, oil extraction, and leaded gasoline still in widespread use at the time of sampling. Sample (i) collected paired water, fodder, raw camel milk, and shubat (fermented camel milk) from 8 farms in 4 regions near identified pollution sources (polymetal industries, oil forages, phosphate manufacturing, the Baikonur cosmodrome). Sample (ii) collected 63 individual raw camel milk samples from 12 different farms in the same 4 regions for Pb, Cr, and Zn. Analytical platform was ICP-AES (Varian Vista MPX – CCD) after wet-oxidation digestion. The headline finding is a mean Pb of 250 ± 56 ppb in the 63-sample dataset, well above tolerable limits used in Turkey (20 ppb), Germany/Netherlands (50 ppb), and Kazakhstan's own standard (100 ppb), with a maximum individual value of 532 ppb at Atyrau. Lead consistently decreased from raw milk to shubat, which the authors attribute provisionally to lactic-bacteria binding under study elsewhere in the same lab.
 
 ## Key numbers
@@ -145,15 +147,15 @@ The cite-key uses `konuspayeva2010-camel-milk-kazakhstan` to match the publicati
 **Audit subagent (general-purpose, fresh context, 2026-05-30) findings applied.** Verdict PROMOTE with two ⚠️ concerns: (1) the Implications section originally cited "Codex Stan 193-1995 raw-milk Pb limit of 20 ppb" alongside the national tolerable values — the audit correctly noted that Konuspayeva et al. do not cite Codex, only Turkey/Germany/Netherlands/Kazakhstan national values. Verified against the source (pp.116–117): no Codex reference appears in the paper. Editorial Codex reference removed; statement now ties the comparison only to the national tolerable values the authors themselves cite. (2) Abstract-vs-Table 1 minor precision differences for Sample (i) shubat Cu (abstract 0.163 ± 0.164 vs Table 1 0.16 ± 0.16) and Zn (abstract 7.217 ± 2.55 vs Table 1 7.212 ± 2.55). Verified against the PDF: both differences are real paper-internal rounding/transcription variations. The wiki page uses Table 1 values per HMI policy of preferring source tables over abstract restatements; the differences are too small (≤0.005 absolute) to be load-bearing for any downstream synthesis.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Lee et al. 2023 — Seven potentially toxic metals in fresh fruits consumed in South Korea
 
+## Overview
+
 This is the first health risk assessment of dietary exposure to seven metals (As, Ba, Cd, Cr, Ni, Pb, and Sb) through fresh fruit consumption in South Korea, using ICP-MS to analyze 207 samples of 14 commonly consumed fruit species collected from supermarkets across six regions in 2019. Mean concentrations (mg/kg fresh weight) across all samples were: As <0.0021, Ba 0.3675, Cd <0.0022, Cr 0.0307, Ni 0.0815, Pb 0.0236, and Sb <0.0021. Non-carcinogenic hazard indices (HI = 0.0275) and carcinogenic risks for As and Pb (4.62×10⁻⁷ and 5.05×10⁻⁷ respectively) were all below threshold values for the Korean population as a whole, though Pb hazard quotient and cancer risk in apples were the highest among children aged 1–2 years.
 
 ## Key numbers
@@ -111,12 +113,12 @@ Limitation: As measured as total arsenic; paper assumes 100% inorganic for cance
 - Methods section expanded to record the Milestone UltraWAVE digester, the Agilent JP-7900 ICP-MS parameters and monitored isotopes, the spike-recovery validation for Ba and Pb (which are not certified in NIST 1573a), and the RfD/CSF inputs. Prior version was thin enough to be ambiguous about which arsenic species the cancer-risk calculation used.
 - Detection rates added for each metal.
 - Maximum single-sample values added for every analyte (per the dataset's explicit per-species maxima on PDF page 8).
-- Frontmatter ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline (CLAUDE.md Part 10): if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
+- Frontmatter ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline: if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
 - `raw_path` corrected — prior value was truncated (`...arsenic, bariu.pdf`) and did not match a real file on disk.
 - `sample_population` annotated with the six region names.
 - `## Wiki pages updated on ingest` heading renamed to `## Wiki pages this source may touch` per current page-template convention (the ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do).
 
-Brand firewall: no brand names appear in source-page content. The Milestone UltraWAVE, Agilent JP-7900, NIST 1573a, GraphPad Prism, SPSS, and RStudio names in Methods are scientific-method vendor/material identifiers (CLAUDE.md Part 12, Exception 2 locked 2026-05-17).
+Brand firewall: no brand names appear in source-page content. The Milestone UltraWAVE, Agilent JP-7900, NIST 1573a, GraphPad Prism, SPSS, and RStudio names in Methods are scientific-method vendor/material identifiers (, Exception 2 locked 2026-05-17).
 
 Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values.
 
@@ -130,15 +132,15 @@ Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consume
 The audit subagent's positive findings: numerical fidelity in the Ba transposition fixes was independently re-verified clean; species means for grape, persimmon, strawberry, pear, group means, single-sample maxima, RfD/CSF values, LOD/LOQ ranges, PCA/HCA percentages, Spearman ρ, age-group consumption values, sample sizes per species, methods detail (ICP-MS parameters, isotopes monitored, recoveries, spike validation, software) — all clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

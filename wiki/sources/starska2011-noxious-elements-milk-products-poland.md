@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Starska et al. 2011 — Pb, Cd, tHg, tAs in 483 Polish milk and dairy samples (2006–2007 NIH monitoring)
 
+## Overview
+
 National monitoring of Pb, Cd, total Hg, and total As in 483 milk and dairy product samples drawn from all 16 Polish voivodships in 2006–2007, coordinated by the National Institute of Public Health — National Institute of Hygiene (NIH) and executed through the integrated voivodship sanitary-epidemiological station laboratories. Products covered: liquid milk, fermented liquid products (kefir, yogurt, buttermilk, curds), non-fermented liquid products (cream, coffee cream, condensed milk, milk desserts), maturing cheeses, cottage cheeses, butter, and ice cream. Analytical methods met the performance criteria of EU Commission Regulation 333/2007 and were accredited to EN ISO/IEC 17025. Across all formats, contamination was low and on average well below the 0.020 mg Pb/kg liquid-milk limit then in force (Reg. 1881/2006); two milk samples did exceed the limit (highest 0.05 mg Pb/kg), and a domestic salami cheese reached 0.220 mg Pb/kg (the corpus maximum). Estimated total daily intake from milk and dairy for a 60-kg adult contributed only 1–2% of the then-applicable PTWI values for each metal but, against the newer JECFA/EFSA reference points adopted in 2010, the 90th-percentile lead intake from this product group reached 13.4% of BMDL₁₀ for renal effects in adults — and for a 20-kg child reached approximately 50% of the BMDL for neurotoxic action, which the authors flag as the principal residual concern.
 
 ## Key numbers
@@ -129,15 +131,15 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 **Routing.** `products: [[[products/butter-and-ghee]]]` is the only locked HMTc row this paper feeds, via the 61 butter samples (n=61 in 2007 cohort). Milk, yogurt, cheese, and ice-cream sub-formats do not yet have locked HMTc product pages and route through ingredient pages (`milk-and-dairy`, `whole-milk`, `yogurt`) and the `matrices:` field instead.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

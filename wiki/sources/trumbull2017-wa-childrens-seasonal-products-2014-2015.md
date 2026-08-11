@@ -10,7 +10,7 @@ doi: null
 no_doi_assigned: true
 source_type: regulatory
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13, A-tier covers government reports and authoritative national/state-agency studies. This is a Washington State Department of Ecology Hazardous Waste and Toxics Reduction Program publication (Trumbull et al., Publication 16-04-029, January 2017) reporting seven seasonal product-testing studies conducted under formally approved Quality Assurance Project Plans (Ecology 2012a,b, 2014e,f). All laboratory analyses were performed by Ecology's Manchester Environmental Laboratory (MEL, EPA-accredited) or BSK Associates Analytical Laboratory (Fresno, CA) using EPA-equivalent ICP-MS (EPA 200.8 / 6020), HPLC-MS (EPA 8321A), and GC-MS (EPA 8270C/D modified) methods. The study supports Washington Children's Safe Products Act (CSPA, Chapter 70.240 RCW) compliance assessment and federal Consumer Product Safety Commission (CPSC) lead and phthalate restrictions. Matches the A-tier handling of the predecessor [[sources/stone2021-wa-metals-childrens-consumer-products]] and the planning QAPP [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]]."
+tier_rationale: "A-tier covers government reports and authoritative national/state-agency studies. This is a Washington State Department of Ecology Hazardous Waste and Toxics Reduction Program publication (Trumbull et al., Publication 16-04-029, January 2017) reporting seven seasonal product-testing studies conducted under formally approved Quality Assurance Project Plans (Ecology 2012a,b, 2014e,f). All laboratory analyses were performed by Ecology's Manchester Environmental Laboratory (MEL, EPA-accredited) or BSK Associates Analytical Laboratory (Fresno, CA) using EPA-equivalent ICP-MS (EPA 200.8 / 6020), HPLC-MS (EPA 8321A), and GC-MS (EPA 8270C/D modified) methods. The study supports Washington Children's Safe Products Act (CSPA, Chapter 70.240 RCW) compliance assessment and federal Consumer Product Safety Commission (CPSC) lead and phthalate restrictions. Matches the A-tier handling of the predecessor [[sources/stone2021-wa-metals-childrens-consumer-products]] and the planning QAPP [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]]."
 license: "us-state-government-public-domain"
 access_url: "https://fortress.wa.gov/ecy/publications/SummaryPages/1604029.html"
 raw_path: "raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-016_WA_Ecology_2016_Childrens_Seasonal_Products.pdf"
@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 ---
 
 # Trumbull 2017 — WA Ecology metals (and parabens/phthalates) in 2014–2015 children's seasonal products (WSDOE 16-04-029)
+
+## Overview
 
 This Washington State Department of Ecology Hazardous Waste and Toxics Reduction Program publication (Trumbull, Stone, Steward, Winters 2017, Publication 16-04-029, January 2017) is a series of seven seasonal product-testing studies conducted to follow up on the Halloween-themed children's-product findings from Ecology's 2012 study. The seven seasonal sweeps (Christmas 2014, Valentine's Day 2015, Easter 2015, Fourth of July 2015, Back to School 2015, Halloween 2015, Christmas 2015) procured 1,033 children's products across the year-round seasonal calendar; products were separated into 6,878 individual components and screened with a portable XRF analyser. A subset of 189 components was submitted for laboratory metals analysis (seven analytes: antimony Sb, arsenic tAs, cadmium Cd, cobalt Co, lead Pb, mercury tHg, molybdenum Mo), 177 components for paraben analysis (five esters: methyl, ethyl, n-propyl, n-butyl, iso-butyl paraben), and 190 components for phthalate analysis (eight esters: BBP, DEHP, DBP, DEP, DnHP, DIDP, DINP, DnOP). The study supports compliance assessment for the Washington Children's Safe Products Act (CSPA, Chapter 70.240 RCW) reporting threshold (100 ppm for all 66 Chemicals of High Concern to Children) and for the Washington statutory restriction levels of cadmium at 40 ppm, lead at 90 ppm, and six phthalates (individually or in combination) at 1,000 ppm in children's products (RCW 70.240.020). Across all seven seasonal studies, Ecology identified 60 sample results that should have been reported by manufacturers under the CSPA Reporting Rule, and 17 sample results indicating potential violations of Washington State or federal limits on total cadmium, lead, or one or more of the six restricted phthalates. Manufacturers were contacted for compliance follow-up in all 17 violation-indicating cases, and Ecology forwarded results to the U.S. Consumer Product Safety Commission for federal-law assessment. Antimony was the most frequently detected metal across all seven sweeps; DEHP was the most frequently detected phthalate; methyl and propyl paraben were the most frequently detected paraben analytes.
 
@@ -287,15 +289,15 @@ The matrix slug `childrens-seasonal-product` is used in `matrices:` to flag the 
 - The audit specifically confirmed the wiki's handling of the Halloween 2015 cadmium-exceedance discrepancy: the PDF cross-sweep Summary on p. 50 reads "Two samples, batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace decoration (61.9 ppm, SH-2-17-1), exceeded the cadmium limit" — a clear internal copy-paste artefact (two different products listed with the same concentration and the same component ID is physically impossible). The Halloween 2015 narrative on p. 39 reads "Two of these samples exceeded the limit of 40 ppm for cadmium: batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace charm decoration (46.1 ppm, PC-2-7-14)." The wiki follows the p. 39 authoritative narrative figure (46.1 ppm, PC-2-7-14) and documents the p. 50 source-side error explicitly. The audit confirms this is defensible handling.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

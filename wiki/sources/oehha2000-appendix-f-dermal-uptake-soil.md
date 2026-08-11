@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # OEHHA 2000 — Appendix F: Dermal absorption fractions for soil-bound chemicals (Cal/EPA Hot Spots TSD)
 
+## Overview
+
 This September 2000 OEHHA Technical Support Document Appendix F provides California's recommended dermal absorption fractions (ABS) for soil-bound chemicals used in the Air Toxics Hot Spots program. The chemicals reviewed include the inorganic salts of arsenic, beryllium, cadmium, mercury, lead, nickel, and hexavalent chromium, plus several organic compounds (TCDD/PCDD/PCDF, PCBs, BaP/PAHs, hexachlorocyclohexanes, DEHP, pentachlorophenol). Per-chemical ABS recommendations are point estimates derived from review of in-vivo human, in-vivo animal, and in-vitro percutaneous-absorption studies. OEHHA values diverge from the prior 1% Clement Associates (1988) default for inorganics when chemical-specific evidence supports a different value.
 
 ## Key numbers
@@ -83,7 +85,7 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - 2026-05-17 merge-enhance: Added explicit OEHHA recommendations for Beryllium (1%, Clement Associates 1988 default) and Chromium VI (1%, same default) that were previously omitted from Key numbers despite both metals appearing in `metals:` frontmatter.
 - 2026-05-17 merge-enhance: Replaced "BaP not stated in pages read; referenced 13% in EPA RAGS Part E" with the actual OEHHA Appendix F F.1.4.3 recommendation of 13% based on Wester et al. 1990 in-vivo Rhesus monkey (24 h ABS 13.2 ± 3.4%, n=4). The 13% number is OEHHA's own recommendation, not an EPA RAGS Part E reference.
 - 2026-05-17 merge-enhance: Added DEHP (10%) and hexachlorocyclohexanes (10%) to organic-compounds cross-reference for completeness.
-- 2026-05-17 merge-enhance: Changed `metals:` frontmatter from `As` to `tAs` per CLAUDE.md Part 14 speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
+- 2026-05-17 merge-enhance: Changed `metals:` frontmatter from `As` to `tAs` speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
 - 2026-05-17 merge-enhance: Cleaned up Implications cross-jurisdictional comparison — the previous version mis-stated the OEHHA-vs-ATSDR Cd relationship (ATSDR Table 8's 0.001 is the same fraction as OEHHA's 0.1%, not a stricter value).
 - Sample-level numerical findings from cited primary studies (Baranowska-Dutkiewicz, Moore, Lilly, Stauber, Fullerton, Wester) belong on those primary-source pages when those papers are themselves ingested; this OEHHA document is the aggregator/recommender.
 - Arsenic ABS in the F.1.3.4 chromium-comparison text reads "absorption of arsenic from water and from soil (2-6% and 3-5%, respectively)" — this range is the comparison context, not the OEHHA point estimate; the OEHHA point estimate for arsenic from soil is 4% per F.1.3.1.
@@ -92,15 +94,15 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - 2026-05-17 audit false-positive note: the audit subagent flagged `Be` in the `metals:` frontmatter as ⚠️ not in the system-prompt metal-abbreviation list. Verified against corpus: `Be` is used consistently in 7+ existing source pages (atsdr2023-soil-dermal-absorption-guidance, stefaniak2014-ni-be-cr-artificial-sweat, krasnopyorova2024-almaty-surface-water, ravalli2022-uranium-metals-us-water-systems, ufelle2021-metals-chapter, yan2025-infant-serum-26-metals-gut-microbiota-china) as the standard chemistry abbreviation for beryllium, and the `metals/beryllium` wiki page exists in the taxonomy snapshot. Finding rejected as false positive; `Be` retained.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

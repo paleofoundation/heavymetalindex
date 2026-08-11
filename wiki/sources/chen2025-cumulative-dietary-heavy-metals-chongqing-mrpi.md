@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Chen et al. 2025 — Cumulative dietary Pb/Cd/iAs/MeHg risk in Chongqing, China (hazard-driven mRPI + Monte Carlo)
 
+## Overview
+
 This study applies the EFSA-recommended hazard-driven cumulative risk assessment framework to dietary Pb, Cd, iAs, and MeHg (neurotoxicity) and Pb, Cd, iAs, iHg (nephrotoxicity) exposure in Chongqing residents (n=969 across four age groups), using the modified Reference Point Index (mRPI) method with @RISK Monte Carlo simulation (100,000 iterations, Latin hypercube). Heavy-metal contamination is drawn from the 2017-2021 China National Food Contamination Monitoring Program (≈4,300-5,200 samples per metal); food consumption is drawn from the 2018 China Health and Nutrition Survey of Chongqing. Two toxicity endpoints are assessed: neurotoxicity (combined mRPI 0.922 to 4.835 across left-censoring scenarios at mean and 95th-percentile high exposure) and nephrotoxicity (combined mRPI 1.306 to 7.031). Both endpoint mRPIs exceed the acceptable-risk threshold of 1 at high exposure across all scenarios, indicating unacceptable cumulative risk at the upper tail of the Chongqing diet. **Pb dominates the neurotoxicity mRPI (69.74-72.22% at mean exposure); Cd dominates the nephrotoxicity mRPI (60.05-60.09%), with Pb second (39.08-39.01%).** Rice, leafy vegetables, and wheat products are the top three food contributors to both endpoints. The paper also documents established total-to-speciated conversion factors (iAs/tAs = 2% in fish, 70% in non-fish; MeHg/tHg = 100% in fish, 0% in non-fish; iHg/tHg = 20% in fish, 100% in non-fish) per EFSA and Suomi et al.
 
 ## Key numbers
@@ -138,7 +140,7 @@ Speciation: total Hg and total As measured directly; iAs and MeHg estimated via 
 Exposure model: EDI_i = Σ (F_j × C_j) / BW_i for individual i, food category j (F_j = daily consumption g/d, C_j = concentration mg/kg, BW_i = body weight). High-exposure scenario substitutes the 95th percentile of individual exposure for the mean.
 
 Risk model: modified Reference Point Index (mRPI) — RPQ_i = (EDI_i × UF_i) / RP_i for element i, summed across metals for the endpoint:
-mRPI = RPQ_1 + RPQ_2 + ... + RPQ_n. Acceptable risk threshold = 1.
+mRPI = RPQ_1 + RPQ_2 +... + RPQ_n. Acceptable risk threshold = 1.
 
 Monte Carlo: @RISK v8.2 (Palisade), 100,000 iterations, Latin hypercube sampling. AIC selected optimal distribution fit for contamination data; mean and 95th-percentile mRPI reported. Statistical software: Excel 2016 + @RISK v8.2.
 
@@ -150,7 +152,7 @@ Certification: For HMTc Cat 1 cumulative-risk framework + Chinese-market food so
 
 2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity at P95)** establishes that even in a Chinese provincial population with monitored typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds at the upper-tail diet. This is occurrence data relevant to HMTc Cat 1 sourcing decisions involving Chinese-sourced food ingredients (rice, vegetables, meat, fish); whether HMTc threshold-setting incorporates a cumulative-risk component is a methodology question for the standards workbench, not addressed by this paper.
 
-3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's CLAUDE.md Part 14 speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
+3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
 
 4. **Pb dominates neurotoxicity (≈70% of mRPI); Cd dominates nephrotoxicity (≈60%), Pb second (≈39%)**. The paper's metal-contribution decomposition is the kind of occurrence/contribution data downstream HMTc Cat 1 prioritization work would draw on when weighting analytes — Pb-weighting matters most for neurodevelopmental endpoints; Cd-weighting matters most for renal endpoints — though the paper itself proposes no thresholds.
 
@@ -169,15 +171,15 @@ Enhanced 2026-05-29 from prior 2026-05-14 ingest (kimi-loose-pdf-chen2025 raw_ha
 Audit-subagent (2026-05-29) flagged one ❌ in Check 1 (per-category table: As column for "Edible livestock and poultry offal" showed the Cd value 0.0919-0.1462 transposed) and three ⚠️ (rice products Cd UB precision; two Implications phrasings that used "should" in an HMTc-direction). Independent verification against the page 6-7 narrative confirmed the ❌ AND revealed several additional per-category cell errors from misreading the dense Table 2 image (e.g., I had Cd rice = 0.0238-0.0336 vs the narrative's 0.0497-0.0502; As rice = 0.0497-0.0502 vs narrative 0.0838-0.0848 — the same Cd narrative value appears to have been duplicated into the As column). To eliminate the OCR uncertainty, the per-category table was rebuilt as a narrative-style summary citing only values explicitly stated on pages 6-7 of the source (the "highest/lowest by metal" prose). The two Implications phrasings were softened to describe the paper's contribution as occurrence data downstream HMTc work would draw on, rather than prescribing what HMTc should do — preserving the Part 2 wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

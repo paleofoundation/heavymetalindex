@@ -32,6 +32,8 @@ created_by: claude-opus-4-7
 
 # Paudel et al. 2024 — Heavy metals (Fe, Cu, Zn, Pb) in 16 packaged fruit juices on the Kathmandu, Nepal retail market by FAAS
 
+## Overview
+
 This open-access *International Journal of Applied Sciences and Biotechnology* study quantifies iron, copper, zinc, and lead in sixteen commercially packaged fruit juices — orange, apple, mango, and lychee flavours, four brands per flavour — purchased on the Kathmandu, Nepal retail market. The juices were wet-acid digested (aqua regia + concentrated nitric acid, hot-plate digestion to clarity) and measured by flame atomic absorption spectrophotometry on a Varian-style AA240FS instrument with an air–acetylene flame; calibration was constructed from stock standards and samples were prepared in analytical triplicate. Lead was below the analytical detection limit in every one of the sixteen samples. Iron, copper, and zinc were detected variably across flavours: Fe spanned 0.277–3.649 mg/L across all juices, with one apple-juice sample at 3.649 mg/L exceeding the 2 mg/L WHO/JECFA Provisional Maximum Tolerable Daily Intake (PMTDI)-derived drinking-water reference; Cu ranged from below detection (BDL) to 0.574 mg/L; Zn ranged from BDL to 0.2026 mg/L. The authors compare findings to WHO/FAO drinking-water guidelines (Fe 2 mg/L; Cu 2 mg/L; Zn 3 mg/L; Pb 0.01 mg/L) on the rationale that non-alcoholic beverages depend on water quality. No certified reference material recovery, LOD/LOQ tabulation, or procedural-blank values are reported, which constrains evidence tier to B despite peer-reviewed open-access publication.
 
 ## Key numbers
@@ -122,8 +124,8 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 
 - 2026-05-19 merge-enhanced under the v2.0 ingest skill. Preserved `cite_key`, `raw_handle: manual-fetch-kimi`, and `near_duplicates: []` per skill rule. Corrected the truncated `raw_path` (previously "Analysis and Detection of Heavy Metals Content in Some Selected P.pdf" → full filename ending "Flame Atomic Absorption Spectroscopy.pdf"). Added `access_url`, `raw_sha256`, `ingest_method`, and `created_by` fields; added the journal volume/issue/pages to `publication`. Re-set `updated` to 2026-05-19.
 - Frontmatter `metals` expanded from `[Pb]` to `[Pb, Fe, Cu, Zn]` — the prior listing dropped three of the four metals the source actually measured. All four have wiki metal pages.
-- Frontmatter `ingredients` previously listed `[[ingredients/lychee-juice]]`, which is not a wiki page; "lychee-juice" is registered only as an alias on `ingredients/fruit-juice.md`. Replaced the invalid slug with `[[ingredients/fruit-juice]]` so the lychee evidence still routes to the parent ingredient. (Per CLAUDE.md Part 10 the lychee-juice page is below the 5-paper threshold for its own ingredient page; this is the routing the alias was created for.) `matrices:` similarly trimmed to remove the bare `lychee-juice` matrix that has no controlled-vocabulary entry.
-- Evidence tier reduced from A to B: the source is peer-reviewed open-access, but the methods section reports no CRM recovery, no LOD/LOQ table, no procedural-blank values, and no matrix-matched standards. Pb calibration R²=0.978 is at the lower edge of accepted linear-range fit. Per CLAUDE.md Part 13 evidence-tier rules, those omissions place this paper in B rather than A.
+- Frontmatter `ingredients` previously listed `[[ingredients/lychee-juice]]`, which is not a wiki page; "lychee-juice" is registered only as an alias on `ingredients/fruit-juice.md`. Replaced the invalid slug with `[[ingredients/fruit-juice]]` so the lychee evidence still routes to the parent ingredient. (Per the lychee-juice page is below the 5-paper threshold for its own ingredient page; this is the routing the alias was created for.) `matrices:` similarly trimmed to remove the bare `lychee-juice` matrix that has no controlled-vocabulary entry.
+- Evidence tier reduced from A to B: the source is peer-reviewed open-access, but the methods section reports no CRM recovery, no LOD/LOQ table, no procedural-blank values, and no matrix-matched standards. Pb calibration R²=0.978 is at the lower edge of accepted linear-range fit. Per evidence-tier rules, those omissions place this paper in B rather than A.
 - The source's calibration values for Cu, Zn, and Pb in Table 1 use truncated decimal forms (y=0.173x+0.007, y=0.12x+0.008, y=0.039x+0.030) while the figures (Figs 2–4) carry one more decimal place. The Key numbers table reproduces the Table 1 forms because that is the source's stated calibration record.
 - WHO/FAO comparison values used by the authors are reproduced as the authors state them. The 2 mg/L Fe reference is explicitly an inference from the JECFA 1983 PMTDI, not a fruit-juice MAC; the 0.01 mg/L Pb reference is the WHO drinking-water guideline; the Codex MLs for Pb in fruit juice (0.03 mg/kg general; 0.04 mg/kg grape; 0.05 mg/kg berry/small-fruit) are noted on this page but were not used by the authors as the primary comparator.
 - Audit subagent (2026-05-19) flagged Check 4 ❌ for per-brand contamination values reproduced under the source's anonymous A/B/C/D codes throughout the Key numbers narrative — the original draft of this page named "brand C" three times as the highest-Fe, highest-Cu, and highest-Zn brand. Verified against Part 12 strict reading (locked 2026-05-17): even though the source's A/B/C/D codes do not disclose real brand names, reproducing per-brand rankings on the wiki side is the brand-by-brand ranking pattern Part 12 prohibits. Finding applied — Key numbers tables and narrative now report ranges, wiki-computed flavour means, and counts of samples above thresholds, with no per-brand attribution. The previous Verification-notes paragraph that defended the per-brand reproduction has been removed.
@@ -135,15 +137,15 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 - No HMTc threshold proposals, consumer risk advisories, or remaining cross-literature synthesis claims appear in the body — Part 2 firewall clean after audit-application edits. Part 12 brand firewall clean after audit-application edits.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -40,6 +40,8 @@ updated: 2026-06-08
 
 # CFS 2013 — First Hong Kong Total Diet Study: Metallic Contaminants
 
+## Overview
+
 The Centre for Food Safety (CFS) of Hong Kong conducted the First Hong Kong Total Diet Study (1st HKTDS) to estimate dietary exposures of the Hong Kong general population and population subgroups to metallic contaminants and to assess associated health risks. This report (Report No. 5 of the TDS series, January 2013) covers aluminium (Al), antimony (Sb), cadmium (Cd), lead (Pb), methylmercury (MeHg), nickel (Ni), and tin (Sn); vanadium (V) was additionally reported because it was co-analysed in the same HR ICP-MS run. The dietary exposures to Al, Sb, Cd, Ni, and Sn were all below their respective health-based guidance values for average consumers, and average lead exposure (0.21 µg/kg bw/day) was below the JECFA 1.2 µg/kg bw/day level for systolic-blood-pressure risk in adults. About 11% of women of childbearing age (20-49 years) had methylmercury exposure exceeding the PTWI of 1.6 µg/kg bw protective of the developing foetus, which the report identifies as a public health concern. The general adult population was assessed as unlikely to experience major adverse health effects from these contaminants.
 
 Inorganic arsenic from this same TDS series was reported separately in Report No. 2 (February 2012), ingested as [[sources/cfs2012-hktds-inorganic-arsenic]]. Arsenic speciation data are not in the present report.
@@ -231,15 +233,15 @@ Merge-enhance pass 2026-05-20 from the original 2026-05-13 ingest:
 - [[products/seafood]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [951d454](https://github.com/paleofoundation/heavymetalindex/commit/951d454) | 2026-06-08 | ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_02_Vegetables_and_Vegetable_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [ac2c093](https://github.com/paleofoundation/heavymetalindex/commit/ac2c093) | 2026-06-03 | enhance: cfs2013-hktds-metallic-contaminants — third byte-identical Kimi-folder copy logged |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [951d45400](https://github.com/paleofoundation/heavymetalindex/commit/951d45400) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

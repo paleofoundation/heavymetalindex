@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Nourmoradi et al. 2013 — Pb and Cd in lipstick and eye shadow from Isfahan, Iran
 
+## Overview
+
 Nourmoradi and colleagues quantified lead and cadmium by graphite-furnace atomic absorption spectrometry in 50 cosmetic samples purchased from cosmetic stores in Isfahan, Iran: 35 lipsticks (5 colors × 7 brands) and 15 eye shadows (3 colors × 5 brands). The reported ranges are Pb 0.08–5.2 µg/g and Cd 4.08–60.20 µg/g for lipsticks and Pb 0.85–6.90 µg/g and Cd 1.54–55.59 µg/g for eye shadows on a wet-weight basis. Cadmium content exceeded lead content in both product categories, and the eye shadow range for both metals exceeded the lipstick range. The authors compare results to the FDA cosmetic Pb guidance of 20 µg/g (all samples below) and the Health Canada cosmetic Cd guidance of 3 µg/g (most samples above).
 
 ## Key numbers
@@ -145,15 +147,15 @@ Speciation: total Pb and total Cd only; no inorganic-vs-organic speciation step.
 - 2013 ingest reflects 2013-vintage analytical practice and 2013-vintage regulatory comparators (the FDA 20 µg/g cosmetic-Pb guidance and the CSC 0.1 µg/g advocacy comparator both predate FDA's 2022 Final Guidance on Lead in Cosmetic Lip Products of 10 µg/g; that 2022 guidance is not in scope here because the paper is from 2013).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

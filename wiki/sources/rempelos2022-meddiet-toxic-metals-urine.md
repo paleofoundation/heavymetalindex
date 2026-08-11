@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Rempelos et al. 2022 - Diet effects on urinary toxic-metal biomarkers
 
+## Overview
+
 Rempelos and colleagues ran a randomized, controlled diet switch-over trial measuring urinary excretion and plasma concentrations of micronutrients, phenolic markers, and toxic metals. The source is exposure-biomarker evidence, not a product-occurrence survey: it reports urinary Al, Cd, Ni, Pb and related diet-driver modelling, but it does not report contaminant concentrations in coffee, fish, organic foods, or other market products.
 
 The auto-fetch filename assigned this PDF to a coffee cadmium gap because coffee was one of the dietary drivers in the redundancy analysis. The paper itself is broader human biomonitoring evidence for diet-linked metal excretion, with products and ingredients intentionally left empty.
@@ -76,3 +78,17 @@ Microbiome: No microbiome findings.
 - Units were kept as the source reports them: urinary metals in nmol/d and plasma values in micromol/L where relevant. No conversion to ug/L or mg/kg was made.
 - The source reports unqualified urinary Pb, Cd, Ni, Al, and Cr biomarkers; no arsenic or mercury speciation issue applies.
 - Products and ingredients are intentionally empty because the paper reports exposure biomarkers and diet-driver modelling, not market-product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

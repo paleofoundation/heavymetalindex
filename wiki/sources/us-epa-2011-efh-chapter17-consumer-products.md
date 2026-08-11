@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # U.S. EPA EFH 2011 — Chapter 17 (Consumer Products)
 
+## Overview
+
 Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of use, amount used per application, duration of contact, and amount applied per use day — for a broad set of cosmetic, personal-care, baby-care, household cleaning, painting, solvent, pesticide, and other consumer-product categories. The chapter does not measure or report heavy-metal contamination of any product; its purpose is to supply standardized exposure parameters (g/day, g/application, mg/kg-day, applications/day, hours/year) that downstream exposure assessments multiply by chemical-concentration data to estimate dose. For the Heavy Metal Index, the chapter's primary value is as the canonical reference for the "amount applied" and "frequency of use" parameters of cosmetic and baby-care exposure-pathway calculations. The chapter is non-exhaustive by design and EPA explicitly declines to recommend specific exposure values in §17.2, directing users to derive parameters from the cited underlying surveys. Underlying surveys span 1983-2008 and include CTFA (1983), Westat (1987a/b/c), Abt (1992), U.S. EPA NHAPS (1996), Bass et al. (2001), Weegels and van Veen (2001), Loretz et al. (2005/2006/2008), Hall et al. (2007), and Sathyanarayana et al. (2008).
 
 ## Key numbers
@@ -288,15 +290,15 @@ No analytical chemistry is performed in this chapter. No metals concentrations a
 - 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE. Two ❌ findings on Check 1 (numerical fidelity), one ❌ finding on Check 3 (methods fidelity), and one ⚠️ formatting issue on Check 1. All four verified by independent re-read of PDF pages 13 (Table 17-3), 17-7 (§17.3.10 Loretz 2006), 17-1 (§17.1.2), and 17-35 (Table 17-37). Findings applied: (a) Table 17-3 "Baby lotion — baby use" Upper 90th Market Research Bureau column corrected from "—" to "1.0ᵈ" (footnote d = "Usage data reflects entire household use for both baby lotion and baby oil"; PDF p17-13 reads "1.0ᵈ" not "—"); (b) Loretz 2006 completion-rate range corrected from "83-91 %" to "91-94 %" with the four-product breakdown (91 % hairspray, 91 % spray perfume, 94 % liquid foundation, 94 % shampoo/body wash/solid antiperspirant); the prior "83-91 %" appears to have been confused with Loretz 2005's completion rates (86.4/83.3/85.6 %); (c) Limitations-for-downstream-pooling paragraph corrected: PDF §17.1.2 specifically names "aerosol products" as the example of declining use after the 1987 EPA list compilation, not baby powder. The wiki now attributes the baby-powder downweighting to data age (>20 years) rather than misquoting EPA as having directly addressed baby-powder use specifically; (d) Table 17-37 hair-spray row split out of the household-cleaning-products table into its own sub-table, because the PDF Table 17-37 hair spray section has three distinct duration measurements (release seconds, nebula contact seconds, nebula × gram released seconds × grams) plus frequency, and a "Mean duration of contact (min)" column-label was unit-inconsistent for any of them. The new sub-table preserves all four PDF rows for hair spray with explicit units, and the household-cleaning sub-table now uses "(SD)" inline notation to also include SD values for amount and duration (5(3), 27(30), 11(5), 20(22), 74(204)) that the previous version had omitted. Findings rejected (false positives): none — all four findings verified against the PDF and applied as-is.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

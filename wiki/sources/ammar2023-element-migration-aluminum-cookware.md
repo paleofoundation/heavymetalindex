@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Ammar et al. 2023 — Element migration from traditional and pressure-cooker aluminum cookware into cooked rice-and-beef meals and EU 10/2011 food simulants, Saudi Arabia
 
+## Overview
+
 The authors quantified migration of Al, Fe, As, Cd, and Pb from four Saudi-market aluminum cooking pots — two traditional pots (manufacturer codes AC, AS) and two aluminum pressure cookers (codes ACP, APP) — into actual cooked food (rice + beef + acidifying and seasoning ingredients) and into Regulation (EU) No 10/2011 food simulant B (3% w/v acetic acid). Pot composition was characterised by spark-OES; food and simulant samples were analysed by ICP-MS after microwave digestion (HNO₃ + H₂O₂). SEM-EDS and XPS were applied in parallel and were demonstrated, by the authors, to be unsuitable for quantifying these migration loads because the migrated concentrations fall below the EDS and XPS detection limits (≈0.1 wt.%, i.e. ≈1000 µg/g) — only ICP-MS resolved them. The experimental design isolates four migration drivers: food acidity (tomato sauce + black lemon vs plain), spice load, water source (tap vs mineral), and extended cooking time (2 h boil only vs 2 h boil + 8 h at 70 °C), with the extended-time condition then repeated across all four pots to compare traditional vs pressure-cooker construction.
 
 ## Key numbers
@@ -134,15 +136,15 @@ App: The aluminum contamination_profile for the metal-and-alloy cookware product
 - Audit subagent (2026-06-02, general-purpose fresh context) verdict REVISE; 0 ❌ findings, 2 ⚠️ concerns. Both concerns verified against repo state and found to be false positives, no content changes made: (1) Auditor flagged `[[ingredients/salt]]` as missing from the taxonomy snapshot — verified against `wiki/ingredients/salt.md`, which exists; the auditor's snapshot was stale (auditor self-noted the possibility). The routing audit confirms 0 unresolved entries for this source. (2) Auditor flagged the four matrices labels (`cooked-rice`, `cooked-meat`, `food-contact-materials`, `food-simulants`) as not in the canonical matrices vocabulary — verified that the corpus-convention precedent for these labels is established in at least five prior source pages including [[sources/bassioni2012-aluminum-foil-meat-cooking-uae]] (`cooked-meat`, `food-contact-materials`), [[sources/dordevic2019-aluminum-foil-culinary-baking-czech]], [[sources/carey2015-rice-arsenic-percolating-cooking]], [[sources/efsa2015-nickel-food-water]], and [[sources/joyce2016-bush-meat-cooking-ghana]]. The routing audit accepts these labels with 0 malformed entries. The matrices-vocabulary note above already documents the corpus-convention status. Numerical fidelity (Tables 4, 5, 6, 7, 9), speciation discipline, brand-firewall posture, and Part 2 wiki/HMTc-firewall posture all audited clean. Effective post-verification verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

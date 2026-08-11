@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Winiarska-Mieczan et al. 2023 — Cd and Pb in Polish culinary herbs and spices
 
+## Overview
+
 This Polish study measured cadmium and lead in 432 samples of culinary herbs and spices purchased in Lublin, eastern Poland: 100 dried herb samples across 9 species, 184 fresh herb samples across 15 species, and 148 single-component spice samples across 14 species. Analysis was by graphite furnace AAS (GF-AAS). Mean Cd was highest in dried herbs (0.134 mg/kg fresh weight), far above fresh herbs (0.004 mg/kg) and spices (0.017 mg/kg). Mean Pb was also highest in dried herbs (0.548 mg/kg), compared to fresh herbs (0.039 mg/kg) and spices (0.064 mg/kg). All calculated exposure metrics (% TWI, % BMDL, CDI, THQ, HI) were well below 1 at typical Polish consumption of 0.7 g/day of herbs and 0.7 g/day of spices. However, Cd exceeded the EU maximum level in dried coriander (mean 0.419 mg/kg) and estragon (mean 0.427 mg/kg), and Pb exceeded the limit in several fresh herbs: watercress, jiaogulan, celery, basil, and dill.
 
 ## Key numbers
@@ -110,15 +112,15 @@ Rejected (verified false-positive or not actionable):
 - ⚠️ No product-page route for fresh/dried herbs (~284/432 samples). This is a routing-coverage gap that would require Karen-approved Part 10 new-page proposals (no dried-herbs or fresh-herbs product page exists); not a per-source defect.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [5c8045fb3](https://github.com/paleofoundation/heavymetalindex/commit/5c8045fb3) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

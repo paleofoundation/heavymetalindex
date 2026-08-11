@@ -19,11 +19,29 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  // Drop nodes whose slug starts with any of these prefixes (e.g. "sources/").
+  // The relationship graph is topical; sources are evidence reached through
+  // citations, not lateral navigation.
+  removeSourcePrefixes?: string[]
+  // Drop retired redirect stubs from the graph.
+  removeRetired?: boolean
+  // Cap the rendered neighbourhood so hub pages (a metal referenced by hundreds
+  // of ingredients/products/regulations) stay performant. The authoritative,
+  // uncapped relationship list is the Backlinks block; this is a visual sample.
+  maxNodes?: number
 }
 
 interface GraphOptions {
   localGraph: Partial<D3Config> | undefined
   globalGraph: Partial<D3Config> | undefined
+  // The global (whole-corpus) graph is a force simulation over every node. At
+  // ~4,000 pages it is an unusable hairball, so it is disabled on the public
+  // build; only the per-page local graph mounts. Defaults true to preserve
+  // upstream Quartz behaviour for any other consumer.
+  enableGlobalGraph?: boolean
+  // Page types / slugs the graph should NOT render on (source pages, list/index
+  // pages, tag pages). Matched against frontmatter `type` and the slug.
+  hideOnTypes?: string[]
 }
 
 const defaultOptions: GraphOptions = {
@@ -60,14 +78,35 @@ const defaultOptions: GraphOptions = {
 }
 
 export default ((opts?: Partial<GraphOptions>) => {
-  const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const enableGlobalGraph = opts?.enableGlobalGraph ?? true
+  const hideOnTypes = new Set(opts?.hideOnTypes ?? [])
+  const Graph: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+
+    // Self-gate: the graph is a topical relationship view. It renders nothing on
+    // source pages (evidence, not lateral nav), list/index pages, and tag pages,
+    // whose neighbourhoods are either empty or navigational noise.
+    const slug = (fileData.slug ?? "") as string
+    const type = (fileData.frontmatter as any)?.type as string | undefined
+    const retired = (fileData.frontmatter as any)?.retired === true
+    if (
+      retired ||
+      slug === "index" ||
+      slug.endsWith("/index") ||
+      slug.startsWith("tags/") ||
+      slug.startsWith("sources/") ||
+      (type && hideOnTypes.has(type))
+    ) {
+      return null
+    }
+
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          {enableGlobalGraph ? (
           <button class="global-graph-icon" aria-label="Global Graph">
             <svg
               version="1.1"
@@ -94,10 +133,13 @@ export default ((opts?: Partial<GraphOptions>) => {
               />
             </svg>
           </button>
+          ) : null}
         </div>
-        <div class="global-graph-outer">
-          <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
-        </div>
+        {enableGlobalGraph ? (
+          <div class="global-graph-outer">
+            <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
+          </div>
+        ) : null}
       </div>
     )
   }

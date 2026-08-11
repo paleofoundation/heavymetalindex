@@ -45,27 +45,27 @@ Related codes of practice: CXC 49-2001 (Source-directed measures), CXC 81-2022 (
 | Commodity / Product | Cd ML (mg/kg) | Notes |
 | --- | --- | --- |
 | Brassica vegetables | 0.05 | ML does not apply to Brassica leafy vegetables |
-| Bulb vegetables | 0.05 |  |
-| Fruiting vegetables, cucurbits | 0.05 |  |
+| Bulb vegetables | 0.05 | |
+| Fruiting vegetables, cucurbits | 0.05 | |
 | Fruiting vegetables, other than cucurbits | 0.05 | Excluding tomatoes and edible fungi |
 | Leafy vegetables | 0.2 | Includes Brassica leafy vegetables |
-| Legume vegetables | 0.1 |  |
+| Legume vegetables | 0.1 | |
 | Pulses | 0.1 | Excluding soya bean (dry) |
 | Root and tuber vegetables | 0.1 | Excluding potato and celeriac |
 | Potato | 0.1 | Peeled |
-| Stalk and stem vegetables | 0.1 |  |
+| Stalk and stem vegetables | 0.1 | |
 | Cereal grains (general) | 0.1 | Excluding buckwheat, cañihua, quinoa, wheat, rice, and bran and germ |
-| Rice, polished | 0.4 |  |
-| Wheat | 0.2 |  |
+| Rice, polished | 0.4 | |
+| Wheat | 0.2 | |
 | Quinoa | 0.15 | Adopted at CCCF17 2024; relevant standard CXS 333-2019 |
 | Marine bivalve molluscs | 2 | Excluding oysters and scallops |
 | Cephalopods | 2 | Without viscera |
 | Natural mineral waters | 0.003 | Expressed in mg/L |
-| Salt, food grade | 0.5 |  |
+| Salt, food grade | 0.5 | |
 | Chocolates <30 percent cocoa solids | 0.3 | Including milk chocolate and similar |
-| Chocolate 30 to <50 percent cocoa solids | 0.7 |  |
-| Chocolate 50 to <70 percent cocoa solids | 0.8 |  |
-| Chocolate ≥70 percent cocoa solids | 0.9 |  |
+| Chocolate 30 to <50 percent cocoa solids | 0.7 | |
+| Chocolate 50 to <70 percent cocoa solids | 0.8 | |
+| Chocolate ≥70 percent cocoa solids | 0.9 | |
 | Cocoa powder (100 percent cocoa solids on dry matter basis) | 2.0 | Applies to cocoa powder as ingredient in other foods; does not apply to cocoa powder-based drink mixes containing milk powder, sugar, etc. |
 
 ## Key numbers — Lead MLs (selected)
@@ -79,43 +79,43 @@ Related codes of practice: CXC 56-2004 (Prevention and reduction of lead contami
 | Commodity / Product | Pb ML (mg/kg) | Notes |
 | --- | --- | --- |
 | Berries and other small fruits | 0.1 | Excluding cranberry, currant, elderberry |
-| Cranberry | 0.2 |  |
+| Cranberry | 0.2 | |
 | Currants | 0.2 | Fruit with stem |
-| Elderberry | 0.2 |  |
+| Elderberry | 0.2 | |
 | Fruits (general) | 0.1 | Excluding cranberry, currant, elderberry |
 | Brassica vegetables | 0.1 | Excluding kale |
-| Bulb vegetables | 0.1 |  |
+| Bulb vegetables | 0.1 | |
 | Fruiting vegetables | 0.05 | ML does not apply to fungi and mushrooms |
 | Leafy vegetables | 0.3 | Includes leafy Brassica vegetables; excludes spinach |
-| Legume vegetables | 0.1 |  |
-| Fresh farmed mushrooms (Agaricus, shiitake, oyster) | 0.3 |  |
-| Pulses | 0.1 |  |
+| Legume vegetables | 0.1 | |
+| Fresh farmed mushrooms (Agaricus, shiitake, oyster) | 0.3 | |
+| Pulses | 0.1 | |
 | Root and tuber vegetables | 0.1 | Potato: peeled potato |
-| Canned fruits | 0.1 |  |
-| Jams, jellies, marmalades | 0.4 |  |
-| Mango chutney | 0.4 |  |
-| Canned vegetables | 0.1 |  |
+| Canned fruits | 0.1 | |
+| Jams, jellies, marmalades | 0.4 | |
+| Mango chutney | 0.4 | |
+| Canned vegetables | 0.1 | |
 | Preserved tomatoes | 0.05 | Reference value 4.5 °Brix soluble solids |
-| Table olives | 0.4 |  |
-| Pickled cucumbers | 0.1 |  |
-| Canned chestnuts and chestnut puree | 0.05 |  |
+| Table olives | 0.4 | |
+| Pickled cucumbers | 0.1 | |
+| Canned chestnuts and chestnut puree | 0.05 | |
 | Fruit juices | 0.03 | Excluding juices exclusively from berries; ML applies to juices for infants and young children |
 | Fruit juices exclusively from berries and small fruits | 0.05 | Excludes grape juice |
 | Grape juice | 0.04 | Includes juices for infants and young children |
 | Cereal grains | 0.2 | Excluding buckwheat, cañihua, quinoa |
 | Cereal-based foods for infants and young children | 0.02 | Up to 12 months (infants) and 12-36 months (young children) |
 | Infant formula and follow-up formula | 0.01 | As consumed; tightened from 0.02 mg/kg in 2009-amended snapshot via subsequent CCCF amendments |
-| Ready-to-eat meals for infants and young children | 0.02 |  |
-| Quinoa | 0.2 |  |
-| Fish | 0.3 |  |
+| Ready-to-eat meals for infants and young children | 0.02 | |
+| Quinoa | 0.2 | |
+| Fish | 0.3 | |
 | Meat of cattle, pigs, sheep | 0.1 | Also applies to fat from meat |
-| Poultry meat | 0.1 |  |
-| Cattle, edible offal of | 0.2 |  |
-| Pig, edible offal of | 0.15 |  |
-| Poultry, edible offal of | 0.1 |  |
-| Edible fats and oils | 0.08 |  |
-| Fat spreads and blended spreads | 0.04 |  |
-| Milk | 0.02 |  |
+| Poultry meat | 0.1 | |
+| Cattle, edible offal of | 0.2 | |
+| Pig, edible offal of | 0.15 | |
+| Poultry, edible offal of | 0.1 | |
+| Edible fats and oils | 0.08 | |
+| Fat spreads and blended spreads | 0.04 | |
+| Milk | 0.02 | |
 
 (The Pb ML table extends through additional matrices including salt, processed cereals, wine, juices for special use; the entries above cover the most-cited and policy-consequential matrices.)
 
@@ -131,7 +131,7 @@ The Arsenic schedule in CXS 193 is narrow relative to Cd and Pb; the MLs concent
 
 | Commodity / Product | Analyte | Level (mg/kg) | Type | Notes |
 | --- | --- | --- | --- | --- |
-| Edible fats and oils not covered by individual standards | As, total | 0.1 | ML |  |
+| Edible fats and oils not covered by individual standards | As, total | 0.1 | ML | |
 | Margarine | As, total | 0.1 | ML | CS 32-1981 |
 | Minarine | As, total | 0.1 | ML | CS 135-1981 |
 | Named animal fats (lard, rendered pork fat, premier jus, edible tallow) | As, total | 0.1 | ML | CS 211-1999 |
@@ -153,9 +153,9 @@ Methylmercury: PTWI 0.0016 mg/kg b.w. (JECFA 61, 2003). Contaminant definition: 
 | Commodity / Product | Analyte | Level (mg/kg) | Type | Notes |
 | --- | --- | --- | --- | --- |
 | Natural mineral waters | Hg, total | 0.001 | ML | Expressed in mg/L |
-| Salt, food grade | Hg, total | 0.1 | ML |  |
+| Salt, food grade | Hg, total | 0.1 | ML | |
 | Fish (except predatory) | MeHg | 0.5 | GL | Guideline level; applies to fresh and processed fish in international trade |
-| Predatory fish (shark, swordfish, tuna, pike, etc.) | MeHg | 1 | GL |  |
+| Predatory fish (shark, swordfish, tuna, pike, etc.) | MeHg | 1 | GL | |
 
 Methylmercury values are Codex *guideline levels* (GL), not maximum levels (ML); they are not legally binding but inform jurisdictional thresholds.
 
@@ -169,22 +169,22 @@ The Sn schedule is concentrated on canned goods (where tin migration from tinpla
 
 | Commodity / Product | Level (mg/kg) | Suffix | Notes |
 | --- | --- | --- | --- |
-| Canned foods (other than beverages), general | 250 | C |  |
-| Canned beverages | 150 | C |  |
-| Canned vegetables (asparagus, carrots, green beans, green peas, mushrooms, palmito, sweet corn, tomatoes, etc.) | 250 | C |  |
-| Canned fruits (grapefruit, mandarin oranges, mangoes, pineapple, raspberries, tropical fruit salad, etc.) | 250 | C |  |
-| Canned strawberries | 200 | C |  |
-| Jams (fruit preserves) and jellies, canned | 250 | C |  |
-| Mango chutney, canned | 250 | C |  |
-| Table olives, canned | 250 | C |  |
-| Pickled cucumber, canned | 250 | C |  |
-| Processed tomato concentrates, canned | 250 | C |  |
-| Canned chestnuts and chestnut purée | 250 | C |  |
+| Canned foods (other than beverages), general | 250 | C | |
+| Canned beverages | 150 | C | |
+| Canned vegetables (asparagus, carrots, green beans, green peas, mushrooms, palmito, sweet corn, tomatoes, etc.) | 250 | C | |
+| Canned fruits (grapefruit, mandarin oranges, mangoes, pineapple, raspberries, tropical fruit salad, etc.) | 250 | C | |
+| Canned strawberries | 200 | C | |
+| Jams (fruit preserves) and jellies, canned | 250 | C | |
+| Mango chutney, canned | 250 | C | |
+| Table olives, canned | 250 | C | |
+| Pickled cucumber, canned | 250 | C | |
+| Processed tomato concentrates, canned | 250 | C | |
+| Canned chestnuts and chestnut purée | 250 | C | |
 | Cooked cured chopped meat | 200 (tinplate) / 50 (other containers) | C / — | Tinplate containers carry the higher canned ML |
-| Cooked cured ham | 200 (tinplate) / 50 (other containers) | C / — |  |
-| Cooked cured pork shoulder | 200 (tinplate) / 50 (other containers) | C / — |  |
-| Corned beef | 200 (tinplate) / 50 (other containers) | C / — |  |
-| Luncheon meat | 200 (tinplate) / 50 (other containers) | C / — |  |
+| Cooked cured ham | 200 (tinplate) / 50 (other containers) | C / — | |
+| Cooked cured pork shoulder | 200 (tinplate) / 50 (other containers) | C / — | |
+| Corned beef | 200 (tinplate) / 50 (other containers) | C / — | |
+| Luncheon meat | 200 (tinplate) / 50 (other containers) | C / — | |
 
 The canned meats are the only Codex matrices with a paired tinplate-vs-other-container split: tin migration from tinplate justifies a higher canned-product ML (200 mg/kg) than the same product in non-tinplate containers (50 mg/kg).
 
@@ -251,7 +251,7 @@ The standard is periodically amended. The values in this source page reflect the
 
 ## Implications
 
-- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. The values here form a literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall (CLAUDE.md Part 2).
+- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. The values here form a literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall.
 - Courses: the multi-matrix structure of CXS 193 (with separate MLs for cocoa powder vs chocolate by cocoa-solid percentage, for offal by species, for infant foods at age-specific tighter levels) is a teachable model of contaminant-management standardization.
 - App: every commodity-by-commodity ML in this standard is a candidate app benchmark. Commonly-referenced examples include the cocoa powder Cd ML of 2.0 mg/kg, dark chocolate (≥70 percent solids) Cd ML of 0.9 mg/kg, polished rice Cd ML of 0.4 mg/kg, leafy vegetables Cd ML of 0.2 mg/kg, infant formula Pb ML of 0.01 mg/kg, and infant cereal-based foods Pb ML of 0.02 mg/kg.
 
@@ -288,7 +288,7 @@ Merge-enhance pass 2026-06-02 against the 2009-amended PDF snapshot at `raw_path
 
 Preserved fields per merge-enhance discipline: `cite_key`, `access_url`, `license`, `no_doi_assigned`, `access_date`, `evidence_tier`, `source_type`, `superseded_by`, `wiki_doi`, `sampling_locations`, `sampling_year_range`, all existing wiki-pages-updated-on-ingest links, and all existing Cd/Pb body content not specifically corrected above.
 
-The routing-audit advisory entry "missing optional routing-input fields products;matrices" partially clears with this pass (matrices now populated); the `products: []` half persists as the steady-state convention for international Codex regulatory sources (sibling Codex pages codex-cccf17-2024 and codex-cxc-81-2022 carry the same advisory by design — per CLAUDE.md Part 12 brand firewall and the routing-layer convention that regulations route to product-category pages via the `regulations/codex-cadmium-mls` regulation page rather than declaring products at the source level).
+The routing-audit advisory entry "missing optional routing-input fields products;matrices" partially clears with this pass (matrices now populated); the `products: []` half persists as the steady-state convention for international Codex regulatory sources (sibling Codex pages codex-cccf17-2024 and codex-cxc-81-2022 carry the same advisory by design — brand firewall and the routing-layer convention that regulations route to product-category pages via the `regulations/codex-cadmium-mls` regulation page rather than declaring products at the source level).
 
 ### Audit subagent pass 2026-06-02
 
@@ -304,7 +304,7 @@ Fresh-context audit subagent (general-purpose, no shared context) returned verdi
 - ❌ **Pb Meat of cattle/pigs/sheep "Without bones" qualifier not in PDF**: verified — PDF MM 0097 row says only "Also applies to the fat from meat". Applied: dropped "Without bones"; tightened note to PDF wording.
 - ❌ **Pb offal organ lists not in PDF**: verified — PDF MO 0812 / MO 0818 / PO 0111 rows have no organ enumeration. Applied: dropped all three organ lists.
 - ❌ **`iAs` declared in metals: with no Arsenic body section**: verified — PDF Schedule I p.31 contains a substantive Arsenic schedule (PTWI, residue definition, MLs for fats/oils, vegetable oils, mineral waters, salt). Applied: added new `## Key numbers — Arsenic MLs` section covering the 2009 snapshot's full Arsenic schedule plus the post-2009 CCCF iAs in rice MLs (polished 0.2, husked 0.35); added `tAs` to `metals:` alongside `iAs` (the 2009 snapshot's Arsenic MLs are total As by default; PTWI is for iAs; both species are in scope).
-- ⚠️ **Over-specified ingredient slugs (broccoli, onions, lentils, celery)**: verified — CXS 193 sets MLs at the category level (Brassica vegetables, Bulb vegetables, Pulses, Stalk and stem vegetables), not at the commodity level. Per CLAUDE.md Part 5b ("if a source touches infant formula generally without specifying soy vs non-soy, the frontmatter should say `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`"), broad routing is the discipline. Applied: dropped broccoli, onions, lentils, celery from `ingredients:`; retained the category-level slugs that CXS 193 directly addresses (leafy-greens, root-vegetables, vegetables).
+- ⚠️ **Over-specified ingredient slugs (broccoli, onions, lentils, celery)**: verified — CXS 193 sets MLs at the category level (Brassica vegetables, Bulb vegetables, Pulses, Stalk and stem vegetables), not at the commodity level. Per ("if a source touches infant formula generally without specifying soy vs non-soy, the frontmatter should say `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`"), broad routing is the discipline. Applied: dropped broccoli, onions, lentils, celery from `ingredients:`; retained the category-level slugs that CXS 193 directly addresses (leafy-greens, root-vegetables, vegetables).
 - ⚠️ **Sunflower-seeds in "Pages updated on ingest" but not grounded**: verified — CXS 193 sets MLs for sunflowerseed oil (under vegetable oils CS 210-1999), not for sunflower seeds as a commodity. Applied: dropped sunflower-seeds; added quinoa to the pages-updated list to reflect the quinoa Cd/Pb MLs that CCCF17 introduced.
 - ⚠️ **Implications HMTc bullet ("HMT&C threshold-setting...should reference these MLs")**: subagent flagged borderline Check 5 (Part 2 wiki/HMTc firewall). Verified — the should-statement directed at HMTc behavior is on the wrong side of the firewall per "The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline." Applied: softened to "literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall."
 - ⚠️ **Implications App bullet "operationally most-cited"**: subagent flagged editorial weighting. Verified — the wiki should report values; weighting which are "most-cited" is interpretation. Applied: softened to "commonly-referenced examples include..." and prefixed with "candidate" rather than asserting.
@@ -314,15 +314,15 @@ No findings rejected as false positives. Subagent verdict REVISE → wiki-side d
 The audit subagent did NOT flag the post-routing `products: []` advisory (instructed to skip per audit prompt), the snapshot-context CCCF17 quinoa/cocoa-powder deltas (instructed to skip), or the page's intentional current-standard-vs-2009-PDF scope (instructed to treat as known).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [86db7f2eb](https://github.com/paleofoundation/heavymetalindex/commit/86db7f2eb) | 2026-06-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

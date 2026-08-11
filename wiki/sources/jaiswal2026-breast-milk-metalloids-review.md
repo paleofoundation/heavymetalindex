@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Jaiswal et al. 2026 - Metal(loid)s in breast milk review
 
+## Overview
+
 Jaiswal, Chauhan, and Srivastava review metal(loid) exposure through breast milk, with emphasis on arsenic, cadmium, chromium, lead, and mercury. The auto-fetch filename assigned the PDF to a mineral-water cadmium product gap, but the paper is human-milk exposure and toxicology context rather than mineral-water occurrence evidence. It overlaps topically with [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]] but has a distinct DOI and a separate summary table of breast-milk concentrations.
 
 ## Key numbers
@@ -83,3 +85,17 @@ Microbiome: No microbiome findings.
 - Arsenic and chromium are unqualified in the review table, so the page uses tAs and Cr. Mercury is mostly unqualified and tagged tHg; MeHg is included because the review separately lists methyl mercury in Table 1 and discusses methylmercury transfer.
 - Products and ingredients are intentionally empty because this is an a4 human-exposure review. It does not measure mineral water, infant formula, or any commercial food product.
 - The page records a near-duplicate/topical-overlap note with `katrynska2026-human-milk-biomonitor-toxic-metals-review`; the DOI and concentration table are distinct.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

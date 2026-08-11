@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # U.S. EPA Safer Choice Program (2024) — Master Criteria for Safer Ingredients, Version 2.1
 
+## Overview
+
 The EPA Safer Choice program's Master Criteria document, Version 2.1 (October 2024), is the 31-page federal program criteria text that defines how every ingredient (and chemical component) in a product formulation is evaluated for acceptance into the EPA Safer Choice and Design for the Environment (DfE) certification programs. Authored by the Office of Pollution Prevention & Toxics (OPPT), the document operates as the program's primary tool to advance Green Chemistry and to implement Informed Substitution — the reasoned transition from a chemical of particular concern to safer chemicals or non-chemical alternatives (§1.3, p. 2). The Master Criteria evaluate every ingredient within its functional class context and against ten attributes of concern: acute mammalian toxicity (§5.1), carcinogenicity (§5.2), genetic toxicity (§5.3), neurotoxicity (§5.4), repeated dose toxicity (§5.5), reproductive and developmental toxicity (§5.6), respiratory sensitization (§5.7), skin sensitization (§5.8), environmental toxicity and fate (§5.9), and eutrophication (§5.10).
 
 Heavy-metal relevance of the document is indirect. The Master Criteria do not enumerate, tabulate, or measure any specific heavy metal. They define cut-offs and authoritative-list references that, in operation, would screen heavy-metal compounds: substances on California Proposition 65 (a Safer Choice flagging list under §5.2 and §5.6) include Pb, iAs, Cd, MeHg compounds; IARC Group 1, 2A, 2B classifications (Safer Choice carcinogenicity Table 2) include various inorganic As, Cd, Cr-VI, and Ni compounds; EU CLP H-phrases (H350/H351 for carcinogens, H340/H341 for mutagens, H360/H361/H362 for reproductive toxicants, H372/H373 for repeated dose, H334 for respiratory sensitization, H317 for skin sensitization) cover the harmonised classifications of many heavy-metal compounds in REACH Annex VI. The §5.10 eutrophication clause caps total phosphorus in the finished product at 0.5 weight % (measured as elemental phosphorus) and disallows any inorganic phosphate contribution to that 0.5 % — relevant to the broader Safer-Choice household-cleaning-product matrix but not to heavy-metal occurrence. The document is held in the Heavy Metal Index corpus as the primary-record citation for the Safer Choice / DfE ingredient-acceptance methodology, the federal voluntary certification programme to which HMTc's household-cleaning-product certification is closest in regulatory neighbourhood.
@@ -228,18 +230,19 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - The §5.10 eutrophication cap (0.5 weight % phosphorus; no inorganic-phosphate contribution) is documented as the closest the criteria come to a quantitative concentration limit; phosphorus is out of HMI heavy-metal scope and the cap is recorded here for regulatory-context completeness rather than as a heavy-metal threshold.
 - The document references CAS 13977-65-6 (monopotassium phosphonic acid) once, in §3.21. This is the only CAS number cited in the document. It is not a heavy-metal compound; no ingredient page is touched.
 - Quantitative content in this page (Tables 1a, 2, 3, 4, 5a, 5b, 6a, 6b, 7, 8, 12) is reproduced exactly from the source PDF (Version 2.1, October 2024) with page locators throughout.
-- No new ingredient pages and no new product pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
+- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
 - No new regulation page was created. If a `regulations/epa-safer-choice-master-criteria.md` page is ever needed (Step 0 Lock decision), it would inherit from this source and the broader Safer Choice / DfE Standard document referenced as [1] (USEPA, EPA's Safer Choice and Design for the Environment (DfE) Standard. 2024). That Standard document is not in the present KADC PDF set.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [07ff4c7](https://github.com/paleofoundation/heavymetalindex/commit/07ff4c7) | 2026-06-03 | ingest: epa2024-safer-choice-master-criteria-ingredients fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

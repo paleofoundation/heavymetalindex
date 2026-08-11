@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ray et al. 2025 — Heavy metals in three fish species from Chennai, India (ICP-MS)
 
+## Overview
+
 This study quantifies seven metal(loid)s — As, Cd, Cr, Hg, Pb, Sr, and V — in liver, gill, and muscle tissues of three commercially important fish species purchased from a Chennai marketplace, with the samples traced to Ennore Creek and adjacent coastal waters, a region heavily impacted by industrial discharge from thermal power plants, petrochemical plants, and urban effluent. ICP-MS (Perkin Elmer NexION 1000) in helium KED mode was used throughout, with LOD 0.001–0.010 µg/kg and LOQ 0.005–0.030 µg/kg. All concentrations are reported on a dry-weight basis. The principal toxicological finding is that lead is the dominant contaminant across all three species and all tissue types, with muscle Pb ranging 15.4–17.6 µg/kg dry weight — the highest observed concentration driven by the highly-contaminated Ennore industrial environment. Despite elevated Pb concentrations by environmental standards, the target hazard quotient (THQ) for each metal remained below 1 for all species and tissues, and the hazard index (HI) did not exceed 1 for any species (highest: Oreochromis mossambicus, HI 0.238 for children), suggesting consumption at typical rates does not constitute immediate non-carcinogenic risk. Cancer risk estimates for As sat at the margin of the 1×10⁻⁶ threshold for children.
 
 The study's primary limitation is its very small sample size (n=18, six fish per species), which the authors acknowledge constrains statistical inference. Results should be read as preliminary baseline data for the Ennore coastal context, not as representative of Indian seafood broadly.
@@ -104,15 +106,15 @@ App: Supports tagging commercially-sourced Indian freshwater and coastal fish (t
 - [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

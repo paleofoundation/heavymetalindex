@@ -26,6 +26,8 @@ sampling_year_range: 2004-2021
 updated: 2026-06-09
 ---
 
+## Overview
+
 This narrative literature review surveys 83 publications on contaminants in foods for infants and toddlers aged 0.5–3 years, covering toxic elements (Pb, Cd, As, Hg), acrylamide, bisphenol A, dioxins, furan, mycotoxins, nitrates/nitrites, pesticide residues, polycyclic aromatic hydrocarbons, 3-MCPD/glycidyl esters, and mineral oil hydrocarbons. The toxic-elements section (3.1) compiles findings from infant-formula and complementary-food studies across Norway, the USA (Miami), Poland, Brazil, Nigeria, Spain (Menorca), France, Canada, Spain, Columbia, Australia, Sweden, Korea, Tanzania, and Portugal. For HMI purposes, this page reports only the heavy-metals (toxic-elements) content; the non-metal sections are out of scope. The review reproduces values from constituent papers without re-normalizing units, so unit basis (wet versus dry weight, µg/g versus mg/kg versus µg/kg) appears as the originating studies reported it.
 
 ## Key numbers
@@ -122,3 +124,17 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 - Wiki/HMTc firewall (Part 2): no synthesis claims, no HMTc threshold proposals, no consumer-audience risk advisories. Safe-level reference values (PTWI, RfD, TWI, MTD) are reported as the review's Table 1 lists them; not converted into wiki-side recommendations.
 - The review's mortality/toxicology Discussion paragraphs (e.g., Pb in infancy disrupts the nervous system; Cd is an IARC carcinogen; inorganic As is a carcinogen) are not extracted to Key numbers because they are background framing rather than primary-data findings; they are summarized briefly in the lead paragraph only.
 - Routing input: `products:` is set to the umbrella infant-formula-powder slug plus broad complementary-food slugs (infant-food-general, baby-cereals dry rice-based/non-rice, teething-and-snacks rice-based, fish-containing-baby-foods). The routing layer will fan these out to sibling pages. The review is broad and does not commit to soy vs non-soy or powder vs RTF for infant formula across its cited studies, so the umbrella slug is correct per Part 5b routing input rules.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

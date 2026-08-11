@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Mahlungulu et al. 2023 — Heavy metals in Cape Winelands grapevine soils and leaves
 
+## Overview
+
 Mahlungulu and colleagues conducted a pioneer screening of nine heavy metals (Cr, Co, Ni, Cu, Zn, total As, Cd, total Hg, Pb) in soils and grapevine leaves at six vineyards across the Cape Winelands region of South Africa, sampled in both winter and summer of a single study cycle, to test how seasonal variation and farming practice (conventional, semi-organic, certified organic, with mixed polyculture observed at four sites) influence metal accumulation. Quantification used ICP-MS (Plasma Quad I) with an HNO3 digestion (printed in the source's Methods as "nitric oxide", [sic]; calibration standards and blanks are described later in the same section as matched to "nitric acid concentration", indicating HNO3 was the actual reagent) and CRM 1573a (tomato leaves) for plant-matrix validation. Eight of the nine metals were substantially below WHO/FAO maximum permitted levels in both soil and leaf samples. Seasonal variation had no significant effect on soil metal content (DF = 1, 22; p > 0.05). Farming practice significantly influenced soil As and Cu (DF = 1, 22; p < 0.05) and leaf Cu, As, Cr, and Hg uptake (DF = 1, 22; p < 0.05). The unexpected key finding was that copper concentrations in organic vineyard soils (Cu Igeo 2.329 ± 0.674 winter to 2.669 ± 0.597 summer, "moderately to heavily contaminated") were significantly higher than in conventional vineyards (Cu Igeo 1.512 ± 0.297 winter to 1.661 ± 0.303 summer), a result the authors flag as surprising because Cu-based fungicides are typically associated with conventional rather than organic viticulture. Ecological risk index Er stayed below 40 for eight of nine metals (low risk); only Cu reached moderate risk in the organic vineyard pool.
 
 ## Key numbers
@@ -35,17 +37,17 @@ All concentrations reported as mean ± standard error of the mean (SEM) in mg/kg
 **Soil heavy metal concentrations, by site (Table 3; mean ± SEM, mg/kg; combined winter + summer):**
 
 - Site A (Stellenbosch, conventional + polyculture):
-  - Cr 42.933 ± 1.622; Co 5.399 ± 0.964; Ni 15.568 ± 0.654; Cu 18.471 ± 2.508; Zn 27.171 ± 0.913; As 23.177 ± 1.917; Cd 0.019 ± 0.002; Hg 0.042 ± 0.0005; Pb 17.488 ± 0.763
+ - Cr 42.933 ± 1.622; Co 5.399 ± 0.964; Ni 15.568 ± 0.654; Cu 18.471 ± 2.508; Zn 27.171 ± 0.913; As 23.177 ± 1.917; Cd 0.019 ± 0.002; Hg 0.042 ± 0.0005; Pb 17.488 ± 0.763
 - Site B (Eikenbosch, conventional + polyculture):
-  - Cr 48.849 ± 14.948; Co 5.673 ± 1.592; Ni 13.155 ± 3.609; Cu 9.343 ± 0.891; Zn 20.271 ± 2.884; As 29.166 ± 11.442; Cd 0.024 ± 0.004; Hg 0.030 ± 0.011; Pb 11.929 ± 0.011
+ - Cr 48.849 ± 14.948; Co 5.673 ± 1.592; Ni 13.155 ± 3.609; Cu 9.343 ± 0.891; Zn 20.271 ± 2.884; As 29.166 ± 11.442; Cd 0.024 ± 0.004; Hg 0.030 ± 0.011; Pb 11.929 ± 0.011
 - Site C (Franschhoek, semi-organic + polyculture):
-  - Cr 13.305 ± 1.749; Co 1.987 ± 0.001; Ni 4.695 ± 0.158; Cu 10.719 ± 1.876; Zn 35.406 ± 18.001; As 4.074 ± 1.752; Cd 0.044 ± 0.025; Hg 0.032 ± 0.0004; Pb 19.265 ± 3.452
+ - Cr 13.305 ± 1.749; Co 1.987 ± 0.001; Ni 4.695 ± 0.158; Cu 10.719 ± 1.876; Zn 35.406 ± 18.001; As 4.074 ± 1.752; Cd 0.044 ± 0.025; Hg 0.032 ± 0.0004; Pb 19.265 ± 3.452
 - Site D (Wolseley, certified organic):
-  - Cr 34.763 ± 14.738; Co 2.267 ± 0.835; Ni 7.931 ± 1.800; Cu 41.275 ± 7.365; Zn 25.167 ± 6.477; As 9.751 ± 0.126; Cd 0.027 ± 0.013; Hg 0.019 ± 0.010; Pb 7.896 ± 1.270
+ - Cr 34.763 ± 14.738; Co 2.267 ± 0.835; Ni 7.931 ± 1.800; Cu 41.275 ± 7.365; Zn 25.167 ± 6.477; As 9.751 ± 0.126; Cd 0.027 ± 0.013; Hg 0.019 ± 0.010; Pb 7.896 ± 1.270
 - Site E (Robertson, conventional + polyculture):
-  - Cr 23.586 ± 2.578; Co 4.129 ± 0.087; Ni 11.112 ± 1.281; Cu 14.266 ± 1.301; Zn 23.690 ± 1.333; As 4.900 ± 0.826; Cd 0.022 ± 0.009; Hg 0.018 ± 0.010; Pb 10.376 ± 0.659
+ - Cr 23.586 ± 2.578; Co 4.129 ± 0.087; Ni 11.112 ± 1.281; Cu 14.266 ± 1.301; Zn 23.690 ± 1.333; As 4.900 ± 0.826; Cd 0.022 ± 0.009; Hg 0.018 ± 0.010; Pb 10.376 ± 0.659
 - Site F (Piketberg, certified organic):
-  - Cr 58.738 ± 2.988; Co 10.550 ± 0.7047; Ni 26.812 ± 0.369; Cu 37.687 ± 0.071; Zn 44.980 ± 1.651; As 6.455 ± 0.515; Cd 0.032 ± 0.005; Hg 0.015 ± 0.0002; Pb 17.550 ± 1.821
+ - Cr 58.738 ± 2.988; Co 10.550 ± 0.7047; Ni 26.812 ± 0.369; Cu 37.687 ± 0.071; Zn 44.980 ± 1.651; As 6.455 ± 0.515; Cd 0.032 ± 0.005; Hg 0.015 ± 0.0002; Pb 17.550 ± 1.821
 
 **Soil — WHO/FAO maximum permitted levels (Table 3 row, mg/kg):** Cr 100; Co 50; Ni 50; Cu 100; Zn 300; As 20; Cd 3.0; Hg —; Pb 100.
 
@@ -133,7 +135,7 @@ Evidence tier set to B rather than A. The journal is peer-reviewed and the metho
 
 No brand names appear in the paper or on this page. Vineyard site names (Stellenbosch, Eikenbosch, Franschhoek, Wolseley, Robertson, Piketberg) are towns or geographic regions, not commercial wine brands. Cultivar names (Cabernet sauvignon, Cabernet franc, Sauvignon blanc, Merlot, Shiraz, Sèmillon, Chardonnay) are Vitis vinifera varieties, not commercial wine brands. Part 12 brand-firewall does not apply. The certification labels "certified organic" (Wolseley, Piketberg) and "conventional" / "semi-organic" describe farming practice, not commercial brand identity, and are reproduced as the source documents them. Instrument and reagent vendor references (Plasma Quad I ICP-MS; Ismatec Reglo 100 peristaltic pump; Meinhard nebulizer; CEM-style nitric digestion; Spec-troscan / Teknolab As N-1440 Drsbak calibration standards; NIST SRM 1573a; SPSS) are reproduced under the methods-vendor exception (Part 12, Exception 2).
 
-The metals frontmatter list uses `tAs` and `tHg` rather than `iAs`/`MeHg` because the ICP-MS workflow measures total elemental concentration without speciation (CLAUDE.md Part 14 speciation rule). `Cr` is used rather than `Cr-VI` for the same reason — no hexavalent chromium speciation was performed.
+The metals frontmatter list uses `tAs` and `tHg` rather than `iAs`/`MeHg` because the ICP-MS workflow measures total elemental concentration without speciation (speciation rule). `Cr` is used rather than `Cr-VI` for the same reason — no hexavalent chromium speciation was performed.
 
 The matrices `soil` and `grape-leaves` are reproduced from the existing matrices vocabulary (`grape-leaves` is also used by [[sources/bora2015-vineyard-wine-heavy-metals-romania]]). The paper does not measure grape berries, must, or wine, so neither `wine` nor `grape-juice` is in the matrices list.
 
@@ -156,12 +158,15 @@ The audit subagent flagged the page-intro phrase "nitric-acid digestion" as inco
 The audit subagent also raised the `matrices: [soil, grape-leaves]` field as a potential vocabulary question — observed false positive: `soil` is established matrices vocabulary used in 50+ existing source pages across the corpus (e.g., [[sources/bora2015-vineyard-wine-heavy-metals-romania]], [[sources/anselm2022-artificial-sweat-ewaste-soil-bioaccess]], [[sources/atsdr2023-soil-dermal-absorption-guidance]]). The matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` is broader than the food-only set; environmental input matrices (soil, water, sediment) are in scope when the source paper is a vineyard-input or food-chain-context paper. No change made.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7cde25b](https://github.com/paleofoundation/heavymetalindex/commit/7cde25b) | 2026-06-06 | audit: mahlungulu2023-heavy-metals-grapevine-soil [revised] |
-| [a559069](https://github.com/paleofoundation/heavymetalindex/commit/a559069) | 2026-06-06 | ingest: mahlungulu2023-heavy-metals-grapevine-soil [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

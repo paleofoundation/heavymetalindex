@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Sears 2013 — Chelation: harnessing and enhancing heavy metal detoxification (review)
 
+## Overview
+
 Sears, at the Children's Hospital of Eastern Ontario Research Institute (Ottawa), reviews chelation as both a natural toxicokinetic process and a pharmaceutical intervention for elevated body burden of toxic metals. The manuscript stems from a Canadian Institutes of Health Research-funded scoping review on arsenic, cadmium, lead, and mercury and is the narrative companion to the systematic review of metals-in-sweat data the same group published in 2012 (Sears, Kerr, Bray, *Journal of Environmental and Public Health*, 184745). The paper is structured around (i) chelation chemistry and the biological roles of endogenous chelators (glutathione, metallothionein), (ii) dietary and supplemental compounds proposed as detoxification adjuncts, (iii) the five pharmaceutical chelators in widest clinical use, (iv) controversies (EDTA-related deaths, the Stangle DMSA rat study and its consequences for paediatric chelation), and (v) clinical applications spanning lead poisoning, mercury vapour exposure, cardiovascular disease, autism-spectrum trials, and renal protection. There are no primary occurrence measurements and no original analytical data; the value to the wiki is conceptual and vocabulary-organising, not quantitative-evidence.
 
 ## Why this matters
@@ -174,12 +176,15 @@ The review does not declare PRISMA-style inclusion/exclusion criteria, risk-of-b
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (Ingredients/Products/Metals/Regulations) and asked Karen to confirm the target page exists. Verified independently in the same ingest session: `wiki/mitigation/remediation-evidence.md` exists in the `wiki/mitigation/` subtree, which is the same legitimate routing destination the sibling peptide-folder pages (luo2024, etc.) target under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The taxonomy snapshot's closed list is GPT-5.5's drafting vocabulary, not the wiki's exhaustive section index. No content corrections applied; the ⚠️ is a snapshot-scope artefact, not a defect in this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [dbe5c0c](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c) | 2026-06-08 | audit: sears2013-chelation-heavy-metal-detoxification-review promoted |
-| [cc9bd35](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd35) | 2026-06-08 | ingest: sears2013-chelation-heavy-metal-detoxification-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

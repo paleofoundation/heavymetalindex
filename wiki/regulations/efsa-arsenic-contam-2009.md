@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Arsenic in Food (2009), No-PTWI Position
 
+## Overview
+
 The EFSA CONTAM Panel concluded in October 2009 that the prior JECFA provisional tolerable weekly intake of 15 µg inorganic arsenic per kilogram body weight per week is no longer appropriate, on the basis that inorganic arsenic causes cancer (lung, bladder, skin) at exposures below the PTWI ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]). EFSA reports BMDL01 values for cancer endpoints rather than setting a TWI: BMDL01 for inorganic arsenic-related lung, skin, and bladder cancers ranges 0.3 to 8 µg iAs/kg b.w./day depending on endpoint and study selection ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]).
 
 European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for average adult consumers across 19 Member States, 0.37 to 1.22 for 95th-percentile consumers; children under three years are exposed at 2 to 3 times adult per-kg rates due to greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]). Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]).
@@ -28,16 +30,25 @@ European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for aver
 
 - [[sources/efsa-arsenic-contam-2009|EFSA As 2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/efsa-arsenic-contam-2009|Scientific Opinion on Arsenic in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2009;7(10):1351 · 2009 · [doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/fda-iAs-rice-cereal-2020|Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2020 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

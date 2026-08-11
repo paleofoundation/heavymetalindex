@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Lordan and Zabetakis 2022 — Cadmium in the brown crab industry and human health risks
 
+## Overview
+
 Lordan and Zabetakis review cadmium accumulation in brown crab (Cancer pagurus), the divergent regulatory limits applied in the European Union versus the People's Republic of China and Hong Kong, the dietary-intake context that determines whether crab consumption contributes meaningfully to total cadmium exposure, and the clinical effects of chronic cadmium exposure on humans. The review is most useful to the wiki as compiled occurrence evidence for cadmium in brown-crab white meat, brown meat, and hepatopancreas across European fisheries, and as a synthesis of the EU/PRC regulatory divergence that has shaped live-export trade.
 
 ## Key numbers
@@ -137,15 +139,15 @@ Wiki/HMTc firewall (Part 2): the review's "Conclusions" section is the kind of s
 Speciation: the review measures (or summarizes) total cadmium only, which is the practice across the underlying primary studies. Cadmium is not a speciated analyte in the HMTc vocabulary; no speciation flag applies.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [b041f2e](https://github.com/paleofoundation/heavymetalindex/commit/b041f2e) | 2026-06-03 | audit: lordan2022-brown-crab-cadmium-review revised |
-| [43f9594](https://github.com/paleofoundation/heavymetalindex/commit/43f9594) | 2026-06-03 | ingest: lordan2022-brown-crab-cadmium-review fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

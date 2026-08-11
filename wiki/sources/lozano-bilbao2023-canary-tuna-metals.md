@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Lozano-Bilbao et al. 2023 — Metals in five tuna species from the Canary Islands
 
+## Overview
+
 Lozano-Bilbao and colleagues measured Al, Cd, Cr, Cu, Fe, Li, Pb, and Zn by inductively coupled plasma optical emission spectrometry (ICP-OES) in muscle of 75 tuna specimens (15 each of Acanthocybium solandri, Katsuwonus pelamis, Thunnus albacares, Thunnus obesus, and Thunnus thynnus) caught by the Canarian fishing fleet in the eastern Atlantic in 2021. Thunnus thynnus, the largest and longest-lived species in the panel, presented the highest mean concentrations of every metal measured, including a mean Fe of 137.8 ± 100.9 mg/kg (about 8 to 28 times the mean of the other species), a mean Cd of 0.051 ± 0.039 mg/kg, and a mean Pb of 0.280 ± 0.188 mg/kg. The authors report that 75% of T. thynnus specimens exceeded the 0.05 mg/kg cadmium limit they attribute to Regulation (CE) No 420/2011 for fish meat, and 40% of T. thynnus specimens exceeded the 0.30 mg/kg lead limit attributed to Regulation (EC) No 1881/2006 for fish muscle meat; on those grounds they recommend that T. thynnus from this region be further monitored before commercialization. Mercury was not analyzed in this study (sample tissue was reported as insufficient, and Hg plus isotopes were deferred to later work).
 
 ## Key numbers
@@ -149,14 +151,15 @@ The study was funded by the FoodE H2020 grant (Agreement 862663) and the Tuna An
 - All values are wet-weight (mg/kg w.w.) per the authors' Section 2.1; no dry-weight conversion is applied here.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [cb2a3bb](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb) | 2026-06-03 | feat(standards): Cat 6 (Seafood) Step 0 scope lock + recover ~219 stranded declarations |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

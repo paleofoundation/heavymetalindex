@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Tajdar-oranj et al. 2018 — Pb, Cr, Cd, Al in instant noodles on the Iranian (Tehran) market with Monte Carlo non-carcinogenic risk assessment
 
+## Overview
+
 This Tehran retail-market study reports total concentrations of lead, chromium, cadmium, and aluminium in commercial instant noodle samples drawn from three Iranian-produced brands (coded 1, 2, 3) and one imported brand (coded 4), collected in Spring 2017 and analysed by ICP-OES after acid digestion on samples dried at 85 °C for 24 h before grinding. The principal occurrence finding is that mean concentrations in every brand exceeded the WHO 0.025 mg/kg food-products ceiling for Pb, the WHO 0.003 mg/kg ceiling for Cd, the WHO 0.050 mg/kg ceiling for Cr, and the WHO 0.237 mg/kg ceiling for Al. Significant brand-vs-brand differences (Kruskal-Wallis p < 0.05) were observed for all four metals, and significant Iranian-vs-imported differences (Mann-Whitney p < 0.05) were observed for all four metals: imported noodles carried higher Cr, Cd, and Al but slightly lower Pb than the pooled Iranian noodles. The principal risk-assessment finding is that the Monte-Carlo (10 000-iteration) 95th-percentile target hazard quotient for aluminium exceeded 1 in both adult (P95 THQ_Al 1.789) and child (P95 THQ_Al 6.167) consumer panels, indicating a considerable non-carcinogenic health risk for Al from instant-noodle ingestion at the Iranian per-capita rate of 0.0027 kg/person/day; THQ for Pb, Cr, and Cd was below 1 at P95 in both panels. Children carried roughly 3.5× the adult THQ across all four metals owing to the lower-body-weight denominator.
 
 ## Key numbers
@@ -205,15 +207,15 @@ This source contributes Iranian retail-market occurrence data for total Pb, Cr, 
 - **Data-integrity transcription notes.** Pooled per-origin mean ± SD values transcribed from the Abstract (p. 1) and re-verified against Results §3.1-§3.4 prose (pp. 4-6). Per-brand mean ± SD values transcribed from Results §3.1-§3.4 prose (pp. 4-6); per-brand Cr and Cd values for Brands 3 and 4 are referenced in the text as part of the Figure 1 plot but not numerically printed and are not transcribed. Single-sample maxima and minima transcribed from Results §3.1-§3.4 prose. Reference limits transcribed from Introduction §"Heavy metals introduction" (pp. 2-3) and Discussion prose. LOD/LOQ values transcribed from Results §3.1-§3.4 leading paragraphs. ICP-OES operating conditions transcribed from Table 1 (p. 3). Exposure-assessment parameters transcribed from Table 2 (p. 4). RfD values transcribed from Materials and Methods §"Health risk assessment" (p. 4). P95 THQ values transcribed from Conclusion (p. 7) and Figs. 2-3 (pp. 5-6). No paper-internal contradictions beyond those flagged above were identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

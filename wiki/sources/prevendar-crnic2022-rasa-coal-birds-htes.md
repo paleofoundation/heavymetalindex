@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Prevendar Crnić et al. 2022 — Hazardous trace elements in bird tissues, Raša coal area, Croatia
 
+## Overview
+
 This study measured 13 elements (Al, V, Cr, Mn, Fe, Co, Cu, Zn, As, Se, Mo, Cd, Pb) by ICP-MS in muscle, liver, kidney, and brain of 12 wild birds (pigeon, jay, mallard, magpie) from the Raša coal-polluted area of eastern Istria, Croatia and 8 control-area birds (pigeon, pheasant, jay) from the Kontija Forest ~35 km west of the pollution source. Of the 13 elements, the authors report distributions for 5 (Se, Cd, Pb, Cu, Zn) selected for elevated occurrence in the polluted environment. Mean Se and Cd were significantly elevated in Raša-area birds vs control (Se muscle p=0.003, Se liver p=0.04, Cd kidney p=0.01 by Mann–Whitney U). Highest Cu, Zn, and Se concentrations occurred in liver; highest Cd and Pb in kidney. Mallard kidney Cd (mean 2.30 mg/kg w.w.) and pigeon kidney Cd (1.43 mg/kg w.w.) exceed the Croatian Ordinance 146/12 maximum allowable Cd in poultry kidney (1.0 mg/kg w.w.) used as a reference standard because no game-bird-specific Croatian Cd threshold exists. The authors nonetheless conclude human-health risk from consumption of these game species is very low because mean annual game-meat consumption in Croatia is only 0.3 kg per household member (Croatian Statistical Yearbook 2011).
 
 ## Key numbers
@@ -157,8 +159,8 @@ This study measured 13 elements (Al, V, Cr, Mn, Fe, Co, Cu, Zn, As, Se, Mo, Cd, 
 - 2026-05-29 (Claude Opus 4.7, ingest-next-manual-fetch-pdf v2.0 — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned PROMOTE with one ⚠️ advisory presentation finding (the mallard-liver-Cd 0.756/0.757 mismatch noted above) and four ✅ clean checks (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall). Full Table 1 (40 rows × 8 columns), Table 2 (12 rows × 5 metals), Table 4 (20 cells), Table 5 (6 cells) reproductions all returned verbatim-clean against the PDF. Applied: one verification note added documenting the source-internal 0.756 vs 0.757 mismatch (no numerical values changed in the page). Rejected: none.
 - Tables 1 and 2 are reproduced as published; species-mix asymmetry between Raša and control (12 birds Raša pigeon+mallard+jay+magpie vs 8 birds control pigeon+pheasant+jay) is preserved without re-pooling.
 - Brand firewall (Part 12): the source names no commercial brand of game meat or supplement. Instrument vendors named in the methods section (Anton Paar, Agilent Technologies, Inorganic Ventures, White Martins) are preserved per the 2026-05-17 scientific-method vendor-name exception.
-- Frontmatter slug check: ingredients `meat-and-poultry` ✓, `organ-meats` ✓; products `game-meats` ✓ (HMTc Category 11 Row 5); metals abbreviations Cd, Pb, Cu, Zn, Se all valid (per CLAUDE.md Part 14 metal-vocabulary section, plain element symbols are correct for Cu, Zn, Se; Cd and Pb are also standard); jurisdictions HR ✓ (used elsewhere in the corpus), EU ✓ (EFSA/EU regulatory context is invoked implicitly via Croatian implementation of EU contaminant law). Matrices `game-meat` ✓ (used by sibling `gasparik2017-wild-boar-slovakia-metals`), bird-muscle/bird-liver/bird-kidney/bird-brain consistent with corpus bird-tissue convention (verified via `grep -rh '^matrices:' wiki/sources/`).
-- Croatian regulations cited in the source body — Ordinance 146/12 (Pravilnik o najvećim dopuštenim količinama određenih kontaminanata u hrani) and Hunting Act OG 99/18, 32/19, 32/20 (Zakon o lovstvu) — are referenced in Implications as the authors' applied reference thresholds. They are not added as separate `[[regulations/...]]` wikilinks because no Croatian regulation pages exist yet in the wiki; per CLAUDE.md Part 10, regulation pages should be created on first encounter with the correct rule ID, which is a separate workflow from per-paper ingest. This source is flagged as a potential trigger for that workflow but no page is created here.
+- Frontmatter slug check: ingredients `meat-and-poultry` ✓, `organ-meats` ✓; products `game-meats` ✓ (HMTc Category 11 Row 5); metals abbreviations Cd, Pb, Cu, Zn, Se all valid (per metal-vocabulary section, plain element symbols are correct for Cu, Zn, Se; Cd and Pb are also standard); jurisdictions HR ✓ (used elsewhere in the corpus), EU ✓ (EFSA/EU regulatory context is invoked implicitly via Croatian implementation of EU contaminant law). Matrices `game-meat` ✓ (used by sibling `gasparik2017-wild-boar-slovakia-metals`), bird-muscle/bird-liver/bird-kidney/bird-brain consistent with corpus bird-tissue convention (verified via `grep -rh '^matrices:' wiki/sources/`).
+- Croatian regulations cited in the source body — Ordinance 146/12 (Pravilnik o najvećim dopuštenim količinama određenih kontaminanata u hrani) and Hunting Act OG 99/18, 32/19, 32/20 (Zakon o lovstvu) — are referenced in Implications as the authors' applied reference thresholds. They are not added as separate `[[regulations/...]]` wikilinks because no Croatian regulation pages exist yet in the wiki;, regulation pages should be created on first encounter with the correct rule ID, which is a separate workflow from per-paper ingest. This source is flagged as a potential trigger for that workflow but no page is created here.
 - Wet-weight basis is explicit throughout the paper (all data expressed in mg/kg w.w.). Literature comparisons in source Table 2 were recalculated from dry weight to w.w. by the source authors assuming 70% water content in bird tissue; downstream comparators should preserve that conversion provenance.
 
 ## Wiki pages this source may touch
@@ -172,15 +174,15 @@ This study measured 13 elements (Al, V, Cr, Mn, Fe, Co, Cu, Zn, As, Se, Mo, Cd, 
 - [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

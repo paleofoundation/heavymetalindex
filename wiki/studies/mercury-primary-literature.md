@@ -8,6 +8,8 @@ study_count: 12
 
 # Mercury Primary Literature Catalog
 
+## Overview
+
 This page is a citable index of primary research articles related to mercury in food, supply chain, exposure, biomarkers, and remediation. The articles are held privately under raw/studies/ (gitignored per the licensing model documented in `raw/README.md`); each entry below provides the document filename, an inferred title from the filename, and the DOI where extractable. Source pages with full provenance metadata, key-numbers extraction, and substantive synthesis are deferred to a future per-study deep-ingestion wave; this catalog establishes the corpus exists and makes each study citable from the metals and ingredients pages.
 
 For curated regulatory, advisory, and textbook sources see the source pages under wiki/sources/. The articles cataloged here are primary research literature contributing to the empirical base underlying the regulatory documents.
@@ -30,3 +32,17 @@ For curated regulatory, advisory, and textbook sources see the source pages unde
 | `FM_8445859_Targeted_risk_assessment_of_mercury_exposure_of_recreational.pdf` | [10.1007/s11356-021-14093-0](https://doi.org/10.1007/s11356-021-14093-0) | Targeted risk assessment of mercury exposure of recreational |
 
 _12 entries. Catalog generated from filenames plus DOI extraction from PDF first pages; inferred titles reflect the filename and may differ from the published article title. Definitive metadata, full bibliographic citation, and substantive content extraction require per-study deep-ingest in a future wave._
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [35055e47a](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a) | 2026-05-04 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

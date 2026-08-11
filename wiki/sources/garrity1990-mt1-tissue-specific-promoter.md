@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Garrity & Wold 1990 — Compound TATA-dependent and TATA-independent transcription of the mouse metallothionein-I gene
 
+## Overview
+
 Garrity and Wold (California Institute of Technology, Division of Biology) report that the mouse metallothionein-I (MT-I) gene promoter functions in an unusual compound manner, directing both TATA-dependent and TATA-independent modes of transcription *in vivo*. The TATA-dependent message originates from the previously characterised +1 transcription start site and is the predominant species in most cell types and the only species that responds to cadmium induction. TATA-independent initiation occurs at sites distributed across the ~160 bp upstream of +1, is present in all tissues examined but is the predominant species only in testis (specifically in pachytene-stage meiotic cells and early spermatids), and is refractory to metal induction. Site-directed mutagenesis of the TATA element (substituting TCGAGA for TATAAA) drastically alters the ratio of the two RNA classes in cells where the +1 transcript normally dominates; in TATA-minus mutants the upstream TATA-independent RNAs become the most prevalent species but remain refractory to metal induction. The wiki uses this source as mechanistic background for [[metals/cadmium]] on the molecular basis of cadmium induction of metallothionein and on the testicular MT-I "blind spot" that contributes to germ-cell vulnerability to cadmium toxicity. It carries no food-matrix occurrence data and no regulatory content.
 
 ## Why this matters
@@ -139,7 +141,7 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry and molecular biology. No firewall action required.
 
-**Speciation note.** The paper uses "Cd" generically; experimental doses are administered as CdSO₄ (and as CdCl₂ in the cited pretreatment protocol of reference 42). No methylated, organic, or oxidation-state-specific Cd species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed; see CLAUDE.md Part 14).
+**Speciation note.** The paper uses "Cd" generically; experimental doses are administered as CdSO₄ (and as CdCl₂ in the cited pretreatment protocol of reference 42). No methylated, organic, or oxidation-state-specific Cd species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed;).
 
 **Date arithmetic.** Received 7 June 1990; accepted 7 August 1990; published November 1990 (Vol. 10, No. 11). Consistent with `year: 1990` frontmatter and DOI year `1990`.
 
@@ -154,12 +156,15 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 2 findings, 2 applied, 0 rejected. Audit subagent ID a9f6f632d54da1a39.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [de0b14e](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e) | 2026-06-08 | audit: garrity1990-mt1-tissue-specific-promoter revised |
-| [9792010](https://github.com/paleofoundation/heavymetalindex/commit/9792010) | 2026-06-08 | ingest: garrity1990-mt1-tissue-specific-promoter fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

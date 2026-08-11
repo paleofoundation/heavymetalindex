@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Soni et al. 2024 — Food additives and contaminants in infant foods: critical review
 
+## Overview
+
 Soni and colleagues review the additive and contaminant landscape of the infant-food category, covering direct additives (colorants, flavoring agents, preservatives), indirect additives (bisphenols, phthalates, PFAS, perchlorate, food-packaging migrants), naturally occurring contaminants (mycotoxins, POPs, heavy metals), and the regulatory frameworks that govern them (US FDA Redbook/GRAS, EFSA scientific opinions, JECFA ADI evaluations, Codex Alimentarius, Indian FSSAI). The paper's primary focus is food additives and packaging migrants rather than heavy metals; heavy-metal content is brief, drawing on Bair 2022 and Tchounwou 2012 as anchor citations for the FDA Closer-to-Zero program and metal toxicity respectively. The review is most useful to HMI as regulatory-landscape context for infant-food contaminant governance and for its discussion of aluminum and titanium dioxide immunological pathways in young children.
 
 ## Key numbers
@@ -106,3 +108,17 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 - Evidence tier: B-tier. The journal *Food Production, Processing and Nutrition* is peer-reviewed and BMC-published, but this is a narrative review with no systematic-review methodology, no PRISMA, and no quantitative synthesis. A-tier is reserved for original measurements and systematic reviews/meta-analyses. The Bair 2022 narrative review carries A-tier because of its uniqueness as the primary US-policy consolidation for infant heavy metals; Soni 2024 does not fill an equivalent unique-source role.
 - Evidence fitness: EF-4 (Context only). The review establishes regulatory landscape and qualitative additive/contaminant overview but contains no measurements, no occurrence percentiles, and no metal-specific dietary-exposure modeling that an HMI cell could ingest as a contributing source.
 - Autonomous audit subagent 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

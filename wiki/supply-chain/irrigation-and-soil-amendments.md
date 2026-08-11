@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Irrigation water and soil amendments as anthropogenic inputs to cropland
 
+## Overview
+
 Where the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub describes how metals already present in soil move into the edible crop, this page is about what humans add to the agricultural system in the first place. The metal burden of a cropland soil is not fixed by parent-material geology alone. It is the running sum of every input the field has received, and a large share of those inputs are anthropogenic and ongoing: the water used to irrigate, the sludge and fertiliser spread to amend, the manure and compost returned to the land, and the process and waste water reused on it. These inputs are the part of the soil pathway that the grower and the supply chain can actually change, which is why they sit on their own hub. This page sets out each input, the difference between a one-time and a chronic addition, the quantitative discipline that governs how the upstream concentrations may be used, and how the evidence connects to the [ingredient](/ingredients) and [metal](/metals) pages downstream.
 
 ## Irrigation with contaminated water
@@ -43,3 +45,17 @@ For this reason the index carries irrigation-water, sludge, fertiliser, manure, 
 ## How upstream-input evidence connects to food pages in this index
 
 Source pages reporting irrigation water, sewage sludge or biosolids, phosphate or other fertilisers, manure and compost, or process-water reuse are upstream evidence about controllable anthropogenic inputs to cropland. The routing layer attaches each such source to the consumable it informs as exposure context rather than as direct food-occurrence evidence, preserving the separation set out above. Groundwater and effluent arsenic evidence routes to [rice](/ingredients/rice) and to the [inorganic arsenic](/metals/arsenic-inorganic) page; effluent and biosolid evidence for peri-urban vegetable systems routes to [vegetables](/ingredients/vegetables), [leafy vegetables](/ingredients/leafy-vegetables), and [root vegetables](/ingredients/root-vegetables) and to the [cadmium](/metals/cadmium), [lead](/metals/lead), and [nickel](/metals/nickel) pages; phosphate-fertiliser cadmium routes to [cadmium](/metals/cadmium) and to the cadmium-accumulating crops and the limits in [Regulation (EU) 2023/915](/regulations/eu-2023-915-cadmium). In each case the upstream source explains a contamination profile without being mistaken for it, the downstream uptake step is read on the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub, and the actionable response is read on the mitigation pages. The element-by-element and system-by-system causal accounts build on this hub as dedicated synthesis pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

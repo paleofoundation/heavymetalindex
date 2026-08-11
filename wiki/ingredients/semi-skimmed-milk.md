@@ -10,29 +10,28 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 13.8]
     p95_ppb: 23.3
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 1]
     p95_ppb: 2
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
-    speciation: no-speciated-iAs-measurement
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0.5]
     p95_ppb: 1
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -46,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1437]
     p95_ppb: 1830
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -60,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 23.5]
     p95_ppb: 31.3
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -83,35 +82,13 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 1
 ---
 
 # Semi-skimmed milk
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 6/10 HMTc analytes, total n=6 | common tier expects total n>=15; have 6 |
-| D2 Regional coverage | below-tier | 2 jurisdictions, top FR 100% | over-concentrated: FR supplies 100% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tHg THIN, Al THIN, Sn THIN | Pb: needs 2 more study(ies); Cd: needs 2 more study(ies); iAs: needs 2 more study(ies); tHg: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming semi-skimmed-milk: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Al |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN, needs 2 more study(ies); Cd: THIN, needs 2 more study(ies); iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -123,24 +100,18 @@ Semi-skimmed milk is fluid cow milk from which a portion of the milk fat has bee
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–13.8 | 23.3 | medium | — |
-| Cd | n=1 | 0–1 | 2 | high | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.5 | 1 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–1437 | 1830 | high | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–23.5 | 31.3 | high | — |
-| U | data gap | — | — | — | — |
-
-## Synthesis basis and censoring treatment
-
-The inorganic-arsenic cell was reviewed on 2026-06-11 on a fluid semi-skimmed-milk wet-weight basis, the form in which the ingredient enters the supply chain. Inorganic arsenic is held distinct from total arsenic and is never derived from it by a fixed ratio; only a speciated measurement can populate the inorganic-arsenic cell.
-
-Inorganic arsenic is recorded as a reviewed data gap. The earlier profile reported inorganic arsenic at a typical and 95th-percentile value of zero at high confidence. That figure was not supported by any speciated measurement of this commodity: no fluid-milk inorganic-arsenic value exists in the corpus, and every milk arsenic measurement available is total arsenic by hydride-generation or ICP-MS without inorganic/organic fractionation. The FDA Total Diet Study FY2018-FY2020 fluid-milk composites measure total arsenic only and report it below the 1 µg/kg reporting limit across all 27 samples for whole, reduced-fat, and skim milk ([[sources/fda2022-tds-elements-fy2018-fy2020]]); that is a left-censored total-arsenic result, not a measured inorganic-arsenic zero. The clean-market fluid-milk occurrence surveys are likewise total-arsenic only and state explicitly that their arsenic values must not be routed as inorganic arsenic: the Polish national monitoring measures arsenic by hydride-generation AAS without speciation ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]]), the Bangladesh raw-and-pasteurized survey records "total arsenic; no inorganic arsenic speciation" ([[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]]), the Egyptian retail-milk survey reports "total arsenic only, no inorganic/organic separation" ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]]), the Polish powdered-formula survey reports arsenic below detection without speciation ([[sources/dobrzynska2025-milk-formulae-elemental-composition|Dobrzyńska et al. 2025]]), and the Spanish ICP-MS retail-milk survey, which enumerates semi-skimmed cow milk in its product frame, does not measure inorganic arsenic as a target analyte ([[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]]). Because no speciated inorganic-arsenic value exists for fluid milk, the honest state for this cell is a reviewed data gap rather than a measured zero, following the uranium precedent on [[ingredients/rice]] and the inorganic-arsenic treatment on [[ingredients/whole-milk]]. The cell will populate when a speciated fluid-milk inorganic-arsenic measurement is ingested.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–13.8 | low | — |
+| Cd | n=1 | 0–1 | low | — |
+| iAs | n=1 | 0 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.5 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–1437 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–23.5 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -148,7 +119,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
@@ -192,10 +163,18 @@ Standard HDPE, glass, or Tetra Pak packaging does not contribute metals to semi-
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the maximum Pb level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. The corresponding Cd maximum level for milk and milk products is 0.020 mg/kg (20 ppb) wet weight. Semi-skimmed milk falls squarely within the dairy product matrix for which these limits apply. The FDA does not publish a specific action level for Pb or Cd in fluid milk; the general surveillance framework under 21 CFR applies, and fluid dairy is not among the high-priority categories identified in the Closer to Zero program (see [[regulations/fda-closer-to-zero]]) for Pb reduction efforts targeting infant and young child foods.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -216,15 +195,15 @@ The five most recent substantive edits to this page. The full version history li
 <!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

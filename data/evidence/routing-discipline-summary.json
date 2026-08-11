@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-08T19:55:35.095Z",
-  "check_1_sources_scanned": 1731,
-  "check_1_sources_with_product_matrices": 662,
-  "check_1_failures": 10,
-  "check_2_products_scanned": 384,
-  "check_2_products_hmtc_locked": 354,
-  "check_2_failures": 19,
+  "generated_at": "2026-08-11T06:38:48.358Z",
+  "check_1_sources_scanned": 3065,
+  "check_1_sources_with_product_matrices": 1208,
+  "check_1_failures": 42,
+  "check_2_products_scanned": 416,
+  "check_2_products_hmtc_locked": 388,
+  "check_2_failures": 40,
   "check_3_pages_without_hmtc_row": 4,
   "check_3_failures": 0,
-  "check_2_literature_scope_thin": 251,
+  "check_2_literature_scope_thin": 255,
   "check_2_provisional_pending_review": 1,
-  "check_3_exempt_non_rows": 17
+  "check_3_exempt_non_rows": 16
 }

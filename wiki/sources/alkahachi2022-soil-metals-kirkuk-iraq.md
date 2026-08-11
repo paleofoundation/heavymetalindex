@@ -31,6 +31,8 @@ updated: 2026-05-30
 
 # Al-Kahachi et al. 2022 — Abundant and trace elements in Al-Khassa Sub Basin agricultural soil, Kirkuk, Iraq
 
+## Overview
+
 This study measured 20 elements (Mg, Al, Si, P, S, Cl, K, Ca, Ti, V, Cr, Mn, Co, Ni, Cu, Zn, As, Hg, Mo, Pb) in 34 surface soil samples from the Al-Khassa Sub Basin, a 468 km² agricultural watershed in Kirkuk Province, northeastern Iraq. The basin is the agricultural catchment of the Al-Khassa dam (constructed 2010, increasing irrigated agriculture in the surrounding villages) and is described by the authors as suffering from increasing anthropogenic pollution from fertilizer overuse, pesticide application, and poor irrigation practice. The sampling design covers 32 villages including agricultural, pastoral, and cultivated land. Cd is not measured. Speciation is not reported for As or Hg, so reported values are read as total arsenic and total mercury. The paper is a soil-geochemistry study; no food crops, food products, or animal tissues are sampled. Two reported concentration ranges (Mo at 420–796 mg/kg and Hg at 1.9–5.0 mg/kg) sit far outside expected crustal/agricultural-soil envelopes and are flagged in `## Verification notes` as data-integrity concerns the source itself does not address.
 
 ## Key numbers
@@ -107,7 +109,7 @@ EF-4 (Modeled or limited evidence — context only). This source supplies geogra
 - Mo concentrations of 420–796 mg/kg (mean 593.7 mg/kg) are 2–3 orders of magnitude above expected crustal abundance (Vinogradov reference 2 mg/kg). The authors note this as "more than its natural occurrence limits" and attribute it to molybdenum-bearing fertilizer formulations, but do not flag the magnitude as anomalous or provide QA/QC evidence for the measurement. Treat reported Mo values as suspect.
 - Hg concentrations of 1.9–5.0 mg/kg (mean 3.3 mg/kg) are well above the typical envelope even for fungicide-loaded agricultural soils (background ~0.05–0.3 mg/kg). The authors attribute the values to "Agricultural Chemical as fungicide, mildwicide or pesticide" but do not corroborate with QA/QC or method-blank data. Treat reported Hg values as suspect pending independent regional corroboration.
 - The paper does not measure Cd. Cd is a primary HMI analyte (HMTc 10-analyte list) and its absence is a coverage gap for this region.
-- Speciation is not reported for As or Hg, so values are read as total arsenic (tAs) and total mercury (tHg). The frontmatter `metals:` list uses `tAs` and `tHg` accordingly per CLAUDE.md Part 14.
+- Speciation is not reported for As or Hg, so values are read as total arsenic (tAs) and total mercury (tHg). The frontmatter `metals:` list uses `tAs` and `tHg` accordingly.
 - Sampling-year range is inferred (2020–2021) from the analytical-batch reference (ALS Environmental Lab procedures approved January 2021) and the submission date (October 2022). The paper does not explicitly state the sampling year.
 - No brand names appear in the paper; Part 12 brand firewall is not at risk on this page. Method/instrument vendor names (ALS Environmental Lab, ICP-MS) are scientific reporting and are retained per the 2026-05-17 vendor-name carve-out.
 - Paper-internal contradiction in Mg Cf classification: Table 5 places Sedan (S25) in the Cf > 6 column with Mam Rash (S22), and places Belgrad (S10) in the 3 < Cf < 6 column with S11 and S32. Section 5.3 prose instead names Belgrad (S10) alongside Mam Rash in the Cf > 6 group and silently drops S25. The Table 5 reading is retained on this page because (i) it is internally consistent with the EF (5–20) finding for Sedan S25 attributable to magnesium-fertilizer use, and (ii) the prose would otherwise place S10 in two mutually exclusive Cf bands simultaneously. Audit subagent (2026-05-30) flagged the prose disagreement; verified against PDF Table 5 and EF discussion — Table 5 retained, prose disagreement documented here.
@@ -123,15 +125,15 @@ EF-4 (Modeled or limited evidence — context only). This source supplies geogra
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # ElMosbah et al. 2024 - Aluminum chloride rat neurotoxicity and rivastigmine chitosan nanoparticles
 
+## Overview
+
 ElMosbah and colleagues used oral aluminum chloride to induce Alzheimer's-like pathology in rats, then compared oral versus intranasal rivastigmine-loaded chitosan nanoparticles. This is in-scope lane a4 toxicology evidence for aluminum neurotoxicity and treatment response. It is not consumer-product occurrence evidence and does not report aluminum concentrations in food, water, or tissue.
 
 ## Key numbers
@@ -79,3 +81,17 @@ App: Context only. The source can inform aluminum toxicology background but cann
 Recovered from `skip:no-occurrence-data` under the 2026-06-10 inclusion-by-default rule. On reading, this paper is lane a4 toxicology evidence because it uses AlCl3 to induce an Alzheimer's-like rat model and reports histopathology, tau immunohistochemistry, and gene-expression response.
 
 Numbers were checked against the abstract, nanoparticle-preparation section, experimental-design section, Table 1, results text, and figure captions. No food, water, product, or tissue aluminum concentration is reported, and no exact figure-bar values are transcribed because they are not printed in the extracted text. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

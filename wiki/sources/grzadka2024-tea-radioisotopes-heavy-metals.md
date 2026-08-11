@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Grzadka et al. 2024 - Radioisotopes and heavy metals in commercial teas
 
+## Overview
+
 Grzadka and colleagues measured radionuclides and elemental contaminants in 30 commercial true-tea samples imported to the Polish market. The source is routeable for tea and tea-infusion occurrence evidence because it reports dry-leaf metal concentrations, post-brewing residues, leaching behavior, and non-carcinogenic hazard quotients for black, green, red, oolong, and white teas. Lead, cadmium, and vanadium were below the reported MIP-OES detection limits in the result narrative, while chromium, aluminum, manganese, nickel, copper, molybdenum, iron, and phosphorus varied by tea type and origin.
 
 ## Key numbers
@@ -101,15 +103,15 @@ Courses: Useful for teaching dry-leaf versus brewed-residue basis, LOD substitut
 The source identifies samples by generic tea type, origin, and acronym, not brand names; this page therefore preserves category-level origin/sample labels only. The main-text concentration figures are not extractable as a complete numeric per-sample table from the PDF text, so this page records the printed narrative ranges and the exact Table 3 LODs and Table 4 THQ values rather than estimating graph coordinates. The paper contains a small internal inconsistency: the Results text says Pb was below LOD in all samples, while the THQ section says Pb was substituted at the LOD for almost all samples; this page treats Pb as non-detect/LOD-substituted unless a later supplemental data file provides exact measured values.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [71a4a99](https://github.com/paleofoundation/heavymetalindex/commit/71a4a99) | 2026-06-02 | ingest June 2: grzadka2024-tea-radioisotopes-heavy-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

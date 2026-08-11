@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Oranges, Dini & Romanelli 2015 — Skin physiology of the neonate and infant: clinical implications
 
+## Overview
+
 This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology, University of Pisa) summarises the structural and functional maturation of the skin from birth through the first year of life and describes the clinical implications of immature barrier function for topical-agent absorption, infection susceptibility, thermoregulation, and product selection. The paper contains no primary heavy-metal occurrence data and no metal-specific permeability measurements; it is included in the Heavy Metal Index corpus as exposure-pathway framing for HMI work that needs to translate adult dermal-absorption assumptions to neonatal and infant skin in the context of baby personal-care products (lotions, oils, cleansers, topical antiseptics).
 
 ## Key numbers
@@ -88,15 +90,15 @@ Narrative critical review. No systematic-review methodology is described — no 
 - Related HMI corpus pages: [[sources/rahma2022-infant-skin-barrier-function-review]] (2022 Pharmaceutics narrative review, similar scope with more quantitative depth); the underlying primary references (Nikolovski 2008, Visscher 2000/2005, Fluhr 2010/2012, Yosipovitch 2000, Hammarlund & Sedin 1979) are not yet ingested and should be located if HMI ever needs the primary numbers for an exposure-model build.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

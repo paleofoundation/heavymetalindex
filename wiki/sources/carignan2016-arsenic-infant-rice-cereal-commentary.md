@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Carignan, Punshon, Karagas, Cottingham 2016 — Potential exposure to arsenic from infant rice cereal
 
+## Overview
+
 This Annals of Global Health commentary by the Dartmouth Children's Environmental Health Center group (Carignan, Punshon, Karagas, Cottingham) summarizes the case for U.S. regulatory action on arsenic in infant rice cereal. Published in early 2016, the commentary uses then-published rice cereal arsenic concentration values to estimate per-serving and per-day infant arsenic exposure for the typical introduction-of-solids window (4-6 months) and argues that infant rice cereal at then-prevailing arsenic levels can produce per-kilogram-body-weight arsenic exposure exceeding chronic-dietary-intake reference values. The commentary supported the FDA Closer-to-Zero rulemaking process that ultimately produced the 2020 final guidance for industry on infant rice cereal inorganic arsenic at 100 ppb. The Dartmouth group's primary occurrence and prospective-cohort evidence is in the companion [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]], and [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Carignan 2016 cohort]] papers.
 
 ## Key conclusions
@@ -42,15 +44,15 @@ The commentary documents that infant rice cereal, when consumed at typical pedia
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

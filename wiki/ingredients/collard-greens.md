@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 4.9]
     p95_ppb: 5.3
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [11.3, 49.8]
     p95_ppb: 53.1
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 4.8]
     p95_ppb: 5.3
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 1.2]
     p95_ppb: 1.3
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 51]
     p95_ppb: 66.5
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -64,10 +64,8 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-06-11
-    basis: collards-boiled-as-consumed-wet-weight
-    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -79,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 2.4]
     p95_ppb: 4.5
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -88,41 +86,19 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 1
 ---
 
 # Collard greens
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: rare) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 0 jurisdictions | only 0 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 22 claims checked, 22 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming collard-greens: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 108, "Collards, fresh/frozen, boiled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals
 
-Collard greens are a leafy brassica vegetable with large, broad leaf surfaces that expose an unusually high ratio of surface area to edible mass. This morphology creates two distinct accumulation pathways. The first is atmospheric deposition: airborne lead particles, whether from vehicle exhaust, industrial emissions, or soil resuspension, settle onto the waxy cuticle of the leaf and adhere through electrostatic and physical trapping. Because collard leaves are not typically peeled or removed before consumption, this surface-deposited lead enters the food supply directly. The second pathway is root uptake of cadmium from soil, a mechanism common across the brassica family, which includes cabbage, kale, and broccoli. Brassica species express transporters that facilitate cadmium movement from soil pore water into root tissue and onward into above-ground biomass. Nickel, which appears at detectable concentrations in the FDA TDS FY2018-FY2020 data at the p90 level [[sources/fda2022-tds-elements-fy2018-fy2020]], follows a similar soil-root uptake pathway.
+Collard greens are a leafy brassica vegetable with large, broad leaf surfaces that expose an unusually high ratio of surface area to edible mass. This morphology creates two distinct accumulation pathways. The first is atmospheric deposition: airborne lead particles, whether from vehicle exhaust, industrial emissions, or soil resuspension, settle onto the waxy cuticle of the leaf and adhere through electrostatic and physical trapping. Because collard leaves are not typically peeled or removed before consumption, this surface-deposited lead enters the food supply directly. The second pathway is root uptake of cadmium from soil, a mechanism common across the brassica family, which includes cabbage, kale, and broccoli. Brassica species express transporters that facilitate cadmium movement from soil pore water into root tissue and onward into above-ground biomass. Nickel, which appears at detectable concentrations in the FDA TDS FY2018-FY2020 data in some market samples [[sources/fda2022-tds-elements-fy2018-fy2020]], follows a similar soil-root uptake pathway.
 
 Cooking collards in the Southern US tradition involves boiling in water with substantial volume reduction. This wilting concentrates per-gram metal concentrations relative to the fresh weight by removing water mass, though boiling in large water volumes can simultaneously leach some surface-deposited and water-soluble metals. The net effect on as-consumed metal concentration depends on the proportion of surface-deposited versus root-incorporated metal, the volume of cooking water, and whether that water is discarded or consumed. At present the TDS data reflect the prepared (boiled) form, which already incorporates these cooking dynamics.
 
@@ -130,26 +106,18 @@ Cooking collards in the Southern US tradition involves boiling in water with sub
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–4.9 | 5.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 11.3–49.8 | 53.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–4.8 | 5.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0–1.2 | 1.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–51 | 66.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | 0 (left-censored, RL 50) | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–2.4 | 4.5 | high | — |
-
-## Synthesis basis
-
-The chromium cell was resynthesized on 2026-06-11 on a boiled, as-consumed wet-weight basis, the form FDA Total Diet Study Food 108 ("Collards, fresh/frozen, boiled") reports and the form in which this ingredient is consumed.
-
-Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported chromium at typical and 95th-percentile values of zero at high confidence with two contributing studies. Both of those properties were artifacts. The high-confidence literal zero came from pooling FDA Total Diet Study composites in which 26 of 27 boiled-collard samples fell below the 50 µg/kg chromium reporting limit and the reported zeros were carried as literal zeros; the inflated study count attributed two contributors to a cell that only the FDA dataset populates. The single detected composite, a 2019 winter Southeast sample, was reported at 75 µg/kg, which is the distribution maximum. With one source, a fully censored central distribution, and a single detect, the cell is reported as total chromium at low confidence with one contributing source ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The median through the 95th percentile remain at the censored floor because the rank-95 sample is still below the reporting limit; the floor is expressed as a numeric zero with the 50 µg/kg reporting limit stated here rather than inside the value.
-
-Chromium is reported as total chromium only. No hexavalent-chromium (Cr-VI) measurement for collard greens exists in the corpus, and Cr-VI is never inferred from total chromium. No collard-specific multi-region occurrence survey has been integrated, so the upper distribution is not recovered from primary literature; broad mixed-vegetable surveys are not adopted here because they do not measure collard greens as a named commodity. Leafy-green chromium can run substantially higher in produce grown near smelters, tanneries, chromite mining, or wastewater-irrigated soils; should collard-specific data from such settings be integrated, the upper tail and confidence would be revised upward.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–4.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 11.3–49.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–4.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–1.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–51 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–2.4 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -161,7 +129,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -170,21 +138,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Collards, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 7.1 | 11.32 | 22 | 49.8 | 53.1 | 65 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 75 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 51 | 66.5 | 72 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 4.9 | 5.27 | 5.9 | in profile |
-| U | 27 | 0 | 0 | 0 | 2.44 | 4.5 | 5.4 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 4.82 | 5.28 | 7.2 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 1.24 | 1.3 | 1.4 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 7.1 | 65 | in profile |
+| Cr | 27 | 0 | 75 | in profile |
+| Ni | 27 | 0 | 72 | in profile |
+| Pb | 27 | 0 | 5.9 | in profile |
+| U | 27 | 0 | 5.4 | in profile |
+| tAs | 27 | 0 | 7.2 | in profile |
+| tHg | 27 | 0 | 1.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 dataset provides the most structured occurrence data currently available for boiled collard greens, with 27 composite samples across a US market basket [[sources/fda2022-tds-elements-fy2018-fy2020]]. The TDS distribution shows Cd ranging from 7.1 ppb at the minimum to 65 ppb at the maximum (median 22 ppb, p90 49.8 ppb, p95 53.1 ppb). Pb is largely below detection across samples, with p90 at 4.9 ppb and a maximum of 5.9 ppb, indicating that atmospheric Pb deposition onto commercial market-basket collards is modest in the US context. Ni appears with a median of zero but a p90 of 51 ppb and maximum of 72 ppb, suggesting episodic presence in some market samples. Total arsenic shows a similar episodic pattern, with p90 at 4.82 ppb and maximum of 7.2 ppb.
+The FDA TDS FY2018-FY2020 dataset provides the most structured occurrence data currently available for boiled collard greens, with 27 composite samples across a US market basket [[sources/fda2022-tds-elements-fy2018-fy2020]]. The TDS distribution shows Cd ranging from 7.1 ppb at the minimum to 65 ppb at the maximum (median 22 ppb). Pb is largely below detection across samples, with a maximum of 5.9 ppb, indicating that atmospheric Pb deposition onto commercial market-basket collards is modest in the US context. Ni appears with a median of zero but a maximum of 72 ppb, suggesting episodic presence in some market samples. Total arsenic shows a similar episodic pattern, with a maximum of 7.2 ppb.
 
 No peer-reviewed multi-region survey of collard greens specifically has been integrated into this corpus yet, so geographic or cultivar-level breakdown beyond the US TDS composite is a data gap. Leafy vegetable surveys from regions with elevated soil cadmium or lead (for example, areas adjacent to smelters, mining operations, or industrially contaminated floodplains) consistently show higher leafy-green metal concentrations than market-basket composites from diverse commercial sources. This geographic signal is expected to be detectable for collards when additional sourcing-specific literature is integrated.
 
@@ -206,7 +174,7 @@ Freeze-dried collard greens sold as supplements or ingredient concentrates would
 
 ### Sourcing levers
 
-Sourcing collard greens from agricultural areas with low background soil cadmium and verified low atmospheric lead deposition is the highest-impact lever. US market-basket collards show moderate Cd (median 22 ppb) in TDS data [[sources/fda2022-tds-elements-fy2018-fy2020]], but the upper tail (max 65 ppb, p95 53 ppb) indicates that some supply lots are substantially higher. Origin-level soil screening for Cd and proximity to industrial Pb emission sources are the relevant procurement controls. Certified organic sourcing reduces exposure to phosphate-fertilizer cadmium but does not eliminate atmospheric Pb deposition.
+Sourcing collard greens from agricultural areas with low background soil cadmium and verified low atmospheric lead deposition is the highest-impact lever. US market-basket collards show moderate Cd (median 22 ppb) in TDS data [[sources/fda2022-tds-elements-fy2018-fy2020]], but the upper tail (max 65 ppb) indicates that some supply lots are substantially higher. Origin-level soil screening for Cd and proximity to industrial Pb emission sources are the relevant procurement controls. Certified organic sourcing reduces exposure to phosphate-fertilizer cadmium but does not eliminate atmospheric Pb deposition.
 
 ### Agronomic levers
 
@@ -234,10 +202,18 @@ The European Union under Regulation (EC) No 1881/2006 as amended, including [[re
 
 No US federal maximum level for lead or cadmium in leafy vegetables has been finalized as of 2026. FDA's Closer to Zero program addresses metals in infant and toddler foods; adult leafy vegetable products are not subject to specific US federal ML as of this date. Codex Alimentarius sets a maximum level of 0.30 mg/kg for lead in leafy vegetables (Codex General Standard for Contaminants and Toxins, CXS 193-1995 and revisions).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -245,15 +221,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

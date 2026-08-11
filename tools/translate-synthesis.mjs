@@ -182,7 +182,7 @@ Rules:
 - Preserve all URLs verbatim.
 - Preserve all citation markers and source identifiers verbatim (e.g. cite keys like "fda2025-lead-baby-foods").
 - Preserve all numeric values, units (ppb, µg/kg, mg/kg-bw/week, etc.), and metal symbols (Pb, Cd, iAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn).
-- Preserve all proper nouns (FDA, EFSA, JECFA, Codex, WHO, EPA, Paleo Foundation, Heavy Metal Index, Heavy Metal Tested & Certified, HMT&C).
+- Preserve all proper nouns (FDA, EFSA, JECFA, Codex, WHO, EPA, Institute of Contaminant Standards (ICS), Heavy Metal Index, Heavy Metal Tested & Certified, HMT&C).
 - Translate the prose so it reads naturally in ${langInfo.native} for a regulator, brand-legal, or scientific audience.
 - Do not add commentary, do not change the meaning, do not omit any claim.
 - Output only the translated Markdown. No preamble, no postscript.`

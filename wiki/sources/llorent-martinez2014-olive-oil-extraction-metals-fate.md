@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Llorent-Martínez et al. 2014 — Fate of metals during virgin olive oil extraction, Spain
 
+## Overview
+
 This methods-and-fate paper developed and validated a microwave-assisted acid digestion (HNO3/H2O2) plus ICP-MS procedure for quantifying eleven metals (Al, V, Cr, Fe, Co, Ni, Cu, tAs, Cd, Sb, Pb) in raw olive fruits (including the stone), olive pomace, and virgin olive oil (VOO). Olives of three Andalusian cultivars (Picual, Hojiblanca, Arbequina) from a single irrigated orchard in Jaén, Spain were processed through an Abencor laboratory mill (milling, malaxation at 26 °C for 30 min, centrifugation at 3,500 rpm), then analyzed as paste, pomace, and VOO. In natural (unspiked) olive fruits only Al, Cu, and Fe were above method detection limits (MDLs); As, Cd, Co, Cr, Ni, Pb, Sb, and V were all below MDL. Spiking olive paste at 2,400 ng/g per element (Hojiblanca) and at 3,000–10,000 ng/g for Cu and Fe (Arbequina) showed that on average at least 90 % (the conclusion states 93 % across all elements) of the metals introduced into the paste partitioned into the olive pomace, with the residual VOO levels remaining below the International Olive Council (IOC) maximum levels for As, Cu, Fe, and Pb and below the EU Regulation (EC) No. 1881/2006 maximum level for Pb in VOO (0.1 µg/g = 100 µg/kg) in every spike condition. The paper concludes that the Abencor extraction pathway delivers high-quality VOO from a metal-content standpoint even when the parent fruits carry an appreciable metal burden.
 
 ## Key numbers
@@ -118,15 +120,15 @@ The paper does not propose certification thresholds, does not measure individual
 - Audit subagent (2026-06-01) flagged "consistent with prior reports of higher Cu in pomace oils than in VOO" in Implications as cross-source synthesis; verified against the paper's own Discussion (p. 1829) where the authors cite their 2011 paper (ref [7]) for exactly this comparison. Rewritten to attribute the comparison explicitly to the source's own citation, removing the wiki-side synthesis framing.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

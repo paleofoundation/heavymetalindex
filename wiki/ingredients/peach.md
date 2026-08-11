@@ -8,17 +8,16 @@ category: taxonomy-placeholder
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 9]
-    p95_ppb: 12
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-06-11
-    basis: raw-peach-wet-weight
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 1.8]
     p95_ppb: 2.9
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -32,21 +31,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 8.3]
     p95_ppb: 9.3
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-06-11
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 100]
     p95_ppb: 107
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -58,13 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 8]
-    p95_ppb: 12
+    typical_ppb: [0, 0]
+    p95_ppb: 0
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-06-11
-    basis: raw-peach-wet-weight
-    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -76,7 +73,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 1.0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -85,35 +82,13 @@ higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-05-13
 sources: 7
 ---
 
 # Peach
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=14 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | below-tier | 5 jurisdictions, top US 67% | over-concentrated: US supplies 67% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 2 claims checked, 2 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming peach: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -129,30 +104,18 @@ The regulatory relevance of peach in the United States context is driven primari
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–9 | 12 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
-| Cd | n=2 | 0–1.8 | 2.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–8.3 | 9.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | data gap | — | — | — | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–100 | 107 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | 0–8 | 12 | low | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/rezaei2020-fruits-markazi-essential-elements\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 1.0 | high | — |
-
-## Synthesis basis and censoring treatment
-
-The lead, chromium, and total-mercury cells were resynthesized on 2026-06-11 on a raw peach wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis on which FDA Total Diet Study Food 83, "Peach, raw/frozen," reports.
-
-Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead and chromium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites for raw/frozen peach, in which every sample fell below the reporting limit and the reported zeros were pooled as literal zeros. For lead, FDA reported all 27 composites below the 4 µg/kg reporting limit; for chromium, all 27 below the 50 µg/kg reporting limit; for mercury, all 27 below the 1 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and, where a second source supplies a usable fresh-fruit measurement, recovers the upper distribution from primary occurrence literature in which these metals are low but non-zero in peach flesh.
-
-The lead floor is set at the FDA 4 µg/kg reporting limit. The central and upper distribution rests on the Pakistani retail survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]]), which reported peach lead at 0.0738 mg/kg dry weight (73.8 µg/kg) from 28 Khyber Pakhtunkhwa markets, a low-industry baseline region. That value is on a dry-weight basis; the source itself states that at typical peach moisture of about 85 to 90 percent the fresh-weight equivalent is roughly seven to ten times lower, placing the as-marketed wet-weight central estimate near 9 µg/kg and the upper bound near 12 µg/kg. Because the wet-weight central anchor rests on a single dry-weight-converted survey set against a fully censored FDA cell, lead confidence is capped at low. The chromium floor is the FDA 50 µg/kg reporting limit; chromium is reported as total chromium only, no peach hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The total-chromium distribution rests on two dry-weight fresh-peach anchors converted to wet weight on the same moisture factor: Rahim reports peach total chromium at 0.0641 mg/kg dry weight (about 8 µg/kg wet weight), and the Markazi-province industrial-zone survey reports peach total chromium at 2.86 µg/kg dry weight (well under 1 µg/kg wet weight) ([[sources/rezaei2020-fruits-markazi-essential-elements|Rezaei et al. 2020]]). Both fresh-fruit anchors sit far below the FDA 50 µg/kg reporting limit, so the central estimate is low and confidence is low.
-
-Total mercury is recorded as a reviewed data gap. The only peach mercury measurement in the corpus is the fully censored FDA Total Diet Study cell, in which all 27 composites fell below the 1 µg/kg reporting limit, and no primary fresh-peach source in the corpus measures mercury, so no distribution is published. The earlier literal-zero entry overstated the strength of the evidence and has been replaced with an honest single-source censored gap.
-
-Dried and canned peach carry substantially higher per-gram metal loads than fresh peach and are recorded as separate concentration strata, not folded into the fresh-peach percentiles above. A single dried-peach sample reported lead at 1.093 mg/kg and total chromium at 1.289 mg/kg ([[sources/hadi2025-dried-fruits-heavy-metals-iraq|Hadi et al. 2025]]), reflecting weight-loss concentration during drying rather than a higher fresh-fruit burden. Historical canned-peach composites from the lead-soldered-can era reported lead near 133 µg/kg ([[sources/dabeka1995-canadian-food-composites-metals|Dabeka et al. 1995]]); these values reflect packaging-derived lead from solder no longer in use and are not representative of modern canned peach. A secondary narrative review reports peach by-product (peel and seed) total chromium at 0.17 to 1.38 mg/kg and lead below 0.10 mg/kg ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]); these by-product values describe discarded peel and kernel fractions rather than edible flesh and are retained as low-weight context only.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Cd | n=2 | 0–1.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–8.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–100 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Routing
 
@@ -160,7 +123,7 @@ This node is linked from [[products/fruit-purees]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -173,15 +136,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Peach, raw/frozen" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 1.76 | 2.91 | 3.4 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 57 | 100 | 107 | 110 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0.98 | 1.6 | in profile |
-| tAs | 27 | 0 | 0 | 3.6 | 8.34 | 9.35 | 12 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 3.4 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 110 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 1.6 | in profile |
+| tAs | 27 | 0 | 12 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -231,10 +194,18 @@ Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-lev
 
 For processed peach products intended for infants and young children, the EU applies lower Pb limits under the same regulation for processed cereal-based foods and baby foods. FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) has proposed action levels for Pb in fruit purees and juices consumed by infants and young children; the peach category is within scope of this framework. No Codex Alimentarius maximum level for Cd or Pb specifically in stone fruit applies at the same limit values as the EU, but Codex sets guidance levels for fruit generally ([[regulations/codex-cadmium-mls]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -246,15 +217,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

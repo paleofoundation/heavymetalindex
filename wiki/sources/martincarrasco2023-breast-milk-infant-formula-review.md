@@ -26,6 +26,8 @@ sampling_year_range: "2012-2022"
 updated: 2026-06-09
 ---
 
+## Overview
+
 This is a narrative review by a research team at the University of Seville (Spain) summarizing detected pollutants in breast milk and infant formula across studies published between 2012 and 2022. The authors searched PubMed/MEDLINE and Scopus, identified 2412 breast-milk and 3053 infant-formula candidate records, screened and assessed for eligibility, and included 65 breast-milk studies and 73 infant-formula studies. The review groups contaminants into seven categories: metals and metalloids, chemical compounds derived from heat treatment (acrylamide, 3-MCPD, 2-MCPD, glycidol, PAHs, HMF, furan, dioxins and PCBs), pharmaceuticals (antibiotics, isoflavonoid phytoestrogens, veterinary drug residues), mycotoxins (AFM1, OTA, DON, ZEN, FBs, T2/HT-2), pesticides (OCPs, OPPs, carbamates, pyrethroids, neonicotinoids), packaging-derived contaminants (PFAS, bisphenols, phthalates), and other emerging pollutants (chlorinated paraffins, brominated flame retardants including PBDEs/HBCDD/TBBPA, parabens, benzophenones, mineral oil hydrocarbons). The authors conclude that breast milk most commonly carries metals and pesticides while infant formula most commonly carries metals, mycotoxins, and packaging-derived contaminants, and frame feeding choice as case-dependent on the maternal-environment exposure profile rather than a universal preference.
 
 For the Heavy Metal Index, the load-bearing portions are Section 3.1 (metals) with Tables 3 (breast milk) and 4 (infant formula), Table 1 (regulatory limits in formula and calculated TDI-derived intakes by age band), and the metal-relevant discussion. The non-metal contaminant categories (Sections 3.2–3.7, Tables 5–16) are summarized at the description level so that future syntheses can locate the underlying primary studies through this review, but their numeric findings are out of HMI scope and are not reproduced in the Key numbers section below.
@@ -149,3 +151,17 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
   - ⚠️ `iAs` in `metals:` frontmatter: per Part 14 strict reading, removed `iAs` from frontmatter. The constituent studies in Tables 3 and 4 measure total As; Table 1's reference to EFSA iAs TDI is a regulatory citation, not a measurement claim by this paper, so keeping `iAs` in frontmatter was over-reach. `tAs` retained.
   - ⚠️ `MeHg` in `metals:` frontmatter: retained. Table 1 explicitly separates MeHg (TDI 1.6 µg/kg b.w.) from total Hg (4 µg/kg b.w.) as distinct regulatory rows, so the paper does distinguish the species in regulatory context even though Tables 3 and 4 report constituent-study total Hg.
   - ⚠️ `[[metals/selenium]]`: audit caught a missing slug — selenium has no page in `wiki/metals/`. Replaced with `[[metals/antimony]]` because Sb is in the metals frontmatter array (the source reports Sb in Ghuniem 2020a Table 4), antimony is a valid metals slug, and selenium values from constituent studies were the original justification but cannot route without a target page. Se remains in the metals frontmatter abbreviation array because the source does report it; the routing layer will reach `wiki/metals/selenium` if and when that page is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

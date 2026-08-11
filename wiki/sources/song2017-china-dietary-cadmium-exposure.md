@@ -49,6 +49,8 @@ updated: 2026-06-02
 
 # Song et al. 2017 — Dietary cadmium exposure assessment for the Chinese population (PLOS ONE)
 
+## Overview
+
 A national semi-probabilistic dietary cadmium exposure assessment for China combining 228,687 food samples measured by graphite furnace atomic absorption spectrometry (GFAAS) between 2011 and 2015 with food consumption data from the 2002 China National Nutrition and Health Survey (CNNHS; n=67,608). Exposures are estimated for the general population and for age-sex sub-groups (children 4–11 years, young people 12–17 years male and female, adults ≥18 years male and female), and compared north of the Huai-River/Qinling-Mountains line versus south of it. The reference health-based guidance value is the JECFA Provisional Tolerable Monthly Intake (PTMI) of 25 µg/kg body weight per month.
 
 Mean cadmium exposure of the general Chinese population was 15.3 µg/kg BW/month (61.2% of PTMI). High-consumer (P95) exposure for the general population was 33.0 µg/kg BW/month (1.3× PTMI). For children 4–11 years the P95 reached 48.2 µg/kg BW/month (1.93× PTMI). Southern-population mean exposure was 1.7–1.8× higher than the northern-population mean across all age-sex groups. Rice was the single largest contributor (55.8% of intake in the general population, 58.6% in the high-exposure sub-population, 65.1% in the southern population, 37.8% in the northern population, and 90% of intake reported by Vietnam in a comparator study cited by the authors).
@@ -198,15 +200,15 @@ The 32-category coverage means this paper is also a routing fan-out source for i
 - Audit subagent (2026-06-02, fresh general-purpose context) flagged "The Chinese general-population mean exceeds the EU mean by approximately 2×" as wiki arithmetic (15.3/7.6 = 2.01) on source-stated numbers, not as a claim the source itself asserts. Verified correct on re-read of the Discussion (p.8): the authors give the Chinese 15.3 and EU 7.6 µg/kg BW/month separately without asserting a ratio. Sentence reworded to flag the ratio as wiki-derived arithmetic on source numbers per Cochrane-quality fidelity discipline.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

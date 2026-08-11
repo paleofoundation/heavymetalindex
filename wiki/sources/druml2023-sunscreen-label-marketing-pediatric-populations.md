@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Druml et al. 2023 — UV filter composition and SPF profile of sunscreens marketed to pediatric populations in Philadelphia retail outlets
 
+## Overview
+
 This open-access Cureus paper from a Drexel-University-affiliated dermatology team and AmberNoon (a sun-protective-clothing company) is an observational market survey of 410 sunscreen products cataloged in CVS, Walgreens, Target, and Wegmans stores plus their online catalogs in the Philadelphia area during a ten-day window in June 2023. The authors restricted the catalog to active sunscreen formulations sold at retail and characterized each by SPF, broad-spectrum claim, water-resistance claim, application form (lotion/spray/stick/etc.), active UV filter composition (chemical organic filters vs physical inorganic filters), and demographic marketing terms on the label ("baby", "babies", "children", "kids", "sports", "active"). The two physical (inorganic) UV filters in the surveyed market were titanium dioxide and zinc oxide; the paper does not measure contamination of these sunscreens with non-intentional heavy metals — its relevance to HMI is formulation prevalence and stated concentration ranges of titanium-dioxide-bearing and zinc-oxide-bearing sunscreens, with a pediatric-marketing breakdown.
 
 ## Key numbers
@@ -139,15 +141,15 @@ Observational catalog of suncare/sun-protection displays at four major retail ou
 - `products/sun-suntan-products` exists in `wiki/products/` but is not listed in the 2026-05-17 taxonomy snapshot — the snapshot is stale relative to the live `wiki/products/` directory. The routing for this paper deliberately uses the pediatric-specific slugs `baby-sunscreen-mineral`, `baby-sunscreen-chemical`, and `children-personal-care` because the paper's scope is specifically the pediatric subset; sun-suntan-products is the adult umbrella and the paper's adult-comparator data (the 410-overall baseline) would be a broad_product_context route at most.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

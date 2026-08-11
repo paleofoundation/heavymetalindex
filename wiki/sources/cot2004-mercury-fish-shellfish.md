@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2004 - mercury in fish and shellfish
 
+## Overview
+
 The UK Committee on Toxicity updated its fish and shellfish mercury advice after the 2003 JECFA methylmercury PTWI revision. The statement reviews FSA survey data for imported/farmed fish and shellfish, UK dietary exposure estimates, and blood mercury data. It treats fish mercury as methylmercury-relevant exposure context but repeatedly notes that some intake estimates use total mercury measurements that do not distinguish inorganic and organic forms.
 
 ## Key numbers
@@ -75,3 +77,17 @@ App: The source can support UK seafood advice context and fish species notes for
 - Units are preserved as `mg/kg`, `µg/kg bw/week`, `µg/kg bw/day`, and `µg mercury/L`.
 - Speciation: occurrence concentrations are reported as mercury/total mercury. The page does not promote every total-mercury value to MeHg; it records the source's methylmercury exposure framing separately.
 - Closed vocabulary: exact fish-species ingredient slugs exist for shark, swordfish, and marlin; other named matrices such as salmon and prawns remain descriptive or route through broad fish/shellfish slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

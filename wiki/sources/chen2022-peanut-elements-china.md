@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Chen et al. 2022 — Multi-element concentrations in Chinese peanuts by ICP-MS
 
+## Overview
+
 This peer-reviewed primary study from the Shandong Academy of Agricultural Sciences measured 19 macro, micro and toxic elements in 66 peanut samples from six major Chinese peanut-producing provinces (Jilin, Liaoning, Hebei, Henan, Guangxi, Guangdong). The primary aim was geographical characterization via linear discriminant analysis (LDA); the secondary aim was a baseline toxic-element occurrence dataset for Chinese peanuts. After microwave digestion with HNO3 and H2O2, elements were quantified by ICP-MS (iCAP Q, Thermo) in kinetic-energy-discrimination mode against the GBW10013 (soybean) certified reference material (recoveries 91.4–109.1%; R² > 0.9993). All toxic-element concentrations were below the Chinese GB2762-2017 maximum levels (Cd 0.5 mg/kg, Cr 1 mg/kg in peanuts) and the Australia/New Zealand Food Standards Code limit for Cd (0.5 mg/kg, revised in 2009). Cadmium was the most prominent toxic metal because peanuts are geocarpic (fruits develop underground in direct soil contact), with the highest provincial mean in Liaoning (0.204 mg/kg) and the maximum observed individual sample also in Liaoning. The authors do not speciate arsenic (total As reported) and do not measure mercury.
 
 ## Key numbers
@@ -102,15 +104,15 @@ Source-internal note: the paper's CRM is GBW10011 (soybean, per Section 2.2 reag
 - **Part 2 wiki/HMTc firewall:** the Implications section reports what the paper found (occurrence dataset, geographic differentiation, geocarpic biology) and the regulatory comparisons the paper itself draws. It does not propose HMTc thresholds, does not synthesize across other literature, and does not issue consumer risk advisories.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

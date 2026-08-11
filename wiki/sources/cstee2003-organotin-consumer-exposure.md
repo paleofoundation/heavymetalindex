@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # CSTEE 2003 - organotin exposure from consumer products and food-contact materials
 
+## Overview
+
 The European Commission's Scientific Committee on Toxicity, Ecotoxicity and the Environment reviewed non-food consumer and environmental exposures to organostannic compounds, while explicitly noting that foods and food-contact materials contribute to total exposure. This is an A-tier regulatory opinion and exposure-context source, not a primary occurrence survey. The opinion keeps organotin species such as MBT, DBT, TBT, MOT, DOT, and TPT distinct from total elemental tin.
 
 ## Key numbers
@@ -104,3 +106,17 @@ App: If organotin context is surfaced for food-contact packaging or children's P
 - Units and bases are preserved exactly as printed, including `µg/L`, `ng Sn/litre`, `ng TBT /litre`, `mg TBTO/kg diet`, `µg/kg bw/day`, `µg/kg`, `mg/kg`, `µg/day`, and `µg/m3`.
 - The source's toxicological reference values and migration-limit discussion are reported as CSTEE/SCF regulatory-review statements, not as HMTc thresholds.
 - Closed-vocabulary check: product slugs use broad existing food-contact packaging, bakeware, and toy substrate rows. No exact baking-paper, PVC-flooring, wallpaper, indoor-dust, or paddling-pool product slug was invented; those contexts remain in prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

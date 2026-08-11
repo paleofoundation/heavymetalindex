@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Maćkiewicz et al. 2025 — Elemental analysis of EU-market deodorants and antiperspirants
 
+## Overview
+
 Maćkiewicz et al. measured elemental composition in 72 deodorants and antiperspirants available on the Polish/EU market using ICP-OES, with selected SEM-EDS confirmation. The sample set covered roll-on, stick, and solid mineral alum products, including aluminium-based, aluminium-zirconium-based, natural compound-based, and alcohol-based formulations. The paper uses percent, `mg/L`, and a table labelled `[mg/kg]` in different places; this page preserves the source's own unit labels and flags the inconsistency rather than converting values.
 
 ## Key numbers
@@ -74,3 +76,17 @@ Microbiome: Not applicable.
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.3390/molecules30204050`, raw handle `MFK_paper-07-mikolajczyk-2025-eu-deodorants-metals`, cite key `mackiewicz2025-eu-deodorants-elements`, or the exact title. The filename labels the paper as "Mikolajczyk," but the PDF byline and metadata identify Maćkiewicz et al.; the cite key follows the byline, not the filename. The DOI, authors, title, journal, year, and CC BY license were checked against the first page and PDF metadata. Key values were checked against the abstract, Section 2.1, Tables 1/3/6, and the conclusion in `/tmp/hmi-fem-005.txt`. The page preserves the source's mixed unit labels (`%`, `mg/L`, and Table 1 `[mg/kg]`) and flags the 35-versus-37 Pb count discrepancy. No speciation is reported for Cr, Pb, Cd, or any other element. The source sampled well-known and local brands, but this page reports only category/form/active-substance summaries under the brand firewall. `deodorants` is used as the product slug because the sample set is general deodorants/antiperspirants, not specifically feminine deodorants. `npm run evidence:source-routes` exited 0 and generated one `deodorants` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning because no closed ingredient slug is appropriate for this general cosmetic product matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

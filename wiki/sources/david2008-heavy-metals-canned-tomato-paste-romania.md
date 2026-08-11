@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # David et al. 2008 — Heavy metals in canned tomato paste (Romania)
 
+## Overview
+
 This Romanian study measured eight heavy metals (Cr, Fe, Pb, Cd, Sn, Al, Zn, As) in five commercially available canned and plastic-packaged tomato paste and tomato-sauce products sourced from the Romanian retail market, using atomic absorption spectrometry and cyclic voltammetry, to evaluate packaging-related contamination risk. The authors conclude that tin (Sn) and aluminium (Al) exceeded legally admitted Romanian concentrations in metal-canned products, particularly the Italian imports. Cadmium reached its highest measured value in one of the Italian metal-canned sauces (0.111 ppm), and lead reached an anomalously high value in the same sample (2.10 ppm) that exceeds typical EU limits for processed tomato products though the authors do not flag it explicitly. Total arsenic was below the limit of detection in all samples. The study highlights the metal-can packaging pathway, especially weld-seam migration, as a significant contamination vector for Sn, Fe, and Al in acidic tomato products, consistent with acid-driven leaching from tin-plate cans.
 
 ## Key numbers
@@ -89,15 +91,15 @@ App: Limited utility for ingredient-level contamination profiling given the smal
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [095765f](https://github.com/paleofoundation/heavymetalindex/commit/095765f) | 2026-06-08 | ingest: david2008-heavy-metals-canned-tomato-paste-romania duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_07_Processed_Foods_Snacks_Beverages |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [095765ff2](https://github.com/paleofoundation/heavymetalindex/commit/095765ff2) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

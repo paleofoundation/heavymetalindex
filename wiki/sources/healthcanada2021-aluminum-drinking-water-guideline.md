@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # Health Canada 2021 — Guidelines for Canadian Drinking Water Quality: Aluminum
 
+## Overview
+
 Health Canada's 2021 Guideline Technical Document for Aluminum in Drinking Water, prepared with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) for total aluminum of 2.9 mg/L (2 900 µg/L) and an operational guidance (OG) value of 0.100 mg/L (100 µg/L). The MAC is a health-based value derived from a NOAEL of 30 mg Al/kg bw per day for neuromuscular effects in the Poirier et al. (2011) developmental neurotoxicity study in rats exposed to aluminum citrate; the OG value is set to limit accumulation and release of aluminum and co-occurring contaminants (As, Cr, Mn, Ni, Pb, Cu) in the distribution system and to protect treatment and infrastructure performance. The document also compiles 2012–2017 occurrence data for total aluminum across Canadian municipal and non-municipal supplies in 10 provinces/territories, summarizes Canadian dietary exposure across seven age categories, and reviews the analytical, treatment and distribution-system controls used to manage aluminum in drinking water.
 
 ## Key numbers
@@ -138,12 +140,15 @@ App: Drinking water can be added to the per-age aluminum exposure model using th
 - Audit subagent (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

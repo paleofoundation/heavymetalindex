@@ -21,21 +21,23 @@ created_by: cat2_step0_alignment_2026_05_16
 
 # Children Personal Care (HMT&C Category 2 master)
 
+## Overview
+
 This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and higher-contamination row, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between Cat 2 rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
+Brand legal teams evaluating HMT&C certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between Cat 2 rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
 
 ## Methodology
 
-Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
 HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
 
 ## The 16-row Cat 2 inventory
 
-Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used by the standards workbench, the certification documents, and the source-routing layer.
+Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used across the certification program and the source-routing layer.
 
 | Row | Slug | Variant type | Primary metals | Pair | Notes |
 |----:|---|---|---|---:|---|
@@ -56,7 +58,7 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure this category: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row and its higher-contamination counterpart are each certified against their own row-specific criteria. Rows 1, 2, 5, 6 are independent (no within-pair partner) and are treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the inventory. Certification thresholds for every row are set separately under the certification program at heavymetaltested.com, not on this page.
 
 ## Cross-row contamination platforms
 
@@ -157,15 +159,15 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Kulhari et al. 2013 - metals in northwestern India medicinal plants
 
+## Overview
+
 Kulhari and colleagues measured manganese, chromium, lead, iron, cadmium, nickel, cobalt, zinc, and mercury in stem and leaf samples from ten medicinal plant species collected in Haryana and Rajasthan, India. The study is occurrence evidence for herbal-botanical raw materials, with plant part and collection district visible in the source tables. Values are dry-weight total elemental measurements in `ppm`; chromium is total Cr, not Cr-VI, and mercury was below detectable levels in all reported rows.
 
 ## Key numbers
@@ -90,3 +92,17 @@ The paper contributes stem- and leaf-specific occurrence data for herbal-botanic
 - Speciation check: chromium is total Cr by FAAS, not Cr-VI. Mercury is reported only as Hg below detectable level, not methylmercury.
 - Brand firewall check: no commercial brands or producers are reported; Merck and Shimadzu are methods/vendors only.
 - Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Exact plant species such as *Acacia nilotica*, *Bacopa monnieri*, *Commiphora wightii*, *Ficus religiosa*, *Glycyrrhiza glabra*, *Hemidesmus indicus*, *Salvadora oleoides*, *Terminalia bellirica*, *Terminalia chebula*, and *Withania somnifera* do not all have closed ingredient slugs, so they remain in table text only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

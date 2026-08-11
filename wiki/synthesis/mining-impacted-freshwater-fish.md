@@ -6,7 +6,7 @@ audience: [regulator, educator, brand-legal, consumer]
 metals: [tHg, MeHg, Pb, Cd, Cr, Ni]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]"]
 products: ["[[products/freshwater-fish]]"]
-anchor_sources: ["[[sources/fuenteslopez2025-colombia-freshwater-fish-mercury]]", "[[sources/barquero2024-almaden-freshwater-bass-mercury]]", "[[sources/shumba2025-tilapia-mercury-zambia-mining]]", "[[sources/stahl2023-us-river-fish-mercury]]", "[[sources/lepak2023-sport-fish-mercury-colorado]]", "[[sources/shaalan2024-nile-tilapia-heavy-metals-egypt]]", "[[sources/willacker2023-mercury-fish-snake-river]]", "[[sources/leclerc2023-methylmercury-periphyton-river]]", "[[sources/lucchini2025-amazon-mercury-co-exposures]]", "[[sources/zhou2025-microbial-methylmercury-rice-china]]"]
+anchor_sources: ["[[sources/fuenteslopez2025-colombia-freshwater-fish-mercury]]", "[[sources/barquero2024-mercury-bass-almaden-spain]]", "[[sources/shumba2025-tilapia-mercury-zambia-mining]]", "[[sources/stahl2023-us-river-fish-mercury]]", "[[sources/lepak2023-sport-fish-mercury-colorado]]", "[[sources/shaalan2024-nile-tilapia-heavy-metals-egypt]]", "[[sources/willacker2023-mercury-fish-snake-river]]", "[[sources/leclerc2023-methylmercury-periphyton-river]]", "[[sources/lucchini2025-amazon-mercury-co-exposures]]", "[[sources/zhou2025-microbial-methylmercury-rice-china]]"]
 established: 2026-05-16
 wiki_doi: null
 updated: 2026-05-16
@@ -14,11 +14,13 @@ updated: 2026-05-16
 
 # Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories
 
+## Overview
+
 Ten independent A-tier datasets spanning six continents, three distinct contamination drivers (artisanal and small-scale gold mining, industrial mining and smelting, and dam-impoundment-driven biogeochemical alteration), and the years 2022 to 2025 converge on a finding that is implicit in the established [[synthesis/subsistence-fishing-mehg-disparity|subsistence-fishing methylmercury disparity synthesis]] but is structurally distinct from it: the driver behind that disparity is not abstractly "mercury in fish" but specifically mining-disturbed and impoundment-altered freshwater systems where dissolved inorganic mercury is methylated by anaerobic microbial communities into the lipophilic, bioaccumulating, neurotoxic form that climbs the food chain into the human-edible fillet.
 
 This synthesis is about the contamination driver and its geographic scope. The subsistence-fishing synthesis tells us who is exposed; this synthesis tells us where the contamination comes from and what makes a watershed a high-risk system. The two pages are complementary. Together they tell a story that the present regulatory framework — built around commercial-market fish advisories calibrated against averaged commercial-fishery supply chains — cannot tell because the framework's denominator is the wrong population and the framework's numerator is the wrong contamination source.
 
-The finding extends beyond mercury. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] documents Nile tilapia from the El-Rayah El-Tawfeeky industrial-effluent canal in the Eastern Delta of Egypt with simultaneous Pb 33.4 mg/kg, Cd 2.3 mg/kg, and Hg 10.4 mg/kg — extreme multi-metal co-elevation at orders of magnitude beyond every applicable food-safety limit. The multi-metal finding shifts the synthesis from a mercury-only story to a "freshwater fish from contaminated systems carry whatever the watershed inherits" story, which is the more defensible and brand-legal-relevant framing.
+The finding extends beyond mercury. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] documents Nile tilapia from the El-Rayah El-Tawfeeky industrial-effluent canal in the Eastern Delta of Egypt with simultaneous Pb 33.4 mg/kg, Cd 2.3 mg/kg, and Hg 10.4 mg/kg — extreme multi-metal co-elevation at orders of magnitude beyond every applicable food-safety limit. The multi-metal finding shifts the synthesis from a mercury-only story to a "freshwater fish from contaminated systems carry whatever the watershed inherits" story.
 
 ## The artisanal and small-scale gold mining (ASGM) driver
 
@@ -34,9 +36,9 @@ The mechanistic case for ASGM-driven contamination is well-established: amalgama
 
 ## The industrial-pollution driver (multi-metal)
 
-[[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] is the load-bearing source for the multi-metal extension of the synthesis. The El-Rayah El-Tawfeeky canal in the Eastern Delta of Egypt drains industrial effluent from textile, metallurgical, and chemical-processing facilities; Nile tilapia from this canal exhibit Pb 33.4 mg/kg, Cd 2.3 mg/kg, Hg 10.4 mg/kg, plus elevated Cr and Ni — every metal in the HMTc analyte vocabulary except tin co-elevated by factors of 10 to 1000 above any applicable food-safety limit. The dataset establishes the multi-metal nature of the freshwater-fish-from-contaminated-systems story: it is not specifically a Hg story; it is a "freshwater fish accumulates whatever the watershed receives" story, and the contamination source can be ASGM (mercury-dominant), industrial discharge (multi-metal), or mining-and-smelting legacy (the Almadén Spain case).
+[[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] is the load-bearing source for the multi-metal extension of the synthesis. The El-Rayah El-Tawfeeky canal in the Eastern Delta of Egypt drains industrial effluent from textile, metallurgical, and chemical-processing facilities; Nile tilapia from this canal exhibit Pb 33.4 mg/kg, Cd 2.3 mg/kg, Hg 10.4 mg/kg, plus elevated Cr and Ni — Pb, Cd, Hg, Cr, and Ni co-elevated by factors of 10 to 1000 above any applicable food-safety limit. The dataset establishes the multi-metal nature of the freshwater-fish-from-contaminated-systems story: it is not specifically a Hg story; it is a "freshwater fish accumulates whatever the watershed receives" story, and the contamination source can be ASGM (mercury-dominant), industrial discharge (multi-metal), or mining-and-smelting legacy (the Almadén Spain case).
 
-[[sources/barquero2024-almaden-freshwater-bass-mercury|Barquero et al. 2024]] documents tHg up to 7.61 mg/kg in freshwater bass from the Almadén mercury-mine district of Spain, the world's historically largest cinnabar mine. The Almadén finding extends the synthesis to Europe and adds the legacy-mining mechanism: even decades after active mining ceases, mercury inventories in soils, sediments, and watershed runoff continue to feed methylation pathways and biomagnify into local fish populations. The legacy-contamination time horizon is the brand-legal-relevant element here: a system contaminated by mining in the 19th or 20th century continues to deliver elevated fish Hg in the 21st century, and a fish-sourcing supplier cannot assume that historical mining cessation translates into current product safety.
+[[sources/barquero2024-mercury-bass-almaden-spain|Barquero et al. 2024]] documents tHg up to 7.61 mg/kg in freshwater bass from the Almadén mercury-mine district of Spain, the world's historically largest cinnabar mine. The Almadén finding extends the synthesis to Europe and adds the legacy-mining mechanism: even decades after active mining ceases, mercury inventories in soils, sediments, and watershed runoff continue to feed methylation pathways and biomagnify into local fish populations. The legacy-contamination time horizon is the salient element here: a system contaminated by mining in the 19th or 20th century continues to deliver elevated fish Hg in the 21st century, so historical mining cessation does not by itself indicate current safety of fish sourced from that watershed.
 
 ## The dam and impoundment driver
 
@@ -52,7 +54,7 @@ Two independent studies document that dam impoundment alters freshwater biogeoch
 
 [[sources/lepak2023-sport-fish-mercury-colorado|Lepak et al. 2023]] documents that 26 percent of Colorado sport fish samples exceeded the FDA advisory threshold for vulnerable groups. The Colorado dataset complements the Stahl national probability-based finding with a state-level recreational-fishery characterization showing the same order-of-magnitude exceedance rate.
 
-The US baseline finding is the load-bearing reality check for the wiki's brand-legal positioning: this is not an emerging-market or developing-country contamination story. The United States, with its mature environmental-monitoring infrastructure, EPA mercury rule, Clean Water Act, and decades of mercury-emission reduction policy, has approximately one in four river fish populations carrying mercury above human-health-protective levels for average consumers. The framing that "fish advisories handle this" is empirically inconsistent with the national-probability dataset.
+The US baseline finding is the load-bearing reality check on the geographic scope of the finding: this is not an emerging-market or developing-country contamination story. The United States, with its mature environmental-monitoring infrastructure, EPA mercury rule, Clean Water Act, and decades of mercury-emission reduction policy, has approximately one in four river fish populations carrying mercury above human-health-protective levels for average consumers. The framing that "fish advisories handle this" is empirically inconsistent with the national-probability dataset.
 
 ## The convergent point
 
@@ -60,7 +62,7 @@ Ten anchor sources across six continents document that:
 
 First, freshwater fish from mining-impacted, industrial-pollution-impacted, or dam-impounded systems carry elevated heavy-metal concentrations relative to unaltered systems, with the elevation factor ranging from approximately 2× (Zambian ASGM-versus-non-ASGM tilapia) to approximately 1000× (Egyptian industrial-canal Nile tilapia for Pb and Hg simultaneously).
 
-Second, the contamination is not specifically a mercury problem. ASGM produces predominantly mercury contamination; industrial-effluent and legacy-smelting produce multi-metal contamination including Pb, Cd, Hg, Cr, and Ni in the same fish. The HMTc analyte vocabulary is the right granularity for characterizing the contamination signature of a freshwater fish source; a Hg-only test is insufficient.
+Second, the contamination is not specifically a mercury problem. ASGM produces predominantly mercury contamination; industrial-effluent and legacy-smelting produce multi-metal contamination including Pb, Cd, Hg, Cr, and Ni in the same fish. A multi-metal panel spanning at least Pb, Cd, Hg, Cr, and Ni is the appropriate granularity for characterizing the contamination signature of a freshwater fish source; a Hg-only test is insufficient.
 
 Third, the geographic scope is global. South America (Colombia, Amazon, Mexico), Africa (Zambia, Egypt), Europe (Spain, Québec), North America (USA: Snake River, Colorado, national NRSA assessment), and the Asian paddy-systems mechanism (Zhou 2025) all document the same pattern through different drivers. No single regulatory jurisdiction encompasses the full geography.
 
@@ -68,15 +70,17 @@ Fourth, the contamination is durable. Legacy-mining systems (Almadén) deliver e
 
 Fifth, the regulatory framework operates in the wrong unit. National and international fish-advisory frameworks (FDA, EPA, EFSA, JECFA) average across commercial-fishery supply chains and produce population-mean consumption recommendations that do not protect individuals whose fish supply comes preferentially from a mining-impacted, industrial-polluted, or impounded system.
 
-## The strategic implications
+## Implications for risk characterization
 
-For the brand-legal audience: any brand sourcing freshwater fish — tilapia, bass, perch, catfish, freshwater whitefish, salmon raised in impounded systems — should expect a class-action defense to require watershed-level provenance characterization including ASGM, industrial-pollution, legacy-mining, and impoundment history of the source water body. The "we test final product against FDA advisory" defense is unavailable because the advisory itself is calibrated against an averaged commercial-fishery denominator that does not match a specific high-risk sourcing pathway. The wiki's [[synthesis/subsistence-fishing-mehg-disparity]] synthesis already establishes the vulnerable-population dimension; this synthesis establishes the supply-side dimension, which is the dimension brands actually control.
+The synthesis bears on how freshwater-fish heavy-metal risk is characterized at the source-water level rather than only at the finished-product level.
 
-For the regulator audience: the regulatory architecture for fish heavy metals is built around two separable mechanisms — product-specific maximum limits (Codex CXS 193, EU 2023/915) and population-level consumption advisories (FDA, EPA). Neither mechanism is well-fitted to the mining-impacted-watershed problem. A product-specific limit does not screen for watershed provenance; a population-level advisory cannot direct fishery management. The regulatory case for source-water-specific advisories tied to ASGM, industrial-pollution, and impoundment status is supported by the present synthesis, with the FDA-EPA joint advisory framework as the most plausible institutional home.
+On sourcing and supply-side risk: for freshwater fish — tilapia, bass, perch, catfish, freshwater whitefish, salmon raised in impounded systems — the watershed-level provenance of the source water body (ASGM, industrial-pollution, legacy-mining, and impoundment history) is a determinant of heavy-metal load that finished-product testing against a population-level advisory does not capture, because the advisory is calibrated against an averaged commercial-fishery denominator that does not match a specific high-risk sourcing pathway. The [[synthesis/subsistence-fishing-mehg-disparity]] synthesis establishes the vulnerable-population dimension; this synthesis establishes the supply-side dimension.
 
-For the consumer audience: freshwater fish from artisanal-gold-mining regions, industrial-effluent corridors, and major dam impoundments are not equivalent to commercial-market fish on heavy-metal load. The wiki should articulate the watershed-source dimension of fish heavy-metal risk for consumers who fish recreationally or who purchase fish from local farmers' markets, lake fisheries, or community-supported fisheries where the watershed history is not vetted by commercial-supply-chain auditing.
+On the regulatory architecture: the regulatory architecture for fish heavy metals is built around two separable mechanisms — product-specific maximum limits (Codex CXS 193, EU 2023/915) and population-level consumption advisories (FDA, EPA). Neither mechanism is well-fitted to the mining-impacted-watershed problem. A product-specific limit does not screen for watershed provenance; a population-level advisory cannot direct fishery management. The literature in this synthesis supports source-water-specific advisories tied to ASGM, industrial-pollution, and impoundment status, with the FDA-EPA joint advisory framework as the most plausible institutional home.
 
-For HMTc seafood standards: freshwater-fish ingredient sourcing should require explicit watershed-provenance disclosure as a Path A literature anchor. The standard for freshwater-fish-derived ingredients in HMTc-certified products should incorporate the watershed-history check, not just product-level testing, because a single fish sample passing a product-level Hg test from a high-MeHg-production watershed is uninformative about the lot-to-lot distribution.
+On consumer exposure: freshwater fish from artisanal-gold-mining regions, industrial-effluent corridors, and major dam impoundments are not equivalent to commercial-market fish on heavy-metal load. The watershed-source dimension of fish heavy-metal risk is most relevant for consumers who fish recreationally or who purchase fish from local farmers' markets, lake fisheries, or community-supported fisheries where the watershed history is not vetted by commercial-supply-chain auditing.
+
+On testing granularity: a single fish sample passing a product-level Hg test from a high-MeHg-production watershed is uninformative about the lot-to-lot distribution, because watershed-driven MeHg production is heterogeneous across lots; watershed-history information therefore adds characterization that product-level testing alone does not provide.
 
 ## The relationship to the subsistence-fishing synthesis
 
@@ -102,13 +106,13 @@ A formal meta-analysis or pooled-effect estimate combining the geographic mining
 
 [[products/freshwater-fish]] as a product-category page should reference this synthesis explicitly in the Methodology and Levers sections; the operative Levers for freshwater-fish heavy-metal reduction are watershed-source screening (sourcing lever, highest impact), single-species depuration testing (testing lever), and avoidance of impoundment-reach harvest (sourcing lever, secondary).
 
-[[mitigation/watershed-source-screening]] (status: needs creation) is the natural home for the supplier-due-diligence framework that the brand-legal implication above implies.
+[[mitigation/watershed-source-screening]] (status: needs creation) is the natural home for the supplier-due-diligence framework that the supply-side risk characterization above implies.
 
 The wiki's [[overview]] should pair this synthesis with [[synthesis/subsistence-fishing-mehg-disparity]] as a load-bearing finding about freshwater fish heavy metals.
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on ten anchor sources spanning six continents and three contamination drivers. The geographic scope is robust; the multi-metal claim rests on Shaalan 2024 as a single industrial-pollution anchor with additional support from the Almadén legacy-mining literature; the mechanism rests on well-established freshwater-microbiology literature plus the recent Zhou 2025 paddy-microbial-methylation mechanistic anchor. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources adding multi-metal ASGM coverage, a third ASGM continent, or a formal pooled-effect estimate across the geographic dataset.
+This synthesis was established 2026-05-16 on ten anchor sources spanning six continents and three contamination drivers. The geographic scope is robust; the multi-metal claim rests on Shaalan 2024 as a single industrial-pollution anchor with additional support from the Almadén legacy-mining literature; the mechanism rests on well-established freshwater-microbiology literature plus the recent Zhou 2025 paddy-microbial-methylation mechanistic anchor. Resynthesis triggers fire on the next two independent A-tier sources adding multi-metal ASGM coverage, a third ASGM continent, or a formal pooled-effect estimate across the geographic dataset.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -119,19 +123,36 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Hazardous effects of heavy metal pollution on Nile tilapia in the aquatic ecosystem of the Eastern Delta in Egypt]]<span class="hmi-ref-meta">Shaalan WM · BMC Veterinary Research · 2024 · [doi.org/10.1186/s12917-024-04367-3](https://doi.org/10.1186/s12917-024-04367-3)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Carnivorous Freshwater Fish from La Mojana, Sucre, Colombia: Assessing Fish Health and Potential Human Health Risks]]<span class="hmi-ref-meta">Fuentes-Lopez Katerin, Olivero-Verbel Jesus, and Caballero-Gallardo Karina · Archives of Environmental Contamination and Toxicology · 2025 · [doi.org/10.1007/s00244-025-01117-w](https://doi.org/10.1007/s00244-025-01117-w)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/lucchini2025-amazon-mercury-co-exposures|Mercury contamination in the Amazon Basin: fish consumption, co-exposures, and health implications for indigenous and riverside communities]]<span class="hmi-ref-meta">Lucchini R, Maserti BE, Dolciotti C, Zoni S, Colicino E, Fattore E, et al. · Annals of Global Health · 2025 · [doi.org/10.5334/aogh.4817](https://doi.org/10.5334/aogh.4817)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/shumba2025-tilapia-mercury-zambia-mining|Assessment of total mercury (Hg) in soil, sediment, and tilapia fish (Oreochromis niloticus) and health risk assessment among residents of Kitwe mining area, Zambia]]<span class="hmi-ref-meta">Shumba T, Kayumba AV, Kalinda C, Mukosha M, Mbewe M, Mwila C, et al. · Environmental Science and Pollution Research · 2025 · [doi.org/10.1007/s11356-025-36506-0](https://doi.org/10.1007/s11356-025-36506-0)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/zhou2025-microbial-methylmercury-rice-china|Microbial potential to mitigate neurotoxic methylmercury accumulation in farmlands and rice]]<span class="hmi-ref-meta">Zhou XQ, Chen KH, Yu RQ, Yang M, Liu Q, Hao YY, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60458-1](https://doi.org/10.1038/s41467-025-60458-1)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/barquero2024-mercury-bass-almaden-spain|A preliminary assessment of mercury, methylmercury and other potentially toxic elements in largemouth bass (Micropterus salmoides) from the Almadén mining district]]<span class="hmi-ref-meta">Barquero JI, Hidalgo JJ, Esbrí JM, Higueras P, and García-Ordiales E · Environmental Geochemistry and Health · 2024 · [doi.org/10.1007/s10653-024-02326-3](https://doi.org/10.1007/s10653-024-02326-3)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/willacker2023-mercury-fish-snake-river|Reservoir Stratification Modulates the Influence of Impoundments on Fish Mercury Concentrations along an Arid Land River System]]<span class="hmi-ref-meta">Willacker JJ, Eagles-Smith CA, Chandler JA, Naymik J, Myers R, and Krabbenhoft DP · Environmental Science & Technology · 2023 · [doi.org/10.1021/acs.est.3c04646](https://doi.org/10.1021/acs.est.3c04646)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/leclerc2023-methylmercury-periphyton-river|Enhanced Bioaccumulation and Transfer of Monomethylmercury through Periphytic Biofilms in Benthic Food Webs of a River Affected by Run-of-River Dams]]<span class="hmi-ref-meta">Leclerc M, Ponton DE, Bilodeau F, Planas D, and Amyot M · Environmental Science & Technology · 2023 · [doi.org/10.1021/acs.est.3c05585](https://doi.org/10.1021/acs.est.3c05585)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/stahl2023-us-river-fish-mercury|Contaminants in fish from U.S. rivers: Probability-based national assessments]]<span class="hmi-ref-meta">Stahl LL, Snyder BD, McCarty HB, Kincaid TM, Olsen AR, Cohen TR, et al. · Science of the Total Environment · 2023 · [doi.org/10.1016/j.scitotenv.2022.160557](https://doi.org/10.1016/j.scitotenv.2022.160557)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/lepak2023-sport-fish-mercury-colorado|Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health]]<span class="hmi-ref-meta">Lepak JM, Johnson BM, Hooten MB, Wolff BA, and Hansen AG · PLOS ONE · 2023 · [doi.org/10.1371/journal.pone.0285890](https://doi.org/10.1371/journal.pone.0285890)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [9882fa9f2](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f2) | 2026-08-04 | major | 1 source added; narrative text revised |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | 1 source added and 1 removed; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 9 sources added; 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 9 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

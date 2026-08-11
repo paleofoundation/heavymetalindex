@@ -14,7 +14,9 @@ updated: 2026-05-18
 
 # Cooking does not reduce methylmercury — and why this matters for consumer messaging
 
-A widespread consumer misconception is that thorough cooking — frying, grilling, baking, broiling, smoking, canning, pickling — reduces the methylmercury (MeHg) content of fish. It does not. Methylmercury binds covalently to cysteine residues in muscle protein and survives every conventional cooking method intact. This means species selection at the point of sourcing is the only lever that meaningfully reduces dietary MeHg exposure; no kitchen practice substitutes for it. The certification implication is direct: HMTc consumer-facing messaging on seafood products should explicitly head off the cooking-as-mitigation misconception, because the consumer-protection failure mode is a household that assumes their tuna-heavy diet is safe because they cook it well.
+## Overview
+
+A widespread consumer misconception is that thorough cooking — frying, grilling, baking, broiling, smoking, canning, pickling — reduces the methylmercury (MeHg) content of fish. It does not. Methylmercury binds covalently to cysteine residues in muscle protein and survives every conventional cooking method intact. This means species selection at the point of sourcing is the only lever that meaningfully reduces dietary MeHg exposure; no kitchen practice substitutes for it. The consumer-protection significance is direct: the cooking-as-mitigation misconception leaves a household that assumes its tuna-heavy diet is safe because the fish is cooked well exposed to the full dietary MeHg load.
 
 This synthesis page consolidates the mechanism evidence and the comparative measurements across cooked-and-processed forms that establish the finding.
 
@@ -50,7 +52,7 @@ Across the wiki's broader fish-and-seafood evidence base, the MeHg/tHg ratio in 
 
 Three levers are documented; none of them are cooking practices:
 
-1. **Species substitution** — replacing apex-predator fish (tuna, swordfish, shark, marlin, king mackerel, tilefish-Gulf of Mexico, bigeye tuna) with low-trophic species (salmon, sardine, anchovy, herring, mackerel-Atlantic, tilapia, US-farmed catfish) shifts the per-serving MeHg load by 5-10× to as much as 100× depending on the pair. This is the dominant lever for any HMTc certification standard targeting a meaningful MeHg ceiling.
+1. **Species substitution** — replacing apex-predator fish (tuna, swordfish, shark, marlin, king mackerel, tilefish-Gulf of Mexico, bigeye tuna) with low-trophic species (salmon, sardine, anchovy, herring, mackerel-Atlantic, tilapia, US-farmed catfish) shifts the per-serving MeHg load by 5-10× to as much as 100× depending on the pair. This is the lever with by far the largest documented effect on per-serving MeHg.
 2. **Trophic-level differentiation within species** — within a single species (e.g., tuna), MeHg burden varies by individual size and age. Specifying skipjack (smaller, shorter-lived) over albacore or bluefin (larger, longer-lived) within the canned-tuna sub-category reduces per-serving MeHg by 50-70%.
 3. **Consumption-frequency reduction** — reducing the number of fish meals per week reduces cumulative weekly MeHg intake proportionally. FDA-EPA "Best Choices / Good Choices / Avoid" framework operationalizes this as species-stratified meal-frequency guidance. EFSA PTWI (1.3 µg MeHg/kg body weight/week) and EPA RfD (0.1 µg MeHg/kg body weight/day) calibrate the safe upper bound; consumption-frequency caps below these levels are the operative consumer-protection lever in advisory frameworks.
 
@@ -62,9 +64,9 @@ The mechanism is well-established and the comparative MeHg-vs-preparation-form m
 - **Industrial fermentation of fish products** (fish sauce, garum, anchovy paste, surstromming, hákarl). MeHg in fermented fish products has limited measurement in the wiki's current corpus; fermentation may produce small shifts via microbial activity (the gut-microbiome MeHg-demethylation work in [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] is suggestive at low orders of magnitude), but no systematic body of evidence yet establishes whether fermented fish products differ meaningfully from fresh.
 - **High-temperature super-extended cooking** (>4 hours at >100°C, e.g., long-pressure-canning of bone broths) is not well-represented in the measured-cooked-fish literature. The default assumption is that even these conditions do not cleave Hg-S bonds, but direct measurement would strengthen the claim.
 
-## Consumer-protection implication
+## Consumer-protection significance
 
-HMTc consumer-facing messaging on certified seafood products should treat the cooking-doesn't-reduce-MeHg finding as one of the three load-bearing claims (alongside "species selection is the dominant lever" and "sensitive populations need stricter consumption-frequency caps"). The misconception that "cooking destroys the mercury" is widespread enough across general-population dietary advice that any HMTc certification messaging that does not explicitly head it off leaves a consumer-protection gap.
+The cooking-doesn't-reduce-MeHg finding sits alongside two other load-bearing findings in the seafood MeHg-exposure literature: species selection is the dominant lever, and sensitive populations require stricter consumption-frequency caps. The misconception that "cooking destroys the mercury" is widespread enough across general-population dietary advice that consumer messaging which does not explicitly correct it leaves a documented exposure pathway unaddressed.
 
 The narrow exception worth naming: certain Pb and Cd content in finfish, primarily concentrated in skin and subcutaneous fat, can be modestly reduced (10-20%) by skinning and trimming before cooking. This is a small effect that primarily matters for whole-fish preparations where skin would be consumed; it does not generalize to MeHg.
 
@@ -85,7 +87,7 @@ The narrow exception worth naming: certain Pb and Cd content in finfish, primari
 
 ## How this page was promoted
 
-Established 2026-05-18 from the seafood-axis ingest and synthesis work. The mechanism evidence (cysteine-binding, intestinal absorption) is decades-established in the toxicology literature; the comparative MeHg-vs-preparation-form measurements were consolidated in the wiki's evidence base during the 2026-05-18 manual-fetch corpus ingest. The page exists primarily for consumer-protection certification messaging and for HMTc Levers sections on seafood-related product pages.
+Established 2026-05-18 from the seafood-axis ingest and synthesis work. The mechanism evidence (cysteine-binding, intestinal absorption) is decades-established in the toxicology literature; the comparative MeHg-vs-preparation-form measurements were consolidated in the wiki's evidence base during the 2026-05-18 manual-fetch corpus ingest.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -96,19 +98,30 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/bfr2024-methylmercury-fish-seafood-germany|Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study]]<span class="hmi-ref-meta">German Federal Institute for Risk Assessment (BfR) · BfR Opinion 023/2024 · 2024 · [doi.org/10.17590/20240626-094256-0](https://doi.org/10.17590/20240626-094256-0)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Total mercury exposure through canned tuna in water sold in Quito, Ecuador]]<span class="hmi-ref-meta">Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

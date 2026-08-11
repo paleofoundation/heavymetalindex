@@ -28,6 +28,8 @@ updated: 2026-05-15
 
 # Gardener et al. 2019 — Lead and cadmium in 564 US baby foods and infant formulas (Clean Label Project)
 
+## Overview
+
 This Clean Label Project-funded study is one of the largest single-point examinations of heavy metal contamination in US commercial baby food to date, testing 564 products for Pb and Cd by ICP-MS across eight product sub-categories: infant formula (n=91), cereals (n=30), kids' meals (n=23), toddler formula (n=22), juices/drinks (n=30), jars/first meals (n=107), pouches (n=140), snacks (n=107), and electrolyte solutions (n=14). Lead was detected in 37% of samples and Cd in 57%. The study's central finding for infant formula is that none of the 91 formulas exceeded the FDA's 6 µg/day provisional limit for lead at a 4-month-old's recommended daily intake (31 oz), but 22% exceeded California Proposition 65's stricter 0.5 µg/day lead limit, and 23% exceeded Proposition 65's 4.1 µg/day cadmium limit. Rice-containing products had the highest Pb and Cd concentrations across all baby food sub-categories, and organic certification was not protective.
 
 ## Key numbers
@@ -117,15 +119,15 @@ Statistical analysis: Wilcoxon rank-sum tests for ingredient associations (non-p
 - [[metals/cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

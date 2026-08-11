@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # El Ziani et al. 2024 — Heavy metals in instant noodles from Benghazi, Libya
 
+## Overview
+
 El Ziani and colleagues measured Cd, Cr, Pb, As, and Sn in seven instant-noodle samples collected from local markets in Benghazi, Libya. Dried and powdered noodle samples were digested and analyzed by triple-quadrupole ICP-MS, with results reported in ppb. The occurrence finding is that sample 2 had the highest value for every measured metal, and the table-average concentration order was Pb > Cd > Sn > Cr > As. The paper reports total As and total Cr only; it does not distinguish inorganic arsenic or Cr-VI.
 
 ## Key numbers
@@ -71,11 +73,15 @@ This source contributes Libya-market instant-noodle occurrence data for Cd, Pb, 
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3807a04](https://github.com/paleofoundation/heavymetalindex/commit/3807a04) | 2026-06-08 | ingest: elziani2024-instant-noodles-libya-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

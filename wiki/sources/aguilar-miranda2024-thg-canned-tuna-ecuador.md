@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Aguilar-Miranda et al. 2024 - Total mercury in canned tuna sold in Quito, Ecuador
 
+## Overview
+
 Aguilar-Miranda et al. measured total mercury (tHg) in 60 cans of tuna in water purchased from supermarkets in the Metropolitan District of Quito, Ecuador. The study sampled three anonymized coded product groups, 20 cans per group, between March 2022 and March 2023. Mercury was quantified by cold-vapor atomic fluorescence spectrometry after freeze-drying and microwave-assisted acid digestion. The authors measured tHg only; they did not speciate methylmercury (MeHg) or inorganic mercury. For the exposure assessment, they followed the US EPA fish-advisory convention of treating measured tHg as MeHg.
 
 The overall tHg range was 0.02-1.98 mg/kg wet weight. One sample in the intermediate-price coded group reached 1.98 mg/kg and another sample in the same coded group reached 1.0 mg/kg. The authors state that 96.7% of samples were below the national and international threshold limits they cite. The source uses anonymized group codes rather than public brand names; this page preserves those codes only as non-identifying sample strata and does not name or rank sampled manufacturers.
@@ -101,15 +103,15 @@ This page contributes occurrence and exposure-assessment evidence for canned tun
 - 2026-05-18 Codex merge-enhance: corrected earlier page wording that said "one lot reached 1.98 +/- 0.42 mg/kg." The source reports 1.98 mg/kg as the maximum value in the range for coded group B; 0.42 is the combined-row SD for that group, not the uncertainty on the maximum sample.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

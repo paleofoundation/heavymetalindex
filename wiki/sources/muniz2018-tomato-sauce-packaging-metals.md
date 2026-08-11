@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Muniz et al. 2018 — Metals in tomato sauces by packaging type, Brazil
 
+## Overview
+
 Twenty commercial tomato sauce samples across four packaging types (plastic, metallic/canned, cellulosic, and glass) from Rio de Janeiro supermarkets were analysed by ICP-MS for As, Cd, Pb, Cr, Ni, Sb, and Sn. The study found that As, Cd, and Pb were all below Brazilian regulatory limits across all packaging types, and no significant difference between packaging types was found for most metals. The critical findings were that Cr exceeded Brazil's maximum permissible level (0.1 mg/kg) in all packaging types (mean values 0.27–0.39 mg/kg), and Sn was significantly higher in metallic/canned packaging (0.125–0.258 mg/kg) than in plastic, cellulosic, or glass containers, with tin migration from can linings confirmed by simulant solution testing.
 
 ## Key numbers
@@ -91,15 +93,15 @@ Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 
 - ⚠️ Subagent noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Bae, Kwon & Kim 2018 — Safety-assessment framework review for disposable absorbent hygiene pads
 
+## Overview
+
 This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers, feminine hygiene pads, and adult incontinence diapers — including hazard identification, hazard characterization, exposure assessment, risk characterization, clinical evaluation, and post-market surveillance. It is a methodology synthesis with no primary measurement data of its own. Heavy-metal content is limited to a regulatory listing — the Korea MFDS restriction list for baby-diaper "Sanitary Products" names eight metal contaminants (antimony, barium, cadmium, chromium, lead, mercury, arsenic, selenium) without quantitative limits or measured values — and a single secondary citation of organotin (tin) exposure from baby diapers in Šmajgl & Obhođaš 2015 (already ingested at [[sources/smajgl2015-tin-baby-diapers-croatia]]). The paper is ingested as an out-of-core-scope methodology and regulatory-context reference; `metals: []` is correct per the precedent set by [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] (phthalate-only paper ingested for the paired diaper + urine + biomarker design). The exposure-model equations (Section 3.2.1) and the direct-contact / indirect-reflux pathway distinction (Section 3.2.2, 3.2.3) are reusable for HMI heavy-metals modeling once primary metal measurements in diaper or pad materials become available in the corpus.
 
 ## Key numbers
@@ -87,15 +89,15 @@ Narrative literature review, no primary samples. Structured around the four-step
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/su10114146` not present; raw_handle `MFK_safety-evaluation-of-absorbent-hygiene-pads-a-revi` not present; cite-key stem `bae2018` not present. PDF SHA-256 `1852664458af40802a0c576c35f407ee18f383bb25adc1f77a5aec9b0ad97aae`. Paper is a methodology review with no primary heavy-metal measurements — ingested as out-of-core-scope methodology / regulatory-context reference per the [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] precedent. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) and `[[products/menstrual-pads]]` (HMTc Cat 15 Row 2 scaffold) for discoverability as a multi-product methodology reference; `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

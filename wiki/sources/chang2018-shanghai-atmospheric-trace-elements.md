@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Chang et al. 2018 - Shanghai atmospheric trace elements
 
+## Overview
+
 Chang and colleagues continuously measured 18 trace elements in PM2.5 at an urban Shanghai receptor site for one year, then used positive matrix factorization to apportion the elements to traffic, shipping, nonferrous smelting, coal combustion, and ferrous smelting. This is atmospheric source-attribution evidence, not mineral-water occurrence evidence: it identifies which emission sectors load metals into the shared environment.
 
 ## Key numbers
@@ -78,3 +80,17 @@ App: Context only. The source supports ambient/shared-liability explanations for
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it did not measure mineral water or a finished product, but it is in-scope a3 atmospheric source-attribution evidence.
 
 The Pb-query and Cd-query PDFs have identical extracted text and the same DOI. The Cd-query worklist row is covered as a recovered duplicate by this source page. Numbers were checked against the extracted PDF text, especially the abstract, Methods, Section 3.1, Table 1, PMF source-analysis sections 3.2.1-3.2.5, and the precipitation-effect section. Species are preserved as total elemental measurements; the source does not report inorganic arsenic, methylmercury, or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

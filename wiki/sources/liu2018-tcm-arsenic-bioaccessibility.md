@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Liu et al. 2018 - arsenic in traditional Chinese medicines
 
+## Overview
+
 Liu and colleagues measured total arsenic, arsenic species, and arsenic bioaccessibility in 84 traditional Chinese medicines purchased in Beijing. The study included Chinese patent medicines (CPMs), Chinese herbal medicines (CHMs), and three realgar-containing CPMs. The main text reports class-level ranges and selected sample identities; supplementary sample tables are referenced but were not present in the extracted PDF, so this page does not reconstruct per-sample values from figures.
 
 ## Key numbers
@@ -123,3 +125,17 @@ This source supports broad herbal-botanical supplement and herbal-infusion routi
 - Speciation check: As(III), As(V), DMA, MMA, and AsB are kept separate where reported. Total arsenic values are not promoted to inorganic arsenic.
 - Brand firewall: the source reports medicine categories and sample codes but no consumer brand ranking is reproduced.
 - Missing-slug check: taxonomy snapshot has no exact `traditional-chinese-medicines` or `realgar` ingredient/product slug. Frontmatter uses broad herbal-botanical, dried-herb, dietary-supplement, and herbal-infusion slugs while exact medicine names and realgar context remain in prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

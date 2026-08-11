@@ -27,6 +27,8 @@ sampling_year_range: null
 
 # Narukawa 2020 — Hijiki candidate reference material: total arsenic, inorganic arsenic (As(V)), and arsenosugars (inter-laboratory study)
 
+## Overview
+
 Narukawa and colleagues (NMIJ/AIST, with the University of Graz) ran a two-laboratory inter-laboratory study to characterise a candidate hijiki seaweed certified reference material (NMIJ CRM 7405-b) for total arsenic and water-soluble arsenic species, validating methods against the existing certified hijiki CRM 7405-a. This is a metrology/CRM-development paper rather than a market survey, but it provides rigorously-quantified hijiki arsenic occurrence values on a dry-mass basis: the candidate hijiki material carried total arsenic 49.4 mg/kg and inorganic arsenic (measured as As(V)) 24.4 mg/kg dry weight (≈49% of total), and the control CRM 7405-a is certified at total arsenic 35.8 and As(V) 10.1 mg/kg. The values reinforce hijiki as a high-inorganic-arsenic seaweed and supply CRM-quality anchor points; because they are reference materials, not retail products, they are flagged below as method/anchor data rather than market-occurrence inputs.
 
 ## Key numbers
@@ -78,11 +80,15 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 - matrices [edible-seaweed, macroalgae, dry-weight]: hijiki is a brown alga (Sargassum/Hizikia), not a kelp (Laminaria), so `kelp` is deliberately omitted here.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f8cb5c3](https://github.com/paleofoundation/heavymetalindex/commit/f8cb5c3) | 2026-06-08 | ingest: narukawa2020-hijiki-crm-arsenosugars-interlab fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

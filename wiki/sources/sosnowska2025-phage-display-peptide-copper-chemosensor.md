@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Sosnowska et al. 2025 — Phage-display-derived peptide chemosensor for Cu(II) in aquatic samples
 
+## Overview
+
 Sosnowska, Łęga, Olszewski, and Gromadzka (Institute of Biotechnology and Molecular Medicine, Gdańsk; Faculty of Chemistry, Warsaw University of Technology; Nano Expo Sp. z o.o., Gdańsk) report a methodology paper that combines phage display biopanning, peptide synthesis, and fluorescence spectroscopy to develop a Cu(II)-selective fluorescent chemosensor. The motivation is sensor development for ecotoxicological monitoring of copper in aquatic ecosystems; the WHO drinking-water reference cited in the paper is `<31 µM` total copper and reported industrial-wastewater Cu²⁺ concentrations span `2.5 to 10,000 mg/L`. The biopanning workflow modifies the standard Ph.D.-7 protocol by introducing four sequential negative-selection rounds (Hg²⁺ → Cd²⁺ → Mn²⁺ → Ni²⁺) prior to three positive rounds against Cu²⁺, which the authors state is the first reported use of microtiter-plate functionalisation chemistry to enable negative selection against multiple non-target metals. The selected 7-mer MHIVPHE (Met-His motif at the N-terminus and a second histidine near the C-terminus at position 6 of the 7-residue peptide; the paper frames this as "two histidines at both ends" with an N-terminal MH motif) was extended into a dansyl-labelled decapeptide DNS-L9 (Dansyl-Met-His-Ile-Val-Pro-His-Glu-Lys-Trp-NH2) that exhibits `≈58.5%` Cu²⁺-induced fluorescence quenching at a 1:1 peptide:metal stoichiometry with negligible response to nine other monovalent and divalent ions tested at the same concentration. Copper is not among the ten HMI HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) and the paper reports no contamination measurements in any food, personal-care, or environmental sample. The source enters the HMI corpus as upstream sensor-development methodology context adjacent to the broader phage-display and peptide-metal-binding literature already represented in the same Kimi peptide folder ([[bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation]], [[hu2024-engineered-ecoli-hg-cr-adsorption]], [[juskowiak2008-cysteine-rich-oboc-peptide-libraries]], [[luo2024-peptides-heavy-metal-remediation]], [[lu2022-metal-chelating-peptides-review]], [[han2025-peptide-zinc-complexation-aquatic-review]]).
 
 ## Key numbers
@@ -87,12 +89,15 @@ The MHIVPHE peptide and its DNS-L9 chemosensor derivative are reported as a sing
 - Adjacent context: see [[bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation]] and [[hu2024-engineered-ecoli-hg-cr-adsorption]] for parallel E. coli-displayed metal-binding-peptide bioengineering, [[juskowiak2008-cysteine-rich-oboc-peptide-libraries]] for upstream OBOC library methodology, and [[han2025-peptide-zinc-complexation-aquatic-review]] / [[lu2022-metal-chelating-peptides-review]] for peptide-metal coordination chemistry reviews in the same Kimi peptide folder.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [532b911](https://github.com/paleofoundation/heavymetalindex/commit/532b911) | 2026-06-08 | audit: sosnowska2025-phage-display-peptide-copper-chemosensor revised |
-| [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Morshdy et al. 2023 - canned meat and chicken metals in Egypt
 
+## Overview
+
 Morshdy and colleagues measured lead, cadmium, total arsenic, total mercury, aluminium, and tin in canned beef, canned corned beef, and canned chicken luncheon sold in Sharkia Governorate, Egypt. The study reports product-category concentration summaries on a `mg/kg wet weight (PPM)` basis for `n = 20` samples per category. It also calculates EDI, HQ, and HI values for Egyptian adult consumption assumptions; those exposure calculations are source-side context and are kept separate from the occurrence table.
 
 ## Key numbers
@@ -83,3 +85,17 @@ App: The study can support canned meat and poultry context cards for Egypt, incl
 - Source-internal inconsistency: Table 1 prints canned chicken luncheon tHg as minimum `1.19`, maximum `11.62`, mean `4.51±0.55`, and Al as minimum `2.5`, maximum `12.36`, mean `5.05±0.62`. The surrounding prose instead says Hg was `ND` to `0.08` with mean `0.068±0.003` and Al was `0.13` to `8.29` with mean `3.54±0.54`. This page preserves the visually checked Table 1 values and flags the inconsistency.
 - Brand firewall: no product brand names are reported. Values are summarized only at product-category level.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has no exact canned-beef, corned-beef, or chicken-luncheon product slug, so products route through `processed-meats`, `beef-product`, and `poultry-product`; exact product forms remain matrix descriptors and source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

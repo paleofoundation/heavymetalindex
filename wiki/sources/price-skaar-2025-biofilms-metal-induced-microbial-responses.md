@@ -5,12 +5,12 @@ title: "Forging biofilms: metal-induced microbial responses in biofilm formation
 authors: ["Sarah L. Price", "Eric P. Skaar"]
 year: 2025
 publication: "Journal of Bacteriology"
-doi: "10.1128/jb.00253-24"
+doi: "10.1128/jb.00247-25"
 source_type: peer-reviewed
 evidence_tier: A
 license: cc-by
 raw_path: "raw/Digest/price-skaar-2025-forging-biofilms-metal-induced-microbial-responses-in-biofilm-formation.pdf"
-access_url: "https://doi.org/10.1128/jb.00253-24"
+access_url: "https://doi.org/10.1128/jb.00247-25"
 metals: [Zn, Mn, Fe, Cu, Ni]
 ingredients: []
 products: []
@@ -23,6 +23,8 @@ updated: 2026-05-08
 ---
 
 # Price and Skaar 2025 — Forging biofilms: metal-induced microbial responses in biofilm formation
+
+## Overview
 
 This Journal of Bacteriology minireview by Sarah Price and Eric Skaar (Vanderbilt University Medical Center, Center for Infection and Immunity) covers the mechanistic role of metal availability in bacterial biofilm formation and dynamics. Biofilms are major contributors to antibiotic resistance and to persistence in hospital environments; the authors show that metals are involved at multiple stages of biofilm biology including initial regulation of biofilm formation, communication and competition among bacteria within polymicrobial biofilms, and structural integrity and adherence of bacterial cells in the biofilm matrix. The review documents both biofilm-promoting and biofilm-disrupting metal effects and the use of metal sequestration by some bacteria to deprive neighboring microbes within the biofilm community.
 
@@ -42,15 +44,15 @@ Metals act as biofilm regulators at three levels: induction (specific metals sig
 - [[microbiome/metals-biofilm-axis]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

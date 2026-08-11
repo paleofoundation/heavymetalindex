@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # ATSDR 2008 — Toxicological Profile for Aluminum
 
+## Overview
+
 The September 2008 ATSDR Toxicological Profile for Aluminum is the comprehensive United States toxicology synthesis for elemental aluminum and aluminum compounds, prepared under CERCLA Section 104(i) authority and the September 2008 edition supersedes the September 2006 draft for public comment. The profile derives Minimal Risk Levels for oral exposure at intermediate (15-364 days) and chronic (≥1 year) durations, declines to derive an acute-duration oral MRL on inadequate-data grounds, and characterizes aluminum exposure from food, drinking water, ambient air, aluminum-containing medications, and consumer products. As of the access date below, ATSDR has not published a finalized post-2008 update.
 
 ## Key numbers
@@ -123,20 +125,20 @@ This page was merge-enhanced on 2026-06-04 from a 2026-04-25 pre-current-schema 
 
 The prior revision also omitted the soy-based and milk-based infant formula concentration data (Section 6.6, page 225) and the dietary intake by age-sex group (Table 6-5, page 216) that bear directly on certifiable infant-and-child food categories. Both are now included in Key numbers.
 
-The prior revision's Implications block contained a wiki/HMTc firewall violation: "HMT&C calibration to the EFSA TWI is the more conservative posture" is a synthesis claim about HMTc policy that does not belong on a source page (CLAUDE.md Part 2). The block has been removed; the literature comparison between ATSDR's MRL and EFSA's TWI is a legitimate observation, but the framing as guidance to HMTc belongs in a synthesis page or HMTc certification document, not here.
+The prior revision's Implications block contained a wiki/HMTc firewall violation: "HMT&C calibration to the EFSA TWI is the more conservative posture" is a synthesis claim about HMTc policy that does not belong on a source page. The block has been removed; the literature comparison between ATSDR's MRL and EFSA's TWI is a legitimate observation, but the framing as guidance to HMTc belongs in a synthesis page or HMTc certification document, not here.
 
 Audit subagent (2026-06-04) flagged two Check 2 concerns: (1) `ingredients/soy-based-infant-formula` and `ingredients/milk-based-infant-formula` not in `docs/gpt-collaboration/taxonomy-snapshot.md`, and (2) `antacid-medication` not in the documented matrices vocabulary. Verified against the live wiki: `wiki/ingredients/soy-based-infant-formula.md` and `wiki/ingredients/milk-based-infant-formula.md` both exist (the taxonomy snapshot is generated 2026-05-18 and is stale; the ingredient pages predate it). False positive — slugs retained. The matrices concern was real: `antacid-medication` is not in the documented matrices list in `docs/gpt-collaboration/system-prompt.md` and antacids are pharmaceuticals rather than a food matrix. Removed `antacid-medication` from the matrices array; the source's antacid exposure data remains in Key numbers narrative form.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [1dde3b3](https://github.com/paleofoundation/heavymetalindex/commit/1dde3b3) | 2026-06-03 | ingest June 3: atsdr-aluminum-toxprofile-2008 |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zafarzadeh et al. 2018 - cadmium and lead in cosmetics sold in Gorgan, Iran
 
+## Overview
+
 Zafarzadeh and colleagues measured cadmium and lead in 264 cosmetic products purchased in Gorgan, Iran from September 2016 to March 2017. The sample frame covered 11 product types, with 24 samples per type: lipstick, nail polish, eyeliner, eye pencil, eyeshadow, eye makeup remover, mascara, pancake, tattoo, hair dye, and hair gel. The paper reports total Cd and Pb as `µg/g` after nitric-acid digestion and voltammetric determination; brand identities are coded by letters, so no brand-name stripping was needed.
 
 ## Key numbers
@@ -114,3 +116,17 @@ App: If adult personal-care product profiles are added later, the Table 1 produc
 - Evidence tier: `B` because the paper is peer-reviewed and reports a primary 264-sample analytical survey, but the journal/method detail does not meet A-tier expectations. The paper does not report CRM recovery, blanks, LOD/LOQ values in finished-product units, or per-sample raw data; it also contains several source-side transposition/caption inconsistencies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult `lip-products` page despite a planned product-index row, no eye-makeup-remover slug, and no explicit pancake-makeup slug. The page uses `lipstick` for exact closed-vocabulary continuity, `facial-cleansers` for eye makeup remover, and `makeup-foundation-powders-blush` for pancake makeup.
 - Speciation: Cd and Pb are elemental total-metal measurements only; no cadmium/lead species distinction is reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

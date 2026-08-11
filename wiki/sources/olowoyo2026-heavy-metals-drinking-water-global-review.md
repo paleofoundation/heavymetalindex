@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Olowoyo et al. 2026 — Heavy metals in drinking water: global patterns across tap, bottled/sachet, surface, and groundwater (narrative review)
 
+## Overview
+
 This narrative review of 66 studies published 2015–2024 compiles reported heavy-metal concentrations in four drinking-water source types — municipal tap water (Table 1), bottled/sachet water (Table 2), surface water (Table 3), and groundwater (Table 4) — and summarises maxima with WHO standard limits (Table 5). The review reports the highest concentrations of Pb, Cd, As, Cr, Ni, Hg, U, and Mn in groundwater or surface water and the lowest in tap and bottled water, but documents notable exceedances of WHO guidelines in every source type and across all six continents represented. The review is relevant to HMI as both a direct dietary exposure pathway (drinking water as consumed) and an upstream ingredient input (water used to reconstitute infant formula, dilute beverages, prepare processed foods). The review's principal limitation is that it is a narrative tabulation, not a meta-analysis: per-study ranges are reproduced without weighting, sample sizes are not extracted, and the included papers use mixed units (µg/L and mg/L), mixed analytical methods (AAS, ICP-OES, ICP-MS, GFAAS, SWASV), and mixed quality-assurance regimes.
 
 ## Key numbers
@@ -217,15 +219,15 @@ PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publi
 - [[metals/antimony]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

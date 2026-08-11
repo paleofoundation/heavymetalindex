@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Shu et al. 2023 - organotins in China port seafood
 
+## Overview
+
 Shu et al. measured six organotin compounds in edible marine organisms from seas adjacent to eastern China ports: tributyltin (TBT), dibutyltin (DBT), monobutyltin (MBT), triphenyltin (TPhT), diphenyltin (DPhT), and monophenyltin (MPhT). The analytes are tin-organic species reported as `ng Sn g-1` on dry-weight or wet-weight bases; they are not total tin and not inorganic tin. The local PDF includes main-text summary ranges but not the supplemental tables that hold species-level concentration records.
 
 ## Key numbers
@@ -97,3 +99,17 @@ This source is direct seafood occurrence evidence for organotin compounds in mol
 - Units and bases are preserved as `ng Sn g-1 dw`, `ng Sn g-1 ww`, and RQ; no unit conversion was performed.
 - Speciation check: this page records organotin species (`TBT`, `DBT`, `MBT`, `TPhT`, `DPhT`, `MPhT`) and compound-class sums. `metals: [Sn]` is only the existing element-level routing convention; organotins are not treated as total tin or inorganic tin.
 - Brand firewall: the paper reports port regions, organism groups, and species; no seafood brands are attached to contaminant values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

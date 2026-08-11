@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Onghena et al. 2016 — Chemical migration from non-polycarbonate baby bottles under EU repetitive-use vs real-life duration testing
 
+## Overview
+
 This Food Additives & Contaminants: Part A paper compares the EU Regulation 10/2011 standardised plastics-FCM migration test (three sequential 2 h fillings at 70 °C with H₂O-EtOH 50:50 v/v milk simulant) against four real-life "duration" treatments (microwave heating, dishwasher washing, steam sterilisation, cooking sterilisation) on six post-BPA-ban alternative-polymer baby bottles (PP brand A, PP brand B, PES, PA, Tritan, silicone). Migration of pre-selected priority organic compounds — additives, monomers, oligomers, degradation products — was quantified by validated GC-QqQ-MS and LC-QqQ-MS methods (Onghena et al. 2016, Food Anal Methods, in press). Under EU repetitive-use conditions, no authorised compound exceeded its specific migration limit (SML), but several non-listed compounds were detected above the EU 10 µg/kg generic-default threshold for non-authorised substances. Under real-life duration testing, repeated use did not increase migration; concentrations were generally lower than or comparable to the reference experiment and became negligible after a number of cycles. Steam sterilisation released fewer compounds at lower concentrations than cooking (boiling-water) sterilisation, particularly for silicone bottles, and the authors recommend steam sterilisation as a pre-use treatment to reduce residual migrants. **The paper measures no heavy metals and contributes no occurrence data to the HMI corpus.** It is ingested as a methodology and exposure-pathway reference for baby-bottle migration testing — the comparison of EU repetitive-use vs real-life "duration" testing, and the demonstration that EU conditions can over-estimate real-life migration by up to a factor of 10 for some analytes, are reusable framings if/when heavy-metals migration from baby-bottle polymers (or from bottle additives, colorants, or printed graphics) is investigated in future work.
 
 ## Key numbers
@@ -123,15 +125,15 @@ Regulatory framing: EU Regulation 10/2011 on plastic FCMs (European Union 2011b)
 - 2026-05-31 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1080/19440049.2016.1171914` not present; raw_handle `MFK_01-2015-evaluation-of-the-migration-of-chemicals-f` not present; cite-key stem `onghena2016` not present. PDF SHA-256 `43fd921d1b518d529c4aa1ffb3021a72998df6f6cb26713f7980ac5386671b31`. Paper measures organic FCM migrants only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lai2025 and aurisano2022 precedents. Routed to `[[products/infant-bottles]]` for discoverability as a baby-bottle FCM-migration reference but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

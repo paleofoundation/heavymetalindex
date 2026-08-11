@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 162d4e27082d67caf415fe1081b71bc775a3bb80b0a6f13790ab4424387b0f68
+source_page_sha256: 8caa7746b56c1f0c52b978c846824199d97d154bc27ec3185928e9d3c6daed61
 total_claims: 25
 cited_claims: 25
 uncited_claims: 0
-distinct_cited_targets: 35
-distinct_cited_sources: 32
+distinct_cited_targets: 39
+distinct_cited_sources: 36
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 36
-audit_log_total_rows: 972
+audit_rows_for_cited_targets: 54
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 25 |
 | cited claims | 25 |
 | uncited claims | 0 |
-| distinct cited targets | 35 |
-| distinct cited `sources/` pages | 32 |
+| distinct cited targets | 39 |
+| distinct cited `sources/` pages | 36 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 36 |
-| audit log rows read | 972 |
+| audit rows on cited target pages | 54 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -102,9 +102,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strengt`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -118,9 +119,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-ar`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -134,9 +136,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ulations/fda2004-juice-haccp-lead]]: Federal FDA guidance hazard-control level: 50 ug/kg Pb. Scope: ready-to-drink fruit`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -150,9 +153,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-ar`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -166,9 +170,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -182,9 +187,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows. | EU maximum le`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -198,9 +204,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `b in all three rows. | EU maximum level loaded; the TDS grapefruit row is below 30 ug/kg but is a single small-N food ro`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -214,9 +221,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, conce`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -230,9 +238,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `vide 58 quantified iAs cells from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, ma`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -246,9 +255,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `fied iAs cells from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -262,9 +272,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS rows are excl`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -278,9 +289,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS rows are excluded from perc`
 - Cited targets (5):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2004-juice-haccp-lead.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda2022-draft-lead-juice.md`
@@ -296,9 +308,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `| [[metals/lead\|Pb]] | non-apple (summary-only / supporting context) | median 0 ppb (1 source); highest reported 0 ppb`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -306,9 +319,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `(summary-only / supporting context) | median 0 ppb (1 source); highest reported 0 ppb | 0% detected (0/3, Fda 2022, FDA`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -316,9 +330,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rted concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink j`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -326,9 +341,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `arsenic-inorganic\|iAs]] | non-apple (summary-only / supporting context) | mean 12.91 ppb (1 source); highest reported 4`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -336,9 +352,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ummary-only / supporting context) | mean 12.91 ppb (1 source); highest reported 49.6 ppb | 100% detected (58/58, Fda 201`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -346,9 +363,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-to-drink-juice-1-ml-1-g) | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (wet weight or reconstituted juic`
 - Cited targets (2):
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
 
@@ -356,7 +374,9 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `115 ppb`
 - Context: `te and other non-apple juices; highest-reporting pomegranate samples reached 91–115 ppb Pb; primary Pb occurrence source`
-- Cited targets (30):
+- Cited targets (34):
+  - `wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/adegbola2015-nigeria-snacks-drinks-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -373,6 +393,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` (page missing)
@@ -385,6 +407,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/godwill2015-soft-drinks-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/jecfa-33rd-tin-1989\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-64th-cadmium-tin-2006\.md` (page missing)
@@ -392,6 +416,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/jurowski2023-heavy-metals-green-tea-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/neuwirth2022-baby-cereals-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -426,9 +452,10 @@ _All claims trace to at least one cited source._
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 | `wiki/regulations/fda2004-juice-haccp-lead.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
+| `wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/adegbola2015-nigeria-snacks-drinks-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
 | `wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as\.md` | sources | 0 | — | — |
@@ -437,6 +464,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/blunden2003-tin-canned-food-review\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 0 | — | — |
@@ -445,10 +473,12 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` | sources | 0 | — | — |
 | `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` | sources | 0 | — | — |
+| `wiki/sources/godwill2015-soft-drinks-metals-nigeria\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-33rd-tin-1989\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-64th-cadmium-tin-2006\.md` | sources | 0 | — | — |
 | `wiki/sources/jurowski2023-heavy-metals-green-tea-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/neuwirth2022-baby-cereals-lead-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` | sources | 0 | — | — |
 | `wiki/sources/paula2015-fruit-juices-elements-portugal\.md` | sources | 0 | — | — |
 | `wiki/sources/savic2015-clear-orange-juice-minerals\.md` | sources | 0 | — | — |

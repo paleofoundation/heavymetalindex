@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Guo 2017 - Asian rice-derived products metals
 
+## Overview
+
 Guo and colleagues measured trace elements and heavy metals in Asian rice-derived food products purchased from oriental markets in Jackson, Mississippi. The study covered rice noodles, rice vinegar/wine, and rice snacks, with product origins spanning several Asian countries and one USA-labeled vinegar/wine product. The source reports category-level findings and brand-labeled figures; this page preserves the category findings and does not attach contamination values to brand names.
 
 ## Key numbers
@@ -63,11 +65,15 @@ This source provides small-sample occurrence context for rice noodles, rice snac
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; a specific rice-wine product slug is not available, so the rice vinegar/wine category routes through the broad vinegar product row.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [4f218cf](https://github.com/paleofoundation/heavymetalindex/commit/4f218cf) | 2026-06-08 | ingest: guo2017-asian-rice-derived-products-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

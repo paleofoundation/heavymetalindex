@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Tu et al. 2025 - Biochar-lime remediation in peanut soils
 
+## Overview
+
 Tu and colleagues studied combined biochar-lime amendment as a way to remediate acidic peanut soils and reduce exchangeable aluminum toxicity across a three-year field trial. This is in-scope a2 mitigation evidence with a3 soil-to-crop context.
 
 ## Key numbers
@@ -55,3 +57,17 @@ App: Context-only mitigation evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain empty because the paper focuses on field-soil remediation and plant-performance outcomes, not a marketed peanut-product assay.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [c4bc12ac6](https://github.com/paleofoundation/heavymetalindex/commit/c4bc12ac6) | 2026-06-14 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

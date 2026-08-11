@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Sofyan 2023 — Microbial and metal contamination of banana-based steamed sponge cake (bolu kukus pisang ambon), Yogyakarta
 
+## Overview
+
 This single-author Indonesian Diploma III pharmacy programme study formulated three banana-based steamed sponge cakes (bolu kukus pisang ambon) intended as an alternative snack for hypertensive patients, varying only the pisang ambon (Musa acuminata Colla) to wheat-flour mass ratio (1:1, 2:1, 3:1), and tested each formulation once for microbial contamination (total plate count, yeast and mould count, *Escherichia coli*) and metal contamination (Pb, Cu, Zn, total As) against Indonesian SNI 01-3840-1995 bread-product limits and SNI 7387:2009 Pb/As limits. All three formulations met every reported standard: Pb 0.1036–0.1207 mg/kg (limit 1 mg/kg), Cu 0.2897–0.3243 mg/kg (limit 10 mg/kg), Zn 1.6005–4.6056 mg/kg (limit 40 mg/kg), As below detection in all three (limit 0.5 mg/kg), aerobic plate count 1,566.66–8,800 cfu/g (limit 1×10⁶ cfu/g), yeast/mould <10 cfu/g in all three (limit 1×10⁴ cfu/g), *E. coli* negative in all three. Single-sample-per-formula design and a research-prepared rather than retail product limit the source to context-only evidence for any commercial banana sponge cake or Indonesian baked-goods occurrence question.
 
 ## Key numbers
@@ -107,15 +109,15 @@ Fresh ingest 2026-05-31. PDF read in two passes (pages 1–6 and 7–11) for the
 Audit subagent 2026-05-31 returned PROMOTE; flagged that the `metals:` frontmatter array carried Cu and Zn but the "Wiki pages updated on ingest" list omitted `[[metals/copper]]` and `[[metals/zinc]]` — applied (both metal pages exist; frontmatter ↔ wiki-pages-list consistency restored). Audit also flagged the provisional matrices slugs already documented in the paragraph above as borderline; left as-is per protocol (descriptive matrices flagged in verification notes are acceptable when the canonical taxonomy lacks a tight fit and the product-route is correct).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

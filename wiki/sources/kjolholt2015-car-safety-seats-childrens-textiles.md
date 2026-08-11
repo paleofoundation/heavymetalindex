@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Kjølholt et al. 2015 — Chemical substances in car safety seats and other textile products for children (Danish EPA Survey No. 135)
 
+## Overview
+
 This 2015 Danish Environmental Protection Agency consumer-products survey (Report No. 135) commissioned from COWI A/S and Teknologisk Institut examined whether car safety seats, baby slings, and baby mattresses sold on the Danish market contain chemical substances that may pose a risk to children aged 0–3 years. Thirty products were purchased and analysed; sub-samples of the car-safety-seat textiles were screened by wavelength-dispersive X-ray fluorescence (WD-XRF) for the elements tin and bromine as indicators of organotin compounds and brominated flame retardants, while quantitative analyses across all three product groups targeted phosphorus-based flame retardants (TCEP, TCPP, TDCP, TPP), formaldehyde, isocyanates (TDI, MDI), the phthalate DIDP, azo-dye-derived aromatic amines, and four classes of brominated flame retardant (PBB, PBDE, HBCD, TBBPA). For the Heavy Metal Index corpus, the relevant analyte is **tin (Sn)**: tin was not detected (<20 mg/kg) in 13 of the 14 XRF-screened car-safety-seat textile sub-samples, with a single positive sample (A3B) at 65 mg/kg. The authors concluded that "tin was not found in significant quantities in any of the samples" and elected not to follow up with quantitative organotin speciation. Bromine, by contrast, was detected at ≥20 mg/kg in 9 of the 13 samples reported with values up to 27,000 mg/kg; bromine is outside HMI's metal scope but is summarised here for context because it drove the report's downstream brominated-flame-retardant quantitation. None of the four named brominated flame retardants (PBB, PBDE, HBCD, TBBPA) accounted for the high bromine signal at quantitative analysis, leading the authors to infer the presence of polymeric brominated flame retardants not covered by the analytical method.
 
 ## Key numbers
@@ -88,15 +90,15 @@ The survey selected products for chemical analysis via questionnaire to 11 Danis
 - [[products/car-seats]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

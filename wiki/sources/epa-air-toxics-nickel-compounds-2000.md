@@ -30,6 +30,8 @@ updated: 2026-06-04
 
 # EPA Air Toxics 2000 — Nickel Compounds (Hazard Summary)
 
+## Overview
+
 The U.S. Environmental Protection Agency's Office of Air Quality Planning and Standards maintains a series of Air Toxics Hazard Summary fact sheets that consolidate the agency's IRIS chemical assessments, the ATSDR Toxicological Profile, and CalEPA reference exposure levels into a one-document overview per hazardous air pollutant. This fact sheet is the nickel-and-nickel-compounds entry in that series. It was first issued in April 1992 and updated in January 2000; the health and regulatory values it cites were obtained in December 1999. Its content is fact-sheet-tertiary — it does not derive new toxicological values, but reports values established elsewhere (EPA IRIS for the oral RfD and inhalation unit risks; ATSDR for the chronic inhalation MRL; CalEPA for the chronic inhalation REL; NIOSH, ACGIH, and OSHA for occupational exposure limits). The fact sheet is the canonical EPA Air Toxics one-page reference for nickel compounds and remains the version posted on the agency's public site under the URL slug `nickle-compounds.pdf` (the EPA URL retains a historical misspelling).
 
 ## Summary
@@ -86,12 +88,15 @@ App: low utility for product-level contamination benchmarking — the fact sheet
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

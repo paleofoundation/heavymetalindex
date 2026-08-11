@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Stringer, Johnston & Erry 2001 — Toxic chemicals in a child's world: an investigation into PVC plastic products
 
+## Overview
+
 This 22-page Greenpeace Research Laboratories technical report by Ruth Stringer, Paul Johnston, and Bea Erry of the University of Exeter, published June 2001, extends the line of NGO PVC-additive investigations that began with [[sources/digangi1997-greenpeace-vinyl-children-products]] and the contemporaneous Greenpeace Stringer et al. 2000 children's-toy phthalate survey (not in corpus). Where Di Gangi 1997 focused on toys and concentrated on lead and cadmium in PVC substrate, Stringer 2001 broadens the scope to 54 vinyl consumer products from 20 countries — toys and teethers, clothing and bibs, household furnishings, hygiene products, and food-contact items — and broadens the analyte panel to add bisphenol A and eight organotin compounds alongside phthalates, total tin, lead, and cadmium. STAT Analysis (Chicago, IL, USA) performed the phthalate/BPA/Pb/Cd/Sn analyses; GALAB (Geesthacht, Germany) performed organotin speciation on 14 samples per DIN EN 17025. The investigation found phthalates in all but one PVC sample (a Japanese teether, CW0141, which instead contained bisphenol A at 407 mg/kg), substrate cadmium ranging up to 230 mg/kg (a US drawer liner, CW0150) with two PVC products exceeding the EU EEC 1991 100 mg/kg cadmium maximum for PVC, substrate lead ranging up to 441 mg/kg in chlorinated PVC samples (a Chilean wallpaper, CW0129) and up to 5,220 mg/kg in a non-PVC US bib (CW0115), and organotin compounds in all but one of the 14 samples speciated — peaking at 51,338 µg/kg total organotins in a Canadian floor tile (CW0050), with the predominant organotin species being dibutyltin and dioctyltin. The report concludes that PVC additives "are still being widely used in products either specifically marketed for children, or for use in applications which could entail children experiencing significant exposure" and that "the only way to protect children from these harmful chemicals is to eliminate them from the products and hence from the home environment." This page documents the heavy-metals findings (Pb, Cd, Sn, organotins); phthalate and bisphenol A findings are summarised for scope but the wiki's HMI scope is the metals.
 
 ## Key numbers
@@ -162,15 +164,15 @@ This 22-page Greenpeace Research Laboratories technical report by Ruth Stringer,
   - Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

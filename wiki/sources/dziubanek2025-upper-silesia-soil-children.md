@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Dziubanek et al. 2025 — Non-dietary children's exposure to Cd, Pb, Zn in soil of three postindustrial districts of Upper Silesia, Poland
 
+## Overview
+
 This study measured cadmium, lead, and zinc in 77 surface soil samples collected from playgrounds, sports fields, gyms, parks, squares, and other recreational areas across three postindustrial districts of Upper Silesia: Katowice-Szopienice (legacy non-ferrous smelter zone), Świętochłowice-Lipiny, and Piekary Śląskie-Brzeziny. The work assesses non-dietary pediatric exposure via three routes (incidental soil ingestion, dermal contact, inhalation of PM10) under three concentration scenarios (S1 minimum, S2 mean, S3 maximum) across three age groups (preschool <6 y, younger school 6 to <12 y, older school 12-15 y), using the US EPA average-daily-dose and hazard-quotient framework with reference doses from the EPA IRIS database (0.001 mg/kg/day Cd; 0.3 mg/kg/day Zn; 0.0035 mg/kg/day Pb derived from the historical PTWI divided by seven). Eighth-grade national-exam results from three schools in the studied districts (2019, 2021, 2024) were compared with city, provincial, and national averages as a supplementary cognitive-outcome readout. Polish legal maximum permissible concentrations (MPC; Regulation of the Minister of Environment, 1 September 2016) and FAO/WHO maximum permissible limits are tabulated alongside the soil data. No food crops, food products, or human tissues are sampled; the paper is a soil-and-exposure study, not a dietary-intake study.
 
 ## Key numbers
@@ -150,15 +152,15 @@ EF-3 (Geographic exposure context). This source supplies recreational-soil occur
 - [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [94dc97b](https://github.com/paleofoundation/heavymetalindex/commit/94dc97b) | 2026-06-02 | audit: dziubanek2025-upper-silesia-soil-children revised |
-| [578f0cc](https://github.com/paleofoundation/heavymetalindex/commit/578f0cc) | 2026-06-02 | ingest: dziubanek2025-upper-silesia-soil-children fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

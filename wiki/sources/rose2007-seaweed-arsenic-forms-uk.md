@@ -26,6 +26,8 @@ sampling_year_range: 2003
 
 # Rose 2007 — Total and inorganic arsenic in UK retail seaweed (forms, concentration, exposure)
 
+## Overview
+
 Rose and colleagues (UK Food Standards Agency with Defra Central Science Laboratory) measured total and inorganic arsenic in 31 dried seaweed products covering five varieties on UK retail sale, analysing each as sold and, where preparation was advised, after soaking/cooking and in the soaking water. Total arsenic ranged 18–124 mg/kg across all samples, but inorganic arsenic was detectable (LOD 0.3 mg/kg) only in the nine hijiki samples, at 67–96 mg/kg as sold (68–73% of total arsenic); every arame, wakame, kombu, and nori sample held inorganic arsenic below 0.3 mg/kg (<2% of total). Preparation reduced but did not eliminate hijiki's inorganic arsenic (mean 77 mg/kg as sold falling to a 67% inorganic fraction after soaking), contradicting producer claims that soaking removes it. On the strength of this survey the FSA issued formal consumer advice to avoid eating hijiki seaweed.
 
 ## Key numbers
@@ -90,12 +92,15 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c5a5510](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
-| [95b689d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

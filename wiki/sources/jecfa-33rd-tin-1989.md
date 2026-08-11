@@ -33,6 +33,8 @@ updated: 2026-06-03
 
 # JECFA 33rd Meeting (1988) — Tin Re-evaluation (WHO Food Additives Series 24)
 
+## Overview
+
 The 33rd meeting of the Joint FAO/WHO Expert Committee on Food Additives (Geneva, 21-30 March 1988) re-examined the human acute-toxicity literature for inorganic tin in canned foods and beverages, in response to a request from the 18th session of the Codex Committee on Food Additives (The Hague, November 1985) for clarification of the 26th JECFA report's findings on the chemical forms of tin that cause gastric disturbances. The Committee left the underlying tolerable intake unchanged and instead converted the previously established provisional maximum tolerable daily intake of 2 mg inorganic tin per kg body weight (set at JECFA's 14th meeting, 1971, and reaffirmed in 1975, 1978, and 1982) into a provisional tolerable weekly intake of 14 mg inorganic tin per kg body weight, applicable to chronic exposure. For acute effects, the monograph concludes that gastric irritation can occur at tin concentrations as low as 150 µg/g in canned beverages and 250 µg/g in other canned foods, while some canned products containing up to 700 µg/g produced no detectable effects, and recommends that tin in canned foods be kept as low as practicable consistent with good manufacturing practice.
 
 ## Key numbers
@@ -146,15 +148,15 @@ Otherwise PROMOTE per audit Checks 3, 4, 5 (speciation/methods, brand firewall, 
 - [[products/fruit-juices-apple-containing]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0667533](https://github.com/paleofoundation/heavymetalindex/commit/0667533) | 2026-06-03 | audit: jecfa-33rd-tin-1989 revised |
-| [91a8703](https://github.com/paleofoundation/heavymetalindex/commit/91a8703) | 2026-06-03 | ingest: jecfa-33rd-tin-1989 fresh from manual-fetch-kimi/june-3-folder |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

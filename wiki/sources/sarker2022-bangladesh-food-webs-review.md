@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Sarker et al. 2022 — Heavy metals in Bangladesh food webs: systematic review (ESPR)
 
+## Overview
+
 This systematic, non-exhaustive review in Environmental Science and Pollution Research synthesizes heavy metal contamination, multi-trophic transfer, and associated health risks in Bangladesh's food webs. The authors surveyed rice, vegetables, fruits, fish, meat, dairy, soil, sediment, groundwater, and surface-water matrices, concluding that several lines of evidence show heavy metals in Bangladesh foodstuffs above WHO/FAO maximum tolerable limits (MTLs), primarily due to poor management of industrial effluents, contaminated irrigation water, improper use of metal-containing pesticides and fertilizers, and weak regulatory enforcement. The review specifically notes that arsenic in Bangladesh is a well-documented groundwater-derived crisis, and that Pb in mango and Cd in tomatoes exceeded WHO/FAO limits in a national survey of 30 agroecological zones. A cited cultured-fish study reported arsenic in tilapia at 1.486 mg/kg, higher than rahu and pangas in that comparison, and described potential carcinogenic and chronic-toxicity concern with continuous consumption in contaminated areas.
 
 ## Key numbers
@@ -81,15 +83,15 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 - Audit subagent (2026-05-18) flagged `[[regulations/codex-cxs-193-1995]]` as a non-existent regulation slug; verified against source — the review references WHO/FAO MTLs generically (and JECFA 2003 in Fig. 3) but never names Codex CXS 193-1995. Bullet removed from "Wiki pages this source may touch."
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

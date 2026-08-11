@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Pankavec et al. 2019 — Mineral constituents of commercially pickled white button mushrooms (Poland)
 
+## Overview
+
 This study characterised the multi-element composition of commercially conserved (pickled and canned) white button mushrooms (Agaricus bisporus) available on the Polish market in 2016, measuring 23 elements — Hg, Li, Mg, Al, Co, Ni, Cu, As, Se, Rb, Sr, Ag, Cd, Cs, Sb, Tl, Pb, U, Ba, Cr, Zn, Mn, V — across 100 unit packages drawn from 10 product batches and six manufacturers. The toxicologically critical analytes Pb, Cd, tHg, and tAs were present at overall medians of 0.072, 0.040, 0.043, and 0.030 mg/kg dry mass (dm) respectively, all well below the EU maximum levels of 0.30 mg/kg fresh weight (fw) for Pb and 0.20 mg/kg fw for Cd in cultivated Agaricus bisporus under Commission Regulation (EC) No 629/2008 (which, assuming the paper's ~90% moisture conversion, correspond to roughly 3.0 and 2.0 mg/kg dm). Significant inter-producer variability was observed for Li, As, Rb, Sr, Ag, Ba, and Cs (PC1 of the PCA, 42% of total variance), which the authors attribute to differences in marinade quality (water, salt, vinegar) rather than mushroom substrate. Industrial conserving substantially reduces toxic-element content relative to fresh A. bisporus, particularly for tAs (roughly 10-fold reduction attributed to water-soluble arsenical species leaching during blanching and pickling) and Cd/Pb (roughly an order of magnitude lower medians than fresh).
 
 ## Key numbers
@@ -130,15 +132,15 @@ Microbiome: Not addressed.
 - [[regulations/eu-1881-2006-contaminants-superseded]] (parent framework as amended by EC 629/2008; this was the regulation in force during the paper's 2016 sampling and is now superseded by EU 2023/915)
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

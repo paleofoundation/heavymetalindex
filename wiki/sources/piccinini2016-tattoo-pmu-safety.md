@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Piccinini et al. 2016 - EU/JRC safety report on tattoo and permanent make-up inks
 
+## Overview
+
 Piccinini, Pakalin, Contor, Bianchi, and Senaldi prepared this JRC Science for Policy report for the European Commission on tattoo and permanent make-up (PMU) ink safety. The report is not a single primary laboratory survey; it synthesizes legislation, analytical methods, RAPEX notifications, national market-surveillance campaigns, literature, questionnaires, and expert input. This page records the tattoo/PMU ink heavy-metal surveillance and comparator data only, with brand names suppressed and Cr(VI), total Cr, total Hg, and other species kept separate.
 
 ## Key numbers
@@ -90,3 +92,17 @@ App: This source can support tattoo-ink context cards about EU/JRC surveillance 
 - Brand firewall: the RAPEX section names three brands and gives their shares among products not in line with recommendations/legislation. Those brand names and shares are intentionally omitted here because they attach brands to noncompliance/contamination values.
 - Evidence tier: `A` because the report is a European Commission JRC regulatory synthesis with transparent DOI/report identifiers, RAPEX and national surveillance inputs, and explicit method/scope discussion. It is context/surveillance evidence rather than a primary laboratory dataset.
 - Routing: `products: ["[[products/tattoo-inks]]"]` uses the closed taxonomy slug. The taxonomy snapshot has no distinct permanent-make-up-ink product slug, so PMU specificity is retained in `matrices` and body text rather than inventing a product slug. Selenium appears in the source's total-element comparator and frontmatter metal list as `Se`, but there is no `[[metals/selenium]]` wiki page in the current taxonomy snapshot, so no selenium page link is listed.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

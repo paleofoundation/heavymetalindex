@@ -2,15 +2,15 @@
 source_page: wiki/products/meat-and-poultry-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9eef467167441d91666bd73a3846490b04c8ff81c5424b9c21accba9573f01a9
+source_page_sha256: b22159f725440e1596ec7169b649c996c0af75aedb237dcc2e6b7e701431f6b7
 total_claims: 70
 cited_claims: 70
 uncited_claims: 0
-distinct_cited_targets: 25
-distinct_cited_sources: 19
+distinct_cited_targets: 24
+distinct_cited_sources: 18
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 22
-audit_log_total_rows: 972
+audit_rows_for_cited_targets: 40
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 70 |
 | cited claims | 70 |
 | uncited claims | 0 |
-| distinct cited targets | 25 |
-| distinct cited `sources/` pages | 19 |
+| distinct cited targets | 24 |
+| distinct cited `sources/` pages | 18 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 22 |
-| audit log rows read | 972 |
+| audit rows on cited target pages | 40 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -54,9 +54,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -68,9 +69,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -82,9 +84,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -96,9 +99,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -110,9 +114,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -124,9 +129,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -138,9 +144,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -152,9 +159,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -166,9 +174,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -180,9 +189,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -194,9 +204,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
@@ -270,7 +281,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |`
@@ -280,7 +292,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior`
@@ -290,7 +303,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `10 ppb`
 - Context: `t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop`
@@ -300,7 +314,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva`
@@ -310,7 +325,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
 - Context: `s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a`
@@ -320,7 +336,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `10 ppb`
 - Context: `the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as regulatory cap/context, then r`
@@ -330,7 +347,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 ### Source Evidence Inventory
 
@@ -570,7 +588,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `2025 | Government guidance | FDA Closer to Zero final guidance establishing the 10 ppb Pb action level for single-ingred`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -588,8 +606,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -604,7 +620,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `the most recent analytical dataset directly supporting the 2025 final guidance 10 ppb action level for single-ingredien`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -622,8 +638,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -638,7 +652,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `753 ppb`
 - Context: `ion of four homogenized meat baby food products by ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 pp`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -656,8 +670,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -672,7 +684,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `86 ppb`
 - Context: `homogenized meat baby food products by ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <1`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -690,8 +702,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -706,7 +716,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `267 ppb`
 - Context: `meat baby food products by ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb (wet`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -724,8 +734,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -740,7 +748,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 ppb`
 - Context: `od products by ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb (wet weight); Pb`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -758,8 +766,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -774,7 +780,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb (wet weight); Pb reporting limit`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -792,8 +798,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -808,7 +812,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `d Pb <100 ppb (wet weight); Pb reporting limit blocks comparison against the 10-20 ppb action levels | | 6 | [[sources/h`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -826,8 +830,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -842,7 +844,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.049 µg/kg`
 - Context: `f Cr(III)/Cr(VI) in 10 bovine meat samples finding Cr(VI) not quantified at LOQ 0.049 µg/kg, with no oxidation to Cr(VI)`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -860,8 +862,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -876,7 +876,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 ppb`
 - Context: `FS102048 | 2016 | Government report | UK survey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -894,8 +894,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -910,7 +908,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4 ppb`
 - Context: `| Government report | UK survey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -928,8 +926,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -944,7 +940,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 ppb`
 - Context: `report | UK survey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni (43-72 ppb)`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -962,8 +958,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -978,7 +972,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 ppb`
 - Context: `urvey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni (43-72 ppb) for UK meat a`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -996,8 +990,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -1012,7 +1004,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `72 ppb`
 - Context: `egory-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni (43-72 ppb) for UK meat and fish based infan`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -1030,8 +1022,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -1046,7 +1036,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `ational baseline measuring nine metals in strained and junior meats by AAS (LOD 10 ppb); used as historical context for`
-- Cited targets (15):
+- Cited targets (14):
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
@@ -1064,8 +1054,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
     - audit rows: none
   - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
     - audit rows: none
@@ -1089,8 +1077,8 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
-| `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
@@ -1104,7 +1092,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 0 | — | — |

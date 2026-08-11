@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # US chocolate lead has measurably declined since 2015; cadmium has not
 
+## Overview
+
 The US chocolate market has been under sustained California Proposition 65 enforcement pressure for over a decade, with private-litigation settlements driving cocoa-sourcing and processing changes at major manufacturers. Three independent peer-reviewed datasets spanning 2015 to 2022 now allow the question to be answered directly: has the regulatory pressure produced a measurable change in product-level heavy-metal concentrations? The answer is metal-specific. Lead concentrations in US-market dark chocolate and cocoa products have declined materially over the period. Cadmium has not, and may be increasing in the organic segment.
 
 The synthesis is bounded. It addresses the US dark chocolate and cocoa-powder product class only; milk chocolate, chocolate-containing baby foods, and global non-US markets are out of scope here and need separate treatment. The lead-declined-but-cadmium-did-not framing is the load-bearing finding the wiki should call out, both for what it says about the effectiveness of state-level enforcement reshaping a national market and for what it says about the limits of single-metal interventions in commodity supply chains where the contamination drivers differ by metal.
@@ -42,7 +44,7 @@ The Zhao 2024 review also documents that lead contamination in cocoa is primaril
 
 Abt 2018 establishes the US baseline at 2015. Hands 2024 documents the multi-year US trajectory and shows lead declining while cadmium does not. Zhao 2024 explains the mechanistic asymmetry: lead is processing-side and responsive to manufacturer-level pressure; cadmium is soil-side and responsive only to upstream agronomic interventions or sourcing-region shifts. Together the three studies make the converged claim: US Prop 65 enforcement has visibly moved the chocolate lead distribution, has not moved the cadmium distribution, and the asymmetry is mechanistically explicable rather than coincidental.
 
-The brand-legal implication is that the Prop 65 lead-MADL exceedance rate of 43 percent in the Hands 2024 multi-year dataset is high enough that any product brand exposed to California consumers should expect Prop 65 plaintiff attention, and that lead reduction is achievable through manufacturer-level intervention because the mechanistic pathway responds to it. The cadmium 35 percent exceedance rate is comparable in magnitude but not similarly responsive to manufacturer-level intervention; cadmium reduction in chocolate requires sourcing-region shifts or upstream agronomic mitigation (see [[mitigation/cocoa-cadmium]] when written) rather than processing-side changes.
+The two metals also differ in their intervention tractability. The Prop 65 lead-MADL exceedance rate of 43 percent in the Hands 2024 multi-year dataset is high in absolute terms, and the lead reduction documented over the sampled period indicates that the processing-side mechanistic pathway responds to manufacturer-level intervention. The cadmium 35 percent exceedance rate is comparable in magnitude but is not similarly responsive to manufacturer-level intervention; cadmium reduction in chocolate requires sourcing-region shifts or upstream agronomic mitigation (see [[mitigation/cocoa-cadmium]] when written) rather than processing-side changes.
 
 The regulator implication is that state-level enforcement, when focused on a metal with a tractable mechanistic intervention pathway, can reshape a national market without federal action. The US chocolate lead trajectory is a documented case study of state-level enforcement moving a national-market contamination distribution; the cadmium non-response is the bounded counterexample showing the same enforcement mechanism does not move every metal equally.
 
@@ -76,7 +78,7 @@ The organic-segment cadmium finding from Hands 2024 deserves dedicated treatment
 
 ## How this page was promoted
 
-Promoted 2026-05-13 from the candidate queue. Three independent anchors meeting all four promotion criteria: independent (different research groups, different methodological frameworks, different time scopes), spans multiple metals (Pb, Cd), grounds the regulatory-intervention case study, strategic relevance to brand-legal (Prop 65 exposure expectations for US-market chocolate), regulator (state-level enforcement case study), and educator (mechanistic asymmetry between processing-side and soil-side contamination) audiences. Re-synthesis is expected when the Consumer Reports chocolate dataset enters the corpus, when the FDA TDS chocolate-exposure analysis is cross-referenced, or when a dedicated Prop 65 enforcement timeline page documents the causal attribution rigorously.
+Promoted 2026-05-13 from the candidate queue. Three independent anchors meeting all four promotion criteria: independent (different research groups, different methodological frameworks, different time scopes), spans multiple metals (Pb, Cd), grounds the regulatory-intervention case study, with relevance to regulator (state-level enforcement case study) and educator (mechanistic asymmetry between processing-side and soil-side contamination) audiences. Re-synthesis is expected when the Consumer Reports chocolate dataset enters the corpus, when the FDA TDS chocolate-exposure analysis is cross-referenced, or when a dedicated Prop 65 enforcement timeline page documents the causal attribution rigorously.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -87,19 +89,29 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s40572-024-00462-7](https://doi.org/10.1007/s40572-024-00462-7)</span><span class="hmi-ref-tag">Review</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Maine PL 643 (2008) — Toxic Chemicals in Children's Products framework statute
 
+## Overview
+
 This is Maine's enabling statute for the state's Toxic Chemicals in Children's Products programme at 38 MRSA Chapter 16-D, §§ 1691 to 1699-B, signed as Chapter 643 of the 2008 public laws by the 123rd Maine State Legislature on 17 April 2008 (HP 1432, LR 2877; LD 2048) and effective 18 July 2008. The statute does not establish numerical limits, testing requirements, or product-specific bans for individual heavy metals. It directs the Maine DEP, in concurrence with MeCDC, to identify a list of "chemicals of high concern" in consumer children's products (§ 1693), to designate "priority chemicals" from that list (§ 1694), to require manufacturer disclosure of priority chemicals in children's products sold in Maine (§ 1695), and to authorise rulemaking by the Board of Environmental Protection to prohibit the sale of children's products containing priority chemicals when safer alternatives are available at comparable cost (§ 1696). It is one of the four state children's-products programmes (WA, OR, VT, ME) referenced as a programme model in [[sources/ny-dec-tccp-2023-chem-pqls-draft]].
 
 ## Key numbers
@@ -101,15 +103,15 @@ App: Country-of-origin or state-of-sale "US-ME" plus product category "children'
 - **Maine downstream regulatory products not in corpus.** The chemicals-of-high-concern list (published by Maine DEP / MeCDC per the § 1693(1) deadline of 1 January 2010 and revised periodically per § 1693(2)), the priority-chemical designations under § 1694, the § 1696 sale-prohibition rules, the § 1695 disclosure rule, and the § 1697(6) mercury-added-products coordination rules are separate regulatory artefacts that descend from this statute. None are presently in the HMI corpus. When they enter, they should be ingested as separate source pages with their own cite-keys; this statute is the upstream authority and should be wikilinked from each.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

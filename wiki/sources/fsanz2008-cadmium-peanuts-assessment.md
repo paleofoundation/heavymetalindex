@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # FSANZ 2008 - Cadmium in peanuts
 
+## Overview
+
 Food Standards Australia New Zealand assessed Application A552, which proposed changing the maximum level for cadmium in peanuts in the Australia New Zealand Food Standards Code. The report includes international peanut cadmium occurrence data and dietary exposure modeling for Australia and New Zealand. This page records the occurrence and exposure tables as source evidence, while treating the maximum-level discussion as a source-reported regulatory context rather than an HMTc threshold proposal.
 
 ## Key numbers
@@ -73,3 +75,17 @@ App: The source can support peanut cadmium profiles with jurisdiction-aware cont
 - Speciation: the report measures/models cadmium only; no species substitution issue is present.
 - Brand firewall: the report discusses industry applicants and peanut suppliers, but Table A1.1 is country/source-level occurrence data and this source page does not attach a company or brand name to a contamination value.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `peanut-containing-foods` is a matrix descriptor rather than a product or ingredient slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

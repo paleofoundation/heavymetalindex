@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Huang et al. 2020 - hijiki arsenic growth stages
 
+## Overview
+
 Huang et al. measured total arsenic, inorganic arsenic, and arsenic species in cultivated edible hijiki (*Sargassum fusiforme*) at different growth stages. The primary occurrence data are whole-plant dry-weight values for native and Korean hijiki varieties grown in Zhejiang, China. Total arsenic, inorganic arsenic, arsenate, arsenite, DMA, and MMA are kept distinct below.
 
 ## Key numbers
@@ -90,3 +92,17 @@ This source is routeable edible-hijiki occurrence evidence because it reports dr
 - Units and basis are preserved as `mg/kg dry weight`, `%`, `ng/g DW min`, and `µmol/L`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed primary edible-seaweed occurrence and speciation data, but with internal source inconsistencies and limited QA/QC detail in the extracted text.
 - Brand firewall: no sampled brands are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

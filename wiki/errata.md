@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Errata and corrections
 
+## Overview
+
 The Heavy Metal Index is a curated reference. The corpus is large (over a thousand source pages and growing) and the underlying literature is fast-moving; substantive errors are inevitable. This page documents how corrections are submitted, what the Index does on receipt, and the public log of substantiated changes. It is the public-facing complement to the version history stored in [git](https://github.com/paleofoundation/heavymetalindex) and rendered on every page in the "Page history" footer.
 
 This commitment is part of the [[methodology|editorial methodology]] and [[editorial-standards|editorial standards]]. It is also one of the structural requirements for the defensibility argument the Index rests on: a curated reference whose errors are visibly tracked and corrected is more credible than one whose errors are silently fixed or never acknowledged.
@@ -27,44 +29,44 @@ Strongly preferred:
 4. Your relationship to the subject matter if it is relevant. The Foundation tracks but does not require this; it helps calibrate the review.
 
 <form class="hmi-correction-form" data-hmi-correction-form="/api/corrections" novalidate>
-  <fieldset>
-    <legend>Submit a correction</legend>
-    <label>
-      <span class="hmi-correction-label">Page URL or slug <span class="hmi-correction-hint">(required — e.g. <code>ingredients/turmeric</code> or the full https URL)</span></span>
-      <input type="text" name="page" required maxlength="400" autocomplete="off" />
-    </label>
-    <label>
-      <span class="hmi-correction-label">The claim, number, or citation you are challenging <span class="hmi-correction-hint">(required — quote the specific text on the page)</span></span>
-      <textarea name="claim" required rows="3" maxlength="4000"></textarea>
-    </label>
-    <label>
-      <span class="hmi-correction-label">The correction you believe is warranted <span class="hmi-correction-hint">(required)</span></span>
-      <textarea name="correction" required rows="3" maxlength="4000"></textarea>
-    </label>
-    <label>
-      <span class="hmi-correction-label">Supporting source <span class="hmi-correction-hint">(strongly preferred — peer-reviewed paper, agency document, or formal dataset; include the DOI or URL)</span></span>
-      <textarea name="source" rows="2" maxlength="4000"></textarea>
-    </label>
-    <label>
-      <span class="hmi-correction-label">Your name <span class="hmi-correction-hint">(optional)</span></span>
-      <input type="text" name="submitter_name" maxlength="200" autocomplete="name" />
-    </label>
-    <label>
-      <span class="hmi-correction-label">Your email <span class="hmi-correction-hint">(optional — needed only if you want a written reply)</span></span>
-      <input type="email" name="submitter_email" maxlength="320" autocomplete="email" />
-    </label>
-    <label>
-      <span class="hmi-correction-label">Your relationship to the subject matter <span class="hmi-correction-hint">(optional — e.g. "academic researcher in food toxicology", "brand QA lead", "regulator at FDA")</span></span>
-      <input type="text" name="submitter_relationship" maxlength="400" autocomplete="off" />
-    </label>
-    <div class="hmi-correction-honeypot" aria-hidden="true">
-      <label>Leave this field empty<input type="text" name="hp" tabindex="-1" autocomplete="off" /></label>
-    </div>
-    <div class="hmi-correction-actions">
-      <span data-hmi-correction-status role="status" aria-live="polite"></span>
-      <button type="submit">Submit correction</button>
-    </div>
-  </fieldset>
+ <fieldset>
+ <legend>Submit a correction</legend>
+ <label>
+ <span class="hmi-correction-label">Page URL or slug <span class="hmi-correction-hint">(required — e.g. <code>ingredients/turmeric</code> or the full https URL)</span></span>
+ <input type="text" name="page" required maxlength="400" autocomplete="off" />
+ </label>
+ <label>
+ <span class="hmi-correction-label">The claim, number, or citation you are challenging <span class="hmi-correction-hint">(required — quote the specific text on the page)</span></span>
+ <textarea name="claim" required rows="3" maxlength="4000"></textarea>
+ </label>
+ <label>
+ <span class="hmi-correction-label">The correction you believe is warranted <span class="hmi-correction-hint">(required)</span></span>
+ <textarea name="correction" required rows="3" maxlength="4000"></textarea>
+ </label>
+ <label>
+ <span class="hmi-correction-label">Supporting source <span class="hmi-correction-hint">(strongly preferred — peer-reviewed paper, agency document, or formal dataset; include the DOI or URL)</span></span>
+ <textarea name="source" rows="2" maxlength="4000"></textarea>
+ </label>
+ <label>
+ <span class="hmi-correction-label">Your name <span class="hmi-correction-hint">(optional)</span></span>
+ <input type="text" name="submitter_name" maxlength="200" autocomplete="name" />
+ </label>
+ <label>
+ <span class="hmi-correction-label">Your email <span class="hmi-correction-hint">(optional — needed only if you want a written reply)</span></span>
+ <input type="email" name="submitter_email" maxlength="320" autocomplete="email" />
+ </label>
+ <label>
+ <span class="hmi-correction-label">Your relationship to the subject matter <span class="hmi-correction-hint">(optional — e.g. "academic researcher in food toxicology", "brand QA lead", "regulator at FDA")</span></span>
+ <input type="text" name="submitter_relationship" maxlength="400" autocomplete="off" />
+ </label>
+ <div class="hmi-correction-honeypot" aria-hidden="true">
+ <label>Leave this field empty<input type="text" name="hp" tabindex="-1" autocomplete="off" /></label>
+ </div>
+ <div class="hmi-correction-actions">
+ <span data-hmi-correction-status role="status" aria-live="polite"></span>
+ <button type="submit">Submit correction</button>
+ </div>
+ </fieldset>
 </form>
 
 ## What happens on receipt
@@ -117,7 +119,7 @@ When a value is retracted to "pending re-synthesis," the page shows the analyte 
 ## What is not an erratum
 
 - A disagreement with the [[methodology]] or [[editorial-standards]] of the Index. These are open to discussion via the same channel but are not "corrections" in the per-page sense.
-- A request that the Index reach a different synthesis conclusion in the absence of new evidence. The Index will revisit a synthesis when the contributing evidence base changes substantially (see [[CLAUDE|CLAUDE.md § Part 9]]); a request to revisit absent new evidence is logged but does not trigger a re-synthesis.
+- A request that the Index reach a different synthesis conclusion in the absence of new evidence. The Index will revisit a synthesis when the contributing evidence base changes substantially; a request to revisit absent new evidence is logged but does not trigger a re-synthesis.
 - A request to soften or strengthen a claim to align with a particular policy position. The Index reports what the literature supports; alignment with policy is not its job.
 - A request to remove or alter brand-identifying information. There is none in the Index by design (see [[editorial-standards]] § Brand-level data: hard firewall); requests in this category are out of scope and are forwarded to the relevant Foundation contact.
 

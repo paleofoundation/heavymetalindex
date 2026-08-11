@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Howard et al. 2023 - Chitosan@DOTAGA lead and cadmium chelation
 
+## Overview
+
 Howard and colleagues evaluated a DOTAGA-functionalized chitosan polymer as an orally administered strategy to reduce absorption and toxicity from lead and cadmium in contaminated food and water. This is mitigation and health-mechanism evidence: the source reports polymer chelation, gastrointestinal transit, and mouse exposure outcomes after contaminated feed, but it does not report consumer-product occurrence concentrations for HMTc benchmark pooling.
 
 ## Key numbers
@@ -88,3 +90,17 @@ App: Context-only mitigation and toxicology evidence for Pb/Cd binding approache
 This page was built from the PDF title/byline, abstract, Results sections, Tables 1-3, Methods, and discussion. Products and ingredients are intentionally empty because the source tests an oral polymer intervention and experimentally enriched mouse feed, not market occurrence in a consumer product.
 
 The source is internally inconsistent on two characterization ranges: acetylation is reported as `30 +/- 2%` in Results and `28%` in Methods, while metal-spiking ranges are described as `0.5-100 micrograms/L` in Results and `0.5-200 micrograms/L` in Methods. Both discrepancies are recorded rather than harmonized.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

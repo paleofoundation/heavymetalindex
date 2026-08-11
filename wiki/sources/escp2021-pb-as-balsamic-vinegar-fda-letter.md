@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # ESCP / Food & Water Watch 2021 — FDA Letter: Pb and As in US Retail Balsamic Vinegars
 
+## Overview
+
 The Empire State Consumer Project (ESCP) and Food & Water Watch submitted this letter to FDA in May 2021 reporting third-party lab testing of 24 commercially available vinegar and vinegar-reduction products purchased in the United States. The letter is a citizen petition pressing FDA to establish limits and warning requirements for Pb and As in vinegar products. This is a B-tier source: the underlying test data are from a commissioned lab (methodology not fully described), the sampling is non-random and advocacy-motivated, and the document is not peer-reviewed. However, the concentration values reported are substantial and broadly consistent with peer-reviewed literature on balsamic vinegars; the filing is public FDA record and has regulatory process significance for the US condiment category.
 
 ## Key numbers
@@ -75,7 +77,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle (last `u
 - Remove `wine-vinegar` from `matrices`: the letter identifies 21 of 24 samples as balsamic vinegars or balsamic reductions/glazes and the remaining 3 samples only as "vinegars" of unspecified type; "wine vinegar" is not named in the letter and was an unsupported inference. Added the broader `vinegar` matrix slug to capture the overall scope.
 - Soften the Lead key-numbers bullet that previously stated "All Pb-positive samples were balsamics" — the letter only states that "all but one of the vinegar or reduction samples testing positive for either arsenic or lead were balsamics" and does not break the one non-balsamic positive out by metal.
 - Clarify in the Arsenic key-numbers bullet that the 287.91 ppb mean is described in the letter as "the mean levels detected"; the page interprets this as the mean of the positive subset (consistent with the surrounding language) and labels it as such rather than as a sample-wide mean.
-- Replace the legacy `## Wiki pages updated on ingest` heading (which listed downstream targets, including a stale `products/condiments` link to a page that does not exist) with this verification-notes block, matching the current source-page convention. Downstream routing is system-generated from frontmatter and is not maintained by hand inside source pages (CLAUDE.md Part 5b).
+- Replace the legacy `## Wiki pages updated on ingest` heading (which listed downstream targets, including a stale `products/condiments` link to a page that does not exist) with this verification-notes block, matching the current source-page convention. Downstream routing is system-generated from frontmatter and is not maintained by hand inside source pages.
 - Update `sample_population` to record that 3 of 24 samples were non-balsamic vinegars of unspecified type.
 
 No content changes were made to the methods discussion or evidence-tier assignment. The B-tier classification is retained per `docs/conventions` evidence-grading rule (NGO reports without full method disclosure are B-tier; C-tier is reserved for news/blogs/press releases).
@@ -91,15 +93,15 @@ One finding documented but not applied:
 - Audit noted that `balsamic-reduction` and `balsamic-glaze` are not in the snapshot of valid ingredient/product slugs. These are matrix descriptors, not ingredient or product slugs, and the matrices field is descriptive rather than routed against a controlled vocabulary; the routing audit accepts both slugs (the source is not in `routing_unresolved.csv` or `routing_malformed.csv`). The slugs are retained because they accurately describe the source's sampled population (the letter explicitly enumerates "vinegars or vinegar reductions or glazes" and identifies balsamic reductions/glazes as the highest-magnitude positives).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -315,6 +315,27 @@ describe("targetForProduct()", () => {
     const t = targetForProduct({ variant_type: "independent_no_split" })
     assert.strictEqual(t.target_p, 0.97)
   })
+  // Regression guard for the dead-dirty-branch defect: the soy formula row is
+  // configured dirty in data/workbench/standards/subcategory-roles.json, and the
+  // config must win over whatever token firewall-fix.mjs left in the public page.
+  // If this fails, the dirty branch has silently died again and soy formula is
+  // being certified at the loose P97 (90%-pass) treatment instead of P45.
+  test("configured-dirty slug → P45 regardless of public variant_type", () => {
+    const t = targetForProduct({
+      slug: "infant-formula-powder-soy-based",
+      variant_type: "higher-contamination-sibling",
+    })
+    assert.strictEqual(t.target_p, 0.45)
+    assert.strictEqual(t.role, "dirty_subcategory")
+  })
+  test("configured-clean slug → P97", () => {
+    const t = targetForProduct({
+      slug: "infant-formula-powder-non-soy",
+      variant_type: "clean_benchmark",
+    })
+    assert.strictEqual(t.target_p, 0.97)
+    assert.strictEqual(t.role, "clean_subcategory")
+  })
 })
 
 // --------------------------------------------------------------------------

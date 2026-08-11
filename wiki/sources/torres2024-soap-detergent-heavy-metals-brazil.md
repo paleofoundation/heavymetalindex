@@ -31,6 +31,8 @@ ingest_method: manual_phase1
 
 # Torres et al. 2024 - Cd, Mg, Pb, Zn in Brazilian commercial soaps and powder detergent
 
+## Overview
+
 Torres, Nunes, de Paula and Paim developed and validated a wet-decomposition ICP OES procedure for the determination of cadmium, magnesium, lead and zinc in commercial soaps and powder detergent, and applied it to nine products bought in the metropolitan region of Recife (Pernambuco, Brazil). The optimised digestion used 1 mol/L HNO3 plus 30 percent H2O2 with conventional heating on a hot plate at 80 degrees Celsius for one hour; this was compared against muffle-furnace dry decomposition, microwave-assisted wet decomposition, and dissolution in nitric acid followed by direct analysis. Cadmium and lead were below the limit of detection in every sample, while magnesium ranged from 50.9 to 1119 ug/g and zinc from 280.3 to 537.5 ug/g of finished product.
 
 ## Key numbers
@@ -137,15 +139,15 @@ Microbiome: No microbiome data.
 - Evidence Fitness: EF-2 / methodologically rigorous small-panel occurrence study. Limitations: n=9, single metropolitan market, Pb LOD (0.5 ug/g) too high to characterise low-level Pb occurrence, Cd LOD (0.015 ug/g) competitive with comparable studies, and only four metals analysed (Cd, Mg, Pb, Zn) so the page contributes no As, Ni, Cr, Co, Cu, Fe, Mn, Hg, Sb, Sn or Al data for these product classes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [bd4e26a](https://github.com/paleofoundation/heavymetalindex/commit/bd4e26a) | 2026-06-03 | audit: torres2024-soap-detergent-heavy-metals-brazil [revised] |
-| [a8ec331](https://github.com/paleofoundation/heavymetalindex/commit/a8ec331) | 2026-06-03 | ingest: torres2024-soap-detergent-heavy-metals-brazil [fresh] from manual-fetch/Kimi_Agent_Download_Corruption_Issue/household_papers/05_Wipes_Odor_Green_Cleaners |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

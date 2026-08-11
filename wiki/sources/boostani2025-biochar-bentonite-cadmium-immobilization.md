@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Boostani et al. 2025 - biochar and bentonite immobilization of cadmium in calcareous soil
 
+## Overview
+
 Boostani and colleagues tested whether bentonite combined with pristine or phosphoric-acid-modified biochars could immobilize cadmium in contaminated calcareous soil. The study is mitigation evidence: it uses Cd-spiked soil and amendment treatments, so its values should not be routed into coffee, food, or ingredient occurrence pools.
 
 ## Key numbers
@@ -66,3 +68,17 @@ The DOI, title, author list, journal, and year were taken from the Scientific Re
 The `matrices:` slugs (calcareous-soil, coffee-grounds-biochar, municipal-solid-waste-biochar, bentonite, soil-remediation) are descriptive free-text outside the controlled food/personal-care matrices vocabulary, which is appropriate for a Cd-spiked soil-remediation study; with empty `products:` and `ingredients:` arrays, the routing layer correctly treats this source as remediation evidence only.
 
 GPT audit (2026-06-09 autonomous) flagged "M + B2 carbonate-bound Cd 14.0 mg/kg" as a transposition of the 14.9 mean; verified against Table 3 (M+B2 cell = 14.0) and the page 6 source text ("the combined treatments of G + B0 (14.0 mg Cd kg-1) and M + B2 (14.0 mg Cd kg-1)") — finding was a false positive because the auditor confused the M-column mean (14.9) with the M+B2 cell value (14.0).
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

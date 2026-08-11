@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rusanescu and Rusanescu 2023 - MSWI fly ash in agriculture
 
+## Overview
+
 Rusanescu and Rusanescu review whether fly ash from municipal solid waste incineration (MSWI) can be used as an agricultural soil amendment. The source is not a primary market-food or crop-occurrence study: its metal concentrations are secondary ranges from cited literature. Its routeable value is context evidence for waste-derived soil amendments, including the high variability of As, Cd, Cr, Cu, Hg, Ni, Pb, Zn, and other elements in MSWI fly ash and the dose-dependent rise of several metals in amended soil.
 
 ## Key numbers
@@ -107,15 +109,15 @@ App: Route as context for waste-derived soil amendments and soil-to-plant transf
 The PDF has author attribution and DOI `10.3390/app13053246`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The PDF labels the article type as "Review," and the tables cite prior literature rather than reporting new samples. Table 5's heading prints the ash dose as "t/h," while the surrounding text describes t/ha; this page uses t/ha and flags the source as secondary context. Table 1's unit column is blank for several minor elements, including Hg, Mn, B, and Se; this page treats them as part of the table's concentration context rather than as product-benchmark values. The review uses total elemental symbols without speciation; `tAs` and `tHg` in frontmatter mean unspecified total arsenic and total mercury, not inorganic arsenic or methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [0abe8c7](https://github.com/paleofoundation/heavymetalindex/commit/0abe8c7) | 2026-06-02 | ingest June 2: rusanescu2023-mswi-fly-ash-agriculture |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

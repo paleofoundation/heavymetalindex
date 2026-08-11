@@ -6,7 +6,7 @@ title: "Aluminium Exposure Through the Diet"
 authors: [Hardisson A, Revert C, González-Weller D, Gutiérrez A, Paz S, Rubio C]
 year: 2017
 publication: "HSOA Journal of Food Science and Nutrition"
-doi: 10.24966/FSN-0176/100020
+doi: "10.24966/fsn-1076/100020"
 access_url: "https://doi.org/10.24966/FSN-0176/100020"
 source_type: review
 evidence_tier: B
@@ -27,6 +27,8 @@ updated: 2026-05-18
 ---
 
 # Hardisson et al. 2017 — Aluminium exposure through the diet
+
+## Overview
 
 This 2017 narrative review compiles aluminium (Al) concentration data from published studies across multiple food matrices and drink types, with the aim of estimating total dietary intake and comparing it to health-based guidance values. The authors find that vegetables (mean 16.8 mg/kg), fish and seafood (mean 11.9 mg/kg), and roots and tubers (mean 9.60 mg/kg) carry the highest Al concentrations among food groups, while processed cheese manufactured with sodium aluminium phosphate additives can reach extreme concentrations (470 mg/kg). Estimated dietary intakes calculated against Spanish population consumption data and EFSA's Tolerable Weekly Intake (TWI) of 1 mg/kg body weight per week indicate that vegetables account for 32.5% of weekly Al intake in both children and adults, while fruits account for 29.4% in children and 18.2% in adults.
 
@@ -121,15 +123,15 @@ Literature review of studies published from 1985 to 2017 retrieved via Web of Sc
 - 2026-05-18 fresh-context audit (Codex subagent) returned REVISE-level concerns; applied clarification for the 312 ± 18 µg/g tea value, normalized matrices to common broad terms, and tightened the App implication. The Certification/Courses/App labels are retained because they are required by the source-page template.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Serrano et al. 2024 - phosphorus-loaded biochar-assisted phytoremediation
 
+## Overview
+
 Serrano and colleagues tested whether phosphorus-loaded biochars made from coffee husk or sugar-cane leaf residues could assist Lolium perenne phytoremediation of Cd-, Cr-, and Pb-contaminated soils. This is mitigation evidence, not occurrence evidence: the metals were deliberately added to soil and measured through soil bioavailability and plant-organ retention. The source belongs in remediation and metal pages while leaving product and ingredient occurrence pools empty.
 
 ## Key numbers
@@ -67,3 +69,17 @@ App: Context only. The source can inform mitigation explanations but does not es
 - The source reports total Cr in the remediation experiment. It does not establish Cr-VI occurrence in any product matrix.
 - `sample_n: 15` reflects Table 4's enumeration of 15 experimental units (three metal groups × five treatments per group: one nonbiochar blank plus four P-loaded biochar amendments). Section 4.3 of the paper states "12 samples were obtained as shown in Table 4," which is an internal text/table inconsistency in the source; the wiki adopts the Table 4 count because that is the per-unit experimental enumeration and matches the 3 × 5 design described in Section 4.1.
 - `mitigation/supply-chain-screening` was not included as a touched page: that category covers sourcing-side interventions (geographic risk segmentation, pre-purchase soil testing, incoming-batch screening) on natural-contamination distributions, whereas this paper is bench-scale post-hoc remediation of deliberately spiked soil.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+<!-- END: hmi-page-history -->

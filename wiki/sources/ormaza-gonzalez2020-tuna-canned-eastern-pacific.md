@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Ormaza-Gonzalez et al. 2020 - Mercury, cadmium, lead in eastern-Pacific tuna products
 
+## Overview
+
 Ormaza-Gonzalez and colleagues analyzed 8 years of regulatory testing records (2009-2016, n=2572) from the National Institute of Fisheries of Ecuador (INP), the ISO/IEC 17025 certified control laboratory for tuna products exported to the European Union. Samples were drawn from cannery production batches and covered canned tuna (solid pack, chunks, flake in water or oil) and pre-cooked frozen loins from skipjack (Katsuwonus pelamis), yellowfin (Thunnus albacares), and bigeye (Thunnus obesus) caught in the eastern Pacific. The reported wet-weight averages over the full period were 0.23 ± 0.14 mg/kg total mercury, 0.032 ± 0.027 mg/kg cadmium, and 0.058 ± 0.050 mg/kg lead - all well below the EU 1881/2006 maximum levels (Hg 1.0, Cd 0.1, Pb 0.3 mg/kg) used by the authors as comparators. A separate retail survey of 9 cans from 5 product groups purchased in Guayaquil returned still-lower means (Hg 0.043, Cd 0.012 mg/kg; Pb below the 0.01 mg/kg detection limit).
 
 The dataset is one of the larger continuous-monitoring time series available for eastern-Pacific tuna product. The authors observe a slight downward drift in mean tHg over the study period, which they attribute to a rising proportion of skipjack (an epipelagic, lower-trophic species) in the Ecuadorean canning stream, and to improvements in on-board brine-freezing practices that reduce salt - and metal - uptake into the loins.
@@ -35,20 +37,20 @@ The dataset is one of the larger continuous-monitoring time series available for
 ## Key numbers
 
 - Whole-period summary (2009-2016, n=2572 samples, wet weight; Table 1):
-  - tHg mean ± SD: 0.23 ± 0.14 mg/kg; range 0.021-1.490 mg/kg.
-  - Cd mean ± SD: 0.032 ± 0.027 mg/kg; range 0.007-0.210 mg/kg.
-  - Pb mean ± SD: 0.058 ± 0.050 mg/kg; range 0.026-0.920 mg/kg.
-  - (Abstract rounds these to 0.24 ± 0.14, 0.03 ± 0.03, 0.05 ± 0.05 mg/kg.)
+ - tHg mean ± SD: 0.23 ± 0.14 mg/kg; range 0.021-1.490 mg/kg.
+ - Cd mean ± SD: 0.032 ± 0.027 mg/kg; range 0.007-0.210 mg/kg.
+ - Pb mean ± SD: 0.058 ± 0.050 mg/kg; range 0.026-0.920 mg/kg.
+ - (Abstract rounds these to 0.24 ± 0.14, 0.03 ± 0.03, 0.05 ± 0.05 mg/kg.)
 - Concentration order across every year of record: Hg > Pb > Cd.
 - Annual means (mg/kg wet weight; Table 1; cells left blank where the source reports no value for that year):
-  - 2009 (n=34): Hg 0.30 ± 0.016; Cd —; Pb —.
-  - 2010 (n=759): Hg 0.20 ± 0.15; Cd 0.034 ± 0.031; Pb 0.064 ± 0.117.
-  - 2011 (n=562): Hg 0.27 ± 0.18; Cd 0.040 ± 0.030; Pb 0.046 ± 0.300.
-  - 2012 (n=377): Hg 0.26 ± 0.18; Cd 0.021 ± 0.011; Pb 0.038 ± 0.005.
-  - 2013 (n=377): Hg 0.25 ± 0.17; Cd 0.032 ± 0.037; Pb 0.060 ± 0.040.
-  - 2014 (n=294): Hg 0.20 ± 0.11; Cd 0.044 ± 0.039; Pb 0.093 ± 0.072.
-  - 2015 (n=89): Hg 0.21 ± 0.11; Cd 0.026 ± 0.011; Pb —.
-  - 2016 (n=80): Hg 0.14 ± 0.08; Cd —; Pb —.
+ - 2009 (n=34): Hg 0.30 ± 0.016; Cd —; Pb —.
+ - 2010 (n=759): Hg 0.20 ± 0.15; Cd 0.034 ± 0.031; Pb 0.064 ± 0.117.
+ - 2011 (n=562): Hg 0.27 ± 0.18; Cd 0.040 ± 0.030; Pb 0.046 ± 0.300.
+ - 2012 (n=377): Hg 0.26 ± 0.18; Cd 0.021 ± 0.011; Pb 0.038 ± 0.005.
+ - 2013 (n=377): Hg 0.25 ± 0.17; Cd 0.032 ± 0.037; Pb 0.060 ± 0.040.
+ - 2014 (n=294): Hg 0.20 ± 0.11; Cd 0.044 ± 0.039; Pb 0.093 ± 0.072.
+ - 2015 (n=89): Hg 0.21 ± 0.11; Cd 0.026 ± 0.011; Pb —.
+ - 2016 (n=80): Hg 0.14 ± 0.08; Cd —; Pb —.
 - Retail-survey samples (Guayaquil, 9 cans from 5 product groups, anonymized in the wiki): tHg 0.043 ± 0.004 mg/kg; Cd 0.012 ± 0.002 mg/kg; Pb < detection limit (0.01 mg/kg). Authors report these are 5.75x (Hg), 2.6x (Cd), and 5.8x (Pb) below the archival-set means.
 - Comparator limits used by the authors (EU Commission Regulation 1881/2006): tHg 1.0 mg/kg; Pb 0.3 mg/kg; Cd 0.1 mg/kg. Whole-period archival means run 4.4x (Hg), 5.17x (Pb), and 3.1x (Cd) below those limits.
 - Exceedances (over the EU comparator): 15 of 2572 samples (0.58%): 12 Cd (0.47%), 2 Pb (0.08%), 1 Hg (0.04%). Eight of the 15 were classified as statistical outliers by the authors (Hg 1, Cd 4, Pb 3).
@@ -69,7 +71,7 @@ Quality control used IAEA-407 herring/capelin/anchovy fish-flesh certified refer
 
 ## Speciation and interpretation notes
 
-- The measured Hg analyte is total mercury (tHg); methylmercury was not speciated. The page therefore reports `metals: [tHg]` rather than `MeHg`, per CLAUDE.md Part 14.
+- The measured Hg analyte is total mercury (tHg); methylmercury was not speciated. The page therefore reports `metals: [tHg]` rather than `MeHg`,.
 - Cadmium and lead were quantified as total Cd and total Pb (no speciation reported); the page uses the umbrella `Cd` and `Pb` abbreviations accordingly.
 - The retail-survey n=9 sample (5 product groups, brand names redacted by the original authors and additionally anonymized here) is markedly cleaner than the archival cannery-batch set. The authors do not propose a causal explanation; the difference may reflect product selection by retailers, batch heterogeneity, or sampling year (the retail survey was conducted in 2018, after the archival period). Treat the two datasets as separate occurrence strata, not as a paired comparison.
 - The "tendency to decrease" in mean tHg over 2009-2016 (0.30 mg/kg in 2009 → 0.14 mg/kg in 2016) is the authors' descriptive observation; they did not report a formal trend test with confidence intervals. Take it as a directional observation, not a statistically certified trend.
@@ -112,15 +114,15 @@ The retail-survey subset (n=9, 5 anonymized product groups) is too small to anch
 - 2026-06-03 Claude audit subagent (fresh context) verdict: PROMOTE. 5/5 checks clean. One minor polish applied: clarified NTE INEN 184 cross-link as jurisdictional context per the subagent's Check 2 note.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [5a4044e](https://github.com/paleofoundation/heavymetalindex/commit/5a4044e) | 2026-06-03 | audit: ormaza-gonzalez2020-tuna-canned-eastern-pacific promoted |
-| [ba8be0a](https://github.com/paleofoundation/heavymetalindex/commit/ba8be0a) | 2026-06-03 | ingest: ormaza-gonzalez2020-tuna-canned-eastern-pacific fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

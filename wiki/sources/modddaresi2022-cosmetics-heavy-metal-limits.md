@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Modddaresi and Yu 2022 - cosmetics heavy-metal limits and analytical tests
 
+## Overview
+
 Modddaresi and Yu review cosmetic heavy-metal impurity controls across the EU/UK, United States, Canada, China, India, and German BVL technical guidance. The paper does not report new finished-product measurements; its useful content is regulatory context and method comparison for Pb, As, Cd, Hg, Sb, and related trace metals. This page is therefore context-only and should not be routed into product occurrence pools.
 
 ## Key numbers
@@ -84,3 +86,17 @@ App: If a regulatory comparison view is added for adult cosmetic/personal-care p
 - Speciation: the paper discusses regulatory limits and prohibitions, not new chemical speciation measurements. This page records As and Hg as total-context regulatory rows and does not treat them as iAs or MeHg.
 - Evidence tier: `C` because the paper is a useful review/crosswalk but not an official regulation, agency report, or primary occurrence dataset.
 - Routing: `products` is intentionally left empty because the source is a context-only regulatory/method review covering cosmetics generally; no specific product category has occurrence measurements in this source. No product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

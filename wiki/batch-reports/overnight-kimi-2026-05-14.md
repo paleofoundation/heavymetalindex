@@ -10,6 +10,8 @@ noindex: true
 
 # Overnight Ingest Report — 2026-05-14
 
+## Overview
+
 This report covers all ingest work from the Kimi manual-fetch condiment_papers/ completion (all five subcategories) and the Papers Cube Manual Fetch flat folder (57 PDFs). It also notes the self-healing autonomy daemon stack committed in parallel by the autonomy session.
 
 ## Summary counts
@@ -42,7 +44,7 @@ Largest single kimi subcategory batch. Key sources include multiple spice metal 
 Vinegar is a relatively clean matrix for most metals except where soil/agricultural contamination enters. Balsamic vinegar Pb concerns (FDA import alert context from escp2021). Mercury in white vinegar (liu2010-mercury-white-vinegar-afs).
 
 ### 01_Oils (15 pages)
-Outstanding oils batch. Key sources: `fsai2016-total-diet-study-ireland-2012-2014` (Irish TDS 2012-2014, A-tier, comprehensive dietary exposure; fish/shellfish dominant tHg); `fechner2022-bfr-meal-hg-cd-pb-ni-germany` (BfR MEAL Study 2020, 350 food categories, n=2,296); `ziarati2019-iranian-italian-flavoured-olive-oil` (FLAGGED: extreme Pb outlier up to 18 mg/kg — methodological concerns); `kabaran2020-health-risk-olive-oil-cyprus` (Cypriot EVOO Ni up to 0.59 mg/kg geologically elevated — relevant to Paleo Foundation Cyprus operations); `charfi2026-olive-oil-packaging-heavy-metals-phthalates` (packaging material Pb/Cd leaching: HDPE > PET > dark glass).
+Outstanding oils batch. Key sources: `fsai2016-total-diet-study-ireland-2012-2014` (Irish TDS 2012-2014, A-tier, comprehensive dietary exposure; fish/shellfish dominant tHg); `fechner2022-bfr-meal-hg-cd-pb-ni-germany` (BfR MEAL Study 2020, 350 food categories, n=2,296); `ziarati2019-iranian-italian-flavoured-olive-oil` (FLAGGED: extreme Pb outlier up to 18 mg/kg — methodological concerns); `kabaran2020-health-risk-olive-oil-cyprus` (Cypriot EVOO Ni up to 0.59 mg/kg geologically elevated — relevant to Institute of Contaminant Standards (ICS) Cyprus operations); `charfi2026-olive-oil-packaging-heavy-metals-phthalates` (packaging material Pb/Cd leaching: HDPE > PET > dark glass).
 
 ### 03_Olives_and_Pickles (3 pages)
 `karatasli2018-radionuclide-heavy-metal-turkey-olives` flagged: Pb values cross-checked against EU 2023/915 limits.

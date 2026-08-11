@@ -29,6 +29,8 @@ updated: 2026-06-04
 
 # Mosusu 2023 — Heavy metals in edible Japanese seaweeds
 
+## Overview
+
 A 2023 master's thesis abstract from Hokkaido University's Graduate School of Environmental Science reports ICP-MS analysis of fourteen elements (V, Se, Mn, Fe, Cu, Zn, Mo, Co, Cr, Ni, Cd, Pb, Th, U) in 22 commercial seaweed samples sold in Japan, covering four species: Wakame (*Undaria pinnatifida*), Kombu (*Laminaria spp.*), Hijiki (*Hizikia fusiform*), and sea lettuce (*Ulva rigida*). Of the fourteen elements measured, five fall within the Heavy Metal Index analyte vocabulary: Cr, Ni, Cd, Pb, and U. The abstract reports inter-species ranking patterns and a geographic signal — Chinese-sourced Wakame and Hokkaido-sourced Kombu from off Nemuro — but does not include numerical concentration tables; only the full thesis would contain those.
 
 ## Key numbers
@@ -69,15 +71,18 @@ The source provides geographic-origin signal for Kombu and Wakame consumed in Ja
 - Speciation: arsenic not measured; chromium reported as total Cr (Cr-VI not distinguished).
 - Numerical values: none in the abstract; the Key numbers table records only the qualitative ranking statements the source actually makes.
 - Audit subagent (2026-06-04) flagged `matrices: [edible-seaweed, macroalgae, kelp, dry-weight]` for vocabulary verification (⚠️). Verified against existing corpus: all four slugs are in active use across `wiki/sources/*.md` — `dry-weight` appears alongside `red-seaweed` in `aziz2021-gracilaria-seaweed-bangladesh.md`; `edible-seaweed`, `macroalgae`, and `kelp` each appear across multiple source pages. The basis-vs-matrix critique on `dry-weight` is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; finding logged as false positive against current corpus convention.
-- Audit subagent (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, `docs/ingest-workflows`) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer (Part 5b of CLAUDE.md) is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
+- Audit subagent (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, `docs/ingest-workflows`) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

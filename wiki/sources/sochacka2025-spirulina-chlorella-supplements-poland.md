@@ -28,6 +28,8 @@ updated: 2026-06-04
 
 # Sochacka et al. 2025 — Heavy Metals and Pharmaceutical Residues in Spirulina and Chlorella Dietary Supplements on the Polish Market
 
+## Overview
+
 Sochacka and colleagues at the Medical University of Warsaw measured 22 trace elements (17 reported above the detection limit) and 134 pharmaceutical compounds (29 detected) in 52 microalgae-based dietary supplements — 29 *Spirulina platensis* and 23 *Chlorella vulgaris* tablet and powder products commercially available on the Polish market — using ICP-MS for elements and LC-MS/MS (Hybrid Triple Quadrupole/Linear Ion Trap, AB SCIEX QTRAP 4000) for pharmaceuticals. The headline finding is that all 52 samples complied with EU regulatory limits for Cd (EC No. 488/2014, 0.050 µg/g) and Pb (EC No. 2015/1005, 0.30 µg/g) when reported as ranges — though several individual samples exceeded those numerical thresholds (Cd up to 0.270 µg/g in Spirulina; Pb up to 3.23 µg/g in Spirulina). Aluminum was the dominant trace element (Spirulina mean 269 ± 267 µg/g; Chlorella mean 148 ± 163 µg/g, both dry-basis), with individual *Spirulina* supplements contributing up to 56.10% of the Al tolerable weekly intake at the manufacturer-recommended daily dose. Pharmaceutical residues — including caffeine, the antiprotozoal/antifungal thiabendazole, the antibiotic metronidazole, the anticonvulsant carbamazepine, the local anaesthetic benzocaine, the sulfonamide antibiotic sulfathiazole, and the opioid analgesic tramadol — were detected at ng/g levels in essentially every sample, with the authors describing this as the first systematic report of pharmaceutical contamination in algal-based dietary supplements.
 
 ## Key numbers
@@ -155,12 +157,15 @@ Audit subagent (2026-06-04, fresh-context general-purpose Agent) flagged four �
 EFSA Al TWI citation: the paper states EFSA's TWI for Al as "2 µg/g bw/week" (page 14, citation [26]). EFSA's published TWI for aluminium is 1 mg/kg bw/week (EFSA Journal 2008;754:1–34), equivalent to 1 µg/g bw/week, not 2 µg/g bw/week. Table A4 of the paper reports the PTWI for Al as 28.6 µg/week/kg bw or 2,000 µg/week per 70 kg, which is twice the EFSA value (consistent with the older JECFA PTWI of 2 mg/kg bw/week withdrawn and reduced to 1 mg/kg bw/week in 2011). The paper appears to be using the older JECFA PTWI rather than the current EFSA TWI. This is a paper-quality concern, not a transcription error; the source page reports the paper's values verbatim with this caveat surfaced here.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

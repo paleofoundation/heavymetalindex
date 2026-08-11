@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Vaishali & Negi 2020 — Lead and cadmium in tomato ketchup from Delhi NCR street vendors
 
+## Overview
+
 This short research article reports Pb and Cd concentrations in 12 tomato ketchup samples collected from street food vendors across four locales in the Delhi NCR region of India. Lead was reported in all four locale summaries, with mean concentrations in Delhi (0.183 ppm), Noida (0.096 ppm), and Faridabad (0.089 ppm) exceeding the FAO/WHO Codex limit of 0.05 mg/kg; only Gurugram samples (0.031 ppm mean) fell below. Cadmium was below detectable limit in all 12 samples.
 
 ## Key numbers
@@ -72,15 +74,15 @@ Samples were collected in sterilised sealed glass containers from street vendors
 - 2026-05-28 Claude Opus 4.7 merge-enhance against the source PDF: (1) replaced placeholder `raw_handle: manual-fetch-kimi` with the MFK_-prefixed slug `MFK_a-comparative-study-on-presence-of-heavy-metals-le` per the manual-fetch handle convention; (2) added `raw_sha256` computed from the local PDF; (3) added `access_url` from the DOI; (4) restored `license: "CC BY-NC"` after re-reading the source — the Creative Commons BY-NC mark is rendered as an icon in the page-1 footer below the "Copyright (c) 2020: Advanced Research Publications" line, which the 2026-05-18 text-only pass missed. Body content was unchanged because the 2026-05-18 numerical table check still holds against Tables 1 and 2.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

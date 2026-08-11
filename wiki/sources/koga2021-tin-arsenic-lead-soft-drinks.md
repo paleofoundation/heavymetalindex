@@ -28,6 +28,8 @@ updated: 2026-06-06
 
 # Koga et al. 2021 — Microwave digestion method for Sn, As, and Pb in soft drinks
 
+## Overview
+
 Single-laboratory method development and validation paper from the Fukuoka Institute of Health and Environmental Sciences. The study evaluates a microwave digestion sample-preparation procedure coupled to ICP-AES (Sn) and ICP-MS (As, Pb) for soft drinks other than mineral water. The paper reports no native concentrations in commercial product; all reported analytical values are spike-recovery on synthetic matrices.
 
 Published as a note ("ノート") in *Shokuhin Eiseigaku Zasshi* (Food Hygiene and Safety Science, Japan), Vol. 62, No. 3, pp. 100–104. Received 2 November 2020; accepted 16 April 2021.
@@ -85,12 +87,15 @@ The paper provides no native contamination measurements and therefore contribute
 - Audit subagent (2026-06-06) flagged the methods text "CEM ETHOS One (Milestone General)" as a vendor misattribution: ETHOS One is a Milestone instrument, not a CEM one (CEM produces the MARS-series digesters). Verified against PDF page 2 ("マイクロ波分解装置（ETHOS One，マイルストーンゼネラル（株）製）") — finding confirmed and corrected to "Milestone ETHOS One (Milestone General K.K.)".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8e8de53](https://github.com/paleofoundation/heavymetalindex/commit/8e8de53) | 2026-06-06 | audit: koga2021-tin-arsenic-lead-soft-drinks [revised] |
-| [ca868b4](https://github.com/paleofoundation/heavymetalindex/commit/ca868b4) | 2026-06-06 | ingest: koga2021-tin-arsenic-lead-soft-drinks [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # BaSalamah et al. 2018 - Lead acetate, vitamin D, and rat renal/testicular injury
 
+## Overview
+
 BaSalamah and colleagues tested whether vitamin D3 altered renal and testicular injury in a controlled rat model of lead acetate toxicity. This is lane a4 toxicology evidence, not supplement occurrence evidence: lead acetate was deliberately administered in drinking water, and vitamin D3 was a co-treatment. The source reports exact tissue Pb concentrations and biochemical, cytokine, oxidative-stress, histology, and gene-expression endpoints while stating that vitamin D3 did not lower tissue Pb concentrations.
 
 ## Key numbers
@@ -67,3 +69,17 @@ Microbiome: No microbiome endpoints.
 - Speciation: the source reports lead as Pb/lead acetate exposure and tissue Pb concentration; no lead speciation is reported.
 - Products and ingredients are intentionally empty because this is an animal toxicology paper, not a supplement occurrence study.
 - The vitamin D3 co-treatment improved multiple injury markers but did not significantly change tissue Pb concentrations; this distinction is preserved because it is load-bearing for remediation versus toxicity interpretation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

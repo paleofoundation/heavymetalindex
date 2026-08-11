@@ -28,6 +28,8 @@ audience: [regulator, educator, app]
 
 # Altmaier 2021 - big-four metals in cannabis flowers
 
+## Overview
+
 Altmaier describes an ICP-MS workflow for arsenic, cadmium, mercury, and lead in *Cannabis sativa* plant material, using three industrial-hemp flower varieties purchased from a German drugstore. The paper is a trade-publication technical feature rather than a peer-reviewed market survey, but it prints concentration tables for dried hemp flowers and separated plant parts. Chromium and nickel values are also reported as milling-contamination diagnostics, so those values should not be pooled with product occurrence without preserving the milling method.
 
 ## Key numbers
@@ -81,3 +83,17 @@ The paper provides limited occurrence context for dried hemp flowers and plant p
 - Evidence tier: C, because this is a trade-publication technical feature with three hemp-flower varieties, not a peer-reviewed occurrence survey.
 - Brand firewall: the source names cultivar/variety labels (Finola, Felina, Santhica), not sampled commercial brands. The German drugstore purchase channel is retained as sample-frame context without naming a retailer.
 - Missing slug note: the taxonomy snapshot has no exact hemp/cannabis product or ingredient slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with hemp/cannabis retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

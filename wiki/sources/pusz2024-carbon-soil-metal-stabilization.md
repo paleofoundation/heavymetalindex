@@ -28,6 +28,8 @@ updated: 2026-06-02
 
 # Pusz et al. 2024 — Brown coal and activated carbon stabilization of Pb, Cd, Cr, Zn, Cu, Ni in Polish industrial-waste soils planted with Medicago falcata
 
+## Overview
+
 Pusz and colleagues compared two carbon-based soil amendments, brown coal and activated carbon at single (200 g per 10 kg soil) and double (400 g per 10 kg soil) doses, for their ability to immobilize Pb, Cd, Cr, Zn, Cu, and Ni in five Polish industrial-waste soils and to reduce uptake of those metals by Medicago falcata L. roots and shoots. Activated carbon outperformed brown coal at both doses on every metal in EDTA-extractable form and in plant-tissue concentration. Both amendments eliminated the 21–44% root-growth inhibition and 0–25% shoot-growth inhibition observed on the unamended polluted soils. The paper also reports Pollution Index (PI), Pollution Load Index (PLI), non-carcinogenic Hazard Quotient (HQ), and carcinogenic Individual Lifetime Cancer Risk (ILCR) for soil-borne exposure before and after amendment. The source is a single pot-experiment trial on industrial-waste soils with one test plant and one vegetation cycle; it is primary remediation and phytotoxicity evidence, not food, ingredient, or consumer-product occurrence evidence.
 
 ## Key numbers
@@ -40,25 +42,25 @@ The pot experiment used five soil origins (SC plus S1–S4) from a metallurgical
 
 **Table 1, page 6 — Baseline soil chemistry** before pot setup.
 
-| Soil | CaCO3 (%)     | TOC (%)       | pH (KCl)  | CEC (cmol(+)·kg⁻¹) |
+| Soil | CaCO3 (%) | TOC (%) | pH (KCl) | CEC (cmol(+)·kg⁻¹) |
 | ---- | ------------- | ------------- | --------- | ------------------- |
-| SC   | 0.97 ± 0.04   | 0.97 ± 0.06   | 7.52–7.63 | 15.04               |
-| S1   | 8.56 ± 0.32   | 3.02 ± 0.21   | 7.58–7.62 | 22.81               |
-| S2   | 6.98 ± 0.21   | 1.75 ± 0.13   | 7.65–7.68 | 20.28               |
-| S3   | 5.86 ± 0.19   | 1.42 ± 0.12   | 7.59–7.63 | 15.96               |
-| S4   | 5.51 ± 0.16   | 1.26 ± 0.08   | 7.50–7.54 | 15.61               |
+| SC | 0.97 ± 0.04 | 0.97 ± 0.06 | 7.52–7.63 | 15.04 |
+| S1 | 8.56 ± 0.32 | 3.02 ± 0.21 | 7.58–7.62 | 22.81 |
+| S2 | 6.98 ± 0.21 | 1.75 ± 0.13 | 7.65–7.68 | 20.28 |
+| S3 | 5.86 ± 0.19 | 1.42 ± 0.12 | 7.59–7.63 | 15.96 |
+| S4 | 5.51 ± 0.16 | 1.26 ± 0.08 | 7.50–7.54 | 15.61 |
 
 SC has sandy-loam granulometry; S1–S4 are loamy sand. All soils are alkaline. Sample depth 0–0.25 m below ground level (page 6).
 
 **Table 2, page 6 — Total metal concentrations in starting soils** (mg·kg⁻¹ d.m., mean ± SD over triplicate):
 
-| Soil | Cu          | Pb           | Zn           | Cd           | Cr         | Ni          |
+| Soil | Cu | Pb | Zn | Cd | Cr | Ni |
 | ---- | ----------- | ------------ | ------------ | ------------ | ---------- | ----------- |
-| SC   | 13.1 ± 1.1  | 14.8 ± 1.2   | 49.1 ± 3.3   | 0.34 ± 0.08  | 7.51 ± 0.62| 12.4 ± 1.6  |
-| S1   | 651 ± 35    | 4186 ± 126   | 5681 ± 237   | 12.9 ± 2.2   | 319 ± 16   | 139 ± 1.2   |
-| S2   | 406 ± 28    | 1892 ± 76    | 2469 ± 104   | 6.84 ± 1.17  | 187 ± 11   | 95.2 ± 6.3  |
-| S3   | 175 ± 11    | 848 ± 25     | 1320 ± 40    | 3.56 ± 0.62  | 135 ± 10   | 74.7 ± 6.1  |
-| S4   | 169 ± 5     | 697 ± 35     | 897 ± 36     | 3.21 ± 0.54  | 84.3 ± 4.6 | 54.6 ± 3.9  |
+| SC | 13.1 ± 1.1 | 14.8 ± 1.2 | 49.1 ± 3.3 | 0.34 ± 0.08 | 7.51 ± 0.62| 12.4 ± 1.6 |
+| S1 | 651 ± 35 | 4186 ± 126 | 5681 ± 237 | 12.9 ± 2.2 | 319 ± 16 | 139 ± 1.2 |
+| S2 | 406 ± 28 | 1892 ± 76 | 2469 ± 104 | 6.84 ± 1.17 | 187 ± 11 | 95.2 ± 6.3 |
+| S3 | 175 ± 11 | 848 ± 25 | 1320 ± 40 | 3.56 ± 0.62 | 135 ± 10 | 74.7 ± 6.1 |
+| S4 | 169 ± 5 | 697 ± 35 | 897 ± 36 | 3.21 ± 0.54 | 84.3 ± 4.6 | 54.6 ± 3.9 |
 
 Against the Polish soil-quality ordinance cited as ref [47] (industrial-area limits: Pb 600, Zn 2000, Cd 15, Cu 600, Cr 1000, Ni 500 mg·kg⁻¹ d.m.), Pb exceeds in all four contaminated soils (S1–S4), Zn exceeds in S1 and S2, Cu exceeds only in S1, and Cd, Cr, and Ni do not exceed in any soil (page 6).
 
@@ -68,28 +70,28 @@ Against the Polish soil-quality ordinance cited as ref [47] (industrial-area lim
 
 **Table 3, page 7 — Total metal concentrations after amendment** (mg·kg⁻¹ d.m.). The amendments did not change total metal content beyond analytical variation. Treatment codes: bc1 = single brown-coal dose (200 g / 10 kg), bc2 = double brown-coal dose (400 g / 10 kg), ac1 = single activated-carbon dose (200 g / 10 kg), ac2 = double activated-carbon dose (400 g / 10 kg).
 
-| Soil/amendment | Cu  | Pb   | Zn   | Cd    | Cr   | Ni   |
+| Soil/amendment | Cu | Pb | Zn | Cd | Cr | Ni |
 | -------------- | --: | ---: | ---: | ----: | ---: | ---: |
-| S1             | 615 | 3912 | 5415 | 11.6  | 298  | 118  |
-| S1bc1          | 560 | 3876 | 5402 | 11.2  | 239  | 109  |
-| S1bc2          | 573 | 3566 | 5242 | 10.3  | 248  | 110  |
-| S1ac1          | 602 | 3295 | 4720 | 9.94  | 247  | 109  |
-| S1ac2          | 605 | 3211 | 4350 | 9.81  | 244  | 106  |
-| S2             | 365 | 1772 | 2325 | 6.11  | 148  | 67.5 |
-| S2bc1          | 279 | 1745 | 2123 | 5.38  | 132  | 60.4 |
-| S2bc2          | 286 | 1642 | 1993 | 5.41  | 135  | 58.7 |
-| S2ac1          | 254 | 1631 | 2053 | 5.19  | 118  | 54.7 |
-| S2ac2          | 265 | 1465 | 2025 | 5.06  | 124  | 54.3 |
-| S3             | 164 | 753  | 1130 | 3.49  | 99.2 | 47.1 |
-| S3bc1          | 142 | 683  | 1082 | 2.97  | 72.2 | 39.8 |
-| S3bc2          | 145 | 677  | 891  | 2.68  | 75.3 | 41.9 |
-| S3ac1          | 141 | 680  | 806  | 2.81  | 68.8 | 38.9 |
-| S3ac2          | 134 | 670  | 789  | 2.75  | 72.4 | 38.3 |
-| S4             | 144 | 650  | 817  | 2.97  | 66.4 | 45.8 |
-| S4bc1          | 136 | 576  | 807  | 2.71  | 65.8 | 41.1 |
-| S4bc2          | 133 | 582  | 805  | 2.82  | 60.1 | 40.2 |
-| S4ac1          | 123 | 529  | 784  | 2.79  | 63.1 | 40.1 |
-| S4ac2          | 108 | 544  | 738  | 2.78  | 53.4 | 40.7 |
+| S1 | 615 | 3912 | 5415 | 11.6 | 298 | 118 |
+| S1bc1 | 560 | 3876 | 5402 | 11.2 | 239 | 109 |
+| S1bc2 | 573 | 3566 | 5242 | 10.3 | 248 | 110 |
+| S1ac1 | 602 | 3295 | 4720 | 9.94 | 247 | 109 |
+| S1ac2 | 605 | 3211 | 4350 | 9.81 | 244 | 106 |
+| S2 | 365 | 1772 | 2325 | 6.11 | 148 | 67.5 |
+| S2bc1 | 279 | 1745 | 2123 | 5.38 | 132 | 60.4 |
+| S2bc2 | 286 | 1642 | 1993 | 5.41 | 135 | 58.7 |
+| S2ac1 | 254 | 1631 | 2053 | 5.19 | 118 | 54.7 |
+| S2ac2 | 265 | 1465 | 2025 | 5.06 | 124 | 54.3 |
+| S3 | 164 | 753 | 1130 | 3.49 | 99.2 | 47.1 |
+| S3bc1 | 142 | 683 | 1082 | 2.97 | 72.2 | 39.8 |
+| S3bc2 | 145 | 677 | 891 | 2.68 | 75.3 | 41.9 |
+| S3ac1 | 141 | 680 | 806 | 2.81 | 68.8 | 38.9 |
+| S3ac2 | 134 | 670 | 789 | 2.75 | 72.4 | 38.3 |
+| S4 | 144 | 650 | 817 | 2.97 | 66.4 | 45.8 |
+| S4bc1 | 136 | 576 | 807 | 2.71 | 65.8 | 41.1 |
+| S4bc2 | 133 | 582 | 805 | 2.82 | 60.1 | 40.2 |
+| S4ac1 | 123 | 529 | 784 | 2.79 | 63.1 | 40.1 |
+| S4ac2 | 108 | 544 | 738 | 2.78 | 53.4 | 40.7 |
 
 ### EDTA-extractable (phytoavailable) metals and risk indices
 
@@ -97,21 +99,21 @@ The authors used 0.02 M EDTA single-extraction to estimate plant-available metal
 
 **Table 4, page 9 — EDTA-extractable concentrations across the 21 combinations** (mg·kg⁻¹ d.m., ranges across treatments within each soil):
 
-| Soil group | Cu        | Pb        | Zn        | Cd        | Cr           | Ni        |
+| Soil group | Cu | Pb | Zn | Cd | Cr | Ni |
 | ---------- | --------- | --------- | --------- | --------- | ------------ | --------- |
-| S1 set     | 278–334   | 1510–2440 | 1028–1435 | 3.11–4.45 | 1.175–1.815  | 5.95–7.91 |
-| S2 set     | 128–218   | 706–1160  | 501–770   | 1.59–2.35 | 0.575–0.880  | 2.95–4.32 |
-| S3 set     | 47.1–122  | 324–650   | 242–448   | 0.85–1.42 | 0.346–0.596  | 1.88–3.09 |
-| S4 set     | 38.2–99.6 | 281–564   | 184–342   | 0.78–1.25 | 0.265–0.429  | 1.81–2.43 |
+| S1 set | 278–334 | 1510–2440 | 1028–1435 | 3.11–4.45 | 1.175–1.815 | 5.95–7.91 |
+| S2 set | 128–218 | 706–1160 | 501–770 | 1.59–2.35 | 0.575–0.880 | 2.95–4.32 |
+| S3 set | 47.1–122 | 324–650 | 242–448 | 0.85–1.42 | 0.346–0.596 | 1.88–3.09 |
+| S4 set | 38.2–99.6 | 281–564 | 184–342 | 0.78–1.25 | 0.265–0.429 | 1.81–2.43 |
 
 **Table 5, page 9 — Percent reduction in EDTA-extractable (phytoavailable) metal forms vs unamended baseline, pooled across S1–S4:**
 
-| Amendment                       | Cu     | Pb     | Zn     | Cd     | Cr     | Ni     |
+| Amendment | Cu | Pb | Zn | Cd | Cr | Ni |
 | ------------------------------- | ------ | ------ | ------ | ------ | ------ | ------ |
-| Brown coal, single dose (bc1)   | 35.7%  | 30.0%  | 22.5%  | 21.1%  | 33.2%  | 23.9%  |
-| Activated carbon, single (ac1)  | 57.2%  | 50.2%  | 38.8%  | 32.4%  | 41.9%  | 35.9%  |
-| Brown coal, double dose (bc2)   | 44.1%  | 35.1%  | 29.9%  | 31.0%  | 34.4%  | 28.5%  |
-| Activated carbon, double (ac2)  | 61.6%  | 50.2%  | 46.2%  | 40.1%  | 41.9%  | 39.2%  |
+| Brown coal, single dose (bc1) | 35.7% | 30.0% | 22.5% | 21.1% | 33.2% | 23.9% |
+| Activated carbon, single (ac1) | 57.2% | 50.2% | 38.8% | 32.4% | 41.9% | 35.9% |
+| Brown coal, double dose (bc2) | 44.1% | 35.1% | 29.9% | 31.0% | 34.4% | 28.5% |
+| Activated carbon, double (ac2) | 61.6% | 50.2% | 46.2% | 40.1% | 41.9% | 39.2% |
 
 All Table 4 HQ values (non-carcinogenic risk index, derived as HQ = ADI/RfD per USEPA Risk Assessment Guidance for Superfund [42] and Supplemental Guidance for Soil Screening [43]) were well below 1. **Table 6, page 10 — ILCR_T (sum of carcinogenic risk indices over Cd, Cr, Ni for dermal contact)** values are on the order of 10⁻⁹ to 10⁻¹⁰, well below the 1.00 × 10⁻⁴ regulatory threshold. Selected S1 entries: unamended Cd 4.19 × 10⁻⁹ / Cr 1.60 × 10⁻⁹ / Ni 2.56 × 10⁻⁹; S1ac2 Cd 2.93 × 10⁻⁹ / Cr 1.04 × 10⁻⁹ / Ni 1.93 × 10⁻⁹. No soil-amendment combination exceeded the carcinogenic threshold for any metal or for the metal sum.
 
@@ -125,8 +127,8 @@ All Table 4 HQ values (non-carcinogenic risk index, derived as HQ = ADI/RfD per 
 
 | Plant part | Order of reduction (largest → smallest) |
 | ---------- | ---------------------------------------- |
-| Shoots     | Cr 18.2% > Zn 11.5% > Ni 10.7% > Cu 10.3% > Cd 8.9% > Pb 2.4% |
-| Roots      | Cu 13.3% > Cr 12.5% > Zn 10.5% > Pb 9.0% > Ni 5.7% > Cd 4.6% |
+| Shoots | Cr 18.2% > Zn 11.5% > Ni 10.7% > Cu 10.3% > Cd 8.9% > Pb 2.4% |
+| Roots | Cu 13.3% > Cr 12.5% > Zn 10.5% > Pb 9.0% > Ni 5.7% > Cd 4.6% |
 
 Activated carbon achieved a larger reduction than brown coal on every metal in both plant parts.
 
@@ -186,7 +188,7 @@ Microbiome: not applicable.
 - Merge-enhanced from prior 2026-06-02 revision (ingest commit 61f0b46) on 2026-06-02 by the v2 manual-fetch-ingest skill autonomously, with the following changes verified against the source PDF.
 - Downgraded `evidence_tier: A` → `B`. A-tier is reserved for designs with stronger external validity (multi-site, peer-replicated, market-frame sampling). This is a single pot-experiment trial on one geographic-origin soil set with one test plant and one vegetation cycle — B-tier is the correct grading.
 - Replaced bespoke `matrices: [industrial-soil, carbon-amendment, phytotoxicity-test, medicago-falcata, soil-to-plant-transfer]` with vocabulary-compliant `matrices: [soil, plant-tissue]`. The prior matrix strings were not in the controlled vocabulary; phytotoxicity-test is a method label not a matrix, and medicago-falcata is the test species (already noted in `sample_population`). Soil-to-plant-transfer is a wiki page slug, not a matrix value, and is now correctly listed under `## Wiki pages updated on ingest`. Precedent: `[[sources/sharma2023-phytoremediation-heavy-metal-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]` use `[soil, plant-tissue]`.
-- Reformatted `authors:` array from full-name strings to the project-standard `[Last F, Last F, ...]` form and restored Polish diacritics: Wiśniewska, Kamiński. Author given-name initials verified against the title page.
+- Reformatted `authors:` array from full-name strings to the project-standard `[Last F, Last F,...]` form and restored Polish diacritics: Wiśniewska, Kamiński. Author given-name initials verified against the title page.
 - Added missing provenance fields: `access_url` (DOI link) and `raw_sha256` (computed locally on the manual-fetch PDF, value d8e67c4657e4edbc1d5cd2364610fd6b853ce0d0f86fb2fa3cca8d1ba0b78a48).
 - Added `sampling_locations` and reformatted `sample_population` to make the soil-origin / pot-experiment distinction explicit.
 - **Plant-uptake ordering correction.** Prior revision stated "the authors summarize plant uptake as Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots" without distinguishing the SC control from the carbon-amended contaminated soils. Page 10 actually reports three orderings: (i) SC control roots = Zn > Cu > Pb > Ni > Cr > Cd; (ii) SC control shoots = Zn > Cu > Ni > Pb > Cr > Cd (Ni precedes Pb in shoots because shoot Ni 2.19 > shoot Pb 1.75); (iii) amended-contaminated-soil ordering = Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots, with the S4-with-carbon roots being an exception (Zn > Cu > Pb > Cr > Ni > Cd). Updated the Key numbers section to preserve all three orderings with their attributions. (Audit subagent on 2026-06-02 flagged that my first merge-enhance pass had collapsed the SC root and SC shoot orderings together as identical; verified against page 10 of the PDF — finding was correct, applied.)
@@ -194,7 +196,7 @@ Microbiome: not applicable.
 - **SEM model-number typo on page 4 of the source.** PDF page 4 prints the JEOL scanning electron microscope as "JJSM-6380 LA" with a double-J. The correct manufacturer catalog name is "JSM-6380 LA" (single J, JEOL JSM series). The wiki silently normalizes to the correct catalog name; the discrepancy is a source-side typo, not a wiki defect.
 - Updated legacy heading `## Wiki pages this source may touch` to the current convention `## Wiki pages updated on ingest`.
 - Removed `[[supply-chain/wastewater-irrigation]]` from the wiki-pages list. The page does not exist in `wiki/supply-chain/` and the paper does not discuss wastewater irrigation at all (the study is pot-experiment phytostabilization on industrial-waste soils, not field irrigation). Added `[[supply-chain/soil-to-plant-transfer]]` (page exists at `wiki/supply-chain/soil-to-plant-transfer.md`) and `[[mitigation/agronomic]]` + `[[mitigation/remediation-evidence]]` (both exist) as the correct routing targets for this paper's evidence.
-- Added page-number citations throughout the Key numbers section per CLAUDE.md Part 14.
+- Added page-number citations throughout the Key numbers section.
 - Added Conclusions (page 16) ordered-reduction strings for shoots (Cr 18.2 > Zn 11.5 > Ni 10.7 > Cu 10.3 > Cd 8.9 > Pb 2.4) and roots (Cu 13.3 > Cr 12.5 > Zn 10.5 > Pb 9.0 > Ni 5.7 > Cd 4.6) verbatim from the abstract and conclusions. Values match the prior revision's table; ordering is now preserved.
 - Added Forage Suitability Level (FSL) and Industrial Suitability Level (ISL) detail from Figure 5 / page 11 (only S4 with both double carbon doses met FSL on all six metals; ISL met for Pb except S4-with-carbon; etc.).
 - Added Phytotoxicity-Figure-6 (page 12) detailed inhibition percentages (44/37/30/21% for roots, 25/23/2/0% for shoots) and the 100% germination rate observation.
@@ -202,21 +204,21 @@ Microbiome: not applicable.
 - Added BCF detail from page 12 / Figure 7 (SC control BCFs for shoots, excluder classification per Ma et al. ref [63]).
 - Methods section enriched with: instrument vendor/model identifiers per brand-firewall Exception 2 (Thermo Scientific iCAP 6500, Varian Axial Vista 720-ES, JEOL JSM-6380 LA SEM, MicroBioTest Phytotoxkit™, ImageTool 3.0); pot dimensions; vegetation period; soil moisture; fertilizer; ISO method numbers for soil characterization; the standard-additions accuracy verification.
 - Brand-firewall compliance verified: no food-brand or consumer-product brand names appear in the source; all named vendor/instrument identifiers are scientific-method materials retained per brand-firewall Exception 2.
-- `metals:` uses total-Cr (`Cr`) because the paper performed total-Cr mineralization (HClO₄ + HNO₃) without hexavalent speciation per CLAUDE.md Part 14 speciation rule. iAs/tAs and MeHg/tHg are not in scope — no arsenic or mercury measurements were taken.
+- `metals:` uses total-Cr (`Cr`) because the paper performed total-Cr mineralization (HClO₄ + HNO₃) without hexavalent speciation speciation rule. iAs/tAs and MeHg/tHg are not in scope — no arsenic or mercury measurements were taken.
 - `ingredients:` and `products:` deliberately empty: Medicago falcata is a forage legume, not the food-legume scope covered by `[[ingredients/legumes]]`. The paper assesses FSL/ISL for plant tissue (a feed-suitability framing) but does not characterize a food ingredient or consumer product in the HMI sense.
 - `jurisdictions: [PL]` reflects Poland as the soil origin, pot-experiment location, and source of the cited Regulation of the Minister of the Environment of 1 September 2016 (J. Laws Item 1395 2016, ref [47]) used as the ordinance benchmark. No HMI regulation slug exists for this Polish ordinance; not added to `## Wiki pages updated on ingest`.
 - **Paper-internal inconsistency preserved from prior revision and re-verified.** Table 2 (page 6) reports SC control-soil totals as Cu 13.1 / Pb 14.8 / Zn 49.1 / Cd 0.34 / Cr 7.51 / Ni 12.4 mg·kg⁻¹ d.m. (mean ± SD across triplicate). Section 3.2 text (page 6) reports SC as Cu 17.2 / Pb 23.1 / Zn 61.1 / Cd 0.72 / Cr 10.4 / Ni 15.9 mg·kg⁻¹ d.m. These do not match and the paper does not reconcile them. Table 2 values are used throughout the wiki page because the table is the primary data display and the column units match the ± SD format; the Section 3.2 numbers may be a typesetting carry-over from an earlier draft. Flagged here, not silently resolved.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [61f0b46](https://github.com/paleofoundation/heavymetalindex/commit/61f0b46) | 2026-06-02 | ingest June 2: pusz2024-carbon-soil-metal-stabilization |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

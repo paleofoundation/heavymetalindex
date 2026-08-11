@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Shalev 2022 — Solution-state NMR methods for studying peptide-metal ion complex structures
 
+## Overview
+
 Shalev (Department of Pharmaceutical Engineering, Azrieli College of Engineering Jerusalem, with a joint appointment at the Wolfson Centre for Applied Structural Biology, Hebrew University of Jerusalem) reviews solution-state nuclear magnetic resonance (NMR) approaches for characterising the structure of peptide-metal ion complexes. The review systematically surveys the published NMR literature on each of the ten essential metals (Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn, Mo — with copper split methodologically into diamagnetic Cu(I) and paramagnetic Cu(II) cases) and several biologically relevant non-essential metals (Al, Ni, Ga, Pd, Ag, Pt, lanthanides), framed around the diamagnetic-versus-paramagnetic distinction that drives NMR experiment selection. The review is a secondary methodological synthesis with no primary measurements; its value to the wiki is as a NMR-methods background reference for any downstream page that discusses peptide-metal coordination chemistry, ATCUN-motif Cu/Ni binding, aluminum-amyloid interactions, or the use of solution NMR as a characterisation tool for chelation studies.
 
 ## Why this matters
@@ -126,12 +128,15 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Check 2 slug-vocabulary ⚠️ flagged that `[[mitigation/remediation-evidence]]` is not in the taxonomy snapshot. **Verified against the snapshot — finding correct on snapshot coverage, but this is the same snapshot-coverage gap addressed on the [[luo2024-peptides-heavy-metal-remediation]] sibling audit (2026-06-08 commit `ba01991`) and is in-scope per commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The wikilink points to a real `wiki/mitigation/remediation-evidence.md` section. No content correction applied; the snapshot will catch up in a future refresh, per the Luo precedent.**
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [34bc585](https://github.com/paleofoundation/heavymetalindex/commit/34bc585) | 2026-06-08 | audit: shalev2022-peptide-metal-nmr-review promoted |
-| [e216223](https://github.com/paleofoundation/heavymetalindex/commit/e216223) | 2026-06-08 | ingest: shalev2022-peptide-metal-nmr-review fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Nencioni et al. 2026 — In vitro Franz-cell adsorption of Cd/Co/Cr/Pb/Ni by a prototype zeolite-containing anti-pollution cream
 
+## Overview
+
 This Materials paper evaluates an experimental zeolite-containing cosmetic cream (3 g zeolite per 100 g cream) as an anti-pollution topical formulation, using a Quality by Design (QbD) workflow and the Franz diffusion cell model to quantify in vitro adsorption and retention of five heavy metals (Cd, Co, Cr, Pb, Ni) from a 0.04 ppm spiked acidic metal solution. A 2 × 2 × 2 full factorial design (membrane type Strat-M® vs silicone; dosage 10 vs 20 mg; dosage regimen infinite vs finite) followed by a 12-cell physiological-conditions permeation study (Strat-M® + PBS pH 7.4; 32 ± 1 °C; 12 h) was applied. The zeolite formulation adsorbed Cr, Co, and Cd statistically significantly more than the placebo (one-way ANOVA p = 0.026, p < 0.001, p = 0.004 in Experiment 1; F(11) = 26.88, 127.4, 35.59 with p < 0.001 for Cr, Co, Ni in Experiment 2), while Pb and Ni patterns were less consistent (Pb p = 0.147 in Exp 1; F(11) = 4.6, p = 0.58 in Exp 2; Cd F(11) = 11.03, p = 0.08 in Exp 2). The optimal QbD operating window (composite desirability D = 0.89, ≈ 0.8851 in the run summary) was Strat-M® membrane + finite dosage regimen + 20 mg dosage. The authors estimate ≈ 23% of the observed adsorption is specifically attributable to zeolite (the remainder reflecting cream-matrix retention). This is in vitro proof-of-concept mitigation evidence, not contamination occurrence data; the "metal concentrations" reported throughout are residuals from a deliberately spiked donor solution.
 
 ## Key numbers
@@ -113,15 +115,15 @@ A prototype zeolite-containing cream (3% zeolite w/w, 17.3% lipophilic phase, he
   - CHECK 1 ⚠️ Cell 2A Cd typographic padding: wiki had "Cd 0.350"; PDF Table 4 prints "0.35" (no trailing zero). Verified — same value, only typographic fidelity. Corrected to "0.35" to match the printed cell exactly.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

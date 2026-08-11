@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Islam et al. (2007) review phytotoxic effects and bioaccumulation of Cd, Zn, Cu, Pb, and Al in four Asian leafy vegetables — Chinese cabbage (Brassica chinensis cv. Zao-Shu 5), winter greens (B. rosularis), pakchoi (B. chinensis), and celery (Apium graveolens var. dulce DC) — and compile soil heavy metal threshold values for "potential dietary toxicity" (PDT) derived from pot and nutrient-solution work at Zhejiang University. The principal numerical contributions are (i) soil extractable Cd thresholds of 0.869, 0.730, and 0.489 mg/kg for Chinese cabbage, winter greens, and celery, respectively, calculated against the Chinese food-hygiene limit of 0.05 mg/kg FW Cd in vegetables (GB N238-84); (ii) soil Zn and Cu PDT thresholds (total and DTPA-available) for the same four crops, against Chinese food limits of 20 mg/kg Zn and 10 mg/kg Cu; and (iii) accumulation-coefficient (AF = tissue/soil) tables showing celery as the most sensitive Cd accumulator in edible parts. The paper also reviews Al phytotoxicity (Al-based coagulants on Brassica seed germination) and surveys dietary intake estimates from European urban-garden studies (Lăcătuşu et al. 1996, Bahemuka & Mubofu 1999). Lead is discussed qualitatively only: the paper cites a 0.2 mg/kg edible-crop limit (Chinese Department of Preventive Medicine 1994) and notes that soil Pb thresholds for safe vegetable production "are not available". Cr and Hg are mentioned in the abstract as important environmental pollutants but no quantitative data are presented for either.
 
 ## Key numbers
@@ -160,15 +162,15 @@ Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which appeared in `rou
 - `## Methods (brief)` expanded to identify each primary study the review cites and to state limitations relevant to wiki use (narrative-review status, Chinese-soil-only context, GB-only food-side limits, no Cr/Hg quantification, no speciation work, Al-only-qualitative).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

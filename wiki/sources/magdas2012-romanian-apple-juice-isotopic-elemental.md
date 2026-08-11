@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Magdas et al. 2012 — Isotopic and elemental profile of Romanian organic apple juices
 
+## Overview
+
 This study characterized H, C, O stable isotope ratios and the concentration of nine elements (Cu, Cr, Ni, Zn, Pb, Co, As, Cd, U) in 31 organic single-strength apple juices from four Transylvanian regions of Romania (2010 harvest). The primary aim was building an authentic-value database for adulteration and authenticity testing of Romanian apple juice; the elemental occurrence data are presented as a parallel objective. Pb, Cd, total As, U, and Zn concentrations were below US-EPA drinking-water reference limits in every sample. Copper exceeded the 1000 µg/L drinking-water limit in one Alba sample (1224 µg/L). Chromium exceeded the 100 µg/L drinking-water limit in one Cluj sample (144.84 µg/L). Nickel exceeded the 40 µg/L drinking-water limit in some individual samples from Alba, Maramures and Cluj; the regional mean exceeded 40 µg/L only in Maramures (45.74 µg/L).
 
 ## Key numbers
@@ -114,15 +116,15 @@ No brand names appear in this paper (no commercial brands sampled — the 31 jui
 - [[products/fruit-juices-apple-containing]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

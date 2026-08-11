@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Gul 2022 - hazardous elements in low-priced Karachi plastic toys
 
+## Overview
+
 Gul and colleagues measured total metal concentrations of Pb, Cd, Ni, Zn, total Cr, Cu, and Mn in `44` low-priced children's plastic toys purchased from local markets in Karachi, Pakistan. The raw file is the Research Square version 1 preprint, which states that a version of record was published in *Environmental Science and Pollution Research* with DOI `10.1007/s11356-022-19362-0`. The routeable evidence is finished-toy total metal concentration in `mg/kg` for plastic toy substrate materials and plastic toys with paint or coatings; the paper compares those total concentrations with EU, U.S. CPSC, Canadian, and BIS toy limits but does not report a migration or bioaccessibility assay.
 
 ## Key numbers
@@ -140,3 +142,17 @@ App: If toy-material context is surfaced, this source can say that the Karachi l
 - Product slug note: DCT values route to `toys-substrate-materials`; DPCT values route to `toys-painted`. There is no separate matrix slug for non-food toy material, so `matrices` is intentionally empty.
 - Source-internal anomalies preserved: Table 4 reports Pb maximum `1190 mg/kg`, while Table 3 and the Results text list DPCT14 Pb as `1191 mg/kg`; Table 4 reports Cd maximum `459.01 mg/kg`, while Table 2 lists DCT11 Cd as `459`; Table 3 lists DPCT14 Cd as `09`. These are copied as the source renders them rather than normalized.
 - Evidence tier: `B` because the version of record is peer-reviewed and the study reports sample-level values and methods, but the local extracted PDF is the preprint version and the sample frame is a small local market survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

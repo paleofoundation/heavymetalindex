@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Chwastowski et al. 2020 - spent coffee grounds and biochar for metal adsorption
 
+## Overview
+
 Chwastowski and colleagues compared spent coffee grounds with activated spent-coffee-ground biochar as sorbents for Cd(II), Mn(II), and Pb(II) in prepared aqueous solutions. This is mitigation evidence, not coffee occurrence evidence: the source reports removal capacity from spiked water matrices and should not contribute to coffee product concentration pools.
 
 ## Key numbers
@@ -61,3 +63,17 @@ App: Context only. The paper does not support consumer-facing coffee contaminati
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Materials PDF. The auto-fetched filename is a coffee/cadmium gap hit, but the PDF measures adsorption from spiked aqueous solutions, not native metal occurrence in coffee. Products and ingredients are intentionally empty so the remediation values do not enter occurrence threshold calculations.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

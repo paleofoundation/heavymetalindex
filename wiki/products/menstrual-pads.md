@@ -14,13 +14,15 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Care), Row 2: **Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [menstrual-pads]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Care), Row 2: **Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [menstrual-pads]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +32,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA (medical devices for tampons/pads/cups), EU MDR, FDA cosmetics**.
 
@@ -102,23 +104,31 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 1 | [[sources/marcelis2025-micp-leachables-metals\|Marcelis et al. 2025]]. *Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation*, Environment International | 2025 | Peer-reviewed | EU/US/CN Li, Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sb, Ba, Pb, Sn, tHg occurrence in 64 menstrual and intimate care products originating from the EU, US, and China: tampons n=9, menstrual pads n=6,... (n=64) |
+| 2 | [[sources/nic-corcrain2025-menstrual-products-metal-leaching\|Nic 2025]]. *Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health*, Laidlaw Undergraduate Research and Leadership Programme poster | 2025 | Conference proceedings | Pb, tAs occurrence in Four menstrual products incubated in synthetic vaginal fluid for Pb and As leaching tests, plus a survey of... (n=4) |
+| 3 | [[sources/ma2024-sanitary-napkins-metals\|Ma et al. 2024]]. *Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products*, Environmental Technology & Innovation | 2024 | Peer-reviewed | CN/JP/KR tAs, Co, Cu, Pb, Cd, Zn, Ni, Cr occurrence in 56 sanitary-napkin composite samples from seven countries: China n=20, Japan n=6, South Korea n=6, United States n=6, United... (n=56) |
+| 4 | [[sources/marcelis2024-feminine-intimate-products-thesis\|Marcelis 2024]]. *Development of a generic safety assessment strategy for feminine intimate products*, PhD thesis, Vrije Universiteit Brussel | 2024 | Thesis | EU/US/CN Li, Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sb, Ba, Pb, Sn, tHg occurrence in PhD thesis built around a market survey of 64 feminine intimate products from the EU, US, and Asia/China:... (n=64) |
+| 5 | [[sources/marroquin2024-menstrual-products-chemicals\|Marroquin et al. 2024]]. *Chemicals in menstrual products: A systematic review*, BJOG: An International Journal of Obstetrics & Gynaecology | 2024 | Peer-reviewed | Marroquin et al. systematically reviewed studies that measured environmental chemicals in menstrual products or in biospecimens linked to menstrual-product use.... |
+| 6 | [[sources/upson2022-menstrual-products-exposure-review\|Upson et al. 2022]]. *Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective*, Current Environmental Health Reports 9(1):38-52 | 2022 | Peer reviewed review | US/SE/DK Cd, Pb, tHg occurrence in Narrative review of 23 studies measuring environmental chemicals in menstrual products plus 3 epidemiologic studies of menstrual-product use... (n=26) |
+| 7 | [[sources/gao2020-feminine-hygiene-edcs\|Gao et al. 2020]]. *Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure*, Environment International | 2020 | Peer-reviewed | Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The... |
+| 8 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 9 | [[sources/shin2009-womens-sanitary-products-metals\|Shin et al. 2009]]. *Determination of Heavy Metals in Sanitary Products of Women*, Journal of the Korean Society of Clothing and Textiles | 2009 | Peer-reviewed | KR/JP/US Cr, Co, Ni, Cu, Cd, Pb occurrence in Thirteen sanitary napkins and five tampons manufactured in Korea, Japan, the United States, Germany, and China; the Conclusion... (n=18) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

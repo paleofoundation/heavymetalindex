@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Si et al. 2024 — Nanomaterial-based detection of trace heavy metals in food
 
+## Overview
+
 Si and colleagues at Beijing University of Chemical Technology survey recent advances in nanomaterial-based analytical methods for detecting trace heavy-metal ions in food samples. The review is organized into three method classes — electrochemical, colorimetric, and fluorescent — and emphasizes nanomaterial-enabled sensors (metal-organic frameworks, MXenes, carbon dots, gold nanoparticles, single-atom nanozymes) as alternatives to conventional ICP-MS, AAS, and GC-MS for rapid on-site screening. The review is shorter and more recent than Meng et al. 2023, and it adds colorimetric and fluorescent modalities that Meng does not cover.
 
 ## Key numbers
@@ -131,19 +133,19 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - Removed v0 invented detail: (a) the claim of a "T-Hg²⁺-T DNA mismatch mechanism" for AuNP-aptamer Hg detection is not in this paper; the only AuNP-Hg sensors described are Hua et al. 2023 (chloroauric-acid reduction) and Bhattacharyya & Hossain 2024 (LGC-AuNPs), neither of which uses T-Hg²⁺-T mismatch chemistry. (b) The "AuNP-aptamer colorimetric system for Hg²⁺ in fish and tea: LOD ~0.5 µg/L" entry was invented — the cited AuNP Hg sensors are validated in drinking water at nM LODs. (c) The "Carbon dot fluorescent sensor for Cr³⁺/Cr⁶⁺ in water and food" entry conflated Cr species; the cited CD sensors (Zhang et al. 2023a) detect Cr(VI) only and only in drinking water. (d) The summary "MOF-based electrochemical sensor for Cd²⁺ and Pb²⁺ simultaneous detection in vegetables: LOD in the 0.01–0.1 µg/L range" approximated several distinct MOF sensors with different matrices and LODs; replaced by per-sensor tabular figures.
 - Brand firewall (Part 12): the review names no food brands. No firewall edits required.
 - Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. Edit direction: toward the literature (correcting away from invented detail), not toward HMTc convenience.
-- Speciation discipline (CLAUDE.md Part 14): Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
+- Speciation discipline: Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
 - Audit subagent (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in frontmatter metals — verified against `wiki/metals/iron.md` and added.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

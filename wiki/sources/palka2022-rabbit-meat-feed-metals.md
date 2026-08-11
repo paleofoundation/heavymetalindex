@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Palka et al. 2022 — Rabbit meat and liver metals after nettle or fenugreek feed supplementation
 
+## Overview
+
 Palka et al. measured Zn, Cu, Ni, Fe, Mn, Cd, and Pb in rabbit liver, rabbit loin meat, and the nettle-leaf or fenugreek-seed feed additives used in a controlled feeding trial. The source is direct occurrence evidence for rabbit meat and liver on a wet-weight basis, and mitigation/formulation context for herbal feed additives because the authors compared unsupplemented feed with 1% nettle or fenugreek inclusion.
 
 ## Key numbers
@@ -66,3 +68,17 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, authors, journal, publication date, and CC BY license are visible on the first page of the PDF. The auto-fetched filename contains `2023`, but the actual article was published in 2022 as Animals 12, article 827. A duplicate auto-fetched copy exists under the lead-targeted vitamin-mineral supplement filename; this page uses the cadmium-targeted copy as the canonical raw path.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

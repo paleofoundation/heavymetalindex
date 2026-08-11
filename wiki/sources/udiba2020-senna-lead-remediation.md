@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Udiba et al. 2020 - Senna obtusifolia lead remediation potential
 
+## Overview
+
 Udiba and colleagues evaluated whether wild *Senna obtusifolia* could phytoextract lead from contaminated soils in Dareta Village, Zamfara. This is in-scope a2 remediation evidence with paired plant-tissue and soil lead data.
 
 ## Key numbers
@@ -57,3 +59,17 @@ App: Context-only mitigation and exposure-warning evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because this is a remediation/contaminated-field paper rather than a market leafy-vegetable occurrence survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [5c30b59fa](https://github.com/paleofoundation/heavymetalindex/commit/5c30b59fa) | 2026-06-14 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Alblooshi 2025 — Perfumes and cosmetics human-health narrative review
 
+## Overview
+
 Open-access narrative review (Frontiers in Toxicology) synthesizing 2005–2025 literature on health risks of perfumes and cosmetic products across seven outcome domains: endocrine disruption, fertility, lung health and asthma, cancers (with sub-sections on hormone-mimicking chemicals, talc/asbestos, and heavy metals), allergies, skin disorders, and neurological effects. The review's heavy-metal evidence is concentrated in Section 3.4.3 (Heavy metals) and Table 1 (Common cosmetic contaminants), with additional regulatory framing in Section 3.9 and Table 2 (US/EU/Canada/ASEAN comparative regulatory frameworks) and a study-summary in Table 3. Numerical metal data are passed through from cited primary studies (Irfan et al. 2022 fairness-cream toxicology, Salles et al. 2023 costume cosmetics, Voica et al. 2023 facial cosmetics, Lim et al. 2018 Korean-market 200-product risk assessment); the review does not generate original occurrence measurements. Single-author manuscript with declared generative-AI assistance and no formal systematic-review protocol — useful as a 2025 framing and regulatory-comparison anchor, not as an authoritative occurrence source.
 
 ## Key numbers
@@ -121,15 +123,15 @@ Microbiome: Not addressed in the heavy-metal context. Section 3.5 (allergies) di
 - Correction note on the manuscript itself: "A correction has been made to this article. Details can be found at: 10.3389/ftox.2025.1713750." The corrected version (16 December 2025) is what is in `raw_path`; the correction notice does not flag any heavy-metal section as affected.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

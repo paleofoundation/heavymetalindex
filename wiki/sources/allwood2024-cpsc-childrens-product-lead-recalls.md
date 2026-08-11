@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Allwood et al. (2024) — Recently Recalled Children's Products Due to Lead Hazards
 
+## Overview
+
 This is a five-page review article (with one figure and one table) published in *Pediatrics* as part of a 2024 supplement (Suppl 2), authored by CDC Lead Poisoning Prevention and Surveillance Branch staff (Paul Allwood PhD; Perri Zeitz Ruckart DrPH; Qaiyim Harris). The paper describes the implementation of a CDC automated tool that monitors the US Consumer Product Safety Commission (CPSC) Really Simple Syndication (RSS) recall feed for the keyword "lead" and uses Microsoft Power Automate workflows to filter, log, and disseminate lead-related children's-product recall notices to public health partners. The authors then descriptively summarise the 30 lead-related children's-product recalls captured by the tool during June 2022 through April 2024, including product type, country of manufacture, time-on-market before recall, recall type (voluntary vs not), remedy offered, distribution scope, and injuries reported. The paper reports no primary contamination measurements; its contribution to the HMI corpus is as a contemporaneous CDC-authored regulatory-landscape paper documenting CPSC lead-recall activity for children's products in the two-year window immediately following the 2022 wave of cinnamon-applesauce and toddler-cup CPSIA actions.
 
 ## Key numbers
@@ -95,15 +97,15 @@ Surveillance review of secondary regulatory data. The CDC Childhood Lead Poisoni
 - **Audit subagent application (2026-06-01).** Fresh-context audit subagent (general-purpose Opus 4.7) returned verdict REVISE with four findings, all verified against the source and applied: (1) Distribution-scope "6%" cross-attribution corrected — the source's "6%" attaches to the lead-solder hazard sentence (p. 3), not to the two non-nationwide products; the Distribution-scope key-numbers bullet now states only the 28/30 (93%) nationwide figure, and the hazard-mechanism bullet retains the "6%" with the unstated-denominator caveat. (2) Table 1 title date discrepancy added to the source-internal-arithmetic verification note — Table 1 caption reads "June 2022 Through May 2023" while body text consistently states June 2022 through April 2024. (3) Certification-implications paragraph softened from prescriptive ("HMTc product-category coverage should at minimum extend to…") to descriptive (the paper documents recalls in CPSC categories that map to these HMTc taxonomy slugs). (4) The "HMTc programmes operating on a faster pre-market certification cadence … provide the missing front-of-pipeline filter" sentence removed — it was wiki-side HMTc advocacy not present in the source. Zero subagent findings were false positives; zero findings rejected. Check 2 (slug vocabulary), Check 3 (speciation/methods), and Check 4 (Part 12 brand firewall) returned clean. Audit-application commit appended after this revision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

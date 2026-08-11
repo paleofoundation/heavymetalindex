@@ -2,15 +2,15 @@
 source_page: wiki/products/diapers-and-components.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 49b601d995c5c102f3b5cc001d18c7b22bba09e0fcbbefd03b31ac03f38b3212
+source_page_sha256: 3cdb205e4bd9620782f76d0d655df125e3b394e0a816c311c39642e78ae2e8c1
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=c62f24fb-fee9-404b-ac2c-a6bb5c1383ff` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-contact-products-standard-build] · agreement=not_applicable · applied=2026-08-10T11:03:12.864Z · span=cat9-step0-lock-flags
+- `edit_id=aac13fa6-362e-46b2-a7c9-880f6339a56e` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-not-material-integrity-fix] · agreement=not_applicable · applied=2026-08-10T14:45:22.410Z · span=cat9-scope-note
 
 ## Claims by section
 

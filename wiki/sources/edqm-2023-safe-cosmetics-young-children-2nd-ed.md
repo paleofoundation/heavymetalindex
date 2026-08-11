@@ -35,6 +35,8 @@ updated: 2026-06-02
 
 # EDQM 2nd edition — safety-assessment guidance for cosmetic products intended for children under three (operationalises EU Reg. 1223/2009 Annex I §3)
 
+## Overview
+
 This is the European Directorate for the Quality of Medicines & HealthCare (EDQM) 2nd edition guidance for manufacturers and safety assessors of cosmetic products intended for infants, defined throughout the document as any child under the age of three. It is published by the Council of Europe and structured in two parts. Part I reproduces Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants, adopted by the Committee of Ministers on 14 March 2012 (1137th meeting of the Ministers' Deputies). Part II is the technical guidance document approved by the European Committee for Cosmetics and Consumer Health (CD-P-COS) for the 2nd edition, replacing the 2012 1st edition. Its relevance to Heavy Metal Index is structural and toxicological rather than empirical. The document reports no measured contamination values from a market survey; it sets out the criteria a competent safety assessor is expected to apply when evaluating a cosmetic product for the under-three age group, the physiological characteristics and behaviours of infants that drive higher exposure, and ingredient-class recommendations (fluoride, terpenes, sun-protection filters, nanomaterials, endocrine disruptors). The document operates as the Council of Europe / EU operational counterpart to EU Cosmetics Regulation 1223/2009 Annex I Part B §3, which requires "inter alia a specific assessment for cosmetic products intended for use on children under the age of three." Updates from the 1st edition include a new nanomaterials section, expanded coverage of endocrine disruptors, alignment of margin-of-safety calculations with SCCS Notes of guidance 12th revision (SCCS/1647/22), updated fluoride recommendations consistent with the 2019 European Academy of Paediatric Dentistry guideline, and explicit treatment of impregnated baby wipes. Heavy metals appear as a class throughout the document: as Annex II prohibited substances under EU Reg. 1223/2009 whose trace-level presence in finished cosmetics must be justified as technically unavoidable in GMP (Article 17), as named developmental toxicants where the document calls out inorganic lead (Pb) and organic mercury as substances "demonstrated to affect neural development over the entire period from conception to young adulthood," as named immunotoxicants where lead is cited as "an example of a substance with a disruptive effect on the immune system of infants," and as endocrine/growth-axis hazards where "lead and other heavy metals" are identified as substances that may affect growth-hormone-stimulated epiphysial cartilage with resulting growth disorders. The foreword additionally cites OCCL (Official Cosmetics Control Laboratories) European-network market surveillance findings that "banned ingredients (including colorants, preservatives and lead), as well as high concentrations of allergens and impurities (including nitrosamines)" were detected in surveys of so-called 'kids' cosmetics, raising the case for continued due-enforcement effort.
 
 ## Key numbers
@@ -73,7 +75,7 @@ This factor enters the dermal-exposure dose calculation directly: the same appli
 
 The document does not measure heavy-metal concentrations in any product or class of products. It cites heavy metals by name as developmental and systemic hazards relevant to infant safety assessment, with cross-reference to a single reviewing source (Wolterink et al., RIVM report 320012001, 2007):
 
-- Inorganic lead (Pb) and organic mercury named alongside ethanol and vitamin A as "neurotoxic substances ... demonstrated to affect neural development over the entire period from conception to young adulthood" (p. 22, nervous-system subsection of Organs and systems in development).
+- Inorganic lead (Pb) and organic mercury named alongside ethanol and vitamin A as "neurotoxic substances... demonstrated to affect neural development over the entire period from conception to young adulthood" (p. 22, nervous-system subsection of Organs and systems in development).
 - Lead (Pb) named as "an example of a substance with a disruptive effect on the immune system of infants" (p. 23, immune-system subsection).
 - "Lead and other heavy metals" identified as substances that "may affect" the growth of epiphysial cartilage stimulated by growth hormone produced in the hypophysis, "resulting in growth disorders" (p. 24, endocrine-system subsection).
 - OCCL (European Network of Official Cosmetics Control Laboratories) market-surveillance surveys cited in the Foreword (p. 6) found "banned ingredients (including colorants, preservatives and lead), as well as high concentrations of allergens and impurities (including nitrosamines)" in 'kids' cosmetics. No quantitative occurrence figure is provided in the EDQM document itself; the document treats these findings as evidence that continued OCCL surveillance and enforcement are warranted.
@@ -153,7 +155,7 @@ Jurisdiction: the document is binding (qua Resolution) on the States Parties to 
 ## Pages updated
 
 - [[sources/eu-2009-1223-cosmetic-products-regulation]] — the EU 1223/2009 page's existing forward-reference to this document (previously demoted to plain prose pending REG-007 ingest) can now be re-linked as a proper wikilink in a future revision of that page. Not modified in this ingest per skill v2 Phase 1 scope.
-- Regulation hub page for CM/ResAP (2012) 1 / EDQM 2nd edition does not yet exist. Per CLAUDE.md Part 10, regulation pages are created at first encounter; this source-page ingest surfaces the proposal but does not author the regulation page itself (Karen's Step 0 / regulation-hub workflow).
+- Regulation hub page for CM/ResAP (2012) 1 / EDQM 2nd edition does not yet exist. Regulation pages are created at first encounter; this source-page ingest surfaces the proposal but does not author the regulation page itself (Karen's Step 0 / regulation-hub workflow).
 
 ## Sources
 
@@ -179,15 +181,15 @@ Audit subagent (2026-06-02, fresh-context general-purpose Agent) returned verdic
 No content changes were applied as a result of the audit. The PROMOTE verdict stands.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

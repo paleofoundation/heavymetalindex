@@ -12,6 +12,8 @@ sources: 0
 
 # Packaging and storage mitigation
 
+## Overview
+
 Packaging-and-storage mitigation is the post-formulation lever that controls heavy-metal migration from food-contact materials into finished product across the supply chain. Unlike agronomic or processing interventions, packaging-and-storage mitigation does not address contamination that arrived with the raw material — it controls contamination that the packaging itself introduces, or that storage conditions accelerate.
 
 The dominant pathways: tin migration from tinplate cans into acidic foods, lead from soldered seams on legacy can stocks, cadmium and chromium from pigments in printed flexible packaging, aluminum from foil and rigid containers (especially with acidic or salty foods), and trace metals migrating from ceramic glazes, plastic additives, and printed paperboard.
@@ -53,3 +55,17 @@ A finished-product Sn result above the canned-foods limit is almost always a pac
 ## Sources
 
 *Source-grounded magnitude data for each packaging-and-storage intervention is pending the corresponding ingest passes. Priority promotion candidates include the Codex Code of Practice for canned foods (CAC/RCP 60-2005), FDA Compliance Policy Guide 545.450 (lead in ceramics), EU JRC migration testing reports, and primary-literature studies on tinplate corrosion kinetics as a function of food pH and storage temperature.*
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-04
 
 # Rüstemli & Tuncay 2026 — Mineral and Heavy Metal Content in Canned Tuna by Packaging Medium (Van Province, Türkiye)
 
+## Overview
+
 Rüstemli and Tuncay measured 15 elements (Mg, Al, P, K, Ca, Cr, Mn, Fe, Cu, Zn, As, Se, Sn, Hg, Pb) plus Co, Ni, Sr, and Ba in 105 canned tuna samples from the Turkish market, with three equal-size groups (n=35 each) of water-packed, oil-packed, and sauce-packed product. Samples were drawn from seven domestic Turkish brands sold in Van Province in September–November 2022. Analysis was by ICP-MS (Agilent 7800) after microwave-assisted nitric acid digestion, with method accuracy verified against DORM-4 Fish Protein certified reference material (recoveries 95–102%). Arsenic was reported as total arsenic only — no inorganic/organic speciation was performed — and mercury was reported as total mercury with no methylmercury speciation. The headline finding is that oil-packed product carried substantially higher concentrations of nearly every element measured (essential and toxic) than the water- and sauce-packed product, with mercury exceeding the Turkish Food Codex 1.0 mg/kg limit in 5.71% of samples (concentrated in oil-packed) and total arsenic exceeding the FAO/WHO 1.0 mg/kg guideline in 74–100% of samples across packaging types.
 
 ## Key numbers
@@ -141,12 +143,15 @@ Brand identities were withheld by the authors for ethical reasons; no brand name
 The CRM is referred to in the abstract as "DORM-4 Fish Protein" and in the references as "DORM-4 Fish protein certified reference material (Willie et al. 2012)"; the methods text describes it as "DORM-4 Fish Protein Certified Reference Material (NRCC)." All three are the same NRCC material; the page uses "DORM-4 Fish Protein" per the abstract.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

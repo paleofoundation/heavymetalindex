@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Cheyns et al. 2021 - arsenic species in algae and cyanobacteria supplements
 
+## Overview
+
 Cheyns and colleagues measured total arsenic and selected arsenic species in 33 algae- or cyanobacteria-based food supplements purchased in Belgium. The source is directly relevant to algae/seaweed supplement occurrence because it reports sample-level total As, inorganic As, DMA, arsenobetaine, recommended dose, and exposure estimates. All sample results are reported on a whole-weight, product-as-sold basis.
 
 ## Key numbers
@@ -107,3 +109,17 @@ This source provides a primary, sample-level occurrence dataset for algae and cy
 - Speciation check: `Astot` is recorded as total arsenic; `Asi` is the source's measured inorganic arsenic fraction after extraction/oxidation; DMA and AB are not collapsed into total or inorganic arsenic. The `Astot-AB` metric is the source's potentially toxic fraction, not a measured inorganic-arsenic value.
 - Brand firewall: the page retains only anonymized source sample IDs (FS1-FS33) and species/formulation categories; no brand names or retailer names are attached to values.
 - Missing-slug note: the taxonomy snapshot has no exact ingredient slugs for `Chlorella`, `Spirulina`, `cyanobacteria`, `Ascophyllum`, `Fucus`, `Macrocystis`, or `Lithothamnium`. Frontmatter uses broad existing `seaweed`, `herbal-botanicals`, `supplements-algae-seaweed-based`, and `dietary-supplements` slugs; exact organism names remain in source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

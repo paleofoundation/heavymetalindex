@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Nurhidayanti and Riyadi 2024 - Coffee-ground chitosan cadmium adsorption
 
+## Overview
+
 Nurhidayanti and Riyadi modeled cadmium adsorption onto a combined chitosan and coffee-ground activated-carbon adsorbent. This is in-scope remediation evidence because it measures cadmium removal from industrial wastewater; it is not coffee occurrence evidence and should not be used as a food or beverage concentration source.
 
 ## Key numbers
@@ -100,3 +102,17 @@ App: Context only. The source can support remediation-pathway notes for cadmium 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a coffee-ground adsorbent paper as out of scope because it was not coffee occurrence. On reading, it is in-scope lane a2 mitigation/remediation because it reports cadmium-removal values from industrial wastewater.
 
 Numbers were checked against the abstract, introduction, methods, Figure 3 prose, Tables 1-3, and conclusion in the extracted PDF text. Units are preserved as printed. The paper uses only cadmium as the primary measured heavy-metal removal target; other elements in SEM-EDX are adsorbent-characterization results and are not treated as occurrence values. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

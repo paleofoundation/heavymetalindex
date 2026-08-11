@@ -12,6 +12,8 @@ created_by: cat2_step0_alignment
 
 # Advisory: Skin-Lightening Products
 
+## Overview
+
 This is an advisory page, not a product-category page. Skin-lightening creams, lotions, and soaps are out of scope for the HMT&C Children's Personal Care (Category 2) program by design. This page exists to explain why, to record what the peer-reviewed literature shows, and to direct readers to the agencies that regulate this product class.
 
 ## Why this category is out of scope for HMT&C Cat 2

@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Babeker 2025 — Heavy metals and microbial profile of Sudanese carbonated soft drinks and fruit-flavoured beverages, Khartoum
 
+## Overview
+
 This Sudanese single-laboratory study analysed twenty non-alcoholic beverages (eleven carbonated soft drinks and nine fruit-flavoured beverage products) from five Sudanese bottlers in Khartoum for five heavy metals (Pb, Cd, Fe, Cu, Cr) by flame atomic absorption spectroscopy and for microbial contamination (total aerobic plate count, total yeast/mould, *E. coli*, *Salmonella*) by membrane-filtration culture, compared against the WHO 2011 limit references the authors cite (Pb 0.01 ppm, Fe 0.3 ppm, Cu 2.0 ppm, Cd 0.003 ppm, Cr 0.05 ppm). Cadmium, copper, chromium were below detection in every sample; iron was below detection in every carbonated soft drink and detected in six of nine fruit-flavoured beverages (all below the 0.3 ppm limit). Lead was the only metal exceeding a cited limit: detected above 0.01 ppm in four of eleven carbonated soft drinks (0.016–0.066 ppm) and in one of nine fruit-flavoured beverages (0.013 ppm); detected below 0.01 ppm in two further fruit-flavoured beverages. All twenty samples were negative for total aerobic count, total yeast/mould, *E. coli*, and *Salmonella*. The auto-discovery filename labelled this paper as a cadmium-in-soft-drinks finding; in fact Cd was below detection across the entire sample, and the binding result of the study is lead occurrence in branded carbonated beverages from the Sudanese bottling sector.
 
 ## Key numbers
@@ -110,15 +112,15 @@ Speciation: paper measured total Cr without hexavalent-vs-total separation, so `
 Matrices `carbonated-soft-drink` and `fruit-flavoured-soft-drink` are descriptive provisional matrix slugs; the canonical product route is `products/soft-drinks-carbonated-beverages` (which exists). Geographic context (Sudan, Khartoum) lives in `jurisdictions:` and `sampling_locations:` rather than as a matrix slug. The paper does not separate carbonated from still beverages within the "beverages" column of Table 2; the fruit-flavoured beverages are treated by the Sudanese soft-drink industry under the same product category framing and route to the same wiki product page. `ingredients:` is empty because the paper analyses finished-beverage matrix only and does not decompose into water, sweetener, flavouring, or fruit-juice ingredients; an empty array is consistent with this being a finished-product occurrence study at the product-form level.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [985d580bf](https://github.com/paleofoundation/heavymetalindex/commit/985d580bf) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

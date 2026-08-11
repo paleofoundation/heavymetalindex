@@ -19,8 +19,12 @@
  *     them; regenerating with sweep would have lost them on 235 pages.) A cell
  *     with no value — pending / data gap — shows no sources.
  *
- * Output: regenerated 6-column table (Analyte | Coverage | Typical | p95 |
- * Confidence | Key sources). Legacy 5-column tables are normalised to 6 columns.
+ * Output: regenerated 5-column table (Analyte | Coverage | Typical | Confidence |
+ * Key sources). The per-page tail percentile (p95) is staff-side per the
+ * percentile-arithmetic firewall (CLAUDE.md Part 19; docs/schema-history.md
+ * 2026-05-16) and MUST NOT surface on the public page; the p95_ppb frontmatter
+ * field remains for app/workbench consumers. Legacy 6-column tables (a regression
+ * this generator previously introduced) are normalised back to 5 columns.
  *
  * Usage:
  *   node tools/build-ingredient-contamination-tables.mjs            # report only
@@ -31,6 +35,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { randomUUID } from "node:crypto"
+import matter from "gray-matter"
 
 const INGREDIENTS_DIR = path.join(process.cwd(), "wiki/ingredients")
 const AUDIT_LOG = path.join(process.cwd(), "data/evidence/wiki_edit_audit.jsonl")
@@ -39,8 +44,8 @@ const HEADING = "Heavy metal contamination profile"
 const APPLY = process.argv.includes("--apply")
 const CHECK = process.argv.includes("--check")
 
-const HEADER = "| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |"
-const SEP = "|---------|----------|---------------|-----------|------------|-------------|"
+const HEADER = "| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |"
+const SEP = "|---------|----------|---------------|------------|-------------|"
 
 let scanned = 0
 let changed = 0
@@ -124,43 +129,42 @@ function buildTable(cp, existingSources) {
     const c = cp[metal] || {}
     const coverage = renderCoverage(c)
     const typical = renderTypical(c.typical_ppb)
-    const p95 = renderScalar(c.p95_ppb)
     const confidence = renderScalar(c.confidence)
     const hasValue = typical !== "—"
     const sources = hasValue ? existingSources[metal] || "—" : "—"
-    lines.push(`| ${metal} | ${coverage} | ${typical} | ${p95} | ${confidence} | ${sources} |`)
+    lines.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }
   return lines.join("\n")
 }
 
+// Parse the frontmatter contamination_profile with a real YAML parser. This
+// MUST handle both block style (Pb:\n    status: ...) and flow style
+// (Pb: { status: ..., typical_ppb: [10, 130] }) — the hand-rolled regex this
+// replaced only matched block style, so every flow-style page silently rendered
+// an all-dashes table while its frontmatter was fully populated (the bug that
+// made e.g. black-pepper read as "100% gap" on the site).
 function extractContaminationProfile(content) {
-  const fm = content.match(/^---\n([\s\S]*?)\n---\n/)[1]
-  const cpStart = fm.indexOf("contamination_profile:")
-  if (cpStart < 0) return {}
-  const after = fm.slice(cpStart)
-  const endRel = after.slice("contamination_profile:".length).search(/\n[A-Za-z][A-Za-z0-9_]*:/)
-  const block = endRel < 0 ? after : after.slice(0, "contamination_profile:".length + endRel)
-  const cp = {}
+  let data
+  try {
+    data = matter(content).data || {}
+  } catch {
+    return {}
+  }
+  const cp = data.contamination_profile
+  if (!cp || typeof cp !== "object") return {}
+  const out = {}
   for (const metal of METALS) {
-    const m = block.match(new RegExp(`\\n  ${escapeRegex(metal)}:\\n([\\s\\S]*?)(?=\\n  [A-Za-z]|$)`))
-    if (!m) continue
-    const b = m[1]
-    cp[metal] = {
-      status: field(b, "status"),
-      typical_ppb: field(b, "typical_ppb"),
-      p95_ppb: field(b, "p95_ppb"),
-      confidence: field(b, "confidence"),
-      n_studies: field(b, "n_studies"),
+    const c = cp[metal]
+    if (!c || typeof c !== "object") continue
+    out[metal] = {
+      status: c.status ?? null,
+      typical_ppb: c.typical_ppb ?? null,
+      p95_ppb: c.p95_ppb ?? null,
+      confidence: c.confidence ?? null,
+      n_studies: c.n_studies ?? null,
     }
   }
-  return cp
-}
-
-function field(block, key) {
-  // The first sub-block field (status) has no leading newline in the captured
-  // block, so anchor on start-or-newline, not newline alone.
-  const m = block.match(new RegExp(`(?:^|\\n)[ \\t]*${escapeRegex(key)}:\\s*([^\\n]*)`))
-  return m ? m[1].trim() : null
+  return out
 }
 
 function extractKeySources(tableText) {
@@ -183,21 +187,37 @@ function renderCoverage(c) {
   if (!c.status) return "—"
   if (c.status === "pending") return "pending"
   if (c.status === "in_progress") return `n=${c.n_studies} (in progress)`
-  if (c.status === "populated") return c.n_studies === "0" ? "data gap" : `n=${c.n_studies}`
+  if (c.status === "populated") return Number(c.n_studies) === 0 ? "data gap" : `n=${c.n_studies}`
   return "—"
 }
 
+// typical_ppb arrives as a parsed YAML value: an array [a, b], possibly with
+// null endpoints, or null. (Legacy string forms are tolerated for safety.)
 function renderTypical(raw) {
-  if (!raw || /^\[null,\s*null\]$/.test(raw)) return "—"
-  const m = raw.match(/^\[\s*([^,]+),\s*([^\]]+)\]$/)
-  if (!m) return raw
-  const a = m[1].trim()
-  const b = m[2].trim()
-  if (a === "null" && b === "null") return "—"
-  if (a === "null") return `up to ${b}`
-  if (b === "null") return a
-  if (a === b) return a
+  if (raw === null || raw === undefined) return "—"
+  let a, b
+  if (Array.isArray(raw)) {
+    ;[a, b] = raw
+  } else {
+    const m = String(raw).match(/^\[\s*([^,]+),\s*([^\]]+)\]$/)
+    if (!m) return String(raw)
+    a = normNum(m[1])
+    b = normNum(m[2])
+  }
+  const aNull = a === null || a === undefined
+  const bNull = b === null || b === undefined
+  if (aNull && bNull) return "—"
+  if (aNull) return `up to ${b}`
+  if (bNull) return `${a}`
+  if (a === b) return `${a}`
   return `${a}–${b}`
+}
+
+function normNum(s) {
+  const t = String(s).trim()
+  if (t === "null" || t === "") return null
+  const n = Number(t)
+  return Number.isNaN(n) ? t : n
 }
 
 function renderScalar(v) {

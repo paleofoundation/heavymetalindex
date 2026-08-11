@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Sultan et al. 2023 — Potentially hazardous element leaching from cookware
 
+## Overview
+
 Sultan and colleagues measured elemental composition of locally made aluminum, stainless-steel, and copper cookware from Pakistan and tested metal release under acidic, alkaline, neutral-water, and cooked-meat conditions. The source is direct product evidence for metal-alloy cookware and leaching-context evidence for food-contact exposure. It should not be treated as a nonstick-coating paper merely because the auto-fetch row used that label.
 
 ## Key numbers
@@ -65,3 +67,17 @@ App: Can support consumer-context warnings that acidic foods and longer cooking 
 - The auto-fetch row identified the paper through a nonstick-coated cookware query, but the actual study covers aluminum, stainless-steel, and copper cookware. The route uses `cookware-metal-alloy`.
 - Chromium is total chromium from XRF/AAS methods; no Cr-VI value is inferred.
 - Blood-serum values are retained as exposure context only because the paper did not isolate cookware as the sole exposure route.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

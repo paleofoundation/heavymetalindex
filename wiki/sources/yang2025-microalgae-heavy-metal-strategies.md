@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Yang et al. 2025 — Microalgal strategies against heavy-metal toxicity (Microorganisms narrative review)
 
+## Overview
+
 Yang and colleagues review biochemical, additive, genetic, strain-selection, and immobilization strategies by which microalgae remove heavy metals (HMs) from contaminated water while continuing to produce biomass. The review covers two principal removal modes — passive biosorption (metabolism-independent, fast, dead-or-live biomass) and active bioaccumulation (metabolism-dependent, slow, live cells only) — and surveys exogenous chemical additives (organic acids, dissolved organic matter, sulphate, phosphate, nitric-oxide donors, salicylic acid, fulvic acid), transgenic strategies (metallothionein and metal-tolerance-protein over-expression, mercuric-reductase MerA expression, surface-displayed MerR), microalgal strain selection for acid-tolerance and metal-tolerance phenotypes, immobilization carriers (alginate, biopolymer films, pine sawdust, biochar-algae complexes, dielectrophoresis-assisted devices), and coupled HM-bioremediation/biofuel-production systems. The scope is wastewater bioremediation and algal biotechnology, not food or supply-chain contamination; HMI relevance is restricted to (a) mechanistic vocabulary for any future microalgae-and-metal microbiome page, and (b) the table inventory of microalgae × heavy-metal removal efficiencies, which restates primary-literature figures the chapter itself does not re-measure. Evidence tier C; cite as a leads document only.
 
 ## Key numbers
@@ -179,11 +181,15 @@ The review does not provide primary contamination data on any food matrix, ingre
 - Audit subagent (2026-06-02, ingest-next-manual-fetch-pdf v2 skill) flagged that the Table 2 *Chlorella pyrenoidosa* / Cu row originally compressed three additive rows into "87–88%"; verified against PDF p. 7 Table 2 — citric acid 81%→87%, fulvic acid 81%→87%, humic acid 81%→88%. Split into three rows for full fidelity.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

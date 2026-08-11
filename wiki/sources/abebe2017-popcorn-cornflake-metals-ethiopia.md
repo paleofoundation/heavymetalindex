@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Abebe et al. 2017 — Essential and toxic metals in Ethiopian popcorn and cornflake
 
+## Overview
+
 Flame and graphite-furnace atomic absorption spectrometry quantified 13 metals (K, Na, Mg, Ca, Cr, Mn, Fe, Co, Ni, Cu, Zn, Pb, Cd) in popcorn from an Addis Ababa open market and in cornflakes imported from Egypt and sold in Addis Ababa supermarkets. Popcorn was prepared by the traditional Ethiopian oil-popping method prior to digestion; cornflakes were analysed as purchased. Cd and Ni were below detection in both products. Pb was measurable in both — 0.94 ± 0.29 mg/kg in popcorn and 0.36 ± 0.03 mg/kg in cornflake. The paper itself compares Pb intake only to FAO/WHO PTWI-derived tolerable upper limits; this wiki page also notes (as a wiki-side regulatory crosswalk, not as the paper's own comparison) that both values sit above the EU 2023/915 general-cereal ceiling of 0.10 mg/kg (excluding wheat, barley, oat, rye, rice). Total Cr was 0.68 ± 0.09 mg/kg (popcorn) and 0.30 ± 0.07 mg/kg (cornflake). Sample sizes are small (n=8 total composites) and the study is a single-market regional survey; B-tier evidence.
 
 ## Key numbers
@@ -100,15 +102,15 @@ This page was merge-enhanced on 2026-05-29 against the original PDF (raw/Manual 
 - **Fresh-context audit applied (2026-05-29).** Subagent verdict: REVISE. All three concerns applied: (1) matrices vocabulary flagged as proposed additions; (2) Ca cornflake Table-1-vs-Table-5/8 discrepancy resolved via Table 8 arithmetic and documented; (3) EU 2023/915 crosswalk now explicitly attributed to the wiki, not to the paper (which compares only to FAO/WHO PTWI). Numerical-fidelity check returned ✅ on every Key-numbers value; speciation/methods check returned ✅; Part 12 brand firewall check returned ✅.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [8753cfb15](https://github.com/paleofoundation/heavymetalindex/commit/8753cfb15) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Buba et al. 2020 - domestic pig metals in Nigeria
 
+## Overview
+
 Buba and colleagues measured lead, iron, cadmium, nickel, and copper in domestic pig kidney, liver, and muscle samples purchased from ten commercial sellers in Guyuk Metropolis, Adamawa State, Nigeria. The paper reports tissue means in `mg/g` after drying, ashing, acid digestion, and AAS analysis. The units and tissue labels are preserved as printed; no conversion to `mg/kg` was performed.
 
 ## Key numbers
@@ -70,3 +72,17 @@ App: The source can support Nigeria pork-product context for Pb, Fe, Cd, Ni, and
 - Speciation: the source reports total Pb, Fe, Cd, Ni, and Cu by AAS; no arsenic, mercury, or chromium speciation is involved.
 - Brand firewall: the source identifies commercial sellers in aggregate and does not name brands or sellers. No brand or seller-specific contamination values are reported here.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `meat`, `organ-meats`, and `pork-product`; it lacks exact pork kidney/liver/muscle ingredient slugs, so tissue names remain matrix descriptors rather than invented ingredient/product links.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

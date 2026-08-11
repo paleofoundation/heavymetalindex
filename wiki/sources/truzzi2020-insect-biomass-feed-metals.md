@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Truzzi et al. 2020 - potentially toxic elements in insect biomass and coffee-silverskin substrates
 
+## Overview
+
 Truzzi et al. tested whether black soldier fly prepupae grown on coffee-silverskin substrates enriched with microalgae could remain chemically suitable as feed or food biomass. The study measured Cd, Pb, total Hg, total As, and Ni in substrate ingredients, formulated growth substrates, prepupae, and frass. Coffee silverskin had low Cd, Pb, total As, and total Hg, while black soldier fly prepupae bioaccumulated Cd, Pb, and total Hg but remained within the EU undesirable-substance limits evaluated by the authors.
 
 ## Key numbers
@@ -62,3 +64,17 @@ App: The paper supports supply-chain context around coffee silverskin and insect
 - The paper reports arsenic as total As and mercury as total Hg; this page uses tAs and tHg and does not infer inorganic arsenic or methylmercury.
 - The auto-fetched filename is a coffee gap hit, but the routeable matrix is coffee silverskin as an insect-rearing substrate plus insect biomass, not brewed coffee.
 - Products are intentionally empty because this source does not measure a named consumer product row; it is supply-chain/feed-ingredient evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

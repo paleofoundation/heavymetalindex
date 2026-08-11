@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Green Seal 2020 - GS-51 laundry care products standard
 
+## Overview
+
 Green Seal GS-51 Edition 1.6 is a voluntary environmental certification standard for industrial and institutional laundry care products. It is not an occurrence study and reports no measured product concentrations, but it gives routeable regulatory context for laundry detergents, laundry additives, fabric softeners, prewash/stain-removal products, anti-static products, fabric refreshers, anti-wrinkle products, starch/sizing/fabric-finish products, and fabric protectants. Its heavy-metal relevance is limited to binary intentional-addition prohibitions in formulated products and a `100 ppm` sum ceiling for four metals in packaging.
 
 ## Key numbers
@@ -92,3 +94,17 @@ App: The source can support a laundry-product regulatory context card where HMI 
 - Evidence tier: `B` because this is a binding third-party voluntary certification standard with routeable regulatory context but no primary occurrence data.
 - Missing slug note: selenium is named in the product prohibited-components and colorants clauses, but no selenium metal page exists in the current taxonomy snapshot. It is preserved in Key numbers rather than linked through a non-existent slug.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `11` laundry/fabric-contact product routing rows, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

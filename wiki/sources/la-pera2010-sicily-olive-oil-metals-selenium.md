@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # La Pera et al. 2010 — Heavy metals and selenium in Sicilian virgin olive oils, by cultivar and crop year
 
+## Overview
+
 La Pera and colleagues quantified Pb, Cd, Cu, Zn, and Se by derivative stripping chronopotentiometry in 49 virgin olive oils representing three Sicilian cultivars (Nocellara del Belice, Biancolilla, Cerasuola) across two crop years (2000 and 2001), then used canonical discriminant analysis to test whether metal and selenium fingerprints can classify oils by cultivar. Cadmium was below the limit of detection (<0.5 µg/kg) in every sample across both crop years; Pb means ranged from 26–50 µg/kg, well below the EC 466/2001 limit of 100 µg/kg for olive oil; Zn was the most abundant trace element measured (mean 162–335 µg/kg). The discriminant model classified 95.2% of 2000 samples and 85.7% of 2001 samples to their cultivar of origin, with Se and Cu contributing most to the discrimination — evidence that cultivar/geographic provenance fingerprinting from heavy-metal and selenium signatures is feasible for Sicilian PDO oils.
 
 ## Key numbers
@@ -113,15 +115,15 @@ All concentrations are in **µg/kg (= ppb) on a whole-oil basis** as reported in
 - **Regulation page reference.** EC 466/2001 is cited by the paper as setting Pb at 0.1 mg/kg for olive oil; the wiki regulation slug `eu-466-2001-contaminants-superseded` is the correct (now-superseded) referent. The current EU regulation on Pb in olive oil is captured separately and is outside this paper's scope.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

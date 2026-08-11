@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Murtaza et al. 2025 - Biochar and selenium nanoparticle mitigation of lead in barley
 
+## Overview
+
 Murtaza and colleagues tested Broussonetia papyrifera-derived biochar and selenium nanoparticle treatments in lead-polluted saline field plots planted with barley. This is mitigation evidence for soil-to-crop lead reduction: it reports extractable soil Pb and barley root, shoot, and seed Pb under amendment treatments, but it should not be pooled as ordinary product occurrence data.
 
 ## Key numbers
@@ -92,3 +94,17 @@ Courses: Strong example for keeping remediation percentages separate from source
 This page was built from the full PDF text, with numerical transcription from the abstract, experimental design, biochar characterization, Pb measurement methods, Table 4, and the accumulation/translocation results text. Products and ingredients are intentionally empty because the paper is a field mitigation trial, not market-sampled barley or supplement occurrence evidence. The source reports total elemental water-screening values without arsenic, mercury, or chromium speciation; frontmatter therefore uses tAs and tHg where the source labels only arsenic or Hg.
 
 The printed BP-BC root-reduction range, 38.40-4.70%, is retained as a source-reported value but flagged as internally inconsistent because Table 4 root Pb values fall from 3.01 ug/g at 0 t/ha to 1.90 and 1.40 ug/g at 5 and 10 t/ha.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

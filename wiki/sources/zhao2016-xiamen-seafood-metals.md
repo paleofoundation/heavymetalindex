@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zhao 2016 - Xiamen seafood metals
 
+## Overview
+
 Zhao and colleagues paired a Xiamen adult seafood-consumption survey with market sampling of fish, mollusks, crustaceans, and algae. The occurrence component measured lead, cadmium, chromium, total mercury, and total arsenic in 156 samples of 14 seafood types. The paper uses assumed methylmercury and inorganic-arsenic fractions for risk calculations, but the analytical occurrence table reports total Hg and total As only.
 
 ## Key numbers
@@ -75,11 +77,15 @@ This source provides Chinese coastal-market occurrence evidence for seafood, fis
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species slugs are absent, so broad seafood/fish/shellfish/seaweed routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [12a839b](https://github.com/paleofoundation/heavymetalindex/commit/12a839b) | 2026-06-08 | ingest: zhao2016-xiamen-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

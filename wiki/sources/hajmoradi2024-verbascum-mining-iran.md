@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Hajmoradi & Moghadami 2024 — Pb and Zn in Verbascum speciosum near the Zehabad-e-Qazvin mine, Iran
 
+## Overview
+
 This study measured lead and zinc in soil, roots, and aerial tissue of wild-harvested *Verbascum speciosum* Schrad. (Common Mullein, locally "Gole Mahur"), a medicinal plant collected by local people for traditional respiratory and gastrointestinal remedies, growing on and around the Zehabad-e-Qazvin Pb/Zn mine tailings area in Qazvin province, Iran. The authors paired the metal-uptake measurements with a cytogenetic assay on pollen mother cells (PMCs) to test whether the metal load translated into meiotic abnormalities. The principal source findings are that (i) soil, root, and aerial-part Pb and Zn concentrations all exceeded the source-cited regulatory comparators at every mining-area locality, (ii) the transfer factor exceeded 1 for both metals at every locality, indicating preferential translocation into aerial tissue, and (iii) the frequency of meiotic abnormalities (sticky chromosomes, bridges, laggards, cytomixis, micronuclei, tri-/penta-polar tetrads) tracked the metal gradient and the meiotic index fell from 98.5% in the control to 62.5% at the mine-adjacent locality.
 
 ## Key numbers
@@ -98,15 +100,15 @@ App: limited direct app utility. The source documents that wild-harvested medici
 - Paper-internal abstract/Table 2 swap on area-a aerial Zn (519 vs 638) documented in Speciation and methods caveats; Table 2 used as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

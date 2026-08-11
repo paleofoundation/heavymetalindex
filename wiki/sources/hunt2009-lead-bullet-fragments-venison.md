@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Hunt et al. 2009 - lead bullet fragments in venison
 
+## Overview
+
 Hunt and colleagues radiographed rifle-killed white-tailed deer carcasses and commercially processed venison packages to test whether standard lead-based bullets leave fragments in edible meat. The study reports direct occurrence evidence for projectile-derived lead fragments in ground venison, plus ICP confirmation of lead in excised radiodense fragments. A separate swine feeding experiment tested bioavailability; those blood-lead results are exposure context rather than product concentration measurements.
 
 ## Key numbers
@@ -69,3 +71,17 @@ App: The source can support game-meat lead explanations that distinguish fragmen
 - Speciation: the study concerns elemental lead in ammunition fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: the source states that cartridges came from a single locally common brand but does not name that brand in the extracted text. No brand names are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks exact `venison` or `game-meat` ingredient slugs, so ingredients route through broad `meat` and `meat-and-poultry`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Ren et al. 2025 — Cadmium–enrofloxacin co-exposure toxicology in zebrafish
 
+## Overview
+
 Controlled-exposure zebrafish study (AB strain; 6,000 fish purchased, of which 3,900 were used in the chronic 20-d arm and an additional ~570 across the acute 96-h Cd-alone, ENR-alone, and combined arms) characterizing the joint toxicity of cadmium (Cd) and the fluoroquinolone antibiotic enrofloxacin (ENR). Co-exposure approximately doubled acute lethality of each compound (LC50 Cd 89.12 mg/L → 46.35 mg/L; LC50 ENR 190.11 mg/L → 99.39 mg/L) with the Concentration Addition model classifying the interaction as additive (MDR 0.96, 95% CI 0.58–1.04). Under chronic exposure, ENR enhanced Cd accumulation in zebrafish liver, intestine, and muscle by 1.11–2.33-fold over single-Cd controls and exacerbated hepatic oxidative stress (SOD, CAT, GSH-Px elevated 1.34–7.06-fold at day 8 then declining 9.9–48.98% by day 20; MDA rising to 4.06-fold above controls). 16S rRNA sequencing of gut microbiota showed Cd alone reduced α-diversity (Shannon −57 to −63%) with a 16–20% drop in beneficial *Cetobacterium* and a 44–114% increase in *Aeromonas*; co-exposure further amplified the dysbiosis. The paper measures no food-matrix contamination; its HMI relevance is mechanistic (Cd toxicokinetics, antibiotic-driven Cd bioavailability enhancement, and Cd-driven gut dysbiosis).
 
 ## Key numbers
@@ -114,15 +116,15 @@ Limitations the authors acknowledge: exposure concentrations are higher than typ
 - Jurisdiction: CN (Guizhou University and Guizhou Academy of Testing and Analysis, Guiyang). Funding/approval at Guizhou Provincial Analytical Testing Research Institute (Approval No. BMY-ZY-202402).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [944248a](https://github.com/paleofoundation/heavymetalindex/commit/944248a) | 2026-06-02 | audit: ren2025-cadmium-enrofloxacin-zebrafish revised |
-| [fb09f4d](https://github.com/paleofoundation/heavymetalindex/commit/fb09f4d) | 2026-06-02 | ingest: ren2025-cadmium-enrofloxacin-zebrafish fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

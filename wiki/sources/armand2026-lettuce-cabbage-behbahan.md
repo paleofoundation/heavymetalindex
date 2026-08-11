@@ -30,6 +30,8 @@ updated: 2026-05-20
 
 # Armand et al. 2026 — Heavy metals in lettuce and cabbage from Behbahan, Iran
 
+## Overview
+
 Armand and colleagues measured lead (Pb), chromium (Cr), cadmium (Cd), and nickel (Ni) in lettuce and cabbage purchased from ten retail outlets in Behbahan, a city in Khuzestan Province, southern Iran characterised by oil-and-petrochemical industrial development and recent agricultural intensification. Twenty samples of each vegetable (ten retail sites sampled twice four weeks apart) were analysed by ICP after HNO3 digestion. Cabbage carried roughly twice the total heavy-metal burden of lettuce; in both vegetables the concentration order was Cr > Ni > Pb > Cd. Mean cabbage concentrations of Pb (0.312 mg/kg wet weight) and Cr (0.699 mg/kg) exceeded the FAO/WHO-aligned guideline values used by the authors (0.3 and 0.5 mg/kg respectively), while all four metals in lettuce fell below the same guidelines. Probabilistic Monte Carlo simulation returned non-carcinogenic hazard indices below 1 for both vegetables (cabbage 1.52×10⁻¹; lettuce 4.58×10⁻¹), but total Excess Lifetime Cancer Risk above the 10⁻⁴ unacceptable threshold (cabbage 1.40×10⁻³; lettuce 4.14×10⁻³). Pb Margin of Exposure for cardiovascular endpoints was below 10 in both vegetables, interpreted by the authors as "of concern".
 
 ## Key numbers
@@ -86,15 +88,15 @@ Ten vegetable retail stores in Behbahan (uniform geographic distribution across 
   - Per-site ranges from Fig. 2 (S1–S10): subagent noted that radar-chart label readings to four decimal places are not defensible because the curves overlap and the panel layout makes vegetable/site attribution ambiguous. Verified — Fig. 2 is the only per-site source in the PDF; supplementary figures SF1–SF8 are cited for ELCR distributions but not for per-site concentrations. Replaced specific per-site ranges with a qualitative summary of the visible label spread across the radar; left publication precision to the mean values that are tabulated.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

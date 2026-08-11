@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Oviri et al. 2024 - Heavy metals in Nigerian bathing soaps
 
+## Overview
+
 Oviri, Tesi, and Emoyan measured Pb, Ni, Zn, Co, Cd, and total Cr in 17 bathing soaps sold in Abraka, Delta State, Nigeria. The sampled categories were medicated, moisturizing, toilet, and skin-whitening soaps; the paper reports both individual anonymous sample values and category-level mean, median, and range statistics in mg/kg finished product. Across Table 2, Pb ranged 0.08-0.28 mg/kg, Cd 0.02-0.05 mg/kg, Ni 0.05-0.24 mg/kg, total Cr 0.01-0.09 mg/kg, Co 0.33-1.93 mg/kg, and Zn 0.10-6.42 mg/kg. The authors also calculated dermal systemic exposure doses and margins of safety using SCCS cosmetic-exposure defaults and concluded that all MoS values were above 100.
 
 ## Key numbers
@@ -105,19 +107,19 @@ Microbiome: No microbiome data.
 - DOI and metadata were verified from the PDF first page: DOI `10.33003/fjs-2024-0803-2500`, FUDMA Journal of Sciences Vol. 8 No. 3 Special Issue, June 2024, pp. 422-430, authors Victory I. Oviri, Godswill O. Tesi, and Onoriode O. Emoyan.
 - The abstract reports wider ranges for several metals (Pb up to 0.39 mg/kg, Ni up to 0.33 mg/kg, Cd up to 0.09 mg/kg, Cr up to 0.19 mg/kg). Tables 2 and 3 instead report Pb max 0.28, Ni max 0.24, Cd max 0.05, and Cr max 0.09 mg/kg. The source page uses the table values because Tables 2 and 3 provide the analyte-by-sample and category-summary data; the abstract mismatch is retained as a paper-internal discrepancy, not silently corrected.
 - The wishlist filename routed this PDF through `whitening-products-cd-product`, but the current `[[products/whitening-products]]` slug is an oral-care tooth-whitening row. This PDF is about skin and bath soaps, so it is not routed to oral-care whitening products. The three skin-whitening soap samples are routed as context for the existing skin-lightening product/advisory surface.
-- Brand names listed in source Table 1 are intentionally omitted. The source page preserves anonymous sample IDs and category labels only, under CLAUDE.md Part 12 brand-firewall rules.
+- Brand names listed in source Table 1 are intentionally omitted. The source page preserves anonymous sample IDs and category labels only, brand-firewall rules.
 - Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished bathing soaps and skin-whitening soaps. Limitations: n=17 total, no LOD/LOQ reported, chromium not speciated, and sampling is local to one Nigerian market area.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [6809e03](https://github.com/paleofoundation/heavymetalindex/commit/6809e03) | 2026-06-02 | ingest auto-fetched 2026-06-02 08:02 batch 1: 1 source page |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

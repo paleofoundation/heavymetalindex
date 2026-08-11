@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Li et al. 2025 - Iris sibirica biochar for cadmium adsorption from wastewater
 
+## Overview
+
 Li and colleagues pyrolyzed the root, stem, and leaf tissue of Iris sibirica L. (a wetland emergent plant) at 900 degrees C and tested the resulting biochars (BC_R, BC_S, BC_L) as aqueous sorbents for Cd(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are biochar physico-chemical properties, batch adsorption kinetics, isotherm capacities, and mechanism partitioning rather than cadmium concentrations in edible crops, ingredients, consumer products, or drinking water.
 
 ## Key numbers
@@ -140,11 +142,15 @@ Source-side anomaly in Table 1 (BC_L): the reported micropore area of 274.80 m2/
 Matrices vocabulary: `biochar`, `aqueous-sorption-test`, and `wastewater-remediation` are precedented slugs already used by other remediation source pages (e.g., wang2020-lignin-residue-biochar-heavy-metal-remediation, lin2025-coffee-waste-metal-dye-removal). `iris-sibirica-biomass` is a descriptive kebab-case feedstock token introduced by this paper and should be confirmed against the matrices controlled vocabulary on the next Karen review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

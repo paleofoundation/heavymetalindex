@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Carey et al. 2015 — Percolating cooking water removes up to 85% of inorganic arsenic from rice
 
+## Overview
+
 This PLOS ONE study tested three percolating-cooking approaches against the conventional absorption method for removing inorganic arsenic (iAs) from rice: (1) a laboratory cooking experiment at water-to-rice ratios of 3:1, 6:1 and 12:1 under reflux to capture evaporative losses; (2) a Soxhlet apparatus where cooking water was continuously recycled through distilled steam; and (3) an off-the-shelf domestic coffee percolator running near-boiling water through the rice. The 12:1 ratio removed an average 57±5% of iAs across all rice types; the Soxhlet method removed 59±8% (polished) and 69±10% (wholegrain); the coffee percolator removed 49±7% on average and up to 85% in the best individual sample. Dimethylarsinic acid (DMA) was not significantly reduced by any cooking method tested. Potassium was the only major mineral lost in substantial quantity (53% on coffee-percolator cooking).
 
 ## Key numbers
@@ -108,7 +110,7 @@ Page rebuilt 2026-05-28 from the source PDF (raw_sha256 5529a95f… matches the 
 - **Frontmatter `raw_handle`** was missing; added `auto-fetched` to match the discovery-pipeline convention used by sibling auto-fetched pages.
 - **Frontmatter field rename** `sha256` → `raw_sha256` to match the current v2 schema (e.g., `dehghani2020-food-lead-cadmium-mspe`).
 - **Legacy section** `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per v2 schema; the prior body of that section listed `[[mitigation/cooking-methods-arsenic]]`, which is not in the current taxonomy and was removed.
-- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate Part 2 of CLAUDE.md (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
+- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
 
 Audit subagent (2026-05-28) flagged the following; verified against source and applied or rejected:
 
@@ -123,15 +125,15 @@ Audit subagent (2026-05-28) flagged the following; verified against source and a
 - **`tAs` in metals frontmatter** flagged as borderline by the audit subagent; retained because total arsenic is implicitly available as the sum of iAs + DMA + minor species and is reportable to downstream routing as a derived total. No correction applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

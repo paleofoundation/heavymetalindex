@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Gulcin 2025 — Antioxidants: a comprehensive review
 
+## Overview
+
 Gulcin, at the Department of Chemistry, Atatürk University (Erzurum, Türkiye), surveys the chemistry and in vitro methodology of antioxidant capacity measurement in a 105-page narrative review. The paper is organised around (i) reactive oxygen and nitrogen species (ROS, RNS) and the biochemistry of oxidative stress, (ii) enzymatic antioxidants (superoxide dismutase, catalase, glutathione reductase, glutathione peroxidase) and their metalloenzyme cofactors, (iii) non-enzymatic antioxidants (vitamins, polyphenols, carotenoids, sulfur-containing peptides), (iv) the principal in vitro antioxidant capacity assays — DPPH·, ABTS·⁺, DMPD·⁺, FRAP, CUPRAC, FCR, ORAC, O₂·⁻ scavenging, NO· scavenging, ONOO⁻ scavenging, H₂O₂ scavenging, ¹O₂ quenching, metal chelating, and TBARS — with chemical principles, advantages, disadvantages, and limitations of each, and (v) a closing discussion of method selection. There are no original experimental measurements, no food or biological sampling, and no contamination occurrence data; the heavy-metals relevance is methodological (the metal-chelating antioxidant assay and the Fenton/Haber-Weiss chemistry of iron- and copper-mediated ROS generation) and conceptual (the role of heavy metals as a source of oxidative stress).
 
 ## Why this matters
@@ -140,11 +142,15 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 **Reviewer note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The folder context (`heavy_metals_peptides` under `Kimi_Agent_Black Market Peptide Metal Survey`) is peptide-mediated metal binding and detoxification; this review's coverage of glutathione (γ-Glu-Cys-Gly tripeptide chelator) and selenocysteine-containing glutathione peroxidase, together with the metal-chelating assay methodology that underpins how peptide chelation activity is quantified in vitro, is the direct fit. The review is methodology-side, not occurrence-side, which is recorded accurately in the Implications section.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af61f84](https://github.com/paleofoundation/heavymetalindex/commit/af61f84) | 2026-06-08 | ingest: gulcin2025-antioxidants-comprehensive-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

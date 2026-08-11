@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Barabash et al. 2025 — Release of TiO2 and ZnO nanoparticles from two commercial mineral sunscreens into natural waters by SP-ICP-ToF-MS
 
+## Overview
+
 This open-access Environmental Science: Nano paper from the Wilkinson group (Université de Montréal) characterizes titanium dioxide and zinc oxide nanoparticles released from two commercial mineral sunscreens (designated SS1 and SS2) into three aqueous matrices (ultrapure water, a soft natural water from Lac-Croche, and a hard natural water from the St-Lawrence River) after two short-term exposures (~15 min and ~60 min), using inductively coupled plasma time-of-flight mass spectrometry (ICP-ToF-MS) operated in single-particle mode. The work is primarily methodological: the authors evaluate which features of single-particle SP-ICP-ToF-MS signatures (elemental ratios, isotopic ratios, particle purity, polydispersity, Spearman rank correlation analysis) best distinguish engineered nanoparticles from naturally occurring nanoparticles in environmentally realistic mixtures. Substantive product-chemistry findings include confirmation of manufacturer-declared ZnO and TiO2 loadings by acid digestion, observation that nearly all ZnO released into natural waters dissolves to ionic Zn²⁺ (which adsorbs onto background colloids and aluminosilicate/iron-oxide natural nanoparticles) within 60 minutes while TiO2 remains predominantly in nanoparticulate form, and quantitation of dissolved-Zn concentrations in the natural waters that reach the mg/L range after one hour of contact with the sunscreen surrogate.
 
 ## Key numbers
@@ -88,13 +90,13 @@ Page citations refer to the published PDF (Environ. Sci.: Nano, 2025, 12, 4994-5
 ### Spearman rank correlation analysis (Fig. 8; p. 5004)
 
 - Sample-sample correlation coefficients (sunscreen-natural-water mixtures versus reference matrices):
-  - Soft water with SS1 vs hard water with SS1: r = 0.76 (SS1); r = 0.91 (SS2).
-  - Soft water without sunscreen (SW) vs hard water without sunscreen (HW): r = 0.82.
-  - Soft water with SS1 (SS1-SW) vs soft water alone (SW): r = 0.72.
-  - Hard water with SS1 (SS1-HW) vs hard water alone (HW): r = 0.61.
-  - Soft water with SS2 (SS2-SW) vs soft water alone (SW): r = 0.91 (driven by overlap of Zn, Si, Ti single-element particles between SS2 and natural-water particle populations).
-  - Hard water with SS2 (SS2-HW) vs hard water alone (HW): r = 0.76.
-  - Most-different pair: hard water alone vs sunscreen-in-ultrapure-water for SS1 (r = 0.22); SS2 (r = 0.31). Sunscreen-derived particle profiles were most distinguishable from natural-water-only profiles when sunscreen exposure had not yet altered the natural-water particle population.
+ - Soft water with SS1 vs hard water with SS1: r = 0.76 (SS1); r = 0.91 (SS2).
+ - Soft water without sunscreen (SW) vs hard water without sunscreen (HW): r = 0.82.
+ - Soft water with SS1 (SS1-SW) vs soft water alone (SW): r = 0.72.
+ - Hard water with SS1 (SS1-HW) vs hard water alone (HW): r = 0.61.
+ - Soft water with SS2 (SS2-SW) vs soft water alone (SW): r = 0.91 (driven by overlap of Zn, Si, Ti single-element particles between SS2 and natural-water particle populations).
+ - Hard water with SS2 (SS2-HW) vs hard water alone (HW): r = 0.76.
+ - Most-different pair: hard water alone vs sunscreen-in-ultrapure-water for SS1 (r = 0.22); SS2 (r = 0.31). Sunscreen-derived particle profiles were most distinguishable from natural-water-only profiles when sunscreen exposure had not yet altered the natural-water particle population.
 
 ## Methods
 
@@ -142,7 +144,7 @@ Page citations refer to the published PDF (Environ. Sci.: Nano, 2025, 12, 4994-5
 - **2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill).** New page; no prior wiki revision. DOI grep (10.1039/d5en00444f), raw_handle grep (MFK_release-of-tio2-and-zno-nanoparticles-from-sunscre), and `barabash2025` cite-key grep against `wiki/sources/` all returned zero matches before ingest. PDF read in two 7-page chunks via the `pages` parameter; abstract, methods, results/discussion, all figures (Fig. 1-8), conclusion, and references read in full.
 - **Brand-firewall compliance (Part 12 strict, 2026-05-17 lock).** The source identifies the two sunscreens only as "SS1" and "SS2"; manufacturer specifications and ingredient lists are reproduced in the source's Table S2 (supplementary information) without brand attribution. No brand names appear in the wiki page. Scientific-method vendor names ARE preserved per the 2026-05-17 carve-out (PerkinElmer NexION 5000, Nu Instruments Vitesse SP-ICP-ToF-MS, Anton Paar 20SVT50 microwave, NanoComposix gold reference nanospheres, NanoXact silver reference nanospheres, Inorganic Ventures and Analytichem ICP standards, Plasma CAL and PerkinElmer Mississauga QC standards, Sigma Life Science Chelex-100 resin, Elemental Scientific PFA column, Greiner Bio-One polypropylene tubes, Innovatek cotton-tipped applicators, Cellstar polypropylene tubes, Fisher Scientific rotator and ultrasonic bath, Heraeus Multifuge centrifuge, Millipore Milli-Q, VWR pH buffers, Oakton pH meter, Ecoline peristaltic pump). All such instrument/material/software vendor names are attached to METHODS, not to contamination values.
 - **Wiki/HMTc firewall (Part 2).** No HMTc threshold proposals, no cross-source synthesis claims, no consumer risk advisories. The Implications section explicitly notes the paper does NOT contribute HMTc-relevant contamination data on the heavy-metal analytes (Pb, Cd, As, Hg, Ni, Al, Cr, Sn) for the sunscreen products themselves; the metals measured (Zn, Ti, Al, Fe, Mn, Cr) are either intentional formulation actives (Zn, Ti) or natural-water background (Al, Fe, Mn, Si, Cr). This is documented in the Implications/Certification paragraph rather than papered over.
-- **Routing scope.** Routed to `[[products/sun-suntan-products]]` (the broader sun-product umbrella) and `[[products/baby-sunscreen-mineral]]` (mineral-sunscreen formulation match), even though the source does not describe SS1 or SS2 as pediatric. The PDF lives under the babycare/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen folder in the manual-fetch corpus, indicating Karen's selection was driven by potential relevance to children's sunscreen exposure pathways via environmental routes. The routing layer fans out from the broader sun-suntan-products row to sibling pages per CLAUDE.md Part 5b. Both slugs exist in the current taxonomy.
+- **Routing scope.** Routed to `[[products/sun-suntan-products]]` (the broader sun-product umbrella) and `[[products/baby-sunscreen-mineral]]` (mineral-sunscreen formulation match), even though the source does not describe SS1 or SS2 as pediatric. The PDF lives under the babycare/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen folder in the manual-fetch corpus, indicating Karen's selection was driven by potential relevance to children's sunscreen exposure pathways via environmental routes. The routing layer fans out from the broader sun-suntan-products row to sibling pages. Both slugs exist in the current taxonomy.
 - **Matrices.** Used `cosmetic-personal-care` (sunscreens themselves) and `surface-water` (environmental release matrix). `surface-water` is not in the matrices vocabulary explicitly enumerated in `docs/gpt-collaboration/system-prompt.md` but is the most accurate term for the lake-and-river-water exposure matrix tested here; flagged for taxonomy attention if a more canonical slug (`freshwater`, `river-water`, `lake-water`) is preferred.
 - **Speciation and metal vocabulary.** ZnO and TiO2 are reported as elemental Zn and Ti (per the SP-ICP-ToF-MS measurement principle — the instrument detects mass of the metal isotope inside each particle, not the oxide). `metals: [Zn, Ti, Al, Fe, Mn, Cr]` reflects what was measured. Cr appears once in Fig. 2c as a low-frequency particle composition label ("Cr, Fe (24)" particles in soft water with SS1); total Cr, not Cr-VI, since the technique does not speciate. Si appears in many particle compositions but is not in the heavy-metals vocabulary; the major Si-particle data is summarized in Key numbers and Methods but Si is not declared as a `metals:` entry. Ce and La (each as ~1% mass of natural-water colloids) are mentioned in the natural-water composition table but not declared as `metals:` entries because they are tangential background, not characterized targets.
 - **Sample size and population.** `sample_n: 2` reflects the two sunscreens analyzed; each was tested in three water matrices and at two exposure times in triplicate, but the source population is two formulations. The natural-water samples themselves (Lac-Croche, St-Lawrence River) are reported per Table S1.
@@ -163,15 +165,15 @@ Page citations refer to the published PDF (Environ. Sci.: Nano, 2025, 12, 4994-5
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. One Check-1 numerical-fidelity finding flagged on the SS2 single-element-Zn fraction phrasing; on independent verification against the source PDF (p. 4998), the audit was correct and the wording was corrected to match the source exactly ("~2-9% of detected particles in the natural waters and ~50% in the ultrapure water"). Two Check-2 ⚠️ findings were accepted as already-flagged or known-false-positive of the taxonomy snapshot (sun-suntan-products exists in wiki/products/; surface-water matrices flag already in Verification notes). Check 3 (speciation/methods), Check 4 (Part 12 brand firewall), and Check 5 (Part 2 wiki/HMTc firewall) all clean. All 30+ numerical values across sunscreen composition, dissolved Zn, Ti/Zn release, particle masses, Si/Zn and Fe/Zn ratios, and Spearman correlations independently verified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

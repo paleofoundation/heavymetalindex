@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Ren et al. 2018 — Cr(VI) Reduction in Pork by High-Energy Electron Beam Irradiation
 
+## Overview
+
 This is a laboratory mitigation study, not an occurrence survey. Lean, fat, and marbled pork from a Hefei, China market were cut into 0.5 cm cubes, spiked with potassium dichromate to defined Cr(VI) levels, and irradiated with a 10 MeV / 10 kW high-energy electron beam (HEEB) at doses from 5 to 25 kGy. The reductive efficiency (RE) for free Cr(VI), defined as the fraction of free Cr(VI) converted to Cr(III), reached a maximum of 98.03% at 20 kGy. Free-Cr(VI) fraction differed sharply across tissue types — fat pork carried 80–85% of its total Cr(VI) as free (unbound) Cr(VI), marbled pork 20–35%, and lean pork only 2–4% — attributed to the differing density of protein-borne amine binding sites across tissues. RE was largely insensitive to NaCl (100–250 mg/g), pH (3–10), temperature (−20 to 60 °C), and soybean-oil content (20–50%). XPS spectra confirmed that adsorbed Cr(VI) is desorbed and reduced to Cr(III) during irradiation.
 
 ## Key numbers
@@ -106,15 +108,15 @@ Microbiome: Not applicable.
 - Subagent also downgraded its Check 2 concern about `pork-chop`/`pork-bacon` as analog ingredient slugs from ❌ to ⚠️ on closer read (the slugs are valid taxonomy entries; the mapping is a routing-discipline judgment). Left as-is; the routing rationale is already documented in this Verification notes block and the page benefits from fanning out to the lean (pork-chop) and fatty (pork-bacon) ingredient anchors that this study's findings differentially apply to. Acknowledged without change.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

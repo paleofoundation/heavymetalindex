@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Chen 2019 - Organotins in Chinese oysters
 
+## Overview
+
 Chen and colleagues measured six organotin compounds in commercial and wild oysters from China: MBT, DBT, TBT, MPhT, DPhT, and TPhT. The paper reports commercial oyster samples from Shanghai markets and wild oyster samples from fourteen coastal cities. These are organometallic tin species reported as `ng Sn g−1 dw`; they are not total inorganic tin measurements.
 
 ## Key numbers
@@ -86,11 +88,15 @@ This source contributes shellfish occurrence evidence for organotin tin species 
 - Audit 2026-06-09 (autonomous): GPT-style audit flagged `metals: [Sn]` as a speciation error; verified against repo convention — eight other organotin source pages use the same `metals: [Sn]` plus `organotins` in matrices, so the bare `Sn` tag is correct but the missing `organotins` matrix entry was a real defect (added). Audit also flagged the abstract-vs-Table-1 discrepancy and the softened `significantly greater` qualifier; both applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [77dca52](https://github.com/paleofoundation/heavymetalindex/commit/77dca52) | 2026-06-08 | ingest: chen2019-china-oyster-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

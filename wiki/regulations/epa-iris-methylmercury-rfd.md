@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EPA IRIS — Methylmercury Oral Reference Dose
 
+## Overview
+
 The EPA Integrated Risk Information System chemical assessment for methylmercury (CASRN 22967-92-6) provides the operative US federal oral reference dose for methylmercury exposure, anchored on developmental neurotoxicity observed in the Faroe Islands and Seychelles cohort studies ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]). The RfD was last revised July 27, 2001 and remains in force; methylmercury is currently in step 1 of EPA's IRIS reassessment process ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]).
 
 | Parameter | Value |
@@ -37,16 +39,26 @@ The EPA RfD of 0.1 µg/kg/day ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]])
 
 - [[sources/epa-iris-methylmercury|EPA IRIS MeHg]] — EPA IRIS Chemical Assessment Summary, Methylmercury.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/epa-iris-methylmercury|Methylmercury (MeHg) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 2001 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/jecfa-61st-methylmercury|Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 922 · 2004 · [doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/efsa-mercury-methylmercury-2012|Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2012;10(12):2985 · 2012 · [doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

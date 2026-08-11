@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Ash et al. 2016 - shredded-card soil-washing filter
 
+## Overview
+
 Ash and colleagues tested shredded card as a post-soil-washing filter for As, Cd, and Pb mobilized from contaminated Czech forest soil by organic acid, salt, and water leachates. This is mitigation evidence, not mineral-water or product occurrence evidence: all reported values are contaminated-soil, leachate, shredded-card sorption, or desorption endpoints.
 
 ## Key numbers
@@ -66,3 +68,17 @@ App: Context only. The paper can support upstream remediation and source-pathway
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a soil-washing/filter paper as out of scope because it did not measure a finished product, but the source is in-scope a2 mitigation/remediation evidence.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Table 1, Table 3, Table 4, Table 5, the leaching-method paragraph, and the desorption discussion. Units are preserved as reported. Arsenic is treated as total As (`tAs`) because the paper reports As by total elemental analysis rather than inorganic-arsenic speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Shine et al. 2015 — Phytochelatin synthase (PCS1) is required for Cd and Cu tolerance in a basidiomycete yeast and is broadly conserved across fungi
 
+## Overview
+
 Shine, Shakya, and Idnurm (Division of Cell Biology and Biophysics, School of Biological Sciences, University of Missouri–Kansas City; School of BioSciences, University of Melbourne) identify a putative phytochelatin synthase gene (*PCS1*) in the basidiomycete yeast *Sporobolomyces* sp. strain IAM 13481 (Pucciniomycotina), demonstrate by heterologous expression in *Saccharomyces cerevisiae* and *Schizosaccharomyces pombe* that it confers Cd tolerance, generate a *pcs1Δ* deletion in *Sporobolomyces* that is hypersensitive to cadmium and copper (and slightly to zinc), show by GFP fusion in *S. pombe* that Pcs1 co-localises with the mitochondrial dye MitoTracker, and use comparative genomics of 375 fungal genome sequences across 18 lineages and sub-lineages (Table 1 sum) to map a wide but punctate distribution of PCS homologs across the fungal kingdom (present in most early-diverging phyla, lost in much of the Dikarya including all Saccharomycotina and Agaricomycotina). The paper extends the function of PCS — previously characterised in only two ascomycete species (*S. pombe* and *Tuber melanosporum*) — into a second major fungal lineage, and argues that PCS is an ancestral eukaryotic metal-homeostasis factor that has been lost repeatedly in fungi, parallelling the distribution seen in plants and animals. Published in *Fungal Biology and Biotechnology* 2:3, 28 March 2015 (received 11 Nov 2014; accepted 11 Mar 2015). In the wiki this is mechanistic background for [[metals/cadmium]] (PCS-mediated detoxification in fungi), [[metals/copper]] (PCS role in essential-metal homeostasis), and [[metals/zinc]]; it contains no food-matrix, environmental, or human-exposure measurements.
 
 ## Why this matters
@@ -105,12 +107,15 @@ Audit subagent (2026-06-08) flagged two findings; both verified against the PDF 
 No other audit findings; the Key numbers Cd unit-conversion (1 µM CdSO₄ ≈ 112 µg Cd/L), C-terminal cysteine motifs, slug vocabulary, methods anchors, brand firewall, and HMTc firewall all passed independent re-verification.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [dc90421](https://github.com/paleofoundation/heavymetalindex/commit/dc90421) | 2026-06-08 | audit: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance revised |
-| [7bec9a1](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a1) | 2026-06-08 | ingest: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

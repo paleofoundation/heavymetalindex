@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Meharg et al. 2009 — Geographical variation in total and inorganic arsenic in white rice (n=901, 10 countries)
 
+## Overview
+
 This landmark Environmental Science & Technology paper reports total arsenic (tAs) and inorganic arsenic (iAs) speciation data on 901 polished (white) rice samples from 10 countries across 4 continents (Bangladesh, China, Egypt, France, India, Italy, Japan, Spain, Thailand, USA), all collected from markets or supermarkets and designated for human consumption. It is one of the largest and most geographically comprehensive market-basket surveys of rice arsenic ever conducted. Median tAs varied 7-fold across countries (Egypt 0.04 mg/kg to USA 0.25 mg/kg and France 0.28 mg/kg); iAs was speciated for a subset of 63 samples. The relationship between iAs and tAs differed significantly by country: Bangladesh and India had the steepest linear regression slope (most tAs manifesting as iAs), while US rice had the shallowest slope. Using country-specific rice consumption rates, the modeled global risk of dietary iAs from rice ranged 30-fold across the 5 speciated countries.
 
 ## Key numbers
@@ -85,15 +87,15 @@ iAs speciation available for only 5 of 10 countries (63 samples), limiting direc
 - [[ingredients/rice]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

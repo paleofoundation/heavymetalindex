@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Pan et al. 2021 - Lignosulfonate/chitosan adsorbent for Pb2+ in water
 
+## Overview
+
 Pan and colleagues synthesised a sodium lignosulfonate/chitosan (LS/CS) composite by free-radical polymerisation of acrylic acid with lignosulfonate and chitosan, optimised the formulation by a four-factor orthogonal experimental design, and characterised the resulting adsorbent for Pb2+ removal from aqueous solution. This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are adsorbent capacity, kinetics, isotherm parameters, and adsorption thermodynamics in synthetic Pb(NO3)2 solutions, not concentrations in edible commodities or consumer products.
 
 ## Key numbers
@@ -150,15 +152,15 @@ The `matrices` slugs (`lignosulfonate-chitosan-composite`, `aqueous-sorption-tes
 Audit subagent (2026-06-02) flagged the dose-sweep range as a body/methods conflation: Section 3.3 prose says "0.01 to 0.15 g" but Section 2.4 specifies "0.01 to 0.07 g" and Figure 4A's x-axis stops at 0.07 g. Verified against the source - confirmed paper-internal text typo in Section 3.3; body revised to the Figure 4A / Section 2.4 range with a one-sentence note. The audit's other ⚠️ findings (`mitigation/remediation-evidence` and `testing/index` outside the four-section taxonomy snapshot) were applied by extending the existing out-of-snapshot disclosure above. No definite-error (❌) findings on numerical fidelity, speciation, methods, brand firewall, or wiki/HMTc firewall; subagent verdict REVISE handled in one pass.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [c98e430](https://github.com/paleofoundation/heavymetalindex/commit/c98e430) | 2026-06-02 | audit: pan2021-lignosulfonate-chitosan-pb-adsorbent [revised] |
-| [548593e](https://github.com/paleofoundation/heavymetalindex/commit/548593e) | 2026-06-02 | ingest: pan2021-lignosulfonate-chitosan-pb-adsorbent [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

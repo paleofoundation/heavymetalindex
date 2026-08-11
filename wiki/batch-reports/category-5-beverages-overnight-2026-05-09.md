@@ -17,6 +17,8 @@ noindex: true
 
 # HMTc Category 5 Beverages — Overnight Final Report — 2026-05-09 (cycles 11-20)
 
+## Overview
+
 This report covers cycles 11-20 of the autonomous /loop, which built out HMTc Category 5 Beverages from scaffold-only state (Step 0 locked architecture only) to the readiness state Karen specified: at-bar where computable, otherwise fully gap-documented with rationales. It complements [[batch-reports/infant-and-child-overnight-2026-05-09]] (cycles 1-10 refresh, focused on Cat 1 IandC).
 
 ## Cat 5 readiness state per analyte (160 cells)

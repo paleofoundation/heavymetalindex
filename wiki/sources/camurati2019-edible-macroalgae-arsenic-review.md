@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Camurati 2019 — Arsenic in edible macroalgae (critical review)
 
+## Overview
+
 Camurati and Salomone reviewed the literature to 2019 on arsenic in edible marine macroalgae, integrating arsenic speciation and toxicity, the behaviour of arsenic species during digestion and cooking, analytical/CRM challenges, and current legislation, with a view to informing future regulation as seaweed consumption grows (including in South America). This is a secondary source: it reports no primary measurements, and its quantitative statements are syntheses of cited primary studies. Its principal value for the index is the synthesized picture it confirms — that inorganic arsenic in seaweed is generally low but with species-specific high exceptions (hijiki and *Laminaria digitata*), that brown algae carry both higher total arsenic and a higher inorganic fraction than red or green algae, and that cooking and digestion can change arsenic bioaccessibility and speciation in ways current total-As/iAs limits do not capture.
 
 ## Key numbers
@@ -71,13 +73,15 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 - Cross-source note: this review cites several primary studies also held in this folder (e.g., Almela 2002, Rose 2007, Ronan 2017, Taylor & Jackson 2016, Llorente-Mirandes 2010/2011); cross-source synthesis against them belongs to the Part 9 synthesis pass, not this source page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [9912a16](https://github.com/paleofoundation/heavymetalindex/commit/9912a16) | 2026-06-08 | audit: camurati2019-edible-macroalgae-arsenic-review revised |
-| [365a5ca](https://github.com/paleofoundation/heavymetalindex/commit/365a5ca) | 2026-06-08 | fix: camurati2019 jurisdictions [] -> [AR] (clear non-blocking routing advisory) |
-| [e20b61f](https://github.com/paleofoundation/heavymetalindex/commit/e20b61f) | 2026-06-08 | ingest: camurati2019-edible-macroalgae-arsenic-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

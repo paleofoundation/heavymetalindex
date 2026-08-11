@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rempelos et al. 2023 - Cd, Ni, and Pb in UK field vegetables under organic and conventional protocols
 
+## Overview
+
 Rempelos and colleagues analyzed harvested potato tubers, cabbage heads, lettuce heads, and onion bulbs from the long-term Nafferton Factorial Systems Comparison trials in Northumberland, UK. The paper reports cadmium, nickel, and lead concentrations on a fresh-weight basis as main-effect means under organic versus conventional crop protection, mineral NPK versus cattle farmyard manure fertilization, and spring-bean versus winter-barley pre-crops. The source is routeable as summary-level vegetable occurrence evidence and as supply-chain evidence that fertilization regime can shift Cd and Ni in harvested vegetables.
 
 ## Key numbers
@@ -103,15 +105,15 @@ The PDF has author attribution and DOI `10.3390/agronomy13051225`; no DOI confli
 Merge-enhance pass 2026-06-02 (Claude): the page is faithful to Table 10 across every cell of both contrast tables (crop-protection/fertilization and pre-crop). Audit subagent (Agent tool, general-purpose, agent ID a8740e5f581900d2c) returned REVISE on Check 1 because the in-prose potato Cd NPK-vs-FYM increase had been silently substituted with the value computed from Table 10 (62.5%, rounded to 63%) when the paper's own Section 3.6 (p. 16) explicitly states 50% for potato — an internal inconsistency in the source between prose and table. Per Cochrane discipline (faithful reproduction with the inconsistency flagged, not silent substitution), the potato figure is reverted to the paper's stated 50% and the inconsistency is now flagged inline. Section 3.6 is the correct reference for the per-crop percentages, not Section 4.3.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [414629f](https://github.com/paleofoundation/heavymetalindex/commit/414629f) | 2026-06-02 | audit: rempelos2023-vegetable-organic-conventional-metals revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

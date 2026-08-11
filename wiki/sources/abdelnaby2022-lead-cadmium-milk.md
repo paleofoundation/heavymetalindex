@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10020323/FM_10020323.md
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/milk-and-dairy]]"]
-products: []
+products: ["[[products/dairy-milk-cow]]"]
 matrices: [milk, dairy]
 jurisdictions: [EG]
 near_duplicates: [raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-cd_2022_10-1007-s12011-022-03353-w.pdf]
@@ -27,6 +27,8 @@ updated: 2026-05-13
 ---
 
 # Abdelnaby et al. 2022 — Lead and cadmium in Egyptian milk with natural adsorbent remediation
+
+## Overview
 
 Abdelnaby et al. measured lead (Pb) and cadmium (Cd) in 35 Egyptian cow milk samples from farms, independent farmers, and dairy shops in El-Qalyubia governorate, then tested bentonite clay, date pit powder, and chitosan nanoparticles as adsorbents for contaminated milk. The paper is routeable as Egyptian dairy occurrence evidence and as mitigation-method context, with concentrations reported in mg/kg wet-weight milk.
 
@@ -80,15 +82,15 @@ Microbiome: Not applicable.
 An auto-fetched duplicate PDF at `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-cd_2022_10-1007-s12011-022-03353-w.pdf` was matched to this canonical DOI on 2026-06-04. The canonical page metadata was corrected from the PDF byline and journal page: title, authors, publication, and Table 1/Table 4 values were updated. The source reports total Pb and total Cd in milk; it does not report inorganic arsenic, methylmercury, or sample-level values.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [bd21db4](https://github.com/paleofoundation/heavymetalindex/commit/bd21db4) | 2026-06-04 | triage sweep 2026-06-04 16:54: 1 rollups + 0 skips |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [bd21db428](https://github.com/paleofoundation/heavymetalindex/commit/bd21db428) | 2026-06-04 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

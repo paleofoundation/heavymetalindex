@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Chang et al. 2022 - Rhizobium treatment and cadmium in fermented cocoa
 
+## Overview
+
 Chang and colleagues tested whether adding Rhizobium japonicum during fermentation reduced cadmium in two cocoa varieties, Nacional and Trinitarian. The study reports cadmium concentrations for six variety-by-treatment combinations after fermentation. The paper is intervention evidence for cocoa processing/fermentation rather than finished chocolate retail occurrence evidence.
 
 ## Key numbers
@@ -65,14 +67,15 @@ Microbiome: The study uses a microbial inoculant during fermentation, but it doe
 The PDF title, byline, citation block, DOI, journal, treatment table, and methods were read from the source PDF. The abstract's "36 to 29 mg/kg" statement appears inconsistent with Table 16's 0.36 to 0.29 mg/kg values; this page uses Table 16 as the extraction basis and records the discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [cc9e662](https://github.com/paleofoundation/heavymetalindex/commit/cc9e662) | 2026-06-03 | ingest auto-fetched 2026-06-03: chang2022-cocoa-fermentation-rhizobium-cadmium |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

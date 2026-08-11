@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Asensio 2023 - Mercury and methylmercury in Madrid market mushrooms
 
+## Overview
+
 Asensio measured cadmium, lead, total mercury, and methylmercury in 48 edible mushroom samples from Madrid markets. The strongest occurrence signal was total mercury in wild mushrooms: wild mushrooms averaged 0.15 mg/kg total Hg, while cultivated mushrooms averaged 0.007 mg/kg. One wild Lepista panaeolus sample reported 0.97 mg/kg total Hg and 0.12 mg/kg MeHg, with MeHg representing 13% of total mercury in that sample.
 
 ## Key numbers
@@ -79,13 +81,15 @@ App: The source supports a higher concern flag for wild mushrooms than cultivate
 The DOI, title, author, year, publication, sample count, methods, and tables were taken from the PDF article text in the September 2023 Spectroscopy issue. The PDF SHA-256 at ingest was `411d4a46de9f89479989aa65ddbecef3b0d250c36f0e68e747a45dbd59c038aa`. The article byline gives the author as Javier Peinador Asensio; the cite key uses Asensio as the surname token. The article title says "Methyl-Mercury"; the body and method use methylmercury/MeHg. Table III is the source for Cd, Pb, and total Hg summary statistics; Table IV is the source for MeHg values. The source reports total mercury separately from methylmercury and does not support substituting total Hg values for MeHg occurrence.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [49978d6](https://github.com/paleofoundation/heavymetalindex/commit/49978d6) | 2026-06-08 | audit: asensio2023-madrid-mushrooms-mercury promoted per autonomous audit |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [68051c8](https://github.com/paleofoundation/heavymetalindex/commit/68051c8) | 2026-06-04 | ingest auto-fetched 2026-06-04: asensio2023-madrid-mushrooms-mercury |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

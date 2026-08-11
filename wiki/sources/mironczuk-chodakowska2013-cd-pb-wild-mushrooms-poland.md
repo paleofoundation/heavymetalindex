@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mirończuk-Chodakowska et al. 2013 — Cadmium and lead in wild and cultivated mushrooms, eastern Poland
 
+## Overview
+
 This study measured cadmium (Cd) and lead (Pb) in 21 edible mushroom species from the low-industry eastern region of Poland known as the Green Lungs, comparing 18 wild-harvested species from Podlaskie Province against 3 commercially cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes). Wild mushrooms exhibited wide interspecies variability for Cd (0.10–10.20 µg/g dry mass) while Pb concentrations were generally low; two wild species (Rozites caperatus and Boletus chrysenteron) accumulated Cd at levels whose intake from a single 100 g fresh-weight serving could marginally exceed the provisional tolerable monthly intake (PTMI) established by FAO/WHO JECFA for cadmium. Cultivated mushrooms carried markedly lower heavy-metal burdens than most wild species, particularly for Pb.
 
 ## Key numbers
@@ -133,15 +135,15 @@ No speciation was performed; only total Pb and total Cd are reported. The study 
 **2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/`. SHA-256 verified byte-identical to the canonical `raw_path` (`169923ea1feb51b63a9dd37049d480dd8d06aef31298e5c22a2c59d45d7bc0dc`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f98ee09](https://github.com/paleofoundation/heavymetalindex/commit/f98ee09) | 2026-06-08 | ingest: mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_02_Vegetables_and_Vegetable_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f98ee09c8](https://github.com/paleofoundation/heavymetalindex/commit/f98ee09c8) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

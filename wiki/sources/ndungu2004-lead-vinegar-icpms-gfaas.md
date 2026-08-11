@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Ndung'u et al. 2004 — Lead in vinegar by ICP-MS and GFAAS: sample-preparation evaluation
 
+## Overview
+
 This study measured lead in 59 commercial vinegars purchased from California retail using both inductively coupled plasma mass spectrometry (ICP-MS) and graphite furnace atomic absorption spectrometry (GFAAS), with the primary objective of identifying the most reliable sample-preparation protocol. Direct analysis without digestion produced erroneously high and poorly reproducible results on both instruments because of organic-matrix interferences; nitric acid digestion brought the two instrumental methods into close agreement (R = 0.997, slope 0.94), and nitric acid digestion with UV photolysis was identified as the fastest and most complete preparation when hydrogen-peroxide reagent-blank Pb is acceptable. Balsamic vinegars — particularly traditionally barrel-aged varieties — carried substantially higher lead than other vinegar types, with the highest single sample at 307 µg/L and the lead source attributed to production and storage processes rather than the agricultural inputs.
 
 ## Key numbers
@@ -94,7 +96,7 @@ Microbiome: Not applicable; the paper does not address gut-microbial endpoints.
 Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
 
 - Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_determination-of-lead-in-vinegar-by-icp-ms-and-gfa` handle, matching the convention used on sibling vinegar source [[karavoltsos2020-copper-trace-metals-vinegars-greece]].
-- Correct truncated `raw_path` (prior value cut off at "evaluation .pdf"; corrected to the full filename "…evaluation of different sample preparation pro.pdf").
+- Correct truncated `raw_path` (prior value cut off at "evaluation.pdf"; corrected to the full filename "…evaluation of different sample preparation pro.pdf").
 - **Correct three transposed single-sample Pb values in Key numbers.** Prior version reported `Garlic vinegar (n=1): 276 µg/L`, `Apple cider vinegar (n=1): 15 µg/L`, and `Rice vinegar (n=1): 6.6 µg/L`. Source Table 4 (p. 4) actually shows Garlic = 15 µg/L, Apple = 6.6 µg/L, Rice = 19 µg/L. The prior page had pulled the wrong column or scrambled rows; 276 is the Table 4 Balsamic (aged)-1 row, which was separately missing from the page. All four values corrected.
 - **Correct misread n in Key numbers.** Prior version reported `Balsamic group 3 (n=4, older/traditional): range 174–179 µg/L, mean 173 µg/L`. The "4" was the standard-deviation column in Table 4, not the sample count. Correct n is 2.
 - Add the two aged-balsamic single-sample rows (276 and 307 µg/L) that the prior version omitted, and note the paper-internal discrepancy between Table 4's aged-1 = 276 µg/L and the text's "another balsamic … 257 µg/L … aged for 18 years" without inventing a reconciliation.
@@ -102,7 +104,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - Expand the Methods section to capture the instrumental detail (RF power, isotopes monitored, internal standard, modifier composition, contamination control) that supports the A-tier classification.
 - Add `garlic-vinegar` to `matrices:` (the source measured one); prior version omitted it.
 - Remove the legacy `## Wiki pages updated on ingest` heading per the current Part 6 template; downstream-page list lives in the routing audit, not on the source page.
-- Restate the µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix per CLAUDE.md Part 14.
+- Restate the µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix.
 - License kept as "All rights reserved" — Talanta (Elsevier) 2004 paywall paper, no open-access notice on the PDF.
 
 Auto-audit subagent (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 clean. Check 2 ⚠️ flagged the `matrices:` / `ingredients:` asymmetry — matrices contains `rice-vinegar` and `garlic-vinegar` (which the paper measures as n = 1 each) while `ingredients:` does not list them. Verified against the source: 1 rice and 1 garlic vinegar are reported in §3.3 and Table 4. Verified against the corpus: no `wiki/ingredients/rice-vinegar.md` or `wiki/ingredients/garlic-vinegar.md` page exists, and Part 10's ingredient-promotion threshold is 5 papers treating the sub-variant as a distinct commodity. With n = 1 each in this paper alone, neither slug crosses the threshold for an ingredient page. Resolution applied:
@@ -116,15 +118,15 @@ This is the same broad-scope-matrices, narrow-ingredients pattern documented on 
 Self-caught during audit-application (not flagged by the subagent): the Methods section initially misattributed the GFAAS recommended program. Corrected to attribute 600 / 1300 °C to the paper's Conclusions section (p. 6) rather than Table 2 (Table 2 shows 700 / 1400, an intermediate working program). Also corrected the manufacturer's recommended maximum from "800 / 1400" to "400 / 1400" per §4.3 (p. 4); the 800 / 1400 figure was the authors' first-pass optimization against the NIST 1640 SRM, not the manufacturer default.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

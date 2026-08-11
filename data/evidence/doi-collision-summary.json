@@ -1,35 +1,10 @@
 {
   "generated_note": "Source pages sharing a DOI. Canonical suggested by inbound refs, key quality, frontmatter richness. Verify same-paper (title/authors) before deleting; a confabulated page can carry a wrong DOI and will NOT cluster here.",
-  "source_pages_with_doi": 1617,
-  "distinct_dois": 1616,
-  "duplicate_clusters": 1,
-  "collapsible_pages": 1,
-  "high_confidence_clusters": 1,
+  "source_pages_with_doi": 2611,
+  "distinct_dois": 2611,
+  "duplicate_clusters": 0,
+  "collapsible_pages": 0,
+  "high_confidence_clusters": 0,
   "review_clusters": 0,
-  "clusters": [
-    {
-      "doi": "10.1289/ehp.1408789",
-      "confidence": "high",
-      "canonical": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
-      "drop": [
-        "carignan2015-arsenic-infancy-well-water-breast-milk"
-      ],
-      "members": [
-        {
-          "cite_key": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
-          "refs": 95,
-          "fields": 25,
-          "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
-          "garbage_key": false
-        },
-        {
-          "cite_key": "carignan2015-arsenic-infancy-well-water-breast-milk",
-          "refs": 57,
-          "fields": 24,
-          "title": "Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk",
-          "garbage_key": false
-        }
-      ]
-    }
-  ]
+  "clusters": []
 }

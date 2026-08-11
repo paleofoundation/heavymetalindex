@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Chime et al. 2025 — Toxic trace metals in food spices from Enugu, Nigeria
 
+## Overview
+
 This study measured total arsenic (As), cadmium (Cd), and lead (Pb) in seven spice/herb samples: six coded commercial spice samples A–F purchased from New Heaven market in Enugu, Nigeria, plus one scent leaf sample collected from a nearby garden at Ugwuaji. The most alarming finding is cadmium: all seven samples exceeded the FAO/WHO permissible limit of 0.02 µg/g by a substantial margin, with values ranging from 2.58 to 6.45 µg/g — between 129 and 322 times the limit. Arsenic exceeded the upper end of the source's 0.1–0.5 µg/g permissible range in two samples (C: 1.68, E: 1.26 µg/g); Sample D (0.315 µg/g) exceeded the lower end but not the 0.5 µg/g upper threshold. Lead exceeded the 2.0 µg/g threshold in two samples (A: 2.16, B: 2.19 µg/g). The authors discuss possible contamination pathways including improper drying practices, polluted irrigation sources, atmospheric deposition, and poor post-harvest handling.
 
 ## Key numbers
@@ -73,15 +75,15 @@ Samples were labelled A–F (product identities not disclosed) plus one scent le
 - Cross-vendor audit (Codex, 2026-05-18) corrected the sample-population description: the six coded spice samples were purchased from New Heaven market, while the scent leaf was collected from a nearby garden at Ugwuaji. Pathway language is treated as author-discussed possibilities, not confirmed source attribution for each sample.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

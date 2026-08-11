@@ -129,12 +129,15 @@ Provisional product scaffolds were not required: the source touches [[products/f
 Audit subagent (2026-06-06) flagged a Check 5 ⚠️ in the original Implications/Certification bullet: a wiki-side cross-source comparison to [[bora2015-vineyard-wine-heavy-metals-romania]] ("wider margin to OIV than the bora2015 micro-vinified wines") that the Đurđić paper itself does not make. Verified against the source — the paper compares the Serbian wines to European/Australian/Romanian-Moldavian wines from the LIR literature only, not to the Bora 2015 Cu/Pb wine values. The cross-source synthesis was added by Claude during drafting and violates Part 2 (synthesis is a separate Part 9 workflow, not a per-source contribution). Comparison stripped; the within-paper OIV-ratio framing retained. All other audit checks ✅ clean (Checks 1, 2, 3, 4); Check 5 has no other concerns.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [dd145bd](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd) | 2026-06-06 | audit: durdjic2021-lead-isotopes-wine-origin [revised] |
-| [175eac2](https://github.com/paleofoundation/heavymetalindex/commit/175eac2) | 2026-06-06 | ingest: durdjic2021-lead-isotopes-wine-origin [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [dd145bd16](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd16) | 2026-06-06 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

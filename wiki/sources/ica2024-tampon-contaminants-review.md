@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # ICA 2024 - FDA CDRH systematic review of tampon contaminants
 
+## Overview
+
 International Consulting Associates prepared this systematic literature review for FDA CDRH to summarize evidence on additives, chemicals, and contaminants in vaginal tampons, including metals. The review is secondary evidence: it transports study-level summaries from included bench and clinical studies and does not itself test tampons. Its metals value is mainly as an FDA-commissioned evidence map around the primary Shearston et al. tampon-metal dataset and the BioCycle tampon-use blood-metal biomonitoring study.
 
 ## Key numbers
@@ -99,3 +101,17 @@ Microbiome: Not directly addressed. The review mentions vaginal microenvironment
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-21-fda-2025-tampons-systematic-review`, candidate cite keys `ica2024-tampon-contaminants-review` or `fda2024-tampon-contaminants-review`, exact title, or "International Consulting Associates" tampon-review wording. The local filename says `FDA_2025`, but the PDF cover date is `December 5, 2024`, so `year: 2024` is used. No DOI is printed in the report; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 is `80cda8138ffbd37ea159e544d55ffdba9aec603fd5b37d9cf137dc191bb1c548`. Key numbers were checked against the PRISMA/results narrative, Tables 2-5, the Discussion, and Evidence Assessment sections in `/tmp/hmi-fem-013.txt`. Arsenic and mercury values transported from Shearston/Singh are total-element values, not iAs or MeHg; chromium is total Cr, not Cr-VI. Brand firewall is clean: the report explicitly states that brands/manufacturers were generally not disclosed and this page reports no brand-linked values. The `near_duplicates` entries point to primary/companion sources already represented in the wiki; they are not true duplicate source pages. `npm run evidence:source-routes` exited 0 and generated one `menstrual-tampons` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

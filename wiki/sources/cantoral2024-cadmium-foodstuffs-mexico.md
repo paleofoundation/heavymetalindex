@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Cantoral et al. 2024 — Dietary cadmium risk assessment across 143 Mexican foodstuffs
 
+## Overview
+
 This 2024 cross-sectional monitoring study measured cadmium (Cd) concentrations in 143 foodstuffs commonly purchased in Mexico City, covering 14 food groups, using atomic absorption spectrophotometry. Of the 143 samples, 68.5% (n = 98) had detectable Cd concentrations (>LoQ), with the highest individual values found in oyster mushrooms (0.575 mg/kg), romaine lettuce (0.335 mg/kg), and cocoa powder (0.289 mg/kg), with ancho chili and romaine lettuce exceeding the FAO/WHO maximum level (ML). Theoretical Cd intake modeled against Mexican Dietary Guidelines yielded weekly estimates of 1.80, 2.06, and 3.83 µg/kg BW for adults, adolescents, and school-age children, respectively — a health risk only for school-age children, who exceed the EFSA TWI of 2.5 µg/kg BW by 53.2%.
 
 ## Key numbers
@@ -68,15 +70,15 @@ Cocoa powder Cd value (0.289 mg/kg) is a single sample; not representative of th
 - [[regulations/codex-general-standard-contaminants]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

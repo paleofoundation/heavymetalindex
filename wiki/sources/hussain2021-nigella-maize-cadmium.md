@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Hussain et al. 2021 - Nigella seed extract and maize Cd stress
 
+## Overview
+
 Hussain and colleagues tested whether foliar seed-water extract of Nigella sativa could mitigate cadmium stress in maize grown in Cd-spiked soil. This is a mitigation and soil-to-plant pathway paper, not cumin or black-cumin occurrence evidence: Nigella seed extract is the intervention, and the measured heavy-metal endpoint is Cd accumulation in maize leaves.
 
 ## Key numbers
@@ -86,3 +88,17 @@ App: Context only. This source supports remediation/pathway narrative for cadmiu
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the file as non-occurrence because the fetched ingredient label was cumin, but the paper is in-scope as a2 mitigation/remediation and a3 soil-to-plant transfer evidence: it measures Cd in maize leaves from Cd-spiked soil and tests a foliar intervention.
 
 Numbers were checked against the extracted PDF text, especially the abstract, experimental treatment description, acid-digestion section, Table 3, Cd-accumulation results paragraph, and conclusion. Units were copied as printed (`mg Cd kg-1 soil` and `mg kg-1 of plant biomass`) without conversion. Products and ingredients are intentionally empty because no market food product or ingredient occurrence was measured.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

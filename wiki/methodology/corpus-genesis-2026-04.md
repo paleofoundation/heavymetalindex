@@ -9,6 +9,8 @@ sources: 0
 
 # Corpus Genesis — April 2026 Assembly
 
+## Overview
+
 This page documents how the working corpus of the Heavy Metal Index was assembled. It is the answer to the question "how do you know this is the relevant literature?" The wiki's epistemic standing depends on this answer being honest, specific, and reproducible.
 
 ## What the corpus is
@@ -158,3 +160,17 @@ The Heavy Metal Tested and Certified program references this wiki for the litera
 This methodology page is the answer to the question one level above the literature itself: not "what does the science say" but "how do you know you have looked at the right body of science." The honest answer documented above is stronger than a claim of completeness would be. A claim of completeness can be falsified by a single missing paper. A claim of "we have curated the open-access PMC literature using these specific queries on this specific date plus these specific regulatory documents, here are the scripts, here are the IDs, here are the SHA hashes" can be audited and verified.
 
 The wiki's epistemic asymmetry argument depends on this auditability, not on completeness in an unobtainable sense.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [7c398715c](https://github.com/paleofoundation/heavymetalindex/commit/7c398715c) | 2026-04-25 | major | 20 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

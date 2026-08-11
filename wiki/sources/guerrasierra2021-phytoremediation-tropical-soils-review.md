@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Guerra Sierra et al. 2021 — Phytoremediation of heavy metals in tropical soils
 
+## Overview
+
 Guerra Sierra and colleagues review the characteristics of tropical soils, the principal anthropogenic sources of heavy metal contamination affecting them, and the plant species and mechanisms relevant to phytoremediation in tropical and subtropical settings. The article is a narrative review, not a primary measurement study; it pulls regulatory soil limits, plant-accumulator examples, and emerging-contaminant context (nanoagrochemicals, pesticide residues, biofertiliser-derived metals) from the cited literature. For Heavy Metal Index purposes the source is context-only: it does not measure metal occurrence in food, ingredients, or consumer products.
 
 ## Key numbers
@@ -136,15 +138,15 @@ No brand names are quoted from the source (the review does not name product bran
 2026-06-02 audit (fresh-context subagent, ingest-next-manual-fetch-pdf v2 skill, Phase 3 apply): verdict PROMOTE. All 5 checks clean; 3 advisory concerns reviewed. (a) Audit subagent flagged the Colombian Caribbean carbon figure "0.5–1%" as potentially mis-normalized from a "g/kg" source value — verified against PDF p. 3: source explicitly reports "between 0.5–1%", not "g/kg"; finding was a false positive (likely a PDF-render symbol-confusion artifact). (b) Audit subagent suggested adding "(as reported in source)" hedge to the worldwide-soil Fe range "20 to 550 g/kg" because it appears anomalously high — verified against PDF p. 3: range is reproduced verbatim from the source as the source reports it (ref [36]); the figure is plausible for Fe-rich tropical oxisols (≈2–55% Fe by mass) and the wiki page already attributes it to the source's page. No hedge added; the verbatim citation is the faithful representation. (c) Auditor questioned whether `supply-chain/soil-to-plant-transfer` is a real wiki page — verified: `wiki/supply-chain/soil-to-plant-transfer.md` exists in the corpus. No content changes from this audit pass; verification-note record only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [3e2c188](https://github.com/paleofoundation/heavymetalindex/commit/3e2c188) | 2026-06-02 | audit: guerrasierra2021-phytoremediation-tropical-soils-review [promoted] |
-| [77fcd61](https://github.com/paleofoundation/heavymetalindex/commit/77fcd61) | 2026-06-02 | ingest: guerrasierra2021-phytoremediation-tropical-soils-review [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

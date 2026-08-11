@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Stapleton et al. 2010 — Flame retardants in polyurethane foam from baby products (Dioxin 2010 proceedings)
 
+## Overview
+
 This three-page Dioxin 2010 symposium proceedings paper (Organohalogen Compounds) reports a GC/EI-MS + GC/ECNI-MS screening of polyurethane-foam sub-samples from 101 donated baby products (car seats, strollers, nursing pillows, changing-table pads, sleep positioners, baby carriers) for the additive flame retardants that have replaced PentaBDE in U.S. consumer foams since the 2004 voluntary PentaBDE phase-out. The authors report that more than 80% of products tested contained a positively identifiable flame retardant, with TDCPP (tris(1,3-dichloro-2-propyl) phosphate) the most frequently detected (36 of 101 samples), the Firemaster® 550 / 600 components TPP + TBB + TBPH the second most frequent (17 samples), and TCEP (tris(2-chloroethyl) phosphate) — a California Proposition 65 carcinogen — detected in 14 samples and concentrated in nursing pillows (9 of 11 nursing-pillow sub-samples). The paper measures no heavy metals and contributes no occurrence data to the HMI Pb/tAs/Cd/MeHg/tHg/iAs/Ni/Al/Cr-VI/Sn certification panel; it is ingested as an out-of-core-scope durable-infant-product contamination reference (per the precedent set by `anderson2002-uk-us-diaper-voc-emissions-mice.md` for VOC emissions and the non-metals scope discussion in `kjolholt2015-car-safety-seats-childrens-textiles.md`), routed to `[[products/car-seats]]` and `[[products/strollers]]` for discoverability as a baby-durable-foam flame-retardant exposure-pathway reference. The full ES&T paper that built on this proceedings abstract — Stapleton HM, Klosterhaus S, Keller A, Ferguson PL, van Bergen S, Cooper E, Webster TF, Blum A, Environ. Sci. Technol. 2011;45:5323–5331, doi 10.1021/es2007462 — is not present in the corpus as of the access date.
 
 ## Key numbers
@@ -104,15 +106,15 @@ Limitations explicitly acknowledged by the authors:
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, single-PDF invocation): NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI to check (paper has none); raw_handle `MFK_07-unknown` absent; cite-key stem `stapleton2010` absent (other Stapleton-authored sources flagged none — the only related-author hit was on co-author/reference text in unrelated source pages). PDF SHA-256 `c1098395c801dbdc57ec247c7e1d22bfc647f1b6221cd7c512bb88e596483ce7` confirmed against the file. Paper measures only organic flame-retardant additives in polyurethane foam — zero heavy metals — ingested as out-of-core-scope durable-infant-product additive-contamination reference per the `anderson2002` (diaper VOCs) and `kjolholt2015` (car-seat textile chemicals, tin + bromine + flame retardants) precedents. Routed to `[[products/car-seats]]` and `[[products/strollers]]` for discoverability; four other product categories named in the paper's sample frame (nursing pillows, changing-table pads, sleep positioners, baby carriers) flagged in verification notes as routing-coverage gaps pending Karen's Step 0 Lock workflow. `metals: []` correctly reflects no metal-occurrence contribution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

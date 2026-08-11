@@ -5,7 +5,7 @@ cite_key: abdel-tawwab2023-cadmium-seabream-yeast
 title: "Saccharomyces cerevisiae supplemented diets mitigate the effects of waterborne cadmium toxicity on gilthead seabream (Sparus aurata L.): growth performance, haemato-biochemical, stress biomarkers, and histopathological investigations"
 authors: [Abdel-Tawwab M, Khalil RH, Younis NA, Abo Selema TAM, Saad AH, El-Werwary SOM, Gouda AH, Soliman AM, Shady SHH, Monier MN]
 year: 2023
-doi: 10.1007/s10646-023-02690-z
+doi: "10.1007/s11259-023-10176-0"
 access_url: "https://doi.org/10.1007/s10646-023-02690-z"
 no_doi_assigned: false
 source_type: peer-reviewed
@@ -27,6 +27,8 @@ updated: 2026-05-13
 ---
 
 # Abdel-Tawwab et al. 2023 — Cadmium residues in gilthead seabream muscle, liver, and gills; yeast dietary mitigation
+
+## Overview
 
 This controlled feeding trial measured Cd bioaccumulation in gill, liver, and muscle tissues of gilthead seabream (*Sparus aurata*) exposed to waterborne Cd (0, 1.0, and 2.0 mg Cd/L) and fed diets supplemented with *Saccharomyces cerevisiae* (0%, 0.5%, 1.0%) for 60 days. Cd concentrations in gill, liver, and muscle all increased dose-dependently with Cd exposure; liver retained the highest Cd residue, followed by gills, with muscle showing the lowest accumulation. Dietary yeast supplementation (1.0%) lowered Cd residues in fish organs and ameliorated the adverse effects of Cd toxicity on growth, haematology, and histopathology. The study reports quantitative Cd residues in muscle tissue of a commercially important marine food fish species under controlled contamination conditions.
 
@@ -55,15 +57,15 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Novakov 2021 - Serbian-market mussel metals and PAHs
 
+## Overview
+
 Novakov and colleagues measured lead, cadmium, mercury, arsenic, and PAHs in mussels sold on the Serbian market. The metal occurrence values are direct shellfish finished-food data from fresh and frozen mussel-meat samples. Arsenic is reported as total arsenic and mercury as total mercury; the paper does not measure inorganic arsenic or methylmercury.
 
 ## Key numbers
@@ -62,11 +64,15 @@ This source supplies direct Serbian-market shellfish occurrence evidence for Pb,
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; there is no mussel product slug, so values route through broad shellfish/seafood.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e9e6a5f](https://github.com/paleofoundation/heavymetalindex/commit/e9e6a5f) | 2026-06-08 | ingest: novakov2021-serbia-mussels-metals-pahs fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Ozbek et al. 2016 — Trace metal determination in Turkish vinegars by MIP OES
 
+## Overview
+
 This study validated a microwave-induced plasma optical emission spectrometry (MIP OES) method for simultaneous determination of ten elements (Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, Zn) in 35 vinegar samples produced in Turkey, requiring only simple dilution into 2% acetic acid without acid digestion. All measured concentrations fell well below the Turkish Food Codex maximum allowable values (Pb ≤1 mg/L; Cu + Zn ≤10 mg/L; Fe ≤10 mg/L); the highest observed Pb value across the sample set was 0.15 mg/L (one grape vinegar). The method is suitable for routine quality-control analysis of acidic food matrices.
 
 ## Key numbers
@@ -82,15 +84,15 @@ Page was originally drafted under the legacy manual-fetch-kimi handle and last u
 Auto-audit subagent (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

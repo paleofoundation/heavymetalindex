@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Moradi et al. 2015 — Total Cd, Pb, Ni, Fe in soils and edible wheat, rice, onion from two Isfahan-province industrial regions (Zarrinshahr, Mobarakeh) and a control (Natanz), with BAF / CLI / EDI / THQ risk indices by GF-AAS and flame AAS
 
+## Overview
+
 This Iranian soil-to-plant survey quantifies total Cd, Pb, Ni, and Fe in paired topsoil (0–20 cm) and edible crop samples (wheat grain, rice grain, onion bulb) collected from three Isfahan-province regions: Zarrinshahr (6–8 km east of Isfahan Steel Mill Company), Mobarakeh (12–14 km east of Mobarakeh Steel Mill Company), and Natanz (140–150 km from the steel mills; treated as the control region). Twenty-seven paired soil and crop composites (3 crops × 3 regions × 3 field replications) were digested by USEPA Method 3050B (soils) and wet HNO₃/H₂O₂ mineralisation (crops, per Lozano-Rodriguez et al. 1995), then quantified by graphite-furnace AAS (Perkin Elmer AAnalyst 800; Cd, Pb, Ni) and flame AAS (Fe). Mean industrial-region soil concentrations were Cd 1.85, Fe 35 894, Ni 64.5, and Pb 38 mg/kg vs. Natanz Cd 0.54, Fe 15 363, Ni 20, and Pb 19 mg/kg; industrial-region soils exceeded the EU 2000 sludge-soil ceiling for Cd (1.5 mg/kg) and the USEPA 1983 soil limit for Ni (40 mg/kg). Mean industrial-region crop concentrations across the three crops were Cd 0.25, Fe 55.7, Ni 1.80, and Pb 1.79 mg/kg dry weight; the three-crop means exceeded the Codex Alimentarius Commission 2001 maximum permitted concentrations (MPC) for Cd (0.20), Ni (0.6), and Pb (0.3 mg/kg) by 1.25×, 3.0×, and 6.0×. Total estimated daily intake (EDI) of Cd, Ni, and Pb in Zarrinshahr (2.08, 12.61, 14.46 µg/kg bw/day) and Mobarakeh (1.87, 12.37, 14.15) exceeded WHO 1993 TDIs of 1, 5, and 3.6 µg/kg bw/day by approximately 2×, 2.5×, and 4×; total target hazard quotient (THQ) sums for Pb and Cd from the three-crop pathway were greater than 1, indicating non-negligible non-carcinogenic health risk for inhabitants of the two industrial regions. The Natanz control region showed EDIs and THQs below tolerance.
 
 ## Key numbers
@@ -281,15 +283,15 @@ Sample size is small (n = 3 fields per region per crop, n = 27 paired soil–cro
 - **Data integrity.** All Table 1 cells (9 fields × 5 columns), Table 2 cells (9 fields × 4 metals + 3 region means + LSD row + 2 ceiling rows), Table 3 cells (9 crop-region cells × 4 metals + MPC row + LSD row), Table 4 cells (4 × 4 correlation matrix), and Table 5 cells (9 region-crop rows × 4 metals + 3 region totals + TDI row) transcribed verbatim from PDF pages 24–28. BAF values extracted from Figure 2 chart bars (page 30; precision ±0.005 noted). CLI values extracted from Figure 3 chart bars (page 31; precision ±0.2 noted) and cross-referenced with text-reported regional means. EDI sums verified: Zarrinshahr Cd 1.37 + 0.53 + 0.18 = 2.08 ✓; Zarrinshahr Ni 6.27 + 5.14 + 1.20 = 12.61 ✓; Zarrinshahr Pb 8.83 + 4.39 + 1.24 = 14.46 ✓. Mobarakeh Cd 1.24 + 0.47 + 0.16 = 1.87 ✓. Natanz Cd 0.27 + 0.09 + 0.03 = 0.39 ✓. No internal arithmetic discrepancies identified beyond the four flagged paper-internal inconsistencies above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

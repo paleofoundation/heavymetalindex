@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # ANSES 2019 — Safety of baby diapers (revised opinion, Request No 2017-SA-0019, France)
 
+## Overview
+
 This revised ANSES opinion is the French food, environmental and occupational health agency's collective expert appraisal of the safety of single-use baby diapers, prompted by January 2017 popular-press reporting of pesticides, dioxins, furans, PAHs and VOCs in diapers (60 Millions de Consommateurs, 2017). The CES on "Assessment of chemical risks of consumer items and products" conducted a quantitative health risk assessment (QHRA) of chemical exposures via dermal contact for children aged 0-36 months, using analytical results from 23 diaper products tested by SCL (DGCCRF Joint Laboratory Service) and INC (French National Consumer Institute) in 2016, 2017 and 2018. The QHRA concluded that a health risk could not be ruled out for two fragrances (Lyral® / hydroxyisohexyl 3-cyclohexene carboxaldehyde and Lilial® / butylphenyl methylpropional), certain PAHs, PCB-126, and the sums of dioxins, furans and DL-PCBs. **Heavy metals were among the substance classes screened for by the INC, but they are not listed among the substances quantified or detected at least once in single-use baby diapers sold in France, are not included in the QHRA, and are not the subject of any of the opinion's recommendations.** This page is ingested as out-of-core-scope regulatory context for the diapers and components product page — it carries the agency-level null finding for heavy metals in French-market diapers and the population-frame exposure parameters (diaper weight, diaper changes per day, body weight, dermal absorption assumptions) that may be reusable for HMI's future heavy-metals dermal exposure modelling in this product category, alongside the parallel non-metal findings (PAHs, dioxins/furans/DL-PCBs, fragrances) that contextualise the broader chemical-contamination picture in the same product class.
 
 ## Key numbers
@@ -177,15 +179,15 @@ ANSES's conclusion explicitly lists substances where no exceedance was found acr
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (ANSES opinions are not DOI-assigned); raw_handle `MFK_07-conso2017sa0019en-2019` not present; cite-key stem `anses2019` not present. PDF SHA-256 `602c3dd29a079409d12d5fdf3e38d91f3aec58fea531648b9161d52906e3327a`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is a national-agency regulatory opinion (32 pp.); `metals: []` reflects that the opinion does not name or quantify any specific heavy metal — heavy metals were on INC's screening panel but are absent from the inventory of detected/quantified substances, the QHRA, and the recommendations. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the lai2025 precedent for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory/methodology context.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

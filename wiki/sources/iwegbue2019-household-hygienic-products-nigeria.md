@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Iwegbue et al. 2019 — Cd/Pb/Cr/Cu/Co/Ni/Mn/Zn/Fe in 27 brands of household hygienic products from Delta State, Nigeria
 
+## Overview
+
 An Elsevier Toxicology Reports open-access study quantifying nine metals (Cd, Pb, Cr, Cu, Co, Ni, Mn, Zn, Fe) in twenty-seven brands of household hygienic products (HHPs) purchased in Abraka, Sapele and Warri (Delta State, southern Nigeria). The sample mix spans powdered laundry detergents (n=10), bar soaps (n=8), liquid dish-washing soaps (n=3), hand sanitizers (n=2), spot-removing creams (n=2) and hand/body creams (n=2). Three to five sub-samples per brand were analysed to capture intra-brand variation across manufacturing dates and batch numbers. Digestion was a triacid attack on a 0.5 g aliquot using HNO₃, HCl and HClO₄ in a 1:3:1 volume ratio (3 mL HNO₃, 9 mL HCl, 3 mL HClO₄) with a pre-digest at room temperature and heating to 110 °C; quantification was on a PerkinElmer Analyst 200 atomic absorption spectrophotometer. Spike-recovery validation gave 84.9-101.8 % across three concentration levels in the absence of a matrix-matched certified reference material. The authors then converted the metal concentrations into Systemic Exposure Dosages (SEDs) using the SCCS body-weight-normalised equation with the standard daily-application, skin-surface-area, frequency-of-application and retention-factor inputs for each product type, applied a 50 % (midpoint) and 100 % (worst-case) bioaccessibility assumption, and compared the SEDs against the (now withdrawn but still used as indicative) FAO/WHO Provisional Tolerable Daily Intake of 3.6 µg Pb kg⁻¹ bw day⁻¹ and the EFSA 0.35 µg Cd kg⁻¹ bw day⁻¹ tolerable weekly-intake-derived daily comparator. The authors' Margin-of-Safety values for every product-metal combination exceeded the 100 SCCS minimum-acceptable threshold; their public-health conclusion is that the HHPs in this market basket are "reasonably safe for the investigated metals" despite the presence of significant Cd and Pb levels.
 
 ## Key numbers
@@ -211,15 +213,15 @@ All analyses were performed in triplicate with relative standard deviations betw
 - Audit verdict was QUARANTINE. After this audit-application pass: seven findings applied (opening-paragraph spike-recovery range; Cr brands-detected count in narrative and metals/chromium routing bullet; triacid ratio ordering in opening paragraph and Methods section; spot-removing-cream Cr range; hand/body-cream Cr range; per-category sample-code stripping in body table and narrative; Verification-notes brand-roster strip). Two findings rejected as false positives (liquid-soap Cu range and `products/bathing-soaps` slug). All Check 3 (speciation/methods) findings clean except the triacid-ratio terminology slip which is folded into the Check 1 fix. All Check 5 (Part 2 wiki/HMTc firewall) findings were ⚠️ in the audit and explicitly assessed by the auditor as Part-2-compliant; no changes required. The post-application page is REVISE-grade rather than QUARANTINE because the underlying numerical fidelity errors (Cr inversion, Cr range malformations, spike-recovery range, triacid ratio) are resolved and the brand-firewall violations are fully stripped.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [5249fe6](https://github.com/paleofoundation/heavymetalindex/commit/5249fe6) | 2026-06-03 | audit: iwegbue2019-household-hygienic-products-nigeria revised |
-| [7ab88eb](https://github.com/paleofoundation/heavymetalindex/commit/7ab88eb) | 2026-06-03 | ingest: iwegbue2019-household-hygienic-products-nigeria fresh from KADC/02_Toilet_Bathroom_Descaler |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

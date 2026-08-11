@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2026 - AMF and calcium mitigation of arsenic stress in cotton seedlings
 
+## Overview
+
 Zhang and colleagues tested whether arbuscular mycorrhizal fungi and exogenous calcium could reduce arsenate stress in cotton seedlings. This is mitigation and supply-chain agronomy evidence for cotton grown on arsenic-contaminated soil, not finished-product occurrence evidence for fabric or child-product rows. The paper supports the mitigation layer because the combined fungal and calcium treatment improved growth, root architecture, photosynthetic performance, osmotic regulation, antioxidant activity, and potassium/calcium balance under arsenate stress.
 
 ## Key numbers
@@ -69,3 +71,17 @@ Microbiome: The relevant microbial system is plant-root mycorrhiza, not the huma
 - DOI, title, authors, journal, year, license, arsenate dose, calcium dose, replicate count, and growth-response percentages were transcribed from the PDF.
 - The auto-fetch filename mapped this source to `walkers`, but the paper is about cotton seedlings. The page routes it to cotton/fabric-contact supply-chain context rather than to walkers as a finished child-durable occurrence source.
 - Arsenic was applied as arsenate, an inorganic arsenic species. The page therefore uses `iAs` in frontmatter and does not substitute the greenhouse arsenate-stress dose for total arsenic in finished cotton products.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

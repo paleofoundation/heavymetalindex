@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Jaafar 2020 - Pediococcus lead and cadmium bioremediation
 
+## Overview
+
 Jaafar isolated a Pediococcus pentosaceus strain from common-carp pond water in Basra, Iraq, confirmed probiotic traits, and tested its tolerance and removal of experimentally added lead and cadmium. This is mitigation and bioremediation evidence, not consumer-product occurrence evidence: the Pb and Cd values come from spiked laboratory media and fish-pond remediation framing, so they should not enter food, salt, probiotic, or supplement benchmark pools.
 
 ## Key numbers
@@ -72,3 +74,17 @@ App: Context only for mitigation education. The paper does not support consumer-
 The auto-fetch filename framed this as salt/cadmium, but the PDF itself is a probiotic bioremediation paper. Products and ingredients are intentionally empty because no marketed salt, probiotic supplement, food ingredient, fish product, or consumer product was measured. The `sample_n` field records the nine pond-water samples used to isolate the bacterium; the metal-removal numbers are laboratory spiked-media assays.
 
 The abstract reports Pb removal of 62.10-68.39% at 25 and 50 ppm, and Cd removal of 52.71-11.25% at the same concentrations. The results text clarifies the paired values: Pb was 62.10% at 25 ppm and 68.39% at 50 ppm; Cd was 52.71% at 25 ppm and 11.25% at 50 ppm. Those pairings are used above.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

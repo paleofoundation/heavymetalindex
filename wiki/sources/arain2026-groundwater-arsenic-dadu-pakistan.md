@@ -6,8 +6,8 @@ title: "Multivariate Assessment of Groundwater Hydrochemistry for Drinking and I
 authors: [Arain GM, Memon S, Arain MB, Memon AA, Arain SA, Khuhawar MY]
 year: 2026
 publication: "ACS Omega"
-doi: 10.1021/acsomega.4c10893
-access_url: https://doi.org/10.1021/acsomega.4c10893
+doi: "10.1021/acsomega.5c09296"
+access_url: "https://doi.org/10.1021/acsomega.5c09296"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -27,6 +27,8 @@ updated: 2026-05-12
 ---
 
 # Arain et al. 2026 — Groundwater arsenic and hydrochemistry in flood-prone Dadu district, Sindh, Pakistan
+
+## Overview
 
 This study characterized the hydrochemistry of 159 groundwater samples from District Dadu, Sindh, one of Pakistan's most flood-prone agricultural districts, assessing fitness for drinking and irrigation. Arsenic concentrations ranged up to 500 µg/L, exceeding WHO and Pakistan National Standards for Drinking Water Quality limits (10 µg/L) at a substantial fraction of sampling sites. Fluoride co-contamination was also widespread. Total dissolved solids reached up to 22,900 mg/L, and Escherichia coli was detected in 59.7% of samples, indicating concurrent microbiological hazard. Hazard quotient analysis showed elevated non-carcinogenic health risks for arsenic and fluoride, with infants and children identified as the highest-risk subpopulations due to their lower body weight relative to intake. The sodium adsorption ratio and residual sodium carbonate indices indicated that a majority of groundwater samples are unsuitable for irrigation without treatment, raising concerns for arsenic transfer to crops grown in the district.
 
@@ -60,15 +62,15 @@ Microbiome: Not directly addressed.
 - [[supply-chain/irrigation-water]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

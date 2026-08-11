@@ -24,6 +24,8 @@ updated: 2026-06-15
 
 # Stark et al. 2019 - Wild edible greens in the East Bay
 
+## Overview
+
 Stark and colleagues combined urban foraging observations with soil and plant-tissue testing of wild edible greens from disadvantaged East Bay neighborhoods in California. The paper is routeable as direct leafy-greens occurrence context because it reports rinsed plant-tissue cadmium values, lead non-detects in tissue, and corresponding urban-soil metal measurements.
 
 ## Key numbers
@@ -62,3 +64,17 @@ App: Can support a cautionary leafy-greens context note for urban foraging, with
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The paper includes both routeable edible-tissue numbers and urban-soil pathway context. Product and ingredient routing is kept broad because the tested greens span multiple wild species rather than a single commercial crop row.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [c7da2fe35](https://github.com/paleofoundation/heavymetalindex/commit/c7da2fe35) | 2026-06-15 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ding et al. 2015 — Stability constants of Hg²⁺, Cd²⁺, and Pb²⁺ complexes with thiol-containing peptides isolated from soy glycinin hydrolysates
 
+## Overview
+
 Ding and colleagues at Jiangnan University (Wuxi, China) hydrolysed soy glycinin (the 11S storage protein of soybean) with three commercial proteases — alcalase, papain, and pepsin — to three degrees of hydrolysis (DH 5%, 15%, 25%), enriched the thiol-containing peptide (TCP) sub-population from each hydrolysate by Thiopropyl-Sepharose 6B covalent chromatography, and measured the stability constants (lgβ₁ and lgβ₂) of the resulting TCPs against Hg²⁺, Cd²⁺, and Pb²⁺ by potentiometric pH titration. The TCPs from the 25% DH papain digest reached lgβ₂ values of 33.4 (Hg), 15.2 (Cd), and 21.1 (Pb), comparable to or exceeding the corresponding glutathione values measured in the same study. The paper frames TCPs as candidate functional-food ingredients for "natural detoxication of heavy metals," not as a measurement of heavy metals in soy or in any food product.
 
 ## Why this matters
@@ -137,12 +139,15 @@ Microbiome: Not applicable. No microbiota or gut-microbial measurements.
 - [[metals/lead]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0b61232](https://github.com/paleofoundation/heavymetalindex/commit/0b61232) | 2026-06-08 | audit: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation revised |
-| [bf7a419](https://github.com/paleofoundation/heavymetalindex/commit/bf7a419) | 2026-06-08 | ingest: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

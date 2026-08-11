@@ -35,6 +35,8 @@ updated: 2026-06-02
 
 # EU Cosmetics Regulation 1223/2009 — horizontal legal framework, Annex II metal prohibitions, Annex III/V conditional permissions, Article 17 trace-impurity clause
 
+## Overview
+
 This is the EU's horizontal cosmetic-products regulation: a single binding legal instrument that replaced Directive 76/768/EEC and applies directly in all EU Member States from 11 July 2013. Its relevance to Heavy Metal Index is structural rather than empirical. The regulation does not measure or estimate contamination concentrations in finished cosmetics; it defines (a) which metals are prohibited as intentional ingredients (Annex II), (b) which metal-containing substances are permitted under explicit restriction (Annex III selenium disulphide for anti-dandruff shampoos, aluminium zirconium complexes in non-aerosol antiperspirants, strontium chloride in oral products; Annex V Thiomersal and phenylmercuric salts as eye-product preservatives at 0.007 % as Hg), and (c) the legal status of non-intended trace-level heavy-metal impurities (Article 17). Article 17 is the provision under which every downstream EU-jurisdiction heavy-metal-in-cosmetics study, agency guidance value, and national surveillance threshold operates: trace presence of an Annex II substance from raw-material impurities, the manufacturing process, storage or packaging migration is permitted only where technically unavoidable in good manufacturing practice AND consistent with Article 3 (safety). The regulation itself sets no numeric trace limits for prohibited metals; that gap is what national feasibility studies ([[sources/opss2023-feasibility-action-limits-cosmetics-uk]]), agency guidance documents (German BVL, Health Canada, KvW, ASEAN, ICCR), and Member State action limits exist to fill.
 
 ## Key numbers
@@ -132,15 +134,15 @@ Audit findings reviewed and judged not to require changes:
 - The lead paragraph and Routing Rationale section make legal-architecture statements about how downstream EU heavy-metal-in-cosmetics literature operates under Article 17. The subagent flagged this as edging toward synthesis framing. Judged acceptable: these statements are about the regulation's legal structure (which is the source's own subject matter), not about heavy-metal contamination synthesis across multiple primary studies. No HMTc threshold is proposed and the wiki/HMTc firewall is preserved.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->
