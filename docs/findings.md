@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-49 open item(s): 20 auto, 29 awaiting a decision.
+50 open item(s): 21 auto, 29 awaiting a decision.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -531,6 +531,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: hmtc_aggregate_distributions.csv shellfish|Cd: pooled_p95=5294, pooled_p100=21665 while observed_max across cited studies (cert occurrence-evidence) = 1600 ppb. romero-estevez2020-bivalves-santa-rosa-ecuador contributes TWICE to the pool: an autonomy row (category1_autonomy_extracted_summary.csv, row_slug=shellfish, Cd, mean_ppb=560, reconstruction lognormal_mean_only) AND a cat6 primary_extraction row (uniform_max_only). The mean-only lognormal tail plus double-counting inflate the pooled upper tail far above any real measurement.
 - done when: shellfish|Cd pooled_p100 within ~2x of observed_max (1600 ppb); romero-estevez2020 contributes once (dedupe autonomy vs primary-extraction row); cert shellfish|Cd observed_max stays 1600 ppb
 - notes: Distinct from the cephalopod misrouting (which is fixed). This is the same duplicate-autonomy-row + mean-only-tail class as the salt|Pb samsiyah quarantine, but for a different source/cell. The cert renderer already displays observed_max=1600, so it is not a false live-page figure; logging rather than chasing.
+
+### OI-20260811-precommit-hook-bashism — .husky/pre-commit uses bash [[ ]] with no shebang, so it fails under /bin/sh (dash) on Linux — every Linux and CI session must bypass it
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `.husky/pre-commit`, `tools/autonomy/commit-lock.sh`
+- repro: On Linux where /bin/sh is dash, git runs .husky/pre-commit via sh. The file has no shebang and uses bash-only [[ ]] at lines 49 (via tools/autonomy/commit-lock.sh), 74, 107 and 127. Result: '[[: not found' and 'Illegal number' from the line-107 stat parse, hook exits 2, commit blocked. Running 'bash .husky/pre-commit' on the identical staged tree exits 0 with all checks passing, which confirms a shell-dialect bug rather than a real check failure. On macOS /bin/sh is bash in POSIX mode so [[ still works, which is why this has not surfaced locally.
+- done when: Add a bash shebang as the first line of .husky/pre-commit and of tools/autonomy/commit-lock.sh; git commit succeeds without --no-verify on a Linux host where /bin/sh is dash; The line-107 stat-based lock-age check parses correctly under the chosen shell
+- evidence: Observed 2026-08-11 committing the nickel synthesis corrections; bash .husky/pre-commit exited 0 on the same staged tree that sh rejected with code 2
+- notes: Silent-bypass risk: this failure mode pushes every Linux/CI session toward --no-verify, which also skips the routing audit and the wiki_edit_audit provenance gate. Both are load-bearing per Part 5b and the provenance invariant. Fix is to add a bash shebang to both scripts.
 
 ### OI-20260811-ni-sensitized-population-mark — Decision: whether a crop-relative nickel mark serving the ~15% nickel-sensitized population is worth scoping — the acute MOE finding is the binding Ni health concern and is unaddressed by any current claim
 
