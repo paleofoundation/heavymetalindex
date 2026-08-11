@@ -50,6 +50,9 @@ const ANALYTE_DISP = { Pb: "Lead (Pb)", tAs: "Arsenic, total (tAs)", iAs: "Inorg
 const TIER1 = new Set(["Pb", "Cd", "iAs", "tHg", "MeHg"])
 const PANEL = ["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"]
 const GOVNAME = { EU: "European Union", "US-WA": "Washington State", US: "United States (ASTM F963 / CPSIA)", MX: "Mexico", CA: "Canada", "US-CPSC": "US (CPSC)" }
+const REGULATION_PAGE_BY_ID_PREFIX = new Map([
+  ["eu_2009_48_", "regulations/eu-2009-48-toy-safety-migration-limits"],
+])
 
 // mg/kg display from a µg/kg register value
 const mg = (ug) => {
@@ -156,20 +159,32 @@ function sourceRegs(rec) {
     for (const comp of c.companion || []) if (comp.binding_id) ids.add(comp.binding_id)
   }
   const pages = new Map()
-  for (const id of ids) { const r = byId.get(id); if (!r) continue; const key = r.regulation_page || r.regulatory_limit_id; if (!pages.has(key)) pages.set(key, r) }
+  for (const id of ids) {
+    const r = byId.get(id); if (!r) continue
+    const page = regulationPage(r)
+    const key = page || r.regulatory_limit_id
+    if (!pages.has(key)) pages.set(key, { page, r })
+  }
   const lines = ["| # | Regulation | Instrument | Basis | Role in this standard |", "| --- | --- | --- | --- | --- |"]
   let n = 1
-  for (const [pageKey, r] of pages) {
-    const nm = regName(r)
+  for (const { page, r } of pages.values()) {
+    const nm = regName(r, page)
     // Firewall: cert cites the INDEX regulation record one-way (absolute URL out to heavymetalindex.com).
-    const href = r.regulation_page ? `https://heavymetalindex.com/regulations/${r.regulation_page.replace(/^regulations\//, "")}` : null
+    const href = page ? `https://heavymetalindex.com/regulations/${page.replace(/^regulations\//, "")}` : null
     const cell = href ? `[${nm}](${href})` : nm
     lines.push(`| ${n++} | ${cell} | ${instrument(r)} | ${basisFamily(r)} | ${role(r)} |`)
   }
   return lines.join("\n")
 }
-function regName(r) {
-  const p = r.regulation_page || ""
+function regulationPage(r) {
+  for (const [prefix, page] of REGULATION_PAGE_BY_ID_PREFIX) {
+    if (r.regulatory_limit_id.startsWith(prefix)) return page
+  }
+  const page = (r.regulation_page || "").trim()
+  return /^regulations\/[a-z0-9][a-z0-9-]*$/.test(page) ? page : ""
+}
+function regName(r, page = regulationPage(r)) {
+  const p = page || ""
   if (p.includes("eu-2009-48")) return "EU Toy Safety Directive 2009/48/EC (Annex II Pt III)"
   if (p.includes("eu-10-2011")) return "EU Regulation 10/2011 (plastic food-contact, Annex II)"
   if (p.includes("astm-f963")) return "ASTM F963 (mandatory under CPSIA s.106)"
