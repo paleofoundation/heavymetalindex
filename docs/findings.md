@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-51 open item(s): 21 auto, 30 awaiting a decision.
+52 open item(s): 21 auto, 31 awaiting a decision.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -596,6 +596,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The sentence distinguishes flaxseed (no Ni ML) from oilseeds generally (Ni MLs set for sunflower seed, peanuts, soy beans); A wikilink to regulations/eu-2024-1987-nickel-maximum-levels is present
 - evidence: wiki/sources/eu-2024-1987-nickel-maximum-levels.md Annex 3.6.10.1-3.6.10.3
 - notes: Found while correcting the nickel synthesis page 2026-08-11; out of scope for that task so logged rather than chased.
+
+### OI-20260811-briefing-author-string-and-test-side-effect — build-standards-briefing.test.mjs rewrites data/workbench/briefings/*.md as a side effect of running the test suite, and the committed briefing still carries the pre-Part-14 'Paleo Foundation' author string
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/build-standards-briefing.test.mjs`, `tools/standards/build-standards-briefing.mjs`, `data/workbench/briefings/infant-formula-powder-non-soy.md`
+- repro: The test suite's regenerate() helper writes data/workbench/briefings/infant-formula-powder-non-soy.md in place rather than to a temp path, so `npm test` dirties the working tree. On 2026-08-11 that regenerated file was swept into a commit by a `git add -A` and had to be reverted (dc02c08c). Two separate defects: (a) a test with a filesystem side effect on a governed standards artifact; (b) the regeneration is not value-stable across environments - it moved Pb 20->11 ppb, Sn 76->48 ppb, Cd 8->7.5 ppb, and flipped Pb from regulatory-alignment to literature-baseline, with source counts collapsing 17->11, 18->10, 16->6, 23->13, indicating the local pool is thinner than the one the committed briefing was built from.
+- done when: regenerate() in the test writes to a temp dir; `npm test` leaves `git status` clean; The Part 14 author-string correction (Paleo Foundation -> Institute of Contaminant Standards (ICS)) is applied to the committed briefings on its own commit, with the pool state verified and thresholds unchanged; Either the generator is deterministic given committed inputs, or the briefing records which pool snapshot it was built from so drift is detectable
+- evidence: Reverted in dc02c08c on branch claude/nickel-food-article-review-um5vwd · Diff showed generated_at 2026-08-01 -> 2026-08-11 plus the threshold and source-count moves listed above
+- decision: _pending_
+- notes: human-gated because it touches published HMTc threshold values and the Part 19 workbench. The author-string fix is genuinely correct per Part 14 entity naming and should land - but deliberately, not as a test side effect. Do NOT accept the recomputed thresholds without first establishing why the local pool is thinner.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
