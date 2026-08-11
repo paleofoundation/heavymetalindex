@@ -140,11 +140,16 @@ export default ((opts?: Partial<Options>) => {
       )
     }
 
+    // Reached only when position is "right" (or unset): the "left" placement is
+    // fully handled by the early-return branch above, which renders its own
+    // <nav> and never falls through. The two `position === "left"` ternaries
+    // that used to be here were therefore dead — TypeScript flagged them as
+    // TS2367 once it narrowed `position` past that return. Removing them does
+    // not drop the left rendering; it drops branches that could not execute.
     const id = `toc-${numTocs++}`
-    const tocTitle =
-      opts?.title ?? (position === "left" ? "On this page" : i18n(cfg.locale).components.tableOfContents.title)
+    const tocTitle = opts?.title ?? i18n(cfg.locale).components.tableOfContents.title
     return (
-      <div class={classNames(displayClass, position === "left" ? "toc toc-left" : "toc")}>
+      <div class={classNames(displayClass, "toc")}>
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}

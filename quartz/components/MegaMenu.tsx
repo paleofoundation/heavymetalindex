@@ -27,24 +27,11 @@ import { navPanels, type NavPanel } from "./generated/navPanels"
 // from the editorial seed by tools/build-nav-panels.mjs and fails the build if
 // any slug does not resolve.
 
-function Chevron() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2.2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      aria-hidden="true"
-    >
-      <polyline points="6 9 12 15 18 9" />
-    </svg>
-  )
-}
+// The Chevron glyph component was removed with the disclosure affordance it
+// drew: CHROME-SPEC §1 states "No chevron, no caret, no disclosure glyph. The
+// 2px bottom border is the entire affordance." See the call-site comment in the
+// panel button below, which records why the button and its screen-reader name
+// stay even though the glyph is gone.
 
 export function isPanelActive(currentSlug: string, panel: NavPanel): boolean {
   if (currentSlug === panel.slug) return true

@@ -62,10 +62,14 @@ function orgFromCiteKey(citeKey: string, year: string): string {
 // Compact "Surname et al. YEAR" for the card header; org label for agency sources.
 function authorLabel(authors: unknown, year: unknown, citeKey: string): string {
   const y = year != null && String(year).trim() ? String(year).trim() : ""
-  const first = Array.isArray(authors) && authors.length ? String(authors[0] ?? "").trim() : ""
+  // Hoisted so the array narrowing survives into the branch below. Reading
+  // authors.length inside the `if (first && ...)` block left it as `unknown`,
+  // because that guard narrows `first`, not `authors` (TS18046).
+  const authorList: unknown[] = Array.isArray(authors) ? authors : []
+  const first = authorList.length ? String(authorList[0] ?? "").trim() : ""
   if (first && !isInstitutional(first)) {
     const s = extractSurname(first)
-    if (s) return `${s}${authors.length > 1 ? " et al." : ""}${y ? " " + y : ""}`.trim()
+    if (s) return `${s}${authorList.length > 1 ? " et al." : ""}${y ? " " + y : ""}`.trim()
   }
   return orgFromCiteKey(citeKey, y)
 }

@@ -20,7 +20,14 @@ import * as Component from "./quartz/components";
 // be built inside the function body. A hoisted closure variable would be
 // undefined in the browser and silently break the Explorer. Defined once and
 // shared across both layouts so the hidden set cannot drift between them.
-const primaryNavFilter = (node: { slugSegment: string }) => {
+//
+// CURRENTLY UNWIRED: the global file-tree Explorer this filtered was removed
+// (see the left-rail note below), so nothing calls this today. It is exported
+// rather than deleted because the hidden set is the governing list of folders
+// that must never surface in public navigation, which is a Part 2 posture
+// concern and not merely a nav preference. Any future component that lists
+// folders publicly should filter through this rather than re-deriving the set.
+export const primaryNavFilter = (node: { slugSegment: string }) => {
   const hiddenPrimaryNav = new Set([
     "app",
     "about",
