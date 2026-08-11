@@ -3,7 +3,7 @@ title: Chromium
 type: metal
 symbol: Cr
 name: Chromium
-species: [Cr3+, Cr6+]
+species: [Cr3+, Cr6+, Cr-total]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 876

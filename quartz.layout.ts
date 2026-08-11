@@ -75,6 +75,33 @@ export const sharedPageComponents: SharedLayout = {
     // including the inbound direction — a whole-graph duplicate at the page
     // bottom that read as clutter and undercut the curated-reference posture.
     // The rail keeps the compact version; the shared graph lives in relatedGraph.ts.
+    //
+    // The relationship apparatus (end matter, like a journal's citation network):
+    //   - Backlinks ("Referenced by"): a rendered list of <a> edges — the
+    //     crawlable, LLM-extractable relationship surface, overflow-capped, with
+    //     sources and retired stubs excluded. Self-gates (null when empty).
+    //   - Graph: the per-page LOCAL interactive graph (credibility + lateral
+    //     navigation). The whole-corpus global graph is a ~4,000-node force
+    //     hairball, so it is disabled; sources and retired stubs are dropped and
+    //     the neighbourhood is node-capped so metal hubs stay performant. The
+    //     canvas is invisible to crawlers, which is why Backlinks carries the
+    //     SEO/LLMO weight and the Graph is the visual/navigation layer.
+    // Both reflect the REAL concept graph because ConceptLinks folds structured
+    // frontmatter relationships into file.data.links (see conceptLinks.ts).
+    Component.Backlinks(),
+    Component.Graph({
+      enableGlobalGraph: false,
+      hideOnTypes: ["source"],
+      localGraph: {
+        depth: 1,
+        scale: 1.1,
+        focusOnHover: true,
+        enableRadial: false,
+        removeSourcePrefixes: ["sources/"],
+        removeRetired: true,
+        maxNodes: 100,
+      },
+    }),
   ],
   footer: Component.Footer(),
 };

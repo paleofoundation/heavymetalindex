@@ -330,3 +330,12 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 15 removed; narrative text revised |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-auto-linked-stubs -->
+
+## Additional indexed pages
+
+_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
+
+- [[ingredients/bee-pollen|Bee Pollen]]
+<!-- END: hmi-auto-linked-stubs -->

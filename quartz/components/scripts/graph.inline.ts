@@ -87,6 +87,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    removeSourcePrefixes,
+    removeRetired,
+    maxNodes,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -95,6 +98,20 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       v,
     ]),
   )
+
+  // Drop non-topical nodes (sources) and retired redirect stubs before any link
+  // is built, so edges pointing at them vanish too and the graph stays a
+  // topical relationship view. Configured by the mount in quartz.layout.ts.
+  const dropPrefixes = removeSourcePrefixes ?? []
+  if (dropPrefixes.length > 0 || removeRetired) {
+    for (const [k, v] of [...data]) {
+      if (removeRetired && v.retired) {
+        data.delete(k)
+      } else if (dropPrefixes.some((p) => k.startsWith(p))) {
+        data.delete(k)
+      }
+    }
+  }
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
@@ -122,24 +139,45 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
+  // Adjacency index so the neighbourhood walk is O(edges touched) rather than
+  // O(nodes * total_links). Folding structured frontmatter edges turns the ~10
+  // metal pages into hubs with hundreds of inbound edges; the previous
+  // per-node links.filter() made a hub's local graph quadratic and janky.
+  const outAdj = new Map<SimpleSlug, SimpleSlug[]>()
+  const inAdj = new Map<SimpleSlug, SimpleSlug[]>()
+  for (const l of links) {
+    let o = outAdj.get(l.source)
+    if (!o) outAdj.set(l.source, (o = []))
+    o.push(l.target)
+    let i = inAdj.get(l.target)
+    if (!i) inAdj.set(l.target, (i = []))
+    i.push(l.source)
+  }
+
+  // Cap the neighbourhood so hub pages do not render a hairball or stall the
+  // force simulation. The cap is enforced DURING traversal (BFS order = nearest
+  // first) so the walk itself stops early on hubs. The uncapped, authoritative
+  // relationship list is the Backlinks block.
+  const cap = maxNodes && maxNodes > 0 ? maxNodes : Infinity
   const neighbourhood = new Set<SimpleSlug>()
   const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
   if (depth >= 0) {
-    while (depth >= 0 && wl.length > 0) {
-      // compute neighbours
+    while (depth >= 0 && wl.length > 0 && neighbourhood.size < cap) {
       const cur = wl.shift()!
       if (cur === "__SENTINEL") {
         depth--
         wl.push("__SENTINEL")
-      } else {
+      } else if (!neighbourhood.has(cur)) {
         neighbourhood.add(cur)
-        const outgoing = links.filter((l) => l.source === cur)
-        const incoming = links.filter((l) => l.target === cur)
-        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+        for (const t of outAdj.get(cur) ?? []) wl.push(t)
+        for (const s of inAdj.get(cur) ?? []) wl.push(s)
       }
     }
   } else {
-    validLinks.forEach((id) => neighbourhood.add(id))
+    for (const id of validLinks) {
+      if (neighbourhood.size >= cap) break
+      neighbourhood.add(id)
+    }
     if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
   }
 

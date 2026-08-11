@@ -20,6 +20,10 @@ export type ContentDetails = {
   date?: Date
   description?: string
   noindex?: boolean
+  // Retired redirect stubs stay published (their URLs are preserved) but are
+  // excluded from the interactive Graph so the relationship view is not polluted
+  // by pages that only forward to a parent. See Graph.tsx / graph.inline.ts.
+  retired?: boolean
 }
 
 interface Options {
@@ -175,6 +179,9 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             date: date,
             description: file.data.description ?? "",
             noindex,
+            retired:
+              (file.data.frontmatter as any)?.retired === true ||
+              (file.data.frontmatter as any)?.retired === "true",
           })
         }
       }

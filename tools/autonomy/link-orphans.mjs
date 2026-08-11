@@ -41,44 +41,76 @@ for (const cat of CATEGORIES) {
 
   const allSlugs = fs.readdirSync(dir)
     .filter((f) => f.endsWith(".md") && f !== "index.md")
+    .filter((f) => !isRetired(path.join(dir, f)))
     .map((f) => path.basename(f, ".md"))
     .sort()
 
-  let indexText = fs.existsSync(indexPath) ? fs.readFileSync(indexPath, "utf8") : ""
+  const indexText = fs.existsSync(indexPath) ? fs.readFileSync(indexPath, "utf8") : ""
 
-  // Find orphan slugs (not referenced anywhere in the index file)
-  const orphans = allSlugs.filter((slug) => !indexText.includes(slug))
-  if (orphans.length === 0) continue
+  // Strip any existing auto-linked section BEFORE computing orphans. The old
+  // version computed orphans against the whole file, INCLUDING the section it
+  // was about to regenerate, so a slug that was present only because a previous
+  // run had listed it here counted as "not an orphan" and was silently dropped
+  // when the section was rewritten. Re-running the tool therefore lost pages.
+  // Computing against the CURATED index (section removed) makes it idempotent.
+  const sectionRe = new RegExp(`\\n*${escapeRe(MARKER_BEGIN)}[\\s\\S]*?${escapeRe(MARKER_END)}\\n*`)
+  const curatedText = indexText.replace(sectionRe, "\n")
+
+  // A slug is referenced only if it appears as an actual [[category/slug]]
+  // wikilink, matched on a slug boundary. Substring matching (the old
+  // `indexText.includes(slug)`) let "cereal" mask "baby-cereals-dry" and any
+  // slug that happened to be a substring of unrelated prose, hiding real orphans.
+  const cname = path.basename(cat.dir)
+  const referenced = new Set()
+  const linkRe = new RegExp(`\\[\\[${escapeRe(cname)}/([a-z0-9][a-z0-9_-]*)`, "g")
+  let lm
+  while ((lm = linkRe.exec(curatedText)) !== null) referenced.add(lm[1])
+
+  const orphans = allSlugs.filter((slug) => !referenced.has(slug))
+
+  if (orphans.length === 0) {
+    // Nothing to surface. If a stale section is still present, drop it so the
+    // index reflects reality.
+    if (curatedText !== indexText) {
+      fs.writeFileSync(indexPath, curatedText.replace(/\n{3,}/g, "\n\n").trimEnd() + "\n", "utf8")
+      console.log(`${cat.indexFile}: removed stale auto-linked section (0 orphans)`)
+    }
+    continue
+  }
 
   // Build the auto-linked section
   const lines = []
   lines.push("")
-  lines.push("## Auto-linked stubs")
+  lines.push("## Additional indexed pages")
   lines.push("")
-  lines.push("_Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._")
+  lines.push("_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._")
   lines.push("")
   for (const slug of orphans) {
     const fullPath = path.join(dir, `${slug}.md`)
     const title = readTitle(fullPath) || titleize(slug)
-    const wikilink = `[[${path.basename(cat.dir)}/${slug}|${title}]]`
+    const wikilink = `[[${cname}/${slug}|${title}]]`
     lines.push(`- ${wikilink}`)
   }
   lines.push("")
 
-  // Replace existing auto-linked section if present
-  if (indexText.includes(MARKER_BEGIN)) {
-    const re = new RegExp(`${escapeRe(MARKER_BEGIN)}[\\s\\S]*?${escapeRe(MARKER_END)}`)
-    indexText = indexText.replace(re, `${MARKER_BEGIN}\n${lines.join("\n")}${MARKER_END}`)
-  } else {
-    indexText = indexText.trimEnd() + "\n\n" + MARKER_BEGIN + "\n" + lines.join("\n") + MARKER_END + "\n"
-  }
-
-  fs.writeFileSync(indexPath, indexText, "utf8")
+  const newText =
+    curatedText.replace(/\n{3,}/g, "\n\n").trimEnd() +
+    "\n\n" + MARKER_BEGIN + "\n" + lines.join("\n") + MARKER_END + "\n"
+  fs.writeFileSync(indexPath, newText, "utf8")
   console.log(`${cat.indexFile}: linked ${orphans.length} orphan(s)`)
   totalAdded += orphans.length
 }
 
 console.log(`Auto-linked ${totalAdded} orphan(s) across ${CATEGORIES.length} categories`)
+
+// A page marked `retired: true` is out of scope; it stays reachable by direct
+// link but is not surfaced as fresh index navigation, matching how the rail's
+// Connections block drops retired pages.
+function isRetired(filepath) {
+  const text = fs.readFileSync(filepath, "utf8")
+  const fm = text.match(/^---\n([\s\S]*?)\n---/)
+  return !!(fm && /^retired:\s*true\b/m.test(fm[1]))
+}
 
 function readTitle(filepath) {
   const text = fs.readFileSync(filepath, "utf8")

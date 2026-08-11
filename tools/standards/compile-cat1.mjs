@@ -50,6 +50,15 @@ const QUARANTINE = /quarantin/i
 // feed mercury rows (100-200 ug/kg) are STRICTER than the strictest food-fish tHg (300) and would wrongly
 // cap seafood mercury from a feed hygiene limit if they leaked. Systemic guard across every category.
 const FEED = /\bfeed\b/i
+// Pesticide-residue MRLs (Reg 396/2005 and its amending instruments, e.g. Reg 2018/73 for mercury
+// compounds) are a categorically different legal instrument from contaminant maximum levels: they cap
+// the residue of an authorised plant-protection product, not the background contaminant load, and are
+// enforced under a separate framework. They must never bind a contamination standard. Load-bearing for
+// grains: the ONLY EU mercury value scoped to "cereals including rice" in the register is the 2018/73
+// pesticide MRL (10 ug/kg); untreated it would silently become the strictest tHg cereal ML and cap the
+// grain mercury standard from a pesticide instrument. Systemic guard across every category (matches
+// exactly one register row today, all others being contaminant/impurity/statutory limits).
+const PESTICIDE = /pesticide|residue level/i
 // Canned/tinplate in the register's several source languages. Tin migrates from the can, so these
 // limits govern canned product only; an English-only pattern let Morocco's French "en conserve"
 // tin rows (100 mg/kg) leak into non-canned purées. Also foundational for canned-seafood gating.
@@ -139,12 +148,21 @@ function roundDisplay(x) {
 
 // --- per-cell resolution ------------------------------------------------------
 function resolveCell(sub, analyte, variant) {
-  const inc = sub.scope_include
-  const exc = sub.scope_exclude || []
+  // Optional per-analyte scope override: some rows carry an analyte-specific government limit under a
+  // scope token that, if added to the subcategory-wide scope, would wrongly perturb OTHER analytes.
+  // Because rows are filtered by analyte species first (below), extra include/exclude tokens scoped to
+  // a single analyte are physically confined to that analyte's candidate set. The load-bearing case:
+  // FSANZ sets rice cadmium under the bare scope "rice"; adding "\brice\b" to the Cd cell reaches the
+  // strictest rice Cd (100) without dragging the raw-rice iAs rows (which share the "rice"/"Rice" scope
+  // text but are a different species) into the product iAs cells — preserving product-form iAs.
+  const analyteScope = (sub.analyte_scope && sub.analyte_scope[analyte]) || {}
+  const inc = [...sub.scope_include, ...(analyteScope.include || [])]
+  const exc = [...(sub.scope_exclude || []), ...(analyteScope.exclude || [])]
   const rows = register.filter((r) => {
     if (analyteOf(r.metal_species) !== analyte) return false
     if (DRAFT.test(r.status)) return false
     if (QUARANTINE.test(r.status)) return false
+    if (PESTICIDE.test(r.status)) return false
     if (FEED.test(r.basis || "")) return false
     if (!sub.canned && CANNED.test(r.product_scope)) return false
     if (!scopeMatch(r.product_scope, inc, exc)) return false
@@ -202,10 +220,25 @@ function resolveCell(sub, analyte, variant) {
   const ra = (sub.read_across || {})[analyte]
   let raResult = null
   if (ra && !ra.not_material) {
+    // Inline cross-source value: a cell for which NO government ML exists but the contaminant is
+    // material (Method v2.0 no-ML path). The value is occurrence- or read-across-derived and named in
+    // the config; it is authoritative for this cell (no scope-based gov comparison). basis is
+    // "occurrence" | "precautionary" (rendered as a comparator/read-across cell downstream).
+    if (ra.value_ppb != null) {
+      const v = num(ra.value_ppb)
+      return { type: "read_across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id || null, source_jurisdiction: ra.source_jurisdiction || null, label: ra.label || "cross-source value", basis_kind: ra.basis || "occurrence", basis_note: (ra.basis === "precautionary" ? "precautionary cross-source value (no government ML for this product form)" : "occurrence / cross-source value (no government ML for this product form)"), per_country: {} }
+    }
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
     if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label }
+  }
+
+  // basis:"gov" override — the borrowed register row is a government maximum level that DIRECTLY
+  // applies to this product form (e.g. a rice noodle IS the China starch-noodle carve-out); present it
+  // as a government-limit cell rather than a read-across, authoritatively (skip the strictest-of scan).
+  if (raResult && ra && ra.basis === "gov") {
+    return { type: "gov", value: roundDisplay(raResult.value), value_exact: raResult.value, binding_jurisdiction: raResult.jur, binding_id: raResult.source_id, basis_note: ra.label || "government maximum level by lookup", per_country: { [raResult.jur]: { value: roundDisplay(raResult.value), converted: false, id: raResult.source_id } } }
   }
 
   if (direct && (!raResult || direct.value <= raResult.value)) {

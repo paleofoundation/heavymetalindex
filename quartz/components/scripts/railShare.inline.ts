@@ -1,11 +1,11 @@
 export {} // module scope — keeps locals out of the global namespace
 
 // Wires the discreet "Share" control in the right rail (Rail.tsx). The button is
-// a popup-menu trigger (aria-haspopup="menu") offering Copy link, X, LinkedIn, and
-// Email — the same discreet share affordance microbiomemedicine.com uses, placed
-// in the rail. Markup is rendered server-side by Quartz.Rail; this only handles
-// the toggle, clipboard, and social hrefs (built at runtime from the live URL so
-// the target is always correct, canonical or not).
+// a popup-menu trigger (aria-haspopup="menu") offering Copy link, X, LinkedIn,
+// Reddit, and Email — the same discreet share affordance microbiomemedicine.com
+// uses, placed in the rail. Markup is rendered server-side by Quartz.Rail; this
+// only handles the toggle, clipboard, and social hrefs (built at runtime from the
+// live URL so the target is always correct, canonical or not).
 
 async function hmiShareCopy(text: string): Promise<boolean> {
   try {
@@ -56,9 +56,11 @@ function hmiShareSetup(root: HTMLElement) {
 
   const x = root.querySelector("[data-hmi-share-x]") as HTMLAnchorElement | null
   const li = root.querySelector("[data-hmi-share-linkedin]") as HTMLAnchorElement | null
+  const reddit = root.querySelector("[data-hmi-share-reddit]") as HTMLAnchorElement | null
   const email = root.querySelector("[data-hmi-share-email]") as HTMLAnchorElement | null
   if (x) x.href = `https://twitter.com/intent/tweet?url=${enc(url)}&text=${enc(title)}`
   if (li) li.href = `https://www.linkedin.com/sharing/share-offsite/?url=${enc(url)}`
+  if (reddit) reddit.href = `https://www.reddit.com/submit?url=${enc(url)}&title=${enc(title)}`
   if (email) email.href = `mailto:?subject=${enc(title)}&body=${enc(url + "\n\n")}`
 
   toggle.addEventListener("click", (e) => {

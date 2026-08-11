@@ -173,6 +173,7 @@ Bridge / coarse-grained nodes (broad author-scope pages that span several rows a
 
 - [[products/seafood|Seafood (category-level, all fish and shellfish)]] (161 sources)
 - [[products/fresh-fish|Fresh and frozen fish (coarse, pre fresh/marine split)]] (138 sources)
+- [[products/canned-seafood|Canned seafood (coarse tin-flag variant spanning the canned-fish row above)]] (35 sources)
 
 ## HMTc Category 7: Oils, Condiments, and Specialty Foods — DISSOLVED (v2.2)
 
@@ -187,6 +188,8 @@ Category 7 was a grab-bag (fats, sweeteners, acids, a Cd platform, a Pb/Cr platf
 - Butter & ghee → **Category 24 Dairy**; snacks → **Category 3 Grains** / **Category 4 Produce** by matrix; canned produce → its matrix row with a tin flag ([[products/food-packaging-cans-lids|Cat 23 cans/lids]] documents the tin platform).
 
 The number 7 is retired-in-place and not reused.
+
+Coarse / bridge node (broad author-scope page spanning the re-homed canned rows across Cat 4/6/11; listed so its accumulated evidence stays visible while sources resolve into their matrix rows): [[products/canned-foods-general|Canned foods, general (with tin flag)]] (6 sources).
 
 ## HMTc Category 8: Water and Water-Based Products
 
@@ -298,6 +301,10 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 13. [[products/manicuring-preparations-leave-on|Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)]] (8 sources)
 14. [[products/tattoo-inks|Tattoo inks (permanent and temporary)]] (6 sources)
 15. [[products/leave-on-preparations-other|Other leave-on preparations (case-by-case)]] (1 source)
+
+Coarse / variant node (broad author-scope page whose evidence spans the lip-products row above; listed so its accumulated evidence stays visible while the row-slug reconciliation is pending):
+
+- [[products/lipstick|Lip products (coarse variant of the lip-products row above)]] (24 sources)
 
 ## HMTc Category 14: Cosmetics and Personal Care — Rinse-off
 
@@ -533,6 +540,8 @@ Scaffolded under HMTc Taxonomy v2.1 (2026-06-08); see [[docs/governance/category
 7. [[products/dairy-milk-powders|Milk powders (whole, skim, specialty)]] (2 sources)
 8. [[products/dairy-condensed-evaporated|Condensed and evaporated milks]] (0 sources)
 
+Cross-linked here from the dissolved Cat 7 (see the category note above): [[products/butter-and-ghee|Butter and ghee]] (3 sources).
+
 ## HMTc Category 25: Cannabis, Hemp, and CBD Products
 
 Exposure pathway: **Multi-route — inhalation (flower, vape), ingestion (edibles, tinctures), dermal (topicals)**.  Regulatory jurisdiction: **State cannabis programs, FDA (CBD/hemp), USDA (hemp)**.
@@ -621,6 +630,10 @@ The decomposed condiments grab-bag: after hot sauce → Cat 34 (chili-Pb) and ca
 4. [[products/tomato-condiments|Tomato condiments (ketchup, salsa)]] (0 sources)
 5. [[products/mustard-mayo-dressings|Mustard, mayonnaise, dressings]] (0 sources)
 
+Coarse / bridge node (broad author-scope page spanning the condiment rows above; listed so its accumulated evidence stays visible while the fine-grained rows fill in):
+
+- [[products/condiments-general|Condiments, general (coarse; hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)]] (25 sources)
+
 ## HMTc Category 33: Chocolate, Cocoa and Confectionery
 
 Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
@@ -648,31 +661,6 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 Composite — inherits its component-matrix platforms; provisional until component evidence accumulates. Route by dominant ingredient.
 
 1. [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]] (17 sources)
-
-<!-- BEGIN: hmi-auto-linked-stubs -->
-
-## Auto-linked stubs
-
-_Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
-
-- [[products/cereal-meals|Cereal Meals]] (2 sources)
-- [[products/cereal-products|Cereal Products]] (7 sources)
-- [[products/dietary-supplements|Dietary Supplements]] (30 sources)
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]] (38 sources)
-- [[products/infant-cereal|Infant Cereal]] (16 sources)
-- [[products/infant-food-fruits|Infant Food Fruits]] (0 sources)
-- [[products/infant-food-powder|Infant Food Powder]] (2 sources)
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]] (1 source)
-- [[products/infant-food-vegetables|Infant Food Vegetables]] (0 sources)
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]] (3 sources)
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]] (2 sources)
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]] (1 source)
-- [[products/infant-formula-stage1|Infant Formula Stage1]] (1 source)
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]] (1 source)
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]] (4 sources)
-- [[products/tea-infusions|Tea Infusions]] (22 sources)
-<!-- END: hmi-auto-linked-stubs -->
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -686,3 +674,57 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 38 removed; narrative text revised |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-auto-linked-stubs -->
+
+## Additional indexed pages
+
+_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
+
+- [[products/antiperspirant|Antiperspirant (Al-salt, dirty sibling of r9 deodorant)]]
+- [[products/baby-food|Baby Food]]
+- [[products/bar-bath-soap|Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)]]
+- [[products/bouillon-seasoning-blends|Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)]]
+- [[products/cereal-meals|Cereal Meals]]
+- [[products/cereal-products|Cereal Products]]
+- [[products/cocoa-beverage-mixes|Cocoa/hot-chocolate beverage mixes and malted drink powders]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/disinfectants-sanitizers|Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)]]
+- [[products/dusting-powder-cornstarch-adult|Dusting powder, cornstarch base (clean sibling of r2 talc)]]
+- [[products/grain-based-snacks|Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/infant-food-fruits|Infant Food Fruits]]
+- [[products/infant-food-powder|Infant Food Powder]]
+- [[products/infant-food-puree|Infant Food Puree]]
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
+- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
+- [[products/infant-food-vegetables|Infant Food Vegetables]]
+- [[products/infant-formula|Infant Formula]]
+- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]]
+- [[products/infant-formula-powder-soy|Infant Formula Powder Soy]]
+- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]]
+- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]]
+- [[products/infant-formula-stage1|Infant Formula Stage1]]
+- [[products/infant-juice|Infant Juice]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
+- [[products/nutritional-beverage-child|Nutritional Beverage Child]]
+- [[products/peptides-nasal-sublingual|Nasal/sublingual/troche gray-market peptide preparations (mucosal route)]]
+- [[products/pet-food-fish-marine-protein|Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)]]
+- [[products/pickled-fermented-vegetables|Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/plant-based-meat-alternatives|Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)]]
+- [[products/snacks-general|Snacks, General]]
+- [[products/soups-broths-stocks|Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)]]
+- [[products/sun-suntan-mineral|Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)]]
+- [[products/supplements-clay-mineral-earth|Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty]]
+- [[products/supplements-greens-superfood|Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)]]
+- [[products/supplements-mushroom-fungal|Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)]]
+- [[products/traditional-eye-cosmetics|Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform]]
+<!-- END: hmi-auto-linked-stubs -->

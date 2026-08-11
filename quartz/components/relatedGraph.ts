@@ -41,26 +41,154 @@ function categoryOf(slug: string): string {
   return (slug ?? "").split("/")[0]
 }
 
-// Inbound-link index, built once per build from allFiles (the same array
-// reference is shared across every page render), so this is O(N) overall
-// rather than O(N^2). Re-keyed if allFiles changes (dev watch).
+// Frontmatter keys that carry a page's concept identity as STRUCTURED metadata
+// rather than as body [[wikilinks]]. Regulation pages declare `metal: [Cd, Pb]`
+// and `matrix: [rice, fish]`; product pages declare `primary_metals_of_concern`
+// and `typical_ingredients`. None of these render as body links, so the raw
+// link graph never saw them and the rail's Connections came up empty on 94/155
+// regulation pages and half the minor-metal pages. Resolving them here — metal
+// SYMBOLS to metal pages, matrix/ingredient/product/regulation TOKENS to the
+// page that exists — turns the structured metadata every page already carries
+// into real, bidirectional edges without touching a single wiki/ file.
+const CONCEPT_KEYS: Record<string, string[]> = {
+  metals: ["metals", "metal", "primary_metals_of_concern", "primary_metals", "metals_of_concern", "analyte", "analytes"],
+  products: ["products", "product", "related_products"],
+  ingredients: ["ingredients", "ingredient", "typical_ingredients", "related_ingredients", "key_ingredients"],
+  regulations: ["regulations", "applicable_regulations", "related_regulations"],
+  // matrix tokens are food-form slugs; they resolve to whichever of
+  // ingredients/ or products/ actually has the page (see resolveConceptToken).
+  matrix: ["matrix", "matrices"],
+}
+const ALL_CONCEPT_KEYS = Object.values(CONCEPT_KEYS).flat()
+
+// Concept index, built once per build from allFiles (same array reference is
+// shared across every page render, so this is O(N) overall not O(N^2)). Holds
+// the metal symbol->slug map, the real-slug set for token resolution, and the
+// inbound-edge index. Re-keyed if allFiles changes (dev watch).
+type ConceptIndex = {
+  inbound: Map<string, Set<string>>
+  symbolToMetal: Map<string, string>
+  realSlugs: Set<string>
+  // Pages flagged `retired: true` (out-of-HMTc-scope rows, superseded splits).
+  // They stay reachable by direct link but are never surfaced AS a connection —
+  // "Plant Milks, Rice-Based — RETIRED" is not a place to send a reader next.
+  retiredSlugs: Set<string>
+}
 let cachedFiles: unknown = null
-let cachedIndex: Map<string, Set<string>> | null = null
-function inboundIndex(allFiles: QuartzComponentProps["allFiles"]): Map<string, Set<string>> {
-  if (cachedIndex && cachedFiles === allFiles) return cachedIndex
-  const map = new Map<string, Set<string>>()
+let cachedConcept: ConceptIndex | null = null
+
+function buildConceptIndex(allFiles: QuartzComponentProps["allFiles"]): ConceptIndex {
+  const realSlugs = new Set<string>()
+  const symbolToMetal = new Map<string, string>()
+  const retiredSlugs = new Set<string>()
+  const register = (id: unknown, slug: string) => {
+    if (id == null) return
+    const s = String(id).trim()
+    if (!s) return
+    if (!symbolToMetal.has(s)) symbolToMetal.set(s, slug)
+    const low = s.toLowerCase()
+    if (!symbolToMetal.has(low)) symbolToMetal.set(low, slug)
+  }
+  const metalPages: { simple: string; fm: any }[] = []
+  for (const f of allFiles) {
+    if (!f.slug) continue
+    const simple = simplifySlug(f.slug)
+    realSlugs.add(simple)
+    const fm = f.frontmatter as any
+    if (fm?.retired === true) retiredSlugs.add(simple)
+    if (fm?.type === "metal") metalPages.push({ simple, fm })
+  }
+  // Canonical `symbol`s FIRST, across all metal pages, so a page's own symbol
+  // always wins. THEN `name` and `species` as fallbacks, so analyte labels that
+  // are not the bare symbol still resolve ("Cr-total"/"Chromium" -> chromium,
+  // "aluminium" -> aluminum) without a species like MeHg (mercury's) ever
+  // shadowing mercury-methyl's symbol claim.
+  for (const { simple, fm } of metalPages) register(fm.symbol, simple)
+  for (const { simple, fm } of metalPages) {
+    register(fm.name, simple)
+    for (const sp of Array.isArray(fm.species) ? fm.species : []) register(sp, simple)
+  }
+  const resolve = (tok: unknown): string | null => resolveConceptToken(tok, realSlugs, symbolToMetal)
+  const inbound = new Map<string, Set<string>>()
+  const add = (target: string, from: string) => {
+    if (!inbound.has(target)) inbound.set(target, new Set())
+    inbound.get(target)!.add(from)
+  }
   for (const f of allFiles) {
     const from = f.slug
     if (!from) continue
-    for (const l of f.links ?? []) {
-      const target = simplifySlug(l as never)
-      if (!map.has(target)) map.set(target, new Set())
-      map.get(target)!.add(from)
+    // (1) body [[wikilinks]] — the raw link graph, as before.
+    for (const l of f.links ?? []) add(simplifySlug(l as never), from)
+    // (2) structured-metadata concept edges, so a regulation's `metal: [Cd]`
+    //     makes it a backlink of metals/cadmium even with no body link.
+    for (const key of ALL_CONCEPT_KEYS) {
+      const v = (f.frontmatter as any)?.[key]
+      if (v == null) continue
+      for (const item of Array.isArray(v) ? v : [v]) {
+        const r = resolve(item)
+        if (r) add(r, from)
+      }
     }
   }
+  return { inbound, symbolToMetal, realSlugs, retiredSlugs }
+}
+
+function conceptIndex(allFiles: QuartzComponentProps["allFiles"]): ConceptIndex {
+  if (cachedConcept && cachedFiles === allFiles) return cachedConcept
+  cachedConcept = buildConceptIndex(allFiles)
   cachedFiles = allFiles
-  cachedIndex = map
-  return map
+  return cachedConcept
+}
+
+// Resolve one frontmatter token to a real page slug, or null. Order: an
+// explicit [[cat/slug]] wikilink, then a metal symbol (Pb -> metals/lead), then
+// a bare token against the known concept categories. Only ever returns a slug
+// that actually exists, so a token with no page produces no phantom edge.
+function resolveConceptToken(
+  tok: unknown,
+  realSlugs: Set<string>,
+  symbolToMetal: Map<string, string>,
+): string | null {
+  const raw = String(tok).trim()
+  if (!raw) return null
+  const wl = raw.match(/\[\[([^\]\|#]+)/)
+  if (wl) {
+    const s = simplifySlug(wl[1].trim().replace(/^\/+/, "") as never)
+    return realSlugs.has(s) ? s : null
+  }
+  if (symbolToMetal.has(raw)) return symbolToMetal.get(raw)!
+  if (symbolToMetal.has(raw.toLowerCase())) return symbolToMetal.get(raw.toLowerCase())!
+  const bare = simplifySlug(raw.replace(/^\/+/, "") as never)
+  if (bare.includes("/")) return realSlugs.has(bare) ? bare : null
+  for (const c of ["metals", "ingredients", "products", "regulations"]) {
+    if (realSlugs.has(`${c}/${bare}`)) return `${c}/${bare}`
+  }
+  return null
+}
+
+// Every slug this page's own frontmatter asserts a concept relationship to.
+// These are OUTBOUND (the page's own authorship), appended after body links so
+// they only ever FILL empty rail slots, never reorder a page that already links
+// richly in its prose.
+function conceptEdgesOf(
+  frontmatter: Record<string, unknown> | undefined,
+  ci: ConceptIndex,
+): string[] {
+  if (!frontmatter) return []
+  const out: string[] = []
+  const seen = new Set<string>()
+  for (const key of ALL_CONCEPT_KEYS) {
+    const v = (frontmatter as any)[key]
+    if (v == null) continue
+    for (const item of Array.isArray(v) ? v : [v]) {
+      const r = resolveConceptToken(item, ci.realSlugs, ci.symbolToMetal)
+      if (r && !seen.has(r)) {
+        seen.add(r)
+        out.push(r)
+      }
+    }
+  }
+  return out
 }
 
 // Bucketed related links, keyed by concept category, each list sorted by label.
@@ -90,6 +218,7 @@ export function relatedByCategory({
   // somebody else's assertion, and on a hub page like a metal there are
   // hundreds of those. Collapsing both into one undifferentiated set is what
   // put "Beet" and "All-purpose cleaners" in Lead's rail.
+  const ci = conceptIndex(allFiles)
   const outbound = new Set<string>()
   const orderOf = new Map<string, number>()
   for (const l of fileData.links ?? []) {
@@ -97,29 +226,24 @@ export function relatedByCategory({
     outbound.add(sl)
     if (!orderOf.has(sl)) orderOf.set(sl, orderOf.size)
   }
-  const candidates = new Set<string>(outbound)
-  for (const from of inboundIndex(allFiles).get(simple) ?? [])
-    candidates.add(simplifySlug(from as never))
-  // Curated frontmatter cross-references (rich on synthesis pages, where the
-  // related ingredients/products are declared but may not be reciprocated in
-  // the rendered link graph). Metal symbols like "Pb" carry no [[...]].
-  for (const key of GROUP_KEYS) {
-    const v = fileData.frontmatter?.[key]
-    const arr = Array.isArray(v) ? v : v != null ? [v] : []
-    for (const item of arr) {
-      const m = String(item).match(/\[\[([^\]\|#]+)/)
-      if (m) {
-        const slug = simplifySlug(m[1].trim().replace(/^\/+/, "") as never)
-        candidates.add(slug)
-        // Declared in this page's own frontmatter, so it is this page's
-        // assertion too.
-        outbound.add(slug)
-      }
-    }
+  // Structured-metadata cross-references: metal symbols (`metal: [Cd]`), matrix
+  // tokens (`matrix: [rice]`), and curated wikilink arrays alike, resolved to
+  // real pages. Appended AFTER body links so they only fill empty rail slots on
+  // pages that link sparsely in prose — a page that already links richly keeps
+  // its own document order untouched. This is what the older GROUP_KEYS read
+  // was reaching for; it only ever fired on values already in [[...]] form,
+  // which is why bare `metal: [Pb]` and `matrix: [rice]` stayed invisible.
+  for (const slug of conceptEdgesOf(fileData.frontmatter, ci)) {
+    outbound.add(slug)
+    if (!orderOf.has(slug)) orderOf.set(slug, orderOf.size)
   }
+  const candidates = new Set<string>(outbound)
+  for (const from of ci.inbound.get(simple) ?? [])
+    candidates.add(simplifySlug(from as never))
 
   for (const cand of candidates) {
     if (cand === simple) continue
+    if (ci.retiredSlugs.has(cand)) continue // never send a reader to a retired page
     const cat = categoryOf(cand)
     if (!GROUP_KEYS.has(cat)) continue // drops sources/, tags/, self-index, etc.
     const realSlug = slugBySimple.get(cand) ?? (cand as string)

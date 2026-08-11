@@ -29,6 +29,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { BROAD_PRODUCT_SCOPE_SET } from "./evidence/broad-product-scopes.mjs"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -41,22 +42,12 @@ const minArgIdx = args.indexOf("--min")
 const MIN = minArgIdx >= 0 ? parseInt(args[minArgIdx + 1], 10) || 3 : 3
 
 // Broad-scope routing tokens that intentionally fan out to several rows rather
-// than naming one (kept in sync with build-routing-audit.mjs broadProductScopes
-// and reverse-route-products.mjs broadScopeFanout). A leak in this set is not a
-// drift bug — the routing layer distributes it deliberately.
-const BROAD_SCOPE = new Set([
-  "infant-formula", "infant-formula-powder", "infant-formula-rtf-liquid",
-  "baby-cereals", "rice-cereal", "mixed-cereals", "vegetable-purees",
-  "meat-and-fish-baby-foods", "mixed-meals", "snacks", "rice-based-snacks",
-  "teething-biscuits", "fruit-juice", "packaged-fruit-juice", "infant-foods",
-  "infant-food", "baby-foods", "baby-food-purees", "baby-drinks",
-  "jars-first-meals", "pouches", "kids-meals", "toddler-formula",
-  "toddler-meals", "growing-up-milk", "rice-containing-products",
-  "canned-foods", "canned-meat", "processed-meat", "pork-products",
-  "cooking-oils", "milk-powder", "yoghurt", "vinegar", "tomato-juice",
-  "hot-sauce", "fish-sauce", "confectionery", "bakery", "cereal",
-  "disposable-baby-diapers", "whitening-cream",
-])
+// than naming one. Imported from the SHARED canonical list so this audit and
+// build-routing-audit.mjs can never disagree about what is broad-scope — the
+// exact drift that made dietary-supplements and infant-cereal read as leaks
+// here while the routing layer was fanning them out correctly. A leak in this
+// set is not a drift bug — the routing layer distributes it deliberately.
+const BROAD_SCOPE = BROAD_PRODUCT_SCOPE_SET
 
 function slugifyAlias(alias) {
   if (!alias) return null

@@ -34,6 +34,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { execFileSync } from "node:child_process"
 import matter from "gray-matter"
+import { BROAD_PRODUCT_SCOPE_SET } from "./broad-product-scopes.mjs"
 
 const repoRoot = process.cwd()
 const sourceDir = path.join(repoRoot, "wiki/sources")
@@ -69,68 +70,9 @@ const productAliases = buildAliasIndex(productDir)
 // Broad-scope vocabulary: declarations that intentionally do not name a
 // specific row. The product audit script's `inheritedProductRoutes` map fans
 // these out; we recognize them here so they do not show up as unresolved.
-const broadProductScopes = new Set([
-  "infant-formula",
-  "infant-formula-powder",
-  "infant-formula-rtf-liquid",
-  "baby-cereals",
-  "rice-cereal",
-  "mixed-cereals",
-  "vegetable-purees",
-  "meat-and-fish-baby-foods",
-  "mixed-meals",
-  "snacks",
-  "rice-based-snacks",
-  "teething-biscuits",
-  "fruit-juice",
-  "packaged-fruit-juice",
-  "infant-foods",
-  "infant-food",
-  "baby-foods",
-  "baby-food-purees",
-  "baby-drinks",
-  "jars-first-meals",
-  "pouches",
-  "kids-meals",
-  "toddler-formula",
-  "toddler-meals",
-  "growing-up-milk",
-  "rice-containing-products",
-  "canned-foods",
-  "canned-meat",
-  "processed-meat",
-  "pork-products",
-  "cooking-oils",
-  "milk-powder",
-  "yoghurt",
-  "vinegar",
-  "tomato-juice",
-  "hot-sauce",
-  "fish-sauce",
-  "confectionery",
-  "bakery",
-  "cereal",
-  "disposable-baby-diapers",
-  "whitening-cream",
-  // Cat 7 sub-variants aliased up to parent rows (see inheritedProductRoutes in
-  // tools/audit-product-source-routing.mjs). Declared by sources but not their
-  // own HMTc rows; their evidence fans out to canned-foods-general / snacks-general.
-  "canned-tomatoes",
-  "canned-vegetables",
-  "canned-fruit",
-  "tomato-paste",
-  "tomato-sauce",
-  "snacks-crackers-biscuits",
-  // Cat 6 broad-scope parents fanning to species rows (inheritedProductRoutes).
-  "seafood",
-  "fresh-fish",
-  // Remaining broad pages fanned to locked rows across Cat 1/3/5/16.
-  "infant-cereal",
-  "tea",
-  "tea-infusions",
-  "breakfast-cereals",
-  "dietary-supplements",
-])
+// The list is the shared canonical one in ./broad-product-scopes.mjs so it can
+// never drift from the copy the index-fanning audit checks against.
+const broadProductScopes = BROAD_PRODUCT_SCOPE_SET
 
 // Required frontmatter fields for a source page to be placeable by the
 // routing layer. Severity tiers:

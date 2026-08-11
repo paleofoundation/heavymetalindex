@@ -3,6 +3,7 @@ title: Aluminum
 type: metal
 symbol: Al
 name: Aluminum
+aliases: [aluminium, metals/aluminium]
 species: [Al3+, aluminium]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low

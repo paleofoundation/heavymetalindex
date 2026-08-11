@@ -35,6 +35,7 @@ import Follow from "./Follow"
 import LeftNavUtilities from "./LeftNavUtilities"
 import Snav from "./Snav"
 import Rail from "./Rail"
+import Backlinks from "./Backlinks"
 
 export {
   ArticleTitle,
@@ -74,4 +75,5 @@ export {
   LeftNavUtilities,
   Snav,
   Rail,
+  Backlinks,
 }
