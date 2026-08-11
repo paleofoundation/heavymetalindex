@@ -2,6 +2,14 @@
 
 This document is the operating manual for Claude sessions working on the Heavy Metal Index wiki. It is written for Claude to read and execute. Karen is the second reader; rationale is included where a Claude session might otherwise drift from it.
 
+## Operating shorthand — `wwsaid` (read first, applies to every session)
+
+`wwsaid` = "What would a superintelligent AI do? Permission to do that." When Karen writes `wwsaid` — or whenever you are about to ask her a question — first answer *what would a superintelligent AI do here*, and treat that answer as her standing permission to do it. Then do it, drive the task to completion, and report back that it is done with nothing left for her. This is standing, not per-instance.
+
+The bottleneck to design out is Karen. Do not ask her a question you could have answered with "what would a superintelligent AI do" — that is a failure mode for both of you. Decide and execute on your side of the line; emit an audit-log entry rather than a question. Sub-sessions/chips must operate the same way: a chip that stops to ask Karen something it could decide is a defect in the chip.
+
+Escalate ONLY the genuinely-hers set, and batch even those (never drip-feed): truly-irreversible outward actions (sending messages, deleting data, entering credentials); counsel-frozen legal items (Cyprus/EU database-rights, the "non-profit" characterization); brand-identity forks (name, typeface, hero motif); and genuine business-strategy pivots. Deploying verified, green work is NOT a gate — ship it. "Promote or shelve?" for already-approved-direction work is your call (promote). Timing/safety sequencing (e.g. reconcile after a fleet of sessions drains, to avoid churn) is your decision, not a reason to punt the decision itself to Karen. She values efficiency and efficacy; act like it.
+
 Operational reference content has been split out to docs/:
 - Page templates and YAML schemas: [[docs/page-templates]]
 - Ingest workflows (single-paper, bulk, query, kickoff): [[docs/ingest-workflows]]
