@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-52 open item(s): 21 auto, 31 awaiting a decision.
+53 open item(s): 22 auto, 31 awaiting a decision.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -531,6 +531,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: hmtc_aggregate_distributions.csv shellfish|Cd: pooled_p95=5294, pooled_p100=21665 while observed_max across cited studies (cert occurrence-evidence) = 1600 ppb. romero-estevez2020-bivalves-santa-rosa-ecuador contributes TWICE to the pool: an autonomy row (category1_autonomy_extracted_summary.csv, row_slug=shellfish, Cd, mean_ppb=560, reconstruction lognormal_mean_only) AND a cat6 primary_extraction row (uniform_max_only). The mean-only lognormal tail plus double-counting inflate the pooled upper tail far above any real measurement.
 - done when: shellfish|Cd pooled_p100 within ~2x of observed_max (1600 ppb); romero-estevez2020 contributes once (dedupe autonomy vs primary-extraction row); cert shellfish|Cd observed_max stays 1600 ppb
 - notes: Distinct from the cephalopod misrouting (which is fixed). This is the same duplicate-autonomy-row + mean-only-tail class as the salt|Pb samsiyah quarantine, but for a different source/cell. The cert renderer already displays observed_max=1600, so it is not a false live-page figure; logging rather than chasing.
+
+### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
+- repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
+- done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug
+- evidence: PR #116 job 93750005222: '##[error]Process completed with exit code 2' under 'Run npm run check' · main red on 5 consecutive runs 2026-08-10/11
+- notes: Six of the eight are unused-variable removals and are mechanical. The TS2367 pair and the TS2745 JSX children mismatch need actual review: TS2367 means a comparison can never be true, which usually indicates the surrounding logic is dead. Not fixed in PR #116 because that branch is a wiki content correction and site-layer changes should be reviewed on their own.
 
 ### OI-20260811-precommit-hook-bashism — .husky/pre-commit uses bash [[ ]] with no shebang, so it fails under /bin/sh (dash) on Linux — every Linux and CI session must bypass it
 
