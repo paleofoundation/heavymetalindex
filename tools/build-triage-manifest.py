@@ -27,6 +27,36 @@ REPORT_MD     = MANIFEST_DIR / "manifest-build-report.md"
 
 BATCH_SIZE = 500
 
+# Garbage author/lead tokens — the SINGLE SOURCE OF TRUTH is tools/lib/cite-key-words.json
+# (also consumed by tools/lib/cite-key-validity.mjs and the JS ingest gates). When the
+# author slot resolves to one of these words it is a section header / analyte / structural
+# word the OCR grabbed, not a real surname — reject it and emit an honest "unknown" key so
+# the ingest gate routes the paper to repair instead of minting e.g. `abstract2021-...`.
+_WORDS_JSON = Path(__file__).resolve().parent / "lib" / "cite-key-words.json"
+try:
+    _NON_AUTHOR = frozenset(json.loads(_WORDS_JSON.read_text())["garbage_lead_words"])
+except Exception:
+    _NON_AUTHOR = frozenset(["unknown"])
+
+# Known issuing organizations → defensible author-slot slug, used only when no
+# personal surname can be extracted (agency reports: FDA TDS, EFSA opinions,
+# ATSDR profiles, WHO/FAO/JECFA monographs, EPA, ECHA, EU/EC, Health Canada).
+# Conservative: matched against the extracted publication string, never loose text.
+_ORG_SLUGS = [
+    (r"\bEuropean Food Safety Authority\b|\bEFSA\b", "efsa"),
+    (r"\bFood and Drug Administration\b|\bU\.?S\.? FDA\b|\bFDA\b", "fda"),
+    (r"\bAgency for Toxic Substances\b|\bATSDR\b", "atsdr"),
+    (r"\bWorld Health Organization\b|\bWHO\b", "who"),
+    (r"\bFood and Agriculture Organization\b|\bFAO\b", "fao"),
+    (r"\bJECFA\b", "jecfa"),
+    (r"\bEnvironmental Protection Agency\b|\bU\.?S\.? EPA\b|\bUSEPA\b", "epa"),
+    (r"\bEuropean Chemicals Agency\b|\bECHA\b", "echa"),
+    (r"\bEuropean Commission\b|\bEuropean Union\b", "ec"),
+    (r"\bHealth Canada\b", "healthcanada"),
+    (r"\bConsumer Reports\b", "consumerreports"),
+    (r"\bCodex Alimentarius\b", "codex"),
+]
+
 CSV_COLUMNS = [
     "raw_handle", "cite_key", "already_ingested", "year", "doi",
     "publication", "first_author", "license", "size_bytes", "sha256",
@@ -158,18 +188,54 @@ def extract_doi(text: str) -> str | None:
         return m.group(1).rstrip(".,;)")
     return None
 
+def _author_token_ok(token: str) -> bool:
+    """A bare token is a plausible first-author surname only if it is alphabetic,
+    at least two characters, and NOT a structural / section-header / analyte word."""
+    t = _ascii(token).lower()
+    return len(t) >= 2 and t.isalpha() and t not in _NON_AUTHOR
+
 def extract_first_author(text: str) -> str:
-    # Try bold author block: **Lastname Firstname ...**
+    # Conservative author extraction: the SAME two patterns the builder has always
+    # used, now each validating the candidate against _NON_AUTHOR so a bolded
+    # section header / title word / analyte name (the old failure that minted
+    # "abstract2021-…", "keywords2019-…", "arsenic2023-…") is rejected rather than
+    # written into the key. This can only improve on the prior behaviour: a garbage
+    # candidate becomes an honest "unknown" instead of a fake author key.
+    #
+    # NOTE on scope: regex extraction from heterogeneous OCR cannot reliably tell a
+    # real surname from a place name / first name / foreign common word, so a
+    # residual low-confidence tail remains (returned as a surname-shaped token or
+    # "unknown"). The AUTHORITATIVE repair is DOI→Crossref author verification (the
+    # wrong-DOI/confabulation sweep); the ingest gate below routes "unknown"/garbage
+    # keys there instead of letting them mint duplicate-prone pages. Do NOT try to
+    # out-clever this with looser regex — that launders garbage into plausible-but-
+    # wrong keys the gate cannot catch, which is worse for a provenance corpus.
+
+    # 1) "Lastname, F." / "Lastname F." author line (higher precision — try first).
+    m = re.search(r'(?:^|\n)\s*([A-Z][a-zA-ZÀ-ÿ\'\-]+)\s*,?\s+[A-Z]\.', text)
+    if m and _author_token_ok(m.group(1)):
+        return _ascii(m.group(1)).lower()
+    # 2) Bold author block: **Lastname Firstname …**, garbage tokens rejected.
     m = re.search(r'\*\*([A-Z][a-zA-ZÀ-ÿ\-]+(?:\s+[A-Z][a-zA-ZÀ-ÿ\-]*){0,2})', text)
     if m:
-        parts = m.group(1).split()
-        if parts:
-            return _ascii(parts[0]).lower()
-    # Author line: "Lastname F.," pattern
-    m = re.search(r'\n([A-Z][a-zA-ZÀ-ÿ\-]+),?\s+[A-Z]\.', text)
-    if m:
-        return _ascii(m.group(1)).lower()
+        tok = m.group(1).split()[0]
+        if _author_token_ok(tok):
+            return _ascii(tok).lower()
     return "unknown"
+
+def extract_org(publication: str, text: str) -> str | None:
+    """Defensible org-author slug when no personal surname is extractable. Matches
+    the extracted publication first (low false-positive), then a tight issuer line
+    at the very top of the document. Returns None if nothing strong matches."""
+    pub = publication or ""
+    head = text[:400]
+    for pat, slug in _ORG_SLUGS:
+        if re.search(pat, pub):
+            return slug
+    for pat, slug in _ORG_SLUGS:
+        if re.search(pat, head):
+            return slug
+    return None
 
 def extract_publication(text: str) -> str:
     # Italicised journal name near top
@@ -308,15 +374,31 @@ def process_folder(fm_handle: str, ingested: set[str]) -> dict:
 
     text = text_full[:4000]
 
-    title  = extract_title(text)
-    author = extract_first_author(text)
-    year   = extract_year(text)
-    metals = mine_metals(text)
+    title       = extract_title(text)
+    author      = extract_first_author(text)
+    year        = extract_year(text)
+    metals      = mine_metals(text)
+    publication = extract_publication(text)
+    slug        = slugify(title)
+
+    # Reject an author lifted from the title head: when the extracted "author"
+    # equals the first title-slug token (e.g. "extending2023-extending-…",
+    # "time2007-time-…"), it is the leading title word, not a surname. A real
+    # first-author surname is essentially never the lead significant title word.
+    if author != "unknown" and (slug == author or slug.startswith(author + "-")):
+        author = "unknown"
+
+    # No personal surname? Fall back to a known issuing organization (agency
+    # reports) before resorting to "unknown" — never to a title/section word.
+    if author == "unknown":
+        org = extract_org(publication, text)
+        if org:
+            author = org
 
     row["year"]                   = year or ""
     row["doi"]                    = extract_doi(text) or ""
     row["first_author"]           = author
-    row["publication"]            = extract_publication(text)
+    row["publication"]            = publication
     row["license"]                = extract_license(text)
     row["text_mined_metals"]      = metals
     row["text_mined_ingredients"] = mine_ingredients(text)
@@ -324,7 +406,6 @@ def process_folder(fm_handle: str, ingested: set[str]) -> dict:
     row["priority_tier"]          = priority_tier(text, metals)
 
     year_str = year or "xxxx"
-    slug     = slugify(title)
     row["cite_key"] = f"{author}{year_str}-{slug}"
 
     return row

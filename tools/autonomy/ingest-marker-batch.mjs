@@ -33,6 +33,8 @@
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+import { isLowQualityCiteKey } from "../lib/cite-key-validity.mjs"
+import { mergeCiteKeyRepairQueue } from "../lib/cite-key-repair-queue.mjs"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -59,6 +61,7 @@ const existingCiteKeys = new Set(fs.readdirSync(sourcesDir).filter((f) => f.ends
 
 // Pick eligible candidates: not-yet-ingested AND has a Marker md file AND priority match AND no source page exists yet
 const eligible = []
+const gatedForRepair = []
 for (const row of manifest) {
   if (row.already_ingested === "True") continue
   const tier = row.priority_tier
@@ -67,7 +70,29 @@ for (const row of manifest) {
   if (!citeKey || existingCiteKeys.has(citeKey)) continue
   const markdownPath = path.join(markdownDir, row.raw_handle, `${row.raw_handle}.md`)
   if (!fs.existsSync(markdownPath)) continue
+  // Cite-key gate: never mint a source page under a garbage author key (a
+  // section-header / analyte / "unknown" author slot). Route the paper to the
+  // repair queue for authoritative author resolution (DOI→Crossref) instead of
+  // letting it land and feed the duplicate-DOI treadmill that the dedup tooling
+  // has to clean up after. See tools/lib/cite-key-validity.mjs.
+  if (isLowQualityCiteKey(citeKey)) {
+    gatedForRepair.push({
+      raw_handle: row.raw_handle,
+      cite_key: citeKey,
+      doi: row.doi || "",
+      source: "marker-batch",
+      reason: "low-quality-cite-key-at-ingest",
+    })
+    continue
+  }
   eligible.push({ ...row, markdown_path: markdownPath })
+}
+if (gatedForRepair.length) {
+  const added = dryRun ? 0 : mergeCiteKeyRepairQueue(gatedForRepair)
+  console.log(
+    `Cite-key gate: ${gatedForRepair.length} eligible paper(s) held for repair` +
+      (dryRun ? " (dry-run — queue not written)" : ` (${added} new) → data/evidence/cite-key-repair-queue.csv`),
+  )
 }
 
 // Sort by priority then year desc (P1 first, newer first)

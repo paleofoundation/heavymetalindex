@@ -46,6 +46,8 @@ import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
 import { spawnSync, spawn } from "node:child_process"
+import { isLowQualityCiteKey } from "../lib/cite-key-validity.mjs"
+import { recordCiteKeyRepair } from "../lib/cite-key-repair-queue.mjs"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -295,6 +297,7 @@ Process this one PDF end-to-end:
   - Update data/evidence/audit-queue.csv status to audited-promote / audited-revised / audited-quarantine.
 
 Hard constraints (per CLAUDE.md):
+  - cite_key MUST be a real first-author surname + year + short topic slug (e.g. "signes-pastor2018-infant-arsenic"). For an institutional report with no personal author, use the issuing org (fda, efsa, atsdr, who...) + year. NEVER derive the key from a title word, section header (abstract/introduction/keywords/methods/results), analyte name (arsenic/cadmium/lead), or the word "unknown". If you cannot determine the real first author from the paper or its DOI, STOP with reason "cite-key: first author unresolved" rather than mint a placeholder key.
   - Do NOT create new ingredient pages (auto-stub handles ingredients ≥freq-2 separately).
   - Do NOT create new product pages (always Karen's Step 0 Lock).
   - Do NOT run Part 9 synthesis (separate workflow).
@@ -507,6 +510,23 @@ for (let batchStart = 0; batchStart < realCandidates.length; batchStart += concu
       entry.notes = `Ingested ${tickTimestamp}`
       succeeded.push({ ...candidate, citeKey: result.citeKey })
       console.log(`  OK: ${candidate.handle} → ${result.citeKey}`)
+      // Cite-key gate (backstop): the LLM had the full paper text and the skill's
+      // derivation rules, so a garbage key here is rare — but if one slips through
+      // (section-header / analyte / "unknown" author slot), record it for
+      // authoritative DOI→Crossref author repair rather than letting the
+      // duplicate-prone key stand silently. Non-destructive: the page keeps its
+      // extracted content; only the key is flagged for correction.
+      if (isLowQualityCiteKey(result.citeKey)) {
+        recordCiteKeyRepair({
+          raw_handle: candidate.handle,
+          cite_key: result.citeKey,
+          doi: "",
+          source: "manual-fetch",
+          reason: "low-quality-cite-key-minted-by-llm",
+        })
+        entry.notes = `Ingested ${tickTimestamp} — FLAGGED garbage cite-key for repair`
+        console.log(`  WARN: ${result.citeKey} looks like a garbage cite-key → queued for repair`)
+      }
     } else if (result.stop) {
       entry.status = "stopped"
       entry.notes = `Stop: ${result.reason}`.slice(0, 200)
