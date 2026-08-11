@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-50 open item(s): 21 auto, 29 awaiting a decision.
+51 open item(s): 21 auto, 30 awaiting a decision.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -540,6 +540,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Add a bash shebang as the first line of .husky/pre-commit and of tools/autonomy/commit-lock.sh; git commit succeeds without --no-verify on a Linux host where /bin/sh is dash; The line-107 stat-based lock-age check parses correctly under the chosen shell
 - evidence: Observed 2026-08-11 committing the nickel synthesis corrections; bash .husky/pre-commit exited 0 on the same staged tree that sh rejected with code 2
 - notes: Silent-bypass risk: this failure mode pushes every Linux/CI session toward --no-verify, which also skips the routing audit and the wiki_edit_audit provenance gate. Both are load-bearing per Part 5b and the provenance invariant. Fix is to add a bash shebang to both scripts.
+
+### OI-20260811-openalex-live-api-test-in-ci — tools/discovery/sources/openalex.test.ts calls the live OpenAlex API in CI and reddens the build on HTTP 429 — CI is nondeterministic and main has been red for days
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/discovery/sources/openalex.test.ts`, `tools/discovery/sources/openalex.ts`
+- repro: The 'OpenAlex adapter - live API smoke' suite issues a real network request to https://api.openalex.org/works?search=lead+rice during `npm test`. From GitHub's shared runner IPs this intermittently returns HTTP 429 Too Many Requests, failing subtest 1 ('search() yields DiscoveryCandidateDraft objects for a gap with known results') and the whole job. Observed on PR #116 run 31482156526. The sibling subtest 2 (fetch/manifestRow) passes because it does not hit the rate-limited search endpoint. Recent main runs are red on 5 consecutive commits (2026-08-11 07:53 through 07:57 and 06:42), so the base branch is not green either.
+- done when: The live OpenAlex call is either gated behind an env var (e.g. HMI_LIVE_API_TESTS=1), replaced with a recorded fixture, or made to skip rather than fail on 429/5xx; `npm test` passes offline and on a rate-limited runner; A green run is observed on main
+- evidence: PR #116 job 93749357828: error '[openalex] API error 429 Too Many Requests: https://api.openalex.org/works?search=lead+rice&filter=is_oa%3Atrue&per-page=50&cursor=*' at openalex.ts:192 · Recent main workflow runs: 5 consecutive failures 2026-08-10/11
+- decision: _pending_
+- notes: human-gated because deciding whether the discovery adapters should be smoke-tested against the live API at all is a CI-policy call, not a mechanical fix, and the honest options (gate, fixture, tolerate-429) trade coverage against determinism differently. Flagged from PR #116 rather than fixed there, since that PR is a wiki content correction and should not carry a test-semantics change. Note the separate, deterministic co-author-guard failure that was ALSO reddening main was a real regex bug and IS fixed in PR #116 (commit e3171892).
 
 ### OI-20260811-ni-sensitized-population-mark — Decision: whether a crop-relative nickel mark serving the ~15% nickel-sensitized population is worth scoping — the acute MOE finding is the binding Ni health concern and is unaddressed by any current claim
 
