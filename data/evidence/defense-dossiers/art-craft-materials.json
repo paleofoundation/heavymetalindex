@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3de2284444bda3168ae7bbce410af12da1cdf493d141602a7b8e0bb1b760aa16",
-      "content_bytes": 11476,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "963e05ff6b601f3011751b84b984c84a5a209b038921ef0c44c2ebe4cb8c0b86",
+      "content_bytes": 11500,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gautam2024-finger-paints-metals-formaldehyde",
         "content_pin": {
-          "content_sha256": "429673d1980a88ac4c4fd40de3385455bc0356b12a3ab78360c143e37499f1db",
+          "content_sha256": "116234459ea2ace66a06fe121e70127c82ecf07d362b219b989199b7b4ab490a",
           "content_bytes": 13234,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "ca69058f7272d93d043dcd8693a6419f034cfa5c65c03dc46e0a4cf4b89956dc",
-          "content_bytes": 33854,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "86b33fb48ceebda4e13c0cdfb1b91a3f05c88f09c599e8504ccef5fad416cd07",
+          "content_bytes": 33878,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
         }
       },
       {
@@ -100,12 +100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jalal2020-modeling-clay-metals",
         "content_pin": {
-          "content_sha256": "d573a1b6acde4aa87103834501b768a6e6cc962b74354286cf9a2fe166bacd08",
+          "content_sha256": "47c8bf18c85dabed5f5afb375043b09158fd265ef2a59890ea334f5a79428c6f",
           "content_bytes": 7065,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
         }
       },
       {
@@ -126,12 +126,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "cb8a572415afffc9d05492243e1ce6cd0a504b0594093378b32e16033da9a8d4",
-          "content_bytes": 40828,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "2d05112f212d97f55688e76ade2e93df4249b1502dbb13671b07419d49b66d07",
+          "content_bytes": 40821,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "e98fb48974c40beebacc22be59ebc58362be63269cb2d07cbca3ffce6348772c",
-          "content_bytes": 31881,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "cc5a62892b696dd2bcfcad0fc32db16e101c165d33c46100159c837449f6a052",
+          "content_bytes": 31905,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/villarreal2021-ic-icpms-cr-vi-toys",
         "content_pin": {
-          "content_sha256": "cf90425ff0f39d28a4afcc367b686a39487792370f0dbb48c1407a06de75f425",
-          "content_bytes": 25074,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "66fd845cd589a8288ca9be0ac52ce4b3070d5605cf8ed4e94cb4b420c5250d8e",
+          "content_bytes": 25098,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
         }
       }
     ]

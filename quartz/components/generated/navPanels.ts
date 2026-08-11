@@ -39,37 +39,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Lead",
             "slug": "metals/lead",
-            "count": 1465
+            "count": 1440
           },
           {
             "label": "Cadmium",
             "slug": "metals/cadmium",
-            "count": 1593
+            "count": 1572
           },
           {
             "label": "Arsenic",
             "slug": "metals/arsenic",
-            "count": 893
+            "count": 878
           },
           {
             "label": "Mercury",
             "slug": "metals/mercury",
-            "count": 881
+            "count": 876
           },
           {
             "label": "Nickel",
             "slug": "metals/nickel",
-            "count": 773
+            "count": 766
           },
           {
             "label": "Chromium",
             "slug": "metals/chromium",
-            "count": 876
+            "count": 871
           },
           {
             "label": "Aluminum",
             "slug": "metals/aluminum",
-            "count": 526
+            "count": 534
           }
         ]
       },
@@ -79,22 +79,22 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Inorganic arsenic",
             "slug": "metals/arsenic-inorganic",
-            "count": 109
+            "count": 106
           },
           {
             "label": "Total arsenic",
             "slug": "metals/arsenic-total",
-            "count": 371
+            "count": 364
           },
           {
             "label": "Methylmercury",
             "slug": "metals/mercury-methyl",
-            "count": 63
+            "count": 62
           },
           {
             "label": "Total mercury",
             "slug": "metals/mercury-total",
-            "count": 281
+            "count": 270
           },
           {
             "label": "Hexavalent chromium",
@@ -104,7 +104,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Tin",
             "slug": "metals/tin",
-            "count": 228
+            "count": 227
           },
           {
             "label": "Antimony",
@@ -151,32 +151,32 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice",
             "slug": "ingredients/rice",
-            "count": 280
+            "count": 268
           },
           {
             "label": "Cocoa",
             "slug": "ingredients/cocoa",
-            "count": 69
+            "count": 68
           },
           {
             "label": "Fish",
             "slug": "ingredients/fish",
-            "count": 314
+            "count": 306
           },
           {
             "label": "Leafy greens",
             "slug": "ingredients/leafy-greens",
-            "count": 41
+            "count": 38
           },
           {
             "label": "Black pepper",
             "slug": "ingredients/black-pepper",
-            "count": 13
+            "count": 12
           },
           {
             "label": "Seaweed",
             "slug": "ingredients/seaweed",
-            "count": 86
+            "count": 85
           },
           {
             "label": "Cinnamon",
@@ -269,27 +269,27 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Infant formula, powder",
             "slug": "products/infant-formula-powder-non-soy",
-            "count": 64
+            "count": 58
           },
           {
             "label": "Infant formula, soy",
             "slug": "products/infant-formula-powder-soy-based",
-            "count": 35
+            "count": 34
           },
           {
             "label": "Rice-based baby cereal",
             "slug": "products/baby-cereals-dry-rice-based",
-            "count": 81
+            "count": 78
           },
           {
             "label": "Non-rice baby cereal",
             "slug": "products/baby-cereals-dry-non-rice",
-            "count": 39
+            "count": 37
           },
           {
             "label": "Fruit purees",
             "slug": "products/fruit-purees",
-            "count": 37
+            "count": 36
           },
           {
             "label": "Vegetable purees",
@@ -362,7 +362,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 414 categories"
+    "allLabel": "All 416 categories"
   },
   {
     "key": "regulations",
@@ -458,7 +458,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 68 regulations"
+    "allLabel": "All 173 regulations"
   },
   {
     "key": "evidence",
@@ -509,7 +509,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Source archive",
             "slug": "sources",
-            "count": 3020
+            "count": 3065
           },
           {
             "label": "Synthesis findings",

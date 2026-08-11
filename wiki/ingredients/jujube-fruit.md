@@ -129,7 +129,7 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk|A randomized controlled trial on the effects of jujube fruit on the concentrations of some toxic trace elements in human milk]]<span class="hmi-ref-meta">Kelishadi, R, Hasanghaliaei, N, Poursafa, P, Keikha, M, Ghannadi, A, Yazdi, M, et al. · Iran Journal of Nursing and Midwifery Research · 2014 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk|A Randomized Controlled Trial on the Effects of Jujube Fruit on the Concentrations of Some Toxic Trace Elements in Human Milk]]<span class="hmi-ref-meta">Kelishadi R, Hasanghaliaei N, Poursafa P, Keikha M, Ghannadi A, Yazdi M, et al. · Journal of Research in Medical Sciences 21(1):94 · 2016 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -139,9 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section removed; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

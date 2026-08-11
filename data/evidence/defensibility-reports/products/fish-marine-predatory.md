@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 13d3f77e4ebf67ea8ab81189c00aa212bc0682f5ce9ccaacef9f8d32bdc4c40b
+source_page_sha256: e99d71352e11f81b9934f94e6dd235974ef0105ea16ab0b807ecaba677ff2b09
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2
-distinct_cited_targets: 530
-distinct_cited_sources: 530
-audit_rows_for_page: 2
+distinct_cited_targets: 527
+distinct_cited_sources: 527
+audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,15 +32,16 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 3 |
 | cited claims | 1 |
 | uncited claims | 2 |
-| distinct cited targets | 530 |
-| distinct cited `sources/` pages | 530 |
-| audit rows on this page | 2 |
+| distinct cited targets | 527 |
+| distinct cited `sources/` pages | 527 |
+| audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-fish-marine-predatory-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
+- `edit_id=cat6-final-fmp-hook` · retrieval=2026-06-16 · models=[claude-opus-4-8] · agreement=not_applicable · applied=2026-06-16T00:00:00.000Z · span=across_row_review_hook
 - `edit_id=cat6-final-fmp-hook` · retrieval=2026-06-16 · models=[claude-opus-4-8] · agreement=not_applicable · applied=2026-06-16T00:00:00.000Z · span=across_row_review_hook
 
 ## Claims by section
@@ -59,7 +60,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (530):
+- Cited targets (527):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
@@ -704,8 +705,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/ewicz2023-between-toxic-and-essential-metals\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -785,8 +784,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/janiga2024-alpine-bullhead-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -1039,8 +1036,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/stefanowicz2016-ecotoxicology-2016-25-80-90\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -1454,7 +1449,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/epa1999-mercury-update-fish-advisories\.md` | sources | 0 | — | — |
 | `wiki/sources/escobar-camacho2024-mercury-fish-ecuador-amazon\.md` | sources | 0 | — | — |
 | `wiki/sources/ewicz2023-between-toxic-and-essential-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/fagbemi2023-akure-street-food-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/farinas2023-university-of-technology-malaysia-malaysia-lana-abbas-oliver\.md` | sources | 0 | — | — |
@@ -1495,7 +1489,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/jackson2018-methylmercury-poisoning\.md` | sources | 0 | — | — |
 | `wiki/sources/janiga2024-alpine-bullhead-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` | sources | 0 | — | — |
-| `wiki/sources/jesse2025-unknown\.md` | sources | 0 | — | — |
 | `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` | sources | 0 | — | — |
 | `wiki/sources/job2023-thondi-fish-metal-bioaccumulation\.md` | sources | 0 | — | — |
 | `wiki/sources/kaise1988-marine-organisms-arsenic-speciation\.md` | sources | 0 | — | — |
@@ -1622,7 +1615,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` | sources | 0 | — | — |
 | `wiki/sources/stefanowicz2016-ecotoxicology-2016-25-80-90\.md` | sources | 0 | — | — |
 | `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` | sources | 0 | — | — |
 | `wiki/sources/sunderland2013-future-trends-in-environmental-mercury\.md` | sources | 0 | — | — |
 | `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` | sources | 0 | — | — |

@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-non-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f9d2fabe837b8c753fc921354fc666f1a790279872451c0011a600eed36b812b
+source_page_sha256: f5b7911ce1645fdf5c40654d4e90dfc1e04655f878136b53917af687288e230b
 total_claims: 6
 cited_claims: 5
 uncited_claims: 1
-distinct_cited_targets: 979
-distinct_cited_sources: 979
+distinct_cited_targets: 976
+distinct_cited_sources: 976
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 6 |
 | cited claims | 5 |
 | uncited claims | 1 |
-| distinct cited targets | 979 |
-| distinct cited `sources/` pages | 979 |
+| distinct cited targets | 976 |
+| distinct cited `sources/` pages | 976 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -54,7 +54,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.67 mg/L`
 - Context: `revealed-arsenic-0-58-0-67-mg\|authors 2026]]. *Analysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercu`
-- Cited targets (979):
+- Cited targets (976):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -1485,8 +1485,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -1586,8 +1584,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -1920,8 +1916,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/steigner2024-marketing-for-tableware\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -2016,7 +2010,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.95 mg/L`
 - Context: `-67-mg\|authors 2026]]. *Analysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercury (0.10-0.14 mg/L), an`
-- Cited targets (979):
+- Cited targets (976):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -3447,8 +3441,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -3548,8 +3540,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -3882,8 +3872,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/steigner2024-marketing-for-tableware\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -3978,7 +3966,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.14 mg/L`
 - Context: `nalysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercury (0.10-0.14 mg/L), and E. coli (up to 1349.75*,`
-- Cited targets (979):
+- Cited targets (976):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -5409,8 +5397,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -5510,8 +5496,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -5844,8 +5828,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/steigner2024-marketing-for-tableware\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -5940,7 +5922,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `6.4 mg/L`
 - Context: `| [[sources/authors2025-on-day-7-6-4-mg-l-followed\|authors 2025]]. *on day 7 (6.4 mg/L), followed by a drastic decreas`
-- Cited targets (979):
+- Cited targets (976):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -7371,8 +7353,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -7472,8 +7452,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -7806,8 +7784,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/steigner2024-marketing-for-tableware\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -7902,7 +7878,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (979):
+- Cited targets (976):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -9333,8 +9309,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
@@ -9434,8 +9408,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
     - audit rows: none
@@ -9768,8 +9740,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/steigner2024-marketing-for-tableware\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` (page missing)
     - audit rows: none
@@ -10587,7 +10557,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/f2021-advances-in-clinical-toxicology\.md` | sources | 0 | — | — |
 | `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and\.md` | sources | 0 | — | — |
-| `wiki/sources/fagbemi2023-akure-street-food-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/faraca2023-commission-nor-any-person-acting-on-behalf-of\.md` | sources | 0 | — | — |
@@ -10638,7 +10607,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/janiga2024-alpine-bullhead-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` | sources | 0 | — | — |
-| `wiki/sources/jesse2025-unknown\.md` | sources | 0 | — | — |
 | `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` | sources | 0 | — | — |
 | `wiki/sources/job2023-thondi-fish-metal-bioaccumulation\.md` | sources | 0 | — | — |
 | `wiki/sources/julvez2013-genetic-susceptibility-to-methylmercury-developmental\.md` | sources | 0 | — | — |
@@ -10805,7 +10773,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` | sources | 0 | — | — |
 | `wiki/sources/steigner2024-marketing-for-tableware\.md` | sources | 0 | — | — |
 | `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of\.md` | sources | 0 | — | — |
 | `wiki/sources/sunderland2013-future-trends-in-environmental-mercury\.md` | sources | 0 | — | — |
 | `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` | sources | 0 | — | — |

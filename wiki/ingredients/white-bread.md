@@ -199,6 +199,8 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+3. [[sources/fera2015-uk-tds-metals|Total Diet Study of metals and other elements in food]]<span class="hmi-ref-meta">Baxter M and Brereton N · Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 · 2015 · [www.food.gov.uk](https://www.food.gov.uk/research/total-diet-study)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/fsai2016-total-diet-study-ireland-2012-2014|Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014]]<span class="hmi-ref-meta">Food Safety Authority of Ireland (FSAI) · FSAI Chemical Monitoring and Surveillance Series · 2016 · [www.fsai.ie](https://www.fsai.ie/publications/total-diet-study-2012-2014)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -220,9 +222,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [0a907f56a](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a) | 2026-08-09 | correction | Narrative text revised |
+| [4365cdb39](https://github.com/paleofoundation/heavymetalindex/commit/4365cdb39) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

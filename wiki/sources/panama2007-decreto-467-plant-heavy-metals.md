@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 Decreto Ejecutivo No. 467 of 7 November 2007 establishes maximum residue limits for pesticides and includes a final table for heavy metals and nitrates in plant products. HMI records the lead and cadmium rows from the heavy-metals table and excludes nitrate values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d7b978b37](https://github.com/paleofoundation/heavymetalindex/commit/d7b978b37) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

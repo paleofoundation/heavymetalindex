@@ -25,3 +25,13 @@ updated: 2026-08-06
 This source is an unofficial English translation of Japan's Specifications and Standards for Food, Additives, etc., covering foodstuffs, implements, containers and packaging, toys, and detergents as last amended by Ministry of Health, Labour and Welfare Notice No. 529 on 27 November 2008.
 
 The routeable food-contaminant values captured from this PDF are the tin limits for soft drink beverage components and powdered drink beverage components. Both subsections state that tin content must not exceed 150.0 ppm. The same subsections require arsenic, lead, and cadmium not to be detectable, but those requirements are not loaded into the numeric register because they do not state a single numeric maximum level.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

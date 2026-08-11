@@ -7,7 +7,7 @@ raw_path: raw/reports/category5-step-0-output-locked-20260428.md
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-01
-sources: 14
+sources: 13
 ---
 
 # Category 5: Beverages

@@ -99,7 +99,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s40572-024-00462-7](https://doi.org/10.1007/s40572-024-00462-7)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

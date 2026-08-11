@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Moroccan joint order, published in the official translation edition of Bulletin Officiel No. 7136, replaces the annex to Joint Order No. 1643-16 on maximum authorized contaminant limits in primary products and food products. Its Annex III sets maximum levels for lead, cadmium, total mercury, inorganic tin, inorganic arsenic, and total arsenic across infant formula, baby foods, fish and seafood, grains, produce, oils and fats, supplements, salt, canned foods, and other food categories. Values are stated in mg/kg in the annex and are loaded into the regulatory limits register as µg/kg. The source also contains non-metal contaminant schedules, but this ingest captures only the controlled metal species in Annex III.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

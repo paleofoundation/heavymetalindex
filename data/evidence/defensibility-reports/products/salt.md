@@ -2,15 +2,15 @@
 source_page: wiki/products/salt.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 99204f92c747d598be64297f504bee5b53a2854cbf55ced56ea1e435cd7dfe22
+source_page_sha256: c041e7c3c845d94726094231981ccc9b700d333109c4f662996d472dde1ea4f3
 total_claims: 2
 cited_claims: 0
 uncited_claims: 2
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 3
+audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,16 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 2 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 3 |
+| audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=cat7-primary-metals-salt-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
 - `edit_id=cat7-step0-lock-salt-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
 - `edit_id=taxonomy-v2.2-cat7dissolution-salt-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
+- `edit_id=ef22e6ae-99f1-41db-963e-ace30c12de70` · retrieval=2026-08-06 · models=[claude-opus-4-8/standards-capbound-promoter] · agreement=not_applicable · applied=2026-08-06T19:43:10.707Z · span=across_row_review_hook
 
 ## Claims by section
 

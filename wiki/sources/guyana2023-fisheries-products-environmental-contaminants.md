@@ -29,3 +29,13 @@ The routeable heavy-metal rows are in Schedule Four, Part I, Table 1, "Heavy Met
 The source does not specify methylmercury for the mercury rows, so HMI records mercury as `tHg`. The arsenic row in the generic `ppb` table does not specify inorganic arsenic, so HMI records it as `tAs`. Schedule Four later gives performance criteria that mention inorganic tin, but Table 1 does not set an inorganic-tin maximum residue limit; that non-routeable tin mention is recorded in `data/evidence/regulatory-ingest-gaps.csv`.
 
 Values are recorded in `data/evidence/regulatory_limits.csv` in `ug/kg`. The `ppm` values are converted as `1 ppm = 1 mg/kg = 1000 ug/kg`; the `ppb` values are converted as `1 ppb = 1 ug/kg`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/electric-plug-in-evaporators",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2775b3e28918edee2f5dd81d0a435dee60ab609296ae268cb85d35a2bdfb33c3",
-      "content_bytes": 8722,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "114e5f74675969b62817fd6d17c4969fa1b71aec49ee142c73c3e41aaa957835",
+      "content_bytes": 8741,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/electric-plug-in-evaporators.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/electric-plug-in-evaporators.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
         "content_pin": {
-          "content_sha256": "a8dc93d64143179cf07ad22f085f3b8c2828939a07239f6308d53146cc9ec9de",
-          "content_bytes": 25526,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "60b8c19eb646d19caf788e249ab41414fe7caf02f7302b9daf3cff33a8a577aa",
+          "content_bytes": 25550,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
         }
       }
     ]

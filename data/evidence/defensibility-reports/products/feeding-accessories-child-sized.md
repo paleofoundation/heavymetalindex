@@ -2,15 +2,15 @@
 source_page: wiki/products/feeding-accessories-child-sized.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9239426071e0fdb136d797e212c8c2053683ad1773e3b1887ee5c03557fe03f4
+source_page_sha256: 7723c097637fa62007e0d47341ec4919041d307d56bdb8851889ef732ae40c6a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=cdb8f9af-8782-4bd7-8e32-265568283b1b` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-contact-products-standard-build] · agreement=not_applicable · applied=2026-08-10T11:03:12.864Z · span=cat9-step0-lock-flags
 
 ## Claims by section
 

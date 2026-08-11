@@ -30,15 +30,15 @@ updated: 2026-07-31
 <div class="hmi-v3-ledger" aria-label="Corpus ledger">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Corpus ledger</span>
-    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-04</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-11</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,596</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">181</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">58</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,455</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,547</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">179</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,502</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">695</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">181</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
     <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
   </div>
 </div>
@@ -53,24 +53,24 @@ updated: 2026-07-31
       <div class="hmi-home-top-col">
         <h3>Metals</h3>
         <ul>
-        <li><a href="metals/cadmium/"><span>Cadmium</span><span class="hmi-home-top-count">1,593</span></a></li>
-        <li><a href="metals/lead/"><span>Lead</span><span class="hmi-home-top-count">1,465</span></a></li>
-        <li><a href="metals/arsenic/"><span>Arsenic</span><span class="hmi-home-top-count">893</span></a></li>
-        <li><a href="metals/mercury/"><span>Mercury</span><span class="hmi-home-top-count">881</span></a></li>
-        <li><a href="metals/chromium/"><span>Chromium</span><span class="hmi-home-top-count">876</span></a></li>
-        <li><a href="metals/nickel/"><span>Nickel</span><span class="hmi-home-top-count">773</span></a></li>
+        <li><a href="metals/cadmium/"><span>Cadmium</span><span class="hmi-home-top-count">1,572</span></a></li>
+        <li><a href="metals/lead/"><span>Lead</span><span class="hmi-home-top-count">1,440</span></a></li>
+        <li><a href="metals/arsenic/"><span>Arsenic</span><span class="hmi-home-top-count">878</span></a></li>
+        <li><a href="metals/mercury/"><span>Mercury</span><span class="hmi-home-top-count">876</span></a></li>
+        <li><a href="metals/chromium/"><span>Chromium</span><span class="hmi-home-top-count">871</span></a></li>
+        <li><a href="metals/nickel/"><span>Nickel</span><span class="hmi-home-top-count">766</span></a></li>
         </ul>
         <a class="hmi-home-top-all" href="metals/">All 36 metals →</a>
       </div>
       <div class="hmi-home-top-col">
         <h3>Ingredients</h3>
         <ul>
-        <li><a href="ingredients/fish/"><span>Fish</span><span class="hmi-home-top-count">314</span></a></li>
-        <li><a href="ingredients/rice/"><span>Rice</span><span class="hmi-home-top-count">280</span></a></li>
-        <li><a href="ingredients/seafood/"><span>Seafood</span><span class="hmi-home-top-count">194</span></a></li>
-        <li><a href="ingredients/vegetables/"><span>Vegetables</span><span class="hmi-home-top-count">116</span></a></li>
-        <li><a href="ingredients/meat-and-poultry/"><span>Meat and Poultry</span><span class="hmi-home-top-count">113</span></a></li>
+        <li><a href="ingredients/fish/"><span>Fish</span><span class="hmi-home-top-count">306</span></a></li>
+        <li><a href="ingredients/rice/"><span>Rice</span><span class="hmi-home-top-count">268</span></a></li>
+        <li><a href="ingredients/seafood/"><span>Seafood</span><span class="hmi-home-top-count">192</span></a></li>
         <li><a href="ingredients/shellfish/"><span>Shellfish</span><span class="hmi-home-top-count">113</span></a></li>
+        <li><a href="ingredients/vegetables/"><span>Vegetables</span><span class="hmi-home-top-count">112</span></a></li>
+        <li><a href="ingredients/fruit/"><span>Fruit</span><span class="hmi-home-top-count">110</span></a></li>
         </ul>
         <a class="hmi-home-top-all" href="ingredients/">All 257 ingredients →</a>
       </div>
@@ -84,7 +84,7 @@ updated: 2026-07-31
         <li><a href="products/root-vegetable-purees/"><span>Root-Vegetable Purees</span><span class="hmi-home-top-count">184</span></a></li>
         <li><a href="products/seafood/"><span>Seafood</span><span class="hmi-home-top-count">161</span></a></li>
         </ul>
-        <a class="hmi-home-top-all" href="products/">All 414 product categories →</a>
+        <a class="hmi-home-top-all" href="products/">All 416 product categories →</a>
       </div>
     </div>
   </div>
@@ -95,39 +95,39 @@ updated: 2026-07-31
 <section class="hmi-band hmi-band--shade" data-no-cite>
   <div class="hmi-band-inner">
     <h2>What changed recently</h2>
-    <p class="hmi-band-lede">The 8 most recent evidence changes across the corpus, from 1,384 recorded events. Every page also carries its own update history.</p>
+    <p class="hmi-band-lede">The 8 most recent evidence changes across the corpus, from 1,558 recorded events. Every page also carries its own update history.</p>
     <ul class="hmi-home-feed">
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="regulations/korea-mfds-food-code-heavy-metals/">New regulation indexed: multiple mg/kg</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="regulations/philippines-pns-bafs-194-2017-contaminants-food-feed/">New regulation indexed: multiple mg/kg</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple/">Ni in apple synthesis moved down 3.3x (typical [0,360]→[1,110] ppb).</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/apple-juice/">Cd in apple-juice confidence low → medium.</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple/">Al in apple confidence medium → low.</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/peanuts/">tAs in peanuts synthesis moved up 14.0x (typical [1,5]→[5,30] ppb).</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple-juice/">tHg in apple-juice evidence base doubled (n 1 → 3).</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="regulations/trinidad-tobago-food-drugs-metal-limits-2007/">New regulation indexed: multiple ppm</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple/">Sn in apple confidence medium → low.</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Pb in applesauce confidence medium → low.</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Pb in applesauce evidence base doubled (n 1 → 3).</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="regulations/uruguay-rbn-5th-edition-heavy-metal-limits/">New regulation indexed: multiple mg/kg or stated source unit</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Pb in applesauce confidence low → medium.</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/avocado/">Cr in avocado confidence medium → low.</a></span>
       </li>
       <li>
-        <time datetime="2026-08-04">2026-08-04</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/baked-potato-with-peel/">tHg in baked-potato-with-peel evidence base doubled (n 1 → 2).</a></span>
+        <time datetime="2026-08-11">2026-08-11</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/banana/">Cd in banana confidence medium → low.</a></span>
       </li>
     </ul>
   </div>
@@ -160,13 +160,13 @@ updated: 2026-07-31
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="which-foods" data-question="Which foods carry the most heavy metals?">
       <summary>Which foods carry the most heavy metals?</summary>
       <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>It depends on the metal. Rice and rice-derived ingredients dominate inorganic arsenic; large predatory fish dominate methylmercury; cocoa, leafy greens and some root vegetables carry the most cadmium; spices and some botanicals are recurring lead findings. The Index reports these at the ingredient level, where the contamination originates, and again at the product-category level, where a consumer encounters it — 257 ingredient profiles and 414 product categories.</p>
+        <p>It depends on the metal. Rice and rice-derived ingredients dominate inorganic arsenic; large predatory fish dominate methylmercury; cocoa, leafy greens and some root vegetables carry the most cadmium; spices and some botanicals are recurring lead findings. The Index reports these at the ingredient level, where the contamination originates, and again at the product-category level, where a consumer encounters it — 257 ingredient profiles and 416 product categories.</p>
       </div>
     </details>
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="who-sets-limits" data-question="Who sets the limits for heavy metals in food?">
       <summary>Who sets the limits for heavy metals in food?</summary>
       <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programmes such as California's Proposition 65 set their own thresholds. The Index carries 68 regulation pages, each stating the exact value, the matrix it applies to and the basis it is measured on.</p>
+        <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programmes such as California's Proposition 65 set their own thresholds. The Index carries 173 regulation pages, each stating the exact value, the matrix it applies to and the basis it is measured on.</p>
       </div>
     </details>
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="testing-and-brands" data-question="Does the Index test products or rank brands?">
@@ -178,7 +178,7 @@ updated: 2026-07-31
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="how-complete" data-question="How complete is the evidence behind these pages?">
       <summary>How complete is the evidence behind these pages?</summary>
       <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Partially, and the Index says so on the record. The coverage page reports how many papers the literature search identified against how many have been promoted to source pages, broken out by category, so a reader can see where the corpus is deep and where it is thin. 3,020 source pages are indexed so far. Pages whose evidence is sparse carry a low confidence marker rather than a confident-looking number.</p>
+        <p>Partially, and the Index says so on the record. The coverage page reports how many papers the literature search identified against how many have been promoted to source pages, broken out by category, so a reader can see where the corpus is deep and where it is thin. 3,065 source pages are indexed so far. Pages whose evidence is sparse carry a low confidence marker rather than a confident-looking number.</p>
       </div>
     </details>
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="check-a-claim" data-question="Can I check a claim on any page back to its source?">
@@ -205,7 +205,7 @@ updated: 2026-07-31
       </div>
       <div class="hmi-home-step">
         <h3>Record the source</h3>
-        <p>Each admitted document gets a source page carrying its citation, methods, the values extracted from it, and the file hash of the document those values were read out of. 3,020 so far.</p>
+        <p>Each admitted document gets a source page carrying its citation, methods, the values extracted from it, and the file hash of the document those values were read out of. 3,065 so far.</p>
         <a href="sources/">Source archive →</a>
       </div>
       <div class="hmi-home-step">
@@ -279,7 +279,7 @@ updated: 2026-07-31
 <section class="hmi-v3-registries" aria-label="Registries">
   <div class="hmi-v3-registries-inner">
   <a class="hmi-v3-registry" href="products/">
-    <span class="hmi-v3-registry-n">414</span>
+    <span class="hmi-v3-registry-n">416</span>
     <span class="hmi-v3-registry-t">Products</span>
     <span class="hmi-v3-registry-d">Category risk profiles built from the ingredients that drive them.</span>
   </a>
@@ -294,12 +294,12 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
   </a>
   <a class="hmi-v3-registry" href="regulations/">
-    <span class="hmi-v3-registry-n">68</span>
+    <span class="hmi-v3-registry-n">173</span>
     <span class="hmi-v3-registry-t">Regulations</span>
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,020</span>
+    <span class="hmi-v3-registry-n">3,065</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -320,49 +320,49 @@ updated: 2026-07-31
     <tbody>
       <tr>
         <td class="hmi-metal-name"><a href="metals/cadmium/">Cadmium</a> <span>Cd</span></td>
-        <td class="hmi-metal-n">1,593</td>
+        <td class="hmi-metal-n">1,572</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Cocoa, leafy greens, root vegetables, offal</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,465</td>
+        <td class="hmi-metal-n">1,440</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/chromium/">Chromium</a> <span>Cr</span></td>
-        <td class="hmi-metal-n">876</td>
+        <td class="hmi-metal-n">871</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Processing contact, drinking water</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/nickel/">Nickel</a> <span>Ni</span></td>
-        <td class="hmi-metal-n">773</td>
+        <td class="hmi-metal-n">766</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EU maximum levels</span></td>
         <td class="hmi-metal-drivers">Legumes, nuts, cocoa, equipment contact</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/aluminum/">Aluminum</a> <span>Al</span></td>
-        <td class="hmi-metal-n">526</td>
+        <td class="hmi-metal-n">534</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Additives, packaging contact, botanicals</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/arsenic-total/">Arsenic</a> <span>As</span></td>
-        <td class="hmi-metal-n">371</td>
+        <td class="hmi-metal-n">364</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Rice, seaweed, drinking water, apple juice</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/mercury-total/">Mercury</a> <span>Hg</span></td>
-        <td class="hmi-metal-n">281</td>
+        <td class="hmi-metal-n">270</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">JECFA PTWI, MeHg</span></td>
         <td class="hmi-metal-drivers">Predatory fish, shellfish</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/tin/">Tin</a> <span>Sn</span></td>
-        <td class="hmi-metal-n">228</td>
+        <td class="hmi-metal-n">227</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Codex ML</span></td>
         <td class="hmi-metal-drivers">Canned foods, acidic matrices</td>
       </tr>
@@ -439,8 +439,8 @@ updated: 2026-07-31
   </div>
   <div class="hmi-v3-rev-grid">
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-22">22 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/chromium/">Chromium</a>
+      <time class="hmi-v3-rev-d" datetime="2026-08-09">9 Aug 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/arsenic/">Arsenic</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -449,13 +449,13 @@ updated: 2026-07-31
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="products/antiperspirant/">Antiperspirant</a>
+      <time class="hmi-v3-rev-d" datetime="2026-08-10">10 Aug 2026</time>
+      <a class="hmi-v3-rev-t" href="products/infant-food-storage-items/">Infant food-storage items</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
     <div class="hmi-v3-rev-row">
       <time class="hmi-v3-rev-d" datetime="2026-06-22">22 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/chromium-hexavalent/">Chromium, Hexavalent</a>
+      <a class="hmi-v3-rev-t" href="metals/chromium/">Chromium</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -464,13 +464,13 @@ updated: 2026-07-31
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="products/bar-bath-soap/">Bar/bath soap</a>
+      <time class="hmi-v3-rev-d" datetime="2026-08-10">10 Aug 2026</time>
+      <a class="hmi-v3-rev-t" href="products/teething-toys-teethers/">Teething toys/teethers</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-05-17">17 May 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/manganese/">Manganese</a>
+      <time class="hmi-v3-rev-d" datetime="2026-06-22">22 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/chromium-hexavalent/">Chromium, Hexavalent</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -480,7 +480,7 @@ updated: 2026-07-31
     </div>
     <div class="hmi-v3-rev-row">
       <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="products/bathing-soaps/">Bathing soaps</a>
+      <a class="hmi-v3-rev-t" href="products/antiperspirant/">Antiperspirant</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
   </div>

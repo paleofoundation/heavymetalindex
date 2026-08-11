@@ -204,6 +204,9 @@ Works cited in this page's text, in first-appearance order. This is not the full
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/naccari2025-honey-toxic-metals-microelements|Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety]]<span class="hmi-ref-meta">Naccari C, Ferrantelli V, Cammilleri G, Barbaccia G, Riolo P, Ferrante MC, et al. · Foods 2025, 14, 1986 · 2025 · [doi.org/10.3390/foods14111986](https://doi.org/10.3390/foods14111986)</span><span class="hmi-ref-tag">Review</span>
 3. [[sources/abeslami2025-moroccan-honey-minerals|Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco]]<span class="hmi-ref-meta">Abeslami A, El Farissi H, Cacciola F, Oulad El Majdoub Y, Mondello L, El Bachiri A, et al. · Molecules · 2025 · [doi.org/10.3390/molecules30010150](https://doi.org/10.3390/molecules30010150)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/wise2025-elevated-metals-us-honeys|Elevated Metal Levels in U.S. Honeys: Is There a Concern for Human Health?]]<span class="hmi-ref-meta">Wise JP Jr, Wise RM, Hoffert A, Wise JTF, and Specht AJ · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-024-04295-1](https://doi.org/10.1007/s12011-024-04295-1)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/manouchehri2021-honey-heavy-metals-review|The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review]]<span class="hmi-ref-meta">Manouchehri A, Pirhadi M, Shokri S, Khaniki GJ, Shamaei S, and Miranzadeh MH · Arı Dergisi / Uludag Bee Journal · 2021 · [doi.org/10.31467/uluaricilik.973053](https://doi.org/10.31467/uluaricilik.973053)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/teferi2026-honey-ethiopia-kellem-wollega|Assessment of Heavy Metal Contamination and Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia]]<span class="hmi-ref-meta">Teferi AN, Dibabe YB, Debalke AG, Beyene TW, Feng W, and Ho C · Toxics · 2026 · [doi.org/10.3390/toxics14030229](https://doi.org/10.3390/toxics14030229)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -244,9 +247,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1b9dc36c8](https://github.com/paleofoundation/heavymetalindex/commit/1b9dc36c8) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 11 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

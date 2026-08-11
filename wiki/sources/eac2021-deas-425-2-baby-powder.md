@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Draft East African Standard specifies requirements, sampling, and test methods for baby powder. Table 2 sets maximum limits for lead, arsenic, and mercury in finished baby powder and references EAS 847-16 for determination of lead, mercury, and arsenic content. A combined heavy-metals cap is stated separately and is gap-logged because it cannot be represented as a species-specific regulatory-limit row. The structured rows are marked as draft guidance rather than implemented law.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2eb4defd8](https://github.com/paleofoundation/heavymetalindex/commit/2eb4defd8) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

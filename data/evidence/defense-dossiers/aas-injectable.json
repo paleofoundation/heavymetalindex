@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/aas-injectable",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d115135cb5bf6c7ab796e1edb4f6ac0de06bef1e79426f99d2256dfb04c287f6",
-      "content_bytes": 2081,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "06535a62c2729981da795f60f03926f0fb542454162fe1388e01a33585433167",
+      "content_bytes": 2088,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/aas-injectable.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/aas-injectable.md | sha256sum"
     }
   },
   "evidence_base": {

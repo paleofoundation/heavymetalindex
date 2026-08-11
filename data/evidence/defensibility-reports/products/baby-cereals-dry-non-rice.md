@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-cereals-dry-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: acf4ee66bdc342e0d80d7be59e4eb949c21c3fba26705e5039c5c3a880a14688
+source_page_sha256: 0b9f7646aa8fa832780b887e5bbddc34a44bc91733a8e4a345a322eaf3803371
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 66
-distinct_cited_sources: 60
+distinct_cited_targets: 63
+distinct_cited_sources: 57
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 6
-audit_log_total_rows: 6212
+audit_rows_for_cited_targets: 15
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 66 |
-| distinct cited `sources/` pages | 60 |
+| distinct cited targets | 63 |
+| distinct cited `sources/` pages | 57 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 6 |
-| audit log rows read | 6212 |
+| audit rows on cited target pages | 15 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -54,9 +54,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -68,9 +69,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -82,9 +84,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
+    - audit rows (3):
       - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -158,7 +161,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `ion level by rice versus non-rice | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as`
@@ -168,7 +172,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `33.3 ppb`
 - Context: `| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant inf`
@@ -178,7 +183,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `limit. | | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a`
@@ -188,7 +194,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/con`
@@ -198,7 +205,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
 - Context: `; occurrence percentiles decide whether HMTc can justify a lower standard. |  A 20 ppb cereal can be legally aligned whi`
@@ -208,7 +216,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
   - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 ### Distribution Context
 
@@ -1064,7 +1073,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4 ppb`
 - Context: `dairy-free infant porridges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and withi`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1074,8 +1083,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1141,11 +1148,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1168,7 +1171,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3 ppb`
 - Context: `ges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and within EU limits; contributes`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1178,8 +1181,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1245,11 +1246,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1272,7 +1269,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.013 mg/kg`
 - Context: `(75 studies, 580 baby foods); cereals highest Cd median among baby-food groups (0.013 mg/kg) with 17% exceedance rate; r`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1282,8 +1279,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1349,11 +1344,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1376,7 +1367,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `am | 2025 | Government guidance | FDA final Closer to Zero guidance setting the 20 ppb Pb action level for dry infant ce`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1386,8 +1377,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1453,11 +1442,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1480,7 +1465,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `all processed baby-food categories; guidance-basis empirical foundation for the 20 ppb dry-cereal action level applicabl`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1490,8 +1475,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1557,11 +1540,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1584,7 +1563,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `37.8 ppb`
 - Context: `d Hg in FY2009–FY2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1594,8 +1573,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1661,11 +1638,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1688,7 +1661,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 ppb`
 - Context: `2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 11 | [[source`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1698,8 +1671,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1765,11 +1736,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1792,7 +1759,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `27.4 ppb`
 - Context: `nfant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 11 | [[sources/meli2024-che`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1802,8 +1769,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1869,11 +1834,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -1896,7 +1857,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `35.2 ppb`
 - Context: `in 111 Saudi baby food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; inc`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1906,8 +1867,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1973,11 +1932,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2000,7 +1955,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5.18 ppb`
 - Context: `by food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; includes wheat-base`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2010,8 +1965,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2077,11 +2030,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2104,7 +2053,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `920 ppb`
 - Context: `flour-only composition (non-rice) routes to this row; corn-flour cereal Al mean 920 ppb, the lowest of all compositions`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2114,8 +2063,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2181,11 +2128,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2208,7 +2151,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `680 ppb`
 - Context: `rn-meal (n=10) categories; non-rice cereal-based context; cereal-based mean tAs 680 ppb notably elevated vs milk-based |`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2218,8 +2161,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2285,11 +2226,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2312,7 +2249,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `269 ppb`
 - Context: `rms food-matrix chromium is essentially Cr(III); total Cr breakfast-cereal mean 269 ppb; extends by mechanism to non-ric`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2322,8 +2259,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2389,11 +2324,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2416,7 +2347,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `r cohort linking rice cereal to urinary As increase at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2426,8 +2357,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2493,11 +2422,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2520,7 +2445,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `49 ppb`
 - Context: `ease at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and up to 49 ppb in mixed cereals as the non-rice`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2530,8 +2455,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2597,11 +2520,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2624,7 +2543,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6 ppb`
 - Context: `ice infant cereals (n=30, oats/corn/wheat/multigrain with no rice); highest iAs 6 ppb; structured data extracted to `dat`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2634,8 +2553,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2701,11 +2618,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2728,7 +2641,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `nt report | UK multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 pp`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2738,8 +2651,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2805,11 +2716,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2832,7 +2739,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6 ppb`
 - Context: `multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2842,8 +2749,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2909,11 +2814,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -2936,7 +2837,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3 ppb`
 - Context: `al category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2946,8 +2847,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -3013,11 +2912,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -3040,7 +2935,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1 ppb`
 - Context: `level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not i`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3050,8 +2945,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -3117,11 +3010,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -3144,7 +3033,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `127 ppb`
 - Context: `cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not isolated within`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3154,8 +3043,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -3221,11 +3108,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -3248,7 +3131,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.96 ppb`
 - Context: `/corn/oat); cereal-based group Cd significantly higher than milk-based (8.88 vs 0.96 ppb); rice/non-rice composition not`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3258,8 +3141,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -3325,11 +3206,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -3352,7 +3229,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Canadian baby-food samples (1975 market) including cereal category by AAS; LOD 10 ppb precludes modern percentile math;`
-- Cited targets (50):
+- Cited targets (47):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3362,8 +3239,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -3429,11 +3304,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` (page missing)
     - audit rows: none
@@ -3537,8 +3408,8 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
-| `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md` | sources | 0 | — | — |
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` | sources | 0 | — | — |
@@ -3546,7 +3417,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` | sources | 0 | — | — |
-| `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` | sources | 0 | — | — |
@@ -3587,10 +3457,8 @@ _All claims trace to at least one cited source._
 | `wiki/sources/mielech2021-contamination-food-infants-toddlers\.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
-| `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-baby-food-lead-biokinetic-models.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` | sources | 0 | — | — |
-| `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` | sources | 0 | — | — |
 | `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |

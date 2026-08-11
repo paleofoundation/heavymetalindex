@@ -49,11 +49,23 @@ Codex maximum levels are concentration limits in specific foods (mg/kg), so they
 | **Codex** | Maximum level | see instrument | [[regulations/codex-cadmium-mls\|Maximum Levels for Cadmium in Food]] |
 | [[regulators/jecfa\|JECFA]] | PTMI | 25 µg/kg bw/month | [[regulations/jecfa-cadmium-ptmi\|Provisional Tolerable Monthly Intake for Cadmium]] |
 | [[regulators/efsa\|EFSA]] | TWI | 2.5 µg/kg bw/week | [[regulations/efsa-cadmium-twi\|Tolerable Weekly Intake for Cadmium]] |
+| [[regulators/eu-commission\|EC]] | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
+| [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| [[regulators/eu-commission\|EC]] | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | multiple — see instrument | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|Cadmium maximum levels for cereals]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu-2023-915-cadmium\|Commission Regulation]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] |
+| [[regulators/eu-commission\|EC]] | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-reach-2011-494-cadmium-annex-xvii\|eu-reach-2011-494-cadmium-annex-xvii]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| [[regulators/eu-commission\|EC]] | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
 | [[regulators/us-epa\|US EPA]] | Oral RfD | 1 µg/kg bw/day food | [[regulations/epa-iris-cadmium-rfd\|EPA IRIS — Cadmium Oral Reference Doses]] |
 | [[regulators/atsdr\|ATSDR]] | MRL | 0.1 µg/kg bw/day | [[regulations/atsdr-cadmium-mrls\|Minimal Risk Levels for Cadmium]] |
 | [[regulators/oehha\|OEHHA]] | Prop 65 | 4.1 µg/day oral | [[regulations/oehha-cadmium-prop65\|Cadmium Listing and Maximum Allowable Daily Level]] |
@@ -64,7 +76,10 @@ Codex maximum levels are concentration limits in specific foods (mg/kg), so they
 | --- | --- | --- | --- |
 | **Codex** | Maximum level | multiple — see instrument | [[regulations/codex-cxs-193-1995-tin-canned-foods\|1995 - Tin maximum levels for canned foods]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
+| [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| [[regulators/eu-commission\|EC]] | — | see instrument | [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin\|organotin compounds in skin-contact and childcare…]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
 <!-- END: hmi-regulator-divergence -->
 
 ## Update log

@@ -99,7 +99,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 1
+sources: 0
 updated: 2026-06-01
 ---
 

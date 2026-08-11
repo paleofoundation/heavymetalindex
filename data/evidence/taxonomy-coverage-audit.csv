@@ -83,14 +83,14 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 8,Water and Water-Based Products,2,Mineral water,mineral-water,exact,mineral-water.md,mineral-water,8,2,scaffold
 8,Water and Water-Based Products,3,Sparkling/carbonated water (unflavored),sparkling-carbonated-water,exact,sparkling-carbonated-water.md,sparkling-carbonated-water,8,3,scaffold
 8,Water and Water-Based Products,4,Infant water / nursery water (if not routed to Category 1 by age-marketing),infant-nursery-water,by_alias,infant-and-child-foods-master.md,infant-and-child-foods-master,,,
-9,Infant and Child Contact Products (Ages 0-5),1,"Bottles (plastic, glass, stainless steel)",infant-bottles,exact,infant-bottles.md,infant-bottles,9,1,scaffold
-9,Infant and Child Contact Products (Ages 0-5),2,Bottle nipples and spouts,infant-bottle-nipples,exact,infant-bottle-nipples.md,infant-bottle-nipples,9,2,scaffold
-9,Infant and Child Contact Products (Ages 0-5),3,Sippy cups and toddler drinkware components,sippy-cups-toddler-drinkware,exact,sippy-cups-toddler-drinkware.md,sippy-cups-toddler-drinkware,9,3,scaffold
-9,Infant and Child Contact Products (Ages 0-5),4,Pacifiers and sucking/teething aids,pacifiers-and-sucking-teething-aids,exact,pacifiers-and-sucking-teething-aids.md,pacifiers-and-sucking-teething-aids,9,4,scaffold
-9,Infant and Child Contact Products (Ages 0-5),5,Teething toys/teethers,teething-toys-teethers,by_alias,teething-and-snacks-non-rice.md,teething-and-snacks-non-rice,1,15,
-9,Infant and Child Contact Products (Ages 0-5),6,Infant food-storage items (milk storage bags/containers),infant-food-storage-items,by_alias,infant-and-child-foods-master.md,infant-and-child-foods-master,,,
-9,Infant and Child Contact Products (Ages 0-5),7,Diapers and diaper components,diapers-and-components,exact,diapers-and-components.md,diapers-and-components,9,7,scaffold
-9,Infant and Child Contact Products (Ages 0-5),8,"Feeding accessories (spoons, plates, bowls — child-sized)",feeding-accessories-child-sized,exact,feeding-accessories-child-sized.md,feeding-accessories-child-sized,9,8,scaffold
+9,Infant and Child Contact Products (Ages 0-5),1,"Bottles (plastic, glass, stainless steel)",infant-bottles,exact,infant-bottles.md,infant-bottles,9,1,locked
+9,Infant and Child Contact Products (Ages 0-5),2,Bottle nipples and spouts,infant-bottle-nipples,exact,infant-bottle-nipples.md,infant-bottle-nipples,9,2,locked
+9,Infant and Child Contact Products (Ages 0-5),3,Sippy cups and toddler drinkware components,sippy-cups-toddler-drinkware,exact,sippy-cups-toddler-drinkware.md,sippy-cups-toddler-drinkware,9,3,locked
+9,Infant and Child Contact Products (Ages 0-5),4,Pacifiers and sucking/teething aids,pacifiers-and-sucking-teething-aids,exact,pacifiers-and-sucking-teething-aids.md,pacifiers-and-sucking-teething-aids,9,4,locked
+9,Infant and Child Contact Products (Ages 0-5),5,Teething toys/teethers,teething-toys-teethers,exact,teething-toys-teethers.md,teething-toys-teethers,9,5,locked
+9,Infant and Child Contact Products (Ages 0-5),6,Infant food-storage items (milk storage bags/containers),infant-food-storage-items,exact,infant-food-storage-items.md,infant-food-storage-items,9,6,locked
+9,Infant and Child Contact Products (Ages 0-5),7,Diapers and diaper components,diapers-and-components,exact,diapers-and-components.md,diapers-and-components,9,7,locked
+9,Infant and Child Contact Products (Ages 0-5),8,"Feeding accessories (spoons, plates, bowls — child-sized)",feeding-accessories-child-sized,exact,feeding-accessories-child-sized.md,feeding-accessories-child-sized,9,8,locked
 10,Infant and Child Durable Goods and Textiles (Ages 0-5),1,Cribs and bassinets,cribs-and-bassinets,exact,cribs-and-bassinets.md,cribs-and-bassinets,10,1,scaffold
 10,Infant and Child Durable Goods and Textiles (Ages 0-5),2,Play yards and gates/enclosures,play-yards-and-gates,exact,play-yards-and-gates.md,play-yards-and-gates,10,2,scaffold
 10,Infant and Child Durable Goods and Textiles (Ages 0-5),3,Strollers,strollers,exact,strollers.md,strollers,10,3,scaffold

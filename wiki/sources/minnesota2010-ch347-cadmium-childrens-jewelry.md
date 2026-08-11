@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 Minnesota Laws 2010, Chapter 347 added section 325E.3891 on cadmium in children's jewelry. The provision limits cadmium in surface coatings and accessible substrate material of metal or plastic components of children's jewelry to 75 parts per million. The threshold is determined through solubility testing under ASTM F-963 and later versions, unless superseded by a federal standard. The section is effective 1 January 2011, with the retailer subdivision effective 1 March 2011.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c17f12c69](https://github.com/paleofoundation/heavymetalindex/commit/c17f12c69) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

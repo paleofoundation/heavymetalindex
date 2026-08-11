@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-dry-kibble",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6f37f84bd896ec13b43380116a5fa063a32dbde8e425735e6898bf58152abbdd",
-      "content_bytes": 12707,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "8cdb4828d77be2392cd962915e385dfa1ab684b6df55275bda6c2c08710a0929",
+      "content_bytes": 12726,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/pet-food-dry-kibble.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/pet-food-dry-kibble.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2017-8-address-1school-of-veterinary-medicine-and-science",
         "content_pin": {
-          "content_sha256": "b924459af041eed22d9c977ec21a6fca89887b35654f42eded17517d7fe07f41",
-          "content_bytes": 9010,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "8229e341320ea50f336fa3fceee043c54e7d142df65fd50f112203900c26d881",
+          "content_bytes": 9135,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2017-8-address-1school-of-veterinary-medicine-and-science.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2017-8-address-1school-of-veterinary-medicine-and-science.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2018-minerals-and-heavy-metals-in",
         "content_pin": {
-          "content_sha256": "5f93172e11ac427d1d34d466fb9e406050ea9bd1640fa7c6d2b8918abfe0ab59",
-          "content_bytes": 9548,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "06585246526fc7b4ee71f3fc02b90573c6b17fa6b664e99ca5f08c1221b7b7da",
+          "content_bytes": 9673,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2018-minerals-and-heavy-metals-in.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2018-minerals-and-heavy-metals-in.md | sha256sum"
         }
       },
       {
@@ -94,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2020-however-this-ingredient-is-costly-compared-to-formulated",
         "content_pin": {
-          "content_sha256": "fbda2c37d527394f11b357d7fea301541080904e6cadd79a40d9b1e8402999bb",
-          "content_bytes": 5957,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "9bec12b7441cbed3981813ffb9af43a6aafe23fcc906a9b5b7fc2fee817f35e1",
+          "content_bytes": 6082,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2020-however-this-ingredient-is-costly-compared-to-formulated.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2020-however-this-ingredient-is-costly-compared-to-formulated.md | sha256sum"
         }
       },
       {
@@ -122,12 +122,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2021-nutritional-evaluation-and-risk-assessment-of-the-exposure",
         "content_pin": {
-          "content_sha256": "f32005efaa61781316ad798e001d9de5353ddeda9fd0ca5b7e1b7c9383065db2",
-          "content_bytes": 7468,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "d60cb6a192768a7996adf867da4f73871df6cfdb4401ebd1aae8fadb1c3df797",
+          "content_bytes": 7593,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2021-nutritional-evaluation-and-risk-assessment-of-the-exposure.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2021-nutritional-evaluation-and-risk-assessment-of-the-exposure.md | sha256sum"
         }
       },
       {
@@ -148,12 +148,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration",
         "content_pin": {
-          "content_sha256": "7c1c0a74638bf71940646adf0b707ca29e1c1dd6bc9814993fdfa488449f3cf7",
-          "content_bytes": 8761,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "c67a996231d9705e8d4fa5bc7d6512f77e535fff8def4791d10f216a624015a8",
+          "content_bytes": 8886,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration.md | sha256sum"
         }
       },
       {
@@ -169,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence",
         "content_pin": {
-          "content_sha256": "055c87d3f784fa6fc798027b56443c84e2c16795ef4328ba38cad1dbc2124fba",
-          "content_bytes": 7389,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "49eef382f5b3011a186bfe6ba5dd2dbdf2588f812110aa9dc6367c66d6656c66",
+          "content_bytes": 7514,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence.md | sha256sum"
         }
       },
       {
@@ -189,12 +189,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial",
         "content_pin": {
-          "content_sha256": "3cbfe40ae020b5b9811456b4871b01e29def1824f0f5e107360c5b9ff89b3b00",
-          "content_bytes": 8146,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "32603cb94bee98d0894d640b5e4724e97b487aa8db610619f8c59e3dd6771a6c",
+          "content_bytes": 8271,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial.md | sha256sum"
         }
       },
       {
@@ -215,12 +215,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/authors2025-testing-for-heavy-metals-in-drinking-water-collected",
         "content_pin": {
-          "content_sha256": "3b8dd3187c0232ad52b5715d652870376272e1a000e7c214c5d82add608a096c",
-          "content_bytes": 8208,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "035aae0be4e03730d0ce525c7b61f801e48d89b31cf4aafd88ac2bcf3af8e89a",
+          "content_bytes": 8333,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/authors2025-testing-for-heavy-metals-in-drinking-water-collected.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/authors2025-testing-for-heavy-metals-in-drinking-water-collected.md | sha256sum"
         }
       },
       {
@@ -235,12 +235,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barca2023-a-comprehensive-review-on-infant",
         "content_pin": {
-          "content_sha256": "5df688011d106886e01fbda44ef6be7f1588fa57f47404e40267ffa3bea12063",
-          "content_bytes": 10764,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "f44742de6e36581d4ae6ec618ce84f6adca37200ffefb5cbdaa7762b37450944",
+          "content_bytes": 10889,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/barca2023-a-comprehensive-review-on-infant.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/barca2023-a-comprehensive-review-on-infant.md | sha256sum"
         }
       },
       {
@@ -259,12 +259,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/du2025-petfood-china-metals",
         "content_pin": {
-          "content_sha256": "d09b0d14c188e2d0d3469b1017d493e4f78d18bdb08bf936d77d98212b984927",
-          "content_bytes": 15229,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "538611efe7059b388d541292b61857dd33b03437c476a92d02b0524df963e466",
+          "content_bytes": 15222,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
         }
       },
       {
@@ -283,12 +283,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/haydous2025-pet-food-metals-lebanon-uae",
         "content_pin": {
-          "content_sha256": "324261f65914273674559a84c3067fd2384689758677e19a5e45560c457a829f",
-          "content_bytes": 5882,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "bf824fa490a6bb51eb16216d721d43b4b767c215f2aa5a8b3d086401ba6450c1",
+          "content_bytes": 5857,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md | sha256sum"
         }
       },
       {
@@ -311,12 +311,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kalicharan2025-heavy-metals-pet-food-south-africa",
         "content_pin": {
-          "content_sha256": "5065b837eb7b60238ba6dab2a3b155191862c5072c235fee61d8a8be7ffc42de",
-          "content_bytes": 12109,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "ec92966dac6721f5802afe168a8f5786330dba9ed05c9ab4bfbb632f39b85c8c",
+          "content_bytes": 12102,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md | sha256sum"
         }
       },
       {
@@ -333,12 +333,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim-unknown-dog-food-trace-minerals",
         "content_pin": {
-          "content_sha256": "8e5622157fa97894cc78a80a8c9079e80439aaf9618d964128b207970e0f94ed",
-          "content_bytes": 4097,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "5b5f9aab0736f0eef1fec07fd2f2e23d6820794636426606b5c42350863d8c25",
+          "content_bytes": 4072,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/kim-unknown-dog-food-trace-minerals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kim-unknown-dog-food-trace-minerals.md | sha256sum"
         }
       },
       {
@@ -356,12 +356,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim2018-dry-dog-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "59e2acd7e4da651659bc31b45bc03be216bb7d6b7941b1761672e70b118213a2",
-          "content_bytes": 12733,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "1750efdf99f26510529ebeb8874d2b39f844b2e7f10a50a4957f244e0048302b",
+          "content_bytes": 12726,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -376,12 +376,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pain2023-lead-pheasant-dogfood-uk",
         "content_pin": {
-          "content_sha256": "0cf25d0773b11a2899ff892ef92a68f0da3d71efcebb1057c9ff445035a12570",
-          "content_bytes": 5090,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "526171cb09a4a878b696de560616e9c2b3408839c141b18666bfbf1714be3604",
+          "content_bytes": 5065,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
         }
       }
     ]

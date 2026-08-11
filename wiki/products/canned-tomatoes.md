@@ -9,7 +9,7 @@ retirement_reason: "Autonomy_v0 stub for a Cat 7 sub-variant that is not its own
 redirect_target: products/canned-foods-general
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 updated: 2026-06-02
-sources: 11
+sources: 10
 ---
 
 # Canned Tomatoes — REDIRECT

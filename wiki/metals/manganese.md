@@ -6,7 +6,7 @@ name: Manganese
 species: [Mn2+, Mn3+, total-manganese]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 166
+sources: 164
 wiki_doi: null
 updated: 2026-05-17
 n_sources: 2

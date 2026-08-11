@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 Commission Regulation (EU) 2015/628 amends REACH Annex XVII entry 63 for lead and its compounds in articles supplied to the general public that may be placed in the mouth by children. It sets a 0.05 percent by-weight lead concentration threshold for such articles or accessible parts, with an alternative release-rate demonstration and named exemptions. The content thresholds are routeable to regulatory_limits.csv; the surface-release alternative is gap-logged because it is not an ug/kg mass-fraction value.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [93370aeab](https://github.com/paleofoundation/heavymetalindex/commit/93370aeab) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

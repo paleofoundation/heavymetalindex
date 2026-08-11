@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This compiled version of Australia's Customs (Prohibited Imports) Regulations 1956 states import restrictions for several consumer goods containing heavy metals. Schedule 2 includes mg/kg thresholds for coated toys, cosmetics containing lead or lead compounds, money boxes, pencils and paint brushes, and food-like erasers. Schedule 7 also contains tableware release provisions for lead and cadmium, but those are not converted here because they are migration-volume units rather than product mass fractions. The compilation shows the law as amended and in force on 13 July 2026.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c17f12c69](https://github.com/paleofoundation/heavymetalindex/commit/c17f12c69) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

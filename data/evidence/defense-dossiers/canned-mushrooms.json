@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/canned-mushrooms",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "dfaa1d0e5056702cb306de530bb8c2ed6f4e34999ceb221673485d2101fd7a28",
-      "content_bytes": 10487,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "db33a2ac8f339b5f2a475fc281effd163fcff543f8fe11cf20d5d12a0b9c8e6e",
+      "content_bytes": 10582,
+      "last_commit_sha": "ad172bca7",
+      "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/canned-mushrooms.md | sha256sum"
+      "verify_command": "git show ad172bca7:wiki/products/canned-mushrooms.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -61,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankavec2019-pickled-mushrooms-poland-minerals",
         "content_pin": {
-          "content_sha256": "f09e7ee27c1b6f9d2a2c23756b2d16ccae9de2044d356b8c4703dd2e966b5173",
-          "content_bytes": 14723,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "a7c7b609755d143f21719e436e744105c8f7fcbbad7e98ed7905bd8a952c3944",
+          "content_bytes": 14716,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
         }
       },
       {
@@ -83,12 +83,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usman2022-pleurotus-mushroom-substrates",
         "content_pin": {
-          "content_sha256": "eb613b5aa57d621f2839e4cea713208bce0a3d475921e483f13a94393cac2b22",
-          "content_bytes": 3880,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "548436db8f10f57ee6c3ffb2225b79bd51c3720e4639cd1aca0a29192f69bcda",
+          "content_bytes": 3855,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
         }
       }
     ]

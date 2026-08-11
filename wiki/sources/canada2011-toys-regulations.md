@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Canadian federal regulation sets toxicological requirements for toys supplied for children. Section 23 sets numeric limits for accessible stickers, films, similar removable materials, and surface coating materials: total lead, total mercury, and a compound-migration provision for antimony, arsenic, cadmium, selenium, and barium compounds. The lead and mercury values are routeable to the structured register as metal concentrations. The compound-migration provision is documented on the regulation page and gap log because the source states compound mass, not elemental metal mass.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4e41864fb](https://github.com/paleofoundation/heavymetalindex/commit/4e41864fb) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

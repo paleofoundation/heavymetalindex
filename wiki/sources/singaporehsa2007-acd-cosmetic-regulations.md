@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Singapore subsidiary legislation implements the ASEAN Cosmetic Directive requirements for cosmetic products. The Third Schedule controls permitted colourants, preservatives, ultraviolet filters, and prohibited substances. For carbon black colourant CI 77266 and carbon black nano, the schedule gives an impurity profile that includes total arsenic, total lead, and total mercury limits. General prohibited-metal entries are not loaded as numeric rows because they do not state a concentration.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2eb4defd8](https://github.com/paleofoundation/heavymetalindex/commit/2eb4defd8) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

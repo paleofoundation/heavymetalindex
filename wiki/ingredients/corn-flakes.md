@@ -204,7 +204,7 @@ The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/hassan2025-cornflakes-lebanon-metals|Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance]]<span class="hmi-ref-meta">Hassan H, Abdallah M, Khalil N, and Sleiman M · RSC Advances · 2025 · [doi.org/10.1039/d5ra03210k](https://doi.org/10.1039/d5ra03210k)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hassan2025-cornflakes-lebanon-metals|Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance]]<span class="hmi-ref-meta">Hassan H, Abdallah M, Khalil N, and Sleiman M · RSC Advances · 2025 · [doi.org/10.1039/d5ra05243b](https://doi.org/10.1039/d5ra05243b)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

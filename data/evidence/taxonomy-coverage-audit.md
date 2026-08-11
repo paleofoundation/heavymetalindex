@@ -1,14 +1,14 @@
 # HMTc Taxonomy v2.2 Coverage Audit
 
-Generated: 2026-08-04
+Generated: 2026-08-11
 
 Taxonomy version: **2.2** (2026-06-09)
 
 Total subcategories in taxonomy: **356**
 Product pages with any match: **356** (100%)
-  - Exact hmtc_category + hmtc_row frontmatter: 339
+  - Exact hmtc_category + hmtc_row frontmatter: 341
   - Slug match (frontmatter not declared): 9
-  - Name-alias match (slug differs): 8
+  - Name-alias match (slug differs): 6
 **Missing pages: 0**
 
 ## By category
@@ -23,7 +23,7 @@ Product pages with any match: **356** (100%)
 | 6 | Seafood | 6 | 6 | 0 | 0 | 0 | 100% |
 | 7 | Oils, Condiments, and Specialty Foods | 12 | 0 | 9 | 3 | 0 | 100% |
 | 8 | Water and Water-Based Products | 4 | 3 | 0 | 1 | 0 | 100% |
-| 9 | Infant and Child Contact Products (Ages 0-5) | 8 | 6 | 0 | 2 | 0 | 100% |
+| 9 | Infant and Child Contact Products (Ages 0-5) | 8 | 8 | 0 | 0 | 0 | 100% |
 | 10 | Infant and Child Durable Goods and Textiles (Ages 0-5) | 12 | 11 | 0 | 1 | 0 | 100% |
 | 11 | Meat, Poultry, and Eggs | 9 | 9 | 0 | 0 | 0 | 100% |
 | 12 | Household Cleaning and Dishwashing | 21 | 21 | 0 | 0 | 0 | 100% |

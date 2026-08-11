@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-04T05:37:03.828Z",
+  "updated_at": "2026-08-11T06:38:58.210Z",
   "regulations": {
+    "regulations/asean-cosmetics-contaminants-guideline-v3-2019": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or mg/L (ppm)",
+      "status": "active",
+      "effective_date": "2019-06-19T00:00:00.000Z"
+    },
+    "regulations/asean-health-supplement-contaminant-limits-2017": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or mg/L; ppm",
+      "status": "draft-guidance",
+      "effective_date": "2017-01-01T00:00:00.000Z"
+    },
+    "regulations/astm-f963-soluble-migration": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "active",
+      "effective_date": "2009-08-14T00:00:00.000Z"
+    },
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
       "limit_unit": "mg/kg-bw/day",
@@ -18,6 +36,36 @@
       "limit_unit": "mg/kg",
       "status": "in-force",
       "effective_date": "2016-03-01T00:00:00.000Z"
+    },
+    "regulations/australia-customs-prohibited-imports-heavy-metal-imports": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; percent by weight",
+      "status": "active",
+      "effective_date": "2026-07-13T00:00:00.000Z"
+    },
+    "regulations/australia-nhmrc-adwg-6-v4-drinking-water": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/L",
+      "status": "active",
+      "effective_date": "2025-06-01T00:00:00.000Z"
+    },
+    "regulations/bangladesh-bds-1382-skin-cream-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2019-01-01T00:00:00.000Z"
+    },
+    "regulations/bosnia-pravilnik-mdk-contaminants-2022": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg vlažne mase",
+      "status": "active",
+      "effective_date": "2022-01-01T00:00:00.000Z"
+    },
+    "regulations/brazil-anvisa-rdc-628-2022-cosmetic-colorant-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2022-03-11T00:00:00.000Z"
     },
     "regulations/brazil-anvisa-rdc-722-2022": {
       "limit_value": "multiple",
@@ -37,6 +85,84 @@
       "status": "in-force",
       "effective_date": "2024-10-01T00:00:00.000Z"
     },
+    "regulations/california-dcc-2026-cannabis-heavy-metals-testing": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2026-01-01T00:00:00.000Z"
+    },
+    "regulations/california-sb929-metal-containing-jewelry": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight; ppm",
+      "status": "active",
+      "effective_date": "2012-01-01T00:00:00.000Z"
+    },
+    "regulations/california-swrcb-2024-inorganic-chemical-mcls": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2024-10-01T00:00:00.000Z"
+    },
+    "regulations/canada-cfia-fertilizer-growing-media-heavy-metal-standards": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg wet weight",
+      "status": "active",
+      "effective_date": "2024-01-01T00:00:00.000Z"
+    },
+    "regulations/canada-gdwq-summary-tables-2025": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/L",
+      "status": "active",
+      "effective_date": "2025-12-01T00:00:00.000Z"
+    },
+    "regulations/canada-natural-health-products-heavy-metal-limits-2015": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm; daily dose values",
+      "status": "active",
+      "effective_date": "2015-05-01T00:00:00.000Z"
+    },
+    "regulations/canada-sor-2011-17-toys-regulations": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2011-01-01T00:00:00.000Z"
+    },
+    "regulations/canada-sor-2018-82-childrens-jewellery": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2018-11-02T00:00:00.000Z"
+    },
+    "regulations/canada-sor-2018-83-consumer-products-lead": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2018-11-02T00:00:00.000Z"
+    },
+    "regulations/canada-surface-coating-materials-heavy-metals-2016": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2016-06-22T00:00:00.000Z"
+    },
+    "regulations/chile-decreto-977-heavy-metal-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; mg/L; percent by weight",
+      "status": "active",
+      "effective_date": "1996-01-01T00:00:00.000Z"
+    },
+    "regulations/china-cosmetics-safety-technical-standards-2015": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2016-12-01T00:00:00.000Z"
+    },
+    "regulations/china-gb-21027-2020-student-articles-safety": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2022-02-01T00:00:00.000Z"
+    },
     "regulations/china-gb-2762-2012-contaminants-superseded": {
       "limit_value": "multiple",
       "limit_unit": "mg/kg; food-specific maximum levels",
@@ -55,6 +181,24 @@
       "status": "active",
       "effective_date": "2023-06-30T00:00:00.000Z"
     },
+    "regulations/china-gb-28480-2012-adornment-harmful-elements": {
+      "limit_value": "multiple",
+      "limit_unit": "multiple",
+      "status": "active",
+      "effective_date": "2013-05-01T00:00:00.000Z"
+    },
+    "regulations/china-gb14930-1-detergent-arsenic-limits-2022": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2022-01-01T00:00:00.000Z"
+    },
+    "regulations/china-pet-food-heavy-metal-limits-draft": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "draft-guidance",
+      "effective_date": "2024-01-01T00:00:00.000Z"
+    },
     "regulations/codex-cadmium-mls": {
       "limit_value": null,
       "limit_unit": "mg/kg",
@@ -66,6 +210,54 @@
       "limit_unit": "mg/kg",
       "status": "active",
       "effective_date": "1995-01-01T00:00:00.000Z"
+    },
+    "regulations/colombia-resolucion-4506-2013-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; mg/L",
+      "status": "active",
+      "effective_date": "2014-04-30T00:00:00.000Z"
+    },
+    "regulations/colorado-marijuana-heavy-metal-limits-2022": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2022-01-01T00:00:00.000Z"
+    },
+    "regulations/connecticut-pa-10-113-cadmium-childrens-jewelry": {
+      "limit_value": 75000,
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2014-07-01T00:00:00.000Z"
+    },
+    "regulations/costa-rica-rtcr409-2008-fishery-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2008-09-20T00:00:00.000Z"
+    },
+    "regulations/cuba-nc877-2012-wheat-flour-metal-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2012-05-01T00:00:00.000Z"
+    },
+    "regulations/eac-deas-425-1-2023-body-face-powder-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "draft-guidance",
+      "effective_date": "2023-01-01T00:00:00.000Z"
+    },
+    "regulations/eac-deas-425-2-2021-baby-powder-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "draft-guidance",
+      "effective_date": "2021-01-01T00:00:00.000Z"
+    },
+    "regulations/eaeu-tr-cu-009-2011-cosmetic-toxic-elements": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2012-07-01T00:00:00.000Z"
     },
     "regulations/ecuador-nte-inen-184-2013-canned-tuna": {
       "limit_value": 1,
@@ -151,11 +343,23 @@
       "status": "in-force",
       "effective_date": "2001-07-27T00:00:00.000Z"
     },
+    "regulations/eu-10-2011-food-contact-plastics-sml": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "active",
+      "effective_date": "2011-05-01T00:00:00.000Z"
+    },
     "regulations/eu-1881-2006-contaminants-superseded": {
       "limit_value": null,
       "limit_unit": null,
       "status": "superseded",
       "effective_date": "2007-03-01T00:00:00.000Z"
+    },
+    "regulations/eu-2009-48-toy-safety-migration-limits": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "active",
+      "effective_date": "2013-07-20T00:00:00.000Z"
     },
     "regulations/eu-2015-1006-iAs-rice": {
       "limit_value": [
@@ -167,6 +371,12 @@
       "limit_unit": "mg/kg wet weight",
       "status": "superseded",
       "effective_date": "2016-01-01T00:00:00.000Z"
+    },
+    "regulations/eu-2020-2184-drinking-water": {
+      "limit_value": "multiple",
+      "limit_unit": "µg/l",
+      "status": "active",
+      "effective_date": "2021-01-12T00:00:00.000Z"
     },
     "regulations/eu-2021-1317-lead-cereals-superseded": {
       "limit_value": 0.2,
@@ -204,11 +414,23 @@
       "status": "in-force",
       "effective_date": "2024-03-22T00:00:00.000Z"
     },
+    "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2025-10-08T00:00:00.000Z"
+    },
     "regulations/eu-466-2001-contaminants-superseded": {
       "limit_value": "multiple",
       "limit_unit": "mg/kg",
       "status": "superseded",
       "effective_date": "2002-04-05T00:00:00.000Z"
+    },
+    "regulations/eu-batteries-2023-heavy-metal-restrictions": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2023-08-17T00:00:00.000Z"
     },
     "regulations/eu-cosmetics-1223-2009": {
       "limit_value": null,
@@ -216,11 +438,59 @@
       "status": "enforced",
       "effective_date": "2013-07-11T00:00:00.000Z"
     },
+    "regulations/eu-directive-2002-32-animal-feed-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg (ppm)",
+      "status": "active",
+      "effective_date": "2002-05-07T00:00:00.000Z"
+    },
+    "regulations/eu-fertilising-products-heavy-metal-limits-2019": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg dry matter",
+      "status": "active",
+      "effective_date": "2019-07-14T00:00:00.000Z"
+    },
     "regulations/eu-nickel-directive-94-27-ec": {
       "limit_value": null,
       "limit_unit": null,
       "status": "historical-as-described-in-source",
       "effective_date": null
+    },
+    "regulations/eu-reach-2009-annex-xvii-entry-20-organotin": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "active",
+      "effective_date": "2012-01-01T00:00:00.000Z"
+    },
+    "regulations/eu-reach-2011-494-cadmium-annex-xvii": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2012-01-10T00:00:00.000Z"
+    },
+    "regulations/eu-reach-2014-301-chromium-vi-leather": {
+      "limit_value": 3000,
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2015-05-01T00:00:00.000Z"
+    },
+    "regulations/eu-reach-2015-628-lead-mouthable-articles": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight; ug/cm2 per hour release alternative",
+      "status": "active",
+      "effective_date": "2015-05-13T00:00:00.000Z"
+    },
+    "regulations/eu-reach-2018-1513-cmr-textiles": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg after extraction",
+      "status": "active",
+      "effective_date": "2020-11-01T00:00:00.000Z"
+    },
+    "regulations/eu-reach-2020-2081-tattoo-ink-metal-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2022-01-04T00:00:00.000Z"
     },
     "regulations/eu-reg-2018-73-mercury-compounds-mrls": {
       "limit_value": 0.01,
@@ -239,6 +509,12 @@
       "status": "finalized",
       "effective_date": "2022-05-03T00:00:00.000Z"
     },
+    "regulations/eu-rohs-2011-heavy-metals-homogeneous-materials": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2011-06-08T00:00:00.000Z"
+    },
     "regulations/eu2023-arsenic-rice-based-drinks": {
       "limit_value": null,
       "limit_unit": null,
@@ -250,6 +526,18 @@
       "limit_unit": null,
       "status": "maximum levels",
       "effective_date": null
+    },
+    "regulations/fda-21cfr-73-color-additive-metal-specifications": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2023-04-01T00:00:00.000Z"
+    },
+    "regulations/fda-21cfr-74-certified-color-additive-metal-specifications": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2023-04-01T00:00:00.000Z"
     },
     "regulations/fda-cosmetics-heavy-metals": {
       "limit_value": "multiple",
@@ -299,11 +587,41 @@
       "status": "draft-not-for-implementation",
       "effective_date": null
     },
+    "regulations/fda2023-inorganic-arsenic-apple-juice": {
+      "limit_value": 10,
+      "limit_unit": "ppb",
+      "status": "finalized",
+      "effective_date": "2023-06-01T00:00:00.000Z"
+    },
     "regulations/fda2025-lead-processed-baby-foods": {
       "limit_value": null,
       "limit_unit": null,
       "status": "final guidance action level",
       "effective_date": null
+    },
+    "regulations/fiji-food-safety-regulations-2009-chemical-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/Kg; mg/l for natural mineral water",
+      "status": "active",
+      "effective_date": "2009-01-01T00:00:00.000Z"
+    },
+    "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2017-01-01T00:00:00.000Z"
+    },
+    "regulations/gso-193-2021-contaminants-toxins-food-feed": {
+      "limit_value": "multiple",
+      "limit_unit": "multiple",
+      "status": "active",
+      "effective_date": "2021-07-01T00:00:00.000Z"
+    },
+    "regulations/guyana-fisheries-products-regulations-2023-environmental-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm and ppb",
+      "status": "active",
+      "effective_date": "2023-07-29T00:00:00.000Z"
     },
     "regulations/health-canada-cosmetic-heavy-metal-impurities": {
       "limit_value": "multiple",
@@ -311,11 +629,89 @@
       "status": "guidance",
       "effective_date": "2012-07-20T00:00:00.000Z"
     },
+    "regulations/hong-kong-mercury-control-ordinance-cosmetics": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2021-12-01T00:00:00.000Z"
+    },
+    "regulations/india-cosmetics-rules-2020-heavy-metal-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2020-12-15T00:00:00.000Z"
+    },
+    "regulations/india-cosmetics-rules-2020-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm; percent",
+      "status": "active",
+      "effective_date": "2020-12-15T00:00:00.000Z"
+    },
+    "regulations/india-fssai-2015-chromium-gelatin-amendment": {
+      "limit_value": "multiple",
+      "limit_unit": "parts per million by weight",
+      "status": "active",
+      "effective_date": "2015-11-12T00:00:00.000Z"
+    },
+    "regulations/india-fssai-2016-heavy-metals-third-amendment": {
+      "limit_value": "multiple",
+      "limit_unit": "parts per million by weight; mg/L for natural mineral water",
+      "status": "active",
+      "effective_date": "2017-01-01T00:00:00.000Z"
+    },
+    "regulations/india-is-3959-2004-skin-powders": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2004-12-01T00:00:00.000Z"
+    },
+    "regulations/india-is-6608-2004-skin-creams": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2004-12-01T00:00:00.000Z"
+    },
+    "regulations/indonesia-bpom-16-2024-cosmetic-contaminant-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or mg/L (bpj/ppm)",
+      "status": "active",
+      "effective_date": "2025-09-03T00:00:00.000Z"
+    },
+    "regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2016-07-01T00:00:00.000Z"
+    },
+    "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2016-05-01T00:00:00.000Z"
+    },
+    "regulations/japan-mhlw-foodstuffs-2008-drink-beverage-tin": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2008-11-27T00:00:00.000Z"
+    },
     "regulations/japan-mhlw-milk-products-standards": {
       "limit_value": "multiple",
       "limit_unit": "varies",
       "status": "source-snapshot",
       "effective_date": "1951-12-27T00:00:00.000Z"
+    },
+    "regulations/japan-notice-370-food-contact-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "1959-12-28T00:00:00.000Z"
+    },
+    "regulations/japan-pet-food-heavy-metal-standards-2021": {
+      "limit_value": "multiple",
+      "limit_unit": "ug/g",
+      "status": "active",
+      "effective_date": "2021-10-01T00:00:00.000Z"
     },
     "regulations/jecfa-arsenic-bmdl": {
       "limit_value": null,
@@ -341,11 +737,83 @@
       "status": "in-force",
       "effective_date": "2003-06-01T00:00:00.000Z"
     },
+    "regulations/kenya-ks-2937-2021-cosmetic-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2021-01-01T00:00:00.000Z"
+    },
+    "regulations/korea-mfds-2024-29-food-contact-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2024-01-01T00:00:00.000Z"
+    },
+    "regulations/korea-mfds-2025-63-cosmetics-safety-standards": {
+      "limit_value": "multiple",
+      "limit_unit": "microgram/g",
+      "status": "active",
+      "effective_date": "2025-01-01T00:00:00.000Z"
+    },
     "regulations/korea-mfds-food-code-heavy-metals": {
       "limit_value": "multiple",
       "limit_unit": "mg/kg",
       "status": "source-snapshot",
       "effective_date": null
+    },
+    "regulations/malaysia-npra-cosmetics-heavy-metal-limits-2022": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2022-08-01T00:00:00.000Z"
+    },
+    "regulations/maryland-cannabis-heavy-metal-action-limits-2025": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2025-02-01T00:00:00.000Z"
+    },
+    "regulations/massachusetts-cannabis-heavy-metal-protocol-2020": {
+      "limit_value": "multiple",
+      "limit_unit": "ug/kg; ppb",
+      "status": "active",
+      "effective_date": "2020-07-24T00:00:00.000Z"
+    },
+    "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; wine rows mg/L",
+      "status": "active",
+      "effective_date": "2011-06-17T00:00:00.000Z"
+    },
+    "regulations/mexico-nom-186-2013-cacao-chocolate-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2014-02-24T00:00:00.000Z"
+    },
+    "regulations/mexico-nom-252-ssa1-2011-toy-school-article-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2012-08-13T00:00:00.000Z"
+    },
+    "regulations/minnesota-325e-3892-lead-cadmium-consumer-products": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2023-07-01T00:00:00.000Z"
+    },
+    "regulations/minnesota-ch347-cadmium-childrens-jewelry": {
+      "limit_value": 75000,
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2011-01-01T00:00:00.000Z"
+    },
+    "regulations/morocco-bo-7136-2022-contaminant-maximum-levels": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2022-10-20T00:00:00.000Z"
     },
     "regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded": {
       "limit_value": "multiple",
@@ -364,6 +832,18 @@
       "limit_unit": "mg/kg",
       "status": "active",
       "effective_date": "2011-05-10T00:00:00.000Z"
+    },
+    "regulations/nevada-cannabis-heavy-metal-action-levels-2020": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2020-11-05T00:00:00.000Z"
+    },
+    "regulations/new-zealand-cosmetic-products-group-standard-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm; percent",
+      "status": "active",
+      "effective_date": "2026-01-01T00:00:00.000Z"
     },
     "regulations/oehha-arsenic-prop65": {
       "limit_value": null,
@@ -395,11 +875,125 @@
       "status": "in-force",
       "effective_date": "2018-10-26T00:00:00.000Z"
     },
+    "regulations/pakistan-ps-3228-2017-skin-cream-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2017-02-28T00:00:00.000Z"
+    },
+    "regulations/panama-decreto-467-2007-plant-product-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2007-12-04T00:00:00.000Z"
+    },
+    "regulations/panama-resolucion-368-2009-fishery-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2009-06-19T00:00:00.000Z"
+    },
+    "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; wine rows mg/L",
+      "status": "active",
+      "effective_date": "2019-02-20T00:00:00.000Z"
+    },
+    "regulations/philippines-pns-bafs-194-2017-contaminants-food-feed": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": null
+    },
+    "regulations/singapore-acd-2007-carbon-black-impurities": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2007-01-01T00:00:00.000Z"
+    },
+    "regulations/singapore-food-regulations-heavy-metals-2026": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2026-01-30T00:00:00.000Z"
+    },
+    "regulations/singapore-hsa-2024-cosmetic-heavy-metal-advisory": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2024-07-01T00:00:00.000Z"
+    },
+    "regulations/singapore-hsa-health-supplement-heavy-metal-limits-2024": {
+      "limit_value": "multiple",
+      "limit_unit": "parts per million",
+      "status": "active",
+      "effective_date": "2024-11-01T00:00:00.000Z"
+    },
+    "regulations/south-africa-gn-r1227-1988-cosmetic-mercury-preservatives": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "1988-06-24T00:00:00.000Z"
+    },
+    "regulations/south-korea-mfds-notice-2024-9-cosmetic-trace-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "micrograms per gram",
+      "status": "active",
+      "effective_date": "2024-02-07T00:00:00.000Z"
+    },
+    "regulations/sri-lanka-dsls-187-2025-skin-powder-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "draft-guidance",
+      "effective_date": "2025-02-01T00:00:00.000Z"
+    },
+    "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2017-05-01T00:00:00.000Z"
+    },
+    "regulations/taiwan-feed-import-phosphate-heavy-metal-limits-2017": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "draft-guidance",
+      "effective_date": "2017-04-27T00:00:00.000Z"
+    },
+    "regulations/taiwan-prohibited-ingredients-2024-cosmetic-heavy-metal-residuals": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": "2025-01-01T00:00:00.000Z"
+    },
+    "regulations/thailand-moph-notification-414-2020-contaminants-food": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2020-11-16T00:00:00.000Z"
+    },
+    "regulations/trinidad-tobago-food-drugs-metal-limits-2007": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "active",
+      "effective_date": null
+    },
     "regulations/turkey-food-codex-contaminants-2023-lead-raw-milk": {
       "limit_value": 0.02,
       "limit_unit": "mg/kg wet weight",
       "status": "in-force",
       "effective_date": "2023-11-05T00:00:00.000Z"
+    },
+    "regulations/uruguay-rbn-5th-edition-heavy-metal-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": null
+    },
+    "regulations/us-16cfr1500-17a13-lead-cored-candle-wicks": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2003-01-01T00:00:00.000Z"
     },
     "regulations/us-cpsia-lead-childrens-products": {
       "limit_value": "multiple",
@@ -407,11 +1001,47 @@
       "status": "enforced",
       "effective_date": "2011-08-14T00:00:00.000Z"
     },
+    "regulations/us-epa-2018-drinking-water-standards-health-advisories": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/L",
+      "status": "active",
+      "effective_date": "2018-03-01T00:00:00.000Z"
+    },
+    "regulations/us-fda-21cfr165-110-bottled-water-2024": {
+      "limit_value": "multiple",
+      "limit_unit": "multiple",
+      "status": "active",
+      "effective_date": "2024-04-01T00:00:00.000Z"
+    },
+    "regulations/usa-epa-40-cfr-503-biosolids-metal-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg dry weight",
+      "status": "active",
+      "effective_date": "1993-02-19T00:00:00.000Z"
+    },
+    "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or stated source unit",
+      "status": "active",
+      "effective_date": "2011-08-01T00:00:00.000Z"
+    },
+    "regulations/washington-cspa-childrens-products-lead-cadmium": {
+      "limit_value": "multiple",
+      "limit_unit": "percent by weight",
+      "status": "active",
+      "effective_date": "2009-07-01T00:00:00.000Z"
+    },
     "regulations/washington-tfca-toothpaste-pb-1000ppb": {
       "limit_value": 1000,
       "limit_unit": "ppb",
       "status": "enforced",
       "effective_date": "2025-01-01T00:00:00.000Z"
+    },
+    "regulations/who2022-drinking-water-guidelines": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/l",
+      "status": "active",
+      "effective_date": "2022-01-01T00:00:00.000Z"
     }
   },
   "synthesis": {
@@ -728,11 +1358,11 @@
     "apple-juice|Cd": {
       "typical_ppb": [
         0,
-        0
+        1.6
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 3,
+      "p95_ppb": 2.6,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "apple-juice|iAs": {
@@ -758,11 +1388,11 @@
     "apple-juice|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 1,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 1,
       "status": "populated"
     },
     "apple-juice|Ni": {
@@ -788,11 +1418,11 @@
     "apple-juice|Cr": {
       "typical_ppb": [
         0,
-        0
+        19
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 45,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 5,
       "status": "populated"
     },
     "apple-juice|Sn": {
@@ -818,11 +1448,11 @@
     "applesauce|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 8,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "applesauce|Cd": {
@@ -1018,9 +1648,9 @@
     "avocado|Pb": {
       "typical_ppb": [
         0,
-        0
+        12
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 30,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
@@ -1088,11 +1718,11 @@
     "avocado|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "avocado|Sn": {
@@ -1518,21 +2148,21 @@
     "banana|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 4,
       "confidence": "medium",
-      "n_studies": 5,
+      "n_studies": 3,
       "status": "populated"
     },
     "banana|Cd": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "banana|iAs": {
@@ -1548,21 +2178,21 @@
     "banana|tAs": {
       "typical_ppb": [
         0,
-        0
+        3.2
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 3.2,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "banana|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "banana|Ni": {
@@ -1588,11 +2218,11 @@
     "banana|Cr": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "banana|Sn": {
@@ -2818,10 +3448,10 @@
     "broccoli|Pb": {
       "typical_ppb": [
         0,
-        0
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 20,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -2858,10 +3488,10 @@
     "broccoli|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -2888,10 +3518,10 @@
     "broccoli|Cr": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 60,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -2957,11 +3587,11 @@
     },
     "butter|tHg": {
       "typical_ppb": [
-        0,
-        0
+        0.5,
+        0.8
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -4418,10 +5048,10 @@
     "celery|Pb": {
       "typical_ppb": [
         0,
-        0
+        6
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 15,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -4718,20 +5348,20 @@
     "cheddar-cheese|Pb": {
       "typical_ppb": [
         0,
-        0
+        300
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 800,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "cheddar-cheese|Cd": {
       "typical_ppb": [
         0,
-        0
+        100
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 250,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -4758,21 +5388,21 @@
     "cheddar-cheese|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
     "cheddar-cheese|Ni": {
       "typical_ppb": [
         0,
-        0
+        200
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 1000,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "cheddar-cheese|Al": {
@@ -4788,11 +5418,11 @@
     "cheddar-cheese|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "cheddar-cheese|Sn": {
@@ -6218,11 +6848,11 @@
     "corn|Pb": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 19,
+      "p95_ppb": 200,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "corn|Cd": {
@@ -6248,21 +6878,21 @@
     "corn|tAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 13,
+      "p95_ppb": 8,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "corn|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 8,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "corn|Ni": {
@@ -6288,11 +6918,11 @@
     "corn|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 15,
+      "p95_ppb": 600,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "corn|Sn": {
@@ -6918,10 +7548,10 @@
     "cucumber|Pb": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 15,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -6958,10 +7588,10 @@
     "cucumber|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -6988,10 +7618,10 @@
     "cucumber|Cr": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 50,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -7418,60 +8048,60 @@
     "eggs|Pb": {
       "typical_ppb": [
         0,
-        0
+        12
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 40,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "eggs|Cd": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 6,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "eggs|iAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 5,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "eggs|tAs": {
       "typical_ppb": [
         0,
-        0
+        15
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 40,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "eggs|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 3,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "eggs|Ni": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 63,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -7488,11 +8118,11 @@
     "eggs|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 100,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "eggs|Sn": {
@@ -8618,11 +9248,11 @@
     "frozen-peas|Pb": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 12,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 2,
       "status": "populated"
     },
     "frozen-peas|Cd": {
@@ -8658,11 +9288,11 @@
     "frozen-peas|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 2,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 2,
       "status": "populated"
     },
     "frozen-peas|Ni": {
@@ -8688,11 +9318,11 @@
     "frozen-peas|Cr": {
       "typical_ppb": [
         0,
-        0
+        15
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 50,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 2,
       "status": "populated"
     },
     "frozen-peas|Sn": {
@@ -9418,21 +10048,21 @@
     "grapes|Pb": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 30,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 4,
       "status": "populated"
     },
     "grapes|Cd": {
       "typical_ppb": [
         0,
-        0
+        6
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 15,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 4,
       "status": "populated"
     },
     "grapes|iAs": {
@@ -9458,11 +10088,11 @@
     "grapes|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 3,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "grapes|Ni": {
@@ -9488,11 +10118,11 @@
     "grapes|Cr": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "grapes|Sn": {
@@ -9718,21 +10348,21 @@
     "ground-beef|Pb": {
       "typical_ppb": [
         0,
-        0
+        12
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 40,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "ground-beef|Cd": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 12,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "ground-beef|iAs": {
@@ -10417,22 +11047,22 @@
     },
     "honey|Pb": {
       "typical_ppb": [
-        0,
-        0
+        4,
+        130
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 400,
       "confidence": "medium",
-      "n_studies": 9,
+      "n_studies": 5,
       "status": "populated"
     },
     "honey|Cd": {
       "typical_ppb": [
-        0,
-        0
+        1,
+        15
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 50,
       "confidence": "medium",
-      "n_studies": 9,
+      "n_studies": 5,
       "status": "populated"
     },
     "honey|iAs": {
@@ -10447,32 +11077,32 @@
     },
     "honey|tAs": {
       "typical_ppb": [
-        0,
-        0
+        3,
+        15
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 65,
+      "confidence": "low",
       "n_studies": 4,
       "status": "populated"
     },
     "honey|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "honey|Ni": {
       "typical_ppb": [
-        0,
-        0
+        40,
+        110
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 8,
+      "p95_ppb": 300,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "honey|Al": {
@@ -10487,12 +11117,12 @@
     },
     "honey|Cr": {
       "typical_ppb": [
-        0,
-        0
+        10,
+        90
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 150,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "honey|Sn": {
@@ -12528,11 +13158,11 @@
     "meat|iAs": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 20,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "meat|tHg": {
@@ -14498,11 +15128,11 @@
     "onions|Pb": {
       "typical_ppb": [
         0,
-        0
+        12
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 20,
       "confidence": "medium",
-      "n_studies": 9,
+      "n_studies": 4,
       "status": "populated"
     },
     "onions|Cd": {
@@ -14538,10 +15168,10 @@
     "onions|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -14568,11 +15198,11 @@
     "onions|Cr": {
       "typical_ppb": [
         0,
-        0
+        25
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "onions|Sn": {
@@ -14698,21 +15328,21 @@
     "oranges|Pb": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 25,
       "confidence": "medium",
-      "n_studies": 6,
+      "n_studies": 4,
       "status": "populated"
     },
     "oranges|Cd": {
       "typical_ppb": [
         0,
-        0
+        1.2
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "oranges|iAs": {
@@ -14738,11 +15368,11 @@
     "oranges|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "oranges|Ni": {
@@ -14768,11 +15398,11 @@
     "oranges|Cr": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "oranges|Sn": {
@@ -15598,11 +16228,11 @@
     "peanuts|Pb": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 250,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 6,
       "status": "populated"
     },
     "peanuts|Cd": {
@@ -15627,21 +16257,21 @@
     },
     "peanuts|tAs": {
       "typical_ppb": [
-        1,
-        5
+        5,
+        30
       ],
-      "p95_ppb": 5,
+      "p95_ppb": 70,
       "confidence": "medium",
-      "n_studies": 7,
+      "n_studies": 6,
       "status": "populated"
     },
     "peanuts|tHg": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 5,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -15667,12 +16297,12 @@
     },
     "peanuts|Cr": {
       "typical_ppb": [
-        0,
-        0
+        150,
+        290
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 700,
       "confidence": "medium",
-      "n_studies": 7,
+      "n_studies": 5,
       "status": "populated"
     },
     "peanuts|Sn": {
@@ -16338,20 +16968,20 @@
     "pork-sausages|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 5,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
     "pork-sausages|Ni": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 43,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -16368,11 +16998,11 @@
     "pork-sausages|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "pork-sausages|Sn": {
@@ -16498,11 +17128,11 @@
     "potatoes|Pb": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 30,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "potatoes|Cd": {
@@ -16528,11 +17158,11 @@
     "potatoes|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "potatoes|Ni": {
@@ -16558,11 +17188,11 @@
     "potatoes|Cr": {
       "typical_ppb": [
         0,
-        0
+        35
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 60,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "potatoes|Sn": {
@@ -19808,11 +20438,11 @@
     "strawberries|Pb": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 30,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "strawberries|Cd": {
@@ -19848,11 +20478,11 @@
     "strawberries|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 3,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "strawberries|Ni": {
@@ -19878,9 +20508,9 @@
     "strawberries|Cr": {
       "typical_ppb": [
         0,
-        0
+        32
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 56,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
@@ -20508,11 +21138,11 @@
     "tomato|Pb": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 15,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "tomato|Cd": {
@@ -20538,31 +21168,31 @@
     "tomato|tAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 5,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "tomato|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
     "tomato|Ni": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 40,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "tomato|Al": {
@@ -20578,11 +21208,11 @@
     "tomato|Cr": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "tomato|Sn": {
@@ -21838,11 +22468,11 @@
     "water|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 6,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "water|Ni": {
@@ -22030,9 +22660,9 @@
         0,
         12
       ],
-      "p95_ppb": 12,
-      "confidence": "medium",
-      "n_studies": 8,
+      "p95_ppb": 25,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "wheat|tHg": {
@@ -22057,22 +22687,22 @@
     },
     "wheat|Al": {
       "typical_ppb": [
-        2700,
-        6000
+        2000,
+        4500
       ],
-      "p95_ppb": 6000,
+      "p95_ppb": 10000,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 5,
       "status": "populated"
     },
     "wheat|Cr": {
       "typical_ppb": [
-        100,
-        1000
+        10,
+        150
       ],
-      "p95_ppb": 1000,
-      "confidence": "high",
-      "n_studies": 18,
+      "p95_ppb": 1200,
+      "confidence": "medium",
+      "n_studies": 7,
       "status": "populated"
     },
     "wheat|Sn": {
@@ -22248,10 +22878,10 @@
     "white-bread|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -22507,22 +23137,22 @@
     },
     "whole-milk|Pb": {
       "typical_ppb": [
-        0,
-        0
+        1,
+        20
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 60,
       "confidence": "medium",
-      "n_studies": 3,
+      "n_studies": 5,
       "status": "populated"
     },
     "whole-milk|Cd": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 15,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "whole-milk|iAs": {
@@ -22548,20 +23178,20 @@
     "whole-milk|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 2,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "whole-milk|Ni": {
       "typical_ppb": [
         0,
-        0
+        120
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 150,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -22578,11 +23208,11 @@
     "whole-milk|Cr": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": 30,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "whole-milk|Sn": {

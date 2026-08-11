@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 Kenya Standard KS 2937:2021 specifies general safety requirements for cosmetic products without a specific Kenya product standard. The standard states heavy metal limits for lead, arsenic, and mercury in finished cosmetic products in mg/kg and identifies KS EAS 847-16 as the test method. It also includes a combined total-heavy-metals note for lead, mercury, and arsenic, which is recorded as a partial gap because the register stores single-species rows. The standard is positioned for product certification, inspection, market surveillance, and trade facilitation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5a0e7587b](https://github.com/paleofoundation/heavymetalindex/commit/5a0e7587b) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

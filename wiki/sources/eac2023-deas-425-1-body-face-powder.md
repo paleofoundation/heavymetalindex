@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Draft East African Standard specifies requirements, sampling, and test methods for adult-use body and face powders, including talcum powders, toilet powders, deodorant powders, and dusting powders. Table 3 gives maximum limits for lead, arsenic, and mercury in the finished product. The table also states a combined heavy-metals cap expressed across lead, mercury, and arsenic; that combined provision is gap-logged because it is not a single species-specific register row. Because the document is a draft standard, the CSV status is draft guidance rather than an implemented maximum level.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2eb4defd8](https://github.com/paleofoundation/heavymetalindex/commit/2eb4defd8) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

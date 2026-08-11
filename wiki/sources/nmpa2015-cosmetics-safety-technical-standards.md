@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 The 2015 Cosmetic Safety Technical Standards are China's national technical requirements for cosmetics. Table 2 sets numeric harmful-substance limits for mercury, lead, arsenic, and cadmium in cosmetic products, expressed in mg/kg. The source also lists prohibited substances and restricted ingredients, but only the Table 2 metal impurity values are transcribed into the structured register. Arsenic and mercury are mapped as total arsenic and total mercury because the table does not specify inorganic arsenic or methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4e41864fb](https://github.com/paleofoundation/heavymetalindex/commit/4e41864fb) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

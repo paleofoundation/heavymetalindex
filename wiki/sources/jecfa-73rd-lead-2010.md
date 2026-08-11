@@ -52,3 +52,14 @@ Primary source is the local WHO Food Additives Series No. 64 volume (`raw/report
 - [[metals/lead]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
 - [[synthesis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ee52c633b](https://github.com/paleofoundation/heavymetalindex/commit/ee52c633b) | 2026-08-09 | correction | 1 source added; 1 section removed; narrative text revised |
+| [c7b9a1591](https://github.com/paleofoundation/heavymetalindex/commit/c7b9a1591) | 2026-08-09 | correction | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

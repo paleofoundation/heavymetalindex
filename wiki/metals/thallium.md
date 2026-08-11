@@ -6,7 +6,7 @@ name: Thallium
 species: [Tl+, Tl3+, thallium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 15
+sources: 13
 wiki_doi: null
 updated: 2026-04-30
 status: stub

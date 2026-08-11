@@ -27,3 +27,13 @@ MERCOSUR/GMC Resolution No. 12/11 approves the MERCOSUR technical regulation on 
 The annex sets maximum levels for arsenic, lead, cadmium, mercury, and tin across broad food categories including fats and oils, sugars, honey, cocoa and chocolate, beverages, wine, cereals, wheat, rice, vegetables, mushrooms, pulses, fruits, tea, coffee, edible ice and ice creams, milk and dairy products, salt, meats, offal, eggs, fish, molluscs, crustaceans, and tinplate-packaged foods. It does not apply to foods for infants and young children, which the resolution leaves to specific technical regulations.
 
 Most values are stated in mg/kg. Wine rows are stated in mg/L, and the resolution allows liquid-product limits to be expressed in mg/L where density is within plus or minus 5% of water. The arsenic rows do not specify inorganic arsenic, so they are recorded as total arsenic (tAs); the mercury rows do not specify methylmercury, so they are recorded as total mercury (tHg).
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

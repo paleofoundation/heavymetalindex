@@ -25,3 +25,13 @@ updated: 2026-08-06
 Indonesia BPOM Regulation No. 16 of 2024 sets contaminant limits in cosmetic products. The rule covers microbial contaminants, heavy-metal contaminants, and chemical contaminants; the routeable heavy-metal table lists mercury, lead, arsenic, and cadmium limits in mg/kg or mg/L with bpj/ppm equivalents.
 
 Article 9 revokes BPOM Regulation No. 12 of 2019 when Regulation No. 16 of 2024 comes into force. Article 10 states that the 2024 regulation comes into force 12 months after promulgation; the local text records promulgation/signing in Jakarta on 3 September 2024. Arsenic is recorded as total arsenic (tAs) because the rule says arsenic without specifying inorganic arsenic, and mercury is recorded as total mercury (tHg) because the rule says mercury without specifying methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

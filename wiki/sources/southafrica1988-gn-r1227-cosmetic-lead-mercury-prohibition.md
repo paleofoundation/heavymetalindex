@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This South African notice prohibits lead and its salts, mercury and its salts, active depigmenting ingredients, and skin-bleacher or skin-lightener cosmetic categories. Its proviso preserves narrow mercury-preservative exceptions for eye make-up and for concentrated shampoo or cream, calculated as the metal. The structured rows capture only those numeric mercury exceptions. The broader lead and mercury prohibitions are gap-logged because they are not expressed as numeric concentration limits.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2eb4defd8](https://github.com/paleofoundation/heavymetalindex/commit/2eb4defd8) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

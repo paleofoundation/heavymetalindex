@@ -15,6 +15,17 @@ ingredient,apple-cider-vinegar,Mitigation options,5 ppb,true,"  ### Testing and 
 ingredient,apple-cider-vinegar,Mitigation options,1 ppb,true,"and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and Ni (≤ 10 ppb) is the standar"
 ingredient,apple-cider-vinegar,Mitigation options,10 ppb,true,"-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and Ni (≤ 10 ppb) is the standard intervention. Th"
 ingredient,apple-juice,Why this commodity accumulates heavy metals,200 mg/kg,true,inal acute toxicity of inorganic Sn at high concentrations (above approximately 200 mg/kg in the product) was establishe
+ingredient,apple-juice,Synthesis basis and censoring treatment,1 ppb,true,"2018 to FY2020 bottled apple juice set, cadmium and total mercury sat below the 1 ppb reporting limit in all three sampl"
+ingredient,apple-juice,Synthesis basis and censoring treatment,25 ppb,true,low the 1 ppb reporting limit in all three samples and total chromium below the 25 ppb reporting limit ([[sources/fda202
+ingredient,apple-juice,Synthesis basis and censoring treatment,0.4 ppb,true,"e-isotopic-elemental|Magdas et al. 2012]] found cadmium at a regional mean near 0.4 ppb in Romanian apple juice, [[sourc"
+ingredient,apple-juice,Synthesis basis and censoring treatment,1.6 ppb,true,"t-juices-elements-portugal|Paula et al. 2015]] a Portuguese fruit-juice mean of 1.6 ppb, and [[sources/desouza2022-fruit"
+ingredient,apple-juice,Synthesis basis and censoring treatment,2.6 ppb,true,2022-fruit-juice-trace-elements|de Souza et al. 2022]] an apple-juice detect at 2.6 ppb. For total chromium the bulk of 
+ingredient,apple-juice,Synthesis basis and censoring treatment,1 ppb,true,"/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]] juices below 1 ppb, Paula 2.8 ppb, [[sources/farid201"
+ingredient,apple-juice,Synthesis basis and censoring treatment,2.8 ppb,true,"5-chromium-plant-foods-poland|Reczajska et al. 2005]] juices below 1 ppb, Paula 2.8 ppb, [[sources/farid2010-fruit-juice"
+ingredient,apple-juice,Synthesis basis and censoring treatment,6.4 ppb,true,", [[sources/farid2010-fruit-juices-jeddah-trace-elements|Farid and Enani 2010]] 6.4 ppb, de Souza 3.1 to 18.9 ppb), whil"
+ingredient,apple-juice,Synthesis basis and censoring treatment,18.9 ppb,true,"it-juices-jeddah-trace-elements|Farid and Enani 2010]] 6.4 ppb, de Souza 3.1 to 18.9 ppb), while Magdas ran higher at a "
+ingredient,apple-juice,Synthesis basis and censoring treatment,94 ppb,true," de Souza 3.1 to 18.9 ppb), while Magdas ran higher at a regional mean of 39 to 94 ppb with the authors attributing part"
+ingredient,apple-juice,Synthesis basis and censoring treatment,1 ppb,true,"any of the juice surveys, so its cell remains a single-source censored bound at 1 ppb. All chromium values are total chr"
 ingredient,apple-juice,"Ranges by source, region, and variety",1.5 ppb,true,"20 TDS data for bottled apple juice (TDS Food 99, n=3) show Pb with a median of 1.5 ppb and a maximum of 2.7 ppb, and tA"
 ingredient,apple-juice,"Ranges by source, region, and variety",2.7 ppb,true,"pple juice (TDS Food 99, n=3) show Pb with a median of 1.5 ppb and a maximum of 2.7 ppb, and tAs with a median of 2.4 pp"
 ingredient,apple-juice,"Ranges by source, region, and variety",2.4 ppb,true," Pb with a median of 1.5 ppb and a maximum of 2.7 ppb, and tAs with a median of 2.4 ppb and a maximum of 4.4 ppb; Ni rea"
@@ -85,6 +96,12 @@ ingredient,apple,Regulatory limits that apply,50 ppb,true,"esh fruit (including 
 ingredient,apple,Regulatory limits that apply,0.020 mg/kg,true,"der intended for infants and young children, EU law applies a stricter Pb ML of 0.020 mg/kg (20 ppb). In the United Stat"
 ingredient,apple,Regulatory limits that apply,20 ppb,true,"for infants and young children, EU law applies a stricter Pb ML of 0.020 mg/kg (20 ppb). In the United States, the FDA h"
 ingredient,apple,Regulatory limits that apply,10 ppb,true,the FDA has established an action level for inorganic arsenic in apple juice at 10 ppb (see [[sources/fda2023-ias-apple-
+ingredient,applesauce,Synthesis basis and censoring treatment,4 ppb,true,e FDA Total Diet Study reporting the three bottled applesauce samples below the 4 ppb reporting limit as literal zeros (
+ingredient,applesauce,Synthesis basis and censoring treatment,4 ppb,true,ents-fy2018-fy2020|FDA 2022]]). The cell is now treated as left-censored at the 4 ppb reporting limit on a processed-fru
+ingredient,applesauce,Synthesis basis and censoring treatment,1.4 ppb,true,"food-elements-us|Barber et al. 2025]]) placed baby-food puree lead at a mean of 1.4 ppb and a P90 of 8 ppb, with the hig"
+ingredient,applesauce,Synthesis basis and censoring treatment,8 ppb,true,"er et al. 2025]]) placed baby-food puree lead at a mean of 1.4 ppb and a P90 of 8 ppb, with the high tail attributable t"
+ingredient,applesauce,Synthesis basis and censoring treatment,24 ppb,true,"ble to sweet potato and carrot rather than apple, and fresh apple runs to about 24 ppb ([[sources/rusin2021-vegetables-f"
+ingredient,applesauce,Synthesis basis and censoring treatment,3000 ppb,true,. The 2023 to 2024 WanaBana cinnamon-applesauce episode reached roughly 1900 to 3000 ppb lead ([[sources/troeschel2024-c
 ingredient,applesauce,Regulatory limits that apply,0.10 mg/kg,true,pulation are subject to the applicable ML for the corresponding fresh fruit: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg 
 ingredient,applesauce,Regulatory limits that apply,100 ppb,true," subject to the applicable ML for the corresponding fresh fruit: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), we"
 ingredient,applesauce,Regulatory limits that apply,0.050 mg/kg,true,"applicable ML for the corresponding fresh fruit: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight ([[regu"
@@ -110,6 +127,13 @@ ingredient,avocado,Why this commodity accumulates heavy metals,5.4 ppb,true,"y20
 ingredient,avocado,Why this commodity accumulates heavy metals,59 ppb,true,"m was also detectable in all samples, with a median of 5.4 ppb and a maximum of 59 ppb. Total arsenic reached a maximum "
 ingredient,avocado,Why this commodity accumulates heavy metals,50 ppb,true,"a median of 5.4 ppb and a maximum of 59 ppb. Total arsenic reached a maximum of 50 ppb, which is notable relative to mos"
 ingredient,avocado,Why this commodity accumulates heavy metals,12 ppb,true,"imum of 50 ppb, which is notable relative to most fruits. Lead had a maximum of 12 ppb but was below detection in most s"
+ingredient,avocado,Synthesis basis and censoring treatment,4 ppb,true,"is understated the FDA Total Diet Study, which found 26 of 27 samples below the 4 ppb reporting limit but one sample at "
+ingredient,avocado,Synthesis basis and censoring treatment,12 ppb,true, which found 26 of 27 samples below the 4 ppb reporting limit but one sample at 12 ppb; for chromium all 27 samples fell
+ingredient,avocado,Synthesis basis and censoring treatment,50 ppb,true,ting limit but one sample at 12 ppb; for chromium all 27 samples fell below the 50 ppb reporting limit ([[sources/fda202
+ingredient,avocado,Synthesis basis and censoring treatment,38 ppb,true,"ms-pxrf|Anastario et al. 2025]]), apart from one California-organic detect near 38 ppb fresh weight after conversion. Pe"
+ingredient,avocado,Synthesis basis and censoring treatment,107 ppb,true,"sion. Peruvian export regions La Libertad and Lima run higher, at roughly 62 to 107 ppb fresh weight when the dry-weight"
+ingredient,avocado,Synthesis basis and censoring treatment,1 ppb,true,"avarro found it below detection in every one of 95 pulp samples at a limit near 1 ppb fresh weight, which together with "
+ingredient,avocado,Synthesis basis and censoring treatment,50 ppb,true," together with the FDA non-detect indicates true chromium well below the coarse 50 ppb reporting limit, so the cell is p"
 ingredient,avocado,Ingredient-derivative risk,180 ppb,true,"squeezable pouches; given the Ni concentrations visible in the TDS data (median 180 ppb, maximum 580 ppb at [[sources/fd"
 ingredient,avocado,Ingredient-derivative risk,580 ppb,true,"s; given the Ni concentrations visible in the TDS data (median 180 ppb, maximum 580 ppb at [[sources/fda2022-tds-element"
 ingredient,avocado,Regulatory limits that apply,0.10 mg/kg,true, Regulation (EU) 2023/915 applies the fresh fruit maximum levels to avocado: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg 
@@ -159,6 +183,17 @@ ingredient,banana,Why this commodity accumulates heavy metals,140 ppb,true,"; Ni
 ingredient,banana,Why this commodity accumulates heavy metals,0.001 mg/kg,true,"anana, Bahir Dar, Northwest Ethiopia), which reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WH"
 ingredient,banana,Why this commodity accumulates heavy metals,0.2 mg/kg,true,"ch reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 m"
 ingredient,banana,Why this commodity accumulates heavy metals,0.010 mg/kg,true,"30 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 mg/kg dry weight in the edible por"
+ingredient,banana,Synthesis basis and censoring treatment,4 ppb,true,"lts as literal zeros. In the FY2018 to FY2020 dataset banana lead sat below the 4 ppb reporting limit in all 27 samples,"
+ingredient,banana,Synthesis basis and censoring treatment,1 ppb,true,"anana lead sat below the 4 ppb reporting limit in all 27 samples, cadmium below 1 ppb, total mercury below 1 ppb, chromi"
+ingredient,banana,Synthesis basis and censoring treatment,1 ppb,true,"ppb reporting limit in all 27 samples, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb, and total "
+ingredient,banana,Synthesis basis and censoring treatment,50 ppb,true," all 27 samples, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb, and total arsenic below the 3 pp"
+ingredient,banana,Synthesis basis and censoring treatment,3 ppb,true,", total mercury below 1 ppb, chromium below 50 ppb, and total arsenic below the 3 ppb limit in 26 of 27 samples with a s"
+ingredient,banana,Synthesis basis and censoring treatment,3.2 ppb,true," ppb, and total arsenic below the 3 ppb limit in 26 of 27 samples with a single 3.2 ppb detect ([[sources/fda2022-tds-el"
+ingredient,banana,Synthesis basis and censoring treatment,31 ppb,true,"ected total chromium in every Korean fresh-fruit sample at an overall mean near 31 ppb fresh weight, and [[sources/mania"
+ingredient,banana,Synthesis basis and censoring treatment,1.7 ppb,true,l. 2021]] placed non-berry fresh-fruit mercury at a middle-bound mean of 0.3 to 1.7 ppb. Higher values from [[sources/me
+ingredient,banana,Synthesis basis and censoring treatment,0.130 mg/kg,true,"ruit-metals|Mekonnen et al. 2024]], whose Ethiopian open-market banana reported 0.130 mg/kg cadmium and 0.773 mg/kg chro"
+ingredient,banana,Synthesis basis and censoring treatment,0.773 mg/kg,true,"al. 2024]], whose Ethiopian open-market banana reported 0.130 mg/kg cadmium and 0.773 mg/kg chromium on a dry-weight bas"
+ingredient,banana,Synthesis basis and censoring treatment,201 ppb,true,".130 mg/kg cadmium and 0.773 mg/kg chromium on a dry-weight basis (about 34 and 201 ppb fresh weight after conversion), "
 ingredient,banana,"Ranges by source, region, and variety",0.001 mg/kg,true,"a n=9 composite from 40 individual samples) reporting Pb non-detect, Cd 0.130 ± 0.001 mg/kg dw, and Cr 0.773 ± 0.010 mg/"
 ingredient,banana,"Ranges by source, region, and variety",0.010 mg/kg,true,"ual samples) reporting Pb non-detect, Cd 0.130 ± 0.001 mg/kg dw, and Cr 0.773 ± 0.010 mg/kg dw on a dry-weight basis — c"
 ingredient,banana,Ingredient-derivative risk,3.2 ppb,true,examined weaning foods including fruit-category foods); banana's tAs maximum of 3.2 ppb in TDS data indicates negligible
@@ -261,6 +296,18 @@ ingredient,breastmilk,Why this commodity accumulates heavy metals,13 ppb,true," 
 ingredient,breastmilk,Why this commodity accumulates heavy metals,1.4 ppb,true,"n reconstituted infant formula. Breastmilk Pb at typical 0.1-13 ppb, Cd at 0.01-1.4 ppb, Hg at 0.04-14 ppb, and Al at 9-"
 ingredient,breastmilk,Why this commodity accumulates heavy metals,14 ppb,true,"nt formula. Breastmilk Pb at typical 0.1-13 ppb, Cd at 0.01-1.4 ppb, Hg at 0.04-14 ppb, and Al at 9-80 ppb are the corpu"
 ingredient,breastmilk,Why this commodity accumulates heavy metals,80 ppb,true,"lk Pb at typical 0.1-13 ppb, Cd at 0.01-1.4 ppb, Hg at 0.04-14 ppb, and Al at 9-80 ppb are the corpus-wide ranges. The H"
+ingredient,broccoli,Synthesis basis and censoring treatment,4 ppb,true,ng treatment  The FDA Total Diet Study FY2018 to FY2020 reported lead below its 4 ppb reporting limit in all 27 boiled-b
+ingredient,broccoli,Synthesis basis and censoring treatment,1 ppb,true,"b reporting limit in all 27 boiled-broccoli composites, total mercury below its 1 ppb reporting limit in all 27, and tot"
+ingredient,broccoli,Synthesis basis and censoring treatment,50 ppb,true,"mercury below its 1 ppb reporting limit in all 27, and total chromium below its 50 ppb reporting limit in 26 of 27 compo"
+ingredient,broccoli,Synthesis basis and censoring treatment,300 ppb,true,ow its 50 ppb reporting limit in 26 of 27 composites with a single composite at 300 ppb ([[sources/fda2022-tds-elements-
+ingredient,broccoli,Synthesis basis and censoring treatment,0.013 mg/kg,true,erature: the Jiaozuo Chinese-market survey detected vegetable lead at a mean of 0.013 mg/kg (13 ppb) and total chromium 
+ingredient,broccoli,Synthesis basis and censoring treatment,13 ppb,true,Jiaozuo Chinese-market survey detected vegetable lead at a mean of 0.013 mg/kg (13 ppb) and total chromium at a mean of 
+ingredient,broccoli,Synthesis basis and censoring treatment,0.032 mg/kg,true,"egetable lead at a mean of 0.013 mg/kg (13 ppb) and total chromium at a mean of 0.032 mg/kg (32 ppb) fresh weight, both "
+ingredient,broccoli,Synthesis basis and censoring treatment,32 ppb,true," at a mean of 0.013 mg/kg (13 ppb) and total chromium at a mean of 0.032 mg/kg (32 ppb) fresh weight, both below the FDA"
+ingredient,broccoli,Synthesis basis and censoring treatment,8 ppb,true,"s-cyclone|Dearing et al. 2025]]).  The synthesized central ranges are lead 0 to 8 ppb, total mercury 0 to 1 ppb, and tot"
+ingredient,broccoli,Synthesis basis and censoring treatment,1 ppb,true,"025]]).  The synthesized central ranges are lead 0 to 8 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 40 ppb, a"
+ingredient,broccoli,Synthesis basis and censoring treatment,40 ppb,true,"l ranges are lead 0 to 8 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 40 ppb, all fresh weight. Total mercury "
+ingredient,broccoli,Synthesis basis and censoring treatment,300 ppb,true,places it at or below the reporting limit. The single FDA chromium composite at 300 ppb is reflected in the tail rather 
 ingredient,broccoli,"Ranges by source, region, and variety",84 ppb,true,"Y2018-FY2020 Total Diet Study reports Cd in boiled broccoli ranging from 3.9 to 84 ppb (median 11 ppb, n=27), with subst"
 ingredient,broccoli,"Ranges by source, region, and variety",11 ppb,true,"tal Diet Study reports Cd in boiled broccoli ranging from 3.9 to 84 ppb (median 11 ppb, n=27), with substantial skew tow"
 ingredient,broccoli,"Ranges by source, region, and variety",170 ppb,true,"[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 170 ppb (median 58 ppb). Pb, total As, a"
@@ -403,6 +450,10 @@ ingredient,celery,Why this commodity accumulates heavy metals,32 ppb,true,"ry; t
 ingredient,celery,Why this commodity accumulates heavy metals,59.4 ppb,true,"n Cd concentration of 32 ppb wet weight (n=27), with a 90th-percentile value of 59.4 ppb and a maximum of 100 ppb [[sour"
 ingredient,celery,Why this commodity accumulates heavy metals,100 ppb,true,"pb wet weight (n=27), with a 90th-percentile value of 59.4 ppb and a maximum of 100 ppb [[sources/fda2022-tds-elements-f"
 ingredient,celery,Why this commodity accumulates heavy metals,0.1 mg/kg,true,-fy2018-fy2020]]. The Codex Alimentarius maximum level for cadmium in celery is 0.1 mg/kg fresh weight [[sources/codex-c
+ingredient,celery,Synthesis basis and censoring treatment,4 ppb,true,basis and censoring treatment  The FDA Total Diet Study reported lead below its 4 ppb reporting limit in all 27 raw-cele
+ingredient,celery,Synthesis basis and censoring treatment,0.013 mg/kg,true,while the Jiaozuo Chinese-market survey reported a vegetable-group lead mean of 0.013 mg/kg (13 ppb) fresh weight ([[sou
+ingredient,celery,Synthesis basis and censoring treatment,13 ppb,true,ozuo Chinese-market survey reported a vegetable-group lead mean of 0.013 mg/kg (13 ppb) fresh weight ([[sources/wu2024-h
+ingredient,celery,Synthesis basis and censoring treatment,6 ppb,true,"umes-jiaozuo|Wu 2024]]).  The synthesized central range for celery lead is 0 to 6 ppb on a fresh-weight basis, held abov"
 ingredient,celery,"Ranges by source, region, and variety",32 ppb,true,"ative reference for celery in the US market, reporting cadmium with a median of 32 ppb and a maximum of 100 ppb across 2"
 ingredient,celery,"Ranges by source, region, and variety",100 ppb,true,"ry in the US market, reporting cadmium with a median of 32 ppb and a maximum of 100 ppb across 27 composite samples (wet"
 ingredient,celery,"Ranges by source, region, and variety",9 ppb,true,"nic was detectable in the upper part of the distribution, reaching a maximum of 9 ppb; lead and mercury were below repor"
@@ -545,8 +596,8 @@ ingredient,chocolate,Regulatory limits that apply,0.1 mg/kg,true,50 percent tota
 ingredient,chocolate,Regulatory limits that apply,2.5 mg/kg,true,"2024/1987, from 1 July 2025): milk chocolate with < 30 % total dry cocoa solids 2.5 mg/kg; milk chocolate with ≥ 30 % so"
 ingredient,chocolate,Regulatory limits that apply,7.0 mg/kg,true,y cocoa solids 2.5 mg/kg; milk chocolate with ≥ 30 % solids and other chocolate 7.0 mg/kg (Annex I points 3.6.12.1–3.6.1
 ingredient,chocolate,Sources,12 µg/kg,true,"oa powder alone can drive 97.5th-percentile Cd exposure in European children to 12 µg/kg b.w./month, with chocolate inta"
-ingredient,chocolate,Sources,0.27 mg/kg,true,"colate; primary occurrence data for this page, including dark chocolate mean Cd 0.27 mg/kg and Pb 0.03 mg/kg | | 29 | [["
-ingredient,chocolate,Sources,0.03 mg/kg,true,"currence data for this page, including dark chocolate mean Cd 0.27 mg/kg and Pb 0.03 mg/kg | | 29 | [[sources/kataoka201"
+ingredient,chocolate,Sources,0.27 mg/kg,true,"colate; primary occurrence data for this page, including dark chocolate mean Cd 0.27 mg/kg and Pb 0.03 mg/kg | | 28 | [["
+ingredient,chocolate,Sources,0.03 mg/kg,true,"currence data for this page, including dark chocolate mean Cd 0.27 mg/kg and Pb 0.03 mg/kg | | 28 | [[sources/kataoka201"
 ingredient,chocolate,Sources,0.090 mg/kg,true,"ent report | EFSA Cd scientific opinion reporting European mean chocolate Cd of 0.090 mg/kg (vs 0.178 mg/kg for cocoa), "
 ingredient,chocolate,Sources,0.178 mg/kg,true,"A Cd scientific opinion reporting European mean chocolate Cd of 0.090 mg/kg (vs 0.178 mg/kg for cocoa), establishing the"
 ingredient,chocolate,Sources,0.9 mg/kg,true,national Codex MLs for Cd in chocolate tiered by cocoa-solid percentage (0.3 to 0.9 mg/kg) and for Cd in cocoa powder at
@@ -664,6 +715,18 @@ ingredient,corn-oil,Regulatory limits that apply,1.5 mg/kg,true,"S 210-1999) set
 ingredient,corn-oil,Regulatory limits that apply,0.1 mg/kg,true,"ions for corn oil: iron 1.5 mg/kg max (virgin), 1.5 mg/kg max (refined), copper 0.1 mg/kg max. The EU Regulation 2023/91"
 ingredient,corn-oil,Regulatory limits that apply,0.10 mg/kg,true,max. The EU Regulation 2023/915 applies the general fats-and-oils Pb maximum of 0.10 mg/kg. The FDA has not set corn-oil
 ingredient,corn,Why this commodity accumulates heavy metals,160 ppb,true,"e does. Nickel shows episodic elevation in the TDS corn data, with a maximum of 160 ppb, indicating that some market-bas"
+ingredient,corn,Synthesis basis and censoring treatment,4 ppb,true,"ct in all 27 composites for each of these four analytes, at reporting limits of 4 ppb for lead, 3 ppb for total arsenic,"
+ingredient,corn,Synthesis basis and censoring treatment,3 ppb,true,"posites for each of these four analytes, at reporting limits of 4 ppb for lead, 3 ppb for total arsenic, 1 ppb for total"
+ingredient,corn,Synthesis basis and censoring treatment,1 ppb,true," four analytes, at reporting limits of 4 ppb for lead, 3 ppb for total arsenic, 1 ppb for total mercury and 50 ppb for c"
+ingredient,corn,Synthesis basis and censoring treatment,50 ppb,true," limits of 4 ppb for lead, 3 ppb for total arsenic, 1 ppb for total mercury and 50 ppb for chromium ([[sources/fda2022-t"
+ingredient,corn,Synthesis basis and censoring treatment,40 ppb,true,"nic, and clean freshwater-irrigated maize carries lead below detection to about 40 ppb ([[sources/el-hassanin2020-egypt-"
+ingredient,corn,Synthesis basis and censoring treatment,370 ppb,true,ated sites: fertilizer-influenced Ethiopian market maize reached a lead mean of 370 ppb and a chromium mean of 1840 ppb 
+ingredient,corn,Synthesis basis and censoring treatment,1840 ppb,true,ed Ethiopian market maize reached a lead mean of 370 ppb and a chromium mean of 1840 ppb ([[sources/getu2022-heavy-metal
+ingredient,corn,Synthesis basis and censoring treatment,720 ppb,true,"-ethiopia|Getu et al. 2022]]), and Madeira corn flour reached a lead maximum of 720 ppb ([[sources/rubio2023-metals-cere"
+ingredient,corn,Synthesis basis and censoring treatment,1840 ppb,true," only and are excluded from the central: the Khuzestan industrial-zone maize of 1840 ppb lead, 1570 ppb arsenic and 4920"
+ingredient,corn,Synthesis basis and censoring treatment,1570 ppb,true,"xcluded from the central: the Khuzestan industrial-zone maize of 1840 ppb lead, 1570 ppb arsenic and 4920 ppb chromium i"
+ingredient,corn,Synthesis basis and censoring treatment,4920 ppb,true,"ral: the Khuzestan industrial-zone maize of 1840 ppb lead, 1570 ppb arsenic and 4920 ppb chromium is flagged by its own "
+ingredient,corn,Synthesis basis and censoring treatment,3000 ppb,true,"huzestan|Gholami et al. 2025]]), and the Nigerian household mercury median near 3000 ppb is flagged by its source as an "
 ingredient,corn,"Ranges by source, region, and variety",2.6 ppb,true,"Y2020 market-basket survey of frozen boiled corn (n=27) shows Cd at a median of 2.6 ppb and a maximum of 4.8 ppb, with P"
 ingredient,corn,"Ranges by source, region, and variety",4.8 ppb,true,"y of frozen boiled corn (n=27) shows Cd at a median of 2.6 ppb and a maximum of 4.8 ppb, with Pb and tAs at zero across "
 ingredient,corn,Mitigation options,160 ppb,true,.  ### Testing and QC levers  Given that nickel in the TDS corn dataset reaches 160 ppb maximum across 27 samples [[sour
@@ -674,18 +737,18 @@ ingredient,corn,Regulatory limits that apply,200 ppb,true,"10 mg/kg (100 ppb) we
 ingredient,corn,Regulatory limits that apply,0.10 mg/kg,true,0 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a maximum level of 0.10 mg/kg for cadmium in grain crops in
 ingredient,corn,Regulatory limits that apply,0.20 mg/kg,true,ts a maximum level of 0.10 mg/kg for cadmium in grain crops including maize and 0.20 mg/kg for lead. The US TDS market-b
 ingredient,corn,Regulatory limits that apply,4.8 ppb,true,including maize and 0.20 mg/kg for lead. The US TDS market-basket Cd maximum of 4.8 ppb and Pb at zero are well below th
-ingredient,corn,Sources,0.02 mg/kg,true,"Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg | | 9 | [[sources/si2024-nano"
+ingredient,corn,Sources,0.02 mg/kg,true,"Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg | | 7 | [[sources/si2024-nano"
 ingredient,corn,Sources,0.021 mg/kg,true,"ing breads on the Polish market (n=50), with gluten-free at the lowest Cd mean (0.021 mg/kg) and Pb above LOQ in only on"
 ingredient,corn,Sources,307 µg/kg,true,"n 119 corn grain samples from karst regions of Guizhou (China), with Cd range 0–307 µg/kg and 13.5% of corn samples exce"
-ingredient,corn,Sources,0.1 mg/kg,true,range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg | | 23 | [[sources/liu2022-hea
+ingredient,corn,Sources,0.1 mg/kg,true,range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg | | 20 | [[sources/liu2022-hea
 ingredient,corn,Sources,0.26 mg/kg,true,"n samples from an industrialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both e"
 ingredient,corn,Sources,0.29 mg/kg,true,"trialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both exceeding national limit"
 ingredient,corn,Sources,128 ppb,true,"As, and tHg in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and"
 ingredient,corn,Sources,20 ppb,true,"in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and vegetables "
 ingredient,corn,Sources,0.94 mg/kg,true, 2017 | Peer-reviewed | Pb and Cr by F-AAS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 
 ingredient,corn,Sources,0.36 mg/kg,true,"AS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 0.36 mg/kg) from Addis Ababa, both subst"
-ingredient,corn,Sources,0.020 mg/kg,true,"ddis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg | | 30 | [[sources/khalil201"
-ingredient,corn,Sources,2.21 mg/kg,true,tal Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg | | 31 | [[sources/ataee2016-
+ingredient,corn,Sources,0.020 mg/kg,true,"ddis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg | | 27 | [[sources/khalil201"
+ingredient,corn,Sources,2.21 mg/kg,true,tal Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg | | 28 | [[sources/ataee2016-
 ingredient,cornbread,Why this commodity accumulates heavy metals,14 ppb,true,"-FY2020 data for homemade cornbread (n=3, TDS Food 60) shows Pb at a maximum of 14 ppb, Cd at 9.2 to 11 ppb, Ni at 140 t"
 ingredient,cornbread,Why this commodity accumulates heavy metals,11 ppb,true,"made cornbread (n=3, TDS Food 60) shows Pb at a maximum of 14 ppb, Cd at 9.2 to 11 ppb, Ni at 140 to 180 ppb, Cr at 200 "
 ingredient,cornbread,Why this commodity accumulates heavy metals,180 ppb,true,"TDS Food 60) shows Pb at a maximum of 14 ppb, Cd at 9.2 to 11 ppb, Ni at 140 to 180 ppb, Cr at 200 ppb across all three "
@@ -764,6 +827,17 @@ ingredient,cucumber,Why this commodity accumulates heavy metals,3.2 ppb,true,"0]
 ingredient,cucumber,Why this commodity accumulates heavy metals,76 ppb,true,"es (median 1.6 ppb, maximum 3.2 ppb), and Ni appears in the upper tail (maximum 76 ppb) and tAs is consistently detectab"
 ingredient,cucumber,Why this commodity accumulates heavy metals,14 ppb,true," (maximum 76 ppb) and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb). The total arsen"
 ingredient,cucumber,Why this commodity accumulates heavy metals,31 ppb,true,") and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb). The total arsenic signal is une"
+ingredient,cucumber,Synthesis basis and censoring treatment,4 ppb,true,"basis and censoring treatment  The FDA Total Diet Study reported lead below its 4 ppb reporting limit, total mercury bel"
+ingredient,cucumber,Synthesis basis and censoring treatment,1 ppb,true,"et Study reported lead below its 4 ppb reporting limit, total mercury below its 1 ppb reporting limit, and total chromiu"
+ingredient,cucumber,Synthesis basis and censoring treatment,50 ppb,true,"it, total mercury below its 1 ppb reporting limit, and total chromium below its 50 ppb reporting limit in all 27 peeled-"
+ingredient,cucumber,Synthesis basis and censoring treatment,32 ppb,true,etected low-level vegetable chromium below the FDA reporting limit at a mean of 32 ppb fresh weight ([[sources/wu2024-he
+ingredient,cucumber,Synthesis basis and censoring treatment,5 ppb,true,"ables-legumes-jiaozuo|Wu 2024]]).  The synthesized central ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and tot"
+ingredient,cucumber,Synthesis basis and censoring treatment,1 ppb,true,"024]]).  The synthesized central ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 20 ppb, a"
+ingredient,cucumber,Synthesis basis and censoring treatment,20 ppb,true,"l ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 20 ppb, all fresh weight. The Iranian Fa"
+ingredient,cucumber,Synthesis basis and censoring treatment,0.075 mg/kg,true,ht. The Iranian Fars Province market survey reported cucumber lead at a mean of 0.075 mg/kg (75 ppb) and total chromium 
+ingredient,cucumber,Synthesis basis and censoring treatment,75 ppb,true,an Fars Province market survey reported cucumber lead at a mean of 0.075 mg/kg (75 ppb) and total chromium at 0.175 mg/k
+ingredient,cucumber,Synthesis basis and censoring treatment,0.175 mg/kg,true, reported cucumber lead at a mean of 0.075 mg/kg (75 ppb) and total chromium at 0.175 mg/kg (175 ppb) fresh weight after
+ingredient,cucumber,Synthesis basis and censoring treatment,175 ppb,true,umber lead at a mean of 0.075 mg/kg (75 ppb) and total chromium at 0.175 mg/kg (175 ppb) fresh weight after a stated dry
 ingredient,cucumber,"Ranges by source, region, and variety",1.6 ppb,true,"18-fy2020]]. The 27-sample US market-basket composites show low cadmium (median 1.6 ppb, max 3.2 ppb) and near-zero lead"
 ingredient,cucumber,"Ranges by source, region, and variety",3.2 ppb,true,"The 27-sample US market-basket composites show low cadmium (median 1.6 ppb, max 3.2 ppb) and near-zero lead, chromium, a"
 ingredient,cucumber,"Ranges by source, region, and variety",14 ppb,true,"ium, and mercury. The tAs distribution is the most notable feature: a median of 14 ppb and a maximum of 31 ppb across 27"
@@ -822,6 +896,19 @@ ingredient,egg-noodles,Regulatory limits that apply,26 ppb,true," EU general cer
 ingredient,egg-noodles,Regulatory limits that apply,6.6 ppb,true,"b) applies. The TDS Cd maximum of 26 ppb (wet weight, boiled) and Pb maximum of 6.6 ppb are within these EU limits. Code"
 ingredient,egg-noodles,Regulatory limits that apply,0.10 mg/kg,true,limentarius (CXS 193-1995 and revisions) sets a general cereal cadmium limit of 0.10 mg/kg and a lead limit of 0.20 mg/k
 ingredient,egg-noodles,Regulatory limits that apply,0.20 mg/kg,true,evisions) sets a general cereal cadmium limit of 0.10 mg/kg and a lead limit of 0.20 mg/kg. No US federal maximum level 
+ingredient,eggs,Synthesis basis and censoring treatment,4 ppb,true,"=27) fell below the reporting limit for every analyte, with reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb"
+ingredient,eggs,Synthesis basis and censoring treatment,1 ppb,true,"the reporting limit for every analyte, with reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb for total arsen"
+ingredient,eggs,Synthesis basis and censoring treatment,3 ppb,true," for every analyte, with reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb for total arsenic, 1 ppb for total"
+ingredient,eggs,Synthesis basis and censoring treatment,1 ppb,true,"reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb for total arsenic, 1 ppb for total mercury, 40 ppb for nick"
+ingredient,eggs,Synthesis basis and censoring treatment,40 ppb,true," for lead, 1 ppb for cadmium, 3 ppb for total arsenic, 1 ppb for total mercury, 40 ppb for nickel and 50 ppb for chromiu"
+ingredient,eggs,Synthesis basis and censoring treatment,50 ppb,true,"admium, 3 ppb for total arsenic, 1 ppb for total mercury, 40 ppb for nickel and 50 ppb for chromium ([[sources/fda2022-t"
+ingredient,eggs,Synthesis basis and censoring treatment,18 ppb,true,"-chinese-chicken-eggs-urban-mining|Li et al. 2026]] measured lead at about 5 to 18 ppb, total arsenic at 6 to 19 ppb, ni"
+ingredient,eggs,Synthesis basis and censoring treatment,19 ppb,true,"ning|Li et al. 2026]] measured lead at about 5 to 18 ppb, total arsenic at 6 to 19 ppb, nickel at 15 to 63 ppb, chromium"
+ingredient,eggs,Synthesis basis and censoring treatment,63 ppb,true,"asured lead at about 5 to 18 ppb, total arsenic at 6 to 19 ppb, nickel at 15 to 63 ppb, chromium at 53 to 140 ppb and ca"
+ingredient,eggs,Synthesis basis and censoring treatment,140 ppb,true,"18 ppb, total arsenic at 6 to 19 ppb, nickel at 15 to 63 ppb, chromium at 53 to 140 ppb and cadmium at 1.5 to 2.3 ppb, a"
+ingredient,eggs,Synthesis basis and censoring treatment,2.3 ppb,true,"19 ppb, nickel at 15 to 63 ppb, chromium at 53 to 140 ppb and cadmium at 1.5 to 2.3 ppb, and [[sources/rokanuzzaman2022-"
+ingredient,eggs,Synthesis basis and censoring treatment,10 ppb,true,h-eggs-metals|Rokanuzzaman et al. 2022]] reported chicken egg-content lead near 10 ppb after dry-to-wet conversion at 0.
+ingredient,eggs,Synthesis basis and censoring treatment,3 ppb,true,norganic and total arsenic are kept separate. Fresh chicken eggs were below the 3 ppb inorganic-arsenic detection limit 
 ingredient,eggs,Regulatory limits that apply,0.10 mg/kg,true,"ons/eu2023-contaminants-maximum-levels]], the maximum level for lead in eggs is 0.10 mg/kg (100 ppb) on a fresh weight b"
 ingredient,eggs,Regulatory limits that apply,100 ppb,true,"ontaminants-maximum-levels]], the maximum level for lead in eggs is 0.10 mg/kg (100 ppb) on a fresh weight basis, and fo"
 ingredient,eggs,Regulatory limits that apply,0.050 mg/kg,true," is 0.10 mg/kg (100 ppb) on a fresh weight basis, and for cadmium in eggs it is 0.050 mg/kg (50 ppb) fresh weight. These"
@@ -847,7 +934,7 @@ ingredient,fish,Regulatory limits that apply,0.30 mg/kg,true,"/kg (50 ug/kg) Cd,
 ingredient,fish,Regulatory limits that apply,300 ug/kg,true,"g) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed higher-mercury"
 ingredient,fish,Regulatory limits that apply,1.0 mg/kg,true," fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: "
 ingredient,fish,Regulatory limits that apply,1000 ug/kg,true,"ding tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: hmi-page-re"
-ingredient,fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 22 | [[so
+ingredient,fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 21 | [[so
 ingredient,flavored-carbonated-bottled-waters,"Ranges by source, region, and variety",10 µg/L,true,"s can carry arsenic concentrations near or above the EU drinking water limit of 10 µg/L, while products from shallow all"
 ingredient,flavored-carbonated-bottled-waters,Mitigation options,10 µg/L,true,he treated water specification against the EU Drinking Water Directive limit of 10 µg/L for arsenic (and any stricter in
 ingredient,flavored-carbonated-bottled-waters,Mitigation options,1 µg/L,true,"pical metal concentrations in these products, sensitive methods with LODs below 1 µg/L are needed to detect compliance w"
@@ -878,7 +965,7 @@ ingredient,freshwater-fish,Climate-driven methylmercury trajectory,40 µg/kg,tru
 ingredient,freshwater-fish,Sources,3.82 mg/kg,true,"Brazil (36 studies, 143 species, 14,113 individuals, 1992–2022); tHg range 0.01–3.82 mg/kg with piscivorous species high"
 ingredient,freshwater-fish,Sources,0.5 µg/g,true,"from Nunavik (Canada), with over 67% of large lake trout exceeding the Canadian 0.5 µg/g RMRV and MeHg above 93% of tHg "
 ingredient,freshwater-fish,Sources,0.938 µg/g,true,"nd Great Slave Lake, Canada (2005–2020 monitoring, n=1,044); northern pike mean 0.938 µg/g wet weight; dietary intake as"
-ingredient,freshwater-fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 11 | [[so
+ingredient,freshwater-fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 10 | [[so
 ingredient,freshwater-fish,Sources,1 mg/kg,true,"uscle samples, 10 stations, 3 seasons); 5 species exceeded the WHO threshold of 1 mg/kg in at least one season; pre-mons"
 ingredient,freshwater-fish,Sources,12 ppb,true,"ons in fresh and dried forms (ICP); all samples below FAO/WHO limits; median Cd 12 ppb, Pb 81 ppb dry weight; all health"
 ingredient,freshwater-fish,Sources,81 ppb,true,"h and dried forms (ICP); all samples below FAO/WHO limits; median Cd 12 ppb, Pb 81 ppb dry weight; all health risk metri"
@@ -888,6 +975,18 @@ ingredient,freshwater-fish,Regulatory limits that apply,0.5 mg/kg,true, maximum 
 ingredient,freshwater-fish,Regulatory limits that apply,1.0 mg/kg,true,ter species fall under the general 0.5 mg/kg Hg ML (some species carry separate 1.0 mg/kg ML where bioaccumulation justi
 ingredient,freshwater-fish,Regulatory limits that apply,1.0 ppm,true,-193-1995|Codex CXS 193-1995]] — Codex MeHg MLs for fish. - FDA action level of 1.0 ppm methylmercury in fish applies to
 ingredient,fromage-frais,Regulatory limits that apply,0.020 mg/kg,true,"023-contaminants-maximum-levels]], the maximum level for Pb in milk (liquid) is 0.020 mg/kg. Fromage frais, as a fresh d"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,4 ppb,true,"basis and censoring treatment  The FDA Total Diet Study reported lead below its 4 ppb reporting limit, total mercury bel"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,1 ppb,true,"et Study reported lead below its 4 ppb reporting limit, total mercury below its 1 ppb reporting limit, and total chromiu"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,50 ppb,true,"it, total mercury below its 1 ppb reporting limit, and total chromium below its 50 ppb reporting limit in all 3 boiled-f"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,0.013 mg/kg,true,"ey provides supporting fresh-weight context with a vegetable-group lead mean of 0.013 mg/kg (13 ppb), total mercury mean"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,13 ppb,true,"upporting fresh-weight context with a vegetable-group lead mean of 0.013 mg/kg (13 ppb), total mercury mean of 0.004 mg/"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,0.004 mg/kg,true,"with a vegetable-group lead mean of 0.013 mg/kg (13 ppb), total mercury mean of 0.004 mg/kg (4 ppb), and total chromium "
+ingredient,frozen-peas,Synthesis basis and censoring treatment,4 ppb,true,"ble-group lead mean of 0.013 mg/kg (13 ppb), total mercury mean of 0.004 mg/kg (4 ppb), and total chromium mean of 0.032"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,0.032 mg/kg,true,"(13 ppb), total mercury mean of 0.004 mg/kg (4 ppb), and total chromium mean of 0.032 mg/kg (32 ppb) ([[sources/wu2024-h"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,32 ppb,true,"al mercury mean of 0.004 mg/kg (4 ppb), and total chromium mean of 0.032 mg/kg (32 ppb) ([[sources/wu2024-heavy-metals-c"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,5 ppb,true,"ables-legumes-jiaozuo|Wu 2024]]).  The synthesized central ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and tot"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,1 ppb,true,"024]]).  The synthesized central ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 15 ppb, o"
+ingredient,frozen-peas,Synthesis basis and censoring treatment,15 ppb,true,"l ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 15 ppb, on a boiled-as-consumed fresh-we"
 ingredient,frozen-peas,Mitigation options,40 mg/kg,true," 60 mg Cd per kg P2O5 in phosphate fertilizers (with a trajectory to tighten to 40 mg/kg P2O5 in coming years), providin"
 ingredient,frozen-peas,Mitigation options,1.5 ppb,true,". Given the low Cd concentrations observed in the FDA TDS (median approximately 1.5 ppb, max 3.2 ppb, n=3) [[sources/fda"
 ingredient,frozen-peas,Mitigation options,3.2 ppb,true,"ow Cd concentrations observed in the FDA TDS (median approximately 1.5 ppb, max 3.2 ppb, n=3) [[sources/fda2022-tds-elem"
@@ -902,7 +1001,7 @@ ingredient,fruit-juice,"Ranges by source, region, and variety",10 ppb,true,FDA 2
 ingredient,fruit-juice,"Ranges by source, region, and variety",20 ppb,true,2-draft-lead-juice|FDA 2022]]) of 10 ppb Pb for single-strength apple juice and 20 ppb Pb for other juices replaced the 
 ingredient,fruit-juice,Sources,10 ppb,true,ustry | 2022 | Government guidance | FDA 2022 draft Pb action levels for juice: 10 ppb for single-strength apple juice a
 ingredient,fruit-juice,Sources,20 ppb,true,"22 draft Pb action levels for juice: 10 ppb for single-strength apple juice and 20 ppb for other juices, replacing the o"
-ingredient,fruit-juice,Sources,50 ppb,true,"or single-strength apple juice and 20 ppb for other juices, replacing the older 50 ppb HACCP context | | 11 | [[sources/"
+ingredient,fruit-juice,Sources,50 ppb,true,"or single-strength apple juice and 20 ppb for other juices, replacing the older 50 ppb HACCP context | | 10 | [[sources/"
 ingredient,fruit-juice,Sources,50 ppb,true,r Industry | 2004 | Government guidance | FDA Juice HACCP guidance establishing 50 ppb Pb as the original hazard thresho
 ingredient,fruit-juice,Mitigation options,10 ppb,true," Cd, and Sn testing on finished juice against the FDA 2022 draft action levels (10 ppb Pb single-strength apple juice; 2"
 ingredient,fruit-juice,Mitigation options,20 ppb,true,gainst the FDA 2022 draft action levels (10 ppb Pb single-strength apple juice; 20 ppb Pb other juices) and EU per-juice
@@ -920,7 +1019,7 @@ ingredient,fruit,Sources,10 ppb,true,guidance | FDA Closer to Zero lead action l
 ingredient,fruit,Sources,0.576 mg/kg,true,"u in mango, banana, and orange from Bahir Dar (Ethiopia, n=120), with mango Pb (0.576 mg/kg DW) and Cd (1.771 mg/kg DW) "
 ingredient,fruit,Sources,1.771 mg/kg,true,"orange from Bahir Dar (Ethiopia, n=120), with mango Pb (0.576 mg/kg DW) and Cd (1.771 mg/kg DW) exceeding FAO/WHO limits"
 ingredient,fruit,Sources,0.17 mg/kg,true," and vegetable commodity types from Maharashtra (India) by ICP-MS, with mean Pb 0.17 mg/kg fw across all commodities and"
-ingredient,fruit,Sources,1 mg/kg,true,18.2% (adults) and 29.4% (children) of weekly Al intake against the EFSA TWI of 1 mg/kg b.w./week | | 42 | [[sources/zha
+ingredient,fruit,Sources,1 mg/kg,true,18.2% (adults) and 29.4% (children) of weekly Al intake against the EFSA TWI of 1 mg/kg b.w./week | | 41 | [[sources/zha
 ingredient,fruit,Regulatory limits that apply,10 ppb,true,ero Pb action levels for processed baby foods include fruit-puree categories at 10 ppb Pb. - [[regulations/codex-cadmium
 ingredient,grape-juice,Why this commodity accumulates heavy metals,50 ppb,true,ishing settlement-based compliance levels lower than the original federal HACCP 50 ppb threshold and prefiguring the FDA
 ingredient,grape-juice,Why this commodity accumulates heavy metals,20 ppb,true, the original federal HACCP 50 ppb threshold and prefiguring the FDA 2022 draft 20 ppb action level for non-apple juices
@@ -940,6 +1039,19 @@ ingredient,grapefruit,Regulatory limits that apply,0.10 mg/kg,true,"2023-contami
 ingredient,grapefruit,Regulatory limits that apply,0.050 mg/kg,true,"r Pb in citrus fruit is 0.10 mg/kg wet weight, and for Cd in citrus fruit it is 0.050 mg/kg wet weight. These limits app"
 ingredient,grapes,Why this commodity accumulates heavy metals,3.7 ppb,true, The FDA TDS data for seedless red/green grapes (n=27) shows tAs at a median of 3.7 ppb (max 9 ppb) as the most consiste
 ingredient,grapes,Why this commodity accumulates heavy metals,9 ppb,true,data for seedless red/green grapes (n=27) shows tAs at a median of 3.7 ppb (max 9 ppb) as the most consistently detectab
+ingredient,grapes,Synthesis basis and censoring treatment,4 ppb,true,"t Study reporting the 27 grape samples below their reporting limits (lead below 4 ppb, cadmium below 1 ppb, total mercur"
+ingredient,grapes,Synthesis basis and censoring treatment,1 ppb,true," 27 grape samples below their reporting limits (lead below 4 ppb, cadmium below 1 ppb, total mercury below 1 ppb, chromi"
+ingredient,grapes,Synthesis basis and censoring treatment,1 ppb,true,"ir reporting limits (lead below 4 ppb, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal"
+ingredient,grapes,Synthesis basis and censoring treatment,50 ppb,true,"ead below 4 ppb, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal zeros ([[sources/fda2"
+ingredient,grapes,Synthesis basis and censoring treatment,5 ppb,true,"m-lead-poland|Rusin et al. 2021]] reported Polish fresh grape lead at a mean of 5 ppb and cadmium near 1 ppb, [[sources/"
+ingredient,grapes,Synthesis basis and censoring treatment,1 ppb,true,"al. 2021]] reported Polish fresh grape lead at a mean of 5 ppb and cadmium near 1 ppb, [[sources/mania2021-lead-cadmium-"
+ingredient,grapes,Synthesis basis and censoring treatment,17 ppb,true,in-fruit-poland|Mania et al. 2021]] fresh berries and small fruits lead at 8 to 17 ppb with a P90 of 26 to 38 and mercur
+ingredient,grapes,Synthesis basis and censoring treatment,2.1 ppb,true,"8 to 17 ppb with a P90 of 26 to 38 and mercury at a middle-bound mean of 0.4 to 2.1 ppb, and [[sources/bora2022-heavy-me"
+ingredient,grapes,Synthesis basis and censoring treatment,27 ppb,true,ables-romania-vinegar-washing|Bora et al. 2022]] Romanian market grape at 18 to 27 ppb lead and about 15 ppb cadmium. [[
+ingredient,grapes,Synthesis basis and censoring treatment,15 ppb,true,washing|Bora et al. 2022]] Romanian market grape at 18 to 27 ppb lead and about 15 ppb cadmium. [[sources/lee2023-south-
+ingredient,grapes,Synthesis basis and censoring treatment,31 ppb,true,"et al. 2023]] detected total chromium in 100 percent of Korean fresh fruit near 31 ppb fresh weight, confirming chromium"
+ingredient,grapes,Synthesis basis and censoring treatment,84 ppb,true,resent below the reporting limit. The Peruvian red-grape import lead maximum of 84 ppb (Mania) and the Egyptian grape ch
+ingredient,grapes,Synthesis basis and censoring treatment,1060 ppb,true,mport lead maximum of 84 ppb (Mania) and the Egyptian grape chromium of 1010 to 1060 ppb ([[sources/amer2019-egyptian-fr
 ingredient,grapes,Regulatory limits that apply,0.10 mg/kg,true,"2023-contaminants-maximum-levels]], the maximum level for Pb in fresh grapes is 0.10 mg/kg wet weight and for Cd it is 0"
 ingredient,grapes,Regulatory limits that apply,0.050 mg/kg,true, maximum level for Pb in fresh grapes is 0.10 mg/kg wet weight and for Cd it is 0.050 mg/kg wet weight. For dried grapes
 ingredient,green-beans,Why this commodity accumulates heavy metals,100 ppb,true,"e most consistently detected analyte in this matrix in the FDA TDS data (median 100 ppb, max 740 ppb, n=27) [[sources/fd"
@@ -967,6 +1079,17 @@ ingredient,green-bell-pepper,Regulatory limits that apply,0.050 mg/kg,true,les (
 ingredient,green-bell-pepper,Regulatory limits that apply,24 ppb,true,"on limits [[sources/fda2022-tds-elements-fy2018-fy2020]], and Cd values peak at 24 ppb, indicating substantial margin be"
 ingredient,green-bell-pepper,Regulatory limits that apply,50 ppb,true,"020]], and Cd values peak at 24 ppb, indicating substantial margin below the EU 50 ppb Cd limit. For bell pepper used in"
 ingredient,green-bell-pepper,Regulatory limits that apply,0.020 mg/kg,true,"roducts for infants and young children, the EU applies a stricter Pb maximum of 0.020 mg/kg for vegetable-based processe"
+ingredient,ground-beef,Synthesis basis and censoring treatment,4 ppb,true, FDA pan-cooked ground beef composites (n=27) falling below reporting limits of 4 ppb for lead and 1 ppb for cadmium ([[
+ingredient,ground-beef,Synthesis basis and censoring treatment,1 ppb,true,und beef composites (n=27) falling below reporting limits of 4 ppb for lead and 1 ppb for cadmium ([[sources/fda2022-tds
+ingredient,ground-beef,Synthesis basis and censoring treatment,8.77 ppb,true,rcasses-metals-egypt|Khalafalla et al. 2011]] measured muscle lead at a mean of 8.77 ppb with a maximum of 35.6 and cadm
+ingredient,ground-beef,Synthesis basis and censoring treatment,1.40 ppb,true,easured muscle lead at a mean of 8.77 ppb with a maximum of 35.6 and cadmium at 1.40 ppb with a maximum of 17.78 by ICP-
+ingredient,ground-beef,Synthesis basis and censoring treatment,19 ppb,true,"augusta-meat-milk-seafood-metals|Di Bella et al. 2020]] reported beef lead near 19 ppb with cadmium below detection, and"
+ingredient,ground-beef,Synthesis basis and censoring treatment,12 ppb,true,"metals.  The central value is therefore a low, left-censored lead of about 0 to 12 ppb and cadmium of about 0 to 3 ppb, "
+ingredient,ground-beef,Synthesis basis and censoring treatment,3 ppb,true,"refore a low, left-censored lead of about 0 to 12 ppb and cadmium of about 0 to 3 ppb, not zero. Two markedly higher dat"
+ingredient,ground-beef,Synthesis basis and censoring treatment,684 ppb,true,"b-cd-egypt|Rabeey et al. 2025]] imported frozen bovine muscle with mean lead of 684 ppb and mean cadmium of 30 ppb, wher"
+ingredient,ground-beef,Synthesis basis and censoring treatment,30 ppb,true,"5]] imported frozen bovine muscle with mean lead of 684 ppb and mean cadmium of 30 ppb, where more than sixty percent of"
+ingredient,ground-beef,Synthesis basis and censoring treatment,60 ppb,true,ts-pb-cd-nitrite-egypt|Shaltout et al. 2020]] Egyptian minced meat at mean lead 60 ppb and cadmium 30 ppb. These reflect
+ingredient,ground-beef,Synthesis basis and censoring treatment,30 ppb,true,ypt|Shaltout et al. 2020]] Egyptian minced meat at mean lead 60 ppb and cadmium 30 ppb. These reflect specific contamina
 ingredient,ground-beef,"Ranges by source, region, and variety",600 ppb,true,"rting limits across the full distribution, with Cr detectable with a maximum of 600 ppb, Ni detectable in some samples w"
 ingredient,ground-beef,"Ranges by source, region, and variety",290 ppb,true,"able with a maximum of 600 ppb, Ni detectable in some samples with a maximum of 290 ppb (most samples at or below detect"
 ingredient,ground-beef,"Ranges by source, region, and variety",8.5 ppb,true,"ppb (most samples at or below detection), and tAs detectable up to a maximum of 8.5 ppb [[sources/fda2022-tds-elements-f"
@@ -1118,10 +1241,10 @@ ingredient,leafy-greens,Sources,0.093 mg/kg,true,sociated with lower Cd and Ni a
 ingredient,leafy-greens,Sources,0.985 µg/g,true,"ta farmer's market, with spinach carrying the highest total metal burden and Cd 0.985 µg/g DW exceeding FAO/WHO MPL in 1"
 ingredient,leafy-greens,Sources,137.15 mg/kg,true," and spring onion from six Kumasi (Ghana) anthropogenic sites, with Ni reaching 137.15 mg/kg in lettuce and 173.55 mg/kg"
 ingredient,leafy-greens,Sources,173.55 mg/kg,true,"umasi (Ghana) anthropogenic sites, with Ni reaching 137.15 mg/kg in lettuce and 173.55 mg/kg in spring onion at the high"
-ingredient,leafy-greens,Sources,77.27 mg/kg,true,e tissues by 14.5 to 39.2% on Chinese agricultural soils contaminated at 7.6 to 77.27 mg/kg | | 20 | [[sources/romero-cr
+ingredient,leafy-greens,Sources,77.27 mg/kg,true,e tissues by 14.5 to 39.2% on Chinese agricultural soils contaminated at 7.6 to 77.27 mg/kg | | 19 | [[sources/romero-cr
 ingredient,leafy-greens,Sources,12.50 mg/kg,true," Ni, Pb in crops near the Ponce Enriquez gold mining area (Ecuador), with As at 12.50 mg/kg in lettuce and Cd at 0.81 mg"
 ingredient,leafy-greens,Sources,0.81 mg/kg,true,"nriquez gold mining area (Ecuador), with As at 12.50 mg/kg in lettuce and Cd at 0.81 mg/kg in lettuce both exceeding FAO"
-ingredient,leafy-greens,Sources,0.2 mg/kg,true," dietary survey, with solanaceous vegetables showing 38.2% Pb exceedance of the 0.2 mg/kg threshold | | 25 | [[sources/a"
+ingredient,leafy-greens,Sources,0.2 mg/kg,true," dietary survey, with solanaceous vegetables showing 38.2% Pb exceedance of the 0.2 mg/kg threshold | | 23 | [[sources/a"
 ingredient,leafy-greens,Sources,2.5 µg/kg,true,nal | 2009 | Government report | EFSA Cd scientific opinion establishing TWI of 2.5 µg/kg b.w./week with leafy greens am
 ingredient,leafy-vegetables,Mitigation options,10 ppb,true,"s  Lot-level ICP-MS testing for Pb, Cd, Cr, Ni, and tAs with detection floors ≤ 10 ppb is appropriate for commodity leaf"
 ingredient,leafy-vegetables,Regulatory limits that apply,0.30 mg/kg,true,neral Standard (CXS 193-1995) applies the general leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight and the general 
@@ -1189,6 +1312,12 @@ ingredient,meat-and-poultry-purees,Regulatory limits that apply,10 ppb,true,ons/
 ingredient,meat-and-poultry,Sources,0.43 µg/g,true,ted across six Canadian Arctic subpopulations (2016–2019); MeHg in muscle (mean 0.43 µg/g dw) relevant to Inuit traditio
 ingredient,meat-and-poultry,Sources,0.1 mg/kg,true," wallaby, venison, stubble quail); 53% of venison and 86% of quail exceeded the 0.1 mg/kg Australian threshold — ammunit"
 ingredient,meat-and-poultry,Sources,220.99 ppm,true,"asant-based dogfood and human-grade pheasant samples; raw pheasant dogfood mean 220.99 ppm dw, 34× higher than human-gra"
+ingredient,meat,Synthesis basis and censoring treatment,3 ppb,true,"erring it from total arsenic. Using hydride-generation ICP-MS speciation with a 3 ppb detection limit, the Hong Kong Tot"
+ingredient,meat,Synthesis basis and censoring treatment,4 ppb,true,"ng Kong Total Diet Study reported the meat, poultry and game group at a mean of 4 ppb with a range of nondetect to 27 pp"
+ingredient,meat,Synthesis basis and censoring treatment,27 ppb,true,"he meat, poultry and game group at a mean of 4 ppb with a range of nondetect to 27 ppb and 54 percent of composites belo"
+ingredient,meat,Synthesis basis and censoring treatment,4 ppb,true,"ton 2015]]). The cell is published as a thin, left-censored value of about 0 to 4 ppb with an upper tail near 20 ppb, an"
+ingredient,meat,Synthesis basis and censoring treatment,20 ppb,true,"shed as a thin, left-censored value of about 0 to 4 ppb with an upper tail near 20 ppb, and it is flagged as data-limite"
+ingredient,meat,Synthesis basis and censoring treatment,15 ppb,true,"and is not derived from it. Total arsenic in muscle is itself low, roughly 5 to 15 ppb in commercial beef and pork, and "
 ingredient,meat,"Ranges by source, region, and variety",77 ppb,true,"p casings measured by [[sources/wysok2025-heavy-metals-sheep-casings]] (mean Pb 77 ppb, mean tAs 36 ppb wet weight, n=35"
 ingredient,meat,"Ranges by source, region, and variety",36 ppb,true,"d by [[sources/wysok2025-heavy-metals-sheep-casings]] (mean Pb 77 ppb, mean tAs 36 ppb wet weight, n=35) illustrate that"
 ingredient,meat,Ingredient-derivative risk,0.050 mg/kg,true, reach concentrations substantially above the EU maximum level for muscle meat (0.050 mg/kg Cd in muscle versus 1.0 mg/k
@@ -1200,9 +1329,6 @@ ingredient,meat,Regulatory limits that apply,1.0 mg/kg,true,"rgan meats carry su
 ingredient,meat,Regulatory limits that apply,0.50 mg/kg,true,"ubstantially higher Cd limits (kidney of cattle, sheep, pigs: 1.0 mg/kg; liver: 0.50 mg/kg), reflecting biological accum"
 ingredient,meat,Regulatory limits that apply,10 ppb,true,od intended for babies and young children [[sources/fda-ctz-Pb-babyfood-2025]]: 10 ppb Pb applies to single-ingredient m
 ingredient,meat,Sources,10 ppb,true,gram | 2025 | Government guidance | FDA Closer to Zero final guidance setting a 10 ppb Pb action level for single-ingred
-ingredient,meat,Sources,77 ppb,true,"atural sheep casing samples from Polish production facilities (ICP-MS); mean Pb 77 ppb, tAs 36 ppb, Cd 9 ppb wet weight;"
-ingredient,meat,Sources,36 ppb,true," casing samples from Polish production facilities (ICP-MS); mean Pb 77 ppb, tAs 36 ppb, Cd 9 ppb wet weight; tHg below L"
-ingredient,meat,Sources,9 ppb,true,"ples from Polish production facilities (ICP-MS); mean Pb 77 ppb, tAs 36 ppb, Cd 9 ppb wet weight; tHg below LOQ in all s"
 ingredient,meat,Sources,25 µg/kg,true, JECFA 91st meeting Cd dietary exposure assessment carrying forward the PTMI of 25 µg/kg bw/month; reports Cd occurrence
 ingredient,meat,Sources,0.23 mg/kg,true," sausage, luncheon), with luncheon meat carrying the highest concentrations (Pb 0.23 mg/kg, Cd 0.15 mg/kg) and 8.3% exce"
 ingredient,meat,Sources,0.15 mg/kg,true,"eon), with luncheon meat carrying the highest concentrations (Pb 0.23 mg/kg, Cd 0.15 mg/kg) and 8.3% exceeding the Egypt"
@@ -1292,10 +1418,20 @@ ingredient,olives,Mitigation options,100 ppb,true,ing of canned product with det
 ingredient,olives,Regulatory limits that apply,0.10 mg/kg,true, Contaminants and Toxins in Food and Feed (CXS 193-1995) sets a lead maximum of 0.10 mg/kg for canned products in the br
 ingredient,olives,Regulatory limits that apply,0.10 mg/kg,true,"uminous vegetables, leaf vegetables and fresh herbs, excluding [exceptions]"" at 0.10 mg/kg fresh weight, and for table o"
 ingredient,olives,Regulatory limits that apply,0.10 mg/kg,true,vey's finding that canned olives in the Tehran market commonly exceed the Codex 0.10 mg/kg canned-product Pb limit refle
-ingredient,olives,Sources,0.10 mg/kg,true,ific Reports | 2025 | Peer-reviewed | Canned-olive Pb elevation above the Codex 0.10 mg/kg limit in Iranian-market produ
 ingredient,onions,Why this commodity accumulates heavy metals,100 ppb,true,-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] show Ni in the 0 to 100 ppb range (max 100 ppb) in raw matur
 ingredient,onions,Why this commodity accumulates heavy metals,100 ppb,true,ces/fda2022-tds-elements-fy2018-fy2020]] show Ni in the 0 to 100 ppb range (max 100 ppb) in raw mature onion (n=27). Sul
 ingredient,onions,Why this commodity accumulates heavy metals,4 ppb,true,"corpus. Total arsenic is detectable at low concentrations (median approximately 4 ppb in FDA TDS data), with inorganic s"
+ingredient,onions,Synthesis basis and censoring treatment,4 ppb,true,basis and censoring treatment  The FDA Total Diet Study reported lead below its 4 ppb reporting limit in 26 of 27 raw-on
+ingredient,onions,Synthesis basis and censoring treatment,7.4 ppb,true,"ppb reporting limit in 26 of 27 raw-onion composites with a single detection at 7.4 ppb, and total mercury and total chr"
+ingredient,onions,Synthesis basis and censoring treatment,1 ppb,true,"a single detection at 7.4 ppb, and total mercury and total chromium below their 1 ppb and 50 ppb reporting limits in all"
+ingredient,onions,Synthesis basis and censoring treatment,50 ppb,true,"etection at 7.4 ppb, and total mercury and total chromium below their 1 ppb and 50 ppb reporting limits in all 27 compos"
+ingredient,onions,Synthesis basis and censoring treatment,14.5 ppb,true,ad: the long-term UK Nafferton field trials reported onion-bulb lead of 13.4 to 14.5 ppb fresh weight ([[sources/rempelo
+ingredient,onions,Synthesis basis and censoring treatment,14 ppb,true, the German BfR MEAL total diet study reported a vegetable-group lead mean near 14 ppb against a 2 ppb quantification li
+ingredient,onions,Synthesis basis and censoring treatment,2 ppb,true,EAL total diet study reported a vegetable-group lead mean near 14 ppb against a 2 ppb quantification limit ([[sources/fe
+ingredient,onions,Synthesis basis and censoring treatment,12 ppb,true,"s-cyclone|Dearing et al. 2025]]).  The synthesized central ranges are lead 0 to 12 ppb, total mercury 0 to 1 ppb, and to"
+ingredient,onions,Synthesis basis and censoring treatment,1 ppb,true,"25]]).  The synthesized central ranges are lead 0 to 12 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 25 ppb, a"
+ingredient,onions,Synthesis basis and censoring treatment,25 ppb,true," ranges are lead 0 to 12 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 25 ppb, all fresh weight. Lead is set at"
+ingredient,onions,Synthesis basis and censoring treatment,50 ppb,true,rces/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]) that the 50 ppb FDA reporting limit cannot resolv
 ingredient,onions,"Ranges by source, region, and variety",26 ppb,true,"ements-fy2018-fy2020]] for raw mature onion (n=27) shows Cd ranging from 2.3 to 26 ppb and Ni from 0 to 100 ppb, providi"
 ingredient,onions,"Ranges by source, region, and variety",100 ppb,true,"or raw mature onion (n=27) shows Cd ranging from 2.3 to 26 ppb and Ni from 0 to 100 ppb, providing a US retail baseline."
 ingredient,onions,Regulatory limits that apply,0.10 mg/kg,true,3/915 [[regulations/eu2023-contaminants-maximum-levels]] sets maximum levels of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd
@@ -1316,6 +1452,19 @@ ingredient,orange-juice,Regulatory limits that apply,50 ppb,true,es Pb reference
 ingredient,oranges,Why this commodity accumulates heavy metals,87 ppb,true," were all at or below detection limits in nearly all samples, with only Ni (max 87 ppb), U (max 6.5 ppb), and tAs (max 6"
 ingredient,oranges,Why this commodity accumulates heavy metals,6.5 ppb,true,"below detection limits in nearly all samples, with only Ni (max 87 ppb), U (max 6.5 ppb), and tAs (max 6.7 ppb) detected"
 ingredient,oranges,Why this commodity accumulates heavy metals,6.7 ppb,true,"in nearly all samples, with only Ni (max 87 ppb), U (max 6.5 ppb), and tAs (max 6.7 ppb) detected at the high end of the"
+ingredient,oranges,Synthesis basis and censoring treatment,4 ppb,true,"Total Diet Study reporting below-limit results as literal zeros: lead below the 4 ppb reporting limit, total mercury and"
+ingredient,oranges,Synthesis basis and censoring treatment,1 ppb,true,"l zeros: lead below the 4 ppb reporting limit, total mercury and chromium below 1 ppb and 50 ppb respectively, and cadmi"
+ingredient,oranges,Synthesis basis and censoring treatment,50 ppb,true,"ead below the 4 ppb reporting limit, total mercury and chromium below 1 ppb and 50 ppb respectively, and cadmium below 1"
+ingredient,oranges,Synthesis basis and censoring treatment,1 ppb,true,"tal mercury and chromium below 1 ppb and 50 ppb respectively, and cadmium below 1 ppb in 26 of 27 samples with a single "
+ingredient,oranges,Synthesis basis and censoring treatment,1.2 ppb,true," 50 ppb respectively, and cadmium below 1 ppb in 26 of 27 samples with a single 1.2 ppb detect ([[sources/fda2022-tds-el"
+ingredient,oranges,Synthesis basis and censoring treatment,10 ppb,true,021-citrus-lead-cadmium|Czech et al. 2021]] measured whole-orange lead at about 10 ppb and cadmium at about 0.34 ppb fre
+ingredient,oranges,Synthesis basis and censoring treatment,0.34 ppb,true,"h et al. 2021]] measured whole-orange lead at about 10 ppb and cadmium at about 0.34 ppb fresh weight, [[sources/mania20"
+ingredient,oranges,Synthesis basis and censoring treatment,15 ppb,true,-tin-fruit-poland|Mania et al. 2021]] placed non-berry fresh-fruit lead at 6 to 15 ppb with a P90 of 22 to 29 and mercur
+ingredient,oranges,Synthesis basis and censoring treatment,1.7 ppb,true,"6 to 15 ppb with a P90 of 22 to 29 and mercury at a middle-bound mean of 0.3 to 1.7 ppb, and [[sources/lee2023-south-kor"
+ingredient,oranges,Synthesis basis and censoring treatment,31 ppb,true,e et al. 2023]] detected total chromium in every Korean fresh-fruit sample near 31 ppb fresh weight. Ethiopian open-mark
+ingredient,oranges,Synthesis basis and censoring treatment,0.147 mg/kg,true," [[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]], reporting 0.147 mg/kg cadmium and 0.759 mg/kg chro"
+ingredient,oranges,Synthesis basis and censoring treatment,0.759 mg/kg,true,"ethiopia-fruit-metals|Mekonnen et al. 2024]], reporting 0.147 mg/kg cadmium and 0.759 mg/kg chromium on a dry-weight bas"
+ingredient,oranges,Synthesis basis and censoring treatment,99 ppb,true,".147 mg/kg cadmium and 0.759 mg/kg chromium on a dry-weight basis (about 19 and 99 ppb fresh weight after conversion), i"
 ingredient,oranges,"Ranges by source, region, and variety",87 ppb,true,oss virtually all samples). Ni was detected at concentrations ranging from 0 to 87 ppb; tAs was detected in some market 
 ingredient,oranges,"Ranges by source, region, and variety",6.7 ppb,true,"rom 0 to 87 ppb; tAs was detected in some market samples, reaching a maximum of 6.7 ppb. The FSA FS102048 survey [[sourc"
 ingredient,oranges,Regulatory limits that apply,0.10 mg/kg,true,/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd
@@ -1359,6 +1508,16 @@ ingredient,peanut-butter,Regulatory limits that apply,0.10 mg/kg,true,"consumpti
 ingredient,peanut-oil,Why this commodity accumulates heavy metals,30 ppb,true,"anut oil sits at the higher end of the per-vegetable-oil Pb and Cd range (Pb 10-30 ppb, Cd 5-10 ppb per [[sources/mehri2"
 ingredient,peanut-oil,Why this commodity accumulates heavy metals,10 ppb,true," at the higher end of the per-vegetable-oil Pb and Cd range (Pb 10-30 ppb, Cd 5-10 ppb per [[sources/mehri2024-vegetable"
 ingredient,peanut-oil,Why this commodity accumulates heavy metals,90 ppb,true,artially partitions into the oil fraction during extraction. The tAs range of 5-90 ppb in the Iranian and Saudi market s
+ingredient,peanuts,Synthesis basis and censoring treatment,50 ppb,true,"hich lead, mercury and chromium were non-detect at reporting limits of 4, 1 and 50 ppb and arsenic detected in two of th"
+ingredient,peanuts,Synthesis basis and censoring treatment,5 ppb,true," limits of 4, 1 and 50 ppb and arsenic detected in two of three at a maximum of 5 ppb ([[sources/fda2022-tds-elements-fy"
+ingredient,peanuts,Synthesis basis and censoring treatment,293 ppb,true,tasets.  For chromium the correction is the largest: Chinese kernels ran 234 to 293 ppb across six provinces and Polish-
+ingredient,peanuts,Synthesis basis and censoring treatment,230 ppb,true,"kernels ran 234 to 293 ppb across six provinces and Polish-market peanuts about 230 ppb, both far above the 50 ppb FDA l"
+ingredient,peanuts,Synthesis basis and censoring treatment,50 ppb,true,"cross six provinces and Polish-market peanuts about 230 ppb, both far above the 50 ppb FDA limit that produced the false"
+ingredient,peanuts,Synthesis basis and censoring treatment,30 ppb,true,"-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]]). Total arsenic centres near 5 to 30 ppb across US, Chinese, Polish and Et"
+ingredient,peanuts,Synthesis basis and censoring treatment,71 ppb,true,"els and peanut butter, with an upper tail reaching the Polish-market maximum of 71 ppb ([[sources/blair2017-us-peanut-he"
+ingredient,peanuts,Synthesis basis and censoring treatment,640 ppb,true,"004]]). Lead carries a heavy right tail from single high kernels (1354, 818 and 640 ppb) that drive the right tail, and "
+ingredient,peanuts,Synthesis basis and censoring treatment,2.46 ppb,true,"il, and mercury has only one quantified distribution, a Polish-market median of 2.46 ppb, so it stays a left-censored bo"
+ingredient,peanuts,Synthesis basis and censoring treatment,410 ppb,true,ive-crops-chongqing|Zhang et al. 2026]] and the US Southwest arsenic outlier of 410 ppb are extreme-tail context and do 
 ingredient,peanuts,"Ranges by source, region, and variety",45 ppb,true,"18-FY2020 data for dry-roasted salted peanuts (TDS Food 48, n=3) shows Cd at 35-45 ppb (median approximately 42 ppb) and"
 ingredient,peanuts,"Ranges by source, region, and variety",42 ppb,true,"d salted peanuts (TDS Food 48, n=3) shows Cd at 35-45 ppb (median approximately 42 ppb) and Ni at 400-550 ppb, reflectin"
 ingredient,peanuts,"Ranges by source, region, and variety",550 ppb,true,"Food 48, n=3) shows Cd at 35-45 ppb (median approximately 42 ppb) and Ni at 400-550 ppb, reflecting US market peanuts pr"
@@ -1368,7 +1527,6 @@ ingredient,peanuts,Regulatory limits that apply,0.10 mg/kg,true,"el for cadmium 
 ingredient,peanuts,Regulatory limits that apply,0.10 mg/kg,true,"kg fresh weight, and the ML for lead in peanuts for direct human consumption is 0.10 mg/kg ([[regulations/eu-2023-915-ca"
 ingredient,peanuts,Regulatory limits that apply,12 mg/kg,true,"mission Regulation (EU) 2024/1987 set a binding EU maximum level for peanuts of 12 mg/kg (Annex I point 3.6.10.2), apply"
 ingredient,peanuts,Regulatory limits that apply,550 ppb,true,ulations/eu-2024-1987-nickel-maximum-levels]]); reported peanut Ni (roughly 400–550 ppb) sits well below this level. No 
-ingredient,peanuts,Sources,0.2 mg/kg,true,nut samples on the Polish market (one Polish-origin peanut exceeded the Chinese 0.2 mg/kg Pb limit at 0.818); HQ analysi
 ingredient,peanuts,Sources,0.092 mg/kg,true,"s among five nut types on the Polish market; peanuts carry the highest mean Cd (0.092 mg/kg) and Pb among the five, with"
 ingredient,peanuts,Sources,65 µg/kg,true,cience | 2020 | Review | FDA/CFSAN Cd-mitigation review citing peanut butter at 65 µg/kg (FDA TDS 2014–2016) among the t
 ingredient,pear,"Ranges by source, region, and variety",55 ppb,true,"ntly at zero with low-level detection in some market samples, Ni at a median of 55 ppb (max 130 ppb), and tAs at a media"
@@ -1395,6 +1553,18 @@ ingredient,pork-bacon,Regulatory limits that apply,0.10 mg/kg,true,"ght, and for
 ingredient,pork-chop,Mitigation options,0.050 mg/kg,true,"latory compliance testing is required for EU exports (EU Cd ML for pork muscle: 0.050 mg/kg), ICP-MS testing of represen"
 ingredient,pork-chop,Regulatory limits that apply,0.050 mg/kg,true,"minants-maximum-levels]]), the maximum level for cadmium in pork muscle meat is 0.050 mg/kg fresh weight, and for lead i"
 ingredient,pork-chop,Regulatory limits that apply,0.10 mg/kg,true,"rk muscle meat is 0.050 mg/kg fresh weight, and for lead in pork muscle meat is 0.10 mg/kg fresh weight. These apply to "
+ingredient,pork-sausages,Synthesis basis and censoring treatment,1 ppb,true,"flected FDA pan-cooked pork sausage composites (n=27) below reporting limits of 1 ppb for mercury, 40 ppb for nickel and"
+ingredient,pork-sausages,Synthesis basis and censoring treatment,40 ppb,true,"ked pork sausage composites (n=27) below reporting limits of 1 ppb for mercury, 40 ppb for nickel and 50 ppb for chromiu"
+ingredient,pork-sausages,Synthesis basis and censoring treatment,50 ppb,true,"sites (n=27) below reporting limits of 1 ppb for mercury, 40 ppb for nickel and 50 ppb for chromium ([[sources/fda2022-t"
+ingredient,pork-sausages,Synthesis basis and censoring treatment,43 ppb,true,"twenty-seven nickel composites were below the limit, with a single composite at 43 ppb just above it, while mercury and "
+ingredient,pork-sausages,Synthesis basis and censoring treatment,6 ppb,true,occurrence. Italian official-control pork muscle (n=347) had a nickel median of 6 ppb and a mean of 9 ppb by ICP-MS with
+ingredient,pork-sausages,Synthesis basis and censoring treatment,9 ppb,true,official-control pork muscle (n=347) had a nickel median of 6 ppb and a mean of 9 ppb by ICP-MS with occasional values t
+ingredient,pork-sausages,Synthesis basis and censoring treatment,158 ppb,true, nickel median of 6 ppb and a mean of 9 ppb by ICP-MS with occasional values to 158 ppb ([[sources/manfredi2025-nickel-m
+ingredient,pork-sausages,Synthesis basis and censoring treatment,7 ppb,true,tals|Maikanov et al. 2021]]) while a Chinese pooled pork summary reported about 7 ppb total mercury ([[sources/zhang2022
+ingredient,pork-sausages,Synthesis basis and censoring treatment,11 ppb,true,-metals-china|Zhang et al. 2022]]); and muscle chromium in other work runs near 11 ppb with a maximum around 48 ppb ([[s
+ingredient,pork-sausages,Synthesis basis and censoring treatment,48 ppb,true,22]]); and muscle chromium in other work runs near 11 ppb with a maximum around 48 ppb ([[sources/khalafalla2011-beef-ca
+ingredient,pork-sausages,Synthesis basis and censoring treatment,43 ppb,true,"tals-egypt|Khalafalla et al. 2011]]), below the FDA reporting limit. The single 43 ppb nickel composite is treated as an"
+ingredient,pork-sausages,Synthesis basis and censoring treatment,50 ppb,true,"rather than the centre, and chromium is published as fully left-censored at the 50 ppb reporting limit because no pork-s"
 ingredient,pork-sausages,"Ranges by source, region, and variety",4.9 ppb,true," pan-cooked) entry (TDS Food 19, n=27) that shows Pb ranging up to a maximum of 4.9 ppb and Cd predominantly at zero wit"
 ingredient,pork-sausages,Regulatory limits that apply,0.050 mg/kg,true, cadmium in processed meat products is governed by the ML for pork muscle meat (0.050 mg/kg) applied to the meat fractio
 ingredient,potato-chips,Why this commodity accumulates heavy metals,10 ppb,true,"w slice, concentrates all pre-existing metals in proportion; a metal present at 10 ppb in the raw slice may appear at 20"
@@ -1404,6 +1574,17 @@ ingredient,potato-chips,Regulatory limits that apply,100 ppb,true,"mended, the a
 ingredient,potato-chips,Regulatory limits that apply,0.050 mg/kg,true,g/kg (100 ppb) wet weight; a specific Cd limit for processed potato products is 0.050 mg/kg (50 ppb) wet weight under th
 ingredient,potato-chips,Regulatory limits that apply,50 ppb,true,) wet weight; a specific Cd limit for processed potato products is 0.050 mg/kg (50 ppb) wet weight under the framework a
 ingredient,potatoes,Overview,20 ppb,true,ables-for-babies category that the FDA CTZ Pb guidance treats under a dedicated 20 ppb action level.  ## Heavy metal con
+ingredient,potatoes,Synthesis basis and censoring treatment,4 ppb,true,basis and censoring treatment  The FDA Total Diet Study reported lead below its 4 ppb reporting limit and total mercury 
+ingredient,potatoes,Synthesis basis and censoring treatment,1 ppb,true,Study reported lead below its 4 ppb reporting limit and total mercury below its 1 ppb reporting limit in all 27 peeled-b
+ingredient,potatoes,Synthesis basis and censoring treatment,50 ppb,true,"g limit in all 27 peeled-boiled-potato composites, and total chromium below its 50 ppb reporting limit in 26 of 27 compo"
+ingredient,potatoes,Synthesis basis and censoring treatment,63 ppb,true,ow its 50 ppb reporting limit in 26 of 27 composites with a single composite at 63 ppb ([[sources/fda2022-tds-elements-f
+ingredient,potatoes,Synthesis basis and censoring treatment,31 ppb,true,r data clearly detect potato-tuber lead: the UK Nafferton trials reported 14 to 31 ppb fresh weight ([[sources/rempelos2
+ingredient,potatoes,Synthesis basis and censoring treatment,14 ppb,true,al-metals|Rempelos et al. 2023]]) and the German BfR MEAL vegetable group about 14 ppb ([[sources/fechner2022-bfr-meal-h
+ingredient,potatoes,Synthesis basis and censoring treatment,20 ppb,true,"s-cyclone|Dearing et al. 2025]]).  The synthesized central ranges are lead 0 to 20 ppb, total mercury 0 to 1 ppb, and to"
+ingredient,potatoes,Synthesis basis and censoring treatment,1 ppb,true,"25]]).  The synthesized central ranges are lead 0 to 20 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 35 ppb, o"
+ingredient,potatoes,Synthesis basis and censoring treatment,35 ppb,true," ranges are lead 0 to 20 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 35 ppb, on a peeled-boiled as-consumed f"
+ingredient,potatoes,Synthesis basis and censoring treatment,63 ppb,true,-detects agree on a low but non-zero band. The single FDA chromium composite at 63 ppb sits just above the reporting lim
+ingredient,potatoes,Synthesis basis and censoring treatment,32 ppb,true,d in the tail; the Jiaozuo survey confirms real sub-limit chromium at a mean of 32 ppb fresh weight ([[sources/wu2024-he
 ingredient,potatoes,"Ranges by source, region, and variety",0.021 mg/kg,true,"nce data. EFSA 2009 Table 1 reports a mean cadmium concentration in potatoes of 0.021 mg/kg across European samples, whi"
 ingredient,potatoes,Other metals of concern,20 ppb,true,the corresponding source pages are ingested._  - **Pb**: the FDA Closer to Zero 20 ppb Pb action level for single-ingred
 ingredient,potatoes,Other metals of concern,20 ppb,true,da-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]; see [[regulations/fda-ctz-Pb-rootveg-20ppb]]); white potatoes are not in the 
@@ -1413,7 +1594,7 @@ ingredient,potatoes,Regulatory limits that apply,0.10 mg/kg,true,imum levels for
 ingredient,potatoes,Regulatory limits that apply,100 ug/kg,true,"for root and tuber vegetables are 0.10 mg/kg (100 ug/kg) for Cd and 0.10 mg/kg (100 ug/kg) for Pb; for potatoes, the max"
 ingredient,potatoes,Regulatory limits that apply,20 ppb,true,es after washing and edible-part separation. - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ 20 ppb lead action lev
 ingredient,potatoes,Regulatory limits that apply,20 ppb,true,nd edible-part separation. - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ 20 ppb lead action level for single-ingr
-ingredient,potatoes,Sources,190 ppb,true, foods (FY2018–2020); potato chips ranked highest for Cd among TDS foods at P95 190 ppb | | 18 | [[sources/fechner2022-b
+ingredient,potatoes,Sources,190 ppb,true, foods (FY2018–2020); potato chips ranked highest for Cd among TDS foods at P95 190 ppb | | 14 | [[sources/fechner2022-b
 ingredient,potatoes,Sources,93 µg/kg,true,Science | 2020 | Review | FDA/CFSAN Cd mitigation review citing potato chips at 93 µg/kg (FDA TDS 2014–2016) as the thir
 ingredient,potatoes,Sources,2.5 µg/kg,true, | 2009 | Government report | EFSA CONTAM Cd opinion establishing the EU TWI of 2.5 µg/kg bw/week; identifies potatoes a
 ingredient,processed-american-cheese,Why this commodity accumulates heavy metals,300 ppb,true,"ts monitoring. The Cr values observed in the FDA TDS FY2018-FY2020 data (median 300 ppb, n=3) are notable for a dairy pr"
@@ -1523,32 +1704,28 @@ ingredient,rice,Nickel in rice,0.21 µg/g,true,"ckel-content-food-dietary-intake
 ingredient,rice,Nickel in rice,0.45 µg/g,true,"-intake|Flyvholm et al. 1984]] reports rice mean Ni at 0.21 µg/g (range 0.08 to 0.45 µg/g, n=16 samples). In the Danish "
 ingredient,rice,Nickel in rice,0.14 µg/g,true,"i values sit below cocoa, soy, oats, hazelnuts, and almonds but above potatoes (0.14 µg/g), white bread (0.27 µg/g), and"
 ingredient,rice,Nickel in rice,0.27 µg/g,true," soy, oats, hazelnuts, and almonds but above potatoes (0.14 µg/g), white bread (0.27 µg/g), and most vegetables. For hig"
-ingredient,rice,Sources,94.41 mg/kg,true,"d paddy soil (0-20 cm, Dongzhi County, Chizhou, Anhui Province, China; total Sb 94.41 mg/kg) used... (n=1) | | 22 | [[so"
+ingredient,rice,Sources,94.41 mg/kg,true,"d paddy soil (0-20 cm, Dongzhi County, Chizhou, Anhui Province, China; total Sb 94.41 mg/kg) used... (n=1) | | 21 | [[so"
 ingredient,rice,Sources,0.013 µg/g,true,"4 | Peer-reviewed | US commercial baby-food survey: rice cereal (sample S5) tAs 0.013 µg/g (13 ppb, well below the FDA 1"
 ingredient,rice,Sources,13 ppb,true,"iewed | US commercial baby-food survey: rice cereal (sample S5) tAs 0.013 µg/g (13 ppb, well below the FDA 100 ppb iAs a"
 ingredient,rice,Sources,100 ppb,true,"food survey: rice cereal (sample S5) tAs 0.013 µg/g (13 ppb, well below the FDA 100 ppb iAs action level); total As, no "
 ingredient,rice,Sources,0.102 µg/g,true,"ppb, well below the FDA 100 ppb iAs action level); total As, no speciation. The 0.102 µg/g value is the beef-and-gravy s"
 ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
-ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 58 | "
+ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 57 | "
 ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
 ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
 ingredient,rice,Sources,463 µg/kg,true,n Nutrition | 2022 | Peer-reviewed | Guizhou karst rice (n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of Chi
-ingredient,rice,Sources,0.2 mg/kg,true,(n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of China GB 2762-2017 0.2 mg/kg standard | | 125 | [[sources/l
+ingredient,rice,Sources,0.2 mg/kg,true,(n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of China GB 2762-2017 0.2 mg/kg standard | | 119 | [[sources/l
 ingredient,rice,Sources,0.2 mg/kg,true,ty | 2022 | Review | Narrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; cov
 ingredient,rice,Sources,0.4 mg/kg,true,arrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; covers Cr/Cd/Pb/Hg/As tox
-ingredient,rice,Sources,120 µg/kg,true,"(Cardno ChemRisk, FDA EAM 4.7 ICP-MS, n=36): rice-based grain products mean As ~120 µg/kg drive all elevated non-cancer "
-ingredient,rice,Sources,11.9 µg/kg,true, CDC Weekly | 2022 | Government report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) det
-ingredient,rice,Sources,14.5 µg/kg,true,rnment report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) detection rates 100%; Hunan 
 ingredient,rice,Sources,1500 µg/kg,true,Colombia La Mojana (gold-mining-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and 
 ingredient,rice,Sources,10 µg/kg,true,ning-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits
-ingredient,rice,Sources,20 µg/kg,true,in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits | | 145 | [[source
+ingredient,rice,Sources,20 µg/kg,true,in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits | | 137 | [[source
 ingredient,rice,Sources,0.15 mg/kg,true,national Seminar on Chemistry) | 2021 | Peer-reviewed | Jakarta market rice tHg 0.15 mg/kg (Cr also measured) by NAA; ri
 ingredient,rice,Sources,100 ppb,true,mmercial baby rice cereals: HPLC-ICP-MS bio-accessible iAs fractions exceed FDA 100 ppb infant rice-cereal action level 
 ingredient,rice,Sources,0.2 mg/kg,true,in Toxicology | 2020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; cen
 ingredient,rice,Sources,0.4 mg/kg,true,020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; central-China mining
-ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 165 | [[sources/fda2020-ias
+ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 157 | [[sources/fda2020-ias
 ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means including rice: Cr 128, Pb 62, As 28, Cd 20, Hg 20 µg/kg DW; cereals and vegetables driv"
-ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
 ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
 ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
 ingredient,root-vegetable-purees,Why this commodity accumulates heavy metals,20 ppb,true, Closer to Zero baby-food Pb action level differentiates root vegetable purees (20 ppb Pb) from non-root vegetable puree
@@ -1564,7 +1741,7 @@ ingredient,root-vegetables,Regulatory limits that apply,0.10 mg/kg,true,/eu2023-
 ingredient,root-vegetables,Regulatory limits that apply,100 ppb,true,aminants-maximum-levels]] sets Pb at 0.10 mg/kg (100 ppb) and Cd at 0.10 mg/kg (100 ppb) for root vegetables as placed o
 ingredient,root-vegetables,Sources,68.67 µg/kg,true,"r under control and 11 biofortification treatments, with control Pb at 61.33 to 68.67 µg/kg DW and all values well below"
 ingredient,root-vegetables,Sources,59.1 mg/kg,true,", and other vegetables from 5 Kaduna markets (Nigeria) by ED-XRF, with Cr up to 59.1 mg/kg DW in potato and HI exceeding"
-ingredient,root-vegetables,Sources,200 ppm,true,egetable uptake and noting the 2024 EPA soil-Pb screening reduction from 400 to 200 ppm | | 12 | [[sources/wu2024-heavy-
+ingredient,root-vegetables,Sources,200 ppm,true,egetable uptake and noting the 2024 EPA soil-Pb screening reduction from 400 to 200 ppm | | 11 | [[sources/wu2024-heavy-
 ingredient,root-vegetables,Sources,2.55 mg/kg,true,"ips, and cassava near the Ponce Enriquez gold mining area (Ecuador), with As at 2.55 mg/kg in turnips and Cd at 1.64 mg/"
 ingredient,root-vegetables,Sources,1.64 mg/kg,true,"Enriquez gold mining area (Ecuador), with As at 2.55 mg/kg in turnips and Cd at 1.64 mg/kg in turnips both exceeding FAO"
 ingredient,root-vegetables,Sources,3.5 µg/g,true,"(V)-spiked irrigation in Burkina Faso, with carrot edible-part concentration at 3.5 µg/g DW at 500 µg/L As(V) irrigation"
@@ -1651,8 +1828,8 @@ ingredient,soy,Sources,756 µg/L,true," infant formulas including soy-based powd
 ingredient,soy,Sources,4.3 µg/g,true,"| 2010 | Peer-reviewed | Al in UK infant formulas including soy-based powder at 4.3 µg/g (629 µg/L prepared), with eleva"
 ingredient,soy,Sources,629 µg/L,true,"eer-reviewed | Al in UK infant formulas including soy-based powder at 4.3 µg/g (629 µg/L prepared), with elevated soy-fo"
 ingredient,soy,Sources,2270 ppb,true,"n, with soy-based formula means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) | |"
-ingredient,soy,Sources,11.7 ppb,true,"ased formula means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) | | 32 | [[sourc"
-ingredient,soy,Sources,109.4 ppb,true,"means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) | | 32 | [[sources/flyvholm19"
+ingredient,soy,Sources,11.7 ppb,true,"ased formula means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) | | 31 | [[sourc"
+ingredient,soy,Sources,109.4 ppb,true,"means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) | | 31 | [[sources/flyvholm19"
 ingredient,soy,Regulatory limits that apply,1 mg/kg,true,ding soy-based formula. Al is not in the EU 2023/915 ML framework but EFSA TWI (1 mg/kg b.w./week) applies. - [[sources/
 ingredient,soy,Regulatory limits that apply,15 mg/kg,true,rom 1 July 2025 ([[regulations/eu-2024-1987-nickel-maximum-levels]]): soy beans 15 mg/kg (Annex I point 3.6.10.3); soy b
 ingredient,soy,Regulatory limits that apply,6.0 mg/kg,true,beans 15 mg/kg (Annex I point 3.6.10.3); soy beans/edamame as legume vegetables 6.0 mg/kg (point 3.6.6.2); and infant/yo
@@ -1671,7 +1848,7 @@ ingredient,spices,Mitigation options,100 ppb,true,"vel ICP-MS testing of every g
 ingredient,spices,Regulatory limits that apply,1.5 mg/kg,true,"als maxima; general food categories apply. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for ""spices (dry pr"
 ingredient,spices,Regulatory limits that apply,0.5 mg/kg,true,"pices (dry products from seeds, fruits, roots, bark, or other plant parts)"" and 0.5 mg/kg Cd for the same category. The "
 ingredient,spices,Regulatory limits that apply,0.10 mg/kg,true,"t Document derived health-based guidance values (Pb 0.21, Cd 0.21, Cr 0.41, iAs 0.10 mg/kg) for spices specifically. FDA"
-ingredient,spices,Sources,3 mg/L,true," seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 27 | [[sources/kow"
+ingredient,spices,Sources,3 mg/L,true," seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 26 | [[sources/kow"
 ingredient,spinach,Other metals of concern,10 ppb,true,ch is captured by the FDA Closer to Zero processed-baby-food Pb action level of 10 ppb for fruit and vegetable purees ([
 ingredient,spinach,Other metals of concern,10 ppb,true,5|FDA CTZ Pb 2025]]). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].  ## Regulatory limits that appl
 ingredient,spinach,Regulatory limits that apply,0.10 mg/kg,true,u2023-contaminants-maximum-levels]] — EU maximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg
@@ -1680,7 +1857,7 @@ ingredient,spinach,Regulatory limits that apply,0.30 mg/kg,true,els]] — EU max
 ingredient,spinach,Regulatory limits that apply,300 ug/kg,true,aximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and similar lea
 ingredient,spinach,Regulatory limits that apply,0.20 mg/kg,true," leaves, mustard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi"
 ingredient,spinach,Regulatory limits that apply,200 ug/kg,true,"tard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi-page-refere"
-ingredient,spinach,Sources,41.37 mg/kg,true,"d, Cr, and Pb all below detection limits while Al and Fe highest in spinach (Al 41.37 mg/kg) within FAO/WHO limits | | 9"
+ingredient,spinach,Sources,41.37 mg/kg,true,"d, Cr, and Pb all below detection limits while Al and Fe highest in spinach (Al 41.37 mg/kg) within FAO/WHO limits | | 8"
 ingredient,spinach,Sources,000 µg/L,true,"ptake in spinach across four irrigation-water As concentrations (0, 100, 500, 1,000 µg/L) in Burkina Faso; spinach had t"
 ingredient,spinach,Sources,6.6 µg/g,true,"00, 500, 1,000 µg/L) in Burkina Faso; spinach had the highest edible-part As at 6.6 µg/g dw at 500 µg/L, with steaming r"
 ingredient,spinach,Sources,500 µg/L,true,"µg/L) in Burkina Faso; spinach had the highest edible-part As at 6.6 µg/g dw at 500 µg/L, with steaming reducing cooked-"
@@ -1694,6 +1871,17 @@ ingredient,squash,Regulatory limits that apply,200 mg/kg,true,"s to squash produ
 ingredient,squash,Regulatory limits that apply,50 mg/kg,true,"fornia. - EU Sn-in-canned-food regulation sets 200 mg/kg for canned vegetables, 50 mg/kg for canned infant food includin"
 ingredient,strawberries,Why this commodity accumulates heavy metals,8.5 ppb,true,etection in all 27 composites; Cd was detected in most samples with a median of 8.5 ppb and a maximum of 34 ppb; no Pb w
 ingredient,strawberries,Why this commodity accumulates heavy metals,34 ppb,true,ites; Cd was detected in most samples with a median of 8.5 ppb and a maximum of 34 ppb; no Pb was detected [[sources/fda
+ingredient,strawberries,Synthesis basis and censoring treatment,4 ppb,true,"dy reporting the 27 strawberry samples below their reporting limits (lead below 4 ppb, total mercury below 1 ppb, chromi"
+ingredient,strawberries,Synthesis basis and censoring treatment,1 ppb,true,"rry samples below their reporting limits (lead below 4 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal"
+ingredient,strawberries,Synthesis basis and censoring treatment,50 ppb,true,"r reporting limits (lead below 4 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal zeros ([[sources/fda2"
+ingredient,strawberries,Synthesis basis and censoring treatment,6 ppb,true,"esh-fruits-seven-metals|Lee et al. 2023]] reported strawberry lead at a mean of 6 ppb, [[sources/mania2021-lead-cadmium-"
+ingredient,strawberries,Synthesis basis and censoring treatment,17 ppb,true,arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] fresh berries lead at 8 to 17 ppb with a P90 of 26 to 38 and mercur
+ingredient,strawberries,Synthesis basis and censoring treatment,2.1 ppb,true,"8 to 17 ppb with a P90 of 26 to 38 and mercury at a middle-bound mean of 0.4 to 2.1 ppb, [[sources/rusin2021-vegetables-"
+ingredient,strawberries,Synthesis basis and censoring treatment,9 ppb,true,"dmium-lead-poland|Rusin et al. 2021]] Polish fresh strawberry lead at a mean of 9 ppb (max 27), and [[sources/bora2022-h"
+ingredient,strawberries,Synthesis basis and censoring treatment,11 ppb,true,"-romania-vinegar-washing|Bora et al. 2022]] Romanian strawberry lead near 10 to 11 ppb. For chromium, [[sources/reczajsk"
+ingredient,strawberries,Synthesis basis and censoring treatment,32 ppb,true," 2005]] measured total chromium directly in 42 Polish strawberries at a mean of 32 ppb, median 28, P90 56, and maximum 1"
+ingredient,strawberries,Synthesis basis and censoring treatment,134 ppb,true,"y in 42 Polish strawberries at a mean of 32 ppb, median 28, P90 56, and maximum 134 ppb fresh weight, corroborated by th"
+ingredient,strawberries,Synthesis basis and censoring treatment,31 ppb,true,", and maximum 134 ppb fresh weight, corroborated by the Lee fruit chromium near 31 ppb. Elevated allotment-garden lead f"
 ingredient,strawberries,"Ranges by source, region, and variety",8.5 ppb,true," US market data are available from the FDA TDS FY2018-FY2020 dataset (Cd p50 of 8.5 ppb, max 34 ppb, n=27 composites) [["
 ingredient,strawberries,"Ranges by source, region, and variety",34 ppb,true,"ta are available from the FDA TDS FY2018-FY2020 dataset (Cd p50 of 8.5 ppb, max 34 ppb, n=27 composites) [[sources/fda20"
 ingredient,strawberries,Regulatory limits that apply,0.10 mg/kg,true,"ithin the berries and small fruits category. The applicable Pb maximum level is 0.10 mg/kg (100 ppb) wet weight, and the"
@@ -1769,6 +1957,19 @@ ingredient,tomato-soup,Regulatory limits that apply,000 ppb,true,"Union sets a m
 ingredient,tomato-soup,Regulatory limits that apply,200 mg/kg,true,2023-contaminants-maximum-levels]]; canned solid food carries a higher limit of 200 mg/kg. For the tomato base ingredien
 ingredient,tomato-soup,Regulatory limits that apply,0.10 mg/kg,true," limit of 200 mg/kg. For the tomato base ingredients, EU maximum levels for Pb (0.10 mg/kg for fresh tomato) and Cd (0.0"
 ingredient,tomato-soup,Regulatory limits that apply,0.050 mg/kg,true,"ase ingredients, EU maximum levels for Pb (0.10 mg/kg for fresh tomato) and Cd (0.050 mg/kg for fresh tomato) apply at t"
+ingredient,tomato,Synthesis basis and censoring treatment,4 ppb,true,"d analyte below its reporting limit in all 27 raw-tomato composites: lead below 4 ppb, total arsenic below 3 ppb, total "
+ingredient,tomato,Synthesis basis and censoring treatment,3 ppb,true,"ng limit in all 27 raw-tomato composites: lead below 4 ppb, total arsenic below 3 ppb, total mercury below 1 ppb, nickel"
+ingredient,tomato,Synthesis basis and censoring treatment,1 ppb,true,"to composites: lead below 4 ppb, total arsenic below 3 ppb, total mercury below 1 ppb, nickel below 40 ppb, and total ch"
+ingredient,tomato,Synthesis basis and censoring treatment,40 ppb,true,"below 4 ppb, total arsenic below 3 ppb, total mercury below 1 ppb, nickel below 40 ppb, and total chromium below 50 ppb "
+ingredient,tomato,Synthesis basis and censoring treatment,50 ppb,true,"3 ppb, total mercury below 1 ppb, nickel below 40 ppb, and total chromium below 50 ppb ([[sources/fda2022-tds-elements-f"
+ingredient,tomato,Synthesis basis and censoring treatment,5 ppb,true,"s-cyclone|Dearing et al. 2025]]).  The synthesized central ranges are lead 0 to 5 ppb, total arsenic 0 to 3 ppb, total m"
+ingredient,tomato,Synthesis basis and censoring treatment,3 ppb,true,"025]]).  The synthesized central ranges are lead 0 to 5 ppb, total arsenic 0 to 3 ppb, total mercury 0 to 1 ppb, nickel "
+ingredient,tomato,Synthesis basis and censoring treatment,1 ppb,true,"entral ranges are lead 0 to 5 ppb, total arsenic 0 to 3 ppb, total mercury 0 to 1 ppb, nickel 0 to 30 ppb, and total chr"
+ingredient,tomato,Synthesis basis and censoring treatment,30 ppb,true,"ead 0 to 5 ppb, total arsenic 0 to 3 ppb, total mercury 0 to 1 ppb, nickel 0 to 30 ppb, and total chromium 0 to 30 ppb, "
+ingredient,tomato,Synthesis basis and censoring treatment,30 ppb,true,"to 3 ppb, total mercury 0 to 1 ppb, nickel 0 to 30 ppb, and total chromium 0 to 30 ppb, all fresh weight. Lead carries m"
+ingredient,tomato,Synthesis basis and censoring treatment,241 ppb,true,"ed. The Tehran supermarket survey reported markedly higher tomato lead of 79 to 241 ppb, nickel of 161 to 232 ppb, and c"
+ingredient,tomato,Synthesis basis and censoring treatment,232 ppb,true," survey reported markedly higher tomato lead of 79 to 241 ppb, nickel of 161 to 232 ppb, and chromium of 234 to 412 ppb "
+ingredient,tomato,Synthesis basis and censoring treatment,412 ppb,true," tomato lead of 79 to 241 ppb, nickel of 161 to 232 ppb, and chromium of 234 to 412 ppb fresh weight ([[sources/alimoham"
 ingredient,tomato,Regulatory limits that apply,0.10 mg/kg,true, fresh tomatoes under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/
 ingredient,tomato,Regulatory limits that apply,100 ppb,true,oes under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) 
 ingredient,tomato,Regulatory limits that apply,0.050 mg/kg,true,ions/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) on a fresh-weight b
@@ -1831,7 +2032,7 @@ ingredient,vegetables,Regulatory limits that apply,20 ppb,true,"ces/fda-ctz-Pb-b
 ingredient,vegetables,Regulatory limits that apply,2.8 µg/kg,true,([[sources/efsa2015-nickel-food-water|EFSA 2015]]) sets the operative Ni TDI of 2.8 µg/kg BW/day; vegetables are a domin
 ingredient,vegetables,Regulatory limits that apply,25 µg/kg,true,kg BW/day; vegetables are a dominant Ni dietary contributor. - JECFA Cd PTMI of 25 µg/kg BW/month ([[sources/jecfa-73rd-
 ingredient,vegetables,Sources,10 ppb,true,guidance | FDA Closer to Zero lead action levels for processed baby foods; sets 10 ppb Pb for non-root vegetable purees 
-ingredient,vegetables,Sources,20 ppb,true,vels for processed baby foods; sets 10 ppb Pb for non-root vegetable purees and 20 ppb for root vegetable purees | | 12 
+ingredient,vegetables,Sources,20 ppb,true,vels for processed baby foods; sets 10 ppb Pb for non-root vegetable purees and 20 ppb for root vegetable purees | | 11 
 ingredient,vegetables,Sources,25 µg/kg,true, | Government report | JECFA document establishing the international Cd PTMI of 25 µg/kg BW/month; reports vegetables as
 ingredient,vinegar,Mitigation options,5 ppb,true,"  ### Testing and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and tAs (≤ 5 ppb) "
 ingredient,vinegar,Mitigation options,1 ppb,true,"and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and tAs (≤ 5 ppb) is the standar"
@@ -1891,6 +2092,20 @@ ingredient,wheat-cereal-biscuits,Regulatory limits that apply,0.10 mg/kg,true," 
 ingredient,wheat-cereal-biscuits,Regulatory limits that apply,0.20 mg/kg,true," fall under the general 0.10 mg/kg Cd limit. For Pb in cereals, the EU limit is 0.20 mg/kg (200 ppb). [[regulations/code"
 ingredient,wheat-cereal-biscuits,Regulatory limits that apply,200 ppb,true,"the general 0.10 mg/kg Cd limit. For Pb in cereals, the EU limit is 0.20 mg/kg (200 ppb). [[regulations/codex-cadmium-ml"
 ingredient,wheat-cereal-biscuits,Regulatory limits that apply,20 ppb,true, Codex Cd ML for cereal grains. [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb for dry infant cereals) applies w
+ingredient,wheat,Synthesis basis and censoring treatment,12 ppb,true,"e UK Total Diet Study returned all bread, flour and cereal composites below its 12 ppb inorganic-arsenic limit, and the "
+ingredient,wheat,Synthesis basis and censoring treatment,20 ppb,true," 12 ppb inorganic-arsenic limit, and the Irish study reported cereals from 0 to 20 ppb against a 10 ppb detection limit "
+ingredient,wheat,Synthesis basis and censoring treatment,10 ppb,true,"-arsenic limit, and the Irish study reported cereals from 0 to 20 ppb against a 10 ppb detection limit ([[sources/fera20"
+ingredient,wheat,Synthesis basis and censoring treatment,200 ppb,true,"; high-arsenic-groundwater regions, where wheat grain inorganic arsenic exceeds 200 ppb, are elevated context only ([[so"
+ingredient,wheat,Synthesis basis and censoring treatment,4500 ppb,true,"read. For aluminium, large commercial datasets cluster the central near 2000 to 4500 ppb, with a German wheat-grain medi"
+ingredient,wheat,Synthesis basis and censoring treatment,3000 ppb,true," cluster the central near 2000 to 4500 ppb, with a German wheat-grain median of 3000 ppb and a Polish rye-wheat-bread me"
+ingredient,wheat,Synthesis basis and censoring treatment,4054 ppb,true,"th a German wheat-grain median of 3000 ppb and a Polish rye-wheat-bread mean of 4054 ppb, and an upper tail reflecting t"
+ingredient,wheat,Synthesis basis and censoring treatment,19000 ppb,true,"ean of 4054 ppb, and an upper tail reflecting the German wheat-grain maximum of 19000 ppb; the far-tail aluminium-additi"
+ingredient,wheat,Synthesis basis and censoring treatment,47100 ppb,true,"ar-tail aluminium-additive and baking-driven values, including Irish cereals to 47100 ppb, belong to processing rather t"
+ingredient,wheat,Synthesis basis and censoring treatment,1000 ppb,true,ants-poland|Balbo and Wozniak 2022]]). For chromium the prior central of 100 to 1000 ppb overstated clean wheat: Polish 
+ingredient,wheat,Synthesis basis and censoring treatment,27 ppb,true,"l of 100 to 1000 ppb overstated clean wheat: Polish wheat grain ran a median of 27 ppb, UK cereals 5 to 10 ppb, and Euro"
+ingredient,wheat,Synthesis basis and censoring treatment,10 ppb,true,"rstated clean wheat: Polish wheat grain ran a median of 27 ppb, UK cereals 5 to 10 ppb, and European breads by isotope d"
+ingredient,wheat,Synthesis basis and censoring treatment,202 ppb,true,"of 27 ppb, UK cereals 5 to 10 ppb, and European breads by isotope dilution 5 to 202 ppb, all as total chromium with Cr-V"
+ingredient,wheat,Synthesis basis and censoring treatment,1570 ppb,true,-cereals-ssid-hplcicp|Saraiva et al. 2021]]). General-market Ethiopian grain at 1570 ppb anchors the commercial right ta
 ingredient,wheat,"Ranges by source, region, and variety",0.030 mg/kg,true, 2009 Table 1 reports a mean cadmium concentration for wheat grain and flour of 0.030 mg/kg and for wheat bran and germ 
 ingredient,wheat,"Ranges by source, region, and variety",0.065 mg/kg,true,"tration for wheat grain and flour of 0.030 mg/kg and for wheat bran and germ of 0.065 mg/kg, reflecting the approximatel"
 ingredient,wheat,Other metals of concern,20 ppb,true,the corresponding source pages are ingested._  - **Pb**: the FDA Closer to Zero 20 ppb Pb action level for dry infant ce
@@ -1915,10 +2130,10 @@ ingredient,wheat,Nickel in wheat,0.8 µg/g,true,"ange 0.03 to 0.3 µg/g, n=32 sa
 ingredient,wheat,Nickel in wheat,0.33 µg/g,true,"a high per-gram contributor on the order of cocoa, soy, or oats. Whole wheat at 0.33 µg/g is roughly 5x higher than whit"
 ingredient,wheat,Nickel in wheat,0.27 µg/g,true,", soy, or oats. Whole wheat at 0.33 µg/g is roughly 5x higher than white bread (0.27 µg/g, n=65 samples), supporting the"
 ingredient,wheat,Sources,0.447 mg/kg,true,"ations across 103 Mexican foods including cereals; whole wheat bread flagged at 0.447 mg/kg, exceeding FAO/WHO ML | | 9 "
-ingredient,wheat,Sources,25 µg/kg,true, wheat and cereals as major population-level Cd contributors; underpins PTMI of 25 µg/kg BW/month | | 40 | [[sources/kum
+ingredient,wheat,Sources,25 µg/kg,true, wheat and cereals as major population-level Cd contributors; underpins PTMI of 25 µg/kg BW/month | | 38 | [[sources/kum
 ingredient,wheat,Sources,2.5 µg/kg,true,rnal | 2009 | Government report | EU Cd exposure assessment establishing TWI of 2.5 µg/kg BW/week; reports mean Cd in wh
 ingredient,wheat,Sources,0.030 mg/kg,true,ablishing TWI of 2.5 µg/kg BW/week; reports mean Cd in wheat grain and flour at 0.030 mg/kg and in wheat bran/germ at 0.
-ingredient,wheat,Sources,0.065 mg/kg,true,ports mean Cd in wheat grain and flour at 0.030 mg/kg and in wheat bran/germ at 0.065 mg/kg | | 94 | [[sources/hc2008-al
+ingredient,wheat,Sources,0.065 mg/kg,true,ports mean Cd in wheat grain and flour at 0.030 mg/kg and in wheat bran/germ at 0.065 mg/kg | | 91 | [[sources/hc2008-al
 ingredient,wheat,Sources,0.13 µg/g,true," 179(6):427-431 | 1984 | Peer-reviewed | Ni concentrations in wheat flour (mean 0.13 µg/g, n=32) and whole wheat (0.33 µ"
 ingredient,wheat,Sources,0.33 µg/g,true,"ewed | Ni concentrations in wheat flour (mean 0.13 µg/g, n=32) and whole wheat (0.33 µg/g, n=85) by AAS; foundational Da"
 ingredient,white-bread,Why this commodity accumulates heavy metals,29 ppb,true,"riched white pre-sliced bread confirm this pattern, with Cd showing a median of 29 ppb and a maximum of 37 ppb ([[source"
@@ -1926,6 +2141,12 @@ ingredient,white-bread,Why this commodity accumulates heavy metals,37 ppb,true,"
 ingredient,white-bread,Why this commodity accumulates heavy metals,79 ppb,true,"a2022-tds-elements-fy2018-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a maximum of 120 ppb, consist"
 ingredient,white-bread,Why this commodity accumulates heavy metals,120 ppb,true,"8-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a maximum of 120 ppb, consistent with wheat's backgro"
 ingredient,white-bread,Why this commodity accumulates heavy metals,23 ppb,true, through refining. Lead is near detection limits across the distribution (max = 23 ppb). The primary metal accumulation 
+ingredient,white-bread,Synthesis basis and censoring treatment,1 ppb,true,"ed mercury non-detect in all 27 white enriched pre-sliced bread composites at a 1 ppb reporting limit, which is a bound "
+ingredient,white-bread,Synthesis basis and censoring treatment,1 ppb,true,ements-fy2018-fy2020|FDA 2022]]). The cell is now expressed as left-censored at 1 ppb.  The two other national studies c
+ingredient,white-bread,Synthesis basis and censoring treatment,0.3 ppb,true,imit rather than absent. The UK Total Diet Study placed white sliced bread near 0.3 ppb and other bread composites below
+ingredient,white-bread,Synthesis basis and censoring treatment,1 ppb,true, placed white sliced bread near 0.3 ppb and other bread composites below 0.5 to 1 ppb ([[sources/fera2015-uk-tds-metals|
+ingredient,white-bread,Synthesis basis and censoring treatment,5 ppb,true,"s|Baxter et al. 2015]]), and the Irish Total Diet Study found mercury below its 5 ppb detection limit in nearly all cere"
+ingredient,white-bread,Synthesis basis and censoring treatment,1 ppb,true,"016]]). The value is therefore a below-limit bound with a typical range of 0 to 1 ppb, reported as total mercury and not"
 ingredient,white-bread,"Ranges by source, region, and variety",18 ppb,true,[sources/fda2022-tds-elements-fy2018-fy2020]]). The Cd distribution ranges from 18 ppb (minimum) to 37 ppb (maximum) wit
 ingredient,white-bread,"Ranges by source, region, and variety",37 ppb,true,-elements-fy2018-fy2020]]). The Cd distribution ranges from 18 ppb (minimum) to 37 ppb (maximum) with a median of 29 ppb
 ingredient,white-bread,"Ranges by source, region, and variety",29 ppb,true," distribution ranges from 18 ppb (minimum) to 37 ppb (maximum) with a median of 29 ppb, indicating a relatively narrow a"
@@ -2269,28 +2490,25 @@ product,baby-cereals-dry-rice-based,Historical Recalls/Enforcement,20 ppb,true,"
 product,baby-cereals-dry-rice-based,Sources,20 ppb,true,am | 2025 | Government guidance | FDA final Closer to Zero guidance setting the 20 ppb Pb action level for dry infant ce
 product,baby-cereals-dry-rice-based,Sources,005 ppb,true,"AAS; infant rice cereal (Brand 2) returned the highest single-sample value at 1,005 ppb Pb, exceeding FAO/WHO ML fivefol"
 product,baby-cereals-dry-rice-based,Sources,0.06 µg/kg,true,t report | EFSA CONTAM Panel updated iAs risk assessment establishing BMDL₀₅ of 0.06 µg/kg bw/day from skin cancer endpo
-product,baby-cereals-dry-rice-based,Sources,20 ppb,true,d as the empirical basis for the January 2025 final action levels including the 20 ppb dry-cereal level | | 16 | [[sourc
+product,baby-cereals-dry-rice-based,Sources,20 ppb,true,d as the empirical basis for the January 2025 final action levels including the 20 ppb dry-cereal level | | 15 | [[sourc
 product,baby-cereals-dry-rice-based,Sources,135 ppb,true,"Pb, Cd, and Hg in FY2009–FY2024 FDA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb;"
 product,baby-cereals-dry-rice-based,Sources,19.2 ppb,true,"n FY2009–FY2024 FDA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb; n=252–256) | | "
-product,baby-cereals-dry-rice-based,Sources,22 ppb,true,"DA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb; n=252–256) | | 17 | [[sources/ga"
-product,baby-cereals-dry-rice-based,Sources,40 ppb,true,Pb below LOD in all samples; mercury signal in cereal-cream/grain products (max 40 ppb tHg) | | 19 | [[sources/soni2024-
+product,baby-cereals-dry-rice-based,Sources,22 ppb,true,"DA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb; n=252–256) | | 16 | [[sources/ga"
+product,baby-cereals-dry-rice-based,Sources,40 ppb,true,Pb below LOD in all samples; mercury signal in cereal-cream/grain products (max 40 ppb tHg) | | 18 | [[sources/soni2024-
 product,baby-cereals-dry-rice-based,Sources,142 ppb,true, Brazilian infant cereals by ICP-MS/HPLC-ICP-MS; rice-based pool (n=14) tAs p90 142 ppb with rice/non-rice subcategory b
 product,baby-cereals-dry-rice-based,Sources,249 ppb,true,30 Austrian market rice and rice products (including infant rice); iAs range 60–249 ppb; 22 of 30 samples would exceed t
 product,baby-cereals-dry-rice-based,Sources,100 ppb,true,including infant rice); iAs range 60–249 ppb; 22 of 30 samples would exceed the 100 ppb infant ML; reference method vali
-product,baby-cereals-dry-rice-based,Sources,85 ppb,true, independent primary data; cites Clean Label Project survey reporting iAs up to 85 ppb in infant rice cereals | | 32 | [
-product,baby-cereals-dry-rice-based,Sources,90.4 ppb,true,"group (n=9, mostly rice-containing) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb | "
-product,baby-cereals-dry-rice-based,Sources,126 ppb,true,"y rice-containing) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb | | 33 | [[sources/"
-product,baby-cereals-dry-rice-based,Sources,132 ppb,true,"ning) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb | | 33 | [[sources/parker2022-ba"
+product,baby-cereals-dry-rice-based,Sources,85 ppb,true, independent primary data; cites Clean Label Project survey reporting iAs up to 85 ppb in infant rice cereals | | 30 | [
 product,baby-cereals-dry-rice-based,Sources,820 ppb,true," six compositions including rice-flour and multicereal variants; Al range 920–8,820 ppb; rice-containing compositions ro"
 product,baby-cereals-dry-rice-based,Sources,100 ppb,true,(Docket FDA-2016-D-1099) | 2020 | Government report | FDA final action level of 100 ppb iAs for infant rice cereals (dry
 product,baby-cereals-dry-rice-based,Sources,100 ppb,true,fant foods including rice cereal (n=12); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134
-product,baby-cereals-dry-rice-based,Sources,134 ppb,true,2); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134 ppb | | 50 | [[sources/shi2020-rice-
+product,baby-cereals-dry-rice-based,Sources,134 ppb,true,2); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134 ppb | | 46 | [[sources/shi2020-rice-
 product,baby-cereals-dry-rice-based,Sources,269 ppb,true,ts; Cr(VI) not detected in any sample; breakfast cereals highest total Cr (mean 269 ppb); confirms food-matrix Cr is ess
 product,baby-cereals-dry-rice-based,Sources,100 ppb,true, | 2018 | Peer-reviewed | iAs in UK infant rice-based foods before and after EU 100 ppb ML implementation; 2017 pure bab
 product,baby-cereals-dry-rice-based,Sources,66 ppb,true,ore and after EU 100 ppb ML implementation; 2017 pure baby rice porridge median 66 ppb (down from 127 ppb in 2014); mult
 product,baby-cereals-dry-rice-based,Sources,127 ppb,true,00 ppb ML implementation; 2017 pure baby rice porridge median 66 ppb (down from 127 ppb in 2014); multi-grain porridge m
 product,baby-cereals-dry-rice-based,Sources,10 ppb,true,porridge median 66 ppb (down from 127 ppb in 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes 
-product,baby-cereals-dry-rice-based,Sources,120 ppb,true,n 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes at 120 ppb remain a risk vector | | 59 | [[
+product,baby-cereals-dry-rice-based,Sources,120 ppb,true,n 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes at 120 ppb remain a risk vector | | 55 | [[
 product,baby-cereals-dry-rice-based,Sources,85 ppb,true," speciation ICP-MS in 149 US infant rice cereals (rice as only grain); mean iAs 85 ppb, range 22–142 ppb; all samples be"
 product,baby-cereals-dry-rice-based,Sources,142 ppb,true,"S in 149 US infant rice cereals (rice as only grain); mean iAs 85 ppb, range 22–142 ppb; all samples below FDA proposed "
 product,baby-cereals-dry-rice-based,Sources,100 ppb,true," only grain); mean iAs 85 ppb, range 22–142 ppb; all samples below FDA proposed 100 ppb action level; primary empirical "
@@ -2302,7 +2520,7 @@ product,baby-cereals-dry-rice-based,Sources,10 ppb,true,"g, Ni, Sn) category-lev
 product,baby-cereals-dry-rice-based,Sources,6 ppb,true,"egory-level survey in 297 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs"
 product,baby-cereals-dry-rice-based,Sources,3 ppb,true,"l survey in 297 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs non-rice "
 product,baby-cereals-dry-rice-based,Sources,127 ppb,true,"7 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs non-rice not separated "
-product,baby-cereals-dry-rice-based,Sources,283 ppb,true,her foods; not a primary concentration source; modeled rice-cereal iAs range 23–283 ppb | | 71 | [[sources/signes-pastor
+product,baby-cereals-dry-rice-based,Sources,283 ppb,true,her foods; not a primary concentration source; modeled rice-cereal iAs range 23–283 ppb | | 67 | [[sources/signes-pastor
 product,baby-cereals-dry-rice-based,Sources,121 ppb,true,t iAs occurrence in EU and US baby rice and rice cereals; baby rice medians 114–121 ppb; rice cereal medians 75–91 ppb; 
 product,baby-cereals-dry-rice-based,Sources,91 ppb,true,by rice and rice cereals; baby rice medians 114–121 ppb; rice cereal medians 75–91 ppb; highest rice cereal value 323 pp
 product,baby-cereals-dry-rice-based,Sources,323 ppb,true,e medians 114–121 ppb; rice cereal medians 75–91 ppb; highest rice cereal value 323 ppb; primary iAs occurrence source f
@@ -2746,10 +2964,10 @@ product,fruit-purees,Sources,10 ppb,true,"reviewed | IEUBK/ICRP/AALM biokinetic 
 product,fruit-purees,Sources,20 ppb,true,"K/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/cereal); fruits, "
 product,fruit-purees,Sources,139 µg/kg,true, ready-to-eat baby foods; fruit mousse subcategory had highest reported Pb (max 139 µg/kg) among product groups tested |
 product,fruit-purees,Sources,500 µg/kg,true,"| ICP-OES total Al measurement in 15 Brazilian commercial fruit purees (up to 2,500 µg/kg) plus in vitro bioaccessibilit"
-product,fruit-purees,Sources,424 µg/kg,true,", and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 24 | [[sourc"
+product,fruit-purees,Sources,424 µg/kg,true,", and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 23 | [[sourc"
 product,fruit-purees,Sources,20 µg/kg,true,"ke during weaning to elevated urinary iAs; cites prior data reporting iAs up to 20 µg/kg in fruit and vegetable purees, "
 product,fruit-purees,Sources,125 µg/kg,true,"tals (including Al, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014"
-product,fruit-purees,Sources,50 µg/kg,true,"l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 30 | "
+product,fruit-purees,Sources,50 µg/kg,true,"l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 29 | "
 product,fruit-snacks,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,true,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915"
 product,herbal-botanical-infusions,Levers to reduce contamination,2.17 mg/kg,true,2021-metals-herbs-spices-tea-coffee-poland]] for herb-specific ranges (Cd up to 2.17 mg/kg DM in hoary rockrose vs <LOQ 
 product,infant-formula-concentrated-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.4 ug/kg,true,"deral product-specific limit loaded in this crosswalk. | tAs: N=8, detected 0.2-0.4 ug/kg; Pb: N=8, detected 0.05-0.4 ug"
@@ -2953,16 +3171,16 @@ product,infant-formula-powder-soy-based,Levers to reduce contamination,18.3 ppb,
 product,infant-formula-powder-soy-based,Sources,2550 ppb,true,"8 | 2016 | Government report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), t"
 product,infant-formula-powder-soy-based,Sources,11 ppb,true,"rnment report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni "
 product,infant-formula-powder-soy-based,Sources,4.6 ppb,true,"| UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and"
-product,infant-formula-powder-soy-based,Sources,7 ppb,true,"sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 106 | ["
-product,infant-formula-powder-soy-based,Sources,200 ppb,true,"category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 106 | [[sources/pac"
+product,infant-formula-powder-soy-based,Sources,7 ppb,true,"sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 103 | ["
+product,infant-formula-powder-soy-based,Sources,200 ppb,true,"category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 103 | [[sources/pac"
 product,infant-formula-powder-soy-based,Sources,756 ppb,true,viewed | Al in UK powdered infant formulas including 2 soy-powder products; 656–756 ppb prepared estimate from powder fo
 product,infant-formula-powder-soy-based,Sources,10 µg/L,true,viewed | tAs in soy toddler formula with organic brown rice syrup (1.5–2.5× the 10 µg/L drinking-water standard); highli
 product,infant-formula-powder-soy-based,Sources,18.3 ppb,true,on and Analysis | 2012 | Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy ba
 product,infant-formula-powder-soy-based,Sources,30.5 ppb,true,| Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy basket higher than milk-f
-product,infant-formula-powder-soy-based,Sources,1461 ppb,true," formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 125 | [[source"
+product,infant-formula-powder-soy-based,Sources,1461 ppb,true," formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 122 | [[source"
 product,infant-formula-powder-soy-based,Sources,629 ppb,true,trics | 2010 | Peer-reviewed | Al in UK infant formulas including 1 soy powder; 629 ppb prepared estimate for the soy po
-product,infant-formula-powder-soy-based,Sources,2270 ppb,true,"nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 130 | [[sour"
-product,infant-formula-powder-soy-based,Sources,2720 ppb,true,"dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 130 | [[sources/jecfa-67th"
+product,infant-formula-powder-soy-based,Sources,2270 ppb,true,"nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 127 | [[sour"
+product,infant-formula-powder-soy-based,Sources,2720 ppb,true,"dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 127 | [[sources/jecfa-67th"
 product,infant-formula-powder-soy-based,Sources,35 ppb,true,"oy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) | <!-- END: hmi-source-legend --"
 product,infant-formula-powder-soy-based,Contradiction watch,0.5 ppb,true,--- | | Pb | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.5 ppb | 20.1 (typical) / 119 (P95) | 4
 product,infant-formula-powder-soy-based,Contradiction watch,0.08 ppb,true,an | | tHg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.08 ppb | 1 (typical) / 29.3 (P95) | 12
@@ -2977,7 +3195,7 @@ product,infant-formula-powder,Sources,488 µg/kg,true,"tegory-level mean concent
 product,infant-formula-powder,Sources,4 µg/kg,true,"n concentrations for 16 metals in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) a"
 product,infant-formula-powder,Sources,4 µg/kg,true,"ns for 16 metals in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy for"
 product,infant-formula-powder,Sources,54 µg/kg,true,"s in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 "
-product,infant-formula-powder,Sources,550 µg/kg,true,"88 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 µg/kg) from 2013–2014 | | 87 | [[sou"
+product,infant-formula-powder,Sources,550 µg/kg,true,"88 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 µg/kg) from 2013–2014 | | 86 | [[sou"
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,10 ug/kg,true,"ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 10 ug/kg Pb. Scope: infant formulae, fol"
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.5 ug/kg,true,aced on market. | FDA 2026 ready-to-feed cow-milk subset: N=20; Pb detected 0.2-0.5 ug/kg; ready-to-feed values are the 
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,5 ug/kg,true,"d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 5 ug/kg Cd. Scope: infant formulae, foll"
@@ -3075,7 +3293,7 @@ product,infant-formula-rtf-liquid-soy-based,Sources,200 µg/kg,true,"ormula cate
 product,infant-formula-rtf-liquid-soy-based,Sources,10 µg/L,true,"ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi"
 product,infant-formula-rtf-liquid-soy-based,Sources,730 µg/kg,true,"asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1"
 product,infant-formula-rtf-liquid-soy-based,Sources,1.18 µg/kg,true,"protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea"
-product,infant-formula-rtf-liquid-soy-based,Sources,1.45 µg/kg,true," ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 33"
+product,infant-formula-rtf-liquid-soy-based,Sources,1.45 µg/kg,true," ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 31"
 product,infant-formula-rtf-liquid-soy-based,Sources,2.5 µg/kg,true,9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati
 product,infant-formula-rtf-liquid-soy-based,Contradiction watch,1.1 ppb,true,--- | | Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.1 ppb | 2.95 (typical) / 7.55 (P95) | 
 product,kombucha-tea-based,Source Evidence Inventory,47 mg/kg,true,"dence note:** The dramatic increase in Pb concentration with time (0.95 → 7.1 → 47 mg/kg across 14-day, 19-day, and pack"
@@ -3385,7 +3603,7 @@ product,mixed-meals-rice-containing,Why This Category Is High-Risk,0.008 mg/kg,t
 product,mixed-meals-rice-containing,Why This Category Is High-Risk,0.048 mg/kg,true,"ted that rice/rice-mix baby foods had median Pb of 0.008 mg/kg and median As of 0.048 mg/kg among detected items, with 3"
 product,mixed-meals-rice-containing,Sources,8 ppb,true,"r-reviewed | Global scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exc"
 product,mixed-meals-rice-containing,Sources,48 ppb,true,"scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exceeding the Pb maximu"
-product,mixed-meals-rice-containing,Sources,10 ppb,true,"ood rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures | | 5 |"
+product,mixed-meals-rice-containing,Sources,10 ppb,true,"ood rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures | | 4 |"
 product,mixed-meals-rice-containing,Sources,100 ppb,true,ren 0–6; canonical NGO/policy reference behind cost-benefit arguments for FDA's 100 ppb iAs action level on rice-cereal-
 product,mixed-meals-rice-containing,Sources,6.45 µg/kg,true," in 87 European rice products including baby-food rice, finding MeHg range 0.11-6.45 µg/kg; provides the mercury occurre"
 product,mixed-meals-rice-containing,Sources,9 ppb,true,"102048 | 2016 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) fo"
@@ -3735,7 +3953,7 @@ product,seafood,Levers to reduce contamination,0.10 mg/kg,true,"dator cap; sourc
 product,seafood,Levers to reduce contamination,1.0 mg/kg,true,"lams, and cephalopods correlates with regional water-column Cd burden. EU limit 1.0 mg/kg for bivalves and cephalopods ("
 product,seafood,Levers to reduce contamination,200 mg/kg,true, Sn from canned-fish packaging is the documented exception; EC 1881/2006 cap of 200 mg/kg for canned foods (and 50 mg/kg
 product,seafood,Levers to reduce contamination,50 mg/kg,true,s the documented exception; EC 1881/2006 cap of 200 mg/kg for canned foods (and 50 mg/kg for canned infant foods) addres
-product,seafood,Levers to reduce contamination,1.3 µg/kg,true,f-side workbench. - **EFSA MeHg PTWI** (provisional tolerable weekly intake) is 1.3 µg/kg body weight; many state-level 
+product,seafood,Levers to reduce contamination,1.3 µg/kg,true,not on this page. - **EFSA MeHg PTWI** (provisional tolerable weekly intake) is 1.3 µg/kg body weight; many state-level 
 product,seafood,Levers to reduce contamination,0.1 µg/kg,true,dy weight; many state-level US advisories cite the more conservative EPA RfD of 0.1 µg/kg/day. The factor-of-7 gap betwe
 product,seafood,Historical recalls and enforcement,1.0 mg/kg,true,tion (EU) 2022/617** raised the maximum Hg limit on certain predatory fish from 1.0 mg/kg to 0.3-1.0 mg/kg depending on 
 product,seafood,Historical recalls and enforcement,1.0 mg/kg,true,"7** raised the maximum Hg limit on certain predatory fish from 1.0 mg/kg to 0.3-1.0 mg/kg depending on species, tighteni"
@@ -3748,7 +3966,7 @@ product,shellfish,Sources,6.4 mg/L,true," | [[sources/authors2025-on-day-7-6-4-m
 product,skin-lightening-cream,(opening),000 ppm,true,"s position on documented mercury contamination in this product class (up to 210,000 ppm in the literature) and the recom"
 product,soy-products,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,true,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915"
 product,spices,Literature Evidence Summary,600 ppb,true,ation data loaded for this analyte | Sample-level detection rate not reported | 600 ppb | 0 | data gap | Basis not repor
-product,spices,Sources,3 mg/L,true," seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 45 | [[sources/kow"
+product,spices,Sources,3 mg/L,true," seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 44 | [[sources/kow"
 product,spinach,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,true,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915"
 product,sunflower-seed-butter,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,true,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915"
 product,sunflower-seeds,Overview,265 µg/kg,true,remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s

@@ -47,7 +47,7 @@ Withdrawal record from [[sources/jecfa-73rd-lead-2010|JECFA 73rd 2010]]:
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/jecfa-73rd-lead-2010|Evaluation of Certain Food Additives and Contaminants: Seventy-third Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead)]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 960 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209601)</span><span class="hmi-ref-tag">Government</span>
+1. [[sources/jecfa-73rd-lead-2010|Lead (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 960 (2011); lead addendum in WHO Food Additives Series No. 64 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209601)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>
 3. [[sources/atsdr-lead-toxprofile-2020|Toxicological Profile for Lead]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2020 · [doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222)</span><span class="hmi-ref-tag">Government</span>
 4. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
@@ -62,9 +62,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [ee52c633b](https://github.com/paleofoundation/heavymetalindex/commit/ee52c633b) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 6 sources added; 2 sections added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 6 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

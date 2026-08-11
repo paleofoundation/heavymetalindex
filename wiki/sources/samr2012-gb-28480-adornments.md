@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 GB 28480-2012 sets harmful-element limits for adornments, excluding gems. It includes nickel release limits for piercing and prolonged-skin-contact articles, total-content limits for metal adornments, and soluble-element limits for children's jewellery. The nickel release provisions are expressed as micrograms per square centimetre per week and are not represented in the µg/kg register. The structured rows transcribe the total-content and soluble-element mg/kg provisions for HMI-controlled metals.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4e41864fb](https://github.com/paleofoundation/heavymetalindex/commit/4e41864fb) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

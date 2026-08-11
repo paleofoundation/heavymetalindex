@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-grain-syrup",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "be6f2d0001ec5fb0dea16363ce34a7435243d50d13e093fe6a1b38027f26e8c7",
-      "content_bytes": 2002,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "fb32e50df18d49316b927f0945b0a657b0c437ce7649b2594510d42e755b190b",
+      "content_bytes": 2009,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/rice-grain-syrup.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/rice-grain-syrup.md | sha256sum"
     }
   },
   "evidence_base": {

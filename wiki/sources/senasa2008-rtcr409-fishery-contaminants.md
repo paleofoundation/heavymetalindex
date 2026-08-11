@@ -27,3 +27,13 @@ This Costa Rican official-gazette source publishes Decreto Ejecutivo No. 34687-M
 The routeable heavy-metal rows are in section 3, "Contaminantes quimicos." Section 3.1 lists mercury limits for fishery products, section 3.2 lists cadmium limits, section 3.3 lists lead limits, and section 3.4 lists a tin limit for canned fishery products. The source heading says mercury without a methylmercury qualifier, so HMI records those rows as `tHg` rather than `MeHg`.
 
 Values are recorded in `data/evidence/regulatory_limits.csv` in `ug/kg`, converted from the source's `mg/kg` limits by multiplying by 1000. The source table does not state a wet-weight or dry-weight qualifier, so the structured rows preserve the legal basis as product placed on the market and note the missing wet/dry qualifier.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

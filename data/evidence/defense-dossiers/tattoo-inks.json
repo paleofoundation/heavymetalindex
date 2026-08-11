@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tattoo-inks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "059af99db6f0d2e7264baefd9431e3dd6c0d1127b99c8b4698c4b7f9313d27ee",
-      "content_bytes": 11103,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "edf25b276ce9ea949e1865f7798095d1e32825aee0f7268826cef432c2e8ea81",
+      "content_bytes": 11127,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "45c24ed91210e98a550d15e78ae2b7c14a28c305fcb4e593d350fa6c2886306a",
-          "content_bytes": 34468,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "0783923bbfae9d21d9163734617816ea6087df4531207c6c28e5ad5419182f83",
+          "content_bytes": 34492,
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       },
       {
@@ -80,12 +80,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-tattoo-inks-metals",
         "content_pin": {
-          "content_sha256": "3ca2443d73f1c212323799143e59c263d098e92815aee7bd804ffa90c2efc37d",
+          "content_sha256": "69b53c3697f7580984d332bde37be5e5364fbefcd98c2a8f0b805c69ad0dbd82",
           "content_bytes": 7101,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/cwielag-drabek2025-tattoo-inks-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/cwielag-drabek2025-tattoo-inks-metals.md | sha256sum"
         }
       },
       {
@@ -107,12 +107,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gautam2023-tattoo-ink-heavy-metals-risk",
         "content_pin": {
-          "content_sha256": "b580f558f64dc2f565658e869dcafc77c7fb4b096a84aa1d5eeed85d3b79f1d0",
+          "content_sha256": "068944a4f90463aa7a8908f677088b428c35eb4ddcba2150999663d7f9d0571f",
           "content_bytes": 10694,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/gautam2023-tattoo-ink-heavy-metals-risk.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/gautam2023-tattoo-ink-heavy-metals-risk.md | sha256sum"
         }
       },
       {
@@ -128,12 +128,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hardy2025-uk-reach-tattoo-pmu-decision",
         "content_pin": {
-          "content_sha256": "2c2877c5c9a25b31d7fa4b175949853222d465df996278e356ba8628e7bb6c21",
+          "content_sha256": "a4b9b0c55e65031455b6e3ed3d68c509befcda7076fc74fc8287406c6b5ad00d",
           "content_bytes": 7742,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/hardy2025-uk-reach-tattoo-pmu-decision.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/hardy2025-uk-reach-tattoo-pmu-decision.md | sha256sum"
         }
       },
       {
@@ -161,12 +161,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/piccinini2016-tattoo-pmu-safety",
         "content_pin": {
-          "content_sha256": "101e15246d64c7d286ef0e8cb489016990e9dcebd761ae33225b4ab4c42439e0",
+          "content_sha256": "41edcf42488513eb9f4a496d89c790b4f844da3c4ee3ce6d1cd832808c599a62",
           "content_bytes": 10081,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/piccinini2016-tattoo-pmu-safety.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/piccinini2016-tattoo-pmu-safety.md | sha256sum"
         }
       },
       {
@@ -182,12 +182,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran",
         "content_pin": {
-          "content_sha256": "36ef561acc7f1e8f558d28392da999b5bc05180bedbdeaedd5bf82c99b2771d0",
+          "content_sha256": "0d5b9d37194f30cd104cebab9b9817d03b1214f0269e99e3ed6b2ca55fe152cc",
           "content_bytes": 11582,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran.md | sha256sum"
         }
       }
     ]

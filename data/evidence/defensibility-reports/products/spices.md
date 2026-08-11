@@ -2,15 +2,15 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: cf905883afb9717939e7f9fc59f1c4900a60b101dd8ea9c413762bf796238cb5
+source_page_sha256: c71f83175864396f916809d9d826eafcf32b6276565d3375071482518af19ed9
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
-distinct_cited_targets: 64
-distinct_cited_sources: 64
-audit_rows_for_page: 4
+distinct_cited_targets: 63
+distinct_cited_sources: 63
+audit_rows_for_page: 5
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,17 +32,18 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 2 |
 | cited claims | 1 |
 | uncited claims | 1 |
-| distinct cited targets | 64 |
-| distinct cited `sources/` pages | 64 |
-| audit rows on this page | 4 |
+| distinct cited targets | 63 |
+| distinct cited `sources/` pages | 63 |
+| audit rows on this page | 5 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=0ca170a1-7582-4f05-a870-e3dc297a7ef3` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=frontmatter-alias-backfill
 - `edit_id=cat7-step0-lock-spices-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
 - `edit_id=taxonomy-v2.2-cat7dissolution-spices-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
+- `edit_id=governance-spices-across-row-hook-resolved-2026-06-18` · retrieval=2026-06-18 · models=[claude-opus-4-8] · agreement=single_model · applied=2026-06-18T12:00:00.000Z · span=frontmatter:across_row_review_hook
 - `edit_id=governance-spices-across-row-hook-resolved-2026-06-18` · retrieval=2026-06-18 · models=[claude-opus-4-8] · agreement=single_model · applied=2026-06-18T12:00:00.000Z · span=frontmatter:across_row_review_hook
 
 ## Claims by section
@@ -56,8 +57,8 @@ This report joins every numerical claim on the page to its citation chain and th
 ### Sources
 
 #### Claim `3 mg/L`
-- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 45 | [[sources/kow`
-- Cited targets (64):
+- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 44 | [[sources/kow`
+- Cited targets (63):
   - `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alam2022-dhaka-spices-lead\.md` (page missing)
@@ -139,8 +140,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/mercanyucel2022-van-spices-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/moussa2024-spices-herbs-lebanon\.md` (page missing)
     - audit rows: none
@@ -238,7 +237,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
 | `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/mercanyucel2022-van-spices-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/moussa2024-spices-herbs-lebanon\.md` | sources | 0 | — | — |
 | `wiki/sources/munarso2024-vanilla-indonesia-quality\.md` | sources | 0 | — | — |
 | `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` | sources | 0 | — | — |

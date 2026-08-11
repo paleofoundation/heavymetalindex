@@ -6,7 +6,7 @@ name: Copper
 species: [Cu+, Cu2+, copper-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 316
+sources: 314
 wiki_doi: null
 updated: 2026-04-30
 status: stub

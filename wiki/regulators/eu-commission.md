@@ -36,30 +36,90 @@ The European Commission holds the legislative power to set binding food-contamin
 | Lead | Maximum level | multiple — see instrument | [[regulations/eu-2023-915-lead-infant-young-child-foods\|Lead Maximum Levels for Infant and Young-Child Foods]] | — | in-force |
 | Lead | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Lead | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | 2002 | superseded |
+| Lead | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] | 2002 | active |
 | Lead | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
+| Lead | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Lead | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] | 2011 | active |
+| Lead | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Lead | — | multiple — see instrument | [[regulations/eu-reach-2015-628-lead-mouthable-articles\|eu-reach-2015-628-lead-mouthable-articles]] | 2015 | active |
+| Lead | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Lead | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] | 2020 | active |
+| Lead | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
 | Lead | Maximum level | 0.2 mg/kg wet weight | [[regulations/eu-2021-1317-lead-cereals-superseded\|Lead maximum level for cereals and pulses]] | 2021 | superseded |
+| Lead | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
+| Lead | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] | 2023 | active |
 | Cadmium | Maximum level | see instrument | [[regulations/eu-2023-915-cadmium\|Commission Regulation]] | — | maximum levels |
 | Cadmium | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Cadmium | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | 2002 | superseded |
+| Cadmium | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] | 2002 | active |
 | Cadmium | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
+| Cadmium | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] | 2011 | active |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-reach-2011-494-cadmium-annex-xvii\|eu-reach-2011-494-cadmium-annex-xvii]] | 2012 | active |
+| Cadmium | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] | 2020 | active |
+| Cadmium | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
 | Cadmium | Maximum level | multiple — see instrument | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|Cadmium maximum levels for cereals]] | 2021 | superseded |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
+| Cadmium | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] | 2023 | active |
 | Inorganic arsenic | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Inorganic arsenic | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
 | Inorganic arsenic | — | multiple — see instrument | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | 2016 | superseded |
+| Inorganic arsenic | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Inorganic arsenic | Maximum level | multiple — see instrument | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] | 2025 | active |
 | Total arsenic | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
+| Total arsenic | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] | 2002 | active |
+| Total arsenic | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Total arsenic | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Total arsenic | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Total arsenic | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] | 2020 | active |
+| Total arsenic | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
+| Total arsenic | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
+| Total arsenic | Maximum level | multiple — see instrument | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] | 2025 | active |
 | Total mercury | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Total mercury | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | 2002 | superseded |
+| Total mercury | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] | 2002 | active |
 | Total mercury | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
+| Total mercury | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Total mercury | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] | 2011 | active |
+| Total mercury | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
 | Total mercury | MRL | 0.01 mg/kg as mercury | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | 2018 | finalized |
+| Total mercury | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Total mercury | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
+| Total mercury | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
 | Total mercury | Maximum level | multiple — see instrument | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | 2022 | finalized |
+| Total mercury | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] | 2023 | active |
 | Methylmercury | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
 | Nickel | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] | — | historical-as-described-in-source |
 | Nickel | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
+| Nickel | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Nickel | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Nickel | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Nickel | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
+| Nickel | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
 | Nickel | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] | 2024 | in-force |
 | Nickel | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] | 2024 | in-force |
+| Aluminium | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Aluminium | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Aluminium | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
+| Hexavalent chromium | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] | 2011 | active |
+| Hexavalent chromium | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Hexavalent chromium | — | 3000 mg/kg | [[regulations/eu-reach-2014-301-chromium-vi-leather\|eu-reach-2014-301-chromium-vi-leather]] | 2015 | active |
+| Hexavalent chromium | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | 2019 | active |
+| Hexavalent chromium | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] | 2020 | active |
+| Hexavalent chromium | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
 | Tin | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Tin | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
+| Tin | — | see instrument | [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin\|organotin compounds in skin-contact and childcare…]] | 2012 | active |
+| Tin | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Antimony | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
+| Antimony | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | 2013 | active |
+| Antimony | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
+| Antimony | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | 2022 | active |
+| Cr-total | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | 2011 | active |
 | multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients) | Maximum level | see instrument | [[regulations/eu-cosmetics-1223-2009\|prohibited-substance framework]] | 2013 | enforced |
+| Cr-total | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | 2021 | active |
 <!-- END: hmi-regulator-positions -->
 
 ## Where it diverges
@@ -67,6 +127,15 @@ The European Commission holds the legislative power to set binding food-contamin
 The Commission's maximum levels are binding concentration limits in specific foods and are not comparable with EFSA's or JECFA's intake-based guidance — though they and FDA's action levels both express concentrations (mg/kg vs ppb) and can be compared food-by-food where the matrices match. The EU's infant-food lead limits are among the tightest in force globally; where they sit below US FDA action levels for comparable categories, the gap reflects the EU's more precautionary, binding posture rather than a different toxicological basis.
 
 <!-- BEGIN: hmi-regulator-divergence -->
+### Cr-total
+
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
+
 ### multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients)
 
 _No other tracked body sets a position for multiple (annex ii prohibits pb, cd, as, hg, sb, be, cr and their compounds as ingredients); EC is the only one in the index._
@@ -76,12 +145,24 @@ _No other tracked body sets a position for multiple (annex ii prohibits pb, cd, 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
 | **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2015-628-lead-mouthable-articles\|eu-reach-2015-628-lead-mouthable-articles]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] |
 | **EC** | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] |
 | **EC** | Maximum level | multiple — see instrument | [[regulations/eu-2023-915-lead-infant-young-child-foods\|Lead Maximum Levels for Infant and Young-Child Foods]] |
 | **EC** | Maximum level | 0.2 mg/kg wet weight | [[regulations/eu-2021-1317-lead-cereals-superseded\|Lead maximum level for cereals and pulses]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
 | **EC** | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
 | [[regulators/jecfa\|JECFA]] | PTWI | withdrawn | [[regulations/jecfa-lead-ptwi-withdrawn\|Lead Provisional Tolerable Weekly Intake]] |
 | [[regulators/efsa\|EFSA]] | BMDL (no threshold) | no numeric threshold (BMDL basis) | [[regulations/efsa-lead-contam-2010\|Lead in Food]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
 | [[regulators/us-fda\|FDA]] | Action level | 10 ppb | [[regulations/fda-ctz-Pb-babyfood-10ppb\|FDA Closer to Zero — 10 ppb Lead Action Level for…]] |
 | [[regulators/us-fda\|FDA]] | Action level | 20 ppb | [[regulations/fda-ctz-Pb-cereal-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for…]] |
 | [[regulators/us-fda\|FDA]] | Action level | 20 ppb | [[regulations/fda-ctz-Pb-rootveg-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for…]] |
@@ -96,13 +177,25 @@ _No other tracked body sets a position for multiple (annex ii prohibits pb, cd, 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
 | **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2011-494-cadmium-annex-xvii\|eu-reach-2011-494-cadmium-annex-xvii]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] |
 | **EC** | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] |
 | **EC** | Maximum level | see instrument | [[regulations/eu-2023-915-cadmium\|Commission Regulation]] |
 | **EC** | Maximum level | multiple — see instrument | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|Cadmium maximum levels for cereals]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
 | **EC** | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
 | [[regulators/jecfa\|JECFA]] | PTMI | 25 µg/kg bw/month | [[regulations/jecfa-cadmium-ptmi\|Provisional Tolerable Monthly Intake for Cadmium]] |
 | [[regulators/codex\|Codex]] | Maximum level | see instrument | [[regulations/codex-cadmium-mls\|Maximum Levels for Cadmium in Food]] |
 | [[regulators/efsa\|EFSA]] | TWI | 2.5 µg/kg bw/week | [[regulations/efsa-cadmium-twi\|Tolerable Weekly Intake for Cadmium]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
 | [[regulators/us-epa\|US EPA]] | Oral RfD | 1 µg/kg bw/day food | [[regulations/epa-iris-cadmium-rfd\|EPA IRIS — Cadmium Oral Reference Doses]] |
 | [[regulators/atsdr\|ATSDR]] | MRL | 0.1 µg/kg bw/day | [[regulations/atsdr-cadmium-mrls\|Minimal Risk Levels for Cadmium]] |
 | [[regulators/oehha\|OEHHA]] | Prop 65 | 4.1 µg/day oral | [[regulations/oehha-cadmium-prop65\|Cadmium Listing and Maximum Allowable Daily Level]] |
@@ -112,22 +205,53 @@ _No other tracked body sets a position for multiple (annex ii prohibits pb, cd, 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
 | **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Maximum level | multiple — see instrument | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] |
 | **EC** | — | multiple — see instrument | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] |
 | **EC** | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
 | [[regulators/jecfa\|JECFA]] | BMDL | see instrument | [[regulations/jecfa-arsenic-bmdl\|JECFA inorganic arsenic BMDL₀.₅]] |
 | [[regulators/efsa\|EFSA]] | BMDL (no threshold) | no numeric threshold (BMDL basis) | [[regulations/efsa-arsenic-contam-2009\|Arsenic in Food]] |
 | [[regulators/us-fda\|FDA]] | Action level | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb\|FDA Closer to Zero — 100 ppb Inorganic Arsenic Act…]] |
+| [[regulators/us-fda\|FDA]] | Action level | 10 ppb | [[regulations/fda2023-inorganic-arsenic-apple-juice\|10 ppb Inorganic Arsenic Action Level for Apple Ju…]] |
 | [[regulators/us-epa\|US EPA]] | MCL (water) | 10 ppb | [[regulations/epa-arsenic-mcl\|Maximum Contaminant Level for Arsenic in Drinking…]] |
 | [[regulators/us-epa\|US EPA]] | — | value pending | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review]] |
 | [[regulators/oehha\|OEHHA]] | Prop 65 | value pending | [[regulations/oehha-arsenic-prop65\|Inorganic Arsenic Compounds Listing]] |
 
 ### Total arsenic
 
-_No other tracked body sets a position for total arsenic; EC is the only one in the index._
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| **EC** | Maximum level | multiple — see instrument | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
 
 ### Total mercury
 
-_No other tracked body sets a position for total mercury; EC is the only one in the index._
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
+| **EC** | Maximum level | multiple — see instrument | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] |
+| **EC** | MRL | 0.01 mg/kg as mercury | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] |
+| **EC** | Maximum level | multiple — see instrument | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| **EC** | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-74-certified-color-additive-metal-specifications\|21cfr-74-certified-color-additive-metal-specificat…]] |
 
 ### Methylmercury
 
@@ -144,19 +268,61 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
 | **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
 | **EC** | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
 | **EC** | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | **EC** | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
 | [[regulators/efsa\|EFSA]] | TDI | 13 µg/kg bw/day | [[regulations/efsa-nickel-tdi\|Nickel Tolerable Daily Intake]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
 | [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
+
+### Aluminium
+
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
+| [[regulators/efsa\|EFSA]] | TWI | 1 mg/kg bw/week | [[regulations/efsa-aluminium-twi\|Aluminium Tolerable Weekly Intake]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+| [[regulators/atsdr\|ATSDR]] | MRL | 1 mg/kg bw/day | [[regulations/atsdr-aluminum-mrls\|Minimal Risk Levels for Aluminum]] |
+
+### Hexavalent chromium
+
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | — | multiple — see instrument | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| **EC** | — | 3000 mg/kg | [[regulations/eu-reach-2014-301-chromium-vi-leather\|eu-reach-2014-301-chromium-vi-leather]] |
+| **EC** | — | multiple — see instrument | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| [[regulators/oehha\|OEHHA]] | Prop 65 | 8.2 µg/day oral MADL | [[regulations/oehha-chromium-vi-prop65\|Hexavalent Chromium Listing and Safe-Harbor Levels]] |
 
 ### Tin
 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
 | **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| **EC** | — | see instrument | [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin\|organotin compounds in skin-contact and childcare…]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
 | **EC** | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] |
 | [[regulators/codex\|Codex]] | Maximum level | multiple — see instrument | [[regulations/codex-cxs-193-1995-tin-canned-foods\|1995 - Tin maximum levels for canned foods]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
+
+### Antimony
+
+| Body | Type | Value | Instrument |
+| --- | --- | --- | --- |
+| **EC** | — | multiple — see instrument | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| **EC** | Directive | multiple — see instrument | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
+| **EC** | Directive | see instrument | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] |
+| **EC** | — | see instrument | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] |
+| [[regulators/us-fda\|FDA]] | — | multiple — see instrument | [[regulations/fda-21cfr-73-color-additive-metal-specifications\|21cfr-73-color-additive-metal-specifications]] |
 <!-- END: hmi-regulator-divergence -->
 
 ## Update log
@@ -165,20 +331,34 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 | Date | Event | Instrument | Status |
 | ---: | --- | --- | --- |
 | 2002-04-05 | Superseded basis | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | superseded |
+| 2002-05-07 | Issued / in force | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] | active |
 | 2007-03-01 | Superseded basis | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | superseded |
 | 2007-03-01 | Superseded / sunset | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | superseded |
+| 2011-05-01 | Issued / in force | [[regulations/eu-10-2011-food-contact-plastics-sml\|specific migration limits for metals]] | active |
+| 2011-06-08 | Issued / in force | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] | active |
+| 2012-01-01 | Issued / in force | [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin\|organotin compounds in skin-contact and childcare…]] | active |
+| 2012-01-10 | Issued / in force | [[regulations/eu-reach-2011-494-cadmium-annex-xvii\|eu-reach-2011-494-cadmium-annex-xvii]] | active |
 | 2013-07-11 | Issued / in force | [[regulations/eu-cosmetics-1223-2009\|prohibited-substance framework]] | enforced |
+| 2013-07-20 | Issued / in force | [[regulations/eu-2009-48-toy-safety-migration-limits\|element migration limits]] | active |
+| 2015-05-01 | Issued / in force | [[regulations/eu-reach-2014-301-chromium-vi-leather\|eu-reach-2014-301-chromium-vi-leather]] | active |
+| 2015-05-13 | Issued / in force | [[regulations/eu-reach-2015-628-lead-mouthable-articles\|eu-reach-2015-628-lead-mouthable-articles]] | active |
 | 2016-01-01 | Superseded basis | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | superseded |
 | 2018-02-07 | Issued / in force | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | finalized |
+| 2019-07-14 | Issued / in force | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] | active |
+| 2020-11-01 | Issued / in force | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] | active |
+| 2021-01-12 | Issued / in force | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] | active |
 | 2021-08-30 | Superseded basis | [[regulations/eu-2021-1317-lead-cereals-superseded\|Lead maximum level for cereals and pulses]] | superseded |
 | 2021-08-31 | Superseded basis | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|Cadmium maximum levels for cereals]] | superseded |
+| 2022-01-04 | Issued / in force | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] | active |
 | 2022-05-03 | Issued / in force | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | finalized |
 | 2023-05-24 | Superseded / sunset | [[regulations/eu-2021-1317-lead-cereals-superseded\|Lead maximum level for cereals and pulses]] | superseded |
 | 2023-05-24 | Superseded / sunset | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|Cadmium maximum levels for cereals]] | superseded |
 | 2023-05-25 | Superseded / sunset | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | superseded |
 | 2023-05-25 | Superseded / sunset | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | superseded |
+| 2023-08-17 | Issued / in force | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] | active |
 | 2024-03-22 | Issued / in force | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] | in-force |
 | 2024-07-30 | Issued / in force | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] | in-force |
+| 2025-10-08 | Issued / in force | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] | active |
 <!-- END: hmi-regulator-updatelog -->
 
 ## Key documents
@@ -186,13 +366,26 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 <!-- BEGIN: hmi-regulator-keydocs -->
 | Source document | Instrument |
 | --- | --- |
+| [[sources/europeancommission2020-drinking-water-directive\|europeancommission2020-drinking-water-directive]] | [[regulations/eu-2020-2184-drinking-water\|eu-2020-2184-drinking-water]] |
 | [[sources/eu2023-915-lead-infant-young-child-foods\|eu2023-915-lead-infant-young-child-foods]] | [[regulations/eu-2023-915-lead-infant-young-child-foods\|Lead Maximum Levels for Infant and Young-Child Foods]] |
 | [[sources/eu-2024-1987-nickel-maximum-levels\|eu-2024-1987-nickel-maximum-levels]] | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[sources/efsa-nickel-contam-2020\|efsa-nickel-contam-2020]] | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|eu-2024-907-nickel-monitoring-recommendation]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | [[sources/eu-2024-1987-nickel-maximum-levels\|eu-2024-1987-nickel-maximum-levels]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | [[sources/efsa-nickel-contam-2020\|efsa-nickel-contam-2020]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
+| [[sources/europeancommission2025-inorganic-arsenic-fish-seafood\|europeancommission2025-inorganic-arsenic-fish-seafood]] | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] |
+| [[sources/eu-2023-915-contaminants-maximum-levels\|eu-2023-915-contaminants-maximum-levels]] | [[regulations/eu-2025-1891-inorganic-arsenic-fish-seafood\|eu-2025-1891-inorganic-arsenic-fish-seafood]] |
+| [[sources/eu2023-batteries-restrictions\|eu2023-batteries-restrictions]] | [[regulations/eu-batteries-2023-heavy-metal-restrictions\|eu-batteries-2023-heavy-metal-restrictions]] |
+| [[sources/eu2002-animal-feed-undesirable-substances\|eu2002-animal-feed-undesirable-substances]] | [[regulations/eu-directive-2002-32-animal-feed-heavy-metals\|eu-directive-2002-32-animal-feed-heavy-metals]] |
+| [[sources/eu2019-fertilising-products-heavy-metals\|eu2019-fertilising-products-heavy-metals]] | [[regulations/eu-fertilising-products-heavy-metal-limits-2019\|eu-fertilising-products-heavy-metal-limits-2019]] |
 | [[sources/lgc2003-nickel-piercing-post-assemblies\|lgc2003-nickel-piercing-post-assemblies]] | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
+| [[sources/smajgl2015-tin-baby-diapers-croatia\|smajgl2015-tin-baby-diapers-croatia]] | [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin\|organotin compounds in skin-contact and childcare…]] |
+| [[sources/eu2011-reach-cadmium-annex-xvii\|eu2011-reach-cadmium-annex-xvii]] | [[regulations/eu-reach-2011-494-cadmium-annex-xvii\|eu-reach-2011-494-cadmium-annex-xvii]] |
+| [[sources/eu2014-reach-chromium-vi-leather\|eu2014-reach-chromium-vi-leather]] | [[regulations/eu-reach-2014-301-chromium-vi-leather\|eu-reach-2014-301-chromium-vi-leather]] |
+| [[sources/eu2015-reach-lead-mouthable-articles\|eu2015-reach-lead-mouthable-articles]] | [[regulations/eu-reach-2015-628-lead-mouthable-articles\|eu-reach-2015-628-lead-mouthable-articles]] |
+| [[sources/eu2018-reach-cmr-textiles\|eu2018-reach-cmr-textiles]] | [[regulations/eu-reach-2018-1513-cmr-textiles\|eu-reach-2018-1513-cmr-textiles]] |
+| [[sources/eu2020-reach-tattoo-inks\|eu2020-reach-tattoo-inks]] | [[regulations/eu-reach-2020-2081-tattoo-ink-metal-limits\|eu-reach-2020-2081-tattoo-ink-metal-limits]] |
+| [[sources/eu2011-rohs-restricted-substances\|eu2011-rohs-restricted-substances]] | [[regulations/eu-rohs-2011-heavy-metals-homogeneous-materials\|eu-rohs-2011-heavy-metals-homogeneous-materials]] |
 <!-- END: hmi-regulator-keydocs -->
 
 ## References
@@ -206,9 +399,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [9882fa9f2](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f2) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 <!-- END: hmi-page-history -->

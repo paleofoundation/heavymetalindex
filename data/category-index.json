@@ -80,7 +80,7 @@
     {
       "slug": "infant-and-child-contact-products",
       "label": "Infant and Child Contact Products",
-      "count": 6,
+      "count": 8,
       "samples": [
         "Bottles (plastic, glass, stainless steel)",
         "Bottle nipples and spouts",
@@ -725,7 +725,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1341,
+      "count": 1350,
       "samples": [
         "United States",
         "Canada",
@@ -736,7 +736,7 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 143,
+      "count": 151,
       "samples": [
         "Brazil",
         "Peru",
@@ -747,7 +747,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 590,
+      "count": 593,
       "samples": [
         "European Union",
         "Poland",
@@ -758,7 +758,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 289,
+      "count": 286,
       "samples": [
         "Iran",
         "Turkey",
@@ -780,18 +780,18 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 224,
+      "count": 228,
       "samples": [
         "India",
         "Bangladesh",
         "Pakistan",
-        "Kazakhstan"
+        "Sri Lanka"
       ]
     },
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 425,
+      "count": 438,
       "samples": [
         "China",
         "Japan",
@@ -802,22 +802,23 @@
     {
       "slug": "oceania",
       "label": "Oceania",
-      "count": 56,
+      "count": 58,
       "samples": [
         "Australia",
         "New Zealand",
+        "Fiji",
         "Papua New Guinea"
       ]
     },
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 256,
+      "count": 259,
       "samples": [
         "International / multi-country",
-        "CAC",
+        "EAC",
         "KS",
-        "AL"
+        "EAEU"
       ]
     }
   ]

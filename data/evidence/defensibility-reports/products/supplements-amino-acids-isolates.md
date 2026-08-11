@@ -2,15 +2,15 @@
 source_page: wiki/products/supplements-amino-acids-isolates.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5df8692c4ff57a6885bbe5421c463f9b4a2d5d9cf3c62cf4043899f6eb58e704
+source_page_sha256: 8d63f852ef53db46424d0057bc75a9fc94385fe694356581e8b4234e9408568a
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 29
-distinct_cited_sources: 29
+distinct_cited_targets: 28
+distinct_cited_sources: 28
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 1 |
 | cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 29 |
-| distinct cited `sources/` pages | 29 |
+| distinct cited targets | 28 |
+| distinct cited `sources/` pages | 28 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `50 ug/L`
 - Context: `adults aged 20-65 years with household well-water arsenic concentrations above 50 ug/L for at least one year (n=622) |`
-- Cited targets (29):
+- Cited targets (28):
   - `wiki/sources/abuawad2023-folic-creatine-arsenic-methylation\.md` (page missing)
     - audit rows: none
   - `wiki/sources/al-dhabi2013-spirulina-products-metals\.md` (page missing)
@@ -95,8 +95,6 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/sattler2016-bee-pollen-metals\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/sattler2016-bee-pollen-minerals-contaminants\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal\.md` (page missing)
@@ -140,7 +138,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/nelson2022-cannabis-heavy-metals-method\.md` | sources | 0 | — | — |
 | `wiki/sources/porwollik2026-rhodiola-supplements-us-market\.md` | sources | 0 | — | — |
 | `wiki/sources/sattler2016-bee-pollen-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/sattler2016-bee-pollen-minerals-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal\.md` | sources | 0 | — | — |
 | `wiki/sources/torovic2024-mercury-fish-oil-supplements-serbia\.md` | sources | 0 | — | — |

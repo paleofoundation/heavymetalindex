@@ -24,3 +24,13 @@ updated: 2026-08-10
 ---
 
 Maryland's Technical Authority for Cannabis Testing defines contaminant action limits for cannabis and states that it has the force and effect of law for independent testing laboratories and licensees. Tables 10 and 11 list action limits for heavy metals by route and product class. Arsenic and mercury are not speciated; chromium is listed as Cr and loaded as total chromium.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccfc6d79](https://github.com/paleofoundation/heavymetalindex/commit/1ccfc6d79) | 2026-08-10 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

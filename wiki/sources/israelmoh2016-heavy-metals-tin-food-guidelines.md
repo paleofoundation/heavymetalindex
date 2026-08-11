@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This source is Israel Ministry of Health Food Control Services guidance setting maximum levels for heavy metals and inorganic tin in food, updated 1 May 2016. The tables cover lead, cadmium, mercury, total arsenic, inorganic arsenic, and inorganic tin across broad food categories, including infant formulas, infant and toddler foods, bottled drinking water, seafood, produce, cereals, canned foods, beverages, supplements, salt, and dairy products. General notes state that when a listed food is used as a raw material for another product, the raw material must comply with the table before addition, and that finished products should be assessed according to the raw-material share in the product. The structured register records the table values as mg/kg converted to ug/kg, preserving ready-to-eat and powder distinctions where the directive states them.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

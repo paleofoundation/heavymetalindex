@@ -2,15 +2,15 @@
 source_page: wiki/products/canned-seafood.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7af8c9d72dd244f78fbf570b9135843e5098147164f96c4c203e27ac90ab4fec
+source_page_sha256: ef266076f07f0c3bc76f0b699a5575bd6dca9d2a84a11dffe61e12b6c9cf23b6
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 2
+audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,13 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 1 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 2 |
+| audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-create-canned-seafood-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-create
+- `edit_id=cat6-canned-dissolution` · retrieval=2026-06-16 · models=[claude-opus-4-8] · agreement=not_applicable · applied=2026-06-16T00:00:00.000Z · span=products_status+hook
 - `edit_id=cat6-canned-dissolution` · retrieval=2026-06-16 · models=[claude-opus-4-8] · agreement=not_applicable · applied=2026-06-16T00:00:00.000Z · span=products_status+hook
 
 ## Claims by section

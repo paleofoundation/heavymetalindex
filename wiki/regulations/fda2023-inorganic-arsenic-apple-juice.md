@@ -56,6 +56,24 @@ This is FDA's second matrix-specific inorganic-arsenic action level for a food e
 - **July 2013** — FDA issues draft guidance proposing a 10 ppb inorganic-arsenic action level (docket FDA-2012-D-0322).
 - **June 2023** — FDA finalizes the 10 ppb action level; the 2008 level of concern is superseded.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2023-ias-apple-juice-guidance|Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry]]<span class="hmi-ref-meta">FDA CFSAN · U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition · 2023 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice)</span><span class="hmi-ref-tag">Guidance</span>
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 - [[sources/fda2023-ias-apple-juice-guidance|FDA CFSAN 2023]] — U.S. Food and Drug Administration, June 2023. *Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry*. Government guidance, A-tier.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [483bb0503](https://github.com/paleofoundation/heavymetalindex/commit/483bb0503) | 2026-08-08 | major | 1 source added; contamination-profile values revised; 7 sections added |
+<!-- END: hmi-page-history -->

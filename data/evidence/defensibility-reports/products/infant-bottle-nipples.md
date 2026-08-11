@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-bottle-nipples.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6f874b8c97f5e7470c472c1ae6d42fa2c5afb942c34846708a7303e0238f2d91
+source_page_sha256: 13742104eae0f12eb9ff52f88a1da4bf1355cc44ece82c8448dfe660e642396a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6212
+audit_log_total_rows: 6606
 noindex: true
 ---
 
@@ -34,15 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6212 |
+| audit log rows read | 6606 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=f8a04f66-40b1-4a8a-b7e6-d49a432bbb20` · retrieval=2026-08-10 · models=[claude-opus-4-8/cat9-contact-products-standard-build] · agreement=not_applicable · applied=2026-08-10T11:03:12.864Z · span=cat9-step0-lock-flags
 
 ## Claims by section
 

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/douches-vaginal-irrigation",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d4573a71991526855c47e845cd5a608e38c8bee9344dd0fc5304c641988098df",
-      "content_bytes": 8517,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "43997afd1f89597a89f7b7f6de5cb315d96f993f4670c2356ea1aacabfb2f987",
+      "content_bytes": 8536,
+      "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/douches-vaginal-irrigation.md | sha256sum"
+      "verify_command": "git show 9882fa9f2:wiki/products/douches-vaginal-irrigation.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
         "content_pin": {
-          "content_sha256": "ac9671e7d2390b3da6372d14b9bf3317a740699af5d6878315fcf96c8a4ecc79",
+          "content_sha256": "f24a6ccbad4a7efb530ced78cfcb387dcc847a7a3d6806de692732a7eececc64",
           "content_bytes": 9085,
-          "last_commit_sha": "b01ec52c3",
+          "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
+          "verify_command": "git show 9882fa9f2:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
         }
       }
     ]

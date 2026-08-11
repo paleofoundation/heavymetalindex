@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 Section 15723 of the California Department of Cannabis Control regulations requires licensed laboratories to test cannabis and cannabis products for heavy metals and report results in micrograms per gram. The table gives separate action levels for inhalable cannabis/cannabis products and non-inhalable cannabis/cannabis products.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d7b978b37](https://github.com/paleofoundation/heavymetalindex/commit/d7b978b37) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

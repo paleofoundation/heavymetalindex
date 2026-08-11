@@ -498,6 +498,7 @@ export const GENERATED_TERMS: Record<string, string> = {
   "tea infusions": "products/tea-infusions",
   "tea leaves": "ingredients/camellia-sinensis",
   "teething and snacks": "ingredients/teething-and-snacks",
+  "teething toys/teethers": "products/teething-toys-teethers",
   "tinctures and sublingual oils": "products/cannabis-tinctures-oils",
   "tinned fish": "ingredients/tinned-fish",
   "toilet bowl cleaners": "products/toilet-bowl-cleaners",
@@ -559,6 +560,6 @@ export const GENERATED_TERMS: Record<string, string> = {
 }
 
 export const GENERATED_TERMS_META = {
-  count: 548,
-  byDir: {"regulators":19,"products":170,"ingredients":347,"regulations":12},
+  count: 549,
+  byDir: {"regulators":19,"products":171,"ingredients":347,"regulations":12},
 } as const

@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This Code of Federal Regulations excerpt includes the CPSC ban on lead-cored candlewicks and candles with such wicks. The provision identifies candlewicks containing more than 0.06 percent lead by weight of the metal as banned hazardous substances, along with candles using those wicks. The structured row converts 0.06 percent to 600 mg/kg, or 600,000 micrograms per kilogram. The rule is a consumer-product lead limit rather than a food, cosmetics, or toy limit.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4e41864fb](https://github.com/paleofoundation/heavymetalindex/commit/4e41864fb) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

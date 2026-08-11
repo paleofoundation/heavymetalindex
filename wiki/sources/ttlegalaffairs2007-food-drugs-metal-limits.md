@@ -27,3 +27,13 @@ This source is the Laws of Trinidad and Tobago consolidation of the Food and Dru
 HMI records four routeable metal-limit surfaces from the source. Food and Drugs Regulations Division 2 limits arsenic and lead in colours for use in or upon food. Division 6 lists arsenic and lead levels for named foods and a residual "food not named" category under poisonous-substances provisions. Division 19 sets naturally occurring contaminant limits in food-grade salt for arsenic, cadmium, lead, and mercury. Fish and Fishery Products Regulations regulation 62(18) and Second Schedule Table 1 set accepted levels for lead and methylmercury in fish and fishery products.
 
 Values are recorded in `data/evidence/regulatory_limits.csv` in `ug/kg`, converted from source `parts per million` or `ppm` values by multiplying by 1000. The source's arsenic rows are recorded as total arsenic (`tAs`) because the law does not specify inorganic arsenic. The salt mercury row is recorded as total mercury (`tHg`). The fish schedule explicitly says methyl mercury, so those rows are recorded as `MeHg`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

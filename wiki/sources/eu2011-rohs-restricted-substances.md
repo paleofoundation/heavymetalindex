@@ -23,3 +23,13 @@ updated: 2026-08-06
 ---
 
 This EUR-Lex consolidated text of Directive 2011/65/EU is the EU RoHS framework for electrical and electronic equipment. Annex II lists maximum concentration values tolerated by weight in homogeneous materials. The loaded rows cover lead, mercury, cadmium, and hexavalent chromium. The values are entered as statutory limits after converting the source percent-by-weight values to ug/kg while preserving the homogeneous-material basis.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c152e787c](https://github.com/paleofoundation/heavymetalindex/commit/c152e787c) | 2026-08-06 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

@@ -3,7 +3,7 @@ title: "Regulatory bodies"
 description: "Profiles of every regulatory body that sets heavy-metal limits or guidance the Heavy Metal Index tracks — what each body is, its positions across metals, where it diverges, and how it has changed. Auto-regenerated."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-04
+updated: 2026-08-11
 ---
 
 # Regulatory bodies
@@ -18,11 +18,11 @@ Each body below has a profile page: what it is and whether its numbers are bindi
 ## European Union
 
 - [[regulators/efsa\|European Food Safety Authority (EFSA)]] — Advisory — risk assessment, not binding law. 7 instruments.
-- [[regulators/eu-commission\|European Commission (EC)]] — Binding — legally enforceable maximum levels. 15 instruments.
+- [[regulators/eu-commission\|European Commission (EC)]] — Binding — legally enforceable maximum levels. 29 instruments.
 
 ## United States (federal)
 
-- [[regulators/us-fda\|United States Food and Drug Administration (FDA)]] — Guidance — action levels (not health-based limits). 9 instruments.
+- [[regulators/us-fda\|United States Food and Drug Administration (FDA)]] — Guidance — action levels (not health-based limits). 12 instruments.
 - [[regulators/us-epa\|United States Environmental Protection Agency (US EPA)]] — Mixed — IRIS assessments (advisory) + binding water limits. 6 instruments.
 - [[regulators/atsdr\|Agency for Toxic Substances and Disease Registry (ATSDR)]] — Advisory — screening Minimal Risk Levels, not enforceable. 2 instruments.
 - [[regulators/us-cdc\|United States Centers for Disease Control and Prevention (CDC)]] — Reference — blood-lead biomonitoring value, not a food limit. no food-limit instruments tracked.
