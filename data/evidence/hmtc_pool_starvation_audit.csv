@@ -81,6 +81,9 @@ empty_slug,,Cd,true,yao2021-tieguanyin-white-tea-heavy-metals,category1_autonomy
 empty_slug,,Mo,false,yoshinaga2025-japanese-duplicate-diet-metals,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,zhao2022-china-sixth-tds-pb-cd,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,zhao2022-china-tds6-lead-cadmium-exposure,category1_autonomy_extracted_summary.csv
+unmatched_slug,cephalopods,Cd,true,garofalo2025-seafood-cd-pb-hg-italy-10yr,category6_primary_extraction_summary.csv
+unmatched_slug,cephalopods,Pb,true,garofalo2025-seafood-cd-pb-hg-italy-10yr,category6_primary_extraction_summary.csv
+unmatched_slug,cephalopods,tHg,true,garofalo2025-seafood-cd-pb-hg-italy-10yr,category6_primary_extraction_summary.csv
 no_metal_species,fruit-juices-apple-containing,,false,fda2011-apple-juice-arsenic-speciation,category5_apple_juice_arsenic_speciation_samples.csv
 no_metal_species,fruit-juices-apple-containing,,false,fda2011-apple-juice-arsenic-speciation,category5_apple_juice_arsenic_speciation_samples.csv
 no_metal_species,fruit-juices-apple-containing,,false,fda2011-apple-juice-arsenic-speciation,category5_apple_juice_arsenic_speciation_samples.csv

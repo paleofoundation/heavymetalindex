@@ -513,7 +513,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-39 open item(s): 14 auto, 25 awaiting a decision.
+44 open item(s): 16 auto, 28 awaiting a decision.
+
+### OI-20260811-shellfish-cd-pool-tail-artifact — shellfish|Cd raw pooled p100=21665 ppb is a reconstruction-tail artifact (duplicate romero-estevez2020 autonomy+primary rows, mean-only lognormal); cert display protected by observed_max=1600 but pooled percentile inflated
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/category6_primary_extraction_summary.csv`, `data/evidence/autonomy/extraction-quarantine.csv`
+- repro: hmtc_aggregate_distributions.csv shellfish|Cd: pooled_p95=5294, pooled_p100=21665 while observed_max across cited studies (cert occurrence-evidence) = 1600 ppb. romero-estevez2020-bivalves-santa-rosa-ecuador contributes TWICE to the pool: an autonomy row (category1_autonomy_extracted_summary.csv, row_slug=shellfish, Cd, mean_ppb=560, reconstruction lognormal_mean_only) AND a cat6 primary_extraction row (uniform_max_only). The mean-only lognormal tail plus double-counting inflate the pooled upper tail far above any real measurement.
+- done when: shellfish|Cd pooled_p100 within ~2x of observed_max (1600 ppb); romero-estevez2020 contributes once (dedupe autonomy vs primary-extraction row); cert shellfish|Cd observed_max stays 1600 ppb
+- notes: Distinct from the cephalopod misrouting (which is fixed). This is the same duplicate-autonomy-row + mean-only-tail class as the salt|Pb samsiyah quarantine, but for a different source/cell. The cert renderer already displays observed_max=1600, so it is not a false live-page figure; logging rather than chasing.
+
+### OI-20260811-cephalopods-orphaned-occurrence — Cephalopods occurrence orphaned: Garofalo cephalopod strata rerouted to row_slug=cephalopods but no wiki/products/cephalopods.md exists to pool them, and garofalo products: lacks cephalopods
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/cephalopods.md`, `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md`, `data/evidence/category6_primary_extraction_summary.csv`
+- repro: After the cephalopod-misrouting fix, cephalopods|Cd/Pb/tHg strata (Cd n=1500 max5600; Pb n=650; tHg n=687) carry row_slug=cephalopods in category6_primary_extraction_summary.csv but reach NO pooled aggregate cell (hmtc_pool_starvation_audit reason=unmatched_slug) because there is no wiki/products/cephalopods.md. The cert cephalopods|Cd cell shows gov ML 1000 (EU) with n_studies=0 / has_data=false. Cd/tHg are Tier-1 toxics; cephalopod occurrence (Cd p95 600, max 5600) could corroborate or tighten the gov ML but is invisible.
+- done when: wiki/products/cephalopods.md exists as a product-category page (hmtc_category 6, row 6); garofalo2025 products: frontmatter includes cephalopods; hmtc_aggregate_distributions.csv has cephalopods|Cd, cephalopods|Pb, cephalopods|tHg cells; cert occurrence-evidence cephalopods|Cd shows occurrence corroborating the 1000 gov ML
+- decision: _pending_
+- notes: Surfaced while fixing the shellfish|Cd cephalopod-misrouting bug. The reroute is correct (removes 5600 pollution from shellfish); this item is the downstream gap it exposes: cephalopods is a live compiled standard (cat1-compiled/cephalopods.json, seafood-config row 6) with no product page and no pooled occurrence.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -523,6 +540,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
 - decision: _pending_
 - notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
+
+### OI-20260810-tox-papers-misrouted-to-oils — Routing hygiene: 3 tox/exposure papers mis-routed to cooking-oils-other (no oil measurement) cause false not-material contradictions
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `wiki/sources/authors2022-hexavalent-chromium-exposure.md`, `wiki/sources/authors2023-chen-j-hao-s-ban-uelos-g-and.md`, `wiki/sources/authors2026-mercury-induced-oxidative-stress-and.md`
+- repro: authors2022 (Cr-VI duck gavage tox), authors2023 (Se-Hg plant meta-analysis), authors2026 (HgCl2 RBC in-vitro assay) carry matrices/products routing to cooking-oils-other and a tHg metal tag, but measure NO oil and no oil-Hg value — they are ABOUT mercury/chromium toxicity, not oil occurrence. They surface as false contradictions in audit-not-material-integrity.mjs and pollute the cooking-oils occurrence surface. Same class as deka2023->spices (OI-20260810-deka2023-spices-routing). Fix: correct their product/matrix routing (remove cooking-oils-other) so they stop false-flagging. Routing is system-owned; a routing rebuild follows the frontmatter fix.
+- done when: authors2022/2023/2026 product+matrix routing corrected to not claim cooking-oils-other occurrence; audit-not-material-integrity.mjs no longer flags cooking-oils-other/tHg against these three
 
 ### OI-20260810-seafood-sn-organotin — Seafood Sn not-material is the diaper-Sn error class — organotin bioaccumulates in molluscs/cephalopods (ho2016)
 
@@ -538,6 +562,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/hmtc_aggregate_distributions.csv`
 - repro: olive-oil tAs was reclassified from a false not-material (Codex CXS 210/19 set As 100 ug/kg for oils) to adjudication HOLD. The pool still shows p97 607.95 (luka2019 unit artifact). luka2019 is in extraction_excluded.csv and Codex As-oil ML is loaded; a pooling re-run (npm run evidence:standards-gaps) applies both.
 - done when: olive-oil tAs re-pools to ~12-20 ug/kg after luka2019 exclusion; Codex 100 ug/kg maps as the cap (min(P97,100) binds; tag literature-baseline); QC gate shows olive-oil tAs PASS not HOLD/WARN
+
+### OI-20260810-olive-oil-cd-material-judgment — olive-oil / Cd not-material: two peer-reviewed sources report material Cd in the oil — human ruling needed
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-not-material-adjudication.csv`
+- repro: The olive-oil/Cd not-material determination (Cd does not partition into the lipid fraction) holds on weight of evidence (16 routed sources ND/floor/mechanistic, evidence-tested in the adjudication register), but 2 peer-reviewed sources report MATERIAL Cd in the oil that the non-partition thesis does not explain and that are NOT dismissable on documented-artifact grounds: (1) acar2012 51 ug/kg ETAAS (~17x floor, internally consistent; suspected systematic bias — uniform 41-51 across all oil types, non-oil-matched CRM — but exclusion needs a human artifact ruling); (2) ntigoroku2025 60 ug/kg real Nigerian market (set aside only by target-market stratification, a Method-v2.0 policy lever, not the not-material rationale). Cd is a Tier-1 toxic with no government ML for oils, so Method v2.0 would set this cell from occurrence if not-material fails. Decision: rule each as (a) artifact/excluded, (b) non-target-market/excluded, or (c) material -> retire not-material and set an occurrence-based value. The two sources keep flagging in the integrity check until ruled.
+- done when: acar2012 ruled: artifact-excluded (with documented basis) or material; ntigoroku2025 ruled: non-target-market-excluded or material; if either is material, olive-oil/Cd retired from not-material and given an occurrence value; if excluded, recorded KEEP_CITE with the ruling
+- decision: _pending_
 
 ### OI-20260810-notmaterial-reconcile-to-origin — Reconcile local not-material hardening (b5094ce39) to origin — local main diverged 9 ahead / 8 behind
 
@@ -569,6 +601,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/hmtc_aggregate_distributions.csv`
 - repro: honey Al not-material stands (no ML, TWI-managed) but the pool p97 ~152 mg/kg is a method-inflation artifact: naccari2025 (ICP-MS, n=38) measures 4.5-6.0 mg/kg while the pool is dominated by tomczyk2020 (ICP-OES) and wise2025 (XRF, known inconsistencies). Same reference-method-stratification precedent as spices tHg (2026-06-11 audit).
 - done when: honey Al pool restricted to reference-method sources (ICP-MS/CV-AAS/GF-AAS); honey Al p50/p97 fall toward the ~5 mg/kg ICP-MS anchor; not-material rationale value updated if needed
+
+### OI-20260810-deka2023-spices-routing — deka2023 review-chapter mis-routed to products/spices (metadata defect)
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md`
+- repro: grep products wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md — shows products:[[products/spices]] + soft-drinks; but the page body Verification-notes (2026-05-18) state the spices slug was an invented slug removed to products:[] because the chapter never singles out spices (no primary occurrence data; narrative methods review). The products:[spices] was later re-added. This makes the not-material integrity audit false-positive-flag spices/Al against a source that measured nothing (its metals: array lists Al only as a discussed MPL-table entry).
+- done when: Decide whether deka2023 should route to products/spices at all given zero primary occurrence data; If not, remove products/spices (and reassess soft-drinks) so routing reflects the chapter as a methods review; Confirm not-material integrity audit no longer counts deka2023 as a spices/Al contradiction on metadata grounds
+- decision: _pending_
 
 ### OI-20260810-chocolate-dark-milk-split — GOVERNANCE (Karen): split chocolate into dark/milk subcategories before publishing a chocolate lead standard
 
