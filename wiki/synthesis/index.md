@@ -15,7 +15,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
-| [Dietary nickel is an intrinsic accumulation trait of specific plant staples, not a contamination signal, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-07-27 |
+| [Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-08-11 |
 | [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | 2026-07-27 |
 | [Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance](/synthesis/breastmilk-heavy-metal-exposure-pathway) | Pb, Cd, tAs, tHg, Al, Cr | 6 | 2026-07-27 |
 | [Manufactured infant formula delivers an aluminium-dominated metal load, many-fold above breastmilk and amplified in soy-based and powdered formats, to the most vulnerable consuming population](/synthesis/infant-formula-metal-amplification) | Al, Pb, Cd, tAs, tHg | 7 | 2026-07-27 |

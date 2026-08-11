@@ -513,7 +513,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-44 open item(s): 16 auto, 28 awaiting a decision.
+49 open item(s): 20 auto, 29 awaiting a decision.
+
+### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `tools/`, `wiki/synthesis/`
+- repro: wiki/synthesis/dietary-nickel-plant-staple-accumulation.md was written 2026-07-27 and stated three times that no European maximum level for nickel in food existed, using that as the load-bearing premise for its regulatory-implications section. wiki/regulations/eu-2024-1987-nickel-maximum-levels.md had been in the repo since 2026-06-22 with the full Annex transcribed from the primary OJ PDF. Nothing in the prebuild chain caught the contradiction; the page shipped contradicting the corpus it was built from. The class of defect is a synthesis page making a negative regulatory claim (no limit exists / none has been set / no maximum level applies) for an (analyte, matrix) pair that wiki/regulations/ already covers.
+- done when: A lint script flags any wiki/synthesis/ or wiki/ingredients/ page asserting a negative regulatory existence claim for an (analyte, jurisdiction) pair that has an in-force rule page in wiki/regulations/; Script runs in prebuild (--warn-only acceptable while any pre-existing backlog drains); Running it against the corpus at HEAD reports the known instances, including wiki/sources/brum2025-flaxseeds-ptes-organic-conventional.md
+- evidence: wiki/synthesis/dietary-nickel-plant-staple-accumulation.md (corrected 2026-08-11) · wiki/regulations/eu-2024-1987-nickel-maximum-levels.md ingested 2026-06-22
+- notes: The standards layer was NOT affected: data/workbench/standards had already adopted EU 2024/1987 for infant formula (250/400), cat3 grains (800-5000) and chocolate (2500/7000/15000). The drift was confined to the public wiki narrative layer, which is the surface a hostile expert reads.
 
 ### OI-20260811-shellfish-cd-pool-tail-artifact — shellfish|Cd raw pooled p100=21665 ppb is a reconstruction-tail artifact (duplicate romero-estevez2020 autonomy+primary rows, mean-only lognormal); cert display protected by observed_max=1600 but pooled percentile inflated
 
@@ -523,6 +532,34 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: shellfish|Cd pooled_p100 within ~2x of observed_max (1600 ppb); romero-estevez2020 contributes once (dedupe autonomy vs primary-extraction row); cert shellfish|Cd observed_max stays 1600 ppb
 - notes: Distinct from the cephalopod misrouting (which is fixed). This is the same duplicate-autonomy-row + mean-only-tail class as the salt|Pb samsiyah quarantine, but for a different source/cell. The cert renderer already displays observed_max=1600, so it is not a false live-page figure; logging rather than chasing.
 
+### OI-20260811-ni-sensitized-population-mark — Decision: whether a crop-relative nickel mark serving the ~15% nickel-sensitized population is worth scoping — the acute MOE finding is the binding Ni health concern and is unaddressed by any current claim
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `docs/governance/hmtc-governing-principles.md`
+- repro: EFSA 2020 identifies eczematous flare-up (systemic contact dermatitis) in Ni-sensitized humans as the critical acute effect, LOAEL 4.3 ug Ni/kg bw, MOE >=30 for low concern, and finds that MOE is not achieved at mean or 95th-percentile dietary exposure for the roughly 15% of the population who are Ni-sensitized. That acute finding, not the chronic TDI, is the scientific basis the Commission recited for EU 2024/1987. The corrected synthesis page establishes that Ni has an irreducible botanical floor, so an absolute low-Ni claim on cocoa or soy is not deliverable. A crop-relative claim (for example bottom quartile of the cocoa Ni distribution) would be deliverable and honest about the floor. Whether to scope that is a program-design and business-strategy question, not a wiki question.
+- done when: Karen rules APPROVE/DECLINE/DEFER on whether to scope a crop-relative Ni mark; If APPROVE, the derivation work is staged in data/workbench/standards/ and never on the index domain per Part 19
+- evidence: wiki/sources/efsa-nickel-contam-2020.md acute LOAEL 4.3 ug/kg bw, MOE >=30 not achieved · wiki/metals/nickel.md low-nickel diet clinical-trial evidence across dermatitis, IBS, GERD, RAS, endometriosis · wiki/synthesis/dietary-nickel-plant-staple-accumulation.md corrected 2026-08-11
+- decision: _pending_
+- notes: Raised in the 2026-08-11 external review. Human-gated because it is a certification-program design and business-strategy call, and because any threshold derivation is firewalled off the index domain. The wiki side of this needs no decision and is already correct.
+
+### OI-20260811-ni-plant-essentiality-gap — Nickel plant-essentiality literature absent from corpus: Ni-urease requirement in higher plants, legume nitrogen-fixation symbiosis, and Ni-fertilization trials on Ni-poor soils
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/synthesis/dietary-nickel-plant-staple-accumulation.md`, `wiki/metals/nickel.md`
+- repro: The Ni botanical-floor claim on wiki/synthesis/dietary-nickel-plant-staple-accumulation.md is currently inferred from microbial enzymology (maier-benoit-2019) plus the occurrence ranking. The plant-side mechanism is not in the corpus: no source covers the Ni-urease requirement in higher plants, Ni in [NiFe]-hydrogenase during legume-rhizobium symbiosis, or agronomic Ni-fertilization trials. Soybean grown on Ni-poor soil with Ni fertilization is the strongest available test of the floor claim (it would show Ni concentrating where there is no pollution source and farmers adding Ni deliberately), and the corpus cannot currently make it.
+- done when: At least 2 A-tier sources on plant Ni essentiality/urease ingested into wiki/sources/; The Why nickel differs in kind section of the synthesis page cites plant-physiology sources directly rather than inferring from microbial enzymology; The gap paragraph at the end of that section is removed or narrowed
+- evidence: wiki/synthesis/dietary-nickel-plant-staple-accumulation.md section: Why nickel differs in kind from the non-essential toxic metals
+- notes: Surfaced by the 2026-08-11 external review of the nickel synthesis page. Ni is one of the ten HMTc certification analytes, so the mechanism is load-bearing.
+
+### OI-20260811-cyprus-troodos-geogenic-ni — Cyprus/Troodos ophiolite geogenic nickel is an unchecked hypothesis with direct relevance to the operators own jurisdiction and to the Ni soil-supply term
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `wiki/supply-chain/soil-nickel-screening.md`, `wiki/supply-chain/soil-to-plant-transfer.md`
+- repro: wiki/supply-chain/soil-nickel-screening.md is still a stub. The corrected nickel synthesis now carries a soil-supply term it cannot quantify because no anchor dataset stratifies crop Ni by soil parent material. Cyprus sits on the Troodos ophiolite, one of the most studied ultramafic complexes in the world, and ultramafic/serpentine parent materials are the canonical geogenic Ni case. Whether Cypriot soils and local produce carry elevated Ni has not been checked against the corpus or the literature.
+- done when: A literature check for Cyprus/Troodos soil Ni and crop Ni is run and its result recorded; If sources exist they are ingested and wiki/supply-chain/soil-nickel-screening.md is promoted past stub with the geogenic Ni framework; If no usable sources exist that null result is recorded on the page so a later session does not re-derive the question
+- evidence: wiki/supply-chain/soil-to-plant-transfer.md: geogenic burdens set a floor that agronomy can manage but not remove · wiki/sources/efsa2015-nickel-food-water.md: Cyprus contributed 5% of the EFSA Ni occurrence dataset
+- notes: Raised in the 2026-08-11 external review of the nickel synthesis page. Explicitly framed there as a hypothesis worth checking, not a finding.
+
 ### OI-20260811-cephalopods-orphaned-occurrence — Cephalopods occurrence orphaned: Garofalo cephalopod strata rerouted to row_slug=cephalopods but no wiki/products/cephalopods.md exists to pool them, and garofalo products: lacks cephalopods
 
 - scope: **human-gated** · type: content · status: open · repo: index
@@ -531,6 +568,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: wiki/products/cephalopods.md exists as a product-category page (hmtc_category 6, row 6); garofalo2025 products: frontmatter includes cephalopods; hmtc_aggregate_distributions.csv has cephalopods|Cd, cephalopods|Pb, cephalopods|tHg cells; cert occurrence-evidence cephalopods|Cd shows occurrence corroborating the 1000 gov ML
 - decision: _pending_
 - notes: Surfaced while fixing the shellfish|Cd cephalopod-misrouting bug. The reroute is correct (removes 5600 pollution from shellfish); this item is the downstream gap it exposes: cephalopods is a live compiled standard (cat1-compiled/cephalopods.json, seafood-config row 6) with no product page and no pooled occurrence.
+
+### OI-20260811-brum2025-flaxseed-ni-ml-stale — brum2025 flaxseed source page states no EU maximum levels exist for Ni in oilseeds more broadly — EU 2024/1987 sets Ni MLs for sunflower seed (8.0), peanuts (12) and soy beans (15)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `wiki/sources/brum2025-flaxseeds-ptes-organic-conventional.md`
+- repro: Line 75 reads: no EU maximum levels exist for Pb, Al, or Ni in flaxseeds or oilseeds more broadly as of the study date. EU 2024/1987 Annex entry 3.6.10 sets Ni MLs for sunflower seed 8.0, peanuts 12 and soy beans 15 mg/kg, in force 2025-07-01. Linseed/flaxseed itself is genuinely not listed, so the flaxseed half of the sentence is correct and only the oilseeds more broadly generalization is wrong.
+- done when: The sentence distinguishes flaxseed (no Ni ML) from oilseeds generally (Ni MLs set for sunflower seed, peanuts, soy beans); A wikilink to regulations/eu-2024-1987-nickel-maximum-levels is present
+- evidence: wiki/sources/eu-2024-1987-nickel-maximum-levels.md Annex 3.6.10.1-3.6.10.3
+- notes: Found while correcting the nickel synthesis page 2026-08-11; out of scope for that task so logged rather than chased.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
