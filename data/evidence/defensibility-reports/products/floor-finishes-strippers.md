@@ -2,7 +2,7 @@
 source_page: wiki/products/floor-finishes-strippers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ecbfb910d0f3f3d52333375f39cfbe846122d1d8ebff6d322dc2fda4dcb35fc1
+source_page_sha256: 9dd7cb3f601d400c33386050d594e424fb03a4806f804845631cbcbbd72a0f3f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

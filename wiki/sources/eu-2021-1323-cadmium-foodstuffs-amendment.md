@@ -197,7 +197,7 @@ This regulation supplies the cadmium maximum-level row set that was operative in
 For HMTc category work, the regulation supplies:
 
 - A clean per-format split for infant formula cadmium (powder vs liquid × cow's-milk vs soy-protein) that downstream product-page splits should preserve.
-- A four-row cocoa/chocolate ladder keyed to total dry cocoa solids percentage and milk-chocolate carve-out — the chocolate-category clean/dirty subcategory work should reference this row structure rather than treating chocolate as a single bin.
+- A four-row cocoa/chocolate ladder keyed to total dry cocoa solids percentage and the milk-chocolate carve-out. Initial HMTc government-limit lookup must preserve that sovereign product-form split rather than treating chocolate as a single bin.
 - A salt ceiling that is the binding EU regulatory floor for the salt product page's regulatory-context column.
 
 ## Verification notes

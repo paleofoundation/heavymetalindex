@@ -2,7 +2,7 @@
 source_page: wiki/products/tattoo-inks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ef19aab89cb93b44b692eda3131dbf610c0a8df57b8c6bf415f5202fa749073b
+source_page_sha256: 12d5c14df2703239851c5bf5f4a3f916db50731b77d33692c383a8d64e380ce2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-powder-cornstarch.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 874e9447953d38a6fe851b14bf52bf92dfe9d51a65a24d2221e7f6bcb5f856a1
+source_page_sha256: 8f73d473e32a7351c06db1365f12924331c55aec5e1cda22aca09e369160bd8d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

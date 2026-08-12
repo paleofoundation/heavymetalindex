@@ -2,9 +2,9 @@
 
 ## Role: Instrument, Not Authority
 
-The Heavy Metal Index wiki, which is the literature evidence layer underlying HMTc certification standards, is built using OpenAI's Codex (GPT-5.5) as one of two parallel AI literature-processing instruments, alongside Anthropic's Claude Code (Opus 4.7). Both instruments operate on the same corpus of peer-reviewed primary studies, government reports (FDA, EFSA, EPA, WHO, Codex, ATSDR), and regulatory documents. Both produce the `wiki/sources/` per-paper source pages, the `wiki/ingredients/` commodity contamination profiles, the `wiki/products/` category evidence inventories, and the `wiki/metals/` toxicology context that constitute the literature-baseline for HMTc threshold work.
+The Heavy Metal Index wiki is the literature evidence layer used for category understanding and surveillance prioritization. It is built using OpenAI's Codex as one of two parallel AI literature-processing instruments, alongside Anthropic's Claude Code. Both instruments operate on the same corpus of peer-reviewed primary studies, government reports, and regulatory documents. Both produce the `wiki/sources/` per-paper source pages, `wiki/ingredients/` commodity profiles, `wiki/products/` category evidence inventories, and `wiki/metals/` toxicology context.
 
-**Neither instrument sets HMTc certification thresholds. Neither instrument decides certification pass/fail.** The HMTc certification pages, threshold percentile arithmetic, and threshold-setting workflow are maintained separately on a staff-side workbench at heavymetaltested.com and in `data/workbench/standards/` (not under `wiki/`), as documented in the project's governing principles (the wiki/HMTc firewall) and the threshold-setting methodology.
+**Neither instrument sets HMTc certification thresholds. Neither instrument decides certification pass/fail.** Initial values come from the government-limit compiler and human-reviewed regulatory crosswalk; later tightening follows the certified-lot Standards Ratchet. Certification pages and status workflows are maintained separately from the public Index, as documented by the wiki/HMTc firewall.
 
 ## Cross-Vendor Verification
 
@@ -14,7 +14,7 @@ The two instruments are deliberately drawn from different model vendors (OpenAI 
 2. **Slug-vocabulary validation** against the project's controlled taxonomy (every ingredient, product, regulation, and metal slug declared in frontmatter resolves to an existing page or surfaces as an explicit new-page proposal).
 3. **Speciation discipline** enforcement of inorganic vs. total arsenic and methylmercury vs. total mercury (the two non-negotiable distinctions named in the project's analytical conventions; speciation is never substituted in pooling).
 4. **Brand-firewall compliance** (no brand-identifying contamination data on category or ingredient pages; brand-level data is structurally excluded from the public wiki).
-5. **Wiki/HMTc separation compliance** (no certification thresholds, percentile arithmetic, or workbench-side engine vocabulary leaking into the public wiki).
+5. **Wiki/HMTc separation compliance** (no certification thresholds, ratchet calculations, or workbench-side engine vocabulary leaking into the public wiki).
 
 Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews [41]; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
 

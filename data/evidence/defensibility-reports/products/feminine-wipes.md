@@ -2,7 +2,7 @@
 source_page: wiki/products/feminine-wipes.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b5f788b7a093d6b8d1fde0dff868c890b5ca27f3699fd29ef259c81f5416e3ba
+source_page_sha256: 8c807aac5e5d9a9fd06297d5993a21e6d449e1bcf78a6562d584e90d6c69dd98
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

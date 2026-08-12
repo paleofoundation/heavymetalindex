@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:38:58.214Z",
+  "generated_at": "2026-08-12T07:48:54.547Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
   "total_events": 1558,
@@ -508,7 +508,7 @@
     },
     "products/antiperspirant": {
       "slug": "products/antiperspirant",
-      "label": "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)",
+      "label": "Antiperspirant (Al-salt)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1726,7 +1726,7 @@
     },
     "products/dusting-powder-cornstarch-adult": {
       "slug": "products/dusting-powder-cornstarch-adult",
-      "label": "Dusting powder, cornstarch base (clean sibling of r2 talc)",
+      "label": "Dusting powder, cornstarch base",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -2886,7 +2886,7 @@
     },
     "products/grain-based-snacks": {
       "slug": "products/grain-based-snacks",
-      "label": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks",
+      "label": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice lower-occurrence counterpart to rice-snacks",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5385,7 +5385,7 @@
     },
     "products/pet-food-fish-marine-protein": {
       "slug": "products/pet-food-fish-marine-protein",
-      "label": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)",
+      "label": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -6537,7 +6537,7 @@
     },
     "products/sun-suntan-mineral": {
       "slug": "products/sun-suntan-mineral",
-      "label": "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)",
+      "label": "Sun/suntan products, mineral UV filters",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -6593,7 +6593,7 @@
     },
     "products/supplements-clay-mineral-earth": {
       "slug": "products/supplements-clay-mineral-earth",
-      "label": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty",
+      "label": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority",
       "category_label": null,
       "event_count": 0,
       "recent_events": []

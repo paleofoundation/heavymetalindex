@@ -2,7 +2,7 @@
 source_page: wiki/products/leave-on-preparations-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 68fc5ad6eb2c4dd25d6c76d1ee031575e450c1a5af476bec80cbb2f9f4891b1b
+source_page_sha256: 851758a06c05b612f0245934d4305f30556f33bbdb01b39c9da49874f6182bfd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

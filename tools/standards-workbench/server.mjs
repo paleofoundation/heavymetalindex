@@ -1,3 +1,7 @@
+// RETIRED 2026-08-12: this UI renders the superseded occurrence-selected standards workbench.
+console.error("RETIRED: rebuild this workbench against government-limit compiler and certified-lot ratchet records before use.")
+process.exit(2)
+
 import { createReadStream } from "node:fs";
 import {
   readFile,

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-dye-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8c6e19323dacfd2c3efa684304020ad36a73e14f245953fee84ef178146e7f9a",
-      "content_bytes": 10342,
+      "content_sha256": "5a1ade4f53fdd0b2cbf35116ee6ee2208950a52ced05506122f59b01c2d65a08",
+      "content_bytes": 10503,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -42,8 +42,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "3155801ee606ee618b64bfe87c2be6bbe0665951b4adda9cd13a87788ce42005",
-          "content_bytes": 21611,
+          "content_sha256": "d6ede4578de6fac569839fd0ab9e2d56ccbce5d245b6e92505f4352faff7b55d",
+          "content_bytes": 20872,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -66,8 +66,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

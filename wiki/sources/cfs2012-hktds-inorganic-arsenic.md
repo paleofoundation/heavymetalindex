@@ -202,7 +202,7 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite_key, raw_handle, 
 6. **Added Limitations section** capturing the two source-stated limitations (seaweed exclusion, ½ LOD substitution effect on beverages contribution) that the prior revision omitted.
 7. **Methods (brief) tightened** to spell out the LOD/LOQ pair for water (1.5/5) alongside food (3/10), the explicit detection rate (51% above LOD), and the MOE = BMDL0.5 / exposure calculation. The prior revision had the LOD pair only for food.
 8. **Brand-firewall scan (Part 12):** the source uses commodity descriptors only (water spinach, oyster, salted egg, tomato paste/ketchup, soya sauce) — no manufacturer brand names anywhere in the report. No redactions required.
-9. **Wiki/HMTc-firewall scan (Part 2):** removed the prior "support the wiki's rice iAs profile" phrasing in favour of the literature-baseline phrasing "contribute occurrence data to the wiki's rice iAs profile"; no HMTc threshold proposals or synthesis-across-papers claims appear in the rewritten Implications.
+9. **Wiki/HMTc-firewall scan (Part 2):** removed the prior "support the wiki's rice iAs profile" phrasing in favour of the contextual phrasing "contribute occurrence data to the wiki's rice iAs profile"; no HMTc threshold proposals or synthesis-across-papers claims appear in the rewritten Implications.
 
 **Audit subagent (2026-05-28, fresh-context general-purpose) returned REVISE** with all five checks otherwise clean (Check 1 ⚠️ x2; Checks 2-5 ✅). Both Check 1 ⚠️ findings independently verified against the source PDF and applied:
 

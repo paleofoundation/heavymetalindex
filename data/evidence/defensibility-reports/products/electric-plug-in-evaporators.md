@@ -2,7 +2,7 @@
 source_page: wiki/products/electric-plug-in-evaporators.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 87736057ba70ccc19cf7544306877c254a57aa83b3b232d4a22b9db04f6312fb
+source_page_sha256: 5f793c16be6da815254374e787e29176f9be674c1a758217b8c35a3c9c4a18e8
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-marbles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b95fceb076b8073cdf58dd4bb6da65e99a8782a901974ed864cbfad0b7e5ab2a
+source_page_sha256: ea02f2b1cf431d20eff0bc964d8ea9fb817dd2170e639ad1bfc3512edcad3532
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

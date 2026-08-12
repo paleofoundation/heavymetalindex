@@ -2,7 +2,7 @@
 source_page: wiki/products/body-hand-leave-on-skin-care.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6d79e5c6c365032bc64359ab20b8834a33605c9cf96be0a825104a95645cc4fe
+source_page_sha256: 819933f55b024abf4572a49a48e6b81e9928efa887d404f134bfbc992f61c8a0
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

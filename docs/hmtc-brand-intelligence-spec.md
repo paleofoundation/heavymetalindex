@@ -1,5 +1,7 @@
 # HMTc Brand Intelligence & Supplier Intelligence System — Architecture Spec
 
+> **Methodology note (2026-08-12):** Any occurrence-selected certification arithmetic in this draft is superseded. Occurrence evidence may support context, surveillance, and supplier investigation only; it never selects the initial HMTc limit or enters the certified-lot ratchet.
+
 **Status: DRAFT v2.1 for Karen's review (2026-05-31). Binding once approved.**
 v2 integrated an independent round-3 red-team (§7.5); v2.1 integrates round-4 (§7.6), which found the round-3 C1 fix did not hold and made the telemetry firewall absolute. This spec lives in the HMI repo as the canonical planning artifact (precedent: CLAUDE.md Part 26 and `docs/ask-the-index-spec.md`). The **system is built in the `vsubia79912/paleo-foundation` repo**; see the companion `docs/hmtc-brand-intelligence-build-plan.md`.
 
@@ -21,7 +23,7 @@ Why the split makes the firewall *cleaner*: HMTc cannot quietly rewrite the lite
 
 ## 1. Where it lives (confirmed 2026-05-31)
 
-The certification platform is `github.com/vsubia79912/paleo-foundation` (branch `master`): "a multi-domain Next.js 14 + Supabase platform." heavymetaltested.com is served from this app via its domain middleware.
+The certification platform is `github.com/vsubia79912/paleo-foundation` (branch `master`): "a multi-domain Next.js 14 + Supabase platform." heavymetalcertified.com is served from this app via its domain middleware.
 
 | Need | Already present in the repo |
 |---|---|

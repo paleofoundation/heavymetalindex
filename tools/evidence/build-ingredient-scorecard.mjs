@@ -22,8 +22,8 @@
 //     `ingredients:` arrays (the routing audit is product-keyed, not
 //     ingredient-keyed).
 //   - Graceful `tier-unset` degradation when consumption-tiers.csv is absent.
-//   - D11 public surface is the readiness verdict + blocking list only — never
-//     a P-value (CLAUDE.md Part 19 firewall).
+//   - D11 is an occurrence-evidence completeness verdict, never certification
+//     readiness or limit arithmetic.
 //
 // Usage:
 //   node tools/evidence/build-ingredient-scorecard.mjs            # write blocks + registers
@@ -36,7 +36,7 @@ import { randomUUID } from "node:crypto"
 import matter from "gray-matter"
 import { parseCsv, csvLine } from "./lib/csv.mjs"
 import { sectionPresent, sectionBody, sectionNonEmpty } from "./lib/ingredient-sections.mjs"
-import { classifyCell, num, poolingBand, BAND_ORDER } from "./lib/standards-readiness.mjs"
+import { num, poolingBand, BAND_ORDER } from "./lib/standards-readiness.mjs"
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -674,10 +674,7 @@ export function scoreIngredient(slug, fm, content, ctx) {
     reviewFlags.push({ slug, dimension: "D10", review: "not-comparable", detail: "confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)" })
   }
 
-  // ---- clean/dirty pairing (feeds D11) ----
-  const pairing = computePairing(bridged, priority)
-
-  // ---- D11: standards-readiness roll-up ----
+  // ---- D11: occurrence-evidence completeness roll-up ----
   {
     const tierInfo = ctx.tiers.get(slug)
     const tier = tierInfo ? tierInfo.tier : null
@@ -691,24 +688,20 @@ export function scoreIngredient(slug, fm, content, ctx) {
     }
     if (dims.D7.status === "GAP") blocking.push(`basis: ${dims.D7.missing}`)
     if (dims.D7.status === "FLAGGED") blocking.push(`basis: ${dims.D7.missing}`)
-    for (const [metal, state] of pairing.byMetal) {
-      if (state === "UNPAIRED") blocking.push(`${metal}: clean/dirty UNPAIRED (dirty-side limit unsupportable)`)
-    }
-
     let verdict
-    if (blocking.length === 0 && depthGate === "met") verdict = "STANDARDS-READY"
+    if (blocking.length === 0 && depthGate === "met") verdict = "OCCURRENCE-READY"
     else if (blocking.length === 0 && depthGate === "tier-unset") verdict = "PARTIAL"
     else if (priority.length > 0 && blocking.length <= 1 && dims.D5.perAnalyte.every((p) => BAND_ORDER[p.band] >= BAND_ORDER.THIN)) verdict = "PARTIAL"
-    else verdict = "NOT-READY"
+    else verdict = "EVIDENCE-GAP"
 
     const blockList = blocking.slice()
     if (depthGate === "tier-unset") blockList.push("consumption tier unset (depth bar uncheckable)")
     else if (depthGate === "below-bar") blockList.push(`depth below ${tier} bar`)
 
     dims.D11 = {
-      label: "D11 Standards-readiness",
+      label: "D11 Occurrence-evidence completeness",
       status: verdict,
-      have: priority.length ? `priority: ${priority.join(", ")}; pairing ${pairing.summary}` : "no priority analytes",
+      have: priority.length ? `priority occurrence analytes: ${priority.join(", ")}` : "no priority analytes",
       missing: blockList.length ? blockList.join("; ") : "—",
     }
   }
@@ -782,35 +775,6 @@ function readRegulationMetals(ctx, slug) {
   return metals
 }
 
-function computePairing(bridged, priority) {
-  // group rows by parent category (product_slug stem) and variant_type
-  const byMetal = new Map()
-  const variantsByMetal = new Map()
-  for (const r of bridged) {
-    const m = r.metal_species
-    if (!variantsByMetal.has(m)) variantsByMetal.set(m, new Set())
-    const vt = String(r.variant_type || "").toLowerCase()
-    if (vt) variantsByMetal.get(m).add(vt)
-  }
-  for (const m of priority) {
-    const vs = variantsByMetal.get(m)
-    if (!vs || vs.size === 0) {
-      byMetal.set(m, "SINGLE") // no bridged variant => independent, P97 clean-by-default
-      continue
-    }
-    const hasClean = vs.has("clean_benchmark")
-    const hasDirty = [...vs].some((v) => v.includes("higher") || v.includes("contamination-sibling") || v.includes("dirty"))
-    if (hasClean && hasDirty) byMetal.set(m, "PAIRED")
-    else if (hasDirty && !hasClean) byMetal.set(m, "UNPAIRED")
-    else byMetal.set(m, "SINGLE")
-  }
-  const states = [...byMetal.values()]
-  const summary = states.length
-    ? `${states.filter((s) => s === "PAIRED").length} paired, ${states.filter((s) => s === "SINGLE").length} single, ${states.filter((s) => s === "UNPAIRED").length} unpaired`
-    : "no bridged rows"
-  return { byMetal, summary }
-}
-
 function computeConsumerProtection(slug, fm, content, ctx, reviewFlags) {
   // Deterministic: child-food coverage, as-consumed basis present, dose anchor.
   const products = slugsFor(fm.used_in_products, "products")
@@ -833,7 +797,7 @@ function statusToBar(status) {
     case "OK":
     case "CONFIDENT":
     case "POOLABLE":
-    case "STANDARDS-READY":
+    case "OCCURRENCE-READY":
       return 1
     case "below-tier":
     case "PARTIAL":
@@ -844,7 +808,7 @@ function statusToBar(status) {
     case "N/A":
       return null // neutral; excluded from spread
     default:
-      return 0 // GAP / NOT-READY
+      return 0 // GAP / EVIDENCE-GAP
   }
 }
 
@@ -885,7 +849,7 @@ function collectGaps(slug, tierInfo, dims) {
 
   for (const [k, d] of Object.entries(dims)) {
     const principle = PRINCIPLE_BY_DIMENSION[k] || ""
-    if (["GAP", "below-tier", "THIN", "FLAGGED", "NOT-READY", "PARTIAL"].includes(d.status)) {
+    if (["GAP", "below-tier", "THIN", "FLAGGED", "EVIDENCE-GAP", "PARTIAL"].includes(d.status)) {
       push(k, d.status, gapTypeFor(k, d.status), d.missing, suggestedFix(k, d), principle)
     }
   }
@@ -897,7 +861,7 @@ function gapTypeFor(dim, status) {
   if (status === "below-tier") return "thin"
   if (status === "THIN") return "thin-pooling"
   if (status === "FLAGGED") return "flagged"
-  if (status === "NOT-READY") return "not-ready"
+  if (status === "EVIDENCE-GAP") return "evidence-gap"
   if (status === "PARTIAL") return "partial"
   return status
 }
@@ -988,9 +952,9 @@ function escapePipe(s) {
 }
 
 // STAFF-ONLY as of 2026-08: the scorecard is stripped from public ingredient
-// pages, never injected. Its D11 standards-readiness and Principle-balance
+// pages, never injected. Its D11 occurrence-evidence completeness and Principle-balance
 // (brand-value / legal-defensibility) rows are HMTc program internals (CLAUDE.md
-// Part 2 / Part 19 firewall), and broadcasting THIN / GAP / NOT-READY as the
+// Part 2 firewall), and broadcasting THIN / GAP / EVIDENCE-GAP as the
 // opening section undercuts the reference posture. The audit still runs — it
 // feeds the staff registers in writeRegisters() — but the public block is
 // removed. Idempotent: once a page has no block, this is a no-op, so the prebuild
@@ -1029,7 +993,7 @@ function main() {
   const changedFiles = []
   let scored = 0
   let stubs = 0
-  const verdicts = { "STANDARDS-READY": 0, PARTIAL: 0, "NOT-READY": 0 }
+  const verdicts = { "OCCURRENCE-READY": 0, PARTIAL: 0, "EVIDENCE-GAP": 0 }
   let staleCount = 0
 
   for (const file of files) {
@@ -1108,7 +1072,7 @@ function main() {
   console.log(
     `Ingredient scorecard: ${scored} scored, ${stubs} stub${check ? " (check)" : ""}; ${changedFiles.length} page block(s) ${check ? "would change" : "written"}.`,
   )
-  console.log(`  D11 verdicts: STANDARDS-READY ${verdicts["STANDARDS-READY"]}, PARTIAL ${verdicts.PARTIAL}, NOT-READY ${verdicts["NOT-READY"]}`)
+  console.log(`  D11 verdicts: OCCURRENCE-READY ${verdicts["OCCURRENCE-READY"]}, PARTIAL ${verdicts.PARTIAL}, EVIDENCE-GAP ${verdicts["EVIDENCE-GAP"]}`)
   console.log(`  ${allGaps.length} gap rows, ${allReviewFlags.length} review flags, ${allDataFlags.length} data-hygiene flags.`)
   if (!ctx.tierTablePresent) console.log(`  consumption-tiers.csv absent -> D1-depth/D11-gate render tier-unset (non-blocking); assemble-intake-figure task registered.`)
 
@@ -1137,7 +1101,7 @@ function writeRegisters(repoRoot, { allGaps, allReviewFlags, allDataFlags, ctx }
 
   // --- rendered master worklist page (STAFF-only: data/evidence/, NOT wiki/) ---
   // Lives outside wiki/ so Quartz never builds it to public. It enumerates
-  // per-ingredient standards-readiness / principle gaps — staff worklist data,
+  // per-ingredient occurrence-completeness / principle gaps — staff worklist data,
   // same firewall class as the per-page scorecard block that was removed.
   fs.writeFileSync(path.join(repoRoot, "data/evidence/completeness-gaps.md"), renderGapsPage(ranked, allReviewFlags, allDataFlags, ctx))
 }
@@ -1173,7 +1137,7 @@ function renderGapsPage(ranked, reviewFlags, dataFlags, ctx) {
   lines.push("# Ingredient Completeness Gaps")
   lines.push("")
   lines.push(
-    "_Auto-generated by `tools/evidence/build-ingredient-scorecard.mjs`. The ranked master worklist that drives the autonomous fix queue. Ranked by consumption tier first, then dimension severity (D8 provenance and D11 readiness outrank D2 cosmetic gaps). No human is routed; `review:` residuals are worked by a separate verified pass. No composite score is computed anywhere._",
+    "_Auto-generated by `tools/evidence/build-ingredient-scorecard.mjs`. The ranked master worklist that drives the autonomous fix queue. Ranked by consumption tier first, then dimension severity (D8 provenance and D11 occurrence completeness outrank D2 cosmetic gaps). No human is routed; `review:` residuals are worked by a separate verified pass. No composite score is computed anywhere._",
   )
   lines.push("")
   lines.push(`Total open gap rows: ${ranked.length}. By dimension: ${Object.entries(byDim).map(([k, v]) => `${k} ${v}`).join(", ") || "none"}.`)

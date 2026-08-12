@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f416613b1a50b3da0b7814999be6aa1de6518ce4b800f6bf6193ebfd4d437e8e
+source_page_sha256: 8b10caf2eb94b1b1161f86643508a1557dc46edb3bab68e2669588be9832279b
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0

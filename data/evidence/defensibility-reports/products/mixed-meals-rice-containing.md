@@ -2,7 +2,7 @@
 source_page: wiki/products/mixed-meals-rice-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f0547cc301bffcad3799975d2a03066f66be31084c198a4a4034a235b7403eb1
+source_page_sha256: 8c0bb6ed8cca756978fbb7384a2b5ca0cb037733f768ad65496844642fd5ab85
 total_claims: 82
 cited_claims: 82
 uncited_claims: 0

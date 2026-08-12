@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-sunscreen-mineral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7a0954742405afbb546afb3869c6b5685acb07585b8f90d4f50d4523630d8b4b
+source_page_sha256: 8a7aee96366e63f4f06be7041d174340e439d08d126a88b0b03487206dfa4633
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

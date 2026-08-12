@@ -7,9 +7,10 @@
 // None of that belongs on the index domain: the wiki reports what the
 // literature says; the certification program sets thresholds elsewhere.
 //
-// This rewrites each known leak template to the literature-native boundary
-// statement already used across the corpus ("… developed under the certification
-// program at heavymetaltested.com, not on this page"). It is DETERMINISTIC and
+// This rewrites each known leak template to the current literature-native boundary:
+// initial HMTc limits are government-limit-only, Index occurrence evidence never
+// selects a value or status, and later tightening uses eligible certified-lot data.
+// It is DETERMINISTIC and
 // IDEMPOTENT — running it twice is a no-op — so it can also serve as a lint/
 // backstop if a leak recurs. Bodies only; frontmatter is never touched.
 //
@@ -43,9 +44,11 @@ const SCAN_DIRS = [
 // Canonical literature-native replacements (kept identical to the fixed
 // generators so pages and generators converge on one wording).
 const HOW_BODY =
-  "This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold."
+  "This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet."
+const CERT_BOUNDARY =
+  "Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet."
 const BOUNDARY_PAIR =
-  " Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page."
+  " The occurrence comparison between these rows is descriptive only and assigns no certification role. Initial HMTc limits come from the separate sovereign-government compiler, not from either row's occurrence distribution."
 
 // Inline clause rewrites. Each removal rule consumes its own leading space so no
 // double-space is left behind.
@@ -65,7 +68,7 @@ const RULES = [
   {
     name: "methodology-percentile-clause",
     re: /The percentile(?:-selection)? arithmetic that informs HMTc(?: Cat \d+)? thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only\./g,
-    to: "HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.",
+    to: CERT_BOUNDARY,
   },
   {
     name: "who-internal-staff-routing-hub",
@@ -115,12 +118,12 @@ const RULES = [
   {
     name: "stub-percentile-selection",
     re: /Percentile-selection arithmetic does not appear on this public page \([^)]*firewall\); it lives on the staff Standards Workbench\./g,
-    to: "HMT&C certification thresholds are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.",
+    to: CERT_BOUNDARY,
   },
   {
     name: "kombucha-defensible-row-standard",
     re: /before the staff Standards Workbench can compute a defensible row-standard\./g,
-    to: "before a defensible row-level literature baseline can be established.",
+    to: "before the descriptive occurrence record is sufficiently complete.",
   },
   {
     name: "kombucha-percentile-selection-tracked",
@@ -188,7 +191,7 @@ const RULES = [
   {
     name: "regulation-rationale-staff-workbench",
     re: /HMTc certification setting tighter thresholds than these caps follows the methodology, with the rationale tagged as `literature-baseline`, `regulatory-alignment`, `precautionary`, or `feasibility-driven` per the staff-side workbench\./g,
-    to: "HMTc certification may set thresholds tighter than these caps; where it does, the rationale is documented under the certification program, not on this page.",
+    to: "Initial HMTc limits come from the strictest applicable credible sovereign-government maximum; later tightening may occur only through the eligible certified-lot Standards Ratchet.",
   },
   {
     name: "stakeholder-guide-internal-staff-block",
@@ -202,6 +205,66 @@ const RULES = [
     name: "lab-comparator-disclaimer",
     re: /The comparator does not display HMT&C certification thresholds or threshold-selection percentile arithmetic\. Those values live in the staff Standards Workbench because they are policy choices on top of the literature, not literature evidence in themselves\./g,
     to: "The comparator does not display HMT&C certification thresholds or the calculations behind them, because those are policy choices layered on top of the literature, not literature evidence in themselves.",
+  },
+  {
+    name: "retired-literature-baseline-boundary",
+    re: /This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in (?:this product category|this row); it publishes no certification thresholds of its own\. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified\.com, which reads this page as its literature baseline\. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold\./g,
+    to: HOW_BODY,
+  },
+  {
+    name: "retired-threshold-development-boundary",
+    re: /HMT&C certification thresholds(?: for products in this row)? (?:continue to be )?(?:are )?developed under the certification program at heavymetalcertified\.com, not on this (?:public )?page(?:; this public page reports literature evidence only)?\./g,
+    to: CERT_BOUNDARY,
+  },
+  {
+    name: "retired-threshold-development-boundary-linked",
+    re: /HMTc certification thresholds for products in this row continue to be developed under the certification program at \[heavymetalcertified\.com\]\(https:\/\/heavymetalcertified\.com\), not on this public page\./g,
+    to: CERT_BOUNDARY,
+  },
+  {
+    name: "retired-shared-evidence-base-staff-note",
+    re: /HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https:\/\/heavymetalcertified\.com">heavymetalcertified\.com<\/a>, not on this public page\. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="\/methodology">methodology<\/a> for the separation\./g,
+      to: "Initial HMT&amp;C limits are compiled separately at <a href=\"https://heavymetalcertified.com\">heavymetalcertified.com</a> under the government-limit-only method. Index occurrence evidence is descriptive only and cannot select a certification value or status; later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.",
+  },
+  {
+    name: "retired-threshold-development-boundary-broad",
+    re: /(?:HMT&C|HMTc) certification thresholds(?: for [^.]+?)? (?:continue to be |are )?developed under the certification program at heavymetalcertified\.com, not on this (?:public )?page(?:; this public page reports literature evidence only)?\./g,
+    to: CERT_BOUNDARY,
+  },
+  {
+    name: "retired-threshold-development-under-program",
+    re: /Certification thresholds are developed under the program at heavymetalcertified\.com, not on this page\. See the \[methodology\]\(\/methodology\) for the wiki\/HMT&C separation\./g,
+    to: "Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; Index occurrence evidence does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. See the [methodology](/methodology) for the Index/HMT&C separation.",
+  },
+  {
+    name: "retired-linked-threshold-development-boundary",
+    re: /HMTc certification thresholds for products in this row are developed under the certification program at \[heavymetalcertified\.com\]\(https:\/\/heavymetalcertified\.com\), not on this public page; this page reports literature evidence and the applicable regulatory caps only\./g,
+    to: CERT_BOUNDARY,
+  },
+  {
+    name: "retired-row-threshold-development-boundary-linked",
+    re: /HMTc thresholds for this row are developed under the certification program at \[heavymetalcertified\.com\]\(https:\/\/heavymetalcertified\.com\)\./g,
+    to: "Initial HMTc limits for this row are compiled separately at [heavymetalcertified.com](https://heavymetalcertified.com) under the government-limit-only method; Index occurrence evidence does not select the value.",
+  },
+  {
+    name: "retired-seafood-literature-baseline-boundary",
+    re: /This page reports the literature baseline; certification thresholds are set separately under the certification program at heavymetalcertified\.com, not on this page\./g,
+    to: HOW_BODY,
+  },
+  {
+    name: "retired-cat2-literature-baseline-boundary",
+    re: /HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetalcertified\.com, not on this page\. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden\./g,
+    to: HOW_BODY,
+  },
+  {
+    name: "retired-literature-baseline-tail",
+    re: / This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden\./g,
+    to: "",
+  },
+  {
+    name: "retired-generic-threshold-set-separately",
+    re: /This page reports the literature; certification thresholds are set separately under the certification program, not on this page\./g,
+    to: CERT_BOUNDARY,
   },
 ]
 

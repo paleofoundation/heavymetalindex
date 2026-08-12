@@ -1,5 +1,7 @@
 # Category 4 — Fruits, Vegetables, and Produce — Step Zero Amendment 1
 
+> **Taxonomy history; limit-setting method superseded 2026-08-12.** Mushroom row identities remain part of the record. Any clean/dirty language below is a historical occurrence-comparison label and cannot select a current limit or status. Initial HMTc values are government-limit-only.
+
 **Status:** Active. Amends the Cat 4 Step Zero lock under the authority of
 `taxonomy-reorganization-2026-06.md` (v2.1), 2026-06-08. A new Step Zero lock *event*, not an
 in-place edit, per the never-renumber identity guardrail.

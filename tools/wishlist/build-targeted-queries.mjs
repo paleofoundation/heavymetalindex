@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Generates targeted OpenAlex queries from the HMTc standards gap report and
+// Generates targeted OpenAlex queries from the persistent occurrence-gap register and
 // ingredient-page contamination_profile gaps. The output feeds the existing
 // find-candidates.mjs pipeline, replacing the manual-wishlist parse with a
 // gap-driven query stream that closes specific (product, metal) and
@@ -9,10 +9,10 @@
 // rate because the manifest text-mines anything mentioning metals into P4. This
 // generator inverts the search: rather than reading randomly-ordered candidates
 // and discarding most as off-topic, it builds queries that target the specific
-// gaps that block HMTc standards-readiness or ingredient page synthesis.
+// gaps in occurrence coverage or ingredient-page synthesis.
 //
 // Input:
-//   - data/evidence/hmtc_standards_gap_report.csv (BLOCKED rows = priority 1)
+//   - data/gaps/open_gaps.jsonl (no-cited-occurrence rows = priority 1)
 //   - wiki/ingredients/*.md (pending or in_progress contamination_profile cells = priority 2)
 //
 // Output:
@@ -30,7 +30,7 @@ import fs from "node:fs"
 import path from "node:path"
 
 const repoRoot = process.cwd()
-const gapReportPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
+const openGapsPath = path.join(repoRoot, "data/gaps/open_gaps.jsonl")
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
 const queriesPath = path.join(repoRoot, "data/evidence/wishlist-queries.json")
 
@@ -138,23 +138,27 @@ const INGREDIENT_SEARCH_TERMS = {
   "eggs": ["eggs"],
 }
 
-// ---------- Step 1: build gap candidates from HMTc gap report ----------
+// ---------- Step 1: build candidates from occurrence gaps ----------
 
-if (!fs.existsSync(gapReportPath)) {
-  console.error(`No gap report at ${gapReportPath}.`)
+if (!fs.existsSync(openGapsPath)) {
+  console.error(`No open-gap register at ${openGapsPath}.`)
   process.exit(1)
 }
 
-const gapRows = parseCsv(fs.readFileSync(gapReportPath, "utf8"))
-const blockedRows = gapRows.filter((r) => (r.aggregate_hmtc_percentile_status || "").startsWith("DO NOT PUBLISH") || (r.aggregate_hmtc_percentile_status || "").startsWith("BLOCKED"))
+const gapRows = fs.readFileSync(openGapsPath, "utf8").split("\n").filter(Boolean).map((line) => JSON.parse(line))
+const blockedRows = gapRows.filter((row) =>
+  row.status !== "closed"
+    && row.why === "no_cited_occurrence_evidence"
+    && /^wiki\/products\/[a-z0-9-]+\.md$/.test(row.page || ""),
+)
 
-console.error(`Gap report: ${gapRows.length} rows, ${blockedRows.length} blocked.`)
+console.error(`Open-gap register: ${gapRows.length} rows, ${blockedRows.length} product occurrence gaps.`)
 
 const candidates = []
 
 for (const row of blockedRows) {
-  const productSlug = row.product_slug
-  const metal = row.metal_species
+  const productSlug = row.page.match(/^wiki\/products\/([a-z0-9-]+)\.md$/)[1]
+  const metal = row.metal
   const productTerms = PRODUCT_SEARCH_TERMS[productSlug] || [productSlug.replace(/-/g, " ")]
   const metalTerms = METAL_SEARCH_TERMS[metal] || [metal]
 
@@ -167,7 +171,7 @@ for (const row of blockedRows) {
 
   candidates.push({
     id: `GAP-${productSlug}-${metal}`,
-    section: "hmtc-gap-blocked",
+    section: "product-occurrence-gap",
     priority: "high",
     search_query_core: `"${primaryProduct}" ${primaryMetal} concentration`,
     search_query_full: `("${primaryProduct}" OR "${productTerms.slice(1, 3).join('" OR "')}") ${primaryMetal} ${altMetal ? `OR ${altMetal}` : ""} (concentration OR content OR level OR occurrence OR exposure)`,
@@ -182,8 +186,7 @@ for (const row of blockedRows) {
       kind: "product",
       slug: productSlug,
       metal,
-      reason: row.aggregate_hmtc_percentile_status,
-      regulatory_cap: row.lowest_regulatory_cap_ug_kg,
+      reason: row.why,
     },
   })
 }
@@ -298,8 +301,7 @@ if (fs.existsSync(autonomyWishlistPath)) {
 // ---------- Step 3: prioritize and cap ----------
 
 // Combined ordering:
-//   1. HMTc-staff gap-report blocked candidates (Step 1) come first —
-//      those block standards-readiness directly.
+//   1. Product occurrence-coverage gaps (Step 1) come first.
 //   2. Autonomy candidates next — but their existing order already
 //      respects Karen's category priority + products/ingredients
 //      rotation (set by tools/autonomy/gap-driven-wishlist.mjs).
@@ -314,9 +316,9 @@ const all = [...candidates, ...autonomyCandidates, ...ingredientCandidates]
 // candidates sort by their internal priority. Ingredient cells fall in
 // behind both.
 all.sort((a, b) => {
-  // Sources block ordering: HMTc-blocked (high) → autonomy (medium-by-default) → ingredient
+  // Sources block ordering: product occurrence gaps → autonomy → ingredient
   const sectionRank = (x) => {
-    if (x.section === "hmtc-gap-blocked") return 0
+    if (x.section === "product-occurrence-gap") return 0
     if ((x.section || "").startsWith("autonomy-")) return 1
     return 2
   }

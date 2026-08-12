@@ -2,7 +2,7 @@
 source_page: wiki/products/degreasers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4b8ec0cd36f93b5cb8e3905355042e166aa76f3267db90cf95f8fb855f32c3cb
+source_page_sha256: 8dfe0d28956b61b534923fafeacb6357edc12b8bfd51569f32bd4669cf6a2635
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

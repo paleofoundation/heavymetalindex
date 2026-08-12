@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-gummies.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e4622bf7736c12ac36809bead4ed33e4d97c255c08e45733c6492cebe64cc810
+source_page_sha256: 99cb76732dea9b573d864bbdec9cb9c31dfd58262fa2729b98a88e8d2706b985
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

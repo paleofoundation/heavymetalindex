@@ -60,7 +60,7 @@ The cadmium ceilings the article reports for chocolate and cocoa powder are exte
 
 The narrative buyer-reject threshold for cocoa beans (0.3 mg/kg, derived from the article's bean-to-powder concentration framing) is not a regulatory maximum level. It is a market signal — an EU-side commercial filter applied by some downstream buyers because the regulatory ceiling on the finished cocoa powder propagates backward through the supply chain. HMTc workups should record this as a market context note for cocoa-bean sourcing, not as a regulatory threshold candidate, because there is no binding EU maximum level on raw cocoa beans as such.
 
-The four-row cadmium ladder by total dry cocoa solids percentage is the same four-row ladder carried forward from 488/2014 → 2021/1323 → 2023/915. HMTc within-row clean/dirty subcategory work for chocolate should sit inside that four-row ladder rather than across it, consistent with the framing established in [[sources/ec2019-cadmium-chocolate-leaflet]].
+The four-row cadmium ladder by total dry cocoa solids percentage is the same product-form ladder carried forward from 488/2014 → 2021/1323 → 2023/915. Any HMTc government-limit lookup for chocolate must preserve those legal cocoa-solids and milk-chocolate splits. Occurrence findings may be stratified within the same forms for descriptive comparison, but they do not select the certification value.
 
 ## Cadmium maximum levels (CBI Table 2, EU 2023/915, as consolidated July 2024)
 

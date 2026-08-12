@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-formula-rtf-liquid-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba60f9e237b2cb4ae7d26b6a2b0a52293e28bf6c4b05e04056df859c410594aa
+source_page_sha256: c2d9feaf459c0ae97ae034ecfbefd51eca13a124913d94ae33590ea73509912e
 total_claims: 57
 cited_claims: 57
 uncited_claims: 0

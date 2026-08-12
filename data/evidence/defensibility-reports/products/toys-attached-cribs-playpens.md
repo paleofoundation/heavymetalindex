@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-attached-cribs-playpens.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 28710ee34ef0e1b2c2105245a4a02a4fc6850cad786acad51835acde3999a9f1
+source_page_sha256: efea85c1533d300b07b85697376ab9b2b9d7674ac73313939f509414fb186ee2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

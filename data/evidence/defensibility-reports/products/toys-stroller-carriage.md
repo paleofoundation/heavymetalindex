@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-stroller-carriage.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ace975281c178243275ff2b2ad5e34702b61223ae67f3dc14165ecd37e09db3a
+source_page_sha256: 8eefb5846e91507435ca6975d4a74011259bdc70fcad38b8723884f91d96da91
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

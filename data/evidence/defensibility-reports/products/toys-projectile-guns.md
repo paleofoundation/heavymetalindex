@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-projectile-guns.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4d84d41c89999bfb7a4188f1a0dbc129f04393e4e79b1b982b4f26fc48a9233a
+source_page_sha256: 61a17f107a0f231adb2dd081fa2e613c730db9cb3eb774682bba47c40e763a5b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

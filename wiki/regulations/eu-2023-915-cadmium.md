@@ -99,7 +99,7 @@ For product pages, route only rows that match the same product basis. For ingred
 
 ## Comparison Notes
 
-EU Cd values are useful for HMTc because they show which matrices already have strict legal maximum levels and which foods are considered achievability-sensitive. They should not be used as private certification thresholds without considering U.S. law, Codex, occurrence distributions, child exposure, serving size, feasibility, and analytical uncertainty.
+EU Cd values are sovereign-government maximum levels that enter the HMTc cross-jurisdiction comparison. The strictest applicable credible sovereign maximum, expressed in the product's native basis, sets the initial HMTc value. Occurrence distributions, exposure evidence, and analytical considerations remain contextual; later tightening uses eligible HMTc certified-lot findings under the Standards Ratchet.
 
 ## Sources
 

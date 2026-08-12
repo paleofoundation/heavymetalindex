@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/cutting-boards",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a5241dc4e37dcf816916b413a63e26cf973bff9d71986dc1554589f4154f2c48",
-      "content_bytes": 7605,
+      "content_sha256": "8bf1de2267086b7c86ba91aa032c9682bf9fb313c58a40da4265b411c6e80d10",
+      "content_bytes": 7766,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

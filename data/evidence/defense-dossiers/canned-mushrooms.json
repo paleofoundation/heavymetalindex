@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/canned-mushrooms",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "db33a2ac8f339b5f2a475fc281effd163fcff543f8fe11cf20d5d12a0b9c8e6e",
-      "content_bytes": 10582,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "4bdc80e77cd0da4323f5f7fc9287d75ae568075acf43db92f6959352e5a52779",
+      "content_bytes": 10505,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/canned-mushrooms.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/canned-mushrooms.md | sha256sum"
     }
   },
   "evidence_base": {

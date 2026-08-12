@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-formula-rtf-liquid-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e3b450f2df4926a0bbd7194ad9ba5d092f8b70c66417b0b23791eb1ed33067f9
+source_page_sha256: f55e5415b555c90259d75ed9b2bcdbd787077452dabe8957e9b364daffe5fa04
 total_claims: 43
 cited_claims: 43
 uncited_claims: 0
@@ -170,7 +170,7 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `65 ppb`
-- Context: `gal context. |  RTF soy formula needs basis-matched occurrence review; the Prop 65 ppb screen is driven by assumed daily`
+- Context: `extual only. |  RTF soy formula needs basis-matched occurrence review; the Prop 65 ppb screen is driven by assumed daily`
 - Cited targets (3):
   - `wiki/regulations/california-prop65.md` (page missing)
     - audit rows: none

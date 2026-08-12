@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-liquids-shots.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5d5e8a4d7cc6fd77f9aef754b94a9ba7d105569745806f31fd07da0455c27827
+source_page_sha256: 3a6e1dc314cf08e9c77188a60198c899e26a7ea76c268e21513c6f7f22cb0d6a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

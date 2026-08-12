@@ -2,7 +2,7 @@
 source_page: wiki/products/toothbrushes.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: db2cde0102754192d1ea31593ff42ebb7985764d6cb763e69caa4037d0fc74d3
+source_page_sha256: d73be442190e649624ec6b4bde91f598660f55c1f7a8e5dc0dff411e2177b718
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

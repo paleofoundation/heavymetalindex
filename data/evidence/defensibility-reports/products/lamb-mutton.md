@@ -2,7 +2,7 @@
 source_page: wiki/products/lamb-mutton.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ccf59ad243a66e43df774f58d0e69732ece5303f6f3ff5cadb3a5d0143ed5115
+source_page_sha256: 646e29a3495321fe26a28d27d33c7696494067fa3dde73555701749f47581852
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

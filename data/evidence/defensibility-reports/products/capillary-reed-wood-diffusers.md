@@ -2,7 +2,7 @@
 source_page: wiki/products/capillary-reed-wood-diffusers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 82272553354f2371a130b0c63c4652dc8aab9dce0d4d07eedd4e8cf0efbc7ffe
+source_page_sha256: a9e9a37e3d522638b2cd0a57e410f957abea4305fb4571c0e4699bd15cf75a69
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/soft-drinks-carbonated-beverages.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7c4fc4148952ed7581d1169e0d145226fc78d70f6165405cfe6abc67dda7f16d
+source_page_sha256: 5a1decf22bfe896b1da2f636f1db2d3c842f5ab7b7ea812dfee34d4588e468c8
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -1,11 +1,7 @@
-// Shared standards-readiness classifier.
+// Shared descriptive occurrence-completeness helpers.
 //
-// This is the single source of truth for the cell-level "is this a defensible
-// value the standards math can print?" ladder. Both the category-readiness
-// monitor (tools/evidence/build-category-standards-readiness.mjs) and the
-// per-ingredient completeness scorecard (D11) import classifyCell from here so
-// the per-ingredient verdict and the category monitor can never silently
-// disagree (page-completeness-scorecard.md Part 2, D11).
+// These functions characterize external literature coverage only. They never
+// select an initial HMTc limit or evaluate the certified-lot ratchet.
 
 export function num(v) {
   const n = Number(v)
@@ -13,10 +9,9 @@ export function num(v) {
 }
 
 // Minimum n at which a one-sided 95% nonparametric bound on the P-th percentile
-// exists at all: ceil(ln(0.05)/ln(P)) — 29 for P90, 59 for P95, 99 for P97.
+// exists at all: ceil(ln(0.05)/ln(P)) — 29 for P90 and 59 for P95.
 // Below it there is no bound; the "percentile" is the top order statistic wearing
 // a percentile's name and it tracks the dirtiest lot rather than the distribution.
-// Same formula the C11 gate uses (build-standards-qc-gate.mjs).
 export function minNForPercentile(p) {
   if (!(p > 0 && p < 1)) return null
   return Math.ceil(Math.log(0.05) / Math.log(p))
@@ -26,7 +21,7 @@ export function minNForPercentile(p) {
 // to both conditions the gate tests: a bound must exist (n >= minN) and the target
 // must sit inside the pool's resolution (p <= 1 - 1/n). Returns null when the pool
 // supports no defensible upper-tail percentile.
-export const PERCENTILE_LADDER = [0.97, 0.95, 0.9, 0.8, 0.75, 0.5]
+export const PERCENTILE_LADDER = [0.95, 0.9, 0.8, 0.75, 0.5]
 export function maxSupportablePercentile(n) {
   const nn = num(n)
   if (nn === null || nn < 1) return null
@@ -37,63 +32,39 @@ export function maxSupportablePercentile(n) {
   return null
 }
 
-// A cell is SHIPPABLE (resolves the row for manual purposes) when it has a
-// defensible value the manual can print with an honest confidence label:
-//   - literature-baseline, stable        -> firm
-//   - literature-baseline, provisional   -> publishable, labeled provisional
-//   - regulatory-alignment (cap-bound)   -> firm
-// Only genuine gaps block: no value at all, or a value still flagged untrusted.
-//
-// `row` is the hmtc_aggregate_distributions row for (slug, metal) or undefined.
-// `flagged` is true when the cell sits unreviewed in extraction_review.csv.
+// Compatibility export for retired tools. A current caller may use it only to
+// ask whether a descriptive occurrence cell is present and well-supported.
 export function classifyCell(row, flagged) {
-  const cand = row ? num(row.candidate_value_ppb) : null
-  const cap = row ? num(row.lowest_regulatory_cap_ppb) : null
-  const p97 = row ? num(row.pooled_p97) : null
+  const p95 = row ? num(row.pooled_p95) : null
   const distinct = row ? num(row.distinct_sources) ?? 0 : 0
   const sens = (row?.sens_band || "").toLowerCase()
-  const value = cand ?? cap ?? p97
-  if (value === null) return { state: "pending", why: "no usable evidence (needs data)" }
+  if (p95 === null) return { state: "pending", why: "no usable occurrence evidence" }
   if (flagged) return { state: "pending", why: "flagged untrusted (extraction_review)" }
-  if (cand !== null && cap !== null && (p97 === null || cap <= p97))
-    return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
-  // A literature-baseline standard is "firm" only with a stable, multi-source pool
-  // AND enough SAMPLES for the target percentile to exist. distinct_sources counts
-  // sources; pooled_n counts samples; a 3-source pool of 20 samples clears the
-  // source gate while failing the percentile gate. Without the n test this
-  // function graded 68 cells firm that the C11b gate demotes — including
-  // fish-containing-baby-foods tAs/tHg at n=4 carrying a P97. Keeping the two in
-  // agreement here is what stops the catalog printing "firm" on a value the QC
-  // gate has already demoted.
-  const targetP = num(row?.target_p)
   const pooledN = num(row?.pooled_n)
-  const nMin = targetP !== null ? minNForPercentile(targetP) : null
+  const nMin = minNForPercentile(0.95)
   const nSupportsTarget =
-    nMin === null || pooledN === null ? true : pooledN >= nMin && targetP <= 1 - 1 / pooledN
-  if (p97 !== null && sens === "stable" && distinct >= 2 && nSupportsTarget)
-    return { state: "resolved", basis: "literature-baseline", confidence: "firm", value }
-  if (p97 !== null) {
+    pooledN === null ? false : pooledN >= nMin && 0.95 <= 1 - 1 / pooledN
+  if (sens === "stable" && distinct >= 2 && nSupportsTarget)
+    return { state: "resolved", basis: "descriptive-occurrence", confidence: "firm", value: p95 }
+  if (p95 !== null) {
     const maxP = maxSupportablePercentile(pooledN)
     return {
       state: "resolved",
-      basis: "literature-baseline",
+      basis: "descriptive-occurrence",
       confidence: "provisional",
-      value,
-      // Surfaced, not silently substituted: the gap between the target and what the
-      // pool can carry is stated (CLAUDE.md Part 2 — the gap is the point).
+      value: p95,
       ...(nSupportsTarget
         ? {}
         : {
             percentile_unsupported: true,
-            target_p: targetP,
+            descriptive_p: 0.95,
             pooled_n: pooledN,
             n_required: nMin,
             max_supportable_p: maxP,
           }),
     }
   }
-  if (cap !== null) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
-  return { state: "pending", why: "no usable evidence (needs data)" }
+  return { state: "pending", why: "no usable occurrence evidence" }
 }
 
 // D5 pooling-depth ladder (page-completeness-scorecard.md Part 2, D5). Thresholds

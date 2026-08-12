@@ -2,7 +2,7 @@
 source_page: wiki/products/appliance-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5b0c02bdea3ed898125e13577d058502af4f0019a06bb160aa6d4da323ddc88e
+source_page_sha256: c1cc38465b82bab3d7be2812e3023530927f7d95d2b33f829f8aa433702e3892
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

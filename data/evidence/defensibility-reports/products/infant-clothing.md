@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-clothing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 262da37af0cc4401dd198f6af5fe348b5a4d807448f50dfe8d57a5948d89725f
+source_page_sha256: 65369afd1812c7d23fa1f06b379746e7f9c6418c55687383dabf88336b9c474b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

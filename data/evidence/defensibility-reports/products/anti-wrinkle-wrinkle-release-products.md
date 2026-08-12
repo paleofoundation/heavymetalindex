@@ -2,7 +2,7 @@
 source_page: wiki/products/anti-wrinkle-wrinkle-release-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6c8d9d890c626bc1b272ce0de6c6873bd59849c667ef8f7cce01e5709f4cd65b
+source_page_sha256: 3a7c828a1dd869cac8a39e982c89e1ab1582c48aefd0cc6f516c7ae95f3321eb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

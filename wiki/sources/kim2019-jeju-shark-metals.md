@@ -117,7 +117,7 @@ Speciation discipline: arsenic is total arsenic by ICP-MS, not inorganic arsenic
 
 **Evidence tier.** A. This is a peer-reviewed PLOS ONE primary occurrence study with explicit sample frame, analytical methods, wet-weight concentration tables, detection-limit handling, and source-cited regulatory comparison.
 
-**Firewall check.** The page reports source values and source-cited comparison values only. It does not calculate HMTc thresholds, pooled percentiles, clean/dirty rows, or brand-level findings. No brand data are present in the source.
+**Firewall check.** The page reports source values and source-cited comparison values only. It does not select an HMTc certification limit or status, perform a certified-lot ratchet calculation, or publish brand-level findings. No brand data are present in the source.
 
 **Number verification.** Numbers in the Key numbers section were checked once against full-PDF extracted text and a second time against rendered pages or surrounding article text before commit. Table 1 was checked against rendered page 6; Table 2 against rendered page 8; Table 3 against rendered page 9; Table 4 against rendered page 10; Figure 3 and the regression text against rendered page 11; Table 5 against rendered page 12; and supporting-information captions against page 14 text.
 

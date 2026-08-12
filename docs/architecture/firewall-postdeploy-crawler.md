@@ -16,7 +16,7 @@ repo's source tree**. It cannot see:
 - threshold values a generator injects only at **render time** into HTML that is not
   present verbatim in the markdown source;
 - a **cross-domain `rel=canonical`** (the single defect that folded the old
-  paleofoundation.com ↔ heavymetaltested.com pair) — by definition a relationship
+  paleofoundation.com ↔ heavymetalcertified.com pair) — by definition a relationship
   *between* two deployed domains;
 - near-duplicate **bodies** shared across domains (the "links not copies" invariant),
   which requires comparing rendered output from two origins.

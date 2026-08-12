@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this Index-side assembler includes superseded Part 3
+// occurrence-selected chapters. The controlling current Program Manual is built
+// in the certification repository from government-limit compiler records.
+console.error("RETIRED: the Index-side Program Manual contains superseded P45/P97 chapters. Use the certification-repo manual builders.")
+process.exit(2)
 /**
  * build-program-manual.mjs
  *

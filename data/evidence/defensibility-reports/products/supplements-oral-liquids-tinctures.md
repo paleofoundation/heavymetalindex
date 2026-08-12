@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-liquids-tinctures.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8e4206bcb5a955bb9af2662c915e0da2b7e5227c2346606b6cf7f860ff9926da
+source_page_sha256: dc60d1ecc275062ee22a005867b2ab0f33fa46d59486b159691a1490e4f35edf
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

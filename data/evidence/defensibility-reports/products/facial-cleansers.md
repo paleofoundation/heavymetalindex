@@ -2,7 +2,7 @@
 source_page: wiki/products/facial-cleansers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ce1e12c6084e46a549248957e64fc8ddc1f8924888c07e24daef8577c45a9d4f
+source_page_sha256: 1ac5cc3206b5388b93fb5f574c4e6748339db4dac93562b91f18912755a5932a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

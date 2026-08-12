@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * HMTc pooling engine.
+ * Heavy Metal Index descriptive occurrence-pooling engine.
  *
- * Per CLAUDE.md Part 19 and docs/governance/hmtc-governing-principles.md v2.0:
- * For each (product_slug, metal_species) cell, pool every loaded source's
- * contribution into a single distribution, then take P97 (clean subcategory)
- * or P45 (dirty subcategory) of that pool. Final value capped at the lowest
- * applicable loaded regulatory ceiling.
+ * CURRENT-METHOD BOUNDARY (2026-08-12): the distributions produced here are
+ * contextual occurrence evidence only. They do not select an initial HMTc
+ * compliance value and do not enter the certified-lot Standards Ratchet.
+ * The output deliberately contains descriptive distribution statistics only:
+ * no certification target, candidate, clean/dirty role, or rationale selector.
  *
  * Admission rule: any source row with a usable statistic contributes via
  * moment-matching pseudo-sample expansion. No source is excluded for being
@@ -36,7 +36,6 @@ const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
 const summaryCsvGlob = "data/evidence/category*_summary.csv"
 const samplesCsvGlob = "data/evidence/category*_samples.csv"
-const gapReportPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const outputPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
 const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions_summary.json")
 const starvationAuditPath = path.join(repoRoot, "data/evidence/hmtc_pool_starvation_audit.csv")
@@ -48,30 +47,26 @@ const verbose = args.get("verbose") === "true" || args.has("verbose")
 const bootstrapIterations = Number(args.get("bootstrap-iterations") ?? 200)
 const pseudoSampleCap = Number(args.get("pseudo-sample-cap") ?? 500)
 
-// ---- Methodology constants (per CLAUDE.md Part 19 / Governing Principles v2.0)
+// ---- Descriptive occurrence constants (never certification targets)
 
-const CLEAN_TARGET_P = 0.97       // per-analyte clean standard
-const DIRTY_TARGET_P = 0.45       // per-analyte dirty standard
-const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/dirty
+const DESCRIPTIVE_UPPER_TAIL_P = 0.95
 
-// Machine-only clean/dirty/independent role assignment, keyed by product_slug.
-// See data/workbench/standards/subcategory-roles.json for why this exists: the
-// role must not live in public product frontmatter (firewall leak), so the
-// public `variant_type` token gets rewritten and the engine's dirty branch
-// never matched — 0 dirty rows corpus-wide. Reading the role from this config
-// FIRST decouples the percentile choice from the public page.
-const subcategoryRolesPath = path.join(repoRoot, "data/workbench/standards/subcategory-roles.json")
-const subcategoryRoles = (() => {
-  if (!fs.existsSync(subcategoryRolesPath)) return {}
+// Descriptive market strata are independent of certification roles or limits.
+// Only the named product rows are filtered to the listed regulatory-equivalence
+// markets; every output remains contextual occurrence evidence.
+const occurrenceStrataPath = path.join(repoRoot, "data/reference/occurrence-market-strata.json")
+const occurrenceStrata = (() => {
+  if (!fs.existsSync(occurrenceStrataPath)) return { target_markets: [], stratified_products: [] }
   try {
-    return JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).roles ?? {}
+    return JSON.parse(fs.readFileSync(occurrenceStrataPath, "utf8"))
   } catch (err) {
-    console.error(`subcategory-roles.json failed to parse: ${err.message}`)
-    return {}
+    console.error(`occurrence-market-strata.json failed to parse: ${err.message}`)
+    return { target_markets: [], stratified_products: [] }
   }
 })()
+const stratifiedProducts = new Set(occurrenceStrata.stratified_products ?? [])
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
-const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
+const BASIS_RECONSTITUTION_FACTOR = 8 // infant-formula powder:prepared mass relationship only
 const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
 // A pooled distribution whose p95 exceeds its p10 by more than this factor is
 // almost certainly contaminated by a unit mismatch among its source rows (e.g.
@@ -79,7 +74,7 @@ const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
 // occurrence range — genuine LOD-censored contaminant distributions stay well
 // under 1e4. Such a pool cannot yield a defensible percentile for ANY consumer
 // (public synthesis or staff standards), so the engine blocks it outright. This
-// is a data-quality gate, not a change to the P97/P45 methodology.
+// is a data-quality gate, not certification arithmetic.
 const MAX_INTERNAL_SPAN = 1e4
 
 // ---- Random number generator (deterministic, seeded for reproducibility)
@@ -404,11 +399,18 @@ function interpolatePercentile(p, points) {
 
 // ---- Basis homogenization
 
-function convertBasis(value, fromBasis, toBasis) {
+function convertBasis(value, fromBasis, toBasis, productSlug = "") {
   if (!fromBasis || !toBasis || fromBasis === toBasis) return { value, factor: 1 }
-  // Powder ↔ prepared (1:7 reconstitution by mass).
+  // Powder ↔ prepared conversion is allowed only for infant-formula rows. The
+  // current program uses the locked 8:1 powder:prepared mass relationship.
   const POWDER_BASES = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
   const PREPARED_BASES = new Set(["prepared_for_feeding", "as_consumed"])
+  const crossesReconstitutionBoundary =
+    (POWDER_BASES.has(fromBasis) && PREPARED_BASES.has(toBasis))
+    || (PREPARED_BASES.has(fromBasis) && POWDER_BASES.has(toBasis))
+  if (crossesReconstitutionBoundary && !/^infant-formula-/.test(productSlug)) {
+    return { value, factor: 1, unknown_conversion: true }
+  }
   if (POWDER_BASES.has(fromBasis) && PREPARED_BASES.has(toBasis)) {
     return { value: value / BASIS_RECONSTITUTION_FACTOR, factor: 1 / BASIS_RECONSTITUTION_FACTOR }
   }
@@ -424,7 +426,7 @@ function convertBasis(value, fromBasis, toBasis) {
 
 // ---- Pooling math
 
-function pool(rowsForCell, productNativeBasis, rng) {
+function pool(rowsForCell, productNativeBasis, rng, productSlug = "") {
   const contributions = []
   const sourceN = []
   for (const row of rowsForCell) {
@@ -446,7 +448,7 @@ function pool(rowsForCell, productNativeBasis, rng) {
     let conversionFactor = 1
     let unknownConversion = false
     const converted = recon.samples.map((v) => {
-      const c = convertBasis(v, fromBasis, productNativeBasis)
+      const c = convertBasis(v, fromBasis, productNativeBasis, productSlug)
       conversionFactor = c.factor
       if (c.unknown_conversion) unknownConversion = true
       return c.value
@@ -493,8 +495,8 @@ function pool(rowsForCell, productNativeBasis, rng) {
   // sample-level measurements, the other three sources total 16, so FDA was
   // cut to 16 and the pool came out at 32. Two hundred and thirty-six real
   // measurements were thrown away to keep a reconstructed basket entry
-  // proportionate, and the resulting n could no longer support the P97 the
-  // methodology assigns the cell.
+  // proportionate, and the resulting effective N no longer reflected the
+  // available observations.
   //
   // Downsampling is the wrong instrument for the job. The share cap exists to
   // stop a BIASED source from dominating; discarding observations does not
@@ -625,7 +627,7 @@ function percentile(sorted, p) {
 
 // ---- Sensitivity analysis: pool under alternative assumptions
 
-function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
+function sensitivity(rowsForCell, productNativeBasis, descriptiveP, seedBase, productSlug = "") {
   const results = {}
   for (const variant of ["lognormal", "gamma", "nonparametric"]) {
     const rng = new SeededRng(seedBase + variant.charCodeAt(0))
@@ -633,8 +635,8 @@ function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
       ...row,
       _sensitivity_variant: variant,
     }))
-    const { pooled, weights } = pool(adjustedRows, productNativeBasis, rng)
-    results[variant] = pooled.length > 0 ? weightedPercentile(pooled, weights, targetP) : null
+    const { pooled, weights } = pool(adjustedRows, productNativeBasis, rng, productSlug)
+    results[variant] = pooled.length > 0 ? weightedPercentile(pooled, weights, descriptiveP) : null
   }
   return results
 }
@@ -652,7 +654,7 @@ function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
 // under-stated CI width because pseudo-samples within a source are
 // correlated (generated from one set of moments).
 
-function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, iterations, seedBase) {
+function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, descriptiveP, iterations, seedBase, productSlug = "") {
   if (!rowsForCell.length) return { lo: null, hi: null }
   const draws = []
   for (let it = 0; it < iterations; it++) {
@@ -661,8 +663,8 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
     for (let i = 0; i < rowsForCell.length; i++) {
       drawnRows.push(rowsForCell[Math.floor(iterRng.next() * rowsForCell.length)])
     }
-    const { pooled, weights } = pool(drawnRows, productNativeBasis, iterRng)
-    if (pooled.length > 0) draws.push(weightedPercentile(pooled, weights, targetP))
+    const { pooled, weights } = pool(drawnRows, productNativeBasis, iterRng, productSlug)
+    if (pooled.length > 0) draws.push(weightedPercentile(pooled, weights, descriptiveP))
   }
   draws.sort((a, b) => a - b)
   return {
@@ -675,12 +677,10 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
 // ---- Market stratification
 //
 // An occurrence percentile is an estimate of a population. If the pool mixes
-// markets, the percentile estimates a population no brand ships into. HMTc
-// certifies product sold under binding infant-formula MLs and comparable
-// oversight, so --markets restricts the pool to those jurisdictions and the
-// resulting percentile is an estimate of the market the certification applies
-// to. Off by default: the unstratified pool remains the published corpus-wide
-// view, and stratification is an explicit, auditable choice per run.
+// materially different markets, the descriptive result may characterize no
+// coherent market. The optional --markets flag and the narrow configuration
+// below support explicit, auditable market characterization. They do not alter
+// certification limits or status.
 //
 // Source jurisdiction comes from the `jurisdictions:` frontmatter on the source
 // page. A source with NO jurisdiction recorded is retained rather than dropped:
@@ -689,24 +689,18 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
 // Two ways stratification turns on:
 //   1. --markets=... on the CLI forces stratification of EVERY row against that list
 //      (ad-hoc analysis / whole-corpus stratified runs).
-//   2. A row configured `stratify: true` in subcategory-roles.json is stratified on
-//      EVERY build against the config's `target_markets` — no flag needed. This is how
-//      a ratified methodology change is made concrete for a category. Rollout is
-//      per-category: a global default would empty ~100 non-target-market-only cells.
+//   2. A row named in occurrence-market-strata.json is stratified on every build
+//      against that file's `target_markets`. Rollout stays per-product because a
+//      global filter would erase useful descriptive evidence in thin categories.
 const marketsArg = args.get("markets") ?? ""
 const cliTargetMarkets = marketsArg
   ? new Set(marketsArg.split(",").map((m) => m.trim().toUpperCase()).filter(Boolean))
   : null
 const configTargetMarkets = (() => {
-  if (!fs.existsSync(subcategoryRolesPath)) return null
-  try {
-    const list = JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).target_markets
-    return Array.isArray(list) && list.length
-      ? new Set(list.map((m) => String(m).trim().toUpperCase()).filter(Boolean))
-      : null
-  } catch {
-    return null
-  }
+  const list = occurrenceStrata.target_markets
+  return Array.isArray(list) && list.length
+    ? new Set(list.map((m) => String(m).trim().toUpperCase()).filter(Boolean))
+    : null
 })()
 const sourceJurisdictions = loadSourceJurisdictions()
 const marketDropped = new Map()
@@ -714,9 +708,9 @@ const marketUnlabelled = new Set()
 
 function stratifyMarketsForSlug(slug) {
   // CLI flag wins and applies to all rows; otherwise a row is stratified only if its
-  // config marks stratify:true, and then against the config's target_markets.
+  // the product is named in the descriptive market-strata config.
   if (cliTargetMarkets) return cliTargetMarkets
-  if (subcategoryRoles[slug]?.stratify && configTargetMarkets) return configTargetMarkets
+  if (stratifiedProducts.has(slug) && configTargetMarkets) return configTargetMarkets
   return null
 }
 
@@ -753,163 +747,7 @@ function inTargetMarket(row, slug) {
   return false
 }
 
-// ---- Regulatory cap lookup
-
-// Regulatory MLs carry their own basis text (regulatory_limits.csv `basis`), which
-// is free-form legal phrasing rather than the engine's basis vocabulary. Map the
-// phrasings we have adjudicated; anything unrecognized returns null so the cap is
-// used unconverted and flagged, never silently mis-scaled.
-//
-// "product as placed on market" and its variants are product-relative: they mean
-// the form the product is sold in, which IS the row's native basis. They therefore
-// resolve to the native basis (factor 1) rather than to any fixed token.
-const REG_BASIS_NATIVE_RELATIVE = new Set([
-  "product as placed on market",
-  "product as sold",
-  "as sold or ready-to-eat as applicable",
-  "edible part",
-  "commodity",
-  "wet weight",
-  "wet weight, edible portion",
-])
-const REG_BASIS_PREPARED = new Set([
-  "portion ordinarily consumed",
-  "ready to use",
-  "wet weight or reconstituted juice",
-  "single-strength ready-to-drink juice",
-  "ready-to-drink juice",
-])
-const REG_BASIS_DRY = new Set([
-  "dry infant cereal",
-  "as sold infant rice cereal",
-  "dried spice",
-  "rice commodity",
-])
-
-function normalizeRegulatoryBasis(regBasis, nativeBasis) {
-  const text = String(regBasis ?? "").trim().toLowerCase()
-  if (!text) return null
-  if (REG_BASIS_NATIVE_RELATIVE.has(text)) return nativeBasis
-  if (REG_BASIS_PREPARED.has(text)) return "as_consumed"
-  if (REG_BASIS_DRY.has(text)) return "dry_as_sold"
-  return null
-}
-
-// The 1:7 factor in convertBasis is the infant-formula reconstitution ratio
-// (1 g powder + 6 g water). It is only physically meaningful for product forms
-// that are actually reconstituted before consumption. Applying it to a cap on a
-// dried-fruit, cereal, or ready-to-drink-juice row would inflate a legal ceiling
-// sevenfold — a loosening drift. For those rows a cross-class basis mismatch is
-// reported as unresolved and the cap is used unconverted, which is conservative.
-function hasReconstitutionRelationship(slug, nativeBasis) {
-  if (!/formula/.test(slug)) return false
-  return nativeBasis === "powder_as_placed" || nativeBasis === "concentrated_liquid_as_placed"
-}
-
-const POWDER_BASIS_CLASS = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
-const PREPARED_BASIS_CLASS = new Set(["prepared_for_feeding", "as_consumed"])
-
-function crossesReconstitutionBoundary(fromBasis, toBasis) {
-  return (
-    (POWDER_BASIS_CLASS.has(fromBasis) && PREPARED_BASIS_CLASS.has(toBasis)) ||
-    (PREPARED_BASIS_CLASS.has(fromBasis) && POWDER_BASIS_CLASS.has(toBasis))
-  )
-}
-
-function parseRegulatoryCaps(encoded) {
-  return String(encoded ?? "")
-    .split(";")
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .map((part) => {
-      const [source, value, ...basisParts] = part.split("|")
-      return { source, value: numberOrNull(value), basis: basisParts.join("|") }
-    })
-    .filter((cap) => cap.value !== null)
-}
-
-function lookupRegCap(productSlug, metal, gapRows, nativeBasis) {
-  const row = gapRows.find(
-    (r) =>
-      r.product_slug === productSlug &&
-      String(r.metal_species ?? "").trim() === metal,
-  )
-  if (!row) return { value: null, source: null }
-
-  const caps = parseRegulatoryCaps(row.regulatory_caps_all)
-  if (caps.length === 0) {
-    // Pre-basis-column gap reports: fall back to the legacy single-cap fields.
-    return {
-      value: numberOrNull(row.lowest_regulatory_cap_ug_kg),
-      source: row.lowest_regulatory_cap_source || null,
-      reference_status: row.regulatory_reference_status || null,
-    }
-  }
-
-  // Convert every mapped cap into the row's native basis, THEN take the lowest.
-  // Selecting first and converting second (the previous behaviour) compares
-  // legal ceilings across incompatible bases.
-  const converted = caps.map((cap) => {
-    const fromBasis = normalizeRegulatoryBasis(cap.basis, nativeBasis)
-    if (!fromBasis) {
-      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
-    }
-    if (crossesReconstitutionBoundary(fromBasis, nativeBasis) && !hasReconstitutionRelationship(productSlug, nativeBasis)) {
-      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
-    }
-    const c = convertBasis(cap.value, fromBasis, nativeBasis)
-    return {
-      ...cap,
-      native_value: c.value,
-      conversion_factor: c.factor,
-      basis_unresolved: Boolean(c.unknown_conversion),
-    }
-  })
-  converted.sort((left, right) => left.native_value - right.native_value)
-  const binding = converted[0]
-
-  return {
-    value: binding.native_value,
-    source: binding.source,
-    reference_status: row.regulatory_reference_status || null,
-    cap_published_value: binding.value,
-    cap_published_basis: binding.basis,
-    cap_conversion_factor: binding.conversion_factor,
-    cap_basis_unresolved: binding.basis_unresolved,
-  }
-}
-
-// ---- Target picker per variant_type
-
-function targetForProduct(product) {
-  // Machine-only role config wins over public frontmatter. This is the fix for
-  // the dead dirty branch: a slug marked "dirty" here computes at P45 regardless
-  // of what firewall-fix.mjs did to its public variant_type token.
-  const configured = subcategoryRoles[product.slug]
-  if (configured?.role) {
-    if (configured.role === "clean") {
-      return { target_p: configured.target_percentile ?? CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
-    }
-    if (configured.role === "dirty") {
-      const p = configured.target_percentile ?? DIRTY_TARGET_P
-      return { target_p: p, target_label: `dirty_p${Math.round(p * 100)}`, role: "dirty_subcategory" }
-    }
-    if (configured.role === "independent") {
-      return { target_p: configured.target_percentile ?? INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
-    }
-  }
-  // Fallback: public frontmatter variant_type (legacy path for unconfigured rows).
-  const v = product.variant_type || ""
-  if (v.includes("clean_benchmark")) {
-    return { target_p: CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
-  }
-  if (v.includes("contamination_platform")) {
-    return { target_p: DIRTY_TARGET_P, target_label: "dirty_p45", role: "dirty_subcategory" }
-  }
-  return { target_p: INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
-}
-
-// ---- Pool usability + rationale tag
+// ---- Pool usability
 
 // A pooled VALUE is unusable only when there is no evidence at all, or when the
 // pool is affirmatively CORRUPT (p95/p10 > 1e4 ⇒ almost certainly mixed units,
@@ -922,28 +760,12 @@ function targetForProduct(product) {
 // antithetical to the program: the standard is emitted, graded low/provisional,
 // and ratchets as data accumulates. BLOCK is reserved for zero-evidence or a
 // corrupt value, never for sparse-but-clean evidence. (Karen, 2026-06-16.)
-// Shared by the candidate picker, the rationale tag, and the verdict so they
-// cannot disagree.
+// Shared by the descriptive-model verdict and gap detector.
 function valueUnusableReason({ pooledLength, pooledP10, pooledP95 }) {
   if (pooledLength === 0) return "no usable evidence"
   if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
     return "pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)"
   return null
-}
-
-// Rationale per CLAUDE.md Part 19. When the pool is usable, the lower of the
-// pooled percentile and the regulatory cap binds (regulatory-alignment when the
-// cap is the lower value, else literature-baseline). When the pool is NOT usable,
-// a binding regulatory ceiling is still a defensible interim standard
-// (regulatory-alignment; occurrence characterization pending — Karen decision
-// 2026-06-16). Only a cell with neither a usable pool nor a cap is genuine no-data.
-function rationaleTag(targetValue, regCap, poolUsable) {
-  if (poolUsable && targetValue !== null) {
-    if (regCap.value === null) return "literature-baseline"
-    return targetValue > regCap.value ? "regulatory-alignment" : "literature-baseline"
-  }
-  if (regCap.value !== null) return "regulatory-alignment"
-  return "no-data"
 }
 
 // ---- Main loop
@@ -952,10 +774,6 @@ function main() {
   const products = readProductPages()
   const summaryRows = loadStructuredRows()
   const sampleRows = loadSampleRows()
-  const gapRows = fs.existsSync(gapReportPath)
-    ? parseCsv(fs.readFileSync(gapReportPath, "utf8"))
-    : []
-
   // Index summary rows by (product_slug, metal_species).
   // Tolerate the older schema variant where product_slug column is named `row_slug`.
   const keyOf = (r) => `${r.product_slug || r.row_slug}::${r.metal_species}`
@@ -1001,7 +819,6 @@ function main() {
   for (const slug of productSlugs) {
     if (productFilter && slug !== productFilter) continue
     const product = products[slug]
-    const target = targetForProduct(product)
     const curatedMetals = product.primary_metals_of_concern ?? []
     const metalsToProcess = [
       ...new Set([...curatedMetals, ...(dataMetalsBySlug.get(slug) ?? [])]),
@@ -1073,6 +890,7 @@ function main() {
         rowsForCell,
         product.native_basis,
         rng,
+        slug,
       )
       assertPoolShareCap(contributions, slug, metal)
       const admittedCount = contributions.filter((c) => c.admitted).length
@@ -1091,21 +909,17 @@ function main() {
         (c) => c.admitted && c.reconstruction_method === "percentile_interpolation",
       ).length
 
-      const targetValue = pooled.length > 0 ? weightedPercentile(pooled, weights, target.target_p) : null
       const pooledStats = pooled.length > 0
         ? {
             p10: weightedPercentile(pooled, weights, 0.1),
-            p30: weightedPercentile(pooled, weights, 0.3),
-            p45: weightedPercentile(pooled, weights, 0.45),
             p50: weightedPercentile(pooled, weights, 0.5),
             p90: weightedPercentile(pooled, weights, 0.9),
             p95: weightedPercentile(pooled, weights, 0.95),
-            p97: weightedPercentile(pooled, weights, 0.97),
             p100: pooled[pooled.length - 1],
           }
-        : { p10: null, p30: null, p45: null, p50: null, p90: null, p95: null, p97: null, p100: null }
+        : { p10: null, p50: null, p90: null, p95: null, p100: null }
 
-      const sens = sensitivity(rowsForCell, product.native_basis, target.target_p, seed)
+      const sens = sensitivity(rowsForCell, product.native_basis, DESCRIPTIVE_UPPER_TAIL_P, seed, slug)
       const sensValues = Object.values(sens).filter((v) => v !== null)
       const sensSpread =
         sensValues.length > 0
@@ -1125,36 +939,17 @@ function main() {
           ? bootstrapCI_sourceLevel(
               rowsForCell,
               product.native_basis,
-              target.target_p,
+              DESCRIPTIVE_UPPER_TAIL_P,
               bootstrapIterations,
               seed,
+              slug,
             )
           : { lo: null, hi: null }
 
-      const regCap = lookupRegCap(slug, metal, gapRows, product.native_basis)
-      const poolUsable =
-        valueUnusableReason({
-          pooledLength: pooled.length,
-          pooledP10: pooledStats.p10,
-          pooledP95: pooledStats.p95,
-        }) === null
-      // A usable pool can tighten the standard below the cap; an unusable pool
-      // (empty/thin/mixed-unit/unstable) falls back to the cap as an interim
-      // regulatory-alignment standard — never to an unreliable pooled value.
-      const candidate =
-        poolUsable && targetValue !== null
-          ? regCap.value !== null
-            ? Math.min(targetValue, regCap.value)
-            : targetValue
-          : regCap.value ?? targetValue
-      const tag = rationaleTag(targetValue, regCap, poolUsable)
-
-      const verdict = deriveVerdict({
-        admittedCount,
+      const verdict = deriveOccurrenceVerdict({
         distinctSources,
         sampleLevelCount,
         sensBand,
-        regCap,
         pooled,
         pooledP10: pooledStats.p10,
         pooledP95: pooledStats.p95,
@@ -1166,9 +961,8 @@ function main() {
         variant_type: product.variant_type,
         native_basis: product.native_basis,
         metal_species: metal,
-        target_label: target.target_label,
-        target_p: target.target_p,
-        role: target.role,
+        evidence_role: "descriptive_external_occurrence_only",
+        descriptive_statistic: "pooled_p95",
         sources_loaded: rowsForCell.length,
         sources_contributing: admittedCount,
         distinct_sources: distinctSources,
@@ -1178,46 +972,30 @@ function main() {
         median_source_n: round(medianN ?? 0, 1),
         cap_n: capN,
         pooled_p10: round(pooledStats.p10, 4),
-        pooled_p30: round(pooledStats.p30, 4),
-        pooled_p45: round(pooledStats.p45, 4),
         pooled_p50: round(pooledStats.p50, 4),
         pooled_p90: round(pooledStats.p90, 4),
         pooled_p95: round(pooledStats.p95, 4),
-        pooled_p97: round(pooledStats.p97, 4),
         pooled_p100: round(pooledStats.p100, 4),
-        target_value: round(targetValue, 4),
-        target_ci_lo: round(ci.lo, 4),
-        target_ci_hi: round(ci.hi, 4),
+        pooled_p95_ci_lo: round(ci.lo, 4),
+        pooled_p95_ci_hi: round(ci.hi, 4),
         sens_lognormal: round(sens.lognormal, 4),
         sens_gamma: round(sens.gamma, 4),
         sens_nonparametric: round(sens.nonparametric, 4),
         sens_spread: round(sensSpread, 3),
         sens_band: sensBand,
-        lowest_regulatory_cap_ppb: regCap.value,
-        lowest_regulatory_cap_source: regCap.source,
-        regulatory_reference_status: regCap.reference_status,
-        candidate_value_ppb: round(candidate, 4),
-        rationale_tag_auto: tag,
         verdict,
+        certification_use: "none_external_occurrence_context_only",
         // Appended last so column positions stay stable for any positional
         // consumer. true when this metal was in the page's curated
         // primary_metals_of_concern; false when the union surfaced it from data.
         metal_in_concern_list: curatedMetals.includes(metal),
         contribution_log: JSON.stringify(contributions),
-        // Cap basis audit trail: the ML as published, its published basis, and the
-        // factor applied to bring it into the row's native basis. When
-        // cap_basis_unresolved is true the published basis text is not in the
-        // adjudicated vocabulary and the cap was used unconverted.
-        cap_published_value: regCap.cap_published_value ?? "",
-        cap_published_basis: regCap.cap_published_basis ?? "",
-        cap_conversion_factor: regCap.cap_conversion_factor ?? "",
-        cap_basis_unresolved: regCap.cap_basis_unresolved ?? "",
       }
       outputRows.push(out)
 
       if (verbose) {
         console.log(
-          `${slug} / ${metal} → ${target.target_label} = ${round(targetValue, 3)} (${admittedCount} sources, ${pooled.length} pseudo-samples, sens ${sensBand}, candidate ${round(candidate, 3)}, ${verdict})`,
+          `${slug} / ${metal} → descriptive P95 = ${round(pooledStats.p95, 3)} (${admittedCount} sources, ${pooled.length} pseudo-samples, sens ${sensBand}, ${verdict})`,
         )
       }
     }
@@ -1232,15 +1010,14 @@ function main() {
     metal_filter: metalFilter || null,
     cells_total: outputRows.length,
     cells_by_verdict: countBy(outputRows, (r) => r.verdict),
-    cells_by_rationale: countBy(outputRows, (r) => r.rationale_tag_auto),
-    cells_by_role: countBy(outputRows, (r) => r.role),
+    cells_by_evidence_role: countBy(outputRows, (r) => r.evidence_role),
     sensitivity_band_distribution: countBy(outputRows, (r) => r.sens_band),
     pool_starvation: starvation.summary,
     methodology: {
-      clean_target: "P97 of pooled clean-subcategory distribution",
-      dirty_target: "P45 of pooled dirty-subcategory distribution",
-      uplift_rationale:
-        "Heuristic uplift from raw P90/P30 to P97/P45 calibrates per-analyte limits to deliver ~90% (clean) / ~30% (dirty) row-pass rates across ten HMTc analytes under typical correlation. Per-analyte differentiation deferred until lot-testing data exists.",
+      status: "descriptive_occurrence_only",
+      certification_use: "none",
+      current_boundary:
+        "Initial HMTc limits are government-limit-only. Later tightening uses eligible HMTc certified-lot data under Governance Policy §12.",
       reconstitution_factor: BASIS_RECONSTITUTION_FACTOR,
       default_cv: DEFAULT_CV_FOR_MEAN_ONLY,
       bootstrap_iterations: bootstrapIterations,
@@ -1258,7 +1035,7 @@ function main() {
   console.log(`Wrote ${outputRows.length} aggregate-distribution rows to ${path.relative(repoRoot, outputPath)}`)
   const stratifiedSlugs = cliTargetMarkets
     ? "ALL rows (--markets flag)"
-    : Object.entries(subcategoryRoles).filter(([, v]) => v.stratify).map(([k]) => k).join(", ") || "none"
+    : [...stratifiedProducts].join(", ") || "none"
   if (marketDropped.size || cliTargetMarkets || stratifiedSlugs !== "none") {
     console.log(`Market stratification ACTIVE for: ${stratifiedSlugs}`)
     console.log(`  excluded ${marketDropped.size} source-instance(s) as out-of-market:`)
@@ -1273,31 +1050,21 @@ function main() {
   )
 }
 
-function deriveVerdict({ distinctSources, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
+function deriveOccurrenceVerdict({ distinctSources, sensBand, pooled, pooledP10, pooledP95 }) {
   const unusable = valueUnusableReason({
     pooledLength: pooled.length,
     pooledP10,
     pooledP95,
   })
-  if (unusable) {
-    // A binding regulatory ceiling is still a defensible interim standard even
-    // when the pool is empty or corrupt (Karen decision 2026-06-16). Only cells
-    // with neither a usable value nor a cap stay BLOCKED.
-    if (regCap.value !== null)
-      return "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)"
-    return `BLOCKED: ${unusable}`
-  }
-  // The value is usable. Grade confidence rather than blocking: a sparse or
-  // sensitivity-divergent pool yields a PROVISIONAL standard that ratchets as
-  // data accumulates — HMTc sets standards where regulators have not, rather
-  // than refusing to regulate the under-studied. (Karen decision 2026-06-16.)
+  if (unusable) return `OCCURRENCE GAP: ${unusable}`
+  // Grade the descriptive occurrence model without implying certification
+  // readiness. Certification values come from sovereign government limits.
   if (distinctSources < 2)
-    return "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates"
+    return "DESCRIPTIVE PROVISIONAL: single-source occurrence pool"
   if (sensBand === "needs_review")
-    return "PROVISIONAL: sensitivity unstable across parametric assumptions"
-  if (sensBand === "provisional") return "PROVISIONAL: review sensitivity disagreement"
-  if (regCap.value !== null) return "READY FOR REVIEW (regulatory cap applies)"
-  return "READY FOR REVIEW"
+    return "DESCRIPTIVE REVIEW: sensitivity unstable across modeling assumptions"
+  if (sensBand === "provisional") return "DESCRIPTIVE PROVISIONAL: review sensitivity disagreement"
+  return "DESCRIPTIVE OCCURRENCE AVAILABLE"
 }
 
 // ---- Pool starvation audit
@@ -1556,16 +1323,13 @@ export {
   generateFromPercentileVector,
   bootstrapCI_sourceLevel,
   sensitivity,
-  rationaleTag,
-  targetForProduct,
   deriveNativeBasis,
   assertSamplesReplacedSummary,
   assertPoolShareCap,
   downsampleUniform,
   MAX_SOURCE_SHARE,
   BASIS_RECONSTITUTION_FACTOR,
-  CLEAN_TARGET_P,
-  DIRTY_TARGET_P,
+  DESCRIPTIVE_UPPER_TAIL_P,
   DEFAULT_CV_FOR_MEAN_ONLY,
 }
 

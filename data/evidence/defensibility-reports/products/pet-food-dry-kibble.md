@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-dry-kibble.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 686b7efbf0163836abd900b5ebd498f3530b5d482f152bd859a2da49cb412085
+source_page_sha256: db3984211d4fd23e4dc7982744229a8be8e95164d282a71dde84b293ee218dee
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

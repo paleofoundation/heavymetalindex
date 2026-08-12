@@ -2,7 +2,7 @@
 source_page: wiki/products/spinach.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 98c3f63691c6e7a8715c71529fc81606d59bce92fa1e703bde54bd8214e88a8d
+source_page_sha256: 111fb0a430f584d9fad2c00937f4fbf0dd718a9ad3815f814eddea5cbf6105f9
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

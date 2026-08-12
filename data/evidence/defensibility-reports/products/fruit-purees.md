@@ -2,14 +2,14 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fcdc48619084ee0c3bec78a01087ed4dfcaae7cfee900825820a65dc8288cd8e
-total_claims: 122
-cited_claims: 122
+source_page_sha256: 3cb8d90135fe1cbae002e3948e3c930b8c403e70142a3f1d35fb018a503384f8
+total_claims: 120
+cited_claims: 120
 uncited_claims: 0
 distinct_cited_targets: 48
 distinct_cited_sources: 42
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 50
+audit_rows_for_cited_targets: 48
 audit_log_total_rows: 6606
 noindex: true
 ---
@@ -29,13 +29,13 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 122 |
-| cited claims | 122 |
+| total claims | 120 |
+| cited claims | 120 |
 | uncited claims | 0 |
 | distinct cited targets | 48 |
 | distinct cited `sources/` pages | 42 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 50 |
+| audit rows on cited target pages | 48 |
 | audit log rows read | 6606 |
 
 ## Page-level audit rows
@@ -298,29 +298,7 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `4.5 ppb`
-- Context: `s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a`
-- Cited targets (3):
-  - `wiki/regulations/california-prop65.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/eu-2023-915.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows (1):
-      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
-
-#### Claim `10 ppb`
-- Context: `the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 2`
-- Cited targets (3):
-  - `wiki/regulations/california-prop65.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/eu-2023-915.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows (1):
-      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
-
-#### Claim `20 ppb`
-- Context: `is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 20 ppb as a looser legal ceiling, and oc`
+- Context: `s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | The strictest ap`
 - Cited targets (3):
   - `wiki/regulations/california-prop65.md` (page missing)
     - audit rows: none

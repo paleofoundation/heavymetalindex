@@ -2,7 +2,7 @@
 source_page: wiki/products/utensils-metal.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5d417fd17abb058e441d9eb03c25bce746e6b7e0c111ae1e1d6028dd8ecd2f23
+source_page_sha256: 125f927d2d9fa651be38bf8a01b5a3e0370897374e3254ca522aaf06313e0555
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

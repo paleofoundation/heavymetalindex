@@ -13,8 +13,9 @@ The HMTc Program exists to serve five objectives simultaneously:
    improvements — not ratify current contamination levels.
 
 2. **Safeguard and protect consumers.**
-   Every limit must be set at the most protective level that is commercially
-   viable for the clean platform. When in doubt, protect the consumer.
+   Initial limits begin at the strictest applicable credible sovereign
+   maximum; certified-lot findings then support predictable tightening as
+   broad lower performance becomes achievable. When in doubt, protect the consumer.
    Infant and child populations receive the highest level of protection.
 
 3. **Safeguard and protect brands who enter the program.**
@@ -22,19 +23,20 @@ The HMTc Program exists to serve five objectives simultaneously:
    competitive differentiation. If the standards are so loose that every
    brand qualifies, the mark has no value. If the standards change
    unpredictably, brands cannot plan. Standards ratchet tighter over time
-   but never loosen. The program must offer a viable path to certification
-   for both clean and dirty subcategories; an unreachable bar drives no
-   change and no adoption.
+   but never loosen. The program must offer a viable path through sourcing,
+   reformulation, remediation, and a published transition period; an
+   unreachable or unpredictable bar drives no change and no adoption.
 
 4. **Make it legally defensible.**
    Every limit must be traceable to documented inputs. Every regulatory
    claim must cite a real regulation with a real section number. No HMTc
    limit may exceed a government maximum level. The methodology must
    withstand scrutiny from regulators, litigators, and competitors. The
-   pooling math is in code, deterministic, and reproducible. Standards
-   arithmetic does not live in `wiki/`; the wiki is the public literature
-   evidence layer, the staff Standards Workbench (and `data/workbench/`)
-   carries the threshold math.
+   sovereign-limit compiler and certified-lot ratchet are in code,
+   deterministic, and reproducible. Descriptive occurrence pooling is also
+   auditable but carries no compliance weight. Standards arithmetic does not
+   live in `wiki/`; the wiki is the public literature evidence layer, while
+   the certification repository carries current limits and ratchet records.
 
 5. **Make it the de facto standard.**
    The program must scale across all product categories with consistent
@@ -61,130 +63,62 @@ ignored in favor of whichever principle feels most urgent in the moment.
 
 ---
 
-## The Locked Standards Math
+## The Locked Standards Method
 
-The HMTc Program uses percentile-based thresholds at two distinct points,
-operating at two different moments in the program lifecycle. The framing
-below leads with **intent** (the row-level pass rate the program is
-designed to deliver) and follows with **mechanism** (the per-analyte
-percentile math that delivers it). Adversarial readers attacking "why P97
-and not P95" must instead attack "why 90% and not 85%" — and the answer
-to that traces directly to the Governing Principles.
+The HMTc Program uses two mechanisms at different moments in the program
+lifecycle. Initial publication is government-limit-only. Later ALARA
+tightening is endogenous and uses eligible HMTc certified-lot findings.
+Keeping those mechanisms separate is mandatory.
 
-### Limit-setting (initial publication) — the 90/40 row-pass intent
+### Initial publication: government-limit-only
 
-The HMTc Standards are calibrated to deliver the following row-level
-outcomes at initial publication:
+For every product-analyte cell, the initial HMTc value is the strictest
+applicable maximum level set by a credible sovereign government, expressed
+in the product's native basis. The controlling instrument is cited. Where
+the government rule splits by product form or formulation, HMTc preserves
+that split.
 
-- Approximately **90%** of clean-subcategory brands pass row-level
-  certification on day one.
-- Approximately **40%** of dirty-subcategory brands pass row-level
-  certification on day one.
+Where no government regulates the exact cell, HMTc uses a disclosed
+read-across from the nearest applicable sovereign value or publishes an
+n/m determination with its control method. If neither is supportable, the
+cell stays in development. Occurrence distributions, brand baselines, and
+program results do not select the initial value.
 
-These targets are the policy choice. They sit at the intersection of all
-five Governing Principles: too tight (e.g., 50/10) violates Principles 3
-and 5 because brands cannot recruit and the program cannot scale; too
-loose (e.g., 99/80) violates Principles 1 and 3 because the mark loses
-meaning and clean brands lose differentiation. 90/40 is the policy answer
-to all five simultaneously.
+The powder-to-liquid 8:1 conversion is confined to infant formula. Other
+rows use the government value in the applicable native basis. Wet, dry,
+as-sold, as-consumed, and as-prepared values are never mixed silently.
 
-### Limit-setting (initial publication) — the per-analyte mechanism
-
-To deliver the 90/40 row-level intent, per-analyte limits are set as
-follows:
-
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's
-marginal occurrence distribution for that analyte.
-
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's
-marginal occurrence distribution for that analyte.
-
-**Why P97 and P45, not P90 and P30 (the row-pass calibration):**
-
-To certify, a brand must be at-or-below the limit on all ten HMTc analytes
-simultaneously. Under independence, per-analyte limits set at P90 (clean)
-would deliver 0.9^10 = 35% joint row-pass; per-analyte limits at P30 (dirty)
-would deliver effectively 0% joint row-pass. Real-world analytes correlate
-(supply-chain hygiene drives multiple metals together), so the actual joint
-pass rate sits between independence and perfect correlation — typically
-50-70% for clean and 10-15% for dirty at raw P90/P30. Both fall well short
-of the 90% / 40% targets.
-
-The heuristic uplift from P90 → P97 (clean) and P30 → P45 (dirty) brings
-the joint row-pass rate close to the 90/40 target. The calibration is
-anchored to measured lot data, not an assumed correlation — the FDA 2026
-special survey delivered 94% clean and 42% dirty row-pass against the
-P97/P45 limits, confirming the 90/40 targets (the measured cross-analyte
-correlation is ~0.27, not the ≈0.6 once assumed). It is not a relaxation:
-it is the per-analyte percentile that delivers the row-level outcome the
-program promises.
-
-The uplift is uniform across all analytes today. Per-analyte differentiation
-(e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a
-Tier 2 calibration deferred until HMTc has lot-testing data to measure the
-actual joint pass rate empirically. Target review: 6-12 months post-launch.
-
-### Pool admission and basis
-
-Every source loaded for a (row, metal) cell contributes to the pooled
-distribution unless explicitly dispositioned out with a stated reason.
-Sample-level data uses raw values. Summary-only sources (mean, median, max,
-SD, lb/ub, IQR) contribute via moment-matching pseudo-sample expansion
-under log-normal or gamma assumptions; the methodology is the standard
-practice in environmental exposure assessment (WHO/JECFA pooled TDS
-methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are
-weighted by their reported N, capped at twice the median per-source N to
-prevent any one large survey from dominating.
-
-Each row's standard is in the native basis of the product form: powder
-rows in powder-as-placed-on-market, RTF rows in as-consumed, dry cereal
-rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in
-their product's native form; the standard matches that form. Sources
-reporting in other bases get converted into the row's native basis during
-pooling, not the other way around. Conversions are logged per source.
-
-### Regulatory cap
-
-The final HMTc value is `min(per-analyte pooled percentile, lowest
-applicable regulatory ceiling)`, with both expressed in the row's native
-basis. The cap is converted into native basis if it was published in a
-different one. The rationale tag is `literature-baseline` when the pooled
-percentile binds and `regulatory-alignment` when the cap binds.
-
-A standard may be set lower than both the pooled percentile and the cap
-when staff documents a `precautionary` rationale (vulnerable population
-concern, cumulative exposure, scientific uncertainty). A standard may be
-set higher than the pooled percentile only via a `feasibility-driven`
-rationale paired with a sunset plan to tighten as analytical methods or
-supply-chain practices improve. The gap between literature-baseline and
-the final value, if any, is stated honestly.
+Heavy Metal Index occurrence distributions remain valuable for literature
+synthesis, market characterization, surveillance prioritization, and gap
+analysis. They carry no compliance weight and do not enter MaxPoL.
 
 ### Ratchet trigger (revision cycle, distinct from limit-setting)
 
 After initial publication, the Standards Ratchet operates on
 HMTc-internal lot-testing data. The ratchet for a given analyte fires
 when **both** of the following conditions hold for two consecutive
-annual reviews (per Governance Policy §12.3):
+annual reviews (per canonical Governance Policy §12.3):
 
-(a) The 80th percentile of certified Status A lot results sits at or
-    below 80% of the current limit.
-(b) At least 50% of certified Status A SKUs have lots at or below 60% of
-    the current limit.
+(a) The P80 of the capped combined Status A + Status B trigger pool sits
+    at or below 80% of the current limit.
+(b) At least 50% of SKUs in that trigger pool have qualifying lots at or
+    below 60% of the current limit.
 
 The first tests aggregate market shift. The second tests breadth — the
 ratchet does not fire on a single large brand pulling the percentile
-down. When fired, the new limit equals the maximum of (a) the actual
-80th percentile of Status A results or (b) 80% of the current limit. The
+down. No single licensee may contribute more than 25% of the SKUs in an
+analyte's trigger pool. When fired, the new limit equals the maximum of
+(a) the actual P80 of Status A results or (b) 80% of the current limit. The
 second clause is the step cap: no brand faces more than a 20% reduction
 per ratchet event. Transition is 12–18 months from announcement to
 enforcement; Status A certifications grandfather for the transition
 period. Full mechanics are specified in Governance Policy §12.
 
-The ratchet trigger uses HMTc-internal lot-testing data. The
-limit-setting math uses external survey data (FDA, EFSA, peer-reviewed
-studies, EU basket surveys, jurisdictional total-diet studies). The two
-mechanisms operate at different times, on different data sources, and
-serve different functions.
+The ratchet trigger uses HMTc-internal lot-testing data. Initial setting
+uses sovereign government maximum levels. Heavy Metal Index literature
+and survey occurrence data feeds neither calculation. The mechanisms
+operate at different times, on different data sources, and serve
+different functions.
 
 ALARA (As Low As Reasonably Achievable) and the brand remediation-plan
 infrastructure govern the ongoing relationship between certified brands
@@ -194,16 +128,15 @@ and improving limits.
 
 ## Scope
 
-This methodology applies to every category in the HMTc index, not to
-Category 1 (infant and child foods) alone. The pooling engine, admission
-rule, native-basis convention, and P97/P45 percentiles are the same for
-beverages, supplements, dry goods, condiments, and every other category as
-they are for infant and child foods. Per-category exceptions require an
-explicit governance decision and changelog entry to this document.
+This methodology applies to every HMTc category, not to Category 1 alone.
+The government-limit-only initial-setting sequence, native-basis rule,
+read-across control, n/m control, and post-publication ratchet are uniform.
+Per-category exceptions require an explicit governance decision and a
+changelog entry.
 
 ---
 
-**Version 2.2 — August 2026**
+**Version 3.0 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -213,3 +146,4 @@ explicit governance decision and changelog entry to this document.
 | 2.0 | May 2026 | Locked the per-analyte limit-setting math to **P97 clean / P45 dirty** with the row-pass calibration rationale. Superseded the earlier "P10 default / P20 if selected" framing for dirty. Required pool admission of summary-only sources via moment-matching pseudo-sample expansion. Required each row's standard to be in the native basis of the product form. Reaffirmed that standards arithmetic does not live in `wiki/`. Reaffirmed scope: applies to every category in the HMTc index. |
 | 2.1 | May 2026 | Principle 5 reframed from "$2 billion by 2030" to "Make it the de facto standard" — commercial success follows from scale and credibility, not the reverse. Standards Math section restructured to lead with **intent** (90/30 row-pass) before **mechanism** (P97/P45 per-analyte uplift); the policy choice is the 90/30 row-pass rate, calibrated against all five Governing Principles, with P97/P45 as the math that delivers it. Ratchet trigger section expanded to specify two-condition fire rule (P80 of Status A + breadth threshold), 20% step cap, and reference to revised Governance Policy §12. |
 | 2.2 | August 2026 | Updated the dirty-subcategory row-pass target from the legacy 30% to ~40% (90/30 → 90/40 intent) and re-anchored the P97/P45 calibration to measured FDA 2026 lot data (94% clean / 42% dirty) rather than the assumed ≈0.6 cross-analyte correlation (measured ~0.27). Aligns this document with the amendment ratified 2026-08-03 in CLAUDE.md Part 19 and the Methodology Reference; the P97/P45 mechanism itself is unchanged. |
+| 3.0 | August 2026 | Retired occurrence-percentile initial setting. Locked every initial value to the strictest applicable sovereign maximum, with disclosed regulatory read-across or n/m control for unregulated exact cells. Preserved the distinct endogenous ALARA ratchet and reconciled its anti-gaming trigger pool to canonical Governance Policy §12: combined Status A + B trigger pool, Status A P80 new-limit candidate, 20% step cap. |

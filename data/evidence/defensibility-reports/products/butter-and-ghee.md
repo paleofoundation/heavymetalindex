@@ -2,7 +2,7 @@
 source_page: wiki/products/butter-and-ghee.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c47ff03d508f11c945ab7031c53aad4a351e72d25bcb435e9d8333d5d05c4a26
+source_page_sha256: 5b45b7297ca3f3f829216ed1b729d38c05c49772da9c3bc856ec0369c8a4e293
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1

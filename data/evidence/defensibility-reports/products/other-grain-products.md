@@ -2,7 +2,7 @@
 source_page: wiki/products/other-grain-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fecc9e54ff6cb355b49bae31b5b5fa98b0d93e37c7c1e6aba883673df6d2d041
+source_page_sha256: faf3882212b2cd4db65646c531f519bd3948c936a833114cec23e7667ab3540f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

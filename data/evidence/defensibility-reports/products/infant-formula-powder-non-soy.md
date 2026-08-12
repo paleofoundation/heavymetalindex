@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 21203d8429c861b0526bd3581cf376fb817c0994ef68703ad7e7321fd7ffc753
+source_page_sha256: 85745ff66b2594cdc42a7aa0d4da1fd5f542a7c38bf596e43611671629ff7def
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0

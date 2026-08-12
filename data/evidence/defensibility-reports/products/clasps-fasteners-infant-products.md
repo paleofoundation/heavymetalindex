@@ -2,7 +2,7 @@
 source_page: wiki/products/clasps-fasteners-infant-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 90aba068e7526545cf6c363a95630f7229ab852165ae26c4b84bc442eb262b06
+source_page_sha256: fadeb887d4e6e2266f3602fe92e750455125263be3358158bd78326bb1ba4d35
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

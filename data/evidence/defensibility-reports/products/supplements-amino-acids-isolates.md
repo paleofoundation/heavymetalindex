@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-amino-acids-isolates.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8d63f852ef53db46424d0057bc75a9fc94385fe694356581e8b4234e9408568a
+source_page_sha256: dc6820d82ac2e88f95095bc2b448c9c0ebf0339fb46eb8072199212c5a2908f3
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

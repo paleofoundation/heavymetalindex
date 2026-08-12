@@ -1104,12 +1104,12 @@ clementines-tangerines,data-hygiene,missing-bridge,missing-bridge: Al has no bri
 clementines-tangerines,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 clementines-tangerines,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 cocoa,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=11 vs distinct_sources=6
-cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=32 vs distinct_sources=9
+cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=11 vs distinct_sources=1
+cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=32 vs distinct_sources=2
 cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=4 vs distinct_sources=0
-cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=8 vs distinct_sources=2
-cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=5 vs distinct_sources=1
-cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=6 vs distinct_sources=1
+cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=8 vs distinct_sources=1
+cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=5 vs distinct_sources=0
+cocoa,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=6 vs distinct_sources=0
 coffee,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 coffee,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 coffee,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1329,7 +1329,7 @@ fruit-purees,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged produ
 fruit-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 fruit-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 fruit,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=21 vs distinct_sources=3
+fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=21 vs distinct_sources=4
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=5
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=8 vs distinct_sources=3
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=12 vs distinct_sources=4

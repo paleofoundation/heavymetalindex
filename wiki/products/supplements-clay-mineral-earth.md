@@ -1,11 +1,11 @@
 ---
-title: "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty"
+title: "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority"
 type: product-category
 category: supplements-clay-mineral-earth
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"
 hmtc_row: 22
-hmtc_subcategory_name: "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty"
+hmtc_subcategory_name: "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority"
 hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-06-09"
 exposure_pathway: "Ingestion (oral)"
@@ -20,7 +20,7 @@ wiki_doi: null
 updated: 2026-06-09
 ---
 
-# Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty
+# Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority
 
 > **v2.2 Step Zero scaffold — Category 16 (Dietary Supplements (Human)), Row 22.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing

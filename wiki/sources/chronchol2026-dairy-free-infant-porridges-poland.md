@@ -51,7 +51,7 @@ Note: Values near LOQ limit interpretability. Pb 2–4 µg/kg and Cd <1–3 µg/
 
 ## Implications
 
-Certification: Dairy-free infant porridges at 2–4 µg/kg Pb and <1–3 µg/kg Cd are well below EU MLs (Pb: 20 µg/kg for processed cereal-based foods, Cd: 40 µg/kg). These products represent a relatively clean subcategory of grain-based infant foods.
+Regulatory comparison: Dairy-free infant porridges at 2–4 µg/kg Pb and <1–3 µg/kg Cd are below the cited EU MLs (Pb: 20 µg/kg for processed cereal-based foods, Cd: 40 µg/kg). This is descriptive market-occurrence context, not an HMTc limit-selection input.
 
 App: Grain-based dairy-free porridges: low Pb and Cd; Hg below detection.
 

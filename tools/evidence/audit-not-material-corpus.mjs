@@ -95,7 +95,7 @@ function materialOccurrence(slug, metal) {
   const p50 = num(r.pooled_p50), n = num(r.pooled_n) ?? 0, d = num(r.distinct_sources) ?? 0
   const floor = PRESENT_FLOOR[metal] ?? 5
   if ((r.sens_band || "") !== "no_data" && d >= 2 && n >= 20 && (p50 ?? 0) > floor)
-    return { n, d, p50, p97: num(r.pooled_p97) }
+    return { n, d, p50, p95: num(r.pooled_p95) }
   return null
 }
 function speciesML(slug, metal) {

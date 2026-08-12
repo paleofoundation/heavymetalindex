@@ -26,5 +26,5 @@ Product pages in **Pet Foods**, organized by subcategory.
 
 ## [[products/pet-milk-replacers-specialty-liquids|Milk replacers and specialty pet liquids]]
 
-## [[products/pet-food-fish-marine-protein|Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)]]
+## [[products/pet-food-fish-marine-protein|Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)]]
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/legumes-pulses-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b167961914c735da60721d97738d471d4953a8909abc6f25ed916b66c420cb65
+source_page_sha256: 74a626f673dd8a14f3a89e14efa62d385612b1c3b04936cc076970f3b5b7136b
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

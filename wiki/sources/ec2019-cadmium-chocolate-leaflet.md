@@ -51,7 +51,7 @@ The ceilings apply to the finished product (chocolate or drinking-chocolate coco
 
 The four 488/2014 cocoa-product cadmium ceilings (0,10 / 0,30 / 0,80 mg/kg by total dry cocoa solids percentage; 0,60 mg/kg for drinking-chocolate cocoa powder) are external legal floors, not HMTc certification thresholds. They are the binding EU comparator values for any chocolate or cocoa-powder product placed on the EU market between 1 January 2019 and the entry into force of 2021/1323 on 31 August 2021. HMTc workups on the chocolate product category should preserve the legal-status label ("binding EU maximum level — 2019 communication of 488/2014") when displaying these numbers alongside Codex maximum levels, FDA action levels, or HMTc candidate thresholds.
 
-The four-row split by total dry cocoa solids percentage is the row pattern that downstream chocolate product-category work should preserve: it is the binding regulatory recognition that cadmium burden in a finished chocolate is a function of the cocoa-mass fraction, and any HMTc within-row clean/dirty subcategory work for chocolate should sit inside that four-row ladder rather than across it.
+The four-row split by total dry cocoa solids percentage is the row pattern downstream chocolate work should preserve: it is the binding regulatory recognition that the applicable legal cadmium ceiling depends on cocoa-mass fraction and milk-chocolate status. HMTc must preserve that sovereign product-form split during initial-limit lookup; occurrence comparisons within those forms remain descriptive only.
 
 ## Cadmium maximum levels communicated by the leaflet
 

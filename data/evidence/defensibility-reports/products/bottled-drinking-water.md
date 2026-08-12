@@ -2,7 +2,7 @@
 source_page: wiki/products/bottled-drinking-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a2190a26ee17cf2ed6b274b95f66d53055371cc05795b0101956a350873198f2
+source_page_sha256: 277009dde0531ab183bf769814659a2b3f2386441bec624caf0207da7b0c14cd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

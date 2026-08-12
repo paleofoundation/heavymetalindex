@@ -88,7 +88,7 @@ This page makes the source discoverable for category-level evidence routing. Val
 - Full-PDF read: `pdftotext -layout` was run twice and the extraction hashes compared before the page was written.
 - Analyte scope: each metal is asserted only where its spelled-out name appears on a line carrying a measurement. Element symbols alone never assert an analyte.
 - Brand firewall: the worker skips PDFs whose numeric lines appear brand-sensitive; this page contains category-level or species-level evidence only.
-- HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
+- HMTc firewall: no certification limit, status, or ratchet calculation is stated; any occurrence values remain descriptive only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

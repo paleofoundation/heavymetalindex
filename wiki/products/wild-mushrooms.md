@@ -8,7 +8,7 @@ hmtc_row: 2
 hmtc_subcategory_name: "Mushrooms — wild and processed-wild"
 hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-06-08"
-variant_type: contaminated-platform
+variant_type: higher-occurrence platform
 platform_metals: [Cd, tHg, Pb]
 exposure_pathway: "Ingestion (oral)"
 regulatory_jurisdiction: "FDA, EU, Codex"
@@ -26,7 +26,7 @@ updated: 2026-06-09
 
 # Wild Mushrooms
 
-> **HMTc Category 29 (Edible Fungi), Row 2 — Mushrooms (wild and processed-wild), contaminated side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Wild mushrooms are the Cd/Hg/Pb-accumulating side of the pair; cultivated mushrooms (Row 1) are the clean counterpart. Canned and pickled wild mushrooms merge here. No candidate values are derived in this pass.
+> **HMTc Category 29 (Edible Fungi), Row 2 — Mushrooms (wild and processed-wild), higher-occurrence comparison side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Wild mushrooms are the Cd/Hg/Pb-accumulating side of the pair; cultivated mushrooms (Row 1) are the lower-occurrence counterpart. Canned and pickled wild mushrooms merge here. No candidate values are derived in this pass.
 >
 > **Reason:** ingest of hanc2021-amanita-muscaria-hg-se declared a raw wild mushroom food matrix with no existing product route
 >

@@ -2,7 +2,7 @@
 source_page: wiki/products/pasta-wheat-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dbdd282b615c5e842debf0d519459b7de259d9949738a4b3b13ab187c8c08f0e
+source_page_sha256: 4dd9769c5b49fba82e747bbb07d4c29db41ca7656e89add18a7bb12a03ea2a4b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

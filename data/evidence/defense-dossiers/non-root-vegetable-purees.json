@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/non-root-vegetable-purees",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2101a8611f0d07ac85a05f6d16c0e6322a2bedede23f0efd3756f4f4aba9f8b5",
-      "content_bytes": 42844,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "f23933c381bd7772601daee859f99518b095f7986ac3802b074460fc2bf06a9f",
+      "content_bytes": 42974,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/non-root-vegetable-purees.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/non-root-vegetable-purees.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -528,11 +528,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/non-root-vegetable-purees.md",
-    "total_claims": 118,
-    "cited_claims": 117,
+    "total_claims": 117,
+    "cited_claims": 116,
     "uncited_claims": 1,
     "distinct_cited_sources": 25,
-    "audit_rows_on_cited_targets": 71,
+    "audit_rows_on_cited_targets": 70,
     "provenance_complete": false
   }
 }

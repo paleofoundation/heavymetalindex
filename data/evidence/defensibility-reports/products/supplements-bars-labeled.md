@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-bars-labeled.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a38583b8a2c0c5be6606de3ae4a40c114ff4f4f32d37ed378bdf85c786e67803
+source_page_sha256: 04788d37adacd071ed66d75b505c8bff3801dafdf3aaca8fb353299ed1250606
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

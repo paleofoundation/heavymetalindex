@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this classifier implements the superseded occurrence-selected method.
+console.error("RETIRED: current HMTc initial limits are government-limit-only.")
+process.exit(2)
 /**
  * Standards row classifier — the autonomous loop's brain and its distance-to-done meter.
  *

@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-cereals-dry-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b347a3305df2e496511d8614458ce3ef5bc2d4778e7bc8d9594ffd7bdbe31bb9",
-      "content_bytes": 62564,
-      "last_commit_sha": "8f8a060dc",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "b0b2ee1276be57c1e9c9acf132a72a2c10eee8c28e822688f2203ffa82dd54d0",
+      "content_bytes": 62820,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8f8a060dc:wiki/products/baby-cereals-dry-non-rice.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/baby-cereals-dry-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -208,8 +208,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chronchol2026-dairy-free-infant-porridges-poland",
         "content_pin": {
-          "content_sha256": "33b5d571603e8ae41c412600bd6d914143a5da5feaeb7bc00cb8bdf8110cf790",
-          "content_bytes": 3009,
+          "content_sha256": "3f605a6b522c9af55d93c83903b31b653c2bba57a6fc9481cf4d0701690b383d",
+          "content_bytes": 3019,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -772,8 +772,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lodhi2021-methyl-inorganic-mercury-infant-formula",
         "content_pin": {
-          "content_sha256": "70b10522cb83f7d3564049b54d09dfa1341eadb5db883b7f886b760dd0df89f2",
-          "content_bytes": 9613,
+          "content_sha256": "9678aead3927dd8b8f3a8c8aa5833996c9d22c89a75693841a9b50e6a816db23",
+          "content_bytes": 8804,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -1170,11 +1170,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/baby-cereals-dry-non-rice.md",
-    "total_claims": 125,
-    "cited_claims": 125,
+    "total_claims": 124,
+    "cited_claims": 124,
     "uncited_claims": 0,
     "distinct_cited_sources": 57,
-    "audit_rows_on_cited_targets": 15,
+    "audit_rows_on_cited_targets": 14,
     "provenance_complete": true
   }
 }

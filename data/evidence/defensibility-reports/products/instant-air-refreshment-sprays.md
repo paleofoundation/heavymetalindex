@@ -2,7 +2,7 @@
 source_page: wiki/products/instant-air-refreshment-sprays.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d0daeba94d2d4adfac914e6f532041fde556a424d1d1946ad9f4f5c4321fc9b1
+source_page_sha256: 6992418ecc1fb9f83547f112e8225225fb77bc705770e319c4228d9f9cf6ee4d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

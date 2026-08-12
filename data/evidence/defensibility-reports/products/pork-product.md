@@ -2,7 +2,7 @@
 source_page: wiki/products/pork-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 40f1d0feefe5eda73d51337b279285fa6bdb0a379a89634b24606e9386aea3c1
+source_page_sha256: 21375a9d9c8d08119a0dadc2845b06bf3621d4cc3d1b1055df007c968860c5d3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

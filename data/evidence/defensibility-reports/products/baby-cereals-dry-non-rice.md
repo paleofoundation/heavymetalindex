@@ -2,14 +2,14 @@
 source_page: wiki/products/baby-cereals-dry-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0b9f7646aa8fa832780b887e5bbddc34a44bc91733a8e4a345a322eaf3803371
-total_claims: 125
-cited_claims: 125
+source_page_sha256: 4fa50e634b6545a47471f81fd8f4c684f37cf1e40007d990ec9cacace9090d4b
+total_claims: 124
+cited_claims: 124
 uncited_claims: 0
 distinct_cited_targets: 63
 distinct_cited_sources: 57
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 15
+audit_rows_for_cited_targets: 14
 audit_log_total_rows: 6606
 noindex: true
 ---
@@ -29,13 +29,13 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 125 |
-| cited claims | 125 |
+| total claims | 124 |
+| cited claims | 124 |
 | uncited claims | 0 |
 | distinct cited targets | 63 |
 | distinct cited `sources/` pages | 57 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 15 |
+| audit rows on cited target pages | 14 |
 | audit log rows read | 6606 |
 
 ## Page-level audit rows
@@ -198,18 +198,7 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
 
 #### Claim `20 ppb`
-- Context: `one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/con`
-- Cited targets (3):
-  - `wiki/regulations/california-prop65.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/eu-2023-915.md` (page missing)
-    - audit rows: none
-  - `wiki/regulations/fda-closer-to-zero.md`
-    - audit rows (1):
-      - `edit_id=jecfa-73rd-lead-citation-fix-2026-08-09-fda-closer-to-zero` · retrieval=2026-08-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-09T08:11:54.946Z · span=Corrected JECFA lead-PTWI-withdrawal citation from 72nd/TRS 959 to 73rd/TRS 960.
-
-#### Claim `20 ppb`
-- Context: `; occurrence percentiles decide whether HMTc can justify a lower standard. |  A 20 ppb cereal can be legally aligned whi`
+- Context: `ets the initial HMTc value. Occurrence percentiles remain contextual only. |  A 20 ppb cereal can be legally aligned whi`
 - Cited targets (3):
   - `wiki/regulations/california-prop65.md` (page missing)
     - audit rows: none

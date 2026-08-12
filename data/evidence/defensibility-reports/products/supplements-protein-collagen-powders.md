@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-protein-collagen-powders.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 47dfcb5f24d08557543bd63acec88a4964aece2d92f4d550c52f91b0b6b722c9
+source_page_sha256: 88f73311a37235e48350427161f80804f6b51bc407885d447fcc4d28e04853ad
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

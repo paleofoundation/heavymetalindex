@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: pooled occurrence percentiles no longer select an HMTc
+// compliance value. Kept only for historical reconstruction.
+console.error("RETIRED: build-category-standards-tables.mjs implements occurrence-selected limits. Use the government-limit compiler output.")
+process.exit(2)
 // build-category-standards-tables.mjs
 //
 // Generates the master limit table for each locked row of a category from the

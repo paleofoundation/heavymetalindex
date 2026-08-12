@@ -2,7 +2,7 @@
 source_page: wiki/products/dish-soaps-manual.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b02558f1db9c8647f85ce1d770aba2ac449ac07606e68cdb6741b94a7bca63a2
+source_page_sha256: a7af6ebfbb3c0fb97cf4c22a7fad16c6d0e1870155ca7a696eb9ba75dfcae8f7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

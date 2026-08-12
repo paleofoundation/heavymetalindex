@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-glassware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c54be2e393f44dfa33100904e23c8c166e34a9d9139e58a89fd337aaa7630903",
-      "content_bytes": 10255,
+      "content_sha256": "ce161682660616bdcb1a42594d6e65fcd64daba5d849716c31359aaee1ecedd1",
+      "content_bytes": 10416,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

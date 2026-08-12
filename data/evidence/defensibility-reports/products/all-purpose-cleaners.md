@@ -2,7 +2,7 @@
 source_page: wiki/products/all-purpose-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b96e9c77b21770c151f192be06475239612062c8db13b4fff99b9c869ef2dfa5
+source_page_sha256: 45f1c27c8dc28022fe0e8877092ab9cd6a51e376f0b22cb0216ba7682e731832
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -241,7 +241,7 @@ The living-review detector has flagged **${flagged.length}** contributing source
 | --- | --- | --- | --- | --- | --- |
 ${top}
 
-Full per-flag audit at \`data/evidence/synthesis-contradictions.csv\`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+Full per-flag audit at \`data/evidence/synthesis-contradictions.csv\`. The public evidence-routing boundary and interpretation rules are documented in [[methodology/persistent-wiki-ingest-rule|the methodology]].
 ${endMarker}`
 }
 

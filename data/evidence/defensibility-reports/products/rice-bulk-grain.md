@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-bulk-grain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0bd9d3cb3099e925deafa59259fa2d678923721658ac53b7e7bda99f76f93a0d
+source_page_sha256: d3b81fd8be6c387aec9be1a9d3689ab156db18c5cfbb1e1a25160c6b3f556ec3
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

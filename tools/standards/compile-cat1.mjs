@@ -220,13 +220,11 @@ function resolveCell(sub, analyte, variant) {
   const ra = (sub.read_across || {})[analyte]
   let raResult = null
   if (ra && !ra.not_material) {
-    // Inline cross-source value: a cell for which NO government ML exists but the contaminant is
-    // material (Method v2.0 no-ML path). The value is occurrence- or read-across-derived and named in
-    // the config; it is authoritative for this cell (no scope-based gov comparison). basis is
-    // "occurrence" | "precautionary" (rendered as a comparator/read-across cell downstream).
+    // Inline numeric cross-source values belonged to the retired occurrence /
+    // precautionary method. A current numeric read-across must cite a sovereign
+    // register row by source_id; otherwise the cell stays an explicit gap.
     if (ra.value_ppb != null) {
-      const v = num(ra.value_ppb)
-      return { type: "read_across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id || null, source_jurisdiction: ra.source_jurisdiction || null, label: ra.label || "cross-source value", basis_kind: ra.basis || "occurrence", basis_note: (ra.basis === "precautionary" ? "precautionary cross-source value (no government ML for this product form)" : "occurrence / cross-source value (no government ML for this product form)"), per_country: {} }
+      return { type: "gap", value: null, error: "inline numeric read-across is retired; cite a sovereign source_id or configure an n/m control" }
     }
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }

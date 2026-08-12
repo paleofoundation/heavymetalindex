@@ -2,7 +2,7 @@
 source_page: wiki/products/feminine-deodorants.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1ac73dc2bf16f006522749801366d205a3b9c84ed207c53d24bebb1c877ea427
+source_page_sha256: 1aa52d36adc9a60e421189842586514227a6ce6bf0302d8f8f050a3df69583ed
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

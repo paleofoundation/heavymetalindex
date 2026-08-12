@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/body-wash-shower-gel",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ad2048628a02ad6d2635faab6c9f84e0f94578af273ce093cc4b4a7f845a38ea",
-      "content_bytes": 10886,
+      "content_sha256": "27da880f7cb1c96e9ae85214da33cc7f6cf748ec45b3dedec20b7e1c70807557",
+      "content_bytes": 11047,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -68,8 +68,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

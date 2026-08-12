@@ -2,7 +2,7 @@
 source_page: wiki/products/true-tea-camellia-sinensis.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2abe459230f35c8aebf89e379e048abbe748bfcc88e0ceaf2e26772699411a0a
+source_page_sha256: 39531d81e38895a3c54abbcc7e63a77e1efe1cc506bfc9f6b0afc0db1cad21f9
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0

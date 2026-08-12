@@ -2,7 +2,7 @@
 source_page: wiki/products/diapers-and-components.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3cdb205e4bd9620782f76d0d655df125e3b394e0a816c311c39642e78ae2e8c1
+source_page_sha256: 67f6246700d7a044678c903ef859d8241597e0af5b38b529d4c8dc6b424d82c3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

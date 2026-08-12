@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-crafts-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3f8f663193307e434461412710e80256af82776881055d706d29207eba05af3c
+source_page_sha256: 617e74e614cb6465f9978d97ddffe8200e5f4adf17e95799b7b9b5e4f86bf9cb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

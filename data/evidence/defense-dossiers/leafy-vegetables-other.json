@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/leafy-vegetables-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4ed65464fe053707e0777ef61e1b99c0657ace2e2da6e268de822aec12f41949",
-      "content_bytes": 31051,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "8928da25392aad5be7e76232f6b0a3163191d4a416b55073e74828c96e24cb40",
+      "content_bytes": 31427,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/leafy-vegetables-other.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/leafy-vegetables-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -192,8 +192,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "c974f379158a8628b1281c248427bb4d00c3b5117a34289f2dcc9d6acf62736b",
-          "content_bytes": 8207,
+          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
+          "content_bytes": 8173,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d9bd77af06486f1b8afd6724f7740e20d9321ae9b1c2c5e337c95fcc96310ae6",
-      "content_bytes": 8576,
+      "content_sha256": "2fee50d90ad5107ebd27a8e876747cb9f95d61458aad9de2f25e7c6460757b25",
+      "content_bytes": 8737,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -42,8 +42,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "de28e7ed3995a0db38db7e69203c9fc2943d7f700bb3b27e02f8496566972976",
-          "content_bytes": 18981,
+          "content_sha256": "9a68cea2de256d9d2e4f32d3d797de6e8401430482edcb67aa970306ae39d43e",
+          "content_bytes": 18876,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

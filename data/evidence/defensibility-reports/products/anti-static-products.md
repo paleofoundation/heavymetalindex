@@ -2,7 +2,7 @@
 source_page: wiki/products/anti-static-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4eacb974827bf75d9fefcef330eb59710f46e851fefd1ad03fd79583a7574145
+source_page_sha256: 31215c4592689afa2528da0872ee83fd0db6a0f2c3eb2b4a64572c9a7085387b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

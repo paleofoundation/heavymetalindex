@@ -2,7 +2,7 @@
 source_page: wiki/products/teething-and-snacks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1ae5d5a5e6ce585743904b133316dd2bf869fc83f8f2ae5a5ac230623b90687a
+source_page_sha256: 9718f8b8b1098b0bf7bca0847c1607feed89f0db02d24f6855b83e7e48ec4ca4
 total_claims: 95
 cited_claims: 95
 uncited_claims: 0

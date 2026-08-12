@@ -1,5 +1,7 @@
 # Category 4 Split — Step Zero (Amendment 2 + new Cat 27/28/29)
 
+> **Taxonomy history; limit-setting method superseded 2026-08-12.** The re-homing and never-renumber decisions remain active. Any clean/dirty language below is a historical occurrence-comparison label, not a current certification pathway. Initial limits are government-limit-only; later tightening uses eligible certified-lot data.
+
 **Status:** Active, 2026-06-09. Under the authority of `taxonomy-v2.2-matrix-family-recut.md`. This is
 both a Cat 4 Step Zero amendment (it slims Cat 4) and the Step Zero lock for the three new categories
 born from the split. **Phase A of the re-cut: scaffold-level, no shipped standards involved.**

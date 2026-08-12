@@ -2,7 +2,7 @@
 source_page: wiki/products/odor-removers-hard-surfaces.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b4b45bc4d561f5bd484adceb141111337e18302772e0bc41cae66a04b158eb66
+source_page_sha256: a4669cf148cfaa94e2f4851725037375f3cb9ec38e13aa2d5ef176b19397f165
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

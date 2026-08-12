@@ -67,5 +67,6 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added |
 | [a31b0f2f5](https://github.com/paleofoundation/heavymetalindex/commit/a31b0f2f5) | 2026-08-10 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

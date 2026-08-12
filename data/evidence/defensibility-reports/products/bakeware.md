@@ -2,7 +2,7 @@
 source_page: wiki/products/bakeware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f13b52265d10950585dfc1d80637969ff4d6ddcd0a23e38bec861bac67d14c3c
+source_page_sha256: 025169d6355033a247c26b545352807b17991257664416d220e0878dd4278e45
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-softgels.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 11a2f22d06f0d1ccc08003c96b6671ec0544f5cba259428e8c87c289bd66cc14
+source_page_sha256: 7caa760a30e3355207fde3b1dbbfb739e3aa684d3e775ba8289d3d9def8ed066
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

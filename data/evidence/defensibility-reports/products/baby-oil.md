@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-oil.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 139c7f35640f70264cf9e739a3429b9a862b605105d64069034b9f1f92724f8f
+source_page_sha256: 6a940d6f06e21e14d4cbb27bb7aa37812701aeaf34e6f087ae98c09664d78284
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

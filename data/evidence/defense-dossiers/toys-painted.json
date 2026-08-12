@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-painted",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b79a52919c2a146a1268c4ad5a20e73adc6913c8593510258fdb39923a1c0941",
-      "content_bytes": 21939,
+      "content_sha256": "82efe7f211a52caacebd1e5c8d44808d7003c06d1b3eb63857689ddaccce3c34",
+      "content_bytes": 22100,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -20,9 +20,8 @@ variant_type: whole_row_platform
 platform_metals: [Sn]
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-6-step0-lock.md
-step0_basis: "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps); literature pending"
 step0_confidence: provisional
-across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-dirty subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
+across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-migration subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
 literature_scope: thin
 sources: 85
 wiki_doi: null
@@ -39,7 +38,7 @@ This row carries the **tin flag** for Sn migration from the can, and inherits th
 
 ## Literature scope
 
-Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. HMTc thresholds for this row are developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com).
+Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. Initial HMTc limits for this row are compiled separately at [heavymetalcertified.com](https://heavymetalcertified.com) under the government-limit-only method; Index occurrence evidence does not select the value.
 
 ## Methodology
 

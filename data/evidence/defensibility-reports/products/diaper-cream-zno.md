@@ -2,7 +2,7 @@
 source_page: wiki/products/diaper-cream-zno.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d9f75a40b7b53094e0e50f73788481395738a8fdf39c954adce3c3f2d4008cfa
+source_page_sha256: 82078506fbbf9fd62ee3c78ca551fe10011b384aee1e6d3fb7a62ce3de66b9d7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

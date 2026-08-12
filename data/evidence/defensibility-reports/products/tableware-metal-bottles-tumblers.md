@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-metal-bottles-tumblers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a7054fa46edcdbea7addeeffef513cd6fae69961f1cddf8344051cb3a216bf8d
+source_page_sha256: 671dda06e7ada3ba9d8a5512c20dab6267c8a86783780b1f0f5db053927bbbec
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

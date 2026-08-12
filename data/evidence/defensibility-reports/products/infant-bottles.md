@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-bottles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9ddd1625d6a30ec688074d1d715fa9f65222410428956cc43f22f257183d853e
+source_page_sha256: 25edfcb10d8667365c3a7b2ca3b5dee08b8b3afa1ecea25132be154bb864e474
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

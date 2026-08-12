@@ -2,7 +2,7 @@
 source_page: wiki/products/tongue-cleaners-scrapers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 328d6e3654625d004dd8cffcba37ad1c0d32b6f617368b5b02216a3e53f99074
+source_page_sha256: 68dca8aa98a2e100a197946d599b76cb260874f303353b4e23e83a9b4c71ce46
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

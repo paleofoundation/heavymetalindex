@@ -64,7 +64,7 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 
 ## Implications
 
-- Certification (HMTc): supplies CRM-quality, dry-mass inorganic-arsenic anchor values for hijiki — the canonical high-iAs seaweed — within the Category 6 seaweed-kelp-foods row (iAs/tAs platform): inorganic arsenic (as As(V)) of 10.1 mg/kg (certified CRM 7405-a) and 24.4 mg/kg (candidate CRM 7405-b), at ≈49% of total in the candidate. These corroborate the hijiki high-iAs sub-treatment within the row's clean/dirty structuring. Because both are reference materials rather than retail products, the occurrence-extraction pass should treat them as method/anchor points (e.g., evidence-fitness EF-3, or excluded from market-distribution pooling) rather than as market-survey occurrence values. All dry mass.
+- Occurrence routing: supplies CRM-quality, dry-mass inorganic-arsenic method anchors for hijiki within the seaweed-kelp-foods row: 10.1 mg/kg in certified CRM 7405-a and 24.4 mg/kg in candidate CRM 7405-b, with about 49% of total arsenic inorganic in the candidate. Because these are reference materials rather than retail products, they support analytical validation and species-specific context, not a market distribution or HMTc limit.
 - Courses: a reference case on the CRM scarcity for arsenosugars and the metrology behind seaweed arsenic speciation.
 - App: contributes hijiki inorganic-arsenic anchor values (as As(V)) to the seaweed ingredient contamination_profile, flagged as reference-material data.
 

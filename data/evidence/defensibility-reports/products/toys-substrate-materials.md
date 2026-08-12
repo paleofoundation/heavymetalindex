@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-substrate-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 61398a59029675197ca44fc014641affbdf20c574ab234b37a78b843f6273bcd
+source_page_sha256: 84c75d01693c3458df5b2e14ac8a5a9011ab8897ae6413d4bd6055dd18c57301
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0

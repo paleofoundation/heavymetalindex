@@ -63,7 +63,7 @@ This page is a structural scaffold for HMTc Category 1 row 4. One broad infant-f
  </div>
  <div>
  <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ <dd>Initial HMT&amp;C limits are compiled separately at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a> under the government-limit-only method. Index occurrence evidence is descriptive only and cannot select a certification value or status; later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.</dd>
  </div>
  </dl>
 </div>
@@ -86,7 +86,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetaltested.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
+**HMT&C threshold-setting is separate.** Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; Index occurrence evidence does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. See the [methodology](/methodology) for the Index/HMT&C separation.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -139,7 +139,7 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No current formula-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes infant formula |
 | [[regulations/eu-2023-915|EU 2023/915]] | 10 ppb | as placed on market as liquid | EU maximum level. |
 | [[regulations/california-prop65|Prop 65]] MADL screen | 0.625 ppb | Illustrative 800 g/day ready-to-feed intake screen; formula-specific exposure model required | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Do not compare RTF formula to dry-powder limits; use prepared/liquid occurrence data and the EU liquid ceiling as external legal context. |
+| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Preserve government soy/non-soy formulation splits and use the strictest applicable credible sovereign RTF formula maximum on the as-consumed basis. Occurrence remains contextual only. |
 
 RTF soy formula needs basis-matched occurrence review; the Prop 65 ppb screen is driven by assumed daily intake volume.
 
@@ -356,7 +356,7 @@ The living-review detector has flagged **1** contributing source value(s) that d
 | --- | --- | --- | --- | --- | --- |
 | Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.1 ppb | 2.95 (typical) / 7.55 (P95) | 2.68× | below-cohort-median |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. The public evidence-routing boundary and interpretation rules are documented in [[methodology/persistent-wiki-ingest-rule|the methodology]].
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->

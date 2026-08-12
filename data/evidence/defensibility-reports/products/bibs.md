@@ -2,7 +2,7 @@
 source_page: wiki/products/bibs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7584205a35d5d0c2c9c187742ef83bdd12e085704876dad8475607f6e0e41763
+source_page_sha256: 38eb07d1fbc52998fc4dca84f66b04dda15234d4802bc221f8223b6da0eef697
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-with-magnets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 35e5596b030cf86d6374d32749e0e01bf8e0f5fb58f6b56f8ca47d3d55076d87
+source_page_sha256: 401ec5d04ed9802064f0157909df8f8a3a24fadff1aa36fb94c8a9e71b36c2ce
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

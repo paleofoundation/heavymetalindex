@@ -2,7 +2,7 @@
 source_page: wiki/products/peanut-butter.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5dceea2bf2cd631ce2e1164a0cf7d6e7b187c1afde5f74bf36e30b1d3f5d0e77
+source_page_sha256: da418770cf95502ebc59ad99d412212abb039a3e0eb1ef43e83a40f08f3124a2
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

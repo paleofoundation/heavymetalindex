@@ -2,7 +2,7 @@
 source_page: wiki/products/manicuring-preparations-leave-on.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 645e60424672acf94d4a24180bcc257e676ba27f84813fe4ecd71bcfaacd420e
+source_page_sha256: d54f6f4472202c3917d1b3879443a081ceea2354cd4572091e9cfc2fb4088fae
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-powders.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 875ce54d04c890af4a026cb736052892ad4135d9e5f5513b814d166a3a7c1f31
+source_page_sha256: 463ed6697c6086d80b2a1e7774075abc271efa85753c04e71dc076bcddf85c07
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

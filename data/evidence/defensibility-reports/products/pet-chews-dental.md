@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-chews-dental.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 14b7a10b065a84c55e95e37587c0b83277f7ea1882c6b82abcb44a8235d89b89
+source_page_sha256: d3dd978a9cb29b43e48f45bf2db1b18e3df093daa2dc16c629f189ddc5dbd7d3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/wild-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ddc5a83790d5b3da561317e4eb7c1c3bdac9e54c13392bb5d48bf347ed906f47
+source_page_sha256: 1c2dfdec40a6614d064299583bc59455da498e89e6864994b347e483708e77dd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -24,7 +24,7 @@ sources: 6
 
 ## Overview
 
-This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but the current evidence is not strong enough to use it as a clean comparator without more occurrence extraction.
+This page is HMTc Category 5 row 5. The current evidence is not strong enough for a stable non-soy/non-rice occurrence characterization; it does not affect the government-limit-only initial HMTc method.
 
 ## Who this page is for
 
@@ -55,7 +55,7 @@ This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but 
 
 ## Methodology
 
-This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in non-soy/non-rice plant milks (almond, oat, coconut, and other varieties). HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in non-soy/non-rice plant milks (almond, oat, coconut, and other varieties). Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 **Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
 
@@ -75,7 +75,7 @@ This page reports what the peer-reviewed and regulatory literature states about 
 | Best current source | [[sources/marques2021-trace-elements-milks-plant-based-drinks]] |
 | Computation readiness | Not computation-ready; table values need source review |
 | Ingredient routing | [[ingredients/plant-milk]], [[ingredients/almond]], [[ingredients/oat]], [[ingredients/coconut]] |
-| HMTc use | Hold as clean-benchmark hypothesis, not clean-benchmark evidence |
+| HMTc use | Contextual category characterization and surveillance only |
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -175,7 +175,7 @@ The levers below are ordered by estimated impact magnitude for finished non-soy/
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 

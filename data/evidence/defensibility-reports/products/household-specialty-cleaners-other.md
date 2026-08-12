@@ -2,7 +2,7 @@
 source_page: wiki/products/household-specialty-cleaners-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2991c30d215074f4ae4e2dfd6799656a0e948bc63779539d58788daa556e2947
+source_page_sha256: 364ce23ed2488d9d114a81f8dc99d7614cdc3d5f5eae7db66436e70a31fcb676
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

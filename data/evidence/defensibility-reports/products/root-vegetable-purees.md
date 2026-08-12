@@ -2,7 +2,7 @@
 source_page: wiki/products/root-vegetable-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 51f95c13945da09303cc7f8774d92e12b993b95fd962ca3773fdf461fd3c7fb4
+source_page_sha256: cfca68f0170865a04990d981f04c9cc914a92eb626329d7b423fe97278ed11b5
 total_claims: 135
 cited_claims: 133
 uncited_claims: 2
@@ -314,7 +314,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `20 ppb`
-- Context: `pb, median 5 ppb, max 48 ppb. | Some upper-end product-row values exceed the EU 20 ppb maximum where comparable; the con`
+- Context: `pb, median 5 ppb, max 48 ppb. | Some upper-end product-row values exceed the EU 20 ppb maximum where comparable. The occ`
 - Cited targets (5):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none

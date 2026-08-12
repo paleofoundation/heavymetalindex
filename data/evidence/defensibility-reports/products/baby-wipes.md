@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-wipes.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 15923965df035d3152f79e171030cdfa3b77751488217380fe2aef9c9b9d2bae
+source_page_sha256: 4c6b78e0b2e7c5b2e1e4de23821704006222ff3a9d2ee240d35672119414d485
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

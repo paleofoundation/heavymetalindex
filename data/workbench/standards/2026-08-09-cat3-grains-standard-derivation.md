@@ -1,5 +1,7 @@
 # Category 3 — Grains, Cereals, and Rice Products: HMTc standard derivation
 
+> **Superseded derivation snapshot (2026-08-12).** This record preserves the August 9 audit trail, including occurrence-selected and precautionary aluminium values that were subsequently removed. It does not govern current certification. Current Category 3 compiled records use only sovereign-government alignment, disclosed sovereign read-across, or n/m controls; later tightening can come only from the certified-lot Standards Ratchet. The current compiler output in `cat3-compiled/` is controlling.
+
 **Date:** 2026-08-09
 **Method:** HMTc Method v2.0 — government-limit default (CLAUDE.md Part 19).
 **Taxonomy:** `data/taxonomy/hmtc-v2.json` category `n=3`, 12 subcategories.
@@ -93,7 +95,7 @@ Net: no change to any Cat-3 bound value from the provenance check — both flagg
 
 - Config: `tools/standards/cat3-config.json` (scope regexes use product-headed exclusion tokens; see the file's `_scope_note` for why bare `rice`/`oil`/`durum`/`except`/`excluding` tokens are avoided).
 - Compiler hardening this build: added a systemic `PESTICIDE` status guard to `compile-cat1.mjs` (drops pesticide-residue MRLs from contaminant strictest-selection, exactly as `FEED` and `QUARANTINE` do). Regression-checked byte-identical against the shipped Cat-1 and Cat-6 compiled outputs.
-- Roles: `data/workbench/standards/subcategory-roles.json` (12 Cat-3 entries; percentiles/stratify documentary since pooling is not invoked).
+- The retired certification-role config was deleted on 2026-08-12. Descriptive infant-formula market stratification now lives in `data/reference/occurrence-market-strata.json` and contains no certification roles or candidate percentiles.
 - Determinations: `data/evidence/standards-not-material.csv` (+32 rows), `data/evidence/standards-no-ml-confirmed.csv` (+14 rows).
 - Every binding value reproduces from `regulatory_limits.csv` by re-running the compiler; every cell's `binding_id` / `source_id` names its register row.
 

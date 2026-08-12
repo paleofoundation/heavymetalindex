@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-freeze-dried.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5f6bf33f6accc25a3a045a72cfbce662bee18274bd02ad21b3c0c3cf2e0ba421
+source_page_sha256: fad4454dd6df3738a55a561b36395aaba6f29c55dd374fc37f92e8c0e1da4d86
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

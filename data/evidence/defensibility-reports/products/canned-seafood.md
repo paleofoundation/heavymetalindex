@@ -2,7 +2,7 @@
 source_page: wiki/products/canned-seafood.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ef266076f07f0c3bc76f0b699a5575bd6dca9d2a84a11dffe61e12b6c9cf23b6
+source_page_sha256: d21f24c127b76f13ff58ee1182e1d96a9f0760f81caef3c7f000bd006e5e865f
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1

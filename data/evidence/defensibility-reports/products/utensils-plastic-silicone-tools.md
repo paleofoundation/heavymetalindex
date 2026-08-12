@@ -2,7 +2,7 @@
 source_page: wiki/products/utensils-plastic-silicone-tools.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a2bea7e16c177a6bf40e9204db584f7b5cce69b4a30f4b846fb3d4814bb206da
+source_page_sha256: 66f53a0faab47f68cef68623d2665ffc359a3bf86aa8a3fa775dec5bc4d88121
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

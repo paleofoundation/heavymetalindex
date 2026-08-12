@@ -1,5 +1,7 @@
 # Category 7 Dissolution — Step Zero Event (and new Cat 30–35)
 
+> **Historical lock event; limit-setting method superseded 2026-08-12.** The taxonomy dissolution and never-renumber decisions remain in force. Any occurrence-selected standards arithmetic below is retained only as historical context.
+
 **Status:** Active, 2026-06-09. Under the authority of `taxonomy-v2.2-matrix-family-recut.md`,
 `docs/standards-methodology.md` (§"Packaging and processing format is a flag"), and the four-lens
 food-taxonomy design panel (2026-06-09). Approved by Karen. **Supersedes** `category-7-step0-amendment-1.md`'s

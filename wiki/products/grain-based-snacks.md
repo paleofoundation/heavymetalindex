@@ -1,11 +1,11 @@
 ---
-title: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks"
+title: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice lower-occurrence counterpart to rice-snacks"
 type: product-category
 category: grain-based-snacks
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"
 hmtc_row: 12
-hmtc_subcategory_name: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks"
+hmtc_subcategory_name: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice lower-occurrence counterpart to rice-snacks"
 hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-06-09"
 exposure_pathway: "Ingestion (oral)"
@@ -20,7 +20,7 @@ wiki_doi: null
 updated: 2026-06-09
 ---
 
-# Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks
+# Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice lower-occurrence counterpart to rice-snacks
 
 > **v2.2 Step Zero scaffold — Category 3 (Grains, Cereals, and Rice Products), Row 12.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing

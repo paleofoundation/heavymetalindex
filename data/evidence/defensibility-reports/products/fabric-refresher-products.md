@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-refresher-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 161efccecfc4a2a0cdc9a5e6e9efd9dde402167d1b7c84b99e6ada3a0c481846
+source_page_sha256: a3aa68dd88bd5a8823737a9be0fc9347aef982d575424cc8af4636b59679c540
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

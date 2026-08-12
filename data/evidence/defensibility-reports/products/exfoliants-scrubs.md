@@ -2,7 +2,7 @@
 source_page: wiki/products/exfoliants-scrubs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5fa7f5850a7c4b9a3ee891db8f2e0fb3d65393113b768d771c6c807b6af12164
+source_page_sha256: abea4717d2e8a1fdebc17c081559aaa5201244db507780abd8663f852b00928f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

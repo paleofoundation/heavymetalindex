@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: percentile-specific N deficits are not certification-limit blockers.
+console.error("RETIRED: external occurrence evidence is contextual and does not select initial HMTc limits.")
+process.exit(2)
 // build-n-deficit-queue.mjs
 //
 // The acquisition worklist, ordered by what it costs to fix.

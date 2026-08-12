@@ -18,7 +18,7 @@ provisional_created: 2026-05-20
 provisional_reason: "autonomy loop: 2 source(s) declared products:[infant-rice-cereal] with no existing page"
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
-governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
+governance_status: "Provisional scaffold. Sources route here; HMTc category placement and certification limits do not derive from this page. Initial limits come from the sovereign-government compiler; occurrence evidence on this page is descriptive only."
 ---
 
 # Infant Rice Cereal
@@ -31,7 +31,7 @@ This page is for brand legal, retailer-compliance, and regulator readers who nee
 
 ## Methodology
 
-This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. Produce and food evidence is kept jurisdiction- and market-aware, with fresh, dried, canned, infused, or processed forms separated when basis changes. This page reports the literature; certification thresholds are set separately under the certification program, not on this page.
+This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. Produce and food evidence is kept jurisdiction- and market-aware, with fresh, dried, canned, infused, or processed forms separated when basis changes. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Literature Evidence Summary
 
@@ -80,7 +80,7 @@ The practical control levers for Infant Rice Cereal start with product identity 
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 

@@ -83,7 +83,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1-2 sources. Medium: 3-10 sources. High: more than 10 sources. Confidence reflects volume and agreement of evidence, not regulatory pass/fail status.
 
-**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetaltested.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
+**HMT&C threshold-setting is separate.** Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; Index occurrence evidence does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. See the [methodology](/methodology) for the Index/HMT&C separation.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -136,7 +136,7 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level) | dry infant cereal, as sold | Dry infant cereals for children under 2; FDA does not split the lead action level by rice versus non-rice |
 | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as placed on market | EU maximum level. |
 | [[regulations/california-prop65|Prop 65]] MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant infant cereal RACC of 15 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/context; occurrence percentiles decide whether HMTc can justify a lower standard. |
+| HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a one-serving exposure conversion and would fall with higher daily intake. | The strictest applicable credible sovereign maximum sets the initial HMTc value. Occurrence percentiles remain contextual only. |
 
 A 20 ppb cereal can be legally aligned while still not representing best-in-class occurrence if the category median is lower.
 
@@ -381,7 +381,7 @@ The living-review detector has flagged **7** contributing source value(s) that d
 | Cd | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 8.76 ppb | 21.9 (typical) / 28 (P95) | 2.5× | below-cohort-median |
 | tAs | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 15.5 ppb | 37.8 (typical) / 179 (P95) | 2.44× | below-cohort-median |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. The public evidence-routing boundary and interpretation rules are documented in [[methodology/persistent-wiki-ingest-rule|the methodology]].
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->

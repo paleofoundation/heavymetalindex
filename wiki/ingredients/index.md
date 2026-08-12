@@ -15,7 +15,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 Pages are grouped by commodity type and listed alphabetically within each group. The count after each entry is how many curated sources currently reference that ingredient — a low or zero count marks an evidence gap, not an error.
 
-**Jump to:** [Fruits](#fruits) (30) · [Vegetables](#vegetables) (43) · [Grains, cereals & bakery](#grains-cereals--bakery) (35) · [Legumes & pulses](#legumes--pulses) (9) · [Nuts & seeds](#nuts--seeds) (7) · [Oils & fats](#oils--fats) (13) · [Herbs, spices & botanicals](#herbs-spices--botanicals) (13) · [Meat & poultry](#meat--poultry) (16) · [Fish & seafood](#fish--seafood) (14) · [Dairy & eggs](#dairy--eggs) (17) · [Infant formula & baby foods](#infant-formula--baby-foods) (20) · [Beverages & water](#beverages--water) (17) · [Sweeteners & condiments](#sweeteners--condiments) (11) · [Prepared & composite foods](#prepared--composite-foods) (12)
+**Jump to:** [Fruits](#fruits) (30) · [Vegetables](#vegetables) (43) · [Grains, cereals & bakery](#grains-cereals--bakery) (35) · [Legumes & pulses](#legumes--pulses) (9) · [Nuts & seeds](#nuts--seeds) (7) · [Oils & fats](#oils--fats) (13) · [Herbs, spices & botanicals](#herbs-spices--botanicals) (13) · [Meat & poultry](#meat--poultry) (16) · [Fish & seafood](#fish--seafood) (14) · [Dairy & eggs](#dairy--eggs) (17) · [Infant formula & baby foods](#infant-formula--baby-foods) (20) · [Beverages & water](#beverages--water) (17) · [Sweeteners & condiments](#sweeteners--condiments) (11) · [Prepared & composite foods](#prepared--composite-foods) (11)
 
 ### Fruits
 
@@ -324,32 +324,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
-| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 15 removed; narrative text revised |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-<!-- END: hmi-page-history -->
-
-<!-- BEGIN: hmi-auto-linked-stubs -->
-
-## Additional indexed pages
-
-_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
-
-- [[ingredients/bee-pollen|Bee Pollen]] (0 sources)
-<!-- END: hmi-auto-linked-stubs -->
-
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Change | Description |
-| --- | --- | --- | --- |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added; narrative text revised |
 | [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
-| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 15 removed; narrative text revised |
 <!-- END: hmi-page-history -->

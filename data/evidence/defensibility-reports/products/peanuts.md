@@ -2,7 +2,7 @@
 source_page: wiki/products/peanuts.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2a6ca35639be9acafda4ebf688ed7407c39a42ca5aa12c60bebb544ae2bb9be0
+source_page_sha256: 1a8b50d06c84a0f205a01f0ca9d1ff3951391eb992b55651f084d13caf83586f
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1

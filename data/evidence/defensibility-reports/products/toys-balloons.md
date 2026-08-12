@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-balloons.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fdd0531bc2aa73321a12ba98fad4f43296428c11814cb23c813a9c8cd18174b4
+source_page_sha256: ba8244f8d6c98d8f6294b34b894e4f84c5fd3a753807d6700d1596ec5ae195c6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

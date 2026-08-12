@@ -2,7 +2,7 @@
 source_page: wiki/products/whitening-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 016047508655211d29bfa2760cf5bc931869dbfc31329c138d038df5d6125564
+source_page_sha256: ecc4e7b307f806f699d3f6d725303ec0a125de7f3bb1bdb2d6ef946d493ec9ab
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

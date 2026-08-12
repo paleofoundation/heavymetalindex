@@ -2,7 +2,7 @@
 source_page: wiki/products/food-prep-kettle-interiors.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 16e5130fe9f8ddf5ce096af14a71990ffbfec67f8f4faed37c8932d44fd1cdd4
+source_page_sha256: 14b90023c00d0cb732b9d8ac6d5986ca7631408c596df96113540bb5e45c9ffe
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -24,23 +24,23 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 ## Overview
 
-Pediatric sunscreens using synthetic organic UV filters (avobenzone, octocrylene, octinoxate, octisalate, homosalate). Clean baseline of the Row 9 / Row 10 clean-contaminated pair: chemical UV filters carry no intrinsic heavy-metal platform load, only refining-related trace contamination.
+Pediatric sunscreens using synthetic organic UV filters (avobenzone, octocrylene, octinoxate, octisalate, homosalate). Lower-occurrence comparison baseline of the Row 9 / Row 10 descriptive occurrence-comparison pair: chemical UV filters carry no intrinsic heavy-metal platform load, only refining-related trace contamination.
 
-This page is a Step 0 lock scaffold for Cat 2 Row 9. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 2 Row 9. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's descriptive occurrence-comparison framing and platform attribution.
 
 ## Who this page is for
 
-Brand legal teams evaluating HMT&C certification for the Baby Sunscreen, Chemical row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Baby Sunscreen, Chemical row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its descriptive occurrence-comparison pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Baby Sunscreen, Chemical row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Baby Sunscreen, Chemical row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 The non-ingestion exposure pathways relevant to this row (dermal, inhalation, accidental-ingestion, and trans-placental) are documented at [[health/cat-2-non-ingestion-exposure-pathways]].
 
 ## Pair relationship
 
-This is the clean-baseline row of a Cat 2 clean-contaminated pair. The contaminated counterpart is Row 10 ([[products/baby-sunscreen-mineral]]). The Step 0 lock documents the categorical metal-load difference attributable to the contaminated row's platform ingredient(s); the clean baseline row certifies against limits set to genuinely clean-achievable levels independent of the platform.
+This is the lower-occurrence-comparison row of a Cat 2 descriptive occurrence-comparison pair. The higher-occurrence counterpart is Row 10 ([[products/baby-sunscreen-mineral]]). The Step 0 lock records the literature's categorical metal-load difference between the formulations or commodities. That comparison is descriptive only: both rows take initial HMTc limits from the applicable sovereign-government compiler, not from their occurrence distributions.
 
 ## Literature Evidence Summary
 
@@ -77,15 +77,15 @@ _Pending. Cat 2 regulatory landscape is fragmented: cosmetics under FDA FD&C Act
 
 ## Levers to reduce contamination
 
-The Cat 2 Step 0 lock framework distinguishes clean-formulation rows from contaminated-platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMT&C certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
+The Cat 2 Step 0 lock framework distinguishes lower-occurrence formulation rows from higher-occurrence platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMT&C certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
 
-1. **Maintain the clean-baseline formulation choice.** The Row 9 clean baseline exists precisely because alternative ingredient classes (without the platform load) are commercially available. Brands certifying this row commit to NOT adopting the contaminated variant's ingredient class.
+1. **Maintain the lower-occurrence-comparison formulation choice.** The Row 9 lower-occurrence comparison baseline exists precisely because alternative ingredient classes (without the platform load) are commercially available. Avoiding the higher-occurrence ingredient class is a formulation lever, not a separate certification-threshold method.
 2. **Sourcing-level controls** on the few remaining ingredient classes carrying trace metal load.
 3. **Testing/QC levers**: lot-level ICP-MS on raw materials and finished product.
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 

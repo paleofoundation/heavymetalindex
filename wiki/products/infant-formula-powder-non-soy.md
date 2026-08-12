@@ -79,7 +79,7 @@ This page is the public evidence page for powdered non-soy infant formula. It is
  </div>
  <div>
  <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ <dd>Initial HMT&amp;C limits are compiled separately at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a> under the government-limit-only method. Index occurrence evidence is descriptive only and cannot select a certification value or status; later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.</dd>
  </div>
  </dl>
 </div>
@@ -102,7 +102,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Source-count confidence is reported as low (1 to 2 contributing sources), medium (3 to 10), or high (more than 10), per the wiki's standing convention. Confidence reflects volume and agreement of evidence, not regulatory pass-fail status.
 
-**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page. The values on this page are literature evidence, not certification thresholds.
+**HMT&C threshold-setting is separate.** Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. The values on this page are literature evidence, not certification thresholds.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -162,7 +162,7 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No current formula-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes infant formula |
 | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | as placed on market as powder | EU maximum level. |
 | [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-intake screen; formula-specific exposure model required | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Do not borrow FDA processed-baby-food action levels for formula; use basis-matched occurrence data and the EU powder ceiling as external legal context. |
+| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Use the strictest applicable credible sovereign formula maximum on the powder basis; the 8:1 conversion is permitted only within infant formula. Occurrence remains contextual only. |
 
 No U.S. FDA formula-specific lead action level is currently established; the EU powder ceiling is a legal backstop, not a clean-product target.
 
@@ -588,7 +588,7 @@ The living-review detector has flagged **24** contributing source value(s) that 
 | Sn | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | 7 ppb | 35 (typical) / 95 (P95) | 5× | below-cohort-median |
 | Cd | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 60 ppb | 4 (typical) / 12.3 (P95) | 4.88× | above-cohort-p95 |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. The public evidence-routing boundary and interpretation rules are documented in [[methodology/persistent-wiki-ingest-rule|the methodology]].
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->

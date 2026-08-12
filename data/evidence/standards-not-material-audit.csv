@@ -4,9 +4,9 @@ olive-oil,Cd,refined-partition,PASS,
 olive-oil,tHg,refined-partition,PASS,
 cooking-oils-other,tHg,refined-partition,PASS,
 salt,Al,additive-permitted,PASS,
-spices,Al,natural-accumulator,PASS,INFO: high Al occurrence (p50=130080) is expected for natural-accumulator; a credible CONTAMINANT ML would disqualify
+spices,Al,natural-accumulator,PASS,
 chocolate,Al,natural-accumulator,PASS,
-honey,Al,natural-accumulator,PASS,INFO: high Al occurrence (p50=25639) is expected for natural-accumulator; a credible CONTAMINANT ML would disqualify
+honey,Al,natural-accumulator,PASS,
 infant-formula-powder-non-soy,Cr-VI,method-artifact,PASS,
 infant-formula-powder-soy-based,Cr-VI,method-artifact,PASS,
 diapers-and-components,iAs,speciation-bounded,PASS,

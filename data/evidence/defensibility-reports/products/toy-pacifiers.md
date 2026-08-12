@@ -2,7 +2,7 @@
 source_page: wiki/products/toy-pacifiers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7b1e4ce9714a02b7dcf4ee20ddab75ba401fda7ed15df3d6a55ee5d938b11e92
+source_page_sha256: d6a9c261bfd88373688a6d073e9b05d6041ca01f211a0923dbce2bc65ec1ec1a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

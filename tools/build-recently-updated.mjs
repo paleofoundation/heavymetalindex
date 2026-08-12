@@ -34,7 +34,7 @@ const SECTIONS = [
 ]
 
 // Product page titles carry internal disambiguation in parentheses / after a
-// dash or semicolon ("Antiperspirant (Al-salt, dirty sibling of r9 deodorant)",
+// dash or semicolon (for example, a long parenthetical row qualifier),
 // "Bar soap; medicated bars cross-link advisory"). Strip it for the public feed
 // — the head noun is the public name.
 function cleanTitle(raw) {

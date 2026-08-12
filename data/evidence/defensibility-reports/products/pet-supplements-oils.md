@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-oils.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2b759db799409005dd4dc5fc7933fd61253ee084426b25df84152437dbdb5dd5
+source_page_sha256: 08109b976dbdf455c415331b87c52d816fbadb94e5b8d11a626afed546c5fa66
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/fragrance-preparations.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6eb3e13d6656b94f43f04423e8c199d86dfa14dc06f749d6b2cfbbefdffcad2e
+source_page_sha256: 44cc46eb2c1c320f49cba00f50e435063956730e9d43eda658122a101eb962d5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

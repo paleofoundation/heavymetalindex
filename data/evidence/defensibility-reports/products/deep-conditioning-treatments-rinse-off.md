@@ -2,7 +2,7 @@
 source_page: wiki/products/deep-conditioning-treatments-rinse-off.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e404d97a141d890eaf6d0d6e1b9336d2ecaaf3964defcc7d8cb947ab2b70c071
+source_page_sha256: 5ba3363d833ebb7550db1ae335dad839aa00ecf995239b577334a4cf19d516e4
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

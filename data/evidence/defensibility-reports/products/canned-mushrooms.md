@@ -2,7 +2,7 @@
 source_page: wiki/products/canned-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5961c36d5fdbc22b20be1d7532250294a734175efa0e5125272a0da182f73bdb
+source_page_sha256: bda88e357c4e548fb25516f174668120eca1175629e8681b985527d6241b3391
 total_claims: 11
 cited_claims: 11
 uncited_claims: 0

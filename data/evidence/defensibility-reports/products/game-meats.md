@@ -2,7 +2,7 @@
 source_page: wiki/products/game-meats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 04db690d6e3682cac387e914886361ce7a78b2bba7c3e7d014b12b3af19a1c32
+source_page_sha256: 8b9e408990514742f25fe795bf946be25de57503538d6886b1d230958fd4dc39
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

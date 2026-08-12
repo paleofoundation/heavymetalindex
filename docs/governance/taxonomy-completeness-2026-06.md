@@ -1,5 +1,7 @@
 # HMTc Taxonomy Completeness Audit & Execution — June 2026
 
+> **Historical taxonomy audit (method superseded 2026-08-12).** Category coverage and never-renumber decisions remain useful. The clean/dirty mechanics described below are retired as certification pathways; occurrence comparisons are descriptive only, initial limits are government-limit-only, and later tightening uses eligible HMTc certified-lot data.
+
 **Status:** Active, 2026-06-09. Output of a six-architect whole-taxonomy audit (intuitiveness, clean/dirty
 mechanics, gap-discovery, plus per-domain audits of cosmetics/household/children/supplements/pet) against
 the governance principles in `hmtc-governing-principles.md` and `docs/standards-methodology.md`. Authority:

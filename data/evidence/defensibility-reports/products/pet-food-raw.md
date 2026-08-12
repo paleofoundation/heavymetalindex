@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-raw.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 066101455f9af0d3cb58d7d555c3e0b9cbe41d348c91bbc4facd93701db32e91
+source_page_sha256: e397a6ecd1f782c3f5d71309c8663ce13090f00b15673f6697d0b66c2aa1af0f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

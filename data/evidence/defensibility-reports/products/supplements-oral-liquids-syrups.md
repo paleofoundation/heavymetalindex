@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-liquids-syrups.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9acbc38a37ed8f6fbabba731b2a4d528ca63cf1850ce221d444b844ccee65391
+source_page_sha256: c48a93e2c5e9fd4b8629c2bdc60cbd516a5d651ec888389a174850587d1f133e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

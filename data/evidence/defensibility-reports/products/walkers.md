@@ -2,7 +2,7 @@
 source_page: wiki/products/walkers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d604f6d8001b99bf0a622c20a0e67620e967ed0db6a12300c072eb3f55a02bda
+source_page_sha256: 78bd073a176ddadfd8d63d800c558fecf80d24daab8ae1107294cb0c317e4b6e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

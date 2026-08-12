@@ -26,7 +26,7 @@ This page is for brand legal, retailer-compliance, and regulator readers who nee
 
 ## Methodology
 
-This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. This page reports the literature; certification thresholds are set separately under the certification program, not on this page.
+This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Literature Evidence Summary
 
@@ -56,7 +56,7 @@ The practical control levers for Infant And Child Foods Master start with produc
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 

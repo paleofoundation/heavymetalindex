@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: proposals cannot be generated from the superseded standards classifier.
+console.error("RETIRED: government-limit mappings require the current sovereign-limit compiler workflow.")
+process.exit(2)
 /**
  * Regulatory cap → product mapper (proposal generator).
  *

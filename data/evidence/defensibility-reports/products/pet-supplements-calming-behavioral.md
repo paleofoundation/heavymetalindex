@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-calming-behavioral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ffb3d84effbc73d339332d35d318ed81f9668eaaae4bf7c96ec65b0c950243bb
+source_page_sha256: 51232167f53f1c5a3d0ba9fc522cb6d1a755ec68831e850164a778074dc91807
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/utensils-metal",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d7eead23a971f0d79a5d14af8695412ce0e08f4db9a511034c424906c2d7df96",
-      "content_bytes": 11690,
+      "content_sha256": "02a1a71538860a4a387f631ab7b3d83b1a81854e84e20bbc2b028b84f8a632c1",
+      "content_bytes": 11851,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

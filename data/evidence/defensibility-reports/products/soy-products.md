@@ -2,7 +2,7 @@
 source_page: wiki/products/soy-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0a9db4153fc8fb9db932d1254643fba54fc8e51ca79b1036166dabab35e410f0
+source_page_sha256: 3d2427fed6d423c563221161d9dd9b6def0683c580f4d4e82198c722ae4f85a0
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

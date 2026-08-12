@@ -2,7 +2,7 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c71f83175864396f916809d9d826eafcf32b6276565d3375071482518af19ed9
+source_page_sha256: aec4d358e26b131bcd46ab522b7765027b13d90d12e07c89008f82bc9f0f78f0
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1

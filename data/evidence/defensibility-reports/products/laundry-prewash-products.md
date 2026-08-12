@@ -2,7 +2,7 @@
 source_page: wiki/products/laundry-prewash-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 15903e2e147dd58e1019ae55a97c83079011cdae9e2b315d4143ac7986224850
+source_page_sha256: e3500e696d7665fa47068581e755d14832771989d8b79580d623d5db07401084
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

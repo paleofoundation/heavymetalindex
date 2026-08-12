@@ -2,7 +2,7 @@
 source_page: wiki/products/salt.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c041e7c3c845d94726094231981ccc9b700d333109c4f662996d472dde1ea4f3
+source_page_sha256: a480595bdb373a618d1680f08386e7ea010fc6285e9ba45a021f9151f654331f
 total_claims: 2
 cited_claims: 0
 uncited_claims: 2

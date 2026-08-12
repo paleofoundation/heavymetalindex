@@ -2,7 +2,7 @@
 source_page: wiki/products/lipstick.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 06582d32c3810187d346b260d1674a1a4c3e98360db6cf1a52e8ec80242c5ef1
+source_page_sha256: f963a61aef9015f3fa99b4e41393bc1f4471def5d00637f7445d2a9848df87a1
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

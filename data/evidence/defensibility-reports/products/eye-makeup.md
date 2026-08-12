@@ -2,7 +2,7 @@
 source_page: wiki/products/eye-makeup.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 561f529ecdc9c926b6b7cb82de346047717a52206ce511cb5cc9b3e3e8bbd7a5
+source_page_sha256: eada798a2751ff7534b1f8516bb153276cd484e9588ce9deea679115ce035812
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

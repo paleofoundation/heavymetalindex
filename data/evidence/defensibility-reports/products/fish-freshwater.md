@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 618d8ac182bdc0d05f0092b242af6ec2ba66d57aef0e822a39e4c16d736aff83
+source_page_sha256: 3e0557ec1d02c4d664f061a442ec5d7d96d85e15487d1c26a243bb4f7b87d17b
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2

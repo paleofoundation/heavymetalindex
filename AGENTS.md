@@ -48,30 +48,29 @@ Product category pages are core HMTc evidence surfaces. Product-occurrence data 
 
 If row fit is unclear, keep the source visible through an audit or queue record. Do not silently drop it.
 
-## Benchmark Percentiles
+## Occurrence Distributions and Certification Boundary
 
-Do not look for p90, p95, p10, p20, p30, p45, or p97 as a requirement inside individual studies. HMTc standard percentiles are calculated later from an admitted pool after product row, geography/market, basis, species, time period, method quality, censoring, and sample inclusion/exclusion are decided. Lack of a reported percentile in a source is not, by itself, an Evidence Fitness defect.
+Do not look for any particular percentile as a requirement inside an individual study. Lack of a reported percentile is not, by itself, an Evidence Fitness defect.
 
-During ingest, capture source facts: sample-level values when available, N, basis, species, units, censoring, geography/market, time period, sample frame, and any source-reported summary statistics. Means, medians, ranges, maxima, IQRs, SDs, lower-bound / upper-bound means (LOD-censored) — every reportable statistic gets stored. Summary-only papers contribute to the pool via moment-matching pseudo-sample expansion (log-normal or gamma fit per the standards-math methodology in CLAUDE.md Part 19); they are NOT "context only" and they are NOT excluded from the pool.
+During ingest, capture source facts: sample-level values when available, N, basis, species, units, censoring, geography/market, time period, sample frame, and every source-reported summary statistic. Means, medians, ranges, maxima, IQRs, SDs, and lower-bound / upper-bound means remain reportable evidence. Summary-only papers contribute to descriptive occurrence distributions through documented moment-matching pseudo-sample expansion; they are not discarded merely because sample-level values are unavailable.
 
-The locked HMTc standards math (per CLAUDE.md Part 19, system-wide across the entire index):
+The current HMTc certification method is locked in CLAUDE.md Part 19:
 
-- Clean subcategory per-analyte standard = **P97** of the clean-subcategory marginal distribution for that analyte.
-- Dirty subcategory per-analyte standard = **P45** of the dirty-subcategory marginal distribution for that analyte.
-- Per-analyte limits are uplifted from raw P90/P30 to P97/P45 so the joint row-pass rate across ten analytes lands near the Governing Principles target (≈90% clean / ≈30% dirty). Uniform across all analytes today; per-analyte differentiation is a Tier 2 calibration once lot-testing data exists.
-- Each row's standard is in the native basis of the product form (powder rows → powder-as-placed; RTF rows → as-consumed; dry cereal → dry-as-sold). Sources reporting in other bases get converted into the row's native basis during pooling, not the other way around.
-- Final HMTc value capped at the lowest applicable loaded regulatory ceiling, expressed in the row's native basis.
-- ALARA and the §80th-percentile ratchet trigger drive tightening after publication; they are not part of initial standards-setting math.
+- **Initial limit setting is government-limit-only.** Each starting value is the strictest applicable maximum level set by a credible sovereign government, expressed in the product's native basis.
+- Government formulation splits are preserved. The 8:1 powder-to-liquid conversion is confined to infant formula.
+- Where no government regulates the exact cell, use a disclosed read-across from the nearest applicable sovereign value or an n/m determination with its control method. Occurrence evidence cannot supply the missing certification value.
+- Heavy Metal Index occurrence distributions are contextual. They support literature synthesis, market characterization, source prioritization, surveillance design, and research-gap analysis, but they do not select an initial certification limit or determine status.
+- After publication, the separate endogenous Standards Ratchet uses eligible HMTc certified-lot results under Governance Policy §12. It does not use the public Index occurrence pool. For two consecutive annual reviews, the capped combined Status A + Status B trigger pool must have P80 at or below 80% of the current limit and at least 50% of trigger-pool SKUs must have qualifying lots at or below 60%; no licensee may contribute more than 25% of the pool. The new limit is the greater of Status A P80 or 80% of the current limit, so one event cannot reduce the value by more than 20%.
 
-Benchmark pools must be jurisdiction- and market-aware. If the standard is for the United States, US-market samples are the primary pool unless governance explicitly approves another pool. If US values are materially different from Nigeria, Portugal, EU, or any other market, stratify and document the difference; do not silently pool them. Non-target-market evidence may support context, priors, gap flags, or sensitivity checks, but cross-market pooling needs an auditable rationale.
+Occurrence pools must remain jurisdiction-, market-, basis-, species-, product-form-, and period-aware. If values differ materially across markets, stratify and document the difference rather than silently pooling them.
 
-The pooling engine (`tools/evidence/build-hmtc-aggregate-distributions.mjs`) is the single source-of-truth implementation; ad-hoc per-cell math by hand is not permitted. Its output lives in `data/evidence/hmtc_aggregate_distributions.csv` and `data/workbench/standards/` — never under `wiki/`.
+The occurrence engine (`tools/evidence/build-hmtc-aggregate-distributions.mjs`) remains the deterministic implementation for descriptive distributions and audit context. Its outputs live under `data/evidence/` and `data/workbench/standards/`; certification selection arithmetic and candidate values do not publish under `wiki/`.
 
 ## Infant Formula Row Fit
 
 For formula sources, "infant formula" alone is broad until powder/liquid and soy/non-soy status are resolved. But sources that explicitly describe the matrix as cow-milk, milk-based, powdered milk, milk formula, follow-up milk, or dietetic milk should route to the non-soy formula row unless the source states soy, plant protein, amino-acid-only, or another non-dairy formulation.
 
-Keep specialty or dietetic milk formulas flagged as specialty/context when appropriate, and do not treat group means, ranges, or maxima as benchmark distributions. This row-fit rule does not weaken the species rule: total chromium still cannot substitute for Cr(VI), total arsenic for inorganic arsenic, or total mercury for methylmercury.
+Keep specialty or dietetic milk formulas flagged as specialty/context when appropriate. Group means, ranges, and maxima must retain their source-reported statistic type; they may contribute to descriptive occurrence modeling through the documented reconstruction method but never select an initial certification value. This row-fit rule does not weaken the species rule: total chromium still cannot substitute for Cr(VI), total arsenic for inorganic arsenic, or total mercury for methylmercury.
 
 ## Dataset Ingests
 
@@ -98,9 +97,9 @@ Report pages touched, evidence rows generated, product or ingredient pages updat
 
 Do not silently drop source data because a destination page is missing.
 Do not require individual studies to report any specific percentile.
-Do not exclude summary-only sources (mean, median, range, IQR, max, lb/ub) from the HMTc pooling math; they contribute via documented moment-matching pseudo-sample expansion per CLAUDE.md Part 19.
+Do not exclude summary-only sources (mean, median, range, IQR, max, lb/ub) from descriptive occurrence distributions; they contribute through documented moment-matching pseudo-sample expansion.
 Do not end a commit with a bare `git commit` or `git commit -a`. Declare the files and commit by pathspec — `git commit -- <files>` or `tools/commit-scoped.sh -m "msg" -- <files>` — or FRANK's `git add -A` rides along into your commit. See OPERATING.md Part 5 ("Scoped commits").
-Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean per-analyte standards = pooled P97; dirty per-analyte standards = pooled P45; both with sensitivity bands. Final HMTc values must not exceed the lowest applicable loaded regulatory cap, expressed in the row's native basis.
+Do not treat a source-reported percentile from one paper as a program-wide distribution, and do not turn any Index occurrence statistic into a certification limit. Initial HMTc values are government-limit-only; post-publication tightening belongs to the separate certified-lot ratchet.
 Do not silently pool samples across jurisdictions, markets, time periods, bases, product forms, or analyte species. If the benchmark target is jurisdiction-specific, document why each non-target-market source is included, excluded, or retained as context.
 Do not write standards arithmetic (P-value computations, pooling math, sensitivity bands, candidate values) into `wiki/`. That content lives in `data/workbench/standards/` and on the local staff Standards Workbench tool. The wiki is the public literature evidence layer only.
 Do not mix total arsenic with inorganic arsenic.

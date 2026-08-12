@@ -2,7 +2,7 @@
 source_page: wiki/products/laundry-starch-sizing-fabric-finish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e421aea3f1ce9dbc3cb209816f64b980b0ad8eb6c73d431a5aa0e67f9bbbe859
+source_page_sha256: 3729e98df0d9a084e9f0347ff50b0401c73b0cb9e9e2d41149270c03924d3a08
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

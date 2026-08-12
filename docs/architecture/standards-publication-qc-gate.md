@@ -1,5 +1,7 @@
 # Standards Publication QC Gate — defect inventory + the gate that closes them
 
+> **Superseded methodology design (2026-08-12).** This QC gate validates the retired occurrence-selected certification pipeline and must not be used. Current initial limits come from frozen government-limit compiler records; later tightening comes only from the certified-lot Standards Ratchet.
+
 **Status:** Spec, 2026-06-16. The answer to "the Principle-4 violation is too serious to ignore
 — do we re-evaluate the methods, or something else?"
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/air-product-refill-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7b91512b1bc99e8ae908cca6725b8765bfbe96798f7cfe55b2488634adeb142a
+source_page_sha256: 5dec7f11d458f1d2abd401e75227caef3678d6e99017f2afc2f44a26750dc4e5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

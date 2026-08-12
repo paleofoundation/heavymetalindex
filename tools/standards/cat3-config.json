@@ -1,6 +1,6 @@
 {
-  "_doc": "Category-3 (Grains, Cereals, and Rice Products) compiler config for tools/standards/compile-cat1.mjs — HMTc Method v2.0 (government-limit default). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex, strictest across jurisdictions. No occurrence pooling: for this category the government MLs are the defensible anchors and the rice-occurrence pool is known-contaminated (censored-zero / p95 / x7-basis artifacts, see project memory), so the Tier-1 'clean producers beat the floor' refinement is NOT invoked here — see the Occurrence-pooling determination in the derivation doc. The rice-based vs non-rice split IS the clean/dirty structure and it is expressed through the government limits themselves: rice subcategories carry binding inorganic-arsenic MLs (rice hyperaccumulates iAs), non-rice subcategories resolve iAs as not-material.",
-  "_method_note": "native_basis is as_sold (dry) for every solid grain product; rice-beverages is as_consumed (liquid). reconstitution_8to1 is false everywhere (no product in this category is reconstituted from a powder concentrate). exclude_as_consumed drops prepared-state MLs from dry subcategories. Rice is a cereal: rice-product subcategories inherit the general cereal Pb/Cd/Ni/tHg limits (which are stricter than the rice-specific ones, so the ratchet is preserved) PLUS the rice-specific inorganic-arsenic ML, which is the clean/dirty differentiator.",
+  "_doc": "Category-3 (Grains, Cereals, and Rice Products) compiler config for tools/standards/compile-cat1.mjs — HMTc Method v2.0 (government-limit-only initial limits). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex and the strictest applicable credible sovereign-government maximum. Occurrence evidence is descriptive and cannot select an initial limit. Rice and non-rice rows remain separate where government rules distinguish their matrices; later tightening can occur only through the eligible HMTc certified-lot Standards Ratchet.",
+  "_method_note": "native_basis is as_sold (dry) for every solid grain product; rice-beverages is as_consumed (liquid). reconstitution_8to1 is false everywhere (no product in this category is reconstituted from a powder concentrate). exclude_as_consumed drops prepared-state MLs from dry subcategories. Rice-product subcategories inherit applicable general cereal Pb/Cd/Ni/tHg limits and rice-specific inorganic-arsenic limits where the government source expressly covers that matrix.",
   "_scope_note": "Exclusions use PRODUCT-HEADED tokens, never bare 'rice'/'oil'/'durum', because register scopes carry 'except X' and 'including X' clauses: a bare 'rice' exclude wrongly kills 'cereals including wheat and rice' (IL tHg 30) and 'cereals except durum/rice/...' (EU Ni 800); a bare 'oil' exclude wrongly kills 'rice and derivatives except oil'. Legume/pulse/bean/soy are excluded from every subcategory because legumes are a distinct food group regulated separately; this also removes the Panama Decreto 467/2007 Cd 'cereals, legumes, and leguminous vegetables' 10 ug/kg row, a suspected units artifact (same decree sets Pb cereals at the 200 consensus) flagged for source verification and quarantine in the audit.",
   "_read_across_canon": "Cr = total-chromium reflex-speciation not-material (Cr-VI never a panel number). Sn = canned-only not-material (tin migrates from tinplate; canned grain products route to Cat 7). Al = confirmed no-ML (standards-no-ml-confirmed.csv; no government sets a grain Al ML anywhere; leavened/baked Al is permitted-additive-derived, regulated by additive ADI). iAs on non-rice subcategories = not-material (arsenic does not hyperaccumulate in non-rice cereals; no government sets a non-rice grain iAs ML).",
   "panel": [
@@ -114,7 +114,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "Inorganic arsenic does not hyperaccumulate in wheat, corn, or other non-rice cereals as it does in rice; no government sets an iAs ML for any non-rice grain or flour in any jurisdiction. This subcategory is the clean counterpart to the rice-based flour/pasta subcategories, where iAs is the binding Tier-1 analyte.",
+          "control": "Inorganic arsenic does not hyperaccumulate in wheat, corn, or other non-rice cereals as it does in rice; no loaded government source sets an iAs ML for a non-rice grain or flour. Rice-specific iAs limits are not transferred to this distinct matrix.",
           "reference_method": "iAs by HPLC-ICP-MS (EN 16802) on any lot flagged for arsenic screening; non-rice grain occurrence is characteristically < LOQ."
         },
         "Cr-VI": {
@@ -245,7 +245,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "No government sets an iAs ML for non-rice baked goods; wheat/other-grain baked products do not hyperaccumulate arsenic. Clean counterpart to rice-based products.",
+          "control": "No loaded government source sets an iAs ML for non-rice baked goods; rice-specific iAs limits are not transferred to wheat or other-grain baked products.",
           "reference_method": null
         },
         "Cr-VI": {
@@ -361,7 +361,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "Wheat pasta does not hyperaccumulate arsenic; no non-rice grain iAs ML exists. Clean counterpart to rice-based pasta (row 4), where iAs binds.",
+          "control": "No loaded government source sets an iAs ML for wheat pasta; the rice-based pasta rule is matrix-specific and is not transferred to this row.",
           "reference_method": null
         },
         "Cr-VI": {
@@ -375,9 +375,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: plain pasta, no Al-additive pathway (UK FERA TDS ~1040 ppb; provisional)"
+          "not_material": true,
+          "control": "No credible sovereign government sets an aluminium contaminant maximum for plain wheat pasta. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; naturally present or additive-derived Al remains a surveillance and formulation-control issue.",
+          "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
           "not_material": true,
@@ -449,9 +449,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: Western extruded rice pasta, no alum-firming (background; provisional)"
+          "not_material": true,
+          "control": "No credible sovereign government sets an aluminium contaminant maximum for rice pasta. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; naturally present or additive-derived Al remains a surveillance and formulation-control issue.",
+          "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive or firming-agent use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
           "not_material": true,
@@ -560,7 +560,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "Corn/wheat/oat breakfast cereals do not hyperaccumulate arsenic; no non-rice grain iAs ML exists. Clean counterpart to rice-based breakfast cereal (row 6).",
+          "control": "No loaded government source sets an iAs ML for corn-, wheat-, or oat-based breakfast cereal; the rice-based cereal rule is matrix-specific and is not transferred to this row.",
           "reference_method": null
         },
         "Cr-VI": {
@@ -730,9 +730,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "occurrence",
-          "label": "occurrence: plain milled/husked rice (UK FERA TDS ~590 ppb; provisional)"
+          "not_material": true,
+          "control": "No credible sovereign government sets an aluminium contaminant maximum for plain milled or husked rice. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; natural background remains a surveillance signal.",
+          "reference_method": "Screen total Al by ICP-MS; investigate elevated results for soil, processing, or additive contributions and comply with all market laws."
         },
         "MeHg": {
           "not_material": true,
@@ -957,9 +957,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "precautionary",
-          "label": "precautionary read-across: plant-milk Al (soy 758 ppb as-consumed; provisional)"
+          "not_material": true,
+          "control": "No credible sovereign government sets an aluminium contaminant maximum for a rice-based beverage. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; external plant-milk occurrence cannot supply the number.",
+          "reference_method": "Screen total Al by ICP-MS on the as-consumed beverage and document aluminium-containing additives or processing aids; investigate elevated results and comply with all market laws."
         },
         "MeHg": {
           "not_material": true,
@@ -1079,7 +1079,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "Oat, millet, quinoa and barley do not hyperaccumulate inorganic arsenic; no government sets an iAs ML for any of these grains. Clean counterpart to the rice subcategories.",
+          "control": "No loaded government source sets an iAs ML for oat, millet, quinoa, or barley; rice-specific iAs limits are not transferred to these distinct matrices.",
           "reference_method": null
         },
         "Cr-VI": {
@@ -1093,9 +1093,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 5000,
-          "basis": "occurrence",
-          "label": "occurrence: plain oat/millet/quinoa/barley (UK FERA TDS 2.3-3.7 mg/kg; provisional)"
+          "not_material": true,
+          "control": "No credible sovereign government sets an aluminium contaminant maximum for plain oat, millet, quinoa, or barley products. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; natural background remains a surveillance signal.",
+          "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
           "not_material": true,
@@ -1198,7 +1198,7 @@
       "read_across": {
         "iAs": {
           "not_material": true,
-          "control": "Non-rice grain snacks do not hyperaccumulate arsenic; no non-rice grain iAs ML exists. Clean counterpart to rice snacks/crackers (row 8).",
+          "control": "No loaded government source sets an iAs ML for non-rice grain snacks; the rice snack/cracker rule is matrix-specific and is not transferred to this row.",
           "reference_method": null
         },
         "Cr-VI": {

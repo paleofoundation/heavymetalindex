@@ -2,7 +2,7 @@
 source_page: wiki/products/automatic-dishwasher-detergents.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 052f8433f363aa5c8c24ad23bbced2675c456cdc01f0e06484fc28de6f3dcea9
+source_page_sha256: 3d3feca0b498a5887b065d86545c3a27944785b30a97a35e590b917ba1cfbd3f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

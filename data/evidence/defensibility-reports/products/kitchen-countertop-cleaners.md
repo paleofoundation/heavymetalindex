@@ -2,7 +2,7 @@
 source_page: wiki/products/kitchen-countertop-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ca58af8da079bbb2a43620f608704194b1da5d917c89502221212663b29d3055
+source_page_sha256: 70f407a7e57ee3bfc383b43d7790d808bc6d610086af4170e5cb41ba6168d4c6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

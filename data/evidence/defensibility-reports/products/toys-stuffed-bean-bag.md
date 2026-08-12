@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-stuffed-bean-bag.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7e08d9bfe93164f37be3c009905cf5d6f633f0e71f2bbb7333a2dc0ca3a0a728
+source_page_sha256: 91b9345b9c72b6306cc2ccadcb943f0eec02fd22b0c810d1968420a4722e9ea7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this worklist measured recovery toward occurrence-selected standards.
+console.error("RETIRED: run npm run evidence:occurrence-gaps for descriptive evidence recovery.")
+process.exit(2)
 // build-standards-recovery-worklist.mjs
 //
 // Systematizes the recover-and-adjudicate campaign (Karen 2026-06-16). For every

@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soft-drinks-carbonated-beverages",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "62b72b6a5f8cea93351f4c0e563cd1c2357578cf5cce80d63c0697dcfe60e95a",
-      "content_bytes": 15192,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "694b9f115f8b4d3c1498f19a890f9cd1340db8435408a4cf5130f143616d493d",
+      "content_bytes": 15371,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
     }
   },
   "evidence_base": {

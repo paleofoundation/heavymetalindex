@@ -9,6 +9,8 @@ updated: 2026-06-10
 
 # Page Completeness Scorecard
 
+> **Methodology supersession (2026-08-12):** The documentation-quality dimensions remain useful, but the original "standards readiness" D11 design is retired. D11 now means descriptive occurrence-evidence completeness only. It does not score whether literature can produce an HMTc limit, and no occurrence percentile, paired-row label, or readiness verdict may select an initial limit or certification status.
+
 This document specifies a deterministic, per-page completeness scorecard for the Heavy Metal Index wiki. It targets ingredient pages (`wiki/ingredients/`) first and is built to extend to product-category pages (`wiki/products/`) with a config change rather than a rewrite.
 
 The scorecard renders on the wiki page and surfaces data gaps so a human can see exactly what each page is missing and decide what to fix. It is a trust mechanism, not a vanity badge. It exists because an autonomous gap-filler (FRANK) failed expensively, and the lesson taken from that failure is encoded as the first design principle below: the scoring path contains no LLM. Every number on the card is reproducible by re-running a script over committed artifacts, and a skeptic (a plaintiff's expert, a regulator's staff, a brand's QA team) must be able to audit every cell back to its inputs.

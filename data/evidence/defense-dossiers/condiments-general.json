@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/condiments-general",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8704b7abd9821fcf04adc58095865c8f0c1ab2749b801a59fab0ba156fc4de79",
-      "content_bytes": 17914,
+      "content_sha256": "6eb62a95fec180453a9912432c5f057643a0a75bf40e890f924c0ceb710ed37e",
+      "content_bytes": 17955,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -128,8 +128,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "496eb3f1ec72b3b7b3e7b23bb4a8eb06fdbeeb58933729f9e6e03541b6653453",
-          "content_bytes": 20777,
+          "content_sha256": "65d9a50befbe565cf51475c07f6e21d2415c51abb7e7d965df439b27cc501493",
+          "content_bytes": 20768,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

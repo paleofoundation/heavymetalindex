@@ -2,7 +2,7 @@
 source_page: wiki/products/childrens-makeup.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ff7615d8b7efb886ea0bae9e21a76e9fa0fc7b169ffef12786bf8f5529d03c40
+source_page_sha256: 31da9e276b5e4b70f88b8fbcd63f724fef4cf17894ed6983e16edae211699c19
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

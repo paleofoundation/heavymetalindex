@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/eggs-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0747bc3372ced58ed18e31bc2e032c7b4670478d146980062380eac2f4a4aae9",
-      "content_bytes": 13309,
+      "content_sha256": "d372d415724f2560a5b08175334a3bcd525e2d7f14b610a32b0724b9473c0005",
+      "content_bytes": 13350,
       "last_commit_sha": "ad172bca7",
       "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

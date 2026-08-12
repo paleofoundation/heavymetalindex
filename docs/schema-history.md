@@ -29,9 +29,9 @@ The ingredient page body-level "Heavy metal contamination profile" table was ori
 
 The current certification testing program tracks ten analytes: **Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn**. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this official analyte list distinct from broader literature metals. If an older HMT&C protocol refers to an "8 metals grid," reconcile it to the current analyte list before hardening schemas or publishing standards values.
 
-## Standards percentile framework
+## Retired standards percentile frameworks
 
-Earlier wiki conventions referred to "clean-platform" / "contaminated-platform" rows with default percentiles of P90 (clean) and P10 or P20 (contaminated). Those defaults are superseded by the **P97 / P45 framework** documented in CLAUDE.md Part 19. Any tooling or documentation still using the older percentiles is stale and should be updated.
+Earlier wiki conventions used occurrence-selected percentile pathways, first P90 with P10/P20 and later P97/P45. Both schemes were retired in August 2026. Current initial HMTc values are government-limit-only; public occurrence distributions are descriptive, and later tightening uses eligible HMTc certified-lot results under Governance Policy §12. Legacy fields may appear only in clearly marked historical records excluded from current generators.
 
 ## Bulk-ingest priority tier counts
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/cribs-and-bassinets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 69890d36cee2093c6d24d2b6498bdf19fb863232c35490fd7499630251c464af
+source_page_sha256: 2e1803d717865b8816f742a491090ef138d4bb776672b425e490736093825472
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

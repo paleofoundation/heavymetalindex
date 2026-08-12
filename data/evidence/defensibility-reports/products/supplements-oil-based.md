@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oil-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 02e0357d398ab55905ec175eed8e3a0d8c5fc1b000db39fe706ef68fcd15beed
+source_page_sha256: d6a58a216baaa31890a532d605b854f00c0f0cc97bb13e9a5b0da77171598f25
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

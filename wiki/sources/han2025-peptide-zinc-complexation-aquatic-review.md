@@ -75,7 +75,7 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 - `matrices: [protein-hydrolysates, review-context]` records what the paper actually concerns at the matrix level; this matches the convention used for adjacent peptide reviews [[lu2022-metal-chelating-peptides-review]] and [[irankunda2022-imac-mcp-separation-methodology-simulation]] in the same folder.
 - `jurisdictions: [GLOBAL]` because the review compiles international primary literature; corresponding author at Dalian Minzu University (China) with a coauthor at Wrexham University (UK), but the literature surveyed is not jurisdiction-bound.
 - Brand firewall: no brand names appear in the review. Instrument vendors and column chemistries (IMAC, RP-HPLC, ESI-MS, MALDI-TOF, LC-Q-TOF) are method components, not brand attributions to contamination values.
-- Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards were imported from the review. The review does not bear on any HMI per-row P97/P45 calculation.
+- Wiki/HMTc firewall: no certification-limit or occurrence claims were imported from the review. It does not select an HMTc value or status and cannot enter the certified-lot Standards Ratchet.
 - Evidence tier: C (narrative review reporting findings from primary studies; no original data, no systematic-review methodology).
 - Adjacent context: see [[wang2022-therapeutic-peptides-review]], [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]] for related peptide-binding mechanism reviews already in the corpus.
 

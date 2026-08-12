@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-effervescent.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8589be43216ccacdbf5adc9b4140fd285d0c29e54a64cf5b31744f1d0d0d87c9
+source_page_sha256: 6edfbfe1d3411c004e729e11406ebdbe16b9728b12214a0dc262129aed77678e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

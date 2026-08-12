@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-intimate-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5f6d1a08b0be7072f77a9ffd52e171bf6b81a91029a12e727639f312eaf881a7
+source_page_sha256: 0832676cfc376a7ed5073f676cafff17c21edd6b6a5d5146fc9b0a98801e970f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

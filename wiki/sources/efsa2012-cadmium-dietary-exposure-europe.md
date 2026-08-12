@@ -82,7 +82,7 @@ EFSA used cadmium occurrence results submitted through the 2007 call for data an
 
 ## Implications
 
-This report is an A-tier European regulatory occurrence and dietary-exposure anchor for cadmium in food. It supports broad cadmium routing for grains, vegetables, potatoes, seafood/shellfish, seaweed, cocoa/chocolate, spices, infant foods, and drinking-water categories. The FoodEx summary means are not HMTc standards and should not be treated as jurisdiction-specific clean/dirty percentiles; they are occurrence and exposure inputs that preserve EFSA's left-censoring assumptions and European market scope.
+This report is an A-tier European regulatory occurrence and dietary-exposure anchor for cadmium in food. It supports broad cadmium routing for grains, vegetables, potatoes, seafood/shellfish, seaweed, cocoa/chocolate, spices, infant foods, and drinking-water categories. The FoodEx summary means are descriptive occurrence and exposure inputs that preserve EFSA's left-censoring assumptions and European market scope; they do not select an HMTc limit or certification status.
 
 ## Verification notes
 

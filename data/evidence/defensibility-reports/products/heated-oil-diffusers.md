@@ -2,7 +2,7 @@
 source_page: wiki/products/heated-oil-diffusers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 708d5bb5f9f011e04ce88cbd31efc25a0b4209c0dfb3dd4b9c403c0475aa4d84
+source_page_sha256: c33b3a69657b9440a3382238cbcc2c2d58ac547c4358474d61e39b723f6495a3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

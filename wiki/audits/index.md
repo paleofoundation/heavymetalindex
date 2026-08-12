@@ -2,14 +2,14 @@
 title: Audit dashboard
 description: Auto-regenerated transparency dashboard. Every dimension of the wiki's Cochrane-level defensibility is scored here, with cross-links to the detail audit files.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist, external-reviewer]
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 # Audit dashboard
 
 This dashboard is auto-regenerated on every build from the wiki's audit harness. It is the single transparency surface for reading "what is the current Cochrane-level defensibility of the wiki, by dimension." External reviewers, regulatory affairs, and brand legal teams auditing the wiki should land here.
 
-Generated: **2026-08-11**.  Baseline snapshot: [[audits/2026-08-11-baseline|2026-08-11-baseline]].
+Generated: **2026-08-12**.  Baseline snapshot: [[audits/2026-08-12-baseline|2026-08-12-baseline]].
 
 ## Scorecard
 
@@ -23,7 +23,7 @@ Generated: **2026-08-11**.  Baseline snapshot: [[audits/2026-08-11-baseline|2026
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 42 failures | FAIL |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 40 of 388 | INFO |
 | Source page DOI completeness | 8 missing | WARN |
-| Claim provenance — body-prose numerical claims with traceable citation | 4160/4160 (100%) | PASS |
+| Claim provenance — body-prose numerical claims with traceable citation | 4155/4155 (100%) | PASS |
 
 ## Taxonomy v2.0 coverage
 
@@ -166,13 +166,13 @@ DOI completeness: 3057 of 3065 sources have a DOI or a `no_doi_assigned: true` m
 
 Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
-- Total claims scanned: **4160**
-- Supported: **4160** (100%)
+- Total claims scanned: **4155**
+- Supported: **4155** (100%)
 - Unsupported: **0**
 
 By page type:
 - ingredient: 2233/2233 (100%)
-- product: 1927/1927 (100%)
+- product: 1922/1922 (100%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
 

@@ -46,7 +46,7 @@ Adolescents 13-18 approach adult exposure factors but retain elevated sensitivit
 
 ## How this evidence relates to certification
 
-This page reports the toxicokinetic and exposure-pathway evidence. Certification criteria for these products are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which draws on this evidence — together with analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) — as one input among others; this public page publishes no certification thresholds. The distinction between what the literature supports and any certification criterion is maintained deliberately: this page reports the evidence, and the certification program documents the rationale for its criteria separately.
+This page reports the toxicokinetic and exposure-pathway evidence. Certification criteria for these products are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified.com, which draws on this evidence — together with analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) — as one input among others; this public page publishes no certification thresholds. The distinction between what the literature supports and any certification criterion is maintained deliberately: this page reports the evidence, and the certification program documents the rationale for its criteria separately.
 
 ## Open questions
 

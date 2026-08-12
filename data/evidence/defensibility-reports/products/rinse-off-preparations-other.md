@@ -2,7 +2,7 @@
 source_page: wiki/products/rinse-off-preparations-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5e62748b3d1e6163234526b05dba0153e2716d26e77a4856664bcfbc6bfc4f1b
+source_page_sha256: 32b5ab332bcc29795cd33138dd24ba16bc1a4662b15edab82f72a058c9ca886e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

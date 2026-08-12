@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-flexible-pouches-films.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 092d8fbae7624ee39bb79778eab875362d1400290b9017e2dc29e84e0f7dfbcf
+source_page_sha256: 95590381844761c30d1441096161af7d00197f05bc5627ebbabb4ce3afe0eba5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

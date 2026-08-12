@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-juices-apple-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d5db3e34f9bc7f640b09ae18d82eebff85aa342d29e297bb6a4a86d3a6880449
+source_page_sha256: f9f8373a1a70e3ad8be6b440462256e1f06651113ce382f7c66899f6223221f9
 total_claims: 46
 cited_claims: 44
 uncited_claims: 2

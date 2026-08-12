@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-squeeze.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25d27eb34b733a641a2c1fdc0782494c956f3c7715d05b0b6ac74849066fbacb
+source_page_sha256: d9bc4dfcddad602c553547ff8fcdc38743a1a18db7bdaa698639d458ff673e48
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

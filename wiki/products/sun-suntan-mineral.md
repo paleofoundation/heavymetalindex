@@ -1,11 +1,11 @@
 ---
-title: "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)"
+title: "Sun/suntan products, mineral UV filters"
 type: product-category
 category: sun-suntan-mineral
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"
 hmtc_row: 17
-hmtc_subcategory_name: "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)"
+hmtc_subcategory_name: "Sun/suntan products, mineral UV filters"
 hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-06-09"
 exposure_pathway: "Dermal (prolonged skin/hair/nail contact)"
@@ -20,7 +20,7 @@ wiki_doi: null
 updated: 2026-06-09
 ---
 
-# Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)
+# Sun/suntan products, mineral UV filters
 
 > **v2.2 Step Zero scaffold — Category 13 (Cosmetics and Personal Care — Leave-on), Row 17.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing

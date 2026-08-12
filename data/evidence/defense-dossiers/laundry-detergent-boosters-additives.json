@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergent-boosters-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9b6344d0202c825f3e707aa708ffcfc59af3a6ecab987b11b87ab389889a9d3f",
-      "content_bytes": 11741,
+      "content_sha256": "331849a01690ab5a5fb6234637607c1606c9c03e12ae85c0cd09e56b04a4d058",
+      "content_bytes": 11902,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -138,8 +138,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

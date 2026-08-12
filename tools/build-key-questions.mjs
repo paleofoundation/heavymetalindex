@@ -26,7 +26,7 @@
 //     transform (rehype-citation, footnotes) only touches <a href="#bib…"> and
 //     bibliography nodes, so plain <details>/<summary> pass through intact.
 //   * Part 2 / Part 19 firewall: no derived HMTc value, no P-value, no
-//     clean/dirty-subcategory-as-standard framing may enter an answer. A section
+//     occurrence-comparison-as-certification-standard framing may enter an answer. A section
 //     whose first paragraph trips the firewall guard is SKIPPED (not softened),
 //     and a NOTE is logged. The honest fix is to leave it off the accordion, not
 //     to launder the wording.

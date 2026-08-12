@@ -2,7 +2,7 @@
 source_page: wiki/products/flour-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 66cb69681e69e48914d26a286ead38a58063159556eeb477594a6e1fae349fac
+source_page_sha256: 8534adf86547c9cf440b880b1c7f7617a5d20265b9696d218a6f094d32e3c191
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

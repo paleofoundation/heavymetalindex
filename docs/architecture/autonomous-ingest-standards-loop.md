@@ -1,5 +1,7 @@
 # Autonomous acquisition → standards loop
 
+> **Superseded methodology design (2026-08-12).** This document describes the retired occurrence-selected standards-finalization loop and is retained only as an architecture history record. Current initial HMTc limits are government-limit-only. The active acquisition workflow closes descriptive occurrence and routing gaps in `data/gaps/open_gaps.jsonl`; it cannot finalize or change a certification limit. Post-publication tightening uses eligible HMTc certified-lot data under Governance Policy §12.
+
 Status: DESIGN (2026-07-27). Author: Claude (Opus 4.8), grounded by an 8-agent
 live-state map of the repo (`gap-detect → fetch → wishlist → ingest → synthesize →
 standards-ready`) plus a synthesis pass. This is the coherence artifact for the

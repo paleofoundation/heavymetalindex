@@ -63,7 +63,7 @@ Comprehensive narrative review. Draws on approximately 250 primary references sp
 
 ## Implications
 
-- Certification: HMTc threshold rationale for any of the five metals should cite this paper for the mechanistic-toxicology basis, separately from the per-metal occurrence-data references. The shared ROS/GSH-depletion framework supports a precautionary posture across the metal set; the metal-specific signatures (Pb-ALAD, Cr-DNA adducts, Cd-MT, As-methylation) support metal-specific threshold differentiation.
+- Certification context: this paper supplies mechanistic toxicology for five metals and supports continued reduction, surveillance, and metal-specific controls. It does not select an initial HMTc limit; those values are government-derived, while any later tightening uses eligible HMTc certified-lot findings under the Standards Ratchet.
 - Microbiome / clinical: GSH depletion is the cross-metal upstream event; this directly intersects with the bacterial GSH and thiol-handling pathways documented for each metal-microbiome interaction. The review does not cover microbiome content but establishes the host biochemistry that the microbiome literature builds on.
 - Courses: Standard reference for the mechanistic comparison of the five regulated heavy metals. Foundational reading for any toxicology curriculum module on heavy metals.
 

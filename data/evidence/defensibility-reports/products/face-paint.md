@@ -2,7 +2,7 @@
 source_page: wiki/products/face-paint.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 296d6292014933c9dbdbdc203a0fa94f21fb3b420ef06ade87e2c89fb64a9416
+source_page_sha256: b28224887c58cf7660caa722e98e32560dff219691a4275aeee1f080a363b74e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/kombucha-tea-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 70c4ecb1944ba42f22cc1ce8b8d73121350576ccc8ec828486c75e9da0bca75b
+source_page_sha256: a77c7e1023a8a99324a96d3390569161c56619a69dd1d324cdbe0da692ad1682
 total_claims: 9
 cited_claims: 9
 uncited_claims: 0

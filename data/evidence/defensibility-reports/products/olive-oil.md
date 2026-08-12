@@ -2,7 +2,7 @@
 source_page: wiki/products/olive-oil.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d89404dc8f5c4b7002a247589ac14d1979094c8daefe3289b6bb293a7ca90093
+source_page_sha256: 43403a02940dc88a579f47ae65ac6c9f0de8ec27b0fe71bcac2d8c9648f5c416
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1

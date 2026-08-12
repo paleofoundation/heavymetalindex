@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this generator implements the former P45/P97
+// occurrence-selected certification method. It is preserved only to reconstruct
+// historical workbench artifacts and must not generate current material.
+console.error("RETIRED: build-standards-briefing.mjs implements the superseded P45/P97 method. Use the government-limit compilers and the certification-repo manual builders.")
+process.exit(2)
 /**
  * HMTc Standards Briefing generator.
  *

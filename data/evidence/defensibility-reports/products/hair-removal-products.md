@@ -2,7 +2,7 @@
 source_page: wiki/products/hair-removal-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 655501ff5d0a58058bd742e02f1ec9781f8ed8fc1eb4f4012d7febb9799a13a5
+source_page_sha256: c3af549383fc3e347de8764269e7807c4511f87a2331e82d13c019e16c1f62e8
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8caa7746b56c1f0c52b978c846824199d97d154bc27ec3185928e9d3c6daed61
+source_page_sha256: e37c98478cc16dee8e84bb11eb2e103e6e9515fb7963ca71b5d4ab44e10503eb
 total_claims: 25
 cited_claims: 25
 uncited_claims: 0

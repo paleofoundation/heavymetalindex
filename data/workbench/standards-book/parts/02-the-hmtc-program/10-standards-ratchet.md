@@ -44,7 +44,7 @@ The two-condition design is intentional. Condition (a) alone would allow a singl
 
 When the trigger fires, the new limit equals the **maximum of**:
 
-(a) The actual 80th percentile of the trigger pool for the analyte, or
+(a) The actual 80th percentile of certified Status A lot results for the analyte, or
 (b) 80% of the current limit.
 
 The second clause is the **step cap**. **No brand faces more than a 20% reduction per ratchet event, regardless of how far the market has actually moved.** Residual tightening above 20% is held over and may trigger again at the next cycle. This converts the ratchet from a potential shock into a predictable, capped progression.

@@ -2,7 +2,7 @@
 source_page: wiki/products/vegetable-juices-non-root.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c6980787f8bd9eb0ee9638704e05b99cf4443cf3e971552b6b0fe89ffffeddbc
+source_page_sha256: a7a5fa96a31f962b9c87cbc1f35f459e1e11b028543c8a8bcd2fc86091bec7f2
 total_claims: 4
 cited_claims: 4
 uncited_claims: 0

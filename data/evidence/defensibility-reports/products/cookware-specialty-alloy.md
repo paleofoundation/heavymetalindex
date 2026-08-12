@@ -2,7 +2,7 @@
 source_page: wiki/products/cookware-specialty-alloy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 40764d9e75929cad82d9e009aae74b14adc4fa19fa389177bbb8c290db45f531
+source_page_sha256: 59f2083360f91ce2a7bd39853da8f57cbe6bdfdcd9b5deaff8fe29e5a7b58fae
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/fermented-beverages-non-tea-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a8932a90cee30e8183b60e6b4850228d2cedd111a51aaf14aca3b06ff5832691
+source_page_sha256: 451f7fa376a34f60268126da12d90cb9a9f95c3c5db1d137dcac29550e6802fa
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

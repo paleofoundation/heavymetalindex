@@ -25,7 +25,7 @@ updated: 2026-06-09
 
 # Mushrooms — cultivated
 
-> **HMTc Category 29 (Edible Fungi), Row 1 — Mushrooms (cultivated), clean side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Cultivated button, cremini, portobello, and oyster mushrooms grown on controlled substrate are the clean counterpart to wild mushrooms (Row 2), which accumulate Cd, Hg, Pb, and radiocesium. No candidate values are derived in this pass.
+> **HMTc Category 29 (Edible Fungi), Row 1 — Mushrooms (cultivated), clean side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Cultivated button, cremini, portobello, and oyster mushrooms grown on controlled substrate are the lower-occurrence counterpart to wild mushrooms (Row 2), which accumulate Cd, Hg, Pb, and radiocesium. No candidate values are derived in this pass.
 
 ## Literature scope
 

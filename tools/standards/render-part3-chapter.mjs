@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: the indexed briefing-derived Part 3 chapters document the
+// former occurrence-selected method. Current manual content is maintained and
+// built in the certification repository.
+console.error("RETIRED: render-part3-chapter.mjs targets superseded briefing artifacts. Use the certification-repo manual builders.")
+process.exit(2)
 /**
  * render-part3-chapter.mjs
  *

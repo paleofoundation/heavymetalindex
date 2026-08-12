@@ -2,7 +2,7 @@
 source_page: wiki/products/vinegar.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2cca4214526556efa616c003a92cd829b5c17ec60aee89828d3d020cfda035af
+source_page_sha256: 78ce44afceb06457be1fdcd93b5ed303c19c7a973596be17399a0a4853a99d8b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

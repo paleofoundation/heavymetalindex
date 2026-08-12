@@ -3,6 +3,10 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-08-12] methodology | government-limit-only initial standards and certified-lot ALARA ratchet
+Pages touched: governing principles, standards methodology, certification and methodology pages, product/source/regulation pages with retired selector language, HMTc standards-book parts, occurrence evidence outputs, standards compilers, audit/lint tools, and Heavy Metal Certified publication inputs.
+Notes: Retired P45/P97 and occurrence-derived initial-limit selection system-wide. Initial HMTc limits now use only the strictest applicable credible sovereign government maximum in the product row's native basis; the 8:1 powder-to-reconstituted conversion is limited to infant formula. Occurrence evidence remains descriptive and gap-filling only. ALARA remains the post-publication ratchet: eligible HMTc certified-lot data must satisfy the two-review P80 and market-breadth trigger, after which the candidate is based on Status A P80 with a maximum 20% reduction per event and a 12–18 month transition. Retired generators fail closed, compiled standards reject occurrence or precautionary bases, and a current-method audit now runs during prebuild.
+
 ## [2026-08-06] batch | regulatory-ingest — P2 Taiwan cosmetic residual limits
 Pages touched: 1 regulation page, 1 source page, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: Loaded 4 statutory Taiwan cosmetic residual heavy-metal rows (Hg 1 ppm, As 3 ppm, Cd 5 ppm, Pb 10 ppm) from the 2024 MOHW prohibited-ingredients amendment. Seventeen gap records cover UK/Ukraine/EU-style cosmetics frameworks, FDA supporting context already represented elsewhere, Turkey cancelled/uncertain guidance and amendments, Prop 65 chemical-list context, Thailand frameworks, UAE companion-standard adoption, prior Taiwan amendments, and New York's binary mercury prohibition without a numeric concentration limit.

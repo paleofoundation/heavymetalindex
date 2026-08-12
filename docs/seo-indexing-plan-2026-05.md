@@ -1,6 +1,6 @@
 # Google Search Console manual-indexing plan — May 2026
 
-**Calibration:** Authority/citability is the north-star. The wiki's value is being cited by regulators, brand legal/QA, journalists, and retailers, not direct conversion. Money pages live on heavymetaltested.com. Plan below ranks accordingly.
+**Calibration:** Authority/citability is the north-star. The wiki's value is being cited by regulators, brand legal/QA, journalists, and retailers, not direct conversion. Money pages live on heavymetalcertified.com. Plan below ranks accordingly.
 
 **Capacity:** 10–12 manual indexing requests/day × 14 days ≈ 140 URLs.
 

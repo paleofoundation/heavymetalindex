@@ -2,7 +2,7 @@
 source_page: wiki/products/condiments-general.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5db71d0b90d74c1c5b65864ec2eaccf82a782dad102f48c82bc4f64cb480bebb
+source_page_sha256: f19e0d74694f78b9c81a536b37f1d1f68adf55e75e5820ca3090f0890bea8413
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

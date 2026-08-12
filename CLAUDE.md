@@ -39,7 +39,7 @@ Adjacent audiences compound the value: retailers (Whole Foods, Sprouts, Target a
 
 ### Deliberate architectural separation
 
-The wiki lives at `heavymetalindex.com`. The certification program lives at `heavymetaltested.com`. These are separate properties by design. The wiki reports what the literature says; the certification program applies those findings to set standards. Keeping them architecturally separate is what lets the wiki remain defensible when HMT&C standards are challenged. The wiki is not the certifier's self-published justification; it is an independent reference that the certifier happens to operate. One-way cross-linking is fine (HMT&C documents can cite wiki pages); the wiki does not endorse or even mention HMT&C-certified brands.
+The wiki lives at `heavymetalindex.com`. The certification program lives at `heavymetalcertified.com`. These are separate properties by design. The wiki reports what the literature says; the certification program sets initial limits from applicable sovereign-government maximums and may later tighten them only through its endogenous certified-lot Standards Ratchet. Keeping them architecturally separate is what lets the wiki remain defensible when HMT&C standards are challenged. The wiki is not the certifier's self-published justification; it is an independent reference that the certifier happens to operate. One-way cross-linking is fine (HMT&C documents can cite wiki pages for context and surveillance); the wiki does not supply initial limits, enter the ratchet pool, or endorse HMT&C-certified brands.
 
 ### Database-rights positioning
 
@@ -51,17 +51,17 @@ The wiki and HMT&C operate in different epistemic registers, and keeping them in
 
 The wiki reports what the peer-reviewed and regulatory literature supports. That is its whole job. It does not advocate, it does not market, it does not harmonize with HMT&C, it does not soften claims that make HMT&C look weak, and it does not strengthen claims to make HMT&C thresholds look more evidence-based than the literature supports.
 
-HMT&C sets certification thresholds that can be tighter than the literature floor, by design. HMT&C is explicitly a ratcheting program. Its purpose is to drive market change by certifying to standards tighter than status quo regulatory floors, so that certified products pull the category toward cleaner product over time. HMT&C thresholds being tighter than what the literature strictly mandates is a feature of the program, not a bug. The gap between what the wiki says the science supports and what HMT&C certifies to is deliberate and should be visible, not hidden.
+HMT&C initial limits are government-limit-only: the strictest applicable maximum set by a credible sovereign government in the product row's native basis, with disclosed sovereign read-across or an n/m control for an unregulated exact cell. Heavy Metal Index occurrence evidence does not choose the number or the cell's publication status. HMT&C is also a ratcheting program: after publication, eligible HMTc certified-lot data may support a tighter value under the P80-and-breadth trigger in Governance Policy §12. The starting anchor and the later ratchet use different evidence, at different times, and must never be conflated.
 
 ### Two directions of drift, both destroy defensibility equally
 
-The first direction: softening wiki claims to hide the gap between literature and HMT&C thresholds. Example: literature supports 5 ppb as the concentration at which toxicological effects become concerning for infants; HMT&C certifies at 10 ppb for feasibility reasons; a future Claude session writes the wiki to suggest 10 ppb is "safe" to make HMT&C look aligned with science. This corrupts the wiki into marketing for HMT&C and destroys the epistemic asymmetry argument.
+The first direction: softening wiki claims to make a government-derived HMT&C limit look like a toxicological safety line. Example: a sovereign maximum is 10 ppb while the literature reports concern at lower exposures; a future Claude session rewrites the literature to call 10 ppb "safe." This corrupts the wiki into marketing for HMT&C and destroys the epistemic asymmetry argument.
 
-The second direction: strengthening wiki claims to make HMT&C thresholds look more evidence-based than literature supports. Example: HMT&C sets an aggressive 2 ppb threshold for market-ratcheting reasons; a future Claude session finds marginal studies suggesting 2 ppb is where effects start, overweights them in the wiki synthesis, and presents the threshold as consensus science when it is actually a policy choice. This corrupts the wiki into justification for HMT&C decisions and destroys its independent authority.
+The second direction: strengthening or reshaping wiki claims to make an HMT&C limit look occurrence-derived. Example: a later certified-lot ratchet lowers a limit to 8 ppb; a future Claude session cherry-picks public occurrence studies near 8 ppb and presents them as the reason for the value. This corrupts the wiki into justification for a certification decision and destroys its independent authority.
 
 ### The rule
 
-The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline and explain the rationale for any deviation. Deviations are labeled as precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment. The gap is stated, not hidden. The gap is the point; it is how ratcheting works.
+The wiki says what the literature supports, honestly. HMT&C certification pages may reference it for descriptive context, market characterization, or surveillance priorities, but initial numeric provenance must be `regulatory-alignment`, disclosed sovereign `read-across`, or an n/m control; a later lower value must be `ratchet` with the certified-lot trigger record. Precautionary, feasibility-selected, and literature-baseline numeric rationales are retired. Any gap between literature findings and the certification limit is stated, not hidden, and the literature is never edited to make the certification value appear derived from it.
 
 The check Claude runs before every substantive wiki edit: name the direction the edit moves in (toward the literature, or away from it toward HMT&C convenience), and record that direction in the commit message or synthesis audit log. If the edit moves toward the literature — making the wiki more accurately reflect what sources say, even if that exposes a wider gap with HMT&C thresholds — proceed. If the edit moves toward HMT&C — softening a claim to hide a gap, or strengthening a claim to make a threshold look more evidence-based than the literature supports — stop and ask Karen, because that is the failure mode Part 2 exists to prevent. The ask is not "is this edit OK?"; the ask is "I notice this edit moves toward HMT&C in the following specific way — proceed?" If Claude cannot articulate the direction at all, that is a signal to read the source more carefully before editing, not a signal to ask Karen.
 
@@ -69,9 +69,9 @@ The check Claude runs before every substantive wiki edit: name the direction the
 
 The wiki is the shared knowledge substrate behind four products.
 
-The Heavy Metal Tested & Certified program (heavymetaltested.com) uses the wiki as evidence base for certification criteria, limits, and auditor guidance. References the wiki one-way.
+The Heavy Metal Tested & Certified program (heavymetalcertified.com) uses the wiki for descriptive evidence context, surveillance priorities, and auditor background. Initial limits come from the sovereign-government compiler and later tightening from eligible HMTc certified-lot findings, never from the public occurrence pool. References the wiki one-way.
 
-The Journal of Food Metallomics (at heavymetaltested.com/journal-of-food-metallomics) is the peer-reviewed publication venue for synthesis work that builds on the wiki. The wiki is the corpus; the journal publishes synthesis of the corpus.
+The Journal of Food Metallomics (at heavymetalcertified.com/journal-of-food-metallomics) is the peer-reviewed publication venue for synthesis work that builds on the wiki. The wiki is the corpus; the journal publishes synthesis of the corpus.
 
 Educational courses for brands, suppliers, co-packers, QA teams, and supply-chain operators cross-reference the wiki rather than duplicating it.
 
@@ -195,7 +195,7 @@ When a synthesis page identifies implications for downstream wiki pages, the ses
 
 See [[docs/page-creation]] for the full policy (per-type thresholds, provisional-scaffold mechanics, the 2026-05-14 incident, merging, orphan prevention).
 
-Load-bearing rules a session must not violate: new pages surface from the routing audit's `routing_unresolved.csv` and from the model noticing a sub-variant has crossed its evidence threshold. Provisional product and ingredient scaffolds are auto-created as routing destinations and carry `provisional_scaffold: true`; HMTc category, clean/dirty splits, and thresholds do not derive from a page until a Step 0 Lock clears that flag. The 5-paper rule governs *promotion* of a scaffold to a full page. The model does not silently invent full ingredient or product pages mid-ingest. Merging splits by kind: the model does not autonomously merge two *distinct* pages that cover overlapping literature with different framings (the taxonomy judgment call, e.g. carrots vs root-vegetables) — those are proposed in the batch report for Karen. But collapsing a *provable duplicate* (two source records of the **same paper**: identical DOI + identical raw file hash, or a canonical/drop verdict from the DOI-collision audit) is mechanical dedup the model runs autonomously via `tools/dedup-doi-clusters.mjs`, after verifying the members are the same work. The one hard rule: two *different* papers that share a DOI (a wrong-DOI mis-ingest) must never be merged — they are excluded from the collapse and fixed separately. New pages are linked from `index.md` and at least one parent category page on creation, or they become orphans.
+Load-bearing rules a session must not violate: new pages surface from the routing audit's `routing_unresolved.csv` and from the model noticing a sub-variant has crossed its evidence threshold. Provisional product and ingredient scaffolds are auto-created as routing destinations and carry `provisional_scaffold: true`; HMTc category placement and descriptive occurrence-comparison groupings do not derive from a page until a Step 0 Lock clears that flag, and certification limits never derive from the public page. The 5-paper rule governs *promotion* of a scaffold to a full page. The model does not silently invent full ingredient or product pages mid-ingest. Merging splits by kind: the model does not autonomously merge two *distinct* pages that cover overlapping literature with different framings (the taxonomy judgment call, e.g. carrots vs root-vegetables) — those are proposed in the batch report for Karen. But collapsing a *provable duplicate* (two source records of the **same paper**: identical DOI + identical raw file hash, or a canonical/drop verdict from the DOI-collision audit) is mechanical dedup the model runs autonomously via `tools/dedup-doi-clusters.mjs`, after verifying the members are the same work. The one hard rule: two *different* papers that share a DOI (a wrong-DOI mis-ingest) must never be merged — they are excluded from the collapse and fixed separately. New pages are linked from `index.md` and at least one parent category page on creation, or they become orphans.
 
 ## Part 11 — Priority ordering for bulk ingest
 
@@ -253,57 +253,57 @@ See [[docs/lint]] for the complete check list, the audit script behind each chec
 
 Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; currently `--warn-only` in prebuild while a pre-existing backlog drains, flips to build-blocking at zero), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`, build-blocking: no certification-program, outside-product, or toolchain vocabulary inside a generated `## Update history` or `## References` block), the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
 
-## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
+## Part 19 — HMT&C limit-provenance and ratchet workflow (staff-only outputs)
 
-This workflow produces certification thresholds. **Its outputs are staff and HMT&C certification content, not public wiki content, and they do not live inside `wiki/`.** Per the wiki/HMT&C firewall in Part 2, percentile-selection arithmetic (any P-value computation), clean/dirty subcategory designations, pooling math, sensitivity bands, and final candidate values appear under `data/workbench/standards/` and on the local staff Standards Workbench tool — not on heavymetalindex.com and not in `wiki/`. Public product-category pages render only the literature-native view per [[docs/page-templates]] product-category template.
+This workflow governs certification-limit provenance. **Its current outputs are staff and HMT&C certification content, not public wiki content, and they do not live inside `wiki/`.** Initial values come from the sovereign-government compiler; later reductions come from the certified-lot Standards Ratchet register. Descriptive occurrence pooling, percentile summaries, sensitivity bands, and market comparisons remain evidence workbench outputs only and never become certification candidates. Public product-category pages render only the literature-native view per [[docs/page-templates]] product-category template.
 
 ### The locked methodology
 
 The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
-#### Method v2.0 — government-limit default (ratified 2026-08-03)
+#### Method v2.0 — government-limit-only initial setting (ratified 2026-08-11)
 
-**The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada), converted to the row's native basis.** This is a lookup, not a computation; it is maximally defensible (the standard cites sovereign limits, so there is no novel methodology to attack under Daubert) and it is the speed and scale lever for covering the whole program. Where the law itself splits a limit by formulation (e.g. EU nickel 250 cow-milk / 400 soy; AU/NZ aluminium 3500 / 7000 powder-basis), the standard adopts the law's own split and cites it — this dissolves the single-vs-envelope question entirely.
+**The initial standard for any (product, analyte) is the strictest applicable maximum level set by a credible sovereign government, expressed in the row's native basis.** This is a regulatory lookup, not an occurrence calculation. The controlling instrument and any permitted basis treatment must be cited. Where a government instrument splits a limit by formulation or product form, HMTc adopts that split.
 
-Occurrence pooling is retained, but **selective**, in exactly two situations:
+The selection sequence is locked:
 
-1. **Tier 1 toxics (Pb, Cd, iAs, MeHg/tHg)** — standard = `min(occurrence percentile, strictest government ML)`. These four metals have no established safe threshold, so where clean producers demonstrably beat the government floor the tighter occurrence value governs and the ratchet is preserved. This is where the pooled-corpus authority earns its keep.
-2. **Cells no government regulates** (e.g. mercury, tin, Cr in formula) — the occurrence value (or a not-material / process-screen determination) is the sole basis, because a lookup returns nothing.
+1. Define the exact product form, intended consumer, analyte species, unit, and native basis.
+2. Identify applicable credible sovereign maximum levels for that exact cell.
+3. Select the strictest applicable value after permitted basis treatment.
+4. Preserve formulation and product-form splits written into the government rule.
+5. Where the exact cell is unregulated, use a disclosed read-across from the nearest applicable sovereign value or publish an n/m determination with its control method. If neither is supportable, leave the cell in development.
 
-For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly; occurrence is not computed for them unless no government ML exists. The generator is `tools/standards/build-government-limit-standard.mjs`. The clean/dirty subcategory split, market stratification, and P97/P45 uplift below now run **only on the Tier 1 toxic and no-ML cells**, not on every cell. The Status A–E framework, the Tier-1/Tier-2 toxicological tiering, the 150% Tier-2 transitional allowance, the regulatory hard-stop, basis conversion, and lot testing are **unchanged** — they operate downstream of the limit regardless of how it was set.
+**Occurrence evidence does not select the initial value.** This applies to Tier 1 and Tier 2 alike. The retired percentile-selected pathways, occurrence floors, literature-baseline rationale, precautionary numeric overrides, and feasibility-selected numeric overrides are not part of the current method. Heavy Metal Index distributions remain useful for literature synthesis, market characterization, surveillance prioritization, research-gap analysis, and sensitivity context, but they carry no compliance weight.
 
-The v1.0 pooled-percentile rule below is retained verbatim because it still governs the selective occurrence cells.
+**The 8:1 powder-to-liquid conversion is confined to infant formula.** Other rows use the applicable government value in the product's native basis without an invented reconstitution conversion. Do not silently mix wet, dry, as-sold, as-consumed, or as-prepared bases.
 
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~90% row-level pass; measured 94% on FDA per-sample lot data (2026-08).
+**Certification status uses the current published HMTc limit.** The initial divisor is government-derived. An individual applicant's results never change its own divisor. Status A–E, toxicological tiering, the Tier 2 transitional allowance, regulatory hard stops, measurement uncertainty, and lot-testing rules operate downstream of the current published value.
 
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~40% row-level pass (updated 2026-08-03 from the legacy 30%); measured 42% on FDA per-sample lot data. Calibration is anchored to that measurement, not to the earlier assumed analyte-correlation of 0.6 (measured ~0.27).
+#### ALARA and the post-publication Standards Ratchet
 
-**Per-analyte standard for an independent (no within-pair partner) row = P97** of that row's marginal distribution, treated as clean-by-default. Override slot exists for rows where evidence justifies dirty treatment.
+Government-limit-only governs the starting anchor. After publication, the separate endogenous Standards Ratchet may lower the current HMTc limit using eligible HMTc certified-lot results. It does not use public Heavy Metal Index occurrence evidence.
 
-**The pool is restricted to the certification-relevant market (target-market stratification, ratified 2026-08-03).** An occurrence percentile estimates a population; a pool mixing jurisdictions that enforce binding MLs for the product class with jurisdictions that do not estimates a market no certified brand ships into. The admission criterion is **regulatory-equivalence, not geography** — the criterion, never a country list, is what may ever be published. Sources with no jurisdiction recorded are retained, not dropped. Stratification is rolled out per-category as each is validated (a global flip empties ~100 non-target-market-only cells across the corpus); it is configured machine-side in `data/workbench/standards/subcategory-roles.json` (`stratify: true` + `target_markets`), never in public frontmatter. This refines the older "geography is not a hard exclusion" line in [[docs/standards-methodology]].
+Per canonical Governance Policy §12, the ratchet for an analyte fires only when both conditions hold for two consecutive annual reviews:
 
-**The program admits roughly 80% of brands overall — a monitored average, not a per-category quota.** The subcategory targets (≈90% clean, ≈40% dirty) roll up by clean/dirty market share to ~80%. A category with no dirty sibling admits ~90%; a mostly-dirty one less. A sustained material deviation from ~80% is a signal to re-examine calibration, never a lever to force a category to a headcount.
+1. The P80 of the capped combined Status A + Status B trigger pool is at or below 80% of the current limit.
+2. At least 50% of SKUs in that trigger pool have qualifying lots at or below 60% of the current limit.
 
-**Certify against the subcategory split, not the element-wise-max "envelope."** Each product is certified against its own subcategory row. Publishing the higher-of-the-two-rows number per analyte as the pass/fail instrument is prohibited: it certifies product above its own legal ceiling (the envelope Ni 400 exceeds the EU non-soy formula ML of 250) and leaks the ratchet (measured soy pass 42%→68% under the envelope). The envelope may be published only as a category-ceiling summary, never as the certification instrument.
+No single licensee may contribute more than 25% of SKUs in an analyte's trigger pool. When the trigger fires, the new limit is the greater of the Status A P80 or 80% of the current limit, so no event lowers the limit by more than 20%. Transition is 12–18 months; existing Status A certifications are grandfathered through it, while Status B and C re-evaluate at the next CAPA cycle against the more stringent value.
 
-**Each row's standard is in the native basis of the product form.** Powder rows use powder-as-placed-on-market. RTF liquid rows use as-consumed. Dry cereal rows use dry-as-sold. Puree rows use as-consumed. Sources reporting in other bases are converted into the row's native basis during pooling, never the other way around. The 1:7 reconstitution factor lives in `tools/evidence/basis-conversion.mjs`.
+This is the precise 80%-achievability mechanism: combined Status A + B data establish broad, sustained movement; Status A P80 supplies the achievable new-limit candidate; the 80%-of-current term caps each downward step.
 
-**Final HMT&C value = `min(per-analyte percentile, lowest applicable regulatory ceiling)`** with both in the row's native basis. Auto-emitted rationale tag is `literature-baseline` when the pooled percentile binds and `regulatory-alignment` when the cap binds.
+### Rationale and provenance tags on staged standards
 
-**ALARA + the §80th-percentile ratchet trigger** (per Governing Principles §"Two Percentile Mechanisms") drive tightening *after* publication. Remediation plans handle initial-publication brands above the limit. The standards-setting math here is for initial publication only.
+Current numeric cells use only these provenance states:
 
-### Rationale tagging on staged standards
+- `regulatory-alignment` — the initial or updated value is the strictest applicable sovereign maximum.
+- `read-across` — the exact cell is unregulated and the value maps from a disclosed analogous sovereign cell.
+- `not-material` — no standalone number is published; a documented control or reflex rule governs.
+- `ratchet` — a post-publication value is lower than the government anchor under Governance Policy §12, with the trigger-pool snapshot, calculation, review dates, and transition record attached.
 
-When a decision is staged in the workbench, one rationale tag is required:
+Historical records may retain former tags only when clearly marked superseded and excluded from current generators. New or current public and workbench outputs must not emit the retired tags.
 
-- `literature-baseline` — the pooled per-analyte percentile is the binding value.
-- `regulatory-alignment` — the lowest applicable regulatory cap is the binding value.
-- `precautionary` — staff selects a value lower than both the pooled percentile and the regulatory cap, with documented rationale.
-- `feasibility-driven` — staff selects a value higher than the pooled percentile because current methods or supply-chain realities do not support the tighter value, paired with a sunset plan.
-
-The gap between literature-baseline and the final value is stated honestly. Failing to name the rationale is the lint failure.
-
-See [[docs/standards-methodology]] for the pool admission rules, pooling math, sensitivity-band thresholds, the row-pass calibration math behind P97/P45, and the clean/dirty subcategory classification framework. See [[docs/schema-history]] for the deprecated "clean-platform / contaminated-platform" P90/P10/P20 framework.
+See [[docs/standards-methodology]] for occurrence-distribution construction and the certification boundary. See [[docs/schema-history]] for retired threshold-selection schemes.
 
 ## Parts 20-23 — Courses, app, microbiome, images
 

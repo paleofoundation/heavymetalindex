@@ -58,7 +58,7 @@ Six dried edible seaweeds (Galician coast, bought in Barcelona) were oven-dried 
 
 ## Implications
 
-- Certification (HMTc): a direct-evidence occurrence-and-speciation source for the Category 6 seaweed-kelp-foods row (iAs/tAs platform). Its key contribution is a within-genus refinement, internal to this paper: the kombu-marketed kelps *Laminaria ochroleuca* and *Laminaria saccharina* (Saccharina latissima) here had inorganic arsenic below detection and total arsenic ~52–57 mg/kg dominated by arsenosugars (this study did not include *L. digitata*). For the row's clean/dirty structuring this argues the high-iAs concern is species-specific within the kelps rather than generic to all "kombu", and that nori and most green/red edible seaweeds sit low. (The contrasting high inorganic arsenic of *L. digitata* and the Sargassum/Hizikia group is reported by other corpus sources; that cross-source comparison belongs to the Part 9 synthesis pass, not this single-source page.) All on the dry-mass basis.
+- Occurrence routing: a direct occurrence-and-speciation source for the seaweed-kelp-foods row. Its within-genus evidence shows that the kombu-marketed kelps *Laminaria ochroleuca* and *Laminaria saccharina* (*Saccharina latissima*) had inorganic arsenic below detection and total arsenic around 52–57 mg/kg dominated by arsenosugars; this study did not include *L. digitata*. This supports species-specific descriptive stratification, not certification-limit selection. All values are on the dry-mass basis.
 - App: contributes to the seaweed ingredient contamination_profile for total and inorganic arsenic across the common edible-seaweed trade types (Irish moss, nori, sea lettuce, kombu, wakame).
 
 ## Verification notes

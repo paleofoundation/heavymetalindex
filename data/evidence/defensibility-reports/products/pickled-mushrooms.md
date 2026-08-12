@@ -2,7 +2,7 @@
 source_page: wiki/products/pickled-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25376e262c6626a746b1d44965aaaccef23385d6afe51a19b3eb76707d91418f
+source_page_sha256: b1c568d16884972feb84ac816ed695612d68f0c3c44fe8f4fdc78babab906bf7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

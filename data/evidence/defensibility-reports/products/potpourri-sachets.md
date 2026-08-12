@@ -2,7 +2,7 @@
 source_page: wiki/products/potpourri-sachets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25748a95babc89611df547054b4aa1ad3cfe366aeac31f8ebeecf7b4af9ab605
+source_page_sha256: 95d7e3a2c35f1f1bdbdbedccb06592bad4ed631cc59621c0f212f1f4a97b96a2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

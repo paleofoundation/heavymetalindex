@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fruit-juices-non-apple",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6ec789b6500b01ecfc6524d8d7bfd0b20f1fd5d650df0030762658dcce930554",
-      "content_bytes": 33673,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "738505d776ab8ad03b1f5ffc5ba960354eaa8a6b3529616aa9cfa97a2e622be6",
+      "content_bytes": 33798,
+      "last_commit_sha": "4aa8d0407",
+      "last_commit_date": "2026-08-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/fruit-juices-non-apple.md | sha256sum"
+      "verify_command": "git show 4aa8d0407:wiki/products/fruit-juices-non-apple.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -202,8 +202,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "496eb3f1ec72b3b7b3e7b23bb4a8eb06fdbeeb58933729f9e6e03541b6653453",
-          "content_bytes": 20777,
+          "content_sha256": "65d9a50befbe565cf51475c07f6e21d2415c51abb7e7d965df439b27cc501493",
+          "content_bytes": 20768,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -528,12 +528,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/neuwirth2022-baby-cereals-lead-arsenic",
         "content_pin": {
-          "content_sha256": "e00ef67b34096a9860788c92d69c476fb1b765b633dae1f409203eb6901085d6",
+          "content_sha256": "0e77af5b63e7c77916b2bccdfac97c762e8b094413e48476989e93f6b0e38725",
           "content_bytes": 8404,
-          "last_commit_sha": "aa06ad499",
-          "last_commit_date": "2026-08-09",
+          "last_commit_sha": "4aa8d0407",
+          "last_commit_date": "2026-08-11",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aa06ad499:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
+          "verify_command": "git show 4aa8d0407:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
         }
       },
       {

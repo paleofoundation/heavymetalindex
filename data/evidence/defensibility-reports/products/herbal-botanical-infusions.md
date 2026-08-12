@@ -2,7 +2,7 @@
 source_page: wiki/products/herbal-botanical-infusions.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4fe29f5780e295a98bcfa3bacd95dd387c7d66af357b2dfe2d88466e86ad6b86
+source_page_sha256: 75f1862c2e34324d0d275b8383c57d85d2e0275d5b9a7dab32812afe1d546fcc
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

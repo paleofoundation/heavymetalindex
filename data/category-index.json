@@ -19,8 +19,8 @@
       "samples": [
         "Baby lotion and cream",
         "Baby oil",
-        "Baby powder, cornstarch base (clean counterpart)",
-        "Baby talcum powder (talc, dirty)"
+        "Baby powder, cornstarch base",
+        "Baby talcum powder (talc)"
       ]
     },
     {
@@ -42,7 +42,7 @@
         "Fresh/frozen fruits",
         "Dried fruit",
         "Fruit snacks",
-        "Leafy/green vegetables, other (clean vs spinach)"
+        "Leafy/green vegetables, other"
       ]
     },
     {
@@ -302,8 +302,8 @@
       "label": "Edible Fungi",
       "count": 3,
       "samples": [
-        "Mushrooms — cultivated (clean counterpart)",
-        "Mushrooms — wild and processed-wild (contaminated)",
+        "Mushrooms — cultivated",
+        "Mushrooms — wild and processed-wild",
         "Other"
       ]
     },

@@ -2,7 +2,7 @@
 source_page: wiki/products/cooking-oils-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5520633b44a9e9f7e45f251d12e44eadda1e9752e81548fd90262363385fab4e
+source_page_sha256: 088722a46d78a98d053427b6e88e81d37538b91b48e1eaa334e7074f1a1f3078
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1

@@ -2,7 +2,7 @@
 source_page: wiki/products/shampoo-adult.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c414504b8ba83db16e6b744900f2a7916314db986fef078b8f8c214bcaf35616
+source_page_sha256: 16fb02834d3fea04ec97ecad90205e03854db80830761500ca034d0010e8cd47
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

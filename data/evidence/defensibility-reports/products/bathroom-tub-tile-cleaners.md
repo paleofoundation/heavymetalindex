@@ -2,7 +2,7 @@
 source_page: wiki/products/bathroom-tub-tile-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b324e21effbf7618435adcf4d6fc3f8d40ea7d6b102a5a38c0b5b0f08fa284e1
+source_page_sha256: 51a11f55656de72fc9cc43a69042de077bca2c01bd1bc0c400632fbf498a11f6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

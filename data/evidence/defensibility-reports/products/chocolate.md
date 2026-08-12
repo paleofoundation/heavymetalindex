@@ -2,7 +2,7 @@
 source_page: wiki/products/chocolate.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d876ad537b3a81163b2eeac6bbcf94090f4de0db7231527e39ad48de401d43fc
+source_page_sha256: dcab0375b4d3be8242bac7703751433d197cdb57af4722a9ef1ad70b4235dc9e
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1

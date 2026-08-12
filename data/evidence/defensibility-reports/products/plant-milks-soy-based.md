@@ -2,7 +2,7 @@
 source_page: wiki/products/plant-milks-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d89c1fe068866ac4881ffdf5871dcf96414bc7c1b5e7c1b48d2fedf26094f50c
+source_page_sha256: dc32b1efc54a506df22a5b28c713c30958bfeef4f50e9e71504fd2d83034eae0
 total_claims: 27
 cited_claims: 19
 uncited_claims: 8

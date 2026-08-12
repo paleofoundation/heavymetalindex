@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-vitamin-mineral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2803da7109849e26838598e63141ca475399e21f345e89a608095f3a8f120e9c
+source_page_sha256: f47ccb9a1440989c4a973156cfbe464c72aa0ef49492e0b13bf01e3035667c74
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

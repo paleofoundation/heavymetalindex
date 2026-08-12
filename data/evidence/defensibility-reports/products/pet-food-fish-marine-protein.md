@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-fish-marine-protein.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9af1469d725e79373479cc7ec01fc5e65563e12b955b0760d3d525d4ba6623e8
+source_page_sha256: b1bd2bb03f0d23439abd99761842dcbf17afafdf655f7e56894986eb1ad65f2b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

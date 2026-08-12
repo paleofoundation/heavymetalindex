@@ -2,7 +2,7 @@
 source_page: wiki/products/toothpaste.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6055e3f3bcb7366d72086adcab7507719d52431a9d4e261b71391e2d35f4d4d0
+source_page_sha256: ad6eec74b8f74eb13365341f8e127211b2961a3329935d3e5dd9e11f4d4d7bac
 total_claims: 7
 cited_claims: 1
 uncited_claims: 6

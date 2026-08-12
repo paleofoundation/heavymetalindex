@@ -2,7 +2,7 @@
 source_page: wiki/products/nebula-diffusers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a3028624d1d97e238242b9885317c433023e91342b86ebaf3a509ae7139f9aea
+source_page_sha256: 6730bdfde1db6f4307b81b45de943b007af8de34483446495bc31799c5b778cd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

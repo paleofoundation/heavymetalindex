@@ -2,7 +2,7 @@
 source_page: wiki/products/carpet-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9c367eedf664ccd20239acccc5b4a9e022b392fb4dd6179140dd8a0cc83d230e
+source_page_sha256: 87284cf20300f83e7d86eeb93baafb0f5497bdfe18c690be9e571eb7d47794aa
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

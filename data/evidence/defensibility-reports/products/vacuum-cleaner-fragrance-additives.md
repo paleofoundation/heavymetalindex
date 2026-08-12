@@ -2,7 +2,7 @@
 source_page: wiki/products/vacuum-cleaner-fragrance-additives.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5d9672c7845fdfc2ff59d1724fa48ec63ef807185437b75724beef81610331d4
+source_page_sha256: 4f445f554e8c2fe4d5d2a5bd063241d4b041fa7f595ff90324455ffca1d3c9e7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

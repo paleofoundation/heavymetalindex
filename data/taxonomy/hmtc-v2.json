@@ -38,14 +38,14 @@
       "subcategories": [
         { "row": 1, "name": "Baby lotion and cream", "slug": "baby-lotion-cream" },
         { "row": 2, "name": "Baby oil", "slug": "baby-oil" },
-        { "row": 3, "name": "Baby powder, cornstarch base (clean counterpart)", "slug": "baby-powder-cornstarch" },
-        { "row": 4, "name": "Baby talcum powder (talc, dirty)", "slug": "baby-talcum-powder" },
+        { "row": 3, "name": "Baby powder, cornstarch base", "slug": "baby-powder-cornstarch" },
+        { "row": 4, "name": "Baby talcum powder (talc)", "slug": "baby-talcum-powder" },
         { "row": 5, "name": "Baby shampoo and body wash", "slug": "baby-shampoo-body-wash" },
         { "row": 6, "name": "Baby wipes", "slug": "baby-wipes" },
         { "row": 7, "name": "Diaper cream, non-ZnO", "slug": "diaper-cream-non-zno" },
         { "row": 8, "name": "Diaper cream, ZnO-based", "slug": "diaper-cream-zno" },
-        { "row": 9, "name": "Baby sunscreen, chemical UV filters (clean)", "slug": "baby-sunscreen-chemical" },
-        { "row": 10, "name": "Baby sunscreen, mineral UV filters (dirty)", "slug": "baby-sunscreen-mineral" },
+        { "row": 9, "name": "Baby sunscreen, chemical UV filters", "slug": "baby-sunscreen-chemical" },
+        { "row": 10, "name": "Baby sunscreen, mineral UV filters", "slug": "baby-sunscreen-mineral" },
         { "row": 11, "name": "Children's toothpaste", "slug": "toothpaste" },
         { "row": 12, "name": "Children's face paint", "slug": "face-paint" },
         { "row": 13, "name": "Children's makeup", "slug": "childrens-makeup" },
@@ -79,14 +79,14 @@
         { "row": 9, "name": "Rice noodles", "slug": "rice-noodles" },
         { "row": 10, "name": "Rice beverages (rice milk)", "slug": "rice-beverages-rice-milk" },
         { "row": 11, "name": "Other grain products (oat, millet, quinoa, barley)", "slug": "other-grain-products" },
-        { "row": 12, "name": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks", "slug": "grain-based-snacks" }
+        { "row": 12, "name": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice", "slug": "grain-based-snacks" }
       ],
       "boundary_rules": [
-        "Rice and non-rice subcategories are maintained as explicit pairs to support the Clean Counterpart Cap in the tightening formula.",
+        "Rice and non-rice subcategories are maintained as distinct matrices where government rules or testing interpretation differ.",
         "Products marketed for ages 0-5 route to Category 1 regardless of grain type.",
         "A product that is primarily a grain product routes here. A mixed product (frozen lasagna) routes to Category 7."
       ],
-      "contamination_platform_notes": "Rice is a known contamination platform for iAs, Cd, and Pb. Non-rice grains are the clean counterpart.",
+      "contamination_platform_notes": "Rice has distinct occurrence patterns for iAs, Cd, and Pb. Non-rice grains remain separate matrices; the distinction does not assign a certification role.",
       "regulatory_anchors": "FDA iAs action level for infant rice cereal (as reference benchmark for general rice); FDA Pb action level for foods; EU Reg. 2023/915 MLs for iAs in rice and rice products, Cd in cereals, Pb in cereals; Codex iAs ML for rice."
     },
     {
@@ -99,8 +99,8 @@
         { "row": 1, "name": "Fresh/frozen fruits", "slug": "fresh-fruit" },
         { "row": 2, "name": "Dried fruit", "slug": "dried-fruit" },
         { "row": 3, "name": "Fruit snacks", "slug": "fruit-snacks" },
-        { "row": 4, "name": "Leafy/green vegetables, other (clean vs spinach)", "slug": "leafy-vegetables-other" },
-        { "row": 5, "name": "Spinach (Cd, dirty)", "slug": "spinach" },
+        { "row": 4, "name": "Leafy/green vegetables, other", "slug": "leafy-vegetables-other" },
+        { "row": 5, "name": "Spinach", "slug": "spinach" },
         { "row": 6, "name": "Non-root vegetables", "slug": "non-root-vegetables" },
         { "row": 7, "name": "Root and tuber vegetables", "slug": "root-tuber-vegetables" },
         { "row": 8, "name": "Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)", "slug": "pickled-fermented-vegetables" }
@@ -111,7 +111,7 @@
         "Leafy greens are a distinct subcategory because of lead and cadmium accumulation.",
         "A vegetable chip made primarily from root vegetables routes here. A mixed snack chip routes to Category 7."
       ],
-      "contamination_platform_notes": "Root vegetables and leafy greens are elevated for Cd and Pb via soil uptake pathways. Clean counterpart pairing: leafy greens (higher Cd) vs. non-root vegetables (lower Cd).",
+      "contamination_platform_notes": "Root vegetables and leafy greens can show elevated Cd and Pb via soil uptake pathways. Occurrence comparisons between leafy greens and non-root vegetables remain descriptive and do not assign certification roles.",
       "regulatory_anchors": "EU Reg. 2023/915 MLs for Cd in vegetables (root vs. leafy vs. other), Pb in vegetables and fruits; Codex MLs for Pb in leafy vegetables; FDA Pb action levels for foods.",
       "status": "v2.2 slimmed to produce (rows 1-7); JSON synced to live 2026-06-09; r8 pickled/fermented appended per audit"
     },
@@ -171,7 +171,7 @@
         "A fish oil supplement for pet consumption routes to Category 18 (Pet Supplements).",
         "Canned seafood carries the canned flag for tin monitoring in addition to Hg testing."
       ],
-      "contamination_platform_notes": "Predatory fish are a contamination platform for MeHg. Seaweed is a contamination platform for iAs and Cd. Non-predatory fish and shellfish are the clean counterparts for Hg.",
+      "contamination_platform_notes": "Predatory fish show elevated MeHg occurrence, while seaweed can show elevated iAs and Cd. Non-predatory fish and shellfish remain distinct matrices rather than certification counterparts.",
       "regulatory_anchors": "EU Reg. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fish; EU iAs limits for seaweed; FDA Pb action levels for foods."
     },
     {
@@ -358,9 +358,9 @@
         { "row": 14, "name": "Tattoo inks (permanent and temporary)", "slug": "tattoo-inks" },
         { "row": 15, "name": "Other leave-on preparations (case-by-case)", "slug": "leave-on-preparations-other" },
         { "row": 16, "name": "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform", "slug": "traditional-eye-cosmetics" },
-        { "row": 17, "name": "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)", "slug": "sun-suntan-mineral" },
-        { "row": 18, "name": "Dusting powder, cornstarch base (clean sibling of r2 talc)", "slug": "dusting-powder-cornstarch-adult" },
-        { "row": 19, "name": "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)", "slug": "antiperspirant" }
+        { "row": 17, "name": "Sun/suntan products, mineral UV filters", "slug": "sun-suntan-mineral" },
+        { "row": 18, "name": "Dusting powder, cornstarch base", "slug": "dusting-powder-cornstarch-adult" },
+        { "row": 19, "name": "Antiperspirant (Al-salt)", "slug": "antiperspirant" }
       ],
       "boundary_rules": [
         "Product must remain on skin/hair/nails after application. If rinsed off, routes to Category 14.",
@@ -452,7 +452,7 @@
         { "row": 19, "name": "Ingredient class — algae/seaweed-based", "slug": "supplements-algae-seaweed-based" },
         { "row": 20, "name": "Ingredient class — protein/collagen powders", "slug": "supplements-protein-collagen-powders" },
         { "row": 21, "name": "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)", "slug": "supplements-oil-based" },
-        { "row": 22, "name": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty", "slug": "supplements-clay-mineral-earth" },
+        { "row": 22, "name": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority", "slug": "supplements-clay-mineral-earth" },
         { "row": 23, "name": "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)", "slug": "supplements-mushroom-fungal" },
         { "row": 24, "name": "Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)", "slug": "supplements-greens-superfood" }
       ],
@@ -481,7 +481,7 @@
         { "row": 7, "name": "Pet chews (including dental chews)", "slug": "pet-chews-dental" },
         { "row": 8, "name": "Toppers/mixers/broths", "slug": "pet-toppers-mixers-broths" },
         { "row": 9, "name": "Milk replacers and specialty pet liquids", "slug": "pet-milk-replacers-specialty-liquids" },
-        { "row": 10, "name": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)", "slug": "pet-food-fish-marine-protein" }
+        { "row": 10, "name": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)", "slug": "pet-food-fish-marine-protein" }
       ],
       "boundary_rules": [
         "Product must be intended for animal consumption as food, not as a supplement.",
@@ -632,7 +632,7 @@
         "Marketing/positioning determines routing when the same product could serve multiple functions."
       ],
       "regulatory_anchors": "RIVM air-freshener product-type list (exposure-factor framework); CPSC candle guidance on lead in metal-cored wicks; EU CLP Regulation (volatile chemical hazard classification).",
-      "contamination_platform_notes": "Two mechanically distinct emission types. Evaporative emitters (sprays, plug-ins, diffusers, reed diffusers — rows 1-4, 7-10) = lower-load clean counterpart. Combustion emitters (scented candles r5, wax melts r6, incense r11) = Pb/Ni dirty platform: lead-cored wicks (banned US 2003 but present in imports) and metal-bearing colorants/fragrance carriers volatilize into the breathing zone. Clean/dirty drawn on the shared Pb/Ni axis; the two emission types are never pooled."
+      "contamination_platform_notes": "Two mechanically distinct emission types remain separate for evidence interpretation. Evaporative emitters include sprays, plug-ins, diffusers, and reed diffusers (rows 1-4, 7-10). Combustion emitters include scented candles (r5), wax melts (r6), and incense (r11), with Pb/Ni pathways from legacy or imported lead-cored wicks and metal-bearing colorants or fragrance carriers. The two emission types are never pooled."
     },
     {
       "n": 23,
@@ -679,7 +679,7 @@
         "Infant bottles/nipples route to Category 9 when marketed for ages 0-5 — even though they are food-contact items, the infant exposure pathway and regulatory treatment take priority."
       ],
       "regulatory_anchors": "FDA food-contact substance definitions (21 CFR Parts 170-199); EU food-contact material framework regulation (Regulation 1935/2004) and implementing measures; EU Annex I material-family list (Regulation 10/2011 for plastics, Directive 84/500/EEC for ceramics); FDA ceramics/lead leaching compliance policy guide; California Prop 65 (Pb/Cd in ceramicware, cookware).",
-      "contamination_platform_notes": "Three distinct migration bands, never pooled into one row-pass distribution: (a) packaging-migration band (rows 1-11) — Sn/Pb from tinplate/closures, references the canonical cans-lids tin node; (b) glaze/decoration-leach band (rows 12-16) — Pb/Cd, decorated/colored-glaze dirty vs plain food-grade glass clean; (c) alloy-leach band (rows 17-28) — Al/Ni/Cr, bare aluminum/specialty-alloy dirty vs stainless/inert-coated clean. Water filters (29-30) are a distinct treatment-device sub-platform (NSF/ANSI 42/53/58, metal-removal purpose) cross-linked to Cat 8, never pooled into the alloy/glaze bands."
+      "contamination_platform_notes": "Three distinct migration bands are never pooled: (a) packaging migration (rows 1-11), with Sn/Pb from tinplate or closures and a link to the canonical cans-lids tin node; (b) glaze or decoration leaching (rows 12-16), with Pb/Cd occurrence differing between decorated or colored glaze and plain food-grade glass; and (c) alloy leaching (rows 17-28), with Al/Ni/Cr occurrence differing between bare aluminum or specialty alloys and stainless or inert-coated surfaces. Water filters (29-30) are a distinct treatment-device sub-platform cross-linked to Cat 8."
     },
     {
       "n": 24,
@@ -799,7 +799,7 @@
         "Butters inherit their whole-kernel parent's platform (cashew-Ni, sunflower-Cd).",
         "Products marketed for ages 0-5 route to Category 1."
       ],
-      "contamination_platform_notes": "Cd (sunflower seed, cashew), Ni (cashew); within-family clean/dirty splits.",
+      "contamination_platform_notes": "Cd occurrence is prioritized for sunflower seed and cashew, and Ni for cashew; within-family comparisons remain descriptive.",
       "regulatory_anchors": "EU Reg. 2023/915 Cd in oilseeds and tree nuts; FDA Pb action levels; Codex MLs."
     },
     {
@@ -811,15 +811,15 @@
       "exposure_pathway": "Ingestion (oral)",
       "regulatory_jurisdiction": "FDA, EU, Codex",
       "subcategories": [
-        { "row": 1, "name": "Mushrooms — cultivated (clean counterpart)", "slug": "cultivated-mushrooms" },
-        { "row": 2, "name": "Mushrooms — wild and processed-wild (contaminated)", "slug": "wild-mushrooms" }
+        { "row": 1, "name": "Mushrooms — cultivated", "slug": "cultivated-mushrooms" },
+        { "row": 2, "name": "Mushrooms — wild and processed-wild", "slug": "wild-mushrooms" }
       ],
       "boundary_rules": [
         "Fungi are a distinct kingdom, not produce; this category holds edible fungi (mushrooms now; truffles and others later).",
         "Canned/pickled wild mushrooms are processed-wild and pool into row 2 with a tin flag (canned/tin rule).",
         "A mushroom product with a Supplement Facts panel routes to Category 16."
       ],
-      "contamination_platform_notes": "Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the clean counterpart.",
+      "contamination_platform_notes": "Wild fungi can hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated fungi grown on controlled substrate remain a distinct comparison matrix.",
       "regulatory_anchors": "EU Reg. 2023/915 Cd/Pb in cultivated fungi; Codex; national wild-mushroom advisories."
     },
     {
@@ -835,7 +835,7 @@
         { "row": 2, "name": "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)", "slug": "cooking-oils-other" }
       ],
       "boundary_rules": ["Butter and ghee are dairy fat and route to Cat 24 Dairy, cross-linked here.", "Products marketed for ages 0-5 route to Category 1."],
-      "contamination_platform_notes": "Lipophilic matrix + refining pathway; refined seed oils clean vs unrefined/origin-specific dirty (Pb/Ni).",
+      "contamination_platform_notes": "Lipophilic matrix and refining pathway; Pb/Ni occurrence can differ between refined seed oils and unrefined or origin-specific oils.",
       "regulatory_anchors": "EU Reg. 2023/915 (Pb in fats and oils); Codex STAN 33 (olive oil); FDA Pb action levels."
     },
     {
@@ -856,7 +856,7 @@
         "Chocolate and confectionery are eaten as treats, not used to sweeten; they route to Cat 33.",
         "A sweetener with a Supplement Facts panel routes to Cat 16."
       ],
-      "contamination_platform_notes": "Refined sugar/agave clean; honey Pb/Cd (apiary proximity), maple Pb/Sn (evaporator), rice syrup iAs, molasses Pb/Cd dirty.",
+      "contamination_platform_notes": "Occurrence priorities differ by matrix: honey Pb/Cd (including apiary proximity), maple Pb/Sn (including evaporator pathways), rice syrup iAs, and molasses Pb/Cd; refined sugar and agave remain distinct comparison matrices.",
       "regulatory_anchors": "Codex MLs; FDA Pb action levels; EU Reg. 2023/915."
     },
     {
@@ -879,7 +879,7 @@
         "Tomato condiments cross-link to the Cat 4 tomato matrix row; canned/jarred adds a tin flag.",
         "Fish sauce cross-links to Cat 6 Seafood (its contamination speciates as fish tHg/iAs)."
       ],
-      "contamination_platform_notes": "Acid-extraction / fermentation Pb axis; balsamic vinegar Pb/As and aged soy/fish sauce Pb/Cd/tHg are the dirty sub-populations.",
+      "contamination_platform_notes": "Acid extraction and fermentation create distinct occurrence pathways; balsamic vinegar Pb/As and aged soy or fish sauce Pb/Cd/tHg are specific evidence sub-populations.",
       "regulatory_anchors": "FDA balsamic-vinegar Pb warning-letter history; Codex; EU Reg. 2023/915."
     },
     {
@@ -900,7 +900,7 @@
         "A confection with a Supplement Facts panel (e.g., supplement gummies) routes to Cat 16.",
         "Products marketed for ages 0-5 route to Category 1."
       ],
-      "contamination_platform_notes": "Cacao soil-uptake Cd (dark/high-cocoa/Latin-American origin dirty); imported/tamarind/chili candy Pb (adulteration + packaging).",
+      "contamination_platform_notes": "Cacao soil uptake can elevate Cd, particularly in dark, high-cocoa, and some origin-defined products; imported, tamarind, or chili candy can show Pb from adulteration or packaging.",
       "regulatory_anchors": "EU Reg. 2023/915 (Cd in cocoa/chocolate, the binding cap); FDA Pb action levels and imported-candy guidance."
     },
     {
@@ -929,7 +929,7 @@
       "n": 35,
       "name": "Prepared and Packaged Meals",
       "slug_prefix": "",
-      "status": "v2.2 Cat 7 dissolution; composite (provisional, no own clean/dirty split until component evidence)",
+      "status": "v2.2 Cat 7 dissolution; composite (provisional; component evidence remains matrix-specific)",
       "domain": "Foods, ingestion",
       "exposure_pathway": "Ingestion (oral)",
       "regulatory_jurisdiction": "FDA, EU, Codex",
@@ -970,8 +970,8 @@
     "Added Category 25 Cannabis, Hemp, and CBD Products (6 rows; scaffold).",
     "Added Category 26 Peptides, SARMs, and Research Chemicals (4 rows; scaffold; introduces the parenteral pathway).",
     "Added navigational_domains (seven-domain presentational layer).",
-    "New rows in locked categories — recorded canonically in page frontmatter + Step Zero amendment docs with their live row numbers, not mirrored into the stale v2.0 row arrays above: Category 4 mushrooms cultivated (row 17, clean) and wild (row 18, contaminated) per category-4-step0-amendment-1.md; Category 21 children's metal jewelry (row 22) per category-21-step0-amendment-1.md.",
-    "Category 22 gains an evaporative-vs-combustion clean/platform framing (no new row numbers).",
+    "New rows in locked categories are recorded canonically in page frontmatter and Step Zero amendment docs with their live row numbers, not mirrored into the stale v2.0 row arrays above: Category 4 mushrooms cultivated (row 17) and wild (row 18) per category-4-step0-amendment-1.md; Category 21 children's metal jewelry (row 22) per category-21-step0-amendment-1.md.",
+    "Category 22 retains an evaporative-versus-combustion evidence framing with no new row numbers and no certification-role assignment.",
     "Reserved, not added: Category 27 Tobacco/Nicotine/Vaping; vape-hardware factoring; candidate rows (imported confectionery Cat 7, wine/spirits Cat 5, non-food pet toys).",
     "Deferred: the canned/snacks matrix-beats-format reorganization (kept in place per the local Cat 6 lock)."
   ],

@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-treats-snacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 759067c7faae7f6602c5a916ad4cf6e1ab9f1e70d75722bc6fe16473480d4dbd
+source_page_sha256: 191c3f4df778fa12cd3b5939bf5f482dbf692e304723cc7dc8998d466b86c582
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

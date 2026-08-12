@@ -14,9 +14,9 @@ Product pages in **Fruits, Vegetables, and Produce**, organized by subcategory.
 
 ## [[products/fruit-snacks|Fruit snacks]]
 
-## [[products/leafy-vegetables-other|Leafy/green vegetables, other (clean vs spinach)]]
+## [[products/leafy-vegetables-other|Leafy/green vegetables, other]]
 
-## [[products/spinach|Spinach (Cd, dirty)]]
+## [[products/spinach|Spinach]]
 
 ## [[products/non-root-vegetables|Non-root vegetables]]
 

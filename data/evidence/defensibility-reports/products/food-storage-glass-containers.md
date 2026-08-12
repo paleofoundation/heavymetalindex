@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-glass-containers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f42e788c40de1f32ad0c23c6749074b1c391e5bb5f9258622560c7182cf505e0
+source_page_sha256: 3a48bd1b0c17fb0b39ab1433c12ab93bea61f4573caaa936546e44f8c4690fea
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

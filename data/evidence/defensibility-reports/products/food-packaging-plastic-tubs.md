@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-plastic-tubs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 32e40835e077f86ee1ceb93351853ab7393d7ebf02f17b60287dbbb21a48b294
+source_page_sha256: 31ad18740e2a5304304485122f6c8c1aa804465ba24ab8d05b708f92bbc99a94
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

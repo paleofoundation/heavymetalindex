@@ -2,7 +2,7 @@
 source_page: wiki/products/scented-candles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d0cfa0354f3e994d03b907555b333ce49ac3696b5f83ba0f2f3e8f45460230ad
+source_page_sha256: a0bf57cfc5620fe78587c3c7f757a219505e18e697cf5da15888f576d2c9892b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

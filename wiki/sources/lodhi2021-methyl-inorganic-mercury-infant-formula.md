@@ -94,11 +94,11 @@ Total mercury by cold-vapour AAS after acid digestion; inorganic mercury by clou
 
 ## Evidence fitness
 
-A-tier by source type (peer-reviewed primary measurement) with sample-level distributions for 20 formula and 10 cereal samples. Two caveats constrain its standalone pooling weight: the samples are from a single higher-contamination region (Hyderabad, Pakistan), and methylmercury was determined by a non-reference GC method. It is one study; the pooling engine's readiness bar for a defensible per-analyte percentile is at least three contributing sources or at least two with sample-level distributions. Lodhi is the first such source for formula MeHg, so it establishes the distribution but should be pooled with additional MeHg-in-formula sources before a standalone MeHg percentile is treated as firm.
+A-tier by source type (peer-reviewed primary measurement) with sample-level distributions for 20 formula and 10 cereal samples. Two caveats constrain its use: the samples are from a single higher-contamination region (Hyderabad, Pakistan), and methylmercury was determined by a non-reference GC method. Lodhi is the first such source for formula MeHg, so it establishes occurrence and materiality but does not select an initial HMTc limit.
 
-## Interim standards implication (MeHg, infant formula)
+## Certification-method boundary (MeHg, infant formula)
 
-Because Lodhi is a single, regionally skewed source, the defensible interim for the formula MeHg cell is to anchor it to the well-populated total-mercury cell rather than to pool one study: MeHg limit = pooled tHg P97 × the observed upper MeHg fraction (about 0.32), capped at the maximum observed formula value (2.0 µg/kg), expressed in the row's native basis. This leans on the larger tHg evidence base, is a deliberately conservative upper bound (it assumes worst-case co-occurrence of the P97 total-mercury sample with the maximum methyl fraction), and stays structurally coherent with the tHg standard. Lodhi's direct MeHg distribution (p90/p95 ≈ 0.60, max 2.0) is a validation cross-check on that anchor and converges with it. When one or more additional sample-level MeHg-in-formula sources are ingested, the anchor is retired in favour of a direct basis-matched pool. The total-mercury anchor and the direct distribution both require the tHg pool to exclude the quarantined 1,067 µg/kg mis-mapped duplicate-diet value; Lodhi's formula tHg maximum of 5.88 µg/kg independently confirms that value is not a real formula concentration.
+Lodhi is a single, regionally skewed occurrence source. It establishes that MeHg is measurable in this matrix and supplies a useful direct distribution (p90/p95 about 0.60 µg/kg; maximum 2.0 µg/kg), but it does not select an initial HMTc limit. Under the current method, the initial cell must come from the strictest applicable credible sovereign maximum or a disclosed read-across from the nearest applicable sovereign value. The study remains valuable for surveillance, source prioritization, and checking whether later certified-lot findings warrant review. Its values do not enter the certified-lot Standards Ratchet.
 
 ## Limitations
 
@@ -106,7 +106,7 @@ Single country and a single laboratory; brand names withheld for legal reasons, 
 
 ## Implications
 
-Certification: First sample-level methylmercury dataset for infant formula in the corpus; converts the Category 1 formula MeHg cell from a mechanistic not-material argument to a literature-derived cell, and supplies the observed MeHg-to-total fraction used to anchor the interim limit. Not a standalone threshold basis on its own.
+Certification context: First sample-level methylmercury dataset for infant formula in the corpus. It rebuts a simplistic not-material assumption and supplies an observed MeHg-to-total fraction for contextual review, but it is not an initial-limit source and does not enter the certified-lot Standards Ratchet.
 
 Courses: A clean worked example of mercury speciation (tHg = iHg + MeHg) in a non-seafood matrix, and of why a single higher-exposure regional dataset should not set a global limit unaided.
 

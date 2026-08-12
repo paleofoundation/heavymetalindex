@@ -2,7 +2,7 @@
 source_page: wiki/products/permanent-hair-dyes-tints.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a068f8bb499ed1c1ae912dc5e5fe7b1fd396ca4ec167199f6e3b481aa8c47686
+source_page_sha256: c6caf59e412035e9bfde2c7101bfbff390f478b6f823c828ff2d8eb0b31bd5a3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

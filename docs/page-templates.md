@@ -232,7 +232,7 @@ updated: 2026-04-22
 ---
 ```
 
-**This is the public, literature-native view of the product category.** The wiki/HMT&C firewall in CLAUDE.md Part 2 applies: percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), CC eligibility verdicts, n_a_tier counts, clean/dirty subcategory designations, and Path A/Path B status do not appear on this page. They appear on the staff workbench snapshot at `wiki/workbench/standards/<product-slug>.md`. The staff workbench is the home for threshold-selection content; this public page is the home for literature evidence.
+**This is the public, literature-native view of the product category.** The wiki/HMT&C firewall in CLAUDE.md Part 2 applies: occurrence summaries, source-reported percentiles, source counts, and uncertainty may be reported descriptively, but no HMTc candidate value, certification status, ratchet calculation, or certification-pathway label appears on this page. Initial limits come from the certification repository's sovereign-government compiler; later tightening comes from its certified-lot ratchet register. This public page is the home for literature evidence, not threshold selection.
 
 The `Methodology` section, near the top, states the rules that govern the rest of the page: speciation is non-substitutable; basis is preserved and labeled, never silently converted; non-detect handling preserves the source's own reporting convention; source pooling is avoided across LOQ, period, geography, and analytical-basis differences; row-fit is determined by author scope, not by re-derivation; evidence tiers and confidence ratings follow CLAUDE.md.
 
@@ -246,7 +246,7 @@ Row-fit is a compound classification with two axes: **matrix axis** (milk-based 
 
 The `Broad Product Context: Author-Scope Index` is generator-managed inside `hmi-broad-context-sources` markers. Catalogues sources whose author-stated scope is broader than this row.
 
-The `Federal/Regulatory Limits vs Field Findings` is generator-managed inside `hmi-product-crosswalk` markers. Compares applicable regulatory cap to cited field-evidence on a like-for-like basis when conversion is well-defined (powder-as-placed at 1:7 reconstitution), or anchors to the speciation rule when conversion is not possible (total arsenic vs inorganic arsenic, total mercury vs methylmercury, total chromium vs Cr-VI).
+The `Federal/Regulatory Limits vs Field Findings` is generator-managed inside `hmi-product-crosswalk` markers. It compares applicable regulatory limits with cited field evidence on a like-for-like basis when conversion is well-defined. The locked 8:1 powder-to-prepared relationship applies only to infant formula; other cross-basis relationships require a separately documented conversion. Speciation boundaries remain strict (total arsenic vs inorganic arsenic, total mercury vs methylmercury, total chromium vs Cr-VI).
 
 Do not combine geography, period, and product-fit scopes without labeling the consequence. Product fit, analytical basis, sample size, detection handling, period, and jurisdiction are recorded as metadata. Pooling across jurisdictions is a staff-side decision recorded in the workbench snapshot, not a public-page claim.
 
@@ -365,16 +365,11 @@ WikiBiome federation: use `wikibiome_crosswalk` slugs in frontmatter as stable a
 
 ## Certification page (`wiki/certification/*.md`)
 
-For the Paleo Foundation HMT&C program. Include proposed limits, tier definitions (standard, infant-grade, ultra), sampling plans, auditor checklists, decision trees, and gap analyses against FDA/EU/Codex.
+For the Paleo Foundation HMT&C program. Include government-compiled limits, sampling plans, auditor checklists, decision trees, and explicit coverage gaps against FDA, EU, Codex, and other credible sovereign-government sources.
 
-These pages reference wiki evidence; they do not define wiki evidence. When an HMT&C page specifies a threshold, it cites the wiki for the literature baseline and explicitly states the rationale for any deviation:
+Initial limits use the strictest applicable credible sovereign-government maximum in the product row's native basis. Preserve government product-form and analyte-species splits; use the program's 8:1 conversion only for infant-formula powder-to-prepared-water translation. If no exact government maximum exists, use a disclosed sovereign-government read-across or publish `n/m`; do not derive a number from Index occurrence evidence.
 
-- **Precautionary** — tighter than literature floor because vulnerable populations, cumulative exposure, or uncertainty warrant a safety margin beyond minimum-effect-level data.
-- **Market-ratcheting** — tighter than literature floor because the program drives market toward cleaner product; a policy choice, not an assertion about where effects begin.
-- **Feasibility-driven** — looser than literature floor because current methods, supply chain realities, or achievable agricultural practice do not yet support the tighter value. Paired with a sunset plan to tighten as feasibility improves.
-- **Regulatory-alignment** — matches an external regulatory framework (FDA, EU, Codex) for commercial or legal reasons.
-
-The deviation itself is fine and often intentional. Silently softening the wiki to hide the deviation, or strengthening the wiki to make the deviation look evidence-based, is the failure mode. State the rationale; do not paper over the gap.
+Later tightening is separate from initial selection. It may use only eligible HMTc certified-lot data under the Standards Ratchet: two consecutive annual reviews, combined Status A+B P80 at or below 80% of the current limit, the qualifying-SKU breadth test, concentration control, the Status A candidate formula and 20% per-event cap, and the published transition rules. Public wiki evidence remains descriptive and never selects a certification value or status.
 
 ## Course page (`wiki/courses/*.md`)
 

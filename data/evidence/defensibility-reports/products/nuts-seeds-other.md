@@ -2,7 +2,7 @@
 source_page: wiki/products/nuts-seeds-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1dbd7c0dc7fc928ed6bd0ded5f80afe12f83a4836e101bb5e159139fa228029f
+source_page_sha256: e597c556e22017da038148606f5ba4077d5d562a054f9e679edbf3e2599239f3
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

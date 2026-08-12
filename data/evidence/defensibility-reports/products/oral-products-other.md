@@ -2,7 +2,7 @@
 source_page: wiki/products/oral-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 45b4d3c007a9aba4c971b931513fdc47aba35367933200842b062758ce61e5ce
+source_page_sha256: 19d2b1af9b5987816e486abdcdf9293ef50db78e52509c1bb9d57ac88241ac1e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

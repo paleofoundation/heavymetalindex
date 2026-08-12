@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-lotion-cream.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e9389447adf608a32ce0bf79a43d420a8586712f8d30bcfd9509e9f0f013c6a1
+source_page_sha256: f2b1a124e249d7f437690770fd0bf712bdabff44d0b07c9f17dd907112ca5e34
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -1,5 +1,7 @@
 # Task spec — Cat 6 & Cat 7 occurrence extraction (for Codex / GPT-5.5 fast)
 
+> **Superseded task objective (2026-08-12).** Extraction remains useful for descriptive occurrence evidence, but it must not produce or justify a certification limit. The P97/literature-baseline completion target below is retired.
+
 **Goal:** convert routed source pages into per-study reported statistics so the
 existing pooling engine can produce literature-baseline P97 standards for every
 Cat 6 (Seafood) and Cat 7 (Oils, Condiments, Specialty Foods) row.

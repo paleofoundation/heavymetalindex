@@ -2,7 +2,7 @@
 source_page: wiki/products/high-chairs-and-booster-seats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 169b6a860ca766a192a21f5232f542b8d0c8511d31a16139f24dca88b40a7108
+source_page_sha256: ac1253378b1215f1ecb7859277bc51de637f712148bfc66e46237d8edcf0741a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

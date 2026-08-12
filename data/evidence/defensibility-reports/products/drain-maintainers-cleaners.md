@@ -2,7 +2,7 @@
 source_page: wiki/products/drain-maintainers-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d675496cfd3f32f20af90628e8276a4d743a0e7b13f984b7fd7e654817ff8acc
+source_page_sha256: 42ac16a3a6f17d0b5404f3c16defd4380be3c99ca8cf748b6e27e17966dd5657
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-substrate-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "72090a2ee48f37315dfa55dcb89e426be2dc4e7d1bbca7a8601f48d93585d59b",
-      "content_bytes": 22687,
+      "content_sha256": "9248ece1553776e1a9f6b78a283ce05ae489d46b3e821fa71efe8c132993f10c",
+      "content_bytes": 22848,
       "last_commit_sha": "9882fa9f2",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

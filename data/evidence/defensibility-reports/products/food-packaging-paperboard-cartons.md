@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-paperboard-cartons.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 87c8a011cb5e7f05b35ccbf66e1dbd9917b0a8108306b05f1020238a624d68fc
+source_page_sha256: 3c654635b190fd4b018ddb356e7c86abb002ce10062a0048bcbe692ac71a01db
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

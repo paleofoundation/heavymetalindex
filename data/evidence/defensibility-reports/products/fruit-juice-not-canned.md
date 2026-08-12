@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 47c614ef3911cbcbe5e173d4ab132b63743fcb0ec8e7465e8bfa4f77114fa249
+source_page_sha256: c120ed33f80a2b8a15cf27eec6fbdd391994bf5586b0a5ecd1d026f9eafa5cf9
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0

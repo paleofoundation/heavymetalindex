@@ -2,7 +2,7 @@
 source_page: wiki/products/sun-suntan-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 424e0d9c3a87ca07fc9c19540b66b17e41f0301181406ab8df1127107909a694
+source_page_sha256: c71a233e4ca9d1c3e63528771114d41b4cd8db3d583a7d80ef46199d2c4e9a20
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/intimate-washes-cleansers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 178ba806a22d968b0844ca27d94d35fd63ad69143284b376398c1f46fba17c4d
+source_page_sha256: ef4d8bd81a08313f068593c7114e54fb2c4f01fadb53e63bb9cad7df31520a57
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

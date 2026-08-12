@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-snacks-crackers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 02e0c9e810e74a33ace706d14f0c60b6db1555d8433c829991b9680b46e25b51
+source_page_sha256: 289d2dfc77b565d5339fb22cd28da5b22f61780d852e55cfbfd55ae232c5960c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/laundry-detergent-boosters-additives.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7c99b7c2461f6e0310233a8481de13f3195f9f24b0b2fd10b1ff2d8fd8de8afb
+source_page_sha256: 566bd27eacc24438824408e9e3dfe5fa51e1b0424ec9a93a93760cb502e1eba9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

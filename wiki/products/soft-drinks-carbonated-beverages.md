@@ -94,11 +94,11 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Who this page is for
 
-Brand legal teams evaluating HMT&C certification for the Soft drinks / carbonated beverages row, retailer compliance teams stocking the beverage aisle, and HMT&C staff routing source evidence to this row. This page reports what the cited literature says about heavy-metal occurrence in soft drinks and carbonated beverages; HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Soft drinks / carbonated beverages row, retailer compliance teams stocking the beverage aisle, and HMT&C staff routing source evidence to this row. This page reports what the cited literature says about heavy-metal occurrence in soft drinks and carbonated beverages; Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in soft drinks and carbonated beverages. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-consumed liquid concentration). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in soft drinks and carbonated beverages. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-consumed liquid concentration). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Source Evidence Inventory
 
@@ -123,7 +123,7 @@ Practical interventions to reduce heavy-metal load in soft drinks and carbonated
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for this row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. This public page reports literature evidence only.
+HMTc certification limits are published separately at heavymetalcertified.com. Initial values are government-limit-only; later tightening uses eligible certified-lot data under the Standards Ratchet. This public page reports descriptive literature evidence only, and its occurrence pool does not select a certification value.
 
 ## Historical recalls and enforcement
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/leafy-vegetables-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 342f91ba594ff15a7a236e1ea00430d06e3154fc98f2f2fd0b922bb36f0aef41
+source_page_sha256: 04c2aaafcd70dfec45d2830227518ed6a514c92f4dc5c6505e065f71cc489e86
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-clay-mineral-earth.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7170ceff037a2da69675cbf19637d0c729ed841dc666f3ab82c4edee92a8d945
+source_page_sha256: 1d0da61c198589ef29ac22bdce9338e14ec225a07747a503e5810362ddf43c46
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

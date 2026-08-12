@@ -27,23 +27,23 @@ created_by: cat4_step0_scaffold_2026_05_16
 
 ## Overview
 
-Peanuts (Arachis hypogaea) sold as raw, roasted, in-shell, shelled, salted, unsalted, or with seasonings. Peanut butter is a separate row (15). Contaminated row of the Row 8 / Row 9 / Row 10 triplet: peanuts are geocarpic legumes (pods develop in soil), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above other legumes/nuts; Step 0E flags single-research-group finding pending second-source confirmation.
+Peanuts (Arachis hypogaea) sold as raw, roasted, in-shell, shelled, salted, unsalted, or with seasonings. Peanut butter is a separate row (15). higher-occurrence comparison row of the Row 8 / Row 9 / Row 10 triplet: peanuts are geocarpic legumes (pods develop in soil), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above other legumes/nuts; Step 0E flags single-research-group finding pending second-source confirmation.
 
-This page is a Step 0 lock scaffold for Cat 4 Row 10. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 4 Row 10. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's descriptive occurrence-comparison framing and platform attribution.
 
 ## Who this page is for
 
-Brand legal teams evaluating HMT&C certification for the Peanuts row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Peanuts row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its descriptive occurrence-comparison pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Peanuts row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Peanuts row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 Cat 4 lock empirical basis: Pass 2 occurrence-data extraction from the heavymetalindex.com wiki corpus (build claude/zealous-bhabha-d422c9, 896 source pages). The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` records the splitting decisions and platform attributions; this row inherits its scope from that document.
 
 ## Pair relationship + platform attribution
 
-This is the contaminated row of a Cat 4 clean-contaminated split. The clean counterpart is Row 8 ([[products/legumes-pulses-other|Legumes and Pulses, Other]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Al, Ni**. Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page.
+This is the higher-occurrence comparison row of a Cat 4 descriptive occurrence-comparison split. The lower-occurrence counterpart is Row 8 ([[products/legumes-pulses-other|Legumes and Pulses, Other]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Al, Ni**. Certification threshold decisions for this row and its lower-occurrence counterpart are made separately under the certification program and are not published on this public page.
 
 ## Literature Evidence Summary
 
@@ -82,7 +82,7 @@ _Pending. Cat 4 regulatory landscape: Codex GSCTFF and EU Regulation 2023/915 se
 
 ## Levers to reduce contamination
 
-The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/seed rows from contaminated-platform commodity rows (where species or production system carries elevated metal load by characteristic). For this row, the levers below are ordered by impact magnitude per the literature evidence base; sourcing-and-agronomic levers dominate the per-product metal load, with processing-and-formulation levers offering additional reduction.
+The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/seed rows from higher-occurrence platform commodity rows (where species or production system carries elevated metal load by characteristic). For this row, the levers below are ordered by impact magnitude per the literature evidence base; sourcing-and-agronomic levers dominate the per-product metal load, with processing-and-formulation levers offering additional reduction.
 
 1. **Sourcing levers** (highest impact): supplier and origin-region selection for the platform commodity. Within-species variance by origin region is documented in the literature; pre-screened low-impurity supply is commercially available.
 2. **Agronomic levers**: soil amendments (Cd accumulation in spinach/sunflower is reducible via soil-pH and silicon-amendment interventions documented in phytoremediation literature; geocarpic Al uptake in peanuts responds to soil-Al management).
@@ -94,7 +94,7 @@ The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/se
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 

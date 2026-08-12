@@ -2,7 +2,7 @@
 source_page: wiki/products/pre-treaters-stain-removers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bb997e89260b016e646b228bbb827af1b098cc7f5d945faa93f1a91411e19f14
+source_page_sha256: 974a3ac123d5aeee106d7a67deb74d76c70091547bc110474e6b150177be9444
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

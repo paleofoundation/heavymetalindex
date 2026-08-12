@@ -1,5 +1,7 @@
 # Category 2 — Infant and Child Personal Care — Step Zero Amendment 1 (JSON reconciliation)
 
+> **Taxonomy history; limit-setting method superseded 2026-08-12.** Row identities and formulation distinctions remain part of the record. Any clean/dirty terminology below describes the former taxonomy rationale only and must not select an initial HMTc limit or status. Current initial values are government-limit-only; later tightening uses eligible certified-lot data.
+
 **Status:** Active, 2026-06-09. Resolves the Cat 2 JSON desync flagged by the 2026-06-09 whole-taxonomy
 completeness audit (`taxonomy-completeness-2026-06.md`). This is a documentation + canonicalization
 amendment, not a new lock decision.

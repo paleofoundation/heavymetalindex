@@ -2,7 +2,7 @@
 source_page: wiki/products/pasta-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5642199c62d0718f72a0b3f2ce552f95c561394aa8830b1e6943730a7f728bf1
+source_page_sha256: 2abbf0631cc6ab3e998a0c44e289d1f97e5f3e235a110fe1a059e9cb9f125255
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

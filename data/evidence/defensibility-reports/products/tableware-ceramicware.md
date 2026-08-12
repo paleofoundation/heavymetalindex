@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-ceramicware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 91fc468126c6153343fb3ea16f2497a4643b7dd297c8bcb5aa6cf5cb06a8070e
+source_page_sha256: ec807430382dd6e4ee6d6d2cf21c47e30e40a29b527ec7980538444a9f96ccb6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

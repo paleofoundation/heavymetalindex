@@ -2,7 +2,7 @@
 source_page: wiki/products/flavored-waters.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fe6d8cc2096f922472b7420da365af55cf5cde5cd527bebd7d6cb384d84c20cc
+source_page_sha256: 75864269a07d3f8d994268f6727a7b7162a330499d307422fd15fae0e92df9ff
 total_claims: 4
 cited_claims: 2
 uncited_claims: 2

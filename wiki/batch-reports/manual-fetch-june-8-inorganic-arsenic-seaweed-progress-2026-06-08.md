@@ -1,5 +1,7 @@
 # Manual-fetch ingest progress — June 8 Inorganic Arsenic Seaweed
 
+> **Historical methodology snapshot.** This June 2026 progress report predates the government-limit-only method. Its P97, clean/dirty, standards-setting, and occurrence-selected completion language is superseded. The ingested literature remains descriptive occurrence evidence; it does not select an initial HMTc limit or enter the certified-lot Standards Ratchet.
+
 **Folder:** `raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/`
 **Date:** 2026-06-08 (updated through 10/67)
 **Session:** Claude Code (Opus 4.8), interactive, driven via a self-paced `/loop` of `ingest-next-manual-fetch-pdf`
@@ -37,9 +39,9 @@ Across primary occurrence sources from Spain, UK, Australia/NZ, Ireland, and the
 
 Priority occurrence/speciation still to do: hata2014 (hijiki), the recent ones (`s12403-025-00708-1`, `s00216-024-05250-8`, `molecules-29-01348`, `1-s2.0-S0147651325007936`), `Survey of inorganic arsenic in seaweed` (done = fsanz), the EFSA 2021 iAs opinion (large, A-tier exposure anchor), `Knowledgeupdateonmacroalgaefoodandfeedsafety2020`, `Arsenic in Marine Macroalgae Booklet v2`. Method-development papers (chroma/aca/mcsheehy/nischwitz/vanhulle/vanelteren/ichikawa/shimoda). Mechanism/uptake (effects-of-dietary-intake-of-arsenosugars, Neff_1997, bolan2017, bhattacharya2016). Matrix-fit check before ingest: `Heavy-metal-accumulation…seagrass` (seagrass ≠ macroalgae), `Characteristics…organotin` (Sn focus), `water-16-00005`. Likely scanned/OCR: morita1990, yamaoka1986, stoeppler1986, toxic_elements_Pacin.
 
-## Next gate after ingest (to ship the Cat 6 seaweed standard)
+## Historical next gate recorded at the time
 
-Occurrence-extraction → pooling per `docs/tasks/cat6-7-occurrence-extraction.md`, scoped to `row_slug = seaweed-kelp-foods`, using ONLY the poolable primaries above. Result → `data/evidence/hmtc_aggregate_distributions.csv` (P97, cap, final, rationale). The occurrence core is already strong enough to run a preliminary seaweed P97 if desired, while the loop drains the remainder.
+At the time, the report proposed occurrence-extraction and P97 pooling as a certification step. That step is retired. The same evidence may still populate the descriptive occurrence model and surveillance context; the initial certification value must come from the sovereign-government compiler, and any later tightening must come from eligible HMTc certified-lot data.
 
 ## Live tracker
 

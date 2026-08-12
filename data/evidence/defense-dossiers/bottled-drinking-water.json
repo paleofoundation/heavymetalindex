@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/bottled-drinking-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d1a3904f8e65df0456a08f10131be8bf9844a7b59dc2877bdd1b5266e54ec1b4",
-      "content_bytes": 19897,
+      "content_sha256": "937898918230f5b8e284bd0d104c4ce2a4001644878b376fc9cb94e831aff0a0",
+      "content_bytes": 19938,
       "last_commit_sha": "ad172bca7",
       "last_commit_date": "2026-08-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -242,8 +242,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "c974f379158a8628b1281c248427bb4d00c3b5117a34289f2dcc9d6acf62736b",
-          "content_bytes": 8207,
+          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
+          "content_bytes": 8173,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -664,8 +664,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/who-gdwq-2022-fourth-edition",
         "content_pin": {
-          "content_sha256": "6955cf4f04b657eb3a2323e39c6b7f330b9d3875203b5f72eeef684e26fd2162",
-          "content_bytes": 16830,
+          "content_sha256": "06e0ad67920cce2c3d44718946e7a3a9b0c23aac3e9e08a3907ccbee459d0e66",
+          "content_bytes": 16537,
           "last_commit_sha": "9882fa9f2",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

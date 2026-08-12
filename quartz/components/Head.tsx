@@ -193,7 +193,7 @@ export default (() => {
     // homepage canonicalizes to `/` (not `/index`) and folder pages to `/foo/`
     // (not `/foo/index`) — matching the served URL. A cross-domain canonical or
     // a self-canonical pointing at a non-served path is the duplicate-content
-    // defect that folded the old paleofoundation.com↔heavymetaltested.com pair.
+    // defect that folded the old paleofoundation.com↔heavymetalcertified.com pair.
     const socialUrl =
       fileData.slug === "404"
         ? url.toString()
