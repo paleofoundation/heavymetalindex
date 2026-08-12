@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "2c457c7df7fd9be06ca6525b61fb3c49da15b93e224af0b9c53498e705dfd525",
       "content_bytes": 9791,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fabric-contact-products-other.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fabric-contact-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

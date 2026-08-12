@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "0ae7acab68441a8a13334728854eadc016e1dc1946d97f3cb28a6a5f96c66e01",
       "content_bytes": 7614,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pet-food-semi-moist.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/pet-food-semi-moist.md | sha256sum"
     }
   },
   "evidence_base": {

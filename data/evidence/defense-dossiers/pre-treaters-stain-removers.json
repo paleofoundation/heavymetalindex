@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "4bb443676264d1a2110f2bb6b2080ee5184d4820ed3d4b37f29f63417d81a40f",
       "content_bytes": 16404,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pre-treaters-stain-removers.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/pre-treaters-stain-removers.md | sha256sum"
     }
   },
   "evidence_base": {

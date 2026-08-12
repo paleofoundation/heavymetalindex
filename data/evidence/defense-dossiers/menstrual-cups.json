@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "3d09c6b5b91c692e5f5e041116a4baf39f9e453903ca19d0cf5d2e8a65a9067e",
       "content_bytes": 9426,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/menstrual-cups.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/menstrual-cups.md | sha256sum"
     }
   },
   "evidence_base": {

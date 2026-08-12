@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "bbb6987ea15fca36715015153fe7b3bf6f44514e3b79c2203eb55200625265f6",
       "content_bytes": 11502,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fabric-softeners.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fabric-softeners.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -144,10 +144,10 @@
         "content_pin": {
           "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
           "content_bytes": 31788,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       }
     ]

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "48f6048ee31d1aa8de5d841d2bfbd5686ead2026d8de141bf8e1df3a43e0ed09",
       "content_bytes": 7747,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-solids-softgels.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/supplements-oral-solids-softgels.md | sha256sum"
     }
   },
   "evidence_base": {

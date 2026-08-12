@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "81bceb0fc13afa607bd93e53a050149b0ad08645a18c178c437103da10de950d",
       "content_bytes": 10768,
-      "last_commit_sha": "a31b0f2f5",
-      "last_commit_date": "2026-08-10",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show a31b0f2f5:wiki/products/infant-bottles.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/infant-bottles.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "c73fd417429228a588365a79a01cedce2e95e7bfcc42bc7bbd61395d6f0119db",
       "content_bytes": 2025,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/sun-suntan-mineral.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/sun-suntan-mineral.md | sha256sum"
     }
   },
   "evidence_base": {

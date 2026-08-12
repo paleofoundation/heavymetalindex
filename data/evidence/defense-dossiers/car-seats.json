@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "e0f2fc18ecad10d09587467c0d11fd1d8a4e79fcd16a2678a30945265aaa24a4",
       "content_bytes": 10745,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/car-seats.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/car-seats.md | sha256sum"
     }
   },
   "evidence_base": {

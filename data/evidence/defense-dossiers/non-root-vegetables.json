@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "96a95339daf1bd9e5330b2c6f42ddb24e31aa5a6c680cc6c9c52225587391970",
       "content_bytes": 33285,
-      "last_commit_sha": "4aa8d0407",
-      "last_commit_date": "2026-08-11",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 4aa8d0407:wiki/products/non-root-vegetables.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/non-root-vegetables.md | sha256sum"
     }
   },
   "evidence_base": {

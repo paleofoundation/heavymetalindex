@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "1fb56a41ee99a988c4a40d114c360c500822efd133c0ce85b087d42ed4141976",
       "content_bytes": 9494,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/cleaning-wipes-household.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/cleaning-wipes-household.md | sha256sum"
     }
   },
   "evidence_base": {

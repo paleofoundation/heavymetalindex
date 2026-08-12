@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "70c7cb28c730bc73e4f01d4e0d249e7c9dad95ea012a6b41b66e1a4f7d774491",
       "content_bytes": 2010,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/antiperspirant.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/antiperspirant.md | sha256sum"
     }
   },
   "evidence_base": {

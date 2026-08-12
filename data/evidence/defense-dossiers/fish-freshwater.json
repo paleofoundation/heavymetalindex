@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "fd41486dc7d1bccc8e6c45f2c7db22f97c6b4440708fcde8fd74929b4925e016",
       "content_bytes": 159727,
-      "last_commit_sha": "4aa8d0407",
-      "last_commit_date": "2026-08-11",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 4aa8d0407:wiki/products/fish-freshwater.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fish-freshwater.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -715,10 +715,10 @@
         "content_pin": {
           "content_sha256": "65d9a50befbe565cf51475c07f6e21d2415c51abb7e7d965df439b27cc501493",
           "content_bytes": 20768,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -1428,10 +1428,10 @@
         "content_pin": {
           "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
           "content_bytes": 8173,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -2036,10 +2036,10 @@
         "content_pin": {
           "content_sha256": "493290f0c894c9c41946533636c37d9a3165be03235b37d2dfca77e695b5b94a",
           "content_bytes": 16150,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/helcom2017-core-indicator-metals-baltic.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/helcom2017-core-indicator-metals-baltic.md | sha256sum"
         }
       },
       {

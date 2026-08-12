@@ -10,51 +10,60 @@
   "cleanUrls": true,
   "functions": {
     "api/ask.js": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/contamination.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/regulations.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/evidence-packet.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/defense-dossier.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/change-watch.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/risk-map.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/corrections.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/mcp.mjs": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "excludeFiles": "{.claude,.vercel}/**"
     },
     "api/queue/discovery.mjs": {
       "maxDuration": 300,
-      "excludeFiles": "data/**"
+      "excludeFiles": "{data,.claude,.vercel}/**"
     },
     "api/queue/extraction.mjs": {
       "maxDuration": 300,
-      "excludeFiles": "data/**"
+      "excludeFiles": "{data,.claude,.vercel}/**"
     },
     "api/queue/routing.mjs": {
       "maxDuration": 300,
-      "excludeFiles": "data/**"
+      "excludeFiles": "{data,.claude,.vercel}/**"
     },
     "api/queue/dead-letter.mjs": {
       "maxDuration": 30,
-      "excludeFiles": "data/**"
+      "excludeFiles": "{data,.claude,.vercel}/**"
     },
     "api/cron/enqueue-discovery.mjs": {
       "maxDuration": 60,
-      "excludeFiles": "data/evidence/**"
+      "excludeFiles": "{data/evidence,.claude,.vercel}/**"
     }
   },
   "crons": [

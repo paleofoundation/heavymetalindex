@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "cb45022e4432afb4dade4570fa68cff02880d65844d218a4cc99625b6326a3d0",
       "content_bytes": 7687,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/toys-stuffing-materials.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/toys-stuffing-materials.md | sha256sum"
     }
   },
   "evidence_base": {

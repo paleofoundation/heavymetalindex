@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "ffa6b9b88a5ca93fb1be39b9708e2d7b0ba52435e54991ffc648ef67c9e92549",
       "content_bytes": 7749,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/food-storage-silicone.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/food-storage-silicone.md | sha256sum"
     }
   },
   "evidence_base": {

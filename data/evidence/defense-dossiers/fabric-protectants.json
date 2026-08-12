@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "9f39f3747d1764ee54d8e2fd5564567591532867c50b49acfe9bf012d3041a0e",
       "content_bytes": 11128,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fabric-protectants.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fabric-protectants.md | sha256sum"
     }
   },
   "evidence_base": {

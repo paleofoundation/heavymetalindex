@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "0c068efb9ddc57c75b4400d668ef5a2c323d26d46f028f285e3b01459e10ee97",
       "content_bytes": 11399,
-      "last_commit_sha": "a31b0f2f5",
-      "last_commit_date": "2026-08-10",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show a31b0f2f5:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {

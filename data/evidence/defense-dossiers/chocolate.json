@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "dd683364d85fb2df9fbb46a2f4c750099f9e7244d364b6b2f7a3b4d5255afef8",
       "content_bytes": 17633,
-      "last_commit_sha": "4aa8d0407",
-      "last_commit_date": "2026-08-11",
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 4aa8d0407:wiki/products/chocolate.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/chocolate.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -139,10 +139,10 @@
         "content_pin": {
           "content_sha256": "653e602a1e628789c282da68f78d912ce02bb3885ec1aa25a9f90a27df07d653",
           "content_bytes": 51746,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/asyousow2022-expert-investigation-cocoa-chocolate-products.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/asyousow2022-expert-investigation-cocoa-chocolate-products.md | sha256sum"
         }
       },
       {
@@ -225,10 +225,10 @@
         "content_pin": {
           "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
           "content_bytes": 8173,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -539,10 +539,10 @@
         "content_pin": {
           "content_sha256": "24340618a71a926b351c7311874a02d66b80a164b30fb1eec7194131a1e7652a",
           "content_bytes": 16429,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing.md | sha256sum"
         }
       },
       {
