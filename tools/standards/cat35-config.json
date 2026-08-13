@@ -1,0 +1,224 @@
+{
+  "_doc": "HMTc Category 35 (Prepared and Packaged Meals) compiler config. Method v2.0, COMPOSITE form. Category 35 is composite: no credible government sets a contaminant maximum level for 'prepared meal' or 'vegetable stock', so each cell is a DISCLOSED READ-ACROSS from the strictest applicable sovereign ML among the subcategory's PRINCIPAL COMPONENTS (component_read_across), a direct sovereign ML on the composite form (gov_ids -> regulatory-alignment; e.g. the canned-foods tin ML directly governs canned soup), a substantiated not-material determination, or a control. Component anchors are named register ids restricted to CREDIBLE regulators (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada, UK) and filtered for applicability: an adult prepared meal never reads across from an infant baby-food action level (infant/toddler mixed meals route to Category 1 by the taxonomy boundary rule). Basis: the composite is assessed as-consumed (ready-to-eat/ready-to-drink); wet-weight component MLs are comparable at face value and a dry-basis component ML applied at face value to a wet meal is conservative, so no basis conversion is performed. Numbers are NEVER occurrence-derived. Allowed provenance tags: regulatory-alignment, read-across, not-material, control, ratchet. See docs (CLAUDE.md Part 19) and the derivation report emitted alongside the compiled records. STAFF/HMTc content, not public wiki.",
+  "version": "cat35-v1.0 (2026-08-13)",
+  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
+  "subcategories": {
+    "mixed-meals-prepared-foods": {
+      "name": "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "as consumed / ready-to-eat (wet weight)",
+      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|meat of|poultry|bovine|pulse|legume|muscle meat of fish",
+      "audit_exclude_scope": "infant|baby|toddler|formula|juice|drink|nectar|oil\\b|oils\\b|margarine|spice|chocolate|cocoa|wine|\\bsalt\\b|honey|supplement|wafer|cracker|\\bwaffle|offal|dried|\\bfat\\b|seaweed|bran|germ",
+      "scope_note": "Adult and general-population frozen dinners, boxed meals, and ready-to-eat composite meals combining a starch/grain, a protein (meat, poultry, or fish), and vegetables (and often legumes/pulses). Infant and toddler mixed meals route to Category 1; a product that is primarily a single matrix (plain pasta, a single vegetable) routes to that matrix category. Bone broth is certified under Category 35 row bone-broth (mechanistically distinct hazard).",
+      "cells": {
+        "Pb": {
+          "component_read_across": {
+            "components": [
+              {"component": "cereal/grain", "source_id": "aunz_sch19_pb_cereals_200"},
+              {"component": "vegetable (root/tuber)", "source_id": "eu2023_pb_root_tuber_vegetables_100"},
+              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "aunz_sch19_pb_meat_100"},
+              {"component": "fish/seafood", "source_id": "eu2023_pb_fish_muscle_300"}
+            ],
+            "basis_label": "read-across from strictest applicable principal-component Pb ML (as consumed)",
+            "label": "strictest applicable component lead ML binds the composite; the vegetable and meat components (both 100 ug/kg) are stricter than the cereal (200) and fish (300) components"
+          }
+        },
+        "Cd": {
+          "component_read_across": {
+            "components": [
+              {"component": "pulses/legumes", "source_id": "eu2023_cd_pulses_40"},
+              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "eu2023_cd_meat_50"},
+              {"component": "cereal (barley/rye, strictest cereal)", "source_id": "eu2023_cd_barley_rye_50"},
+              {"component": "vegetable (root/tuber)", "source_id": "eu2023_cd_root_tuber_vegetables_100"}
+            ],
+            "basis_label": "read-across from strictest applicable principal-component Cd ML (as consumed)",
+            "label": "the pulse/legume component (EU 40 ug/kg) is the binding cadmium component; a prepared meal with a bean/lentil/soy component is held to the strictest applicable component ceiling"
+          }
+        },
+        "tAs": {
+          "component_read_across": {
+            "components": [
+              {"component": "cereal grains", "source_id": "aunz_sch19_tas_cereal_grains_1000"}
+            ],
+            "basis_label": "read-across from the cereal-grain total-arsenic ML (as consumed)",
+            "label": "cereal grains carry the only credible-regulator total-arsenic ML among the meal's components; total arsenic is a screen and the health-relevant inorganic fraction is controlled by the iAs cell",
+            "substantiation": "Total arsenic is a non-toxicological screen; the toxic species (inorganic arsenic) is controlled separately on the iAs cell at 100 ug/kg. The cereal-grain tAs ML (FSANZ, 1000 ug/kg) is the only applicable credible component anchor for total arsenic."
+          }
+        },
+        "iAs": {
+          "component_read_across": {
+            "components": [
+              {"component": "fish/seafood", "source_id": "eu20251891_ias_fish_other_100"},
+              {"component": "rice (milled)", "source_id": "eu2023_ias_rice_milled_150"}
+            ],
+            "basis_label": "read-across from strictest applicable inorganic-arsenic component ML (as consumed)",
+            "label": "inorganic arsenic is material where the meal contains a fish/seafood or rice component; the EU fish inorganic-arsenic ML (100 ug/kg) binds, stricter than the EU milled-rice ML (150)"
+          }
+        },
+        "tHg": {
+          "component_read_across": {
+            "components": [
+              {"component": "fish/seafood (muscle meat)", "source_id": "eu2023_hg_fish_general_500"}
+            ],
+            "basis_label": "read-across from the seafood total-mercury ML (as consumed)",
+            "label": "mercury is material only where the meal contains a seafood component; the composite inherits the EU seafood mercury ceiling (500 ug/kg). Terrestrial meat, cereals, and vegetables carry no credible mercury ML.",
+            "substantiation": "No credible regulator sets a mercury maximum level for terrestrial meat, cereals, or vegetables; mercury is a seafood-bioaccumulation hazard. A fish-containing prepared meal inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg total mercury). Methylmercury is bounded by this total-mercury ceiling (MeHg cell)."
+          }
+        },
+        "MeHg": {
+          "not_material": {
+            "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg) and its only formation pathway in a prepared meal is a seafood component, which is already governed by the total-mercury ceiling on the tHg cell. No credible regulator sets a methylmercury limit for a composite meal below the binding total-mercury ceiling.",
+            "reference_method": "Total-mercury screen (ICP-MS/CV-AAS); methylmercury speciation only on seafood-containing meals if total mercury approaches the ceiling.",
+            "bounded_by": "tHg"
+          }
+        },
+        "Ni": {
+          "component_read_across": {
+            "components": [
+              {"component": "vegetable (fruiting)", "source_id": "eu2024_ni_fruiting_veg_400"},
+              {"component": "cereal/grain", "source_id": "eu2024_ni_cereals_800"}
+            ],
+            "basis_label": "read-across from strictest applicable nickel component ML (EU 2024/1252, as consumed)",
+            "label": "the fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg) among the meal's components; Tier-2 analyte"
+          }
+        },
+        "Sn": {
+          "control": {
+            "rationale": "Inorganic tin is a tinplate/canned-food migration pathway, not a background dietary contaminant of a frozen or boxed meal. A CANNED prepared meal (canned ravioli, canned chili) is governed by the canned-foods tin ML (Codex CXS 193, 250 mg/kg = 250000 ug/kg); a frozen, chilled, or dry-packaged prepared meal has no tin source. Total tin is reported; a signal on a non-canned form triggers packaging-source investigation.",
+            "reference_method": "Total tin by ICP-MS; canned forms verified against the canned-foods tin ML.",
+            "companion_ml": "codex_cxs193_sn_canned_250000"
+          }
+        },
+        "Al": {
+          "control": {
+            "rationale": "No credible regulator sets an aluminium maximum level for prepared meals or their principal food components (aluminium food MLs exist only for specific matrices such as infant formula and certain additives). Aluminium is reported on the panel; an anomalous signal triggers investigation of cookware, packaging, and additive sources.",
+            "reference_method": "Total aluminium by ICP-MS; investigate-the-line screen, not a health limit.",
+            "bounded_by": null
+          }
+        },
+        "Cr": {
+          "control": {
+            "rationale": "No credible regulator sets a total-chromium maximum level for prepared meals or their food components. Total chromium is reported as a manufacturing-anomaly screen (stainless-equipment leaching); the toxic species (Cr-VI) is not material in a cooked wet food matrix (see Cr-VI cell).",
+            "reference_method": "Total chromium by ICP-MS; equipment-leaching tripwire, not a health limit.",
+            "bounded_by": "Cr-VI"
+          }
+        },
+        "Cr-VI": {
+          "not_material": {
+            "rationale": "Hexavalent chromium is not stable in a cooked, wet, organic-rich food matrix: it is reduced to trivalent chromium (Cr-III) by the food's reducing environment during cooking and digestion. A Cr-VI result in prepared food is a measurement artifact of the total-chromium screen, not a real exposure. No credible regulator sets a Cr-VI food ML.",
+            "reference_method": "Cr-VI is not measured routinely; total chromium (Cr cell) is the reported screen and bounds any hexavalent fraction.",
+            "bounded_by": "Cr"
+          }
+        }
+      }
+    },
+    "soups-broths-stocks": {
+      "name": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "as consumed / ready-to-serve (reconstituted to serving strength; dry-mix and bouillon assessed as prepared, not as the concentrate)",
+      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|meat of|poultry|bovine|pulse|legume|muscle meat of fish|canned food",
+      "audit_exclude_scope": "infant|baby|toddler|formula|juice|drink|nectar|oil\\b|oils\\b|margarine|spice|chocolate|cocoa|wine|\\bsalt\\b|honey|supplement|wafer|cracker|\\bwaffle|offal|dried|\\bfat\\b|seaweed|bran|germ|beverage",
+      "scope_note": "Canned soups, dry soup mixes, bouillon cubes and powders, and ready-to-drink carton stocks and broths, plant- or meat-based. Assessed on an as-consumed (reconstituted-to-serving) basis: a bouillon cube is evaluated as the prepared broth, not as the concentrated cube, because there is no legislated concentrate-to-serving ratio. Bone broth is certified separately under row bone-broth. Composite method identical to mixed meals; canned tin is genuinely material here (canned soup).",
+      "cells": {
+        "Pb": {
+          "component_read_across": {
+            "components": [
+              {"component": "vegetable (root/tuber)", "source_id": "eu2023_pb_root_tuber_vegetables_100"},
+              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "aunz_sch19_pb_meat_100"},
+              {"component": "cereal/grain (noodle soups)", "source_id": "aunz_sch19_pb_cereals_200"},
+              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu2023_pb_fish_muscle_300"}
+            ],
+            "basis_label": "read-across from strictest applicable principal-component Pb ML (as consumed)",
+            "label": "vegetable and meat components (both 100 ug/kg) are the strictest applicable lead anchors for stock/broth"
+          }
+        },
+        "Cd": {
+          "component_read_across": {
+            "components": [
+              {"component": "pulses/legumes (lentil/split-pea/bean soups)", "source_id": "eu2023_cd_pulses_40"},
+              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "eu2023_cd_meat_50"},
+              {"component": "cereal (barley soups)", "source_id": "eu2023_cd_barley_rye_50"},
+              {"component": "vegetable (root/tuber)", "source_id": "eu2023_cd_root_tuber_vegetables_100"}
+            ],
+            "basis_label": "read-across from strictest applicable principal-component Cd ML (as consumed)",
+            "label": "legume soups (lentil, split-pea, bean) make the EU pulse cadmium ML (40 ug/kg) the binding component"
+          }
+        },
+        "tAs": {
+          "component_read_across": {
+            "components": [
+              {"component": "cereal grains (noodle soups)", "source_id": "aunz_sch19_tas_cereal_grains_1000"}
+            ],
+            "basis_label": "read-across from the cereal-grain total-arsenic ML (as consumed)",
+            "label": "cereal grains carry the only credible-regulator total-arsenic ML among the components; the toxic inorganic fraction is controlled on the iAs cell",
+            "substantiation": "Total arsenic is a screen; inorganic arsenic (iAs cell, 100 ug/kg) controls the toxic species. Cereal-grain tAs ML (FSANZ, 1000 ug/kg) is the applicable credible component anchor."
+          }
+        },
+        "iAs": {
+          "component_read_across": {
+            "components": [
+              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu20251891_ias_fish_other_100"},
+              {"component": "rice (congee/rice soups)", "source_id": "eu2023_ias_rice_milled_150"}
+            ],
+            "basis_label": "read-across from strictest applicable inorganic-arsenic component ML (as consumed)",
+            "label": "seafood and rice components make inorganic arsenic material; EU fish iAs ML (100) binds, stricter than milled rice (150)"
+          }
+        },
+        "tHg": {
+          "component_read_across": {
+            "components": [
+              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu2023_hg_fish_general_500"}
+            ],
+            "basis_label": "read-across from the seafood total-mercury ML (as consumed)",
+            "label": "mercury is material only in seafood-based soups (bisque, chowder), which inherit the EU seafood mercury ceiling (500 ug/kg)",
+            "substantiation": "No credible regulator sets a mercury ML for terrestrial-meat or vegetable stock; a seafood bisque or chowder inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg). Methylmercury bounded by this total-mercury ceiling."
+          }
+        },
+        "MeHg": {
+          "not_material": {
+            "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg); its only pathway in a soup is a seafood component, governed by the total-mercury ceiling on the tHg cell. No credible regulator sets a methylmercury limit for a composite soup below the binding total-mercury ceiling.",
+            "reference_method": "Total-mercury screen; methylmercury speciation only on seafood-based soups approaching the ceiling.",
+            "bounded_by": "tHg"
+          }
+        },
+        "Ni": {
+          "component_read_across": {
+            "components": [
+              {"component": "vegetable (fruiting)", "source_id": "eu2024_ni_fruiting_veg_400"},
+              {"component": "cereal/grain", "source_id": "eu2024_ni_cereals_800"}
+            ],
+            "basis_label": "read-across from strictest applicable nickel component ML (EU 2024/1252, as consumed)",
+            "label": "fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg); Tier-2 analyte"
+          }
+        },
+        "Sn": {
+          "gov_ids": ["codex_cxs193_sn_canned_250000"],
+          "basis_label": "canned-foods tin maximum level (Codex CXS 193), directly applicable to canned soup",
+          "label": "Canned soup is a canned food and is directly governed by the canned-foods tin ML (Codex CXS 193, 250 mg/kg). Dry-mix, bouillon, and RTD-carton forms have no tin migration pathway; the ML binds the canned form.",
+          "substantiation": "The canned-foods tin ML is a DIRECT sovereign limit on the canned form (regulatory-alignment), not a component read-across. Non-canned soup forms (carton RTD, dry mix, bouillon) have no tinplate contact and no tin source; total tin is reported and any non-canned signal triggers packaging investigation."
+        },
+        "Al": {
+          "control": {
+            "rationale": "No credible regulator sets an aluminium maximum level for soups, stocks, or their food components. Reported as an investigate-the-line screen (cookware, packaging, additives).",
+            "reference_method": "Total aluminium by ICP-MS; screen, not a health limit.",
+            "bounded_by": null
+          }
+        },
+        "Cr": {
+          "control": {
+            "rationale": "No credible regulator sets a total-chromium maximum level for soups or their components. Reported as a stainless-equipment-leaching screen; the toxic species is not material (Cr-VI cell).",
+            "reference_method": "Total chromium by ICP-MS; equipment-leaching tripwire.",
+            "bounded_by": "Cr-VI"
+          }
+        },
+        "Cr-VI": {
+          "not_material": {
+            "rationale": "Hexavalent chromium is reduced to Cr-III in a cooked, wet, organic-rich matrix; a Cr-VI result in soup or broth is an artifact of the total-chromium screen, not real exposure. No credible regulator sets a Cr-VI food ML.",
+            "reference_method": "Cr-VI not measured routinely; total chromium (Cr cell) bounds any hexavalent fraction.",
+            "bounded_by": "Cr"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "slug": "mixed-meals-prepared-foods",
+  "name": "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
+  "category": 35,
+  "category_name": "Prepared and Packaged Meals",
+  "anchor": "composite; per-component regulatory anchors apply",
+  "provisional_scaffold": false,
+  "cross_reference": null,
+  "native_basis": "as_consumed",
+  "native_basis_label": "as consumed / ready-to-eat (wet weight)",
+  "scope_note": "Adult and general-population frozen dinners, boxed meals, and ready-to-eat composite meals combining a starch/grain, a protein (meat, poultry, or fish), and vegetables (and often legumes/pulses). Infant and toddler mixed meals route to Category 1; a product that is primarily a single matrix (plain pasta, a single vegetable) routes to that matrix category. Bone broth is certified under Category 35 row bone-broth (mechanistically distinct hazard).",
+  "method": "HMTc Method v2.0 (government-limit default; COMPOSITE — disclosed read-across from strictest applicable principal-component sovereign ML; never occurrence-derived)",
+  "provenance_tags_allowed": [
+    "regulatory-alignment",
+    "read-across",
+    "not-material",
+    "control",
+    "ratchet"
+  ],
+  "cells": {
+    "Pb": {
+      "type": "read_across",
+      "value": 100,
+      "value_exact": 100,
+      "provenance": "read-across",
+      "binding_component": "vegetable (root/tuber)",
+      "binding_id": "eu2023_pb_root_tuber_vegetables_100",
+      "binding_jurisdiction": "EU",
+      "basis": "read-across from strictest applicable principal-component Pb ML (as consumed)",
+      "components": [
+        {
+          "component": "vegetable (root/tuber)",
+          "source_id": "eu2023_pb_root_tuber_vegetables_100",
+          "value": 100,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        },
+        {
+          "component": "meat (cattle/sheep/pig/poultry)",
+          "source_id": "aunz_sch19_pb_meat_100",
+          "value": 100,
+          "jurisdiction": "AU-NZ",
+          "basis": "portion ordinarily consumed"
+        },
+        {
+          "component": "cereal/grain",
+          "source_id": "aunz_sch19_pb_cereals_200",
+          "value": 200,
+          "jurisdiction": "AU-NZ",
+          "basis": "portion ordinarily consumed"
+        },
+        {
+          "component": "fish/seafood",
+          "source_id": "eu2023_pb_fish_muscle_300",
+          "value": 300,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        }
+      ],
+      "label": "strictest applicable component lead ML binds the composite; the vegetable and meat components (both 100 ug/kg) are stricter than the cereal (200) and fish (300) components",
+      "stricter_unselected": [],
+      "substantiation": null
+    },
+    "Cd": {
+      "type": "read_across",
+      "value": 40,
+      "value_exact": 40,
+      "provenance": "read-across",
+      "binding_component": "pulses/legumes",
+      "binding_id": "eu2023_cd_pulses_40",
+      "binding_jurisdiction": "EU",
+      "basis": "read-across from strictest applicable principal-component Cd ML (as consumed)",
+      "components": [
+        {
+          "component": "pulses/legumes",
+          "source_id": "eu2023_cd_pulses_40",
+          "value": 40,
+          "jurisdiction": "EU",
+          "basis": "product as placed on market"
+        },
+        {
+          "component": "meat (cattle/sheep/pig/poultry)",
+          "source_id": "eu2023_cd_meat_50",
+          "value": 50,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        },
+        {
+          "component": "cereal (barley/rye, strictest cereal)",
+          "source_id": "eu2023_cd_barley_rye_50",
+          "value": 50,
+          "jurisdiction": "EU",
+          "basis": "product as placed on market"
+        },
+        {
+          "component": "vegetable (root/tuber)",
+          "source_id": "eu2023_cd_root_tuber_vegetables_100",
+          "value": 100,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        }
+      ],
+      "label": "the pulse/legume component (EU 40 ug/kg) is the binding cadmium component; a prepared meal with a bean/lentil/soy component is held to the strictest applicable component ceiling",
+      "stricter_unselected": [],
+      "substantiation": null
+    },
+    "tAs": {
+      "type": "read_across",
+      "value": 1000,
+      "value_exact": 1000,
+      "provenance": "read-across",
+      "binding_component": "cereal grains",
+      "binding_id": "aunz_sch19_tas_cereal_grains_1000",
+      "binding_jurisdiction": "AU-NZ",
+      "basis": "read-across from the cereal-grain total-arsenic ML (as consumed)",
+      "components": [
+        {
+          "component": "cereal grains",
+          "source_id": "aunz_sch19_tas_cereal_grains_1000",
+          "value": 1000,
+          "jurisdiction": "AU-NZ",
+          "basis": "portion ordinarily consumed"
+        }
+      ],
+      "label": "cereal grains carry the only credible-regulator total-arsenic ML among the meal's components; total arsenic is a screen and the health-relevant inorganic fraction is controlled by the iAs cell",
+      "stricter_unselected": [],
+      "substantiation": "Total arsenic is a non-toxicological screen; the toxic species (inorganic arsenic) is controlled separately on the iAs cell at 100 ug/kg. The cereal-grain tAs ML (FSANZ, 1000 ug/kg) is the only applicable credible component anchor for total arsenic."
+    },
+    "iAs": {
+      "type": "read_across",
+      "value": 100,
+      "value_exact": 100,
+      "provenance": "read-across",
+      "binding_component": "fish/seafood",
+      "binding_id": "eu20251891_ias_fish_other_100",
+      "binding_jurisdiction": "EU",
+      "basis": "read-across from strictest applicable inorganic-arsenic component ML (as consumed)",
+      "components": [
+        {
+          "component": "fish/seafood",
+          "source_id": "eu20251891_ias_fish_other_100",
+          "value": 100,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        },
+        {
+          "component": "rice (milled)",
+          "source_id": "eu2023_ias_rice_milled_150",
+          "value": 150,
+          "jurisdiction": "EU",
+          "basis": "product as placed on market"
+        }
+      ],
+      "label": "inorganic arsenic is material where the meal contains a fish/seafood or rice component; the EU fish inorganic-arsenic ML (100 ug/kg) binds, stricter than the EU milled-rice ML (150)",
+      "stricter_unselected": [],
+      "substantiation": null
+    },
+    "tHg": {
+      "type": "read_across",
+      "value": 500,
+      "value_exact": 500,
+      "provenance": "read-across",
+      "binding_component": "fish/seafood (muscle meat)",
+      "binding_id": "eu2023_hg_fish_general_500",
+      "binding_jurisdiction": "EU",
+      "basis": "read-across from the seafood total-mercury ML (as consumed)",
+      "components": [
+        {
+          "component": "fish/seafood (muscle meat)",
+          "source_id": "eu2023_hg_fish_general_500",
+          "value": 500,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        }
+      ],
+      "label": "mercury is material only where the meal contains a seafood component; the composite inherits the EU seafood mercury ceiling (500 ug/kg). Terrestrial meat, cereals, and vegetables carry no credible mercury ML.",
+      "stricter_unselected": [],
+      "substantiation": "No credible regulator sets a mercury maximum level for terrestrial meat, cereals, or vegetables; mercury is a seafood-bioaccumulation hazard. A fish-containing prepared meal inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg total mercury). Methylmercury is bounded by this total-mercury ceiling (MeHg cell)."
+    },
+    "MeHg": {
+      "type": "not_material",
+      "value": null,
+      "provenance": "not-material",
+      "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg) and its only formation pathway in a prepared meal is a seafood component, which is already governed by the total-mercury ceiling on the tHg cell. No credible regulator sets a methylmercury limit for a composite meal below the binding total-mercury ceiling.",
+      "reference_method": "Total-mercury screen (ICP-MS/CV-AAS); methylmercury speciation only on seafood-containing meals if total mercury approaches the ceiling.",
+      "bounded_by": "tHg",
+      "substantiation": null
+    },
+    "Ni": {
+      "type": "read_across",
+      "value": 400,
+      "value_exact": 400,
+      "provenance": "read-across",
+      "binding_component": "vegetable (fruiting)",
+      "binding_id": "eu2024_ni_fruiting_veg_400",
+      "binding_jurisdiction": "EU",
+      "basis": "read-across from strictest applicable nickel component ML (EU 2024/1252, as consumed)",
+      "components": [
+        {
+          "component": "vegetable (fruiting)",
+          "source_id": "eu2024_ni_fruiting_veg_400",
+          "value": 400,
+          "jurisdiction": "EU",
+          "basis": "wet weight"
+        },
+        {
+          "component": "cereal/grain",
+          "source_id": "eu2024_ni_cereals_800",
+          "value": 800,
+          "jurisdiction": "EU",
+          "basis": "product as placed on market"
+        }
+      ],
+      "label": "the fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg) among the meal's components; Tier-2 analyte",
+      "stricter_unselected": [],
+      "substantiation": null
+    },
+    "Sn": {
+      "type": "control",
+      "value": null,
+      "provenance": "control",
+      "rationale": "Inorganic tin is a tinplate/canned-food migration pathway, not a background dietary contaminant of a frozen or boxed meal. A CANNED prepared meal (canned ravioli, canned chili) is governed by the canned-foods tin ML (Codex CXS 193, 250 mg/kg = 250000 ug/kg); a frozen, chilled, or dry-packaged prepared meal has no tin source. Total tin is reported; a signal on a non-canned form triggers packaging-source investigation.",
+      "reference_method": "Total tin by ICP-MS; canned forms verified against the canned-foods tin ML.",
+      "bounded_by": null,
+      "companion_ml": "codex_cxs193_sn_canned_250000"
+    },
+    "Al": {
+      "type": "control",
+      "value": null,
+      "provenance": "control",
+      "rationale": "No credible regulator sets an aluminium maximum level for prepared meals or their principal food components (aluminium food MLs exist only for specific matrices such as infant formula and certain additives). Aluminium is reported on the panel; an anomalous signal triggers investigation of cookware, packaging, and additive sources.",
+      "reference_method": "Total aluminium by ICP-MS; investigate-the-line screen, not a health limit.",
+      "bounded_by": null,
+      "companion_ml": null
+    },
+    "Cr": {
+      "type": "control",
+      "value": null,
+      "provenance": "control",
+      "rationale": "No credible regulator sets a total-chromium maximum level for prepared meals or their food components. Total chromium is reported as a manufacturing-anomaly screen (stainless-equipment leaching); the toxic species (Cr-VI) is not material in a cooked wet food matrix (see Cr-VI cell).",
+      "reference_method": "Total chromium by ICP-MS; equipment-leaching tripwire, not a health limit.",
+      "bounded_by": "Cr-VI",
+      "companion_ml": null
+    },
+    "Cr-VI": {
+      "type": "not_material",
+      "value": null,
+      "provenance": "not-material",
+      "rationale": "Hexavalent chromium is not stable in a cooked, wet, organic-rich food matrix: it is reduced to trivalent chromium (Cr-III) by the food's reducing environment during cooking and digestion. A Cr-VI result in prepared food is a measurement artifact of the total-chromium screen, not a real exposure. No credible regulator sets a Cr-VI food ML.",
+      "reference_method": "Cr-VI is not measured routinely; total chromium (Cr cell) is the reported screen and bounds any hexavalent fraction.",
+      "bounded_by": "Cr",
+      "substantiation": null
+    }
+  },
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "config": "tools/standards/cat35-config.json",
+  "version": "cat35-v1.0 (2026-08-13)",
+  "generated_at_note": "run date recorded in git commit; Date.now() intentionally not embedded"
+}
