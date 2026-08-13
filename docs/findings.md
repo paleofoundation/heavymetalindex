@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-64 open item(s): 25 auto, 39 awaiting a decision.
+65 open item(s): 25 auto, 40 awaiting a decision.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
@@ -552,6 +552,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/standards/cat28-config.json`
 - repro: CAT 28 nuts-seeds-other binds Ni 3500 (EU general tree-nut ML). EU 2024/1987 deliberately sets a looser Ni 10000 for the high-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts) because they hyperaccumulate nickel. The catch-all currently ratchets those to 3500 (disclosed in the config scope_note). A dedicated high-Ni-nut subcategory would preserve the EU form split instead of ratcheting; this is a taxonomy/Step-0 decision.
 - done when: Karen decides whether to split the high-nickel tree nuts into their own row
+- decision: _pending_
+
+### OI-20260813-notmaterial-nopathway-basis-class — 20 not-material rows use invalid basis_class no-pathway (should be no-migration-pathway) — fails the build-blocking substantiation gate, reddening main prebuild
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-not-material-audit.csv`
+- repro: node tools/evidence/audit-not-material-substantiation.mjs reports 20 FAIL: missing/invalid basis_class no-pathway. Rows are chocolate, confectionery-candy, gummies-jellies, spices, salt, hot-chili-sauces, bouillon-seasoning-blends (MeHg/Sn/Cd/tHg/Ni/Al/Cr-VI cells), introduced by the Cat 33/34 standards build (origin/main a24c23d5a / 931178d51). The substantiation gate is build-blocking in prebuild, so main build is red independent of Cat 26.
+- done when: audit-not-material-substantiation.mjs reports 0 FAIL; each of the 20 rows carries a valid CLASS_VOCAB basis_class that matches its rationale — MeHg and Sn no-source rows map to no-migration-pathway; the Cd/Ni/Al/tHg/Cr-VI food rows are reviewed per-row rather than blanket-renamed (some may be speciation-bounded or natural-accumulator); standards-not-material-audit.csv regenerated to match; firewall-no-threshold and method lints clean
 - decision: _pending_
 
 ### OI-20260813-not-material-backlog-contradictions — standards-not-material.csv has 70 not-material determinations (in categories other than 33/34) contradicted by routed sources per audit-not-material-integrity.mjs — a pre-existing backlog to re-adjudicate to control/real-limit
