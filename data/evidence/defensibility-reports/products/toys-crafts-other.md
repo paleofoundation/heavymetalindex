@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-crafts-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 617e74e614cb6465f9978d97ddffe8200e5f4adf17e95799b7b9b5e4f86bf9cb
+source_page_sha256: 69ea11b059a3f21d75dc5cb949af4eeacb0687114aa1978c5e20398a2e29a042
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

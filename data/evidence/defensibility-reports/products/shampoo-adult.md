@@ -2,7 +2,7 @@
 source_page: wiki/products/shampoo-adult.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 16fb02834d3fea04ec97ecad90205e03854db80830761500ca034d0010e8cd47
+source_page_sha256: 5a850cf2149fe701cb80254e5aac0824bf7a6fe85cedacdf5272bc938eaa7d59
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

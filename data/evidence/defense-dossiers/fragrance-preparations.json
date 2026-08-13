@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fragrance-preparations",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "439dc48e3b1a8e4a029ca385fbd139c43d8a69d314ff4ea351c1dec162b3f0d4",
-      "content_bytes": 10170,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "bfdea064a28876f1848842f7c6cf277b309aa18347bb21114c70f22a3768b5df",
+      "content_bytes": 10158,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/fragrance-preparations.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/fragrance-preparations.md | sha256sum"
     }
   },
   "evidence_base": {

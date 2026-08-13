@@ -2,7 +2,7 @@
 source_page: wiki/products/fresh-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5b8e3933e8094a19c90989ed8f496424b442e85ad012bcf59889009261c0706a
+source_page_sha256: 47ce82aacbe566f5f4734fa0ee81c48c663e1c60acf8fa2105279b310c35da0a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

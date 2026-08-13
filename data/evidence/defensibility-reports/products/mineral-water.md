@@ -2,7 +2,7 @@
 source_page: wiki/products/mineral-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 939f00c294b812ddb79ed7aaac2765f49e6d36681c2c43d28520f37131a2ae5c
+source_page_sha256: 4f270c634aeb92f78905c0d4a58f50d52bffb4dd8e9c423e2dab33d4f5e33b32
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

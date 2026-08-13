@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/other-grain-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "838e67ea7b0a695bac9a81fd222d7eb499b2eeefe654f93da756f7cb54ae9560",
-      "content_bytes": 23205,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "45d45e898eabb23039f8d51cde0786e6e2144165336d568de70af480dae0c15f",
+      "content_bytes": 23193,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/other-grain-products.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/other-grain-products.md | sha256sum"
     }
   },
   "evidence_base": {

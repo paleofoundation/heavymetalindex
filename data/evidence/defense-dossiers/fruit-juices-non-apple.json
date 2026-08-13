@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fruit-juices-non-apple",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "738505d776ab8ad03b1f5ffc5ba960354eaa8a6b3529616aa9cfa97a2e622be6",
+      "content_sha256": "8a92963c431ccf7b16e322b3a4718931be609c94de3c2fbfbcac73006bafcaf0",
       "content_bytes": 33798,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/fruit-juices-non-apple.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/fruit-juices-non-apple.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -202,12 +202,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "65d9a50befbe565cf51475c07f6e21d2415c51abb7e7d965df439b27cc501493",
-          "content_bytes": 20768,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "9533e9ba39f7e7efa8f62cb73ee140c22de0708257c0715a1222b1661c8ddd8e",
+          "content_bytes": 20761,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
         }
       },
       {

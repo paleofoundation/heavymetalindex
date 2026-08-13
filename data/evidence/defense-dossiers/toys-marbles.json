@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-marbles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "37e9bff7f19e2cab17bce2214deeb252c4f923c5b45a0522c9b0fa1f0dda0092",
-      "content_bytes": 7589,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "dd2988e1fe2a2cab84bba86b498aaeced86b57624a5d30e4e8e1d22a214c529c",
+      "content_bytes": 7591,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/toys-marbles.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/toys-marbles.md | sha256sum"
     }
   },
   "evidence_base": {

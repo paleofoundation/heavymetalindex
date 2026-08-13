@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-metal-bottles-tumblers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "21ab3406b4a50243365bdc058c55c8ab5d9825ab802244fc6d67ceda199ef803",
-      "content_bytes": 9797,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "0c5451037407fccfec8338dd392b8904b00d7b134ddffc543298afc61809e3fa",
+      "content_bytes": 9785,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/tableware-metal-bottles-tumblers.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/tableware-metal-bottles-tumblers.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-non-soy-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "06aff30f0f5ed2e34d20d930f0f67d6c46ad655bcb048358fce8cc0ee8c51b98",
-      "content_bytes": 18225,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "ab34342dbe784e692b35f1672d550bd855fabe765beb4c9aea290b928c8b2f2d",
+      "content_bytes": 18193,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {

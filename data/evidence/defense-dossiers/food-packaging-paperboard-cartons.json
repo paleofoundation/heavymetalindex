@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-paperboard-cartons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "446b3c8e372de65f24ffba8cabe16df69913df8f39d675104c3c528825363f9b",
-      "content_bytes": 8978,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "ffd4530fd29795cd8c53838eb941b937a57083b497b98ae324c434fa7a165bca",
+      "content_bytes": 8966,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/food-packaging-paperboard-cartons.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/food-packaging-paperboard-cartons.md | sha256sum"
     }
   },
   "evidence_base": {

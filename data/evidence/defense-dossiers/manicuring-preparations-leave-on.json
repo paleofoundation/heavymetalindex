@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/manicuring-preparations-leave-on",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3a538393827ce54732b66babee7909acdca3c8f77dc2ee89b1d85dea4124d72b",
-      "content_bytes": 12243,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "b3f38a0f219618dd314c01b714d074e5d6e54c95e27db4395cb667e67bfd8180",
+      "content_bytes": 12231,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/manicuring-preparations-leave-on.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/manicuring-preparations-leave-on.md | sha256sum"
     }
   },
   "evidence_base": {

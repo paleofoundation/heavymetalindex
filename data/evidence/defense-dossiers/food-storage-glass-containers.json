@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-glass-containers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a30162f19311a3a3bb60f7d29a63a4cdd2b68a7dbe35aeedad31abf07752dbde",
-      "content_bytes": 8537,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "dfdd24247a765786de9887b44700540e4159b96d1a9c7d19a56827800f950188",
+      "content_bytes": 8530,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/food-storage-glass-containers.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/food-storage-glass-containers.md | sha256sum"
     }
   },
   "evidence_base": {

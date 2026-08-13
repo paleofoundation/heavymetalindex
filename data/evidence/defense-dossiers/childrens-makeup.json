@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-makeup",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6010900fcd3d9d238f3d7ac6b0fa1dbb239df06fd5141f43eae890ebdb8ab96a",
-      "content_bytes": 18786,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "8258082f3ac320ecf52cc64d933bdd9221bd1b8e1ea9b0546d3557981f49e079",
+      "content_bytes": 18779,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/childrens-makeup.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/childrens-makeup.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -433,12 +433,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics",
         "content_pin": {
-          "content_sha256": "c4008676279a195e673d8203638846c7959ca53f29d8d713a4480a5512306da6",
-          "content_bytes": 31338,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "558c325224d25ac17517019e4cb9cd0b82e014827c91088e920eea9aa2f8fc70",
+          "content_bytes": 31331,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
         }
       },
       {

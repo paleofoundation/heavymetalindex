@@ -2,7 +2,7 @@
 source_page: wiki/products/butter-and-ghee.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5b45b7297ca3f3f829216ed1b729d38c05c49772da9c3bc856ec0369c8a4e293
+source_page_sha256: 155d264fa695a3f32e977be0c272bf831573630f564f74ad81189a78c94f65c1
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

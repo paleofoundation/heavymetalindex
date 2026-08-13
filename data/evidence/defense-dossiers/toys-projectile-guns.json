@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-projectile-guns",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ed0bb8d5809b8b610eb42d6776b24aa1af06b0a63b39ae0bf708070cf4d7b4a",
-      "content_bytes": 8971,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "98aeab60eb8f18bb17a7b030c632a543e4837d24e37926e2310e2c14480eaa8f",
+      "content_bytes": 8964,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/toys-projectile-guns.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/toys-projectile-guns.md | sha256sum"
     }
   },
   "evidence_base": {

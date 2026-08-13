@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/spinach",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "66df6656bc2df5f3ee1976d82b77d0e379dc55d69604d588b106967c6794ac79",
+      "content_sha256": "70b684349c19ba73737f53f2686f35d8691b3b2f21626ac177b6306db8dd226d",
       "content_bytes": 19351,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/spinach.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/spinach.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -84,6 +84,7 @@ lines.push(`- [Audit dashboard](${BASE}/audits): the wiki's defensibility scorec
 lines.push(`- [Methodology](${BASE}/methodology): how evidence is selected, graded, and synthesized.`)
 lines.push(`- [Editorial standards](${BASE}/editorial-standards)`)
 lines.push(`- [Licensing & downstream use](${BASE}/licensing)`)
+lines.push(`- [Data & downloads](${BASE}/data): the occurrence and regulatory data as machine-readable JSON + CSV, with schema.org Dataset markup.`)
 lines.push("")
 lines.push(
   "Each reference page carries a visible citation block plus Highwire / Google " +

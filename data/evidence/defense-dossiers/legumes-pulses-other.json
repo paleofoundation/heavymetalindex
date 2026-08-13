@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/legumes-pulses-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2eca9a221d4ac1be3582f2495314ac167c01524bae496b2f82c7c7cc20ddbb9e",
+      "content_sha256": "298a92ede268b29ccb124484b8ff0d04af8e8ee5439e32c38126a4c48aa63f33",
       "content_bytes": 21355,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/legumes-pulses-other.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/legumes-pulses-other.md | sha256sum"
     }
   },
   "evidence_base": {

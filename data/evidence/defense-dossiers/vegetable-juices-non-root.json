@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vegetable-juices-non-root",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "649914682663ce35c12298e116a84b2bcc3dc68ab204fd4df2a29ecc8e234696",
+      "content_sha256": "dc5f0d4a9638ea135a8343577f15950d22ba5b0e9e996192d2b5058c3a02d7ef",
       "content_bytes": 11644,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/vegetable-juices-non-root.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/vegetable-juices-non-root.md | sha256sum"
     }
   },
   "evidence_base": {

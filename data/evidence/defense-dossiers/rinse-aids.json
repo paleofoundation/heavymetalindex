@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rinse-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26de2576150ae3c46629b98c64858b1ee53ff9abc2f01291ceb81580d12dead6",
-      "content_bytes": 13643,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "a15e6f33703d8c1e40572cc53b63546be4d432419637c804adbd88f7d282c8a3",
+      "content_bytes": 13636,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/rinse-aids.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/rinse-aids.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -137,12 +137,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
-          "content_bytes": 31788,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "bb04c7977401c7d782774761a9a437937b43b29ad2df4afe7bc23e44ba027ef3",
+          "content_bytes": 31795,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       }
     ]

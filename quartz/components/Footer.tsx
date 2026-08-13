@@ -35,7 +35,7 @@ const footerSections = [
   {
     title: "Professional",
     links: [
-      ["Structured exports", "/licensing"],
+      ["Data and downloads", "/data"],
       ["Regulatory diff alerts", "/log"],
       ["Licensing and reuse", "/licensing"],
       ["Contact", "/contact"],

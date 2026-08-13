@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/diapers-and-components",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "afcd0b6e7b39e7ba94ddf03489b547acaf3c67ede16da297116328381dbad8ca",
-      "content_bytes": 16089,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "30db0b6ced6d771a13465f84721065f17903fe99fe17d93caf416971355491c1",
+      "content_bytes": 16082,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/diapers-and-components.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/diapers-and-components.md | sha256sum"
     }
   },
   "evidence_base": {

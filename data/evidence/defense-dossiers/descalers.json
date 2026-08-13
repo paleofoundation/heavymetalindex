@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/descalers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "35bdfa98121d51f84cafa0827aba8003a811a284e46329f3b34d0674b03216e6",
-      "content_bytes": 9279,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "599e5d18170c3f9eff4b97d9dd3c65b87d3049182df81909f6b888bbc34711db",
+      "content_bytes": 9272,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/descalers.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/descalers.md | sha256sum"
     }
   },
   "evidence_base": {

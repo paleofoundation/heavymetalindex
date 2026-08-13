@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/matcha",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ad91efd907f6a81334eaebbb3987439a30334e4d8385992dbc27d50ffe97e99e",
-      "content_bytes": 12788,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "59de1da8552a73431a401ca3baac49dfdf581c8e2eb83cd50996ff09d3727493",
+      "content_bytes": 12772,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/matcha.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/matcha.md | sha256sum"
     }
   },
   "evidence_base": {

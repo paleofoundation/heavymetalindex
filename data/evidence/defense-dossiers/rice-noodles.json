@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-noodles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "449c720173399461081f42c465fb58cf4165cde8bcc8eac0033b133ed403787a",
-      "content_bytes": 9546,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "2e6e1f4c02845a73472bf75946bc9436b1acb7a77c2ac33ab0ae853417e1818e",
+      "content_bytes": 9534,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/rice-noodles.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/rice-noodles.md | sha256sum"
     }
   },
   "evidence_base": {

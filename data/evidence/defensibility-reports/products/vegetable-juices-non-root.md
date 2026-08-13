@@ -2,7 +2,7 @@
 source_page: wiki/products/vegetable-juices-non-root.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a7a5fa96a31f962b9c87cbc1f35f459e1e11b028543c8a8bcd2fc86091bec7f2
+source_page_sha256: c0e547ecb2a8d3ae0a2529e8e2bb4e70fb5b6c5fd039e1d8873741c44c23a462
 total_claims: 4
 cited_claims: 4
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 3
 distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

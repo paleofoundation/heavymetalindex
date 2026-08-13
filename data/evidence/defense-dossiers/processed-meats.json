@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/processed-meats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "92213069814ee14065ec7e4f8fe4e6b8e3ab769cdafc2ffd6268c2e2503840f4",
-      "content_bytes": 16522,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "a53d1ab37ec5c4547ba6d40d6dd57f7914409812e5340d1b7374599056a95158",
+      "content_bytes": 16485,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/processed-meats.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/processed-meats.md | sha256sum"
     }
   },
   "evidence_base": {

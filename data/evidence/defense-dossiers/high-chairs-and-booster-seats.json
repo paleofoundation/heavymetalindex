@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/high-chairs-and-booster-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "046cadfb99af058b3741670f13e69a7d0ccce7009a5de2d951952bc2e8f4076a",
-      "content_bytes": 9241,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "015f17978bfe2365ae1f2257ccedfc4095572f3fd8fb7d43b2f151966bb0de66",
+      "content_bytes": 9234,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
     }
   },
   "evidence_base": {

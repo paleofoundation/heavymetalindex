@@ -67,6 +67,15 @@ const jobs = [
     plannedRows: 8,
   },
   {
+    category: 16,
+    name: "Dietary Supplements (Human)",
+    config: "tools/standards/cat16-config.json",
+    outdir: "data/workbench/standards/cat16-compiled",
+    compiler: "cat16",
+    plannedRows: 24,
+    note: "Child-protective over-compliance: every subcategory is set to the strictest sovereign infant-and-child-food maximum level (Ages 0-5) and held to it regardless of adult/child labeling. Cr, Cr-VI, and MeHg are mandatory controls (no infant-food total-Cr ML; Cr-VI reduces to Cr-III; MeHg bounded by tHg with lot speciation on marine-source classes). The adult floor (supplement ML / USP <2232> / Prop 65 MADL) is disclosed on every cell and never selects the number.",
+  },
+  {
     category: 24,
     name: "Dairy and Milk Products",
     config: "tools/standards/cat24-config.json",
@@ -96,10 +105,15 @@ const policyBlocked = [
   },
 ]
 
+const COMPILER_SCRIPT = {
+  cat1: "tools/standards/compile-cat1.mjs",
+  cat9: "tools/standards/compile-cat9.mjs",
+  cat16: "tools/standards/compile-cat16.mjs",
+}
+
 function runCompiler(job, outputDirectory = job.outdir) {
-  const args = job.compiler === "cat9"
-    ? ["tools/standards/compile-cat9.mjs", `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
-    : ["tools/standards/compile-cat1.mjs", `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
+  const script = COMPILER_SCRIPT[job.compiler] || COMPILER_SCRIPT.cat1
+  const args = [script, `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
   const result = spawnSync(process.execPath, args, { cwd: REPO, encoding: "utf8" })
   if (result.status !== 0) {
     process.stderr.write(result.stdout || "")

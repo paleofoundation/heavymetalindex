@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/grain-based-snacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cd35c4d5440dfac6c8fb0cede812e2cab91ef63f7735ed4496d10c5c51c7b176",
-      "content_bytes": 2103,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "0920f39d5be4317ff58dc1d0634a4ce0857894264258d8ed13128d4640bed4fd",
+      "content_bytes": 2085,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/grain-based-snacks.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/grain-based-snacks.md | sha256sum"
     }
   },
   "evidence_base": {

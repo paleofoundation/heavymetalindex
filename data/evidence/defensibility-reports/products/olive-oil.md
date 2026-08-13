@@ -2,7 +2,7 @@
 source_page: wiki/products/olive-oil.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 43403a02940dc88a579f47ae65ac6c9f0de8ec27b0fe71bcac2d8c9648f5c416
+source_page_sha256: 22b301f1b0b0d8093132bbd8e96e8b9d05ba2407037d1f5115c37919bb3ff605
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

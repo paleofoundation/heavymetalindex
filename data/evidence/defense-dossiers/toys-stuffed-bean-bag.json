@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-stuffed-bean-bag",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "70971522e582c8e1cc26a1a209b0a2707cc309667eec1418ede95c9a387e4183",
-      "content_bytes": 10669,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "978fe1af6fe6179b0f1cc419e090ef1548854a5863e2b0403f9d2fe942156b66",
+      "content_bytes": 10662,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/toys-stuffed-bean-bag.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/toys-stuffed-bean-bag.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/game-meats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d30391a28c0c08da8845a92d25fe5cdb489539a5b76f4475fd53458a2ac439e1",
-      "content_bytes": 16943,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "e56ef7d6f4b9ceaaaefcbddeb3ebd631e21afe7e264b4fa8dc0b223f53aabc81",
+      "content_bytes": 16906,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/game-meats.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/game-meats.md | sha256sum"
     }
   },
   "evidence_base": {

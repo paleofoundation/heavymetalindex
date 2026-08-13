@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/non-root-vegetable-purees",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f23933c381bd7772601daee859f99518b095f7986ac3802b074460fc2bf06a9f",
-      "content_bytes": 42974,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "4a17eb41db47fdf82e2dbcaccd04d3b18bc5c860f391b1e570b0d2da8a6a1120",
+      "content_bytes": 42957,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/non-root-vegetable-purees.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/non-root-vegetable-purees.md | sha256sum"
     }
   },
   "evidence_base": {

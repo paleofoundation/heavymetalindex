@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-12",
+  "generated_on": "2026-08-13",
   "method": "HMTc government-limit-only initial standard; exact sovereign maximum, then disclosed sovereign read-across, then explicit control/no-numeric determination",
   "canonical_panel": {
     "totals": [
@@ -4491,6 +4491,2094 @@
       ]
     },
     {
+      "category": 16,
+      "name": "Dietary Supplements (Human)",
+      "config": "tools/standards/cat16-config.json",
+      "output_directory": "data/workbench/standards/cat16-compiled",
+      "planned_rows": 24,
+      "compiled_rows": 24,
+      "compiled_variants": 24,
+      "unresolved_rows": [],
+      "status": "all-rows-resolved-with-controls",
+      "total_cells": 192,
+      "numeric_total_cells": 168,
+      "controlled_total_cells": 24,
+      "numeric_species_cells": 24,
+      "controlled_species_cells": 48,
+      "type_counts": {
+        "read_across": 192,
+        "control": 72
+      },
+      "defects": [],
+      "note": "Child-protective over-compliance: every subcategory is set to the strictest sovereign infant-and-child-food maximum level (Ages 0-5) and held to it regardless of adult/child labeling. Cr, Cr-VI, and MeHg are mandatory controls (no infant-food total-Cr ML; Cr-VI reduces to Cr-III; MeHg bounded by tHg with lot speciation on marine-source classes). The adult floor (supplement ML / USP <2232> / Prop 65 MADL) is disclosed on every cell and never selects the number.",
+      "rows": [
+        {
+          "slug": "supplements-oral-solids-tablets",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-capsules",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-softgels",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-gummies",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-lozenges",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-powders",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-solids-effervescent",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-liquids-tinctures",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-liquids-syrups",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-liquids-shots",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oral-liquids-droppers",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-teas-labeled",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-bars-labeled",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-vitamin-mineral",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-botanicals-herbs",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-amino-acids-isolates",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-enzymes",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-probiotics",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-algae-seaweed-based",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-protein-collagen-powders",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-oil-based",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-clay-mineral-earth",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-mushroom-fungal",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "supplements-greens-superfood",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_formula_10"
+              },
+              "Cd": {
+                "display": "5 RA",
+                "type": "read_across",
+                "value": 5,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_formula_cow_liquid_5"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "in_tas_infant-milk-substitute-and-infant-foods_50"
+              },
+              "iAs": {
+                "display": "10 RA",
+                "type": "read_across",
+                "value": 10,
+                "unit": "ug/kg",
+                "source": "eu2023_ias_formula_liquid_10"
+              },
+              "tHg": {
+                "display": "4 RA",
+                "type": "read_across",
+                "value": 4,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
+              },
+              "MeHg": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "5000 RA",
+                "type": "read_across",
+                "value": 5000,
+                "unit": "ug/kg",
+                "source": "in_sn_infant-milk-substitute-and-infant-foods_5000"
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "category": 24,
       "name": "Dairy and Milk Products",
       "config": "tools/standards/cat24-config.json",
@@ -5654,11 +7742,11 @@
     }
   ],
   "totals": {
-    "compiled_categories": 7,
-    "compiled_rows": 62,
-    "compiled_variants": 64,
-    "numeric_total_cells": 408,
-    "controlled_total_cells": 104,
+    "compiled_categories": 8,
+    "compiled_rows": 86,
+    "compiled_variants": 88,
+    "numeric_total_cells": 576,
+    "controlled_total_cells": 128,
     "defects": 0
   }
 }

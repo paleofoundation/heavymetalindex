@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-formula-rtf-liquid-non-soy",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a4189a5d82944bd00b876516a078a628d2bc70bad10168dd42076c9d0908649c",
-      "content_bytes": 65700,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "c46d6b72f5df9ee0c349818710432f4c5caee8386180826407da7f520a3a6a0f",
+      "content_bytes": 65683,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/infant-formula-rtf-liquid-non-soy.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/infant-formula-rtf-liquid-non-soy.md | sha256sum"
     }
   },
   "evidence_base": {

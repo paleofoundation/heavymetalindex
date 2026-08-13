@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/instant-air-refreshment-sprays",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "218034d8e94f6a8f41d010b558c2f408031fc0ae92a9daac11d1b080ed59cdce",
-      "content_bytes": 9075,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "0088e9e071ffa57608d308e60ba35ef2d3956888a586062c2fc7219a6a0f1a9c",
+      "content_bytes": 9063,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/instant-air-refreshment-sprays.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/instant-air-refreshment-sprays.md | sha256sum"
     }
   },
   "evidence_base": {

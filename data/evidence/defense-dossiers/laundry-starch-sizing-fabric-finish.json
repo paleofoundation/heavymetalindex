@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-starch-sizing-fabric-finish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2f2440642f735760881992265a65185b68cfa6f4fad5dc5326acb6e92b6e123f",
-      "content_bytes": 10145,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "89a56f1a0df6886e6b649c81ad8fd94daabfc7c45c9b58548f342b471b91f3d5",
+      "content_bytes": 10133,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
     }
   },
   "evidence_base": {

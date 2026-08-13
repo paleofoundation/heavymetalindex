@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-nonstick-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "10601c445efb15f0cd63f3f7794a1629e44d0d4bbaea118b9523a9b3f635d11c",
-      "content_bytes": 9456,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "3dddd79895e383828f706320d0e8f4b90a8f1cd34d81297a5ad861c2fab8045d",
+      "content_bytes": 9449,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/cookware-nonstick-coated.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/cookware-nonstick-coated.md | sha256sum"
     }
   },
   "evidence_base": {

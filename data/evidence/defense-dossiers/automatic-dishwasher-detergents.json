@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/automatic-dishwasher-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "36cee0ea5d1bc62bcbdd5f42765de5778fed918aa7850f3c3498402128b5b570",
-      "content_bytes": 16186,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "4bbdaca0fe9e63fbb0b8a20e5cd0a3663afa0798debab2e7ae7d04906e8fcd60",
+      "content_bytes": 16179,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/automatic-dishwasher-detergents.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/automatic-dishwasher-detergents.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -218,12 +218,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
-          "content_bytes": 31788,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "bb04c7977401c7d782774761a9a437937b43b29ad2df4afe7bc23e44ba027ef3",
+          "content_bytes": 31795,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       }
     ]

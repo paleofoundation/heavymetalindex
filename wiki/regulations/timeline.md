@@ -3,7 +3,7 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-12
+updated: 2026-08-13
 noindex: false
 ---
 

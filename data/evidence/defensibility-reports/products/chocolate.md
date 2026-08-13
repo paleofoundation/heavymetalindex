@@ -2,7 +2,7 @@
 source_page: wiki/products/chocolate.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dcab0375b4d3be8242bac7703751433d197cdb57af4722a9ef1ad70b4235dc9e
+source_page_sha256: 465ccd7fd4ce7d17436b69923a6badb666bed414dd53276b215052465a078c44
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

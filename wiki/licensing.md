@@ -50,6 +50,8 @@ Reserved (requires a commercial licence):
 - Republishing the structured database, in whole or in substantial part, on a different surface, regardless of whether the republisher is non-profit or commercial.
 - Training a commercial AI product on the structured database (as distinct from the prose, which is CC BY).
 
+The bulk downloads of this structured layer — the occurrence and regulatory datasets as versioned JSON and CSV, with their field schema, provenance, and version stamps — are described on the [[data|Data and downloads]] page.
+
 The commercial licence path: contact karen@paleofoundation.com with a description of the intended use. Paleo Certified, Inc. publishes standard commercial-licence terms for the common integration patterns; bespoke arrangements are available for higher-volume or higher-touch use cases. Commercial licences are issued by Paleo Certified, Inc.
 
 ### Layer 3: Source documents (governed by their own licences)

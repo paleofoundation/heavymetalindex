@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/body-hand-leave-on-skin-care",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b39fa06e233c35f2c5dbd9f39561a5f3e2141788bcec9eba4853756709aa1391",
-      "content_bytes": 14606,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "0811609472bda7d194d025eb03a92245bf89d915036d6b0c569cc3f622dda5f9",
+      "content_bytes": 14594,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/body-hand-leave-on-skin-care.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/body-hand-leave-on-skin-care.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "236cf44754277fda32b23e70be548c5287f5b9181a5c487dfc4f3385a5108b4d",
-          "content_bytes": 34889,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "f90dba6b849c6629cfaf9574791a47753f3519f570f8dca0b0359823cdf39ac2",
+          "content_bytes": 34882,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -171,12 +171,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "f2ede7c87160220cb04643a76fe4ee5f09a018fbaf16601e6da0d7268544916a",
-          "content_bytes": 28640,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "5f7e6aeb9892de19d750d4ebc1befb741bbb6c13e659eff591463e04260a2bbd",
+          "content_bytes": 28633,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -269,12 +269,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
-          "content_bytes": 31788,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "bb04c7977401c7d782774761a9a437937b43b29ad2df4afe7bc23e44ba027ef3",
+          "content_bytes": 31795,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {

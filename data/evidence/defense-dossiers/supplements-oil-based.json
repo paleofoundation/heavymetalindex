@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oil-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "891036ee2b2339d25a1e6f5e4264e1928e0dec4659f70ff628ea352e8f7576b5",
-      "content_bytes": 30381,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "114e74491450afc7050f7427a5e9ae5be2e2a2cc21a80e4b6ad96d9985eef367",
+      "content_bytes": 30344,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/supplements-oil-based.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/supplements-oil-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -289,12 +289,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
-          "content_bytes": 8173,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "39ef6b52117df8a41a0f102d401c3145c866decbeacde72cd0280150460cb92e",
+          "content_bytes": 8180,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

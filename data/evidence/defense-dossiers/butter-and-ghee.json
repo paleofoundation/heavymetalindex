@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/butter-and-ghee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0bb729e061b901d5b280776a05f7da24fe328ba35cb4f5ee39e13917951b7f77",
-      "content_bytes": 9409,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "d12f6a08178ae528acaf20ce4c2e270fbc128a206585b79512843bacd3b0c787",
+      "content_bytes": 9402,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/butter-and-ghee.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/butter-and-ghee.md | sha256sum"
     }
   },
   "evidence_base": {

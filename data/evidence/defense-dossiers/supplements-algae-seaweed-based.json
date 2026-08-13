@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a8b5c5e916dac845f8fd5957581375f86a45ba617d530f278eacf1ac0928ea52",
-      "content_bytes": 35729,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "b39e9c0c439e4de13db08c31abe0ce5d820c0acb0e287612368ae49deace7a3c",
+      "content_bytes": 35692,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -383,12 +383,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
-          "content_bytes": 8173,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "39ef6b52117df8a41a0f102d401c3145c866decbeacde72cd0280150460cb92e",
+          "content_bytes": 8180,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

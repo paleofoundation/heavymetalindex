@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/eggs-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d372d415724f2560a5b08175334a3bcd525e2d7f14b610a32b0724b9473c0005",
-      "content_bytes": 13350,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "1f7a246ca054bcc02bc25090131c244b6d97850d6b495bfdde869da5cefe7484",
+      "content_bytes": 13313,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/eggs-product.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/eggs-product.md | sha256sum"
     }
   },
   "evidence_base": {

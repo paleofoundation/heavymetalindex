@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sunflower-seeds",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9d8594571b4c313c774383ff2c32f93535e43e3f2d04cab628b005cda7c02aeb",
+      "content_sha256": "9fdd994f800d96262c66cf447f076ba5ae9cb88cd1702f2022092bb7ced7611f",
       "content_bytes": 13960,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/sunflower-seeds.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/sunflower-seeds.md | sha256sum"
     }
   },
   "evidence_base": {

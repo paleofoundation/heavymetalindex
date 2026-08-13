@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-food-storage-items",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1fe5e4c34fc926d1679ef0f846557db6d08ea64a38222af4283a020f24d1da35",
-      "content_bytes": 5379,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "d0d3e45db56521d99508d0374479aceb6e3c8f0d3efef4b474d1652bfed510ad",
+      "content_bytes": 5510,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/infant-food-storage-items.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/infant-food-storage-items.md | sha256sum"
     }
   },
   "evidence_base": {

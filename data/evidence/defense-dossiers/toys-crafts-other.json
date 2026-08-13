@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-crafts-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5e1701749e4a052e4e57d09f7988d7fea1b98383f1e3cd0a2571278e13903a4c",
-      "content_bytes": 9556,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "a6620043a7a1d5c1df2e02e87a3f8394c1b3ed524641e60823bab19ce4de40e0",
+      "content_bytes": 9544,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/toys-crafts-other.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/toys-crafts-other.md | sha256sum"
     }
   },
   "evidence_base": {

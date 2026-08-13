@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-liquids-tinctures",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cc4413bacd36a47c6df63ef14aaeae2fb7c128be939e9daff8ec4cbba833c12a",
-      "content_bytes": 8478,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "aa611b063b93119aea31332ec0f54ee58321c82792d52e8588adc0f239cba40a",
+      "content_bytes": 8471,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/supplements-oral-liquids-tinctures.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/supplements-oral-liquids-tinctures.md | sha256sum"
     }
   },
   "evidence_base": {

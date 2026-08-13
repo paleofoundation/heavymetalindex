@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dish-soaps-manual",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "995bdd8d635f3434dc2f37c0d13fc42ee8952374c31b5373105922f73827da5d",
-      "content_bytes": 17538,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "de17d9544c96421f452c6a16deac7a31ea92bff7ecbd69ff1ddefea98bd0f801",
+      "content_bytes": 17531,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/dish-soaps-manual.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/dish-soaps-manual.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -269,12 +269,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
-          "content_bytes": 31788,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "bb04c7977401c7d782774761a9a437937b43b29ad2df4afe7bc23e44ba027ef3",
+          "content_bytes": 31795,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {

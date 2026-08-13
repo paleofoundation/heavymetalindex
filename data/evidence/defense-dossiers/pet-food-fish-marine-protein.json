@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-fish-marine-protein",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9524baeeaf7601fb66e136653c483324b6509c5439187b72b9b0afc7cc72f1b7",
-      "content_bytes": 2032,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "fb82ec6e0176304ff0d886228a7f6bc3d6b0caa0fc8367be5ca4676ede64ff65",
+      "content_bytes": 2014,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/pet-food-fish-marine-protein.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/pet-food-fish-marine-protein.md | sha256sum"
     }
   },
   "evidence_base": {

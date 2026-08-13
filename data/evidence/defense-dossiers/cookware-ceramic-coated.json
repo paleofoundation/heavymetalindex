@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-ceramic-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b3d2170c19a5cd9efa840e9ce7b23e00b1e7629cca2bcf26cd75fa6277d93674",
-      "content_bytes": 8935,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "0d0373253fd50152da9660699e4e8a94f4f6b96024a318e7a26b31af19be4bf2",
+      "content_bytes": 8923,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/cookware-ceramic-coated.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/cookware-ceramic-coated.md | sha256sum"
     }
   },
   "evidence_base": {

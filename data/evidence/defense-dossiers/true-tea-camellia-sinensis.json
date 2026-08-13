@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/true-tea-camellia-sinensis",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2031bcab3968fa6ffd7047bbee12ecb0790e414b76ed4229a408451c2f2b033a",
+      "content_sha256": "939f19fd5e8765534daf706caca34a40336b58d6530b800a30f7d62f8de6961d",
       "content_bytes": 36271,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
-          "content_bytes": 8173,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "39ef6b52117df8a41a0f102d401c3145c866decbeacde72cd0280150460cb92e",
+          "content_bytes": 8180,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

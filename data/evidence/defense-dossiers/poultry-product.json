@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/poultry-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cb6bf267a8cc2a54037d2903da90179844bd4fff3e0d5ef5a35db84dd3d6764b",
-      "content_bytes": 26386,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "7cbb6b1779c3adb61a47b31fb58ab145aa086f1998566f4b458f2d20fdddcf47",
+      "content_bytes": 26349,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/poultry-product.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/poultry-product.md | sha256sum"
     }
   },
   "evidence_base": {

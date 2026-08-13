@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0dce8e3e600d545a9a316203815098865fd195b408b84e65da387980da28d433",
-      "content_bytes": 21164,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "489815e4a399d030ccb831c9c1c0b45ca556843fa6b6eae8e52278d61ab3ce7f",
+      "content_bytes": 21132,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/plant-milks-rice-based.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/plant-milks-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -134,12 +134,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "9a68cea2de256d9d2e4f32d3d797de6e8401430482edcb67aa970306ae39d43e",
-          "content_bytes": 18876,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "78bfd73197071e5868dbf3f1671c1f2853ffe9a2ca041131dee01b83b69dbadf",
+          "content_bytes": 18844,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {

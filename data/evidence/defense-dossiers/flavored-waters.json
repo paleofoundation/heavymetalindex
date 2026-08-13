@@ -19,12 +19,12 @@
     "canonical_url": "https://heavymetalindex.com/products/flavored-waters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "25a5883e06bce3bcdd5eb1f8a1d4162f2d2515d2bb77808a1f69320c67b40938",
-      "content_bytes": 12373,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "a95dc260c54c78cd4192c93683974ca395afa358918233aa978d95a295b30789",
+      "content_bytes": 12357,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/flavored-waters.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/flavored-waters.md | sha256sum"
     }
   },
   "evidence_base": {

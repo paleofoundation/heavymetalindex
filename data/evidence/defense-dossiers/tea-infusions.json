@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tea-infusions",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "63e3257877007cd4c3983b2792eedbc1256da4f7ba18af60aaf1bd2ac336dd74",
-      "content_bytes": 16062,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "da9353c0963d9cda0c99c0630753d4e04a7d504933d8806f2cd21c4d91fc3a8d",
+      "content_bytes": 16055,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/tea-infusions.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/tea-infusions.md | sha256sum"
     }
   },
   "evidence_base": {

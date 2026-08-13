@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bread-and-baked-goods",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "89f9d81e7eb8f3b9b3460db26ba686eea0fc3a5af50eda2b394b9a5f2dd2db27",
-      "content_bytes": 19272,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "bf2c6ba428cdf833394fd347a59df96b6849b961ed0fae7002e80fbed72eac49",
+      "content_bytes": 19260,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/bread-and-baked-goods.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/bread-and-baked-goods.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -249,12 +249,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
-          "content_bytes": 8173,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "39ef6b52117df8a41a0f102d401c3145c866decbeacde72cd0280150460cb92e",
+          "content_bytes": 8180,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

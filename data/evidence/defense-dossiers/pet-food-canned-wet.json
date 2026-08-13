@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-canned-wet",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7cd553518ede54daa9aa114ff57bf15a5e60c7cdb47d91fe82c65fa5029dc43d",
-      "content_bytes": 8359,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "419eb0f011e0ccf2f18217ce2ed2d25fc5c2221e63f0d50cbddf6e7b21812798",
+      "content_bytes": 8352,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/pet-food-canned-wet.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/pet-food-canned-wet.md | sha256sum"
     }
   },
   "evidence_base": {

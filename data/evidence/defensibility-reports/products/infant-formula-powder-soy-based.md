@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-formula-powder-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 23d90f618cdb294acb086f6272b322fabaa417a310960d772b0383769115c86f
+source_page_sha256: f695bb1f042665d91b7e7c4e35d34f710a9886275f6d0b7fb69fc0ce68000e2b
 total_claims: 88
 cited_claims: 88
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 145
 distinct_cited_sources: 140
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 35
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 140 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 35 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

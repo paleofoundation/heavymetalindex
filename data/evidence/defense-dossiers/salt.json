@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/salt",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a667a206947132dab04b1fd3d818af7c24f8b942382cc6145b2c855be305b8ab",
-      "content_bytes": 11351,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "399dc016af1c82b9894c608bffc854741dea7561c98929b9627cd52bcc1e9899",
+      "content_bytes": 11344,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/salt.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/salt.md | sha256sum"
     }
   },
   "evidence_base": {

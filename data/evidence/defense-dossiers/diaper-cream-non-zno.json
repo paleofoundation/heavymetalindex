@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/diaper-cream-non-zno",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f121b55ee6f219e91f5f269b22563298fa9c7e4584806f81587fc881f914d0ba",
-      "content_bytes": 11946,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "7a07edd819d22b3750138181e621c5270e7ef8a379b51a611520800af2a326b4",
+      "content_bytes": 11939,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/diaper-cream-non-zno.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/diaper-cream-non-zno.md | sha256sum"
     }
   },
   "evidence_base": {

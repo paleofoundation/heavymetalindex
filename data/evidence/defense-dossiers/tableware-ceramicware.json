@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-ceramicware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7c950599eb14054b981d9e404b6c127068a7516ceca39bc01411dbca64db77e3",
-      "content_bytes": 10434,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "a334348040f5517715947f8dedacf51ce7e5cae1e386bd13e43411e1fc48f828",
+      "content_bytes": 10422,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/tableware-ceramicware.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/tableware-ceramicware.md | sha256sum"
     }
   },
   "evidence_base": {

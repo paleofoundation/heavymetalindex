@@ -1,6 +1,6 @@
 # HMTc Category Completion Audit
 
-Generated 2026-08-12 from the sovereign regulatory register and the current government-limit compilers.
+Generated 2026-08-13 from the sovereign regulatory register and the current government-limit compilers.
 
 ## Canonical analyte contract
 
@@ -17,6 +17,7 @@ A **controlled** total cell is deliberately not presented as a numeric governmen
 | 6 — Seafood | 7/7 | 7 | 50/56 | 6 | 0 | all-rows-resolved-with-controls |
 | 7 — Oils, Condiments, and Specialty Foods | 8/12 | 8 | 29/64 | 35 | 0 | partial-scope-resolved |
 | 9 — Infant and Child Contact Products | 8/8 | 8 | 56/64 | 8 | 0 | all-rows-resolved-with-controls |
+| 16 — Dietary Supplements (Human) | 24/24 | 24 | 168/192 | 24 | 0 | all-rows-resolved-with-controls |
 | 24 — Dairy and Milk Products | 8/8 | 8 | 56/64 | 8 | 0 | all-rows-resolved-with-controls |
 | 25 — Cannabis, Hemp, and CBD Products | 5/6 | 5 | 25/40 | 15 | 0 | partial-scope-resolved |
 
@@ -33,6 +34,7 @@ A **controlled** total cell is deliberately not presented as a numeric governmen
 - Category 6: control 14; gov 40; read_across 17; subsumed 6.
 - Category 7: control 58; gov 30.
 - Category 9: control 1; gov 45; not_material 23; read_across 18; special 1.
+- Category 16: control 72; read_across 192.
 - Category 24: control 31; gov 24; read_across 33.
 - Category 25: control 30; gov 23; read_across 2.
 
@@ -121,6 +123,37 @@ Eight scope-locked rows compile. Four broad rows remain blocked on the taxonomy/
 | `infant-food-storage-items` | 10 | 2 | 10 | 10 | 20 | n/m | 1000 | 10 | n/m | 10 RA | n/m |
 | `feeding-accessories-child-sized` | 10 | 2 | 10 | 10 | 20 | n/m | 1000 | 10 | n/m | 10 RA | n/m |
 | `diapers-and-components` | 1000 RA | 1000 RA | 1000 RA | n/m | 0.5 µg/cm²/week special | 1000000 | n/m | control | n/m | 1000 RA | n/m |
+
+### Category 16 — Dietary Supplements (Human)
+
+| Row / variant | Pb | Cd | tAs | tHg | Ni | Sn | Al | Cr | iAs | Cr-VI | MeHg |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| `supplements-oral-solids-tablets` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-capsules` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-softgels` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-gummies` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-lozenges` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-powders` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-solids-effervescent` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-liquids-tinctures` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-liquids-syrups` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-liquids-shots` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oral-liquids-droppers` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-teas-labeled` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-bars-labeled` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-vitamin-mineral` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-botanicals-herbs` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-amino-acids-isolates` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-enzymes` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-probiotics` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-algae-seaweed-based` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-protein-collagen-powders` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-oil-based` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-clay-mineral-earth` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-mushroom-fungal` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+| `supplements-greens-superfood` | 10 RA | 5 RA | 50 RA | 4 RA | 100 RA | 5000 RA | 500 RA | control | 10 RA | control | control |
+
+Child-protective over-compliance: every subcategory is set to the strictest sovereign infant-and-child-food maximum level (Ages 0-5) and held to it regardless of adult/child labeling. Cr, Cr-VI, and MeHg are mandatory controls (no infant-food total-Cr ML; Cr-VI reduces to Cr-III; MeHg bounded by tHg with lot speciation on marine-source classes). The adult floor (supplement ML / USP <2232> / Prop 65 MADL) is disclosed on every cell and never selects the number.
 
 ### Category 24 — Dairy and Milk Products
 

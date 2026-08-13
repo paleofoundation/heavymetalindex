@@ -2,7 +2,7 @@
 source_page: wiki/products/flavored-waters.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 75864269a07d3f8d994268f6727a7b7162a330499d307422fd15fae0e92df9ff
+source_page_sha256: 30fef1c508e976f02f1dfdf6e5ef460d87b822e28efd23ee28a95b805b0c714d
 total_claims: 4
 cited_claims: 2
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

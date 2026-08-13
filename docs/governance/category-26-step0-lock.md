@@ -8,7 +8,7 @@ Promotes the 2026-06-08 provisional scaffold `research-chemicals-peptides-sarms`
 **Jurisdiction:** FDA (unapproved/misbranded drugs); no certification framework exists for this class.
 **Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
 
-**Current standards status (2026-08-12):** still in development. No lawful product-specific sovereign maximum exists, and the parenteral/oral dose-basis method remains unguided. Under the current government-limit-only initial-setting rule, occurrence evidence cannot be used to manufacture an initial number.
+**Current standards status (2026-08-13): DERIVED (Pass 2 complete).** The go-to-market gate — "should HMTc certify this gray-market/unapproved-drug class at all?" — is RESOLVED: **yes, proceed** (Karen, 2026-08-13). Rationale: the class is in desperate need of safety oversight, heavy-metal testing protects the public, and people use these products regardless of legal status (harm reduction). HMTc certifies heavy-metal **SAFETY only** — it does not endorse, approve, or vouch for the efficacy or legality of the products. No lawful product-specific sovereign maximum exists, so under the government-limit-only initial-setting rule the `min(percentile, ceiling)` ceiling term is absent and (per the Part 2 firewall) the occurrence term cannot be published as a product-content limit. The derived standard therefore resolves every cell to `control` (mandatory per-lot testing + a published analytical method + a toxicology-anchored escalation rule, **no product-content number**) or a substantiated `not_material` (methylmercury). Route-appropriate ICH Q3D / USP <232> permitted daily exposures are attached as toxicological anchors only. Compiler: `tools/standards/compile-cat26.mjs` (+ `cat26-config.json`); records: `data/workbench/standards/cat26-compiled/` (STAFF/HMTc content, not public wiki).
 
 ## Why this earns a number, and why it cannot sit in Cat 16
 
@@ -32,6 +32,7 @@ in the taxonomy. It is modeled as its own pathway, not as oral ingestion.
 | 2 | Oral SARMs | `sarms-oral` |
 | 3 | Injectable anabolic-androgenic steroids (AAS) | `aas-injectable` |
 | 4 | Raw AAS / peptide powders (pre-formulation) | `research-chem-raw-powders` |
+| 5 | Nasal/sublingual/troche gray-market peptide preparations (mucosal route) | `peptides-nasal-sublingual` |
 
 Master node: `research-chemicals-peptides-sarms` (promoted from the provisional scaffold).
 Seed evidence: `craven2025-aas-heavy-metals-australia` (black-market AAS survey — oral Ni near the
@@ -71,3 +72,14 @@ records the methodology variants the eventual derivation must honor.
 ## Changelog
 - 2026-06-08 — Step Zero scaffold lock. 4 rows defined; parenteral pathway introduced; no candidate
   values. Methodology variants (no-regulatory-anchor; parenteral health-based term) recorded for Pass 2.
+- 2026-08-13 — **Pass 2 derivation complete.** Go-to-market gate resolved (yes-certify, SAFETY only;
+  public-protection call). Fifth row added (`peptides-nasal-sublingual`, mucosal route) to match taxonomy
+  v2.1. Method resolved as the no-regulatory-anchor (control) form of Method v2.0: `tools/standards/compile-cat26.mjs`
+  derives→audits→verifies 5 rows × 11 analytes. Every material cell is `control` with a route-appropriate
+  ICH Q3D / USP <232> PDE toxicological anchor (parenteral rows → parenteral PDE; oral → oral PDE;
+  mucosal → most-protective of parenteral/inhalation; Al via FDA 21 CFR 201.323 / JECFA-EFSA TWI; Cr(VI)
+  via the 3 µg/day Cr inhalation floor); methylmercury is a substantiated `not_material` (no biomethylation
+  pathway in abiotic synthesis; bounded by tHg; registered in `standards-not-material.csv`, gate PASS).
+  The regulatory-vacuum scan confirms 0 product-content limits exist for this class. No product-content
+  number is published (firewall invariant enforced in the compiler's verify step). Provenance tags used:
+  `control`, `not-material`. Records: `data/workbench/standards/cat26-compiled/` (STAFF content).

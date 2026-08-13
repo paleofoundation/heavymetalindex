@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/root-tuber-vegetables",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8b9b218c9dc7d7eaff5327ab401641f2c726d78d288da8b8eda8ede2a6011412",
+      "content_sha256": "9057867eec54068a080ef434c591d346a799a5c403e7932db9c94f32778430cf",
       "content_bytes": 33853,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/root-tuber-vegetables.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/root-tuber-vegetables.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -440,12 +440,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
-          "content_bytes": 8173,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "39ef6b52117df8a41a0f102d401c3145c866decbeacde72cd0280150460cb92e",
+          "content_bytes": 8180,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

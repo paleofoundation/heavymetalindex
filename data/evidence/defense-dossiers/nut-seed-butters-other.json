@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nut-seed-butters-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "077eadeb4c83a5c6fba1e64b4ba6483a6fa3a53e3b48bee9ff649e872dad509c",
+      "content_sha256": "8be7a3303b106e654c3c4b2405845f622ded4b38df4f8d055d9b3c7a17d1cff6",
       "content_bytes": 11845,
-      "last_commit_sha": "880cf9722",
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {

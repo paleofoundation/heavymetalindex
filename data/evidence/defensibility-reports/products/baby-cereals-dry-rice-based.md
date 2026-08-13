@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-cereals-dry-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1b31e1821661143b42f28df7601e727fa765652357914ffb579a03bfca10e943
+source_page_sha256: 66a1ef3d76ad82d13186f658818b231e2ac472f87658e9dd5bb115026390423d
 total_claims: 169
 cited_claims: 168
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 102
 distinct_cited_sources: 94
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 18
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 94 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 18 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

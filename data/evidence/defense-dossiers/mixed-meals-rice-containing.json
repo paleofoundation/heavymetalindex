@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mixed-meals-rice-containing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a47d39dea1424ef944a753bb9e1f8e66a4b20f918c1b9cbd413831825a78d5a7",
-      "content_bytes": 42801,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "48dfeba36b4fbe3a63cae5cdd1e5f2c3f30c77d3b26f9136c7824de710626b13",
+      "content_bytes": 42784,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/mixed-meals-rice-containing.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/mixed-meals-rice-containing.md | sha256sum"
     }
   },
   "evidence_base": {

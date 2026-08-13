@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vinegar",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "14fd3bb2135e5552719d074f1ffc66ab14e1d6199391a4fb7e235d62827f64f1",
-      "content_bytes": 12779,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "f777107e3a61355ebbdab4b5cb59709829dccc7c05c4d2439d86e63a6da513b8",
+      "content_bytes": 12772,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/vinegar.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/vinegar.md | sha256sum"
     }
   },
   "evidence_base": {

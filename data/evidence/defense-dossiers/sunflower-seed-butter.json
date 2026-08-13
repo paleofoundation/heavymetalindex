@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sunflower-seed-butter",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b2a11184cff4503f4159ddd174fbe6d334e19ae18b8f2f8c640a9b7dddd6a406",
-      "content_bytes": 11740,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "559cea8919a05122bd279ea99ce56c219015bc0ce51c5b23863dd3ab1a5c1c70",
+      "content_bytes": 11692,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/sunflower-seed-butter.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/sunflower-seed-butter.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -96,6 +96,22 @@
       ]
     },
     {
+      "source": "/static/data/(.*).json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400" },
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/static/data/(.*).csv",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400" },
+        { "key": "Content-Type", "value": "text/csv; charset=utf-8" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
       "source": "/robots.txt",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600" }

@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/olive-oil",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "548919d65cfe4392c440b3b1822e24ed4233e0bb0c8c88af89d7b2e0867f46e2",
-      "content_bytes": 18864,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "330d8c6185f6828a8a238f84b0971afe3a28c06de461701c66d9c88aa6863034",
+      "content_bytes": 18857,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/olive-oil.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/olive-oil.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -231,12 +231,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/la-pera2010-sicily-olive-oil-metals-selenium",
         "content_pin": {
-          "content_sha256": "63b41a405aa1785bd581ea3b1adc9f9ed47133a1103be17495ad476bb55595a2",
-          "content_bytes": 14157,
-          "last_commit_sha": "880cf9722",
+          "content_sha256": "705f7005963ee9bd7e2bdfd4e10a921a64e026db4ff67673832796a8e8db6361",
+          "content_bytes": 14164,
+          "last_commit_sha": "c7ee46875",
           "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 880cf9722:wiki/sources/la-pera2010-sicily-olive-oil-metals-selenium.md | sha256sum"
+          "verify_command": "git show c7ee46875:wiki/sources/la-pera2010-sicily-olive-oil-metals-selenium.md | sha256sum"
         }
       },
       {

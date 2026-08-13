@@ -2,7 +2,7 @@
 source_page: wiki/products/canned-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bda88e357c4e548fb25516f174668120eca1175629e8681b985527d6241b3391
+source_page_sha256: d4639f83a0d5a81226e74fef2ae869d8f7e05d5e046e5cf38c143d9eaa4c6d2e
 total_claims: 11
 cited_claims: 11
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 2
 distinct_cited_sources: 1
 audit_rows_for_page: 2
 audit_rows_for_cited_targets: 22
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 2 |
 | audit rows on cited target pages | 22 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

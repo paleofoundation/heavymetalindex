@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-amino-acids-isolates.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dc6820d82ac2e88f95095bc2b448c9c0ebf0339fb46eb8072199212c5a2908f3
+source_page_sha256: 3f48d34c70c158721c2b27355ba8fadcea8ad03ba970314d71aa28fea4fa7581
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 28
 distinct_cited_sources: 28
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 28 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

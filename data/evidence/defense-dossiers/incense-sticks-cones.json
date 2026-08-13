@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/incense-sticks-cones",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "86932d98e4fac7d8cdaecb4c606d1e0ccdb91cf927e953b2735ca6ffb8a831ea",
-      "content_bytes": 7675,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "dd5b47fb807033e58d4fb458b3c8ce5d9468c1e296cb4d1f8a2c4af6d6d6da16",
+      "content_bytes": 7677,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/incense-sticks-cones.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/incense-sticks-cones.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/beef-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6eebedf46ed4ea298349cbf997af69eb7a05284afc2751799c30a18a4a76d90c",
-      "content_bytes": 17495,
-      "last_commit_sha": "880cf9722",
+      "content_sha256": "1a38b2ca94f26930beb35f44d3b5fa014cc47571f6e7a7344ea2d21a7bfe0a62",
+      "content_bytes": 17458,
+      "last_commit_sha": "c7ee46875",
       "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 880cf9722:wiki/products/beef-product.md | sha256sum"
+      "verify_command": "git show c7ee46875:wiki/products/beef-product.md | sha256sum"
     }
   },
   "evidence_base": {

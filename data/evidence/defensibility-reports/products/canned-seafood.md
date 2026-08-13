@@ -2,7 +2,7 @@
 source_page: wiki/products/canned-seafood.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d21f24c127b76f13ff58ee1182e1d96a9f0760f81caef3c7f000bd006e5e865f
+source_page_sha256: ea31c62e5ea5ad183cea0233c1e21e16327d095ca33c690b0bea159e9ae90fed
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 

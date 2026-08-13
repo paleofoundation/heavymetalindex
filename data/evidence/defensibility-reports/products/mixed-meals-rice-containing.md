@@ -2,7 +2,7 @@
 source_page: wiki/products/mixed-meals-rice-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8c0bb6ed8cca756978fbb7384a2b5ca0cb037733f768ad65496844642fd5ab85
+source_page_sha256: bf966870b81cfc131c8377c33740857da11625a43bc3898e5a13ad3a02ef4b7c
 total_claims: 82
 cited_claims: 82
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 35
 distinct_cited_sources: 29
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 17
-audit_log_total_rows: 6606
+audit_log_total_rows: 6608
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 29 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 17 |
-| audit log rows read | 6606 |
+| audit log rows read | 6608 |
 
 ## Page-level audit rows
 
