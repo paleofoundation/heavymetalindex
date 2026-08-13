@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-56 open item(s): 23 auto, 33 awaiting a decision.
+59 open item(s): 25 auto, 34 awaiting a decision.
 
 ### OI-20260813-register-cat272829-qc-gate — Register cat27/28/29 in the standards QC gate once compile-current-standards.mjs lands on origin/main
 
@@ -521,6 +521,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/standards/compile-current-standards.mjs`
 - repro: origin/main (856a5c9cc..422397a55) does NOT contain tools/standards/compile-current-standards.mjs or build-standards-qc-gate.mjs (they are uncommitted on the codex/methodology-sync branch in the main checkout). cat27/28/29 were built as self-contained compilers (each self-verifies derive->audit->verify and exits non-zero on any gap/contract violation) plus substantiation-registry rows, so they do not depend on that tooling. When compile-current-standards.mjs lands on origin/main, add jobs {category:27,compiler:"cat27",config,outdir,plannedRows:4}, {28,"cat28",...,5}, {29,"cat29",...,2} and make runCompiler dispatch on compile-${job.compiler}.mjs so the build-time drift + completion audit covers them.
 - done when: compile-current-standards.mjs --check reports Cat 27/28/29 with 0 defects; runCompiler resolves compile-cat27/28/29.mjs
+
+### OI-20260813-port-arsenic-speciation-reconciliation — Port the iAs<=tAs speciation reconciliation into the cat1/cat3/cat24/cat28 standard compilers (they only reconcile mercury)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat1.mjs`, `tools/standards/cat3-config.json`, `tools/standards/compile-cat24.mjs`, `tools/standards/compile-cat28.mjs`
+- repro: tools/standards/lib/food-limit-compiler.mjs (cat30/31/32) added reconcileSpeciation covering BOTH MeHg<=tHg AND iAs<=tAs (a species ceiling not below its total is subsumed). compile-cat1.mjs only reconciles mercury (reconcileMercurySpeciation); cat3 runs on that engine; cat24/cat28 are self-contained forks that likewise lack the arsenic identity. A cross-category scan of all 8 committed compiled categories (61 subcategory-variants) found ZERO current iAs>tAs or MeHg>tHg violations, so this is preventive hardening and a NO-OP on current outputs, not a live-defect fix. A register change could later produce an incoherent iAs>tAs cell those compilers would not catch.
+- done when: Each of cat1/cat3/cat24/cat28 reconciles iAs against tAs (species>=total => subsumed); Re-running every compiler yields byte-identical outputs to the committed JSON (no-op today); A repo-wide scan finds no iAs>tAs or MeHg>tHg published cell
 
 ### OI-20260813-nuts-high-nickel-split — Consider a high-nickel tree-nut subcategory (walnut/pine/Brazil/chestnut, EU Ni 10000) split out of nuts-seeds-other (Ni 3500)
 
@@ -537,6 +544,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: CAT 29 cultivated-mushrooms binds Cd 50 (EU common cultivated fungi / CH Agaricus bisporus). EU 2023/915 sets a looser Cd 150 for oyster and shiitake mushrooms, which accumulate more cadmium than button mushrooms. The single cultivated row ratchets oyster/shiitake to 50 (disclosed in the config scope_note). A common-vs-oyster/shiitake split would preserve the EU carve-out; taxonomy/Step-0 decision.
 - done when: Karen decides whether to split cultivated mushrooms by the EU Cd 50/150 carve-out
 - decision: _pending_
+
+### OI-20260813-cat30-32-cert-downstream — Wire the Cat 30/31/32 compiled standards into the cert-page / catalog / not-material-registry downstream (currently workbench-only JSON)
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `data/workbench/standards/cat30-compiled`, `data/workbench/standards/cat31-compiled`, `data/workbench/standards/cat32-compiled`
+- repro: compile-cat30/31/32 emit verified per-subcategory JSON under data/workbench/standards/catNN-compiled/ but nothing consumes them yet: (1) no cert (heavymetaltested.com) standard pages are generated from them; (2) their not-material/control determinations are audited against the regulatory register by the compiler but are NOT registered in data/evidence/standards-not-material.csv, so the source-page not-material-integrity gate does not cover them; (3) the 11 new subcategories likely lack wiki/products pages + routing. Human-gated: cert content is LIVE on push, and registering the new categories touches the product-page/routing/Step-0 layer.
+- done when: Cert standard pages exist for the 11 subcategories OR a decision to defer is recorded; not-material/control cells are represented in standards-not-material.csv and pass audit-not-material-integrity; Each subcategory maps to a wiki/products page or a provisional scaffold
+- decision: _pending_
+
+### OI-20260813-cat1-teething-rice-al-stale — cat1-compiled/teething-and-snacks-rice-based.json is stale (CN Al starch-noodle comparator now matches)
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards/cat1-compiled/teething-and-snacks-rice-based.json`
+- repro: node tools/standards/compile-cat1.mjs --only=teething-and-snacks-rice-based, then git diff — the committed output lacks a CN Al 200000 (cn_gb2760_2024_al_starch_noodles_vermicelli_200000) entry in the Al read-across per_country trail; binding Al value (AU-NZ 500) is unchanged
+- done when: compile-cat1.mjs output for teething-and-snacks-rice-based matches the committed JSON with no diff
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
