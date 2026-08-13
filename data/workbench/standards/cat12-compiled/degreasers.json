@@ -1,0 +1,128 @@
+{
+  "slug": "degreasers",
+  "name": "Degreasers",
+  "category": 12,
+  "category_name": "Household Cleaning and Dishwashing",
+  "pathway": "hard-surface-dermal",
+  "governing_basis": "No sovereign sets heavy-metal maximums for hard-surface / incidental-dermal cleaning products; the eco-label and disclosure regimes (EPA Safer Choice, Green Seal GS-8, CA SB 258, NY Household Cleaner Disclosure Act) are ingredient-disclosure and eco-labeling regimes, not heavy-metal MLs. The toxic panel (Pb/tAs/Cd/tHg) is read across from the nearest applicable coherent sovereign regime (China NMPA 2015 mandatory cosmetic trace-metal limits), conservative because a cosmetic is prolonged leave-on skin contact and a hard-surface cleaner is incidental dermal. Basis: total content in the product as placed on the market.",
+  "native_basis_label": "total heavy-metal content in product as placed on the market (mg/kg product)",
+  "scope_note": "Heavy-duty degreasers (alkaline or solvent). Incidental-dermal exposure.",
+  "cells": {
+    "Pb": {
+      "type": "read_across",
+      "provenance": "read-across",
+      "value": 10000,
+      "value_exact": 10000,
+      "source_id": "cn_nmpa2015_pb_cosmetics_10",
+      "source_jurisdiction": "CN",
+      "basis": "total lead content, product as placed on the market (mg/kg)",
+      "label": "Read across from China NMPA 2015 mandatory cosmetic lead limit (10 mg/kg), a coherent statutory finished-consumer-chemical-product ceiling, conservative for an incidental-dermal cleaning product. No cleaning-product-specific lead ML exists in any jurisdiction."
+    },
+    "tAs": {
+      "type": "read_across",
+      "provenance": "read-across",
+      "value": 2000,
+      "value_exact": 2000,
+      "source_id": "cn_nmpa2015_tas_cosmetics_2",
+      "source_jurisdiction": "CN",
+      "basis": "total arsenic content, product as placed on the market (mg/kg)",
+      "label": "Read across from China NMPA 2015 mandatory cosmetic total-arsenic limit (2 mg/kg). No cleaning-product-specific arsenic ML exists for hard-surface products (GB 14930.1 covers only food/tableware-cleaning detergents)."
+    },
+    "iAs": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tAs",
+      "rationale": "No jurisdiction sets an inorganic-arsenic limit for cleaning products; the consumer-chemical trace-metal instruments regulate TOTAL arsenic (see the tAs cell), which bounds the inorganic fraction (iAs <= tAs). No routed occurrence source measured or speciated inorganic arsenic in these products.",
+      "regulatory_basis": "Bounded by the total-arsenic read-across ceiling (NMPA 2015, 2 mg/kg); no inorganic-arsenic limit for cleaning products in any jurisdiction",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII; US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada; Germany BfR",
+      "cross_sourced": "parent tAs published (NMPA read-across) + credible-ML register checked 2026-08-13 (no iAs cleaning-product limit); occurrence corpus measured no arsenic speciation",
+      "reference_method": "Total-arsenic screen by ICP-MS; reflex inorganic-arsenic speciation only if total arsenic approaches the read-across ceiling."
+    },
+    "Cd": {
+      "type": "read_across",
+      "provenance": "read-across",
+      "value": 5000,
+      "value_exact": 5000,
+      "source_id": "cn_nmpa2015_cd_cosmetics_5",
+      "source_jurisdiction": "CN",
+      "basis": "total cadmium content, product as placed on the market (mg/kg)",
+      "label": "Read across from China NMPA 2015 mandatory cosmetic cadmium limit (5 mg/kg). No cleaning-product-specific cadmium ML exists in any jurisdiction."
+    },
+    "tHg": {
+      "type": "read_across",
+      "provenance": "read-across",
+      "value": 1000,
+      "value_exact": 1000,
+      "source_id": "cn_nmpa2015_thg_cosmetics_1",
+      "source_jurisdiction": "CN",
+      "basis": "total mercury content, product as placed on the market (mg/kg)",
+      "label": "Read across from China NMPA 2015 mandatory cosmetic mercury limit (1 mg/kg). No cleaning-product-specific mercury ML exists in any jurisdiction."
+    },
+    "MeHg": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tHg",
+      "rationale": "Methylmercury has no formation or migration pathway in a cleaning formulation; it is a marine-bioaccumulation speciation. The consumer-chemical mercury instruments regulate total mercury (see the tHg cell), which bounds any organomercury fraction. No routed occurrence source measured or speciated methylmercury in these products.",
+      "regulatory_basis": "Bounded by the total-mercury read-across ceiling (NMPA 2015, 1 mg/kg); no methylmercury limit for cleaning products in any jurisdiction",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII; US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada; Germany BfR",
+      "cross_sourced": "parent tHg published (NMPA read-across) + credible-ML register checked 2026-08-13 (no MeHg cleaning-product limit); occurrence corpus screened, no organomercury speciation reported",
+      "reference_method": "Total-mercury screen by CV-AAS or ICP-MS; no reflex methylmercury speciation defined for cleaning products (no formation pathway)."
+    },
+    "Ni": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "dermal-sensitizer screen",
+      "reference_method": "Total nickel by ICP-MS on the product as placed on market (acid digestion).",
+      "escalation_rule": "Nickel is a confirmed dermal sensitizer and is measured in household cleaning products (zhang2010; ecetoc1992). No jurisdiction sets a numeric total-nickel maximum for cleaning products, so certification screens total nickel and escalates a lot above the running category control band to ALARA review rather than pass/failing on an invented number.",
+      "rationale": "Present in the occurrence corpus; no sovereign ML in a consumer-chemical total-content basis. Article-migration/drinking-water nickel values are a different basis and are not read across."
+    },
+    "Al": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "Tier-2 screen",
+      "reference_method": "Total aluminium by ICP-MS on the product as placed on market.",
+      "escalation_rule": "Aluminium is Tier-2 and may be a functional mineral ingredient (alumina abrasives in scouring cleaners, aluminosilicate builders). No jurisdiction sets a cleaning-product aluminium maximum. Screen total aluminium; a lot outside the functional-ingredient expectation triggers ingredient review.",
+      "rationale": "No sovereign ML; potential functional-ingredient source means a not-material claim would be false. Screen, do not publish a number."
+    },
+    "Cr-total": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "screen + reflex speciation",
+      "reference_method": "Total chromium by ICP-MS on the product as placed on market.",
+      "escalation_rule": "Total chromium is measured in cleaning products (zhang2010; ecetoc1992). No jurisdiction sets a cleaning-product chromium maximum. Screen total chromium and reflex Cr(VI) speciation where total chromium is elevated or the formulation is oxidizing/acidic.",
+      "rationale": "Present in the occurrence corpus; no sovereign ML in a consumer-chemical total-content basis."
+    },
+    "Cr-VI": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "reflex speciation on oxidizing/acidic formulations",
+      "reference_method": "Hexavalent chromium by IC-ICP-MS with alkaline extraction (US EPA 3060A / 7199) on oxidizing or acidic formulations.",
+      "escalation_rule": "Cr(VI) is measured in some consumer cleaning products (ecetoc1992) and oxidizing/acidic chemistries (bleach, oven, toilet, descaler) can stabilize it. No jurisdiction sets a cleaning-product Cr(VI) maximum. Reflex Cr(VI) speciation on oxidizing/acidic formulations and where total chromium is elevated; escalate a positive Cr(VI) result to ALARA review.",
+      "rationale": "Measured in the corpus; a real hazard on oxidizing chemistries; no sovereign number, so a method + escalation rule is published rather than an invented threshold."
+    },
+    "Sn": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "no-migration-pathway",
+      "bounded_by": null,
+      "rationale": "Inorganic tin has no source in a hard-surface cleaning formulation (no tinplate/canned-food pathway). Organotin is a DISTINCT species (biocide/stabiliser) restricted by REACH Annex XVII entry 20 and screened separately where a formulation could carry it; it does not bound, and is not bounded by, this inorganic-tin cell. No jurisdiction sets an inorganic-tin limit for cleaning products, and no routed occurrence source measured tin.",
+      "regulatory_basis": "No inorganic-tin limit for cleaning products in any jurisdiction; organotin covered separately under REACH Annex XVII entry 20",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII (entry 20 organotin); US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada",
+      "cross_sourced": "credible-ML register checked 2026-08-13 (no inorganic-Sn cleaning-product limit; only organotin restriction, a distinct species); occurrence corpus measured no tin",
+      "reference_method": "Periodic ICP-MS inorganic-tin verification; organotin (DBT/DOT/TBT as Sn) screened separately by GC-ICP-MS where a biocidal-organotin pathway is plausible."
+    }
+  },
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "config": "tools/standards/cat12-config.json",
+  "method": "HMTc Method v2.0 (government-limit default, consumer-chemical form; native basis = total heavy-metal content in product as placed on market, mg/kg; no cross-basis min)",
+  "standard_version": "1.0"
+}

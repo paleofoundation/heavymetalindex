@@ -1,0 +1,142 @@
+{
+  "slug": "dish-soaps-manual",
+  "name": "Dish soaps (manual dishwashing)",
+  "category": 12,
+  "category_name": "Household Cleaning and Dishwashing",
+  "pathway": "food-contact-cleaning",
+  "governing_basis": "GB 14930.1-2022 (China; National food safety standard - Detergents), Type B: detergents for tableware and food-contact tools, equipment, packaging, and containers. Total arsenic binds the GB 14930.1 Type B species-specific ceiling; Pb, Cd, and tHg are bounded by GB 14930.1's grouped heavy-metals-as-Pb ceiling (<=1.0 mg/kg sum). Basis: total content in the product as placed on the market.",
+  "native_basis_label": "total heavy-metal content in product as placed on the market (mg/kg product)",
+  "scope_note": "Manual dishwashing liquids and soaps that clean tableware and food-contact utensils. GB 14930.1 Type B (detergents for tableware and food-contact tools) directly governs the product class; total arsenic binds the Type B ceiling and Pb/Cd/tHg are bounded by the grouped heavy-metals ceiling. Nickel and chromium are measured in this class (zhang2010; ecetoc1992) and screened.",
+  "cells": {
+    "Pb": {
+      "type": "grouped",
+      "provenance": "regulatory-alignment",
+      "value": 1000,
+      "value_exact": 1000,
+      "unit": "mg/kg (as Pb)",
+      "basis": "grouped heavy-metals-as-Pb ceiling, product as placed on market (GB 14930.1 <=1.0 mg/kg, sum of Pb+Cd+Hg+... as Pb)",
+      "binding_jurisdiction": "CN",
+      "source_page": "regulations/china-gb14930-1-detergent-arsenic-limits-2022",
+      "label": "Bounded by the GB 14930.1 grouped heavy-metals ceiling (<=1.0 mg/kg as Pb, sum of heavy metals). Lead is a member of the summed group, so it is individually bounded <=1.0 mg/kg; a conservative per-species interpretation of the sovereign grouped limit.",
+      "grouped": true
+    },
+    "tAs": {
+      "type": "regulatory_alignment",
+      "provenance": "regulatory-alignment",
+      "value": 5000,
+      "value_exact": 5000,
+      "binding_jurisdiction": "CN",
+      "binding_id": "cn_gb14930_2022_detergent_type_b_tas_5000",
+      "basis": "total arsenic, product as placed on the market (mg/kg)",
+      "candidates": [
+        {
+          "id": "cn_gb14930_2022_detergent_type_b_tas_5000",
+          "value": 5000,
+          "jurisdiction": "CN"
+        }
+      ],
+      "stricter_unselected": [],
+      "label": "GB 14930.1-2022 Type B total-arsenic ceiling for detergents used on tableware and food-contact articles (5.0 mg/kg). The stricter Type A ceiling (3.0 mg/kg) governs detergents applied directly to food (washing produce), a different use, and is a same-instrument scope sibling, not a missed stricter limit."
+    },
+    "iAs": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tAs",
+      "rationale": "No jurisdiction sets an inorganic-arsenic limit for detergents or cleaning products; GB 14930.1 and every consumer-chemical trace-metal instrument regulate TOTAL arsenic (see the tAs cell), which bounds the inorganic fraction (iAs <= tAs). Inorganic arsenic is a dietary/water speciation with no separate cleaning-product instrument. No routed occurrence source measured or speciated inorganic arsenic in these products.",
+      "regulatory_basis": "Bounded by the total-arsenic ceiling (GB 14930.1 Type B, 5.0 mg/kg); no inorganic-arsenic limit for cleaning products in any jurisdiction",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII; US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada; Germany BfR",
+      "cross_sourced": "parent tAs published (GB 14930.1 Type B) + credible-ML register checked 2026-08-13 (no iAs cleaning-product limit); occurrence corpus (zhang2010; ecetoc1992) measured no arsenic speciation",
+      "reference_method": "Total-arsenic screen by ICP-MS on the product as placed on market; reflex inorganic-arsenic speciation only if total arsenic approaches the ceiling."
+    },
+    "Cd": {
+      "type": "grouped",
+      "provenance": "regulatory-alignment",
+      "value": 1000,
+      "value_exact": 1000,
+      "unit": "mg/kg (as Pb)",
+      "basis": "grouped heavy-metals-as-Pb ceiling, product as placed on market (GB 14930.1 <=1.0 mg/kg, sum of Pb+Cd+Hg+... as Pb)",
+      "binding_jurisdiction": "CN",
+      "source_page": "regulations/china-gb14930-1-detergent-arsenic-limits-2022",
+      "label": "Bounded by the GB 14930.1 grouped heavy-metals ceiling (<=1.0 mg/kg as Pb). Cadmium is a member of the summed group and is individually bounded <=1.0 mg/kg; conservative per-species interpretation of the sovereign grouped limit.",
+      "grouped": true
+    },
+    "tHg": {
+      "type": "grouped",
+      "provenance": "regulatory-alignment",
+      "value": 1000,
+      "value_exact": 1000,
+      "unit": "mg/kg (as Pb)",
+      "basis": "grouped heavy-metals-as-Pb ceiling, product as placed on market (GB 14930.1 <=1.0 mg/kg, sum of Pb+Cd+Hg+... as Pb)",
+      "binding_jurisdiction": "CN",
+      "source_page": "regulations/china-gb14930-1-detergent-arsenic-limits-2022",
+      "label": "Bounded by the GB 14930.1 grouped heavy-metals ceiling (<=1.0 mg/kg as Pb). Mercury is a member of the summed group and is individually bounded <=1.0 mg/kg; conservative per-species interpretation of the sovereign grouped limit.",
+      "grouped": true
+    },
+    "MeHg": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tHg",
+      "rationale": "Methylmercury has no formation or migration pathway in a detergent formulation; it is a marine-bioaccumulation speciation. Every mercury instrument that touches this product class regulates total mercury (GB 14930.1's grouped heavy-metals ceiling, see the tHg cell), which bounds any organomercury fraction. No routed occurrence source measured or speciated methylmercury in these products.",
+      "regulatory_basis": "Bounded by the total-mercury (grouped heavy-metals) ceiling (GB 14930.1, <=1.0 mg/kg as Pb); no methylmercury limit for cleaning products in any jurisdiction",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII; US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada; Germany BfR",
+      "cross_sourced": "parent tHg published (grouped GB 14930.1) + credible-ML register checked 2026-08-13 (no MeHg cleaning-product limit); occurrence corpus screened, no organomercury speciation reported",
+      "reference_method": "Total-mercury screen by CV-AAS or ICP-MS; no reflex methylmercury speciation defined for cleaning products (no formation pathway)."
+    },
+    "Ni": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "dermal-sensitizer screen",
+      "reference_method": "Total nickel by ICP-MS on the product as placed on market (acid digestion).",
+      "escalation_rule": "Nickel is a confirmed dermal sensitizer and is measured in household cleaning products (zhang2010 dish soap; ecetoc1992 dish/all-purpose/specialty cleaners). No jurisdiction sets a numeric total-nickel maximum for cleaning products, so certification screens total nickel and escalates a lot above the running category control band to ALARA review rather than pass/failing on an invented number.",
+      "rationale": "Present in the occurrence corpus; no sovereign ML in a consumer-chemical total-content basis. A drinking-water or article-migration nickel value is a different basis and is not read across."
+    },
+    "Al": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "Tier-2 screen",
+      "reference_method": "Total aluminium by ICP-MS on the product as placed on market.",
+      "escalation_rule": "Aluminium is Tier-2 (low toxicity by the oral/dermal routes at cleaning-product exposure) and may be a functional mineral ingredient (alumina abrasives, aluminosilicate builders). No jurisdiction sets a cleaning-product aluminium maximum. Screen total aluminium; a lot outside the functional-ingredient expectation triggers ingredient review.",
+      "rationale": "No sovereign ML; potential functional-ingredient source means a not-material claim would be false. Screen, do not publish a number."
+    },
+    "Cr-total": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "screen + reflex speciation",
+      "reference_method": "Total chromium by ICP-MS on the product as placed on market.",
+      "escalation_rule": "Total chromium is measured in cleaning products (zhang2010; ecetoc1992). No jurisdiction sets a cleaning-product chromium maximum. Screen total chromium and reflex Cr(VI) speciation where total chromium is elevated or the formulation is oxidizing/acidic.",
+      "rationale": "Present in the occurrence corpus; no sovereign ML in a consumer-chemical total-content basis."
+    },
+    "Cr-VI": {
+      "type": "control",
+      "provenance": "control",
+      "value": null,
+      "tier": "reflex speciation on oxidizing/acidic formulations",
+      "reference_method": "Hexavalent chromium by IC-ICP-MS with alkaline extraction (US EPA 3060A / 7199) on oxidizing or acidic formulations.",
+      "escalation_rule": "Cr(VI) is measured in some consumer cleaning products (ecetoc1992) and oxidizing/acidic chemistries can stabilize it. No jurisdiction sets a cleaning-product Cr(VI) maximum. Reflex Cr(VI) speciation on oxidizing/acidic formulations and where total chromium is elevated; escalate a positive Cr(VI) result to ALARA review.",
+      "rationale": "Measured in the corpus; a real hazard on oxidizing chemistries; no sovereign number, so a method + escalation rule is published rather than an invented threshold."
+    },
+    "Sn": {
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "no-migration-pathway",
+      "bounded_by": null,
+      "rationale": "Inorganic tin has no source in a detergent/dish-cleaning formulation (no tinplate or canned-food pathway). Organotin is a DISTINCT species (biocide/stabiliser) restricted by REACH Annex XVII entry 20 and is screened separately where a formulation could carry it; it does not bound, and is not bounded by, this inorganic-tin cell. No jurisdiction sets an inorganic-tin limit for cleaning products, and no routed occurrence source measured tin (the zhang2010 ten-metal panel excludes tin).",
+      "regulatory_basis": "No inorganic-tin limit for cleaning products in any jurisdiction; organotin covered separately under REACH Annex XVII entry 20",
+      "jurisdictions_checked": "CN GB 14930.1; CN NMPA 2015; EU 10/2011; EU REACH Annex XVII (entry 20 organotin); US EPA Safer Choice; Green Seal GS-8; CA SB 258; NY Household Cleaner Disclosure; Health Canada",
+      "cross_sourced": "credible-ML register checked 2026-08-13 (no inorganic-Sn cleaning-product limit; only organotin restriction, a distinct species); occurrence corpus measured no tin (zhang2010 ten-metal panel excludes Sn)",
+      "reference_method": "Periodic ICP-MS inorganic-tin verification; organotin (DBT/DOT/TBT as Sn) screened separately by GC-ICP-MS where a biocidal-organotin pathway is plausible."
+    }
+  },
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "config": "tools/standards/cat12-config.json",
+  "method": "HMTc Method v2.0 (government-limit default, consumer-chemical form; native basis = total heavy-metal content in product as placed on market, mg/kg; no cross-basis min)",
+  "standard_version": "1.0"
+}

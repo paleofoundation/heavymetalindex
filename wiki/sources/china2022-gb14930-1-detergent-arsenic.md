@@ -23,7 +23,7 @@ near_duplicates: []
 updated: 2026-08-10
 ---
 
-GB 14930.1-2022 sets physical and chemical indices for detergents used to clean food, tableware, and food-contact tools, equipment, packaging, and containers. The extractable text gives total arsenic limits for Type A and Type B detergents. A separate line for combined heavy metals calculated as Pb is not loaded because it is a grouped metal class rather than a species-specific lead limit.
+GB 14930.1-2022 sets physical and chemical indices for detergents used to clean food, tableware, and food-contact tools, equipment, packaging, and containers. The extractable text gives total arsenic limits for Type A and Type B detergents plus a grouped ceiling on combined heavy metals calculated as Pb (1.0 mg/kg). The grouped ceiling is documented on the regulation page as a grouped ceiling rather than being loaded into the register as a species-specific lead row, because it regulates the sum of heavy metals calculated as Pb, not lead alone.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
