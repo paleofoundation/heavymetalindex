@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-59 open item(s): 25 auto, 34 awaiting a decision.
+62 open item(s): 25 auto, 37 awaiting a decision.
+
+### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/lib/food-standards-engine.mjs`, `tools/standards/lib/food-limit-compiler.mjs`
+- repro: two independently-built Method-v2.0 engines exist after parallel sessions; food-limit-compiler.mjs (Cat 27-32) lacks form_split which Cat 33/34 require for legislated product-form splits (EU cocoa-solids Cd, spice-Pb botanical parts, salt refined/unrefined)
+- done when: one shared food-standard engine supports all of Cat 27-34 including form_split; the redundant engine is removed
+- decision: _pending_
 
 ### OI-20260813-register-cat272829-qc-gate — Register cat27/28/29 in the standards QC gate once compile-current-standards.mjs lands on origin/main
 
@@ -537,12 +545,28 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Karen decides whether to split the high-nickel tree nuts into their own row
 - decision: _pending_
 
+### OI-20260813-not-material-backlog-contradictions — standards-not-material.csv has 70 not-material determinations (in categories other than 33/34) contradicted by routed sources per audit-not-material-integrity.mjs — a pre-existing backlog to re-adjudicate to control/real-limit
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`, `tools/evidence/audit-not-material-integrity.mjs`
+- repro: node tools/evidence/audit-not-material-integrity.mjs --warn-only reports 70 contradictions across categories other than 33/34 (cat33/34 are clean); each is a not-material cell whose routed source measured the analyte
+- done when: audit-not-material-integrity.mjs reports 0 contradictions
+- decision: _pending_
+
 ### OI-20260813-cultivated-mushroom-cd-split — Consider splitting cultivated-mushrooms into common (Cd 50) vs oyster/shiitake (Cd 150) per the EU accumulator carve-out
 
 - scope: **human-gated** · type: decision · status: open · repo: index
 - paths: `tools/standards/cat29-config.json`
 - repro: CAT 29 cultivated-mushrooms binds Cd 50 (EU common cultivated fungi / CH Agaricus bisporus). EU 2023/915 sets a looser Cd 150 for oyster and shiitake mushrooms, which accumulate more cadmium than button mushrooms. The single cultivated row ratchets oyster/shiitake to 50 (disclosed in the config scope_note). A common-vs-oyster/shiitake split would preserve the EU carve-out; taxonomy/Step-0 decision.
 - done when: Karen decides whether to split cultivated mushrooms by the EU Cd 50/150 carve-out
+- decision: _pending_
+
+### OI-20260813-cat3334-govlimit-readiness-integration — Wire the Cat 33/34 government-limit compiled standards into the readiness+publication path (supersedes the stalled occurrence-pool cells: spices:Cd 'no mapped government cap', salt:Cd/Pb QC-HELD percentile-beyond-sample)
+
+- scope: **human-gated** · type: promote · status: open · repo: index
+- paths: `data/workbench/standards/cat33-compiled`, `data/workbench/standards/cat34-compiled`, `data/evidence/category-standards-readiness.md`
+- repro: readiness monitor shows Cat 34 salt/spices blocked on percentile-beyond-sample + no-mapped-cap; cat33/cat34-compiled supply those government-limit caps but nothing reads them into readiness/QC yet
+- done when: readiness monitor reflects the Cat 33/34 government-limit standard instead of blocked occurrence-pool cells
 - decision: _pending_
 
 ### OI-20260813-cat30-32-cert-downstream — Wire the Cat 30/31/32 compiled standards into the cert-page / catalog / not-material-registry downstream (currently workbench-only JSON)
