@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-65 open item(s): 25 auto, 40 awaiting a decision.
+66 open item(s): 25 auto, 41 awaiting a decision.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
@@ -569,6 +569,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: node tools/evidence/audit-not-material-integrity.mjs --warn-only reports 70 contradictions across categories other than 33/34 (cat33/34 are clean); each is a not-material cell whose routed source measured the analyte
 - done when: audit-not-material-integrity.mjs reports 0 contradictions
 - decision: _pending_
+
+### OI-20260813-methodology-sync-branch-superseded — codex/methodology-sync branch (3 commits) is a SUPERSEDED dead lane — do NOT merge it into origin/main; the QC-gate tooling it was thought to strand is already on origin/main
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/compile-current-standards.mjs`, `tools/standards/hmtc-analyte-panel.mjs`, `tools/standards/lib/food-standards-engine.mjs`
+- repro: A reconcile task assumed tools/standards/build-standards-qc-gate.mjs + hmtc-analyte-panel.mjs were stranded on codex/methodology-sync and needed landing on origin/main. VERIFIED FALSE: (1) the QC gate lives at tools/evidence/build-standards-qc-gate.mjs, is ALREADY on origin/main, and is ALREADY wired into prebuild (self-contained; reads data/evidence CSVs; passes exit 0 = 194 PASS, 0 CRITICAL_FAIL). (2) codex/methodology-sync = base b42aeda8b (2026-08-11) + 3 commits whose last is 2026-08-13 05:58; origin/main advanced 25 commits through 2026-08-13 23:04, redoing ALL standards (cat16/27/28/29/30/31/32/33/34) via self-contained compilers + build-government-limit-standard.mjs + lib/food-standards-engine.mjs + lib/food-limit-compiler.mjs AFTER the branch's last commit. The branch's only origin-absent files are the superseded compile-current-standards.mjs + hmtc-analyte-panel.mjs plus divergent edits to build-government-limit-standard/compile-cat1/compile-cat9. Its 880cf9722 'Retire occurrence-selected HMTc methodology' may CONTRADICT ratified Method v2.0, which explicitly RETAINS selective occurrence pooling for Tier-1 toxics + no-ML cells (CLAUDE.md Part 19). Merging would regress the deployed canonical. Full working state (tip + 726 dirty files) is preserved 100% on snapshot branch snapshot/methodology-sync-20260813-2305 (commit b17e2a765).
+- done when: Karen decides: formally retire codex/methodology-sync (nothing to salvage; snapshot preserves it) OR name any specific methodology idea from it worth adopting on origin's architecture; OI-20260813-register-cat272829-qc-gate is recognized as moot-as-written (its precondition — compile-current-standards.mjs landing on origin/main — should not happen); cat27/28/29 are already covered by origin/main's data-driven QC gate
+- decision: _pending_
+- notes: Snapshot branch: snapshot/methodology-sync-20260813-2305 (b17e2a765) on the canonical checkout — recoverable via `git checkout snapshot/methodology-sync-20260813-2305`. Nothing was merged, force-pushed, reset, or deleted. If the underlying idea behind the register OI (a build-time compile-drift + completion audit for shipped cats) is still wanted, build it on origin's self-contained-compiler architecture, not on compile-current-standards.mjs. --- RECONCILE GREEN-VERIFICATION (origin/main @ 931178d51): the QC gate + every other prebuild gate PASS; the SOLE prebuild blocker is OI-20260813-notmaterial-nopathway-basis-class (already logged by a concurrent session). REFINEMENT to that item's fix note: it maps 'MeHg and Sn no-source rows -> no-migration-pathway', but the 7 MeHg cells carry bounded_by=tHg and should map to basis_class 'speciation-bounded' (the cat27/28/29 precedent for MeHg; audit's speciation-bounded requires bounded_by, which is present). Only Sn/Al 'no source' cells map to no-migration-pathway; Cr-VI (bounded_by=Cr) -> speciation-bounded; Cd/tHg/Ni 'no-source' in confections remain the human/cert judgment cells (not-material vs control; Cd especially, given EU cocoa-Cd regulation).
 
 ### OI-20260813-hk-cap132v-category-pickup — Re-run built category compilers (Cat 27/29/30/31/32/33/34) to pick up HK Cap 132V sovereign rows now in the register
 
