@@ -118,34 +118,33 @@ cultivated-mushrooms,MeHg,speciation-bounded,PASS,
 cultivated-mushrooms,Sn,no-migration-pathway,PASS,
 wild-mushrooms,Cr-VI,speciation-bounded,PASS,
 wild-mushrooms,Sn,no-migration-pathway,PASS,
-chocolate,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-chocolate,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-confectionery-candy,Cd,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+chocolate,MeHg,speciation-bounded,PASS,
+chocolate,Sn,no-migration-pathway,PASS,
+confectionery-candy,Cd,no-migration-pathway,PASS,
 confectionery-candy,iAs,speciation-bounded,PASS,
-confectionery-candy,tHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-confectionery-candy,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-confectionery-candy,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-confectionery-candy,Al,additive-permitted,WARN,WARN: additive-permitted rationale should cite the permitted-additive basis (E-number / 21 CFR / GB)
-confectionery-candy,Cr-VI,reduces-in-matrix,FAIL,"FAIL: missing/invalid basis_class 'reduces-in-matrix' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-gummies-jellies,Cd,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,tHg,no-migration-pathway,PASS,
+confectionery-candy,MeHg,speciation-bounded,PASS,
+confectionery-candy,Sn,no-migration-pathway,PASS,
+confectionery-candy,Al,additive-permitted,PASS,
+confectionery-candy,Cr-VI,speciation-bounded,PASS,
+gummies-jellies,Cd,no-migration-pathway,PASS,
 gummies-jellies,iAs,speciation-bounded,PASS,
-gummies-jellies,tHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-gummies-jellies,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-gummies-jellies,Ni,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-gummies-jellies,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-gummies-jellies,Al,additive-permitted,WARN,WARN: additive-permitted rationale should cite the permitted-additive basis (E-number / 21 CFR / GB)
-gummies-jellies,Cr-VI,reduces-in-matrix,FAIL,"FAIL: missing/invalid basis_class 'reduces-in-matrix' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-spices,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-salt,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-salt,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-salt,Cr-VI,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,tHg,no-migration-pathway,PASS,
+gummies-jellies,MeHg,speciation-bounded,PASS,
+gummies-jellies,Ni,no-migration-pathway,PASS,
+gummies-jellies,Sn,no-migration-pathway,PASS,
+gummies-jellies,Al,additive-permitted,PASS,
+gummies-jellies,Cr-VI,speciation-bounded,PASS,
+spices,MeHg,speciation-bounded,PASS,
+salt,MeHg,speciation-bounded,PASS,
+salt,Sn,no-migration-pathway,PASS,
+salt,Cr-VI,speciation-bounded,PASS,
 hot-chili-sauces,iAs,speciation-bounded,PASS,
-hot-chili-sauces,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-hot-chili-sauces,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-hot-chili-sauces,Al,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+hot-chili-sauces,MeHg,speciation-bounded,PASS,
+hot-chili-sauces,Sn,no-migration-pathway,PASS,
 bouillon-seasoning-blends,iAs,speciation-bounded,PASS,
-bouillon-seasoning-blends,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
-bouillon-seasoning-blends,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+bouillon-seasoning-blends,MeHg,speciation-bounded,PASS,
+bouillon-seasoning-blends,Sn,no-migration-pathway,PASS,
 bouillon-seasoning-blends,Al,natural-accumulator,PASS,
 peptides-injectable-hormones,MeHg,no-migration-pathway,PASS,
 sarms-oral,MeHg,no-migration-pathway,PASS,

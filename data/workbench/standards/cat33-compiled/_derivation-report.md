@@ -49,12 +49,12 @@ Native basis: confection as placed on the market (as-sold solid). Covers hard ca
 | tAs | 100 | regulatory-alignment | MERCOSUR: mercosur_gmc12_2011_candies_chewing_gum_tas_100 |
 | iAs | n/m | not-material | Bounded by the total-As candy standard (100 ug/kg); no inorganic-As candy ML anywhere |
 | tHg | n/m | not-material | No candy mercury ML anywhere; 21 CFR 73.85 is a colour-additive purity spec, not a food ML |
-| MeHg | n/m | not-material | No methylmercury candy ML anywhere; no pathway |
+| MeHg | n/m | not-material | No methylmercury candy ML anywhere; bounded by total mercury (MeHg <= tHg) |
 | Ni | control (screen) | control | Nickel screen on any hydrogenated-fat-containing confection; no sovereign candy ML. |
 | Sn | n/m | not-material | No candy tin ML for non-canned product; canned-food 250 mg/kg limit applies to cans only |
 | Al | n/m | not-material | Al managed by additive law (aluminium lakes) + TWI; no candy contaminant ML |
 | Cr | control (screen) | control | Total-chromium screen; substrate for reflex Cr-VI speciation. |
-| Cr-VI | n/m | not-material | No Cr-VI food ML anywhere; reduces to Cr-III in matrix |
+| Cr-VI | n/m | not-material | No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr) |
 
 ## gummies-jellies — Gummies and jelly sweets
 
@@ -67,10 +67,10 @@ Native basis: confection as placed on the market (as-sold solid). Covers gummies
 | tAs | 100 | regulatory-alignment | MERCOSUR: mercosur_gmc12_2011_candies_chewing_gum_tas_100 |
 | iAs | n/m | not-material | Bounded by the total-As candy standard; no inorganic-As ML anywhere |
 | tHg | n/m | not-material | No gummy/jelly mercury ML anywhere; no pathway |
-| MeHg | n/m | not-material | No methylmercury ML anywhere; no pathway |
+| MeHg | n/m | not-material | No methylmercury ML anywhere; bounded by total mercury (MeHg <= tHg) |
 | Ni | n/m | not-material | No gummy/jelly nickel ML anywhere; no nickel pathway |
 | Sn | n/m | not-material | No non-canned gummy/jelly tin ML; canned-jelly 250 mg/kg limit is can-only |
 | Al | n/m | not-material | Al managed by additive law + TWI; no gummy/jelly contaminant ML |
 | Cr | control (screen) | control | Total-chromium screen; substrate for reflex Cr-VI speciation. |
-| Cr-VI | n/m | not-material | No Cr-VI food ML anywhere; reduces to Cr-III in matrix |
+| Cr-VI | n/m | not-material | No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr) |
 

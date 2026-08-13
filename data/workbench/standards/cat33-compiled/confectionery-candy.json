@@ -40,11 +40,12 @@
     },
     "Cd": {
       "analyte": "Cd",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "no-migration-pathway",
       "bounded_by": null,
-      "rationale": "Sugar confectionery (hard candy, caramels, chews) has no cadmium source: there is no cocoa and no soil-uptake plant tissue at the confection level. The documented cadmium contamination platform for this category is cocoa (certified under the chocolate row, which carries the EU cocoa-solids cadmium form_split). The known imported/ethnic-candy adulteration hazard is lead (and to a lesser extent arsenic), not cadmium. Rebuttable: if a routed source reports cadmium measured in a non-cocoa confection, re-adjudicate.",
+      "rationale": "Sugar confectionery (hard candy, caramels, chews) has no cadmium source or migration route: there is no cocoa and no soil-uptake plant tissue at the confection level. The documented cadmium contamination platform for this category is cocoa (certified under the chocolate row, which carries the EU cocoa-solids cadmium form_split). The known imported/ethnic-candy adulteration hazard is lead (and to a lesser extent arsenic), not cadmium. Rebuttable: if a routed source reports cadmium measured in a non-cocoa confection, re-adjudicate.",
       "reference_method": "Ingredient screen; cocoa-based confections route to the chocolate row.",
       "regulatory_basis": "No candy cadmium ML in any jurisdiction; cadmium pathway is cocoa (routed to chocolate)",
       "jurisdictions_checked": "EU 2023/915; Codex; FDA; MERCOSUR; Singapore; Paraguay"
@@ -76,6 +77,7 @@
     },
     "iAs": {
       "analyte": "iAs",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
       "basis_class": "speciation-bounded",
@@ -87,24 +89,26 @@
     },
     "tHg": {
       "analyte": "tHg",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "no-migration-pathway",
       "bounded_by": null,
-      "rationale": "Sugar, glucose syrup and confectionery fats carry no mercury source, and there is no bioaccumulation pathway in a candy. The 21 CFR 73.85 'Caramel; food use' mercury figure (100 ug/kg) is a purity specification for the caramel COLOUR ADDITIVE, not a limit for caramel candy, and is not applied here. Rebuttable if a routed source reports mercury in confectionery.",
+      "rationale": "Sugar, glucose syrup and confectionery fats carry no mercury source, and there is no bioaccumulation or migration pathway in a candy. The 21 CFR 73.85 'Caramel; food use' mercury figure (100 ug/kg) is a purity specification for the caramel COLOUR ADDITIVE, not a limit for caramel candy, and is not applied here. Rebuttable if a routed source reports mercury in confectionery.",
       "reference_method": "No mercury pathway; screen on any novel ingredient.",
       "regulatory_basis": "No candy mercury ML anywhere; 21 CFR 73.85 is a colour-additive purity spec, not a food ML",
       "jurisdictions_checked": "EU; Codex; FDA (21 CFR 73 excluded as additive-purity); MERCOSUR"
     },
     "MeHg": {
       "analyte": "MeHg",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "speciation-bounded",
       "bounded_by": "tHg",
-      "rationale": "No mercury source and no methylmercury formation pathway in sugar confectionery.",
-      "reference_method": "n/a — no mercury pathway.",
-      "regulatory_basis": "No methylmercury candy ML anywhere; no pathway",
+      "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); sugar confectionery carries no mercury source and no methylmercury formation pathway, so any organomercury fraction sits below the total-mercury determination.",
+      "reference_method": "Total-mercury screen; MeHg bounded by tHg.",
+      "regulatory_basis": "No methylmercury candy ML anywhere; bounded by total mercury (MeHg <= tHg)",
       "jurisdictions_checked": "EU; Codex; FDA"
     },
     "Ni": {
@@ -117,9 +121,10 @@
     },
     "Sn": {
       "analyte": "Sn",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "no-migration-pathway",
       "bounded_by": null,
       "rationale": "No tin source in wrapped/boxed sugar confectionery; tin is a tinplate-can migration pathway only.",
       "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
@@ -128,11 +133,12 @@
     },
     "Al": {
       "analyte": "Al",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
       "basis_class": "additive-permitted",
       "bounded_by": null,
-      "rationale": "Aluminium in confectionery derives from permitted aluminium-lake colour additives, not contamination, and is managed by additive law and by intake against the EFSA/JECFA TWI, not by a per-food contaminant maximum level. No credible regulator sets an aluminium contaminant ML for candy.",
+      "rationale": "Aluminium in confectionery derives from the permitted additive aluminium (aluminium-lake colour, EU E173 / US 21 CFR 73), not contamination, and is managed by additive law and by intake against the EFSA/JECFA TWI, not by a per-food contaminant maximum level. No credible regulator sets an aluminium contaminant ML for candy.",
       "reference_method": "Managed by additive law + TWI; periodic screen.",
       "regulatory_basis": "Al managed by additive law (aluminium lakes) + TWI; no candy contaminant ML",
       "jurisdictions_checked": "EU 1333/2008; FDA 21 CFR 73/74; Codex; JECFA/EFSA TWI"
@@ -147,13 +153,14 @@
     },
     "Cr-VI": {
       "analyte": "Cr-VI",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "reduces-in-matrix",
+      "basis_class": "speciation-bounded",
       "bounded_by": "Cr",
-      "rationale": "Hexavalent chromium is reduced to chromium(III) in a reducing, sugar-rich confection matrix and is not stable as Cr(VI). No jurisdiction sets a Cr-VI food ML.",
-      "reference_method": "No routine Cr-VI speciation; reflex only on anomalously elevated total chromium.",
-      "regulatory_basis": "No Cr-VI food ML anywhere; reduces to Cr-III in matrix",
+      "rationale": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium control (Cr-VI <= total Cr), which is screened for this category; no jurisdiction sets a Cr-VI food maximum level. Corroborating: Cr(VI) is reduced to chromium(III) in the reducing, sugar-rich confection matrix and does not persist as Cr(VI).",
+      "reference_method": "Bounded by the total-chromium screen; no routine Cr-VI speciation, reflex only on anomalously elevated total chromium.",
+      "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr)",
       "jurisdictions_checked": "EU; Codex; FDA; EPA (water only)"
     }
   },

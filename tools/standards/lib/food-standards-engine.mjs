@@ -155,8 +155,14 @@ export function makeEngine(registerPath) {
     if (spec.not_material) {
       const nm = spec.not_material
       return {
-        analyte, provenance: "not-material", value: null,
-        basis_class: nm.basis_class || "no-pathway", bounded_by: nm.bounded_by || null,
+        // `type: "not_material"` keeps this cell schema-consistent with the other compilers
+        // (cat27-32/cat9) so sync-not-material.mjs (which keys on cell.type) picks it up; without it
+        // the engine's not-material cells were silently skipped by sync and could only ever be
+        // appended (never updated) by the engine's own --sync path, which is how a stale basis_class drifts.
+        analyte, type: "not_material", provenance: "not-material", value: null,
+        // pass basis_class through unchanged; a missing/blank value must fail the substantiation gate
+        // loudly (empty basis_class -> FAIL) rather than being papered over with an invalid default token.
+        basis_class: nm.basis_class || "", bounded_by: nm.bounded_by || null,
         rationale: nm.rationale, reference_method: nm.reference_method || null,
         regulatory_basis: nm.regulatory_basis || null, jurisdictions_checked: nm.jurisdictions_checked || null,
       }
@@ -308,7 +314,7 @@ export function runCli({ repo, configPath, defaultOutdir }) {
     if (!txt.endsWith("\n")) txt += "\n"
     for (const { rec, analyte, cell } of toRegister) {
       const row = {
-        row_slug: rec.slug, metal_species: analyte, basis_class: cell.basis_class || "no-pathway", bounded_by: cell.bounded_by || "",
+        row_slug: rec.slug, metal_species: analyte, basis_class: cell.basis_class || "", bounded_by: cell.bounded_by || "",
         rationale: cell.rationale || "", regulatory_basis: cell.regulatory_basis || "", jurisdictions_checked: cell.jurisdictions_checked || "",
         cross_sourced: `credible-ML register checked ${config._nm_date || ""}; explicit-id Method v2.0 lookup`, date: config._nm_date || "",
       }

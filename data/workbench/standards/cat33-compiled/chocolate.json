@@ -243,11 +243,12 @@
     },
     "MeHg": {
       "analyte": "MeHg",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "speciation-bounded",
       "bounded_by": "tHg",
-      "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation or migration pathway in cocoa or chocolate. Every applicable mercury limit is on total mercury, which bounds any organomercury fraction.",
+      "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation pathway in a terrestrial cocoa or chocolate matrix, and it is arithmetically bounded by total mercury (MeHg <= tHg). Every applicable mercury limit is set on total mercury, which the tHg standard caps, bounding any organomercury fraction.",
       "reference_method": "Total-mercury screen (CV-AAS or ICP-MS).",
       "regulatory_basis": "Bounded by the total-Hg standard (Vietnam QCVN 8-2:2011, 50 ug/kg); no methylmercury ML for cocoa/chocolate anywhere",
       "jurisdictions_checked": "EU 2022/617; Codex; FDA; Vietnam; Israel"
@@ -317,17 +318,19 @@
     },
     "Sn": {
       "analyte": "Sn",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "no-migration-pathway",
       "bounded_by": null,
-      "rationale": "Inorganic tin migrates from tinplate cans; chocolate, cocoa powder and chips are sold in wrappers/boxes/pouches, not tinplate cans, so there is no tin source. Tin is material only for tin-plated canned product.",
+      "rationale": "Inorganic tin migrates from tinplate cans; chocolate, cocoa powder and chips are sold in wrappers/boxes/pouches, not tinplate cans, so there is no tin source or migration route. Tin is material only for tin-plated canned product.",
       "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
       "regulatory_basis": "No tin ML for non-canned chocolate/cocoa; the 250 mg/kg canned-food tin limit applies only to tin-plated cans",
       "jurisdictions_checked": "EU 2023/915; Codex CXS 193; FDA"
     },
     "Al": {
       "analyte": "Al",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
       "basis_class": "natural-accumulator",

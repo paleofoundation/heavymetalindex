@@ -58,9 +58,9 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation or migration pathway in cocoa or chocolate. Every applicable mercury limit is on total mercury, which bounds any organomercury fraction.",
+            "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation pathway in a terrestrial cocoa or chocolate matrix, and it is arithmetically bounded by total mercury (MeHg <= tHg). Every applicable mercury limit is set on total mercury, which the tHg standard caps, bounding any organomercury fraction.",
             "reference_method": "Total-mercury screen (CV-AAS or ICP-MS).",
             "regulatory_basis": "Bounded by the total-Hg standard (Vietnam QCVN 8-2:2011, 50 ug/kg); no methylmercury ML for cocoa/chocolate anywhere",
             "jurisdictions_checked": "EU 2022/617; Codex; FDA; Vietnam; Israel"
@@ -79,9 +79,9 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Inorganic tin migrates from tinplate cans; chocolate, cocoa powder and chips are sold in wrappers/boxes/pouches, not tinplate cans, so there is no tin source. Tin is material only for tin-plated canned product.",
+            "rationale": "Inorganic tin migrates from tinplate cans; chocolate, cocoa powder and chips are sold in wrappers/boxes/pouches, not tinplate cans, so there is no tin source or migration route. Tin is material only for tin-plated canned product.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
             "regulatory_basis": "No tin ML for non-canned chocolate/cocoa; the 250 mg/kg canned-food tin limit applies only to tin-plated cans",
             "jurisdictions_checked": "EU 2023/915; Codex CXS 193; FDA"
@@ -128,9 +128,9 @@
         },
         "Cd": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Sugar confectionery (hard candy, caramels, chews) has no cadmium source: there is no cocoa and no soil-uptake plant tissue at the confection level. The documented cadmium contamination platform for this category is cocoa (certified under the chocolate row, which carries the EU cocoa-solids cadmium form_split). The known imported/ethnic-candy adulteration hazard is lead (and to a lesser extent arsenic), not cadmium. Rebuttable: if a routed source reports cadmium measured in a non-cocoa confection, re-adjudicate.",
+            "rationale": "Sugar confectionery (hard candy, caramels, chews) has no cadmium source or migration route: there is no cocoa and no soil-uptake plant tissue at the confection level. The documented cadmium contamination platform for this category is cocoa (certified under the chocolate row, which carries the EU cocoa-solids cadmium form_split). The known imported/ethnic-candy adulteration hazard is lead (and to a lesser extent arsenic), not cadmium. Rebuttable: if a routed source reports cadmium measured in a non-cocoa confection, re-adjudicate.",
             "reference_method": "Ingredient screen; cocoa-based confections route to the chocolate row.",
             "regulatory_basis": "No candy cadmium ML in any jurisdiction; cadmium pathway is cocoa (routed to chocolate)",
             "jurisdictions_checked": "EU 2023/915; Codex; FDA; MERCOSUR; Singapore; Paraguay"
@@ -152,9 +152,9 @@
         },
         "tHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Sugar, glucose syrup and confectionery fats carry no mercury source, and there is no bioaccumulation pathway in a candy. The 21 CFR 73.85 'Caramel; food use' mercury figure (100 ug/kg) is a purity specification for the caramel COLOUR ADDITIVE, not a limit for caramel candy, and is not applied here. Rebuttable if a routed source reports mercury in confectionery.",
+            "rationale": "Sugar, glucose syrup and confectionery fats carry no mercury source, and there is no bioaccumulation or migration pathway in a candy. The 21 CFR 73.85 'Caramel; food use' mercury figure (100 ug/kg) is a purity specification for the caramel COLOUR ADDITIVE, not a limit for caramel candy, and is not applied here. Rebuttable if a routed source reports mercury in confectionery.",
             "reference_method": "No mercury pathway; screen on any novel ingredient.",
             "regulatory_basis": "No candy mercury ML anywhere; 21 CFR 73.85 is a colour-additive purity spec, not a food ML",
             "jurisdictions_checked": "EU; Codex; FDA (21 CFR 73 excluded as additive-purity); MERCOSUR"
@@ -162,11 +162,11 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "No mercury source and no methylmercury formation pathway in sugar confectionery.",
-            "reference_method": "n/a — no mercury pathway.",
-            "regulatory_basis": "No methylmercury candy ML anywhere; no pathway",
+            "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); sugar confectionery carries no mercury source and no methylmercury formation pathway, so any organomercury fraction sits below the total-mercury determination.",
+            "reference_method": "Total-mercury screen; MeHg bounded by tHg.",
+            "regulatory_basis": "No methylmercury candy ML anywhere; bounded by total mercury (MeHg <= tHg)",
             "jurisdictions_checked": "EU; Codex; FDA"
           }
         },
@@ -179,7 +179,7 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
             "rationale": "No tin source in wrapped/boxed sugar confectionery; tin is a tinplate-can migration pathway only.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
@@ -191,7 +191,7 @@
           "not_material": {
             "basis_class": "additive-permitted",
             "bounded_by": null,
-            "rationale": "Aluminium in confectionery derives from permitted aluminium-lake colour additives, not contamination, and is managed by additive law and by intake against the EFSA/JECFA TWI, not by a per-food contaminant maximum level. No credible regulator sets an aluminium contaminant ML for candy.",
+            "rationale": "Aluminium in confectionery derives from the permitted additive aluminium (aluminium-lake colour, EU E173 / US 21 CFR 73), not contamination, and is managed by additive law and by intake against the EFSA/JECFA TWI, not by a per-food contaminant maximum level. No credible regulator sets an aluminium contaminant ML for candy.",
             "reference_method": "Managed by additive law + TWI; periodic screen.",
             "regulatory_basis": "Al managed by additive law (aluminium lakes) + TWI; no candy contaminant ML",
             "jurisdictions_checked": "EU 1333/2008; FDA 21 CFR 73/74; Codex; JECFA/EFSA TWI"
@@ -206,11 +206,11 @@
         },
         "Cr-VI": {
           "not_material": {
-            "basis_class": "reduces-in-matrix",
+            "basis_class": "speciation-bounded",
             "bounded_by": "Cr",
-            "rationale": "Hexavalent chromium is reduced to chromium(III) in a reducing, sugar-rich confection matrix and is not stable as Cr(VI). No jurisdiction sets a Cr-VI food ML.",
-            "reference_method": "No routine Cr-VI speciation; reflex only on anomalously elevated total chromium.",
-            "regulatory_basis": "No Cr-VI food ML anywhere; reduces to Cr-III in matrix",
+            "rationale": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium control (Cr-VI <= total Cr), which is screened for this category; no jurisdiction sets a Cr-VI food maximum level. Corroborating: Cr(VI) is reduced to chromium(III) in the reducing, sugar-rich confection matrix and does not persist as Cr(VI).",
+            "reference_method": "Bounded by the total-chromium screen; no routine Cr-VI speciation, reflex only on anomalously elevated total chromium.",
+            "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr)",
             "jurisdictions_checked": "EU; Codex; FDA; EPA (water only)"
           }
         }
@@ -231,9 +231,9 @@
         },
         "Cd": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Gelatin/pectin/sugar gummies and fruit-jelly sweets have no cadmium source; there is no cocoa and no soil-uptake plant tissue at the confection level. Rebuttable if a routed source reports cadmium in a jelly confection.",
+            "rationale": "Gelatin/pectin/sugar gummies and fruit-jelly sweets have no cadmium source or migration route; there is no cocoa and no soil-uptake plant tissue at the confection level. Rebuttable if a routed source reports cadmium in a jelly confection.",
             "reference_method": "Ingredient screen.",
             "regulatory_basis": "No gummy/jelly-sweet cadmium ML in any jurisdiction",
             "jurisdictions_checked": "EU 2023/915; Codex; FDA; MERCOSUR; Paraguay"
@@ -255,9 +255,9 @@
         },
         "tHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "No mercury source and no bioaccumulation pathway in a sugar/gelatin/pectin confection.",
+            "rationale": "No mercury source and no bioaccumulation or migration pathway in a sugar/gelatin/pectin confection.",
             "reference_method": "No mercury pathway; screen on any novel ingredient.",
             "regulatory_basis": "No gummy/jelly mercury ML anywhere; no pathway",
             "jurisdictions_checked": "EU; Codex; FDA"
@@ -265,19 +265,19 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "No mercury source or methylmercury pathway in a gummy/jelly sweet.",
-            "reference_method": "n/a — no mercury pathway.",
-            "regulatory_basis": "No methylmercury ML anywhere; no pathway",
+            "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); a gummy/jelly sweet carries no mercury source and no methylmercury formation pathway, so any organomercury fraction sits below the total-mercury determination.",
+            "reference_method": "Total-mercury screen; MeHg bounded by tHg.",
+            "regulatory_basis": "No methylmercury ML anywhere; bounded by total mercury (MeHg <= tHg)",
             "jurisdictions_checked": "EU; Codex; FDA"
           }
         },
         "Ni": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Gelatin/pectin/sugar gummies and fruit jellies contain no hydrogenated fat and no nickel source; no jurisdiction sets a nickel ML for confectionery. Rebuttable if a routed source reports nickel in a jelly confection.",
+            "rationale": "Gelatin/pectin/sugar gummies and fruit jellies contain no hydrogenated fat and no nickel source or migration route; no jurisdiction sets a nickel ML for confectionery. Rebuttable if a routed source reports nickel in a jelly confection.",
             "reference_method": "Ingredient screen.",
             "regulatory_basis": "No gummy/jelly nickel ML anywhere; no nickel pathway",
             "jurisdictions_checked": "EU 2024/1987; Codex; FDA"
@@ -285,7 +285,7 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
             "rationale": "No tin source in a pouched/wrapped gummy or jelly sweet; the jams/jellies tin limit (250 mg/kg) is a tinplate-can migration limit for canned product, not applicable to non-canned confection.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
@@ -297,7 +297,7 @@
           "not_material": {
             "basis_class": "additive-permitted",
             "bounded_by": null,
-            "rationale": "Aluminium in gummies derives from permitted aluminium-lake colour additives, managed by additive law and intake vs the TWI, not by a per-food contaminant ML.",
+            "rationale": "Aluminium in gummies derives from the permitted additive aluminium (aluminium-lake colour, EU E173 / US 21 CFR 73), managed by additive law and intake vs the TWI, not by a per-food contaminant ML.",
             "reference_method": "Managed by additive law + TWI; periodic screen.",
             "regulatory_basis": "Al managed by additive law + TWI; no gummy/jelly contaminant ML",
             "jurisdictions_checked": "EU 1333/2008; FDA; Codex; JECFA/EFSA TWI"
@@ -312,11 +312,11 @@
         },
         "Cr-VI": {
           "not_material": {
-            "basis_class": "reduces-in-matrix",
+            "basis_class": "speciation-bounded",
             "bounded_by": "Cr",
-            "rationale": "Hexavalent chromium reduces to chromium(III) in a reducing sugar/gelatin confection matrix; no Cr-VI food ML exists.",
-            "reference_method": "No routine Cr-VI speciation; reflex only on anomalously elevated total chromium.",
-            "regulatory_basis": "No Cr-VI food ML anywhere; reduces to Cr-III in matrix",
+            "rationale": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium control (Cr-VI <= total Cr), which is screened for this category; no Cr-VI food maximum level exists. Corroborating: Cr(VI) reduces to chromium(III) in the reducing sugar/gelatin confection matrix and does not persist as Cr(VI).",
+            "reference_method": "Bounded by the total-chromium screen; no routine Cr-VI speciation, reflex only on anomalously elevated total chromium.",
+            "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr)",
             "jurisdictions_checked": "EU; Codex; FDA; EPA (water only)"
           }
         }

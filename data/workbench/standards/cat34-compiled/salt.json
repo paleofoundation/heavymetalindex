@@ -61,7 +61,15 @@
         }
       ],
       "strictest_form_value": 1000,
-      "stricter_unselected": [],
+      "stricter_unselected": [
+        {
+          "id": "hk_cap132v_pb_salt-food-grade-other-than-salt-from-marshes-food-grade_1000",
+          "value": 1000,
+          "jurisdiction": "HK",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "scope": "Salt, food grade, other than salt from marshes, food grade"
+        }
+      ],
       "value": null
     },
     "Cd": {
@@ -166,11 +174,12 @@
     },
     "MeHg": {
       "analyte": "MeHg",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "speciation-bounded",
       "bounded_by": "tHg",
-      "rationale": "No mercury source and no methylmercury formation pathway in a mineral salt. Salt mercury is total mercury, which bounds any organomercury fraction.",
+      "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); a mineral salt carries no mercury source and no methylmercury formation pathway, and salt mercury is regulated as total mercury, which the tHg standard caps, bounding any organomercury fraction.",
       "reference_method": "Total-mercury screen.",
       "regulatory_basis": "Bounded by the total-Hg salt standard (EU 2022/617, 100 ug/kg); no methylmercury salt ML anywhere",
       "jurisdictions_checked": "EU 2022/617; Codex; FSANZ"
@@ -185,9 +194,10 @@
     },
     "Sn": {
       "analyte": "Sn",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "no-migration-pathway",
       "bounded_by": null,
       "rationale": "No tin source in a boxed/bagged mineral salt; tin is a tinplate-can migration pathway only.",
       "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
@@ -196,6 +206,7 @@
     },
     "Al": {
       "analyte": "Al",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
       "basis_class": "additive-permitted",
@@ -215,13 +226,14 @@
     },
     "Cr-VI": {
       "analyte": "Cr-VI",
+      "type": "not_material",
       "provenance": "not-material",
       "value": null,
-      "basis_class": "no-pathway",
+      "basis_class": "speciation-bounded",
       "bounded_by": "Cr",
-      "rationale": "There is no chromium adulteration pathway in a mineral salt (unlike turmeric/chili, salt is not colour-adulterated with lead chromate); any trace chromium is geologic chromium(III). No jurisdiction sets a Cr-VI food maximum level. Rebuttable if a routed source reports hexavalent chromium in salt.",
-      "reference_method": "No routine Cr-VI speciation; reflex only on anomalously elevated total chromium.",
-      "regulatory_basis": "No Cr-VI food ML anywhere; no chromate-adulteration pathway in salt",
+      "rationale": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium control (Cr-VI <= total Cr), which is screened for salt; no jurisdiction sets a Cr-VI food maximum level. There is no chromium adulteration pathway in a mineral salt (unlike turmeric/chili, salt is not colour-adulterated with lead chromate), so any trace chromium is geologic chromium(III). Rebuttable if a routed source reports hexavalent chromium in salt.",
+      "reference_method": "Bounded by the total-chromium screen; no routine Cr-VI speciation, reflex only on anomalously elevated total chromium.",
+      "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr); no chromate-adulteration pathway in salt",
       "jurisdictions_checked": "EU; Codex; FDA; EPA (water only)"
     }
   },

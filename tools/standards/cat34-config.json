@@ -49,9 +49,9 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation pathway in a terrestrial dried spice. Spice mercury is total mercury, which bounds any organomercury fraction.",
+            "rationale": "Methylmercury is a marine-bioaccumulation speciation with no formation pathway in a terrestrial dried spice, and it is arithmetically bounded by total mercury (MeHg <= tHg). Spice mercury is regulated as total mercury, which the tHg standard caps, bounding any organomercury fraction.",
             "reference_method": "Total-mercury screen.",
             "regulatory_basis": "Bounded by the total-Hg spice standard (Vietnam, 50 ug/kg); no methylmercury spice ML anywhere",
             "jurisdictions_checked": "EU; Codex; FDA; Vietnam"
@@ -134,9 +134,9 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "No mercury source and no methylmercury formation pathway in a mineral salt. Salt mercury is total mercury, which bounds any organomercury fraction.",
+            "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); a mineral salt carries no mercury source and no methylmercury formation pathway, and salt mercury is regulated as total mercury, which the tHg standard caps, bounding any organomercury fraction.",
             "reference_method": "Total-mercury screen.",
             "regulatory_basis": "Bounded by the total-Hg salt standard (EU 2022/617, 100 ug/kg); no methylmercury salt ML anywhere",
             "jurisdictions_checked": "EU 2022/617; Codex; FSANZ"
@@ -151,7 +151,7 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
             "rationale": "No tin source in a boxed/bagged mineral salt; tin is a tinplate-can migration pathway only.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
@@ -178,11 +178,11 @@
         },
         "Cr-VI": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "Cr",
-            "rationale": "There is no chromium adulteration pathway in a mineral salt (unlike turmeric/chili, salt is not colour-adulterated with lead chromate); any trace chromium is geologic chromium(III). No jurisdiction sets a Cr-VI food maximum level. Rebuttable if a routed source reports hexavalent chromium in salt.",
-            "reference_method": "No routine Cr-VI speciation; reflex only on anomalously elevated total chromium.",
-            "regulatory_basis": "No Cr-VI food ML anywhere; no chromate-adulteration pathway in salt",
+            "rationale": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium control (Cr-VI <= total Cr), which is screened for salt; no jurisdiction sets a Cr-VI food maximum level. There is no chromium adulteration pathway in a mineral salt (unlike turmeric/chili, salt is not colour-adulterated with lead chromate), so any trace chromium is geologic chromium(III). Rebuttable if a routed source reports hexavalent chromium in salt.",
+            "reference_method": "Bounded by the total-chromium screen; no routine Cr-VI speciation, reflex only on anomalously elevated total chromium.",
+            "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (Cr-VI <= total Cr); no chromate-adulteration pathway in salt",
             "jurisdictions_checked": "EU; Codex; FDA; EPA (water only)"
           }
         }
@@ -225,9 +225,9 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "No mercury source or methylmercury formation pathway in a chili/vinegar/water sauce. Bounded by the total-mercury sauce limit.",
+            "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); a chili/vinegar/water sauce carries no mercury source and no methylmercury formation pathway, and it is bounded by the total-mercury sauce limit.",
             "reference_method": "Total-mercury screen.",
             "regulatory_basis": "Bounded by the total-Hg sauce standard (Vietnam, 50 ug/kg); no methylmercury sauce ML anywhere",
             "jurisdictions_checked": "Vietnam; EU; Codex; FDA"
@@ -242,22 +242,19 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
-            "rationale": "Hot/chili sauces are sold in glass or plastic bottles, not tinplate cans, so there is no tin source. Material only for tin-plated canned product.",
+            "rationale": "Hot/chili sauces are sold in glass or plastic bottles, not tinplate cans, so there is no tin source or migration route. Material only for tin-plated canned product.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",
             "regulatory_basis": "No non-canned sauce tin ML; canned-food 250 mg/kg limit is can-only",
             "jurisdictions_checked": "Codex CXS 193; EU; FDA"
           }
         },
         "Al": {
-          "not_material": {
-            "basis_class": "no-pathway",
-            "bounded_by": null,
-            "rationale": "No aluminium contaminant maximum level for sauces in any jurisdiction; dietary aluminium is managed by intake against the EFSA/JECFA TWI, not by a per-food ML.",
-            "reference_method": "Managed by intake vs TWI; periodic screen.",
-            "regulatory_basis": "No Al contaminant ML for sauces; managed by TWI",
-            "jurisdictions_checked": "EU 2023/915 (lists no Al); Codex; FSANZ; JECFA/EFSA TWI"
+          "control": {
+            "rationale": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets an aluminium contaminant maximum level for sauces in any checked jurisdiction (EU 2023/915 lists no Al; Codex; FSANZ; JECFA/EFSA TWI). Aluminium in a chili/vinegar/water sauce is chili-borne background plus any permitted additive; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level, so aluminium is screened rather than aligned to a sovereign number. A sauce is not an accumulating crop, so the spice/bouillon natural-accumulator basis does not apply; this is a material-but-unregulated cell (literature-baseline governs), not a not-material claim.",
+            "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food contaminant ML to align to.",
+            "trigger": "periodic aluminium screen; flag on anomalous elevation"
           }
         },
         "Cr": {
@@ -321,9 +318,9 @@
         },
         "MeHg": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "speciation-bounded",
             "bounded_by": "tHg",
-            "rationale": "No methylmercury formation pathway in a dry seasoning blend of spices, salt and starch. Bounded by the read-across total-mercury limit.",
+            "rationale": "Methylmercury is the organomercury speciation of mercury and is arithmetically bounded by total mercury (MeHg <= tHg); a dry seasoning blend of spices, salt and starch has no methylmercury formation pathway, and it is bounded by the read-across total-mercury limit.",
             "reference_method": "Total-mercury screen.",
             "regulatory_basis": "Bounded by the read-across total-Hg standard (50); no methylmercury blend ML anywhere",
             "jurisdictions_checked": "Vietnam; EU; Codex; FDA"
@@ -338,7 +335,7 @@
         },
         "Sn": {
           "not_material": {
-            "basis_class": "no-pathway",
+            "basis_class": "no-migration-pathway",
             "bounded_by": null,
             "rationale": "No tin source in a foil/pouched dry seasoning blend or a stock cube; tin is a tinplate-can migration pathway only.",
             "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification.",

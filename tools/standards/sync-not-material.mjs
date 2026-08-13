@@ -52,7 +52,11 @@ for (const f of fs.readdirSync(dirPath)) {
   const variants = rec.variants || { both: rec.cells || {} }
   for (const cells of Object.values(variants)) {
     for (const [metal, cell] of Object.entries(cells)) {
-      if (!cell || cell.type !== "not_material") continue
+      // accept both schemas: cat27-32/cat9 tag not-material cells as `type: "not_material"`; the
+      // food-standards-engine (cat33/34) tags them `provenance: "not-material"`. Matching either
+      // prevents a whole compiler's not-material cells from being silently skipped (and thus never
+      // reconciled) as happened before cat33/34 also began emitting `type`.
+      if (!cell || (cell.type !== "not_material" && cell.provenance !== "not-material")) continue
       const key = `${rec.slug}|${metal}`
       if (incoming.has(key)) continue
       incoming.set(key, {
