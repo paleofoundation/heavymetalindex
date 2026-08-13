@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-62 open item(s): 25 auto, 37 awaiting a decision.
+64 open item(s): 25 auto, 39 awaiting a decision.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
@@ -522,6 +522,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: two independently-built Method-v2.0 engines exist after parallel sessions; food-limit-compiler.mjs (Cat 27-32) lacks form_split which Cat 33/34 require for legislated product-form splits (EU cocoa-solids Cd, spice-Pb botanical parts, salt refined/unrefined)
 - done when: one shared food-standard engine supports all of Cat 27-34 including form_split; the redundant engine is removed
 - decision: _pending_
+
+### OI-20260813-standards-verify-nonfood-bounds — verify-standards-data gate red on HEAD: 79 non-food-substrate rows exceed food-oriented magnitude bounds and are not baselined
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `tools/evidence/verify-standards-data.mjs`, `data/evidence/standards-verify-baseline.json`, `data/evidence/regulatory_limits.csv`
+- repro: node tools/evidence/verify-standards-data.mjs reports NEW FAIL (79) limit-implausible-magnitude on pre-existing non-food-substrate rows (CN GB student-articles Cd 75000, adornment tAs 1000000, leather Cr-VI, children-jewelry Cd). Reproduces identically on HEAD with the HK Cap 132V change reverted, so it is pre-existing and unrelated to the HK ingest. Gate is not in the prebuild chain, so site builds are unaffected.
+- done when: verify-standards-data exits 0, achieved either by widening BOUNDS for non-food substrate rows or by --update-baseline after a human accepts the 79 non-food values, with rationale recorded
+- decision: _pending_
+- notes: Discovered while ingesting HK Cap 132V (the register QC gate the ingest task asked to run). Deciding widen-bounds vs accept-baseline for non-food substrates is a standards-judgment call, not part of the HK ingest.
 
 ### OI-20260813-register-cat272829-qc-gate — Register cat27/28/29 in the standards QC gate once compile-current-standards.mjs lands on origin/main
 
@@ -552,6 +561,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: node tools/evidence/audit-not-material-integrity.mjs --warn-only reports 70 contradictions across categories other than 33/34 (cat33/34 are clean); each is a not-material cell whose routed source measured the analyte
 - done when: audit-not-material-integrity.mjs reports 0 contradictions
 - decision: _pending_
+
+### OI-20260813-hk-cap132v-category-pickup — Re-run built category compilers (Cat 27/29/30/31/32/33/34) to pick up HK Cap 132V sovereign rows now in the register
+
+- scope: **human-gated** · type: promote · status: open · repo: index
+- paths: `tools/standards/compile-cat27.mjs`, `tools/standards/compile-cat29.mjs`, `tools/standards/compile-cat30.mjs`, `tools/standards/compile-cat31.mjs`, `tools/standards/compile-cat32.mjs`, `tools/standards/compile-cat33.mjs`, `tools/standards/compile-cat34.mjs`, `data/evidence/regulatory_limits.csv`
+- repro: HK Cap 132V loaded 163 live sovereign rows into data/evidence/regulatory_limits.csv on 2026-08-13. Cat 33/34 landed on origin/main and compiled BEFORE HK was in the register, so they (like the earlier-built 27/29/30/31/32) must be re-run to include HK. Coordinate: do not re-run while a category session is mid-flight.
+- done when: each re-run compiler exits PASS with HK Cap 132V rows counted among contributing sovereigns; no existing binding value changes (impact pass: HK binds no major cell; confirms honey/canned/coffee-bean/cultivated-fungi Pb; fills RTD coffee/tea beverage Pb 200 gap)
+- decision: _pending_ — enact: `for n in 27 29 30 31 32 33 34; do node tools/standards/compile-cat$n.mjs || break; done`
+- notes: Per-cat cells HK touches: Cat27 pulses Cd/Pb 0.1 (non-binding, +sovereign); Cat29 fungi Pb cultivated 0.3 CONFIRMS EU, fungi Cd 0.2-2 non-binding (EU 0.05/0.15 tighter), wild-mushroom Pb 1 non-binding; Cat30 edible fats/oils Pb 0.08 + tAs 0.1 (+sovereign); Cat31 honey Pb 0.1 CONFIRMS Israel, sugar Pb 0.5; Cat32 salt Pb 1 (marshes 2), mango chutney Pb 0.4 CONFIRMS TH/GSO, table olives Pb 0.4, pickled cucumber Pb 0.1; Cat33 cocoa/choc Cd non-binding (EU tiers tighter, +sovereign); Cat34 coffee beans Pb 0.5 CONFIRMS Mercosur, tea leaf Pb 5 non-binding, RTD coffee+tea beverage Pb 0.2 = sole as-consumed sovereign GAP-FILL. Future Cat35 (composite/canned: canned fruit/veg Pb 0.1 + canned chestnuts Pb 0.05 CONFIRM TH/GSO/IL) has no compiler yet and will include HK when first built.
 
 ### OI-20260813-cultivated-mushroom-cd-split — Consider splitting cultivated-mushrooms into common (Cd 50) vs oyster/shiitake (Cd 150) per the EU accumulator carve-out
 
