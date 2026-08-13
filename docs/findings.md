@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-66 open item(s): 25 auto, 41 awaiting a decision.
+67 open item(s): 25 auto, 42 awaiting a decision.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
@@ -569,6 +569,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: node tools/evidence/audit-not-material-integrity.mjs --warn-only reports 70 contradictions across categories other than 33/34 (cat33/34 are clean); each is a not-material cell whose routed source measured the analyte
 - done when: audit-not-material-integrity.mjs reports 0 contradictions
 - decision: _pending_
+
+### OI-20260813-mucosal-gap-briefing-promote — Merge Brief 11 The Mucosal Gap (Cat-15 feminine-care briefing) to cert main/LIVE once the standards-catalog firewall refactor lands
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `content/briefings/the-mucosal-gap.md`, `data/briefings/the-mucosal-gap.md`, `content/briefings/index.md`
+- repro: PR https://github.com/paleofoundation/heavymetalcertified/pull/37 open (branch feat/mucosal-gap-briefing off origin/main). Briefing passes check:v3 + firewall + method-drift in isolation and has no data-firm-ppb. NOT merged because origin/main is firewall-red from a pre-existing standards-vs-catalog inconsistency (14 data-firm-ppb in content/standards/{spices,infant-formula-powder,infant-formula-ready-to-feed}.md vs 1 published catalog cell) owned by an in-flight standards refactor; merging now would fail the LIVE deploy build.
+- done when: origin/main firewall-cert-lint green after the in-flight standards/catalog refactor lands; PR #37 merged so /briefings/the-mucosal-gap deploys LIVE green; content/briefings/index.md links the briefing (added at merge to avoid conflicting with the in-flight index rewrite)
+- decision: _pending_ — enact: `gh pr merge 37 --repo paleofoundation/heavymetalcertified --squash`
 
 ### OI-20260813-methodology-sync-branch-superseded — codex/methodology-sync branch (3 commits) is a SUPERSEDED dead lane — do NOT merge it into origin/main; the QC-gate tooling it was thought to strand is already on origin/main
 
