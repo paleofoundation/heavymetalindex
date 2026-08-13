@@ -1,0 +1,15 @@
+{
+  "slug": "cannabis-vape-hardware",
+  "name": "Vape cartridges and hardware",
+  "category": 25,
+  "category_name": "Cannabis, Hemp, and CBD Products",
+  "row": 6,
+  "status": "reserved",
+  "value": null,
+  "method": "reserved — no numeric standard set",
+  "version": "cat25-v1.0",
+  "version_date": "2026-08-13",
+  "reason": "The governing quantity for vape hardware is metal RELEASE into inhaled aerosol (coil/heating-element leaching of Pb, Ni, and Cr), not total product content. A total-content ug/kg limit would misrepresent the hazard basis. The aerosol-release test architecture — and whether hardware is factored per-category here or under one shared inhalable-hardware treatment shared with nicotine vapes — is a reserved governance decision for Karen (docs/governance/taxonomy-reorganization-2026-06.md section 4; category-25-step0-lock.md). No numeric standard is set until that architecture is locked.",
+  "governing_basis_when_unreserved": "aerosol-emissions basis (mass emitted per puff or per gram aerosolized), not product-content ug/kg; Pb/Ni/Cr from the heating element are the primary analytes.",
+  "reserved_by": "docs/governance/category-25-step0-lock.md"
+}

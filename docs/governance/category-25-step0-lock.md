@@ -1,12 +1,15 @@
 # Category 25 — Cannabis, Hemp, and CBD Products — Step Zero Lock
 
-**Status:** Scaffold lock (Step Zero). New category appended under
-`taxonomy-reorganization-2026-06.md` (v2.1), 2026-06-08. **No candidate values** in this pass.
+**Status:** Scope lock (Step Zero, 2026-06-08). A dedicated route-based government-limit compiler
+(`tools/standards/compile-cat25.mjs`, `cat25-v1.0`, 2026-08-13) has since compiled five of the six rows
+to firm numeric/control cells. Vape hardware remains reserved (its governing quantity is release into
+aerosol, not total product content). Audit trail: `data/workbench/standards/2026-08-13-cat25-cannabis-derive-audit-verify.md`.
 **Domain:** Ingestible and applied health products. **Number:** 25 (appended; no existing number changed).
 **Exposure pathway:** Multi-route — inhalation (flower, vape aerosol), ingestion (edibles, tinctures),
 dermal (topicals). **Jurisdiction:** state cannabis programs (testing rules vary by state), FDA (CBD/
 hemp-derived, hemp foods), USDA (hemp production); no uniform federal contaminant limit.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls
+and an explicit MeHg applicability cell.
 
 ## Why this earns a number
 
@@ -48,5 +51,15 @@ Karen** (`taxonomy-reorganization-2026-06.md` §4) and is not resolved at this l
 Additive; scaffold only; no thresholds.
 
 ## Changelog
+- 2026-08-13 — Dedicated route-based compiler (`compile-cat25.mjs`, `cat25-v1.0`) and route-based
+  `cat25-config.json` built; five rows (flower, edibles, tinctures/oils, topicals, concentrates)
+  compiled to firm numeric/control cells from sovereign cannabis programs (CA, CO, MA, MD, NV, IL),
+  route basis preserved. Nickel, tin, and aluminium are mandatory total-panel surveillance controls
+  where no sovereign cannabis maximum exists; total chromium is a control on the oral/topical rows
+  (no protective sovereign value) and a numeric limit on the inhaled/multi-route rows (Maryland 600).
+  Corrected two defects carried by the prior food-compiler run: Israel's route-agnostic mercury limit
+  now binds edibles/tinctures/topicals (tHg 100, not 400), and the non-protective Maryland oral/cutaneous
+  chromium value (1,100,000 µg/kg) is no longer published as a limit. Vape hardware remains reserved
+  under the aerosol-release architecture decision.
 - 2026-06-08 — Step Zero scaffold lock. 6 rows defined as routing destinations; no candidate values.
   Vape-hardware factoring left open pending Karen's decision.
