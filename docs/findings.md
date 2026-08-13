@@ -513,7 +513,30 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-53 open item(s): 22 auto, 31 awaiting a decision.
+56 open item(s): 23 auto, 33 awaiting a decision.
+
+### OI-20260813-register-cat272829-qc-gate — Register cat27/28/29 in the standards QC gate once compile-current-standards.mjs lands on origin/main
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-current-standards.mjs`
+- repro: origin/main (856a5c9cc..422397a55) does NOT contain tools/standards/compile-current-standards.mjs or build-standards-qc-gate.mjs (they are uncommitted on the codex/methodology-sync branch in the main checkout). cat27/28/29 were built as self-contained compilers (each self-verifies derive->audit->verify and exits non-zero on any gap/contract violation) plus substantiation-registry rows, so they do not depend on that tooling. When compile-current-standards.mjs lands on origin/main, add jobs {category:27,compiler:"cat27",config,outdir,plannedRows:4}, {28,"cat28",...,5}, {29,"cat29",...,2} and make runCompiler dispatch on compile-${job.compiler}.mjs so the build-time drift + completion audit covers them.
+- done when: compile-current-standards.mjs --check reports Cat 27/28/29 with 0 defects; runCompiler resolves compile-cat27/28/29.mjs
+
+### OI-20260813-nuts-high-nickel-split — Consider a high-nickel tree-nut subcategory (walnut/pine/Brazil/chestnut, EU Ni 10000) split out of nuts-seeds-other (Ni 3500)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat28-config.json`
+- repro: CAT 28 nuts-seeds-other binds Ni 3500 (EU general tree-nut ML). EU 2024/1987 deliberately sets a looser Ni 10000 for the high-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts) because they hyperaccumulate nickel. The catch-all currently ratchets those to 3500 (disclosed in the config scope_note). A dedicated high-Ni-nut subcategory would preserve the EU form split instead of ratcheting; this is a taxonomy/Step-0 decision.
+- done when: Karen decides whether to split the high-nickel tree nuts into their own row
+- decision: _pending_
+
+### OI-20260813-cultivated-mushroom-cd-split — Consider splitting cultivated-mushrooms into common (Cd 50) vs oyster/shiitake (Cd 150) per the EU accumulator carve-out
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat29-config.json`
+- repro: CAT 29 cultivated-mushrooms binds Cd 50 (EU common cultivated fungi / CH Agaricus bisporus). EU 2023/915 sets a looser Cd 150 for oyster and shiitake mushrooms, which accumulate more cadmium than button mushrooms. The single cultivated row ratchets oyster/shiitake to 50 (disclosed in the config scope_note). A common-vs-oyster/shiitake split would preserve the EU carve-out; taxonomy/Step-0 decision.
+- done when: Karen decides whether to split cultivated mushrooms by the EU Cd 50/150 carve-out
+- decision: _pending_
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -534,7 +557,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
 
-- scope: **auto** · type: code-fix · status: open · repo: index
+- scope: **auto** · type: code-fix · status: queued · repo: index
 - paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
 - repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
 - done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug
