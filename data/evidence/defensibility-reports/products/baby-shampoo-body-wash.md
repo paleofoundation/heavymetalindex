@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-shampoo-body-wash.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1f794d2777dac35eddbb4c85a6e2b24092b9cbb2f9d47b268273f2272b5807c8
+source_page_sha256: 575dcda9bb8221927b0eac670fe91405014a8853f8a9b6e065337707bae97f0c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -159,6 +159,23 @@
       ],
       "stricter_unselected": []
     },
+    "Cr": {
+      "type": "gov",
+      "value": 10,
+      "value_exact": 10,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu_10_2011_crtotal_sml_nd",
+      "basis": "total-chromium specific migration into food (mg/kg food; not detectable at 0.01 mg/kg)",
+      "not_detectable": true,
+      "candidates": [
+        {
+          "id": "eu_10_2011_crtotal_sml_nd",
+          "value": 10,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
+    },
     "Cr-VI": {
       "type": "read_across",
       "value": 10,

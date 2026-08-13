@@ -18,7 +18,6 @@ splits_locked: true
 variant_type: independent
 platform_metals: []
 step0_lock_date: 2026-06-02
-step0_basis: "regulatory-alignment (EU cereals Cd 100); literature-baseline where depth supports"
 step0_confidence: medium-low
 across_row_review_hook: "RESOLVED (Pb, Cd) — government ML binds these cap analytes, verified 2026-08-06 vs regulatory_limits.csv; occurrence/other analytes remain held pending clean-dirty review: oat/wheat (Cd, Pb) vs corn differ; review for a grain-type split"
 literature_scope: thin
@@ -92,9 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

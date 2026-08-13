@@ -251,7 +251,7 @@ The standard is periodically amended. The values in this source page reflect the
 
 ## Implications
 
-- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. The values here form a literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall.
+- Certification context: this standard is an international sovereign-government anchor for matrix-specific Cd and Pb MLs. Many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. HMTc's current initial method selects the strictest applicable credible sovereign maximum in the product's native basis; exact-cell gaps require disclosed government-value read-across or an n/m control determination. Any later tightening is governed separately by the certified-lot Standards Ratchet.
 - Courses: the multi-matrix structure of CXS 193 (with separate MLs for cocoa powder vs chocolate by cocoa-solid percentage, for offal by species, for infant foods at age-specific tighter levels) is a teachable model of contaminant-management standardization.
 - App: every commodity-by-commodity ML in this standard is a candidate app benchmark. Commonly-referenced examples include the cocoa powder Cd ML of 2.0 mg/kg, dark chocolate (≥70 percent solids) Cd ML of 0.9 mg/kg, polished rice Cd ML of 0.4 mg/kg, leafy vegetables Cd ML of 0.2 mg/kg, infant formula Pb ML of 0.01 mg/kg, and infant cereal-based foods Pb ML of 0.02 mg/kg.
 
@@ -306,7 +306,7 @@ Fresh-context audit subagent (general-purpose, no shared context) returned verdi
 - ❌ **`iAs` declared in metals: with no Arsenic body section**: verified — PDF Schedule I p.31 contains a substantive Arsenic schedule (PTWI, residue definition, MLs for fats/oils, vegetable oils, mineral waters, salt). Applied: added new `## Key numbers — Arsenic MLs` section covering the 2009 snapshot's full Arsenic schedule plus the post-2009 CCCF iAs in rice MLs (polished 0.2, husked 0.35); added `tAs` to `metals:` alongside `iAs` (the 2009 snapshot's Arsenic MLs are total As by default; PTWI is for iAs; both species are in scope).
 - ⚠️ **Over-specified ingredient slugs (broccoli, onions, lentils, celery)**: verified — CXS 193 sets MLs at the category level (Brassica vegetables, Bulb vegetables, Pulses, Stalk and stem vegetables), not at the commodity level. Per ("if a source touches infant formula generally without specifying soy vs non-soy, the frontmatter should say `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`"), broad routing is the discipline. Applied: dropped broccoli, onions, lentils, celery from `ingredients:`; retained the category-level slugs that CXS 193 directly addresses (leafy-greens, root-vegetables, vegetables).
 - ⚠️ **Sunflower-seeds in "Pages updated on ingest" but not grounded**: verified — CXS 193 sets MLs for sunflowerseed oil (under vegetable oils CS 210-1999), not for sunflower seeds as a commodity. Applied: dropped sunflower-seeds; added quinoa to the pages-updated list to reflect the quinoa Cd/Pb MLs that CCCF17 introduced.
-- ⚠️ **Implications HMTc bullet ("HMT&C threshold-setting...should reference these MLs")**: subagent flagged borderline Check 5 (Part 2 wiki/HMTc firewall). Verified — the should-statement directed at HMTc behavior is on the wrong side of the firewall per "The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline." Applied: softened to "literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall."
+- ⚠️ **Historical Implications HMTc bullet:** an earlier audit softened a threshold-setting directive but retained the retired literature-baseline framing. On 2026-08-12 it was aligned to the government-limit-only initial method and the separate certified-lot Standards Ratchet.
 - ⚠️ **Implications App bullet "operationally most-cited"**: subagent flagged editorial weighting. Verified — the wiki should report values; weighting which are "most-cited" is interpretation. Applied: softened to "commonly-referenced examples include..." and prefixed with "candidate" rather than asserting.
 
 No findings rejected as false positives. Subagent verdict REVISE → wiki-side disposition: audited-revised (all ❌ findings applied, ⚠️ findings applied where verified).
@@ -320,9 +320,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [86db7f2eb](https://github.com/paleofoundation/heavymetalindex/commit/86db7f2eb) | 2026-06-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

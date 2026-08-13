@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-talcum-powder.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bac7b910d06829c88892e8bba34f99e41fecff8492dda829e21de23a18853963
+source_page_sha256: 8b158acfbc2d342fbafea2d1e7c63f400595b2f4be9ad7048a8e3d27fc81b25b
 total_claims: 7
 cited_claims: 6
 uncited_claims: 1

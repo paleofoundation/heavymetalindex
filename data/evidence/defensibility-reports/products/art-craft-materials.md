@@ -2,7 +2,7 @@
 source_page: wiki/products/art-craft-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1cb14ca3392650183365f11aefee3521c4ff4466aaf0c8d9225ebd74b462d16a
+source_page_sha256: 8781aed348aec2a8ee72ba3895aa981f43e900db3732ed9bc76ec2dae76622fb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

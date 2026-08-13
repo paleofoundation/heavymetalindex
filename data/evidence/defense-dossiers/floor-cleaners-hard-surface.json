@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/floor-cleaners-hard-surface",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a867b75cf7bf51c785518976138bff24ebd5251d6838fd5c5b0b614a2fa7a266",
-      "content_bytes": 14126,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "c35fe8bd2634a7f3bcede90820cb7924f8f21677329373ade2008edb7d888670",
+      "content_bytes": 14287,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/floor-cleaners-hard-surface.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/floor-cleaners-hard-surface.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -134,12 +134,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2024-gs37-industrial-institutional-cleaners",
         "content_pin": {
-          "content_sha256": "b881ea65142da60975c2dc675cb3be80da74a114ebe72984f7980c2d46237f96",
-          "content_bytes": 67255,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "8123e15484bc69ffee89ffdf96830c1cfeea19a42c567a46b2c4c6bc51edfa8f",
+          "content_bytes": 67201,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
         }
       },
       {
@@ -183,12 +183,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       }
     ]

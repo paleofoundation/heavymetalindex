@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-vitamin-mineral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3cd82ab7f688fedf5713d06f182ee440bb4bc702990f960c64fc77d593e312d3
+source_page_sha256: c72c668b226844b3229f23d12732d31b89ada49dcdb941fb725a8e2eab1ff5b5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

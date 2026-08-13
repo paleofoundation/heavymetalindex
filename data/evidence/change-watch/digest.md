@@ -1,7 +1,7 @@
 ---
 title: Change-watch digest
 noindex: true
-generated: 2026-08-11T06:38:58.215Z
+generated: 2026-08-12T08:02:16.368Z
 ---
 
 # Regulatory and literature change-watch

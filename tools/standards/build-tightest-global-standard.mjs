@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this prototype predates the canonical 8:1
+// infant-formula-only conversion and current Method v2.0 compiler.
+console.error("RETIRED: build-tightest-global-standard.mjs uses an obsolete 7:1 prototype. Use tools/standards/compile-cat1.mjs.")
+process.exit(2)
 // Tightest-global-government-limit standard generator (HMTc Method v3.0).
 // Reads regulatory_limits.csv using the authoritative basis_class + soy_class tags
 // (no scope/basis heuristics — those kept misclassifying EU liquid & AU-NZ soy rows).

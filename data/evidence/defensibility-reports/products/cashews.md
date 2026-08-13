@@ -2,7 +2,7 @@
 source_page: wiki/products/cashews.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6a97e4927699a1997b1487540c51c98293067458df6364d926eee4ee269f4bfc
+source_page_sha256: f8b177b9bbe845e6aa117b454d5a374f5176db530bf94c2654a7b72110495402
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2

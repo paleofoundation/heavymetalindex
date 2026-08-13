@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-probiotics-digestive.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1835b3f6e6d83fbf4b487a5332c271e3312fb747e1b72acb1bbb8aea7db77851
+source_page_sha256: 494ee0484ce8692c5fb5cff423a9d77fceccb7b2ab802c79ef38508f51d886c9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

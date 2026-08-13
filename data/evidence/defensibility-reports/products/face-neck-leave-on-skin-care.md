@@ -2,7 +2,7 @@
 source_page: wiki/products/face-neck-leave-on-skin-care.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ce2f3c994906c6d9c77fa9d882d37d83b9689153d951fcd09f3f83037df90dcf
+source_page_sha256: 22b8aa2b8c5c72acde8d6868045853e5eff83e0f43f63a5c95ec1472838e2f3b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

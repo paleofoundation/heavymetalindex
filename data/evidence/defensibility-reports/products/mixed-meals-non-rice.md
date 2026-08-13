@@ -2,7 +2,7 @@
 source_page: wiki/products/mixed-meals-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8244cb4b8ad16ae7dade20903253d46906fe5ee989b9a8f5a125c844c8ee012c
+source_page_sha256: 76cb7608fc214e6f53a1e30ce2ecb3010956ce02ce3c2c7d6d6e33211d996bc6
 total_claims: 96
 cited_claims: 96
 uncited_claims: 0

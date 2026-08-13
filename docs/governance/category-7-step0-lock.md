@@ -1,10 +1,14 @@
 # Category 7 — Oils, Condiments, and Specialty Foods — Step 0 Lock
 
-**Status:** Incremental lock (per Karen, 2026-06-02). Rows lock individually as
+> **Historical lock event; limit-setting method superseded 2026-08-12.** This document retains the original row and evidence decisions, but its P97/literature-baseline standards method is retired. Current initial limits are government-limit-only.
+
+**Status:** Historical incremental lock (per Karen, 2026-06-02). Rows locked individually as
 the evidence base supports a defensible standard; rows without sufficient
 single-platform evidence remain provisional scaffolds with a documented gap.
 **Taxonomy:** HMTc v2.0 (2026-03-30), Category 7, 12 rows.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation: tAs/iAs, tHg/MeHg, Cr/Cr-VI).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
+
+**Current compiler status (2026-08-12):** the eight scope-locked rows compile under the government-limit-only method. The four broad provisional rows remain unresolved; occurrence evidence cannot supply their initial numbers.
 **Lock doc authority:** this file. Companion to `Category2_Clean_vs_Contaminated_Splits.md` (Cat 2 exemplar).
 
 ## Lock rule applied

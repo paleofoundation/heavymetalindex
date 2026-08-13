@@ -14,7 +14,7 @@ The Scholar-target infrastructure exists and is **live**, contrary to the Claude
 - `quartz/components/Head.tsx` emits two-tier citation metadata. Source pages carry the *underlying paper's* record (correctly NOT Scholar targets). Synthesis + metal pages carry institutional-technical-report citation tags **with** `citation_pdf_url`.
 - `tools/postbuild-synthesis-pdf.mjs` ships 16 real typeset PDFs (verified live HTTP 200). `tools/postbuild-scholarly-sitemap.mjs` → live `sitemap-scholarly.xml`. JSON-LD via `tools/postbuild-inject-jsonld.mjs`. ORCID 0000-0002-2348-7259 wired.
 - Peer-review framework: `wiki/curators.md` (Karen EIC + 5 `[PENDING INVITATION]` reviewer slots) + `tools/build-peer-review-footers.mjs`. **Unpopulated** — `data/peer-review/` has zero verdicts.
-- Committed `docs/jfm-launch-plan.md` is sophisticated (names both audits, builds the COI firewall, recommends external EIC / diamond-OA / distinct domain / Crossref-for-journal-vs-DataCite-for-pages). JFM is specced for a *separate* repo at heavymetaltested.com; the URL currently 404s.
+- Committed `docs/jfm-launch-plan.md` is sophisticated (names both audits, builds the COI firewall, recommends external EIC / diamond-OA / distinct domain / Crossref-for-journal-vs-DataCite-for-pages). JFM is specced for a *separate* repo at heavymetalcertified.com; the URL currently 404s.
 - GitHub repo is **private** → planning docs are litigation-discoverable, not publicly exposed.
 
 ## The panel's convergent findings
@@ -33,7 +33,7 @@ The Scholar-target infrastructure exists and is **live**, contrary to the Claude
 
 ## Answers to Karen's three questions
 
-- **Where does JFM live?** Spec = heavymetaltested.com (certifier repo); currently 404. Putting the peer-reviewed venue on the *certifier's* domain is the weakest option for defensibility (certifier publishes its own justifying science). Recommend the Index side or a distinct domain — but **placement is cosmetic; independence must be structural** (an EIC with real reject power the Foundation can't override; external reviewers with no Foundation tie). Domain choice doesn't save a captive journal.
+- **Where does JFM live?** Spec = heavymetalcertified.com (certifier repo); currently 404. Putting the peer-reviewed venue on the *certifier's* domain is the weakest option for defensibility (certifier publishes its own justifying science). Recommend the Index side or a distinct domain — but **placement is cosmetic; independence must be structural** (an EIC with real reject power the Foundation can't override; external reviewers with no Foundation tie). Domain choice doesn't save a captive journal.
 - **Who writes the papers?** Today: Karen (author) + Claude (drafter). Legitimate IFF — AI assistance disclosed; Karen verifies every claim against sources and is accountable; the accept/reject decision sits with an independent editor; reviewers are external; and the prose is literature-only (no HMTc advocacy). The fatal line is **same-org-reviewed**. So the load-bearing, non-Claude work is recruiting an independent editor + the 5 reviewers. Claude can draft syntheses and scaffold all policy/masthead/tooling.
 - **Can Claude Code help?** Yes — drafting, neutralisation, lint, deposit tooling, masthead scaffolds. Not: recruiting humans, ISSN/Crossref registration (money/legal entity), being the accountable author, or the placement business call.
 

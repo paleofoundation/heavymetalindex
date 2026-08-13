@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-botanicals-herbs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8b1ccb39fe46921ff22a1ef758b1b8770ed406bcba553fcc4ca6225c39f96c59
+source_page_sha256: df34057c2408cd0cbd5bada287e126142d96b71cfe66c868fb0a433350c8b254
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

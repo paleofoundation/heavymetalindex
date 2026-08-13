@@ -63,7 +63,7 @@ This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powde
  </div>
  <div>
  <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ <dd>Initial HMT&amp;C limits are compiled separately at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a> under the government-limit-only method. Index occurrence evidence is descriptive only and cannot select a certification value or status; later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.</dd>
  </div>
  </dl>
 </div>
@@ -86,7 +86,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetaltested.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
+**HMT&C threshold-setting is separate.** Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; Index occurrence evidence does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. See the [methodology](/methodology) for the Index/HMT&C separation.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -139,7 +139,7 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No current formula-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes infant formula |
 | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | as placed on market as powder | EU maximum level. |
 | [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-intake screen; formula-specific exposure model required | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Do not borrow FDA processed-baby-food action levels for formula; use basis-matched occurrence data and the EU powder ceiling as external legal context. |
+| HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Preserve government soy/non-soy formulation splits and use the strictest applicable credible sovereign maximum on the powder basis; the 8:1 conversion is permitted only within infant formula. Occurrence remains contextual only. |
 
 No U.S. FDA formula-specific lead action level is currently established; soy formula needs its own occurrence review because soy/mineral inputs can shift the metal profile.
 
@@ -519,7 +519,7 @@ The living-review detector has flagged **8** contributing source value(s) that d
 | Ni | [[sources/fsa2016-infant-food-formula-metals-survey]] | 200 ppb | 500 (typical) / 1300 (P95) | 2.5× | below-cohort-median |
 | Al | [[sources/burrell2010-aluminium-in-infant-formulas]] | 629 ppb | 1461 (typical) / 2720 (P95) | 2.32× | below-cohort-median |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. The public evidence-routing boundary and interpretation rules are documented in [[methodology/persistent-wiki-ingest-rule|the methodology]].
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -529,9 +529,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added and 1 removed; 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

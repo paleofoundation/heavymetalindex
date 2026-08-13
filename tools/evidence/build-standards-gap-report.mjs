@@ -1,3 +1,7 @@
+// RETIRED 2026-08-12: this report treated external occurrence as certification readiness.
+console.error("RETIRED: run npm run evidence:occurrence-gaps for contextual evidence gaps.")
+process.exit(2)
+
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"

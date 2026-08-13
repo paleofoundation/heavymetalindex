@@ -2,7 +2,7 @@
 source_page: wiki/products/deodorants.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a3adf3384a2719e8ade9994129dd824cf77a6afcec5830bda9bd2f2a766708ed
+source_page_sha256: 880005839f4c3b46fbfb5a032ba89dd4d135c07bbcb1c4560d5a3d45dbc5e4e1
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

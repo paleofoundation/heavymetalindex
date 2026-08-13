@@ -1,0 +1,13 @@
+{
+  "$comment": "Descriptive Heavy Metal Index occurrence-market stratification only. This file does not define HMTc certification roles, percentiles, candidates, limits, or status.",
+  "target_markets": [
+    "US", "CA", "UK", "EU", "FR", "DE", "IT", "PT", "SE", "ES", "SK", "IE", "NL",
+    "BE", "DK", "FI", "PL", "AT", "AU", "NZ", "JP", "NO", "CH", "LU", "GR", "CZ",
+    "HU", "RO", "BG", "HR", "SI", "EE", "LV", "LT", "CY", "MT"
+  ],
+  "target_markets_criterion": "Regulatory-equivalence, not geography: jurisdictions with comparable infant-formula market controls and surveillance. Sources with no jurisdiction recorded are retained rather than silently dropped.",
+  "stratified_products": [
+    "infant-formula-powder-non-soy",
+    "infant-formula-powder-soy-based"
+  ]
+}

@@ -2,7 +2,7 @@
 source_page: wiki/products/honey.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ef11583f0af531d3f6300b2358411864173be49cb4c5d2ab070adf05d9ffb415
+source_page_sha256: 2bbea27f91e7b18cd5238bcfc696505de49f5d5c3f150cec18f31ac1ec8251b1
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

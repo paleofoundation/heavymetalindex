@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: occurrence-selected standards QC belongs to the superseded P45/P97 method.
+console.error("RETIRED: certification limits are government-limit-only; this occurrence-selected standards QC gate cannot run.")
+process.exit(2)
 // build-standards-qc-gate.mjs
 //
 // The Publication QC Gate (docs/architecture/standards-publication-qc-gate.md).

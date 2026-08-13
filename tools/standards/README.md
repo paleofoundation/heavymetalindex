@@ -1,5 +1,7 @@
 # Program Manual build pipeline
 
+> **Current-method boundary (2026-08-12):** the Index-side Part 3 briefing pipeline is retired because it implements the former P45/P97 occurrence-selected method. The controlling Program Manual is now maintained and built in the certification repository from frozen government-limit compiler records. Index occurrence distributions remain contextual evidence only. The instructions below are retained for historical reconstruction and must not be used to publish current certification material.
+
 This directory holds the tooling that produces the bound HMTc Program Manual PDF in publication quality (Springer/Elsevier-style monograph trim, FreightText Pro body, Avenir Next display, running heads, page numbers, hyphenated justified prose, native Typst-generated table of contents).
 
 The pipeline is **category-agnostic**. The 2026 Edition ships the Infant and Child Foods manual; the same template and converter produce Cat 2 (children's personal care), Cat 5 (beverages), or any future category by changing the content directories and metadata, not by forking the template.

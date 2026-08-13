@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-yo-yo-elastic-tether.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8fde08abd48e946dbc65b12c43b7703891a68d07dcc4485bf154e972246305f1
+source_page_sha256: 60cef0fabd11291bd807c1a923c4054f687c99f297eb4dc0ff31dd9d84a9a86b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

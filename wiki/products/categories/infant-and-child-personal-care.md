@@ -12,9 +12,9 @@ Product pages in **Infant and Child Personal Care**, organized by subcategory.
 
 ## [[products/baby-oil|Baby oil]]
 
-## [[products/baby-powder-cornstarch|Baby powder, cornstarch base (clean counterpart)]]
+## [[products/baby-powder-cornstarch|Baby powder, cornstarch base]]
 
-## [[products/baby-talcum-powder|Baby talcum powder (talc, dirty)]]
+## [[products/baby-talcum-powder|Baby talcum powder (talc)]]
 
 ## [[products/baby-shampoo-body-wash|Baby shampoo and body wash]]
 
@@ -24,9 +24,9 @@ Product pages in **Infant and Child Personal Care**, organized by subcategory.
 
 ## [[products/diaper-cream-zno|Diaper cream, ZnO-based]]
 
-## [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters (clean)]]
+## [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]]
 
-## [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters (dirty)]]
+## [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]]
 
 ## [[products/toothpaste|Children's toothpaste]]
 

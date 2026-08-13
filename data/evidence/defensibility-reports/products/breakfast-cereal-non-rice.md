@@ -2,7 +2,7 @@
 source_page: wiki/products/breakfast-cereal-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: eadf331f00149d8af6d7e6d7b9a7fe6ca80f0508f466223942c0245acb316aa9
+source_page_sha256: c48af8c25b78b0f48680bdf2ee3f03131fd9b61ca3325d3164ea086b1868d9e4
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

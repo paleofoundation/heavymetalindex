@@ -2,7 +2,7 @@
 source_page: wiki/products/oven-grill-bbq-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: edd17ca62704b0495c7ba1be21349a531f75588649d7939f326f5bdeb1503be7
+source_page_sha256: ac07d4400b295287719f4257faf78f671c3a69cc4446a62be4b797bf67dcdeab
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-plastic-drinkware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c0f2b4882eb1806be78e73faa8ab343e7dcd27958bfa9f91e59a57e66184beef
+source_page_sha256: 8981f872842a0a0f3da7b0b7afd0518ad2df28112544962e70d68d7dff065c12
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

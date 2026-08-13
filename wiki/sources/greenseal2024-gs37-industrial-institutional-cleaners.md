@@ -176,7 +176,7 @@ The standard references the following test-method identifiers in its non-metal c
 - Edition 7.8 introduces PFAS as a wholly new class prohibition (§ 2.1.10), the first PFAS coverage documented in any GS-37 edition in HMI. The PFAS prohibition is heavy-metal-adjacent rather than directly heavy-metal but is co-located in the same Safer Chemicals clause and is part of the standard's broader contaminant-class regulation.
 - Edition 7.8 adds bisphenol A to the packaging Other Restrictions clause alongside the 2008-era phthalates and chlorinated-packaging-material prohibition, again documenting the standard's expansion to cover endocrine-disrupting contaminants beyond the metals-specific mechanisms.
 - The standard's reliance on the OECD Harmonized Integrated Classification System (Chronic Inhalation Toxicity), GHS hazard classifications (Skin Corrosion H314, Serious Eye Damage H318, Respiratory Sensitization H334), and the ACGIH-TLV / DFG-MAK / IARC / NTP / EPA IRIS / OSHA carcinogen lists is the standard's mechanism for capturing heavy-metal compounds (and other hazard-classified substances) without enumerating them individually. HMI sessions evaluating the standard's heavy-metal coverage should treat the by-name clauses (Colorants, Prohibited Ingredients, Packaging) as a baseline and recognize that hexavalent chromium compounds, lead compounds, cadmium compounds, arsenic compounds, mercury compounds, nickel compounds, cobalt compounds, and manganese compounds with appropriate hazard classifications are gated by the broader criterion families regardless of by-name listing.
-- This standard text is not a primary source for any contamination distribution, occurrence value, or threshold-setting analysis. It is the binding programme document recording what compliance to GS-37 requires. HMTc threshold-setting work on industrial and institutional cleaning product categories should treat this standard as upstream regulatory context, not as a literature contributor to per-analyte percentile calculations.
+- This standard text is not a primary source for any contamination distribution or occurrence value. It is the binding programme document recording what compliance to GS-37 requires. HMTc initial-limit work may consider a qualifying government rule in the sovereign crosswalk; GS-37 itself is a private voluntary standard and remains contextual rather than a percentile input.
 
 ## Limitations
 
@@ -267,9 +267,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -82,7 +82,7 @@ EFSA used cadmium occurrence results submitted through the 2007 call for data an
 
 ## Implications
 
-This report is an A-tier European regulatory occurrence and dietary-exposure anchor for cadmium in food. It supports broad cadmium routing for grains, vegetables, potatoes, seafood/shellfish, seaweed, cocoa/chocolate, spices, infant foods, and drinking-water categories. The FoodEx summary means are not HMTc standards and should not be treated as jurisdiction-specific clean/dirty percentiles; they are occurrence and exposure inputs that preserve EFSA's left-censoring assumptions and European market scope.
+This report is an A-tier European regulatory occurrence and dietary-exposure anchor for cadmium in food. It supports broad cadmium routing for grains, vegetables, potatoes, seafood/shellfish, seaweed, cocoa/chocolate, spices, infant foods, and drinking-water categories. The FoodEx summary means are descriptive occurrence and exposure inputs that preserve EFSA's left-censoring assumptions and European market scope; they do not select an HMTc limit or certification status.
 
 ## Verification notes
 
@@ -100,9 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

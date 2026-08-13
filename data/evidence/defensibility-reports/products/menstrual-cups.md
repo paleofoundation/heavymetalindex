@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-cups.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d937d855a597718e000cf083984923bb7e43f0ab3cd16b9aef4e427859ac31ef
+source_page_sha256: cf2af83e1834cee8d12baee9b2b47fd420ba6f4949765554adf7c67e0749aade
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

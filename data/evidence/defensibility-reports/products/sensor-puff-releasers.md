@@ -2,7 +2,7 @@
 source_page: wiki/products/sensor-puff-releasers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2e154f48b78004246dd1580d6e6f6e59cffaf8c7d5511cc6be34562b21f3054e
+source_page_sha256: df60a676fde50cca2ebc4f214f4e97704cb605513984e94713661db407aa4e63
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

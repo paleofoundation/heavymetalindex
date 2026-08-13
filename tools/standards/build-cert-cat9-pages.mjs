@@ -6,8 +6,8 @@
 // compile-cat9.mjs. Every number traces to a named register row; this generator only renders.
 //
 // FIREWALL (CLAUDE.md Part 2): writes to the CERT repo only. Values are sovereign government limits
-// (public record) + the program's tiering. One-way citation OUT to the heavymetalindex.com literature
-// baseline. No wiki import. Contact-product basis is NEVER conflated: migration, total-content, and
+// (public record) + the program's tiering. One-way citation OUT to descriptive occurrence evidence
+// at heavymetalindex.com. No wiki import. Contact-product basis is NEVER conflated: migration, total-content, and
 // skin-extraction limits are rendered as distinct rows with their basis stated.
 //
 // Design tokens copied from build-cert-standard-pages.mjs / the seafood pages for visual parity:
@@ -230,7 +230,7 @@ function page(rec) {
     "connections:",
     '  - { label: "How limits are derived", href: "/program/structure" }',
     '  - { label: "Regulation references (source documents)", href: "/regulations" }',
-    `  - { label: "Heavy Metal Index — literature baseline", href: "https://heavymetalindex.com/products/${rec.slug}" }`,
+    `  - { label: "Heavy Metal Index — descriptive occurrence evidence", href: "https://heavymetalindex.com/products/${rec.slug}" }`,
     "---",
     "",
   ].join("\n")

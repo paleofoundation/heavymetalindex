@@ -18,31 +18,26 @@ import {
   percentile,
   interpolatePercentile,
   bootstrapCI_sourceLevel,
-  targetForProduct,
   deriveNativeBasis,
   assertSamplesReplacedSummary,
   assertPoolShareCap,
   downsampleUniform,
   MAX_SOURCE_SHARE,
   BASIS_RECONSTITUTION_FACTOR,
-  CLEAN_TARGET_P,
-  DIRTY_TARGET_P,
+  DESCRIPTIVE_UPPER_TAIL_P,
   DEFAULT_CV_FOR_MEAN_ONLY,
 } from "./build-hmtc-aggregate-distributions.mjs"
 
 // --------------------------------------------------------------------------
-// Methodology constants (locked per CLAUDE.md Part 19 / Governing Principles v2.0)
+// Descriptive occurrence constants (not certification methodology)
 // --------------------------------------------------------------------------
 
-describe("HMTc methodology constants", () => {
-  test("clean per-analyte target = P97", () => {
-    assert.strictEqual(CLEAN_TARGET_P, 0.97)
+describe("descriptive occurrence constants", () => {
+  test("upper-tail sensitivity statistic = P95", () => {
+    assert.strictEqual(DESCRIPTIVE_UPPER_TAIL_P, 0.95)
   })
-  test("dirty per-analyte target = P45", () => {
-    assert.strictEqual(DIRTY_TARGET_P, 0.45)
-  })
-  test("reconstitution factor = 7", () => {
-    assert.strictEqual(BASIS_RECONSTITUTION_FACTOR, 7)
+  test("infant-formula reconstitution factor = 8", () => {
+    assert.strictEqual(BASIS_RECONSTITUTION_FACTOR, 8)
   })
   test("max source share = 50%", () => {
     assert.strictEqual(MAX_SOURCE_SHARE, 0.5)
@@ -67,9 +62,9 @@ describe("percentile()", () => {
     assert.ok(percentile(v, 0.1) < 15)
     assert.ok(percentile(v, 0.9) > 85)
   })
-  test("p97 > p90 strictly for a strictly increasing sample", () => {
+  test("p95 > p90 strictly for a strictly increasing sample", () => {
     const v = Array.from({ length: 100 }, (_, i) => i + 1)
-    assert.ok(percentile(v, 0.97) > percentile(v, 0.9))
+    assert.ok(percentile(v, 0.95) > percentile(v, 0.9))
   })
   test("returns null for empty input", () => {
     assert.strictEqual(percentile([], 0.5), null)
@@ -77,18 +72,18 @@ describe("percentile()", () => {
 })
 
 // --------------------------------------------------------------------------
-// Basis conversion (the 1:7 reconstitution that confused Karen at first)
+// Basis conversion (locked 8:1 and infant-formula-only)
 // --------------------------------------------------------------------------
 
 describe("convertBasis()", () => {
-  test("powder → prepared divides by 7", () => {
-    const r = convertBasis(20, "powder_as_placed", "prepared_for_feeding")
-    assert.ok(Math.abs(r.value - 20 / 7) < 1e-9, `got ${r.value}`)
+  test("infant-formula powder → prepared divides by 8", () => {
+    const r = convertBasis(20, "powder_as_placed", "prepared_for_feeding", "infant-formula-powder-non-soy")
+    assert.ok(Math.abs(r.value - 20 / 8) < 1e-9, `got ${r.value}`)
     assert.strictEqual(r.factor, 1 / BASIS_RECONSTITUTION_FACTOR)
   })
-  test("prepared → powder multiplies by 7", () => {
-    const r = convertBasis(0.4, "prepared_for_feeding", "powder_as_placed")
-    assert.ok(Math.abs(r.value - 0.4 * 7) < 1e-9, `got ${r.value}`)
+  test("infant-formula prepared → powder multiplies by 8", () => {
+    const r = convertBasis(0.4, "prepared_for_feeding", "powder_as_placed", "infant-formula-powder-non-soy")
+    assert.ok(Math.abs(r.value - 0.4 * 8) < 1e-9, `got ${r.value}`)
     assert.strictEqual(r.factor, BASIS_RECONSTITUTION_FACTOR)
   })
   test("same basis is identity", () => {
@@ -104,6 +99,12 @@ describe("convertBasis()", () => {
   test("unknown → unknown passes through with flag", () => {
     const r = convertBasis(5, "exotic_basis", "powder_as_placed")
     assert.strictEqual(r.value, 5)
+    assert.strictEqual(r.unknown_conversion, true)
+  })
+  test("non-formula cross-class conversion is not inferred", () => {
+    const r = convertBasis(20, "dry_as_sold", "as_consumed", "baby-cereals-dry-rice-based")
+    assert.strictEqual(r.value, 20)
+    assert.strictEqual(r.factor, 1)
     assert.strictEqual(r.unknown_conversion, true)
   })
 })
@@ -293,48 +294,6 @@ describe("bootstrapCI_sourceLevel()", () => {
       widthHeterog > widthHomog * 2,
       `heterogeneous CI width ${widthHeterog.toFixed(2)} should be much wider than homogeneous ${widthHomog.toFixed(2)}`,
     )
-  })
-})
-
-// --------------------------------------------------------------------------
-// Target picker (clean/dirty/independent → P97/P45/P97)
-// --------------------------------------------------------------------------
-
-describe("targetForProduct()", () => {
-  test("clean_benchmark → P97", () => {
-    const t = targetForProduct({ variant_type: "clean_benchmark" })
-    assert.strictEqual(t.target_p, 0.97)
-    assert.match(t.target_label, /clean_p97/)
-  })
-  test("contamination_platform → P45", () => {
-    const t = targetForProduct({ variant_type: "contamination_platform" })
-    assert.strictEqual(t.target_p, 0.45)
-    assert.match(t.target_label, /dirty_p45/)
-  })
-  test("independent variant → P97 (clean by default)", () => {
-    const t = targetForProduct({ variant_type: "independent_no_split" })
-    assert.strictEqual(t.target_p, 0.97)
-  })
-  // Regression guard for the dead-dirty-branch defect: the soy formula row is
-  // configured dirty in data/workbench/standards/subcategory-roles.json, and the
-  // config must win over whatever token firewall-fix.mjs left in the public page.
-  // If this fails, the dirty branch has silently died again and soy formula is
-  // being certified at the loose P97 (90%-pass) treatment instead of P45.
-  test("configured-dirty slug → P45 regardless of public variant_type", () => {
-    const t = targetForProduct({
-      slug: "infant-formula-powder-soy-based",
-      variant_type: "higher-contamination-sibling",
-    })
-    assert.strictEqual(t.target_p, 0.45)
-    assert.strictEqual(t.role, "dirty_subcategory")
-  })
-  test("configured-clean slug → P97", () => {
-    const t = targetForProduct({
-      slug: "infant-formula-powder-non-soy",
-      variant_type: "clean_benchmark",
-    })
-    assert.strictEqual(t.target_p, 0.97)
-    assert.strictEqual(t.role, "clean_subcategory")
   })
 })
 

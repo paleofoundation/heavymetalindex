@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-algae-seaweed-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9331f8bd809afddc2fa1349a8ca705cca1cababed35fbd83592b1fc756a6837d
+source_page_sha256: cceac87a71b92cc9b5ece98f278959006bbf14df6fb13db06fdd81576b52dac9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/conditioner-adult-rinse-out.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 215b73ea1825d8f843c1c0c11ab36aca668e961171ccd41a1d142c928ac193f4
+source_page_sha256: 3b1a6de1380c42b4913abeea5811a0537b2e3bb755e7a4347b856af54210b0ab
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/bleaching-whitening-additives.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b40e7c6b082ab86b8be0a8a53b2f474b6d9c504c15b6bbb3be869980206c3305
+source_page_sha256: 9b7ecc0057d17350dc988e22848684547d24ddb54c35aa8077fd25cb6f0e5aad
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

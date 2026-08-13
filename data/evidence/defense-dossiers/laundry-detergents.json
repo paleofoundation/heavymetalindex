@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "02f0ae2b30b3288702a3605d474e617465b6c54e9ecc42c979e7e828dd25f44a",
-      "content_bytes": 18638,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "c3a94bfaa87f335551458514c0431955b431e371000053414e5092b9e9ca1102",
+      "content_bytes": 18799,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/laundry-detergents.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/laundry-detergents.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -333,12 +333,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {

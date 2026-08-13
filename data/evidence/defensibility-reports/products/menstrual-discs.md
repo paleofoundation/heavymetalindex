@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-discs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 19c86d040006b9a868f64e1a10a7d1e6e908bcc241c201a9300100fb87d68466
+source_page_sha256: 410f53a284ff88204366b2659db99a0e784335ae1ebe6cde1c29e347804fc216
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

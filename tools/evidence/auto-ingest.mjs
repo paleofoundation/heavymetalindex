@@ -26,10 +26,13 @@ if (!skipPackets) {
     runNode("tools/evidence/build-local-reingest-queue.mjs", runArgs)
   }
 }
-runNode("tools/evidence/build-standards-gap-report.mjs", runArgs)
+runNode("tools/evidence/validate-extraction-rows.mjs", runArgs)
+runNode("tools/evidence/build-hmtc-aggregate-distributions.mjs", runArgs)
+runNode("tools/evidence/build-open-gaps.mjs", [])
+runNode("tools/evidence/build-ai-adjudication-queue.mjs", runArgs)
 
 const queueSummary = readJson(path.join(repoRoot, "data/evidence/local_reingest_summary.json"))
-const gapSummary = readJson(path.join(repoRoot, "data/evidence/hmtc_standards_gap_summary.json"))
+const adjudicationSummary = readJson(path.join(repoRoot, "data/evidence/ai_adjudication_summary.json"))
 const packetSummaryPath = path.join(
   repoRoot,
   "data/evidence/local_reingest_packets",
@@ -41,14 +44,16 @@ console.log("")
 console.log("Local-first evidence automation complete.")
 console.log(`Product: ${product || "all"}`)
 console.log(`Queue rows: ${queueSummary.total_queue_rows ?? "unknown"}`)
-console.log(`Gap rows: ${gapSummary.total_gap_rows ?? "unknown"}`)
+console.log(`Open occurrence/routing adjudications: ${adjudicationSummary.total_adjudication_rows ?? "unknown"}`)
 if (packetSummary) console.log(`PDF packets: ${packetSummary.packet_count ?? "unknown"}`)
 console.log("Outputs:")
 console.log("- data/evidence/product_source_routing_audit.csv")
 console.log("- data/evidence/local_reingest_queue.csv")
 console.log("- data/evidence/local_reingest_summary.json")
-console.log("- data/evidence/hmtc_standards_gap_report.csv")
-console.log("- data/evidence/hmtc_standards_gap_summary.json")
+console.log("- data/evidence/hmtc_aggregate_distributions.csv")
+console.log("- data/gaps/open_gaps.jsonl")
+console.log("- data/evidence/ai_adjudication_queue.csv")
+console.log("- data/evidence/ai_adjudication_summary.json")
 if (!skipPackets) console.log("- data/evidence/local_reingest_packets/")
 if (!skipPackets) console.log("- data/evidence/local_reingest_candidate_values.csv")
 if (!skipPackets) console.log("- data/evidence/local_reingest_extraction_tasks.csv")

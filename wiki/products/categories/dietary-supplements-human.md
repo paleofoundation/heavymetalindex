@@ -50,7 +50,7 @@ Product pages in **Dietary Supplements (Human)**, organized by subcategory.
 
 ## [[products/supplements-oil-based|Ingredient class — oil-based supplements (fish oil/omega-3 and similar)]]
 
-## [[products/supplements-clay-mineral-earth|Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty]]
+## [[products/supplements-clay-mineral-earth|Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority]]
 
 ## [[products/supplements-mushroom-fungal|Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)]]
 

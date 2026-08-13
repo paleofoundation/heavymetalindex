@@ -3,12 +3,12 @@
   "manifest_kind": "heavy_metal_index_certification_defense_dossier",
   "product": {
     "slug": "products/dusting-powder-cornstarch-adult",
-    "title": "Dusting powder, cornstarch base (clean sibling of r2 talc)",
+    "title": "Dusting powder, cornstarch base",
     "hmtc_category": 13,
     "hmtc_row": 18,
     "category_label": null,
     "age_range": null,
-    "label": "Dusting powder, cornstarch base (clean sibling of r2 talc)",
+    "label": "Dusting powder, cornstarch base",
     "primary_metals_of_concern": [],
     "hmtc_tested_metals": [],
     "vulnerable_population": null,
@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dusting-powder-cornstarch-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5725584cad8ce54f8913a4b4def48bf735acd752a874df6688ed8caece607451",
-      "content_bytes": 2044,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "e9a1ebdd1d281a56c82978831fbf88980bfcd83d096e52f107a7e5bafb839b55",
+      "content_bytes": 2017,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/dusting-powder-cornstarch-adult.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/dusting-powder-cornstarch-adult.md | sha256sum"
     }
   },
   "evidence_base": {

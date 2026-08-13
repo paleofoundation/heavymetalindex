@@ -115,7 +115,7 @@ This page makes the source discoverable for category-level evidence routing. Val
 - Full-PDF read: `pdftotext -layout` was run twice and the extraction hashes compared before the page was written.
 - Analyte scope: each metal is asserted only where its spelled-out name appears on a line carrying a measurement. Element symbols alone never assert an analyte.
 - Brand firewall: the worker skips PDFs whose numeric lines appear brand-sensitive; this page contains category-level or species-level evidence only.
-- HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
+- HMTc firewall: no certification limit, status, or ratchet calculation is stated; any occurrence values remain descriptive only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -124,9 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [1c0b678ac](https://github.com/paleofoundation/heavymetalindex/commit/1c0b678ac) | 2026-07-30 | major | 1 section added |
 | [6543561d1](https://github.com/paleofoundation/heavymetalindex/commit/6543561d1) | 2026-07-30 | major | 8 sections added; narrative text revised |
-| [04bef2fbd](https://github.com/paleofoundation/heavymetalindex/commit/04bef2fbd) | 2026-07-30 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

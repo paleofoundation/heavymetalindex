@@ -2,7 +2,7 @@
 source_page: wiki/products/plant-milks-non-soy-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 28779ee50ebef3440068bf198be41f9e9fa1e60e17129be4a40fc913d15f957c
+source_page_sha256: 036357af5364db7affdacb4da37267ea91681ab1bad62c031deea8a4079828ee
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

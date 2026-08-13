@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-glass-jars.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7e3f7a2b88f3f34bc046f164e8a61c5feecd08cc710a4bc2db6e662925f5a89f
+source_page_sha256: a77605fbf62b6066fbb6a95b7c861c61a2352800b0729dc45ff73d71718a2cfb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-lozenges.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8f8dd860fdd2beeece459cd4ca6c233afb75c5133fbb47201c453364af01655e
+source_page_sha256: 1b33fd6042c889ab1b7f6c586cf20889eeff69cc40dc0bf989faf54d49757e24
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

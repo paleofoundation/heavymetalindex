@@ -24,15 +24,15 @@ created_by: cat4_step0_scaffold_2026_05_16
 
 Above-ground non-leafy vegetables: tomatoes (fresh, not canned), peppers, squash, zucchini, eggplant, cucumber, green beans, peas, broccoli, cauliflower, brussels sprouts, asparagus, corn-on-the-cob, mushrooms. No within-row split per Cat 4 lock. Canned tomato Pb migration from lid solder is a Step 0E watch item; may sub-stratify canned vs fresh in Step 1.
 
-This page is a Step 0 lock scaffold for Cat 4 Row 6. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 4 Row 6. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's descriptive occurrence-comparison framing and platform attribution.
 
 ## Who this page is for
 
-Brand legal teams evaluating HMT&C certification for the Non-Root Vegetables row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Non-Root Vegetables row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its descriptive occurrence-comparison pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Non-Root Vegetables row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Non-Root Vegetables row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 Cat 4 lock empirical basis: Pass 2 occurrence-data extraction from the heavymetalindex.com wiki corpus (build claude/zealous-bhabha-d422c9, 896 source pages). The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` records the splitting decisions and platform attributions; this row inherits its scope from that document.
 
@@ -72,7 +72,7 @@ _Pending. Cat 4 regulatory landscape: Codex GSCTFF and EU Regulation 2023/915 se
 
 ## Levers to reduce contamination
 
-The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/seed rows from contaminated-platform commodity rows (where species or production system carries elevated metal load by characteristic). For this row, the levers below are ordered by impact magnitude per the literature evidence base; sourcing-and-agronomic levers dominate the per-product metal load, with processing-and-formulation levers offering additional reduction.
+The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/seed rows from higher-occurrence platform commodity rows (where species or production system carries elevated metal load by characteristic). For this row, the levers below are ordered by impact magnitude per the literature evidence base; sourcing-and-agronomic levers dominate the per-product metal load, with processing-and-formulation levers offering additional reduction.
 
 1. **Sourcing levers**: origin region, supplier specification, soil-Cd or paddy-iAs pre-screening for at-risk commodities.
 2. **Agronomic levers**: soil amendments, water management, cultivar selection.
@@ -83,7 +83,7 @@ The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/se
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 
@@ -169,9 +169,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

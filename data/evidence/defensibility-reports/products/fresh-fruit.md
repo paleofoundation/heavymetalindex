@@ -2,7 +2,7 @@
 source_page: wiki/products/fresh-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b232edd633bc885ef004ed54f31e11c1ec8c54441bb0b2e991c0a7af10d2c8eb
+source_page_sha256: 5b8e3933e8094a19c90989ed8f496424b442e85ad012bcf59889009261c0706a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

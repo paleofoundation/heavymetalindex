@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-lids-gaskets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 08226c56834b0b8e16bd3546694acfee4b09aa26cf4ce41847204055c3eb2209
+source_page_sha256: bc68666474140112fca5bf9681cf5133d82c81294599075ee9bdc66d28cc9231
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

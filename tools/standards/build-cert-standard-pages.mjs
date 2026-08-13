@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this generator renders the former pooled-percentile
+// methodology. Current public standards pages are built in the certification
+// repository from frozen government-limit compiler records.
+console.error("RETIRED: build-cert-standard-pages.mjs implements the superseded pooled-percentile method. Use the certification-repo page builders.")
+process.exit(2)
 // build-cert-standard-pages.mjs — emit the government-tightest HMTc standard for
 // infant formula as CUSTOM cert-site pages (content/standards/<slug>.md,
 // custom_page: true) in the heavymetalcertified repo.

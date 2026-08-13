@@ -2,7 +2,7 @@
 source_page: wiki/products/cutting-boards.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4cb18e076d54805cedb6bdd59a4fffafc0459bd7c812a27120d2bb71ce327570
+source_page_sha256: e01c411c714283b6e50ec65f21e52fb447e718113fcaecf7d29f6b0cb0618a72
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

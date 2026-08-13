@@ -2,7 +2,7 @@
 source_page: wiki/products/nut-seed-butters-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7cc7838508f969ac7b5772be8c0b249917258461aea9dd917b19ce350d765011
+source_page_sha256: f9bd5d2895b2aaa16d47776488ec5b82549497a140b68085dd93fd8b99c9266e
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

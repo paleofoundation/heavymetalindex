@@ -11,10 +11,8 @@
 // not-material claim is (1) substantiated with a cross-sourced rationale and a named
 // basis class, AND (2) not contradicted by an occurrence pool or a credible government ML.
 //
-// It is deliberately separate from the value-defect QC gate (build-standards-qc-gate.mjs),
-// which SHORT-CIRCUITS not-material cells without validating them (lines ~109-114). This
-// audit is the validation that short-circuit assumes. build-standards-qc-gate.mjs imports
-// this module's verdict so a not-material row can no longer publish unaudited.
+// This audit tests the integrity of a policy classification against descriptive
+// occurrence evidence; it does not perform certification-limit arithmetic.
 //
 // Verdict per row: FAIL (blocks) / WARN (review) / PASS.
 // Exits non-zero on any FAIL unless --warn-only.
@@ -80,6 +78,8 @@ const PRESENCE_OK_CLASSES = new Set(["additive-permitted", "natural-accumulator"
 const PRESENT_FLOOR = { Pb: 5, tAs: 5, iAs: 3, Cd: 3, tHg: 3, MeHg: 2, Ni: 20, Al: 20000, "Cr-VI": 3, Sn: 50, "Cr-total": 20 }
 
 const CREDIBLE = /\b(EU|European|Codex|CODEX|CXS|CAC|FDA|United States FDA|WHO|JECFA|EFSA|FSANZ|Australia New Zealand|Health Canada)\b/
+const NON_CONTAMINANT_INSTRUMENT = /pesticide|residue level/i
+const CANNED_SCOPE = /\bcanned\b|tinplate|tin-plate|tin-coated|tin coated|\btinned\b|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola/i
 
 // species -> the total-element parent it is bounded by
 const SPECIES_PARENT = { iAs: "tAs", MeHg: "tHg", "Cr-VI": "Cr-total" }
@@ -143,13 +143,13 @@ function poolFor(slug, metal) {
   rows.sort((a, b) => (num(b.pooled_n) ?? 0) - (num(a.pooled_n) ?? 0))
   const r = rows[0]
   return { n: num(r.pooled_n) ?? 0, distinct: num(r.distinct_sources) ?? 0,
-    p50: num(r.pooled_p50), p97: num(r.pooled_p97), cand: num(r.candidate_value_ppb),
+    p50: num(r.pooled_p50), p95: num(r.pooled_p95),
     sens: (r.sens_band || "").toLowerCase(), verdict: r.verdict || "" }
 }
 // published parent value present for a speciation bound?
 function parentPublished(slug, parentMetal) {
   const rows = dist.filter((r) => r.product_slug === slug && r.metal_species === parentMetal)
-  if (rows.some((r) => num(r.candidate_value_ppb) !== null)) return true
+  if (rows.some((r) => num(r.pooled_p50) !== null || num(r.pooled_p95) !== null)) return true
   // parent may be a read-across / gov value not in the distribution; the not-material row's
   // regulatory_basis naming the parent instrument is accepted as the published bound.
   return null // unknown from the distribution alone
@@ -173,6 +173,11 @@ function credibleMlCandidates(slug, metal, isContactDomain) {
   for (const r of reg) {
     if (!metals.includes(r.metal_species)) continue
     if (!CREDIBLE.test(`${r.jurisdiction} ${r.authority}`)) continue
+    // Pesticide-residue MRLs are not contaminant limits. Canned-product tin
+    // limits also do not rebut a no-migration determination for a non-canned
+    // food row; tin migration depends on the package, not the food name.
+    if (NON_CONTAMINANT_INSTRUMENT.test(`${r.status} ${r.notes}`)) continue
+    if (CANNED_SCOPE.test(r.product_scope || "") && !/\bcanned\b/i.test(slug)) continue
     const scope = (r.product_scope || "").toLowerCase()
     // domain gate: keep only MLs in the row's regulatory domain
     if (isContactDomain) { if (!CONTACT_SCOPE.test(scope)) continue }
@@ -217,11 +222,11 @@ for (const r of rows) {
     const floor = PRESENT_FLOOR[metal] ?? 5
     const material = pool.distinct >= 2 && pool.n >= 20 && (pool.p50 ?? 0) > floor
     if (material && ABSENCE_CLASSES.has(cls)) {
-      checks.push(["FAIL", `occurrence contradicts: in-scope ${metal} pool n=${pool.n} distinct=${pool.distinct} p50=${Math.round(pool.p50)} p97=${Math.round(pool.p97 ?? 0)} (sens ${pool.sens}) shows the ${cls==="speciation-bounded"?"species":"element"} is materially present — not "not material"`])
+      checks.push(["FAIL", `occurrence contradicts: in-scope ${metal} pool n=${pool.n} distinct=${pool.distinct} p50=${Math.round(pool.p50)} p95=${Math.round(pool.p95 ?? 0)} (sens ${pool.sens}) shows the ${cls==="speciation-bounded"?"species":"element"} is materially present — not "not material"`])
     } else if (material && PRESENCE_OK_CLASSES.has(cls)) {
       checks.push(["INFO", `high ${metal} occurrence (p50=${Math.round(pool.p50)}) is expected for ${cls}; a credible CONTAMINANT ML would disqualify`])
-    } else if (pool.n >= 10 && (pool.p97 ?? 0) > floor * 20) {
-      checks.push(["WARN", `${metal} pool tail p97=${Math.round(pool.p97 ?? 0)} (n=${pool.n}) is high; confirm it is quarantined/artifact and not a real signal`])
+    } else if (pool.n >= 10 && (pool.p95 ?? 0) > floor * 20) {
+      checks.push(["WARN", `${metal} pool tail p95=${Math.round(pool.p95 ?? 0)} (n=${pool.n}) is high; confirm it is quarantined/artifact and not a real signal`])
     }
   }
 
@@ -294,7 +299,7 @@ console.log(`\nWrote ${path.relative(REPO, outCsv)}`)
 if (fails.length && !WARN_ONLY) process.exit(1)
 
 export function notMaterialAuditVerdicts() {
-  // consumed by build-standards-qc-gate.mjs: (slug|metal) -> {level, reasons}
+  // machine-readable audit trace: (slug|metal) -> {level, reasons}
   const m = new Map()
   for (const r of report) m.set(`${r.slug}|${r.metal}`, { level: r.level, reasons: r.notes })
   return m

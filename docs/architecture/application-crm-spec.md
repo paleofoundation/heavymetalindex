@@ -2,6 +2,8 @@
 
 # ICS Central Application & CRM — Design of Record
 
+> **Methodology note (2026-08-12):** Any occurrence-selected certification arithmetic in this 2026-06 architecture spec is superseded. Initial HMTc limits are government-limit-only; post-publication tightening uses eligible HMTc certified-lot data under Governance Policy §12. The remaining CRM and application-lifecycle design is retained for reference.
+
 **Document status:** v1.0 specification, synthesized from five design slices (account-identity, program/cert/version, pricing-engine, application-lifecycle, firewall-SEO-safety) and reconciled against two rounds of adversarial red-team findings (F-series, A/B/C/D-series, P/S-series).
 
 **Owner:** The Institute of Contaminant Standards (ICS), parent at `contaminantstandards.com`.
@@ -323,10 +325,10 @@ A **post-deploy synthetic crawler owned by parent infra** (not any single repo's
 ### 5.5 Role→domain registry & interim-domain handling
 Domains resolve through `SiteRegistry` at render/build time; no template carries a literal domain. **R-rules:** R1 one canonical live domain per (vertical, role); R2 portal role is structurally noindex and may hold no content role; R3 research_index and cert_program are distinct deployments per vertical; R4 interim→permanent is 301; R5 link-cards resolve role→canonical at render time; R6 no research_index domain links to or imports from a cert-class endpoint; R7 each role carries a mandatory `readable_data_plane` (onboarding can't create a role row without it).
 
-**`heavymetalcertified.com` is PERMANENT + INDEXED** (decided 2026-06-20; supersedes the earlier interim-noindex framing). It is the indexed, Scholar-visible cert site from day one and is meant to rank #1 for the program term; cert/standards DOIs resolve to it as a permanent host. It does NOT 301 to `heavymetaltested.com`; if `heavymetaltested.com` is ever freed from PF it 301s *to* certified.com (reverse direction). Durable artifacts (certificate PDFs, badges) still encode only the **immortal parent verify token/QR** (`verify.contaminantstandards.com/<num>`), never a per-vertical cert domain, so any future domain change is a registry row, not a dead label. (R4's interim→permanent 301 rule still applies to genuinely interim domains; certified.com is no longer one. SiteRegistry role = `cert_program`, `index_policy: index`.)
+**`heavymetalcertified.com` is PERMANENT + INDEXED** (decided 2026-06-20; supersedes the earlier interim-noindex framing). It is the indexed, Scholar-visible cert site from day one and is meant to rank #1 for the program term; cert/standards DOIs resolve to it as a permanent host. It does NOT 301 to `heavymetalcertified.com`; if `heavymetalcertified.com` is ever freed from PF it 301s *to* certified.com (reverse direction). Durable artifacts (certificate PDFs, badges) still encode only the **immortal parent verify token/QR** (`verify.contaminantstandards.com/<num>`), never a per-vertical cert domain, so any future domain change is a registry row, not a dead label. (R4's interim→permanent 301 rule still applies to genuinely interim domains; certified.com is no longer one. SiteRegistry role = `cert_program`, `index_policy: index`.)
 
 ### 5.6 Index/cert data-class firewall (CLAUDE.md Part 2/19 generalized)
-No threshold, percentile, or limit value — including via a human-readable StandardVersion label or a renewal "analytes-in-scope" message — ever reaches a research_index-role surface. Threshold math stays in the staff workbench plane; the public certificate proves *which* standard was met (opaque version token), never *what the number was*. The gap between literature baseline and certified threshold stays honestly stated on staff/cert surfaces, never hidden and never published on an index URL.
+No certification limit, status decision, or ratchet calculation — including via a human-readable StandardVersion label or a renewal "analytes-in-scope" message — ever reaches a research_index-role surface. Government-limit compilation and the certified-lot Standards Ratchet stay on the certification/staff plane; the public certificate proves *which* standard was met (opaque version token), never *what the number was*. Index occurrence evidence remains descriptive and cannot select an initial limit or later certification status.
 
 ---
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/cultivated-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: afc0ab2a4a3dfe227d21ff347f195e8254d64910f5a14154f306ac0c1ae02d7d
+source_page_sha256: 9df55faba5c9a3023e2a4c5642ba42afbab3f9c6dd1c066cb38801a0049e15c8
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

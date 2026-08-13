@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-foils-wraps.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 711fb78d10d8cc69b37448c5a48a2d1ba771cd5e4c45fe781ae2a94947089e4a
+source_page_sha256: 1d6e2240e7dfcf3b63c8428926da23001bed15b90a662d2e8df62c14141f9eec
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

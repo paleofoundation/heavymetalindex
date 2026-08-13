@@ -2,7 +2,7 @@
 source_page: wiki/products/blankets-and-sleep-sacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fb667c08b1cefc00843cba64904be6f2364872d4564934a11757c16b74fd4ecc
+source_page_sha256: 2369c08f77038a28bf2195a50ec3b820881d37d706ac6177890a0e5ea1a5bc45
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

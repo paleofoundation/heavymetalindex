@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-noodles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 79810ecc805904bf4073d2687e47b46efa56df6663e60cc80e9ec5db80ca6f74
+source_page_sha256: 3501606ee3d4efb8ac5e5f3d28445921a175ace09e4e938d6ff42d1f254d92b3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

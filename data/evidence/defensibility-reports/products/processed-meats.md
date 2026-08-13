@@ -2,7 +2,7 @@
 source_page: wiki/products/processed-meats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4293a568bac391b65dc2a484f57ec1abb93c4bc417b71989e54ac55f731c5c7b
+source_page_sha256: 09400e9de8cc1d9b402867a3d859774d759dbd373be3ea181dca8eb497765e43
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

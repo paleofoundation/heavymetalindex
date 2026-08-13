@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-botanical-herbal.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 333e86cc4c1f7d34e08662c4b26bd94d9911241cce89bcff476ff4c59f70faed
+source_page_sha256: 842639a2d7f7be709878a9fab635fb220b383fc68607c3197eebcabae982b9ef
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

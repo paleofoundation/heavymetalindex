@@ -51,7 +51,7 @@ Note: Values near LOQ limit interpretability. Pb 2–4 µg/kg and Cd <1–3 µg/
 
 ## Implications
 
-Certification: Dairy-free infant porridges at 2–4 µg/kg Pb and <1–3 µg/kg Cd are well below EU MLs (Pb: 20 µg/kg for processed cereal-based foods, Cd: 40 µg/kg). These products represent a relatively clean subcategory of grain-based infant foods.
+Regulatory comparison: Dairy-free infant porridges at 2–4 µg/kg Pb and <1–3 µg/kg Cd are below the cited EU MLs (Pb: 20 µg/kg for processed cereal-based foods, Cd: 40 µg/kg). This is descriptive market-occurrence context, not an HMTc limit-selection input.
 
 App: Grain-based dairy-free porridges: low Pb and Cd; Hg below detection.
 
@@ -69,9 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

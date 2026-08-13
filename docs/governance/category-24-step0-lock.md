@@ -1,12 +1,10 @@
 # Category 24 — Dairy and Milk Products — Step Zero Lock
 
-**Status:** Scaffold lock (Step Zero). New category appended under
-`taxonomy-reorganization-2026-06.md` (v2.1), 2026-06-08. **No candidate values** in this pass; rows
-are routing destinations only. Derivation is a later pass.
+**Status:** Scope lock (Step Zero, 2026-06-08); first government-limit compiler completed 2026-08-12. The original lock created routing destinations without candidate values; all eight rows now have auditable compiled determinations in `data/workbench/standards/cat24-compiled/`.
 **Domain:** Foods, ingestion. **Number:** 24 (appended; no existing number changed).
 **Exposure pathway:** Ingestion (oral). **Jurisdiction:** FDA (Grade "A" PMO, 21 CFR), EU
 Reg. 2023/915, Codex; FDA/EU for milk powders and condensed/evaporated.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation tAs/iAs, tHg/MeHg, Cr/Cr-VI).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
 
 ## Why this earns a number
 
@@ -52,5 +50,6 @@ marketed with elevated health claims; treat occurrence on its own evidence, not 
 Additive; scaffold only; no thresholds. Resolves the homeless camel-milk and milk-and-dairy scaffolds.
 
 ## Changelog
+- 2026-08-12 — Completed the first sovereign-limit compiler pass for all eight rows, including disclosed general-dairy and formula read-across where no exact dairy-form maximum exists; occurrence evidence did not select any value.
 - 2026-06-08 — Step Zero scaffold lock. 8 rows defined as routing destinations; no candidate values.
   `milk-and-dairy` scaffold promotes to this category's master node.

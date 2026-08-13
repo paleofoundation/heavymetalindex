@@ -83,33 +83,19 @@ and Category 1 pilot coverage registers.
 - `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
   benchmark context, including FDA status/value, EU maximum-level ppb values,
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
-- `hmtc_standards_gap_report.csv`: generated standards triage report that reads
-  the formula, baby-food compliance, plant-milk occurrence, TDS candidate, local
-  reingest, and regulatory crosswalk layers before assigning gap status. It
-  labels bridge/base product nodes as context-only so they stay visible without
-  creating false HMTc threshold work. Clean benchmark rows use aggregate
-  clean-platform P90 as the standards target; contaminated-platform rows use a
-  governance-selected aggregate lower-tail value, P10 by default or P20 only
-  when explicitly selected. Source-reported percentiles are context until
-  admitted into the exact-row aggregate pool, and final HMTc values must not
-  exceed the lowest applicable loaded regulatory cap.
-- `hmtc_standards_action_queue.csv`: generated next-action queue collapsed from
-  the standards gap report. It groups locked-row blockers by product/status,
-  ranks local candidate review, TDS route review, species-specific gaps, source
-  discovery, summary-only rows, and single-source standards-percentile blockers.
-- `ai_adjudication_queue.csv`: generated machine-adjudication contract for the
-  standards action queue. It names the AI task, required decisions, input
-  artifacts, confidence gate, expected outputs, and human exception trigger for
-  each unresolved product/metal standards action. Human work is scoped to source
-  retrieval, low-confidence exceptions, policy conflicts, and final governance
-  approval rather than routine row sorting.
-- Product-page `HMTc Evidence Summary` blocks: generated from
-  `hmtc_standards_gap_report.csv` by
-  `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`. These blocks
-  answer the row-standard percentile question in one place: clean rows use
-  aggregate P90, contaminated rows use aggregate P10 by default, source
-  percentiles remain context until admitted into the aggregate pool, and final
-  values remain capped by the lowest loaded applicable regulatory ceiling.
+- `hmtc_aggregate_distributions.csv`: generated descriptive occurrence models
+  with P10, median, P90, P95, maximum, source depth, sensitivity, and contribution
+  logs. It contains no certification target, candidate, rationale selector, or
+  regulatory-cap field. Initial HMTc limits are compiled separately from the
+  strictest applicable credible sovereign-government maximum; later tightening
+  uses eligible HMTc certified-lot data only.
+- `data/gaps/open_gaps.jsonl`: persistent occurrence, routing, contamination-
+  profile, and unfinished-section gaps. A missing occurrence distribution is a
+  literature-coverage gap, not a certification-limit blocker.
+- `ai_adjudication_queue.csv`: generated machine-adjudication contract derived
+  from the persistent open-gap register. It names the evidence task, required
+  decisions, inputs, guardrails, confidence gate, outputs, and human-exception
+  trigger. External occurrence remains context only throughout this workflow.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

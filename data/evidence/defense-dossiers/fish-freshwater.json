@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-freshwater",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "34d05e2e55cb04ba2d3f896e01c1d53ff7c46f8223659979e9b4bc41e9582ea0",
-      "content_bytes": 159686,
-      "last_commit_sha": "8f8a060dc",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "fd41486dc7d1bccc8e6c45f2c7db22f97c6b4440708fcde8fd74929b4925e016",
+      "content_bytes": 159727,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8f8a060dc:wiki/products/fish-freshwater.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fish-freshwater.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -713,12 +713,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "496eb3f1ec72b3b7b3e7b23bb4a8eb06fdbeeb58933729f9e6e03541b6653453",
-          "content_bytes": 20777,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "65d9a50befbe565cf51475c07f6e21d2415c51abb7e7d965df439b27cc501493",
+          "content_bytes": 20768,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -1426,12 +1426,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "c974f379158a8628b1281c248427bb4d00c3b5117a34289f2dcc9d6acf62736b",
-          "content_bytes": 8207,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
+          "content_bytes": 8173,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -2034,12 +2034,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/helcom2017-core-indicator-metals-baltic",
         "content_pin": {
-          "content_sha256": "07205d3dc5e3b20fc72bbf9704d5687d0c2ae8fa90dc44d6f7d4f53895c2a6b9",
-          "content_bytes": 16232,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "493290f0c894c9c41946533636c37d9a3165be03235b37d2dfca77e695b5b94a",
+          "content_bytes": 16150,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/helcom2017-core-indicator-metals-baltic.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/helcom2017-core-indicator-metals-baltic.md | sha256sum"
         }
       },
       {

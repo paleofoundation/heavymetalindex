@@ -90,7 +90,7 @@ Speciation discipline: the review is about methylmercury toxicological reference
 
 **Evidence tier.** A. Although this is a review, it is a peer-reviewed risk-assessment review from Health Canada authors, compares authoritative agency/public-health derivations, and includes explicit sensitivity analyses. It is not primary food-occurrence evidence.
 
-**Firewall check.** The page reports TRVs and PoDs because the article reports them. It does not translate those values into HMTc thresholds, certification pass/fail limits, clean/dirty product rows, or product-category percentiles. Products and ingredients are intentionally empty because the source does not measure seafood or any consumer product.
+**Firewall check.** The page reports TRVs and PoDs because the article reports them. It does not translate those values into an HMTc certification limit or status, and it cannot enter the certified-lot Standards Ratchet. Products and ingredients are intentionally empty because the source does not measure seafood or any consumer product.
 
 **Number verification.** Numbers in the Key numbers section were checked once against the extracted full-PDF text and a second time against the rendered table pages or the surrounding article text before commit. Table 1 values were checked against rendered PDF pages 5-6; Table 2 against rendered page 9; Table 3 against rendered page 10; Table 4 against rendered page 17; the sensitivity-analysis values were checked against the Discussion and sensitivity-analysis text.
 
@@ -101,9 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
-| [6bf226424](https://github.com/paleofoundation/heavymetalindex/commit/6bf226424) | 2026-07-27 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

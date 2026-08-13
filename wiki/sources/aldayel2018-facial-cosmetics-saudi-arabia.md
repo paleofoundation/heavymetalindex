@@ -260,7 +260,7 @@ The Saudi Standards, Metrology and Quality Organization standard for rouge sampl
 
 ## Implications
 
-**Certification.** The paper contributes Cat 2 Children Personal Care occurrence data for adult-use facial cosmetics on the Saudi retail market, with most of the panel comprising makeup-foundation-style products (Face powder, Sheen, Base jelly). The "Whitener" product type is a skin-lightening cosmetic (per the HMTc Cat 2 Step 0 lock, skin-lightening products are out of HMTc certification scope; per [[products/skin-lightening-cream]] the slug is retired with redirect to the public advisory page). The data are best treated as contributing to per-row marginal distributions for the makeup-foundation category, with B-tier weighting reflecting n=4-9 per product type, no per-brand tabulation, no LOD/LOQ reporting, and the Se SRM-recovery caveat. The single-sample maximum Pb in C33 (Sheen, 22.5 mg/kg) exceeds both the Saudi national rouge standard (20 mg/kg Pb) and the Health Canada lipstick limit (10 ppm Pb) cited in the source's own introduction, but the source does not perform an explicit exceedance count.
+**Certification context.** The paper contributes Saudi-market occurrence data for adult-use facial cosmetics, mainly makeup-foundation-style products. The "Whitener" product type is a skin-lightening cosmetic outside current HMTc scope. The data support descriptive category distributions and surveillance, with B-tier weighting reflecting n=4–9 per product type, no per-brand tabulation, no LOD/LOQ reporting, and the Se SRM-recovery caveat. They do not select an initial HMTc limit. The single-sample maximum Pb in C33 (Sheen, 22.5 mg/kg) exceeds both cited comparison values, but the source does not perform an explicit exceedance count.
 
 **Courses.** Useful as a worked example of brand-anonymous panel design (per-sample C-codes with no brand-to-code mapping) and as a teachable example of where SRM recovery should be reviewed before downstream synthesis — Se in this dataset runs systematically above the IAEA-certified range and would warrant either re-measurement or down-weighting in synthesis. The four-product-type ranking summary (which product type carries the highest mean for which element) is a clean example of cross-product-form comparative reporting within a single study.
 
@@ -330,9 +330,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [50c73dc78](https://github.com/paleofoundation/heavymetalindex/commit/50c73dc78) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

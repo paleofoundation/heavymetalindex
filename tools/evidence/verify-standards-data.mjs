@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this validator consumed superseded occurrence-selected candidate fields.
+console.error("RETIRED: validate current frozen government-limit compiler records in the certification repository.")
+process.exit(2)
 // Deterministic verification gate for standards data. No LLM, no judgment.
 //
 //   node tools/evidence/verify-standards-data.mjs            # verify, exit 1 on FAIL

@@ -30,7 +30,7 @@ Product pages in **Grains, Cereals, and Rice Products**, organized by subcategor
 
 ## [[products/other-grain-products|Other grain products (oat, millet, quinoa, barley)]]
 
-## [[products/grain-based-snacks|Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks]]
+## [[products/grain-based-snacks|Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice]]
 
 ## Other
 

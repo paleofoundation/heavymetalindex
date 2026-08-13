@@ -2,8 +2,8 @@
 // build-category-occurrence-summary.mjs
 //
 // Bridges synthesized ingredient `contamination_profile` ranges into the
-// category occurrence-summary CSVs that the HMTc standards gap report consumes,
-// for categories whose rows otherwise show "BLOCKED: no structured evidence".
+// category occurrence-summary CSVs consumed by the descriptive occurrence
+// pooling and gap-detection workflow.
 //
 // HONESTY BOUNDARY (load-bearing — do not change without understanding it):
 // The ingredient contamination_profile is a SYNTHESIZED commodity-level range
@@ -11,13 +11,13 @@
 // sample-level distribution. This builder therefore emits SUMMARY-GRADE rows:
 // it populates `field_value_summary`, `n`, and metadata, but LEAVES THE
 // PERCENTILE COLUMNS (p10/p50/p90/p95/p100) BLANK. The gap report counts these
-// as `summary_or_range_source_count`, NOT `distribution_capable_source_count`.
+// as summary/range evidence, not a sample-level distribution.
 // A row only becomes distribution-capable when a per-study extraction pass
 // supplies real sample-level percentiles. This bridge makes the literature
-// VISIBLE in the standards pipeline; it does not manufacture a P97.
+// VISIBLE in the occurrence corpus; it never selects a certification limit.
 //
 // Output: data/evidence/category<N>_occurrence_summary.csv (one per category).
-// Register the output path in build-standards-gap-report.mjs occurrenceSummaryFiles.
+// The pooling engine discovers these files by naming convention.
 
 import fs from "node:fs"
 import path from "node:path"
@@ -210,7 +210,7 @@ function buildCategory(catNum, map) {
         row_fit: "commodity_synthesis_summary",
         category1_related_rows: rowSlug,
         field_value_summary: summary,
-        notes: "Summary-grade evidence lifted from the ingredient contamination_profile. Counts as summary_or_range, NOT distribution_capable. A per-study extraction pass must supply sample-level percentiles before this row contributes a P97. Basis (native product form) must be resolved during that pass.",
+        notes: "Summary-grade evidence lifted from the ingredient contamination_profile. Counts as summary_or_range, NOT sample-level evidence. A per-study extraction pass must supply traceable statistics before this row can support distribution modeling. Basis (native product form) must be resolved during that pass. External occurrence never selects an HMTc certification limit.",
       })
     }
   }

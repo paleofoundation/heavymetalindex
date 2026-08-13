@@ -18,7 +18,7 @@
 //     and the CLAUDE.md / OPERATING.md anchors.
 //
 // Gap signals consumed:
-//   - data/evidence/hmtc_standards_gap_report.csv (per-cell standards readiness)
+//   - data/gaps/open_gaps.jsonl (persistent occurrence, routing, and content gaps)
 //   - data/evidence/routing_unresolved.csv (frontmatter targets that don't resolve)
 //   - data/evidence/routing_malformed.csv (sources missing required frontmatter)
 //   - data/evidence/wishlist-fetch-audit.csv (auto-fetch run results)
@@ -297,49 +297,30 @@ if (doiFallbackPages.length > 0) {
   })
 }
 
-// ---------- Signal 4: HMTc standards gap report (per-cell readiness) ----------
-const gapReport = readCsv(path.join(dataDir, "hmtc_standards_gap_report.csv"))
-const blockedCells = gapReport.filter((r) =>
-  (r.aggregate_hmtc_percentile_status || "").startsWith("BLOCKED"),
+// ---------- Signal 4: persistent product occurrence-coverage gaps ----------
+const openGapsPath = path.join(repoRoot, "data/gaps/open_gaps.jsonl")
+const openGaps = fs.existsSync(openGapsPath)
+  ? fs.readFileSync(openGapsPath, "utf8").split("\n").filter(Boolean).map((line) => JSON.parse(line))
+  : []
+const productOccurrenceGaps = openGaps.filter((row) =>
+  row.status !== "closed"
+    && row.why === "no_cited_occurrence_evidence"
+    && /^wiki\/products\//.test(row.page || ""),
 )
-const blockedNoStructured = blockedCells.filter((r) =>
-  (r.aggregate_hmtc_percentile_status || "").includes("no structured evidence loaded"),
-)
-const blockedExtractionPending = blockedCells.filter((r) =>
-  (r.aggregate_hmtc_percentile_status || "").includes("local extraction pending"),
-)
-if (blockedNoStructured.length > 0) {
+if (productOccurrenceGaps.length > 0) {
   actions.push({
-    id: "WISHLIST-EXPAND-FOR-BLOCKED-CELLS",
+    id: "WISHLIST-EXPAND-FOR-OCCURRENCE-GAPS",
     strategy: "wishlist-update",
-    title: `Expand wishlist for ${blockedNoStructured.length} (product, metal) cells with no structured evidence loaded`,
-    impact_score: blockedNoStructured.length * 1.2,
+    title: `Expand wishlist for ${productOccurrenceGaps.length} (product, metal) cells with no cited occurrence evidence`,
+    impact_score: productOccurrenceGaps.length * 1.2,
     cost: "cheap",
     confidence: 0.7,
-    closes_count: blockedNoStructured.length,
-    closes_what: "standards-readiness gaps where no concentration data exists in the corpus for this matrix-metal combination",
+    closes_count: productOccurrenceGaps.length,
+    closes_what: "descriptive occurrence-coverage gaps where no concentration evidence is routed for this matrix-metal combination",
     best_dispatched_to: "Claude Code (programmatic wishlist expansion)",
     prompt_path: null,
-    details: `${blockedNoStructured.length} cells blocked because no source provides concentration data for the (product, metal) combination. The wishlist generator can target these specifically by injecting product+metal queries; auto-fetch then runs against the expanded queries.`,
+    details: `${productOccurrenceGaps.length} cells have no routed occurrence evidence. The wishlist generator can target them by product+metal queries. These gaps do not control the government-only certification limit.`,
     inline_action: "expand_wishlist_from_blocked_cells",
-  })
-}
-if (blockedExtractionPending.length > 0) {
-  const id = "EXTRACT-LOCAL-PDFS"
-  const promptPath = path.join(promptsDir, `${id}.md`)
-  writePrompt(promptPath, buildExtractionPrompt(blockedExtractionPending))
-  actions.push({
-    id,
-    strategy: "ingest",
-    title: `Extract concentration values from ${blockedExtractionPending.length} (product, metal) cells with local PDFs awaiting deep-read`,
-    impact_score: blockedExtractionPending.length * 2.5,
-    cost: blockedExtractionPending.length > 20 ? "expensive" : "medium",
-    confidence: 0.85,
-    closes_count: blockedExtractionPending.length,
-    closes_what: "standards-readiness gaps where source pages exist but value-level extraction has not run (Path A / Path B candidates not loaded into data/evidence/values.jsonl)",
-    best_dispatched_to: "Claude Code Opus (extraction needs careful table reading)",
-    prompt_path: path.relative(repoRoot, promptPath),
-    details: `Sources are on disk and indexed; the structured-evidence layer at data/evidence/values.jsonl is missing the value-level rows. Run tools/evidence/build-local-reingest-queue.mjs to see the prioritized queue, then process each.`,
   })
 }
 

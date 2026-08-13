@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-beverages-rice-milk.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3d9108e96cf2a65b7ada5032bc630e21754b678f535b09053ef2404c148cf7bf
+source_page_sha256: 165542b7bf06fde85d22445bcc442d5480b5f6f1faa7f4b2bfcf3ced6bc6332c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

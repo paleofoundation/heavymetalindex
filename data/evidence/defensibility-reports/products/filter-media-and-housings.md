@@ -2,7 +2,7 @@
 source_page: wiki/products/filter-media-and-housings.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2f2b8a2c4f82aa53506b08df1a4514379c5690a2c82259c0b2519cb6658ae1f4
+source_page_sha256: 82f55cff0bd316ff6819a091b357981e2b7f393da850c9b11fdeecf0d4786945
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

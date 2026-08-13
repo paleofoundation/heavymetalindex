@@ -1,5 +1,7 @@
 # 3.2 Infant Formula, Powder (Soy-Based)
 
+> **Superseded draft (2026-08-12).** This chapter records the retired occurrence-selected P45/P97 method and must not be used for current certification. Current initial limits are government-limit-only; later tightening uses eligible HMTc certified-lot data under the Standards Ratchet. The certification repository’s Program Manual is controlling.
+
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
 
 **Product class:** Infant Formula, Powder (Soy-Based)

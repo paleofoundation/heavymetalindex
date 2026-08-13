@@ -2,7 +2,7 @@
 source_page: wiki/products/sun-suntan-mineral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6cf4fc75851ec3cd5250ff584c409de64f36cb6162a2039744b2be244552b54c
+source_page_sha256: 8c1e1bcb88ba5bbac7ae2552d6c41c9db726c352c2500a7e89a083eed43281cb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

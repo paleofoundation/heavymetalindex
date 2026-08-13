@@ -2,7 +2,7 @@
 source_page: wiki/products/swings-and-bouncers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 31b29bd6f800b5555c91e797289bcb08b393d11b7766d439aea2c32a01a11644
+source_page_sha256: 856b86d5a2f92ac74bcb4a8f87f4a41d3dc0577ada2c5247a8e9bf21a8705a7f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

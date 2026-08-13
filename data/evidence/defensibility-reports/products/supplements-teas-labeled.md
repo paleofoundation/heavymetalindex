@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-teas-labeled.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c85d6ada3d836b9f9daa0fe63981411a439fca70bc4ae0af3c71df84a4f41c19
+source_page_sha256: 07b8ba05aa564ef6dbe9eb705dd5987d7202948cac9dc507174a84b438de07bf
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

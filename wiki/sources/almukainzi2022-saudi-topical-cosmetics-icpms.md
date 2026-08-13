@@ -117,7 +117,7 @@ All samples passed visual inspection (no lumps, grit, discoloration, characteris
 
 ## Implications
 
-**Certification.** The paper contributes to the Cat 2 Children Personal Care occurrence pool for several finished-product categories present in the panel (notably baby oil, baby talcum powder, sunblock cream, lipstick, lotion). Outside Cat 2, the toothpaste results (samples 19 and 20) feed the Cat 5 / oral care category pool with Pb, As, Cr, Ni, Co, and Cd values that substantially exceed both US FDA cosmetic limits and USP <232> oral-route acceptance criteria. The n=1 per product category limits the standalone weight of any single value; the paper is best treated as a contributing data point that pools with other Saudi-market and global cosmetics surveys for the per-row marginal distributions, with B-tier weighting reflecting the n=1 sample structure and the analytical-QC reporting gaps noted in Methods. The deodorant Cd reading (306.92 ppm) is a substantial outlier that warrants flagging for explicit treatment in any synthesis pass; ICP-MS Cd at that concentration in a finished cosmetic is unusual and could be either a true high-contamination finding (e.g., colored or pigmented additive) or a reporting/calibration artifact.
+**Certification context.** The paper contributes occurrence evidence for several children’s personal-care categories and for oral-care products. The n=1 structure per product category limits the standalone weight of any value, so the results belong in descriptive category distributions, sourcing review, and surveillance; they do not select initial HMTc limits. The deodorant Cd reading (306.92 ppm) is a substantial outlier that warrants explicit adjudication because it could be a true high-contamination result or a reporting/calibration artifact.
 
 **Courses.** Useful as a worked example of how a survey-driven product-panel design generates representative-but-low-replication occurrence data for cosmetic regulatory courses. The author-cited cross-comparison values (Orisakwe 2016 Pb 23.57 ppm in toothpaste, ref 34 Cr 7000 ppm in eyeshadow, ref 13 Co in Saudi cosmetics) provide a teachable example of where this study sits in the broader literature.
 
@@ -195,9 +195,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

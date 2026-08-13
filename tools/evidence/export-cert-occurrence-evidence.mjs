@@ -2,18 +2,18 @@
 // export-cert-occurrence-evidence.mjs  (HMI-side, firewall-clean)
 //
 // Emits ONE self-contained per-(row, analyte) JSON snapshot for the
-// heavymetalcertified.com standards generator's "Occurrence & Derivation
-// Rationale" section. The cert build never reads this repo directly (Part-2
+// heavymetalcertified.com standards generator's contextual occurrence section.
+// The cert build never reads this repo directly (Part-2
 // firewall + Vercel shallow-clone safety): HMI exports this snapshot, it is
 // committed into the cert repo, and the cert renderer reads the local copy.
 // One-way: HMI -> snapshot -> cert. Cert is never read here.
 //
-// FIREWALL (CLAUDE.md Part 2 / Part 19): this snapshot is the HMT&C derivation
-// asset — occurrence findings PLUS the pooled percentile, the government-limit
-// context, and the limit rationale. It renders on heavymetalcertified.com ONLY
+// FIREWALL (CLAUDE.md Part 2 / Part 19): this snapshot carries occurrence
+// findings plus government-limit context. External occurrence never selects an
+// initial HMTc value and never enters the certified-lot Standards Ratchet. It renders on heavymetalcertified.com ONLY
 // and must never be published on a heavymetalindex.com URL. Occurrence FINDINGS
 // are literature and are cited one-way to the index source pages (which are
-// public). The percentile-selection arithmetic stays staff/cert-side.
+// public). Descriptive pool statistics are never represented as compliance math.
 //
 // NO FABRICATION (the load-bearing rule): every occurrence figure is READ from
 // an existing artifact — the pooled aggregate (hmtc_aggregate_distributions.csv,
@@ -23,7 +23,7 @@
 // not derive.
 //
 // INPUT
-//   data/evidence/hmtc_aggregate_distributions.csv      pooled per-cell occurrence + Method v2.0 derivation
+//   data/evidence/hmtc_aggregate_distributions.csv      descriptive pooled per-cell occurrence
 //   data/evidence/category*_summary.csv                 per-study occurrence (citable ranges/median/n)
 //   data/evidence/standards-not-material.csv            substantiated not-material ledger (rebuttable presumption)
 //   data/workbench/standards/{cat1,cat9}-compiled/*.json compiled cell decisions (gov / read_across / not_material / special)
@@ -89,6 +89,14 @@ const num = (v) => {
 }
 // round for display without inventing precision the data does not have
 const r1 = (n) => (n == null ? null : Math.round(n * 10) / 10)
+// P45/P97 were names of the retired compliance-selection pathways. Keep those
+// labels out of the cert-facing contextual asset even when an internal audit
+// note uses one merely as a descriptive distribution statistic.
+const certSafeContext = (v) => String(v || "")
+  .replace(/\bpool(?:ed)?\s+p97\b/gi, "fitted upper-tail estimate")
+  .replace(/\bp97\b/gi, "fitted upper-tail estimate")
+  .replace(/\bpool(?:ed)?\s+p45\b/gi, "fitted central-tail estimate")
+  .replace(/\bp45\b/gi, "fitted central-tail estimate")
 
 // Minimal YAML frontmatter reader for source pages: scalars + inline arrays.
 function frontmatter(md) {
@@ -220,18 +228,12 @@ const aggregate = {}
     aggregate[k] = {
       row_label: rec.product_label || "",
       native_basis: rec.native_basis || "",
-      role: rec.role || "",
-      target_label: rec.target_label || "",
-      target_p: num(rec.target_p),
-      target_value: num(rec.target_value),
-      p10: num(rec.pooled_p10), p30: num(rec.pooled_p30), p45: num(rec.pooled_p45),
+      role: rec.evidence_role || "descriptive_external_occurrence_only",
+      p10: num(rec.pooled_p10),
       p50: num(rec.pooled_p50), p90: num(rec.pooled_p90), p95: num(rec.pooled_p95),
-      p97: num(rec.pooled_p97), p100: num(rec.pooled_p100),
+      p100: num(rec.pooled_p100),
       pooled_n: num(rec.pooled_n), distinct_sources: num(rec.distinct_sources),
       sens_band: rec.sens_band || "",
-      reg_cap_ppb: num(rec.lowest_regulatory_cap_ppb),
-      reg_cap_source: rec.lowest_regulatory_cap_source || "",
-      rationale_tag_auto: rec.rationale_tag_auto || "",
       verdict: rec.verdict || "",
       contribution_log: clog,
     }
@@ -248,8 +250,8 @@ const notMaterial = {}
     notMaterial[`${rec.row_slug}|${rec.metal_species}`] = {
       basis_class: rec.basis_class || "",
       bounded_by: rec.bounded_by || "",
-      rationale: rec.rationale || "",
-      regulatory_basis: rec.regulatory_basis || "",
+      rationale: certSafeContext(rec.rationale),
+      regulatory_basis: certSafeContext(rec.regulatory_basis),
       jurisdictions_checked: rec.jurisdictions_checked || "",
       cross_sourced: rec.cross_sourced || "",
       date: rec.date || "",
@@ -393,8 +395,8 @@ for (const key of keys) {
     if (prev.median_ppb == null && cit.median_ppb != null) prev.median_ppb = cit.median_ppb
   }
 
-  // Pooled distribution (Method v2.0 occurrence pathway) — the cert-side
-  // derivation math. Rendered whenever a pool exists, including for a
+  // Descriptive external occurrence distribution. This is context, not
+  // certification derivation. Rendered whenever a pool exists, including for a
   // not-material cell (there the pool makes the tension visible and defensible).
   if (hasPool) {
     occ.central = { stat: "pooled median", value_ppb: r1(agg.p50) }
@@ -402,9 +404,9 @@ for (const key of keys) {
     occ.range_ppb = [r1(agg.p10), r1(agg.p100)]
     occ.pool = {
       p10: r1(agg.p10), p50: r1(agg.p50), p90: r1(agg.p90), p95: r1(agg.p95),
-      p97: r1(agg.p97), p100: r1(agg.p100),
+      p100: r1(agg.p100),
       pooled_n: agg.pooled_n, distinct_sources: agg.distinct_sources,
-      role: agg.role, target_label: agg.target_label, target_value: r1(agg.target_value),
+      role: "descriptive_occurrence_only",
       sens_band: agg.sens_band,
     }
     for (const c of agg.contribution_log || []) addSource(c.source_id, c.pool_share)
@@ -422,7 +424,7 @@ for (const key of keys) {
     (b.pool_share || 0) - (a.pool_share || 0) || (b.year || 0) - (a.year || 0))
   occ.n_studies = occ.sources.length
   // Observed statistics = values ACTUALLY MEASURED across the cited studies. The
-  // pooled p50/p95/p97/p100 can be a fitted-lognormal distribution whose figures
+  // pooled p50/p95/p100 can be a fitted-lognormal distribution whose figures
   // exceed every real measurement (a runaway/provisional pool artifact); the
   // renderer validates the pool against observed_max and, when the pool is not
   // range-valid, reports these observed figures instead of the modeled ones.
@@ -434,8 +436,8 @@ for (const key of keys) {
   if (smeds.length) occ.observed_median_ppb = smeds[Math.floor((smeds.length - 1) / 2)]
   occ.has_data = occ.n_studies > 0 || hasPool
   if (isPooledMaterial) {
-    occ.n_samples = agg.pooled_n          // the certified-market pool
-    occ.n_samples_basis = "certified-market pool"
+    occ.n_samples = agg.pooled_n
+    occ.n_samples_basis = "external occurrence corpus"
   } else {
     const withN = occ.sources.map((s) => s.n).filter((n) => n != null)
     occ.n_samples = withN.length ? withN.reduce((a, b) => a + b, 0) : null
@@ -459,15 +461,11 @@ for (const key of keys) {
   } else if (comp && comp.type === "special") {
     der.special = { value: num(comp.value), unit: comp.unit || "ppb", basis: comp.basis || "", jurisdiction: comp.jurisdiction || null, label: comp.label || "", source_page: comp.source_page || "" }
   }
-  // pooled percentile (Method v2.0 occurrence pathway) — cert-side only.
-  // Suppressed when it rounds to 0 ppb: a percentile below the reporting floor is
-  // a censored-zero artifact of the same degenerate pool, and "P97 is 0 ppb" reads
-  // as a fabricated zero.
-  if (agg && agg.target_value != null && r1(agg.target_value) > 0 && agg.target_label) {
-    const pLabel = agg.target_label.includes("p97") ? "P97" : agg.target_label.includes("p45") ? "P45" : agg.target_label.toUpperCase()
-    der.percentile = { label: pLabel, value_ppb: r1(agg.target_value), role: agg.role, sens_band: agg.sens_band }
-  } else der.percentile = null
-  der.rationale_tag = (agg && agg.rationale_tag_auto) || null
+  // Retired occurrence-selected certification fields are deliberately null.
+  // Descriptive distribution summaries remain under `occurrence.pool` only;
+  // the retired P45/P97 selector fields are intentionally not exported.
+  der.percentile = null
+  der.rationale_tag = null
   // not-material substantiated rationale
   if (nm) {
     der.not_material = {
@@ -525,9 +523,9 @@ const out = {
   schema: "hmtc.cert-occurrence-evidence.v1",
   generated_from_commit: commit,
   source_commit_date: commitDate,
-  method: "HMTc Method v2.0 (government-limit default; selective occurrence pooling for Tier-1 toxics and no-ML cells)",
+  method: "HMTc Method v2.0 (government-limit-only initial method; external occurrence contextual only; later tightening from eligible HMTc certified-lot data)",
   firewall_note:
-    "HMT&C occurrence + derivation asset. Renders on heavymetalcertified.com only. The derivation (pooled percentile -> limit -> rationale) must never appear on a heavymetalindex.com URL. Occurrence findings are literature, cited one-way to the index source pages.",
+    "HMT&C contextual occurrence asset. Renders on heavymetalcertified.com only. Occurrence findings are literature cited one-way to Index source pages; they do not select an initial limit or enter the certified-lot Standards Ratchet.",
   counts: {
     cells: Object.keys(cells).length,
     with_occurrence: nOccurrence,

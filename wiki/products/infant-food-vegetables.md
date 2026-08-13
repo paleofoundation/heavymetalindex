@@ -83,7 +83,7 @@ The practical lever at this stage is row-specific testing and ingredient identit
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 
@@ -96,9 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

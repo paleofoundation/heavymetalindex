@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/clasps-fasteners-infant-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6944f5a8e1f0979c0382c066be865d0733023f730704bf9c205477abca0d9283",
-      "content_bytes": 9367,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "0572f79a3c7d7cc8c878e1b353457c95140779509169c8a8f61c23c43f5d1c65",
+      "content_bytes": 9528,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
     }
   },
   "evidence_base": {

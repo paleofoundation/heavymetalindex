@@ -2,7 +2,7 @@
 source_page: wiki/products/breath-fresheners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4d60c024754075a2a224654ce6cb38b8cbb986bb2ccaa9b7dd75f02cfb31ee46
+source_page_sha256: b235825722ed86d329bf297c84afb6daa4c92f1623e4e21495f128faeba84823
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

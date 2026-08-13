@@ -2,7 +2,7 @@
 source_page: wiki/products/vegetable-juices-root-vegetable-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 36de6efc64336326d62d2f9532f066cd53a0529fea6b4c946c57f30379587e62
+source_page_sha256: 16e0a4ad3fc689851051dc2c0966f3efadc5cfddbf2d79e3e3f6cdc9852fc7a3
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0

@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/lipstick",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "839c390cdd55145686285f546fb3bf649010b0b433840a89f7a257e076374e32",
-      "content_bytes": 18224,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "f36e5ac9e58115cb3ceaf6226d38b9895ba2fd413e307c3063ad5336a314f7ed",
+      "content_bytes": 18115,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/lipstick.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/lipstick.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -106,12 +106,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "ac2c1f22883ef6e5a9bc4dd721c4a5a4ddb51d6d38342ba525e0ffc603cdc100",
-          "content_bytes": 35479,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "236cf44754277fda32b23e70be548c5287f5b9181a5c487dfc4f3385a5108b4d",
+          "content_bytes": 34889,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -267,12 +267,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "e1928e42873500b2afe685d74e1f382f2f56aab781a2969f277225325add64a2",
-          "content_bytes": 29233,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f2ede7c87160220cb04643a76fe4ee5f09a018fbaf16601e6da0d7268544916a",
+          "content_bytes": 28640,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -452,12 +452,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd",
         "content_pin": {
-          "content_sha256": "622ec8ed9360a305d33cb7ec81c861f2a42aba11a7e3375fa0579261d7e746ba",
-          "content_bytes": 17751,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "85ba57953919a9c65740109dd3921beec0afd8a2e83e383135dc52b5553f9328",
+          "content_bytes": 17469,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd.md | sha256sum"
         }
       },
       {

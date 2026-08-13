@@ -2,7 +2,7 @@
 source_page: wiki/products/coffee.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6e8a6f363594b0393196a8cac6f057bb8cfb18c97fa6bcdbefc18d68aafc7a92
+source_page_sha256: 1e50f65a71a7051d523b1997941ce535074928db8c12866e25e138b9178090a6
 total_claims: 7
 cited_claims: 7
 uncited_claims: 0

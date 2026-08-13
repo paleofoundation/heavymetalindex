@@ -12,8 +12,8 @@
 //   - exposure_pathway and regulatory_jurisdictions from the category
 //   - The 10 mandatory H2 sections required by CLAUDE.md Part 6
 //   - products_status: scaffold (signals "no contributing sources yet")
-//   - splits_locked: false (signals "may need within-row clean/contaminated
-//     split based on evidence; not yet locked")
+//   - splits_locked: false (signals "row scope may need further subdivision
+//     based on product form or chemistry; not yet locked")
 //
 // Idempotent: skips pages that already exist regardless of frontmatter state.
 //
@@ -78,7 +78,7 @@ const STAKEHOLDER_BLOCK_TEMPLATE = `<dl class="hmi-stakeholder-guide">
   </div>
   <div>
     <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+    <dd>Initial HMT&amp;C limits are compiled separately at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a> under the government-limit-only method. Index occurrence evidence is descriptive only and cannot select a certification value or status; later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.</dd>
   </div>
 </dl>`
 
@@ -115,7 +115,7 @@ ${STAKEHOLDER_BLOCK_TEMPLATE.replace(/<ROWNAME>/g, sub.name)}
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in ${sub.name.toLowerCase()}. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in ${sub.name.toLowerCase()}. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; Index occurrence evidence does not select a certification value or status.
 
 The applicable regulatory jurisdictions for this row are: **${cat.regulatory_jurisdiction}**.
 
@@ -154,7 +154,7 @@ Practical interventions to reduce heavy-metal load in this row, ordered by impac
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for this row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. This public page reports literature evidence only.
+HMTc certification limits are published separately at heavymetalcertified.com. Initial values are government-limit-only; later tightening uses eligible certified-lot data under the Standards Ratchet. This public page reports descriptive literature evidence only, and its occurrence pool does not select a certification value.
 
 ## Historical recalls and enforcement
 

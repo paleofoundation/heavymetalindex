@@ -2,7 +2,7 @@
 source_page: wiki/products/childrens-nail-polish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 82d74a99abba679951c8b4186dc8ea0700e1fe92527cf6f44e3b898dabb95a78
+source_page_sha256: bbfdaffff2934fe9fc409655952cf946d4727e562f701ea9c34084f4a9fdba8c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

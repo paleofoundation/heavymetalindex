@@ -2,7 +2,7 @@
 source_page: wiki/products/eggs-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 65a8ce1a972fdaebd7e90c453cc51ad336a14a569dfe8c651ec3fb2311804cd6
+source_page_sha256: ac3b17217586bde3cd53e1e27d8f348a03b7fa53fd0636b659ec4bb2248cab63
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

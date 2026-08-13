@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-canned-wet.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2443dbe9018f86e602ff2a10d728a85d3cfc9cef4a0ba6611079f7118d79296f
+source_page_sha256: 2209b78b66857d482f44029af497f3bcdb7c71fa959f8dd86cb3066995883a07
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

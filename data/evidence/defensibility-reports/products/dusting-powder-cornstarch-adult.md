@@ -2,7 +2,7 @@
 source_page: wiki/products/dusting-powder-cornstarch-adult.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f447ddfd62e7ce144238b49521afcd1c9cc7aaf13705c4fa33faed24307bd4b4
+source_page_sha256: 0c05bc8741a098e243f69d0425544d85745804bc3a0fe5d7c97c231220cb870f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

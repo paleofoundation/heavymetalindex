@@ -1,0 +1,142 @@
+{
+  "_doc": "Category 7 Oils, Condiments, and Specialty Foods compiler config for the eight scope-locked rows. The four unresolved broad rows (condiments-general, snacks-general, canned-foods-general, mixed-meals-prepared-foods) are intentionally excluded until their locked taxonomy split or governing product basis is resolved. Initial numeric values are government limits only; a control cell records mandatory testing without inventing a number where no sovereign maximum exists.",
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
+  "default_read_across": {
+    "Pb": {
+      "control_only": true,
+      "control": "No exact sovereign lead maximum is loaded for this product form. Total Pb remains mandatory on every lot; the cell cannot receive an occurrence-derived number.",
+      "reference_method": "Total Pb by ICP-MS."
+    },
+    "Cd": {
+      "control_only": true,
+      "control": "No exact sovereign cadmium maximum is loaded for this product form. Total Cd remains mandatory on every lot; the cell cannot receive an occurrence-derived number.",
+      "reference_method": "Total Cd by ICP-MS."
+    },
+    "tAs": {
+      "control_only": true,
+      "control": "No exact sovereign total-arsenic maximum is loaded for this product form. Total As remains mandatory and elevated results require speciation.",
+      "reference_method": "Total As by ICP-MS; iAs by HPLC-ICP-MS on an elevated result."
+    },
+    "iAs": {
+      "control_only": true,
+      "bounded_by": "tAs",
+      "control": "No separate sovereign inorganic-arsenic maximum is loaded for this non-rice product. Total As is mandatory; elevated results trigger iAs speciation, and the iAs result is evaluated within the total-As control.",
+      "reference_method": "iAs by HPLC-ICP-MS (EN 16802 or equivalent)."
+    },
+    "tHg": {
+      "control_only": true,
+      "control": "No exact sovereign total-mercury maximum is loaded for this product form. Total Hg remains mandatory on every lot.",
+      "reference_method": "Total Hg by EPA 7473 or ICP-MS."
+    },
+    "MeHg": {
+      "control_only": true,
+      "bounded_by": "tHg",
+      "control": "This non-marine row has no methylmercury bioaccumulation pathway. Total Hg is mandatory and bounds MeHg; products containing fish or another marine ingredient must route to the applicable seafood/speciation standard.",
+      "reference_method": "Total Hg screen; MeHg by GC-ICP-MS / HPLC-ICP-MS if a marine ingredient or anomalous total-Hg result creates a pathway."
+    },
+    "Ni": {
+      "control_only": true,
+      "control": "No exact sovereign nickel maximum is loaded for this product form. Total Ni remains mandatory and is reported as surveillance, not converted into an occurrence-selected certification value.",
+      "reference_method": "Total Ni by ICP-MS."
+    },
+    "Sn": {
+      "control_only": true,
+      "control": "Tin is primarily a tinplate-migration analyte. Non-canned products require total-Sn surveillance and packaging verification; canned versions route to the canned-food standard.",
+      "reference_method": "Total Sn by ICP-MS plus packaging declaration."
+    },
+    "Al": {
+      "control_only": true,
+      "control": "No exact sovereign finished-product aluminium maximum is loaded for this product form. Total Al remains mandatory, with additive, processing-aid, soil, and equipment sources investigated.",
+      "reference_method": "Total Al by ICP-MS."
+    },
+    "Cr": {
+      "control_only": true,
+      "control": "No exact sovereign total-chromium maximum is loaded for this product form. Total Cr remains mandatory and any elevated result triggers species investigation.",
+      "reference_method": "Total Cr by ICP-MS."
+    },
+    "Cr-VI": {
+      "control_only": true,
+      "bounded_by": "Cr",
+      "control": "Any total-Cr result at or above 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails certification.",
+      "reference_method": "Cr(VI) by validated alkaline extraction and IC-ICP-MS (EPA 3060A/EPA 6800 or equivalent)."
+    }
+  },
+  "subcategories": {
+    "olive-oil": {
+      "name": "Olive oil",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["olive oil", "named vegetable oils", "edible fats and oils", "fats and oils"],
+      "scope_exclude": ["olive leaves", "olive pits", "milk fat", "dairy fat", "butter", "ghee", "fish oil", "infant", "formula"]
+    },
+    "cooking-oils-other": {
+      "name": "Cooking oils — non-olive",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["named vegetable oils", "edible fats and oils", "fats and oils", "vegetable oil", "cooking oil", "seed oil"],
+      "scope_exclude": ["olive oil", "milk fat", "dairy fat", "butter", "ghee", "fish oil", "infant", "formula"]
+    },
+    "butter-and-ghee": {
+      "name": "Butter and ghee",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["\\bbutter\\b", "\\bghee\\b", "milk fat", "dairy fat", "dairy-fat products"],
+      "scope_exclude": ["cocoa butter", "peanut butter", "nut butter", "butter oil", "infant", "formula"]
+    },
+    "honey": {
+      "name": "Honey and syrups",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["honey", "syrup"],
+      "scope_exclude": ["infant", "formula", "canned", "tinplate"]
+    },
+    "vinegar": {
+      "name": "Vinegar",
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["vinegar", "balsamic"],
+      "scope_exclude": ["infant", "formula", "canned", "tinplate"]
+    },
+    "chocolate": {
+      "name": "Cocoa and chocolate products",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["chocolate", "cocoa", "cacao"],
+      "scope_exclude": ["infant", "formula", "flavour", "flavor", "vegetable oil", "crude oil", "oils of", "juice", "nectar", "coconut water", "canned", "tinplate"]
+    },
+    "spices": {
+      "name": "Herbs, spices, and dried seasonings",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["spice", "spices", "dried herbs", "seasoning"],
+      "scope_exclude": ["infant", "formula", "essential oil", "vegetable oil", "crude oil", "oils of", "canned", "tinplate"]
+    },
+    "salt": {
+      "name": "Food-grade salt",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["food-grade salt", "edible salt", "salt"],
+      "scope_exclude": ["salted", "saltwater", "salts of", "infant", "formula", "canned", "tinplate"]
+    }
+  }
+}

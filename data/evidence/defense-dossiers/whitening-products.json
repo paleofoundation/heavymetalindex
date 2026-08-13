@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/whitening-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5c89da105fd4f81b5f18d3a91795f4c857e1debae5d3112c2a9c3e635829f000",
-      "content_bytes": 10381,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "e4fdaaf5b66b17eea419cd67a2d7a735e64baf76e82fb9d3855bd93eeed887ca",
+      "content_bytes": 10542,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/whitening-products.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/whitening-products.md | sha256sum"
     }
   },
   "evidence_base": {

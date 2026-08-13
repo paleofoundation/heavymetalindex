@@ -2,7 +2,7 @@
 source_page: wiki/products/pacifiers-and-sucking-teething-aids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 092731c3a9bf14c0a438f800a3a479de97116a525f2627216b16b40cd159b5d0
+source_page_sha256: 0723972634d5cb09b60b425a6ba9cab91bfb4d5eb168d3361fb2239848a0d371
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

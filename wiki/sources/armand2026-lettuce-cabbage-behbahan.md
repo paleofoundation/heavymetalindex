@@ -58,7 +58,7 @@ Ten vegetable retail stores in Behbahan (uniform geographic distribution across 
 
 ## Implications
 
-- Certification (HMTc): Cabbage mean Pb (0.312 mg/kg wet weight) exceeds the FAO/WHO-aligned 0.3 mg/kg guideline used by the authors and the Codex GSCTFF 0.10 mg/kg wet-weight ML for leafy vegetables. Cabbage mean Cr (0.699 mg/kg) exceeds the 0.5 mg/kg author guideline; however, the paper measured total Cr without speciation, and Cr-VI vs Cr-III speciation is essential before this value can support an HMTc-row decision. Lettuce values are below the same guidelines on a mean basis but Cd HQ in lettuce (0.240) is the second-highest single-metal HQ across either vegetable. Values reflect a specific industrial-impact region (Khuzestan oil-and-petrochemical corridor) and should not be treated as representative of global lettuce or cabbage baselines for HMTc P97/P45 pooling without explicit regional adjustment.
+- Certification context (HMTc): Cabbage mean Pb (0.312 mg/kg wet weight) exceeds the FAO/WHO-aligned 0.3 mg/kg guideline used by the authors and the Codex GSCTFF 0.10 mg/kg wet-weight ML for leafy vegetables. Cabbage mean Cr (0.699 mg/kg) exceeds the 0.5 mg/kg author guideline; however, the paper measured total Cr without speciation, and Cr-VI vs Cr-III speciation is essential before any species-specific comparison. Lettuce values are below the same guidelines on a mean basis, but Cd HQ in lettuce (0.240) is the second-highest single-metal HQ across either vegetable. Values reflect a specific industrial-impact region and are contextual occurrence evidence, not an input to HMTc initial limit selection or the certified-lot Standards Ratchet.
 - Courses: Useful case study illustrating that non-carcinogenic HI can be below 1 while ELCR exceeds the 10⁻⁴ unacceptable threshold — the two metrics can diverge substantially. Also a clear example of the Cr speciation pitfall (applying a Cr-VI CSF to total Cr).
 - App: Concentration values from this source are region-specific (Khuzestan industrial zone, Iran) and should be flagged as high-industrial-impact regional data rather than incorporated into generic lettuce or cabbage contamination profile baselines.
 - Microbiome: Not applicable; no microbiome data.
@@ -94,9 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

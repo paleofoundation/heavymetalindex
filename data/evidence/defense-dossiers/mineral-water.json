@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mineral-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "73c8b97046d4a869bbf9ea095c4c991152db375b85a256bc6e6f4bc6983692af",
-      "content_bytes": 12633,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "7a0e6a5243581d6494942d21d2742f6695f30bd83a11de3a3a47d6e8cee724e3",
+      "content_bytes": 12794,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/mineral-water.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/mineral-water.md | sha256sum"
     }
   },
   "evidence_base": {

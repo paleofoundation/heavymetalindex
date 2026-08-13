@@ -2,7 +2,7 @@
 source_page: wiki/products/childrens-lip-balm-mineral-bearing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ffa057f8a930d8c85aa6192aa8feb116a59b3cd7897c0734dc25b2f567e4f9c7
+source_page_sha256: d51f9d3bbeabbfe146d61498ee86e4919a159c5446c35ef08129eb244af6a160
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

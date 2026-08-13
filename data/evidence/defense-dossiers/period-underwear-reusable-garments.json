@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/period-underwear-reusable-garments",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6b582ee76a79924c0184615abf5c028d90f49c6ca50e33e77445db5e56efe142",
-      "content_bytes": 8864,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "1cb0722215f30a8f4f216c32a110fcab82a590918cc1e8ad1d7f4ea4cba75bb0",
+      "content_bytes": 9025,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/period-underwear-reusable-garments.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/period-underwear-reusable-garments.md | sha256sum"
     }
   },
   "evidence_base": {

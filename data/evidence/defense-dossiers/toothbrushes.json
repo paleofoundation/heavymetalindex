@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toothbrushes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "631126a3bc72edf19a4f45a1a9163f6f83344b6fbe551a41cbd4cd7119709adc",
-      "content_bytes": 9325,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "414d6e4b76f8980773a850c0fd219e05e271496f7fba29701574ff86e410252a",
+      "content_bytes": 9486,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/toothbrushes.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/toothbrushes.md | sha256sum"
     }
   },
   "evidence_base": {

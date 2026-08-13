@@ -2,7 +2,7 @@
 source_page: wiki/products/period-underwear-reusable-garments.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 53cb26ba8c8495401f729e8778c885471fe77e80b159c35e03ee430fa0270cbb
+source_page_sha256: 6774e32c4569c109e7fe73e61fe614b57aae0c4a275969fbc41112478a942b9e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

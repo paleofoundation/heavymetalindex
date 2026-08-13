@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-pompoms-fibrous-craft.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: cef1d3f1e35818197a63762b4f4dc1ddc2cf14a482ccbc16894a4b94ce47dbdf
+source_page_sha256: c5ae41b8c32fcc7435e899ab3bfbee6d7ee5df28bafd03b8a17b5c0d548c27bf
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

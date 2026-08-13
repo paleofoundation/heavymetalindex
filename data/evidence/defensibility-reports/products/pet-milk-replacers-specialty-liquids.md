@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-milk-replacers-specialty-liquids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 42e06f3add353a001f104ddcd7010c61251cf5d1666847657abb1f05b79b82e3
+source_page_sha256: 503b4215839168d9ee357d6ce57a99ba1c6a89b3cb4dd588100fd29ff88677d9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

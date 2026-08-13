@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-capsules.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7c7d1e6472764eb1a9791f155241189b163108091038a958976a0f83b53d7c55
+source_page_sha256: 2cac12e4308bdddeb77d8bcad2c70e73c22437fa27b211510a163c4567224566
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

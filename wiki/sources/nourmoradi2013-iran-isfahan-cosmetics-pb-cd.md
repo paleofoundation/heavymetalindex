@@ -108,7 +108,7 @@ Speciation: total Pb and total Cd only; no inorganic-vs-organic speciation step.
 
 ## Implications
 
-- **Certification (HMTc):** Direct occurrence evidence for lipstick (35 samples, 5 colors × 7 brands) and eye-makeup (15 eye-shadow samples, 3 colors × 5 brands) as marketed in Isfahan, Iran. The lipstick row currently routes to a retired `products/lipstick` page (Cat 2 cleanup 2026-05-16) because the underlying papers describe adult lip cosmetics that do not belong in Cat 2 (ages 0–5); adult lipstick is queued for a future Cat 13 (Leave-on Cosmetics, adult) row. Until that row is built, this source contributes to the pooled occurrence dataset that will inform Cat 13 thresholds when the category is scaffolded. The eye-shadow data routes to `eye-makeup` (Cat 13 Row 7) as direct occurrence evidence. Sample frame is small (n = 35 lipsticks, n = 15 eye shadows) and limited to a single city in a single year; treat as one contributing entry in a multi-source pool rather than a standalone anchor for any threshold.
+- **Certification context (HMTc):** Direct occurrence evidence for lipstick (35 samples, 5 colors × 7 brands) and eye makeup (15 eye-shadow samples, 3 colors × 5 brands) as marketed in Isfahan, Iran. The lipstick row currently routes to a retired `products/lipstick` page because the products are adult cosmetics outside Cat 2; adult lipstick is queued for a future Cat 13 row. The eye-shadow data route to `eye-makeup` as direct occurrence evidence. The sample frame is limited to one city and year, so it is one contextual market-distribution entry for category characterization and surveillance. It does not select an initial HMTc limit.
 
 - **Courses:** Useful as a teaching case for (a) the divergence among published cosmetic heavy-metal limits (CSC 0.1 µg/g Pb vs FDA 20 µg/g Pb is a 200× spread on the same metal in the same product class), (b) the use of FDA's candy Pb guideline as a proxy for lipstick (defensibility limits of cross-product extrapolation), and (c) brand-level variability within a single product class measured by GFAAS in a small-n study (per-brand mean Pb in lipsticks varies almost 6× between Brand 3 and Brand 7).
 
@@ -153,9 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

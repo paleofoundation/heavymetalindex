@@ -2,7 +2,7 @@
 source_page: wiki/products/sparkling-carbonated-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2799806e15bc90460db2b79f3f26033079da117fc0153cbfd6a57ea5fbbc22b4
+source_page_sha256: 03122c2f75324262fdf69bf8df6223a0ee750beb9462e981073878781af9fc98
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

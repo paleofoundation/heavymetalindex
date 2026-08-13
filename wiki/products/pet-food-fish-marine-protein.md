@@ -1,11 +1,11 @@
 ---
-title: "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)"
+title: "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)"
 type: product-category
 category: pet-food-fish-marine-protein
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"
 hmtc_row: 10
-hmtc_subcategory_name: "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)"
+hmtc_subcategory_name: "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)"
 hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-06-09"
 exposure_pathway: "Ingestion (oral, animal)"
@@ -20,7 +20,7 @@ wiki_doi: null
 updated: 2026-06-09
 ---
 
-# Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)
+# Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)
 
 > **v2.2 Step Zero scaffold — Category 17 (Pet Foods), Row 10.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing
@@ -42,9 +42,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
-| [45ecb2e7e](https://github.com/paleofoundation/heavymetalindex/commit/45ecb2e7e) | 2026-06-10 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/feeding-accessories-child-sized.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7723c097637fa62007e0d47341ec4919041d307d56bdb8851889ef732ae40c6a
+source_page_sha256: 5c54cdc86b726d714c3a98cd725267266c4d51c3afee9f3b6c53f55aec48f843
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

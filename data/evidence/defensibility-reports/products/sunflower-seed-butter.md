@@ -2,7 +2,7 @@
 source_page: wiki/products/sunflower-seed-butter.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e6ab7b21a27df59e26c1dac7c8c979c0b7ee89651cb49813d1953a2c424380f1
+source_page_sha256: 5f5afd84f06b8385936cedfcc23b200e058af4bcd7a84a248f0f0f39b0b28d2d
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

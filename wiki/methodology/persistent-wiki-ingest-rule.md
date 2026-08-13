@@ -3,7 +3,7 @@ type: methodology
 methodology_id: persistent-wiki-ingest-rule
 title: Persistent Wiki Ingest Rule
 audience: [regulator, researcher, standards, app]
-updated: 2026-05-08
+updated: 2026-08-12
 sources: 0
 ---
 
@@ -53,7 +53,7 @@ Numeric extraction should be deterministic wherever the source allows it. Tables
 This boundary is not a ban on AI reasoning. It separates two jobs:
 
 - extraction records what the source says and what can be calculated reproducibly;
-- adjudication reasons over product fit, basis comparability, analyte species, statistic usability, Evidence Fitness, and standards readiness.
+- adjudication reasons over product fit, basis comparability, analyte species, statistic usability, Evidence Fitness, and occurrence-evidence completeness. Certification-limit completeness is evaluated separately by the sovereign-government compiler.
 
 The reason for the separation is defensibility. A later reviewer should be able to distinguish a copied source value from an AI row-fit decision, inspect both, and reproduce the route without relying on hidden chat context.
 
@@ -67,25 +67,26 @@ Reasoning belongs in a different layer:
 
 When a statistic cannot be extracted deterministically, the wiki should say that the value is pending, incomplete, or context-only rather than inventing a polished-looking output.
 
-## Aggregate Percentile Boundary
+## Occurrence-Distribution and Certification Boundary
 
-Individual studies are not expected to report the HMTc p90, p95, p10, or p20. Those values are standards-program calculations performed after the evidence has been routed, screened, and admitted into a benchmark pool. During ingest, the important question is whether the source contributes usable sample-level values or only summary/context evidence.
+Individual studies are not expected to report any particular percentile. During ingest, capture the source facts: sample-level values when available, sample size, basis, species, units, censoring, geography or market, time period, sample frame, and every source-reported statistic that can be verified. Means, medians, ranges, maxima, IQRs, standard deviations, and lower- or upper-bound censored summaries remain useful evidence. Summary-only sources may contribute to descriptive occurrence distributions through the documented moment-matching method; they are not excluded merely because they lack sample-level values.
 
-Source-level percentiles, when they happen to exist, are evidence inputs, not HMTc thresholds by themselves. A paper may report p90, p95, or p100 for its own sample pool; those values must remain labeled as source-scope context until the source is admitted into the exact product-row aggregate pool.
+Source-level and pooled percentiles are occurrence evidence. They characterize distributions, support category comparisons, help prioritize surveillance and sourcing work, and expose evidence gaps. They do not select an initial HMTc certification value and they do not determine certification status.
 
-For HMTc limit-setting, clean benchmark rows use the aggregate the lower-end of the literature distribution. Contaminated-platform rows use a governance-selected aggregate lower-tail value: P10 by default, or P20 only when that row's governance packet explicitly selects it. The opposite tails are not HMTc limit-setting targets: do not calculate dirty-category P90 or clean-category P10 as standards values. If those values are computed for exploratory variance or clean-vs-dirty separation context, label them as comparator context and keep them out of limit-setting fields.
+The current HMTc initial method is government-limit-only:
 
-After the aggregate target is calculated, compare it to the lowest applicable loaded regulatory ceiling for the same product row, analyte species, and basis. If the aggregate target is higher than that regulatory cap, the HMTc standard must use the regulatory cap or a stricter value; it must not publish a looser threshold.
+1. Identify the strictest applicable maximum set by a credible sovereign government.
+2. Preserve product-form, formulation, analyte-species, and native-basis distinctions. The 8:1 powder-to-liquid conversion applies only within infant formula.
+3. If no government regulates the exact cell, use a disclosed read-across from the nearest applicable sovereign value, or an `n/m` determination with its control method where the analyte is not material.
+4. If none of those routes is defensible, keep the cell in development rather than deriving a limit from occurrence evidence.
 
-The deterministic layer may calculate documented nearest-rank percentiles from sample-level values, but it must record the source pool, product-row fit, basis, analyte species, censoring rule, and whether the value is source-scope context or an aggregate standards candidate. The AI adjudication layer decides whether the source is fit to enter the aggregate pool; the math layer then computes the row-standard percentile from the admitted pool.
+After publication, a separate Standards Ratchet may tighten the current value using eligible HMTc certified-lot findings. External HMI occurrence studies do not enter that calculation. The ratchet requires two consecutive annual reviews in which the capped combined Status A and Status B trigger pool has P80 at or below 80% of the current limit and at least 50% of trigger-pool SKUs have qualifying lots at or below 60% of the current limit. No licensee may contribute more than 25% of trigger-pool SKUs. The new limit is the greater of the Status A P80 or 80% of the current limit, so no event reduces a limit by more than 20%; transition is 12–18 months.
 
-Do not describe a study as weak merely because it does not report p90 or p95. A study is distribution-capable when it provides sample-level values, or another traceable structure that can be admitted into the benchmark pool. A study is summary/context-only when it provides only means, medians, ranges, maxima, pooled baskets, or narrative summaries. Summary/context-only evidence can inform retrieval, context, and sensitivity review, but it cannot create the benchmark distribution by itself.
+## Occurrence Pool Rule
 
-## Benchmark Pool Rule
+Before calculating any descriptive aggregate, define and record the pool. The definition must state the product row, geography or market, time period, matrix and basis, analyte species, sample frame, method comparability, censoring rule, and inclusion/exclusion criteria.
 
-Before calculating any HMTc percentile, define and record the benchmark pool. The pool definition must state the product row, geography or market, time period, matrix/basis, analyte species, sample frame, method comparability, censoring rule, inclusion/exclusion criteria, and regulatory ceiling context.
-
-Benchmark pools are jurisdiction- and market-aware. If a standard is being written for the United States, US-market samples are the primary benchmark pool unless governance explicitly approves another design. If US-market values are materially different from Nigeria, Portugal, the EU, or any other market, stratify the evidence and document the difference rather than averaging the markets together. Non-target-market evidence can remain useful as context, a prior, a gap signal, or a sensitivity check, but cross-market pooling requires an auditable rationale.
+Occurrence pools are jurisdiction- and market-aware. If the characterization targets the United States, US-market samples are primary unless the analysis explicitly defines another design. If US-market values materially differ from Nigeria, Portugal, the EU, or another market, stratify and document the difference rather than silently averaging markets. Non-target-market evidence can remain useful as context, a prior, a gap signal, or a sensitivity check; cross-market pooling requires an auditable rationale.
 
 ## Stub-First Rule
 
@@ -178,9 +179,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | major | 2 sections added and 2 removed; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 <!-- END: hmi-page-history -->

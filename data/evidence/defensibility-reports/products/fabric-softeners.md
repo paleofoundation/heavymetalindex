@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-softeners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2ddce3ded810b825815d3a1065bbfa3eebef068a3d771f9611ba5f58ba6c9e04
+source_page_sha256: a3cf580f7ea22792e5ad1a87bfe8af5f904369656752a2aae5741b73a39a0393
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

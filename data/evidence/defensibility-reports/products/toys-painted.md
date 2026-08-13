@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-painted.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0e85d689a554a68697d70545bab6b11802b94215b686d3dd50aaf624281adb2b
+source_page_sha256: 69534db60fe4b2429d829ca64d49993fa0315ffcc8ce1efaf2c2493553e695e1
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0

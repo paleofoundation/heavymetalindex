@@ -73,7 +73,7 @@ Seaweed was obtained from 7 commercial harvesters in northern Maine and hand-col
 
 ## Implications
 
-- Certification (HMTc): a direct-evidence occurrence-and-speciation source for the Category 6 seaweed-kelp-foods row (iAs/tAs platform), showing that the kelp *Laminaria digitata* — a core component of the row — can carry toxicologically significant inorganic arsenic (2.8–20.4 mg/kg DW, plus 6.6–10.9 mg/kg in L. digitata-containing mixed products) while every other surveyed taxon (Ascophyllum, Fucus, Saccharina, Alaria, red and green algae) stays <1 mg/kg iAs. By the paper's own exposure calculation, a 5 g portion of the high-iAs L. digitata delivers half to more than four times the US EPA inorganic-arsenic oral reference dose. This reinforces a kelp-specific (especially *Laminaria*) high-iAs sub-treatment within the row's clean/dirty structuring, and shows the elevation is harvester-/region-variable even within one species (Maine high; the single NH L. digitata <0.01 mg/kg). All on the dry-weight, as-harvested basis.
+- Occurrence routing: direct occurrence-and-speciation evidence for the seaweed-kelp-foods row. *Laminaria digitata* contained 2.8–20.4 mg/kg DW inorganic arsenic, and mixed products containing it had 6.6–10.9 mg/kg, while the other surveyed taxa stayed below 1 mg/kg. This supports species-, harvester-, and region-specific descriptive stratification and sourcing controls. It does not select an HMTc limit. All values are dry weight, as harvested.
 - Courses: a teachable methods case on why speciation (not total As) is required for seaweed monitoring and why partial-speciation methods are fit for purpose.
 - App: contributes to the seaweed ingredient contamination_profile for total and inorganic arsenic, with the *Laminaria*-kelp high-iAs caveat.
 
@@ -98,9 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

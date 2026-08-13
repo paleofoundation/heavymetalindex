@@ -2,7 +2,7 @@
 source_page: wiki/products/hair-dye-rinse-off.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d4a43036af5891a5b9e04450cf8e90d12e5c1c04c43cd7f1a45ddd67d83bef81
+source_page_sha256: 5f0264a67c49292f6ff4be7793d74fc449d24d9031d02e3ae05224af8b632299
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

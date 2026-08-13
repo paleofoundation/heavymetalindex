@@ -2,7 +2,7 @@
 source_page: wiki/products/plant-milks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fd5640f2b352743fcd6a6b7060a9d57d0ba23b140bbf67fcd54dcfa6ad8e24ab
+source_page_sha256: a66a1576ae69c407e8c770ce97ce3a6abc4884094721b78a887bd26aceff060d
 total_claims: 20
 cited_claims: 17
 uncited_claims: 3

@@ -2,7 +2,7 @@
 source_page: wiki/products/root-tuber-vegetables.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: aa912f39ac08301f198cc32c06cb1e456582d8cacbb6c0a6ebcf7e171dcff469
+source_page_sha256: cb416986e4df2b6db8a6061508d55ad22ca7968405503e0f07afbea9ddd9417c
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

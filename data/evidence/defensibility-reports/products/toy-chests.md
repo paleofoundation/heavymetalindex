@@ -2,7 +2,7 @@
 source_page: wiki/products/toy-chests.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c025e734fa79e9296bf0cb710c89ef3c87a3c371ed6abbf32d6dd52e2bcb2a0e
+source_page_sha256: 7f550c297fa9505366e6f1441d3bd098d2e25c2de1e32cd7d97aa525d8ffb77c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

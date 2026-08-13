@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-battery-electronic.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c76cb0e8206c45f7397c5a6541f1cd2334809a9e2e1fe394091f395c39b45143
+source_page_sha256: de9137f697737a1c01f80f8041ce5821c628a91f3d776efc28c36f2828b16901
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

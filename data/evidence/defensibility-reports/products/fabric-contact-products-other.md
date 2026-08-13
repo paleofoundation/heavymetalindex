@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-contact-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6aef3a3d7ae9e14ebea899aa36cb6191c32ee9641fce6480fc0a7d96aeecf640
+source_page_sha256: 619006edda78ae7e1ad19f506dc5b99a30af93195056ba14ef6211284003ccdc
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

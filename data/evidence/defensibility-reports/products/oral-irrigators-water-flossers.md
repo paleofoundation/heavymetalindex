@@ -2,7 +2,7 @@
 source_page: wiki/products/oral-irrigators-water-flossers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: aea6d970d1fd1a7372dd3fc6d20c4ab7e81d488a2a3c04df7de615d1e5a22360
+source_page_sha256: 844a1847f5e6265ae24397cfb376f59ef9374f8085c6097db158545dfe847c3b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

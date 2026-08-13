@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-11
+updated: 2026-08-12
 noindex: false
 ---
 
@@ -494,7 +494,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
 This is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.
 
-The wiki tracks regulatory limits as published; it does not endorse them. See wiki/HMTc separation policy for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
+The wiki tracks regulatory limits as published; it does not endorse them. See wiki/HMTc separation policy for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

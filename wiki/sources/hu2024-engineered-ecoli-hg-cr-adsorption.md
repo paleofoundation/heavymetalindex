@@ -70,7 +70,7 @@ For mixed-ion adsorption, the four-metal cocktail (Hg²⁺/Cr⁶⁺/Cd²⁺/As³
 
 The paper is a primary bioremediation-engineering study: it constructs, optimizes, and benchmarks engineered E. coli strains for aqueous Hg²⁺ and Cr⁶⁺ removal. It does not measure Hg, Cr, Pb, Cd, As, or any other HMI-tracked analyte in any food, supplement, personal-care, or consumer matrix. Its value to the HMI corpus is upstream context for the metal-binding-peptide and HMBP literature that the same Kimi peptide folder is populating: it shows what a state-of-the-art recombinant bacterial sorbent achieves under controlled laboratory conditions, against which broader review claims about peptide- and protein-based heavy-metal remediation can be calibrated. The paper itself notes that even the best-performing strain (M'-006) fails the WHO drinking-water removal-rate target at higher influent concentrations, which bounds practitioner expectations for engineered bacterial sorbents under real wastewater conditions.
 
-Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentile calculation, no regulatory crosswalk, and no occurrence summary for any product category. It belongs on `metals/lead`, `metals/mercury`, `metals/chromium`, or any ingredient or product page only as a methods reference if a future synthesis pass on engineered-bacterial bioremediation needs to cite the underlying construction strategy. The routing layer should leave this source unattached to consumer products and ingredients.
+Within the wiki/HMTc firewall, this source bears on no initial HMTc limit selection, no certified-lot Standards Ratchet calculation, no regulatory crosswalk, and no occurrence summary for any product category. It belongs on `metals/lead`, `metals/mercury`, `metals/chromium`, or any ingredient or product page only as a methods reference if a future synthesis pass on engineered-bacterial bioremediation needs to cite the underlying construction strategy. The routing layer should leave this source unattached to consumer products and ingredients.
 
 ## Verification notes
 
@@ -83,7 +83,7 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
 - `jurisdictions: [CN, GLOBAL]` because the lab is at Tianjin University (Project No. 2018YFA0902100, National Key R&D Program of China; NSFC 22178262) and the engineered-strain technology has no jurisdiction-specific implications.
 - Evidence tier C: primary research paper, but it generates no primary occurrence data for any HMI analyte in any HMI matrix; its value is upstream methods reference rather than direct evidence for any contamination claim.
 - Brand firewall: no consumer brand names appear in the paper. Reagent and instrument vendors named in Materials and Methods (TransGen Biotech Co., Ltd; GENEWIZ Co., Ltd; pET28a vector; ATCC 43123D-5 for C. metallidurans plasmid pMOL28) are scientific suppliers, not consumer brands. Per the scientific-method-vendor exception in `docs/gpt-collaboration/verification-checklist.md` (Exception 2, locked 2026-05-17), these vendor names are appropriate to preserve as methods detail; they are not attributable to any contamination value.
-- Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards imported. The source does not bear on any HMI per-row P97/P45 calculation.
+- Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards imported. The source does not bear on initial government-limit selection or the internal certified-lot Standards Ratchet.
 - Source-type: `peer-reviewed` (primary research article, not a review).
 - Paper-internal data integrity flags (recorded, not stop-condition):
   - Abstract reports M'-002 maximal Hg²⁺ adsorption of 658.40 µmol/g; results section (p. 8) reports 658.66 µmol/g. Rounding difference, same data; both recorded.
@@ -102,9 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -25,7 +25,7 @@ updated: 2026-06-09
 
 # Mushrooms — cultivated
 
-> **HMTc Category 29 (Edible Fungi), Row 1 — Mushrooms (cultivated), clean side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Cultivated button, cremini, portobello, and oyster mushrooms grown on controlled substrate are the clean counterpart to wild mushrooms (Row 2), which accumulate Cd, Hg, Pb, and radiocesium. No candidate values are derived in this pass.
+> **HMTc Category 29 (Edible Fungi), Row 1 — Mushrooms (cultivated), clean side.** Re-homed from Cat 4 under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2]], 2026-06-09); fungi are a distinct kingdom, not produce. Cultivated button, cremini, portobello, and oyster mushrooms grown on controlled substrate are the lower-occurrence counterpart to wild mushrooms (Row 2), which accumulate Cd, Hg, Pb, and radiocesium. No candidate values are derived in this pass.
 
 ## Literature scope
 
@@ -49,9 +49,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

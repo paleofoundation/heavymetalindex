@@ -1,7 +1,7 @@
 # Journal of Food Metallomics (JFM) — Launch Plan That Passes Audits
 
 **Status: DRAFT v1 for Karen (2026-05-31). Executable.**
-Companion to `docs/hmtc-brand-intelligence-spec.md` (round-4 NN-1 established that JFM must be a *real, independent* venue before HMI can cite it). JFM is hosted in the `vsubia79912/paleo-foundation` repo at heavymetaltested.com; this is the canonical plan, implementation lands there. JFM has no ISSN yet; this plan gets it real structure, Google Scholar discoverability, and a defensible publishing process.
+Companion to `docs/hmtc-brand-intelligence-spec.md` (round-4 NN-1 established that JFM must be a *real, independent* venue before HMI can cite it). JFM is hosted in the `vsubia79912/paleo-foundation` repo at heavymetalcertified.com; this is the canonical plan, implementation lands there. JFM has no ISSN yet; this plan gets it real structure, Google Scholar discoverability, and a defensible publishing process.
 
 ---
 
@@ -109,7 +109,7 @@ Each JFM article is a permanent, DOI'd, Google-Scholar-indexed, CC BY asset that
 **Principles.** JFM most directly serves **P4** (an independent, citable evidence venue strengthens defensibility) and **P5** (scholarly authority makes the mark the de facto standard); it supports **P1/P2** by disseminating contamination findings, and respects the firewall (§3) so it never becomes HMTc marketing.
 
 **Small decisions for Karen:**
-1. **Domain** — JFM under `heavymetaltested.com/journal-of-food-metallomics` (current, per CLAUDE.md) vs a distinct subdomain/own domain (e.g., `journaloffoodmetallomics.org`). Recommendation: a **distinct domain or subdomain** improves the independence optics for Audit B (a journal that lives inside the certifier's marketing site reads as a house organ). Worth the small cost.
+1. **Domain** — JFM under `heavymetalcertified.com/journal-of-food-metallomics` (current, per CLAUDE.md) vs a distinct subdomain/own domain (e.g., `journaloffoodmetallomics.org`). Recommendation: a **distinct domain or subdomain** improves the independence optics for Audit B (a journal that lives inside the certifier's marketing site reads as a house organ). Worth the small cost.
 2. **Business model** — recommend **diamond open access (no author fees)**: cheapest credibility, removes the pay-to-publish attack.
 3. **EIC** — recommend recruiting an **external** Editor-in-Chief before the first issue; if an interim internal EIC is used, disclose openly.
 

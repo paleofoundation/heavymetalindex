@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-sound-producing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d88dbcaf25eaf70831b289939790c61e2201b8a368a74fdf2a884d5ec800322d
+source_page_sha256: 034c87345d1b9c4adec6a469a3c1a0199f727f50ad24407d07f6abe27ebfdcce
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

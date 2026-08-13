@@ -1,5 +1,7 @@
 # Codex / GPT-5.5 prompt — ingest "June 8 Inorganic Arsenic Seaweed" folder
 
+> **Superseded task objective (2026-08-12).** The source-ingest and routing work remains valid; the P97/literature-baseline standards objective below is retired. External occurrence evidence is descriptive context only.
+
 **Purpose:** drive a full Codex (GPT-5.5) ingest of the 68 raw PDFs in
 `raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/` into committed wiki
 source pages, so the routing layer fans them onto Category 6 Row 5

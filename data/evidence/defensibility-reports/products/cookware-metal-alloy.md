@@ -2,7 +2,7 @@
 source_page: wiki/products/cookware-metal-alloy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 847802602e9d92a2bdca18e0fda02cbeee8fe6dde3d7fd930f8cf88e6ebacb04
+source_page_sha256: 0c612f9a8cdd3b9c5aa0b6a5230cc4613daf2f7fa276023ca9f031312dc433c7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

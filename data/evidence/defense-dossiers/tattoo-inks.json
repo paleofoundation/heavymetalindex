@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tattoo-inks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "edf25b276ce9ea949e1865f7798095d1e32825aee0f7268826cef432c2e8ea81",
-      "content_bytes": 11127,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "046b84929eaf4d65b7454554c9e8a609daa68af7eac8347580f14f96ff57274e",
+      "content_bytes": 11288,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {

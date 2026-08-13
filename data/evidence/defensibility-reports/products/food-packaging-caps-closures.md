@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-caps-closures.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 406a4adc4160296dccb86c6f6de9cbd6e36aae2fc13a272131e70875c3bdca4d
+source_page_sha256: a100bc09d764511206e2443b7a72eec61b18e13666a0ed5e79235f6f92391d93
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -106,7 +106,7 @@ Per the source's discussion: "ten products have rates outside the acceptance lim
 
 ## Implications
 
-**Certification (HMTc).** The paper contributes occurrence data for two HMTc-relevant adult personal-care product rows: rinse-off / direct / semi-permanent hair dyes and permanent oxidative hair dyes (the source's "direct dyes" classification suggests the bulk of samples fall in the rinse-off / semi-permanent category, but the brand-and-shade descriptors are consistent with the kinds of products that other surveys classify as permanent oxidative dyes, so allocation between rows may need to be revisited at the per-product level once the Cat 2 / cosmetic taxonomy lock distinguishes by dye chemistry rather than by source-provided label). With n=1 per product (16 products, not 16 replicates), the standalone weight of any single Pb or Cd value is limited; the paper is best treated as one regional contributor (Morocco market, 2021) that pools with other hair-dye occurrence studies for per-row marginal distributions. The natural henna-based dyes from UAE origin (products 4a-4c) carry the panel-maximum Pb and Cd, consistent with the source's text observation that the highest values were in a natural henna-based dye; per the source's discussion this echoes prior findings by Ozbek et al. (2016) and Jallad et al. (2008) of higher Pb in natural-henna versus synthetic hair dyes.
+**Certification context (HMTc).** The paper contributes occurrence data for rinse-off/direct/semi-permanent and permanent oxidative hair-dye rows. With n=1 per product (16 products, not 16 replicates), it is best treated as one Morocco-market contributor to descriptive category distributions and surveillance. It does not select an initial HMTc limit. The natural henna-based dyes from UAE origin carry the panel-maximum Pb and Cd, consistent with the source's observation and prior reports of higher Pb in natural henna than synthetic hair dyes.
 
 **Courses.** Useful as a worked example of differential-pulse-polarography validation under ICH guidelines on a personal-care matrix, and as a teachable case study of regulatory benchmark heterogeneity (Health Canada 10 / 3 ppm vs Germany 20 / 5 ppm vs UK 1% Pb vs FDA "no acceptable level set for hair dyes") for regulatory-affairs courses. The negative price-versus-contamination correlation (r ≈ −0.40 for Pb, −0.35 for Cd) is a useful but underpowered observation at n=16 to discuss in supply-chain or QA courses; the authors offer two non-mutually-exclusive hypotheses (higher-priced producers invest more in QC; production technology differs between price tiers).
 
@@ -149,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

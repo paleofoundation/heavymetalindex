@@ -23,7 +23,7 @@ created_by: cat2_step0_alignment_2026_05_16
 
 ## Overview
 
-This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and higher-contamination row, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
+This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form. Four descriptive comparator pairs share exposure pathways but differ in base material or pigment choice; those occurrence comparisons do not assign a certification role. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
 
 ## Who this page is for
 
@@ -31,38 +31,38 @@ Brand legal teams evaluating HMT&C certification for children's personal-care li
 
 ## Methodology
 
-Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicological interpretation**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those per-row exposure factors; they do not select initial HMTc limits.
 
-HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
+Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## The 16-row Cat 2 inventory
 
 Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used across the certification program and the source-routing layer.
 
-| Row | Slug | Variant type | Primary metals | Pair | Notes |
+| Row | Slug | Descriptive occurrence relation | Primary metals | Comparator | Notes |
 |----:|---|---|---|---:|---|
 | 1 | [[products/baby-lotion-cream]] | — | Pb, Ni | — | Daily emollient, full-body application |
 | 2 | [[products/baby-oil]] | — | Pb, Ni | — | Mineral or plant oil base, large per-application volume |
-| 3 | [[products/baby-powder-cornstarch]] | clean benchmark | Pb (low) | 4 | Cornstarch base; the clean alternative to row 4 |
-| 4 | [[products/baby-talcum-powder]] | higher-contamination row | Pb, Cd, Ni, Cr | 3 | Talc base; mine-source variability + asbestiform risk |
+| 3 | [[products/baby-powder-cornstarch]] | lower-occurrence comparator | Pb (lower reported occurrence) | 4 | Cornstarch base; descriptive comparator to row 4 |
+| 4 | [[products/baby-talcum-powder]] | mineral-input watch | Pb, Cd, Ni, Cr | 3 | Talc base; mine-source variability + asbestiform risk |
 | 5 | [[products/baby-shampoo-body-wash]] | — | Pb, Ni | — | Rinse-off but daily, eye-area exposure |
 | 6 | [[products/baby-wipes]] | — | Sb, Pb | — | Sb panel-scope note: PET-derived antimony in wet matrix |
-| 7 | [[products/diaper-cream-non-zno]] | clean benchmark | Pb (low) | 8 | Non-ZnO occlusive; the clean alternative to row 8 |
-| 8 | [[products/diaper-cream-zno]] | higher-contamination row | Pb, Cd | 7 | ZnO base; Pb/Cd track ZnO mineral feedstock purity |
-| 9 | [[products/baby-sunscreen-chemical]] | clean benchmark | Pb (low) | 10 | Chemical UV filters; the clean alternative to row 10 |
-| 10 | [[products/baby-sunscreen-mineral]] | higher-contamination row | Pb, iAs, Cd, Ti-bound | 9 | Mineral UV filters (ZnO + TiO2); platform shared with row 8 (ZnO) and row 16 (TiO2) |
-| 11 | [[products/toothpaste]] | whole-row contamination | Pb, iAs, F-co-contaminants | — | Daily ingestion via swallowing reflex in <6yr; Washington TFCA Pb cap |
-| 12 | [[products/face-paint]] | whole-row contamination | Pb, Ni, Cr, Cd | — | Pigment platform; intermittent but heavy-load application |
-| 13 | [[products/childrens-makeup]] | whole-row contamination | Pb, Ni, Cr, Sb | — | Pigment platform shared with rows 12, 14, 16 |
-| 14 | [[products/childrens-nail-polish]] | whole-row contamination | Pb, Sb, Ti-bound | — | Pigment platform; lower dermal but high pigment fraction |
-| 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
-| 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
+| 7 | [[products/diaper-cream-non-zno]] | lower-occurrence comparator | Pb (lower reported occurrence) | 8 | Non-ZnO occlusive; descriptive comparator to row 8 |
+| 8 | [[products/diaper-cream-zno]] | mineral-input watch | Pb, Cd | 7 | ZnO base; Pb/Cd track ZnO mineral feedstock purity |
+| 9 | [[products/baby-sunscreen-chemical]] | lower-occurrence comparator | Pb (lower reported occurrence) | 10 | Chemical UV filters; descriptive comparator to row 10 |
+| 10 | [[products/baby-sunscreen-mineral]] | mineral-input watch | Pb, iAs, Cd, Ti-bound | 9 | Mineral UV filters (ZnO + TiO2); platform shared with row 8 (ZnO) and row 16 (TiO2) |
+| 11 | [[products/toothpaste]] | row-wide ingredient watch | Pb, iAs, F-co-contaminants | — | Daily ingestion via swallowing reflex in <6yr; Washington TFCA Pb cap |
+| 12 | [[products/face-paint]] | row-wide pigment watch | Pb, Ni, Cr, Cd | — | Pigment platform; intermittent but heavy-load application |
+| 13 | [[products/childrens-makeup]] | row-wide pigment watch | Pb, Ni, Cr, Sb | — | Pigment platform shared with rows 12, 14, 16 |
+| 14 | [[products/childrens-nail-polish]] | row-wide pigment watch | Pb, Sb, Ti-bound | — | Pigment platform; lower dermal but high pigment fraction |
+| 15 | [[products/childrens-lip-balm-plain]] | lower-occurrence comparator | Pb (lower reported occurrence) | 16 | Plain (no pigment); descriptive comparator to row 16 |
+| 16 | [[products/childrens-lip-balm-mineral-bearing]] | mineral-input watch | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure this category: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row and its higher-contamination counterpart are each certified against their own row-specific criteria. Rows 1, 2, 5, 6 are independent (no within-pair partner) and are treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the inventory. Certification thresholds for every row are set separately under the certification program at heavymetaltested.com, not on this page.
+Four descriptive comparator pairs help organize occurrence evidence: (3, 4), (7, 8), (9, 10), and (15, 16). The comparison isolates a material or pigment difference, but neither member is a certification benchmark and no row is treated as clean or contaminated by default. Rows 1, 2, 5, and 6 are independent. Rows 11–14 carry row-wide ingredient or pigment watches. Initial limits for every row are compiled separately from sovereign-government maxima; the comparisons here cannot select a limit or status.
 
 ## Cross-row contamination platforms
 
-Four contamination platforms span multiple Cat 2 rows. Brand legal teams reading this page to understand certification-failure root causes need the platform view as much as the row-by-row view: a single raw-material specification problem (talc mine, ZnO feedstock, TiO2 supplier, mineral pigment lot) propagates simultaneously across every row that uses the platform. The certification response is the same across the affected rows; the testing strategy and supplier control plan unifies them.
+Four raw-material platforms span multiple Cat 2 rows. Brand legal teams assessing potential heavy-metal root causes need the platform view as much as the row-by-row view: a single raw-material specification problem (talc mine, ZnO feedstock, TiO2 supplier, mineral pigment lot) can propagate across every row that uses the platform. Testing strategy and supplier controls can therefore be coordinated, while certification limits remain row- and basis-specific government compilations.
 
 ### Talc platform (Row 4)
 
@@ -132,14 +132,14 @@ _Full crosswalk regenerated by `tools/apply-product-crosswalk-sections.mjs` once
 Cat 2 levers ranked by magnitude across the 16 rows. Per-row Levers sections drill in further; this is the cross-row view.
 
 1. **Raw-material sourcing (highest impact across nearly every row).** Cosmetic-grade ZnO, TiO2, talc, and mineral pigments at the strictest available pharmacopeial specification (USP <232>, EP, JP) typically run 5-10x lower in Pb/Cd/Ni/Cr than commodity-grade equivalents. Mine-source selection (talc, mineral pigments), refining depth (ZnO, TiO2), and audited-supplier specification programs are the primary brand-side controls.
-2. **Formulation substitution.** Replacing mineral UV filters with chemical UV filters (Row 10 → Row 9), replacing ZnO occlusives with non-ZnO occlusives (Row 8 → Row 7), replacing talc with cornstarch (Row 4 → Row 3), and replacing mineral-pigment lip balm with plain lip balm (Row 16 → Row 15) avoids the contamination platforms entirely. The four sibling pairs are the four substitution levers Cat 2 makes visible.
+2. **Formulation substitution.** Replacing mineral UV filters with chemical UV filters (Row 10 → Row 9), replacing ZnO occlusives with non-ZnO occlusives (Row 8 → Row 7), replacing talc with cornstarch (Row 4 → Row 3), and replacing mineral-pigment lip balm with plain lip balm (Row 16 → Row 15) can avoid the raw-material platforms identified in the literature. These are descriptive mitigation comparisons, not certification roles.
 3. **Per-application dose reduction.** Cat 2 toxicology supplement quantifies per-row exposure as application volume × application frequency × dermal/oral/pulmonary absorption fraction × body-surface-fraction. Reformulating to lower per-application volume (concentrated lotions, lower-pigment-load face paints) reduces exposure even at constant raw-material quality.
 4. **Lot-level finished-product testing.** ICP-MS at the µg/kg level on raw materials and finished product. Cosmetic supply chains routinely COA at this resolution when specified; the lever is procurement specification, not analytical capability.
 5. **Regulatory engagement.** Supporting California Prop 65 NSRLs, New York TCCP chemical-list expansions, Washington TFCA-style state laws, and EU Cosmetic Regulation 1223/2009 Annex II enforcement drives industry-wide tightening regardless of HMT&C participation.
 
-## How standards math uses this page
+## Certification boundary
 
-HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for each Cat 2 row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. Where a row has a clean/contaminated sibling pair, the row-standards are calibrated on a like-for-like basis across the pair. This public page reports literature evidence only.
+HMTc certification limits for Cat 2 children's personal-care products are published separately at heavymetalcertified.com. Initial values come from the strictest applicable credible sovereign-government maximum in the correct product basis, with disclosed sovereign read-across or an n/m control for unregulated exact cells. Later tightening uses eligible HMTc certified-lot data under the Standards Ratchet. The occurrence comparisons on this page are descriptive only and do not select a limit or certification status.
 
 ## Historical recalls and enforcement
 
@@ -165,9 +165,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | major | 1 section added and 1 removed; narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

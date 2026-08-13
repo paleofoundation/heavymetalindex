@@ -2,7 +2,7 @@
 source_page: wiki/products/tea-infusions.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7bc1534a7c5a6d613875e5f631e69f5972fc6554d8e97fdf0ac7c88d25cce5e2
+source_page_sha256: f2752bf5b04e38cab9d1fff11364a8e958b482a0f7bbd7b1f145342f069773fd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

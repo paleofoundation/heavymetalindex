@@ -2,7 +2,7 @@
 source_page: wiki/products/mineral-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 714af0a2c4f24a571071ee83e44a9f2fdb5ce2cba95d6e7d58c585ca58ebf097
+source_page_sha256: 939f00c294b812ddb79ed7aaac2765f49e6d36681c2c43d28520f37131a2ae5c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

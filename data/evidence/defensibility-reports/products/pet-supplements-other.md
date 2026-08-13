@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c10bac657f3100b79a4b9158672544fa45c98c06753277d023a81c5d6d82560a
+source_page_sha256: 5e50ff9206b6b3972ab5b0d98ea34102bc1d99a936f70aca77a8c5e1fec28096
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

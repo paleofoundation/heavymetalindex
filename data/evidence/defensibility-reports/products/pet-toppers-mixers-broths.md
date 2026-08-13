@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-toppers-mixers-broths.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 23ca01bc22f3905ea552565af0000634b740f7b8156ee978cd8f14688184cc64
+source_page_sha256: dc9b32f955242569012ce39c81652ddd393c473c6fcfd048fe3b642439d42500
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

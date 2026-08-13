@@ -120,7 +120,7 @@ For HMI-relevant analytes, the document's stance on speciation is explicit: arse
 
 ## Implications
 
-Certification: This is the parent reference for drinking-water guideline values across the HMI panel. HMTc product categories that touch reconstituted drinking-water — most directly bottled drinking-water and powdered infant formulas reconstituted with tap water — should anchor literature-baseline rows to these values where the matrix is drinking-water itself, then apply the row's native-basis conversion for products evaluated as-consumed. The provisional designations on Pb, As and U are load-bearing: WHO explicitly maintains these values at treatment-and-analytics achievability, not health-based bottoms, so any HMTc threshold tighter than the WHO GV moves with the literature, not against it. The Al non-GV is also load-bearing because it shows the WHO framework is willing to depart from the JECFA-derived HBV when treatment performance binds — a precedent HMTc may invoke when feasibility binds in product matrices.
+Certification context: This is the parent reference for drinking-water guideline values across the HMI panel. These WHO guidelines are international public-health guidance, not automatically product-specific sovereign maximums. They may enter a disclosed government-value read-across only when matrix, route, and basis are genuinely applicable. They do not authorize occurrence-selected initial limits. The provisional designations on Pb, As, and U and the non-guideline treatment value for Al remain important regulatory context; later HMTc tightening is governed separately by eligible certified-lot findings under the Standards Ratchet.
 
 Courses: Useful for brand QA, regulatory affairs, and supply-chain courses. The fact-sheet structure (occurrence, basis of derivation, LOD, treatment performance, allocation) is the canonical template for teaching how guideline values are constructed and how health-based versus achievability-based designations differ.
 
@@ -158,9 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

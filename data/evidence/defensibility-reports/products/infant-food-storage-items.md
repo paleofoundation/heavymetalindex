@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-food-storage-items.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0cbc42c08546dc9c2e924284aca9c4a49d348e65469dab8c37c3976cb8c016df
+source_page_sha256: 79928408236bc9bd4e2df4dc3999d57b77bacc9a1f887c12c8cdfc01577ae5f4
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

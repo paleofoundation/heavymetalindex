@@ -8,7 +8,7 @@ This document covers operational conventions: units, naming, links, cite-keys, e
 
 **Metal names:** Use Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U. Spell out on first use per page. The iAs vs tAs distinction is non-negotiable; never conflate them. The tHg vs MeHg distinction is also non-negotiable. Total Cr must never be treated as Cr-VI unless the source speciates hexavalent chromium.
 
-**HMT&C analyte vocabulary:** The current certification testing program tracks ten analytes: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this official analyte list distinct from broader literature metals. See [[docs/schema-history]] for the 8-vs-10 reconciliation.
+**HMT&C analyte vocabulary:** The current certification testing contract has eight mandatory total-element results: Pb, Cd, tAs, tHg, Ni, Sn, Al, and total Cr. The core species cells are iAs and Cr-VI. MeHg is additionally required for fish, seafood, and any other credible methylation pathway; other rows record an explicit MeHg applicability determination. Species never replace their parent totals. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this certification contract distinct from the broader literature vocabulary. See [[docs/schema-history]].
 
 **Dates:** ISO-8601 (YYYY-MM-DD) everywhere.
 

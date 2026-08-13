@@ -2,7 +2,7 @@
 source_page: wiki/products/cleaning-wipes-household.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f3988a239d8341960840bee9a517d7a09e5b630404c9900e3c1ff60d80a14ba6
+source_page_sha256: 94f18d7eb1ba8ec7dc200a75c5cff2ef67f5d08c30271ccf2a72d0f08c26a6a9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

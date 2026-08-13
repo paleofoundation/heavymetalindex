@@ -2,7 +2,7 @@
 source_page: wiki/products/shellfish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25504e5c83cf0ab983745fffc10d2104cf540187d3826676a3e75d2e59f1b6de
+source_page_sha256: 211e6dc49d4c0b31effba0339708b527b6710bb59f854dde8176de0cce69a520
 total_claims: 6
 cited_claims: 4
 uncited_claims: 2

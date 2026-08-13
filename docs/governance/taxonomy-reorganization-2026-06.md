@@ -1,5 +1,7 @@
 # HMTc Taxonomy v2.1 — Reorganization and Expansion
 
+> **Methodology note (2026-08-12):** This remains a taxonomy history record. Any P45/P97 or occurrence-selected limit-setting language is superseded; current initial limits are government-limit-only and the ratchet uses eligible HMTc certified-lot data.
+
 **Status:** Active. Approved by Karen 2026-06-08 (relayed v2.1 brief from a Claude.ai session,
 reconciled against the local repo). **Authority order:** CLAUDE.md Part 9, the Step Zero Protocol
 lock records, and `hmtc-governing-principles.md` remain the desktop source of truth. Nothing in this

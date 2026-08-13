@@ -2,7 +2,7 @@
 source_page: wiki/products/dried-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 822421b70e8f0737485cf2ad97781ee48619e40587f0688ea46d3b0b284d1fb2
+source_page_sha256: 5b8ce60aa98dd387e5f7f5340ef8da9dfd674b2f168bc03c468c6dfda982ddf2
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

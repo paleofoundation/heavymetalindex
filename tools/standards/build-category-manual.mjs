@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: this assembler consumes superseded Index-side occurrence briefings.
+console.error("RETIRED: build current Program Manuals from frozen government-limit records in the certification repository.")
+process.exit(2)
 // build-category-manual.mjs --category=6
 //
 // Parameterized Program Manual assembler. The shared Parts (Front Matter, Part 1

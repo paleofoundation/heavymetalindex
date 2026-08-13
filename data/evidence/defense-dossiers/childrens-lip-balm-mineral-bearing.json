@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-lip-balm-mineral-bearing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "02f96a7770b55833dbd7472c60c029ade62754b2a978a110ac1723fbf055a6f9",
-      "content_bytes": 14474,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "f59a06e5894f31f684b0a252009b289b4b4c90ce8397e679e46beafc76e5f9bc",
+      "content_bytes": 14810,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -131,12 +131,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics",
         "content_pin": {
-          "content_sha256": "f0bd30705db5979084f911450a305fdd21c7c58c10cd9ab3f7f9f22e1912dc59",
-          "content_bytes": 31674,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c4008676279a195e673d8203638846c7959ca53f29d8d713a4480a5512306da6",
+          "content_bytes": 31338,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
         }
       },
       {

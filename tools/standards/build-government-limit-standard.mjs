@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: despite its filename, this early prototype still mixed
+// occurrence percentiles into limit selection and used a noncanonical basis
+// conversion. Use compile-cat1.mjs with the applicable category config.
+console.error("RETIRED: build-government-limit-standard.mjs is an obsolete prototype. Use tools/standards/compile-cat1.mjs with the applicable category config.")
+process.exit(2)
 // Government-limit-default standard generator (HMTc Method v2.0, 2026-08-03).
 //
 // RULE (per CLAUDE.md Part 19, ratified 2026-08-03):

@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/face-paint",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e7cfa5d001f3b412a68b44c2be507f399b2a075c19d8c23ad14ea3c2c30df5f8",
-      "content_bytes": 12237,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "7185ae013569e57fe84c153662bdef544ac39dacaf626fb65cf780df5d05f42e",
+      "content_bytes": 12312,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/face-paint.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/face-paint.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -150,12 +150,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "e1928e42873500b2afe685d74e1f382f2f56aab781a2969f277225325add64a2",
-          "content_bytes": 29233,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f2ede7c87160220cb04643a76fe4ee5f09a018fbaf16601e6da0d7268544916a",
+          "content_bytes": 28640,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -277,12 +277,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics",
         "content_pin": {
-          "content_sha256": "f0bd30705db5979084f911450a305fdd21c7c58c10cd9ab3f7f9f22e1912dc59",
-          "content_bytes": 31674,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c4008676279a195e673d8203638846c7959ca53f29d8d713a4480a5512306da6",
+          "content_bytes": 31338,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
         }
       },
       {

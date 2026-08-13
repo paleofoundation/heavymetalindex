@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-tampons.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d2ee19c768f348f290d57123d2de46cba857049475d4b0eae02fe515778f7f9d
+source_page_sha256: db3eb4d46c6042554e5010784bd0c91d63eae77308d384f5a54aff32e63e5e64
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

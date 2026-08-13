@@ -2,7 +2,7 @@
 source_page: wiki/products/incense-sticks-cones.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9000a2f2527876207b0ee14a1044207aa9c2726dcd31238837be9890524211d7
+source_page_sha256: 4e8a90788f71348c6a0123e34c2119c02685ab0c8750ca79c4ba458536964582
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -82,7 +82,7 @@ All concentrations are in **µg/kg (= ppb) on a whole-oil basis** as reported in
 
 ## Implications
 
-**Certification.** This dataset is one of the cleanest by-cultivar olive-oil heavy-metal characterizations available for Sicilian virgin oils. For HMTc purposes: (a) Cd in Sicilian virgin olive oil from these three cultivars is consistently <0.5 µg/kg — useful as a literature-baseline P97 ceiling input where pooled with sibling olive-oil sources; (b) Pb means by cultivar/year span 26–50 µg/kg, with single-sample maxima up to 67.6 µg/kg, all under the EC 466/2001 100 µg/kg ceiling but materially above the 10 µg/kg IOC trade specification that some other olive-oil sources cite. The gap between 26–50 µg/kg observed and 10 µg/kg IOC-aspirational deserves explicit treatment in olive-oil threshold-setting; this paper supports a literature-baseline > 10 µg/kg for Pb in Sicilian virgin olive oil at the population level.
+**Certification context.** This dataset is one of the cleanest by-cultivar olive-oil heavy-metal characterizations available for Sicilian virgin oils. Cd is consistently below 0.5 µg/kg, while Pb means by cultivar/year span 26–50 µg/kg with maxima to 67.6 µg/kg. Those observations are below the EC 466/2001 100 µg/kg ceiling but above the 10 µg/kg IOC trade specification cited by some olive-oil sources. The dataset is useful for occurrence characterization, regulatory comparison, surveillance, and sourcing review; it does not select an initial HMTc limit or enter the certified-lot Standards Ratchet.
 
 **Courses.** Useful teaching case for (a) the difference between by-cultivar fingerprinting (the paper's primary purpose) and by-population contamination characterization (HMI's primary purpose) — the same dataset serves both, but only the second is contamination-relevant; and (b) the limits-of-detection problem: Cd at <0.5 µg/kg returns "negative" Cd information that is still useful as a ceiling, but cannot be averaged or P-percentiled meaningfully.
 
@@ -121,9 +121,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

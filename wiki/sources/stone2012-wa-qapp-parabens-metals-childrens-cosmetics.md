@@ -199,7 +199,7 @@ The QAPP does NOT support:
 
 ## Implications
 
-- **Certification.** This QAPP is the regulatory-design documentary anchor for the Washington 2012 children's cosmetic and personal care product testing programme; it establishes the State PQL action levels (0.5–1.0 ppm for the CHCC metals) and the federal benchmark comparison values used in the subsequent measurement reports. For any HMTc threshold-setting workflow concerning children's cosmetic / personal care product Pb / Cd / tAs / tHg / Sb / Co / Mo / Cu / Zn, the action levels documented here are CSPA practical-quantitation thresholds rather than health-based exposure limits and should be treated as regulatory-context data rather than as a literature-baseline percentile input. The eventual measurement data from this planning programme is reported at [[sources/stone2021-wa-metals-childrens-consumer-products]] and the Phase 1 / Phase 2 reports; those measurement reports are the appropriate sources for downstream pooling.
+- **Certification context.** This QAPP is the regulatory-design documentary anchor for Washington's 2012 children's cosmetic and personal-care testing programme. Its State PQL action levels (0.5–1.0 ppm for CHCC metals) are practical-quantitation thresholds, not health-based product maximums. They therefore remain regulatory and analytical context rather than HMTc initial-limit inputs. The eventual measurement data are reported at [[sources/stone2021-wa-metals-childrens-consumer-products]] and the Phase 1 / Phase 2 reports and are useful as contextual occurrence evidence and surveillance inputs.
 - **Courses.** A clear worked example of a US-state-agency QAPP linking a state statutory framework (CSPA Reporting Rule, Chapter 70.240 RCW) to a two-stage analytical workflow (XRF screening with documented LOQs, then ICP-MS / CVAA confirmation with documented MQOs) and to overlapping federal benchmarks (CPSC ASTM F963-11 toy-safety leachate criteria; CPSC 16 C.F.R. § 1303 surface-coating Pb). Useful for teaching how XRF total-metals screening criteria are reconciled (or noted not to be reconciled) with federal leachate-based regulatory criteria, and how an agency-approved QAPP shapes the eventual measurement programme.
 - **App.** Not directly relevant to a future cosmetics-app contamination-profile workflow; the QAPP contains no occurrence data. The downstream measurement reports (14-04-014; Phase 1; Phase 2) are the operative occurrence-data sources.
 
@@ -250,9 +250,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

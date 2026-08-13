@@ -230,7 +230,9 @@ for (const r of LOCK) {
   if (r.platform_metals.length) fm = setKey(fm, "platform_metals", `[${r.platform_metals.join(", ")}]`)
   fm = setKey(fm, "step0_lock_date", LOCK_DATE)
   fm = setKey(fm, "step0_lock_doc", LOCK_DOC)
-  fm = setKey(fm, "step0_basis", `"${r.basis}"`)
+  // Certification-basis metadata belongs in the private Standards Workbench,
+  // never in public Index frontmatter.
+  fm = removeKeys(fm, ["step0_basis"])
   fm = setKey(fm, "step0_confidence", r.confidence)
   fm = setKey(fm, "across_row_review_hook", `"${r.across_row_hook}"`)
   fm = setKey(fm, "updated", LOCK_DATE)

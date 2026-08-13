@@ -60,7 +60,7 @@ Mature *S. fusiforme* from Wenzhou (Zhejiang, China) were acclimatised and cultu
 
 ## Implications
 
-- Certification (HMTc): a peer-reviewed primary study, but a controlled-exposure mechanism/transcriptomics experiment rather than a food-occurrence survey — so it is NOT a pooling input for the Category 6 seaweed-kelp-foods P97 (its exposed-tissue concentrations are experimental dosing, not market/natural food levels; the occurrence-extraction pass should exclude it, consistent with excluding intentional-uptake experiments). Its food-relevant contributions are narrow but real: (1) a natural *S. fusiforme*/hijiki baseline composition (total As 77.4, Cd 1.84, Pb 0.16 mg/kg dw) for a single cultured Chinese batch, reinforcing hijiki as a high-total-As, moderate-Cd seaweed; and (2) mechanistic support that inorganic arsenic in hijiki tissue is present as As(V) (absorbed As(III) is oxidised), which is relevant to how the row treats inorganic-arsenic speciation. It also documents the high Pb/Cd bioaccumulation capacity of *S. fusiforme*, relevant to the Cd platform of the row.
+- Certification context (HMTc): this is a controlled-exposure mechanism/transcriptomics experiment rather than a market food-occurrence survey, so the exposed-tissue concentrations do not select an initial HMTc limit and do not enter the certified-lot Standards Ratchet. Its food-relevant contributions are narrow but real: (1) a natural *S. fusiforme*/hijiki composition (total As 77.4, Cd 1.84, Pb 0.16 mg/kg dw) for a single cultured Chinese batch; and (2) mechanistic support that inorganic arsenic in hijiki tissue is present as As(V). It also documents high Pb/Cd bioaccumulation capacity relevant to category characterization and surveillance.
 - Microbiome/mechanism and metal pages: contributes detoxification-mechanism content (Cd pectate/protein binding; Pb insoluble immobilisation; As(III)→As(V) oxidation; metal-specific transcriptomic pathways) to the seaweed ingredient and the As/Cd/Pb metal pages.
 
 ## Verification notes
@@ -84,9 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

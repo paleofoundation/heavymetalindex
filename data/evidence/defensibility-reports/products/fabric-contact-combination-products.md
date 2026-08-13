@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-contact-combination-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3b4395ac6ebb495615cccee2245e843a1d77c31cdafdf83321cbd45dc04fb3da
+source_page_sha256: b73ac32b4c368d24884f4f2510a8a59bc0bbb2af5af7d196079f4707f82fd835
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

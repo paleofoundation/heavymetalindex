@@ -1,3 +1,7 @@
+// RETIRED 2026-08-12: this action queue depended on occurrence-selected standards gaps.
+console.error("RETIRED: run npm run evidence:ai-adjudication for occurrence/routing gaps.")
+process.exit(2)
+
 import fs from "node:fs"
 import path from "node:path"
 import { writeStableJsonSummary } from "./stable-json-summary.mjs"

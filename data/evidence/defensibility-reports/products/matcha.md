@@ -2,7 +2,7 @@
 source_page: wiki/products/matcha.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba0a23123605013694272cfd79564f28574a4b54ba7ae9af24b7533ee50c9a84
+source_page_sha256: 14f87517247555c40f2c77c5850959ab04a7f8c924043e9a443e2c5ffd8b4df6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

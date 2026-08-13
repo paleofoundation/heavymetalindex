@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-protectants.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c93a33344c1ee182d80c3385d09333e957afedd28976900e0db19e891733270c
+source_page_sha256: 73661ce2a86b803d67f66907c3e3c14f9400129c80a555d8199287060a8096f5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

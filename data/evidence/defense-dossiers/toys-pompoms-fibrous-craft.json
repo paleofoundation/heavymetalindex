@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-pompoms-fibrous-craft",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "236ad9d825ca6e6dad964b3488e76e5bda71cbaaaa0cd57a943992f1ef218779",
-      "content_bytes": 7674,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "263545413c5a2dcb777fe9fc271d88249e135345266ed96c2160679f73e661e1",
+      "content_bytes": 7835,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/toys-pompoms-fibrous-craft.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/toys-pompoms-fibrous-craft.md | sha256sum"
     }
   },
   "evidence_base": {

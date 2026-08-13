@@ -515,6 +515,6 @@ the two dead hero pills to the Pro apex → firewall remediation → published p
 
 Settled identity: **Institute of Contaminant Standards** ("of", never "for"), apex
 **contaminantstandards.com**, Pro at **pro.contaminantstandards.com**, certification plane
-**heavymetalcertified.com**. **heavymetaltested.com is legacy** — dissolved, not redirected.
+**heavymetalcertified.com**. **heavymetalcertified.com is legacy** — dissolved, not redirected.
 Correspondence becomes **karen@contaminantstandards.com**, with `karen@paleofoundation.com` kept live
 as a permanent alias.

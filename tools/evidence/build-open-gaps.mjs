@@ -5,7 +5,7 @@
  * Each line is a stable gap record keyed by gap_id = sha256(page+metal+matrix+population).
  *
  * Gap sources:
- *  1. hmtc_standards_gap_report.csv  → why: no_cited_evidence
+ *  1. hmtc_aggregate_distributions.csv → why: no_cited_occurrence_evidence
  *  2. contamination_profile pending cells in wiki frontmatter → why: pending_contamination_profile
  *  3. routing_unresolved.csv entries mapping to ingredient/product pages → why: routing_unresolved
  *  4. TBD sections in wiki body text → why: tbd_section
@@ -94,11 +94,10 @@ function merge(existing, detected) {
   }
 }
 
-// ── source 1: hmtc_standards_gap_report.csv ──────────────────────────────────
+// ── source 1: descriptive occurrence-distribution coverage ──────────────────
 
-// The gap-report CSV carries no hmtc_category column; the authoritative source
-// is each product page's own frontmatter. Build slug -> hmtc_category once.
-function buildProductCategoryIndex() {
+// Product frontmatter is authoritative for category and row metadata.
+function buildProductIndex() {
   const dir = path.join(repoRoot, "wiki/products")
   const idx = new Map()
   if (!fs.existsSync(dir)) return idx
@@ -106,30 +105,34 @@ function buildProductCategoryIndex() {
     if (!file.endsWith(".md") || file === "index.md") continue
     try {
       const fm = matter(fs.readFileSync(path.join(dir, file), "utf8")).data || {}
-      const cat = (fm.hmtc_category ?? "").toString().trim()
-      if (cat) idx.set(file.replace(/\.md$/, ""), cat)
+      const slug = file.replace(/\.md$/, "")
+      idx.set(slug, {
+        hmtc_category: (fm.hmtc_category ?? "").toString().trim(),
+        matrix: (fm.hmtc_subcategory_name ?? fm.title ?? slug).toString().trim(),
+      })
     } catch {}
   }
   return idx
 }
 
-function gapsFromStandardsReport() {
-  const csvPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
+function gapsFromOccurrenceDistributions() {
+  const csvPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
   if (!fs.existsSync(csvPath)) return []
   const rows = parseCsv(fs.readFileSync(csvPath, "utf8"), { columns: true, skip_empty_lines: true })
-  const productCategory = buildProductCategoryIndex()
+  const productIndex = buildProductIndex()
   const gaps = []
   const now = nowIso()
 
   for (const row of rows) {
-    const status = (row.aggregate_hmtc_percentile_status ?? "").trim()
-    // Only rows with no structured evidence loaded count as no_cited_evidence
-    if (!status.startsWith("BLOCKED")) continue
+    const sourcesContributing = Number(row.sources_contributing || 0)
+    const pooledN = Number(row.pooled_n || 0)
+    if (sourcesContributing > 0 || pooledN > 0) continue
 
     const page = `wiki/products/${row.product_slug}.md`
     const metal = (row.metal_species ?? "").trim()
-    const matrix = (row.product_standard_scope ?? "").trim()
-    const hmtcCategory = (row.hmtc_category ?? productCategory.get(row.product_slug) ?? "").toString().trim()
+    const product = productIndex.get(row.product_slug) ?? {}
+    const matrix = (product.matrix ?? row.product_label ?? row.product_slug ?? "").toString().trim()
+    const hmtcCategory = (product.hmtc_category ?? "").toString().trim()
     const population = (hmtcCategory ? `category${hmtcCategory}` : "")
 
     if (!metal) continue
@@ -141,7 +144,7 @@ function gapsFromStandardsReport() {
       matrix,
       population,
       hmtc_category: hmtcCategory,
-      why: "no_cited_evidence",
+      why: "no_cited_occurrence_evidence",
       opened_at: now,
       last_attempted_at: null,
       last_attempt_outcome: null,
@@ -281,7 +284,7 @@ function main() {
   const existing = loadExisting()
 
   const detected = [
-    ...gapsFromStandardsReport(),
+    ...gapsFromOccurrenceDistributions(),
     ...gapsFromContaminationProfiles(),
     ...gapsFromRoutingUnresolved(),
     ...gapsFromTbdSections(),

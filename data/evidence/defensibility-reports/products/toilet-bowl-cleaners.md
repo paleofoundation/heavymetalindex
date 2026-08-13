@@ -2,7 +2,7 @@
 source_page: wiki/products/toilet-bowl-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 143c96340fcd1f93e17b0c6f35814936fe1ea0ef41e9750c789bb3209dbda5c0
+source_page_sha256: 406e813c246b02d10ec1576fa93a44c6dd11d01ec0a8a39d9340ea301cf6680c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

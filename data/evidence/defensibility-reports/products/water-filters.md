@@ -2,7 +2,7 @@
 source_page: wiki/products/water-filters.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f664727e4d50ae07e2bd3e16b2c73bada7f7ad97ec55166ce6166dffd4b1ce67
+source_page_sha256: 6372896660d6bd7f958f3a5ad7aff45ef81e9499998b003fe6c8e1809a534951
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

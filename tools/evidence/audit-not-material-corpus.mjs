@@ -7,10 +7,10 @@
 // claim can be ASSERTED in six different places, and only one of them is gated:
 //   - data/evidence/standards-not-material.csv        (the GATED registry, basis_class + rationale)
 //   - tools/standards/cat1-config.json                (read_across.<metal>.not_material: true)
-//   - tools/standards/cat9-config.json                (cells.<metal>.not_material {...})
+//   - tools/standards/cat3/cat7/cat9/cat24/cat25 configs and defaults
 //   - tools/standards/seafood-config.json             (read_across.<metal>.not_material: true)
 //   - data/workbench/standards/cat1-compiled/*.json   (compiled -> rendered on cert)
-//   - data/workbench/standards/cat9-compiled/*.json    (compiled -> rendered on cert)
+//   - data/workbench/standards/cat3/cat7/cat9/cat24/cat25 compiled records
 //
 // Three independent sessions (oils/Al, Cat-9 diapers, Cat-3 grains) each found "wrongly not-material"
 // cells by hand. That is a base-rate signal: the defect is manufactured, not incidental. This tool
@@ -30,7 +30,7 @@ const REPO = process.cwd()
 const ev = (f) => path.join(REPO, "data/evidence", f)
 const args = new Set(process.argv.slice(2))
 const WARN_ONLY = args.has("--warn-only")
-const PANEL = new Set(["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"])
+const PANEL = new Set(["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"])
 
 function parseCsv(text) {
   const lines = text.split(/\r?\n/).filter((l) => l.length); if (!lines.length) return []
@@ -53,17 +53,17 @@ const auditVerdict = new Map(
     .map((r) => [`${r.row_slug}|${r.metal_species}`, r.verdict]))
 
 // --- enumerate not_material assertions from the config layer (the un-gated source) ---
-// Structure differs: cat1/seafood use read_across.<metal>.not_material; cat9 uses cells.<metal>.not_material.
+// Structure differs: food configs use defaults/read_across.<metal>.not_material;
+// Cat 9 uses cells.<metal>.not_material.
 function configAssertions(file, kind) {
   const j = readJson(path.join(REPO, file)); if (!j) return []
   const subs = j.subcategories || j.cells ? (j.subcategories || { _: { cells: j.cells } }) : j
   const out = []
   for (const [slug, sub] of Object.entries(subs)) {
     if (!sub || typeof sub !== "object") continue
-    const cells = sub.cells || sub.read_across || sub
+    const cells = sub.cells || { ...(j.default_read_across || {}), ...(sub.read_across || {}) }
     for (const [rawMetal, cell] of Object.entries(cells)) {
-      // configs key hexavalent chromium as bare "Cr"; the panel analyte is Cr-VI.
-      const metal = rawMetal === "Cr" ? "Cr-VI" : rawMetal
+      const metal = rawMetal
       if (!PANEL.has(metal)) continue
       const isNm = cell && typeof cell === "object" && ("not_material" in cell)
         ? cell.not_material : false
@@ -74,8 +74,12 @@ function configAssertions(file, kind) {
 }
 const configNm = [
   ...configAssertions("tools/standards/cat1-config.json", "cat1"),
+  ...configAssertions("tools/standards/cat3-config.json", "cat3"),
   ...configAssertions("tools/standards/cat9-config.json", "cat9"),
   ...configAssertions("tools/standards/seafood-config.json", "seafood"),
+  ...configAssertions("tools/standards/cat7-config.json", "cat7"),
+  ...configAssertions("tools/standards/cat24-config.json", "cat24"),
+  ...configAssertions("tools/standards/cat25-config.json", "cat25"),
 ]
 
 // --- evidence streams (mirror of the substantiation audit) ---
@@ -95,7 +99,7 @@ function materialOccurrence(slug, metal) {
   const p50 = num(r.pooled_p50), n = num(r.pooled_n) ?? 0, d = num(r.distinct_sources) ?? 0
   const floor = PRESENT_FLOOR[metal] ?? 5
   if ((r.sens_band || "") !== "no_data" && d >= 2 && n >= 20 && (p50 ?? 0) > floor)
-    return { n, d, p50, p97: num(r.pooled_p97) }
+    return { n, d, p50, p95: num(r.pooled_p95) }
   return null
 }
 function speciesML(slug, metal) {

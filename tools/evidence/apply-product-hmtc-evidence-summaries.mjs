@@ -1,3 +1,7 @@
+// RETIRED 2026-08-12: this writer exposed occurrence-selected standards readiness in wiki pages.
+console.error("RETIRED: external occurrence may be published only as cited context, never certification-limit arithmetic.")
+process.exit(2)
+
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"

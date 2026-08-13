@@ -176,7 +176,7 @@ Mercury was measured as total Hg in fish muscle; the report does not separately 
 
 ## Implications
 
-- **Certification:** the HELCOM assessment is a regulator-grade occurrence source for fish-marine-non-predatory and shellfish categories in the European market. It establishes that mercury in Baltic-sourced fish muscle exceeded 20 µg/kg ww across every sub-basin assessed, with mean sub-basin values ranging from 27.5 to 227.8 µg/kg ww. For lead-in-fish-liver and cadmium-in-mussel, the EU regulatory threshold is exceeded in the southwestern Baltic but not the northern and central Baltic; sourcing geography is therefore a material determinant of category-level Pb and Cd occurrence for these matrices. The 95th-confidence-upper-bound representative concentration the report uses is the statistic suitable for the literature-baseline percentile selection in the Standards Workbench.
+- **Certification context:** the HELCOM assessment is a regulator-grade occurrence source for marine non-predatory fish and shellfish in the European market. It establishes that mercury in Baltic fish muscle exceeded 20 µg/kg ww across every assessed sub-basin, with mean sub-basin values from 27.5 to 227.8 µg/kg ww. For lead in fish liver and cadmium in mussel, the EU threshold is exceeded in the southwestern Baltic but not the northern and central Baltic, making sourcing geography material. The report's upper 95% confidence bound is useful descriptive upper-tail context for surveillance and sourcing review; it does not select an initial HMTc limit or enter the certified-lot Standards Ratchet.
 - **Courses:** illustrates how an intergovernmental commission constructs a defensible status assessment from heterogeneous national monitoring data — MIME R script, contamination ratio, confidence ratings, sub-basin spatial unit. Useful as a case study in how to read agency assessments without conflating mean and 95% upper bound, and in how the same biota matrix (mussel) can produce a wet-weight value of 163.2 µg/kg or a dry-weight value of 960 µg/kg depending on basis conversion.
 - **App:** contributes occurrence data for marine non-predatory fish (herring, cod, flounder, sole, eelpout, perch) and for blue and Baltic clam (Mytilus edulis, Macoma baltica) under European sourcing. Mercury values in Baltic fish muscle are roughly an order of magnitude above the EQS biota threshold in the worst sub-basins (Bay of Mecklenburg 227.8 µg/kg ww, ~11× the threshold).
 - **Microbiome:** not applicable (status assessment, no microbiome data).
@@ -208,9 +208,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

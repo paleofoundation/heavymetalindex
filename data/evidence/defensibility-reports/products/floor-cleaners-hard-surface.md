@@ -2,7 +2,7 @@
 source_page: wiki/products/floor-cleaners-hard-surface.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f0527bf7a003e056e94653f3887c99e34e2537f1b8c884f2210846d3571cb7bc
+source_page_sha256: 7943fdfc8850cc79793a7eeebf847a13adb98220596827abc3b5dc8d3eb970b9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

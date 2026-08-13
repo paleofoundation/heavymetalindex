@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-pads",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "99ac0b8d48cee343592d3743c8992c359d65366b7a897bfc750448cdb9854a98",
-      "content_bytes": 11982,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "208222b9f59935219d33d063ea1a10a3947b45b06090ffed9dcd7d62e0505255",
+      "content_bytes": 12143,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/menstrual-pads.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/menstrual-pads.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -2,7 +2,7 @@
 source_page: wiki/products/automatic-puff-releasers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 42ca0245cbadb01481d834ee7c289c0f7b2783c721e9dd89716304f2eb692dce
+source_page_sha256: 4c6ebbdb9385af666ff212634a56eae1f21e68cbcf1619ce53d1a8aa7f3b627a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

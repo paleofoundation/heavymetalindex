@@ -2,7 +2,7 @@
 source_page: wiki/products/rinse-aids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 589685f1008d6fdf6806c3700b5fe52f2c14ca9cf44204f02d8b96d8227435be
+source_page_sha256: af21382ed800b693560ba3ad13b8c6b9773988044e8405cbc2acfd8637445004
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

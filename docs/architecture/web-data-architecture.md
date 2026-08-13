@@ -1,5 +1,7 @@
 # Heavy Metals Ecosystem — Web & Data Architecture
 
+> **Methodology note (2026-08-12):** Any occurrence-selected standards arithmetic or standards-readiness flow in this architecture is superseded. Heavy Metal Index occurrence evidence is contextual only. Initial HMTc limits are government-limit-only, and post-publication tightening uses eligible HMTc certified-lot data.
+
 **Status:** Working architecture, agreed in principle 2026-06-16. Some naming decisions
 are OPEN (flagged ⬚). This document is binding once those resolve; until then it is the
 shared design of record.
@@ -73,7 +75,7 @@ entity — a legal decision, see §9). Three public tiers plus an authenticated 
 |---|---|---|
 | **Parent / authority** ⬚name TBD | (institutional umbrella) | Operator and source of truth. Master registry, certificate **verification**, governance, mark-use rules, public enforcement notices, the apply hub. The "who stands behind this." (NSF / UL / foundation analog.) |
 | **Certifier / standards** | `heavymetalcertified.com` | Where the **standards/derivation are published** — drawn via API from the staff workbench, one-way-citing the index. The certification program's authority surface. |
-| **Program / mark** | `heavymetaltested.com` | The existing **Heavy Metal Tested & Certified (HMT&C)** mark and marketing face — "what the mark means," requirements, apply landing, filtered directory. Keep the equity; "Tested" is the most defensible verb (a process, not an outcome). |
+| **Program / mark** | `heavymetalcertified.com` | The existing **Heavy Metal Tested & Certified (HMT&C)** mark and marketing face — "what the mark means," requirements, apply landing, filtered directory. Keep the equity; "Tested" is the most defensible verb (a process, not an outcome). |
 | **Index / evidence** | `heavymetalindex.com` | The **independent literature reference** (HMI). Occurrence data, regulations as reported, contaminant evidence. Literature-only, forever. The moat. |
 | **Portal** | `portal.{parent}` | The **authenticated application** + accounts, billing, renewals, asset/mark downloads. `noindex`, behind auth. This is the "application on the parent." |
 | **Education** (optional) | `heavymetalfacts.org` | Plain-language consumer education (.org credibility). No standards math, no safety verdicts; same consumer-language discipline (no undefined "safe"/"dangerous"). |
@@ -84,7 +86,7 @@ entity — a legal decision, see §9). Three public tiers plus an authenticated 
 |---|---|
 | `heavymetalindex.com` | **INDEX** (in use; independent literature). |
 | `heavymetalcertified.com` | **Certifier / standards** property (or the parent — see §9 open decision). |
-| `heavymetaltested.com` | **Program / mark** (keep; established HMT&C equity). |
+| `heavymetalcertified.com` | **Program / mark** (keep; established HMT&C equity). |
 | `heavymetalsafe.com` | **Park / 301 → certifier. NEVER a mark.** "Safe" is an absolute-outcome claim — a false-advertising/UDAP magnet that contradicts the program's own honest "tested-to-a-threshold, gap-stated" record (a damaging admission in discovery). Unanimous across all audit lenses. |
 | `heavymetaldataindex.com` | Defensive hold → 301 to HMI. Do **not** name the certifier "dataindex" — it blurs against the independent index and undermines the firewall's perceived separation. |
 | `heavymetalfacts.org` | Education front, or hold. |
@@ -108,7 +110,7 @@ entity — a legal decision, see §9). Three public tiers plus an authenticated 
         │ LITERATURE namespace            │ DERIVATION + REGISTRY namespace      │
         │ (from wiki/ + data/evidence/)   │ (from data/workbench/ + the DB)      │
         ▼                                 ▼                                      ▼
-  heavymetalindex.com              heavymetalcertified.com / heavymetaltested.com
+  heavymetalindex.com              heavymetalcertified.com / heavymetalcertified.com
   INDEX (literature only)          standards, registry, verification, mark, apply
                                                   │
                                                   ▼  portal.{parent} (auth, noindex)
@@ -158,7 +160,7 @@ are distinct objects.
   over-claim attack *and* a documented admission that the mark over-promises. Park it
   defensively only.
 - **"Certified" and "Tested" are both defensible** — bounded status / process verbs. Keep
-  `heavymetaltested.com` as the established mark; use `heavymetalcertified.com` as the
+  `heavymetalcertified.com` as the established mark; use `heavymetalcertified.com` as the
   standards/certifier authority. Do not run them as two competing marks (brand dilution +
   duplicate content); give each a distinct role under the parent.
 - **The index name stays clean and singular.** Do not create "dataindex"-style siblings as

@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fruit-purees",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "308cc16846e1f56085c949ee6a61d59723ac541cc88f688456fb61e25807c365",
-      "content_bytes": 49602,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "2be5b88f653ebb475f8f3007c47b0b02894be082d4175aaf8792f32b4e30d02e",
+      "content_bytes": 49734,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/fruit-purees.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/fruit-purees.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -807,11 +807,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/fruit-purees.md",
-    "total_claims": 122,
-    "cited_claims": 122,
+    "total_claims": 120,
+    "cited_claims": 120,
     "uncited_claims": 0,
     "distinct_cited_sources": 42,
-    "audit_rows_on_cited_targets": 50,
+    "audit_rows_on_cited_targets": 48,
     "provenance_complete": true
   }
 }

@@ -2,7 +2,7 @@
 source_page: wiki/products/gel-diffusers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 038647bd1e7d365dce81caa76899a937bb6161a2b75f9cdb7c268e774f513982
+source_page_sha256: 0cc8a11a392ed791a4aa9917ff9ddf06dc412f87120bdcece212ecb780768351
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

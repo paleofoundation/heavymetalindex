@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-decorative-decals-coatings.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4059e682c78767a6abe3bfcf7e8664cf883ce578a1e1afe6a703e0fd70db55f7
+source_page_sha256: 7e1ccefca8b25ad05fc29b71e519dadb17e9359263fdff8c327abb1301ee7032
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

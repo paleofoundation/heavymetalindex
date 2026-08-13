@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/facial-cleansers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "48060a876acbeaae2fd3ae39ef1cd4068af1b9c0ba05a1b554b505e47730e0af",
-      "content_bytes": 11277,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "e7bac9af9fe5fab1b782fb9d54caa8c59d19e3d2c4dc7d50ad198626d94b6741",
+      "content_bytes": 11438,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/facial-cleansers.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/facial-cleansers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "ac2c1f22883ef6e5a9bc4dd721c4a5a4ddb51d6d38342ba525e0ffc603cdc100",
-          "content_bytes": 35479,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "236cf44754277fda32b23e70be548c5287f5b9181a5c487dfc4f3385a5108b4d",
+          "content_bytes": 34889,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -118,12 +118,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {

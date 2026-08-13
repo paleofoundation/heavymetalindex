@@ -2,7 +2,7 @@
 source_page: wiki/products/sippy-cups-toddler-drinkware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: edac8cf502ec434159731608d6ae51531d2668aa82719ca518ecdb59213f6852
+source_page_sha256: 132fc6f0d18a8585fdc0c0beb56ba25ea8cfdeb6554d4693fa6b1fe6e8e04cf3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

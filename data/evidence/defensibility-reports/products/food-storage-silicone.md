@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-silicone.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bf2406adc4f1b262c0ebbd9131d11eb4ac49bc8fecb6209f3924f8ec7f62b439
+source_page_sha256: eea9ce61c87f36bb3199828360efc16b315fbe8d4a890920846d91a8cd5cf34e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -40,11 +40,11 @@ Product pages in **Cosmetics and Personal Care — Leave-on**, organized by subc
 
 ## [[products/traditional-eye-cosmetics|Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform]]
 
-## [[products/sun-suntan-mineral|Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)]]
+## [[products/sun-suntan-mineral|Sun/suntan products, mineral UV filters]]
 
-## [[products/dusting-powder-cornstarch-adult|Dusting powder, cornstarch base (clean sibling of r2 talc)]]
+## [[products/dusting-powder-cornstarch-adult|Dusting powder, cornstarch base]]
 
-## [[products/antiperspirant|Antiperspirant (Al-salt, dirty sibling of r9 deodorant)]]
+## [[products/antiperspirant|Antiperspirant (Al-salt)]]
 
 ## Other
 

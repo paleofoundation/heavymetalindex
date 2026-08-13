@@ -2,7 +2,7 @@
 source_page: wiki/products/sports-energy-drinks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bb4bfd2ed0e536b5c9b500c41b2663d84f78ae346f0b3307152289f80d0194fd
+source_page_sha256: ece262bd7bf1f3b09831e29d28ccc2785a41f6800c1f63258b92d776fd6f94cd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

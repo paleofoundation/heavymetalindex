@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-cereals-dry-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6ac66b4b88add8eeae041c1bde0850217057ee3d44d10506eda1fa805ae6aa66
+source_page_sha256: 1b31e1821661143b42f28df7601e727fa765652357914ffb579a03bfca10e943
 total_claims: 169
 cited_claims: 168
 uncited_claims: 1

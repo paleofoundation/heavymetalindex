@@ -124,7 +124,7 @@ This row carries the **tin flag** for Sn migration from the can, and inherits th
 
 ## Literature scope
 
-Routable destination for source pages declaring \`products: [${r.slug}]\` and the fan-out target for broad \`canned-fish\` declarations. HMTc thresholds for this row are developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com).
+Routable destination for source pages declaring \`products: [${r.slug}]\` and the fan-out target for broad \`canned-fish\` declarations. Initial HMTc limits for this row are compiled separately at [heavymetalcertified.com](https://heavymetalcertified.com) under the government-limit-only method; Index occurrence evidence does not select the value.
 
 ## Methodology
 
@@ -174,7 +174,6 @@ for (const r of ROWS) {
       `platform_metals: [${r.platform_metals.join(", ")}]`,
       `step0_lock_date: ${LOCK_DATE}`,
       `step0_lock_doc: ${LOCK_DOC}`,
-      `step0_basis: "${r.basis}"`,
       `step0_confidence: ${r.confidence}`,
       `across_row_review_hook: "${r.hook}"`,
       `literature_scope: thin`,
@@ -204,7 +203,9 @@ for (const r of ROWS) {
   fm = setKey(fm, "primary_metals_of_concern", `[${r.primary_metals.join(", ")}]`)
   fm = setKey(fm, "step0_lock_date", LOCK_DATE)
   fm = setKey(fm, "step0_lock_doc", LOCK_DOC)
-  fm = setKey(fm, "step0_basis", `"${r.basis}"`)
+  // Certification-basis metadata belongs in the private Standards Workbench,
+  // never in public Index frontmatter.
+  fm = removeKeys(fm, ["step0_basis"])
   fm = setKey(fm, "step0_confidence", r.confidence)
   fm = setKey(fm, "across_row_review_hook", `"${r.hook}"`)
   fm = setKey(fm, "updated", LOCK_DATE)

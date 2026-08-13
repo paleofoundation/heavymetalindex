@@ -2,7 +2,7 @@
 source_page: wiki/products/cookware-ceramic-coated.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 69a59bb18a60ed14a8335e414a7e467bbac4e9756a3dd6a999d386d6486e2cc9
+source_page_sha256: e0c4c6dbf38be77e86dc794254ae3952fa64cc88b2c2b0e5c9ada8a453e45f4e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

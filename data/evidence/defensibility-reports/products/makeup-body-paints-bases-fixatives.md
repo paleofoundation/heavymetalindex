@@ -2,7 +2,7 @@
 source_page: wiki/products/makeup-body-paints-bases-fixatives.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1ecc4598fd92b49c5efa4f11621beccd07c21097a36f0d9e8f37a9c6ef41fcad
+source_page_sha256: 0b3b6adfb771088636e8427c9b38f80c7d265f74ea4c37dd12219580b6053801
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

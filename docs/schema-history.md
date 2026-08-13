@@ -10,7 +10,7 @@ Current schema: ten metals — **Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U**.
 |------|----------------|-------|
 | Pre-2026-05 | Pb, Cd, iAs, tHg | Initial 4-metal subset. |
 | 2026-05-03 | + Ni, Al, Cr, Sn | Extended to an 8-metal set. |
-| 2026-05-08 | + tAs, U | Extended to current 10-metal set. tAs added as a separate sub-block from iAs because most occurrence surveys report total arsenic and the iAs/tAs split is non-negotiable. U added because the wiki's scope is "heavy metals in food" rather than "HMTc-certified analytes" and uranium is a recognized toxic heavy metal of rising public-health attention even though not in the HMTc-10 analyte vocabulary. |
+| 2026-05-08 | + tAs, U | Extended to current 10-metal ingredient-profile set. tAs added as a separate sub-block from iAs because most occurrence surveys report total arsenic and the iAs/tAs split is non-negotiable. U added because the wiki's scope is broader than the certification panel and uranium is a recognized toxic heavy metal of rising public-health attention. |
 | 2026-05-12 | + `geographic_breakdown`, `seasonal_variance` sub-fields per metal | Variance arrays for brand-legal defensibility against cherry-picked-maximum attacks. See OPERATING.md initiative 7. |
 
 The Cr sub-block carries total chromium; Cr-VI evidence lives on `[[metals/chromium-hexavalent]]` and is never substituted for total Cr in the ingredient profile. MeHg deliberately stays out of the ingredient profile because it is matrix-driven (fish/seafood-specific); MeHg evidence is captured in body prose on the small set of pages where it matters and at the product layer.
@@ -27,11 +27,11 @@ The ingredient page body-level "Heavy metal contamination profile" table was ori
 
 ## HMT&C analyte vocabulary
 
-The current certification testing program tracks ten analytes: **Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn**. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this official analyte list distinct from broader literature metals. If an older HMT&C protocol refers to an "8 metals grid," reconcile it to the current analyte list before hardening schemas or publishing standards values.
+As of 2026-08-12, the certification contract distinguishes the laboratory's **eight total-element results** from additional species controls. The totals are **Pb, Cd, tAs, tHg, Ni, Sn, Al, and total Cr**. The core species cells are **iAs and Cr-VI**; **MeHg** is additionally required where a credible methylation pathway exists and otherwise receives an explicit applicability determination. This supersedes the former "HMTc-10" list, which incorrectly included Cr-VI while omitting its mandatory parent total-Cr result. Species never substitute for totals.
 
-## Standards percentile framework
+## Retired standards percentile frameworks
 
-Earlier wiki conventions referred to "clean-platform" / "contaminated-platform" rows with default percentiles of P90 (clean) and P10 or P20 (contaminated). Those defaults are superseded by the **P97 / P45 framework** documented in CLAUDE.md Part 19. Any tooling or documentation still using the older percentiles is stale and should be updated.
+Earlier wiki conventions used occurrence-selected percentile pathways, first P90 with P10/P20 and later P97/P45. Both schemes were retired in August 2026. Current initial HMTc values are government-limit-only; public occurrence distributions are descriptive, and later tightening uses eligible HMTc certified-lot results under Governance Policy §12. Legacy fields may appear only in clearly marked historical records excluded from current generators.
 
 ## Bulk-ingest priority tier counts
 

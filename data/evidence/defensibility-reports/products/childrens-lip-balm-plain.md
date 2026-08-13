@@ -2,7 +2,7 @@
 source_page: wiki/products/childrens-lip-balm-plain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 58e4f6eabe667bed737fe598b9dda7113a36a76e535dea65136e5e54e9204a30
+source_page_sha256: c11eff012e95af6f20f1c959b0067a75bd13c9b9e78e6608f69e872a935634b7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

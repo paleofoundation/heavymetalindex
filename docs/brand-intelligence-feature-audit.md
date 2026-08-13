@@ -1,5 +1,7 @@
 # Brand Intelligence — Feature Audit: what only WE can give them
 
+> **Methodology note (2026-08-12):** References in this feature audit to occurrence-selected HMTc limits are historical and superseded. Brand Intelligence may use occurrence evidence for context and surveillance, but it cannot select the initial limit or enter the certified-lot ratchet.
+
 **Status: DRAFT v2 for Karen (2026-06-04).** v1 ran a "what only we can do" filter and concluded the corpus was the moat. An independent red-team **inverted that thesis** and it was right; v2 is the corrected version. Companion to `docs/hmtc-brand-intelligence-spec.md`.
 
 ---

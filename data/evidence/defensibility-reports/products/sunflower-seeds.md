@@ -2,7 +2,7 @@
 source_page: wiki/products/sunflower-seeds.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d561cb0cd6dac52d368e3c1965bb55f761cec506518a3d8eacf189457d552ced
+source_page_sha256: 565a2992f018c6b075b299d6c002e7d852313b321a6f2014589f5c58e4444091
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1

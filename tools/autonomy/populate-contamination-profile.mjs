@@ -7,17 +7,14 @@
  * source-page evidence into the typical/p95/n/confidence values on ingredient
  * pages. The pooling engine (tools/evidence/build-hmtc-aggregate-distributions.mjs)
  * already does the per-(product, metal) statistical work — moment-matching,
- * pseudo-sample reconstruction, sensitivity bands, verdict tagging — and writes
+ * pseudo-sample reconstruction and sensitivity bands — and writes
  * `data/evidence/hmtc_aggregate_distributions.csv`. This tool is the missing
  * step: copy the pooled literature percentiles into the ingredient page so
  * the public wiki shows what the evidence supports instead of `null`.
  *
  * Firewall (CLAUDE.md Part 2): the wiki publishes literature-native pooled
- * percentiles (p10/p50/p90/p95), not HMTc thresholds. The aggregate CSV's
- * `target_value`, `target_p`, `rationale_tag_auto`, and `candidate_value_ppb`
- * columns are HMTc staff artifacts and are deliberately NOT written to the
- * public ingredient page. Per CLAUDE.md Part 19, percentile-selection
- * arithmetic is staff-only.
+ * percentiles (p10/p50/p90/p95), never HMTc certification arithmetic. The
+ * aggregate is descriptive-only and contains no certification selector fields.
  *
  * What this tool writes per analyte (when verdict allows):
  *   typical_ppb:  [pooled_p10, pooled_p90]   (literature occurrence range)
@@ -27,11 +24,9 @@
  *   last_reviewed: today (only when values actually changed)
  *
  * Verdict policy:
- *   READY FOR REVIEW              → write at confidence=high/medium/low by n
- *   PROVISIONAL: review …         → write at confidence=low; downgrade tag
- *   BLOCKED: pool too thin        → skip; leave status=populated, n_studies=0
- *   BLOCKED: sensitivity unstable → skip; leave status=populated, n_studies=0
- *   BLOCKED: no usable evidence   → skip
+ *   DESCRIPTIVE OCCURRENCE AVAILABLE → write at confidence=high/medium/low by n
+ *   DESCRIPTIVE PROVISIONAL          → write at confidence=low
+ *   OCCURRENCE GAP                   → skip
  *   anything else                 → skip
  *
  * Re-runs are safe: the tool diffs against the page's current values and only
@@ -163,12 +158,12 @@ for (const [slug, metalMap] of bySlug) {
     const decision = synthesisDecision(row)
     if (decision.action === "skip") {
       cellsSkipped += 1
-      // Retraction pass: when the engine now BLOCKS a cell whose on-page value
+      // Retraction pass: when the engine now reports an OCCURRENCE GAP for a cell whose on-page value
       // was published by THIS writer (matches the last synthesis_write), the
       // value is no longer supported — retract it to pending and record a
       // correction event for the public errata log. Direct-synthesis values
       // (which do not match the writer's last write) are left intact.
-      if (/^BLOCKED/.test(String(row.verdict || ""))) {
+      if (/^OCCURRENCE GAP/.test(String(row.verdict || ""))) {
         const sub = locateMetalSubBlock(newCpBlock, metal)
         const existing = sub ? parseExistingMetalBlock(sub.text) : null
         const last = lastWriterValue.get(`${slug}::${metal}`)
@@ -241,7 +236,7 @@ for (const [slug, metalMap] of bySlug) {
     // means do not make a defensible public percentile range even when the cell
     // clears the engine's ≥2-distinct-source gate. Route these to staff review
     // instead of a public ingredient page. The engine still marks them
-    // READY/PROVISIONAL so the staff workbench sees them; this guard governs
+    // available/provisional for staff review; this guard governs
     // only public auto-publish (OPERATING.md Part 6: no overstated confidence).
     const weakShare = weakReconShare(row)
     if (weakShare >= WEAK_RECON_MAX_SHARE) {
@@ -395,7 +390,7 @@ const reportLines = [
   `- Pages updated: ${pagesUpdated}`,
   `- Cells updated: ${cellsUpdated}`,
   `- Cells unchanged (already matched pooled values): ${cellsUnchanged}`,
-  `- Cells skipped (verdict BLOCKED, pool too thin, or no usable evidence): ${cellsSkipped}`,
+  `- Cells skipped (occurrence gap or no usable evidence): ${cellsSkipped}`,
   `- Cells held for staff review (weak-reconstruction-dominant, not auto-published): ${cellsReview}`,
   `- Cells retracted (writer value no longer supported by v1; returned to pending): ${cellsRetracted}`,
   ``,
@@ -451,7 +446,7 @@ function synthesisDecision(row) {
   const sensBand = String(row.sens_band || "")
 
   if (nContrib < 1) return { action: "skip" }
-  if (/^BLOCKED/.test(verdict)) return { action: "skip" }
+  if (/^OCCURRENCE GAP/.test(verdict)) return { action: "skip" }
 
   // typical_ppb is the literature occurrence range: p10–p90 (10th to 90th
   // percentile). This is the literature-native view per CLAUDE.md Part 19.

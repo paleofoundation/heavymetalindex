@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-glassware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e9bf543ad9c9f5582e00f64fa4cca47a426dc35f81532b0dbbfc1ddf46b70ccc
+source_page_sha256: f21e2a4616749636cc087fdccdef29c24f2044d544ec43aea138682a4f83982b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

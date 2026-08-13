@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-cans-lids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: aa7a2cd331631b9bdd7fb0e2850db426c7e64bb80c1d397d7c455694fc54848a
+source_page_sha256: cb7a2dcf454692292d5a693e1b96b057b335cb47a033da2993b8fe09d866ac08
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

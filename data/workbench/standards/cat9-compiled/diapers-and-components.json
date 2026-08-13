@@ -71,6 +71,13 @@
       "reference_method": "Screen on incoming material certificates.",
       "bounded_by": null
     },
+    "Cr": {
+      "type": "control",
+      "value": null,
+      "control": "No sovereign total-chromium ceiling exists for diaper materials. Total Cr remains part of the laboratory panel and is reported; the toxic species is controlled by the REACH extractable-Cr(VI) benchmark below, and any unexpected total-Cr signal triggers source investigation and speciation.",
+      "reference_method": "Total Cr by ICP-MS on the homogeneous component extraction; Cr(VI) by the applicable textile extraction method.",
+      "bounded_by": "Cr-VI"
+    },
     "Cr-VI": {
       "type": "read_across",
       "value": 1000,

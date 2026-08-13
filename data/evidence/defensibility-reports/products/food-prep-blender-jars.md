@@ -2,7 +2,7 @@
 source_page: wiki/products/food-prep-blender-jars.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c79318bea72d5d034c5f6c9324e0558f92017bd14d32fe61a7f11db450f96378
+source_page_sha256: 2f4efd4f0c332ab7e8b77a58a53c2e25239321b004d85b12665b670d3f8ad1a1
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

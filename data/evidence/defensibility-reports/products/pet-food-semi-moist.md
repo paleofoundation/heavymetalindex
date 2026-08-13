@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-semi-moist.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7090cebfdba6f0fe53f731e984f0df78e3acc7ad5b19428cc3d01621c051a801
+source_page_sha256: d70293526b73353008338cf3f4861711855cb6829bd8c357cfbd64a5f48af0e7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

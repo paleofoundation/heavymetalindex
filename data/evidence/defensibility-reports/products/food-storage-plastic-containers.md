@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-plastic-containers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f5d7e8186530e79a5d9bc780ad2b8e9927e69be351d3d1967349caeec650fd3c
+source_page_sha256: 29e6d5a24761dc123fa405d6a76de63cbd80328d7c9c8c96e2c0dbff27bc0838
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

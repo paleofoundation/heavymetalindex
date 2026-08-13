@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-removal-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cd1a97b11bd6a726b8e6a88f5544d29ea41287790213546328a99a70ef6bdb89",
-      "content_bytes": 8960,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "852cf329e8a8e1fa454c83269d5fd5dde4d52df632c47b335900e71f02a9acf8",
+      "content_bytes": 9121,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/hair-removal-products.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/hair-removal-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "410f06e0bb42579f02d203eddb2df1068e64daf6a4b114798ef97d4fe59d6db2",
-          "content_bytes": 31917,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "790785ca161974e527b3b1f4966b1066932f5fb6fa5875ea9d9aa95686a5ab68",
+          "content_bytes": 31788,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {

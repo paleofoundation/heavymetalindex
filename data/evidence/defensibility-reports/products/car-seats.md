@@ -2,7 +2,7 @@
 source_page: wiki/products/car-seats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 52485ebffb0f3cea5e6156dd5019d4db5574bbcc8c08ddc8dc134122faed8755
+source_page_sha256: c873eee4baa87beed1eee683890ac268ece85486f6adfff385a96f4504b83f4c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

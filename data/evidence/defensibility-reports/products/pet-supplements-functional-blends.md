@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-functional-blends.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d921a9b8c7c75dcdd39e7298e1f07c9b06dd3a6b1c6b2c6715a9249fc140aaac
+source_page_sha256: b3324eb269e31b0fd843627b0d429f0f933fe1c28e27dc819b76484b6e2013dd
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

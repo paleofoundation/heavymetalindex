@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// RETIRED 2026-08-12: category readiness may not be inferred from external occurrence percentiles.
+console.error("RETIRED: use government-limit compiler completeness, not occurrence-based standards readiness.")
+process.exit(2)
 // build-category-standards-readiness.mjs
 //
 // The "is this category ready for its standards manual yet?" monitor.

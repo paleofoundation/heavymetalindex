@@ -155,7 +155,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
     md += `\n`
   }
 
-  md += `## How to read this surface\n\nThis is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.\n\nThe wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.\n`
+  md += `## How to read this surface\n\nThis is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.\n\nThe wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.\n`
 
   fs.writeFileSync(byJurisdictionPath, md, "utf8")
 }
@@ -222,7 +222,7 @@ ${headlineNumbers(dated)}
     md += `\n`
   }
 
-  md += `## How to read this surface\n\nA regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.\n\nFor the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].\n`
+  md += `## How to read this surface\n\nA regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.\n\nFor the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].\n`
 
   fs.writeFileSync(timelinePath, md, "utf8")
 }

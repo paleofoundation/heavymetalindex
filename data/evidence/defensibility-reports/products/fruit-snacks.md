@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-snacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 41c3de660672edc666f89dd0c1a05137e33241c59b2e6264ab470dd4d3ae5df6
+source_page_sha256: 7c42e107860c5fa0fb654ffea47eab3dc5c1cdea04d0856374107b71dd52e4a1
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

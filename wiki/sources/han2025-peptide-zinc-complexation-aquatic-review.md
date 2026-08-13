@@ -75,7 +75,7 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 - `matrices: [protein-hydrolysates, review-context]` records what the paper actually concerns at the matrix level; this matches the convention used for adjacent peptide reviews [[lu2022-metal-chelating-peptides-review]] and [[irankunda2022-imac-mcp-separation-methodology-simulation]] in the same folder.
 - `jurisdictions: [GLOBAL]` because the review compiles international primary literature; corresponding author at Dalian Minzu University (China) with a coauthor at Wrexham University (UK), but the literature surveyed is not jurisdiction-bound.
 - Brand firewall: no brand names appear in the review. Instrument vendors and column chemistries (IMAC, RP-HPLC, ESI-MS, MALDI-TOF, LC-Q-TOF) are method components, not brand attributions to contamination values.
-- Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards were imported from the review. The review does not bear on any HMI per-row P97/P45 calculation.
+- Wiki/HMTc firewall: no certification-limit or occurrence claims were imported from the review. It does not select an HMTc value or status and cannot enter the certified-lot Standards Ratchet.
 - Evidence tier: C (narrative review reporting findings from primary studies; no original data, no systematic-review methodology).
 - Adjacent context: see [[wang2022-therapeutic-peptides-review]], [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]] for related peptide-binding mechanism reviews already in the corpus.
 
@@ -86,9 +86,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

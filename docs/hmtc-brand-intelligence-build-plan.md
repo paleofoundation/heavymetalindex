@@ -7,7 +7,7 @@ Companion to `docs/hmtc-brand-intelligence-spec.md`. The spec is the *what/why*;
 - **Stack:** Next.js 14.2.33 (App Router), Supabase SSR (`@supabase/ssr` 0.8, `supabase-js` 2.86), Radix/shadcn UI, `@tanstack/react-table`, `zod` 4, Resend 6, Tailwind. Vercel deploy with a cron block in `vercel.json`.
 - **Tenancy model:** `organizations` is the tenant. RLS everywhere; brand-scoping is `organization_id = get_user_organization_id()` (a `SECURITY DEFINER` helper reading `profiles.organization_id` for `auth.uid()`). Staff bypass via `is_staff()`. Existing tables: `organizations → brands (mig 027+) → products (brand_id, packaging) → licenses (036+)`, plus `supplier_outreach_logs` (018), `ingredient_outreach_tracking` (019), `application_documents` + a documents storage bucket (009/010).
 - **Portal:** `src/app/(portal)/` route group, gated in the layout via `getPortalSession()` from `@/lib/portal-auth` (redirects to `/portal/login`). Supports staff **impersonation** of an org (relevant to the DPA — HMTc staff can view brand data).
-- **Domain routing:** host-based via `getSiteContextFromHost(host)` in `src/middleware.ts`, setting `x-site-program` / `x-site-domain` headers. heavymetaltested.com renders under its program context.
+- **Domain routing:** host-based via `getSiteContextFromHost(host)` in `src/middleware.ts`, setting `x-site-program` / `x-site-domain` headers. heavymetalcertified.com renders under its program context.
 - **The apply wizard already captures** products, manufacturing, and countries into `applications` — the onboarding seed for BOM/supplier context.
 
 ## 2. The two infrastructure additions (everything else exists)
@@ -32,7 +32,7 @@ New tables, each with `organization_id UUID NOT NULL` and the brand-scoped RLS p
 ## 4. Routes and auth
 
 - New route group `src/app/(portal)/intelligence/` (or `(portal)/lab/`), gated by `getPortalSession()` in its layout exactly like `renew/`. Pages: `dashboard`, `levers`, `trends`, `suppliers`, `benchmark`, `reports`.
-- Domain-gate to heavymetaltested.com via the existing `x-site-program` header so the surface only renders under the certification program context.
+- Domain-gate to heavymetalcertified.com via the existing `x-site-program` header so the surface only renders under the certification program context.
 - Mutations as Server Actions in `actions.ts` per the `renew/[licenseId]/actions.ts` pattern; all reads go through `@/lib/supabase/server` so RLS applies (never the service-role client for brand-facing reads — the service key is server-only and must never reach a client bundle, §6).
 
 ## 5. The HMI API bridge (one-way, version-pinned)

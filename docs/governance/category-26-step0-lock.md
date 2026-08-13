@@ -6,7 +6,9 @@ Promotes the 2026-06-08 provisional scaffold `research-chemicals-peptides-sarms`
 **Domain:** Ingestible and applied health products. **Number:** 26 (appended; no existing number changed).
 **Exposure pathway:** **Parenteral (injection)** + oral gray-market — a pathway absent from v2.0.
 **Jurisdiction:** FDA (unapproved/misbranded drugs); no certification framework exists for this class.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
+
+**Current standards status (2026-08-12):** still in development. No lawful product-specific sovereign maximum exists, and the parenteral/oral dose-basis method remains unguided. Under the current government-limit-only initial-setting rule, occurrence evidence cannot be used to manufacture an initial number.
 
 ## Why this earns a number, and why it cannot sit in Cat 16
 

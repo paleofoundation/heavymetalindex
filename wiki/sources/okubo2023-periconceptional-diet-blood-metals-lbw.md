@@ -74,7 +74,7 @@ Statistical analysis: Bayesian inference of univariate and multiple linear regre
 
 ## Implications
 
-**Certification:** This is one of the largest prospective birth cohort studies (n=72,317) demonstrating a Pb-LBW dose-response across blood Pb concentrations in the 1.2–110 ng/g range, with significant LBW associations down to the second quartile of blood Pb (4.72–5.85 ng/g; adjusted OR 1.18, 95% CrI 1.07, 1.30 vs Q1 ≤4.71 ng/g). The per-doubling adjusted OR of 1.50 means each doubling of maternal blood Pb is associated with roughly 50% greater odds of LBW; the diet-quality interaction attenuates but does not eliminate this risk. For HMTc literature-baseline use, this study contributes prospective-cohort evidence that maternal blood Pb below the former CDC blood-Pb level of concern (50 ng/g = 5 µg/dL) is associated with measurable LBW risk.
+**Certification context:** This is one of the largest prospective birth cohorts (n=72,317) demonstrating a Pb-LBW dose-response across blood Pb concentrations of 1.2–110 ng/g, with significant associations down to the second quartile. The per-doubling adjusted OR of 1.50 means each doubling of maternal blood Pb is associated with roughly 50% greater odds of LBW; diet quality attenuates but does not eliminate the risk. This is contextual health evidence supporting continued reduction and surveillance, not a product-occurrence basis for selecting an HMTc initial limit.
 
 **Courses:** Useful case study for the interaction between dietary quality and metal toxicity. The Hg-fish-consumption pattern illustrates a co-exposure trade-off: higher BDS reflects more fish and shellfish, which raises Hg but lowers Pb and Cd through better mineral status (Ca, Fe, Zn) and lower intestinal Pb/Cd absorption. Relevant to prenatal-nutrition modules and to dietary-counselling content that addresses the fish-Hg trade-off in pregnancy.
 
@@ -116,9 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

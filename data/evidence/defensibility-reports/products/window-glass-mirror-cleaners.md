@@ -2,7 +2,7 @@
 source_page: wiki/products/window-glass-mirror-cleaners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0541cfed574fe0f3f6633813602436baf002df69a7625274f88996bcb5eac63d
+source_page_sha256: 3b0d22cfd039c2c85fa3c1fad048f564ff18c4c11918c8dc70b4ab5e4a83245d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -51,7 +51,7 @@ The ceilings apply to the finished product (chocolate or drinking-chocolate coco
 
 The four 488/2014 cocoa-product cadmium ceilings (0,10 / 0,30 / 0,80 mg/kg by total dry cocoa solids percentage; 0,60 mg/kg for drinking-chocolate cocoa powder) are external legal floors, not HMTc certification thresholds. They are the binding EU comparator values for any chocolate or cocoa-powder product placed on the EU market between 1 January 2019 and the entry into force of 2021/1323 on 31 August 2021. HMTc workups on the chocolate product category should preserve the legal-status label ("binding EU maximum level — 2019 communication of 488/2014") when displaying these numbers alongside Codex maximum levels, FDA action levels, or HMTc candidate thresholds.
 
-The four-row split by total dry cocoa solids percentage is the row pattern that downstream chocolate product-category work should preserve: it is the binding regulatory recognition that cadmium burden in a finished chocolate is a function of the cocoa-mass fraction, and any HMTc within-row clean/dirty subcategory work for chocolate should sit inside that four-row ladder rather than across it.
+The four-row split by total dry cocoa solids percentage is the row pattern downstream chocolate work should preserve: it is the binding regulatory recognition that the applicable legal cadmium ceiling depends on cocoa-mass fraction and milk-chocolate status. HMTc must preserve that sovereign product-form split during initial-limit lookup; occurrence comparisons within those forms remain descriptive only.
 
 ## Cadmium maximum levels communicated by the leaflet
 
@@ -122,9 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

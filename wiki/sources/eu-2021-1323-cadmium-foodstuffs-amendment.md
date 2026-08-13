@@ -197,7 +197,7 @@ This regulation supplies the cadmium maximum-level row set that was operative in
 For HMTc category work, the regulation supplies:
 
 - A clean per-format split for infant formula cadmium (powder vs liquid × cow's-milk vs soy-protein) that downstream product-page splits should preserve.
-- A four-row cocoa/chocolate ladder keyed to total dry cocoa solids percentage and milk-chocolate carve-out — the chocolate-category clean/dirty subcategory work should reference this row structure rather than treating chocolate as a single bin.
+- A four-row cocoa/chocolate ladder keyed to total dry cocoa solids percentage and the milk-chocolate carve-out. Initial HMTc government-limit lookup must preserve that sovereign product-form split rather than treating chocolate as a single bin.
 - A salt ceiling that is the binding EU regulatory floor for the salt product page's regulatory-context column.
 
 ## Verification notes
@@ -224,9 +224,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [f61cce5b7](https://github.com/paleofoundation/heavymetalindex/commit/f61cce5b7) | 2026-06-02 | minor | Narrative text revised |
-| [3ca521600](https://github.com/paleofoundation/heavymetalindex/commit/3ca521600) | 2026-06-02 | major | 20 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

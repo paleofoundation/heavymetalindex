@@ -1,5 +1,7 @@
 # Findings queue
 
+> **Methodology cutoff (2026-08-12):** Findings that rely on P45/P97, literature-baseline candidates, occurrence-selected certification values, or the retired standards QC/readiness pipeline are historical unless they were explicitly re-opened under the government-limit-only method. The old artifacts and generators they cite have been retired or removed.
+
 Defects found outside the scope of the step that found them. Per the standing rule for redesign steps 2–6, a finding is **logged here and left alone**. Only two things interrupt the step that found them: a defect that blocks the step from completing, and a factually false statement on a live public page.
 
 Every entry carries the file, the line, the claim, and why it matters. **Nothing is logged here that has not been verified against the artifact in this repo.** Claims inherited from a plan, a report, or a prior session are re-checked before they are written down; several inherited claims turned out to be wrong and are recorded under Retracted rather than deleted, so they are not raised a third time.
@@ -199,10 +201,10 @@ The shipping plan's step 4 asks for two footer edits. Both would replace or add 
 
 | Asked for | Destination | Status |
 | --- | --- | --- |
-| Foundation column's `heavymetaltested.com` → `heavymetalcertified.com` | `heavymetalcertified.com` | **503** |
+| Foundation column's `heavymetalcertified.com` → `heavymetalcertified.com` | `heavymetalcertified.com` | **503** |
 | Add a "Contaminant Standards" entry → `contaminantstandards.com` | `contaminantstandards.com` | **503** |
 
-`heavymetaltested.com` currently returns **200**. Making the swap would take a working link and point it at a dead host, which is the same trade rejected in step 1 for the 312 wiki pages and for the correspondence address.
+`heavymetalcertified.com` currently returns **200**. Making the swap would take a working link and point it at a dead host, which is the same trade rejected in step 1 for the 312 wiki pages and for the correspondence address.
 
 The footer's third step-4 change — the operator line reading "Operated by the Institute of Contaminant Standards." — already landed in step 1 and is live on the branch. So `Footer.tsx` needs no edit in step 4, and got none.
 
@@ -513,7 +515,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-53 open item(s): 22 auto, 31 awaiting a decision.
+49 open item(s): 21 auto, 28 awaiting a decision.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -534,7 +536,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
 
-- scope: **auto** · type: code-fix · status: open · repo: index
+- scope: **auto** · type: code-fix · status: queued · repo: index
 - paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
 - repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
 - done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug
@@ -616,15 +618,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: human-gated because it touches published HMTc threshold values and the Part 19 workbench. The author-string fix is genuinely correct per Part 14 entity naming and should land - but deliberately, not as a test side effect. Do NOT accept the recomputed thresholds without first establishing why the local pool is thinner.
 
-### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
-
-- scope: **human-gated** · type: audit · status: open · repo: index
-- paths: `data/evidence/standards-outlier-adjudication.csv`, `data/workbench/standards/vinegar.md`
-- repro: standards-qc-gate-report.csv: vinegar Pb=HOLD (C6 adjudication-register + C1b, n=253), tAs=HOLD (C11a n=26 beyond-sample + C1b), Cd=WARN no-cap. Priority metals are Pb/tAs/Cd. The only loaded government MLs for vinegar are Vietnam (Pb 500, tAs 200, Cd 1000, tHg 50).
-- done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
-- decision: _pending_
-- notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
-
 ### OI-20260810-tox-papers-misrouted-to-oils — Routing hygiene: 3 tox/exposure papers mis-routed to cooking-oils-other (no oil measurement) cause false not-material contradictions
 
 - scope: **auto** · type: finding · status: open · repo: index
@@ -646,14 +639,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/hmtc_aggregate_distributions.csv`
 - repro: olive-oil tAs was reclassified from a false not-material (Codex CXS 210/19 set As 100 ug/kg for oils) to adjudication HOLD. The pool still shows p97 607.95 (luka2019 unit artifact). luka2019 is in extraction_excluded.csv and Codex As-oil ML is loaded; a pooling re-run (npm run evidence:standards-gaps) applies both.
 - done when: olive-oil tAs re-pools to ~12-20 ug/kg after luka2019 exclusion; Codex 100 ug/kg maps as the cap (min(P97,100) binds; tag literature-baseline); QC gate shows olive-oil tAs PASS not HOLD/WARN
-
-### OI-20260810-olive-oil-cd-material-judgment — olive-oil / Cd not-material: two peer-reviewed sources report material Cd in the oil — human ruling needed
-
-- scope: **human-gated** · type: decision · status: open · repo: index
-- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-not-material-adjudication.csv`
-- repro: The olive-oil/Cd not-material determination (Cd does not partition into the lipid fraction) holds on weight of evidence (16 routed sources ND/floor/mechanistic, evidence-tested in the adjudication register), but 2 peer-reviewed sources report MATERIAL Cd in the oil that the non-partition thesis does not explain and that are NOT dismissable on documented-artifact grounds: (1) acar2012 51 ug/kg ETAAS (~17x floor, internally consistent; suspected systematic bias — uniform 41-51 across all oil types, non-oil-matched CRM — but exclusion needs a human artifact ruling); (2) ntigoroku2025 60 ug/kg real Nigerian market (set aside only by target-market stratification, a Method-v2.0 policy lever, not the not-material rationale). Cd is a Tier-1 toxic with no government ML for oils, so Method v2.0 would set this cell from occurrence if not-material fails. Decision: rule each as (a) artifact/excluded, (b) non-target-market/excluded, or (c) material -> retire not-material and set an occurrence-based value. The two sources keep flagging in the integrity check until ruled.
-- done when: acar2012 ruled: artifact-excluded (with documented basis) or material; ntigoroku2025 ruled: non-target-market-excluded or material; if either is material, olive-oil/Cd retired from not-material and given an occurrence value; if excluded, recorded KEEP_CITE with the ruling
-- decision: _pending_
 
 ### OI-20260810-notmaterial-reconcile-to-origin — Reconcile local not-material hardening (b5094ce39) to origin — local main diverged 9 ahead / 8 behind
 
@@ -756,22 +741,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/standards-not-material.csv`
 - repro: Of the 17 config-only not-material cells the corpus reconciler (audit-not-material-corpus.mjs) found bypassing the gate: the 10 cat1-config Cr-VI baby-food cells are now mirrored into the gated standards-not-material.csv as method-artifact (hernandez2019+saraiva2021 reference-method non-detection) and pass the substantiation audit. The 7 seafood-config cells (Sn x6 + seaweed MeHg) are NOT rubber-stamped — ho2016 shows organotin bioaccumulation in molluscs, the diaper-Sn error class; tracked by OI-20260810-seafood-sn-organotin. Corpus reconciler is warn-only in prebuild until those 7 resolve, then flips blocking.
 - done when: 10 Cr-VI cells gated (DONE); 7 seafood cells resolved per OI-20260810-seafood-sn-organotin; audit-not-material-corpus.mjs reaches 0 gaps and flips to blocking
-- decision: _pending_
-
-### OI-20260810-cap-proposal-tool-occurrence-blindspot — build-cap-mapping-proposals.mjs is blind to occurrence-bearing toxic cells with no mapped cap (the honey-Pb too-loose class)
-
-- scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `tools/evidence/build-cap-mapping-proposals.mjs`
-- repro: The tool only scans classifier rows with class=BLOCKED AND next_action=FETCH_INGEST (no occurrence data). Cells that HAVE occurrence data and produce a literature-baseline standard looser than an existing-but-unmapped government ML are never surfaced. honey Pb (P97 1410 ppb vs IL/EU honey Pb 100) is a confirmed live instance.
-- done when: Tool also scans cells that are literature-baseline + big-4 toxic + no mapped cap in standards-qc-gate-report.csv (C1b) and proposes the strictest applicable loaded government ML; Running it surfaces chocolate Pb/tAs and honey Pb/Cd/tAs with their candidate government MLs graded by confidence
-- notes: This class is higher-severity than the no-data class the tool handles today: it publishes a too-loose firm number rather than leaving a gap.
-
-### OI-20260810-al-not-material-corpus-reconcile — Reconcile Al not-material registrations (salt/spices/chocolate/honey) with the Cat-3 material finding
-
-- scope: **human-gated** · type: finding · status: open · repo: index
-- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-no-ml-confirmed.csv`
-- repro: The Cat-3 aluminium remediation (2026-08-10) counts the aluminosilicate anticaking pathway (INS 554) as MATERIAL for breakfast cereals and sets real Al ceilings on all 12 grain subcats. But standards-not-material.csv still registers aluminium as not-material for salt, spices, chocolate, and honey on the same additive/natural-Al reasoning — the salt entry rests explicitly on the E554/E555/E559 anticaking family. This is internally inconsistent: the same certification-defensibility attack (a 10-analyte we-test mark with an empty Al ceiling) applies to those categories.
-- done when: Re-examine the Al not-material call for salt, spices, chocolate, honey under the same Method v2.0 logic used for Cat-3; Either set a real Al ceiling (government-limit/occurrence) or document why Al is genuinely not-material for each; Registrations across categories are consistent
 - decision: _pending_
 
 ### OI-20260809-subthreshold-censored-zero-cells — Sweep sub-threshold [0,0] contamination_profile cells (n<3) that escape the integrity audit gate

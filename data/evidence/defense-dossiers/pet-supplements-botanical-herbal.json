@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-botanical-herbal",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c7ac53434db3617edcd60282ec3877d696bbf2a7d5c8a78b2e3ba8c657279580",
-      "content_bytes": 8294,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "ce03dd067d35d46c9599ad0d359efbae87c99ec130caa4a12fc084d41e338fc1",
+      "content_bytes": 8455,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
     }
   },
   "evidence_base": {

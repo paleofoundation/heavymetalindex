@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-marine-non-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f5b7911ce1645fdf5c40654d4e90dfc1e04655f878136b53917af687288e230b
+source_page_sha256: 98868cc5d9e2556cbbd770dfd70bcea0b4296880c2227b49e50354ea01c8afea
 total_claims: 6
 cited_claims: 5
 uncited_claims: 1

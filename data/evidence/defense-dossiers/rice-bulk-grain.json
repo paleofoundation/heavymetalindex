@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-bulk-grain",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b1c52cb8d2fc91108dfe35f02c030dc7e951f01d998fce7f23efdd63ccaf7446",
-      "content_bytes": 39036,
-      "last_commit_sha": "aa06ad499",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "7da57b789fe85ba5be5e850bc6739b6486c77d1bcc3b34c3f8a6cc3a48a89164",
+      "content_bytes": 39077,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aa06ad499:wiki/products/rice-bulk-grain.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/rice-bulk-grain.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -322,12 +322,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "c974f379158a8628b1281c248427bb4d00c3b5117a34289f2dcc9d6acf62736b",
-          "content_bytes": 8207,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "630be7763874f83cc8d002997ccd1c9fc5df77b2d19c069496f849f3b0ede40b",
+          "content_bytes": 8173,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {

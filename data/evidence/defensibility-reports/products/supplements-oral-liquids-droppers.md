@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-liquids-droppers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7deefbc5df0f0b12afe437bf7a3a407b8d933c67514d461190054f99a76c9407
+source_page_sha256: 99ba455a604ff632b3a1d95ca16c9696b9ab6752607a0fa2301e49ba5b151674
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

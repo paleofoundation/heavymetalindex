@@ -2,7 +2,7 @@
 source_page: wiki/products/hand-soap.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a73a6cac3026c4a19ae20ee222cabcd1baf748c94c110541d0d5f9f75cbc13a5
+source_page_sha256: c82aa39a7bece5494dd995f7669276fc32667a86dbaca10a5f96723f2d6ea2a2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

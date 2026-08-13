@@ -6,8 +6,8 @@ Parent: [[hmtc-governing-principles]] §"Ratchet trigger" and §"Two Percentile 
 
 ## Why this note exists
 
-Method v2.0 (government-limit default, ratified 2026-08-03) made the strictest
-credible government maximum level the default limit for any (product, analyte).
+Method v2.0 (government-limit-only initial setting, ratified 2026-08-11) made the strictest
+applicable credible sovereign maximum level the initial limit for any (product, analyte).
 That shift invites a plausible-sounding but wrong inference: *if our limits track
 government limits, then our ratchet-down function must depend on getting
 governments to set tighter limits, which means we must become active in
@@ -22,21 +22,23 @@ specific numbers.
 The governing principles already separate these; this note names the strategic
 consequence.
 
-**Limit-setting (initial publication).** Uses *external* data: the strictest
-credible government ML, floored against occurrence for the four Tier-1 toxics
-(Pb, Cd, iAs, MeHg/tHg) and used as the sole basis only where no government
-regulates the cell. This is where government limits live. Its job is
-Daubert-defensibility: the published value cites a sovereign, so there is no
-novel methodology to attack.
+**Limit-setting (initial publication).** Uses sovereign government data only:
+the strictest applicable credible government maximum, expressed in the cell's
+native basis. Where the exact cell is unregulated, the program uses a disclosed
+read-across from an analogous sovereign value or an n/m control. Heavy Metal
+Index occurrence evidence does not select the value. Its job is
+Daubert-defensibility: the published starting value cites a sovereign, so there
+is no novel occurrence-selection methodology to attack.
 
 **Ratchet trigger (post-publication revision cycle).** Uses *internal* data:
-HMTc's own certified-brand lot-testing results. Per the governing principles, the
-ratchet for a given analyte fires when, for two consecutive annual reviews, (a)
-the 80th percentile of certified Status A lot results sits at or below 80% of the
-current limit and (b) at least 50% of Status A SKUs have lots at or below 60% of
-the current limit. The new limit is the greater of the actual 80th percentile or
-80% of the current limit — a 20% maximum reduction per event, with a 12–18 month
-transition and grandfathering of existing Status A certifications.
+HMTc's own certified-brand lot-testing results. Per canonical Governance Policy
+§12, the ratchet for a given analyte fires when, for two consecutive annual
+reviews, (a) the P80 of the capped combined Status A + Status B trigger pool sits
+at or below 80% of the current limit and (b) at least 50% of SKUs in that pool
+have qualifying lots at or below 60% of the current limit. The new limit is the
+greater of the actual Status A P80 or 80% of the current limit — a 20% maximum
+reduction per event, with a 12–18 month transition and grandfathering of existing
+Status A certifications.
 
 ## The finding: the ratchet is endogenous, not government-dependent
 
@@ -97,11 +99,11 @@ number-lobbying:
    alone. Advocacy here targets the outcome and the evidence, structured to avoid
    self-citation of any specific number.
 
-3. **The `precautionary` rationale tag is the in-house tighter-than-sovereign
-   lever.** The methodology already permits publishing below the government ML at
-   initial publication with a documented `precautionary` rationale (vulnerable
-   population, cumulative exposure, scientific uncertainty). This is the program's
-   own path to go tighter than a regulator without waiting for one.
+3. **The Standards Ratchet is the in-house tighter-than-sovereign lever.** The
+   current methodology does not permit a discretionary precautionary numeric
+   override at initial publication. The ratchet is the program's controlled path
+   below the sovereign anchor, and it requires the two-cycle trigger, anti-gaming
+   pool controls, a capped step, and a published transition.
 
 ## Decision recorded
 
@@ -114,7 +116,7 @@ number-lobbying:
 
 ## Firewall note (publication surface)
 
-The public-facing version of this material publishes on **heavymetaltested.com**
+The public-facing version of this material publishes on **heavymetalcertified.com**
 (the `heavymetalcertified` repo), under the Methodology footer column, at
 `/program/ratchet`. It must never publish on heavymetalindex.com: it is pure
 certification methodology, would trip the build-blocking firewall-no-threshold

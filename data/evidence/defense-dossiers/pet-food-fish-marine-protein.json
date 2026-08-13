@@ -3,12 +3,12 @@
   "manifest_kind": "heavy_metal_index_certification_defense_dossier",
   "product": {
     "slug": "products/pet-food-fish-marine-protein",
-    "title": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)",
+    "title": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)",
     "hmtc_category": 17,
     "hmtc_row": 10,
     "category_label": null,
     "age_range": null,
-    "label": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)",
+    "label": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority)",
     "primary_metals_of_concern": [],
     "hmtc_tested_metals": [],
     "vulnerable_population": null,
@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-fish-marine-protein",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5b44f210a538c94a2ddeaddff3546fcd454395c963830c967d268a6907d46b86",
-      "content_bytes": 2025,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "9524baeeaf7601fb66e136653c483324b6509c5439187b72b9b0afc7cc72f1b7",
+      "content_bytes": 2032,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/pet-food-fish-marine-protein.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/pet-food-fish-marine-protein.md | sha256sum"
     }
   },
   "evidence_base": {

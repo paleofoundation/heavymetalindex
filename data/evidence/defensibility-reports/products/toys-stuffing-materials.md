@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-stuffing-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 71a33132d18856fecd56ba082dbefe7b886efff572f7d4c83fc4d23073d1c9ed
+source_page_sha256: 61632fa8c39d9e1b7e363c48afc81e9d9fbb004b731c8dbb437927bd9b4bab61
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

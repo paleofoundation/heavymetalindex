@@ -68,7 +68,7 @@ const DEFAULT_SECTIONS: FooterSection[] = [
       { label: "About", href: "#/about" },
       { label: "Editorial standards", href: "#/editorial-standards" },
       { label: "Errata and revisions", href: "#/errata" },
-      { label: "Heavy Metal Tested", href: "https://heavymetaltested.com", external: true },
+      { label: "Heavy Metal Tested", href: "https://heavymetalcertified.com", external: true },
       { label: "Privacy notice", href: "#/privacy" },
       { label: "Terms", href: "#/terms" },
     ],

@@ -25,23 +25,23 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 ## Overview
 
-Tinted and/or SPF children's lip balms marketed for ages 0-5 (Petite n Pretty tinted, Sun Bum Kids SPF, Babyganics SPF, various kids' colored lip balms). Contaminated row of the Row 15 / Row 16 pair: tinted variants add mineral cosmetic pigments (Pb/Ni/Cr platforms); SPF variants add ZnO and/or TiO2 (Pb/iAs/Cd platforms). Tinted and SPF collapsed into a single contaminated variant per the Cat 2 lock because the dominant affected metal is Pb in both and the commercial overlap is significant.
+Tinted and/or SPF children's lip balms marketed for ages 0-5 (Petite n Pretty tinted, Sun Bum Kids SPF, Babyganics SPF, various kids' colored lip balms). higher-occurrence comparison row of the Row 15 / Row 16 pair: tinted variants add mineral cosmetic pigments (Pb/Ni/Cr platforms); SPF variants add ZnO and/or TiO2 (Pb/iAs/Cd platforms). Tinted and SPF collapsed into a single higher-occurrence variant per the Cat 2 lock because the dominant affected metal is Pb in both and the commercial overlap is significant.
 
-This page is a Step 0 lock scaffold for Cat 2 Row 16. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 2 Row 16. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's descriptive occurrence-comparison framing and platform attribution.
 
 ## Who this page is for
 
-Brand legal teams evaluating HMT&C certification for the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its descriptive occurrence-comparison pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 The non-ingestion exposure pathways relevant to this row (dermal, inhalation, accidental-ingestion, and trans-placental) are documented at [[health/cat-2-non-ingestion-exposure-pathways]].
 
 ## Pair relationship + platform attribution
 
-This is the contaminated row of a Cat 2 clean-contaminated pair. The clean counterpart is Row 15 ([[products/childrens-lip-balm-plain]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Pb, Ni, Cr, iAs, Cd**. Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page.
+This is the higher-occurrence comparison row of a Cat 2 descriptive occurrence-comparison pair. The lower-occurrence counterpart is Row 15 ([[products/childrens-lip-balm-plain]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Pb, Ni, Cr, iAs, Cd**. Certification threshold decisions for this row and its lower-occurrence counterpart are made separately under the certification program and are not published on this public page.
 
 ## Literature Evidence Summary
 
@@ -81,7 +81,7 @@ _Pending. Cat 2 regulatory landscape is fragmented: cosmetics under FDA FD&C Act
 
 ## Levers to reduce contamination
 
-The Cat 2 Step 0 lock framework distinguishes clean-formulation rows from contaminated-platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMT&C certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
+The Cat 2 Step 0 lock framework distinguishes lower-occurrence formulation rows from higher-occurrence platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMT&C certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
 
 1. **Sourcing levers** (highest impact): platform-ingredient supplier selection. Pre-screened low-impurity grades of Pb/Ni/Cr/iAs/Cd -carrying ingredients are commercially available at premium price; the gap between cosmetic-grade and pharmaceutical-grade specifications is material.
 2. **Refining levers** for the platform ingredient class.
@@ -91,7 +91,7 @@ The Cat 2 Step 0 lock framework distinguishes clean-formulation rows from contam
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports descriptive literature evidence and publishes no certification limits or status decisions. Initial HMTc limits are compiled separately at heavymetalcertified.com from the strictest applicable credible sovereign-government maximum in the product's native basis; Index occurrence evidence does not select the value. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Historical recalls and enforcement
 
@@ -121,9 +121,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

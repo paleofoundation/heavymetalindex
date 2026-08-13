@@ -46,7 +46,7 @@ Adolescents 13-18 approach adult exposure factors but retain elevated sensitivit
 
 ## How this evidence relates to certification
 
-This page reports the toxicokinetic and exposure-pathway evidence. Certification criteria for these products are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which draws on this evidence — together with analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) — as one input among others; this public page publishes no certification thresholds. The distinction between what the literature supports and any certification criterion is maintained deliberately: this page reports the evidence, and the certification program documents the rationale for its criteria separately.
+This page reports the toxicokinetic and exposure-pathway evidence. Certification criteria for these products are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified.com, which draws on this evidence — together with analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) — as one input among others; this public page publishes no certification thresholds. The distinction between what the literature supports and any certification criterion is maintained deliberately: this page reports the evidence, and the certification program documents the rationale for its criteria separately.
 
 ## Open questions
 
@@ -82,9 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | 1 section added and 1 removed; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 4 sources added; 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

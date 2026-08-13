@@ -2,7 +2,7 @@
 source_page: wiki/products/strollers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f99e82fd1d3378a285e0d314a408d58b252771c7643afebb890b3afd67ed89f4
+source_page_sha256: 5e015c786e23f5f8d07e74227bea392eef5fe64874e58130ea74e2f1232b6f01
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -486,7 +486,7 @@ fi
 # (pooled_p10/p90/p95) from the aggregate CSV back into ingredient-page
 # contamination_profile blocks. Per CLAUDE.md Part 9 + the firewall in
 # Part 2, this publishes literature-native values only; HMTc percentile
-# selection (target_value, candidate_value_ppb) stays staff-side.
+# descriptive distribution fields stay contextual and never become certification-limit selectors.
 # No-downgrade guard: pages with prior synthesis n_studies > pooled
 # sources_contributing are left alone (incomplete structured extraction
 # means values.jsonl is a narrower view than the wider read).

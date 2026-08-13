@@ -2,7 +2,7 @@
 source_page: wiki/products/bread-and-baked-goods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ca5792e00b6dd5d3e9cbbd68e4623feb44a264b466d45ae969974b6ca56e4ad5
+source_page_sha256: 04dbc23606bd8ffe6d4a7690201cc8cf32c8883f41f7f2c8924b01a91dfb4828
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

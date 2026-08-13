@@ -2,7 +2,7 @@
 source_page: wiki/products/cookware-nonstick-coated.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ab34906d76f8875cab1f7f949753ea8073a5bd6fcb1c8ef5c949814b81272790
+source_page_sha256: 293ce5c10b9f6ab04d99087a1729e77c1c8ae0b7fcc9c479b25c8dc48132547d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

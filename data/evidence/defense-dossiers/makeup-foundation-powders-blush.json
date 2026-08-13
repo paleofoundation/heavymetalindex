@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/makeup-foundation-powders-blush",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8196cd2f570e0fc04aff82593f3d0d5a75c9ada90bb10e2c18001c1fc21f9ed1",
-      "content_bytes": 15598,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "99b006d8d80b13d6a61d9535f933a1559abfe5268a995f8e653949925987dfea",
+      "content_bytes": 15759,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/makeup-foundation-powders-blush.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/makeup-foundation-powders-blush.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aldayel2018-facial-cosmetics-saudi-arabia",
         "content_pin": {
-          "content_sha256": "ba1641f80b812a6af91d5ae530a7bf81653eee09f1ac1afa55cb2c0a9791f4c7",
-          "content_bytes": 35917,
-          "last_commit_sha": "50c73dc78",
-          "last_commit_date": "2026-08-09",
+          "content_sha256": "d727f2b23c603d5dc26be1b4b8f599a54a27a5c0c950e0e27807ab82b97a15ee",
+          "content_bytes": 35540,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50c73dc78:wiki/sources/aldayel2018-facial-cosmetics-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/aldayel2018-facial-cosmetics-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -140,12 +140,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "ac2c1f22883ef6e5a9bc4dd721c4a5a4ddb51d6d38342ba525e0ffc603cdc100",
-          "content_bytes": 35479,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "236cf44754277fda32b23e70be548c5287f5b9181a5c487dfc4f3385a5108b4d",
+          "content_bytes": 34889,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -218,12 +218,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "e1928e42873500b2afe685d74e1f382f2f56aab781a2969f277225325add64a2",
-          "content_bytes": 29233,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f2ede7c87160220cb04643a76fe4ee5f09a018fbaf16601e6da0d7268544916a",
+          "content_bytes": 28640,
+          "last_commit_sha": "880cf9722",
+          "last_commit_date": "2026-08-12",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 880cf9722:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {

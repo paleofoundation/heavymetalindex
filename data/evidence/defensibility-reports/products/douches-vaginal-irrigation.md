@@ -2,7 +2,7 @@
 source_page: wiki/products/douches-vaginal-irrigation.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 087a9d1628e715238523845cc755e8aa3b13775770d37a607f8df75fef32d8d9
+source_page_sha256: ea2ed0426585b36bd262f478d358d1e96b5963482e947f6952afdd30d5a97b1b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

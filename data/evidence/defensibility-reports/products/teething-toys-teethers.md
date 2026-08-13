@@ -2,7 +2,7 @@
 source_page: wiki/products/teething-toys-teethers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba9c3a4fd537c0d90607d59c76ea2c5c7e5d1356556a11bf11b68026869648c8
+source_page_sha256: b8c85362fce33c0d68252845f2c73129a8e4ef06d46a98327256546e13ff60e6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

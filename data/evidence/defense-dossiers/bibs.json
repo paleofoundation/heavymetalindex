@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bibs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f0e1c966baf95790775735a43492c54d537a199c9f261b001943b66f5928c746",
-      "content_bytes": 10974,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "a73aa4810702a423b8d7cf4a191d0c0bb049d126dcf70ccf80d491aeff94390e",
+      "content_bytes": 11135,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/bibs.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/bibs.md | sha256sum"
     }
   },
   "evidence_base": {

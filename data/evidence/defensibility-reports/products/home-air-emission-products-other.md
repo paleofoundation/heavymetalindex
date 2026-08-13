@@ -2,7 +2,7 @@
 source_page: wiki/products/home-air-emission-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 96f4245287ced6cf994d0768b0056404af3350a4be8fde2425c12f08d4657576
+source_page_sha256: eb02f6d24062885d6b01b4ee1fee992dbb4a90c3e22af42a9a5d57ba7016d15c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

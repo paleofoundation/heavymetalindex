@@ -2,7 +2,7 @@
 source_page: wiki/products/shaving-cream-gel-foam.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 00e3118cb0fdfeccdb41ea122b0fd83ffae0f501bd61c52572fa814454fd26bd
+source_page_sha256: f9ce935f79ae3d33045dcedc1dcc9f430234ee199fd254dc3b33723e96b0ecb5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

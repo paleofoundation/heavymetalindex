@@ -2,7 +2,7 @@
 source_page: wiki/products/beef-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c927a1042a5de3932bfec7bef0995eb60f29c2c002b3db3ec216c9141e5f0f47
+source_page_sha256: a11e24cf8cea1681b5de43fc3889f308967b4ccd3fd642d918b5d03643913e0c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

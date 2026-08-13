@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-sunscreen-chemical.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 98b90d3be0579a7ec1b265d2034703fc9827121337f941d5ed45ad1f4a75d3e5
+source_page_sha256: 09350b6311d2303bf288170eca992ce5c40cc514383dfc3b9eff6e227334579c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-enzymes.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6b08a165371cdd8d5b1d6f58831631f67dcaa5e0d84c4c9a85d6729993b9b67f
+source_page_sha256: e712c81faf89b426cab3f3d1e75120d15178b6885388ec585c96c03ccfdc45a4
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

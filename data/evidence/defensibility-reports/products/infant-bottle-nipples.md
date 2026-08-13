@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-bottle-nipples.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 13742104eae0f12eb9ff52f88a1da4bf1355cc44ece82c8448dfe660e642396a
+source_page_sha256: 3a16a495257274c3e8ee6d3feb149c87e833502cdca16299646fffdb657c4b0e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

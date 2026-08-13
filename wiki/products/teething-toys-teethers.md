@@ -27,7 +27,7 @@ This page is the HMTc Taxonomy v2.2 Category 9 (Infant and Child Contact Product
 
 ## Literature scope
 
-The Heavy Metal Index contact-product corpus reports element occurrence and migration in children's toys and mouthable articles; sources routed to this row are surfaced below as they are added. Until sources land, the literature-evidence sections are deliberately empty rather than guessed. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com), not on this public page; this page reports literature evidence and the applicable regulatory caps only.
+The Heavy Metal Index contact-product corpus reports element occurrence and migration in children's toys and mouthable articles; sources routed to this row are surfaced below as they are added. Until sources land, the literature-evidence sections are deliberately empty rather than guessed. Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 ## Methodology
 
@@ -59,7 +59,7 @@ The applicable regulatory jurisdictions for this row are: **CPSIA, CPSC (ASTM F9
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page. For this row the certification limit is set by the Method v2.0 government-limit lookup — the strictest credible government migration limit per analyte in the correct basis — not by an occurrence percentile. This public page reports literature evidence only.
+Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet. For this row the certification limit is set by the Method v2.0 government-limit lookup — the strictest credible government migration limit per analyte in the correct basis — not by an occurrence percentile. This public page reports literature evidence only.
 
 ## Historical recalls and enforcement
 
@@ -78,5 +78,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added |
 | [a31b0f2f5](https://github.com/paleofoundation/heavymetalindex/commit/a31b0f2f5) | 2026-08-10 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -6,8 +6,32 @@
     "tHg",
     "MeHg",
     "Cd",
-    "Sn"
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
   ],
+  "default_read_across": {
+    "Ni": {
+      "source_id": "eu2024_ni_seaweed_30000",
+      "label": "Sovereign marine-food read-across from the EU seaweed nickel maximum level (30000 ug/kg) where no species-specific seafood nickel limit exists. Seaweed retains its directly applicable value; other seafood rows disclose the matrix transfer."
+    },
+    "Al": {
+      "source_id": "aunz_sch19_al_formula_nonsoy_500",
+      "label": "Conservative finished-food read-across from the AU-NZ infant-formula aluminium maximum (500 ug/kg). No sovereign seafood-specific aluminium maximum is loaded; total Al remains tested and this transfer is disclosed rather than derived from occurrence data."
+    },
+    "Cr": {
+      "source_id": "in_fssai2016_crtotal_001_all_fishery_products_12000",
+      "label": "India FSSAI total-chromium maximum for all fishery products (12000 ug/kg); directly applicable to fishery rows and used as the nearest sovereign marine-food read-across for seaweed."
+    },
+    "Cr-VI": {
+      "control_only": true,
+      "bounded_by": "Cr",
+      "control": "Total chromium is measured on every lot. Any total-Cr result at or above 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails certification.",
+      "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (EPA 6800 / EN 15192 or equivalent)."
+    }
+  },
   "subcategories": {
     "seaweed-kelp-foods": {
       "name": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
@@ -42,12 +66,12 @@
       ],
       "read_across": {
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "Seaweed is a marine primary producer, not a predator; methylmercury does not biomagnify into algae, so MeHg is a negligible fraction of total mercury. Bounded by the tHg cell (Israel dried-seaweed tHg 2500): if tHg passes, MeHg is inherently far below any fish MeHg action level.",
           "reference_method": "Total-mercury screen (EPA 7473 / ICP-MS); reflex MeHg speciation (GC-ICP-MS, e.g. EPA 3200 / DIN EN 16801) only on a tHg exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Tin is a can-migration analyte, not a matrix-accumulation analyte. Dried seaweed foods (nori, wakame, kombu, dulse) are sold in non-metal packaging; with no tinplate contact there is no tin source. Every government tin ML in the register is either canned-product-only or an 'any food' catch-all set for can migration.",
           "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification on finished product."
         }
@@ -84,7 +108,7 @@
       ],
       "read_across": {
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Tin is a can-migration analyte; not material for fresh/frozen shellfish placed on market without a tinplate container. Every government Sn ML for fishery products is a canned-only limit (MX/CR/IN 100-200 mg/kg). Reflex to the canned-seafood subcategory standard if the product is canned.",
           "reference_method": "ICP-MS per EN 15763 / AOAC 2015.01"
         }
@@ -120,7 +144,7 @@
           "label": "No government sets a cephalopod-specific methylmercury ML. Read across from the non-predatory / general fishery MeHg value (Mexico NOM-242, other fishery products, 500 ug/kg): cephalopods are not high-trophic mercury accumulators, so the non-predatory fish MeHg tier is the nearest defensible value. Comparator vs any direct cephalopod MeHg limit."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Tin is a can-migration analyte; not material for fresh/frozen cephalopods placed on market without a tinplate container. Every government Sn ML for fishery products is a canned-only limit. Reflex to the canned-seafood subcategory standard if the product is canned.",
           "reference_method": "ICP-MS per EN 15763 / AOAC 2015.01; applies only if canned."
         }
@@ -147,7 +171,7 @@
       ],
       "read_across": {
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Fresh/frozen/refrigerated freshwater fish has no tinplate contact; inorganic tin is a canned-product migration pathway. Government Sn MLs for seafood (50-250 mg/kg) apply to canned product only. If the product is canned, it is certified under the canned-seafood subcategory Sn limit instead.",
           "reference_method": "ICP-MS per-lot screen; escalate to canned-seafood Sn limit if packaged in tinplate."
         }
@@ -227,7 +251,7 @@
       ],
       "read_across": {
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "canned-format gate: tin is regulated for seafood only as can/tinplate migration (MX 100000, CR/IN 200000 ug/kg, canned only); fresh/frozen fin-fish has no tin exposure pathway and no government sets a non-canned fish tin ML",
           "reference_method": "ICP-MS total tin on the edible portion; applies only if the product is canned (routed to the canned-seafood subcategory)"
         }
@@ -302,7 +326,7 @@
       ],
       "read_across": {
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Tin is a can-migration analyte only: it enters food by dissolution from tinplate can walls, and fresh, frozen, or otherwise non-canned predatory fish (whole, fillet, loin, or portion) has no tin source. No government sets a tin ML for non-canned fish anywhere in the register; every seafood tin limit is scoped to canned/tinplate product and is excluded by the compiler's canned-gate for this non-canned subcategory. Canned predatory-fish products are certified under the canned-seafood subcategory, where the governing tin ceiling is the canned-food ML (Codex CXS 193 / GSO / India canned foods 250000 ug/kg; Chile canned fish and shellfish 250000 ug/kg). For non-canned product, tin is controlled by screen, not limited: any result above the reporting limit is investigated as evidence of unintended metal contact rather than an inherent property of the fish.",
           "reference_method": "Total Sn by ICP-MS or ICP-OES (e.g. AOAC 985.16 / EN 15764); screen threshold for non-canned product set at the method LOQ, with any quantifiable tin triggering a packaging/contact-material investigation."
         }

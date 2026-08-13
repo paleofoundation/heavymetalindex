@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-pads.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 14a0061ad8bc714337669e4ea1c2bd5297c55eb0a93ceb1b85e884ca8806d8f0
+source_page_sha256: 4f554bec443d5cf4eb854149befb1ae2b0fa45a6c1109946be64fa2708643373
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

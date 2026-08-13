@@ -120,7 +120,7 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 
 ## Implications
 
-**Certification.** Group-mean Pb and Sn in canned tomato mix from Winneba retail are both well below Codex MLs (0.1 mg/kg for Pb in processed tomato; 250 mg/kg for Sn). However, the Pb maximum of 0.51 mg/kg in a sunlight-exposed sample exceeds the Codex ML by 5×, and the Monte Carlo–derived ILCR and MoE values flag tail-risk sub-populations in every display × gender stratum, even where group means imply protection. Certification programs reading this study should not over-index on group means: a percentile-based certification (the HMTc P97 framework for clean categories per [[docs/standards-methodology]]) would catch the 0.51 mg/kg outlier in the sunlight stratum, whereas a mean-based certification would miss it entirely. The display-condition contrast did not produce a statistically significant mean shift in this single-brand study, so claims that sunlight exposure measurably raises Pb in canned tomato paste require larger or multi-brand replication.
+**Certification context.** Group-mean Pb and Sn in canned tomato mix from Winneba retail are both below Codex MLs (0.1 mg/kg for Pb in processed tomato; 250 mg/kg for Sn). However, the Pb maximum of 0.51 mg/kg in a sunlight-exposed sample exceeds the Codex ML by 5×, and the Monte Carlo-derived ILCR and MoE values flag tail-risk sub-populations even where group means imply protection. The maximum is therefore important occurrence and surveillance evidence, but it does not select an HMTc initial limit. The display-condition contrast did not produce a statistically significant mean shift in this single-brand study, so claims that sunlight exposure measurably raises Pb require larger or multi-brand replication.
 
 **Courses.** Useful teaching case for probabilistic risk assessment in a developing-country retail context: the gap between group-mean concentrations (which all sit below regulatory limits) and 5th-percentile MoE / 95th-percentile ILCR values (which all flag concern) is a clean illustration of why dietary risk cannot be reduced to "is the mean below the limit". The single-high-Pb sample driving group SE is a teaching case for why robust statistics matter when a category contains rare extreme values.
 
@@ -157,9 +157,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

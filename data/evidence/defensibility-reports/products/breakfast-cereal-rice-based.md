@@ -2,7 +2,7 @@
 source_page: wiki/products/breakfast-cereal-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 960d38099fd613c3ae07871f5177d0d3663fd7a6d3035ed9e054de67deecf8b6
+source_page_sha256: fc1f772c63b0d964cdfc96efc4e5803c11d7edb239a6404b17ec8a584c1dd33c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

@@ -27,7 +27,7 @@ cc_relationship:
       partner_type: row
       role_of_partner: clean_benchmark
       metals: [Cd, Pb]
-      notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
+      notes: "Cross-row CC: lower-occurrence counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
@@ -85,7 +85,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+**HMT&C threshold-setting is separate.** Initial HMT&C limits are compiled separately at heavymetalcertified.com under the government-limit-only method; this public page reports descriptive literature evidence and does not select a certification value or status. Later tightening may use only eligible HMTc certified-lot data under the Standards Ratchet.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -96,9 +96,9 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 20 ug/kg Pb. Scope: single-ingredient root vegetables for children under 2. Basis: as sold or ready-to-eat as applicable. | FDA root vegetable baby-food samples: Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb. Parker 2022 root-vegetable baby foods: Pb mean 15.8 ppb, median 5 ppb, max 48 ppb. | Root-vegetable occurrence is close to or above the 20 ppb FDA action level at upper-end observations; the contaminated-platform HMTc P10 aggregate still needs a second fit distribution-capable source. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | FDA root vegetable baby-food samples: Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb. Parker 2022 root-vegetable baby foods: Pb mean 15.8 ppb, median 5 ppb, max 48 ppb. | Some upper-end product-row values exceed the EU 20 ppb maximum where comparable; the contaminated-platform HMTc P10 aggregate still needs a second fit distribution-capable source. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
-| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | FDA root vegetable baby-food samples: Cd p50 8.7 ppb, p90 31.5 ppb, p95 39.6 ppb, max 42 ppb. Parker 2022 root-vegetable baby foods: Cd mean 3.8 ppb, median 5 ppb, max 5 ppb. | FDA lower-bound p90 and p95 sit below the EU 40 ppb maximum, while the FDA max slightly exceeds it; the contaminated-platform HMTc P10 aggregate still needs a second fit distribution-capable source. | [[regulations/eu-2023-915-cadmium]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 20 ug/kg Pb. Scope: single-ingredient root vegetables for children under 2. Basis: as sold or ready-to-eat as applicable. | FDA root vegetable baby-food samples: Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb. Parker 2022 root-vegetable baby foods: Pb mean 15.8 ppb, median 5 ppb, max 48 ppb. | Root-vegetable occurrence is close to or above the 20 ppb FDA action level at upper-end observations. The occurrence distribution is contextual and does not select the initial HMTc value. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | FDA root vegetable baby-food samples: Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb. Parker 2022 root-vegetable baby foods: Pb mean 15.8 ppb, median 5 ppb, max 48 ppb. | Some upper-end product-row values exceed the EU 20 ppb maximum where comparable. The occurrence distribution is contextual and does not select the initial HMTc value. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | FDA root vegetable baby-food samples: Cd p50 8.7 ppb, p90 31.5 ppb, p95 39.6 ppb, max 42 ppb. Parker 2022 root-vegetable baby foods: Cd mean 3.8 ppb, median 5 ppb, max 5 ppb. | FDA lower-bound p90 and p95 sit below the EU 40 ppb maximum, while the FDA max slightly exceeds it. The occurrence distribution is contextual and does not select the initial HMTc value. | [[regulations/eu-2023-915-cadmium]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -490,9 +490,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 4 sources added; 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

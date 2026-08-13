@@ -2,7 +2,7 @@
 source_page: wiki/products/grain-based-snacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ce19d1a59e922ab943944ef04d10b870538280d4e10243b33c9d80bed39a1c88
+source_page_sha256: 30e80183f75bc802ac28e7226381610b264a75997a40d8a3acc144ee882cb83b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

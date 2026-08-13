@@ -2,7 +2,7 @@
 source_page: wiki/products/poultry-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5deab6711c7bfc720bab26ee201ed607a450013244fa8e56baa018880b64a740
+source_page_sha256: 88bc44f4b153dfe6dcb4cee22ebfe7b9e6c67017972206af2a5dfad441be2a36
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

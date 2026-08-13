@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-rattles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8cb89770fdd10a1eb5463fe3fe13a2df19fd539cee724753bf40a55d9b4042eb
+source_page_sha256: ce880cf88161b04cea98917a03b90525ac2a18f7d0daa5726f25059d5d5a308d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

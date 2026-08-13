@@ -2,7 +2,7 @@
 source_page: wiki/products/leave-on-hair-preparations.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ce426313096ee796cea711dbe2a654fe7fcdda2614ce4dde2b4fe497cfd9d336
+source_page_sha256: db7b46758caf1d9bcb6b4eef31ac6b72d3578c00c2aeb9a8f930b62a93108242
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

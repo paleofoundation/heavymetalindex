@@ -2,7 +2,7 @@
 source_page: wiki/products/mouthwash-oral-rinse.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0098ede2e0fc571448ea69f3ecf285a7967647ec81ad48ad375800291dbd489f
+source_page_sha256: afdbc64618b346519745d1e594ae7a4fdcedd8baface033e174c06d85f80498a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

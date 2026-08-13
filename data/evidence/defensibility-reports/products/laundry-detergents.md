@@ -2,7 +2,7 @@
 source_page: wiki/products/laundry-detergents.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b9b31ed731e12ca8d9ea57cfb85fb2c97179720ee9152afb7094e816327af621
+source_page_sha256: a2007bb8a865e2dd82781f05a3c312fe2565357a2d84e584baaa938e21e54dca
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

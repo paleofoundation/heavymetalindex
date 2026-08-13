@@ -2,7 +2,7 @@
 source_page: wiki/products/non-root-vegetables.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7afbf18a3cb0748d75996be34549970a428f3177501497fa80b2c884d28c9797
+source_page_sha256: 03f69045a8edb4f9709492059727675caf7e229afed6aa09a399c36514a79c6e
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0

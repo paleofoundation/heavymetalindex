@@ -1,6 +1,8 @@
 # Category 6 — Seafood — Step Zero Amendment 1 (decision; staged execution)
 
-**Status:** Active decision, 2026-06-09. Amends `category-6-step0-lock.md` (locked 2026-06-02) under
+> **Historical lock event; limit-setting method superseded 2026-08-12.** Taxonomy and row-identity decisions remain part of the record. Any P45/P97, literature-baseline, occurrence-selected, or occurrence-ratchet language below is not current HMTc methodology.
+
+**Status:** Historical decision record, 2026-06-09. Amends `category-6-step0-lock.md` (locked 2026-06-02) under
 the authority of `taxonomy-reorganization-2026-06.md` (v2.1) and the canned/tin rule now in
 `docs/standards-methodology.md`. This is a new Step Zero lock *event*, not an in-place edit, per the
 never-renumber identity guardrail.

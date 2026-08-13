@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-probiotics.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: aa7f319ab586b9523553689cecf3039c02e52ecad58f221f73d3525c7258c45e
+source_page_sha256: 78b53fe943b6956de916abd389106e75b277293d1fe3e3f47398c618d65c95ac
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

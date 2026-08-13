@@ -2,7 +2,7 @@
 source_page: wiki/products/body-wash-shower-gel.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 123319e18925edf7a0a54f2eb234c4851d86a1e49112771b1fc8b6505db18be2
+source_page_sha256: bca2662f38fb32b9ef8ef28a6ec68c779878025a48aaf2e858c2da8006a65b86
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

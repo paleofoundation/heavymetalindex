@@ -10,14 +10,14 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 1,Infant and Child Foods (Ages 0-5),9,Teething & snacks (rice-based and non-rice),teething-and-snacks,exact,root-vegetable-purees.md,root-vegetable-purees,1,9,
 2,Infant and Child Personal Care (Ages 0-5),1,Baby lotion and cream,baby-lotion-cream,exact,baby-lotion-cream.md,baby-lotion-cream,2,1,
 2,Infant and Child Personal Care (Ages 0-5),2,Baby oil,baby-oil,exact,baby-oil.md,baby-oil,2,2,
-2,Infant and Child Personal Care (Ages 0-5),3,"Baby powder, cornstarch base (clean counterpart)",baby-powder-cornstarch,exact,baby-powder-cornstarch.md,baby-powder-cornstarch,2,3,
-2,Infant and Child Personal Care (Ages 0-5),4,"Baby talcum powder (talc, dirty)",baby-talcum-powder,exact,baby-talcum-powder.md,baby-talcum-powder,2,4,
+2,Infant and Child Personal Care (Ages 0-5),3,"Baby powder, cornstarch base",baby-powder-cornstarch,exact,baby-powder-cornstarch.md,baby-powder-cornstarch,2,3,
+2,Infant and Child Personal Care (Ages 0-5),4,Baby talcum powder (talc),baby-talcum-powder,exact,baby-talcum-powder.md,baby-talcum-powder,2,4,
 2,Infant and Child Personal Care (Ages 0-5),5,Baby shampoo and body wash,baby-shampoo-body-wash,exact,baby-shampoo-body-wash.md,baby-shampoo-body-wash,2,5,
 2,Infant and Child Personal Care (Ages 0-5),6,Baby wipes,baby-wipes,exact,baby-wipes.md,baby-wipes,2,6,
 2,Infant and Child Personal Care (Ages 0-5),7,"Diaper cream, non-ZnO",diaper-cream-non-zno,exact,diaper-cream-non-zno.md,diaper-cream-non-zno,2,7,
 2,Infant and Child Personal Care (Ages 0-5),8,"Diaper cream, ZnO-based",diaper-cream-zno,exact,diaper-cream-zno.md,diaper-cream-zno,2,8,
-2,Infant and Child Personal Care (Ages 0-5),9,"Baby sunscreen, chemical UV filters (clean)",baby-sunscreen-chemical,exact,baby-sunscreen-chemical.md,baby-sunscreen-chemical,2,9,
-2,Infant and Child Personal Care (Ages 0-5),10,"Baby sunscreen, mineral UV filters (dirty)",baby-sunscreen-mineral,exact,baby-sunscreen-mineral.md,baby-sunscreen-mineral,2,10,
+2,Infant and Child Personal Care (Ages 0-5),9,"Baby sunscreen, chemical UV filters",baby-sunscreen-chemical,exact,baby-sunscreen-chemical.md,baby-sunscreen-chemical,2,9,
+2,Infant and Child Personal Care (Ages 0-5),10,"Baby sunscreen, mineral UV filters",baby-sunscreen-mineral,exact,baby-sunscreen-mineral.md,baby-sunscreen-mineral,2,10,
 2,Infant and Child Personal Care (Ages 0-5),11,Children's toothpaste,toothpaste,exact,toothpaste.md,toothpaste,2,11,
 2,Infant and Child Personal Care (Ages 0-5),12,Children's face paint,face-paint,exact,face-paint.md,face-paint,2,12,
 2,Infant and Child Personal Care (Ages 0-5),13,Children's makeup,childrens-makeup,exact,childrens-makeup.md,childrens-makeup,2,13,
@@ -35,12 +35,12 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 3,"Grains, Cereals, and Rice Products",9,Rice noodles,rice-noodles,exact,rice-noodles.md,rice-noodles,3,9,scaffold
 3,"Grains, Cereals, and Rice Products",10,Rice beverages (rice milk),rice-beverages-rice-milk,exact,snacks-general.md,snacks-general,3,10,scaffold
 3,"Grains, Cereals, and Rice Products",11,"Other grain products (oat, millet, quinoa, barley)",other-grain-products,exact,other-grain-products.md,other-grain-products,3,11,scaffold
-3,"Grains, Cereals, and Rice Products",12,"Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks",grain-based-snacks,exact,snack-bars-energy-bars.md,snack-bars-energy-bars,3,12,
+3,"Grains, Cereals, and Rice Products",12,"Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice",grain-based-snacks,exact,snack-bars-energy-bars.md,snack-bars-energy-bars,3,12,
 4,"Fruits, Vegetables, and Produce",1,Fresh/frozen fruits,fresh-fruit,exact,fresh-fruit.md,fresh-fruit,4,1,
 4,"Fruits, Vegetables, and Produce",2,Dried fruit,dried-fruit,exact,dried-fruit.md,dried-fruit,4,2,
 4,"Fruits, Vegetables, and Produce",3,Fruit snacks,fruit-snacks,exact,fruit-snacks.md,fruit-snacks,4,3,
-4,"Fruits, Vegetables, and Produce",4,"Leafy/green vegetables, other (clean vs spinach)",leafy-vegetables-other,exact,leafy-vegetables-other.md,leafy-vegetables-other,4,4,
-4,"Fruits, Vegetables, and Produce",5,"Spinach (Cd, dirty)",spinach,exact,spinach.md,spinach,4,5,
+4,"Fruits, Vegetables, and Produce",4,"Leafy/green vegetables, other",leafy-vegetables-other,exact,leafy-vegetables-other.md,leafy-vegetables-other,4,4,
+4,"Fruits, Vegetables, and Produce",5,Spinach,spinach,exact,spinach.md,spinach,4,5,
 4,"Fruits, Vegetables, and Produce",6,Non-root vegetables,non-root-vegetables,exact,non-root-vegetables.md,non-root-vegetables,4,6,
 4,"Fruits, Vegetables, and Produce",7,Root and tuber vegetables,root-tuber-vegetables,exact,root-tuber-vegetables.md,root-tuber-vegetables,4,7,
 4,"Fruits, Vegetables, and Produce",8,"Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)",pickled-fermented-vegetables,exact,pickled-fermented-vegetables.md,pickled-fermented-vegetables,4,8,scaffold
@@ -149,9 +149,9 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 13,Cosmetics and Personal Care — Leave-on,14,Tattoo inks (permanent and temporary),tattoo-inks,exact,tattoo-inks.md,tattoo-inks,13,14,scaffold
 13,Cosmetics and Personal Care — Leave-on,15,Other leave-on preparations (case-by-case),leave-on-preparations-other,exact,leave-on-preparations-other.md,leave-on-preparations-other,13,15,scaffold
 13,Cosmetics and Personal Care — Leave-on,16,"Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",traditional-eye-cosmetics,exact,traditional-eye-cosmetics.md,traditional-eye-cosmetics,13,16,scaffold
-13,Cosmetics and Personal Care — Leave-on,17,"Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)",sun-suntan-mineral,exact,sun-suntan-mineral.md,sun-suntan-mineral,13,17,scaffold
-13,Cosmetics and Personal Care — Leave-on,18,"Dusting powder, cornstarch base (clean sibling of r2 talc)",dusting-powder-cornstarch-adult,exact,dusting-powder-cornstarch-adult.md,dusting-powder-cornstarch-adult,13,18,scaffold
-13,Cosmetics and Personal Care — Leave-on,19,"Antiperspirant (Al-salt, dirty sibling of r9 deodorant)",antiperspirant,exact,antiperspirant.md,antiperspirant,13,19,scaffold
+13,Cosmetics and Personal Care — Leave-on,17,"Sun/suntan products, mineral UV filters",sun-suntan-mineral,exact,sun-suntan-mineral.md,sun-suntan-mineral,13,17,scaffold
+13,Cosmetics and Personal Care — Leave-on,18,"Dusting powder, cornstarch base",dusting-powder-cornstarch-adult,exact,dusting-powder-cornstarch-adult.md,dusting-powder-cornstarch-adult,13,18,scaffold
+13,Cosmetics and Personal Care — Leave-on,19,Antiperspirant (Al-salt),antiperspirant,exact,antiperspirant.md,antiperspirant,13,19,scaffold
 14,Cosmetics and Personal Care — Rinse-off,1,Shampoo (general adult),shampoo-adult,exact,shampoo-adult.md,shampoo-adult,14,1,scaffold
 14,Cosmetics and Personal Care — Rinse-off,2,"Conditioner (general adult, rinse-out)",conditioner-adult-rinse-out,exact,conditioner-adult-rinse-out.md,conditioner-adult-rinse-out,14,2,scaffold
 14,Cosmetics and Personal Care — Rinse-off,3,Body wash/shower gel,body-wash-shower-gel,exact,body-wash-shower-gel.md,body-wash-shower-gel,14,3,scaffold
@@ -195,7 +195,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 16,Dietary Supplements (Human),19,Ingredient class — algae/seaweed-based,supplements-algae-seaweed-based,exact,supplements-algae-seaweed-based.md,supplements-algae-seaweed-based,16,19,scaffold
 16,Dietary Supplements (Human),20,Ingredient class — protein/collagen powders,supplements-protein-collagen-powders,exact,supplements-protein-collagen-powders.md,supplements-protein-collagen-powders,16,20,scaffold
 16,Dietary Supplements (Human),21,Ingredient class — oil-based supplements (fish oil/omega-3 and similar),supplements-oil-based,exact,supplements-oil-based.md,supplements-oil-based,16,21,scaffold
-16,Dietary Supplements (Human),22,"Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty",supplements-clay-mineral-earth,exact,supplements-clay-mineral-earth.md,supplements-clay-mineral-earth,16,22,scaffold
+16,Dietary Supplements (Human),22,"Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As occurrence priority",supplements-clay-mineral-earth,exact,supplements-clay-mineral-earth.md,supplements-clay-mineral-earth,16,22,scaffold
 16,Dietary Supplements (Human),23,"Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",supplements-mushroom-fungal,exact,supplements-mushroom-fungal.md,supplements-mushroom-fungal,16,23,scaffold
 16,Dietary Supplements (Human),24,Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator),supplements-greens-superfood,exact,supplements-greens-superfood.md,supplements-greens-superfood,16,24,scaffold
 17,Pet Foods,1,Complete & balanced dry (kibble),pet-food-dry-kibble,exact,pet-food-dry-kibble.md,pet-food-dry-kibble,17,1,scaffold
@@ -207,7 +207,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 17,Pet Foods,7,Pet chews (including dental chews),pet-chews-dental,exact,pet-chews-dental.md,pet-chews-dental,17,7,scaffold
 17,Pet Foods,8,Toppers/mixers/broths,pet-toppers-mixers-broths,exact,pet-toppers-mixers-broths.md,pet-toppers-mixers-broths,17,8,scaffold
 17,Pet Foods,9,Milk replacers and specialty pet liquids,pet-milk-replacers-specialty-liquids,exact,pet-milk-replacers-specialty-liquids.md,pet-milk-replacers-specialty-liquids,17,9,scaffold
-17,Pet Foods,10,Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix),pet-food-fish-marine-protein,exact,pet-food-fish-marine-protein.md,pet-food-fish-marine-protein,17,10,scaffold
+17,Pet Foods,10,Fish-based / marine-protein complete diets (iAs/MeHg/tHg occurrence priority),pet-food-fish-marine-protein,exact,pet-food-fish-marine-protein.md,pet-food-fish-marine-protein,17,10,scaffold
 18,Pet Supplements,1,Vitamin/mineral supplements,pet-supplements-vitamin-mineral,exact,pet-supplements-vitamin-mineral.md,pet-supplements-vitamin-mineral,18,1,scaffold
 18,Pet Supplements,2,"Oils (omega-3, fish oil, coconut oil)",pet-supplements-oils,exact,pet-supplements-oils.md,pet-supplements-oils,18,2,scaffold
 18,Pet Supplements,3,Probiotics/digestive aids,pet-supplements-probiotics-digestive,exact,pet-supplements-probiotics-digestive.md,pet-supplements-probiotics-digestive,18,3,scaffold
@@ -333,8 +333,8 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 28,"Nuts, Seeds, and Their Butters",3,Sunflower seeds,sunflower-seeds,exact,sunflower-seeds.md,sunflower-seeds,28,3,
 28,"Nuts, Seeds, and Their Butters",4,"Nut and seed butters, other",nut-seed-butters-other,exact,nut-seed-butters-other.md,nut-seed-butters-other,28,4,
 28,"Nuts, Seeds, and Their Butters",5,Sunflower-seed butter,sunflower-seed-butter,exact,sunflower-seed-butter.md,sunflower-seed-butter,28,5,
-29,Edible Fungi,1,Mushrooms — cultivated (clean counterpart),cultivated-mushrooms,exact,cultivated-mushrooms.md,cultivated-mushrooms,29,1,scaffold
-29,Edible Fungi,2,Mushrooms — wild and processed-wild (contaminated),wild-mushrooms,exact,wild-mushrooms.md,wild-mushrooms,29,2,scaffold
+29,Edible Fungi,1,Mushrooms — cultivated,cultivated-mushrooms,exact,cultivated-mushrooms.md,cultivated-mushrooms,29,1,scaffold
+29,Edible Fungi,2,Mushrooms — wild and processed-wild,wild-mushrooms,exact,wild-mushrooms.md,wild-mushrooms,29,2,scaffold
 30,Culinary Oils and Fats,1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,30,1,locked
 30,Culinary Oils and Fats,2,"Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,30,2,locked
 31,Sweeteners and Syrups,1,Honey,honey,exact,honey.md,honey,31,1,locked

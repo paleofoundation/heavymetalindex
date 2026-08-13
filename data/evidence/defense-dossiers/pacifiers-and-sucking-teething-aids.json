@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pacifiers-and-sucking-teething-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "502d40a089cf68b459d2f7c2987bccc7e46c632512ce8812c75c9aca4c3800f7",
-      "content_bytes": 13453,
-      "last_commit_sha": "a31b0f2f5",
-      "last_commit_date": "2026-08-10",
+      "content_sha256": "b25c72a95f907ff9f0ddddc5038daf8ba3c3c170fe837eb1e2ed617fce6dcb02",
+      "content_bytes": 13614,
+      "last_commit_sha": "880cf9722",
+      "last_commit_date": "2026-08-12",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show a31b0f2f5:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
+      "verify_command": "git show 880cf9722:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -113,12 +113,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "f6c3b9c43256a5d038785859915db82fa47933ea328158db9c7e7e7b218e5395",
-          "content_bytes": 24875,
-          "last_commit_sha": "16152fc2a",
+          "content_sha256": "725f68c66809233ba3f0ef37458658742318311cb7ccf289202d9c2e4e33fb8b",
+          "content_bytes": 24873,
+          "last_commit_sha": "4aa8d0407",
           "last_commit_date": "2026-08-11",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 16152fc2a:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show 4aa8d0407:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
         }
       },
       {

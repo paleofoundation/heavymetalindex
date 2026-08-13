@@ -2,7 +2,7 @@
 source_page: wiki/products/carpet-spot-removers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8015f1029e0b027505bd1e566f3c1894d19b0cd6265b0489f5a11115987a544e
+source_page_sha256: d0bf413d7b6ae1e07502284f1cab06a4931e865f8302adec2a6a9eec990dc0fa
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

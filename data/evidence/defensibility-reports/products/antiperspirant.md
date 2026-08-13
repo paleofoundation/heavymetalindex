@@ -2,7 +2,7 @@
 source_page: wiki/products/antiperspirant.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: eb2aebe2a304ba9cd737bf645ae75df519364bcfe2fd25d14a8917175740e481
+source_page_sha256: 28c0cadaefa255fbb11fee3b11a5030a4e541e7abda0ab3f7c651ef058c65e8f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

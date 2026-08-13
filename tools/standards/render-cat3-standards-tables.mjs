@@ -30,8 +30,9 @@ function cellText(c) {
   if (!c) return "—"
   if (c.type === "gov") return `**${c.value}** ${c.binding_jurisdiction}`
   if (c.type === "read_across") {
-    if (c.basis_kind === "occurrence") return `${c.value} (occ)`
-    if (c.basis_kind === "precautionary") return `${c.value} (prec)`
+    if (c.basis_kind === "occurrence" || c.basis_kind === "precautionary") {
+      throw new Error(`Retired ${c.basis_kind} basis reached Cat-3 renderer`)
+    }
     return `${c.value} (RA ${c.source_jurisdiction})`
   }
   if (c.type === "not_material") return "n/m"

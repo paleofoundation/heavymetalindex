@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-balls.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ad3682e5a41fb461f6a97bcee25f2137ab4f5d2ead0033757653a1f646d6e045
+source_page_sha256: ddff68f0fc98d732bd2350cd4c501977b4eb36e39c99452efb4acc855dd80c7e
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

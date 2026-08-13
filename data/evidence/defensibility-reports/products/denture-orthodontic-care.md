@@ -2,7 +2,7 @@
 source_page: wiki/products/denture-orthodontic-care.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 745e7e4ad28eec23731b361d9ce31955ce5ac6ba9a950d14a6ea99e47db46acd
+source_page_sha256: 29e46c6579690d58061c7ec457f0b1242a5127825fbb9a7de59f68ba12548068
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

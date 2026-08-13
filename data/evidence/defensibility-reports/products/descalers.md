@@ -2,7 +2,7 @@
 source_page: wiki/products/descalers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ce4eddd64d06b3b50b836540c773f583d37c61861c175ae5ab3c893dff1793d0
+source_page_sha256: c885d6e010dedecea1fc7c2ddbf8dfe540570cc006ee712a716b992285d09225
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

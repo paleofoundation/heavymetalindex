@@ -98,7 +98,7 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 
 Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
 
-Contamination platform notes: Rice is a known contamination platform for iAs, Cd, and Pb. Non-rice grains are the clean counterpart.
+Contamination platform notes: Rice is a known contamination platform for iAs, Cd, and Pb. Non-rice grains are the lower-occurrence counterpart.
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
@@ -158,7 +158,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 
 Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
 
-Contamination platform notes: Predatory fish are a contamination platform for MeHg. Seaweed is a contamination platform for iAs and Cd. Non-predatory fish and shellfish are the clean counterparts for Hg.
+Contamination platform notes: Predatory fish are a contamination platform for MeHg. Seaweed is a contamination platform for iAs and Cd. Non-predatory fish and shellfish are the lower-occurrence counterparts for Hg.
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
@@ -581,7 +581,7 @@ Re-cut from Cat 4 under v2.2 ([[docs/governance/category-4-split-step0-amendment
 
 Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
 
-Re-cut from Cat 4 under v2.2. Cd (sunflower seed, cashew) and Ni (cashew); within-family clean/dirty splits. Peanuts and peanut butter route to Cat 27.
+Re-cut from Cat 4 under v2.2. Cd (sunflower seed, cashew) and Ni (cashew); within-family occurrence contrasts are retained for descriptive routing only. Peanuts and peanut butter route to Cat 27. Initial HMTc limits do not vary from those contrasts; they come from the applicable sovereign-government compiler.
 
 1. [[products/nuts-seeds-other|Tree nuts and seeds (whole, raw, roasted)]] (11 sources)
 2. [[products/cashews|Cashews]] (6 sources)
@@ -593,9 +593,9 @@ Re-cut from Cat 4 under v2.2. Cd (sunflower seed, cashew) and Ni (cashew); withi
 
 Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
 
-Re-cut from Cat 4 under v2.2. Fungi are a distinct kingdom, not produce. Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the clean counterpart.
+Re-cut from Cat 4 under v2.2. Fungi are a distinct kingdom, not produce. Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the lower-occurrence counterpart.
 
-1. [[products/cultivated-mushrooms|Mushrooms — cultivated (clean counterpart)]] (2 sources)
+1. [[products/cultivated-mushrooms|Mushrooms — cultivated (lower-occurrence counterpart)]] (2 sources)
 2. [[products/wild-mushrooms|Mushrooms — wild and processed-wild (contaminated platform)]] (7 sources)
 
 ## HMTc Category 30: Culinary Oils and Fats
@@ -661,73 +661,6 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 Composite — inherits its component-matrix platforms; provisional until component evidence accumulates. Route by dominant ingredient.
 
 1. [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]] (16 sources)
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Change | Description |
-| --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
-| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 38 removed; narrative text revised |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-<!-- END: hmi-page-history -->
-
-<!-- BEGIN: hmi-auto-linked-stubs -->
-
-## Additional indexed pages
-
-_Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
-
-- [[products/antiperspirant|Antiperspirant (Al-salt, dirty sibling of r9 deodorant)]] (0 sources)
-- [[products/baby-food|Baby Food]] (9 sources)
-- [[products/bar-bath-soap|Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)]] (0 sources)
-- [[products/bouillon-seasoning-blends|Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)]] (0 sources)
-- [[products/cereal-meals|Cereal Meals]] (2 sources)
-- [[products/cereal-products|Cereal Products]] (6 sources)
-- [[products/cocoa-beverage-mixes|Cocoa/hot-chocolate beverage mixes and malted drink powders]] (0 sources)
-- [[products/dietary-supplements|Dietary Supplements]] (29 sources)
-- [[products/disinfectants-sanitizers|Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)]] (0 sources)
-- [[products/dusting-powder-cornstarch-adult|Dusting powder, cornstarch base (clean sibling of r2 talc)]] (0 sources)
-- [[products/grain-based-snacks|Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks]] (0 sources)
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]] (36 sources)
-- [[products/infant-cereal|Infant Cereal]] (15 sources)
-- [[products/infant-food-fruits|Infant Food Fruits]] (0 sources)
-- [[products/infant-food-powder|Infant Food Powder]] (2 sources)
-- [[products/infant-food-puree|Infant Food Puree]] (0 sources)
-- [[products/infant-food-puree-fish|Infant Food Puree Fish]] (0 sources)
-- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]] (0 sources)
-- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]] (0 sources)
-- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]] (0 sources)
-- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]] (0 sources)
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]] (1 source)
-- [[products/infant-food-vegetables|Infant Food Vegetables]] (0 sources)
-- [[products/infant-formula|Infant Formula]] (25 sources)
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]] (2 sources)
-- [[products/infant-formula-powder-soy|Infant Formula Powder Soy]] (2 sources)
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]] (2 sources)
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]] (1 source)
-- [[products/infant-formula-stage1|Infant Formula Stage1]] (1 source)
-- [[products/infant-juice|Infant Juice]] (1 source)
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]] (0 sources)
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]] (1 source)
-- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]] (1 source)
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]] (1 source)
-- [[products/peptides-nasal-sublingual|Nasal/sublingual/troche gray-market peptide preparations (mucosal route)]] (0 sources)
-- [[products/pet-food-fish-marine-protein|Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)]] (0 sources)
-- [[products/pickled-fermented-vegetables|Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)]] (0 sources)
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]] (4 sources)
-- [[products/plant-based-meat-alternatives|Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)]] (0 sources)
-- [[products/snacks-general|Snacks, General]] (2 sources)
-- [[products/soups-broths-stocks|Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)]] (0 sources)
-- [[products/sun-suntan-mineral|Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)]] (0 sources)
-- [[products/supplements-clay-mineral-earth|Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty]] (0 sources)
-- [[products/supplements-greens-superfood|Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)]] (0 sources)
-- [[products/supplements-mushroom-fungal|Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)]] (0 sources)
-- [[products/traditional-eye-cosmetics|Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform]] (0 sources)
-<!-- END: hmi-auto-linked-stubs -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -736,9 +669,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [880cf9722](https://github.com/paleofoundation/heavymetalindex/commit/880cf9722) | 2026-08-12 | major | 2 sections removed; narrative text revised |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added; narrative text revised |
 | [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
 | [9882fa9f2](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f2) | 2026-08-04 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

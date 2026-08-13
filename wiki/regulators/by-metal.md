@@ -3,7 +3,7 @@ title: "Regulatory positions by metal"
 description: "Every tracked regulatory body's stance on each metal, side by side. Auto-regenerated from wiki/static/regulations.json on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 # Regulatory positions by metal
