@@ -208,5 +208,5 @@
   "generated_from": "data/evidence/regulatory_limits.csv",
   "config": "tools/standards/cat28-config.json",
   "method": "HMTc Method v2.0 (government-limit default; regulatory-alignment / read-across / not-material / control)",
-  "lineage": "Cat-28 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (Cd: sunflower/linseed 500, tree nuts 200, oilseeds general 100, pine nuts 300), EU Reg. 2024/1987 (Ni: tree nuts 3500 / listed high-Ni nuts incl. cashew 10000 / sunflower seed 8000), Israel FCS-2016 (oilseeds: Pb 1000 / Cd 500 / tAs 1000 / tHg 400), Switzerland VHK 2026 (cashew Ni 10000)."
+  "lineage": "Cat-28 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (Cd: sunflower/linseed 500, tree nuts 200, oilseeds general 100, pine nuts 300), EU Reg. 2024/1987 (Ni: general tree nuts 3500 / listed high-Ni nuts — cashew, walnut, pine nut, Brazil nut, chestnut — 10000 / sunflower seed 8000), Israel FCS-2016 (oilseeds: Pb 1000 / Cd 500 / tAs 1000 / tHg 400), Switzerland VHK 2026 (cashew Ni 10000). High-nickel tree-nut split (walnut/pine/Brazil/chestnut → tree-nuts-high-nickel) ratified 2026-08-13 per OI-20260813-nuts-high-nickel-split."
 }

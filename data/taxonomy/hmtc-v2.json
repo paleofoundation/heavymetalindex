@@ -788,11 +788,12 @@
       "exposure_pathway": "Ingestion (oral)",
       "regulatory_jurisdiction": "FDA, EU, Codex",
       "subcategories": [
-        { "row": 1, "name": "Tree nuts and seeds (whole, raw, roasted)", "slug": "nuts-seeds-other" },
+        { "row": 1, "name": "General tree nuts and seeds (whole, raw, roasted)", "slug": "nuts-seeds-other" },
         { "row": 2, "name": "Cashews", "slug": "cashews" },
         { "row": 3, "name": "Sunflower seeds", "slug": "sunflower-seeds" },
         { "row": 4, "name": "Nut and seed butters, other", "slug": "nut-seed-butters-other" },
-        { "row": 5, "name": "Sunflower-seed butter", "slug": "sunflower-seed-butter" }
+        { "row": 5, "name": "Sunflower-seed butter", "slug": "sunflower-seed-butter" },
+        { "row": 6, "name": "High-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts)", "slug": "tree-nuts-high-nickel" }
       ],
       "boundary_rules": [
         "Peanuts and peanut butter route to Cat 27 (Legumes), not here.",
@@ -811,8 +812,9 @@
       "exposure_pathway": "Ingestion (oral)",
       "regulatory_jurisdiction": "FDA, EU, Codex",
       "subcategories": [
-        { "row": 1, "name": "Mushrooms — cultivated (clean counterpart)", "slug": "cultivated-mushrooms" },
-        { "row": 2, "name": "Mushrooms — wild and processed-wild (contaminated)", "slug": "wild-mushrooms" }
+        { "row": 1, "name": "Mushrooms — cultivated common (button/Agaricus; clean counterpart)", "slug": "cultivated-mushrooms" },
+        { "row": 2, "name": "Mushrooms — wild and processed-wild (contaminated)", "slug": "wild-mushrooms" },
+        { "row": 3, "name": "Mushrooms — oyster and shiitake (cadmium accumulators)", "slug": "cultivated-mushrooms-oyster-shiitake" }
       ],
       "boundary_rules": [
         "Fungi are a distinct kingdom, not produce; this category holds edible fungi (mushrooms now; truffles and others later).",

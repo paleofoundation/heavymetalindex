@@ -1,10 +1,10 @@
 {
   "_doc": "Category-28 (Nuts, Seeds, and Their Butters) compiler config for tools/standards/compile-cat28.mjs — HMTc Method v2.0 (government-limit default). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex and the strictest applicable credible sovereign maximum, in the row's native basis. Occurrence evidence is descriptive market characterisation and can NEVER select an initial limit.",
   "_method_note": "native_basis is as_sold (dry commodity / paste) for every subcategory; reconstitution_8to1 is false everywhere and exclude_as_consumed drops prepared-state MLs. Cd, Pb, tAs, tHg, and Ni are government-regulated for the nut/seed family and resolve to the strictest sovereign ML. iAs (arsenic does not accumulate in nuts/seeds and no government sets a nut/seed iAs ML), total Cr, Cr-VI, Sn, and MeHg resolve to disclosed not-material / control determinations (default_read_across), each with a mandatory reference method. Al is a no-ML control.",
-  "_scope_note": "ACCUMULATOR SPLITS ARE PRESERVED. Sunflower seeds are a known cadmium accumulator: the EU sets sunflower/linseed Cd at 500 ug/kg, five times the general-oilseed ceiling of 100; the sunflower subcategories therefore scope Cd to 'sunflower' ALONE so they bind 500 and never inherit the stricter general-oilseed 100. Sunflower IS an oilseed, so its Pb/tAs/tHg are the Israel FCS-2016 oilseed MLs, added via analyte_scope (regulatory-alignment). Cashews are a high-nickel tree nut: EU and Switzerland set cashew Ni at 10000 (vs the general tree-nut 3500); cashews scope Ni to the cashew-listed row and EXCLUDE the 'tree nuts except ... cashew nuts' 3500 row (which carves cashew OUT), and take tree-nut Cd 200. Cashew is NOT an oilseed, so its Pb/tAs/tHg are disclosed read-across from the nearest sovereign nut/seed anchor (Israel oilseeds), not claimed as direct government limits. nuts-seeds-other and nut-seed-butters-other are the tree-nut + non-sunflower-oilseed catch-alls: they bind the strictest applicable family ML per analyte (oilseeds-general Cd 100 protects the oilseed members; EU general tree-nut Ni 3500 with the high-nickel listed nuts — walnut, pine, Brazil, chestnut — carrying a deliberately looser EU 10000 disclosed here). Colour-additive purity specs and edible-oil MLs (oils of arachis/coconut/etc.) are excluded: a refined oil and an additive spec are a different product form from the whole nut/seed.",
+  "_scope_note": "ACCUMULATOR SPLITS ARE PRESERVED. Sunflower seeds are a known cadmium accumulator: the EU sets sunflower/linseed Cd at 500 ug/kg, five times the general-oilseed ceiling of 100; the sunflower subcategories therefore scope Cd to 'sunflower' ALONE so they bind 500 and never inherit the stricter general-oilseed 100. Sunflower IS an oilseed, so its Pb/tAs/tHg are the Israel FCS-2016 oilseed MLs, added via analyte_scope (regulatory-alignment). HIGH-NICKEL TREE NUTS ARE SPLIT OUT. EU Reg. 2024/1987 sets the five listed high-nickel tree nuts — cashews AND walnuts, pine nuts, Brazil nuts, chestnuts — at Ni 10000, deliberately looser than the general tree-nut 3500, and the 3500 ML textually EXCLUDES them ('tree nuts except chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts'). Cashews (row 2) and tree-nuts-high-nickel (row 6, walnut/pine/Brazil/chestnut, split ratified 2026-08-13) each scope Ni to the 10000 listing and EXCLUDE the 3500 'tree nuts except ...' row, taking tree-nut Cd 200. These are tree nuts, NOT oilseeds, so their Pb/tAs/tHg are disclosed read-across from the nearest sovereign nut/seed anchor (Israel oilseeds), not claimed as direct government limits. nuts-seeds-other and nut-seed-butters-other are the GENERAL tree-nut + non-sunflower-oilseed catch-alls: they bind the strictest applicable family ML per analyte (oilseeds-general Cd 100 protects the oilseed members; EU general tree-nut Ni 3500, correct for almonds/pistachios/hazelnuts/pecans/macadamias now that the high-nickel nuts have their own rows). Colour-additive purity specs and edible-oil MLs (oils of arachis/coconut/etc.) are excluded: a refined oil and an additive spec are a different product form from the whole nut/seed.",
   "category": 28,
   "category_name": "Nuts, Seeds, and Their Butters",
-  "lineage": "Cat-28 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (Cd: sunflower/linseed 500, tree nuts 200, oilseeds general 100, pine nuts 300), EU Reg. 2024/1987 (Ni: tree nuts 3500 / listed high-Ni nuts incl. cashew 10000 / sunflower seed 8000), Israel FCS-2016 (oilseeds: Pb 1000 / Cd 500 / tAs 1000 / tHg 400), Switzerland VHK 2026 (cashew Ni 10000).",
+  "lineage": "Cat-28 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (Cd: sunflower/linseed 500, tree nuts 200, oilseeds general 100, pine nuts 300), EU Reg. 2024/1987 (Ni: general tree nuts 3500 / listed high-Ni nuts — cashew, walnut, pine nut, Brazil nut, chestnut — 10000 / sunflower seed 8000), Israel FCS-2016 (oilseeds: Pb 1000 / Cd 500 / tAs 1000 / tHg 400), Switzerland VHK 2026 (cashew Ni 10000). High-nickel tree-nut split (walnut/pine/Brazil/chestnut → tree-nuts-high-nickel) ratified 2026-08-13 per OI-20260813-nuts-high-nickel-split.",
   "panel": ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"],
   "default_read_across": {
     "Cr": {
@@ -55,12 +55,13 @@
   },
   "subcategories": {
     "nuts-seeds-other": {
-      "name": "Nuts and seeds (tree nuts and non-sunflower oilseeds — almonds, walnuts, pistachios, hazelnuts, pine/Brazil nuts, sesame, flax, pumpkin, other)",
+      "name": "Nuts and seeds (general tree nuts and non-sunflower oilseeds — almonds, pistachios, hazelnuts, pecans, macadamias, sesame, flax, pumpkin, other)",
       "row": 1,
       "native_basis": "as_sold",
       "canned": false,
       "soy_split": false,
       "exclude_as_consumed": true,
+      "scope_note": "General tree-nut and non-sunflower-oilseed catch-all: binds the strictest applicable family ML per analyte (oilseeds-general Cd 100 protects the oilseed members; EU general tree-nut Ni 3500, correct for almonds/pistachios/hazelnuts/pecans/macadamias). The high-nickel tree nuts that EU 2024/1987 sets at Ni 10000 — walnut, pine nut, Brazil nut, chestnut — are split into the tree-nuts-high-nickel row (and cashews into the cashews row) so they certify against the EU 10000 carve-out instead of being ratcheted to 3500 here.",
       "audit_scope": "\\bnuts?\\b|tree nut|oilseed|\\bseeds?\\b",
       "scope_include": [
         "tree nut",
@@ -212,6 +213,53 @@
         "Pb": { "include": ["oilseed"] },
         "tAs": { "include": ["oilseed"] },
         "tHg": { "include": ["oilseed"] }
+      }
+    },
+    "tree-nuts-high-nickel": {
+      "name": "High-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts)",
+      "row": 6,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "exclude_as_consumed": true,
+      "scope_note": "Walnuts, pine nuts, Brazil nuts, and chestnuts are the high-nickel tree nuts that EU Reg. 2024/1987 deliberately sets at Ni 10000 (the same listed group as cashews, which have their own row); the general tree-nut Ni ML of 3500 textually EXCLUDES them ('tree nuts except chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts'), and no non-EU jurisdiction sets a tree-nut nickel ML. This row scopes Ni to the 10000 listing and EXCLUDES the 3500 'tree nuts except ...' row, preserving the EU form split instead of ratcheting these nickel hyperaccumulators to 3500. Like cashews, these are tree nuts (not oilseeds), so Cd binds the general tree-nut ML (200; the pine-nut 300 accumulator value is ratcheted to the stricter tree-nut 200) and Pb/tAs/tHg are disclosed read-across from the nearest sovereign nut/seed anchor (Israel FCS-2016 oilseeds), not claimed as direct government limits. Split ratified 2026-08-13 (OI-20260813-nuts-high-nickel-split); the retained Ni 3500 stricter-unselected flag documents the deliberate carve-out.",
+      "audit_scope": "walnut|pine nut|brazil nut|chestnut|tree nut",
+      "scope_include": [
+        "walnut",
+        "pine nut",
+        "brazil nut",
+        "chestnut",
+        "tree nut"
+      ],
+      "scope_exclude": [
+        "\\bnuts except",
+        "except.*nut",
+        "except.*cashew",
+        "sunflower",
+        "peanut",
+        "groundnut",
+        "arachis",
+        "\\bsoy",
+        "spice",
+        "vegetable oil",
+        "oils of",
+        "olive oil",
+        "coconut",
+        "\\btoy"
+      ],
+      "read_across": {
+        "Pb": {
+          "source_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+          "label": "read-across from Israel FCS-2016 oilseeds and olives Pb 1000 ug/kg (nearest sovereign nut/seed lead anchor; no tree-nut-specific Pb ML exists)"
+        },
+        "tAs": {
+          "source_id": "il_fcs2016_tas_5_3_oilseeds_1000",
+          "label": "read-across from Israel FCS-2016 oilseeds tAs 1000 ug/kg (nearest sovereign nut/seed total-arsenic anchor)"
+        },
+        "tHg": {
+          "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
+          "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)"
+        }
       }
     }
   }

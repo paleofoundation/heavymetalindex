@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-66 open item(s): 25 auto, 41 awaiting a decision.
+64 open item(s): 25 auto, 39 awaiting a decision.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
@@ -545,14 +545,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/standards/compile-cat1.mjs`, `tools/standards/cat3-config.json`, `tools/standards/compile-cat24.mjs`, `tools/standards/compile-cat28.mjs`
 - repro: tools/standards/lib/food-limit-compiler.mjs (cat30/31/32) added reconcileSpeciation covering BOTH MeHg<=tHg AND iAs<=tAs (a species ceiling not below its total is subsumed). compile-cat1.mjs only reconciles mercury (reconcileMercurySpeciation); cat3 runs on that engine; cat24/cat28 are self-contained forks that likewise lack the arsenic identity. A cross-category scan of all 8 committed compiled categories (61 subcategory-variants) found ZERO current iAs>tAs or MeHg>tHg violations, so this is preventive hardening and a NO-OP on current outputs, not a live-defect fix. A register change could later produce an incoherent iAs>tAs cell those compilers would not catch.
 - done when: Each of cat1/cat3/cat24/cat28 reconciles iAs against tAs (species>=total => subsumed); Re-running every compiler yields byte-identical outputs to the committed JSON (no-op today); A repo-wide scan finds no iAs>tAs or MeHg>tHg published cell
-
-### OI-20260813-nuts-high-nickel-split — Consider a high-nickel tree-nut subcategory (walnut/pine/Brazil/chestnut, EU Ni 10000) split out of nuts-seeds-other (Ni 3500)
-
-- scope: **human-gated** · type: decision · status: open · repo: index
-- paths: `tools/standards/cat28-config.json`
-- repro: CAT 28 nuts-seeds-other binds Ni 3500 (EU general tree-nut ML). EU 2024/1987 deliberately sets a looser Ni 10000 for the high-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts) because they hyperaccumulate nickel. The catch-all currently ratchets those to 3500 (disclosed in the config scope_note). A dedicated high-Ni-nut subcategory would preserve the EU form split instead of ratcheting; this is a taxonomy/Step-0 decision.
-- done when: Karen decides whether to split the high-nickel tree nuts into their own row
-- decision: _pending_
 
 ### OI-20260813-notmaterial-nopathway-basis-class — 20 not-material rows use invalid basis_class no-pathway (should be no-migration-pathway) — fails the build-blocking substantiation gate, reddening main prebuild
 
@@ -587,14 +579,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: each re-run compiler exits PASS with HK Cap 132V rows counted among contributing sovereigns; no existing binding value changes (impact pass: HK binds no major cell; confirms honey/canned/coffee-bean/cultivated-fungi Pb; fills RTD coffee/tea beverage Pb 200 gap)
 - decision: _pending_ — enact: `for n in 27 29 30 31 32 33 34; do node tools/standards/compile-cat$n.mjs || break; done`
 - notes: Per-cat cells HK touches: Cat27 pulses Cd/Pb 0.1 (non-binding, +sovereign); Cat29 fungi Pb cultivated 0.3 CONFIRMS EU, fungi Cd 0.2-2 non-binding (EU 0.05/0.15 tighter), wild-mushroom Pb 1 non-binding; Cat30 edible fats/oils Pb 0.08 + tAs 0.1 (+sovereign); Cat31 honey Pb 0.1 CONFIRMS Israel, sugar Pb 0.5; Cat32 salt Pb 1 (marshes 2), mango chutney Pb 0.4 CONFIRMS TH/GSO, table olives Pb 0.4, pickled cucumber Pb 0.1; Cat33 cocoa/choc Cd non-binding (EU tiers tighter, +sovereign); Cat34 coffee beans Pb 0.5 CONFIRMS Mercosur, tea leaf Pb 5 non-binding, RTD coffee+tea beverage Pb 0.2 = sole as-consumed sovereign GAP-FILL. Future Cat35 (composite/canned: canned fruit/veg Pb 0.1 + canned chestnuts Pb 0.05 CONFIRM TH/GSO/IL) has no compiler yet and will include HK when first built.
-
-### OI-20260813-cultivated-mushroom-cd-split — Consider splitting cultivated-mushrooms into common (Cd 50) vs oyster/shiitake (Cd 150) per the EU accumulator carve-out
-
-- scope: **human-gated** · type: decision · status: open · repo: index
-- paths: `tools/standards/cat29-config.json`
-- repro: CAT 29 cultivated-mushrooms binds Cd 50 (EU common cultivated fungi / CH Agaricus bisporus). EU 2023/915 sets a looser Cd 150 for oyster and shiitake mushrooms, which accumulate more cadmium than button mushrooms. The single cultivated row ratchets oyster/shiitake to 50 (disclosed in the config scope_note). A common-vs-oyster/shiitake split would preserve the EU carve-out; taxonomy/Step-0 decision.
-- done when: Karen decides whether to split cultivated mushrooms by the EU Cd 50/150 carve-out
-- decision: _pending_
 
 ### OI-20260813-cat3334-govlimit-readiness-integration — Wire the Cat 33/34 government-limit compiled standards into the readiness+publication path (supersedes the stalled occurrence-pool cells: spices:Cd 'no mapped government cap', salt:Cd/Pb QC-HELD percentile-beyond-sample)
 

@@ -81,8 +81,81 @@ rice-noodles,MeHg,speciation-bounded,PASS,
 breakfast-cereal-rice-based,MeHg,speciation-bounded,PASS,
 rice-snacks-crackers,MeHg,speciation-bounded,PASS,
 rice-beverages-rice-milk,MeHg,speciation-bounded,PASS,
+legumes-pulses-other,Cr-VI,speciation-bounded,PASS,
+legumes-pulses-other,MeHg,speciation-bounded,PASS,
+legumes-pulses-other,Sn,no-migration-pathway,PASS,
+peanut-butter,Cr-VI,speciation-bounded,PASS,
+peanut-butter,MeHg,speciation-bounded,PASS,
+peanut-butter,Sn,no-migration-pathway,PASS,
+peanuts,Cr-VI,speciation-bounded,PASS,
+peanuts,MeHg,speciation-bounded,PASS,
+peanuts,Sn,no-migration-pathway,PASS,
+soy-products,Cr-VI,speciation-bounded,PASS,
+soy-products,MeHg,speciation-bounded,PASS,
+soy-products,Sn,no-migration-pathway,PASS,
+cashews,Cr-VI,speciation-bounded,PASS,
+cashews,MeHg,speciation-bounded,PASS,
+cashews,Sn,no-migration-pathway,PASS,
+cashews,iAs,speciation-bounded,PASS,
+nut-seed-butters-other,Cr-VI,speciation-bounded,PASS,
+nut-seed-butters-other,MeHg,speciation-bounded,PASS,
+nut-seed-butters-other,Sn,no-migration-pathway,PASS,
+nut-seed-butters-other,iAs,speciation-bounded,PASS,
+nuts-seeds-other,Cr-VI,speciation-bounded,PASS,
+nuts-seeds-other,MeHg,speciation-bounded,PASS,
+nuts-seeds-other,Sn,no-migration-pathway,PASS,
+nuts-seeds-other,iAs,speciation-bounded,PASS,
+sunflower-seed-butter,Cr-VI,speciation-bounded,PASS,
+sunflower-seed-butter,MeHg,speciation-bounded,PASS,
+sunflower-seed-butter,Sn,no-migration-pathway,PASS,
+sunflower-seed-butter,iAs,speciation-bounded,PASS,
+sunflower-seeds,Cr-VI,speciation-bounded,PASS,
+sunflower-seeds,MeHg,speciation-bounded,PASS,
+sunflower-seeds,Sn,no-migration-pathway,PASS,
+sunflower-seeds,iAs,speciation-bounded,PASS,
+cultivated-mushrooms,Cr-VI,speciation-bounded,PASS,
+cultivated-mushrooms,MeHg,speciation-bounded,PASS,
+cultivated-mushrooms,Sn,no-migration-pathway,PASS,
+wild-mushrooms,Cr-VI,speciation-bounded,PASS,
+wild-mushrooms,Sn,no-migration-pathway,PASS,
+chocolate,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+chocolate,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,Cd,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,iAs,speciation-bounded,PASS,
+confectionery-candy,tHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+confectionery-candy,Al,additive-permitted,WARN,WARN: additive-permitted rationale should cite the permitted-additive basis (E-number / 21 CFR / GB)
+confectionery-candy,Cr-VI,reduces-in-matrix,FAIL,"FAIL: missing/invalid basis_class 'reduces-in-matrix' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,Cd,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,iAs,speciation-bounded,PASS,
+gummies-jellies,tHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,Ni,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+gummies-jellies,Al,additive-permitted,WARN,WARN: additive-permitted rationale should cite the permitted-additive basis (E-number / 21 CFR / GB)
+gummies-jellies,Cr-VI,reduces-in-matrix,FAIL,"FAIL: missing/invalid basis_class 'reduces-in-matrix' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+spices,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+salt,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+salt,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+salt,Cr-VI,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+hot-chili-sauces,iAs,speciation-bounded,PASS,
+hot-chili-sauces,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+hot-chili-sauces,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+hot-chili-sauces,Al,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+bouillon-seasoning-blends,iAs,speciation-bounded,PASS,
+bouillon-seasoning-blends,MeHg,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+bouillon-seasoning-blends,Sn,no-pathway,FAIL,"FAIL: missing/invalid basis_class 'no-pathway' — every not-material row must name one of: speciation-bounded, method-artifact, additive-permitted, natural-accumulator, no-migration-pathway, refined-partition"
+bouillon-seasoning-blends,Al,natural-accumulator,PASS,
 peptides-injectable-hormones,MeHg,no-migration-pathway,PASS,
 sarms-oral,MeHg,no-migration-pathway,PASS,
 aas-injectable,MeHg,no-migration-pathway,PASS,
 research-chem-raw-powders,MeHg,no-migration-pathway,PASS,
 peptides-nasal-sublingual,MeHg,no-migration-pathway,PASS,
+tree-nuts-high-nickel,Cr-VI,speciation-bounded,PASS,
+tree-nuts-high-nickel,MeHg,speciation-bounded,PASS,
+tree-nuts-high-nickel,Sn,no-migration-pathway,PASS,
+tree-nuts-high-nickel,iAs,speciation-bounded,PASS,
+cultivated-mushrooms-oyster-shiitake,Cr-VI,speciation-bounded,PASS,
+cultivated-mushrooms-oyster-shiitake,MeHg,speciation-bounded,PASS,
+cultivated-mushrooms-oyster-shiitake,Sn,no-migration-pathway,PASS,
