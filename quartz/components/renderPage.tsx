@@ -5,6 +5,7 @@ import HeroBandConstructor from "./HeroBand"
 import AuthCardConstructor from "./AuthCard"
 import { JSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
+import { INDEX_CSS_NAME } from "../util/staticHash"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
@@ -52,7 +53,10 @@ export function pageResources(
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        // Build-hashed stylesheet name (INDEX_CSS_NAME = index.<hash>.css), the
+        // same name componentResources.ts emits, so new markup never loads
+        // against a stale index.css a browser cached from a previous deploy.
+        content: joinSegments(baseDir, INDEX_CSS_NAME),
       },
       ...staticResources.css,
     ],
