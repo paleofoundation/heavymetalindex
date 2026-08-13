@@ -64,7 +64,7 @@ const productTocLabels = new Map([
 let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
-  const position = opts?.position ?? defaultOptions.position
+  const position: "left" | "right" = opts?.position ?? defaultOptions.position ?? "right"
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
   const TableOfContents: QuartzComponent = ({
     fileData,
@@ -140,13 +140,8 @@ export default ((opts?: Partial<Options>) => {
       )
     }
 
-    // Reached only when position is "right" (or unset): the "left" placement is
-    // fully handled by the early-return branch above, which renders its own
-    // <nav> and never falls through. The two `position === "left"` ternaries
-    // that used to be here were therefore dead — TypeScript flagged them as
-    // TS2367 once it narrowed `position` past that return. Removing them does
-    // not drop the left rendering; it drops branches that could not execute.
     const id = `toc-${numTocs++}`
+    // position is narrowed to "right" here — the "left" path returned above.
     const tocTitle = opts?.title ?? i18n(cfg.locale).components.tableOfContents.title
     return (
       <div class={classNames(displayClass, "toc")}>
