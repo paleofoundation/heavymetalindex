@@ -935,12 +935,22 @@
       "regulatory_jurisdiction": "FDA, EU, Codex",
       "subcategories": [
         { "row": 1, "name": "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)", "slug": "mixed-meals-prepared-foods" },
-        { "row": 2, "name": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)", "slug": "soups-broths-stocks" }
+        { "row": 2, "name": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)", "slug": "soups-broths-stocks" },
+        {
+          "row": 3,
+          "name": "Bone broth (long-simmered animal-bone stock)",
+          "slug": "bone-broth",
+          "provisional_scaffold": true,
+          "cross_reference": "Category 11 (Meat, Poultry, and Eggs) for the animal-bone basis",
+          "placement_status": "PROVISIONAL — pending Karen's ratification. Nearest existing home is this Category 35 soups-broths-stocks family, but bone broth's hazard is mechanistically distinct (lead leaches from bone during long simmering; a generic vegetable/meat-stock limit understates it), so it is scaffolded as its own row rather than folded into soups-broths-stocks. Candidate alternative placement: a standalone Category 11 subcategory. See the human-gated outstanding-ledger item recording this decision.",
+          "note": "Lead is the priority analyte: bone is a documented lead reservoir and lead partitions from bone into the broth during prolonged acidulated simmering, so a not-material lead determination does not survive the leaching evidence. The lead standard is a read-across from the strictest credible animal-derived sovereign maximum (muscle-meat lead ML), with the bone-leaching literature driving mandatory lot-testing surveillance rather than a fabricated occurrence value."
+        }
       ],
       "boundary_rules": [
         "A composite meal inherits its component-matrix platforms; route by dominant ingredient until evidence supports own rows.",
         "Infant/toddler mixed meals route to Category 1.",
-        "A product that is primarily a single matrix (e.g., plain pasta) routes to that matrix category."
+        "A product that is primarily a single matrix (e.g., plain pasta) routes to that matrix category.",
+        "Bone broth (long-simmered animal-bone stock) is certified under row bone-broth, NOT the generic soups-broths-stocks row: its lead hazard is bone-leaching (mechanistically distinct from a vegetable or muscle-meat stock), so it carries its own bone-derived lead read-across and surveillance. Placement is provisional pending ratification (candidate alternative: a standalone Category 11 subcategory), cross-referenced to Category 11 for the animal-bone basis."
       ],
       "contamination_platform_notes": "No standalone platform; inherits component-matrix contamination. Provisional until component evidence accumulates.",
       "regulatory_anchors": "Composite; per-component regulatory anchors apply."

@@ -1,15 +1,15 @@
 # HMTc Taxonomy v2.2 Coverage Audit
 
-Generated: 2026-08-11
+Generated: 2026-08-13
 
 Taxonomy version: **2.2** (2026-06-09)
 
-Total subcategories in taxonomy: **356**
+Total subcategories in taxonomy: **357**
 Product pages with any match: **356** (100%)
   - Exact hmtc_category + hmtc_row frontmatter: 341
   - Slug match (frontmatter not declared): 9
   - Name-alias match (slug differs): 6
-**Missing pages: 0**
+**Missing pages: 1**
 
 ## By category
 
@@ -49,6 +49,10 @@ Product pages with any match: **356** (100%)
 | 32 | Condiments, Sauces and Dressings | 5 | 5 | 0 | 0 | 0 | 100% |
 | 33 | Chocolate, Cocoa and Confectionery | 3 | 3 | 0 | 0 | 0 | 100% |
 | 34 | Herbs, Spices, Seasonings and Salt | 4 | 4 | 0 | 0 | 0 | 100% |
-| 35 | Prepared and Packaged Meals | 2 | 2 | 0 | 0 | 0 | 100% |
+| 35 | Prepared and Packaged Meals | 3 | 2 | 0 | 0 | 1 | 67% |
 
 ## Missing rows by category
+
+### Category 35: Prepared and Packaged Meals (1 missing)
+
+- Row 3: **Bone broth (long-simmered animal-bone stock)** → expected slug: `bone-broth`

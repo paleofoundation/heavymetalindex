@@ -355,3 +355,4 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 34,"Herbs, Spices, Seasonings and Salt",4,"Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)",bouillon-seasoning-blends,exact,bouillon-seasoning-blends.md,bouillon-seasoning-blends,34,4,scaffold
 35,Prepared and Packaged Meals,1,"Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,exact,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,35,1,
 35,Prepared and Packaged Meals,2,"Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",soups-broths-stocks,exact,soups-broths-stocks.md,soups-broths-stocks,35,2,scaffold
+35,Prepared and Packaged Meals,3,Bone broth (long-simmered animal-bone stock),bone-broth,missing,,,,,

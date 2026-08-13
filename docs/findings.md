@@ -513,7 +513,17 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-53 open item(s): 22 auto, 31 awaiting a decision.
+54 open item(s): 22 auto, 32 awaiting a decision.
+
+### OI-20260813-bone-broth-cat35-placement — Ratify taxonomy placement of bone broth: Category 35 row bone-broth (provisional scaffold, cross-ref Cat 11) vs. a standalone Category 11 subcategory
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/taxonomy/hmtc-v2.json`, `tools/standards/cat35-config.json`, `data/workbench/standards/cat35-compiled/bone-broth.json`
+- repro: Karen flagged that bone broth had no taxonomy home. Nearest existing home is Category 35 soups-broths-stocks, but bone broth is mechanistically distinct: lead LEACHES from bone during long (often acidulated) simmering, so a generic vegetable/meat-stock limit understates the hazard. Resolution executed: added a provisional bone-broth subcategory (row 3) to Category 35 in data/taxonomy/hmtc-v2.json (provisional_scaffold: true), cross-referenced to Category 11 (Meat, Poultry, and Eggs) for the animal-bone basis, and built its standard on the scaffold. Pb is the priority analyte and resolves to a real read-across (muscle-meat ML 100 ug/kg; offal 500 disclosed and deliberately rejected as too loose despite the bone-as-accumulating-tissue analogy), NOT a not-material determination, which does not survive the bone-leaching evidence. Karen to RATIFY the Category 35 placement or REDIRECT it (e.g., to a standalone Category 11 subcategory).
+- done when: Karen ratifies bone-broth under Category 35 (keep row bone-broth) OR redirects placement (e.g., standalone Category 11 subcategory); If redirected: relocate the taxonomy subcategory + the cat35-config.json bone-broth block + the compiled record to the ratified home; clear provisional_scaffold on the Step-0 lock
+- evidence: data/taxonomy/hmtc-v2.json Category 35 subcategory row 3 bone-broth (provisional_scaffold: true, cross_reference to Cat 11) · bone-broth Pb = 100 ug/kg read-across (muscle-meat, FSANZ); not-material rejected on bone-leaching evidence; Cd = 50 ug/kg; full panel resolved
+- decision: _pending_
+- notes: Standard build is NOT blocked on ratification — built on the provisional scaffold per CLAUDE.md Part 10. wwsaid: taxonomy placement is genuinely Karen's (Step-0-adjacent), so it is routed for ratification rather than decided unilaterally.
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -534,7 +544,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
 
-- scope: **auto** · type: code-fix · status: open · repo: index
+- scope: **auto** · type: code-fix · status: queued · repo: index
 - paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
 - repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
 - done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug

@@ -54,3 +54,25 @@ Version: cat35-v1.0 (2026-08-13)
   - **tHg substantiation:** No credible regulator sets a mercury ML for terrestrial-meat or vegetable stock; a seafood bisque or chowder inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg). Methylmercury bounded by this total-mercury ceiling.
   - **Sn substantiation:** The canned-foods tin ML is a DIRECT sovereign limit on the canned form (regulatory-alignment), not a component read-across. Non-canned soup forms (carton RTD, dry mix, bouillon) have no tinplate contact and no tin source; total tin is reported and any non-canned signal triggers packaging investigation.
 
+### bone-broth — Bone broth (long-simmered animal-bone stock)  (PROVISIONAL SCAFFOLD)
+- native basis: as consumed / ready-to-drink broth (wet weight)
+- cross-reference: Category 11 (Meat, Poultry, and Eggs) for the animal-bone basis. Placement is PROVISIONAL pending Karen's ratification (candidate alternative: a standalone Category 11 subcategory); recorded as a human-gated outstanding-ledger item.
+
+| analyte | value (µg/kg) | provenance | binding source | component logic |
+|---|---|---|---|---|
+| Pb | 100 | read-across | aunz_sch19_pb_meat_100 (AU-NZ) | muscle meat (cattle/sheep/pig/poultry) 100 [AU-NZ]; edible offal (lead-accumulating tissue analog) 500 [AU-NZ] |
+| Cd | 50 | read-across | eu2023_cd_meat_50 (EU) | muscle meat (cattle/sheep/pig/poultry) 50 [EU] |
+| tAs | control | control | bounded by iAs | No credible regulator sets a total-arsenic ML for meat, bone, or anima |
+| iAs | n/m | not-material | bounded by tAs | There is no inorganic-arsenic source in a terrestrial-animal bone brot |
+| tHg | control | control | bounded by MeHg | No credible regulator sets a mercury ML for terrestrial-animal meat or |
+| MeHg | n/m | not-material | bounded by tHg | Methylmercury has no formation pathway in a terrestrial-animal bone br |
+| Ni | control | control | — | No credible regulator sets a nickel ML for meat or animal-derived stoc |
+| Sn | control | control | — | Inorganic tin is a tinplate/canned-food pathway; carton (RTD), frozen, |
+| Al | control | control | — | No credible regulator sets an aluminium ML for bone broth or animal-de |
+| Cr | control | control | bounded by Cr-VI | No credible regulator sets a total-chromium ML for bone broth. Reporte |
+| Cr-VI | n/m | not-material | bounded by Cr | Hexavalent chromium is reduced to Cr-III in a cooked, wet, protein-ric |
+
+**Audit / substantiation notes**
+  - **Pb substantiation:** Lead is the priority analyte and a NOT-MATERIAL determination is REJECTED on the bone-leaching evidence. Bone is the body's principal lead reservoir (the skeleton holds the large majority of an animal's lifetime lead burden), and published analyses have reported measurably elevated lead in bone broth relative to the water it is made from, consistent with lead partitioning from bone into the broth during prolonged (and frequently vinegar-acidulated) simmering. No credible regulator sets a maximum level for bone broth, bone, gelatin, or collagen at a credible tier (the only gelatin/meat-extract MLs on record are non-credible-tier and far looser, 2000-7000 ug/kg, so they are not used). The nearest credible animal-derived anchor is therefore adopted by read-across: the muscle-meat lead ML (100 ug/kg). Because bone is a lead-accumulating tissue, the looser edible-offal ML (500 ug/kg) is the closer tissue analog, but it is deliberately NOT adopted — the leaching pathway makes the stricter, more-protective muscle-meat anchor the correct ceiling, and the offal limit is disclosed only to make the choice auditable. The bone-leaching evidence drives MANDATORY lot-testing surveillance and a ratchet trigger; it does not license a fabricated occurrence value (Method v2.0 forbids occurrence-derivation). If a certified lot's bone-broth lead exceeds this read-across ceiling, that is a surveillance signal, not a basis for loosening the standard toward the offal limit.
+  - **Cd substantiation:** Cadmium, like lead, accumulates in bone and soft tissue; the same leaching logic applies at lower magnitude. The muscle-meat cadmium ML (EU 2023/915, 50 ug/kg) is the nearest credible animal-derived anchor. Lot-testing surveillance applies alongside lead.
+
