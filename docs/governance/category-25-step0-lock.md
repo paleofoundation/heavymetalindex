@@ -1,9 +1,12 @@
 # Category 25 — Cannabis, Hemp, and CBD Products — Step Zero Lock
 
 **Status:** Scope lock (Step Zero, 2026-06-08). A dedicated route-based government-limit compiler
-(`tools/standards/compile-cat25.mjs`, `cat25-v1.0`, 2026-08-13) has since compiled five of the six rows
-to firm numeric/control cells. Vape hardware remains reserved (its governing quantity is release into
-aerosol, not total product content). Audit trail: `data/workbench/standards/2026-08-13-cat25-cannabis-derive-audit-verify.md`.
+(`tools/standards/compile-cat25.mjs`, `cat25-v1.1`, 2026-08-14) has since compiled the consumable side of
+all six rows — flower, edibles, tinctures/oils, topicals, concentrates, and the vape cartridge fill / oil
+(inhaled-route total content) — to firm numeric/control cells. Only the vape **aerosol-emissions / hardware**
+facet (metal release into inhaled aerosol, a different measured quantity) remains reserved. Total chromium
+is recorded as a screening ceiling on every row with Cr(VI) as the binding health control. Audit trail:
+`data/workbench/standards/2026-08-13-cat25-cannabis-derive-audit-verify.md`.
 **Domain:** Ingestible and applied health products. **Number:** 25 (appended; no existing number changed).
 **Exposure pathway:** Multi-route — inhalation (flower, vape aerosol), ingestion (edibles, tinctures),
 dermal (topicals). **Jurisdiction:** state cannabis programs (testing rules vary by state), FDA (CBD/
@@ -51,6 +54,15 @@ Karen** (`taxonomy-reorganization-2026-06.md` §4) and is not resolved at this l
 Additive; scaffold only; no thresholds.
 
 ## Changelog
+- 2026-08-14 (`cat25-v1.1`) — Two revisions after review. (1) Total chromium is recorded as a screening
+  ceiling on every row — Maryland's sovereign value (600 inhalation, 1,100,000 oral/cutaneous, the latter a
+  non-protective USP-PDE back-calculation) with Cr(VI) as the binding health control (any quantifiable
+  Cr(VI) fails) — rather than being dropped to a bare control; this keeps the standard method-faithful and
+  lossless while staying honest that total Cr is not the health-relevant quantity. (2) The vape row is split:
+  the consumable (cartridge fill / vape oil) is a finished inhaled cannabis product and is compiled on the
+  inhaled-route content basis (`cannabis-vape-cartridge-fill`, same as flower); only the aerosol-emissions /
+  hardware facet remains reserved. Resins remain covered by the concentrates row plus the dual-compliance
+  rule (a concentrate sold for inhalation must also meet the inhaled row).
 - 2026-08-13 — Dedicated route-based compiler (`compile-cat25.mjs`, `cat25-v1.0`) and route-based
   `cat25-config.json` built; five rows (flower, edibles, tinctures/oils, topicals, concentrates)
   compiled to firm numeric/control cells from sovereign cannabis programs (CA, CO, MA, MD, NV, IL),

@@ -8,8 +8,8 @@
   "native_basis": "as_sold",
   "route_basis_label": "finished inhalable cannabis, product-as-tested (as sold); no reconstitution",
   "scope_note": "Inhaled route. Applicable pool = route-agnostic all-uses cannabis rules plus inhalation-specific rules (California inhalable, Colorado inhaled/nasal, Maryland inhalation). Non-inhaled route limits are not applied.",
-  "version": "cat25-v1.0",
-  "version_date": "2026-08-13",
+  "version": "cat25-v1.1",
+  "version_date": "2026-08-14",
   "method": "HMTc Method v2.0 (government-limit default, route-preserving; strictest applicable sovereign cannabis maximum; occurrence never selects a value)",
   "generated_from": "data/evidence/regulatory_limits.csv",
   "config": "tools/standards/cat25-config.json",
@@ -253,7 +253,10 @@
           "value": 600,
           "jurisdiction": "US-MD"
         }
-      ]
+      ],
+      "screen": true,
+      "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's sovereign cannabis total-Cr action level for the inhalation route (the only sovereign cannabis program that sets total Cr). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+      "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
     },
     "Cr-VI": {
       "provenance": "control",

@@ -8,8 +8,8 @@
   "native_basis": "as_sold",
   "route_basis_label": "finished cannabis concentrate/extract, as sold (product-as-tested); no reconstitution",
   "scope_note": "Concentrates span more than one route of use. The row is certified on the route-agnostic all-uses cannabis rules only (MA all-uses, Nevada, Israel), plus Maryland's inhalation total-chromium value as a route-protective disclosed read-across (a concentrate may be inhaled). A concentrate marketed exclusively for a single route must additionally satisfy that route's own row.",
-  "version": "cat25-v1.0",
-  "version_date": "2026-08-13",
+  "version": "cat25-v1.1",
+  "version_date": "2026-08-14",
   "method": "HMTc Method v2.0 (government-limit default, route-preserving; strictest applicable sovereign cannabis maximum; occurrence never selects a value)",
   "generated_from": "data/evidence/regulatory_limits.csv",
   "config": "tools/standards/cat25-config.json",
@@ -225,7 +225,10 @@
       "source_id": "md2025_cr_total_cannabis_inhalation_600",
       "source_jurisdiction": "US-MD",
       "controlling_instrument": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
-      "label": "route-protective read-across from Maryland's inhalation total-chromium action limit; a concentrate may be inhaled, so the strict inhalation chromium value governs this multi-route row rather than the non-protective oral/cutaneous value"
+      "label": "route-protective read-across from Maryland's inhalation total-chromium action limit; a concentrate may be inhaled, so the strict inhalation chromium value governs this multi-route row rather than the non-protective oral/cutaneous value",
+      "screen": true,
+      "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's inhalation-route sovereign total-Cr action level (600 ug/kg), applied route-protectively because a concentrate may be inhaled. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+      "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
     },
     "Cr-VI": {
       "provenance": "control",

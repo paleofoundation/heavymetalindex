@@ -156,6 +156,14 @@ function auditStricter(analyte, publishedValue, govIds, excludedIds) {
   return { acknowledged: ack, unacknowledged: unack }
 }
 
+// screening-ceiling passthrough. A numeric cell may be flagged a screen: the value is recorded (a real
+// sovereign number, method-faithful and lossless) but it is NOT a health limit — a benign-species screen
+// whose binding health control is named separately (e.g. total Cr is a screen; Cr(VI) is the health limit).
+function screenFields(spec) {
+  if (!spec || !spec.screen) return {}
+  return { screen: true, screen_note: spec.screen_note || "screening ceiling, not a health limit", binding_control: spec.binding_control || null }
+}
+
 function controlCell(spec, analyte) {
   const d = (config.default_controls || {})[analyte] || {}
   return {
@@ -179,12 +187,16 @@ function resolveCell(sub, analyte, defects) {
     if (!src) { defects.push(`${sub.slug}/${analyte}: read_across source ${spec.read_across.source_id} not in register`); return { provenance: "read-across", value: null, error: "dead source_id" } }
     if (DRAFT.test(src.status) || QUARANTINE.test(src.status)) defects.push(`${sub.slug}/${analyte}: read_across source ${spec.read_across.source_id} is gated (${src.status})`)
     const v = num(src.value_ug_kg)
+    const stricter = v == null ? { acknowledged: [], unacknowledged: [] } : auditStricter(analyte, v, [spec.read_across.source_id], spec.audit_excluded_ids)
+    for (const s of stricter.unacknowledged) defects.push(`${sub.slug}/${analyte}: UNACKNOWLEDGED stricter cannabis limit ${s.id} (${s.value}, ${s.jurisdiction}) < read-across ${roundDisplay(v)} — add to gov_ids or audit_excluded_ids`)
     return {
       provenance: spec.provenance || "read-across",
       value: roundDisplay(v), value_exact: v, unit: "ug/kg", basis: sub.native_basis,
       source_id: spec.read_across.source_id, source_jurisdiction: src.jurisdiction,
       controlling_instrument: src.regulation_page || "",
       label: spec.read_across.label || `read-across from ${src.jurisdiction}`,
+      audit_excluded: stricter.acknowledged.length ? { reason: sub.route_exclusion_reason || "route-based exclusion", rows: stricter.acknowledged } : undefined,
+      ...screenFields(spec),
     }
   }
 
@@ -203,6 +215,7 @@ function resolveCell(sub, analyte, defects) {
       candidates: r.candidates,
       audit_excluded: stricter.acknowledged.length ? { reason: sub.route_exclusion_reason || "route-based exclusion", rows: stricter.acknowledged } : undefined,
       not_detectable: r.not_detectable,
+      ...screenFields(spec),
     }
   }
 
@@ -282,7 +295,8 @@ if (!QUIET) {
         : `[${c.provenance}]`
       const conc = c.concurring_jurisdictions && c.concurring_jurisdictions.length > 1 ? `  (concur: ${c.concurring_jurisdictions.join(",")})` : ""
       const excl = c.audit_excluded ? `  {excl ${c.audit_excluded.rows.length}: ${c.audit_excluded.rows.map((r) => r.jurisdiction + " " + r.value).join(", ")}}` : ""
-      console.log(`    ${a.padEnd(6)} ${v.padStart(9)}   ${src}${conc}${excl}`)
+      const scr = c.screen ? "  SCREEN(Cr-VI binds)" : ""
+      console.log(`    ${a.padEnd(6)} ${v.padStart(9)}   ${src}${conc}${scr}${excl}`)
     }
   }
 }

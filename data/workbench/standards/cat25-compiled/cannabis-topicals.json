@@ -8,8 +8,8 @@
   "native_basis": "as_sold",
   "route_basis_label": "finished topical/transdermal cannabis product, as sold (product-as-tested); no reconstitution",
   "scope_note": "Cutaneous/dermal route. Applicable pool = route-agnostic all-uses cannabis rules plus dermal rules (California non-inhalable, Colorado topical/transdermal, Maryland cutaneous). Inhalation-route limits are not applied (see audit_excluded_ids); MA ingestion-only does not apply to a topical.",
-  "version": "cat25-v1.0",
-  "version_date": "2026-08-13",
+  "version": "cat25-v1.1",
+  "version_date": "2026-08-14",
   "method": "HMTc Method v2.0 (government-limit default, route-preserving; strictest applicable sovereign cannabis maximum; occurrence never selects a value)",
   "generated_from": "data/evidence/regulatory_limits.csv",
   "config": "tools/standards/cat25-config.json",
@@ -279,11 +279,38 @@
       "bounded_by": null
     },
     "Cr": {
-      "provenance": "control",
-      "value": null,
-      "control": "No protective sovereign cannabis chromium maximum applies to topicals. Maryland's cutaneous-route total-chromium action level (1,100,000 ug/kg, a back-calculation from the USP <232> topical/oral chromium PDE at an assumed application mass) is non-protective and is not adopted as a numeric certification limit. Total Cr is measured on every lot; any quantifiable Cr(VI) fails certification.",
-      "reference_method": "Total Cr by ICP-MS; Cr(VI) speciation by IC-ICP-MS on any anomalous total-Cr result.",
-      "bounded_by": null
+      "provenance": "regulatory-alignment",
+      "value": 1100000,
+      "value_exact": 1100000,
+      "unit": "ug/kg",
+      "basis": "as_sold",
+      "binding_jurisdiction": "US-MD",
+      "binding_id": "md2025_cr_total_cannabis_cutaneous_1100000",
+      "controlling_instrument": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+      "concurring_jurisdictions": [
+        "US-MD"
+      ],
+      "candidates": [
+        {
+          "id": "md2025_cr_total_cannabis_cutaneous_1100000",
+          "value": 1100000,
+          "jurisdiction": "US-MD"
+        }
+      ],
+      "audit_excluded": {
+        "reason": "inhalation-route sovereign limit; not applicable to a topically applied product",
+        "rows": [
+          {
+            "id": "md2025_cr_total_cannabis_inhalation_600",
+            "value": 600,
+            "jurisdiction": "US-MD",
+            "scope": "usable cannabis and cannabis products except edible products; inhalation route"
+          }
+        ]
+      },
+      "screen": true,
+      "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's cutaneous-route sovereign total-Cr action level (1,100,000 ug/kg, directly applicable to a topical), back-calculated from the USP <232> chromium PDE and therefore non-protective. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+      "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
     },
     "Cr-VI": {
       "provenance": "control",

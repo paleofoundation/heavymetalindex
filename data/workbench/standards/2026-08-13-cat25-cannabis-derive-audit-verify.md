@@ -1,17 +1,17 @@
 # Category 25 (Cannabis, Hemp, and CBD Products) — derive / audit / verify
 
-**Date:** 2026-08-13
+**Started:** 2026-08-13 · **Revised:** 2026-08-14 (`cat25-v1.1`)
 **Method:** HMTc Method v2.0 (government-limit default, route-preserving)
 **Compiler:** `tools/standards/compile-cat25.mjs` (new; forked from the route-based `compile-cat9.mjs`)
-**Config:** `tools/standards/cat25-config.json` (version `cat25-v1.0`)
+**Config:** `tools/standards/cat25-config.json` (version `cat25-v1.1`)
 **Outputs:** `data/workbench/standards/cat25-compiled/*.json` (staff/HMTc content; not public wiki, per CLAUDE.md Part 19)
 **Step-0 lock:** `docs/governance/category-25-step0-lock.md`
 
-This document is the audit trail for completing the Category 25 certification standard. Five of the six locked rows are compiled to firm numeric/control cells; the sixth (vape hardware) is left explicitly reserved. It supersedes the earlier five-row compilation that was produced by running the infant-formula food compiler (`compile-cat1.mjs`) against a food-shaped `cat25-config.json`; see "Corrections against the prior compilation" below.
+This document is the audit trail for completing the Category 25 certification standard. It supersedes the earlier five-row compilation produced by the infant-formula food compiler (`compile-cat1.mjs`) against a food-shaped config.
 
 ## Scope
 
-Six subcategories are defined by the taxonomy (`data/taxonomy/hmtc-v2.json`, category n=25) and the Step-0 lock. Five are compiled here; the sixth is reserved.
+Six subcategories are defined by the taxonomy (`data/taxonomy/hmtc-v2.json`, n=25) and the Step-0 lock. The consumable side of every row is compiled; only the vape aerosol-emissions/hardware facet is reserved.
 
 | Row | Slug | Route | Status |
 |----:|------|-------|--------|
@@ -20,78 +20,64 @@ Six subcategories are defined by the taxonomy (`data/taxonomy/hmtc-v2.json`, cat
 | 3 | `cannabis-tinctures-oils` | ingestion (oral/sublingual) | compiled |
 | 4 | `cannabis-topicals` | dermal | compiled |
 | 5 | `cannabis-concentrates` | multi-route | compiled |
-| 6 | `cannabis-vape-hardware` | inhaled aerosol | **RESERVED** |
+| 6a | `cannabis-vape-cartridge-fill` | inhalation (consumable total content) | compiled |
+| 6b | `cannabis-vape-hardware` | inhaled aerosol (device emissions) | **RESERVED** |
+
+Row 6 ("Vape cartridges and hardware") is split into its consumable facet — the cartridge fill / vape oil, a finished inhaled cannabis product governed directly by the inhaled-route sovereign limits — which is compiled, and the device/aerosol-emissions facet, which is reserved (see below).
 
 ## Method and the route-preservation rule
 
-Cannabis has no uniform federal contaminant limit. Its limits are the heavy-metal action levels set by individual sovereign cannabis programs, and those programs split their limits by route of use. The register (`data/evidence/regulatory_limits.csv`) holds 55 cannabis action-level rows across six sovereigns:
+Cannabis has no uniform federal contaminant limit; its limits are the route-split heavy-metal action levels of six sovereign programs (California DCC 2026, Colorado 2022, Massachusetts 2020, Maryland 2025, Nevada 2020, Israel IMC-GMP 152 2016). The value for each `(row, analyte)` is the strictest (minimum) sovereign maximum **applicable to that row's route** — the route-agnostic all-uses rules (MA all-uses, Nevada, Israel) plus the row's own route-specific rules. Route basis is never conflated: the strict inhaled arsenic/cadmium levels (200 µg/kg) are never applied to an edible or a topical, and the permissive topical lead level (10,000 µg/kg) is never applied to flower. It is a lookup; occurrence never selects a value.
 
-- **California** (DCC 2026, Section 15723) — splits inhalable vs non-inhalable.
-- **Colorado** (MED 2022) — splits inhaled/nasal, oral/rectal/vaginal, topical/transdermal.
-- **Massachusetts** (CCC 2020) — a general "all uses" level plus a relaxed "ingestion only" level.
-- **Maryland** (MCA 2025, Technical Authority Rev. 6.0) — splits inhalation, oral, cutaneous, edible; the only program that sets a total-chromium value.
-- **Nevada** (CCB 2020) — a single route-agnostic level.
-- **Israel** (IMC-GMP Procedure 152, 2016) — a single route-agnostic level covering inflorescences and cannabis products.
-
-The compiler value for each `(row, analyte)` is the strictest (minimum) sovereign maximum **applicable to that row's route**. The applicable pool is the route-agnostic all-uses rules (MA all-uses, Nevada, Israel) plus the row's own route-specific rules. The load-bearing rule is that **route basis is never conflated**: the very strict inhaled arsenic/cadmium levels (200 µg/kg) are never applied to an edible or a topical, and the permissive topical lead level (10,000 µg/kg, Colorado) is never applied to flower. This is a lookup, not a computation; occurrence data never selects a value.
-
-Every stricter cannabis row that is not selected for a cell must be listed explicitly (by register id) in that cell's `audit_excluded_ids`, with a documented route reason. The compiler's verify pass scans every cannabis register row for each analyte and fails the build if any stricter-than-published row is neither selected nor acknowledged. This makes route exclusion auditable by unambiguous register id rather than by fragile prose-scope matching.
+Every stricter cannabis row not selected for a cell is listed by register id in `audit_excluded_ids` with a documented route reason; the compiler's verify pass fails if any stricter-than-published cannabis row is neither selected nor acknowledged.
 
 ## Results (staff/HMTc — not for the public index)
 
-All values µg/kg (ppb), product-as-tested (as sold), no reconstitution. Provenance tag in brackets; controlling jurisdiction shown.
+All values µg/kg (ppb), product-as-tested (as sold), no reconstitution. Tag in brackets; controlling jurisdiction shown. **Total Cr is a screening ceiling on every row (see chromium note), never a health limit.**
 
-| Row | Pb | Cd | tAs | tHg | total Cr | Ni / Sn / Al | iAs / MeHg / Cr-VI |
-|-----|----|----|-----|-----|----------|--------------|--------------------|
-| flower (inhaled) | 500 [RA] CA | 200 [RA] CA | 200 [RA] CA | 100 [RA] CA | 600 [RA] MD | control | control |
-| edibles (ingested) | 500 [RA] CA | 500 [RA] CA | 500 [RA] MA | 100 [RA] IL | control | control | control |
-| tinctures/oils (oral) | 500 [RA] CA | 500 [RA] CA | 500 [RA] MA | 100 [RA] IL | control | control | control |
-| topicals (dermal) | 500 [RA] CA | 500 [RA] CA | 500 [RA] MA | 100 [RA] IL | control | control | control |
-| concentrates (multi) | 500 [RA] MA | 500 [RA] MA | 500 [RA] MA | 100 [RA] IL | 600 [read-across] MD | control | control |
+| Row | Pb | Cd | tAs | tHg | total Cr (screen) | Ni / Sn / Al | iAs / MeHg / Cr-VI |
+|-----|----|----|-----|-----|-------------------|--------------|--------------------|
+| flower (inhaled) | 500 CA | 200 CA | 200 CA | 100 CA | 600 MD | control | control |
+| edibles (ingested) | 500 CA | 500 CA | 500 MA | 100 IL | 1,100,000 MD [RA] | control | control |
+| tinctures/oils (oral) | 500 CA | 500 CA | 500 MA | 100 IL | 1,100,000 MD | control | control |
+| topicals (dermal) | 500 CA | 500 CA | 500 MA | 100 IL | 1,100,000 MD | control | control |
+| concentrates (multi) | 500 MA | 500 MA | 500 MA | 100 IL | 600 MD [RA] | control | control |
+| vape cartridge fill (inhaled) | 500 CA | 200 CA | 200 CA | 100 CA | 600 MD | control | control |
 
-`[RA]` = regulatory-alignment (the strictest applicable sovereign maximum binds). `read-across` = a sovereign value from an analogous route, disclosed. `control` = mandatory total-panel surveillance with no protective sovereign maximum (Ni/Sn/Al everywhere; total-Cr on oral/topical rows), or a species control bounded by its total (iAs←tAs, MeHg←tHg, Cr-VI←Cr).
+Pb/Cd/tAs/tHg are `regulatory-alignment` (the strictest applicable sovereign maximum binds). `[RA]` = disclosed read-across. `control` = mandatory total-panel surveillance with no protective sovereign maximum (Ni/Sn/Al everywhere; species controls iAs←tAs, MeHg←tHg, Cr-VI←Cr).
 
-Counts: 22 numeric cells (all regulatory-alignment except one read-across), 33 control cells, across the five compiled rows. Verify pass: **PASS** (every cell resolves to a named sovereign register row or a substantiated control; no unacknowledged stricter limit; provenance vocabulary valid; occurrence selected nothing).
+Counts: 30 numeric cells, 36 control cells across the six compiled rows. Verify: **PASS** (every cell resolves to a named sovereign register row or a substantiated control; no unacknowledged stricter limit; provenance vocabulary valid; occurrence selected nothing).
 
-## Provenance vocabulary
+## Chromium: a screening ceiling, not a health limit
 
-Only the allowed tags appear: `regulatory-alignment`, `read-across`, `control`. `not-material` and `ratchet` are allowed but unused here (cannabis controls are surveillance controls, not not-material determinations, per the Step-0 lock). No retired tags.
+Total chromium is dominated by benign Cr(III); the health-relevant species is Cr(VI). Every total-Cr cell therefore records the sovereign number as a **screening ceiling** (`screen: true`), never a health limit, and names Cr(VI) as the binding control: **any quantifiable Cr(VI) fails certification**. The recorded number is Maryland's actual sovereign cannabis total-Cr action level for the route — 600 µg/kg for the inhalation route (a meaningful screen), and 1,100,000 µg/kg for the oral and cutaneous routes (a back-calculation from the USP <232> oral chromium PDE, permissive to the point of being non-protective; no product approaches it). Maryland is the only sovereign cannabis program that sets total Cr; for edibles, which Maryland excludes from both its edible-Cr row (omitted) and its oral row ("except edible products"), the oral value is applied as a disclosed read-across. Recording the number keeps the standard method-faithful and lossless; the `screen` flag and the Cr(VI) hard-fail keep it honest and protective.
 
-## Controlling instruments
+(This revises the `cat25-v1.0` decision, which dropped the oral/cutaneous total-Cr number to a bare control. Recording the sovereign value as a labelled non-protective screen is method-faithful, loses no data, and is consistent with how total Cr is treated on the other rows.)
 
-Each numeric cell records `controlling_instrument` = the binding row's regulation page:
-`regulations/california-dcc-2026-cannabis-heavy-metals-testing`,
-`regulations/massachusetts-cannabis-heavy-metal-protocol-2020`,
-`regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016`,
-`regulations/maryland-cannabis-heavy-metal-action-limits-2025`.
-Each cell also lists the full per-jurisdiction candidate landscape and the jurisdictions concurring at the binding value.
+## Corrections against the prior food-compiler compilation
 
-## Corrections against the prior compilation
-
-The earlier five-row output (produced by `compile-cat1.mjs`, the food compiler) carried three problems that this dedicated compiler removes:
-
-1. **Israel omission (understated mercury protection).** The food compiler's scope-string matcher did not recognise Israel's route-agnostic scope ("medical cannabis inflorescences after drying and cannabis products") as applicable to edibles, tinctures, or topicals, so those three rows published tHg = 400 (Nevada) instead of the stricter tHg = **100 (Israel)**. Israel's rule covers cannabis products of all routes and correctly binds all five rows. This edit moves the standard *toward* the stricter literature/regulatory floor (firewall direction: toward the literature — permitted and logged).
-2. **Non-protective chromium number.** The food compiler published total Cr = **1,100,000 µg/kg** on the edibles/tinctures/topicals rows as a read-across from Maryland's oral/cutaneous action level. That figure is a back-calculation from the USP <232> oral chromium PDE at an assumed serving mass; it is real but non-protective (no product approaches 1,100 mg/kg Cr) and reads as absurd on a certification standard. Those cells are now **control** (mandatory total-Cr surveillance, Cr(VI) speciation on any anomaly, any quantifiable Cr(VI) fails), with the Maryland value disclosed in the control rationale. The inhaled rows (flower direct, concentrates via route-protective read-across) keep Maryland's protective inhalation total-Cr = 600 µg/kg.
-3. **Food-compiler shape.** The prior JSONs carried `variants.both`, `per_country`, `converted: true`, and a method string reading "8:1 basis" (the infant-formula reconstitution factor). Cannabis is `as_sold` with no reconstitution; all of that is removed. The new records are flat, route-labelled, and provenance-tagged.
-
-Both substantive corrections (1 and 2) move the standard toward the more accurate/protective reading of the sovereign literature, which is the permitted firewall direction (CLAUDE.md Part 2); neither softens a claim to suit HMTc convenience.
+1. **Israel omission (understated mercury protection).** The food compiler did not recognise Israel's route-agnostic scope as applicable to edibles/tinctures/topicals, so those rows published tHg = 400 (Nevada) instead of the stricter tHg = **100 (Israel)**, which correctly binds all ingested/topical rows. Moves toward the stricter regulatory floor (firewall direction: toward the literature).
+2. **Chromium framing.** The prior run published total Cr = 1,100,000 µg/kg on the oral/topical rows as if it were a firm limit, with no indication it is a non-protective USP-PDE ceiling and no Cr(VI) control named. It is now a labelled screening ceiling with Cr(VI) hard-fail as the binding control.
+3. **Food-compiler shape.** The prior JSONs carried `variants.both`, `per_country`, `converted: true`, and a method string reading "8:1 basis" (the infant-formula reconstitution factor). Cannabis is `as_sold`, no reconstitution; all removed. Records are now flat, route-labelled, provenance-tagged.
+4. **Vape under-scoping (`cat25-v1.1`).** The vape row was initially reserved in full. The consumable (cartridge fill / vape oil) is a finished inhaled cannabis product directly governed by the inhaled-route limits, so it is now compiled (`cannabis-vape-cartridge-fill`, identical basis to flower). Only the aerosol-emissions/coil-leaching facet — a different measured quantity — remains reserved.
 
 ## Gate status
 
-- **QC gate (`tools/evidence/build-standards-qc-gate.mjs`)** operates on the occurrence pipeline (`hmtc_aggregate_distributions.csv`); cat25 is compiled from the register, so it does not appear there. Its load-bearing invariant — C1, a published value may never exceed its regulatory cap — is satisfied here **by construction**: every published value *is* the strictest applicable sovereign cap, so the value equals its own binding cap and cannot exceed any applicable cap. The compiler's C8-equivalent (rationale honesty) is also satisfied: every cap-binding cell is tagged `regulatory-alignment`.
-- **Not-material substantiation gate** applies to `not_material` cells; cat25 uses `control` cells instead (surveillance, per the Step-0 lock), so no substantiation registry entry is required. The `lint:not-material-integrity` pass is unaffected.
-- **Route-conflation guard** (the real QC for a route-split government-limit standard) is embedded in the compiler's verify pass and returned PASS.
-- The `readiness-monitor` and `claim-reconcilers` tools referenced in the kickoff brief live on the divergent `codex/methodology-sync` line, not on origin/main (this work's base). Their criteria are met by construction for these cells (government-ML lookups + substantiated controls; no occurrence value; no cap exceedance).
+- **QC gate (`build-standards-qc-gate.mjs`)** operates on the occurrence pipeline; cat25 is register-compiled, so it does not appear there. Its C1 invariant (a published value may never exceed its regulatory cap) holds **by construction**: every published Pb/Cd/tAs/tHg value *is* the strictest applicable sovereign cap. Total-Cr cells are screens, not health limits, so C1 is inapplicable to them.
+- **Not-material substantiation gate** applies to `not_material` cells; cat25 uses `control` (surveillance) cells, requiring no substantiation registry entry.
+- **Route-conflation guard** is embedded in the compiler's verify pass and returned PASS.
+- The `readiness-monitor` and `claim-reconcilers` tools referenced in the kickoff brief live on the divergent `codex/methodology-sync` line, not on origin/main (this work's base); their criteria are met by construction here.
 
 ## Version / lineage
 
-- `cat25-v1.0` — 2026-08-13. First dedicated route-based cannabis compiler. Five rows compiled (flower, edibles, tinctures/oils, topicals, concentrates); vape hardware reserved. Corrects the Israel-omission and non-protective-chromium defects of the prior food-compiler run and removes the food-compiler shape.
+- `cat25-v1.1` — 2026-08-14. Total Cr recorded as a labelled screening ceiling on every row (Cr(VI) is the binding control); vape consumable compiled (`cannabis-vape-cartridge-fill`, inhaled-route content), only the aerosol/hardware facet reserved. Version bumped from v1.0 after Karen's review.
+- `cat25-v1.0` — 2026-08-13. First dedicated route-based cannabis compiler; five rows; oral/topical total Cr dropped to control; vape fully reserved. Corrected the Israel-omission and removed the food-compiler shape.
 - Predecessor (superseded): the 2026-08-12 five-row output on `codex/methodology-sync` (d9fc2f9c9), produced by `compile-cat1.mjs` against the food-shaped config.
 
-## Reserved: cannabis-vape-hardware (row 6)
+## Reserved: cannabis-vape-hardware / aerosol emissions (row 6b)
 
-Not compiled to a numeric standard, by design. The governing quantity for vape hardware is metal **release into inhaled aerosol** (coil/heating-element leaching of Pb, Ni, Cr), not total product content; a µg/kg content limit would misrepresent the hazard basis. The aerosol-release test architecture — and whether hardware is factored here per-category or under one shared inhalable-hardware treatment with nicotine vapes — is a reserved governance decision for Karen (`docs/governance/taxonomy-reorganization-2026-06.md` §4; `category-25-step0-lock.md`). The reserved record (`cat25-compiled/cannabis-vape-hardware.json`) documents this so the six-row set is complete and the reservation is explicit rather than a silent gap.
+What remains reserved is metal **release into inhaled aerosol** — coil/heating-element leaching of Pb, Ni, Cr, plus the aerosol behaviour of the heated oil — a different measured quantity (mass emitted per puff or per gram aerosolized) that a µg/kg product-content limit cannot express. The aerosol-emissions test architecture, and whether hardware is factored here per-category or under one shared inhalable-hardware treatment with nicotine vapes, is a reserved governance decision (`taxonomy-reorganization-2026-06.md` §4; `category-25-step0-lock.md`). The consumable it heats is already covered by `cannabis-vape-cartridge-fill`.
 
 ## Integration note (surfaced, not silently resolved)
 
-This work is based on **origin/main**, which carries the cannabis register, the Step-0 lock, the taxonomy, and the QC/not-material tooling, but not the divergent `codex/methodology-sync` line's `compile-current-standards.mjs` orchestrator (which currently dispatches cat25 through the food compiler) or its stale `cat25-config.json`/`cat25-compiled` outputs. When those lines are reconciled, the orchestrator's cat25 dispatch must point at `compile-cat25.mjs` (not `compile-cat1.mjs`), and this decontaminated config + these outputs supersede the codex line's. Logged to the outstanding-items ledger.
+This work is based on **origin/main** (which carries the cannabis register, the Step-0 lock, the taxonomy, and the QC/not-material tooling), not the divergent `codex/methodology-sync` line (which still dispatches cat25 through the food compiler and holds the stale food-shaped config/outputs). When those lines are reconciled, the orchestrator's cat25 dispatch must point at `compile-cat25.mjs` and this config + these outputs supersede the codex line's. Logged to the outstanding-items ledger (`OI-20260813-cat25-orchestrator-dispatch`).

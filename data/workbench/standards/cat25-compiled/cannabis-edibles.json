@@ -8,8 +8,8 @@
   "native_basis": "as_sold",
   "route_basis_label": "finished edible cannabis product, as sold (product-as-tested); no reconstitution",
   "scope_note": "Ingested food-form route. Applicable pool = route-agnostic all-uses cannabis rules plus ingestion-specific rules (California non-inhalable, Colorado oral, MA ingestion-only, Maryland edible). Inhalation-route limits are not applied (see audit_excluded_ids).",
-  "version": "cat25-v1.0",
-  "version_date": "2026-08-13",
+  "version": "cat25-v1.1",
+  "version_date": "2026-08-14",
   "method": "HMTc Method v2.0 (government-limit default, route-preserving; strictest applicable sovereign cannabis maximum; occurrence never selects a value)",
   "generated_from": "data/evidence/regulatory_limits.csv",
   "config": "tools/standards/cat25-config.json",
@@ -302,11 +302,29 @@
       "bounded_by": null
     },
     "Cr": {
-      "provenance": "control",
-      "value": null,
-      "control": "No protective sovereign cannabis chromium maximum applies to edibles. Maryland omits chromium from its edible-cannabis row entirely, and its oral-route total-chromium action level (1,100,000 ug/kg, a back-calculation from the USP <232> oral chromium PDE at an assumed serving mass) is non-protective and is not adopted as a numeric certification limit. Total Cr is measured on every lot; any quantifiable Cr(VI) fails certification.",
-      "reference_method": "Total Cr by ICP-MS; Cr(VI) speciation by IC-ICP-MS on any anomalous total-Cr result.",
-      "bounded_by": null
+      "provenance": "read-across",
+      "value": 1100000,
+      "value_exact": 1100000,
+      "unit": "ug/kg",
+      "basis": "as_sold",
+      "source_id": "md2025_cr_total_cannabis_oral_1100000",
+      "source_jurisdiction": "US-MD",
+      "controlling_instrument": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+      "label": "read-across from Maryland's oral-route total-chromium action level; Maryland omits chromium from its edible row and excludes edibles from its oral row, so the nearest analogous sovereign ingested-route value is applied as a disclosed read-across",
+      "audit_excluded": {
+        "reason": "inhalation-route sovereign limit; not applicable to an ingested edible product",
+        "rows": [
+          {
+            "id": "md2025_cr_total_cannabis_inhalation_600",
+            "value": 600,
+            "jurisdiction": "US-MD",
+            "scope": "usable cannabis and cannabis products except edible products; inhalation route"
+          }
+        ]
+      },
+      "screen": true,
+      "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's oral-route sovereign total-Cr action level (1,100,000 ug/kg), back-calculated from the USP <232> oral chromium PDE at an assumed serving mass and therefore non-protective (no product approaches it). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+      "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
     },
     "Cr-VI": {
       "provenance": "control",
