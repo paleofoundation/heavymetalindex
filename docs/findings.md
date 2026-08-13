@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-53 open item(s): 22 auto, 31 awaiting a decision.
+54 open item(s): 22 auto, 32 awaiting a decision.
+
+### OI-20260813-cat12-cert-page-render — Render Category 12 (Household Cleaning) HMTc standard to the cert repo, mirroring Cat-9 build-cert-cat9-pages.mjs
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `tools/standards/compile-cat12.mjs`, `data/workbench/standards/cat12-compiled/`, `~/Desktop/heavymetalcertified/content/standards/`
+- repro: Cat-12 is compiled + committed on branch claude/priceless-visvesvaraya-282a33 (d0e759d9d) with all gates green, but numbers live only in data/workbench/standards/cat12-compiled/. Cat-9 additionally shipped cert pages via a build-cert-cat9-pages.mjs renderer into heavymetalcertified/content/standards/. No build-cert-cat12-pages.mjs exists yet and nothing was rendered to the cert side.
+- done when: A build-cert-cat12-pages.mjs (or generalized renderer) emits per-subcategory standard pages from data/workbench/standards/cat12-compiled/ into the heavymetalcertified repo; Pages render control cells as method+escalation (not a number) and grouped cells with the sovereign grouped-ceiling framing; cert design-lint + firewall pass; numbers never appear on any heavymetalindex (index) URL
+- decision: _pending_
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -534,7 +542,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
 
-- scope: **auto** · type: code-fix · status: open · repo: index
+- scope: **auto** · type: code-fix · status: queued · repo: index
 - paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
 - repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
 - done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug
