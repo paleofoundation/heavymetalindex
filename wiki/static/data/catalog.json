@@ -6,8 +6,8 @@
   "name": "Heavy Metal Index — open data catalog",
   "url": "https://heavymetalindex.com/data",
   "description": "Machine-readable open data from the Heavy Metal Index: measured heavy-metal occurrence distributions and the cross-jurisdiction regulatory-limit corpus. Literature-native; contains no HMTc certification thresholds.",
-  "generated_at": "2026-08-13T10:57:53.352Z",
-  "generated_commit": "986c207bdaddba859b7dd581fbf10edfbd1d25d4",
+  "generated_at": "2026-08-13T11:11:16.966Z",
+  "generated_commit": "13ec7491388865ab8b4c7f8c61bef52954c6e3bc",
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
@@ -21,7 +21,7 @@
       "name": "Heavy Metal Index — food & ingredient occurrence data",
       "description": "Measured heavy-metal occurrence distributions per ingredient and analyte (typical range, 95th percentile, study count, confidence, contributing sources), compiled from the peer-reviewed and regulatory literature. Values are in ppb (µg/kg) on the basis each source reported.",
       "landing_page": "https://heavymetalindex.com/data",
-      "version": "2026-08-13+986c207bdadd",
+      "version": "2026-08-13+13ec74913888",
       "date_modified": "2026-08-13",
       "record_count": 230,
       "unit": "ppb (µg/kg)",
@@ -55,7 +55,7 @@
       "name": "Heavy Metal Index — regulatory limit corpus",
       "description": "Published maximum-level / regulatory-limit records for heavy metals in food and consumer-product matrices across jurisdictions, with agency, program, matrix, effective and sunset dates, and the source page carrying each rule.",
       "landing_page": "https://heavymetalindex.com/data",
-      "version": "2026-08-13+986c207bdadd",
+      "version": "2026-08-13+13ec74913888",
       "date_modified": "2026-08-13",
       "record_count": 172,
       "distributions": [
