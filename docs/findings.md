@@ -513,7 +513,25 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-53 open item(s): 22 auto, 31 awaiting a decision.
+55 open item(s): 22 auto, 33 awaiting a decision.
+
+### OI-20260813-md-cannabis-cr-oral-cutaneous-value — Verify Maryland cannabis oral/cutaneous total-chromium action level of 1,100,000 ug/kg against the source (Technical Authority Rev. 6.0)
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`
+- repro: Register rows md2025_cr_total_cannabis_oral_1100000 and md2025_cr_total_cannabis_cutaneous_1100000 carry 1,100,000 ug/kg (1100 mg/kg) total Cr, ~1833x Maryland inhalation Cr (600). Plausibly a real USP<232> oral-PDE back-calculation but should be confirmed against Maryland Technical Authority Rev. 6.0 Table 10/11. cat25-v1.0 treats these as non-protective and does NOT publish them (oral/topical Cr=control), so cat25 is not blocked; the register value should be verified or annotated with its basis.
+- done when: MD oral/cutaneous Cr value confirmed or corrected against source; register note added recording the basis (USP oral PDE back-calc) or the correction
+- decision: _pending_
+- notes: Surfaced during Cat 25 compilation.
+
+### OI-20260813-cat25-orchestrator-dispatch — Wire the standards orchestrator to compile Category 25 via compile-cat25.mjs (not the food compiler) and supersede the codex line stale food-shaped cat25 config/outputs
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-current-standards.mjs`, `tools/standards/cat25-config.json`, `data/workbench/standards/cat25-compiled`
+- repro: origin/main now compiles Cat 25 with a dedicated route-based compile-cat25.mjs (cat25-v1.0). The divergent codex/methodology-sync line (d9fc2f9c9) still routes cat25 through compile-cat1.mjs against a food-shaped config, producing tHg 400 (should be 100 IL) and Cr 1,100,000 (should be control) on the edibles/tinctures/topicals rows, plus food-compiler shape (variants.both/per_country/8:1 basis). At merge, the orchestrator cat25 dispatch must point at compile-cat25.mjs and the decontaminated config/outputs must win.
+- done when: compile-current-standards.mjs dispatches cat25 to compile-cat25.mjs; cat25-compiled JSONs match compile-cat25 output (no variants.both/8:1/per_country); edibles/tinctures/topicals tHg=100 and oral/topical total-Cr=control
+- decision: _pending_
+- notes: Lane-divergence reconciliation. See data/workbench/standards/2026-08-13-cat25-cannabis-derive-audit-verify.md
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 
@@ -534,7 +552,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260811-quartz-typecheck-red-on-main — npm run check fails on 8 pre-existing TypeScript errors in the Quartz site layer, so main is red and no PR can reach green
 
-- scope: **auto** · type: code-fix · status: open · repo: index
+- scope: **auto** · type: code-fix · status: queued · repo: index
 - paths: `quartz.layout.ts`, `quartz/components/MegaMenu.tsx`, `quartz/components/TableOfContents.tsx`, `quartz/components/renderPage.tsx`, `quartz/plugins/transformers/sourceCiteMeta.ts`
 - repro: `npm run check` exits 2 with: quartz.layout.ts(23,7) TS6133 'primaryNavFilter' unused; MegaMenu.tsx(30,10) TS6133 'Chevron' unused; TableOfContents.tsx(145,23) and (147,44) TS2367 unintentional comparison; renderPage.tsx(268,9) TS6133 'LeftComponent' unused, (276,9) TS6133 'RightComponent' unused, (319,12) TS2745 JSX children prop type mismatch; sourceCiteMeta.ts(68,26) TS18046 'authors' is of type 'unknown'. These files last changed on main in 7bf734ad (Graph/Backlinks remount). Observed on PR #116 run 31482362325 once the test step finally passed and the workflow advanced to the check step.
 - done when: `npm run check` exits 0; A green CI run is observed on main; The two TS2367 comparisons in TableOfContents.tsx are resolved by fixing the comparison rather than by casting away the type error, since an always-false comparison is usually a real bug
