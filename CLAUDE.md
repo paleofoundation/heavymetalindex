@@ -223,7 +223,7 @@ See [[docs/conventions]] (Evidence grading section). A-tier / B-tier / C-tier de
 
 ## Part 14 — Conventions
 
-See [[docs/conventions]] for units (always ppb µg/kg unless source uses different units; wet vs dry weight always specified), metal names (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U with iAs/tAs and tHg/MeHg as non-negotiable distinctions), HMT&C analyte vocabulary (the official 10-analyte certification list: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), dates (ISO-8601), cite-keys, wikilink frontmatter rules, numbers/regulatory-values/uncertainty discipline, and consumer language.
+See [[docs/conventions]] for units (always ppb µg/kg unless source uses different units; wet vs dry weight always specified), metal names (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U with iAs/tAs and tHg/MeHg as non-negotiable distinctions), HMT&C analyte vocabulary (eight mandatory totals: Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr; core species: iAs and Cr-VI; conditional species: MeHg), dates (ISO-8601), cite-keys, wikilink frontmatter rules, numbers/regulatory-values/uncertainty discipline, and consumer language.
 
 Schema migration history is in [[docs/schema-history]].
 
@@ -265,6 +265,8 @@ The methodology is fixed, system-wide, and applies to every category and every r
 
 **The initial standard for any (product, analyte) is the strictest applicable maximum level set by a credible sovereign government, expressed in the row's native basis.** This is a regulatory lookup, not an occurrence calculation. The controlling instrument and any permitted basis treatment must be cited. Where a government instrument splits a limit by formulation or product form, HMTc adopts that split.
 
+**The canonical testing contract is eight totals plus species controls.** Every row reports Pb, Cd, tAs, tHg, Ni, Sn, Al, and total Cr. The core species cells are iAs and Cr-VI; MeHg is additional wherever a credible methylation pathway exists and otherwise receives an explicit applicability determination bounded by tHg. Species never replace totals: iAs cannot satisfy tAs, MeHg cannot satisfy tHg, and Cr-VI cannot satisfy total Cr.
+
 The selection sequence is locked:
 
 1. Define the exact product form, intended consumer, analyte species, unit, and native basis.
@@ -299,6 +301,7 @@ Current numeric cells use only these provenance states:
 - `regulatory-alignment` — the initial or updated value is the strictest applicable sovereign maximum.
 - `read-across` — the exact cell is unregulated and the value maps from a disclosed analogous sovereign cell.
 - `not-material` — no standalone number is published; a documented control or reflex rule governs.
+- `control` — testing remains mandatory but no defensible sovereign numeric maximum or near-neighbour read-across exists; publish the analytical method and escalation rule, never an occurrence-derived substitute.
 - `ratchet` — a post-publication value is lower than the government anchor under Governance Policy §12, with the trigger-pool snapshot, calculation, review dates, and transition record attached.
 
 Historical records may retain former tags only when clearly marked superseded and excluded from current generators. New or current public and workbench outputs must not emit the retired tags.

@@ -26,6 +26,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { FULL_PANEL } from "./hmtc-analyte-panel.mjs"
 
 const REPO = process.cwd()
 const args = new Map(process.argv.slice(2).flatMap((a) => (a.startsWith("--") ? [a.slice(2).split("=").concat([""]).slice(0, 2)] : [])))
@@ -33,7 +34,7 @@ const only = (args.get("only") || "").split(",").map((s) => s.trim()).filter(Boo
 const OUTDIR = args.get("outdir") || path.join(REPO, "data/workbench/standards/cat1-compiled")
 const QUIET = args.has("quiet")
 
-const DEFAULT_PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"] // Cat-1 panel (config may override)
+const DEFAULT_PANEL = FULL_PANEL
 // Canonical order for naming the binding jurisdiction when two governments tie at the strictest value.
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
@@ -62,7 +63,7 @@ const PESTICIDE = /pesticide|residue level/i
 // Canned/tinplate in the register's several source languages. Tin migrates from the can, so these
 // limits govern canned product only; an English-only pattern let Morocco's French "en conserve"
 // tin rows (100 mg/kg) leak into non-canned purées. Also foundational for canned-seafood gating.
-const CANNED = /canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i
+const CANNED = /canned|tinplate|tin-plate|tin-coated|tin coated|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i
 const POWDER_FORM = /powder|powdered|dry\b|as[- ]sold.*powder/i // explicit powder-form scope
 
 // --- register load ------------------------------------------------------------
@@ -86,8 +87,9 @@ const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulat
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const CONFIG_PATH = args.get("config") || path.join(REPO, "tools/standards/cat1-config.json")
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
-// Category-agnostic panel: a config names its own analyte panel (seafood adds MeHg, drops the
-// formula-only Tier-2 cells); Cat-1 falls back to the default panel.
+// Category-agnostic panel: every config must preserve the canonical eight total
+// elements plus the species cells. A config may control ordering but not omit a
+// cell; the compiled-panel audit enforces the contract before publication.
 const PANEL = config.panel || DEFAULT_PANEL
 
 // --- analyte normalization to the Cat-1 panel ---------------------------------
@@ -103,10 +105,11 @@ function analyteOf(metal) {
   if (m === "MeHg") return "MeHg"  // methylmercury — the fish-critical form; distinct from tHg
   if (m === "Cd") return "Cd"
   if (m === "Cr" || m === "Cr-total") return "Cr"
+  if (m === "Cr-VI") return "Cr-VI"
   if (m === "Ni") return "Ni"
   if (m === "Sn") return "Sn"
   if (m === "Al") return "Al"
-  return null // tAs, MeHg, Cr-VI, Sb — not panel cells
+  return null // Sb and other non-panel species
 }
 
 // --- basis conversion ---------------------------------------------------------
@@ -217,9 +220,9 @@ function resolveCell(sub, analyte, variant) {
   // LOOSER than a defensible read-across must not ratchet the standard DOWN below the near-neighbour
   // value the program already anchors to (Israel's direct produce Hg 30 does not override the
   // canned-complementary read-across 20). This preserves the one-way ratchet.
-  const ra = (sub.read_across || {})[analyte]
+  const ra = (sub.read_across || {})[analyte] || (config.default_read_across || {})[analyte]
   let raResult = null
-  if (ra && !ra.not_material) {
+  if (ra && !ra.not_material && !ra.control_only) {
     // Inline numeric cross-source values belonged to the retired occurrence /
     // precautionary method. A current numeric read-across must cite a sovereign
     // register row by source_id; otherwise the cell stays an explicit gap.
@@ -239,14 +242,17 @@ function resolveCell(sub, analyte, variant) {
     return { type: "gov", value: roundDisplay(raResult.value), value_exact: raResult.value, binding_jurisdiction: raResult.jur, binding_id: raResult.source_id, basis_note: ra.label || "government maximum level by lookup", per_country: { [raResult.jur]: { value: roundDisplay(raResult.value), converted: false, id: raResult.source_id } } }
   }
 
-  if (direct && (!raResult || direct.value <= raResult.value)) {
+  if (direct && (!raResult || ra.gap_only || direct.value <= raResult.value)) {
     return { type: "gov", value: roundDisplay(direct.value), value_exact: direct.value, binding_jurisdiction: direct.jur, binding_id: direct.id, basis_note: direct.note, per_country: perCountry }
   }
   if (raResult) {
     return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry }
   }
   if (ra && ra.not_material) {
-    return { type: "not_material", value: null, control: ra.control || "not material", reference_method: ra.reference_method || null }
+    return { type: "not_material", value: null, control: ra.control || "not material", reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null }
+  }
+  if (ra && ra.control_only) {
+    return { type: "control", value: null, control: ra.control || "no sovereign numeric maximum; mandatory surveillance control", reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null }
   }
   return { type: "gap", value: null, error: "no government ML and no read-across configured" }
 }
@@ -312,7 +318,7 @@ for (const slug of slugs) {
       if (variants.length > 1) console.log(`  [${variant}]`)
       for (const a of PANEL) {
         const c = record.variants[variant][a]
-        const v = c.value == null ? (c.type === "not_material" ? "n/m" : "GAP") : String(c.value)
+        const v = c.value == null ? (["not_material", "control", "subsumed"].includes(c.type) ? c.type : "GAP") : String(c.value)
         const src = c.type === "gov" ? c.binding_jurisdiction : c.type === "read_across" ? `read-across ${c.source_jurisdiction}` : c.type
         console.log(`    ${a.padEnd(5)} ${v.padStart(8)}   ${src}${c.basis_note && c.basis_note !== "same basis" ? " (" + c.basis_note + ")" : ""}`)
       }

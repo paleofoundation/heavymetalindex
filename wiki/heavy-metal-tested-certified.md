@@ -1,6 +1,6 @@
 ---
 title: Heavy Metal Tested & Certified
-description: Heavy Metal Tested & Certified (HMT&C) is the Institute of Contaminant Standards (ICS)'s consumer-product heavy-metal certification program. What it is, the HMTc-10 analytes it covers, and how the independent Heavy Metal Index relates to it.
+description: Heavy Metal Tested & Certified (HMT&C) is the Institute of Contaminant Standards (ICS)'s consumer-product heavy-metal certification program. What it tests, how species controls supplement the eight total-element results, and how the independent Heavy Metal Index relates to it.
 type: meta
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-08-12
@@ -14,22 +14,13 @@ Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consume
 
 HMT&C certifies consumer products that meet its published per-analyte limits for toxic elements. It is a voluntary, third-party certification: a brand submits products for testing, and certification depends on results meeting the program's current limit for each covered analyte in the relevant product category. Initial limits are government-limit-only. After publication, the program may tighten a limit through its ALARA Standards Ratchet using eligible HMTc certified-lot findings, never public Index occurrence data. The certification marks, certified-product determinations, current limits, and ratchet records are governed by the program at heavymetalcertified.com and are not published on the Index.
 
-## The HMTc-10 analytes
+## The testing panel and species controls
 
-The program's certification analyte vocabulary is a fixed list of ten elements and species, referred to across this reference as the HMTc-10:
+The program reports eight total-element results on every certification row: lead (Pb), cadmium (Cd), total arsenic (tAs), total mercury (tHg), nickel (Ni), tin (Sn), aluminium (Al), and total chromium (Cr).
 
-- Lead (Pb)
-- Total arsenic (tAs)
-- Inorganic arsenic (iAs)
-- Cadmium (Cd)
-- Total mercury (tHg)
-- Methylmercury (MeHg)
-- Nickel (Ni)
-- Aluminium (Al)
-- Hexavalent chromium (Cr-VI)
-- Tin (Sn)
+Species controls are additional. Inorganic arsenic (iAs) and hexavalent chromium (Cr-VI) are core species cells. Methylmercury (MeHg) is additionally required for fish, seafood, and any other product with a credible methylation pathway; other rows record an explicit applicability determination rather than silently omitting it.
 
-The distinctions between species, inorganic versus total arsenic, methylmercury versus total mercury, and hexavalent versus total chromium, are treated as non-negotiable throughout the Index, because the toxicology and the regulatory limits differ by species. Index pages report contamination data using this same analyte vocabulary, which is what lets a certification analyte be traced back to the underlying literature on the corresponding Index metal page, for example [[metals/lead]] or [[metals/cadmium]].
+The distinctions between inorganic and total arsenic, methylmercury and total mercury, and hexavalent and total chromium are non-negotiable. A species result never substitutes for its parent total-element result. Index pages preserve the same distinctions so a certification analyte can be traced to the underlying literature on the corresponding Index metal page, for example [[metals/lead]] or [[metals/cadmium]].
 
 ## HMTc testing categories
 

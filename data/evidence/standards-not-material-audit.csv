@@ -60,15 +60,15 @@ other-grain-products,Cr-VI,speciation-bounded,PASS,
 grain-based-snacks,Cr-VI,speciation-bounded,PASS,
 flour-non-rice,Sn,no-migration-pathway,PASS,
 pasta-rice-based,Sn,no-migration-pathway,PASS,
-breakfast-cereal-non-rice,Sn,no-migration-pathway,WARN,"WARN: credible ML candidate(s) for Sn×breakfast-cereal-non-rice — verify scope; if in-scope, adopt the ML not not-material: EU:Sn=50000[canned baby food and canned processed ce]"
-breakfast-cereal-rice-based,Sn,no-migration-pathway,WARN,"WARN: credible ML candidate(s) for Sn×breakfast-cereal-rice-based — verify scope; if in-scope, adopt the ML not not-material: EU:Sn=50000[canned baby food and canned processed ce]"
+breakfast-cereal-non-rice,Sn,no-migration-pathway,PASS,
+breakfast-cereal-rice-based,Sn,no-migration-pathway,PASS,
 rice-bulk-grain,Sn,no-migration-pathway,PASS,
 rice-snacks-crackers,Sn,no-migration-pathway,PASS,
 rice-noodles,Sn,no-migration-pathway,PASS,
-rice-beverages-rice-milk,Sn,no-migration-pathway,PASS,INFO: only organotin restriction(s) match Sn×rice-beverages-rice-milk — distinct species from inorganic tin; ensure organotin is screened separately (not bounded by this cell)
+rice-beverages-rice-milk,Sn,no-migration-pathway,PASS,
 other-grain-products,Sn,no-migration-pathway,PASS,
 grain-based-snacks,Sn,no-migration-pathway,PASS,
-rice-beverages-rice-milk,tHg,no-migration-pathway,WARN,"WARN: credible ML candidate(s) for tHg×rice-beverages-rice-milk — verify scope; if in-scope, adopt the ML not not-material: EU:tHg=10[cereals including rice]"
+rice-beverages-rice-milk,tHg,no-migration-pathway,PASS,
 flour-non-rice,MeHg,speciation-bounded,PASS,
 bread-and-baked-goods,MeHg,speciation-bounded,PASS,
 pasta-wheat-based,MeHg,speciation-bounded,PASS,

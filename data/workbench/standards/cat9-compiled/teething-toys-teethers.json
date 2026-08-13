@@ -173,6 +173,27 @@
       ],
       "stricter_unselected": []
     },
+    "Cr": {
+      "type": "gov",
+      "value": 60000,
+      "value_exact": 60000,
+      "binding_jurisdiction": "US",
+      "binding_id": "astm_f963_crtotal_soluble",
+      "basis": "soluble/migrated total chromium from accessible toy material (mg/kg)",
+      "candidates": [
+        {
+          "id": "astm_f963_crtotal_soluble",
+          "value": 60000,
+          "jurisdiction": "US"
+        },
+        {
+          "id": "mx_nom252_2011_cr_total_general_60",
+          "value": 60000,
+          "jurisdiction": "MX"
+        }
+      ],
+      "stricter_unselected": []
+    },
     "Cr-VI": {
       "type": "gov",
       "value": 53,

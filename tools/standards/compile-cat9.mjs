@@ -33,6 +33,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { FULL_PANEL } from "./hmtc-analyte-panel.mjs"
 
 const REPO = process.cwd()
 const args = new Map(process.argv.slice(2).flatMap((a) => (a.startsWith("--") ? [a.slice(2).split("=").concat([""]).slice(0, 2)] : [])))
@@ -63,7 +64,7 @@ const QUARANTINE = /quarantin/i
 const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
-const PANEL = config.panel
+const PANEL = config.panel || FULL_PANEL
 
 // canonical order for tie-breaking the binding jurisdiction at equal strictest value
 const JUR_PRIORITY = ["EU", "UK", "US", "CA", "AU-NZ", "AU", "CN", "MX", "KR", "JP", "UY", "international"]
@@ -71,12 +72,12 @@ const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99
 
 // analyte a register row supplies, normalised to the Cat-9 panel. Contact-product arsenic and mercury
 // are TOTAL element (tAs / tHg); iAs and MeHg have no contact-product counterpart (handled not-material
-// in config). Cr-VI is the panel chromium cell; Cr-total is a screen, mapped separately.
+// in config). Total Cr and Cr-VI remain distinct cells; a species result never replaces the total.
 function analyteOf(metal) {
   const m = (metal || "").trim()
   if (["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Al", "Sn", "Sb"].includes(m)) return m
   if (m === "Cr-VI") return "Cr-VI"
-  if (m === "Cr-total" || m === "Cr") return "Cr-total"
+  if (m === "Cr-total" || m === "Cr") return "Cr"
   return null
 }
 
@@ -148,6 +149,9 @@ function resolveCell(sub, analyte) {
   if (spec.not_material) {
     return { type: "not_material", value: null, rationale: spec.not_material.rationale || spec.not_material, reference_method: spec.not_material.reference_method || null, bounded_by: spec.not_material.bounded_by || null }
   }
+  if (spec.control) {
+    return { type: "control", value: null, control: spec.control.rationale || spec.control.control || spec.control, reference_method: spec.control.reference_method || null, bounded_by: spec.control.bounded_by || null }
+  }
   if (spec.special) {
     return { type: "special", value: spec.special.value, unit: spec.special.unit, basis: spec.special.basis, jurisdiction: spec.special.jurisdiction, source_page: spec.special.source_page, label: spec.special.label, companion: resolveCompanion(spec) }
   }
@@ -204,7 +208,7 @@ for (const slug of slugs) {
     console.log(`    governing basis: ${sub.governing_basis}`)
     for (const a of PANEL) {
       const c = cells[a]
-      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "gap" ? "GAP" : c.type === "unspecified" ? "—" : "?") : String(c.value)
+      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "control" : c.type === "gap" ? "GAP" : c.type === "unspecified" ? "—" : "?") : String(c.value)
       if (c.not_detectable) v = `ND<${v}`
       if (c.type === "special") v = `${c.value} ${c.unit || ""}`
       const src = c.type === "gov" ? c.binding_jurisdiction : c.type === "read_across" ? `RA ${c.source_jurisdiction}` : c.type === "special" ? c.jurisdiction : c.type

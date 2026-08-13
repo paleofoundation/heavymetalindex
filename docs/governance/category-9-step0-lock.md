@@ -2,7 +2,7 @@
 
 **Status:** Scope lock (2026-08-10). First non-food category to lock under Method v2.0.
 **Taxonomy:** HMTc v2.2, Category 9 (Infant and Child Contact Products, Ages 0-5), 8 rows (taxonomy `n=9`).
-**Panel:** the HMTc 10-analyte certification set — Pb, tAs, iAs, Cd, tHg, MeHg, Ni, Al, Cr-VI, Sn — with the contact-product speciation rules in the methodology section below.
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability determination, with the contact-product basis rules below.
 **Exposure pathway:** oral (mouthing) + dermal (contact with mucous membranes, saliva); for the food-contact rows, incidental ingestion via migration into milk/food.
 
 ## Why Category 9 locks its row scope now (and why it is not a percentile decision)

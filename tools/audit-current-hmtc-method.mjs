@@ -107,8 +107,25 @@ if (/"(?:role|target_percentile)"\s*:|\bP(?:45|97)\b/i.test(occurrenceStrata)) {
   failures.push("data/reference/occurrence-market-strata.json: occurrence stratification must not contain certification roles or percentile selectors")
 }
 
-for (const configRel of ["tools/standards/cat1-config.json", "tools/standards/cat3-config.json"]) {
+for (const configRel of [
+  "tools/standards/cat1-config.json",
+  "tools/standards/cat3-config.json",
+  "tools/standards/seafood-config.json",
+  "tools/standards/cat7-config.json",
+  "tools/standards/cat9-config.json",
+  "tools/standards/cat24-config.json",
+  "tools/standards/cat25-config.json",
+]) {
   const config = JSON.parse(read(configRel))
+  const requiredPanel = ["Pb", "Cd", "tAs", "tHg", "Ni", "Sn", "Al", "Cr", "iAs", "Cr-VI", "MeHg"]
+  for (const analyte of requiredPanel) {
+    if (!config.panel?.includes(analyte)) failures.push(`${configRel}: canonical analyte panel omits ${analyte}`)
+  }
+  for (const [analyte, resolution] of Object.entries(config.default_read_across ?? {})) {
+    if (resolution?.value_ppb != null || ["occurrence", "precautionary"].includes(resolution?.basis)) {
+      failures.push(`${configRel}: default ${analyte} contains a retired numeric occurrence/precautionary resolution`)
+    }
+  }
   for (const [slug, subcategory] of Object.entries(config.subcategories ?? {})) {
     for (const [analyte, resolution] of Object.entries(subcategory.read_across ?? {})) {
       if (resolution?.value_ppb != null || ["occurrence", "precautionary"].includes(resolution?.basis)) {
@@ -121,7 +138,10 @@ for (const configRel of ["tools/standards/cat1-config.json", "tools/standards/ca
 for (const dirRel of [
   "data/workbench/standards/cat1-compiled",
   "data/workbench/standards/cat3-compiled",
+  "data/workbench/standards/cat7-compiled",
   "data/workbench/standards/cat9-compiled",
+  "data/workbench/standards/cat24-compiled",
+  "data/workbench/standards/cat25-compiled",
 ]) {
   for (const name of fs.readdirSync(path.join(root, dirRel)).filter((entry) => entry.endsWith(".json"))) {
     const record = JSON.parse(read(path.join(dirRel, name)))

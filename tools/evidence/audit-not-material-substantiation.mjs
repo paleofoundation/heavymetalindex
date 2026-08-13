@@ -78,6 +78,8 @@ const PRESENCE_OK_CLASSES = new Set(["additive-permitted", "natural-accumulator"
 const PRESENT_FLOOR = { Pb: 5, tAs: 5, iAs: 3, Cd: 3, tHg: 3, MeHg: 2, Ni: 20, Al: 20000, "Cr-VI": 3, Sn: 50, "Cr-total": 20 }
 
 const CREDIBLE = /\b(EU|European|Codex|CODEX|CXS|CAC|FDA|United States FDA|WHO|JECFA|EFSA|FSANZ|Australia New Zealand|Health Canada)\b/
+const NON_CONTAMINANT_INSTRUMENT = /pesticide|residue level/i
+const CANNED_SCOPE = /\bcanned\b|tinplate|tin-plate|tin-coated|tin coated|\btinned\b|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola/i
 
 // species -> the total-element parent it is bounded by
 const SPECIES_PARENT = { iAs: "tAs", MeHg: "tHg", "Cr-VI": "Cr-total" }
@@ -171,6 +173,11 @@ function credibleMlCandidates(slug, metal, isContactDomain) {
   for (const r of reg) {
     if (!metals.includes(r.metal_species)) continue
     if (!CREDIBLE.test(`${r.jurisdiction} ${r.authority}`)) continue
+    // Pesticide-residue MRLs are not contaminant limits. Canned-product tin
+    // limits also do not rebut a no-migration determination for a non-canned
+    // food row; tin migration depends on the package, not the food name.
+    if (NON_CONTAMINANT_INSTRUMENT.test(`${r.status} ${r.notes}`)) continue
+    if (CANNED_SCOPE.test(r.product_scope || "") && !/\bcanned\b/i.test(slug)) continue
     const scope = (r.product_scope || "").toLowerCase()
     // domain gate: keep only MLs in the row's regulatory domain
     if (isContactDomain) { if (!CONTACT_SCOPE.test(scope)) continue }

@@ -2,7 +2,7 @@
 
 **Status:** Incremental scope lock (2026-06-02), companion to the Cat 7 lock.
 **Taxonomy:** HMTc v2.0, Category 6 (Seafood), 6 rows.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation: tAs/iAs, **tHg/MeHg**, Cr/Cr-VI).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and the category-critical MeHg cell.
 
 ## Why Cat 6 locks its row scope now (and what still waits)
 

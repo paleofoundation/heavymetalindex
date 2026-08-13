@@ -84,6 +84,32 @@ n/m determination with its control method. If neither is supportable, the
 cell stays in development. Occurrence distributions, brand baselines, and
 program results do not select the initial value.
 
+A nonnumeric cell must distinguish two cases. `not-material` means there is
+no credible source or pathway for a standalone number and a documented
+bounded/reflex rule governs. `control` means the analyte remains mandatory
+and material enough to test, but no defensible sovereign maximum or
+near-neighbour read-across exists; its record must state the analytical
+method and escalation rule. Neither state may be filled from occurrence data.
+
+### Canonical analyte contract
+
+Every certification row carries an eight-total laboratory panel: **Pb, Cd,
+tAs, tHg, Ni, Sn, Al, and total Cr**. Species controls are additional cells
+and never replace their parent total result. **iAs** and **Cr-VI** are the
+core species cells. **MeHg** is additionally required wherever fish, seafood,
+or another credible methylation pathway makes it material; every other row
+must still record an explicit MeHg applicability determination bounded by
+tHg. A category compiler that substitutes iAs for tAs, MeHg for tHg, or Cr-VI
+for total Cr is incomplete.
+
+A species cell may resolve to a sovereign numeric ceiling, a disclosed
+sovereign read-across, or a testable bounded/reflex control. For example, a
+total-Hg ceiling bounds MeHg only when no stricter sovereign MeHg ceiling
+applies; Cr-VI may be governed by a validated reflex rule under mandatory
+total-Cr testing. A missing cell is never equivalent to a not-material
+determination. Total-panel results remain mandatory even when the current
+government-limit method supports only a documented nonnumeric control.
+
 The powder-to-liquid 8:1 conversion is confined to infant formula. Other
 rows use the government value in the applicable native basis. Wet, dry,
 as-sold, as-consumed, and as-prepared values are never mixed silently.
@@ -136,7 +162,7 @@ changelog entry.
 
 ---
 
-**Version 3.0 — August 2026**
+**Version 3.1 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -147,3 +173,4 @@ changelog entry.
 | 2.1 | May 2026 | Principle 5 reframed from "$2 billion by 2030" to "Make it the de facto standard" — commercial success follows from scale and credibility, not the reverse. Standards Math section restructured to lead with **intent** (90/30 row-pass) before **mechanism** (P97/P45 per-analyte uplift); the policy choice is the 90/30 row-pass rate, calibrated against all five Governing Principles, with P97/P45 as the math that delivers it. Ratchet trigger section expanded to specify two-condition fire rule (P80 of Status A + breadth threshold), 20% step cap, and reference to revised Governance Policy §12. |
 | 2.2 | August 2026 | Updated the dirty-subcategory row-pass target from the legacy 30% to ~40% (90/30 → 90/40 intent) and re-anchored the P97/P45 calibration to measured FDA 2026 lot data (94% clean / 42% dirty) rather than the assumed ≈0.6 cross-analyte correlation (measured ~0.27). Aligns this document with the amendment ratified 2026-08-03 in CLAUDE.md Part 19 and the Methodology Reference; the P97/P45 mechanism itself is unchanged. |
 | 3.0 | August 2026 | Retired occurrence-percentile initial setting. Locked every initial value to the strictest applicable sovereign maximum, with disclosed regulatory read-across or n/m control for unregulated exact cells. Preserved the distinct endogenous ALARA ratchet and reconciled its anti-gaming trigger pool to canonical Governance Policy §12: combined Status A + B trigger pool, Status A P80 new-limit candidate, 20% step cap. |
+| 3.1 | August 2026 | Locked the analyte contract to eight mandatory total-element results (Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr) plus core iAs and Cr-VI species cells and conditional MeHg. Explicitly prohibited species-for-total substitution and required bounded/reflex controls to be recorded rather than omitted. |

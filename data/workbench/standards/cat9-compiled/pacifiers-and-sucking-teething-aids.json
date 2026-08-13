@@ -95,6 +95,15 @@
       "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
       "label": "EN 71-3 / 2009/48 Cat III aluminium migration limit (28130 mg/kg), applied via EN 1400"
     },
+    "Cr": {
+      "type": "read_across",
+      "value": 60000,
+      "value_exact": 60000,
+      "source_id": "astm_f963_crtotal_soluble",
+      "source_jurisdiction": "US",
+      "basis": "soluble (migrated) element from surface coating or accessible substrate; source unit mg/kg (ppm)",
+      "label": "US mandatory ASTM F963 soluble total-chromium limit (60 mg/kg), read across to the EN 1400 soother migration basis because EN 1400 separately controls Cr(VI) but does not set a total-Cr ceiling"
+    },
     "Cr-VI": {
       "type": "read_across",
       "value": 53,

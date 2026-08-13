@@ -1,12 +1,11 @@
 # Category 25 — Cannabis, Hemp, and CBD Products — Step Zero Lock
 
-**Status:** Scaffold lock (Step Zero). New category appended under
-`taxonomy-reorganization-2026-06.md` (v2.1), 2026-06-08. **No candidate values** in this pass.
+**Status:** Scope lock (Step Zero, 2026-06-08); route-based government-limit compiler completed for five of six rows on 2026-08-12. Vape hardware remains reserved because its governing quantity is release into aerosol rather than total product content.
 **Domain:** Ingestible and applied health products. **Number:** 25 (appended; no existing number changed).
 **Exposure pathway:** Multi-route — inhalation (flower, vape aerosol), ingestion (edibles, tinctures),
 dermal (topicals). **Jurisdiction:** state cannabis programs (testing rules vary by state), FDA (CBD/
 hemp-derived, hemp foods), USDA (hemp production); no uniform federal contaminant limit.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
 
 ## Why this earns a number
 
@@ -48,5 +47,6 @@ Karen** (`taxonomy-reorganization-2026-06.md` §4) and is not resolved at this l
 Additive; scaffold only; no thresholds.
 
 ## Changelog
+- 2026-08-12 — Compiled the five route-defined cannabis material/product rows from sovereign cannabis programs. Nickel, tin, and aluminium remain mandatory total-panel surveillance controls where no sovereign cannabis maximum exists. Vape hardware remains unresolved under the reserved aerosol-release architecture decision.
 - 2026-06-08 — Step Zero scaffold lock. 6 rows defined as routing destinations; no candidate values.
   Vape-hardware factoring left open pending Karen's decision.

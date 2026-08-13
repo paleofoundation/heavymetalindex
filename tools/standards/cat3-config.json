@@ -13,8 +13,15 @@
     "Cr-VI",
     "Ni",
     "Sn",
-    "Al"
+    "Al",
+    "Cr"
   ],
+  "default_read_across": {
+    "Cr": {
+      "source_id": "china_gb2762_cr_milk_powder_2000",
+      "label": "Conservative sovereign read-across from China GB 2762 total chromium 2000 ug/kg for milk powder to dry cereal/grain products. The matrix differs, so the source remains explicitly classified as read-across; Cr(VI) is controlled separately by reflex speciation."
+    }
+  },
   "subcategories": {
     "flour-non-rice": {
       "name": "Flour (wheat, corn, other — non-rice)",
@@ -113,26 +120,26 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "Inorganic arsenic does not hyperaccumulate in wheat, corn, or other non-rice cereals as it does in rice; no loaded government source sets an iAs ML for a non-rice grain or flour. Rice-specific iAs limits are not transferred to this distinct matrix.",
           "reference_method": "iAs by HPLC-ICP-MS (EN 16802) on any lot flagged for arsenic screening; non-rice grain occurrence is characteristically < LOQ."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No government sets a total-chromium ML for grain/cereal products in any jurisdiction; cereal-matrix Cr is dominated by nutritionally-essential Cr(III), and Cr(VI) reduces to Cr(III) in the matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
           "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Every government tin ML in the register is scoped to canned/tin-coated product; tin migrates from tinplate. Flour is not sold in tinplate, so tin is not a material contaminant. Canned grain products route to Category 7 and carry the tin flag there.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (self-rising/leavened subset)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -244,19 +251,19 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No loaded government source sets an iAs ML for non-rice baked goods; rice-specific iAs limits are not transferred to wheat or other-grain baked products.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control — any total-Cr >= 100 ug/kg triggers Cr(VI) speciation, any quantifiable Cr(VI) fails.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; bread and baked goods are not sold in tinplate. Canned products route to Cat 7.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
@@ -264,7 +271,7 @@
           "label": "China GB 2760-2024 baked-foods Al residue 100 mg/kg (dry, as Al); Codex concurs"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -360,27 +367,27 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No loaded government source sets an iAs ML for wheat pasta; the rice-based pasta rule is matrix-specific and is not transferred to this row.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; dry pasta not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
-          "not_material": true,
+          "control_only": true,
           "control": "No credible sovereign government sets an aluminium contaminant maximum for plain wheat pasta. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; naturally present or additive-derived Al remains a surveillance and formulation-control issue.",
           "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -439,22 +446,22 @@
       ],
       "read_across": {
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal/rice products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; dry rice pasta not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
-          "not_material": true,
+          "control_only": true,
           "control": "No credible sovereign government sets an aluminium contaminant maximum for rice pasta. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; naturally present or additive-derived Al remains a surveillance and formulation-control issue.",
           "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive or firming-agent use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -559,26 +566,26 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No loaded government source sets an iAs ML for corn-, wheat-, or oat-based breakfast cereal; the rice-based cereal rule is matrix-specific and is not transferred to this row.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; boxed breakfast cereal not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (leavened/additive subset)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -634,21 +641,21 @@
       ],
       "read_across": {
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal/rice products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; boxed rice cereal not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (provisional)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -720,22 +727,22 @@
       ],
       "read_across": {
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; bulk rice not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
-          "not_material": true,
+          "control_only": true,
           "control": "No credible sovereign government sets an aluminium contaminant maximum for plain milled or husked rice. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; natural background remains a surveillance signal.",
           "reference_method": "Screen total Al by ICP-MS; investigate elevated results for soil, processing, or additive contributions and comply with all market laws."
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -793,21 +800,21 @@
       ],
       "read_across": {
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; rice cakes/crackers not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (baked rice crackers/cakes)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -871,14 +878,14 @@
       ],
       "read_across": {
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; dry rice noodles not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
@@ -886,7 +893,7 @@
           "label": "China GB 2760-2024 starch-noodle/vermicelli Al residue 200 mg/kg (dry, as Al)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -927,47 +934,47 @@
       ],
       "read_across": {
         "Pb": {
-          "not_material": true,
+          "control_only": true,
           "control": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets a lead ML specific to rice-based drinks; the EU 2023/915 beverage lead framework does not enumerate a rice-drink row. Lead is material in a rice-derived beverage but unregulated by ML; literature-baseline governs. iAs is the binding Tier-1 analyte for this subcategory.",
           "reference_method": "Pb by ICP-MS on the as-consumed liquid."
         },
         "Cd": {
-          "not_material": true,
+          "control_only": true,
           "control": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets a cadmium ML specific to rice-based drinks. Material but unregulated by ML; literature-baseline governs.",
           "reference_method": "Cd by ICP-MS on the as-consumed liquid."
         },
         "tHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "Mercury does not accumulate in a rice-derived beverage; the only cereal mercury MLs are dry-basis and no government sets a rice-drink mercury ML. Not a material contaminant in this matrix.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice beverages; reflex speciation control on the as-consumed liquid.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Ni": {
-          "not_material": true,
+          "control_only": true,
           "control": "The EU 2024/1987 nickel MLs are scoped to cereal grains as commodities and to juices/nectars, not to a rice-based drink; no government sets a rice-drink nickel ML. Not a binding cell.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; carton-packed rice milk is not tinplate-packaged.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
-          "not_material": true,
+          "control_only": true,
           "control": "No credible sovereign government sets an aluminium contaminant maximum for a rice-based beverage. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; external plant-milk occurrence cannot supply the number.",
           "reference_method": "Screen total Al by ICP-MS on the as-consumed beverage and document aluminium-containing additives or processing aids; investigate elevated results and comply with all market laws."
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for a rice-based beverage in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury does not accumulate in a rice-derived beverage and is not a material contaminant in this matrix.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "tAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a total-arsenic ML for a rice-based beverage in any jurisdiction; the binding arsenic control for this subcategory is the inorganic-arsenic ML (30 ug/kg, EU 2023/915 non-alcoholic rice drinks). A dry \"rice and derivatives\" total-arsenic ceiling is not comparable at face value to a dilute as-consumed beverage, and total arsenic adds no ceiling beyond the inorganic-arsenic limit here.",
           "reference_method": "tAs by ICP-MS on the as-consumed liquid; speciate to iAs on any elevated total-arsenic result."
         }
@@ -1078,27 +1085,27 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No loaded government source sets an iAs ML for oat, millet, quinoa, or barley; rice-specific iAs limits are not transferred to these distinct matrices.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for these grains; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; these grains are not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
-          "not_material": true,
+          "control_only": true,
           "control": "No credible sovereign government sets an aluminium contaminant maximum for plain oat, millet, quinoa, or barley products. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this exact cell; natural background remains a surveillance signal.",
           "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive use; investigate elevated results and comply with all additive rules in markets of sale."
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }
@@ -1197,19 +1204,19 @@
       ],
       "read_across": {
         "iAs": {
-          "not_material": true,
+          "control_only": true,
           "control": "No loaded government source sets an iAs ML for non-rice grain snacks; the rice snack/cracker rule is matrix-specific and is not transferred to this row.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Cr-VI": {
-          "not_material": true,
+          "control_only": true,
           "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
+          "control_only": true,
           "control": "Canned-only analyte; grain snacks not sold in tinplate.",
-          "reference_method": null
+          "reference_method": "Mandatory total-element screen by ICP-MS; apply species-specific HPLC-ICP-MS for arsenic or GC/HPLC-ICP-MS for methylmercury when the stated control triggers."
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
@@ -1217,7 +1224,7 @@
           "label": "China GB 2760-2024 baked/fried-flour/batter Al residue 100 mg/kg (dry, as Al)"
         },
         "MeHg": {
-          "not_material": true,
+          "control_only": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
         }

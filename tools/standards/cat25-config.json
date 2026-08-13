@@ -1,0 +1,105 @@
+{
+  "_doc": "Category 25 Cannabis, Hemp, and CBD Products compiler config. The five material/product rows use route-specific sovereign cannabis limits from California, Colorado, Maryland, Massachusetts, Nevada, and Israel. The locked vape-hardware row is intentionally not compiled here because its governing quantity is metal release into aerosol, not total product content, and the Step-Zero lock reserves whether hardware is factored into a shared inhalable-hardware standard. No occurrence statistic supplies a missing number.",
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
+  "default_read_across": {
+    "iAs": {
+      "control_only": true,
+      "bounded_by": "tAs",
+      "control": "Cannabis regulations set arsenic limits without speciation; these are recorded as total arsenic. Total As is measured on every lot and bounds the inorganic fraction; any elevated result triggers iAs speciation.",
+      "reference_method": "Total As by ICP-MS; inorganic arsenic by HPLC-ICP-MS on an elevated total-As result."
+    },
+    "MeHg": {
+      "control_only": true,
+      "bounded_by": "tHg",
+      "control": "Cannabis has no methylmercury bioaccumulation pathway. Total Hg is measured on every lot and bounds the methylmercury fraction.",
+      "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only on an anomalous total-Hg result."
+    },
+    "Ni": {
+      "control_only": true,
+      "control": "Nickel is a mandatory total-panel result because cannabis can accumulate Ni and inhalation hardware can release it, but no loaded sovereign cannabis rule sets a finished-product total-Ni maximum. Report every result, investigate source and route, and do not represent this cell as a numeric government limit.",
+      "reference_method": "Total Ni by ICP-MS; for inhaled products, aerosol-emissions testing separates plant/extract contamination from hardware release."
+    },
+    "Sn": {
+      "control_only": true,
+      "control": "No loaded sovereign cannabis rule sets a total-tin maximum. Total Sn remains mandatory surveillance, with any quantifiable result investigated for packaging, solder, catalyst, or device contact.",
+      "reference_method": "Total Sn by ICP-MS; organotin speciation when the formulation, elastomer, catalyst, or packaging pathway makes organotin plausible."
+    },
+    "Al": {
+      "control_only": true,
+      "control": "No loaded sovereign cannabis rule sets a total-aluminium maximum. Total Al remains mandatory surveillance and elevated results trigger soil, processing-aid, excipient, or device-source investigation.",
+      "reference_method": "Total Al by ICP-MS with route-appropriate blank and device controls."
+    },
+    "Cr": {
+      "source_id": "md2025_cr_total_cannabis_inhalation_600",
+      "gap_only": true,
+      "label": "Route-protective sovereign read-across from Maryland's 600 ug/kg total-chromium inhalation limit when an exact cannabis product-form chromium limit is absent."
+    },
+    "Cr-VI": {
+      "control_only": true,
+      "bounded_by": "Cr",
+      "control": "Total chromium is mandatory. Inhaled products and any anomalous total-Cr result require Cr(VI) speciation; any quantifiable Cr(VI) fails certification.",
+      "reference_method": "Total Cr by ICP-MS; Cr(VI) by validated species-specific IC-ICP-MS with matrix-specific recovery controls."
+    }
+  },
+  "subcategories": {
+    "cannabis-flower": {
+      "name": "Cannabis flower and dried herb",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["inhalable cannabis", "inhaled product", "inhalation route", "cannabis inflorescences after drying", "finished marijuana products, all uses", "cannabis products requiring heavy-metal screening"],
+      "scope_exclude": ["non-inhalable", "ingestion only", "oral consumption", "oral route", "topical", "transdermal", "cutaneous"]
+    },
+    "cannabis-edibles": {
+      "name": "Cannabis edibles",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["edible cannabis products", "non-inhalable cannabis", "oral consumption", "ingestion only", "finished marijuana products, all uses", "cannabis products requiring heavy-metal screening"],
+      "scope_exclude": ["except edible", "inhalable", "inhaled", "inhalation", "nasal", "topical", "transdermal", "cutaneous"],
+      "read_across": {
+        "Cr": {
+          "source_id": "md2025_cr_total_cannabis_oral_1100000",
+          "label": "Sovereign oral-route read-across from Maryland's total-chromium cannabis limit (1100000 ug/kg); Maryland expressly excludes edible products from the direct row, so this is disclosed as read-across rather than direct governance."
+        }
+      }
+    },
+    "cannabis-tinctures-oils": {
+      "name": "Cannabis tinctures and sublingual oils",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["non-inhalable cannabis", "oral consumption", "oral route", "ingestion only", "finished marijuana products, all uses", "cannabis products requiring heavy-metal screening"],
+      "scope_exclude": ["edible cannabis products", "inhalable", "inhaled", "inhalation", "nasal", "topical", "transdermal", "cutaneous"]
+    },
+    "cannabis-topicals": {
+      "name": "Cannabis topicals",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["topical and/or transdermal", "cutaneous route", "non-inhalable cannabis", "finished marijuana products, all uses", "cannabis products requiring heavy-metal screening"],
+      "scope_exclude": ["edible cannabis products", "inhalable", "inhaled", "inhalation", "nasal", "oral consumption", "oral route", "ingestion only"]
+    },
+    "cannabis-concentrates": {
+      "name": "Cannabis concentrates and extracts",
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": ["finished marijuana products, all uses", "cannabis products requiring heavy-metal screening", "medical cannabis inflorescences after drying and cannabis products"],
+      "scope_exclude": ["inhalable cannabis", "non-inhalable cannabis", "inhaled product", "inhalation route", "oral route", "oral consumption", "ingestion only", "edible cannabis products", "topical", "transdermal", "cutaneous"],
+      "_scope_note": "This row spans products used by more than one route. It therefore uses only all-uses cannabis rules, plus the inhalation total-Cr value as a route-protective disclosed read-across; a product marketed exclusively for one route must also satisfy that route's row."
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.2 (2026-06-09). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 appended cats 24-26 (docs/governance/taxonomy-reorganization-2026-06.md); v2.2 is the matrix-family re-cut (docs/governance/taxonomy-v2.2-matrix-family-recut.md). For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not mirror: the Cat 1/2/4 row arrays below remain the v2.0 scaffold and are STALE versus the live locked state. In particular the v2.2 Cat 4 split (live rows 8-18 re-homed to Cat 27 Legumes / 28 Nuts-Seeds-Butters / 29 Edible Fungi) and the Cat 7 dissolution (Phase B, cats 30-35) are tracked in governance + frontmatter, not by editing these stale arrays. Envelope: 35 categories. Cat 30-35 are the Cat 7 dissolution (30 Culinary Oils & Fats, 31 Sweeteners & Syrups, 32 Condiments/Sauces/Dressings, 33 Chocolate/Cocoa/Confectionery, 34 Herbs/Spices/Seasonings/Salt, 35 Prepared & Packaged Meals), 2026-06-09, per category-7-dissolution-step0-event.md; Cat 7 retired-in-place. Any elected tobacco category appends after 35. The v2.1 'reserved Cat 27 = tobacco' is superseded: Cat 27 is now Legumes; tobacco renumbers. Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1/v2.2 expansion by Claude (co-architect).",
   "version": "2.2",
   "version_date": "2026-06-09",
-  "panel_metals": ["Pb", "iAs", "Hg", "Cd", "Cr", "Ni", "Sn", "Al"],
+  "panel_metals": ["Pb", "Cd", "tAs", "tHg", "Ni", "Sn", "Al", "Cr"],
+  "species_controls": ["iAs", "Cr-VI", "MeHg (conditional on a credible methylation pathway; otherwise explicit applicability determination)"],
   "organizing_principle": "exposure pathway × regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
   "categories": [
     {

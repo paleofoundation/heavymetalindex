@@ -6,7 +6,9 @@
 the evidence base supports a defensible standard; rows without sufficient
 single-platform evidence remain provisional scaffolds with a documented gap.
 **Taxonomy:** HMTc v2.0 (2026-03-30), Category 7, 12 rows.
-**Panel:** Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al (+ speciation: tAs/iAs, tHg/MeHg, Cr/Cr-VI).
+**Panel:** eight totals — Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr — plus iAs and Cr-VI species controls and an explicit MeHg applicability cell.
+
+**Current compiler status (2026-08-12):** the eight scope-locked rows compile under the government-limit-only method. The four broad provisional rows remain unresolved; occurrence evidence cannot supply their initial numbers.
 **Lock doc authority:** this file. Companion to `Category2_Clean_vs_Contaminated_Splits.md` (Cat 2 exemplar).
 
 ## Lock rule applied
