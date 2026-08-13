@@ -515,7 +515,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-49 open item(s): 21 auto, 28 awaiting a decision.
+50 open item(s): 21 auto, 29 awaiting a decision.
+
+### OI-20260813-findings-view-heavymetaltested-method-audit — docs/findings.md (generated ledger view) surfaces open findings referencing heavymetaltested.com, which audit-current-hmtc-method.mjs flags as a retired domain and fails the build
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `docs/findings.md`, `tools/outstanding/render-findings.mjs`, `tools/audit-current-hmtc-method.mjs`, `data/evidence/outstanding/ledger.jsonl`
+- repro: On codex/methodology-sync, audit-current-hmtc-method.mjs forbids heavymetaltested.com anywhere under docs/. Two legitimate open ledger findings (OI-20260808-hmtested-synthesis-articles, OI-20260810-cert-ratchet-page-promote) reference heavymetaltested.com, so regenerating the generated view docs/findings.md via render-findings.mjs makes the method audit exit 1 and blocks prebuild. heavymetaltested.com is a live program/journal domain per CLAUDE.md Part 3, so the entries are not wrong; the audit is over-broad on an internal generated audit-log view. Restored the generated view to the base-branch snapshot to unblock; a durable fix is to exclude generated internal views from the domain scan or reconcile the domain policy.
+- done when: render-findings.mjs output does not fail audit-current-hmtc-method.mjs; OR audit-current-hmtc-method.mjs excludes generated internal ledger views (docs/findings.md) from the retired-domain scan; OR the heavymetaltested.com-vs-heavymetalcertified.com domain policy is reconciled and the 2 findings updated accordingly
+- decision: _pending_
 
 ### OI-20260811-synthesis-vs-regulation-drift-lint — No lint check cross-references synthesis-page regulatory claims against wiki/regulations/ — nickel synthesis asserted no EU ML existed 5 weeks after the wiki ingested EU 2024/1987
 

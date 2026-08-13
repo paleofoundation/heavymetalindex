@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-12",
+  "generated_on": "2026-08-13",
   "method": "HMTc government-limit-only initial standard; exact sovereign maximum, then disclosed sovereign read-across, then explicit control/no-numeric determination",
   "canonical_panel": {
     "totals": [
@@ -5637,6 +5637,872 @@
           }
         }
       ]
+    },
+    {
+      "category": 17,
+      "name": "Pet Foods",
+      "config": "tools/standards/cat17-config.json",
+      "output_directory": "data/workbench/standards/cat17-compiled",
+      "planned_rows": 10,
+      "compiled_rows": 10,
+      "compiled_variants": 10,
+      "unresolved_rows": [],
+      "status": "all-rows-resolved-with-controls",
+      "total_cells": 80,
+      "numeric_total_cells": 50,
+      "controlled_total_cells": 30,
+      "numeric_species_cells": 10,
+      "controlled_species_cells": 20,
+      "type_counts": {
+        "read_across": 60,
+        "not_material": 28,
+        "control": 21,
+        "subsumed": 1
+      },
+      "defects": [],
+      "note": "Human-grade over-compliance: pet food is legally feed (EU 2002/32, FDA CVM, AAFCO) but every cell is certified to the strictest human-food sovereign maximum for the nearest analog. All cells are disclosed human-grade read-across or explicit control/not-material determinations — never a feed number.",
+      "rows": [
+        {
+          "slug": "pet-food-dry-kibble",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              "Cd": {
+                "display": "40 RA",
+                "type": "read_across",
+                "value": 40,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_pulses_40"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+              },
+              "tHg": {
+                "display": "30 RA",
+                "type": "read_across",
+                "value": 30,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "800 RA",
+                "type": "read_across",
+                "value": 800,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_cereals_800"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-food-canned-wet",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_meat_100"
+              },
+              "Cd": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_meat_50"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "in_fssai2016_tas_004_named_animal_fats_lard_rendered_pork_fat_premier_jus_and_edible_tallow_100"
+              },
+              "iAs": {
+                "display": "20 RA",
+                "type": "read_across",
+                "value": 20,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20"
+              },
+              "tHg": {
+                "display": "200 RA",
+                "type": "read_across",
+                "value": 200,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Sn": {
+                "display": "200000 RA",
+                "type": "read_across",
+                "value": 200000,
+                "unit": "ug/kg",
+                "source": "eu2023_sn_canned_foods_200000"
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-food-semi-moist",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              "Cd": {
+                "display": "40 RA",
+                "type": "read_across",
+                "value": 40,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_pulses_40"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+              },
+              "tHg": {
+                "display": "30 RA",
+                "type": "read_across",
+                "value": 30,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "800 RA",
+                "type": "read_across",
+                "value": 800,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_cereals_800"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-food-raw",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 4,
+          "controlled_total_cells": 4,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_meat_100"
+              },
+              "Cd": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_meat_50"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "in_fssai2016_tas_004_named_animal_fats_lard_rendered_pork_fat_premier_jus_and_edible_tallow_100"
+              },
+              "iAs": {
+                "display": "20 RA",
+                "type": "read_across",
+                "value": 20,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20"
+              },
+              "tHg": {
+                "display": "200 RA",
+                "type": "read_across",
+                "value": 200,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-food-freeze-dried",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              "Cd": {
+                "display": "40 RA",
+                "type": "read_across",
+                "value": 40,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_pulses_40"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+              },
+              "tHg": {
+                "display": "30 RA",
+                "type": "read_across",
+                "value": 30,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "800 RA",
+                "type": "read_across",
+                "value": 800,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_cereals_800"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-treats-snacks",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              "Cd": {
+                "display": "40 RA",
+                "type": "read_across",
+                "value": 40,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_pulses_40"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+              },
+              "tHg": {
+                "display": "30 RA",
+                "type": "read_across",
+                "value": 30,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "800 RA",
+                "type": "read_across",
+                "value": 800,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_cereals_800"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-chews-dental",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              "Cd": {
+                "display": "40 RA",
+                "type": "read_across",
+                "value": 40,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_pulses_40"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+              },
+              "tHg": {
+                "display": "30 RA",
+                "type": "read_across",
+                "value": 30,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "800 RA",
+                "type": "read_across",
+                "value": 800,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_cereals_800"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-toppers-mixers-broths",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 4,
+          "controlled_total_cells": 4,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_pb_meat_100"
+              },
+              "Cd": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "eu2023_cd_meat_50"
+              },
+              "tAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "in_fssai2016_tas_004_named_animal_fats_lard_rendered_pork_fat_premier_jus_and_edible_tallow_100"
+              },
+              "iAs": {
+                "display": "20 RA",
+                "type": "read_across",
+                "value": 20,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20"
+              },
+              "tHg": {
+                "display": "200 RA",
+                "type": "read_across",
+                "value": 200,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-milk-replacers-specialty-liquids",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 7,
+          "controlled_total_cells": 1,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "20 RA",
+                "type": "read_across",
+                "value": 20,
+                "unit": "ug/kg",
+                "source": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20"
+              },
+              "Cd": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_fluid_milk_dairy_no_addition_cd_50"
+              },
+              "tAs": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_fluid_milk_dairy_no_addition_tas_50"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "il_fcs2016_ias_1_1_dairy_products_100"
+              },
+              "tHg": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "vn_qcvn8_2_2011_thg_fluid-milk-products_50"
+              },
+              "MeHg": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu2024_ni_formula_liquid_100"
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "500 RA",
+                "type": "read_across",
+                "value": 500,
+                "unit": "ug/kg",
+                "source": "aunz_sch19_al_formula_nonsoy_500"
+              },
+              "Cr": {
+                "display": "300 RA",
+                "type": "read_across",
+                "value": 300,
+                "unit": "ug/kg",
+                "source": "china_gb2762_cr_liquid_milk_300"
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        },
+        {
+          "slug": "pet-food-fish-marine-protein",
+          "variants": 1,
+          "status": "resolved-with-controls",
+          "numeric_total_cells": 5,
+          "controlled_total_cells": 3,
+          "defects": [],
+          "limits": {
+            "both": {
+              "Pb": {
+                "display": "200 RA",
+                "type": "read_across",
+                "value": 200,
+                "unit": "ug/kg",
+                "source": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200"
+              },
+              "Cd": {
+                "display": "50 RA",
+                "type": "read_across",
+                "value": 50,
+                "unit": "ug/kg",
+                "source": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50"
+              },
+              "tAs": {
+                "display": "1000 RA",
+                "type": "read_across",
+                "value": 1000,
+                "unit": "ug/kg",
+                "source": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000"
+              },
+              "iAs": {
+                "display": "100 RA",
+                "type": "read_across",
+                "value": 100,
+                "unit": "ug/kg",
+                "source": "eu20251891_ias_fish_other_100"
+              },
+              "tHg": {
+                "display": "300 RA",
+                "type": "read_across",
+                "value": 300,
+                "unit": "ug/kg",
+                "source": "eu2023_hg_fish_low_300"
+              },
+              "MeHg": {
+                "display": "bounded by tHg",
+                "type": "subsumed",
+                "source": "EU",
+                "bounded_by": "tHg"
+              },
+              "Ni": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Sn": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": null
+              },
+              "Al": {
+                "display": "control",
+                "type": "control",
+                "source": null,
+                "bounded_by": null
+              },
+              "Cr": {
+                "display": "12000 RA",
+                "type": "read_across",
+                "value": 12000,
+                "unit": "ug/kg",
+                "source": "in_fssai2016_crtotal_001_all_fishery_products_12000"
+              },
+              "Cr-VI": {
+                "display": "n/m",
+                "type": "not_material",
+                "source": null,
+                "bounded_by": "Cr"
+              }
+            }
+          }
+        }
+      ]
     }
   ],
   "policy_blocked_categories": [
@@ -5654,11 +6520,11 @@
     }
   ],
   "totals": {
-    "compiled_categories": 7,
-    "compiled_rows": 62,
-    "compiled_variants": 64,
-    "numeric_total_cells": 408,
-    "controlled_total_cells": 104,
+    "compiled_categories": 8,
+    "compiled_rows": 72,
+    "compiled_variants": 74,
+    "numeric_total_cells": 458,
+    "controlled_total_cells": 134,
     "defects": 0
   }
 }

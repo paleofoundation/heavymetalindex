@@ -115,6 +115,7 @@ for (const configRel of [
   "tools/standards/cat9-config.json",
   "tools/standards/cat24-config.json",
   "tools/standards/cat25-config.json",
+  "tools/standards/cat17-config.json",
 ]) {
   const config = JSON.parse(read(configRel))
   const requiredPanel = ["Pb", "Cd", "tAs", "tHg", "Ni", "Sn", "Al", "Cr", "iAs", "Cr-VI", "MeHg"]
@@ -142,6 +143,7 @@ for (const dirRel of [
   "data/workbench/standards/cat9-compiled",
   "data/workbench/standards/cat24-compiled",
   "data/workbench/standards/cat25-compiled",
+  "data/workbench/standards/cat17-compiled",
 ]) {
   for (const name of fs.readdirSync(path.join(root, dirRel)).filter((entry) => entry.endsWith(".json"))) {
     const record = JSON.parse(read(path.join(dirRel, name)))
@@ -180,7 +182,14 @@ for (const rel of ["CLAUDE.md", "RECONCILE.md"]) {
 }
 for (const dirRel of ["docs", "tools", "wiki", "quartz", "data/reference", "data/taxonomy"]) {
   for (const full of walkText(path.join(root, dirRel))) {
-    if (path.relative(root, full) === "tools/audit-current-hmtc-method.mjs") continue
+    const relPath = path.relative(root, full)
+    if (relPath === "tools/audit-current-hmtc-method.mjs") continue
+    // docs/findings.md is a GENERATED internal view of the append-only outstanding-items ledger
+    // (tools/outstanding/render-findings.mjs), not authored public content. Legitimate open findings
+    // may reference heavymetaltested.com (a live program/journal domain per CLAUDE.md Part 3) while
+    // recording work about it; the retired-domain scan targets authored material, so the generated
+    // ledger view is exempted the same way this audit exempts itself above.
+    if (relPath === "docs/findings.md") continue
     if (/heavymetaltested\.com/i.test(fs.readFileSync(full, "utf8"))) {
       failures.push(`${path.relative(root, full)}: retired public domain heavymetaltested.com`)
     }

@@ -84,6 +84,15 @@ const jobs = [
     unresolvedRows: ["cannabis-vape-hardware"],
     note: "Five route-defined material/product rows compile. Vape hardware remains blocked on the lock's reserved aerosol-release/shared-hardware architecture decision.",
   },
+  {
+    category: 17,
+    name: "Pet Foods",
+    config: "tools/standards/cat17-config.json",
+    outdir: "data/workbench/standards/cat17-compiled",
+    compiler: "cat17",
+    plannedRows: 10,
+    note: "Human-grade over-compliance: pet food is legally feed (EU 2002/32, FDA CVM, AAFCO) but every cell is certified to the strictest human-food sovereign maximum for the nearest analog. All cells are disclosed human-grade read-across or explicit control/not-material determinations — never a feed number.",
+  },
 ]
 
 const policyBlocked = [
@@ -97,9 +106,12 @@ const policyBlocked = [
 ]
 
 function runCompiler(job, outputDirectory = job.outdir) {
-  const args = job.compiler === "cat9"
-    ? ["tools/standards/compile-cat9.mjs", `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
-    : ["tools/standards/compile-cat1.mjs", `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
+  const compilerScript = job.compiler === "cat9"
+    ? "tools/standards/compile-cat9.mjs"
+    : job.compiler === "cat17"
+      ? "tools/standards/compile-cat17.mjs"
+      : "tools/standards/compile-cat1.mjs"
+  const args = [compilerScript, `--config=${job.config}`, `--outdir=${outputDirectory}`, "--quiet"]
   const result = spawnSync(process.execPath, args, { cwd: REPO, encoding: "utf8" })
   if (result.status !== 0) {
     process.stderr.write(result.stdout || "")

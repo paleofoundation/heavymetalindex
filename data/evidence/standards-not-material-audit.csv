@@ -81,3 +81,31 @@ rice-noodles,MeHg,speciation-bounded,PASS,
 breakfast-cereal-rice-based,MeHg,speciation-bounded,PASS,
 rice-snacks-crackers,MeHg,speciation-bounded,PASS,
 rice-beverages-rice-milk,MeHg,speciation-bounded,PASS,
+pet-chews-dental,MeHg,speciation-bounded,PASS,
+pet-chews-dental,Sn,no-migration-pathway,PASS,
+pet-chews-dental,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-canned-wet,MeHg,speciation-bounded,PASS,
+pet-food-canned-wet,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-dry-kibble,MeHg,speciation-bounded,PASS,
+pet-food-dry-kibble,Sn,no-migration-pathway,PASS,
+pet-food-dry-kibble,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-fish-marine-protein,Sn,no-migration-pathway,PASS,
+pet-food-fish-marine-protein,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-freeze-dried,MeHg,speciation-bounded,PASS,
+pet-food-freeze-dried,Sn,no-migration-pathway,PASS,
+pet-food-freeze-dried,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-raw,MeHg,speciation-bounded,PASS,
+pet-food-raw,Sn,no-migration-pathway,PASS,
+pet-food-raw,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-food-semi-moist,MeHg,speciation-bounded,PASS,
+pet-food-semi-moist,Sn,no-migration-pathway,PASS,
+pet-food-semi-moist,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-milk-replacers-specialty-liquids,MeHg,speciation-bounded,PASS,
+pet-milk-replacers-specialty-liquids,Sn,no-migration-pathway,PASS,
+pet-milk-replacers-specialty-liquids,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-toppers-mixers-broths,MeHg,speciation-bounded,PASS,
+pet-toppers-mixers-broths,Sn,no-migration-pathway,PASS,
+pet-toppers-mixers-broths,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+pet-treats-snacks,MeHg,speciation-bounded,PASS,
+pet-treats-snacks,Sn,no-migration-pathway,PASS,
+pet-treats-snacks,Cr-VI,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)

@@ -1,6 +1,6 @@
 # HMTc Category Completion Audit
 
-Generated 2026-08-12 from the sovereign regulatory register and the current government-limit compilers.
+Generated 2026-08-13 from the sovereign regulatory register and the current government-limit compilers.
 
 ## Canonical analyte contract
 
@@ -19,6 +19,7 @@ A **controlled** total cell is deliberately not presented as a numeric governmen
 | 9 — Infant and Child Contact Products | 8/8 | 8 | 56/64 | 8 | 0 | all-rows-resolved-with-controls |
 | 24 — Dairy and Milk Products | 8/8 | 8 | 56/64 | 8 | 0 | all-rows-resolved-with-controls |
 | 25 — Cannabis, Hemp, and CBD Products | 5/6 | 5 | 25/40 | 15 | 0 | partial-scope-resolved |
+| 17 — Pet Foods | 10/10 | 10 | 50/80 | 30 | 0 | all-rows-resolved-with-controls |
 
 ## Deliberately unresolved rows
 
@@ -35,6 +36,7 @@ A **controlled** total cell is deliberately not presented as a numeric governmen
 - Category 9: control 1; gov 45; not_material 23; read_across 18; special 1.
 - Category 24: control 31; gov 24; read_across 33.
 - Category 25: control 30; gov 23; read_across 2.
+- Category 17: control 21; not_material 28; read_across 60; subsumed 1.
 
 ## Compiled limit matrices
 
@@ -146,4 +148,21 @@ Eight scope-locked rows compile. Four broad rows remain blocked on the taxonomy/
 | `cannabis-concentrates` | 500 | 500 | 500 | 100 | control | control | control | 600 RA | control | control | control |
 
 Five route-defined material/product rows compile. Vape hardware remains blocked on the lock's reserved aerosol-release/shared-hardware architecture decision.
+
+### Category 17 — Pet Foods
+
+| Row / variant | Pb | Cd | tAs | tHg | Ni | Sn | Al | Cr | iAs | Cr-VI | MeHg |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| `pet-food-dry-kibble` | 100 RA | 40 RA | 100 RA | 30 RA | 800 RA | n/m | control | control | 100 RA | n/m | n/m |
+| `pet-food-canned-wet` | 100 RA | 50 RA | 100 RA | 200 RA | control | 200000 RA | control | control | 20 RA | n/m | n/m |
+| `pet-food-semi-moist` | 100 RA | 40 RA | 100 RA | 30 RA | 800 RA | n/m | control | control | 100 RA | n/m | n/m |
+| `pet-food-raw` | 100 RA | 50 RA | 100 RA | 200 RA | control | n/m | control | control | 20 RA | n/m | n/m |
+| `pet-food-freeze-dried` | 100 RA | 40 RA | 100 RA | 30 RA | 800 RA | n/m | control | control | 100 RA | n/m | n/m |
+| `pet-treats-snacks` | 100 RA | 40 RA | 100 RA | 30 RA | 800 RA | n/m | control | control | 100 RA | n/m | n/m |
+| `pet-chews-dental` | 100 RA | 40 RA | 100 RA | 30 RA | 800 RA | n/m | control | control | 100 RA | n/m | n/m |
+| `pet-toppers-mixers-broths` | 100 RA | 50 RA | 100 RA | 200 RA | control | n/m | control | control | 20 RA | n/m | n/m |
+| `pet-milk-replacers-specialty-liquids` | 20 RA | 50 RA | 50 RA | 50 RA | 100 RA | n/m | 500 RA | 300 RA | 100 RA | n/m | n/m |
+| `pet-food-fish-marine-protein` | 200 RA | 50 RA | 1000 RA | 300 RA | control | n/m | control | 12000 RA | 100 RA | n/m | bounded by tHg |
+
+Human-grade over-compliance: pet food is legally feed (EU 2002/32, FDA CVM, AAFCO) but every cell is certified to the strictest human-food sovereign maximum for the nearest analog. All cells are disclosed human-grade read-across or explicit control/not-material determinations — never a feed number.
 
