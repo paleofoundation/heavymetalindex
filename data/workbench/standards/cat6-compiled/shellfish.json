@@ -1,0 +1,246 @@
+{
+  "slug": "shellfish",
+  "name": "Shellfish (crustaceans and bivalve molluscs — shrimp, crab, lobster, clams, oysters, mussels; not canned)",
+  "category": 6,
+  "category_name": "Seafood",
+  "native_basis": "as_consumed",
+  "native_basis_label": "edible portion, as consumed (wet weight)",
+  "canned": false,
+  "scope_note": "Shellfish (crustaceans — shrimp, crab, lobster; and bivalve molluscs — clams, oysters, mussels), fresh or frozen, not canned. Lead and cadmium bind the stricter crustacean 500 across the whole subcategory; inorganic arsenic binds the EU crabs/prawns/shrimps 100; total mercury binds the crustaceans/molluscs general 500. MeHg bounded by tHg; total Cr binds HK 1000 (crustaceans and oysters); Ni/Al screened; Sn/Cr-VI not-material. Cephalopods are certified in their own subcategory; canned shellfish route to the canned-seafood subcategory.",
+  "cells": {
+    "Pb": {
+      "analyte": "Pb",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 500,
+      "value_exact": 500,
+      "binding_jurisdiction": "GSO",
+      "binding_id": "gso193_2021_pb_crustaceans_500",
+      "basis": "edible portion, wet weight. Crustacean lead 500 is the strictest sovereign covering a member of this subcategory; bivalve molluscs carry a looser 1500 ceiling, so certification holds the whole subcategory to the stricter crustacean 500.",
+      "binding_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+      "binding_url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+      "concurring": [
+        {
+          "id": "gso193_2021_pb_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "GSO"
+        },
+        {
+          "id": "py_decreto1335_2019_crustaceans_pb_500",
+          "value": 500,
+          "jurisdiction": "PY"
+        },
+        {
+          "id": "in_fssai2016_pb_062_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "IN"
+        },
+        {
+          "id": "cr_rtcr409_2008_pb_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "CR"
+        },
+        {
+          "id": "pa_res368_2009_pb_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "PA"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "Cd": {
+      "analyte": "Cd",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 500,
+      "value_exact": 500,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu2023_cd_crustaceans_500",
+      "basis": "edible portion, wet weight. Crustacean cadmium 500 (EU 2023/915 and concurring sovereigns); the looser bivalve/gastropod cadmium (1000-2000) is not adopted.",
+      "binding_page": "regulations/eu-2023-915-cadmium",
+      "binding_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+      "concurring": [
+        {
+          "id": "eu2023_cd_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "EU"
+        },
+        {
+          "id": "gso193_2021_cd_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "GSO"
+        },
+        {
+          "id": "py_decreto1335_2019_crustaceans_cd_500",
+          "value": 500,
+          "jurisdiction": "PY"
+        },
+        {
+          "id": "cr_rtcr409_2008_cd_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "CR"
+        },
+        {
+          "id": "pa_res368_2009_cd_crustaceans_500",
+          "value": 500,
+          "jurisdiction": "PA"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "tAs": {
+      "analyte": "tAs",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 1000,
+      "value_exact": 1000,
+      "binding_jurisdiction": "AU-NZ",
+      "binding_id": "aunz_sch19_tas_molluscs_1000",
+      "basis": "edible portion, wet weight; total arsenic 1000 (Singapore/Paraguay/AU-NZ molluscs).",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "binding_url": "https://www.legislation.gov.au/F2015L00454/latest",
+      "concurring": [
+        {
+          "id": "aunz_sch19_tas_molluscs_1000",
+          "value": 1000,
+          "jurisdiction": "AU-NZ"
+        },
+        {
+          "id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+          "value": 1000,
+          "jurisdiction": "SG"
+        },
+        {
+          "id": "py_decreto1335_2019_crustaceans_tas_1000",
+          "value": 1000,
+          "jurisdiction": "PY"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "iAs": {
+      "analyte": "iAs",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 100,
+      "value_exact": 100,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu20251891_ias_crabs_prawns_shrimps_100",
+      "basis": "edible portion, wet weight; inorganic arsenic. EU Reg. 2025/1891 crabs and crab-like crustaceans iAs 100 is the strictest applicable species-specific line; other-crustaceans 200 and bivalve-other 500 are looser and not adopted.",
+      "binding_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+      "binding_url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+      "concurring": [
+        {
+          "id": "eu20251891_ias_crabs_prawns_shrimps_100",
+          "value": 100,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "tHg": {
+      "analyte": "tHg",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 500,
+      "value_exact": 500,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu2023_hg_fish_general_500",
+      "basis": "edible portion, wet weight; total mercury. EU 2023/915 crustaceans/molluscs general 500 (Costa Rica concurs).",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
+      "binding_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+      "concurring": [
+        {
+          "id": "eu2023_hg_fish_general_500",
+          "value": 500,
+          "jurisdiction": "EU"
+        },
+        {
+          "id": "cr_rtcr409_2008_thg_crust_ceph_bivalves_500",
+          "value": 500,
+          "jurisdiction": "CR"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "MeHg": {
+      "analyte": "MeHg",
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tHg",
+      "rationale": "Methylmercury is bounded by total mercury (MeHg <= tHg). The binding total-mercury ceiling (500) is stricter than the lowest applicable sovereign methylmercury ML for crustaceans/molluscs (GSO crustaceans MeHg 1000), so passing tHg guarantees MeHg compliance; no separate methylmercury ceiling is published. Audit-affirmed (2026-08-14).",
+      "reference_method": "Total-mercury screen; reflex MeHg speciation cannot exceed the tHg ceiling.",
+      "regulatory_basis": "Bounded by the total-Hg crustaceans/molluscs ceiling (EU 2023/915, 500); no sovereign MeHg ML sits below it",
+      "jurisdictions_checked": "EU; GSO; US-FDA; MX; TH; HK"
+    },
+    "Ni": {
+      "analyte": "Ni",
+      "provenance": "control",
+      "value": null,
+      "rationale": "No jurisdiction sets a nickel ML for crustaceans or molluscs (EU 2024/1987 nickel is plant-food/seaweed only). Screened rather than assigned a mis-based number.",
+      "reference_method": "Total-nickel screen (ICP-MS); no sovereign shellfish Ni ML.",
+      "trigger": "periodic nickel screen; flag on anomalous elevation"
+    },
+    "Sn": {
+      "analyte": "Sn",
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "no-migration-pathway",
+      "bounded_by": null,
+      "rationale": "Fresh/frozen shellfish has no tinplate contact; tin is a can-migration analyte and no sovereign sets a non-canned shellfish tin matrix limit (audit-affirmed). If canned, certified under the canned-seafood subcategory.",
+      "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to canned-seafood Sn if tinplate-packed.",
+      "regulatory_basis": "No non-canned shellfish Sn ML; canned-seafood Sn limits are can-only",
+      "jurisdictions_checked": "Codex CXS 193; EU; US-FDA; MX; CR; HK"
+    },
+    "Al": {
+      "analyte": "Al",
+      "provenance": "control",
+      "value": null,
+      "rationale": "No credible regulator sets an aluminium contaminant ML for seafood; aluminium in shellfish is background, managed by intake vs the EFSA/JECFA TWI.",
+      "reference_method": "Total-aluminium screen (ICP-MS); managed by TWI; no per-food seafood contaminant ML.",
+      "trigger": "periodic aluminium screen; flag on anomalous elevation"
+    },
+    "Cr": {
+      "analyte": "Cr",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 1000,
+      "value_exact": 1000,
+      "binding_jurisdiction": "HK",
+      "binding_id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+      "basis": "edible portion, wet weight; total chromium. HK Cap 132V sets total-Cr 1000 for both crabs/prawns/shrimps and oysters, covering the crustacean and bivalve members of this subcategory; India all-fishery 12000 is looser.",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "binding_url": "https://www.elegislation.gov.hk/hk/cap132V",
+      "concurring": [
+        {
+          "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "value": 1000,
+          "jurisdiction": "HK"
+        },
+        {
+          "id": "hk_cap132v_crtotal_oysters_1000",
+          "value": 1000,
+          "jurisdiction": "HK"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "Cr-VI": {
+      "analyte": "Cr-VI",
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "Cr",
+      "rationale": "Cr-VI is bounded by the total-chromium government limit (HK crustaceans/oysters 1000); no Cr-VI food ML exists and Cr(VI) is reduced to Cr(III) in a reducing animal-tissue matrix. Rebuttable if a routed source reports hexavalent chromium in shellfish.",
+      "reference_method": "Bounded by total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium.",
+      "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (HK 1000)",
+      "jurisdictions_checked": "EU; Codex; US-FDA; HK; EPA (water only)"
+    }
+  },
+  "method": "HMTc Method v2.0 (government-limit default; explicit-id lookup; MeHg speciation-bounded by tHg on animal seafood; seaweed on dry-matter basis)",
+  "generated_from": "regulatory_limits.csv"
+}

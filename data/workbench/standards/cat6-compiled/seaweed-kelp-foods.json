@@ -1,0 +1,219 @@
+{
+  "slug": "seaweed-kelp-foods",
+  "name": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+  "category": 6,
+  "category_name": "Seafood",
+  "native_basis": "as_sold",
+  "native_basis_label": "edible dried seaweed as placed on the market (DRY-WEIGHT basis, mg/kg dry matter) — never numerically compared to the wet-weight animal-seafood ppb",
+  "canned": false,
+  "scope_note": "Edible dried seaweed/kelp food products (nori, wakame, kombu, dulse) sold as dried, on a DRY-WEIGHT basis (mg/kg DM) — these numbers must never be numerically compared against the wet-weight animal-seafood ppb. Cadmium (500) and total mercury (100) bind the French CSHPF edible-seaweed maxima (confirmed tightenings from 2000 and 2500). Lead 5000 and total arsenic 5000 bind the Israel dried-seaweed lines; inorganic arsenic 1000 binds FSANZ. Nickel binds EU 2024/1987 seaweed 30000; tin binds the French CSHPF seaweed 5000. MeHg and Cr-VI are not-material (speciation-bounded); aluminium and total chromium are screened (no on-scope sovereign ML). Seaweed used as a dietary supplement (>=80% dried seaweed) routes to the supplements category, which carries the separate 3000 cadmium supplement line.",
+  "cells": {
+    "Pb": {
+      "analyte": "Pb",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 5000,
+      "value_exact": 5000,
+      "binding_jurisdiction": "IL",
+      "binding_id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
+      "basis": "dried seaweed, dry-weight (mg/kg DM). Israel FCS 2016 dried-seaweed Pb 5000; the French CSHPF edible-seaweed Pb 5 mg/kg DM (5000) concurs at the same value on the same dry-matter basis.",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "binding_url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+      "concurring": [
+        {
+          "id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
+          "value": 5000,
+          "jurisdiction": "IL"
+        },
+        {
+          "id": "fr_cshpf_seaweed_pb_5000",
+          "value": 5000,
+          "jurisdiction": "FR"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "Cd": {
+      "analyte": "Cd",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 500,
+      "value_exact": 500,
+      "binding_jurisdiction": "FR",
+      "binding_id": "fr_cshpf_seaweed_cd_500",
+      "basis": "dried seaweed, dry-weight (mg/kg DM). CONFIRMED TIGHTENING (2026-08-14): the French CSHPF edible-seaweed cadmium maximum of 0.5 mg/kg DM (500) — tabulated verbatim in ANSES opinion 2017-SA-0070 Table 3, enforced by DGCCRF — binds, replacing the prior Thailand dried-seaweed 2000 (retained as looser concurring context). Dry-matter basis matches the cell exactly.",
+      "binding_page": "regulations/france-cshpf-edible-seaweed-limits",
+      "binding_url": "https://www.anses.fr/en/system/files/ERCA2017SA0070EN.pdf",
+      "concurring": [
+        {
+          "id": "fr_cshpf_seaweed_cd_500",
+          "value": 500,
+          "jurisdiction": "FR"
+        },
+        {
+          "id": "th_moph414_2020_cd_dried_seaweed_2000",
+          "value": 2000,
+          "jurisdiction": "TH"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "tAs": {
+      "analyte": "tAs",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 5000,
+      "value_exact": 5000,
+      "binding_jurisdiction": "IL",
+      "binding_id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
+      "basis": "dried seaweed, dry-weight (mg/kg DM); total arsenic. Israel FCS 2016 dried-seaweed total-As 5000 (no stricter dried-seaweed total-As sovereign; France sets iAs not tAs for seaweed).",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "binding_url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+      "concurring": [
+        {
+          "id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
+          "value": 5000,
+          "jurisdiction": "IL"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "iAs": {
+      "analyte": "iAs",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 1000,
+      "value_exact": 1000,
+      "binding_jurisdiction": "AU-NZ",
+      "binding_id": "aunz_sch19_ias_seaweed_1000",
+      "basis": "dried seaweed, dry-weight (mg/kg DM); inorganic arsenic. FSANZ Schedule 19 seaweed iAs 1000 (HK Cap 132V seaweed iAs 1000 concurs); the French CSHPF seaweed iAs 3000 and Singapore 2000 are looser and not adopted.",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "binding_url": "https://www.legislation.gov.au/F2015L00454/latest",
+      "concurring": [
+        {
+          "id": "aunz_sch19_ias_seaweed_1000",
+          "value": 1000,
+          "jurisdiction": "AU-NZ"
+        },
+        {
+          "id": "hk_cap132v_ias_seaweed_1000",
+          "value": 1000,
+          "jurisdiction": "HK"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "tHg": {
+      "analyte": "tHg",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 100,
+      "value_exact": 100,
+      "binding_jurisdiction": "FR",
+      "binding_id": "fr_cshpf_seaweed_thg_100",
+      "basis": "dried seaweed, dry-weight (mg/kg DM); total mercury. CONFIRMED TIGHTENING (2026-08-14): the French CSHPF edible-seaweed total-mercury maximum of 0.1 mg/kg DM (100) — ANSES 2017-SA-0070 Table 3, enforced by DGCCRF — binds, replacing the prior Israel dried-seaweed 2500 (retained as looser concurring context). The French 'Mercury' value is TOTAL mercury (matches this tHg cell). Dry-matter basis matches the cell exactly.",
+      "binding_page": "regulations/france-cshpf-edible-seaweed-limits",
+      "binding_url": "https://www.anses.fr/en/system/files/ERCA2017SA0070EN.pdf",
+      "concurring": [
+        {
+          "id": "fr_cshpf_seaweed_thg_100",
+          "value": 100,
+          "jurisdiction": "FR"
+        },
+        {
+          "id": "il_fcs2016_thg_7_1_dried_seaweed_2500",
+          "value": 2500,
+          "jurisdiction": "IL"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "MeHg": {
+      "analyte": "MeHg",
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "tHg",
+      "rationale": "Methylmercury is bounded by total mercury (MeHg <= tHg). No jurisdiction sets a seaweed methylmercury ML (all sovereign MeHg limits are fish/fishery scope), and seaweed is a marine primary producer into which methylmercury does not biomagnify (it biomagnifies up the food chain, not into algae), so MeHg is a negligible fraction of total mercury and is bounded by the tHg ceiling (tightened to France 100 DM). Audit-affirmed (2026-08-14).",
+      "reference_method": "Total-mercury screen; reflex MeHg speciation cannot exceed the tHg ceiling.",
+      "regulatory_basis": "Bounded by the total-Hg seaweed ceiling (France CSHPF, 100 DM); no seaweed MeHg ML anywhere",
+      "jurisdictions_checked": "EU; France (CSHPF); Israel; Codex; US-FDA"
+    },
+    "Ni": {
+      "analyte": "Ni",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 30000,
+      "value_exact": 30000,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu2024_ni_seaweed_30000",
+      "basis": "seaweed nickel. EU Reg. 2024/1987 nickel in seaweed (except wakame) 30000 (Switzerland VHK 2026 'Seetang' 30000 concurs); the wakame variant (40000) is looser. This is the sole sovereign nickel limit reaching a seafood form.",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "binding_url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+      "concurring": [
+        {
+          "id": "eu2024_ni_seaweed_30000",
+          "value": 30000,
+          "jurisdiction": "EU"
+        },
+        {
+          "id": "ch_vhk_2026_ni_seetang_30000",
+          "value": 30000,
+          "jurisdiction": "CH"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "Sn": {
+      "analyte": "Sn",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 5000,
+      "value_exact": 5000,
+      "binding_jurisdiction": "FR",
+      "binding_id": "fr_cshpf_seaweed_sn_5000",
+      "basis": "dried seaweed, dry-weight (mg/kg DM); tin. Unlike animal seafood (where tin is a can-migration-only analyte), the French CSHPF sets an edible-seaweed tin maximum of 5 mg/kg DM (5000) — ANSES 2017-SA-0070 Table 3 — because seaweed accumulates tin/organotin from seawater; it binds directly on the dry-matter basis, so this cell is a regulatory-alignment limit, not a not-material screen.",
+      "binding_page": "regulations/france-cshpf-edible-seaweed-limits",
+      "binding_url": "https://www.anses.fr/en/system/files/ERCA2017SA0070EN.pdf",
+      "concurring": [
+        {
+          "id": "fr_cshpf_seaweed_sn_5000",
+          "value": 5000,
+          "jurisdiction": "FR"
+        }
+      ],
+      "stricter_unselected": []
+    },
+    "Al": {
+      "analyte": "Al",
+      "provenance": "control",
+      "value": null,
+      "rationale": "No credible regulator sets an aluminium contaminant ML for seaweed. Seaweed accumulates aluminium from seawater/sediment as background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level. Screened rather than aligned to a non-existent ML.",
+      "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no seaweed contaminant Al ML to align to.",
+      "trigger": "periodic aluminium screen; flag on anomalous elevation"
+    },
+    "Cr": {
+      "analyte": "Cr",
+      "provenance": "control",
+      "value": null,
+      "rationale": "No jurisdiction sets a total-chromium maximum level for seaweed or edible algae (the HK Cap 132V total-Cr limits are fish/crustacean/oyster animal-seafood scope, and the China GB 2762 total-Cr limits are cereals/beans plant scope — neither is on-scope for a marine macroalga). Chromium(III) is an essential nutrient; trace chromium in seaweed is geologic uptake. Screened as the substrate for reflex Cr-VI speciation rather than aligned to a mis-scoped number.",
+      "reference_method": "Total-chromium screen (ICP-MS); substrate for reflex Cr-VI speciation; no on-scope sovereign seaweed total-Cr ML.",
+      "trigger": "reflex Cr-VI speciation only if total chromium is anomalously elevated"
+    },
+    "Cr-VI": {
+      "analyte": "Cr-VI",
+      "type": "not_material",
+      "provenance": "not-material",
+      "value": null,
+      "basis_class": "speciation-bounded",
+      "bounded_by": "Cr",
+      "rationale": "Cr-VI is bounded by the total-chromium screen (Cr-VI <= total Cr); no jurisdiction sets a Cr-VI food ML and there is no chromate pathway in seaweed (no lead-chromate adulteration as in spices), so any trace chromium is geologic chromium(III). Rebuttable if a routed source reports hexavalent chromium in seaweed.",
+      "reference_method": "Bounded by the total-chromium screen; reflex Cr-VI speciation only on anomalously elevated total chromium.",
+      "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium; no chromate-adulteration pathway in seaweed",
+      "jurisdictions_checked": "EU; Codex; US-FDA; HK; EPA (water only)"
+    }
+  },
+  "method": "HMTc Method v2.0 (government-limit default; explicit-id lookup; MeHg speciation-bounded by tHg on animal seafood; seaweed on dry-matter basis)",
+  "generated_from": "regulatory_limits.csv"
+}
