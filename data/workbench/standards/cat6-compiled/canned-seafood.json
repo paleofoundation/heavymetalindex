@@ -6,224 +6,330 @@
   "native_basis": "as_consumed",
   "native_basis_label": "edible portion, as consumed (wet weight); tinplate-packed",
   "canned": true,
-  "scope_note": "Canned/tinplate-packed fishery products (canned tuna, canned fish). Lead binds the tuna/bonito 200; total mercury binds the general fishery 500; inorganic arsenic binds EU fish-other 100 (infant-food row scope-corrected out). Tin IS material here (canned) and binds Mexico canned-fishery 100000. MeHg bounded by tHg; total Cr binds HK fish 1000; Ni/Al screened; Cr-VI not-material.",
-  "cells": {
-    "Pb": {
-      "analyte": "Pb",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 200,
-      "value_exact": 200,
-      "binding_jurisdiction": "CR",
-      "binding_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
-      "basis": "edible portion, wet weight. Canned seafood is predominantly canned tuna; Costa Rica tuna/bonito Pb 200 is the strictest sovereign (EU general fish-muscle 300 concurs). Canning does not change the fish-muscle lead basis.",
-      "binding_page": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
-      "binding_url": "https://www.imprentanacional.go.cr/pub/2008/08/",
-      "concurring": [
-        {
-          "id": "cr_rtcr409_2008_pb_tuna_bonito_200",
-          "value": 200,
-          "jurisdiction": "CR"
-        },
-        {
-          "id": "eu2023_pb_fish_muscle_300",
-          "value": 300,
-          "jurisdiction": "EU"
+  "scope_note": "Canned/tinplate-packed fishery products (canned tuna, canned fish). Lead binds the tuna/bonito 200; total mercury binds the general fishery 500; inorganic arsenic binds EU fish-other 100. Tin IS material here (canned) and binds Mexico canned-fishery 100000. MeHg bounded by tHg; total Cr binds HK fish 1000; Ni/Al screened; Cr-VI not-material.",
+  "variants": {
+    "both": {
+      "Pb": {
+        "type": "gov",
+        "value": 200,
+        "value_exact": 200,
+        "binding_jurisdiction": "CR",
+        "binding_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+        "basis_note": "face value",
+        "per_country": {
+          "CR": {
+            "value": 200,
+            "converted": true,
+            "id": "cr_rtcr409_2008_pb_tuna_bonito_200"
+          },
+          "FJ": {
+            "value": 200,
+            "converted": true,
+            "id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200"
+          },
+          "EU": {
+            "value": 300,
+            "converted": true,
+            "id": "eu2023_pb_fish_muscle_300"
+          },
+          "IN": {
+            "value": 300,
+            "converted": true,
+            "id": "in_fssai2016_pb_046_fish_300"
+          },
+          "GSO": {
+            "value": 300,
+            "converted": true,
+            "id": "gso193_2021_pb_fish_300"
+          },
+          "GY": {
+            "value": 300,
+            "converted": true,
+            "id": "gy2023_pb_fish_general_ppm_300"
+          },
+          "PA": {
+            "value": 300,
+            "converted": true,
+            "id": "pa_res368_2009_pb_fish_300"
+          },
+          "TH": {
+            "value": 300,
+            "converted": true,
+            "id": "th_moph414_2020_pb_fish_300"
+          },
+          "PY": {
+            "value": 300,
+            "converted": true,
+            "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_pb_300"
+          },
+          "PH": {
+            "value": 300,
+            "converted": true,
+            "id": "ph_pns194_2017_fish_pb_300"
+          },
+          "IL": {
+            "value": 300,
+            "converted": true,
+            "id": "il_fcs2016_pb_10_fish_and_fish_products_300"
+          },
+          "MERCOSUR": {
+            "value": 300,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_pb_300"
+          },
+          "VN": {
+            "value": 300,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_pb_fish-fillets_300"
+          },
+          "HK": {
+            "value": 300,
+            "converted": true,
+            "id": "hk_cap132v_pb_fish_300"
+          },
+          "AU-NZ": {
+            "value": 500,
+            "converted": true,
+            "id": "aunz_sch19_pb_fish_500"
+          },
+          "MX": {
+            "value": 500,
+            "converted": true,
+            "id": "mx_nom242_pb_fish_crustaceans_500"
+          },
+          "SG": {
+            "value": 2000,
+            "converted": true,
+            "id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_pb_2000"
+          },
+          "TT": {
+            "value": 2000,
+            "converted": true,
+            "id": "tt_fooddrugs_2007_fish_fishery_products_pb_2000"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "Cd": {
-      "analyte": "Cd",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 50,
-      "value_exact": 50,
-      "binding_jurisdiction": "GSO",
-      "binding_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
-      "basis": "edible portion, wet weight; general fish-muscle cadmium 50.",
-      "binding_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
-      "binding_url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
-      "concurring": [
-        {
-          "id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
-          "value": 50,
-          "jurisdiction": "GSO"
-        },
-        {
-          "id": "cr_rtcr409_2008_cd_fish_general_50",
-          "value": 50,
-          "jurisdiction": "CR"
+      },
+      "Cd": {
+        "type": "gov",
+        "value": 50,
+        "value_exact": 50,
+        "binding_jurisdiction": "GSO",
+        "binding_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+        "basis_note": "face value",
+        "per_country": {
+          "GSO": {
+            "value": 50,
+            "converted": true,
+            "id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50"
+          },
+          "CR": {
+            "value": 50,
+            "converted": true,
+            "id": "cr_rtcr409_2008_cd_fish_general_50"
+          },
+          "GY": {
+            "value": 50,
+            "converted": true,
+            "id": "gy2023_cd_fish_general_ppm_50"
+          },
+          "PA": {
+            "value": 50,
+            "converted": true,
+            "id": "pa_res368_2009_cd_fish_general_50"
+          },
+          "PY": {
+            "value": 50,
+            "converted": true,
+            "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_other_cd_50"
+          },
+          "IL": {
+            "value": 50,
+            "converted": true,
+            "id": "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50"
+          },
+          "FJ": {
+            "value": 50,
+            "converted": true,
+            "id": "fj_fsr2009_cd_002_muscle_meat_of_fish_excluding_those_listed_below_50"
+          },
+          "MERCOSUR": {
+            "value": 50,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_other_cd_50"
+          },
+          "VN": {
+            "value": 100,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_cd_anchovy-tuna-two-striped-bream-eel-mullet-japa_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_cd_fish_100"
+          },
+          "IN": {
+            "value": 300,
+            "converted": true,
+            "id": "in_fssai2016_cd_016_fish_300"
+          },
+          "MX": {
+            "value": 500,
+            "converted": true,
+            "id": "mx_nom242_cd_fishery_other_500"
+          },
+          "TH": {
+            "value": 1000,
+            "converted": true,
+            "id": "th_moph414_2020_cd_fish_1000"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "tAs": {
-      "analyte": "tAs",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 1000,
-      "value_exact": 1000,
-      "binding_jurisdiction": "SG",
-      "binding_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
-      "basis": "edible portion, wet weight; total arsenic. Singapore canned-fish total-As 1000 (canned-specific scope).",
-      "binding_page": "regulations/singapore-food-regulations-heavy-metals-2026",
-      "binding_url": "",
-      "concurring": [
-        {
-          "id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
-          "value": 1000,
-          "jurisdiction": "SG"
+      },
+      "tAs": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "SG",
+        "binding_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
+        "basis_note": "face value",
+        "per_country": {
+          "SG": {
+            "value": 1000,
+            "converted": true,
+            "id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000"
+          },
+          "PY": {
+            "value": 1000,
+            "converted": true,
+            "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000"
+          },
+          "IL": {
+            "value": 1000,
+            "converted": true,
+            "id": "il_fcs2016_tas_9_fish_and_fish_products_1000"
+          },
+          "MERCOSUR": {
+            "value": 1000,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_tas_1000"
+          },
+          "AU-NZ": {
+            "value": 2000,
+            "converted": true,
+            "id": "aunz_sch19_tas_fish_2000"
+          },
+          "IN": {
+            "value": 76000,
+            "converted": true,
+            "id": "in_fssai2016_tas_012_fish_and_crustaceans_76000"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "iAs": {
-      "analyte": "iAs",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 100,
-      "value_exact": 100,
-      "binding_jurisdiction": "EU",
-      "binding_id": "eu20251891_ias_fish_other_100",
-      "basis": "edible portion, wet weight; inorganic arsenic. EU Reg. 2025/1891 muscle-meat-of-fish (other) iAs 100. (Scope-corrected: the earlier build mispooled an infant complementary-food iAs row here; that row is excluded — the value is unchanged because EU fish-other is also 100.)",
-      "binding_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
-      "binding_url": "http://data.europa.eu/eli/reg/2025/1891/oj",
-      "concurring": [
-        {
-          "id": "eu20251891_ias_fish_other_100",
-          "value": 100,
-          "jurisdiction": "EU"
-        },
-        {
-          "id": "hk_cap132v_ias_fish_100",
-          "value": 100,
-          "jurisdiction": "HK"
+      },
+      "iAs": {
+        "type": "gov",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu20251891_ias_fish_other_100",
+        "basis_note": "face value",
+        "per_country": {
+          "EU": {
+            "value": 100,
+            "converted": true,
+            "id": "eu20251891_ias_fish_other_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_ias_fish_100"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "tHg": {
-      "analyte": "tHg",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 500,
-      "value_exact": 500,
-      "binding_jurisdiction": "EU",
-      "binding_id": "eu2023_hg_fish_general_500",
-      "basis": "edible portion, wet weight; total mercury. Canned fishery products bind the general fishery/fish mercury ceiling of 500 (Costa Rica; EU crustaceans/molluscs/fish general).",
-      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
-      "binding_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-      "concurring": [
-        {
-          "id": "eu2023_hg_fish_general_500",
-          "value": 500,
-          "jurisdiction": "EU"
-        },
-        {
-          "id": "cr_rtcr409_2008_thg_fish_general_500",
-          "value": 500,
-          "jurisdiction": "CR"
+      },
+      "tHg": {
+        "type": "gov",
+        "value": 500,
+        "value_exact": 500,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_hg_fish_general_500",
+        "basis_note": "edible portion, wet weight; total mercury. Canned fishery products bind the general fishery/fish mercury ceiling of 500 (EU 2023/915 crustaceans/molluscs/fish general; Costa Rica concurs).",
+        "per_country": {
+          "EU": {
+            "value": 500,
+            "converted": false,
+            "id": "eu2023_hg_fish_general_500"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "MeHg": {
-      "analyte": "MeHg",
-      "type": "not_material",
-      "provenance": "not-material",
-      "value": null,
-      "basis_class": "speciation-bounded",
-      "bounded_by": "tHg",
-      "rationale": "Methylmercury is bounded by total mercury (MeHg <= tHg). The binding total-mercury ceiling (500) is at or below the lowest applicable sovereign methylmercury ML for canned/general fishery product (MeHg 500-1000), so passing tHg guarantees MeHg compliance; no separate methylmercury ceiling is published. Audit-affirmed (2026-08-14).",
-      "reference_method": "Total-mercury screen; reflex MeHg speciation cannot exceed the tHg ceiling.",
-      "regulatory_basis": "Bounded by the total-Hg fishery ceiling (500); no sovereign MeHg ML sits below it",
-      "jurisdictions_checked": "EU; CR; US-FDA; MX; TH; PH; TT; HK"
-    },
-    "Ni": {
-      "analyte": "Ni",
-      "provenance": "control",
-      "value": null,
-      "rationale": "No jurisdiction sets a nickel ML for fish or canned fishery products (EU 2024/1987 nickel is plant-food/seaweed only). Screened rather than assigned a mis-based number.",
-      "reference_method": "Total-nickel screen (ICP-MS); no sovereign canned-fish Ni ML.",
-      "trigger": "periodic nickel screen; flag on anomalous elevation"
-    },
-    "Sn": {
-      "analyte": "Sn",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 100000,
-      "value_exact": 100000,
-      "binding_jurisdiction": "MX",
-      "binding_id": "mx_nom242_sn_canned_100000",
-      "basis": "edible portion, wet weight; tin. Canned seafood is the one seafood subcategory where tin is material (tinplate migration). Mexico NOM-242 canned-fishery-products tin 100000 (100 mg/kg) is the strictest sovereign; CR/India 200000 and the general canned 250000 ceiling concur as looser context.",
-      "binding_page": "regulations/mx-nom-242-ssa1-2009-fishery-products",
-      "binding_url": "https://sidofqa.segob.gob.mx/notas/5177531",
-      "concurring": [
-        {
-          "id": "mx_nom242_sn_canned_100000",
-          "value": 100000,
-          "jurisdiction": "MX"
-        },
-        {
-          "id": "in_fssai2016_sn_029_canned_fish_products_200000",
-          "value": 200000,
-          "jurisdiction": "IN"
-        },
-        {
-          "id": "cr_rtcr409_2008_sn_canned_200000",
-          "value": 200000,
-          "jurisdiction": "CR"
-        },
-        {
-          "id": "hk_cap132v_sn_canned-food-other-than-canned-beverages_250000",
-          "value": 250000,
-          "jurisdiction": "HK"
+      },
+      "MeHg": {
+        "type": "not_material",
+        "value": null,
+        "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (500) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+        "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+      },
+      "Ni": {
+        "type": "not_material",
+        "value": null,
+        "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+        "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+      },
+      "Sn": {
+        "type": "gov",
+        "value": 100000,
+        "value_exact": 100000,
+        "binding_jurisdiction": "MX",
+        "binding_id": "mx_nom242_sn_canned_100000",
+        "basis_note": "face value",
+        "per_country": {
+          "MX": {
+            "value": 100000,
+            "converted": true,
+            "id": "mx_nom242_sn_canned_100000"
+          },
+          "IN": {
+            "value": 200000,
+            "converted": true,
+            "id": "in_fssai2016_sn_029_canned_fish_products_200000"
+          },
+          "CR": {
+            "value": 200000,
+            "converted": true,
+            "id": "cr_rtcr409_2008_sn_canned_200000"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "Al": {
-      "analyte": "Al",
-      "provenance": "control",
-      "value": null,
-      "rationale": "No credible regulator sets an aluminium contaminant ML for seafood or canned seafood; aluminium is background/packaging-derived, managed by intake vs the EFSA/JECFA TWI.",
-      "reference_method": "Total-aluminium screen (ICP-MS); managed by TWI; no per-food seafood contaminant ML.",
-      "trigger": "periodic aluminium screen; flag on anomalous elevation"
-    },
-    "Cr": {
-      "analyte": "Cr",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 1000,
-      "value_exact": 1000,
-      "binding_jurisdiction": "HK",
-      "binding_id": "hk_cap132v_crtotal_fish_1000",
-      "basis": "edible portion, wet weight; total chromium. Canned fish binds the HK Cap 132V fish total-Cr 1000 (India all-fishery 12000 is looser).",
-      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
-      "binding_url": "https://www.elegislation.gov.hk/hk/cap132V",
-      "concurring": [
-        {
-          "id": "hk_cap132v_crtotal_fish_1000",
-          "value": 1000,
-          "jurisdiction": "HK"
+      },
+      "Al": {
+        "type": "not_material",
+        "value": null,
+        "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+        "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+      },
+      "Cr": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_crtotal_fish_1000",
+        "basis_note": "face value",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": true,
+            "id": "hk_cap132v_crtotal_fish_1000"
+          },
+          "IN": {
+            "value": 12000,
+            "converted": true,
+            "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
+          }
         }
-      ],
-      "stricter_unselected": []
-    },
-    "Cr-VI": {
-      "analyte": "Cr-VI",
-      "type": "not_material",
-      "provenance": "not-material",
-      "value": null,
-      "basis_class": "speciation-bounded",
-      "bounded_by": "Cr",
-      "rationale": "Cr-VI is bounded by the total-chromium government limit (HK fish 1000); no Cr-VI food ML exists and Cr(VI) is reduced to Cr(III) in a reducing animal-tissue matrix. Rebuttable if a routed source reports hexavalent chromium in canned seafood.",
-      "reference_method": "Bounded by total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium.",
-      "regulatory_basis": "No Cr-VI food ML anywhere; bounded by total chromium (HK fish 1000)",
-      "jurisdictions_checked": "EU; Codex; US-FDA; HK; EPA (water only)"
+      },
+      "Cr-VI": {
+        "type": "not_material",
+        "value": null,
+        "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for fish here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+        "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+      }
     }
   },
-  "method": "HMTc Method v2.0 (government-limit default; explicit-id lookup; MeHg speciation-bounded by tHg on animal seafood; seaweed on dry-matter basis)",
-  "generated_from": "regulatory_limits.csv"
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "method": "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)"
 }
