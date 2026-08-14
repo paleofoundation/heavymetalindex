@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-66 open item(s): 25 auto, 41 awaiting a decision.
+67 open item(s): 25 auto, 42 awaiting a decision.
 
 ### OI-20260814-source-page-cert-annotations — 4 wiki/sources pages carry forward-looking HMT&C limit-setting / certification-limit relevance annotations (Certification: lines) — firewall Part 2 judgment: keep as source-attribution provenance or scrub?
 
@@ -521,6 +521,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/sources/nordberg2015-cadmium-chapter.md`, `wiki/sources/atsdr-cadmium-toxprofile-2012.md`, `wiki/sources/efsa2024-risk-assessment-iAs-update.md`, `wiki/sources/carter2025-tda-aas-methylmercury-finfish-fda-method.md`
 - repro: grep -rliI 'HMT&C limit-setting|HMTc limit-setting|HMT&C certification limit|HMTc certification limit' wiki/sources/
 - done when: Decide whether source-page 'Certification:' annotations that reference HMT&C limit-setting or a future HMT&C certification limit (WITHOUT disclosing any derived value or the strictest-of-X/Y/Z derivation) are firewall-permissible on the index domain.; Context: firewall-no-threshold-lint.mjs deliberately excludes wiki/sources/ from scope; these lines attribute a threshold's scientific basis to peer-reviewed EFSA/FDA/ATSDR sources (arguably defensibility-POSITIVE, the opposite of 'self-published'), and reproduce no value or derivation math. Distinct from the TASK-2 regulation/methodology derivation statements already scrubbed in commit 47d1ce2a3.; If ruled non-permissible: rewrite the 4 annotations to remove the HMT&C limit-setting reference while keeping the source's scientific relevance; otherwise close as by-design.
+- decision: _pending_
+
+### OI-20260814-jfm-shelved-staff-residual — JFM shelved (Karen 2026-08-14): staff Program Manual + briefings still cite the Journal, and the author bio claims 'peer-track publications in the Journal of Food Metallomics' — a defensibility risk in a DOI'd legal-exhibit manual
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards-book/parts/06-methodology-and-appendices/08-about-the-author.md`, `data/workbench/standards-book/parts/06-methodology-and-appendices/04-sources-index.md`, `data/workbench/standards-book/build/`, `data/workbench/public-briefings/`, `docs/audits/2026-06-11-jfm-scholar-defensibility-audit.md`
+- repro: grep -rlI 'Journal of Food Metallomics' data/workbench/standards-book data/workbench/public-briefings
+- done when: DEFENSIBILITY: the Program Manual author bio (08-about-the-author.md) states 'Pendergrass's peer-track publications in the Journal of Food Metallomics document …', while the public about-page says JFM has published nothing and has no external peer review. With JFM shelved, a credential claim of JFM publications in a DOI'd, Daubert-exhibit-grade manual is an over-claim opposing counsel can attack. Karen to decide: cite the underlying preprints/working-papers by their real venue, soften to 'working papers', or remove the JFM attribution. NOT auto-edited — it is an author-credential/brand claim and cert content (genuinely Karen's).; Scrub or reframe the remaining JFM references in the staff Program Manual (standards-book/parts + build/*.md/.typ/.html) and public-briefings once the above is decided, so the shelved venue is not presented as live in cert-destined materials.; The public wiki + CLAUDE.md + jfm-launch-plan (shelved banner) were already handled in commit c3042db62; this item is the STAFF/CERT-side residue only.; Historical: codex-run logs and the dated jfm-scholar audit keep the JFM name as records; no change expected.
 - decision: _pending_
 
 ### OI-20260814-index-cert-hyperlinks — 221 index (wiki/) pages carry markdown hyperlinks to https://heavymetaltested.com in firewall disclaimers — reconcile against the 'index->cert linking forbidden' rule (CLAUDE.md Part 1/3; project_cross_property_linking)
