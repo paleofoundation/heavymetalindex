@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-67 open item(s): 27 auto, 40 awaiting a decision.
+64 open item(s): 25 auto, 39 awaiting a decision.
 
 ### OI-20260814-notmaterial-registry-sync-backlog — Sync + adjudicate the not-material registry for the audit-remediated categories (913-contradiction backlog exposed)
 
@@ -521,28 +521,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/standards-not-material.csv`, `tools/standards/sync-not-material.mjs`
 - repro: Running sync-not-material for cat1/3/6/27/31/32 grows standards-not-material.csv 160->236 rows, but the not-material integrity gate then reports 913 contradictions (up from the tolerated 70 baseline) because many newly-registered not_material cells (Sn/Al/Ni/Cr-VI in food matrices) have routed sources that measured the analyte. The sync was REVERTED to keep the build at baseline. The remediation not_material determinations live in the committed compiled outputs but are not synced to the registry (same tolerated-staleness posture as pre-session). Adjudicate each contradicted cell (retire to a real limit/screen, or keep with the source cited as verified trace/artifact) before syncing.
 - done when: each contradicted not_material cell adjudicated per docs/governance; sync-not-material runs for the remediated categories with the integrity gate back at/below the tolerated baseline
-- decision: _pending_
-
-### OI-20260814-cert-render-variants-source-regs — Cert render for Cat 1/3/6 drops the Source-regulations table (variants-format path in build-category-standard-pages.mjs)
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/build-category-standard-pages.mjs`, `tools/build-cat1-standard-pages.mjs`
-- repro: Re-rendering the variants-format compiled JSON (cat1/cat3/cat6, produced by the shared compile-cat1 engine) with cert build-category-standard-pages.mjs emits pages WITHOUT the ## Source regulations table and drops firm-analyte rows, even though per_country is present (14 jurisdictions). Cells-format categories (cat27-34) render the table fine. The renderer normalizes variants.both->cells but loses per_country in that path. Cat 1/3/6 audit tightenings (infant tAs 50; grain tHg 30->20 + total-Cr 1000; seaweed tHg 2500->100 / Cd 2000->500) are committed in the INDEX repo (correct staff derivations) but NOT rendered live because the render regresses the defensibility source-regs table.
-- done when: build-category-standard-pages.mjs renders the Source-regulations table for variants-format records (per_country preserved through normalization); re-rendered cat1/cat3/cat6 pages show >= the pre-remediation source-reg jurisdiction count; the seaweed tHg 100 / Cd 500 tightening goes live without content loss
-
-### OI-20260814-cat9-cert-render-total-cr — build-cert-cat9-pages.mjs does not emit the new total-Cr cell added to the Cat 9 panel
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/standards/build-cert-cat9-pages.mjs`
-- repro: Cat 9 remediation added a standalone total-Cr determination to all 8 contact-product subcats (compile-cat9.mjs + cat9-config.json, committed on the index branch). build-cert-cat9-pages.mjs renders the page but the total-Cr row does not appear (grep for chromium in the rendered infant-bottles.md returns nothing) — the renderer predates the panel addition. Re-rendering is date-churn with no visible benefit until the renderer emits Cr-total.
-- done when: build-cert-cat9-pages.mjs renders the total-Cr cell (gov ND<10 for food-contact; control for toy/diaper) for all 8 subcats; re-rendered Cat 9 pages show the Total chromium row
-
-### OI-20260814-cat6-compiler-format-parity — Rebuild compile-cat6.mjs on the variants engine (like Cat 3) so seafood pages keep derivation richness
-
-- scope: **human-gated** · type: code-fix · status: open · repo: index
-- paths: `tools/standards/compile-cat6.mjs`, `tools/standards/cat6-config.json`
-- repro: The new compile-cat6.mjs (phase-2, copied from compile-cat34 = cells format, explicit-id lookup) produces a leaner per_country than the live seafood pages (variants format from the cat1 engine). Fish non-regression is confirmed on toxic VALUES, but re-rendering strips the 18-government source-regs table + version history. Bring Cat 6 to variants-format parity (drive compile-cat1 engine with a cat6-config, like compile-cat3.mjs) so seaweed tHg->100/Cd->500 can render live without regressing the fish-page derivation tables. Also re-examine cephalopod total-Cr (currently IN all-fishery 12000; a read-across to finfish HK 1000 would be more protective).
-- done when: compile-cat6 emits variants-format with full per_country parity to the live seafood pages; re-rendered seafood pages keep the source-regs table + gain the seaweed tightenings; no fish toxic value regresses
 - decision: _pending_
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
