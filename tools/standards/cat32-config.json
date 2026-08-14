@@ -6,9 +6,9 @@
       "name": "Vinegar (distilled, wine, balsamic, cider, rice)",
       "native_basis": "as consumed",
       "canned": false,
-      "lineage_note": "Vietnam QCVN 8-2 is the only sovereign that sets vinegar MLs (Pb 500, Cd 1000, tAs 200, tHg 50), so it governs directly. Hidden-hazard flag for the ratchet, NOT a missing limit: the FDA has issued balsamic- and wine-vinegar lead warning letters (grape-derived lead concentrated during must reduction, compounded historically by lead-bearing equipment), and measured balsamic lead can approach or exceed 500 ug/kg — so ALARA and the occurrence ratchet drive tightening after publication even though the sovereign ceiling is the correct initial value. Nickel and total chromium are held under a stainless-steel-migration screen because an acidic food in prolonged stainless contact leaches both.",
-      "audit_scope": "vinegar",
-      "scope_include": ["vinegar"],
+      "lineage_note": "Vietnam QCVN 8-2 sets vinegar-specific MLs (Pb 500, tHg 50) and governs those cells directly. Cadmium and total arsenic are governed instead by the stricter Uruguay RBN general limit for LIQUID foods (Cd 100, tAs 100; uy_rbn_general_cd_liquid_foods_0_1mgkg / uy_rbn_general_tas_liquid_foods_0_1mgkg) — a national catch-all that binds every liquid food without a particular limit and is tighter than the Vietnam vinegar values (Cd 1000, tAs 200). Hidden-hazard flag for the ratchet, NOT a missing limit: the FDA has issued balsamic- and wine-vinegar lead warning letters (grape-derived lead concentrated during must reduction, compounded historically by lead-bearing equipment), and measured balsamic lead can approach or exceed 500 ug/kg — so ALARA and the occurrence ratchet drive tightening after publication even though the sovereign ceiling is the correct initial value. Nickel and total chromium are held under a stainless-steel-migration screen because an acidic food in prolonged stainless contact leaches both.",
+      "audit_scope": "vinegar|liquid foods in general",
+      "scope_include": ["vinegar", "liquid foods in general"],
       "scope_exclude": [],
       "read_across": {
         "iAs": {
@@ -52,9 +52,9 @@
       "name": "Soy sauce and fermented seasoning sauces",
       "native_basis": "as consumed",
       "canned": false,
-      "lineage_note": "Soy sauce is a fermented seasoning SAUCE, so the Vietnam QCVN 8-2 generic 'Sauce' MLs govern directly (Pb 2000, Cd 1000, tAs 1000, tHg 50) — corroborated by the Singapore 'tomato ketchup and other sauces' finished-sauce ML (Pb 2000 / tAs 1000). These are loose ceilings flagged for the occurrence ratchet; soy sauce has a documented lead-contamination history (e.g. Hong Kong recalls). Nickel is held under a soy-accumulation screen because soybeans concentrate nickel (EU regulates soybean nickel at 15000) and no sovereign sets a sauce nickel ML.",
-      "audit_scope": "soy sauce|soya sauce|\\bsauces?\\b",
-      "scope_include": ["soy sauce", "soya sauce", "\\bsauces?\\b"],
+      "lineage_note": "Soy sauce is a fermented seasoning SAUCE. Lead is governed by China GB 2762 'Condiments excluding spices' (Pb 1000; china_gb2762_pb_condiments_excl_spices_1000), whose Appendix A.1 explicitly places soy sauce and compound/blended condiments under this line — stricter than the Vietnam QCVN 8-2 generic 'Sauce' Pb 2000. Cadmium and total arsenic are governed by the stricter Uruguay RBN general limit for LIQUID foods (Cd 100, tAs 100; uy_rbn_general_cd_liquid_foods_0_1mgkg / uy_rbn_general_tas_liquid_foods_0_1mgkg), a pourable soy sauce being a liquid food; these bind below the Vietnam 'Sauce' Cd 1000 / tAs 1000 and the Singapore 'tomato ketchup and other sauces' tAs 1000. Total mercury is the Vietnam 'Sauce' value (tHg 50). Soy sauce has a documented lead-contamination history (e.g. Hong Kong recalls), so the ratchet still applies. Nickel is held under a soy-accumulation screen because soybeans concentrate nickel (EU regulates soybean nickel at 15000) and no sovereign sets a sauce nickel ML. Total chromium is held under a reflex screen disclosed against the Hong Kong Cap 132V pulses total-chromium ML (1000), soy sauce being a pulse/legume ferment.",
+      "audit_scope": "soy sauce|soya sauce|\\bsauces?\\b|liquid foods in general",
+      "scope_include": ["soy sauce", "soya sauce", "\\bsauces?\\b", "liquid foods in general"],
       "scope_exclude": [],
       "read_across": {
         "iAs": {
@@ -73,9 +73,9 @@
           "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context."
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for soy sauce; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "control": true,
+          "rationale": "A sovereign total-chromium context does exist for the source commodity: Hong Kong Cap 132V sets total chromium at 1000 ug/kg for pulses (hk_cap132v_crtotal_pulses_1000), and soy sauce is a soybean (pulse/legume) ferment, so the pulse total-chromium ML is the nearest sovereign analog. An acidic, fermented product in prolonged stainless-steel contact also leaches chromium alongside nickel. Because a real source and migration pathway exists, the cell is held under a reflex screen disclosed against the Hong Kong pulses total-chromium ML (1000) — matching the sibling vinegar chromium control — rather than declared not-material; any total-chromium exceedance triggers Cr(VI) speciation.",
+          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance."
         },
         "Cr-VI": {
           "control": true,
@@ -134,9 +134,9 @@
           "reference_method": null
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for fish sauce; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "control": true,
+          "rationale": "A sovereign total-chromium context does exist for the source commodity: Hong Kong Cap 132V sets total chromium at 1000 ug/kg for fish (hk_cap132v_crtotal_fish_1000), and fish sauce is a fermented marine (fish-derived) product, so the fish total-chromium ML is the nearest sovereign analog. Because a real source pathway exists, the cell is held under a reflex screen disclosed against the Hong Kong fish total-chromium ML (1000) rather than declared not-material; any total-chromium exceedance triggers Cr(VI) speciation.",
+          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance."
         },
         "Cr-VI": {
           "control": true,
@@ -159,10 +159,10 @@
       "name": "Tomato condiments (ketchup, salsa)",
       "native_basis": "as consumed",
       "canned": false,
-      "lineage_note": "Ketchup and salsa are certified against the stricter tomato-CONCENTRATE lead and total-arsenic MLs (Pb/tAs 500, Paraguay/MERCOSUR) rather than the looser finished-ketchup (Singapore 2000) or generic-sauce (Vietnam 'Sauce' Pb 2000 / tAs 1000) MLs — a protective, government-cited choice; the finished-ketchup, generic-sauce, and canned/preserved whole-tomato MLs (Pb 50) are retained in the per-country audit trail as different product forms. Cadmium (1000) and total mercury (50) are governed by the Vietnam generic 'Sauce' category (no tomato-specific value exists — tomatoes are explicitly carved OUT of the fruiting-vegetable cadmium ML). Nickel reads across from the EU fruiting-vegetable Ni ML (400) because tomatoes are fruiting vegetables. Canned tomato condiments fall under the canned-food tin ML and are out of this bottled subcategory's scope.",
-      "audit_scope": "tomato|ketchup|\\bsauces?\\b",
+      "lineage_note": "Ketchup and salsa are certified against the stricter tomato-CONCENTRATE lead and total-arsenic MLs (Pb/tAs 500, Paraguay/MERCOSUR) rather than the looser finished-ketchup (Singapore 2000) or generic-sauce (Vietnam 'Sauce' Pb 2000 / tAs 1000) MLs — a protective, government-cited choice; the finished-ketchup, generic-sauce, and canned/preserved whole-tomato MLs (Pb 50) are retained in the per-country audit trail as different product forms. Cadmium is governed by the stricter Uruguay RBN general limit for SOLID foods (Cd 200; uy_rbn_general_cd_solid_foods_0_2mgkg), a semisolid tomato condiment being a solid food; this binds below the Vietnam 'Sauce' Cd 1000, and no tomato-specific cadmium value exists (tomatoes are explicitly carved OUT of the fruiting-vegetable cadmium ML). Total mercury (50) is governed by the Vietnam generic 'Sauce' category. Nickel reads across from the EU fruiting-vegetable Ni ML (400) because tomatoes are fruiting vegetables. Total chromium is held under a reflex screen disclosed against the Hong Kong Cap 132V vegetables-other-than-pulses total-chromium ML (500), tomato being a fruiting vegetable. Canned tomato condiments fall under the canned-food tin ML and are out of this bottled subcategory's scope.",
+      "audit_scope": "tomato|ketchup|\\bsauces?\\b|solid foods in general",
       "audit_exclude_scope": "preserved|canned|juice|\\bdrink|excluding tomato|edible fungi|hot sauce|fruiting veget",
-      "scope_include": ["tomato ketchup", "tomato concentrate", "tomato puree", "tomato paste", "\\bsauces?\\b"],
+      "scope_include": ["tomato ketchup", "tomato concentrate", "tomato puree", "tomato paste", "\\bsauces?\\b", "solid foods in general"],
       "scope_exclude": ["preserved tomato", "canned tomato", "tomato juice"],
       "analyte_scope": {
         "Sn": { "exclude": ["tomato"] }
@@ -183,9 +183,9 @@
           "label": "read-across from EU 2024/1987 fruiting-vegetables nickel 400 — tomatoes are fruiting vegetables; the source-commodity nickel ML applied at face value."
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for tomato condiments; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "control": true,
+          "rationale": "A sovereign total-chromium context does exist for the source commodity: Hong Kong Cap 132V sets total chromium at 500 ug/kg for vegetables other than pulses (hk_cap132v_crtotal_vegetables-other-than-pulses_500), and tomato condiments are a fruiting-vegetable product, so the vegetable total-chromium ML is the nearest sovereign analog. Because a real source pathway exists, the cell is held under a reflex screen disclosed against the Hong Kong vegetables total-chromium ML (500) rather than declared not-material; any total-chromium exceedance triggers Cr(VI) speciation.",
+          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance."
         },
         "Cr-VI": {
           "control": true,
@@ -208,10 +208,10 @@
       "name": "Prepared mustard, mayonnaise and salad dressings",
       "native_basis": "as consumed",
       "canned": false,
-      "lineage_note": "Prepared mustard, mayonnaise and salad dressings are condiment SAUCES, so the Vietnam QCVN 8-2 generic 'Sauce' MLs govern directly (Pb 2000, Cd 1000, tAs 1000, tHg 50) — corroborated by the Singapore 'tomato ketchup and other sauces' finished-sauce ML (Pb 2000 / tAs 1000). Loose ceilings flagged for the occurrence ratchet. Nickel is held under a seed/oil-derived screen (mustard is a brassica seed; mayonnaise and vinaigrettes are oil emulsions carrying nickel from the oil fraction). The register's mustard OIL (India vegetable-oils) and mustard GREENS (EU leafy) MLs are different product forms and are excluded from selection and downgraded in the audit.",
-      "audit_scope": "\\bsauces?\\b|mayonnaise|salad dressing|\\bdressing|prepared mustard|\\bmustard",
+      "lineage_note": "Prepared mustard, mayonnaise and salad dressings are condiment SAUCES. Lead is governed by China GB 2762 'Condiments excluding spices' (Pb 1000; china_gb2762_pb_condiments_excl_spices_1000), which covers compound/blended condiments — stricter than the Vietnam QCVN 8-2 generic 'Sauce' Pb 2000. Cadmium is governed by the stricter Uruguay RBN general limit for SOLID foods (Cd 200; uy_rbn_general_cd_solid_foods_0_2mgkg), these semisolid emulsions being solid foods, binding below the Vietnam 'Sauce' Cd 1000. Total arsenic is the Singapore 'tomato ketchup and other sauces' finished-sauce value (tAs 1000, tied with the Uruguay solid-food general limit); total mercury is the Vietnam 'Sauce' value (tHg 50). Nickel is held under a seed/oil-derived screen (mustard is a brassica seed; mayonnaise and vinaigrettes are oil emulsions carrying nickel from the oil fraction). The register's mustard OIL (India vegetable-oils) and mustard GREENS (EU leafy) MLs are different product forms and are excluded from selection and downgraded in the audit.",
+      "audit_scope": "\\bsauces?\\b|mayonnaise|salad dressing|\\bdressing|prepared mustard|\\bmustard|solid foods in general",
       "audit_exclude_scope": "dried herbs|spices|vegetable oil|edible oil|spinach|leaves|\\bherbs|greens|hot sauce",
-      "scope_include": ["mayonnaise", "salad dressing", "prepared mustard", "\\bsauces?\\b"],
+      "scope_include": ["mayonnaise", "salad dressing", "prepared mustard", "\\bsauces?\\b", "solid foods in general"],
       "scope_exclude": ["mustard oil", "vegetable oil"],
       "read_across": {
         "iAs": {
