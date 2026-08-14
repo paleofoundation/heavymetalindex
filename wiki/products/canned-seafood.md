@@ -20,7 +20,6 @@ variant_type: whole_row_platform
 platform_metals: [Sn]
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-6-step0-lock.md
-step0_basis: "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps); literature pending"
 step0_confidence: provisional
 across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-dirty subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
 literature_scope: thin

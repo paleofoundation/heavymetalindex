@@ -69,21 +69,17 @@ When a statistic cannot be extracted deterministically, the wiki should say that
 
 ## Aggregate Percentile Boundary
 
-Individual studies are not expected to report the HMTc p90, p95, p10, or p20. Those values are standards-program calculations performed after the evidence has been routed, screened, and admitted into a benchmark pool. During ingest, the important question is whether the source contributes usable sample-level values or only summary/context evidence.
+Individual studies are not expected to report program standards percentiles, and ingest does not ask them to. Those percentile-selection calculations are performed by the certification program after the evidence has been routed, screened, and admitted into a benchmark pool; that limit-setting arithmetic is not part of ingest and is not reproduced on the Index. During ingest, the important question is only whether the source contributes usable sample-level values or only summary/context evidence.
 
-Source-level percentiles, when they happen to exist, are evidence inputs, not HMTc thresholds by themselves. A paper may report p90, p95, or p100 for its own sample pool; those values must remain labeled as source-scope context until the source is admitted into the exact product-row aggregate pool.
+Source-level percentiles, when they happen to exist, are evidence inputs, not standards thresholds by themselves. A paper may report p90, p95, or p100 for its own sample pool; those values must remain labeled as source-scope context until the source is admitted into the exact product-row aggregate pool.
 
-For HMTc limit-setting, clean benchmark rows use the aggregate the lower-end of the literature distribution. Contaminated-platform rows use a governance-selected aggregate lower-tail value: P10 by default, or P20 only when that row's governance packet explicitly selects it. The opposite tails are not HMTc limit-setting targets: do not calculate dirty-category P90 or clean-category P10 as standards values. If those values are computed for exploratory variance or clean-vs-dirty separation context, label them as comparator context and keep them out of limit-setting fields.
-
-After the aggregate target is calculated, compare it to the lowest applicable loaded regulatory ceiling for the same product row, analyte species, and basis. If the aggregate target is higher than that regulatory cap, the HMTc standard must use the regulatory cap or a stricter value; it must not publish a looser threshold.
-
-The deterministic layer may calculate documented nearest-rank percentiles from sample-level values, but it must record the source pool, product-row fit, basis, analyte species, censoring rule, and whether the value is source-scope context or an aggregate standards candidate. The AI adjudication layer decides whether the source is fit to enter the aggregate pool; the math layer then computes the row-standard percentile from the admitted pool.
+The deterministic layer may calculate documented nearest-rank percentiles from sample-level values, but it must record the source pool, product-row fit, basis, analyte species, censoring rule, and whether the value is source-scope context or an aggregate standards candidate. The AI adjudication layer decides whether the source is fit to enter the aggregate pool.
 
 Do not describe a study as weak merely because it does not report p90 or p95. A study is distribution-capable when it provides sample-level values, or another traceable structure that can be admitted into the benchmark pool. A study is summary/context-only when it provides only means, medians, ranges, maxima, pooled baskets, or narrative summaries. Summary/context-only evidence can inform retrieval, context, and sensitivity review, but it cannot create the benchmark distribution by itself.
 
 ## Benchmark Pool Rule
 
-Before calculating any HMTc percentile, define and record the benchmark pool. The pool definition must state the product row, geography or market, time period, matrix/basis, analyte species, sample frame, method comparability, censoring rule, inclusion/exclusion criteria, and regulatory ceiling context.
+Before evidence is pooled for standards use, define and record the benchmark pool. The pool definition must state the product row, geography or market, time period, matrix/basis, analyte species, sample frame, method comparability, censoring rule, inclusion/exclusion criteria, and regulatory ceiling context.
 
 Benchmark pools are jurisdiction- and market-aware. If a standard is being written for the United States, US-market samples are the primary benchmark pool unless governance explicitly approves another design. If US-market values are materially different from Nigeria, Portugal, the EU, or any other market, stratify the evidence and document the difference rather than averaging the markets together. Non-target-market evidence can remain useful as context, a prior, a gap signal, or a sensitivity check, but cross-market pooling requires an auditable rationale.
 

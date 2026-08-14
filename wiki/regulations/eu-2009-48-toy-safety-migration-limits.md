@@ -56,9 +56,9 @@ Values in mg/kg of toy material. Amendments are noted where a value differs from
 - **Aluminium** reduced to 2250 / 560 / 28130 mg/kg by Commission Directive (EU) 2019/1922 (was 5625 / 1406 / 70000). The superseded 70000 value still circulates on secondary lab pages and must not be used.
 - **Barium** revised to 1500 / 375 / 18750 mg/kg by Commission Regulation (EU) 681/2013.
 
-## How the limits are used in the Heavy Metal Tested & Certified standard
+## Comparison with related migration limits
 
-For HMTc Category 9 (Infant and Child Contact Products), the Category III scraped-off migration limits are the governing basis for the mouthable-toy rows (pacifiers and sucking/teething aids; teething toys/teethers). The certification limit for each analyte is the strictest value across the comparable migration instruments — this Directive, the US ASTM F963 soluble-migration limits, and the Mexican NOM-252 bioavailable limits — because all three measure acid-soluble migratable element concentration in the same basis. Where a soluble-family instrument is stricter than this Directive (arsenic and mercury, at 25 and 60 mg/kg under ASTM/EN 71-3 versus 47 and 94 here), that stricter value binds. Speciation note: the arsenic and mercury limits here regulate the total element; inorganic arsenic and methylmercury have no migration counterpart.
+This Directive is one of several instruments that regulate migratable heavy metals from mouthable toys such as pacifiers, sucking and teething aids, and teething toys, alongside the US ASTM F963 soluble-migration limits and the Mexican NOM-252 bioavailable limits. Because all three measure acid-soluble migratable element concentration in the same basis, their values are directly comparable: for arsenic and mercury the ASTM/EN 71-3 soluble limits (25 and 60 mg/kg) are stricter than this Directive's Category III scraped-off values (47 and 94 mg/kg). Speciation note: the arsenic and mercury limits here regulate the total element; inorganic arsenic and methylmercury have no migration counterpart.
 
 ## Related pages
 

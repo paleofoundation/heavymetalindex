@@ -30,6 +30,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { recordStep0Basis } from "./step0-basis-store.mjs"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -200,6 +201,19 @@ let locked = 0, markedProvisional = 0, createdProvisional = 0, skipped = 0
 // 1. LOCK ready rows
 for (const r of LOCK) {
   const fp = path.join(productsDir, `${r.slug}.md`)
+
+  // Firewall (CLAUDE.md Part 2): the derivation basis is HMTc-derivation content
+  // and stays staff-side, never as a `step0_basis:` frontmatter field on the
+  // public page. Recorded unconditionally so the store stays authoritative even
+  // when the page lock is skipped below.
+  recordStep0Basis(repoRoot, r.slug, {
+    step0_basis: r.basis,
+    step0_confidence: r.confidence,
+    hmtc_category: CAT.number,
+    hmtc_row: r.row,
+    written_by: "cat7-step0-scaffold.mjs",
+  })
+
   if (!fs.existsSync(fp)) { console.log(`LOCK skip (no page): ${r.slug}`); skipped++; continue }
   const text = fs.readFileSync(fp, "utf8")
   const split = splitFile(text)
@@ -230,7 +244,8 @@ for (const r of LOCK) {
   if (r.platform_metals.length) fm = setKey(fm, "platform_metals", `[${r.platform_metals.join(", ")}]`)
   fm = setKey(fm, "step0_lock_date", LOCK_DATE)
   fm = setKey(fm, "step0_lock_doc", LOCK_DOC)
-  fm = setKey(fm, "step0_basis", `"${r.basis}"`)
+  // step0_basis is recorded staff-side (recordStep0Basis above), not on the
+  // public page — firewall (CLAUDE.md Part 2).
   fm = setKey(fm, "step0_confidence", r.confidence)
   fm = setKey(fm, "across_row_review_hook", `"${r.across_row_hook}"`)
   fm = setKey(fm, "updated", LOCK_DATE)

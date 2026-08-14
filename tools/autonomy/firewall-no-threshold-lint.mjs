@@ -39,11 +39,14 @@
 //   path/type checks above already cover both known B1 vectors with no false
 //   positives.
 //
-//   WARN   (workbench derivation field leaked into a public page's frontmatter —
-//           a known drain backlog; promote to ERROR once it reaches zero)
+//   WARN   (workbench derivation field leaked into a public page's frontmatter)
 //     - step0_basis / rationale_tag / published_limit_ppb / step0_lock /
 //       hmtc_limit / hmtc_standard / percentile_basis / pool_p97 / pool_p45
 //       as a frontmatter key on a public page (the honey `step0_basis` leak class)
+//     - The step0_basis backlog drained to zero on 2026-08-14 (relocated to
+//       data/workbench/standards/step0-basis.json; the Cat 6/7 scaffolders now
+//       write there, not the public page). prebuild therefore runs this lint with
+//       --block-frontmatter, so this WARN class is now build-blocking (ERROR).
 //
 //   INFO   (prose heuristics — review-only, NEVER affects exit code; routed to CSV
 //           for human triage; disclaimer- and regulatory-context-excluded)

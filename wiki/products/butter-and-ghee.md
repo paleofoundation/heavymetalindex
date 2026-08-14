@@ -19,7 +19,6 @@ updated: 2026-06-09
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
-step0_basis: "regulatory-alignment (all analytes; n<5 per analyte)"
 step0_confidence: low
 across_row_review_hook: "butter vs ghee (concentration on clarification)"
 primary_metals_of_concern: [Pb, Cd]

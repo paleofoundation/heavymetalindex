@@ -18,7 +18,6 @@ splits_locked: true
 variant_type: whole_row_platform
 platform_metals: [iAs]
 step0_lock_date: 2026-06-02
-step0_basis: "literature-baseline (iAs); regulatory-alignment (EU iAs rice-product 300 binds)"
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: rice-based cereals carry the iAs platform (FDA 100 ppb infant-rice-cereal context); speciation required"
 literature_scope: thin

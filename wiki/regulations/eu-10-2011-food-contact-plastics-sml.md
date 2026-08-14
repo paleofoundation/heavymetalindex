@@ -50,9 +50,9 @@ Lead, cadmium, mercury, and arsenic are not authorised substances and have no po
 | Arsenic | Not detectable | 0.01 |
 | Chromium | Not detectable | 0.01 (relaxed to 3.6 for total chromium where documented Cr(VI) exclusion applies) |
 
-## How the limits are used in the Heavy Metal Tested & Certified standard
+## Limit structure and related controls
 
-For HMTc Category 9, this Regulation is the governing basis for the food-contact rows (bottles, nipples/spouts, sippy cups, food-storage items, feeding accessories). The certification limit for lead, cadmium, mercury, and total arsenic is the Regulation's not-detectable ceiling at the stated detection limit; for nickel and aluminium it is the positive SML (0.02 and 1 mg/kg food). Hexavalent chromium is bounded by the not-detectable total-chromium limit. Total-content limits from children's-product law (US CPSIA, Washington Children's Safe Product Act) apply in addition, as a separate ceiling in a different basis. Stainless-steel drinkware components are additionally controlled for nickel release under the former EU Nickel Directive 94/27/EC (now REACH Annex XVII entry 27).
+This Regulation sets its heavy-metal controls as a not-detectable ceiling at the stated detection limit for lead, cadmium, mercury, and total arsenic, and as a positive specific migration limit for nickel and aluminium (0.02 and 1 mg/kg food); hexavalent chromium is bounded by the not-detectable total-chromium limit. Total-content limits from children's-product law (US CPSIA, Washington Children's Safe Product Act) apply in addition to migration limits, as a separate ceiling in a different basis. Stainless-steel drinkware components are additionally controlled for nickel release under the former EU Nickel Directive 94/27/EC (now REACH Annex XVII entry 27).
 
 ## Related pages
 

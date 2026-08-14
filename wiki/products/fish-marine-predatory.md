@@ -22,7 +22,6 @@ platform_metals: [MeHg, tHg]
 primary_metals_of_concern: [MeHg, tHg, Cd]
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-6-step0-lock.md
-step0_basis: "literature-baseline (MeHg·tHg); regulatory-alignment (rest); EU predatory-fish Hg cap 1000 binds"
 step0_confidence: medium
 across_row_review_hook: "RESOLVED 2026-06-16: row = the EU higher-mercury fish group (tuna/swordfish/shark/marlin); the 1000 ppb tHg cap governs the group; species-level differentiation deferred to Tier-2 lot-testing per Governing Principles"
 ---

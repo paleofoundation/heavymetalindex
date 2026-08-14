@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "title": "Step 0 lock derivation basis (staff-side)",
+    "purpose": "Per-product-row Step 0 derivation-basis strings. Staff-side home for the derivation basis formerly carried as the public `step0_basis` frontmatter field on wiki/products/<slug>.md. Relocated 2026-08-14 to keep HMTc-derivation content off the heavymetalindex.com index domain (CLAUDE.md Part 2 firewall).",
+    "firewall": "workbench-only — never rendered on or linked from the index domain",
+    "keyed_by": "row_slug (== wiki/products/<slug>.md)",
+    "written_by": [
+      "tools/autonomy/cat6-step0-scaffold.mjs",
+      "tools/autonomy/cat7-step0-scaffold.mjs"
+    ]
+  },
+  "rows": {
+    "breakfast-cereal-non-rice": {
+      "step0_basis": "regulatory-alignment (EU cereals Cd 100); literature-baseline where depth supports",
+      "step0_confidence": "medium-low",
+      "hmtc_category": 3,
+      "hmtc_row": 5,
+      "written_by": "no active generator (relocated from routing-backlog commit aa68e072f)",
+      "relocated_from": "wiki/products/breakfast-cereal-non-rice.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "breakfast-cereal-rice-based": {
+      "step0_basis": "literature-baseline (iAs); regulatory-alignment (EU iAs rice-product 300 binds)",
+      "step0_confidence": "medium",
+      "hmtc_category": 3,
+      "hmtc_row": 6,
+      "written_by": "no active generator (relocated from routing-backlog commit aa68e072f)",
+      "relocated_from": "wiki/products/breakfast-cereal-rice-based.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "butter-and-ghee": {
+      "step0_basis": "regulatory-alignment (all analytes; n<5 per analyte)",
+      "step0_confidence": "low",
+      "hmtc_category": 24,
+      "hmtc_row": 9,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/butter-and-ghee.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "canned-seafood": {
+      "step0_basis": "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps); literature pending",
+      "step0_confidence": "provisional",
+      "hmtc_category": 6,
+      "hmtc_row": 6,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/canned-seafood.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "chocolate": {
+      "step0_basis": "literature-baseline (Cd·Pb·tAs); regulatory-alignment (Ni·Cr·tHg·Sn·Al)",
+      "step0_confidence": "medium-high",
+      "hmtc_category": 33,
+      "hmtc_row": 1,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/chocolate.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "cooking-oils-other": {
+      "step0_basis": "literature-baseline (Pb·Cd·Ni); regulatory-alignment (tAs·iAs·tHg·Cr·Sn·Al)",
+      "step0_confidence": "medium",
+      "hmtc_category": 30,
+      "hmtc_row": 2,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/cooking-oils-other.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "fish-freshwater": {
+      "step0_basis": "literature-baseline (Hg/MeHg·Pb); regulatory-alignment (Cd·iAs·rest)",
+      "step0_confidence": "medium",
+      "hmtc_category": 6,
+      "hmtc_row": 1,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/fish-freshwater.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "fish-marine-non-predatory": {
+      "step0_basis": "regulatory-alignment binding on most analytes; literature-baseline where depth supports",
+      "step0_confidence": "medium-low",
+      "hmtc_category": 6,
+      "hmtc_row": 2,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/fish-marine-non-predatory.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "fish-marine-predatory": {
+      "step0_basis": "literature-baseline (MeHg·tHg); regulatory-alignment (rest); EU predatory-fish Hg cap 1000 binds",
+      "step0_confidence": "medium",
+      "hmtc_category": 6,
+      "hmtc_row": 3,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/fish-marine-predatory.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "honey": {
+      "step0_basis": "literature-baseline (Pb·Cd·Ni·Cr); regulatory-alignment (tAs·tHg·Sn·Al)",
+      "step0_confidence": "medium",
+      "hmtc_category": 31,
+      "hmtc_row": 1,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/honey.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "olive-oil": {
+      "step0_basis": "literature-baseline (Pb·Cd·tAs·Ni); regulatory-alignment (iAs·tHg·Cr·Sn·Al)",
+      "step0_confidence": "medium-high",
+      "hmtc_category": 30,
+      "hmtc_row": 1,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/olive-oil.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "salt": {
+      "step0_basis": "regulatory-alignment (Pb to Codex ML; all analytes)",
+      "step0_confidence": "low",
+      "hmtc_category": 34,
+      "hmtc_row": 2,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/salt.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "seaweed-kelp-foods": {
+      "step0_basis": "literature-baseline (iAs·tAs·Cd); regulatory-alignment (rest)",
+      "step0_confidence": "medium-low",
+      "hmtc_category": 6,
+      "hmtc_row": 5,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/seaweed-kelp-foods.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "shellfish": {
+      "step0_basis": "literature-baseline (Cd·iAs·Pb); regulatory-alignment (rest); EU bivalve Pb 1500/Cd 1000 caps",
+      "step0_confidence": "medium-high",
+      "hmtc_category": 6,
+      "hmtc_row": 4,
+      "written_by": "cat6-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/shellfish.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "spices": {
+      "step0_basis": "literature-baseline (Pb·Cd·Cr·tAs·Ni); regulatory-alignment (tHg·Sn·Al)",
+      "step0_confidence": "medium-high",
+      "hmtc_category": 34,
+      "hmtc_row": 1,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/spices.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    },
+    "vinegar": {
+      "step0_basis": "literature-baseline (Pb); regulatory-alignment (tAs·Cd·tHg·Ni·Cr·Al·Sn)",
+      "step0_confidence": "medium",
+      "hmtc_category": 32,
+      "hmtc_row": 1,
+      "written_by": "cat7-step0-scaffold.mjs",
+      "relocated_from": "wiki/products/vinegar.md frontmatter step0_basis",
+      "relocated_on": "2026-08-14"
+    }
+  }
+}

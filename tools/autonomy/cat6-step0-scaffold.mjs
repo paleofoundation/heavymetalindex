@@ -19,6 +19,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { recordStep0Basis } from "./step0-basis-store.mjs"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -150,6 +151,18 @@ let created = 0, locked = 0
 for (const r of ROWS) {
   const fp = path.join(productsDir, `${r.slug}.md`)
 
+  // Firewall (CLAUDE.md Part 2): the derivation basis is HMTc-derivation content
+  // and must not land on the public index. Record it staff-side, never as a
+  // `step0_basis:` frontmatter field on the public page. Done unconditionally so
+  // the store stays authoritative even when the page lock is skipped below.
+  recordStep0Basis(repoRoot, r.slug, {
+    step0_basis: r.basis,
+    step0_confidence: r.confidence,
+    hmtc_category: CAT.number,
+    hmtc_row: r.row,
+    written_by: "cat6-step0-scaffold.mjs",
+  })
+
   if (r.create && !fs.existsSync(fp)) {
     const fm = [
       "---",
@@ -174,7 +187,8 @@ for (const r of ROWS) {
       `platform_metals: [${r.platform_metals.join(", ")}]`,
       `step0_lock_date: ${LOCK_DATE}`,
       `step0_lock_doc: ${LOCK_DOC}`,
-      `step0_basis: "${r.basis}"`,
+      // step0_basis is HMTc-derivation content — kept staff-side via
+      // recordStep0Basis() above, not emitted to the public page (firewall).
       `step0_confidence: ${r.confidence}`,
       `across_row_review_hook: "${r.hook}"`,
       `literature_scope: thin`,
@@ -204,7 +218,8 @@ for (const r of ROWS) {
   fm = setKey(fm, "primary_metals_of_concern", `[${r.primary_metals.join(", ")}]`)
   fm = setKey(fm, "step0_lock_date", LOCK_DATE)
   fm = setKey(fm, "step0_lock_doc", LOCK_DOC)
-  fm = setKey(fm, "step0_basis", `"${r.basis}"`)
+  // step0_basis is recorded staff-side (recordStep0Basis above), not on the
+  // public page — firewall (CLAUDE.md Part 2).
   fm = setKey(fm, "step0_confidence", r.confidence)
   fm = setKey(fm, "across_row_review_hook", `"${r.hook}"`)
   fm = setKey(fm, "updated", LOCK_DATE)

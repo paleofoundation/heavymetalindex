@@ -29,7 +29,6 @@ step0_lock_doc: docs/governance/category-7-step0-lock.md
 variant_type: whole_row_platform
 platform_metals: [Cd, Pb]
 step0_lock_date: 2026-06-02
-step0_basis: "literature-baseline (Cd·Pb·tAs); regulatory-alignment (Ni·Cr·tHg·Sn·Al)"
 step0_confidence: medium-high
 across_row_review_hook: "ACTIVE: cacao origin (Latin American high-Cd soils) and cocoa-solids fraction (dark vs milk); review for an origin/percentage sub-split"
 ---

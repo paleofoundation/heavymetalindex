@@ -37,9 +37,9 @@ Values in ppm (mg/kg). These limits are identical across editions F963-08, -11, 
 
 Separately, ASTM F963 and the CPSIA cap the total lead content of surface coatings at 90 ppm and the total lead content of accessible substrate at 100 ppm; those are total-content limits in a different basis (see [[regulations/us-cpsia-lead-childrens-products]]).
 
-## How the limits are used in the Heavy Metal Tested & Certified standard
+## Comparison with related migration limits
 
-For HMTc Category 9, the ASTM F963 soluble limits are one member of the toy-migration family the mouthable-toy rows are set against, alongside the EU 2009/48/EC Category III limits and the Mexican NOM-252 bioavailable limits. The certification limit for each analyte is the strictest value across that family. For arsenic (25 ppm) and mercury (60 ppm), the ASTM/EN 71-3 soluble limits are stricter than the EU 2009/48/EC scraped-off values (47 and 94 mg/kg) and therefore bind. Arsenic and mercury are limited here as total element; inorganic arsenic and methylmercury have no migration counterpart.
+The ASTM F963 soluble limits are one member of the toy-migration family that regulates migratable heavy metals from mouthable toys, alongside the EU 2009/48/EC Category III limits and the Mexican NOM-252 bioavailable limits. All measure acid-soluble migratable element concentration in a comparable basis: for arsenic (25 ppm) and mercury (60 ppm), the ASTM/EN 71-3 soluble limits are stricter than the EU 2009/48/EC scraped-off values (47 and 94 mg/kg). Arsenic and mercury are limited here as total element; inorganic arsenic and methylmercury have no migration counterpart.
 
 ## Related pages
 

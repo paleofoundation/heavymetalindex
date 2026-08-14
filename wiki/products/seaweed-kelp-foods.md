@@ -22,7 +22,6 @@ platform_metals: [iAs, tAs, Cd]
 primary_metals_of_concern: [iAs, tAs, Cd]
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-6-step0-lock.md
-step0_basis: "literature-baseline (iAs·tAs·Cd); regulatory-alignment (rest)"
 step0_confidence: medium-low
 across_row_review_hook: "RESOLVED 2026-06-16 (iAs): clean non-hijiki seaweed split from the hijiki/Sargassum dirty subcategory; iAs standard = non-hijiki pool (1829 ppb). tAs/Cd HELD pending brown-algae As recovery — see standards-outlier-adjudication.csv"
 ---

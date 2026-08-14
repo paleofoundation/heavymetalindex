@@ -21,7 +21,6 @@ variant_type: independent
 primary_metals_of_concern: [tHg, MeHg, Cd, iAs]
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-6-step0-lock.md
-step0_basis: "regulatory-alignment binding on most analytes; literature-baseline where depth supports"
 step0_confidence: medium-low
 across_row_review_hook: "oily small fish (sardine/anchovy) vs whitefish (cod) differ on Cd/iAs — review for split"
 ---

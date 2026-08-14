@@ -19,7 +19,6 @@ updated: 2026-06-09
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
-step0_basis: "literature-baseline (Pb); regulatory-alignment (tAs·Cd·tHg·Ni·Cr·Al·Sn)"
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: balsamic carries elevated Pb/As — review for balsamic split"
 primary_metals_of_concern: [Pb, tAs, Cd]
