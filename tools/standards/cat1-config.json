@@ -1,5 +1,7 @@
 {
   "_doc": "Per-subcategory scope-selection + read-across config for the Cat-1 compiler. Every number the compiler emits traces to a register row selected by these rules. scope_include/exclude are case-insensitive regex fragments tested against product_scope. read_across names the register row for the nearest analogous government value where no government regulates the exact product. Audited configs for rows 2-9 are filled by the build workflow; formula-powder (row 1) is the regression anchor, calibrated to reproduce the deployed, audited standard.",
+  "panel": ["Pb", "iAs", "tAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"],
+  "_panel_note": "tAs (total arsenic) is a mandatory certification analyte and is a DISTINCT cell from iAs; inorganic arsenic can never satisfy the total-arsenic requirement (iAs <= tAs by identity). Every Cat-1 subcategory binds India FSSAI total-As 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50) — the only infant/baby total-arsenic ML in the register and the strictest worldwide (Singapore infant-formula/baby-food tAs 100 is looser). Where a subcategory's scope regex matches that row directly the cell is a direct government limit (binding IN); where it does not, the row is applied as a disclosed government read-across (added to read_across.tAs on every subcategory as a comparator floor so no cell can gap).",
   "_read_across_canon": {
     "tHg": "cn_thg_canned-complementary-foods-for-infants-a_20 — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for these product forms anywhere.",
     "Cr": "china_gb2762_cr_milk_powder_2000 — China GB 2762 total-Cr 2000 for milk powder; dairy read-across. For non-dairy subcategories the nearest analogous Cr source may differ; the workflow adjudicates per subcategory.",
@@ -44,6 +46,10 @@
         "Cr": {
           "source_id": "china_gb2762_cr_milk_powder_2000",
           "label": "government read-across (China GB 2762 milk powder → formula)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the only infant/baby total-arsenic ML in the register and the strictest worldwide. Mandatory total-As cell; inorganic arsenic cannot satisfy the total-As requirement (iAs <= tAs). Comparator floor; where the subcategory scope matches this row directly the cell binds it as a direct government limit (IN)."
         }
       }
     },
@@ -64,6 +70,11 @@
         "proposed",
         "not yet finalized"
       ],
+      "analyte_scope": {
+        "tAs": {
+          "exclude": ["excluding juices"]
+        }
+      },
       "read_across": {
         "tHg": {
           "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
@@ -81,6 +92,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register (Singapore fruit-and-vegetable-juice tAs 200 is looser). Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs). Applied as a government read-across for this juice matrix, which India's infant-foods scope does not name directly."
         }
       }
     },
@@ -126,6 +141,15 @@
         "Cr": {
           "source_id": "china_gb2762_cr_liquid_milk_300",
           "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → liquid formula; basis-matched dairy analogy)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50). DISCLOSED CROSS-BASIS (medium confidence): the India ML is set on the powder / product-as-such (as_sold) basis, and is applied at face value to this ready-to-feed liquid (as_consumed) form. The 8:1 reconstitution factor is not applied because it inflates a total-arsenic ceiling that is already the strictest infant total-As ML worldwide; face value is the conservative (stricter) choice on a liquid basis. Mandatory total-As cell; iAs cannot satisfy the total-As requirement."
+        }
+      },
+      "analyte_scope": {
+        "tAs": {
+          "exclude": ["milk substitute"]
         }
       },
       "reconstitution_8to1": true
@@ -162,9 +186,13 @@
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
         },
         "Cr": {
-          "not_material": true,
-          "control": "Reflex Cr-VI speciation: any total-Cr result >100 ug/kg triggers Cr-VI speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. No credible government sets a total-Cr ML for a non-dairy root-vegetable food; the dairy milk-powder read-across (China 2000) is not a defensible analogy for a non-dairy matrix.",
-          "reference_method": "IC-ICP-MS hexavalent-chromium speciation (EPA 218.6 or equivalent ISO/DIN method)"
+          "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "basis": "gov",
+          "label": "government read-across — Hong Kong Cap 132V total-chromium 500 for 'Vegetables, other than pulses' (register row hk_cap132v_crtotal_vegetables-other-than-pulses_500), the on-point sovereign total-Cr ML for a non-dairy vegetable matrix (supersedes the prior not-material determination and the weak dairy milk-powder analogy). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >100 µg/kg triggers hexavalent-chromium speciation (EPA 218.6 / EN 15192 or equivalent IC-ICP-MS), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs). Applied as a government read-across for this root-vegetable purée matrix."
         }
       }
     },
@@ -193,13 +221,17 @@
           "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
         },
         "Cr": {
-          "not_material": true,
-          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+          "source_id": "hk_cap132v_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "government read-across — Hong Kong Cap 132V total-chromium 1000 for 'Cereals' (register row hk_cap132v_crtotal_cereals_1000), the on-point sovereign total-Cr ML for a grain-cereal matrix (supersedes the prior not-material determination and the weak dairy milk-powder analogy). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >= 100 µg/kg triggers hexavalent-chromium speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell. NOTE: this subcategory's iAs cell binds US 100 (rice-based); because iAs <= tAs by identity, the total-arsenic ceiling of 50 governs and physically bounds the inorganic-arsenic cell — the iAs=100 cell is retained (a species-specific figure) but cannot be reached without breaching tAs=50 first."
         }
       },
       "exclude_as_consumed": true
@@ -224,13 +256,17 @@
           "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
         },
         "Cr": {
-          "not_material": true,
-          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+          "source_id": "hk_cap132v_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "government read-across — Hong Kong Cap 132V total-chromium 1000 for 'Cereals' (register row hk_cap132v_crtotal_cereals_1000), the on-point sovereign total-Cr ML for a grain-cereal matrix (supersedes the prior not-material determination and the weak dairy milk-powder analogy). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >= 100 µg/kg triggers hexavalent-chromium speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       },
       "exclude_as_consumed": true
@@ -258,13 +294,17 @@
           "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
         },
         "Cr": {
-          "not_material": true,
-          "control": "Reflex Cr-VI speciation on any total-Cr result >100 ug/kg; any quantifiable Cr-VI fails. Non-dairy matrix: the China milk-powder total-Cr 2000 read-across is a weak dairy analogy and is not adopted.",
-          "reference_method": "EPA 3060A alkaline digestion + IC-ICP-MS for Cr-VI; ICP-MS for total Cr"
+          "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "basis": "gov",
+          "label": "government read-across — Hong Kong Cap 132V total-chromium 500 for 'Vegetables, other than pulses' (register row hk_cap132v_crtotal_vegetables-other-than-pulses_500), the on-point sovereign total-Cr ML for a non-dairy vegetable matrix (supersedes the prior not-material determination and the weak dairy milk-powder analogy). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >100 µg/kg triggers hexavalent-chromium speciation (EPA 3060A alkaline digestion + IC-ICP-MS), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       }
     },
@@ -330,13 +370,17 @@
           "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
         },
         "Cr": {
-          "not_material": true,
-          "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
-          "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+          "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "basis": "gov",
+          "label": "government read-across (component) — Hong Kong Cap 132V total-chromium 500 for 'Vegetables, other than pulses' (register row hk_cap132v_crtotal_vegetables-other-than-pulses_500), applied as the strictest on-point sovereign total-Cr limit for a component of a meat-and-grain infant meal (supersedes the prior not-material determination and the weak dairy milk-powder analogy; the HK cereals Cr is 1000, so the vegetable component at 500 is the stricter binding value). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >100 µg/kg triggers hexavalent-chromium speciation (EPA 3060A alkaline extraction + IC-ICP-MS, SW-846 6800), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       }
     },
@@ -397,13 +441,17 @@
           "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
         },
         "Cr": {
-          "not_material": true,
-          "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
-          "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+          "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "basis": "gov",
+          "label": "government read-across (component) — Hong Kong Cap 132V total-chromium 500 for 'Vegetables, other than pulses' (register row hk_cap132v_crtotal_vegetables-other-than-pulses_500), applied as the strictest on-point sovereign total-Cr limit for a component of a meat-and-grain infant meal (supersedes the prior not-material determination and the weak dairy milk-powder analogy; the HK cereals Cr is 1000, so the vegetable component at 500 is the stricter binding value). ADDITIONAL CONTROL retained: reflex Cr-VI speciation — any total-Cr result >100 µg/kg triggers hexavalent-chromium speciation (EPA 3060A alkaline extraction + IC-ICP-MS, SW-846 6800), and any quantifiable Cr-VI fails; Cr-VI is never a panel number."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       }
     },
@@ -441,6 +489,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       },
       "exclude_as_consumed": true
@@ -476,6 +528,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register. Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs)."
         }
       },
       "exclude_as_consumed": true
@@ -520,6 +576,10 @@
           "not_material": true,
           "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
           "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-arsenic 50 for 'Infant Milk substitute and Infant foods' (register row in_tas_infant-milk-substitute-and-infant-foods_50), the strictest infant/baby total-arsenic ML in the register (Singapore baby-food tAs 100 is looser). Mandatory total-As cell; iAs cannot satisfy the total-As requirement (iAs <= tAs). Applied as a government read-across for this fruit-purée matrix, which India's infant-foods scope does not name directly."
         }
       }
     }
