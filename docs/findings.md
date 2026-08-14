@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-63 open item(s): 25 auto, 38 awaiting a decision.
+64 open item(s): 25 auto, 39 awaiting a decision.
+
+### OI-20260814-notmaterial-registry-sync-backlog — Sync + adjudicate the not-material registry for the audit-remediated categories (913-contradiction backlog exposed)
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`, `tools/standards/sync-not-material.mjs`
+- repro: Running sync-not-material for cat1/3/6/27/31/32 grows standards-not-material.csv 160->236 rows, but the not-material integrity gate then reports 913 contradictions (up from the tolerated 70 baseline) because many newly-registered not_material cells (Sn/Al/Ni/Cr-VI in food matrices) have routed sources that measured the analyte. The sync was REVERTED to keep the build at baseline. The remediation not_material determinations live in the committed compiled outputs but are not synced to the registry (same tolerated-staleness posture as pre-session). Adjudicate each contradicted cell (retire to a real limit/screen, or keep with the source cited as verified trace/artifact) before syncing.
+- done when: each contradicted not_material cell adjudicated per docs/governance; sync-not-material runs for the remediated categories with the integrity gate back at/below the tolerated baseline
+- decision: _pending_
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 

@@ -2,7 +2,7 @@
   "_doc": "Category-3 (Grains, Cereals, and Rice Products) compiler config for tools/standards/compile-cat1.mjs — HMTc Method v2.0 (government-limit default). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex, strictest across jurisdictions. No occurrence pooling: for this category the government MLs are the defensible anchors and the rice-occurrence pool is known-contaminated (censored-zero / p95 / x7-basis artifacts, see project memory), so the Tier-1 'clean producers beat the floor' refinement is NOT invoked here — see the Occurrence-pooling determination in the derivation doc. The rice-based vs non-rice split IS the clean/dirty structure and it is expressed through the government limits themselves: rice subcategories carry binding inorganic-arsenic MLs (rice hyperaccumulates iAs), non-rice subcategories resolve iAs as not-material.",
   "_method_note": "native_basis is as_sold (dry) for every solid grain product; rice-beverages is as_consumed (liquid). reconstitution_8to1 is false everywhere (no product in this category is reconstituted from a powder concentrate). exclude_as_consumed drops prepared-state MLs from dry subcategories. Rice is a cereal: rice-product subcategories inherit the general cereal Pb/Cd/Ni/tHg limits (which are stricter than the rice-specific ones, so the ratchet is preserved) PLUS the rice-specific inorganic-arsenic ML, which is the clean/dirty differentiator.",
   "_scope_note": "Exclusions use PRODUCT-HEADED tokens, never bare 'rice'/'oil'/'durum', because register scopes carry 'except X' and 'including X' clauses: a bare 'rice' exclude wrongly kills 'cereals including wheat and rice' (IL tHg 30) and 'cereals except durum/rice/...' (EU Ni 800); a bare 'oil' exclude wrongly kills 'rice and derivatives except oil'. Legume/pulse/bean/soy are excluded from every subcategory because legumes are a distinct food group regulated separately; this also removes the Panama Decreto 467/2007 Cd 'cereals, legumes, and leguminous vegetables' 10 ug/kg row, a suspected units artifact (same decree sets Pb cereals at the 200 consensus) flagged for source verification and quarantine in the audit.",
-  "_read_across_canon": "Cr = total-chromium reflex-speciation not-material (Cr-VI never a panel number). Sn = canned-only not-material (tin migrates from tinplate; canned grain products route to Cat 7). Al = confirmed no-ML (standards-no-ml-confirmed.csv; no government sets a grain Al ML anywhere; leavened/baked Al is permitted-additive-derived, regulated by additive ADI). iAs on non-rice subcategories = not-material (arsenic does not hyperaccumulate in non-rice cereals; no government sets a non-rice grain iAs ML).",
+  "_read_across_canon": "Cr = total-chromium GOVERNMENT cell: China GB 2762-2022 Table 7 grains + milled-grain-products total Cr 1.0 mg/kg (1000 ug/kg), corroborated by HK Cap 132V Cereals Cr-total 1000; carried as a disclosed government read-across (basis:gov) to the named register row. Cr-VI = reflex-speciation control on the total-Cr result (no jurisdiction sets a Cr(VI)-specific food ML; cereal-matrix Cr(VI) reduces to Cr(III)). Sn = canned-only not-material (tin migrates from tinplate; canned grain products route to Cat 7). Al = NOT-MATERIAL (no credible regulator sets an aluminium CONTAMINANT ML for grains; GB 2762 the contaminant standard does not list Al; the GB 2760-2024 figures of 100/200 mg/kg are food-ADDITIVE use limits governed by additive ADI and the JECFA/EFSA TWI, not contaminant MLs, and an additive-use residue cap is never published as a contaminant government limit; occurrence is not a government limit under Method v2.0). tHg on the 11 solid grain subcategories binds HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice/maize/wheat and their flours), the strictest sovereign grain total-Hg limit, superseding the looser Israel FCS-2016 cereals-and-cereal-products 30; the EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded. iAs on non-rice subcategories = not-material (arsenic does not hyperaccumulate in non-rice cereals; no government sets a non-rice grain iAs ML).",
   "panel": [
     "Pb",
     "iAs",
@@ -10,6 +10,7 @@
     "tHg",
     "MeHg",
     "Cd",
+    "Cr",
     "Cr-VI",
     "Ni",
     "Sn",
@@ -109,7 +110,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -119,7 +123,7 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No government sets a total-chromium ML for grain/cereal products in any jurisdiction; cereal-matrix Cr is dominated by nutritionally-essential Cr(III), and Cr(VI) reduces to Cr(III) in the matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
           "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
@@ -128,13 +132,24 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (self-rising/leavened subset)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
         }
       },
       "analyte_scope": {
@@ -149,7 +164,31 @@
             "bakery",
             "biscuit",
             "cracker",
-            "\\bcake"
+            "\\bcake",
+            "pastr",
+            "cookie",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -240,7 +279,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -250,8 +292,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control — any total-Cr >= 100 ug/kg triggers Cr(VI) speciation, any quantifiable Cr(VI) fails.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -259,14 +301,63 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 baked-foods Al residue 100 mg/kg (dry, as Al); Codex concurs"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     },
@@ -356,7 +447,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -366,8 +460,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -375,14 +469,63 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: plain pasta, no Al-additive pathway (UK FERA TDS ~1040 ppb; provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     },
@@ -435,13 +578,16 @@
         "non-parboiled milled rice",
         "polished rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal/rice products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -449,20 +595,67 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: Western extruded rice pasta, no alum-firming (background; provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
         }
       },
       "analyte_scope": {
         "Cd": {
           "include": [
             "\\brice\\b"
+          ]
+        },
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -555,7 +748,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -565,8 +761,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -574,13 +770,63 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (leavened/additive subset)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     },
@@ -630,13 +876,16 @@
         "polished rice",
         "milled rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal/rice products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -644,19 +893,67 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
         }
       },
       "analyte_scope": {
         "Cd": {
           "include": [
             "\\brice\\b"
+          ]
+        },
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -716,13 +1013,16 @@
         "galettes",
         "crackers de riz",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -730,14 +1030,58 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "occurrence",
-          "label": "occurrence: plain milled/husked rice (UK FERA TDS ~590 ppb; provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     },
@@ -789,13 +1133,16 @@
         "non-parboiled milled rice",
         "polished rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -803,19 +1150,67 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (baked rice crackers/cakes)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
         }
       },
       "analyte_scope": {
         "Cd": {
           "include": [
             "\\brice\\b"
+          ]
+        },
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -867,13 +1262,16 @@
         "rice cracker",
         "rice cake",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -881,20 +1279,67 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 starch-noodle/vermicelli Al residue 200 mg/kg (dry, as Al)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
         }
       },
       "analyte_scope": {
         "Cd": {
           "include": [
             "\\brice\\b"
+          ]
+        },
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -923,7 +1368,10 @@
         "paint",
         "\\bsoy",
         "\\bmeat",
-        "fish"
+        "fish",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "Pb": {
@@ -943,8 +1391,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice beverages; reflex speciation control on the as-consumed liquid.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the as-consumed rice-beverage liquid is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Ni": {
           "not_material": true,
@@ -957,9 +1405,9 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "precautionary",
-          "label": "precautionary read-across: plant-milk Al (soy 758 ppb as-consumed; provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
@@ -970,6 +1418,11 @@
           "not_material": true,
           "control": "No government sets a total-arsenic ML for a rice-based beverage in any jurisdiction; the binding arsenic control for this subcategory is the inorganic-arsenic ML (30 ug/kg, EU 2023/915 non-alcoholic rice drinks). A dry \"rice and derivatives\" total-arsenic ceiling is not comparable at face value to a dilute as-consumed beverage, and total arsenic adds no ceiling beyond the inorganic-arsenic limit here.",
           "reference_method": "tAs by ICP-MS on the as-consumed liquid; speciate to iAs on any elevated total-arsenic result."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "No jurisdiction sets a total-chromium maximum level for a rice-derived beverage; the grain total-Cr limits (China GB 2762-2022, 1.0 mg/kg) are dry-grain basis and do not read across to an as-consumed liquid. Reflex total-Cr screen on the liquid.",
+          "reference_method": "Total-Cr by ICP-MS on the as-consumed liquid; no sovereign rice-beverage total-Cr ML."
         }
       },
       "analyte_scope": {
@@ -980,6 +1433,43 @@
             "\\bwheat",
             "grain",
             "deriv"
+          ]
+        },
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
           ]
         }
       }
@@ -1074,7 +1564,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -1084,8 +1577,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for these grains; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -1093,14 +1586,63 @@
           "reference_method": null
         },
         "Al": {
-          "value_ppb": 5000,
-          "basis": "occurrence",
-          "label": "occurrence: plain oat/millet/quinoa/barley (UK FERA TDS 2.3-3.7 mg/kg; provisional)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     },
@@ -1193,7 +1735,10 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "persons under",
+        "under the age of 36",
+        "complementary food"
       ],
       "read_across": {
         "iAs": {
@@ -1203,8 +1748,8 @@
         },
         "Cr-VI": {
           "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "control": "Cr(VI) (hexavalent chromium): reflex-speciation control on the total-chromium result (see the separate total-Cr cell, governed by China GB 2762-2022 grains/milled-grain-products total Cr 1.0 mg/kg). No jurisdiction sets a Cr(VI)-specific food maximum level; chromium in the cereal/rice matrix is dominated by nutritionally-essential Cr(III) and any Cr(VI) reduces to Cr(III) in the matrix. Reflex control: any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
           "not_material": true,
@@ -1212,14 +1757,63 @@
           "reference_method": null
         },
         "Al": {
-          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 baked/fried-flour/batter Al residue 100 mg/kg (dry, as Al)"
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium CONTAMINANT maximum level for grains, cereals, or rice products, and China GB 2762 (the contaminant standard) does not regulate aluminium. Aluminium present in leavened, baked, or alum-firmed grain products is permitted-additive residue (China GB 2760-2024 food-additive use limits, e.g. baked foods 100 mg/kg / starch noodles and vermicelli 200 mg/kg, calculated as Al), governed by additive ADI and the JECFA/EFSA provisional tolerable weekly intake, not by a per-food contaminant ML. An additive-use residue cap is not a contaminant government limit and is not published as one; background aluminium in plain grain is soil-derived. Managed by intake vs the TWI, not a lookup.",
+          "reference_method": "Managed by intake vs JECFA/EFSA TWI; periodic total-Al screen (ICP-MS); no per-food contaminant ML to look up."
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_crtotal_grains_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded."
+        }
+      },
+      "analyte_scope": {
+        "Al": {
+          "exclude": [
+            "baked food",
+            "\\bbread\\b",
+            "pastr",
+            "\\bcake",
+            "biscuit",
+            "cookie",
+            "cracker",
+            "deep-fried",
+            "\\bbatter",
+            "breading",
+            "frying powder",
+            "starch noodle",
+            "vermicelli",
+            "\\bfensi\\b",
+            "fentiao"
+          ]
+        },
+        "Cr": {
+          "exclude": [
+            "\\bwater\\b",
+            "mineral water",
+            "vegetable",
+            "\\bpulse",
+            "\\bmeat\\b",
+            "poultry",
+            "\\bfish\\b",
+            "crab",
+            "prawn",
+            "shrimp",
+            "oyster",
+            "mollusc",
+            "crustacean",
+            "bovine"
+          ]
         }
       }
     }

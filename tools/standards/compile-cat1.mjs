@@ -322,3 +322,34 @@ for (const slug of slugs) {
   }
 }
 if (!QUIET) console.log(`\nwrote ${summary.length} record(s) to ${path.relative(REPO, OUTDIR)}/`)
+
+// --- verify: every cell in every subcategory/variant must resolve (no gaps) -----
+// A cell resolves when it carries a government value, a disclosed read-across value, a
+// not-material determination, or a mercury-subsumed determination. A `gap` (or a null value on
+// a gov/read_across cell) is an unresolved cell and fails the build.
+{
+  const gaps = []
+  let cellCount = 0
+  for (const rec of summary) {
+    for (const variant of Object.keys(rec.variants)) {
+      for (const a of PANEL) {
+        cellCount++
+        const c = rec.variants[variant][a]
+        const resolved =
+          c && (
+            c.type === "not_material" ||
+            c.type === "subsumed" ||
+            ((c.type === "gov" || c.type === "read_across") && c.value != null)
+          )
+        if (!resolved) gaps.push(`${rec.slug}[${variant}].${a} (${c ? c.type : "missing"}${c && c.error ? ": " + c.error : ""})`)
+      }
+    }
+  }
+  if (gaps.length) {
+    console.error(`\nverify: FAIL — ${gaps.length}/${cellCount} cell(s) unresolved:`)
+    for (const g of gaps) console.error(`  - ${g}`)
+    process.exitCode = 1
+  } else {
+    console.log(`\nverify: OK — ${summary.length} subcategories, ${cellCount} cells, 0 gaps (every cell traces to a government limit, disclosed read-across, or not-material determination)`)
+  }
+}

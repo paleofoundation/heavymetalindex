@@ -141,6 +141,23 @@
       "label": "bounded by the total-chromium specific-migration limit (not detectable)",
       "not_detectable": true
     },
+    "Cr-total": {
+      "type": "gov",
+      "value": 10,
+      "value_exact": 10,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu_10_2011_crtotal_sml_nd",
+      "basis": "specific migration into food (mg/kg food)",
+      "not_detectable": true,
+      "candidates": [
+        {
+          "id": "eu_10_2011_crtotal_sml_nd",
+          "value": 10,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
+    },
     "Sn": {
       "type": "not_material",
       "value": null,

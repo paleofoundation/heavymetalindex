@@ -1,0 +1,605 @@
+{
+  "_doc": "HMTc Category 6 (Seafood) compiler config for the SHARED variants-format engine tools/standards/compile-cat1.mjs (driven via the thin wrapper tools/standards/compile-cat6.mjs) — HMTc Method v2.0 (government-limit default). Rewritten 2026-08-14 from the prior cells-format (explicit-id) config so that every published cell is selected by an explicit scope regex against data/evidence/regulatory_limits.csv, strictest across jurisdictions. This restores the RICH per_country (all weighed jurisdictions) that the cert 'Source regulations' table renders, which the lean explicit-id lookup had collapsed. Occurrence never selects a number. The six animal-seafood subcats are as-consumed WET weight (ppb) taken at face value (no 8:1 reconstitution); the seaweed subcat is DRY-weight (mg/kg DM) and its numbers must NEVER be numerically compared against the wet-weight fish ppb.",
+  "_read_across_canon": "tHg on the finfish subcats is a POLICY selection of the EU 2023/915 mercury tier (higher-mercury 1000 for predatory; lower-mercury 300 for non-predatory/freshwater) and canned (general fishery 500), carried as a disclosed government read-across (basis:gov) so the scope-selected general/lower rows do not mis-bind it; shellfish and cephalopod tHg are scope-selected (crustacean/mollusc general 500; cephalopod lower-mercury 300). total Cr = HK Cap 132V fish/crustacean/oyster 1000 (India all-fishery 12000 concurs; cephalopods reach only the India 12000). Ni = EU 2024/1987 seaweed 30000 on seaweed; animal seafood has no Ni ML -> control (not-material). Sn = canned-only migration limit (canned-seafood Mexico 100000; seaweed accumulates organotin -> French CSHPF 5000 DM); non-canned animal seafood -> not-material. Al = no seafood contaminant Al ML anywhere -> control (not-material). MeHg = speciation-bounded by tHg on every subcat -> not-material. Cr-VI = speciation-bounded by total Cr -> not-material. Two CONFIRMED seaweed tightenings bind the French CSHPF edible-seaweed maxima (ANSES 2017-SA-0070 Table 3): Cd 2000->500 (fr_cshpf_seaweed_cd_500) and tHg 2500->100 (fr_cshpf_seaweed_thg_100).",
+  "category": 6,
+  "category_name": "Seafood",
+  "method": "HMTc Method v2.0 (government-limit default; scope-selected strictest across jurisdictions; MeHg speciation-bounded by tHg on animal seafood; seaweed on dry-matter basis)",
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
+  "subcategories": {
+    "fish-marine-predatory": {
+      "name": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight)",
+      "canned": false,
+      "scope_note": "Marine predatory finfish (tuna, swordfish, shark, king mackerel, marlin, billfish), fresh or frozen, edible portion. Lead binds the muscle-meat-of-fish 200 line; total mercury binds the EU higher-mercury-fish 1000 ceiling (not the general 500). MeHg is bounded by tHg. Total chromium binds HK fish 1000 (India all-fishery 12000 concurs, looser). Ni and Al are screened (no sovereign ML); Sn and Cr-VI are not-material. Canned predatory fish route to the canned-seafood subcategory.",
+      "scope_include": [
+        "\\bfish\\b",
+        "muscle meat of fish",
+        "fishery"
+      ],
+      "scope_exclude": [
+        "\\boil",
+        "fats and oils",
+        "\\bfats\\b",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "weaning",
+        "follow-on",
+        "follow-up",
+        "mushroom",
+        "fungi",
+        "vegetable",
+        "\\bfruit",
+        "\\bsalt\\b",
+        "\\bwater\\b"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "eu2023_hg_fish_high_1000",
+          "basis": "gov",
+          "label": "edible portion, wet weight; total mercury. Predatory species (tuna, swordfish, shark, marlin, king mackerel) bind the EU 2023/915 higher-mercury-fish ceiling of 1000; the general 500 does not apply to these listed higher-mercury species."
+        },
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (total mercury ceiling) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen seafood has no tinplate contact; inorganic tin is a can-migration analyte. A full register Sn sweep shows every seafood tin ML is canned/tinplate-migration scope; no sovereign sets a non-canned seafood tin matrix limit. Canned product is certified under the canned-seafood subcategory tin limit.",
+          "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to the canned-seafood Sn limit if packaged in tinplate."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for fish here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        }
+      }
+    },
+    "fish-marine-non-predatory": {
+      "name": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight)",
+      "canned": false,
+      "scope_note": "Marine non-predatory finfish (sardine, anchovy, salmon, cod, herring, mackerel), fresh or frozen, edible portion. Lead binds muscle-meat-of-fish 200; total mercury binds the EU lower-mercury-fish 300 ceiling. MeHg bounded by tHg; total Cr binds HK fish 1000; Ni/Al screened; Sn/Cr-VI not-material. Canned product routes to the canned-seafood subcategory.",
+      "scope_include": [
+        "\\bfish\\b",
+        "muscle meat of fish",
+        "fishery"
+      ],
+      "scope_exclude": [
+        "\\boil",
+        "fats and oils",
+        "\\bfats\\b",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "weaning",
+        "follow-on",
+        "follow-up",
+        "mushroom",
+        "fungi",
+        "vegetable",
+        "\\bfruit",
+        "\\bsalt\\b",
+        "\\bwater\\b"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "eu2023_hg_fish_low_300",
+          "basis": "gov",
+          "label": "edible portion, wet weight; total mercury. Sardine, anchovy, salmon, cod, herring and mackerel are EU 2023/915 listed lower-mercury species (300), stricter than the general 500."
+        },
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (total mercury ceiling) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen seafood has no tinplate contact; inorganic tin is a can-migration analyte. A full register Sn sweep shows every seafood tin ML is canned/tinplate-migration scope; no sovereign sets a non-canned seafood tin matrix limit. Canned product is certified under the canned-seafood subcategory tin limit.",
+          "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to the canned-seafood Sn limit if packaged in tinplate."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for fish here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        }
+      }
+    },
+    "fish-freshwater": {
+      "name": "Freshwater fish (tilapia, catfish, trout, carp)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight)",
+      "canned": false,
+      "scope_note": "Freshwater finfish (tilapia, catfish, trout, carp), fresh or frozen, edible portion. Lead binds muscle-meat-of-fish 200; total mercury binds the EU lower-mercury 300 ceiling (conservative subcategory-wide selection). MeHg bounded by tHg; total Cr binds HK fish 1000; Ni/Al screened; Sn/Cr-VI not-material. Canned product routes to the canned-seafood subcategory.",
+      "scope_include": [
+        "\\bfish\\b",
+        "muscle meat of fish",
+        "fishery"
+      ],
+      "scope_exclude": [
+        "\\boil",
+        "fats and oils",
+        "\\bfats\\b",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "weaning",
+        "follow-on",
+        "follow-up",
+        "mushroom",
+        "fungi",
+        "vegetable",
+        "\\bfruit",
+        "\\bsalt\\b",
+        "\\bwater\\b"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "eu2023_hg_fish_low_300",
+          "basis": "gov",
+          "label": "edible portion, wet weight; total mercury. Trout is an EU 2023/915 listed lower-mercury species (300); the freshwater subcategory is held to the 300 ceiling as the consumer-protective bound covering the whole subcategory (tilapia/catfish/carp are not individually EU-listed and would otherwise fall to the general 500 — 300 is the stricter, conservative selection)."
+        },
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (total mercury ceiling) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen seafood has no tinplate contact; inorganic tin is a can-migration analyte. A full register Sn sweep shows every seafood tin ML is canned/tinplate-migration scope; no sovereign sets a non-canned seafood tin matrix limit. Canned product is certified under the canned-seafood subcategory tin limit.",
+          "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to the canned-seafood Sn limit if packaged in tinplate."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for fish here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        }
+      }
+    },
+    "shellfish": {
+      "name": "Shellfish (crustaceans and bivalve molluscs — shrimp, crab, lobster, clams, oysters, mussels; not canned)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight)",
+      "canned": false,
+      "scope_note": "Shellfish (crustaceans — shrimp, crab, lobster; and bivalve molluscs — clams, oysters, mussels), fresh or frozen, not canned. Lead and cadmium bind the stricter crustacean 500 across the whole subcategory; inorganic arsenic binds the EU crabs/prawns/shrimps 100; total mercury binds the crustaceans/molluscs general 500. MeHg bounded by tHg; total Cr binds HK 1000 (crustaceans and oysters; India all-fishery 12000 concurs); Ni/Al screened; Sn/Cr-VI not-material. Cephalopods are certified in their own subcategory; canned shellfish route to the canned-seafood subcategory.",
+      "scope_include": [
+        "crustac",
+        "\\bcrab",
+        "shrimp",
+        "prawn",
+        "lobster",
+        "bivalve",
+        "\\bmollus",
+        "clam",
+        "oyster",
+        "mussel",
+        "scallop",
+        "shellfish"
+      ],
+      "scope_exclude": [
+        "cephalopod",
+        "octopus",
+        "squid",
+        "cuttlefish",
+        "gastropod",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "\\boil",
+        "\\bfats\\b",
+        "mushroom",
+        "fungi",
+        "\\bwater\\b"
+      ],
+      "read_across": {
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (500) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen seafood has no tinplate contact; inorganic tin is a can-migration analyte. A full register Sn sweep shows every seafood tin ML is canned/tinplate-migration scope; no sovereign sets a non-canned seafood tin matrix limit. Canned product is certified under the canned-seafood subcategory tin limit.",
+          "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to the canned-seafood Sn limit if packaged in tinplate."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for crustaceans/oysters here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        },
+        "Cr": {
+          "include": [
+            "fishery"
+          ]
+        }
+      }
+    },
+    "cephalopods": {
+      "name": "Cephalopods (octopus, squid, cuttlefish; not canned)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight)",
+      "canned": false,
+      "scope_note": "Cephalopods (octopus, squid, cuttlefish), fresh or frozen, not canned. Lead binds EU cephalopods 300; cadmium binds EU cephalopods 1000; inorganic arsenic binds the EU cephalopods 50; total mercury binds the EU lower-mercury 300. MeHg bounded by tHg; total Cr binds India all-fishery 12000 (the only on-scope sovereign for molluscan cephalopods; HK regulates fish/crustaceans/oysters, not cephalopods); Ni/Al screened; Sn/Cr-VI not-material. Canned cephalopods route to the canned-seafood subcategory.",
+      "scope_include": [
+        "cephalopod",
+        "octopus",
+        "squid",
+        "cuttlefish",
+        "marine gastropod"
+      ],
+      "scope_exclude": [
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "\\boil",
+        "\\bfats\\b",
+        "mushroom",
+        "fungi",
+        "\\bwater\\b"
+      ],
+      "read_across": {
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (300) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen seafood has no tinplate contact; inorganic tin is a can-migration analyte. A full register Sn sweep shows every seafood tin ML is canned/tinplate-migration scope; no sovereign sets a non-canned seafood tin matrix limit. Canned product is certified under the canned-seafood subcategory tin limit.",
+          "reference_method": "Packaging control (non-tinplate); ICP-MS per-lot screen; escalate to the canned-seafood Sn limit if packaged in tinplate."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 12000 (India all-fishery) here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        },
+        "tAs": {
+          "include": [
+            "\\bmollus"
+          ]
+        },
+        "Cr": {
+          "include": [
+            "fishery"
+          ]
+        }
+      }
+    },
+    "canned-seafood": {
+      "name": "Canned seafood (canned tuna, canned fish and other tinplate-packed fishery products)",
+      "native_basis": "as_consumed",
+      "native_basis_label": "edible portion, as consumed (wet weight); tinplate-packed",
+      "canned": true,
+      "scope_note": "Canned/tinplate-packed fishery products (canned tuna, canned fish). Lead binds the tuna/bonito 200; total mercury binds the general fishery 500; inorganic arsenic binds EU fish-other 100. Tin IS material here (canned) and binds Mexico canned-fishery 100000. MeHg bounded by tHg; total Cr binds HK fish 1000; Ni/Al screened; Cr-VI not-material.",
+      "scope_include": [
+        "\\bfish\\b",
+        "fishery",
+        "\\btuna\\b",
+        "\\bbonito\\b"
+      ],
+      "scope_exclude": [
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "complement",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "\\boil",
+        "\\bfats\\b",
+        "mushroom",
+        "fungi",
+        "\\bwater\\b",
+        "vegetable",
+        "\\bfruit"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "eu2023_hg_fish_general_500",
+          "basis": "gov",
+          "label": "edible portion, wet weight; total mercury. Canned fishery products bind the general fishery/fish mercury ceiling of 500 (EU 2023/915 crustaceans/molluscs/fish general; Costa Rica concurs)."
+        },
+        "MeHg": {
+          "not_material": true,
+          "control": "Methylmercury is the organomercury speciation of total mercury and is arithmetically bounded by it (MeHg <= tHg). The binding total-mercury ceiling for this subcategory (500) is equal to or stricter than the lowest applicable sovereign methylmercury ML for this product, so passing the total-mercury limit guarantees methylmercury compliance and no separate methylmercury ceiling is published. Audit-affirmed.",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation is optional and cannot exceed the tHg ceiling."
+        },
+        "Ni": {
+          "not_material": true,
+          "control": "No jurisdiction sets a nickel maximum level for fish or fishery products anywhere in the register or worldwide (EU 2024/1987 nickel covers plant foods and seaweed only, not animal seafood). Nickel is screened rather than assigned an invented or mis-based number.",
+          "reference_method": "Total-nickel screen (ICP-MS); no sovereign fish/fishery Ni ML."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant maximum level for seafood in any checked jurisdiction. Aluminium in seafood is background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food seafood contaminant ML to align to."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Hexavalent chromium is the Cr(VI) speciation of chromium and is bounded by the total-chromium government limit (Cr-VI <= total Cr), which binds at 1000 for fish here. No jurisdiction sets a Cr-VI food maximum level, and in a reducing animal-tissue matrix Cr(VI) is reduced to Cr(III), so there is no chromate pathway in seafood (unlike lead-chromate-adulterated spices). Rebuttable if a routed source reports hexavalent chromium.",
+          "reference_method": "Bounded by the total-chromium government limit; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "MeHg": {
+          "exclude": [
+            "\\bfish",
+            "fishery",
+            "crustac",
+            "\\bcrab",
+            "\\bmollus",
+            "cephalopod",
+            "octopus",
+            "squid",
+            "tuna",
+            "shark",
+            "marlin",
+            "predator",
+            "carnivorous",
+            "aquatic"
+          ]
+        }
+      }
+    },
+    "seaweed-kelp-foods": {
+      "name": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+      "native_basis": "as_sold",
+      "native_basis_label": "edible dried seaweed as placed on the market (DRY-WEIGHT basis, mg/kg dry matter) — never numerically compared to the wet-weight animal-seafood ppb",
+      "canned": false,
+      "scope_note": "Edible dried seaweed/kelp food products (nori, wakame, kombu, dulse) sold as dried, on a DRY-WEIGHT basis (mg/kg DM) — these numbers must never be numerically compared against the wet-weight animal-seafood ppb. Cadmium (500) and total mercury (100) bind the French CSHPF edible-seaweed maxima (confirmed tightenings from 2000 and 2500). Lead 5000 and total arsenic 5000 bind the Israel dried-seaweed lines; inorganic arsenic 1000 binds FSANZ (HK concurs). Nickel binds EU 2024/1987 seaweed 30000; tin binds the French CSHPF seaweed 5000. MeHg and Cr-VI are not-material (speciation-bounded); aluminium and total chromium are screened (no on-scope sovereign ML). Seaweed used as a dietary supplement (>=80% dried seaweed) routes to the supplements category.",
+      "scope_include": [
+        "dried seaweed",
+        "edible seaweed",
+        "\\bnori\\b",
+        "wakame",
+        "kombu",
+        "dulse",
+        "\\bkelp"
+      ],
+      "scope_exclude": [
+        "fresh seaweed",
+        "supplement",
+        "complement",
+        "dietary",
+        "infant",
+        "\\bbaby\\b",
+        "formula",
+        "\\bfish\\b",
+        "crustac",
+        "cephalopod",
+        "octopus",
+        "squid",
+        "vegetables excluding",
+        "potato",
+        "canned"
+      ],
+      "read_across": {
+        "MeHg": {
+          "not_material": true,
+          "control": "No jurisdiction sets a seaweed methylmercury ML (all sovereign MeHg limits are fish/fishery scope), and seaweed is a marine primary producer into which methylmercury does not biomagnify (it biomagnifies up the food chain, not into algae), so MeHg is a negligible fraction of total mercury and is bounded by the tHg ceiling (tightened to France CSHPF 100 DM).",
+          "reference_method": "Total-mercury screen; reflex MeHg speciation cannot exceed the tHg ceiling."
+        },
+        "Al": {
+          "not_material": true,
+          "control": "No credible regulator sets an aluminium contaminant ML for seaweed. Seaweed accumulates aluminium from seawater/sediment as background; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level.",
+          "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no seaweed contaminant Al ML to align to."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "No jurisdiction sets a total-chromium maximum level for seaweed or edible algae (the HK Cap 132V total-Cr limits are animal-seafood scope; the China GB 2762 total-Cr limits are cereals/beans plant scope — neither is on-scope for a marine macroalga). Chromium(III) is an essential nutrient; trace chromium in seaweed is geologic uptake. Screened as the substrate for reflex Cr-VI speciation.",
+          "reference_method": "Total-chromium screen (ICP-MS); substrate for reflex Cr-VI speciation; no on-scope sovereign seaweed total-Cr ML."
+        },
+        "Cr-VI": {
+          "not_material": true,
+          "control": "Cr-VI is bounded by the total-chromium screen (Cr-VI <= total Cr); no jurisdiction sets a Cr-VI food ML and there is no chromate pathway in seaweed (no lead-chromate adulteration as in spices), so any trace chromium is geologic chromium(III). Rebuttable if a routed source reports hexavalent chromium in seaweed.",
+          "reference_method": "Bounded by the total-chromium screen; reflex Cr-VI speciation only on anomalously elevated total chromium."
+        }
+      },
+      "analyte_scope": {
+        "iAs": {
+          "include": [
+            "seaweed"
+          ],
+          "exclude": [
+            "fresh",
+            "supplement",
+            "dietary",
+            "complement",
+            "infant"
+          ]
+        },
+        "Ni": {
+          "include": [
+            "seaweed",
+            "seetang"
+          ]
+        }
+      }
+    }
+  }
+}

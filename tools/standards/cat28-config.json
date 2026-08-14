@@ -99,10 +99,11 @@
       "canned": false,
       "soy_split": false,
       "exclude_as_consumed": true,
-      "audit_scope": "cashew|tree nut",
+      "audit_scope": "cashew|tree nut|nuts and seeds",
       "scope_include": [
         "cashew",
-        "tree nut"
+        "tree nut",
+        "nuts and seeds"
       ],
       "scope_exclude": [
         "except.*cashew",
@@ -223,13 +224,14 @@
       "soy_split": false,
       "exclude_as_consumed": true,
       "scope_note": "Walnuts, pine nuts, Brazil nuts, and chestnuts are the high-nickel tree nuts that EU Reg. 2024/1987 deliberately sets at Ni 10000 (the same listed group as cashews, which have their own row); the general tree-nut Ni ML of 3500 textually EXCLUDES them ('tree nuts except chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts'), and no non-EU jurisdiction sets a tree-nut nickel ML. This row scopes Ni to the 10000 listing and EXCLUDES the 3500 'tree nuts except ...' row, preserving the EU form split instead of ratcheting these nickel hyperaccumulators to 3500. Like cashews, these are tree nuts (not oilseeds), so Cd binds the general tree-nut ML (200; the pine-nut 300 accumulator value is ratcheted to the stricter tree-nut 200) and Pb/tAs/tHg are disclosed read-across from the nearest sovereign nut/seed anchor (Israel FCS-2016 oilseeds), not claimed as direct government limits. Split ratified 2026-08-13 (OI-20260813-nuts-high-nickel-split); the retained Ni 3500 stricter-unselected flag documents the deliberate carve-out.",
-      "audit_scope": "walnut|pine nut|brazil nut|chestnut|tree nut",
+      "audit_scope": "walnut|pine nut|brazil nut|chestnut|tree nut|nuts and seeds",
       "scope_include": [
         "walnut",
         "pine nut",
         "brazil nut",
         "chestnut",
-        "tree nut"
+        "tree nut",
+        "nuts and seeds"
       ],
       "scope_exclude": [
         "\\bnuts except",

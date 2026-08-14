@@ -34,7 +34,7 @@ function gateOrThrow(slug) {
     throw new Error(`PUBLICATION BLOCKED for ${slug}: a not-material cell is contradicted by routed evidence. Re-adjudicate before publishing.\n${out}`)
   }
 }
-const CERT = path.join(process.env.HOME, "Desktop/heavymetalcertified")
+const CERT = process.env.HMTC_CERT_DIR || path.join(process.env.HOME, "Desktop/heavymetalcertified")
 const OUT = path.join(CERT, "content/standards")
 const CDIR = path.join(REPO, "data/workbench/standards/cat9-compiled")
 const REG = parse(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
@@ -46,9 +46,9 @@ const today = new Date().toISOString().slice(0, 10)
 const STD_VERSION = "1.0 (2026-08-10)"
 const METHODOLOGY = "Method v2.0 — strictest credible government limit per analyte, in the correct basis (CLAUDE.md Part 19)"
 
-const ANALYTE_DISP = { Pb: "Lead (Pb)", tAs: "Arsenic, total (tAs)", iAs: "Inorganic arsenic (iAs)", Cd: "Cadmium (Cd)", tHg: "Mercury, total (tHg)", MeHg: "Methylmercury (MeHg)", Ni: "Nickel (Ni)", Al: "Aluminium (Al)", "Cr-VI": "Chromium VI (Cr-VI)", Sn: "Tin (Sn)" }
+const ANALYTE_DISP = { Pb: "Lead (Pb)", tAs: "Arsenic, total (tAs)", iAs: "Inorganic arsenic (iAs)", Cd: "Cadmium (Cd)", tHg: "Mercury, total (tHg)", MeHg: "Methylmercury (MeHg)", Ni: "Nickel (Ni)", Al: "Aluminium (Al)", "Cr-total": "Chromium, total (Cr)", "Cr-VI": "Chromium VI (Cr-VI)", Sn: "Tin (Sn)" }
 const TIER1 = new Set(["Pb", "Cd", "iAs", "tHg", "MeHg"])
-const PANEL = ["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"]
+const PANEL = ["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Al", "Cr-total", "Cr-VI", "Sn"]
 const GOVNAME = { EU: "European Union", "US-WA": "Washington State", US: "United States (ASTM F963 / CPSIA)", MX: "Mexico", CA: "Canada", "US-CPSC": "US (CPSC)" }
 
 // mg/kg display from a µg/kg register value
@@ -92,7 +92,7 @@ function masterTable(rec) {
   for (const a of PANEL) {
     const c = rec.cells[a]
     if (!c) continue
-    if (c.type === "not_material") continue // not-material analytes move to the "Screened, not limited" block
+    if (c.type === "not_material" || c.type === "control") continue // not-material / control (screened, no published number) analytes move to the "Screened, not limited" block
     const z = i % 2 === 0 ? ' style="background:#fdfaf8"' : ""
     i++
     const tier = TIER1.has(a) ? "Tier 1" : "Tier 2"
@@ -112,7 +112,7 @@ function masterTable(rec) {
 }
 
 function screenedBlock(rec) {
-  const nm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type === "not_material")
+  const nm = PANEL.filter((a) => rec.cells[a] && (rec.cells[a].type === "not_material" || rec.cells[a].type === "control"))
   if (!nm.length) return ""
   const rows = nm.map((a, i) => {
     const c = rec.cells[a]
@@ -121,7 +121,7 @@ function screenedBlock(rec) {
     return `      <tr${z}><td style="${TD};color:#2b1f1f;white-space:nowrap">${ANALYTE_DISP[a]}</td><td style="${TD};color:#736b6b;font-size:12.5px;line-height:1.6">${why}</td></tr>`
   }).join("\n")
   return `<section id="screened" style="margin-bottom:52px"><h2 ${H2}>Screened, not limited</h2>
-<p ${PMUT}>All ten HMTc certification analytes are accounted for. The analytes below carry no published ceiling for this product because no exposure pathway and no government limit exist; each determination is recorded here rather than left as a silent gap. They are screened during certification, not certified against a number.</p>
+<p ${PMUT}>All ten HMTc certification analytes, plus a total-chromium screen, are accounted for. The analytes below carry no published ceiling for this product because no exposure pathway and no government limit exist; each determination is recorded here rather than left as a silent gap. They are screened during certification, not certified against a number.</p>
 <div style="overflow-x:auto"><table style="width:100%;font-size:13.5px;border:1px solid #e8e1db;min-width:40rem;border-collapse:collapse">
 <thead><tr style="background:#9f2727;color:#fff"><th ${TH}>Analyte</th><th ${TH}>Why it carries no ceiling for this product</th></tr></thead>
 <tbody>
@@ -197,7 +197,7 @@ function role(r) {
 }
 
 function page(rec) {
-  const firm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type !== "not_material").length
+  const firm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type !== "not_material" && rec.cells[a].type !== "control").length
   const nm = rec.cells.__name || rec.name
   const fm = [
     "---",
@@ -292,6 +292,6 @@ for (const f of files) {
   gateOrThrow(rec.slug) // refuse to publish a page whose not-material cell is contradicted by routed evidence
   const out = path.join(OUT, `${rec.slug}.md`)
   fs.writeFileSync(out, page(rec), "utf8")
-  const firm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type !== "not_material").length
+  const firm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type !== "not_material" && rec.cells[a].type !== "control").length
   console.log(`wrote content/standards/${rec.slug}.md — ${firm}/${PANEL.length} limited`)
 }

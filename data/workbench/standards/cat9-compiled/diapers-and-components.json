@@ -80,6 +80,13 @@
       "basis": "homogeneous material after extraction; source unit mg/kg",
       "label": "EU REACH entry 72 extractable-Cr(VI) limit (1 mg/kg); read across per the disposable-textile exclusion"
     },
+    "Cr-total": {
+      "type": "control",
+      "value": null,
+      "rationale": "EU REACH Annex XVII entry 72 regulates extractable hexavalent chromium in skin-contact textiles (Cr-VI, 1 mg/kg after extraction); no jurisdiction sets a total-chromium extraction limit for skin-contact textile or absorbent-hygiene materials, so no sovereign total-Cr row applies to the diaper form. Total chromium is screened, not assigned a published limit; any detectable total chromium reflexes to Cr-VI extraction, which binds at the entry-72 limit read across per the disposable-textile exclusion.",
+      "reference_method": "Mandatory ICP-MS total-chromium extraction screen (EN 16711); reflex Cr-VI determination (EN ISO 17075 / IC-ICP-MS) on any detectable total chromium.",
+      "reflex": "Cr-VI"
+    },
     "Sn": {
       "type": "gov",
       "value": 1000000,
