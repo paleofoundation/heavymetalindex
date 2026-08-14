@@ -55,7 +55,6 @@ Today the Index publishes to one surface (heavymetalindex.com). The mature state
 - A **brand-legal export bundle** — on-demand PDFs and signed manifests with DOI-pinned page versions, suitable for filing as litigation exhibits.
 - A **regulator-facing API** under explicit licence to FDA / EFSA / WHO with provenance attestations.
 - A **multilingual synthesis layer.** Source pages stay in English; the synthesis layer (the prose readers actually read) is translated into Chinese, Spanish, Portuguese, Korean, Japanese, French, and German.
-- A planned **Journal of Food Metallomics** publication track where vetted synthesis pages can graduate to externally peer-reviewed publications, with the wiki page as supplementary data. The venue is not yet established — no ISSN, editorial board, or completed reviews — and its independence from the certification program is a precondition for launch.
 - A **WikiBiome federation feed** sending heavy-metal-microbiome content to [WikiBiome](https://wikibiome.com).
 
 ### Shift 4: Authority through citation

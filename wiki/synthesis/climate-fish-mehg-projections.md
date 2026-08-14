@@ -64,7 +64,7 @@ The [[synthesis/climate-metals-tradeoffs]] page covers paddy-iAs and freshwater-
 
 A third independent projection study — distinct from Wang 2023 — would tighten the criterion-1 case (three independent A-tier sources). The criterion is technically met with Sonke, Wang, and Motta together (review plus projection plus mechanism), but a second quantitative coupled-model projection from an independent research group would harden the projection-range estimate and would let the wiki cite a model-intercomparison-style range rather than a single coupled-model estimate. The IPCC AR7 cycle is expected to incorporate ocean-mercury cycling more substantively than AR6 did; that future input is flagged for follow-up ingest.
 
-The freshwater parallel — climate-driven MeHg increase in inland fisheries — is partially covered in [[synthesis/climate-metals-tradeoffs]] via Wu 2025 PNAS and the freshwater-Hg microbial-methylation literature. A combined marine-and-freshwater climate-Hg projection synthesis would be the natural Journal of Food Metallomics output building on both synthesis pages.
+The freshwater parallel — climate-driven MeHg increase in inland fisheries — is partially covered in [[synthesis/climate-metals-tradeoffs]] via Wu 2025 PNAS and the freshwater-Hg microbial-methylation literature. A combined marine-and-freshwater climate-Hg projection synthesis would be the natural synthesis building on both synthesis pages.
 
 The economic-cost framing in Sonke 2023 ($117 billion annual) is durable but is itself a projection-based estimate. A second economic-impact study from an independent group would strengthen the evidence base for characterizing mercury exposure as a high-impact public-health burden rather than a low-priority concern.
 

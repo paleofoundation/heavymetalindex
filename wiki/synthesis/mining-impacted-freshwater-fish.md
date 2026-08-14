@@ -94,7 +94,7 @@ A third ASGM continent (Asia or Oceania) is not yet represented in the corpus. T
 
 The reservoir-impoundment-MeHg literature has substantial coverage outside the two anchors used here (Willacker 2023 and Leclerc 2023). Three to five additional impoundment studies from Brazil, Canada, Russia, and China would harden the dam-driver component of the synthesis.
 
-A formal meta-analysis or pooled-effect estimate combining the geographic mining-impact studies is not in the corpus and would be the natural Journal of Food Metallomics output building on the wiki's source layer.
+A formal meta-analysis or pooled-effect estimate combining the geographic mining-impact studies is not in the corpus and would be the natural synthesis building on the wiki's source layer.
 
 ## Implications for downstream wiki pages
 

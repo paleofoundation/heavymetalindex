@@ -1,6 +1,8 @@
 # Journal of Food Metallomics (JFM) — Launch Plan That Passes Audits
 
-**Status: DRAFT v1 for Karen (2026-05-31). Executable.**
+> **SHELVED 2026-08-14 (Karen): the Journal of Food Metallomics is not being pursued at this time — another plan supersedes it. Retained as a record, not an active plan; do not execute.**
+
+**Status: DRAFT v1 (2026-05-31) — SUPERSEDED; see the SHELVED note above.**
 Companion to `docs/hmtc-brand-intelligence-spec.md` (round-4 NN-1 established that JFM must be a *real, independent* venue before HMI can cite it). JFM is hosted in the `vsubia79912/paleo-foundation` repo at heavymetaltested.com; this is the canonical plan, implementation lands there. JFM has no ISSN yet; this plan gets it real structure, Google Scholar discoverability, and a defensible publishing process.
 
 ---

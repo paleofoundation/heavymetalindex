@@ -67,11 +67,9 @@ The check Claude runs before every substantive wiki edit: name the direction the
 
 ## Part 3 — Products this wiki serves
 
-The wiki is the shared knowledge substrate behind four products.
+The wiki is the shared knowledge substrate behind three products.
 
 The Heavy Metal Tested & Certified program (heavymetalcertified.com) uses the wiki as evidence base for certification criteria, limits, and auditor guidance. References the wiki one-way.
-
-The Journal of Food Metallomics (at heavymetalcertified.com/journal-of-food-metallomics) is the peer-reviewed publication venue for synthesis work that builds on the wiki. The wiki is the corpus; the journal publishes synthesis of the corpus.
 
 Educational courses for brands, suppliers, co-packers, QA teams, and supply-chain operators cross-reference the wiki rather than duplicating it.
 

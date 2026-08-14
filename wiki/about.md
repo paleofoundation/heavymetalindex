@@ -27,8 +27,6 @@ Methodology, selection criteria, extraction approach, quality-assurance audit pr
 
 [WikiBiome](https://wikibiome.com) is the companion reference on microbiome medicine. Metallomics content that is primarily clinical rather than food-and-supply-chain belongs on WikiBiome; the two sites link to one another where topics bridge the scopes.
 
-The Journal of Food Metallomics is a planned peer-reviewed venue for synthesis work built on the Heavy Metal Index corpus. It is in development; as of this writing no articles have been published and no external peer review has been completed.
-
 ## Contact
 
 Correspondence, corrections, and licensing inquiries: see [contact](/contact).

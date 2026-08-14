@@ -62,7 +62,7 @@ For consumers, seaweed and kelp products are not low-heavy-metal foods. Consumer
 
 ## What this synthesis does not yet rest on
 
-A US-specific FDA-equivalent occurrence dataset for the US retail market is not in the corpus. The Hahn 2022 Salish Sea dataset is the closest US-relevant anchor but represents harvested-from-coast biological material rather than commercial-retail product. A US retail-market survey across the major commercial seaweed-snack and kelp-supplement product lines would meaningfully strengthen the occurrence evidence for the US retail product class and is a candidate for a Journal of Food Metallomics paper.
+A US-specific FDA-equivalent occurrence dataset for the US retail market is not in the corpus. The Hahn 2022 Salish Sea dataset is the closest US-relevant anchor but represents harvested-from-coast biological material rather than commercial-retail product. A US retail-market survey across the major commercial seaweed-snack and kelp-supplement product lines would meaningfully strengthen the occurrence evidence for the US retail product class.
 
 Spirulina and chlorella are mentioned in the EFSA dataset and warrant their own treatment. They are biologically distinct from brown-algae kelp (spirulina is a cyanobacterium; chlorella is a green microalga) and the contamination mechanism for As in microalgae is different from the brown-algae mechanism described here. The [[synthesis/organoarsenical-inertness-assumption]] page covers the speciation question for microalgae; the magnitude question for spirulina and chlorella Cd is not yet synthesized.
 

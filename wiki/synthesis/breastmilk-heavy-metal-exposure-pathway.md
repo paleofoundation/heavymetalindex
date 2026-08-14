@@ -80,7 +80,7 @@ For consumption, the honest statement to a lactating parent has two parts. First
 
 ## What this synthesis does not yet rest on
 
-No pooled occurrence distribution for breastmilk exists in this corpus. The four primary cohorts (Korea, China, Brazil, and the U.S. primary studies underlying Thoerig 2025) differ in limits of quantification, censoring rules, lactation stage at sampling, and speciation, so the values here are reported per-study rather than combined into a single typical and 95th-percentile profile. A harmonized re-analysis across the primary cohorts, holding basis and censoring constant, would strengthen the quantitative core and is a candidate for a Journal of Food Metallomics synthesis.
+No pooled occurrence distribution for breastmilk exists in this corpus. The four primary cohorts (Korea, China, Brazil, and the U.S. primary studies underlying Thoerig 2025) differ in limits of quantification, censoring rules, lactation stage at sampling, and speciation, so the values here are reported per-study rather than combined into a single typical and 95th-percentile profile. A harmonized re-analysis across the primary cohorts, holding basis and censoring constant, would strengthen the quantitative core.
 
 Speciation is the largest single gap. Every cohort reported total arsenic and total mercury only. Because the arsenic hazard signal is the dominant finding in Moon 2025 and is seafood-driven, an inorganic-arsenic-speciated breastmilk cohort would materially sharpen the risk estimate, converting the current upper-bound hazard quotients into direct ones.
 

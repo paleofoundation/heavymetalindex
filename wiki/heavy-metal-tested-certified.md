@@ -49,7 +49,7 @@ The gap between what the literature supports and where a certification threshold
 
 ## Finding the program
 
-The Heavy Metal Tested & Certified program is at [heavymetalcertified.com](https://heavymetalcertified.com). Synthesis work that builds on the Index corpus is published in the [Journal of Food Metallomics](https://heavymetalcertified.com/journal-of-food-metallomics). Questions about certification, eligibility, or the program's thresholds are handled by the program directly; the Index does not make certification determinations and cannot advise on them.
+The Heavy Metal Tested & Certified program is at [heavymetalcertified.com](https://heavymetalcertified.com). Questions about certification, eligibility, or the program's thresholds are handled by the program directly; the Index does not make certification determinations and cannot advise on them.
 
 ## Related governance pages
 
