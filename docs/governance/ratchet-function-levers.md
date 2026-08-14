@@ -114,7 +114,7 @@ number-lobbying:
 
 ## Firewall note (publication surface)
 
-The public-facing version of this material publishes on **heavymetaltested.com**
+The public-facing version of this material publishes on **heavymetalcertified.com**
 (the `heavymetalcertified` repo), under the Methodology footer column, at
 `/program/ratchet`. It must never publish on heavymetalindex.com: it is pure
 certification methodology, would trip the build-blocking firewall-no-threshold

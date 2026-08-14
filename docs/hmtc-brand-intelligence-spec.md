@@ -21,7 +21,7 @@ Why the split makes the firewall *cleaner*: HMTc cannot quietly rewrite the lite
 
 ## 1. Where it lives (confirmed 2026-05-31)
 
-The certification platform is `github.com/vsubia79912/paleo-foundation` (branch `master`): "a multi-domain Next.js 14 + Supabase platform." heavymetaltested.com is served from this app via its domain middleware.
+The certification platform is `github.com/vsubia79912/paleo-foundation` (branch `master`): "a multi-domain Next.js 14 + Supabase platform." heavymetalcertified.com is served from this app via its domain middleware.
 
 | Need | Already present in the repo |
 |---|---|
