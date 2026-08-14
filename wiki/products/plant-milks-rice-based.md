@@ -68,7 +68,7 @@ The content below was the original Category 5 row 7 literature synthesis. It is 
 
 ## Methodology
 
-This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in rice-based plant milks. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in rice-based plant milks. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetalcertified.com, not on this page.
 
 **Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
 
@@ -196,7 +196,7 @@ The levers below are ordered by estimated impact magnitude for finished rice-bas
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

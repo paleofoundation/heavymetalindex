@@ -62,7 +62,7 @@ This page is a structural scaffold for HMTc Category 1 row 3. One broad infant-f
  </div>
  <div>
  <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
  </div>
  </dl>
 </div>
@@ -85,7 +85,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetaltested.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
+**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetalcertified.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings

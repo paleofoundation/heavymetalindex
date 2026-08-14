@@ -33,7 +33,7 @@ Brand legal teams evaluating HMT&C certification for children's personal-care li
 
 Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
-HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
+HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetalcertified.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
 
 ## The 16-row Cat 2 inventory
 
@@ -58,7 +58,7 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure this category: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row and its higher-contamination counterpart are each certified against their own row-specific criteria. Rows 1, 2, 5, 6 are independent (no within-pair partner) and are treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the inventory. Certification thresholds for every row are set separately under the certification program at heavymetaltested.com, not on this page.
+Four clean/contaminated sibling pairs structure this category: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row and its higher-contamination counterpart are each certified against their own row-specific criteria. Rows 1, 2, 5, 6 are independent (no within-pair partner) and are treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the inventory. Certification thresholds for every row are set separately under the certification program at heavymetalcertified.com, not on this page.
 
 ## Cross-row contamination platforms
 
@@ -139,7 +139,7 @@ Cat 2 levers ranked by magnitude across the 16 rows. Per-row Levers sections dri
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for each Cat 2 row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. Where a row has a clean/contaminated sibling pair, the row-standards are calibrated on a like-for-like basis across the pair. This public page reports literature evidence only.
+HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetalcertified.com, not on this page. The row-standard for each Cat 2 row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. Where a row has a clean/contaminated sibling pair, the row-standards are calibrated on a like-for-like basis across the pair. This public page reports literature evidence only.
 
 ## Historical recalls and enforcement
 

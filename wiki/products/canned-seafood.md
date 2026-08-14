@@ -38,7 +38,7 @@ This row carries the **tin flag** for Sn migration from the can, and inherits th
 
 ## Literature scope
 
-Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. HMTc thresholds for this row are developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com).
+Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. HMTc thresholds for this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com).
 
 ## Methodology
 

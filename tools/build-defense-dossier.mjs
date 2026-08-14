@@ -77,7 +77,7 @@ const ATTESTATION = {
     GIT_REMOTE +
     " at each named commit, hash the body of each named page, and confirm the content_sha256 values below. The contributing-source set is reproducible from data/evidence/product_source_routing_audit.csv at the same commit.",
   not_a_certification:
-    "This dossier pins and traces the Heavy Metal Index's published literature evidence. It does not state, endorse, or warrant an HMTc certification threshold or a pass/fail determination. Certification thresholds are policy choices that live in the HMTc program (heavymetaltested.com), not in this evidence base. See /methodology and the wiki/HMTc separation described there.",
+    "This dossier pins and traces the Heavy Metal Index's published literature evidence. It does not state, endorse, or warrant an HMTc certification threshold or a pass/fail determination. Certification thresholds are policy choices that live in the HMTc program (heavymetalcertified.com), not in this evidence base. See /methodology and the wiki/HMTc separation described there.",
   license_terms: "https://heavymetalindex.com/licensing",
 }
 

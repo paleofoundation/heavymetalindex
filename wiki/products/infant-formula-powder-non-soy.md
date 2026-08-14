@@ -79,7 +79,7 @@ This page is the public evidence page for powdered non-soy infant formula. It is
  </div>
  <div>
  <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
  </div>
  </dl>
 </div>
@@ -102,7 +102,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Source-count confidence is reported as low (1 to 2 contributing sources), medium (3 to 10), or high (more than 10), per the wiki's standing convention. Confidence reflects volume and agreement of evidence, not regulatory pass-fail status.
 
-**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page. The values on this page are literature evidence, not certification thresholds.
+**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetalcertified.com, not on this page. The values on this page are literature evidence, not certification thresholds.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary

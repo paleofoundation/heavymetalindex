@@ -26,7 +26,7 @@ The Heavy Metal Index is a curated, citation-grounded reference covering heavy m
 - A [[coverage|PRISMA-equivalent coverage page]] and a [[methodology/search-strategy|Cochrane-equivalent search-strategy publication]] documenting the 10-database literature search.
 - An [[ask|Ask the Index]] retrieval assistant grounded in cited pages, with no outside knowledge.
 
-The corpus draws from the published literature on heavy metals in food; the methodology is at [[methodology]]; the editorial firewall between the Index and the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program is at [[editorial-standards]]; the license posture is at [[licensing]]; and the correction process is at [[errata]].
+The corpus draws from the published literature on heavy metals in food; the methodology is at [[methodology]]; the editorial firewall between the Index and the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program is at [[editorial-standards]]; the license posture is at [[licensing]]; and the correction process is at [[errata]].
 
 ## Where the Index is going
 
@@ -81,7 +81,7 @@ Worth naming because the gravitational pull toward these is real.
 
 - **Personalised health advice.** "Given your diet, here is your exposure" is the consumer app's job, downstream. The Index stays at population-level evidence.
 - **Brand rankings.** Even in 10 years, even with massive demand, the brand-firewall holds. Brand-identifying contamination data lives in a separate private build, never in the public Index.
-- **Replacement of regulatory bodies.** The Index is the reference regulators use, not a regulator itself. Standards-setting is the [Heavy Metal Tested & Certified program's](https://heavymetaltested.com) job, kept architecturally separate from the Index (see [[editorial-standards]]).
+- **Replacement of regulatory bodies.** The Index is the reference regulators use, not a regulator itself. Standards-setting is the [Heavy Metal Tested & Certified program's](https://heavymetalcertified.com) job, kept architecturally separate from the Index (see [[editorial-standards]]).
 - **Recommendations.** "Eat this, not that" is not the Index's voice. The Index reports what the literature supports; readers decide what to do with it.
 
 Staying out of these is what keeps the authority position viable.

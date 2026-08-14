@@ -80,11 +80,18 @@ entity — a legal decision, see §9). Three public tiers plus an authenticated 
 
 ### Domain dispositions (from the naming panel, 2026-06-16)
 
+> **Superseded 2026-08-14 (Karen): `heavymetaltested.com` is being RETIRED.** The
+> program/mark consolidates onto `heavymetalcertified.com`; every HMTc-program link
+> (the footer, the standards-firewall disclaimers, the Journal path) now points to
+> `heavymetalcertified.com`. The "keep both as distinct marks" rows below are the
+> 2026-06-16 record and no longer the operative plan — treat `heavymetaltested.com`
+> as a 301 → `heavymetalcertified.com`.
+
 | Domain | Disposition |
 |---|---|
 | `heavymetalindex.com` | **INDEX** (in use; independent literature). |
 | `heavymetalcertified.com` | **Certifier / standards** property (or the parent — see §9 open decision). |
-| `heavymetaltested.com` | **Program / mark** (keep; established HMT&C equity). |
+| `heavymetaltested.com` | **RETIRED 2026-08-14 (Karen); 301 → `heavymetalcertified.com`.** Program/mark consolidated onto the certifier domain. (Was: keep as the established HMT&C mark — superseded.) |
 | `heavymetalsafe.com` | **Park / 301 → certifier. NEVER a mark.** "Safe" is an absolute-outcome claim — a false-advertising/UDAP magnet that contradicts the program's own honest "tested-to-a-threshold, gap-stated" record (a damaging admission in discovery). Unanimous across all audit lenses. |
 | `heavymetaldataindex.com` | Defensive hold → 301 to HMI. Do **not** name the certifier "dataindex" — it blurs against the independent index and undermines the firewall's perceived separation. |
 | `heavymetalfacts.org` | Education front, or hold. |

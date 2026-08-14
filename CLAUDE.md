@@ -39,7 +39,7 @@ Adjacent audiences compound the value: retailers (Whole Foods, Sprouts, Target a
 
 ### Deliberate architectural separation
 
-The wiki lives at `heavymetalindex.com`. The certification program lives at `heavymetaltested.com`. These are separate properties by design. The wiki reports what the literature says; the certification program applies those findings to set standards. Keeping them architecturally separate is what lets the wiki remain defensible when HMT&C standards are challenged. The wiki is not the certifier's self-published justification; it is an independent reference that the certifier happens to operate. One-way cross-linking is fine (HMT&C documents can cite wiki pages); the wiki does not endorse or even mention HMT&C-certified brands.
+The wiki lives at `heavymetalindex.com`. The certification program lives at `heavymetalcertified.com`. These are separate properties by design. The wiki reports what the literature says; the certification program applies those findings to set standards. Keeping them architecturally separate is what lets the wiki remain defensible when HMT&C standards are challenged. The wiki is not the certifier's self-published justification; it is an independent reference that the certifier happens to operate. One-way cross-linking is fine (HMT&C documents can cite wiki pages); the wiki does not endorse or even mention HMT&C-certified brands.
 
 ### Database-rights positioning
 
@@ -69,9 +69,9 @@ The check Claude runs before every substantive wiki edit: name the direction the
 
 The wiki is the shared knowledge substrate behind four products.
 
-The Heavy Metal Tested & Certified program (heavymetaltested.com) uses the wiki as evidence base for certification criteria, limits, and auditor guidance. References the wiki one-way.
+The Heavy Metal Tested & Certified program (heavymetalcertified.com) uses the wiki as evidence base for certification criteria, limits, and auditor guidance. References the wiki one-way.
 
-The Journal of Food Metallomics (at heavymetaltested.com/journal-of-food-metallomics) is the peer-reviewed publication venue for synthesis work that builds on the wiki. The wiki is the corpus; the journal publishes synthesis of the corpus.
+The Journal of Food Metallomics (at heavymetalcertified.com/journal-of-food-metallomics) is the peer-reviewed publication venue for synthesis work that builds on the wiki. The wiki is the corpus; the journal publishes synthesis of the corpus.
 
 Educational courses for brands, suppliers, co-packers, QA teams, and supply-chain operators cross-reference the wiki rather than duplicating it.
 

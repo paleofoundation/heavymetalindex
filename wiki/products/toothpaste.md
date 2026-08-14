@@ -32,7 +32,7 @@ Brand legal teams evaluating HMT&C certification for toothpaste lines need to kn
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development) covers the modelling. HMT&C certification thresholds for toothpaste are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development) covers the modelling. HMT&C certification thresholds for toothpaste are developed under the certification program at heavymetalcertified.com, not on this page; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -99,7 +99,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 
 ## How standards math uses this page
 
-This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 
