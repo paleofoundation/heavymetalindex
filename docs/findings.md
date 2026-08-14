@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-63 open item(s): 25 auto, 38 awaiting a decision.
+64 open item(s): 25 auto, 39 awaiting a decision.
+
+### OI-20260814-source-page-cert-annotations — 4 wiki/sources pages carry forward-looking HMT&C limit-setting / certification-limit relevance annotations (Certification: lines) — firewall Part 2 judgment: keep as source-attribution provenance or scrub?
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/nordberg2015-cadmium-chapter.md`, `wiki/sources/atsdr-cadmium-toxprofile-2012.md`, `wiki/sources/efsa2024-risk-assessment-iAs-update.md`, `wiki/sources/carter2025-tda-aas-methylmercury-finfish-fda-method.md`
+- repro: grep -rliI 'HMT&C limit-setting|HMTc limit-setting|HMT&C certification limit|HMTc certification limit' wiki/sources/
+- done when: Decide whether source-page 'Certification:' annotations that reference HMT&C limit-setting or a future HMT&C certification limit (WITHOUT disclosing any derived value or the strictest-of-X/Y/Z derivation) are firewall-permissible on the index domain.; Context: firewall-no-threshold-lint.mjs deliberately excludes wiki/sources/ from scope; these lines attribute a threshold's scientific basis to peer-reviewed EFSA/FDA/ATSDR sources (arguably defensibility-POSITIVE, the opposite of 'self-published'), and reproduce no value or derivation math. Distinct from the TASK-2 regulation/methodology derivation statements already scrubbed in commit 47d1ce2a3.; If ruled non-permissible: rewrite the 4 annotations to remove the HMT&C limit-setting reference while keeping the source's scientific relevance; otherwise close as by-design.
+- decision: _pending_
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
