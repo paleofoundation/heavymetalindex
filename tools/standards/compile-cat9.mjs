@@ -148,6 +148,12 @@ function resolveCell(sub, analyte) {
   if (spec.not_material) {
     return { type: "not_material", value: null, rationale: spec.not_material.rationale || spec.not_material, reference_method: spec.not_material.reference_method || null, bounded_by: spec.not_material.bounded_by || null }
   }
+  if (spec.control) {
+    // A screened analyte with a mandatory reference method but no published numeric limit, because no
+    // sovereign total-content/migration row exists in the row's basis for it. NOT not-material: the
+    // analyte is measured and reflexes to a speciated cell (e.g. total-Cr screen -> reflex Cr-VI).
+    return { type: "control", value: null, rationale: spec.control.rationale || spec.control, reference_method: spec.control.reference_method || null, reflex: spec.control.reflex || null }
+  }
   if (spec.special) {
     return { type: "special", value: spec.special.value, unit: spec.special.unit, basis: spec.special.basis, jurisdiction: spec.special.jurisdiction, source_page: spec.special.source_page, label: spec.special.label, companion: resolveCompanion(spec) }
   }
@@ -186,11 +192,13 @@ function resolveCompanion(spec) {
 fs.mkdirSync(OUTDIR, { recursive: true })
 const slugs = only.length ? only : Object.keys(config.subcategories)
 let anyDefect = false
+const unresolved = []
 for (const slug of slugs) {
   const sub = config.subcategories[slug]
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  for (const a of PANEL) { const c = cells[a]; if (c.error || c.type === "gap" || c.type === "unspecified") unresolved.push(`${slug}/${a}: ${c.error || c.type}`) }
   const record = {
     slug, name: sub.name, category: 9, category_name: "Infant and Child Contact Products (Ages 0-5)",
     governing_basis: sub.governing_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null, cells,
@@ -204,7 +212,7 @@ for (const slug of slugs) {
     console.log(`    governing basis: ${sub.governing_basis}`)
     for (const a of PANEL) {
       const c = cells[a]
-      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "gap" ? "GAP" : c.type === "unspecified" ? "—" : "?") : String(c.value)
+      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "ctrl" : c.type === "gap" ? "GAP" : c.type === "unspecified" ? "—" : "?") : String(c.value)
       if (c.not_detectable) v = `ND<${v}`
       if (c.type === "special") v = `${c.value} ${c.unit || ""}`
       const src = c.type === "gov" ? c.binding_jurisdiction : c.type === "read_across" ? `RA ${c.source_jurisdiction}` : c.type === "special" ? c.jurisdiction : c.type
@@ -218,4 +226,9 @@ for (const slug of slugs) {
   }
 }
 if (!QUIET) console.log(`\nwrote ${slugs.length} record(s) to ${path.relative(REPO, OUTDIR)}/`)
-if (anyDefect) { console.error("\n!! one or more cells failed to resolve — fix config/register before publishing"); process.exit(1) }
+if (unresolved.length || anyDefect) {
+  console.error(`\nverify: FAIL — ${unresolved.length} unresolved cell(s):`)
+  for (const u of unresolved) console.error(`  - ${u}`)
+  process.exit(1)
+}
+console.log(`verify: OK — every cell resolved to a publishable determination`)

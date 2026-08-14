@@ -10,6 +10,7 @@
     "Ni",
     "Al",
     "Cr-VI",
+    "Cr-total",
     "Sn"
   ],
   "subcategories": {
@@ -92,6 +93,13 @@
           "read_across": {
             "source_id": "eu_2009_48_cat3_crvi_toy_migration",
             "label": "EN 71-3 / 2009/48 Cat III hexavalent-chromium migration limit (0.053 mg/kg), applied via EN 1400"
+          }
+        },
+        "Cr-total": {
+          "control": {
+            "rationale": "The governing soother/toy-migration instrument (EN 71-3 / Directive 2009/48/EC Annex II Part III Category III, applied via the EN 1400 soother standard) regulates hexavalent chromium specifically (Cr-VI, 0.053 mg/kg migration), not total chromium. The only sovereign total-chromium toy limits (ASTM F963, Mexico NOM-252, China GB 21027 soluble total-Cr, all ~60 mg/kg) are far more permissive than the Cr-VI migration ceiling and would understate control if published as the total-Cr standard. Total chromium is therefore screened, not assigned a published limit; any detectable total chromium reflexes to Cr-VI speciation, which binds at the Category III migration limit.",
+            "reference_method": "Mandatory ICP-MS total-chromium migration screen (EN 71-3); reflex Cr-VI speciation (EN 71-3 / IEC 62321-7 or equivalent) on any detectable total chromium.",
+            "reflex": "Cr-VI"
           }
         },
         "Sn": {
@@ -190,6 +198,13 @@
           ],
           "basis_label": "element migration, scraped-off toy material (mg/kg)"
         },
+        "Cr-total": {
+          "control": {
+            "rationale": "The governing toy-migration instrument (EN 71-3 / Directive 2009/48/EC Annex II Part III Category III) regulates hexavalent chromium specifically (Cr-VI, 0.053 mg/kg migration), not total chromium. The only sovereign total-chromium toy limits (ASTM F963, Mexico NOM-252, China GB 21027 soluble total-Cr, all ~60 mg/kg) are far more permissive than the Cr-VI migration ceiling and would understate control if published as the total-Cr standard. Total chromium is therefore screened, not assigned a published limit; any detectable total chromium reflexes to Cr-VI speciation, which binds at the Category III migration limit.",
+            "reference_method": "Mandatory ICP-MS total-chromium migration screen (EN 71-3); reflex Cr-VI speciation (EN 71-3 / IEC 62321-7 or equivalent) on any detectable total chromium.",
+            "reflex": "Cr-VI"
+          }
+        },
         "Sn": {
           "gov_ids": [
             "eu_2009_48_cat3_sn_toy_migration"
@@ -280,6 +295,12 @@
             "source_id": "eu_10_2011_crtotal_sml_nd",
             "label": "bounded by the total-chromium specific-migration limit (not detectable); hexavalent chromium is a fraction of total chromium, so the total-Cr ceiling bounds it"
           }
+        },
+        "Cr-total": {
+          "gov_ids": [
+            "eu_10_2011_crtotal_sml_nd"
+          ],
+          "basis_label": "specific migration into food (mg/kg food)"
         },
         "Sn": {
           "not_material": {
@@ -373,6 +394,12 @@
             "label": "bounded by the total-chromium specific-migration limit (not detectable)"
           }
         },
+        "Cr-total": {
+          "gov_ids": [
+            "eu_10_2011_crtotal_sml_nd"
+          ],
+          "basis_label": "specific migration into food (mg/kg food)"
+        },
         "Sn": {
           "not_material": {
             "rationale": "Inorganic tin has no migration pathway from a platinum-cured silicone or latex nipple; food-grade nipples are platinum-cured, not condensation-cured (which would use organotin catalysts). Certification requires platinum-cure documentation or an organotin screen; the separate EU toy organic-tin migration limit (Cat III 12 mg/kg) covers organotin, which the inorganic-Sn cell does not bound.",
@@ -464,6 +491,12 @@
             "label": "bounded by the total-chromium specific-migration limit (not detectable)"
           }
         },
+        "Cr-total": {
+          "gov_ids": [
+            "eu_10_2011_crtotal_sml_nd"
+          ],
+          "basis_label": "specific migration into food (mg/kg food)"
+        },
         "Sn": {
           "not_material": {
             "rationale": "No tin source in plastic or stainless drinkware; tinplate/canned-food pathway only.",
@@ -544,6 +577,12 @@
             "source_id": "eu_10_2011_crtotal_sml_nd",
             "label": "bounded by the total-chromium specific-migration limit (not detectable)"
           }
+        },
+        "Cr-total": {
+          "gov_ids": [
+            "eu_10_2011_crtotal_sml_nd"
+          ],
+          "basis_label": "specific migration into food (mg/kg food)"
         },
         "Sn": {
           "not_material": {
@@ -653,6 +692,12 @@
             "label": "bounded by the total-chromium specific-migration limit (not detectable)"
           }
         },
+        "Cr-total": {
+          "gov_ids": [
+            "eu_10_2011_crtotal_sml_nd"
+          ],
+          "basis_label": "specific migration into food (mg/kg food)"
+        },
         "Sn": {
           "not_material": {
             "rationale": "No tin source in plastic, stainless, or ceramic tableware; tinplate/canned-food pathway only.",
@@ -729,6 +774,13 @@
           "read_across": {
             "source_id": "eu_2018_1513_cr_vi_consumer_textiles_1mgkg",
             "label": "EU REACH entry 72 extractable-Cr(VI) limit (1 mg/kg); read across per the disposable-textile exclusion"
+          }
+        },
+        "Cr-total": {
+          "control": {
+            "rationale": "EU REACH Annex XVII entry 72 regulates extractable hexavalent chromium in skin-contact textiles (Cr-VI, 1 mg/kg after extraction); no jurisdiction sets a total-chromium extraction limit for skin-contact textile or absorbent-hygiene materials, so no sovereign total-Cr row applies to the diaper form. Total chromium is screened, not assigned a published limit; any detectable total chromium reflexes to Cr-VI extraction, which binds at the entry-72 limit read across per the disposable-textile exclusion.",
+            "reference_method": "Mandatory ICP-MS total-chromium extraction screen (EN 16711); reflex Cr-VI determination (EN ISO 17075 / IC-ICP-MS) on any detectable total chromium.",
+            "reflex": "Cr-VI"
           }
         },
         "Sn": {

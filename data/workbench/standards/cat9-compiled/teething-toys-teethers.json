@@ -189,6 +189,13 @@
       ],
       "stricter_unselected": []
     },
+    "Cr-total": {
+      "type": "control",
+      "value": null,
+      "rationale": "The governing toy-migration instrument (EN 71-3 / Directive 2009/48/EC Annex II Part III Category III) regulates hexavalent chromium specifically (Cr-VI, 0.053 mg/kg migration), not total chromium. The only sovereign total-chromium toy limits (ASTM F963, Mexico NOM-252, China GB 21027 soluble total-Cr, all ~60 mg/kg) are far more permissive than the Cr-VI migration ceiling and would understate control if published as the total-Cr standard. Total chromium is therefore screened, not assigned a published limit; any detectable total chromium reflexes to Cr-VI speciation, which binds at the Category III migration limit.",
+      "reference_method": "Mandatory ICP-MS total-chromium migration screen (EN 71-3); reflex Cr-VI speciation (EN 71-3 / IEC 62321-7 or equivalent) on any detectable total chromium.",
+      "reflex": "Cr-VI"
+    },
     "Sn": {
       "type": "gov",
       "value": 180000000,
