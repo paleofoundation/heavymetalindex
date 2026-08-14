@@ -34,7 +34,7 @@ function gateOrThrow(slug) {
     throw new Error(`PUBLICATION BLOCKED for ${slug}: a not-material cell is contradicted by routed evidence. Re-adjudicate before publishing.\n${out}`)
   }
 }
-const CERT = path.join(process.env.HOME, "Desktop/heavymetalcertified")
+const CERT = process.env.HMTC_CERT_DIR || path.join(process.env.HOME, "Desktop/heavymetalcertified")
 const OUT = path.join(CERT, "content/standards")
 const CDIR = path.join(REPO, "data/workbench/standards/cat9-compiled")
 const REG = parse(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
