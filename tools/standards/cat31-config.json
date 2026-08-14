@@ -114,9 +114,9 @@
           "reference_method": "Total nickel by ICP-MS on each lot; molasses monitored under ALARA against the tightest available food nickel context."
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for syrups; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "control": true,
+          "rationale": "No sovereign total-chromium ML exists for any sweetener (the only food total-Cr MLs in the register are dairy), so there is no number to publish. But the not-material 'no chromium pathway' claim is factually wrong for the molasses member of this combined maple/agave/molasses cell: molasses is a documented chromium concentrate (reported total Cr ~0.27 mg/kg, the highest-Cr sweetener, molasses >> refined white sugar), produced by the same repeated sugar-extraction mineral-concentration pathway that already holds nickel under control in this exact cell. Total chromium is therefore held under a mandatory ICP-MS screen under ALARA rather than declared not-material, with Cr-VI remaining the reflex-speciation control. Rebuttable and audited against the register each build.",
+          "reference_method": "Total Cr by ICP-MS on each lot under ALARA; reflex Cr(VI) speciation (IC-ICP-MS) on any elevated total-Cr screen."
         },
         "Cr-VI": {
           "control": true,
