@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-65 open item(s): 25 auto, 40 awaiting a decision.
+66 open item(s): 25 auto, 41 awaiting a decision.
 
 ### OI-20260814-source-page-cert-annotations — 4 wiki/sources pages carry forward-looking HMT&C limit-setting / certification-limit relevance annotations (Certification: lines) — firewall Part 2 judgment: keep as source-attribution provenance or scrub?
 
@@ -525,10 +525,18 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260814-index-cert-hyperlinks — 221 index (wiki/) pages carry markdown hyperlinks to https://heavymetaltested.com in firewall disclaimers — reconcile against the 'index->cert linking forbidden' rule (CLAUDE.md Part 1/3; project_cross_property_linking)
 
-- scope: **human-gated** · type: decision · status: open · repo: index
+- scope: **human-gated** · type: decision · status: queued · repo: index
 - paths: `wiki/products/teething-toys-teethers.md`, `wiki/heavy-metal-tested-certified.md`, `tools/apply-literature-scope-caveat.mjs`, `tools/build-regulation-cross-cuts.mjs`, `tools/standards/build-standards-catalog.mjs`, `tools/autonomy/cat6-step0-scaffold.mjs`
 - repro: grep -rlI '](https://heavymetaltested.com' wiki/ | wc -l   # 221 pages
 - done when: Decide whether a markdown hyperlink from an index (wiki/) page to the cert program homepage (https://heavymetaltested.com), used inside the standard firewall disclaimer ('standards are developed under the certification program at ..., not on this page'), is permitted, or whether index->cert linking is forbidden and these must become plain-text mentions (or be removed).; Breadth: 221 wiki pages carry the hyperlink; ~349 mention the domain. Emitted by >=5 generators (apply-literature-scope-caveat.mjs, build-regulation-cross-cuts.mjs, build-standards-catalog.mjs, cat6-step0-scaffold.mjs, build-defense-dossier.mjs), so a fix is a generator change, not a page sweep. It also appears on the wiki's own cert-explainer page (heavy-metal-tested-certified.md), which may be intended.; If ruled forbidden: convert the disclaimer link to plain text at the generator level and regenerate; keep the disclaimer text itself (Part 2 firewall-affirming). Distinct from the derivation scrub in commit 47d1ce2a3, which did not add any such link.
+- decision: **APPROVE: Karen resolved (2026-08-14) — cross-property links are permitted; retire heavymetaltested.com and repoint ALL HMTc-program links to heavymetalcertified.com. Done in commit f9f00e53c: footer + 12 generators + 347 wiki pages + CLAUDE.md + architecture-doc retirement note + generated catalog. The original 'index->cert forbidden' framing was too strong; the disclaimer pointer to the certifier authority is intended.**
+
+### OI-20260814-heavymetaltested-residual — Residual of the heavymetaltested.com retirement: 9 internal planning/design docs still name the retired domain, the Journal path needs a cert-side home, and confirm the footer label 'Heavy Metal Certified'
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `docs/jfm-launch-plan.md`, `docs/hmtc-brand-intelligence-spec.md`, `docs/hmtc-brand-intelligence-build-plan.md`, `docs/seo-indexing-plan-2026-05.md`, `docs/audits/2026-06-11-jfm-scholar-defensibility-audit.md`, `docs/architecture/firewall-postdeploy-crawler.md`, `docs/architecture/application-crm-spec.md`, `docs/governance/ratchet-function-levers.md`, `RECONCILE.md`
+- repro: grep -rlI 'heavymetaltested.com' docs/ RECONCILE.md | grep -vE 'findings.md|architecture/web-data-architecture'
+- done when: Reconcile the OPERATIVE internal-doc references to heavymetaltested.com -> heavymetalcertified.com; leave genuinely historical mentions (dated plans/audits describing past state) as-is or annotate them as superseded. NOT swept in commit f9f00e53c because these are internal planning/design docs, not rendered links, and some describe past plans that a blind swap would misstate.; Cross-repo dependency: the Journal of Food Metallomics link now points to heavymetalcertified.com/journal-of-food-metallomics (was heavymetaltested.com/...). Ensure that path exists (or 301s) on the cert side, else the link 404s. The Journal content historically lives in the paleo-foundation/heavymetaltested repo; its new home is a Foundation/cert decision.; Confirm the footer label choice: commit f9f00e53c changed the footer link label from 'Heavy Metal Tested' to 'Heavy Metal Certified' (matching the destination domain). If Karen wants the full mark 'Heavy Metal Tested & Certified' as the label instead, adjust quartz/components/Footer.tsx line 50 + the .design-sync mirror.; data/evidence historical audit logs and the 1 wiki/lint record still name the old domain by design (records of past state); no change expected.
 - decision: _pending_
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
