@@ -59,7 +59,7 @@ The applicable regulatory jurisdictions for this row are: **CPSIA, CPSC (ASTM F9
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page. For this row the certification limit is set by the Method v2.0 government-limit lookup — the strictest credible government migration limit per analyte in the correct basis — not by an occurrence percentile. This public page reports literature evidence only.
+HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page. This public page reports literature evidence only.
 
 ## Historical recalls and enforcement
 
