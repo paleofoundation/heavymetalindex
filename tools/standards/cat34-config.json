@@ -109,10 +109,10 @@
         "Pb": {
           "form_split": {
             "basis": "food-grade salt as placed on the market (dry)",
-            "instrument": "EU Reg. 2023/915 — lead in salt, split refined (general food-grade) vs unrefined (fleur de sel, grey salt, manually harvested). The strictest sovereign salt-lead limit; Codex STAN 193 sets 2 mg/kg, so the EU refined value governs.",
+            "instrument": "EU Reg. 2023/915 splits salt lead refined (general food-grade, 1000) vs unrefined (fleur de sel, grey salt, manually harvested, 2000). China GB 2762-2022/2025 places edible salt UNDER condiments (excluding spices) with a single lead limit of 1.0 mg/kg (1000 ug/kg) and NO refined/unrefined split (the former separate GB 2762-2017 salt-lead 2.0 line was dropped in the 2022 revision), so the GB condiment-excluding-spices line caps the unrefined form at 1000 as well. Certification applies 1000 to all edible salt.",
             "forms": [
               { "form": "refined / general food-grade salt (table salt)", "gov_ids": ["eu2023_pb_salt_1000", "gso193_2021_pb_salt_food_grade_1000", "ba_pravilnik_2022_pb_3_1_27a_1000"] },
-              { "form": "unrefined salt (fleur de sel, grey salt, manually harvested sea salt)", "gov_ids": ["eu2023_pb_salt_unrefined_2000"] }
+              { "form": "unrefined salt (fleur de sel, grey salt, manually harvested sea salt)", "gov_ids": ["eu2023_pb_salt_unrefined_2000", "china_gb2762_pb_condiments_excl_spices_1000"] }
             ]
           }
         },
@@ -198,8 +198,8 @@
       "audit_exclude_scope": "soy sauce|fish sauce|\\bsalt\\b|canned|tinplate",
       "cells": {
         "Pb": {
-          "gov_ids": ["sg_foodregs_2026_tomato_ketchup_sauces_pb_2000", "vn_qcvn8_2_2011_pb_sauce_2000"],
-          "basis_label": "sauce as consumed (liquid), general savoury-sauce category (Singapore 'tomato ketchup and other sauces' / Vietnam 'sauce', both 2000). Lead in a hot/chili sauce is chili-borne (the same adulteration platform as turmeric). DOCUMENTED EXCLUSION: Colombia Res. 4506/2013 sets a stricter Pb 1000 for 'mango hot sauce and canned mangoes' (co_res4506_2013_pb_mango_hot_sauce_canned_1000) — that is a FRUIT-PRODUCT entry (a mango/fruit sauce bundled with canned mangoes; fruit-borne lead, canned-fruit basis), a different product class and contamination platform, so it does not govern a bottled chili/pepper sauce and is not adopted. This exclusion is a product-class judgement, not the mechanical canned-token filter."
+          "gov_ids": ["china_gb2762_pb_condiments_excl_spices_1000", "sg_foodregs_2026_tomato_ketchup_sauces_pb_2000", "vn_qcvn8_2_2011_pb_sauce_2000"],
+          "basis_label": "sauce as consumed (liquid). A chili/hot sauce is a compound condiment (semi-solid fu he tiao wei liao), which China GB 2762-2022/2025 caps under 'condiments excluding spices' at lead 1.0 mg/kg (1000 ug/kg) — the strictest sovereign reaching a bottled chili sauce and stricter than the general savoury-sauce sovereigns (Singapore 'tomato ketchup and other sauces' 2000 / Vietnam 'sauce' 2000), which are retained as concurring context. Lead in a hot/chili sauce is chili-borne (the same adulteration platform as turmeric). DOCUMENTED EXCLUSION: Colombia Res. 4506/2013 sets a Pb 1000 for 'mango hot sauce and canned mangoes' (co_res4506_2013_pb_mango_hot_sauce_canned_1000) — that is a FRUIT-PRODUCT entry (a mango/fruit sauce bundled with canned mangoes; fruit-borne lead, canned-fruit basis), a different product class and contamination platform, so it does not govern a bottled chili/pepper sauce and is not adopted (and no longer needed as a Pb-1000 justification now that the GB compound-condiment line binds directly). This exclusion is a product-class judgement, not the mechanical canned-token filter."
         },
         "Cd": {
           "gov_ids": ["vn_qcvn8_2_2011_cd_sauce_1000"],
@@ -210,14 +210,8 @@
           "basis_label": "sauce as consumed (liquid)"
         },
         "iAs": {
-          "not_material": {
-            "basis_class": "speciation-bounded",
-            "bounded_by": "tAs",
-            "rationale": "No inorganic-arsenic maximum level for sauces; the total-arsenic sauce limit (1000 ug/kg) bounds the inorganic fraction (iAs <= tAs).",
-            "reference_method": "Total-arsenic screen; reflex speciation on elevation.",
-            "regulatory_basis": "Bounded by the total-As sauce standard (1000); no inorganic-As sauce ML anywhere",
-            "jurisdictions_checked": "Singapore; Vietnam; EU; FDA"
-          }
+          "gov_ids": ["china_gb2762_ias_compound_condiment_100"],
+          "basis_label": "sauce as consumed (liquid); inorganic arsenic. A chili/hot sauce is a compound condiment (semi-solid fu he tiao wei liao); China GB 2762-2022/2025 sets a compound-condiment inorganic-arsenic limit of 0.1 mg/kg (100 ug/kg), which binds the sauce directly (species inorganic As matches; as-sold mass ~ as-consumed mass for a non-reconstituted bottled sauce, no basis conflation). Consistent with the bouillon-seasoning-blends iAs treatment. This compound-condiment classification is also why no GB total-As limit reaches the sauce (GB's general-condiment total-As 0.5 line explicitly excludes compound condiments), so the tAs cell correctly stays 1000. Supersedes the earlier not-material verdict, which the 2026-08-14 adversarial audit confirmed FALSE."
         },
         "tHg": {
           "gov_ids": ["vn_qcvn8_2_2011_thg_sauce_50"],
@@ -272,7 +266,7 @@
           }
         }
       },
-      "scope_note": "Covers hot sauces and chili sauces. Routed here (not Cat 32 Condiments) because their lead and chromium are chili-borne, the same lead-chromate adulteration platform as turmeric. Contaminant limits bind the finished-sauce (liquid, as-consumed) sovereign limits; total chromium and Cr-VI are adulteration screens. Soy sauce and fish sauce route to Cat 32."
+      "scope_note": "Covers hot sauces and chili sauces. Routed here (not Cat 32 Condiments) because their lead and chromium are chili-borne, the same lead-chromate adulteration platform as turmeric. Classified as a compound condiment under China GB 2762-2022/2025, lead binds the GB 'condiments excluding spices' limit (1000) and inorganic arsenic binds the GB compound-condiment limit (100); total arsenic stays at the general savoury-sauce limit (1000) because GB's general-condiment total-As line excludes compound condiments. Total chromium and Cr-VI are adulteration screens. Soy sauce and fish sauce route to Cat 32."
     },
     "bouillon-seasoning-blends": {
       "name": "Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)",
@@ -283,10 +277,8 @@
       "audit_exclude_scope": "fresh|fruiting vegetable|leaf vegetable|leafy vegetable|\\bsalt\\b|\\btea\\b|\\boil\\b",
       "cells": {
         "Pb": {
-          "read_across": {
-            "source_id": "vn_qcvn8_2_2011_pb_spices-including-curry-powder_2000",
-            "label": "no bouillon/seasoning-blend-specific ML exists; read across the nearest applicable sovereign — the spice-blend / curry-powder scope (Vietnam QCVN 8-2:2011 lead 2000 ug/kg; Singapore dried herbs and spices concurs at 2000). A seasoning blend is compositionally a spice blend (curry powder is the archetype)."
-          }
+          "gov_ids": ["china_gb2762_pb_condiments_excl_spices_1000", "vn_qcvn8_2_2011_pb_spices-including-curry-powder_2000"],
+          "basis_label": "dry seasoning blend as placed on the market (as-sold mass basis). A bouillon cube / powdered seasoning blend is a compound condiment (fu he tiao wei liao): China GB 2762-2022/2025 Appendix A.1 explicitly places solid bouillon (gu ti tang liao) and chicken essence/powder under compound condiments, which fall under 'condiments excluding spices' at lead 1.0 mg/kg (1000 ug/kg) — the strictest sovereign reaching this blend and directly on-point (species Pb, as-sold mass basis, no conflation). The looser spice-blend / curry-powder scope (Vietnam QCVN 8-2:2011 lead 2000) is retained as concurring context and is bounded by the GB condiment line."
         },
         "Cd": {
           "read_across": {
@@ -301,14 +293,8 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "basis_class": "speciation-bounded",
-            "bounded_by": "tAs",
-            "rationale": "No inorganic-arsenic maximum level for seasoning blends; the total-arsenic curry-powder limit (1000 ug/kg) bounds the inorganic fraction.",
-            "reference_method": "Total-arsenic screen; reflex speciation on elevation.",
-            "regulatory_basis": "Bounded by the read-across total-As curry-powder standard (1000); no inorganic-As blend ML anywhere",
-            "jurisdictions_checked": "Singapore; Vietnam; EU; FDA"
-          }
+          "gov_ids": ["china_gb2762_ias_compound_condiment_100"],
+          "basis_label": "dry seasoning blend (as-sold mass basis); inorganic arsenic. China GB 2762-2022/2025 sets a compound-condiment (fu he tiao wei liao) inorganic-arsenic limit of 0.1 mg/kg (100 ug/kg); Appendix A.1 defines compound condiment to include solid bouillon (gu ti tang liao) and chicken essence/powder, so this limit binds a bouillon cube / seasoning blend directly. Species (inorganic As) and as-sold dry mass basis both match — no speciation or basis conflation. Supersedes the earlier not-material verdict ('no inorganic-As blend ML anywhere'), which the 2026-08-14 adversarial audit confirmed FALSE against the primary GB 2762 text."
         },
         "tHg": {
           "read_across": {
@@ -368,7 +354,7 @@
           }
         }
       },
-      "scope_note": "Covers bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy and seasoning packets). No sovereign sets a blend-specific ML, so lead, cadmium, total arsenic and total mercury read across the nearest applicable sovereign scope — the spice-blend / curry-powder limits (curry powder is the archetypal, explicitly-regulated seasoning blend). Chromium is screened as a lead-chromate adulteration co-marker for chili/paprika-forward blends. Salt-dominant bouillon cubes additionally sit at or below the food-grade-salt lead ceiling."
+      "scope_note": "Covers bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy and seasoning packets). China GB 2762-2022/2025 classifies a bouillon cube / powdered seasoning blend as a compound condiment (Appendix A.1 lists solid bouillon and chicken essence/powder), so lead binds the GB 'condiments excluding spices' limit (1000) and inorganic arsenic binds the GB compound-condiment limit (100), both directly on-point. Cadmium, total arsenic and total mercury, for which GB sets no binding compound-condiment line, read across the nearest applicable sovereign scope — the spice-blend / curry-powder limits (curry powder is the archetypal, explicitly-regulated seasoning blend). Chromium is screened as a lead-chromate adulteration co-marker for chili/paprika-forward blends. Salt-dominant bouillon cubes additionally sit at or below the food-grade-salt lead ceiling."
     }
   }
 }
