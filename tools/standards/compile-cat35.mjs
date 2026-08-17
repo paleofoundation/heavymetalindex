@@ -89,7 +89,7 @@ const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
 // Infant/formula-scoped rows are never composite-component anchors: infant/toddler mixed meals route
 // to Category 1 by the taxonomy boundary rule, so an adult prepared meal does not borrow their limits.
-const INFANT = /infant|baby|toddler|follow.?up|follow.?on|formula|young children|weaning|processed cereal.based food/i
+const INFANT = /infant|baby|toddler|follow.?up|follow.?on|formula|young children|weaning|processed cereal.based food|complementary food|consumed principally by persons under|persons under the age of \d+ month/i
 
 // Credible regulators (CLAUDE.md Part 19). Component anchors and the audit scan are restricted to
 // these so every binding component is a widely-adopted sovereign limit, not a single national outlier.

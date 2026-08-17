@@ -36,10 +36,12 @@
           ]
         },
         "tAs": {
-          "read_across": {
-            "source_id": "eu_2009_48_cat3_tas_toy_migration",
-            "label": "EN 71-3 / 2009/48 Cat III total-arsenic migration limit (47 mg/kg), applied via EN 1400. ASTM F963's nominal 25 mg/kg is lower on paper but incorporates an analytical-correction convention EN 71-3 abolished, so the EU raw limit is the stricter ceiling as enforced"
-          }
+          "gov_ids": [
+            "eu_2009_48_cat3_tas_toy_migration",
+            "astm_f963_tas_soluble",
+            "mx_nom252_2011_tas_general_25"
+          ],
+          "basis_label": "element migration, scraped-off toy material (mg/kg)"
         },
         "iAs": {
           "not_material": {
@@ -64,10 +66,12 @@
           ]
         },
         "tHg": {
-          "read_across": {
-            "source_id": "eu_2009_48_cat3_thg_toy_migration",
-            "label": "EN 71-3 / 2009/48 Cat III total-mercury migration limit (94 mg/kg), applied via EN 1400. ASTM F963's nominal 60 mg/kg incorporates an analytical-correction convention EN 71-3 abolished, so the EU raw limit is the stricter ceiling as enforced"
-          }
+          "gov_ids": [
+            "eu_2009_48_cat3_thg_toy_migration",
+            "astm_f963_thg_soluble",
+            "mx_nom252_2011_thg_general_60"
+          ],
+          "basis_label": "element migration, scraped-off toy material (mg/kg)"
         },
         "MeHg": {
           "not_material": {
@@ -131,7 +135,9 @@
         },
         "tAs": {
           "gov_ids": [
-            "eu_2009_48_cat3_tas_toy_migration"
+            "eu_2009_48_cat3_tas_toy_migration",
+            "astm_f963_tas_soluble",
+            "mx_nom252_2011_tas_general_25"
           ],
           "basis_label": "element migration, scraped-off toy material (mg/kg)"
         },
@@ -161,7 +167,9 @@
         },
         "tHg": {
           "gov_ids": [
-            "eu_2009_48_cat3_thg_toy_migration"
+            "eu_2009_48_cat3_thg_toy_migration",
+            "astm_f963_thg_soluble",
+            "mx_nom252_2011_thg_general_60"
           ],
           "basis_label": "element migration, scraped-off toy material (mg/kg)"
         },
@@ -197,7 +205,6 @@
           "basis_label": "element migration, scraped-off toy material (mg/kg)"
         }
       },
-      "_note": "tAs and tHg bind the EU 2009/48 Cat III raw limits (47/94), not ASTM F963 nominal (25/60): ASTM applies an analytical correction EN 71-3:2013+ abolished, so EU raw is stricter as enforced.",
       "scope_note": "Covers teethers and teething toys a child mouths. General children’s toys without a mouthing-specific role are certified under Category 21 (Children’s Toys)."
     },
     "infant-bottles": {

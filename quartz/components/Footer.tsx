@@ -27,6 +27,7 @@ const footerSections = [
       ["Trust center", "/trust"],
       ["Coverage (PRISMA)", "/coverage"],
       ["Audit dashboard", "/audits"],
+      ["Data and downloads", "/data"],
       ["Methodology", "/methodology"],
       ["Editorial standards", "/editorial-standards"],
       ["Update history", "/log"],

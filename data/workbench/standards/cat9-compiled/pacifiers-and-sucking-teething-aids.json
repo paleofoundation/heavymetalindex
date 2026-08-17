@@ -27,13 +27,30 @@
       ]
     },
     "tAs": {
-      "type": "read_across",
-      "value": 47000,
-      "value_exact": 47000,
-      "source_id": "eu_2009_48_cat3_tas_toy_migration",
-      "source_jurisdiction": "EU",
-      "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
-      "label": "EN 71-3 / 2009/48 Cat III total-arsenic migration limit (47 mg/kg), applied via EN 1400. ASTM F963's nominal 25 mg/kg is lower on paper but incorporates an analytical-correction convention EN 71-3 abolished, so the EU raw limit is the stricter ceiling as enforced"
+      "type": "gov",
+      "value": 25000,
+      "value_exact": 25000,
+      "binding_jurisdiction": "US",
+      "binding_id": "astm_f963_tas_soluble",
+      "basis": "element migration, scraped-off toy material (mg/kg)",
+      "candidates": [
+        {
+          "id": "astm_f963_tas_soluble",
+          "value": 25000,
+          "jurisdiction": "US"
+        },
+        {
+          "id": "mx_nom252_2011_tas_general_25",
+          "value": 25000,
+          "jurisdiction": "MX"
+        },
+        {
+          "id": "eu_2009_48_cat3_tas_toy_migration",
+          "value": 47000,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
     },
     "iAs": {
       "type": "not_material",
@@ -62,13 +79,30 @@
       ]
     },
     "tHg": {
-      "type": "read_across",
-      "value": 94000,
-      "value_exact": 94000,
-      "source_id": "eu_2009_48_cat3_thg_toy_migration",
-      "source_jurisdiction": "EU",
-      "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
-      "label": "EN 71-3 / 2009/48 Cat III total-mercury migration limit (94 mg/kg), applied via EN 1400. ASTM F963's nominal 60 mg/kg incorporates an analytical-correction convention EN 71-3 abolished, so the EU raw limit is the stricter ceiling as enforced"
+      "type": "gov",
+      "value": 60000,
+      "value_exact": 60000,
+      "binding_jurisdiction": "US",
+      "binding_id": "astm_f963_thg_soluble",
+      "basis": "element migration, scraped-off toy material (mg/kg)",
+      "candidates": [
+        {
+          "id": "astm_f963_thg_soluble",
+          "value": 60000,
+          "jurisdiction": "US"
+        },
+        {
+          "id": "mx_nom252_2011_thg_general_60",
+          "value": 60000,
+          "jurisdiction": "MX"
+        },
+        {
+          "id": "eu_2009_48_cat3_thg_toy_migration",
+          "value": 94000,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
     },
     "MeHg": {
       "type": "not_material",

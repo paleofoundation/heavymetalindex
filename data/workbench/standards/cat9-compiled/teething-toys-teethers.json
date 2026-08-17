@@ -45,27 +45,29 @@
     },
     "tAs": {
       "type": "gov",
-      "value": 47000,
-      "value_exact": 47000,
-      "binding_jurisdiction": "EU",
-      "binding_id": "eu_2009_48_cat3_tas_toy_migration",
+      "value": 25000,
+      "value_exact": 25000,
+      "binding_jurisdiction": "US",
+      "binding_id": "astm_f963_tas_soluble",
       "basis": "element migration, scraped-off toy material (mg/kg)",
       "candidates": [
+        {
+          "id": "astm_f963_tas_soluble",
+          "value": 25000,
+          "jurisdiction": "US"
+        },
+        {
+          "id": "mx_nom252_2011_tas_general_25",
+          "value": 25000,
+          "jurisdiction": "MX"
+        },
         {
           "id": "eu_2009_48_cat3_tas_toy_migration",
           "value": 47000,
           "jurisdiction": "EU"
         }
       ],
-      "stricter_unselected": [
-        {
-          "id": "cn_gb21027_2020_tas_student_articles_25",
-          "value": 25000,
-          "jurisdiction": "CN",
-          "basis": "migratable element content; source unit mg/kg",
-          "scope": "oil pastels, crayons, watercolor paints, erasers, correction fluid, correction tape, correction stickers, correction pens, watercolor pens, fountain pens, ballpoint pens, markers, whiteboard pens, fluorescent pens, pencils, inks, pencil cores, and accessible printed, brushed, or coated portions of student articles"
-        }
-      ]
+      "stricter_unselected": []
     },
     "iAs": {
       "type": "not_material",
@@ -112,27 +114,29 @@
     },
     "tHg": {
       "type": "gov",
-      "value": 94000,
-      "value_exact": 94000,
-      "binding_jurisdiction": "EU",
-      "binding_id": "eu_2009_48_cat3_thg_toy_migration",
+      "value": 60000,
+      "value_exact": 60000,
+      "binding_jurisdiction": "US",
+      "binding_id": "astm_f963_thg_soluble",
       "basis": "element migration, scraped-off toy material (mg/kg)",
       "candidates": [
+        {
+          "id": "astm_f963_thg_soluble",
+          "value": 60000,
+          "jurisdiction": "US"
+        },
+        {
+          "id": "mx_nom252_2011_thg_general_60",
+          "value": 60000,
+          "jurisdiction": "MX"
+        },
         {
           "id": "eu_2009_48_cat3_thg_toy_migration",
           "value": 94000,
           "jurisdiction": "EU"
         }
       ],
-      "stricter_unselected": [
-        {
-          "id": "cn_gb21027_2020_thg_student_articles_60",
-          "value": 60000,
-          "jurisdiction": "CN",
-          "basis": "migratable element content; source unit mg/kg",
-          "scope": "oil pastels, crayons, watercolor paints, erasers, correction fluid, correction tape, correction stickers, correction pens, watercolor pens, fountain pens, ballpoint pens, markers, whiteboard pens, fluorescent pens, pencils, inks, pencil cores, and accessible printed, brushed, or coated portions of student articles"
-        }
-      ]
+      "stricter_unselected": []
     },
     "MeHg": {
       "type": "not_material",
