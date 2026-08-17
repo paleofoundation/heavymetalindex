@@ -103,16 +103,28 @@ function roundDisplay(x) {
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 
-// every register id a cell leans on, in one list
-function anchorIds(cell) {
+// A cell leans on register rows in two different ways, and conflating them produces false defects.
+//
+// BINDING ids are the rows the published number is taken from. They must be the cell's own analyte and
+// must agree with the value (C5, C6).
+//
+// CONTEXT ids are disclosures, not sources. `companion_ml` on a control cell names a sovereign limit
+// that governs a RELATED form or a bounding total — a control on inorganic arsenic legitimately cites
+// the total-arsenic ceiling that bounds it by identity, and a control on tin in a non-canned form
+// legitimately cites the canned-food tin ML. A different analyte or scope there is the whole point, so
+// context ids are checked only for existence and liveness (C3, C4), never for species match or value.
+function bindingIds(cell) {
   const ids = []
   if (cell.binding_id) ids.push(cell.binding_id)
   if (cell.source_id) ids.push(cell.source_id)
-  if (cell.companion_ml) ids.push(cell.companion_ml)
   for (const c of cell.components || []) if (c.source_id) ids.push(c.source_id)
   for (const c of cell.candidates || []) if (c.id) ids.push(c.id)
   return [...new Set(ids)]
 }
+function contextIds(cell) {
+  return cell.companion_ml ? [cell.companion_ml] : []
+}
+const anchorIds = (cell) => [...new Set([...bindingIds(cell), ...contextIds(cell)])]
 
 function auditRecord(rec, file) {
   const fails = [], warns = []
@@ -146,13 +158,17 @@ function auditRecord(rec, file) {
     const numeric = cell.value != null
     if (numeric && (type === "gov" || type === "read_across" || type === "screen" || type === "form_split")) firm++
 
-    // C3 / C4 anchor existence and liveness
+    // C3 / C4 anchor existence and liveness — every id, binding or context
+    const binding = new Set(bindingIds(cell))
     for (const id of anchorIds(cell)) {
       const row = byId.get(id)
       if (!row) { F("C3", `${analyte}: anchor id "${id}" is not in the register`); continue }
       if (GATED_STATUS.test(row.status || "")) F("C4", `${analyte}: anchor "${id}" is gated (status="${row.status}")`)
+      // A context disclosure is allowed to name another analyte's instrument; only a binding source
+      // must match the cell's analyte.
+      if (!binding.has(id)) continue
 
-      // C6 species integrity — the anchor row's metal must match the cell's analyte
+      // C6 species integrity — the binding row's metal must match the cell's analyte
       const rowMetal = (row.metal_species || "").trim()
       const norm = rowMetal === "Cr-total" ? "Cr" : rowMetal
       if (norm && norm !== analyte) {
@@ -173,7 +189,7 @@ function auditRecord(rec, file) {
 
     // C5 value fidelity — the published number must equal the strictest named anchor
     if (numeric) {
-      const named = anchorIds(cell)
+      const named = bindingIds(cell)
         .filter((id) => byId.has(id) && !GATED_STATUS.test(byId.get(id).status || ""))
         .filter((id) => {
           const m = (byId.get(id).metal_species || "").trim()
