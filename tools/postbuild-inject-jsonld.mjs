@@ -80,6 +80,18 @@ const REFERENCE_WORK = {
   url: "https://heavymetalindex.com",
 }
 
+// CC BY 4.0 is the license for the Index's own content and data (see PR #120:
+// LICENSE + LICENSE-CONTENT.md). Expose the canonical CC BY 4.0 deed URL so
+// crawlers, DataCite, and LLMs recognize the actual license, not just a link
+// to our human-readable licensing page.
+const LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+// Machine-readable license signals injected into <head> alongside the JSON-LD,
+// for crawlers that read <link>/<meta> rather than JSON-LD (Google Scholar,
+// Dublin Core consumers, etc.).
+const LICENSE_HEAD_TAGS =
+  `<link rel="license" href="${LICENSE_URL}" />\n` +
+  `<meta name="DC.rights" content="CC BY 4.0" />`
+
 const TYPE_MAP = {
   sources: { type: "ScholarlyArticle", section: "Source archive" },
   ingredients: { type: "ScholarlyArticle", section: "Ingredient profile" },
@@ -150,7 +162,7 @@ function injectHomepage() {
     description: fm.description ?? undefined,
     isPartOf: { "@id": siteId },
     publisher: PUBLISHER,
-    license: `${SITE}/licensing`,
+    license: LICENSE_URL,
     dateModified: fm.updated ? String(fm.updated) : undefined,
     hasPart: [
       { "@type": "CollectionPage", name: "Metals", url: `${SITE}/metals` },
@@ -167,6 +179,7 @@ function injectHomepage() {
 
   const block =
     `<!-- HMI-JSONLD-START -->\n` +
+    `${LICENSE_HEAD_TAGS}\n` +
     objects.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") +
     `\n<!-- HMI-JSONLD-END -->`
   const next = html.includes("</head>") ? html.replace("</head>", `${block}\n</head>`) : `${html}\n${block}`
@@ -206,6 +219,7 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
 
     const block =
       `<!-- HMI-JSONLD-START -->\n` +
+      `${LICENSE_HEAD_TAGS}\n` +
       ldObjects
         .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
         .join("\n") +
@@ -259,7 +273,7 @@ function buildJsonLd(category, slug, fm, meta, html) {
     publisher: PUBLISHER,
     creator: PUBLISHER,
     inLanguage: "en",
-    license: "https://heavymetalindex.com/licensing",
+    license: LICENSE_URL,
   }
 
   // The Index's own analytical/reference pages are authored (and editorially
@@ -299,7 +313,7 @@ function buildJsonLd(category, slug, fm, meta, html) {
         contentUrl: `https://heavymetalindex.com/api/contamination?ingredient=${slug}`,
         encodingFormat: "application/json",
       },
-      license: "https://heavymetalindex.com/licensing",
+      license: LICENSE_URL,
       publisher: PUBLISHER,
     }
   }
