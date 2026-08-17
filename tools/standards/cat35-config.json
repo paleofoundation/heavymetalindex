@@ -1,35 +1,115 @@
 {
   "_doc": "HMTc Category 35 (Prepared and Packaged Meals) compiler config. Method v2.0, COMPOSITE form. Category 35 is composite: no credible government sets a contaminant maximum level for 'prepared meal' or 'vegetable stock', so each cell is a DISCLOSED READ-ACROSS from the strictest applicable sovereign ML among the subcategory's PRINCIPAL COMPONENTS (component_read_across), a direct sovereign ML on the composite form (gov_ids -> regulatory-alignment; e.g. the canned-foods tin ML directly governs canned soup), a substantiated not-material determination, or a control. Component anchors are named register ids restricted to CREDIBLE regulators (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada, UK) and filtered for applicability: an adult prepared meal never reads across from an infant baby-food action level (infant/toddler mixed meals route to Category 1 by the taxonomy boundary rule). Basis: the composite is assessed as-consumed (ready-to-eat/ready-to-drink); wet-weight component MLs are comparable at face value and a dry-basis component ML applied at face value to a wet meal is conservative, so no basis conversion is performed. Numbers are NEVER occurrence-derived. Allowed provenance tags: regulatory-alignment, read-across, not-material, control, ratchet. See docs (CLAUDE.md Part 19) and the derivation report emitted alongside the compiled records. STAFF/HMTc content, not public wiki.",
-  "version": "cat35-v1.0 (2026-08-13)",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
+  "_doc_v1_1": "v1.1 (2026-08-17) finishes the two rows that v1.0 left incomplete (mixed-meals-prepared-foods, soups-broths-stocks) and does not alter the published bone-broth row. Hong Kong Cap. 132V was admitted to the credible-regulator set on 2026-08-17 (the bone-broth precedent), and its per-commodity Part 2 Schedule reaches components the EU, Codex and FSANZ leave unregulated. Every stricter-unselected warning the compiler raised on those two rows is now either adopted into the component candidate set or dispositioned in the affected cell's substantiation. Net effect: lead 100 -> 50 (Cap. 132V fruiting vegetables and preserved tomatoes), total arsenic 1000 -> 500 (Cap. 132V vegetables, cereals other than rice, meat, poultry), total mercury 500 -> 10 (Cap. 132V vegetables other than edible fungi), and total chromium moves off a factually false control onto a disclosed screen read-across at 500 (Cap. 132V vegetables other than pulses). Two claims that v1.0 published and that Cap. 132V falsified, that no credible regulator sets a mercury ML for terrestrial meat, cereals or vegetables and that none sets a total-chromium ML for these components, are corrected rather than preserved.",
+  "version": "cat35-v1.1 (2026-08-17)",
+  "_category": {
+    "number": 35,
+    "name": "Prepared and Packaged Meals",
+    "anchor": "composite; per-component regulatory anchors apply",
+    "basis_family": "dietary as-consumed wet weight (the composite is assessed ready-to-eat or ready-to-serve; component maximum levels expressed as wet weight, as sold, as placed on the market, or as the portion ordinarily consumed are comparable at face value within this family)",
+    "method_label": "HMTc Method v2.0 (government-limit default; COMPOSITE — disclosed read-across from strictest applicable principal-component sovereign ML; never occurrence-derived)",
+    "method_note": "COMPOSITE CONVENTION. No credible sovereign government sets a contaminant maximum level for a prepared meal, a soup, or a stock, so each numeric cell is the strictest applicable maximum level among the row's PRINCIPAL COMPONENTS, disclosed with the full candidate ladder and the binding component named. A component enters the candidate set when it is a principal (characterizing or major-mass) component of products within the row as scoped; an applicable but looser component value is disclosed and deliberately not adopted; and a stricter value scoped to a product form this category does not cover (infant and under-36-months foods, packaged drinking water, edible fats and oils, salt) is dispositioned in the cell's substantiation rather than silently adopted or silently ignored. Dry-basis and as-sold component values are applied at face value to the as-consumed composite, which is conservative, and no reconstitution conversion is invented (the 8:1 powder-to-liquid conversion is confined to infant formula).",
+    "credible": [
+      "EU",
+      "UK",
+      "CODEX",
+      "international",
+      "US",
+      "AU-NZ",
+      "CA",
+      "HK"
+    ],
+    "credible_note": "Restated explicitly rather than widened: this set is identical to the compiler default. Hong Kong (Food Adulteration (Metallic Contamination) Regulations, Cap. 132V) was admitted on 2026-08-17 on the bone-broth precedent, because its Part 2 Schedule is a comprehensive per-commodity metallic-contamination schedule that reaches commodities the EU, Codex and FSANZ leave unregulated: terrestrial-animal, vegetable and cereal mercury, vegetable and meat total arsenic, and total chromium in vegetables, pulses, cereals, meat and poultry. That admission is what finishes the two composite rows, because those Cap. 132V component values are stricter than the bindings v1.0 selected.",
+    "jur_priority": [
+      "EU",
+      "UK",
+      "CODEX",
+      "international",
+      "US",
+      "CA",
+      "AU-NZ"
+    ]
+  },
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
   "subcategories": {
     "mixed-meals-prepared-foods": {
       "name": "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
       "native_basis": "as_consumed",
       "native_basis_label": "as consumed / ready-to-eat (wet weight)",
-      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|meat of|poultry|bovine|pulse|legume|muscle meat of fish",
+      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|tomato|meat of|poultry|bovine|pulse|legume|muscle meat of fish",
       "audit_exclude_scope": "infant|baby|toddler|formula|juice|drink|nectar|oil\\b|oils\\b|margarine|spice|chocolate|cocoa|wine|\\bsalt\\b|honey|supplement|wafer|cracker|\\bwaffle|offal|dried|\\bfat\\b|seaweed|bran|germ",
-      "scope_note": "Adult and general-population frozen dinners, boxed meals, and ready-to-eat composite meals combining a starch/grain, a protein (meat, poultry, or fish), and vegetables (and often legumes/pulses). Infant and toddler mixed meals route to Category 1; a product that is primarily a single matrix (plain pasta, a single vegetable) routes to that matrix category. Bone broth is certified under Category 35 row bone-broth (mechanistically distinct hazard).",
+      "basis_guard": "wet weight|portion ordinarily consumed|product as placed on market|food as listed in Cap 132V|as_sold",
+      "basis_guard_note": "Every named anchor must be a dietary food maximum level in a comparable as-consumed family (EU wet weight or product as placed on the market, FSANZ portion ordinarily consumed, Cap. 132V food as sold). The guard stops a drinking-water parametric value, an animal-feed maximum, a food-contact-material specific migration limit, or a toy migration limit from silently anchoring a composite food cell: those are different basis classes and are not comparable to a food-content ceiling. A cell whose named anchor falls outside the family fails the build instead of publishing a mixed-basis number.",
+      "scope_note": "Adult and general-population frozen dinners, boxed meals, and ready-to-eat composite meals combining a starch/grain, a protein (meat, poultry, or fish), and vegetables (and often legumes/pulses). Infant and toddler mixed meals route to Category 1; a product that is primarily a single matrix (plain pasta, a single vegetable) routes to that matrix category. Bone broth is certified under Category 35 row bone-broth (mechanistically distinct hazard). Principal components for anchor selection are the starch or grain, the meat, poultry or fish protein, the vegetables, and the pulses or legumes. Dairy is not a principal component of this row as scoped: it enters only as a minor formulation ingredient in cream-style variants, where it carries its own Category 24 milk ceilings at the ingredient stage, so the fluid-milk MLs (Cap. 132V lead 20 and total mercury 10 per kilogram of milk) are not imported into the composite ceiling.",
       "cells": {
         "Pb": {
           "component_read_across": {
             "components": [
-              {"component": "cereal/grain", "source_id": "aunz_sch19_pb_cereals_200"},
-              {"component": "vegetable (root/tuber)", "source_id": "eu2023_pb_root_tuber_vegetables_100"},
-              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "aunz_sch19_pb_meat_100"},
-              {"component": "fish/seafood", "source_id": "eu2023_pb_fish_muscle_300"}
+              {
+                "component": "vegetable (fruiting, other than cucurbits: tomato, sweet pepper, aubergine)",
+                "source_id": "hk_cap132v_pb_fruiting-vegetables-other-than-cucurbits_50"
+              },
+              {
+                "component": "vegetable (fruiting, cucurbits: courgette, squash, pumpkin, cucumber)",
+                "source_id": "hk_cap132v_pb_fruiting-vegetables-cucurbits_50"
+              },
+              {
+                "component": "tomato preserved by heat treatment and hermetically sealed (canned tomato base of a sauced meal)",
+                "source_id": "hk_cap132v_pb_tomatoes-preserved-by-heat-treatment-and-hermetically-s_50"
+              },
+              {
+                "component": "vegetable (root/tuber)",
+                "source_id": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              {
+                "component": "meat (cattle/sheep/pig/poultry)",
+                "source_id": "aunz_sch19_pb_meat_100"
+              },
+              {
+                "component": "cereal/grain",
+                "source_id": "aunz_sch19_pb_cereals_200"
+              },
+              {
+                "component": "fish/seafood",
+                "source_id": "eu2023_pb_fish_muscle_300"
+              }
             ],
             "basis_label": "read-across from strictest applicable principal-component Pb ML (as consumed)",
-            "label": "strictest applicable component lead ML binds the composite; the vegetable and meat components (both 100 ug/kg) are stricter than the cereal (200) and fish (300) components"
+            "label": "the fruiting-vegetable lead ML (Hong Kong Cap. 132V, 50 ug/kg) binds the composite: tomato, sweet pepper, aubergine, courgette and squash are principal components of this row, and Cap. 132V regulates them more strictly than the root/tuber vegetable (100), meat (100), cereal (200) and fish (300) components. Tightened from 100 to 50 in v1.1 on the Cap. 132V admission.",
+            "substantiation": "Cap. 132V Part 2 Schedule sets a lead ML of 50 ug/kg for fruiting vegetables (cucurbit and non-cucurbit alike) and for tomatoes preserved by heat treatment and hermetically sealed, which is the canned tomato base of most sauced prepared meals. Those are characterizing components, not incidental ones, so the composite ceiling moves from 100 to 50 ug/kg. Two stricter Cap. 132V lead rows are deliberately NOT adopted and remain visible in the audit scan: cereal-based food (20 ug/kg) and ready-to-eat complementary food other than cereal-based (20 ug/kg), both scoped to persons under the age of 36 months. This row certifies adult and general-population meals only; infant and toddler mixed meals route to HMTc Category 1 by the taxonomy boundary rule, so an under-36-months action level is not an applicable anchor here. The Codex ready-to-eat meals for infants and young children ML (20 ug/kg) is dispositioned identically. Leafy-vegetable lead MLs (EU 2023/915 and Cap. 132V, 300 ug/kg each) and the fish ML (300) are applicable but looser, and are disclosed rather than adopted."
           }
         },
         "Cd": {
           "component_read_across": {
             "components": [
-              {"component": "pulses/legumes", "source_id": "eu2023_cd_pulses_40"},
-              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "eu2023_cd_meat_50"},
-              {"component": "cereal (barley/rye, strictest cereal)", "source_id": "eu2023_cd_barley_rye_50"},
-              {"component": "vegetable (root/tuber)", "source_id": "eu2023_cd_root_tuber_vegetables_100"}
+              {
+                "component": "pulses/legumes",
+                "source_id": "eu2023_cd_pulses_40"
+              },
+              {
+                "component": "meat (cattle/sheep/pig/poultry)",
+                "source_id": "eu2023_cd_meat_50"
+              },
+              {
+                "component": "cereal (barley/rye, strictest cereal)",
+                "source_id": "eu2023_cd_barley_rye_50"
+              },
+              {
+                "component": "vegetable (root/tuber)",
+                "source_id": "eu2023_cd_root_tuber_vegetables_100"
+              }
             ],
             "basis_label": "read-across from strictest applicable principal-component Cd ML (as consumed)",
             "label": "the pulse/legume component (EU 40 ug/kg) is the binding cadmium component; a prepared meal with a bean/lentil/soy component is held to the strictest applicable component ceiling"
@@ -38,18 +118,43 @@
         "tAs": {
           "component_read_across": {
             "components": [
-              {"component": "cereal grains", "source_id": "aunz_sch19_tas_cereal_grains_1000"}
+              {
+                "component": "vegetable",
+                "source_id": "hk_cap132v_tas_vegetables_500"
+              },
+              {
+                "component": "cereal (other than rice)",
+                "source_id": "hk_cap132v_tas_cereals-other-than-rice_500"
+              },
+              {
+                "component": "meat of animal",
+                "source_id": "hk_cap132v_tas_meat-of-animal_500"
+              },
+              {
+                "component": "meat of poultry",
+                "source_id": "hk_cap132v_tas_meat-of-poultry_500"
+              },
+              {
+                "component": "cereal grains and milled cereal products",
+                "source_id": "aunz_sch19_tas_cereal_grains_1000"
+              }
             ],
-            "basis_label": "read-across from the cereal-grain total-arsenic ML (as consumed)",
-            "label": "cereal grains carry the only credible-regulator total-arsenic ML among the meal's components; total arsenic is a screen and the health-relevant inorganic fraction is controlled by the iAs cell",
-            "substantiation": "Total arsenic is a non-toxicological screen; the toxic species (inorganic arsenic) is controlled separately on the iAs cell at 100 ug/kg. The cereal-grain tAs ML (FSANZ, 1000 ug/kg) is the only applicable credible component anchor for total arsenic."
+            "basis_label": "read-across from strictest applicable principal-component total-arsenic ML (as consumed)",
+            "label": "Cap. 132V sets a total-arsenic ML of 500 ug/kg for vegetables, for cereals other than rice, for meat of animal and for meat of poultry, which covers every principal component of a mixed meal and is stricter than the FSANZ cereal-grain ML (1000) that v1.0 selected. Total arsenic remains a screen; the health-relevant inorganic fraction is controlled on the iAs cell at 100 ug/kg.",
+            "substantiation": "Total arsenic is a non-toxicological screen: the toxic species is inorganic arsenic, controlled separately on the iAs cell at 100 ug/kg (EU 2025/1891, fish), and the species-below-total relation holds (iAs 100 <= tAs 500). v1.1 tightens the cell from 1000 to 500 ug/kg because the Cap. 132V per-commodity total-arsenic MLs reach the components for which the FSANZ cereal-grain ML was the only anchor, and the v1.0 claim that cereal grains carry the only credible total-arsenic component ML is withdrawn. Rice is deliberately absent from Cap. 132V's total-arsenic schedule because rice is regulated on inorganic arsenic instead; that is handled on the iAs cell and never by letting a species stand in for a total. The Cap. 132V edible-fats-and-oils total-arsenic ML (100 ug/kg) is stricter still and is NOT adopted: cooking fat is a minor formulation ingredient rather than a characterizing component of a meal, edible oils certify under HMTc Category 30 in their own basis, and holding a whole meal to an oil ceiling would import a limit from a material that is a few percent of the product. Food-grade salt (500) is dispositioned the same way, as an ingredient specification rather than a composite ceiling."
           }
         },
         "iAs": {
           "component_read_across": {
             "components": [
-              {"component": "fish/seafood", "source_id": "eu20251891_ias_fish_other_100"},
-              {"component": "rice (milled)", "source_id": "eu2023_ias_rice_milled_150"}
+              {
+                "component": "fish/seafood",
+                "source_id": "eu20251891_ias_fish_other_100"
+              },
+              {
+                "component": "rice (milled)",
+                "source_id": "eu2023_ias_rice_milled_150"
+              }
             ],
             "basis_label": "read-across from strictest applicable inorganic-arsenic component ML (as consumed)",
             "label": "inorganic arsenic is material where the meal contains a fish/seafood or rice component; the EU fish inorganic-arsenic ML (100 ug/kg) binds, stricter than the EU milled-rice ML (150)"
@@ -58,31 +163,58 @@
         "tHg": {
           "component_read_across": {
             "components": [
-              {"component": "fish/seafood (muscle meat)", "source_id": "eu2023_hg_fish_general_500"}
+              {
+                "component": "vegetable (other than edible fungi)",
+                "source_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
+              },
+              {
+                "component": "cereal (rice, husked and polished rice, maize, maize flour, wheat, wheat flour)",
+                "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+              },
+              {
+                "component": "meat of animal",
+                "source_id": "hk_cap132v_thg_meat-of-animal_50"
+              },
+              {
+                "component": "meat of poultry",
+                "source_id": "hk_cap132v_thg_meat-of-poultry_50"
+              },
+              {
+                "component": "poultry eggs (egg-containing meals: breakfast bowls, fried rice, quiche)",
+                "source_id": "hk_cap132v_thg_poultry-eggs_50"
+              },
+              {
+                "component": "fish/seafood (muscle meat)",
+                "source_id": "eu2023_hg_fish_general_500"
+              }
             ],
-            "basis_label": "read-across from the seafood total-mercury ML (as consumed)",
-            "label": "mercury is material only where the meal contains a seafood component; the composite inherits the EU seafood mercury ceiling (500 ug/kg). Terrestrial meat, cereals, and vegetables carry no credible mercury ML.",
-            "substantiation": "No credible regulator sets a mercury maximum level for terrestrial meat, cereals, or vegetables; mercury is a seafood-bioaccumulation hazard. A fish-containing prepared meal inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg total mercury). Methylmercury is bounded by this total-mercury ceiling (MeHg cell)."
+            "basis_label": "read-across from strictest applicable principal-component total-mercury ML (as consumed)",
+            "label": "the vegetable total-mercury ML (Hong Kong Cap. 132V, 10 ug/kg) binds. v1.1 replaces the v1.0 seafood-only anchor of 500 ug/kg: Cap. 132V does set mercury MLs for the terrestrial components of a mixed meal (vegetables 10, rice/maize/wheat and their flours 20, meat of animal 50, meat of poultry 50, poultry eggs 50), and vegetables are a principal component of essentially every product in this row.",
+            "substantiation": "The v1.0 statement that no credible regulator sets a mercury maximum level for terrestrial meat, cereals or vegetables was true only while Hong Kong sat outside the credible-regulator set. Cap. 132V was admitted on 2026-08-17, and its Part 2 Schedule item for mercury (expressed as total mercury) sets 10 ug/kg for vegetables other than edible fungi, 20 for rice, maize and wheat and their flours, and 50 for meat of animal, meat of poultry and poultry eggs. The strictest applicable component therefore moves this cell from 500 to 10 ug/kg, a fifty-fold tightening, and the false claim is corrected rather than preserved. CONSEQUENCE, STATED PLAINLY: a seafood-characterized composite (tuna casserole, fish pie, prawn stir-fry) contains a component whose own sovereign ceiling is 500 ug/kg (EU 2023/915 fish; Cap. 132V aquatic animals other than fish, 500), so such a product will frequently measure above this composite ceiling. That does not loosen the ceiling. The seafood ingredient is governed at its own stage by the Category 6 seafood ceilings, a composite lot above 10 ug/kg total mercury is not certifiable on this row, and whether a seafood-characterized composite warrants its own taxonomy row is a Step 0 category decision rather than a limit-setting decision. Edible fungi (Cap. 132V 100 ug/kg) are applicable but looser and are disclosed rather than adopted. Methylmercury is a species of and bounded by this total (MeHg <= tHg) and is handled on the MeHg cell."
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg) and its only formation pathway in a prepared meal is a seafood component, which is already governed by the total-mercury ceiling on the tHg cell. No credible regulator sets a methylmercury limit for a composite meal below the binding total-mercury ceiling.",
-            "reference_method": "Total-mercury screen (ICP-MS/CV-AAS); methylmercury speciation only on seafood-containing meals if total mercury approaches the ceiling.",
-            "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No credible regulator sets a methylmercury content limit for a prepared-meal composite; methylmercury MLs are scoped to fish and seafood. MeHg is a species of and bounded by total mercury (MeHg <= tHg), governed through the total-mercury cell.",
-            "jurisdictions_checked": "EU 2023/915; Codex CXS 193; US FDA CPG 540.600; FSANZ; Health Canada; UK; HK Cap 132V — none set a methylmercury limit for a composite prepared meal."
+          "control": {
+            "rationale": "No credible sovereign government sets a methylmercury maximum level for this product form: authors2025-the-icp-ms-study-on-the-release-of and hwang2022-home-meal-replacement-heavy-metals measured methylmercury in this matrix, so the species is not absent and no not-material determination is supportable. Methylmercury is therefore held under mandatory analytical control rather than recorded not-material, and it remains bounded by identity below the published total-mercury ceiling for this row (methylmercury cannot exceed total mercury). No methylmercury ceiling is invented.",
+            "reference_method": "Total-mercury screen by closed-vessel acid digestion with ICP-MS or CV-AAS on the homogenised as-consumed composite; reflex methylmercury speciation (species-specific isotope dilution GC-ICP-MS) only on a seafood-containing meal whose total mercury approaches the total-mercury ceiling.",
+            "bounded_by": "tHg"
           }
         },
         "Ni": {
           "component_read_across": {
             "components": [
-              {"component": "vegetable (fruiting)", "source_id": "eu2024_ni_fruiting_veg_400"},
-              {"component": "cereal/grain", "source_id": "eu2024_ni_cereals_800"}
+              {
+                "component": "vegetable (fruiting)",
+                "source_id": "eu2024_ni_fruiting_veg_400"
+              },
+              {
+                "component": "cereal/grain",
+                "source_id": "eu2024_ni_cereals_800"
+              }
             ],
-            "basis_label": "read-across from strictest applicable nickel component ML (EU 2024/1252, as consumed)",
-            "label": "the fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg) among the meal's components; Tier-2 analyte"
+            "basis_label": "read-across from strictest applicable nickel component ML (Commission Regulation (EU) 2024/1987, as consumed)",
+            "label": "the fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg, Commission Regulation (EU) 2024/1987 amending 2023/915, applying from 2025-07-01) among the meal's components; Tier-2 analyte. v1.1 corrects the instrument citation, which v1.0 gave as EU 2024/1252 (an unrelated instrument); the value and the binding row are unchanged.",
+            "substantiation": "Nickel MLs exist only in the EU instrument and only for plant matrices (fruiting vegetables 400, brassica 500, leafy vegetables 500, cereals 800, root/tuber/bulb vegetables 900, legume vegetables 1000 ug/kg). The fruiting-vegetable value is the strictest applicable component. No credible regulator sets a nickel ML for meat, poultry or fish, and the only Cap. 132V nickel rows are packaged-water parametric values (20 and 70 ug/kg) which are a different basis family and are not adopted (see the row basis guard)."
           }
         },
         "Sn": {
@@ -94,17 +226,20 @@
         },
         "Al": {
           "control": {
-            "rationale": "No credible regulator sets an aluminium maximum level for prepared meals or their principal food components (aluminium food MLs exist only for specific matrices such as infant formula and certain additives). Aluminium is reported on the panel; an anomalous signal triggers investigation of cookware, packaging, and additive sources.",
-            "reference_method": "Total aluminium by ICP-MS; investigate-the-line screen, not a health limit.",
+            "rationale": "No credible regulator sets an aluminium maximum level for a prepared meal or for any principal component of one. Instruments checked: EU 2023/915 and EU 2024/1987 (no aluminium entry), Codex CXS 193 (no aluminium entry), FSANZ Schedule 19 (aluminium appears only as infant-formula MLs of 500 and 1000 ug/kg, which are Category 1 scope), Hong Kong Cap. 132V Part 2 Schedule (no aluminium entry), and US FDA, Health Canada and UK dietary instruments (no aluminium ML). Aluminium reaches the credible register only in three basis families that cannot anchor a food-content cell: drinking-water parametric values (EU 2020/2184 and US 21 CFR 165.110 at 200 ug/L, Health Canada at 2900 ug/L), food-contact-material specific migration limits (EU 10/2011, a migration figure), and toy migration limits. Permitted-additive maxima for aluminium-containing additives in baked goods and starch noodles exist only in non-credible-tier instruments and are additive-use levels rather than contaminant ceilings. Aluminium is therefore a mandatory reported cell with no invented ceiling.",
+            "reference_method": "Total aluminium by closed-vessel microwave acid digestion with ICP-MS on the homogenised as-consumed composite, one determination per production lot, reported on the certificate with no numeric pass/fail. Escalation: a result materially above the line's established baseline for that formulation triggers investigation of aluminium cookware and contact surfaces, foil and laminate packaging, and any aluminium-containing additive in the formulation, with a confirmatory second lot before release.",
             "bounded_by": null
           }
         },
         "Cr": {
-          "control": {
-            "rationale": "No credible regulator sets a total-chromium maximum level for prepared meals or their food components. Total chromium is reported as a manufacturing-anomaly screen (stainless-equipment leaching); the toxic species (Cr-VI) is not material in a cooked wet food matrix (see Cr-VI cell).",
-            "reference_method": "Total chromium by ICP-MS; equipment-leaching tripwire, not a health limit.",
-            "bounded_by": "Cr-VI"
-          }
+          "read_across": {
+            "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+            "label": "Hong Kong Cap. 132V sets a total-chromium ML of 500 ug/kg for vegetables other than pulses, the strictest applicable component value for a mixed meal; the looser Cap. 132V rows for pulses, cereals, meat of animal and meat of poultry (1000 ug/kg each) are disclosed and not adopted.",
+            "substantiation": "v1.0 recorded this cell as a bare control on the statement that no credible regulator sets a total-chromium maximum level for prepared meals or their food components. That statement is false following Hong Kong's admission to the credible-regulator set on 2026-08-17: Cap. 132V Part 2 Schedule sets total chromium at 500 ug/kg for vegetables other than pulses and at 1000 ug/kg for pulses, cereals, meat of animal, meat of poultry and fish. The cell is therefore a disclosed read-across from the strictest applicable component rather than a control. It publishes as a SCREEN: dietary chromium is overwhelmingly trivalent (an essential nutrient) and the health-relevant hexavalent species is separately determined not material in a cooked wet matrix (Cr-VI cell, speciation-bounded), so the value is not protective as a standalone total-element ceiling. Total chromium remains mandatory on every lot, and a result approaching the screen value is treated as a stainless-steel equipment-leaching signal rather than a toxicological finding."
+          },
+          "screen": true,
+          "screen_note": "Total chromium is a screen, not a protective ceiling: the value records the sovereign total-chromium ML (Cap. 132V vegetables other than pulses, 500 ug/kg) while the health-relevant species is Cr(VI), which is not stable in this matrix. Excluded from the firm-limit count; the escalation rule is equipment-leaching investigation, not a toxicological exceedance.",
+          "basis_label": "read-across from the sovereign total-chromium vegetable ML (Cap. 132V, food as sold, applied at face value to the as-consumed composite)"
         },
         "Cr-VI": {
           "not_material": {
@@ -122,29 +257,68 @@
       "name": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
       "native_basis": "as_consumed",
       "native_basis_label": "as consumed / ready-to-serve (reconstituted to serving strength; dry-mix and bouillon assessed as prepared, not as the concentrate)",
-      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|meat of|poultry|bovine|pulse|legume|muscle meat of fish|canned food",
+      "audit_scope": "cereal|grain|wheat|maize|\\boat|barley|\\brice|vegetable|potato|tuber|tomato|meat of|poultry|bovine|pulse|legume|muscle meat of fish|canned food",
       "audit_exclude_scope": "infant|baby|toddler|formula|juice|drink|nectar|oil\\b|oils\\b|margarine|spice|chocolate|cocoa|wine|\\bsalt\\b|honey|supplement|wafer|cracker|\\bwaffle|offal|dried|\\bfat\\b|seaweed|bran|germ|beverage",
-      "scope_note": "Canned soups, dry soup mixes, bouillon cubes and powders, and ready-to-drink carton stocks and broths, plant- or meat-based. Assessed on an as-consumed (reconstituted-to-serving) basis: a bouillon cube is evaluated as the prepared broth, not as the concentrated cube, because there is no legislated concentrate-to-serving ratio. Bone broth is certified separately under row bone-broth. Composite method identical to mixed meals; canned tin is genuinely material here (canned soup).",
+      "basis_guard": "wet weight|portion ordinarily consumed|product as placed on market|food as listed in Cap 132V|as_sold",
+      "basis_guard_note": "Every named anchor must be a dietary food maximum level in a comparable as-consumed family (EU wet weight or product as placed on the market, FSANZ portion ordinarily consumed, Cap. 132V food as sold). The guard matters most on this row because a soup is mostly water: it stops a packaged-drinking-water parametric value, an animal-feed maximum, or a food-contact-material migration limit from silently anchoring a composite food cell, since those are different basis classes and are not comparable to a food-content ceiling. A cell whose named anchor falls outside the family fails the build instead of publishing a mixed-basis number.",
+      "scope_note": "Canned soups, dry soup mixes, bouillon cubes and powders, and ready-to-drink carton stocks and broths, plant- or meat-based. Assessed on an as-consumed (reconstituted-to-serving) basis: a bouillon cube is evaluated as the prepared broth, not as the concentrated cube, because there is no legislated concentrate-to-serving ratio. Bone broth is certified separately under row bone-broth. Composite method identical to mixed meals; canned tin is genuinely material here (canned soup). Principal components for anchor selection are the vegetables, the meat, poultry or fish protein, the cereal or noodle, and the pulses. Formulation water is an input specification rather than a component anchor: packaged-drinking-water parametric values (Cap. 132V bottled water at 10 ug/kg lead, 10 total arsenic, 3 cadmium, 50 total chromium; EU 2020/2184) govern water sold as the sole daily hydration source and are not composite food ceilings, so they are not adopted here. Certified lines are required to use potable water meeting the applicable national drinking-water standard, verified on the ingredient-water specification, rather than by re-deriving the composite limit from a water instrument. Dairy is likewise not a principal component of this row as scoped: a cream-style variant carries its Category 24 milk ceilings at the ingredient stage and does not import the fluid-milk MLs (Cap. 132V lead 20, total mercury 10) into the composite ceiling.",
       "cells": {
         "Pb": {
           "component_read_across": {
             "components": [
-              {"component": "vegetable (root/tuber)", "source_id": "eu2023_pb_root_tuber_vegetables_100"},
-              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "aunz_sch19_pb_meat_100"},
-              {"component": "cereal/grain (noodle soups)", "source_id": "aunz_sch19_pb_cereals_200"},
-              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu2023_pb_fish_muscle_300"}
+              {
+                "component": "vegetable (fruiting, other than cucurbits: tomato, sweet pepper, aubergine)",
+                "source_id": "hk_cap132v_pb_fruiting-vegetables-other-than-cucurbits_50"
+              },
+              {
+                "component": "vegetable (fruiting, cucurbits: courgette, squash, pumpkin, cucumber)",
+                "source_id": "hk_cap132v_pb_fruiting-vegetables-cucurbits_50"
+              },
+              {
+                "component": "tomato preserved by heat treatment and hermetically sealed (canned tomato soup base)",
+                "source_id": "hk_cap132v_pb_tomatoes-preserved-by-heat-treatment-and-hermetically-s_50"
+              },
+              {
+                "component": "vegetable (root/tuber)",
+                "source_id": "eu2023_pb_root_tuber_vegetables_100"
+              },
+              {
+                "component": "meat (cattle/sheep/pig/poultry)",
+                "source_id": "aunz_sch19_pb_meat_100"
+              },
+              {
+                "component": "cereal/grain (noodle soups)",
+                "source_id": "aunz_sch19_pb_cereals_200"
+              },
+              {
+                "component": "fish/seafood (bisque/chowder)",
+                "source_id": "eu2023_pb_fish_muscle_300"
+              }
             ],
             "basis_label": "read-across from strictest applicable principal-component Pb ML (as consumed)",
-            "label": "vegetable and meat components (both 100 ug/kg) are the strictest applicable lead anchors for stock/broth"
+            "label": "the fruiting-vegetable lead ML (Hong Kong Cap. 132V, 50 ug/kg) binds, and the hermetically sealed heat-treated tomato ML (also 50) is the closest anchor of all for canned tomato soup; both are stricter than the root/tuber vegetable (100), meat (100), cereal (200) and fish (300) components. Tightened from 100 to 50 in v1.1 on the Cap. 132V admission.",
+            "substantiation": "Cap. 132V Part 2 Schedule sets lead at 50 ug/kg for fruiting vegetables (cucurbit and non-cucurbit) and for tomatoes preserved by heat treatment and hermetically sealed. Tomato soup is the flagship product of this row and is made from exactly that commodity, so the 50 ug/kg value is not a distant analogue but the nearest applicable sovereign limit, and the composite ceiling moves from 100 to 50 ug/kg. Two stricter Cap. 132V lead rows are deliberately NOT adopted and remain visible in the audit scan: cereal-based food (20 ug/kg) and ready-to-eat complementary food other than cereal-based (20 ug/kg), both scoped to persons under the age of 36 months. Infant and toddler soups and purees route to HMTc Category 1 by the taxonomy boundary rule, and this row certifies adult and general-population products, so an under-36-months action level is not an applicable anchor; the Codex ready-to-eat meals for infants and young children ML (20 ug/kg) is dispositioned identically. Canned-vegetable (100) and leafy-vegetable (300) lead MLs are applicable but looser and are disclosed rather than adopted."
           }
         },
         "Cd": {
           "component_read_across": {
             "components": [
-              {"component": "pulses/legumes (lentil/split-pea/bean soups)", "source_id": "eu2023_cd_pulses_40"},
-              {"component": "meat (cattle/sheep/pig/poultry)", "source_id": "eu2023_cd_meat_50"},
-              {"component": "cereal (barley soups)", "source_id": "eu2023_cd_barley_rye_50"},
-              {"component": "vegetable (root/tuber)", "source_id": "eu2023_cd_root_tuber_vegetables_100"}
+              {
+                "component": "pulses/legumes (lentil/split-pea/bean soups)",
+                "source_id": "eu2023_cd_pulses_40"
+              },
+              {
+                "component": "meat (cattle/sheep/pig/poultry)",
+                "source_id": "eu2023_cd_meat_50"
+              },
+              {
+                "component": "cereal (barley soups)",
+                "source_id": "eu2023_cd_barley_rye_50"
+              },
+              {
+                "component": "vegetable (root/tuber)",
+                "source_id": "eu2023_cd_root_tuber_vegetables_100"
+              }
             ],
             "basis_label": "read-across from strictest applicable principal-component Cd ML (as consumed)",
             "label": "legume soups (lentil, split-pea, bean) make the EU pulse cadmium ML (40 ug/kg) the binding component"
@@ -153,18 +327,43 @@
         "tAs": {
           "component_read_across": {
             "components": [
-              {"component": "cereal grains (noodle soups)", "source_id": "aunz_sch19_tas_cereal_grains_1000"}
+              {
+                "component": "vegetable",
+                "source_id": "hk_cap132v_tas_vegetables_500"
+              },
+              {
+                "component": "cereal (other than rice; noodle soups)",
+                "source_id": "hk_cap132v_tas_cereals-other-than-rice_500"
+              },
+              {
+                "component": "meat of animal",
+                "source_id": "hk_cap132v_tas_meat-of-animal_500"
+              },
+              {
+                "component": "meat of poultry",
+                "source_id": "hk_cap132v_tas_meat-of-poultry_500"
+              },
+              {
+                "component": "cereal grains and milled cereal products",
+                "source_id": "aunz_sch19_tas_cereal_grains_1000"
+              }
             ],
-            "basis_label": "read-across from the cereal-grain total-arsenic ML (as consumed)",
-            "label": "cereal grains carry the only credible-regulator total-arsenic ML among the components; the toxic inorganic fraction is controlled on the iAs cell",
-            "substantiation": "Total arsenic is a screen; inorganic arsenic (iAs cell, 100 ug/kg) controls the toxic species. Cereal-grain tAs ML (FSANZ, 1000 ug/kg) is the applicable credible component anchor."
+            "basis_label": "read-across from strictest applicable principal-component total-arsenic ML (as consumed)",
+            "label": "Cap. 132V sets total arsenic at 500 ug/kg for vegetables, cereals other than rice, meat of animal and meat of poultry, covering every principal component of a soup or stock and stricter than the FSANZ cereal-grain ML (1000) that v1.0 selected. Total arsenic remains a screen; the toxic inorganic fraction is controlled on the iAs cell at 100 ug/kg.",
+            "substantiation": "Total arsenic is a screen: the toxic species is inorganic arsenic, controlled on the iAs cell at 100 ug/kg (EU 2025/1891, fish), and iAs 100 <= tAs 500 holds. v1.1 tightens the cell from 1000 to 500 ug/kg on the Cap. 132V per-commodity total-arsenic MLs, and the v1.0 claim that cereal grains carry the only credible total-arsenic component ML is withdrawn. Rice is absent from Cap. 132V's total-arsenic schedule because rice is regulated on inorganic arsenic; congee and rice soups are therefore controlled through the iAs cell, never by substituting a species for a total. The Cap. 132V edible-fats-and-oils total-arsenic ML (100 ug/kg) and the food-grade-salt ML (500) are not adopted: cooking fat and salt are minor formulation ingredients rather than characterizing components, they certify under HMTc Categories 30 and 34 in their own bases, and importing either would set a whole-soup ceiling from a material that is a small percentage of the product. Packaged-drinking-water total arsenic (10 ug/kg) is dispositioned in the row scope note as an ingredient-water specification."
           }
         },
         "iAs": {
           "component_read_across": {
             "components": [
-              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu20251891_ias_fish_other_100"},
-              {"component": "rice (congee/rice soups)", "source_id": "eu2023_ias_rice_milled_150"}
+              {
+                "component": "fish/seafood (bisque/chowder)",
+                "source_id": "eu20251891_ias_fish_other_100"
+              },
+              {
+                "component": "rice (congee/rice soups)",
+                "source_id": "eu2023_ias_rice_milled_150"
+              }
             ],
             "basis_label": "read-across from strictest applicable inorganic-arsenic component ML (as consumed)",
             "label": "seafood and rice components make inorganic arsenic material; EU fish iAs ML (100) binds, stricter than milled rice (150)"
@@ -173,52 +372,89 @@
         "tHg": {
           "component_read_across": {
             "components": [
-              {"component": "fish/seafood (bisque/chowder)", "source_id": "eu2023_hg_fish_general_500"}
+              {
+                "component": "vegetable (other than edible fungi)",
+                "source_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
+              },
+              {
+                "component": "cereal (rice, husked and polished rice, maize, maize flour, wheat, wheat flour)",
+                "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+              },
+              {
+                "component": "meat of animal",
+                "source_id": "hk_cap132v_thg_meat-of-animal_50"
+              },
+              {
+                "component": "meat of poultry",
+                "source_id": "hk_cap132v_thg_meat-of-poultry_50"
+              },
+              {
+                "component": "poultry eggs (egg-drop and egg-thickened soups)",
+                "source_id": "hk_cap132v_thg_poultry-eggs_50"
+              },
+              {
+                "component": "fish/seafood (bisque/chowder)",
+                "source_id": "eu2023_hg_fish_general_500"
+              }
             ],
-            "basis_label": "read-across from the seafood total-mercury ML (as consumed)",
-            "label": "mercury is material only in seafood-based soups (bisque, chowder), which inherit the EU seafood mercury ceiling (500 ug/kg)",
-            "substantiation": "No credible regulator sets a mercury ML for terrestrial-meat or vegetable stock; a seafood bisque or chowder inherits the Category 6 seafood mercury ceiling (EU 2023/915, 500 ug/kg). Methylmercury bounded by this total-mercury ceiling."
+            "basis_label": "read-across from strictest applicable principal-component total-mercury ML (as consumed)",
+            "label": "the vegetable total-mercury ML (Hong Kong Cap. 132V, 10 ug/kg) binds. v1.1 replaces the v1.0 seafood-only anchor of 500 ug/kg: Cap. 132V sets mercury MLs for the terrestrial components of a soup or stock (vegetables 10, rice/maize/wheat and their flours 20, meat of animal 50, meat of poultry 50, poultry eggs 50), and vegetables are a principal component of nearly every product in this row.",
+            "substantiation": "The v1.0 statement that no credible regulator sets a mercury ML for terrestrial-meat or vegetable stock was true only while Hong Kong sat outside the credible-regulator set. Cap. 132V was admitted on 2026-08-17 and its mercury item (expressed as total mercury) sets 10 ug/kg for vegetables other than edible fungi, 20 for rice, maize and wheat and their flours, and 50 for meat of animal, meat of poultry and poultry eggs. The strictest applicable component moves this cell from 500 to 10 ug/kg and the false claim is corrected rather than preserved. CONSEQUENCE, STATED PLAINLY: a seafood-characterized soup (clam chowder, lobster bisque, fish stock) carries a component whose own sovereign ceiling is 500 ug/kg (EU 2023/915 fish; Cap. 132V aquatic animals other than fish, 500) and will frequently measure above this composite ceiling. That does not loosen the ceiling. The seafood ingredient is governed at its own stage by the Category 6 seafood ceilings, a composite lot above 10 ug/kg total mercury is not certifiable on this row, and whether seafood soups warrant their own taxonomy row is a Step 0 category decision rather than a limit-setting decision. Edible fungi (Cap. 132V 100 ug/kg) are applicable but looser and are disclosed rather than adopted, which matters for mushroom soup. Methylmercury is a species of and bounded by this total (MeHg <= tHg) and is handled on the MeHg cell."
           }
         },
         "MeHg": {
           "not_material": {
-            "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg); its only pathway in a soup is a seafood component, governed by the total-mercury ceiling on the tHg cell. No credible regulator sets a methylmercury limit for a composite soup below the binding total-mercury ceiling.",
-            "reference_method": "Total-mercury screen; methylmercury speciation only on seafood-based soups approaching the ceiling.",
+            "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg); its only pathway in a soup is a seafood component, governed by the total-mercury ceiling on the tHg cell. Every methylmercury ML on the credible register is a fish-species ML at 500 ug/kg or above, far above the binding total-mercury ceiling on this row (10 ug/kg), so none can bind.",
+            "reference_method": "Total-mercury screen by closed-vessel acid digestion with ICP-MS or CV-AAS on the reconstituted as-served soup; reflex methylmercury speciation (species-specific isotope dilution GC-ICP-MS) only on a seafood-based soup whose total mercury approaches the total-mercury ceiling.",
             "bounded_by": "tHg",
             "basis_class": "speciation-bounded",
-            "regulatory_basis": "No credible regulator sets a methylmercury content limit for a composite soup/broth/stock; methylmercury MLs are scoped to fish and seafood. MeHg is a species of and bounded by total mercury (MeHg <= tHg), governed through the total-mercury cell.",
-            "jurisdictions_checked": "EU 2023/915; Codex CXS 193; US FDA CPG 540.600; FSANZ; Health Canada; UK; HK Cap 132V — none set a methylmercury limit for a composite soup, broth, or stock."
+            "regulatory_basis": "No credible regulator sets a methylmercury content limit for a composite soup/broth/stock; methylmercury MLs are scoped to individual fish species. MeHg is a species of and bounded by total mercury (MeHg <= tHg), governed through the total-mercury cell.",
+            "jurisdictions_checked": "EU 2023/915; Codex CXS 193; US FDA CPG 540.600; FSANZ Schedule 19; Health Canada; UK; HK Cap 132V — none sets a methylmercury limit for a composite soup, broth, or stock. The only credible methylmercury MLs on the register are Cap. 132V fish-species rows (fish, fish balls and fish cakes 500; orange roughy 800; pink cusk-eel 1000; tuna 1200; alfonsino 1500; shark 1600; marlin 1700 ug/kg), all looser than the binding total-mercury ceiling of 10 ug/kg."
           }
         },
         "Ni": {
           "component_read_across": {
             "components": [
-              {"component": "vegetable (fruiting)", "source_id": "eu2024_ni_fruiting_veg_400"},
-              {"component": "cereal/grain", "source_id": "eu2024_ni_cereals_800"}
+              {
+                "component": "vegetable (fruiting)",
+                "source_id": "eu2024_ni_fruiting_veg_400"
+              },
+              {
+                "component": "cereal/grain",
+                "source_id": "eu2024_ni_cereals_800"
+              }
             ],
-            "basis_label": "read-across from strictest applicable nickel component ML (EU 2024/1252, as consumed)",
-            "label": "fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg); Tier-2 analyte"
+            "basis_label": "read-across from strictest applicable nickel component ML (Commission Regulation (EU) 2024/1987, as consumed)",
+            "label": "fruiting-vegetable component carries the strictest EU nickel ML (400 ug/kg, Commission Regulation (EU) 2024/1987 amending 2023/915, applying from 2025-07-01); Tier-2 analyte. v1.1 corrects the instrument citation, which v1.0 gave as EU 2024/1252 (an unrelated instrument); the value and the binding row are unchanged.",
+            "substantiation": "Nickel MLs exist only in the EU instrument and only for plant matrices (fruiting vegetables 400, brassica 500, leafy vegetables 500, cereals 800, root/tuber/bulb vegetables 900, legume vegetables 1000 ug/kg). The fruiting-vegetable value is the strictest applicable component of a soup or stock. No credible regulator sets a nickel ML for meat, poultry or fish, and the only Cap. 132V nickel rows are packaged-water parametric values (20 and 70 ug/kg) which are a different basis family and are not adopted (see the row basis guard and scope note)."
           }
         },
         "Sn": {
-          "gov_ids": ["codex_cxs193_sn_canned_250000"],
-          "basis_label": "canned-foods tin maximum level (Codex CXS 193), directly applicable to canned soup",
-          "label": "Canned soup is a canned food and is directly governed by the canned-foods tin ML (Codex CXS 193, 250 mg/kg). Dry-mix, bouillon, and RTD-carton forms have no tin migration pathway; the ML binds the canned form.",
-          "substantiation": "The canned-foods tin ML is a DIRECT sovereign limit on the canned form (regulatory-alignment), not a component read-across. Non-canned soup forms (carton RTD, dry mix, bouillon) have no tinplate contact and no tin source; total tin is reported and any non-canned signal triggers packaging investigation."
+          "gov_ids": [
+            "codex_cxs193_sn_canned_250000",
+            "aunz_sch19_sn_canned_250000",
+            "hk_cap132v_sn_canned-food-other-than-canned-beverages_250000"
+          ],
+          "basis_label": "canned-foods tin maximum level (Codex CXS 193; FSANZ Schedule 19; HK Cap. 132V all converge at 250 mg/kg), directly applicable to canned soup",
+          "label": "Canned soup is a canned food and is directly governed by the canned-foods tin ML, on which three credible regulators converge at 250 mg/kg (250000 ug/kg): Codex CXS 193, FSANZ Schedule 19 (all canned foods), and HK Cap. 132V (canned food other than canned beverages). Dry-mix, bouillon, and RTD-carton forms have no tin migration pathway; the ML binds the canned form.",
+          "substantiation": "The canned-foods tin ML is a DIRECT sovereign limit on the canned form (regulatory-alignment), not a component read-across, and it is the only cell on this row that is a direct rather than a read-across value. Three credible regulators set the same figure, so the binding is not a single-jurisdiction artefact; Codex is named as the binding instrument by jurisdiction priority. The Cap. 132V canned-beverage row (150 mg/kg) is stricter but is not adopted: a ready-to-drink carton stock is not a canned beverage and has no tinplate contact, and a canned soup is a canned food under every one of these instruments. Non-canned soup forms (carton RTD, dry mix, bouillon) have no tin source; total tin is reported on every lot and any non-canned signal triggers packaging investigation."
         },
         "Al": {
           "control": {
-            "rationale": "No credible regulator sets an aluminium maximum level for soups, stocks, or their food components. Reported as an investigate-the-line screen (cookware, packaging, additives).",
-            "reference_method": "Total aluminium by ICP-MS; screen, not a health limit.",
+            "rationale": "No credible regulator sets an aluminium maximum level for a soup, stock or bouillon, or for any principal component of one. Instruments checked: EU 2023/915 and EU 2024/1987 (no aluminium entry), Codex CXS 193 (no aluminium entry), FSANZ Schedule 19 (aluminium appears only as infant-formula MLs of 500 and 1000 ug/kg, Category 1 scope), Hong Kong Cap. 132V Part 2 Schedule (no aluminium entry), and US FDA, Health Canada and UK dietary instruments (no aluminium ML). Aluminium reaches the credible register only in basis families that cannot anchor a food-content cell: drinking-water parametric values (EU 2020/2184 and US 21 CFR 165.110 at 200 ug/L, Health Canada at 2900 ug/L), food-contact-material specific migration limits (EU 10/2011), and toy migration limits. Aluminium-containing additive maxima exist only in non-credible-tier instruments and are additive-use levels, not contaminant ceilings. Aluminium is therefore a mandatory reported cell with no invented ceiling.",
+            "reference_method": "Total aluminium by closed-vessel microwave acid digestion with ICP-MS on the reconstituted as-served soup, one determination per production lot, reported with no numeric pass/fail. Escalation: a result materially above the line's established baseline for that formulation triggers investigation of aluminium kettles, pans and contact surfaces, foil and laminate packaging including bouillon cube wrap, and any aluminium-containing additive, with a confirmatory second lot before release.",
             "bounded_by": null
           }
         },
         "Cr": {
-          "control": {
-            "rationale": "No credible regulator sets a total-chromium maximum level for soups or their components. Reported as a stainless-equipment-leaching screen; the toxic species is not material (Cr-VI cell).",
-            "reference_method": "Total chromium by ICP-MS; equipment-leaching tripwire.",
-            "bounded_by": "Cr-VI"
-          }
+          "read_across": {
+            "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+            "label": "Hong Kong Cap. 132V sets total chromium at 500 ug/kg for vegetables other than pulses, the strictest applicable component value for a soup or stock; the looser Cap. 132V rows for pulses, cereals, meat of animal, meat of poultry and fish (1000 ug/kg each) are disclosed and not adopted.",
+            "substantiation": "v1.0 recorded this cell as a bare control on the statement that no credible regulator sets a total-chromium maximum level for soups or their components. That statement is false following Hong Kong's admission to the credible-regulator set on 2026-08-17: Cap. 132V Part 2 Schedule sets total chromium at 500 ug/kg for vegetables other than pulses and at 1000 ug/kg for pulses, cereals, meat of animal, meat of poultry and fish. The cell is therefore a disclosed read-across from the strictest applicable component rather than a control, published as a SCREEN because dietary chromium is overwhelmingly trivalent and the health-relevant hexavalent species is separately determined not material in a cooked wet matrix (Cr-VI cell, speciation-bounded). Total chromium remains mandatory on every lot; a result approaching the screen value is a stainless-steel equipment-leaching signal, which matters on this row because stock kettles have long hot contact times, not a toxicological finding."
+          },
+          "screen": true,
+          "screen_note": "Total chromium is a screen, not a protective ceiling: the value records the sovereign total-chromium ML (Cap. 132V vegetables other than pulses, 500 ug/kg) while the health-relevant species is Cr(VI), which is not stable in this matrix. Excluded from the firm-limit count; the escalation rule is equipment-leaching investigation, not a toxicological exceedance.",
+          "basis_label": "read-across from the sovereign total-chromium vegetable ML (Cap. 132V, food as sold, applied at face value to the as-consumed soup)"
         },
         "Cr-VI": {
           "not_material": {
@@ -245,8 +481,14 @@
         "Pb": {
           "component_read_across": {
             "components": [
-              {"component": "muscle meat (cattle/sheep/pig/poultry)", "source_id": "aunz_sch19_pb_meat_100"},
-              {"component": "edible offal (lead-accumulating tissue analog)", "source_id": "aunz_sch19_pb_offal_500"}
+              {
+                "component": "muscle meat (cattle/sheep/pig/poultry)",
+                "source_id": "aunz_sch19_pb_meat_100"
+              },
+              {
+                "component": "edible offal (lead-accumulating tissue analog)",
+                "source_id": "aunz_sch19_pb_offal_500"
+              }
             ],
             "basis_label": "read-across from the strictest credible animal-derived lead ML (as consumed)",
             "label": "the muscle-meat lead ML (FSANZ, 100 ug/kg) binds; the looser offal ML (500) is disclosed and DELIBERATELY NOT adopted despite bone being a lead-accumulating tissue analogous to offal",
@@ -256,7 +498,10 @@
         "Cd": {
           "component_read_across": {
             "components": [
-              {"component": "muscle meat (cattle/sheep/pig/poultry)", "source_id": "eu2023_cd_meat_50"}
+              {
+                "component": "muscle meat (cattle/sheep/pig/poultry)",
+                "source_id": "eu2023_cd_meat_50"
+              }
             ],
             "basis_label": "read-across from the credible animal-derived cadmium ML (as consumed)",
             "label": "cadmium also accumulates in bone; the EU muscle-meat cadmium ML (50 ug/kg) is the nearest credible animal-derived anchor",
@@ -283,7 +528,10 @@
         "tHg": {
           "component_read_across": {
             "components": [
-              {"component": "meat of animal (bone broth is a long-simmered animal-bone/meat stock)", "source_id": "hk_cap132v_thg_meat-of-animal_50"}
+              {
+                "component": "meat of animal (bone broth is a long-simmered animal-bone/meat stock)",
+                "source_id": "hk_cap132v_thg_meat-of-animal_50"
+              }
             ],
             "basis_label": "read-across from the sovereign terrestrial-animal-meat total-mercury ML (as consumed)",
             "label": "Hong Kong Cap 132V sets a total-mercury ML of 50 ug/kg for meat of animal (edible portion after removal of bone and fat); admitted to the credible-regulator set (2026-08-17 ruling), it binds bone broth's mercury cell. Terrestrial animal meat/bone is not a mercury-bioaccumulation matrix, but a sovereign meat ML now exists, so the cell is a disclosed read-across rather than a bare screen. A fish-derived bone broth additionally inherits the Category 6 seafood mercury ceiling; the stricter applicable value binds.",
