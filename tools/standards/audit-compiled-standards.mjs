@@ -26,8 +26,11 @@
 //   C9  provenance vocabulary   only regulatory-alignment / read-across / not-material / control /
 //                               ratchet — the retired occurrence tags must never appear
 //   C10 basis disclosure        every numeric cell carries a basis string
-//   W1  stricter-unselected     a credible-regulator row stricter than the binding was left unnamed
+//   W1  stricter-unselected     a SAME-BASIS credible-regulator row stricter than the binding was left
+//                               unnamed (candidates outside the record's basis_guard are a different
+//                               measured quantity, not a stricter limit, and are not warned on)
 //   W2  no firm cells           a record publishes no numeric limit at all
+//   W3  hollow control          a record has control cells but no component-level sampling plan
 //
 // Usage:
 //   node tools/standards/audit-compiled-standards.mjs --dir=data/workbench/standards/cat11-compiled
@@ -147,7 +150,7 @@ function bindingIds(cell) {
   return [...new Set(ids)]
 }
 function contextIds(cell) {
-  return cell.companion_ml ? [cell.companion_ml] : []
+  return [...new Set([...(cell.companion_ml ? [cell.companion_ml] : []), ...(cell.companion_ids || [])])]
 }
 const anchorIds = (cell) => [...new Set([...bindingIds(cell), ...contextIds(cell)])]
 
@@ -263,13 +266,27 @@ function auditRecord(rec, file) {
       if (!cell.reference_method) F("C8", `${analyte}: control with no reference_method — an unenforceable obligation`)
     }
 
-    // W1 stricter-unselected
+    // W1 stricter-unselected. Basis-aware: a candidate whose register basis falls outside the record's
+    // own basis_guard is not a stricter anchor at all, it is a different measured quantity (an
+    // element-migration or after-extraction value against a total-content ceiling). Warning on those
+    // buries a genuine same-basis miss in noise, so they are skipped here exactly as the compiler now
+    // skips them. Records compiled before `basis` was carried on the entry cannot be filtered and warn
+    // as before.
+    const recGuard = rec.basis_guard ? new RegExp(rec.basis_guard, "i") : null
     for (const s of cell.stricter_unselected || []) {
+      if (recGuard && s.basis != null && !recGuard.test(s.basis)) continue
       W("W1", `${analyte}: stricter credible row left unnamed — ${s.value} µg/kg [${s.jurisdiction}] ${s.id} ("${s.scope}")`)
     }
   }
 
   if (firm === 0) W("W2", `record publishes no numeric limit (all control / not-material)`)
+
+  // W3 hollow control — a control cell obliges "analysis of every accessible component", which is
+  // unenforceable unless the record enumerates the components. Reported as a WARN rather than a FAIL
+  // only because the pre-`components` compiler generation left this field off every record it emitted;
+  // it flips to FAIL once every compiled dir has been rebuilt on a compiler that carries it.
+  if (Object.values(cells).some((c) => c && c.type === "control") && !rec.components)
+    W("W3", `record has control cells but carries no component-level sampling plan — the control obligation is unenforceable as published`)
 
   return { file, slug: rec.slug, category: rec.category, firm, fails, warns }
 }

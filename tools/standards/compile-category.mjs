@@ -38,10 +38,25 @@
 // by benign Cr(III), the health-relevant species being Cr(VI)). The cert renderer already understands
 // `screen` and excludes it from the firm-limit count.
 //
-// Audit safety-net (verify step), ported unchanged: for every numeric cell the compiler scans EVERY
-// credible-regulator register row matching the subcategory's audit_scope + analyte and flags any row
-// STRICTER than the selected binding that is NOT already named — a missed stricter anchor surfaces in
-// the report rather than silently. Exits non-zero on any unresolved panel cell or incomplete panel.
+// ADDITION 3 — CITED REGISTER ROWS (`companion_ml`, `companion_ids`). A standard's prose routinely
+// quotes numbers it does not adopt: a bounding total, a near-neighbour instrument recorded and
+// declined, a companion obligation in another basis, an instrument named only to say why it does not
+// apply. Those ids are declared on the cell and resolved against the register, so every number a
+// record quotes is traceable to a live register row. They are disclosures, never anchors: they do not
+// enter the strictest-of selection, do not affect the published value, and are deliberately exempt
+// from the basis guard because sitting in another basis is usually the reason they are cited.
+//
+// ADDITION 4 — the record now carries the subcategory's `material` and `components` strings. A control
+// cell obliges "analysis of every accessible component"; without the component enumeration on the
+// record that obligation is unenforceable (the hollow-control failure).
+//
+// Audit safety-net (verify step): for every numeric cell the compiler scans every credible-regulator
+// register row matching the subcategory's audit_scope + analyte AND passing the subcategory's own
+// basis_guard, and flags any row STRICTER than the selected binding that is NOT already named — a
+// missed stricter anchor surfaces in the report rather than silently. The basis filter is what makes
+// the net useful: a cross-basis number is smaller because it measures a different quantity, not
+// because it is stricter, and burying a real same-basis miss under dozens of cross-basis false
+// positives defeats the check. Exits non-zero on any unresolved panel cell or incomplete panel.
 //
 // Output: one JSON record per subcategory to <outdir>, plus a derivation report to
 // <outdir>/derivation-report.md and stdout.
@@ -200,10 +215,18 @@ function resolveComponents(components, guard) {
 // analyte that is STRICTER than the binding and is NOT one of the named component/gov ids — a missed
 // stricter component anchor. Infant/formula, pesticide and feed instruments are excluded (never
 // composite-component anchors). Informational: flags in the report, does not itself fail the build.
+// The scan is BASIS-AWARE. Comparing a strictness across bases is not a comparison at all: an EN 71-3
+// element-migration value and a REACH entry-72 after-extraction value are smaller numbers than a
+// total-content ceiling because they measure a different quantity, not because they are stricter. A
+// basis-blind scan therefore buries a genuinely missed SAME-BASIS anchor under dozens of cross-basis
+// false positives, which is the opposite of what a safety net is for. The subcategory's own
+// basis_guard — the same regex the anchors themselves must satisfy — is applied to every candidate,
+// and each surviving entry records its `basis` so the reader can see what was compared.
 function auditScan(sub, analyte, binding, selectedIds) {
   if (!sub.audit_scope || binding == null) return []
   const rx = new RegExp(sub.audit_scope, "i")
   const exclScope = sub.audit_exclude_scope ? new RegExp(sub.audit_exclude_scope, "i") : null
+  const guard = sub.basis_guard ? new RegExp(sub.basis_guard, "i") : null
   const sel = new Set(selectedIds)
   const out = []
   for (const r of register) {
@@ -215,19 +238,51 @@ function auditScan(sub, analyte, binding, selectedIds) {
     if (sel.has(r.regulatory_limit_id)) continue
     if (!rx.test(r.product_scope || "")) continue
     if (exclScope && exclScope.test(r.product_scope || "")) continue
+    if (guard && !guard.test(`${r.basis || ""} ${r.basis_class || ""}`)) continue
     const v = num(r.value_ug_kg)
     if (v == null) continue
     if (v < binding * 0.9999) {
-      out.push({ id: r.regulatory_limit_id, value: roundDisplay(v), jurisdiction: r.jurisdiction, scope: (r.product_scope || "").slice(0, 48) })
+      out.push({ id: r.regulatory_limit_id, value: roundDisplay(v), jurisdiction: r.jurisdiction, basis: r.basis || "", scope: (r.product_scope || "").slice(0, 48) })
     }
   }
   return out
+}
+
+// COMPANION / CITED register rows. `companion_ml` (one id) and `companion_ids` (a list) name sovereign
+// rows the cell's prose relies on but does NOT take its number from: a bounding total, a near-neighbour
+// instrument recorded and declined, a companion obligation in another basis (a migration-into-food SML
+// on the food-contact component of a content-basis article), or an instrument named only to say why it
+// is inapplicable. They are disclosures, so they are deliberately NOT put through the basis guard —
+// being in another basis is frequently the point. They ARE resolved against the register, so that no
+// number quoted anywhere in a standard is untraceable, and a missing or gated companion id fails the
+// cell exactly as a missing anchor does.
+function resolveCompanions(spec) {
+  const ids = [...new Set([...(spec.companion_ml ? [spec.companion_ml] : []), ...(spec.companion_ids || [])])]
+  if (!ids.length) return { ids: [], rows: [] }
+  const rows = []
+  for (const id of ids) {
+    const r = byId.get(id)
+    if (!r) return { error: `companion id ${id} not in register` }
+    if (DRAFT.test(r.status) || QUARANTINE.test(r.status)) return { error: `companion id ${id} is gated (status='${r.status}')` }
+    rows.push({ id, value: roundDisplay(num(r.value_ug_kg)), jurisdiction: r.jurisdiction, metal_species: r.metal_species, basis: r.basis, scope: (r.product_scope || "").slice(0, 72) })
+  }
+  return { ids, rows }
 }
 
 function resolveCell(sub, analyte) {
   const spec = (sub.cells || {})[analyte]
   if (!spec) return { type: "unspecified", value: null, error: "no config for this cell" }
   const guard = sub.basis_guard ? new RegExp(sub.basis_guard, "i") : null
+
+  // Cited-but-not-anchoring register rows may be declared at the cell's top level or inside the kind
+  // object; both are collected so an author can put the disclosure next to the prose that quotes it.
+  const comp = resolveCompanions({
+    companion_ml: spec.companion_ml || spec.control?.companion_ml || spec.not_material?.companion_ml || null,
+    companion_ids: [spec, spec.control, spec.not_material, spec.read_across, spec.component_read_across]
+      .flatMap((s) => (s && s.companion_ids) || []),
+  })
+  if (comp.error) return { type: "gap", value: null, error: comp.error }
+  const cited = { companion_ids: comp.ids.length ? comp.ids : undefined, companions: comp.rows.length ? comp.rows : undefined }
 
   if (spec.not_material) {
     // Propagate the not-material substantiation contract (CLAUDE.md Part 18 build-blocking gate,
@@ -236,46 +291,46 @@ function resolveCell(sub, analyte) {
     // Authored at the source (config), propagated here — no engine default (the 2309a923d rule).
     return { type: "not_material", value: null, provenance: "not-material", rationale: spec.not_material.rationale || spec.not_material,
       reference_method: spec.not_material.reference_method || null, bounded_by: spec.not_material.bounded_by || null, substantiation: spec.not_material.substantiation || null,
-      basis_class: spec.not_material.basis_class || "", regulatory_basis: spec.not_material.regulatory_basis || "", jurisdictions_checked: spec.not_material.jurisdictions_checked || "" }
+      basis_class: spec.not_material.basis_class || "", regulatory_basis: spec.not_material.regulatory_basis || "", jurisdictions_checked: spec.not_material.jurisdictions_checked || "", ...cited }
   }
   if (spec.control) {
     return { type: "control", value: null, provenance: "control", rationale: spec.control.rationale || spec.control,
-      reference_method: spec.control.reference_method || null, bounded_by: spec.control.bounded_by || null, companion_ml: spec.control.companion_ml || null }
+      reference_method: spec.control.reference_method || null, bounded_by: spec.control.bounded_by || null, companion_ml: spec.control.companion_ml || null, ...cited }
   }
   if (spec.gov_ids) {
     const r = resolveIds(spec.gov_ids, guard)
     if (r.error) return { type: "gap", value: null, error: r.error }
-    const stricter = auditScan(sub, analyte, r.value, spec.gov_ids)
+    const stricter = auditScan(sub, analyte, r.value, [...spec.gov_ids, ...comp.ids])
     return { type: spec.screen ? "screen" : "gov", screen: spec.screen || undefined,
       screen_note: spec.screen_note || undefined, binding_control: spec.binding_control || undefined,
       value: roundDisplay(r.value), value_exact: r.value, provenance: "regulatory-alignment",
       binding_jurisdiction: r.binding_jurisdiction, binding_id: r.binding_id, basis: spec.basis_label || r.basis,
       binding_page: r.binding_page || null,
       not_detectable: r.not_detectable, candidates: r.candidates, stricter_unselected: stricter,
-      label: spec.label || null, substantiation: spec.substantiation || null }
+      label: spec.label || null, substantiation: spec.substantiation || null, ...cited }
   }
   if (spec.read_across) {
     const r = resolveId(spec.read_across.source_id, guard)
     if (r.error) return { type: "gap", value: null, error: r.error }
-    const stricter = auditScan(sub, analyte, r.value, [spec.read_across.source_id])
+    const stricter = auditScan(sub, analyte, r.value, [spec.read_across.source_id, ...comp.ids])
     return { type: spec.screen ? "screen" : "read_across", screen: spec.screen || undefined,
       screen_note: spec.screen_note || undefined, binding_control: spec.binding_control || undefined,
       value: roundDisplay(r.value), value_exact: r.value, provenance: "read-across",
       source_id: spec.read_across.source_id, source_jurisdiction: r.jurisdiction, basis: spec.basis_label || r.basis,
       source_page: r.page || null, source_scope: r.scope, not_detectable: r.nd, label: spec.read_across.label || `read-across from ${r.jurisdiction}`,
-      stricter_unselected: stricter, substantiation: spec.read_across.substantiation || null }
+      stricter_unselected: stricter, substantiation: spec.read_across.substantiation || null, ...cited }
   }
   if (spec.component_read_across) {
     const cra = spec.component_read_across
     const r = resolveComponents(cra.components, guard)
     if (r.error) return { type: "gap", value: null, error: r.error }
-    const stricter = auditScan(sub, analyte, r.value, cra.components.map((c) => c.source_id))
+    const stricter = auditScan(sub, analyte, r.value, [...cra.components.map((c) => c.source_id), ...comp.ids])
     return { type: "read_across", value: roundDisplay(r.value), value_exact: r.value, provenance: "read-across",
       binding_component: r.binding_component, binding_id: r.binding_id, binding_jurisdiction: r.binding_jurisdiction,
       binding_page: r.binding_page || null,
       basis: cra.basis_label || r.binding_basis, not_detectable: r.not_detectable, components: r.components,
       label: cra.label || `strictest applicable component ML (${r.binding_component}, ${r.binding_jurisdiction})`,
-      stricter_unselected: stricter, substantiation: cra.substantiation || null }
+      stricter_unselected: stricter, substantiation: cra.substantiation || null, ...cited }
   }
   return { type: "gap", value: null, error: "unrecognised cell spec" }
 }
@@ -321,6 +376,11 @@ for (const slug of slugs) {
     provisional_scaffold: !!sub.provisional_scaffold,
     cross_reference: sub.cross_reference || null,
     native_basis: sub.native_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null,
+    // The material description and the component-level sampling plan are part of the published
+    // obligation, not authoring notes. A control cell that says "analysis of every accessible
+    // component" is unenforceable unless the record enumerates what the components are, so both
+    // strings travel with the record and appear in the derivation report.
+    material: sub.material || null, components: sub.components || null,
     basis_guard: sub.basis_guard || null, basis_guard_note: sub.basis_guard_note || null,
     method: CAT.method_label || "HMTc Method v2.0 (government-limit default; strictest applicable sovereign maximum in the row's native basis, disclosed read-across where the exact cell is unregulated; never occurrence-derived)",
     provenance_tags_allowed: ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"],
@@ -333,6 +393,8 @@ for (const slug of slugs) {
   const lines = []
   lines.push(`### ${slug} — ${sub.name}${sub.provisional_scaffold ? "  (PROVISIONAL SCAFFOLD)" : ""}`)
   lines.push(`- native basis: ${sub.native_basis_label}`)
+  if (sub.material) lines.push(`- material: ${sub.material}`)
+  if (sub.components) lines.push(`- component-level sampling plan: ${sub.components}`)
   if (sub.cross_reference) lines.push(`- cross-reference: ${sub.cross_reference}`)
   lines.push("")
   lines.push(`| analyte | value (µg/kg) | provenance | binding source | component logic |`)
@@ -355,8 +417,10 @@ for (const slug of slugs) {
   for (const a of PANEL) {
     const c = cells[a]
     if (c.substantiation) notes.push(`  - **${a} substantiation:** ${c.substantiation}`)
+    if (c.companions && c.companions.length)
+      for (const k of c.companions) notes.push(`  - **${a} cited register row (disclosure — not this cell's anchor):** ${k.id} — ${k.value} µg/kg [${k.jurisdiction}] ${k.metal_species}, basis "${k.basis}", scope "${k.scope}"`)
     if (c.stricter_unselected && c.stricter_unselected.length)
-      for (const s of c.stricter_unselected) notes.push(`  - ?? **${a} stricter-unselected (audit):** ${s.value} µg/kg [${s.jurisdiction}] ${s.id} — "${s.scope}"`)
+      for (const s of c.stricter_unselected) notes.push(`  - ?? **${a} stricter-unselected (same-basis audit):** ${s.value} µg/kg [${s.jurisdiction}] ${s.id} — basis "${s.basis || "?"}", scope "${s.scope}"`)
   }
   if (notes.length) { lines.push(""); lines.push(`**Audit / substantiation notes**`); lines.push(...notes) }
   lines.push("")
