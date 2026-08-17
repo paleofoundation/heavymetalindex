@@ -584,12 +584,12 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260817-cat25-vape-cartridge-fill-publish-decision — Cat 25 cannabis vape-cartridge-fill standard row is compiled and publishable (v1.1) but held unpublished pending a reserve decision
 
-- scope: **human-gated** · type: decision · status: open · repo: cert
+- scope: **human-gated** · type: decision · status: queued · repo: cert
 - paths: `data/workbench/standards/cat25-compiled/cannabis-vape-cartridge-fill.json`, `heavymetalcertified: data/standards/cat25-pages.json`, `heavymetalcertified: data/standards/cat25-compiled/`
 - repro: compile-cat25.mjs emits 6 compiled rows + 1 reserved: the 5 published route rows PLUS cannabis-vape-cartridge-fill (an inhaled-route consumable oil with real sovereign values 500/200/200/100 CA, chemically concentrate-like). The finisher published only the 5 route rows because the charter said 'render the 5 route rows ... do not publish a numeric vape row' and memory [[project_taxonomy_v2.1]] records 'Vape-hardware RESERVED for Karen'. cannabis-vape-hardware stays reserved unambiguously; cannabis-vape-cartridge-fill is the ambiguous middle (a consumable, but part of the vape facet).
 - done when: Karen decides: publish cannabis-vape-cartridge-fill as a 6th Cat-25 row, OR keep the whole vape facet (fill + hardware) reserved; If publish: add the page to heavymetalcertified data/standards/cat25-pages.json, copy data/standards/cat25-compiled/cannabis-vape-cartridge-fill.json index->cert, re-run build-category-standard-pages.mjs --pages=data/standards/cat25-pages.json, rebuild index, push cert main
 - evidence: index compiled row: data/workbench/standards/cat25-compiled/cannabis-vape-cartridge-fill.json (on origin/main as of dad57946d) · cat25 derive-audit-verify doc row 45 (vape cartridge fill, inhaled): 500/200/200/100 CA, 600 MD Cr screen · cert commit c6f2923 published the 5 route rows only
-- decision: _pending_
+- decision: **APPROVE: Karen ruled publish the vape-cartridge-fill row (2026-08-17); enacted — 6th Cat-25 row live on cert. Vape HARDWARE/aerosol facet stays reserved.**
 - notes: Not a defect — a deliberate charter-honoring hold. The compiled data + config + compiler for the fill row are already on index origin/main (staff record intact); only the cert publish decision is deferred to Karen. Publishing would be a ~15-min mechanical follow-on.
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
