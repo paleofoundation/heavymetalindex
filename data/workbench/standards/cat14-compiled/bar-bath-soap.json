@@ -28,6 +28,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_pb_cosmetics_general_2000",
       "basis": "finished cosmetic as placed on market — total element content per unit mass of undiluted product as sold (µg/kg). Not a dietary basis, not a migration or leachate basis, and no use-pattern dilution credit.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_pb_cosmetics_general_2000",
@@ -126,6 +127,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_cd_cosmetics_general_100",
       "basis": "finished cosmetic as placed on market — total element content per unit mass of undiluted product as sold (µg/kg). Not a dietary basis, not a migration or leachate basis, and no use-pattern dilution credit.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_cd_cosmetics_general_100",
@@ -190,6 +192,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_tas_cosmetics_general_500",
       "basis": "finished cosmetic as placed on market — total element content per unit mass of undiluted product as sold (µg/kg). Not a dietary basis, not a migration or leachate basis, and no use-pattern dilution credit.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_tas_cosmetics_general_500",
@@ -268,6 +271,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_thg_cosmetics_general_100",
       "basis": "finished cosmetic as placed on market — total element content per unit mass of undiluted product as sold (µg/kg). Not a dietary basis, not a migration or leachate basis, and no use-pattern dilution credit.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_thg_cosmetics_general_100",
@@ -364,6 +368,7 @@
       "binding_jurisdiction": "KR",
       "binding_id": "kr_mfds2024_9_ni_other_cosmetics_10ugg",
       "basis": "finished cosmetic as placed on market — total element content per unit mass of undiluted product as sold (µg/kg). Not a dietary basis, not a migration or leachate basis, and no use-pattern dilution credit.",
+      "binding_page": "regulations/south-korea-mfds-notice-2024-9-cosmetic-trace-metals",
       "candidates": [
         {
           "id": "kr_mfds2024_9_ni_other_cosmetics_10ugg",

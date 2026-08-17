@@ -250,6 +250,7 @@ function resolveCell(sub, analyte) {
       screen_note: spec.screen_note || undefined, binding_control: spec.binding_control || undefined,
       value: roundDisplay(r.value), value_exact: r.value, provenance: "regulatory-alignment",
       binding_jurisdiction: r.binding_jurisdiction, binding_id: r.binding_id, basis: spec.basis_label || r.basis,
+      binding_page: r.binding_page || null,
       not_detectable: r.not_detectable, candidates: r.candidates, stricter_unselected: stricter,
       label: spec.label || null, substantiation: spec.substantiation || null }
   }
@@ -261,7 +262,7 @@ function resolveCell(sub, analyte) {
       screen_note: spec.screen_note || undefined, binding_control: spec.binding_control || undefined,
       value: roundDisplay(r.value), value_exact: r.value, provenance: "read-across",
       source_id: spec.read_across.source_id, source_jurisdiction: r.jurisdiction, basis: spec.basis_label || r.basis,
-      source_scope: r.scope, not_detectable: r.nd, label: spec.read_across.label || `read-across from ${r.jurisdiction}`,
+      source_page: r.page || null, source_scope: r.scope, not_detectable: r.nd, label: spec.read_across.label || `read-across from ${r.jurisdiction}`,
       stricter_unselected: stricter, substantiation: spec.read_across.substantiation || null }
   }
   if (spec.component_read_across) {
@@ -271,6 +272,7 @@ function resolveCell(sub, analyte) {
     const stricter = auditScan(sub, analyte, r.value, cra.components.map((c) => c.source_id))
     return { type: "read_across", value: roundDisplay(r.value), value_exact: r.value, provenance: "read-across",
       binding_component: r.binding_component, binding_id: r.binding_id, binding_jurisdiction: r.binding_jurisdiction,
+      binding_page: r.binding_page || null,
       basis: cra.basis_label || r.binding_basis, not_detectable: r.not_detectable, components: r.components,
       label: cra.label || `strictest applicable component ML (${r.binding_component}, ${r.binding_jurisdiction})`,
       stricter_unselected: stricter, substantiation: cra.substantiation || null }

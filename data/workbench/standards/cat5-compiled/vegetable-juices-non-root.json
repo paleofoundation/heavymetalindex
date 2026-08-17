@@ -28,6 +28,7 @@
       "source_id": "eu2023_pb_fruit_juice_other_30",
       "source_jurisdiction": "EU",
       "basis": "wet weight, single-strength ready-to-drink juice (read across from the EU fruit-juice cell)",
+      "source_page": "regulations/eu2023-contaminants-maximum-levels",
       "source_scope": "fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits",
       "label": "No credible sovereign has written a lead maximum level for vegetable juice: EU 2023/915 section 3.1.19, Codex CXS 193 and Hong Kong Cap 132V all scope their juice lead cells to FRUIT juices and nectars. The nearest applicable sovereign value is therefore the EU fruit-juice lead cell (30 ug/kg) in the identical single-strength ready-to-drink basis, and it is adopted by disclosed read-across.",
       "stricter_unselected": [],
@@ -41,6 +42,7 @@
       "binding_component": "fruiting vegetables, cucurbits (cucumber, courgette, melon)",
       "binding_id": "hk_cap132v_cd_fruiting-vegetables-cucurbits_50",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "fresh-weight edible portion of the source vegetable, read across to the single-strength juice at face value with no concentration or dilution factor applied",
       "components": [
         {
@@ -93,6 +95,7 @@
       "source_id": "eu2023_ias_fruit_juice_20",
       "source_jurisdiction": "EU",
       "basis": "wet weight, single-strength ready-to-drink juice (read across from the EU fruit-juice cell)",
+      "source_page": "regulations/eu2023-contaminants-maximum-levels",
       "source_scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
       "label": "No credible sovereign has written an inorganic-arsenic maximum level for vegetable juice. The nearest applicable sovereign value is the EU 2023/915 section 3.4.4 fruit-juice cell (20 ug/kg) in the identical single-strength ready-to-drink basis, adopted by disclosed read-across.",
       "stricter_unselected": [],
@@ -127,6 +130,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2024_ni_juice_250",
       "basis": "product as placed on market, ready-to-drink liquid",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "candidates": [
         {
           "id": "eu2024_ni_juice_250",
@@ -146,6 +150,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_sn_canned_beverages_100000",
       "basis": "product as placed on market, ready-to-drink liquid (inorganic tin)",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_sn_canned_beverages_100000",

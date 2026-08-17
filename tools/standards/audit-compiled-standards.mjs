@@ -72,8 +72,33 @@ function parseCsv(text) {
   return lines.slice(1).map((l) => Object.fromEntries(split(l).map((v, i) => [head[i], v])))
 }
 
-const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
+const registerText = fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8")
+const register = parseCsv(registerText)
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
+
+// REGISTER INTEGRITY (C0). An unquoted comma inside a register field shifts every column after it.
+// Because metal_species, value_ug_kg and basis sit early in the row, a shift usually leaves the
+// published number correct while silently corrupting regulation_page, url, notes and basis_class —
+// which is how 28 EU toy-migration rows came to carry a fragment of their own product_scope where
+// their instrument slug belonged, and so cited no instrument at all. Values surviving is exactly what
+// makes this class of defect quiet, so it is checked on every gate run rather than left to be noticed.
+const registerDefects = []
+{
+  const lines = registerText.replace(/\r\n/g, "\n").trim().split("\n")
+  const width = splitCsvLineCount(lines[0])
+  for (let i = 1; i < lines.length; i++) {
+    const n = splitCsvLineCount(lines[i])
+    if (n !== width) registerDefects.push({ line: i + 1, fields: n, expected: width, id: lines[i].split(",")[0] })
+  }
+}
+function splitCsvLineCount(line) {
+  let n = 1, q = false
+  for (const ch of line) {
+    if (ch === '"') q = !q
+    else if (ch === "," && !q) n++
+  }
+  return n
+}
 
 // The not-material substantiation contract may be satisfied in either of two places, because the
 // compilers changed convention mid-programme: newer compilers propagate basis_class /
@@ -278,6 +303,16 @@ if (!dirs.length) { console.error("audit-compiled-standards: --dir=<compiled dir
 
 const out = dirs.map(auditDir)
 let totalFails = 0, totalWarns = 0, totalRecords = 0, totalFirm = 0
+if (registerDefects.length) {
+  totalFails += registerDefects.length
+  if (!JSON_OUT) {
+    console.log(`\n## data/evidence/regulatory_limits.csv — ${registerDefects.length} malformed row(s)`)
+    for (const d of registerDefects.slice(0, 20)) {
+      console.log(`   FAIL [C0] line ${d.line} :: ${d.fields} fields, expected ${d.expected} — unquoted comma shifts every later column ("${d.id}")`)
+    }
+    if (registerDefects.length > 20) console.log(`   ... ${registerDefects.length - 20} more`)
+  }
+}
 
 if (JSON_OUT) {
   console.log(JSON.stringify(out, null, 2))

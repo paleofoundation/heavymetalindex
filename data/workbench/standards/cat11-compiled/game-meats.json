@@ -28,6 +28,7 @@
       "source_id": "hk_cap132v_pb_meat-of-cattle-pig-goat-and-sheep_100",
       "source_jurisdiction": "HK",
       "basis": "as sold, edible portion (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Meat of cattle, pig, goat and sheep",
       "label": "read-across from the sovereign domestic-mammal muscle-meat lead maximum level (Hong Kong Cap. 132V, 100 ug/kg); FSANZ Schedule 19 sets the same 100 ug/kg for domestic mammalian and poultry meat",
       "stricter_unselected": [],
@@ -41,6 +42,7 @@
       "source_id": "eu2023_cd_meat_50",
       "source_jurisdiction": "EU",
       "basis": "as sold, edible portion (wet weight)",
+      "source_page": "regulations/eu-2023-915-cadmium",
       "source_scope": "meat of bovine animals, sheep, pig, and poultry",
       "label": "read-across from the EU 2023/915 muscle-meat cadmium maximum level (50 ug/kg); Hong Kong Cap. 132V sets the same 50 ug/kg for domestic mammalian meat",
       "stricter_unselected": [],
@@ -54,6 +56,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_tas_meat-of-animal_500",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_tas_meat-of-animal_500",
@@ -82,6 +85,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_meat-of-animal_50",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_meat-of-animal_50",
@@ -142,6 +146,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_crtotal_meat-of-animal_1000",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_crtotal_meat-of-animal_1000",

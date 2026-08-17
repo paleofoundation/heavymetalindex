@@ -28,6 +28,7 @@
       "binding_jurisdiction": "CH",
       "binding_id": "ch_vhk_2026_pb_obst_100",
       "basis": "wet weight, fresh fruit as sold",
+      "binding_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
       "candidates": [
         {
           "id": "ch_vhk_2026_pb_obst_100",
@@ -112,6 +113,7 @@
       "binding_jurisdiction": "CH",
       "binding_id": "ch_vhk_2026_cd_kernobst_20",
       "basis": "wet weight, fresh fruit as sold",
+      "binding_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
       "candidates": [
         {
           "id": "ch_vhk_2026_cd_kernobst_20",
@@ -186,6 +188,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300",
       "basis": "wet weight, fresh fruit as sold",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300",
@@ -225,6 +228,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
       "basis": "product as placed on market",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
@@ -244,6 +248,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
       "basis": "wet weight, fresh fruit as sold",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",

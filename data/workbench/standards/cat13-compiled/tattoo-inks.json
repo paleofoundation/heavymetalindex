@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_reach_2020_2081_pb_tattoo_pmu_700",
       "basis": "Total content of the product as placed on market (ug/kg): the intradermal mixture basis for the row's permanent forms, the finished-cosmetic basis for its temporary topical forms. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/eu-reach-2020-2081-tattoo-ink-metal-limits",
       "candidates": [
         {
           "id": "eu_reach_2020_2081_pb_tattoo_pmu_700",
@@ -67,6 +68,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_cd_cosmetics_general_100",
       "basis": "Total content of the product as placed on market (ug/kg): the intradermal mixture basis for the row's permanent forms, the finished-cosmetic basis for its temporary topical forms. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_cd_cosmetics_general_100",
@@ -101,6 +103,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_reach_2020_2081_tas_tattoo_pmu_500",
       "basis": "Total content of the product as placed on market (ug/kg): the intradermal mixture basis for the row's permanent forms, the finished-cosmetic basis for its temporary topical forms. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/eu-reach-2020-2081-tattoo-ink-metal-limits",
       "candidates": [
         {
           "id": "eu_reach_2020_2081_tas_tattoo_pmu_500",
@@ -144,6 +147,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_thg_cosmetics_general_100",
       "basis": "Total content of the product as placed on market (ug/kg): the intradermal mixture basis for the row's permanent forms, the finished-cosmetic basis for its temporary topical forms. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_thg_cosmetics_general_100",
@@ -190,6 +194,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_reach_2020_2081_ni_tattoo_pmu_5000",
       "basis": "Total content of the product as placed on market (ug/kg): the intradermal mixture basis for the row's permanent forms, the finished-cosmetic basis for its temporary topical forms. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/eu-reach-2020-2081-tattoo-ink-metal-limits",
       "candidates": [
         {
           "id": "eu_reach_2020_2081_ni_tattoo_pmu_5000",
@@ -246,6 +251,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_reach_2020_2081_crvi_tattoo_pmu_500",
       "basis": "Total content of the mixture as placed on market (ug/kg), intradermal mixture basis. Not a migration or extraction value: the textile and leather Cr(VI) limits in the register are extraction limits and are refused by this row's basis guard.",
+      "binding_page": "regulations/eu-reach-2020-2081-tattoo-ink-metal-limits",
       "candidates": [
         {
           "id": "eu_reach_2020_2081_crvi_tattoo_pmu_500",

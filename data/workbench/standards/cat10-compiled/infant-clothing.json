@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2018_1513_pb_consumer_textiles_1mgkg",
       "basis": "extractable element content of the homogeneous textile material after the REACH Annex XVII entry 72 Appendix 12 extraction (mg/kg of homogeneous material)",
+      "binding_page": "regulations/eu-reach-2018-1513-cmr-textiles",
       "candidates": [
         {
           "id": "eu_2018_1513_pb_consumer_textiles_1mgkg",
@@ -47,6 +48,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2018_1513_cd_consumer_textiles_1mgkg",
       "basis": "extractable element content of the homogeneous textile material after the REACH Annex XVII entry 72 Appendix 12 extraction (mg/kg of homogeneous material)",
+      "binding_page": "regulations/eu-reach-2018-1513-cmr-textiles",
       "candidates": [
         {
           "id": "eu_2018_1513_cd_consumer_textiles_1mgkg",
@@ -66,6 +68,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2018_1513_tas_consumer_textiles_1mgkg",
       "basis": "extractable element content of the homogeneous textile material after the REACH Annex XVII entry 72 Appendix 12 extraction (mg/kg of homogeneous material)",
+      "binding_page": "regulations/eu-reach-2018-1513-cmr-textiles",
       "candidates": [
         {
           "id": "eu_2018_1513_tas_consumer_textiles_1mgkg",
@@ -154,6 +157,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2018_1513_cr_vi_consumer_textiles_1mgkg",
       "basis": "extractable element content of the homogeneous textile material after the REACH Annex XVII entry 72 Appendix 12 extraction (mg/kg of homogeneous material)",
+      "binding_page": "regulations/eu-reach-2018-1513-cmr-textiles",
       "candidates": [
         {
           "id": "eu_2018_1513_cr_vi_consumer_textiles_1mgkg",

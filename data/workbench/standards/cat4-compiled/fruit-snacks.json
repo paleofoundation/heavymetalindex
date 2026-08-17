@@ -28,6 +28,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_pb_200",
       "basis": "manufactured fruit snack as offered to the consumer",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_pb_200",
@@ -65,6 +66,7 @@
       "source_id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_cd_50",
       "source_jurisdiction": "MERCOSUR",
       "basis": "MERCOSUR fresh-fruit cadmium maximum level applied at face value to the manufactured snack as offered (conservative direction, disclosed)",
+      "source_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "source_scope": "fresh fruits excluding berries and small fruits",
       "label": "MERCOSUR writes no cadmium maximum level for fruit sweets, so the exact cell is unregulated; the nearest applicable sovereign value is the same instrument's fresh-fruit cadmium maximum level of 50 ug/kg for the same commodity, applied at face value.",
       "stricter_unselected": [],
@@ -78,6 +80,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300",
       "basis": "manufactured fruit snack as offered to the consumer",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300",
@@ -115,6 +118,7 @@
       "source_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
       "source_jurisdiction": "IL",
       "basis": "Israel fresh fruits-and-vegetables inorganic-arsenic maximum level applied at face value to the manufactured snack as offered (conservative direction, disclosed)",
+      "source_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "source_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
       "label": "No jurisdiction sets an inorganic-arsenic maximum level for manufactured fruit snacks; the nearest applicable sovereign value is Israel MOH FCS-2016 category 3 for fruits and vegetables, 60 ug/kg, the only inorganic-arsenic maximum level any credible government writes for this commodity.",
       "stricter_unselected": [],
@@ -128,6 +132,7 @@
       "source_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
       "source_jurisdiction": "IL",
       "basis": "Israel fresh fruits-and-vegetables total-mercury maximum level applied at face value to the manufactured snack as offered (conservative direction, disclosed)",
+      "source_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "source_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
       "label": "No jurisdiction sets a total-mercury maximum level for manufactured fruit snacks; the nearest applicable sovereign value is Israel MOH FCS-2016 category 3 for fruits and vegetables, 30 ug/kg.",
       "stricter_unselected": [],

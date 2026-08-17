@@ -28,6 +28,7 @@
       "binding_jurisdiction": "AU-NZ",
       "binding_id": "aunz_sch19_pb_meat_100",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "candidates": [
         {
           "id": "aunz_sch19_pb_meat_100",
@@ -52,6 +53,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_cd_meat_50",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/eu-2023-915-cadmium",
       "candidates": [
         {
           "id": "eu2023_cd_meat_50",
@@ -76,6 +78,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_tas_meat-of-animal_500",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_tas_meat-of-animal_500",
@@ -104,6 +107,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_meat-of-animal_50",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_meat-of-animal_50",
@@ -164,6 +168,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_crtotal_meat-of-animal_1000",
       "basis": "as sold, edible portion (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_crtotal_meat-of-animal_1000",

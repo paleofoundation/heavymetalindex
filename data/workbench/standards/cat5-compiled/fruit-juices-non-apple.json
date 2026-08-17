@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_pb_fruit_juice_other_30",
       "basis": "wet weight, single-strength ready-to-drink juice; a concentrate is assessed as reconstituted to the original juice concentration, which is the basis the instruments themselves write",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_pb_fruit_juice_other_30",
@@ -100,6 +101,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_ias_fruit_juice_20",
       "basis": "wet weight, single-strength ready-to-drink juice (or concentrate as reconstituted)",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_ias_fruit_juice_20",
@@ -152,6 +154,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2024_ni_juice_250",
       "basis": "product as placed on market, ready-to-drink liquid",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "candidates": [
         {
           "id": "eu2024_ni_juice_250",
@@ -176,6 +179,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_sn_canned_beverages_100000",
       "basis": "product as placed on market, ready-to-drink liquid (inorganic tin)",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_sn_canned_beverages_100000",

@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_pb_sml_nd",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "not_detectable": true,
       "candidates": [
         {
@@ -48,6 +49,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_cd_sml_nd",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "not_detectable": true,
       "candidates": [
         {
@@ -68,6 +70,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_tas_sml_nd",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "not_detectable": true,
       "candidates": [
         {
@@ -100,6 +103,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_thg_sml_nd",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "not_detectable": true,
       "candidates": [
         {
@@ -132,6 +136,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_ni_sml",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "candidates": [
         {
           "id": "eu_10_2011_ni_sml",
@@ -160,6 +165,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_al_sml",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "candidates": [
         {
           "id": "eu_10_2011_al_sml",
@@ -179,6 +185,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_10_2011_crtotal_sml_nd",
       "basis": "specific element migration into food or food simulant (µg/kg food)",
+      "binding_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "not_detectable": true,
       "candidates": [
         {

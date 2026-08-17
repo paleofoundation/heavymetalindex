@@ -28,6 +28,7 @@
       "binding_jurisdiction": "AU-NZ",
       "binding_id": "aunz_sch19_pb_vegetables_100",
       "basis": "wet weight, fresh spinach as sold",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "candidates": [
         {
           "id": "aunz_sch19_pb_vegetables_100",
@@ -72,6 +73,7 @@
       "binding_jurisdiction": "AU-NZ",
       "binding_id": "aunz_sch19_cd_leafy_100",
       "basis": "wet weight, fresh spinach as sold",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "candidates": [
         {
           "id": "aunz_sch19_cd_leafy_100",
@@ -121,6 +123,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300",
       "basis": "wet weight, fresh spinach as sold",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300",
@@ -155,6 +158,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
       "basis": "product as placed on market",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
@@ -174,6 +178,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
       "basis": "wet weight, fresh spinach as sold",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
@@ -210,6 +215,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2024_ni_leafy_veg_500",
       "basis": "wet weight, fresh spinach as sold",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "candidates": [
         {
           "id": "eu2024_ni_leafy_veg_500",
@@ -257,6 +263,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
       "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",

@@ -28,6 +28,7 @@
       "binding_jurisdiction": "US",
       "binding_id": "fda21cfr165110_pb_bottled_water_5",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
       "candidates": [
         {
           "id": "fda21cfr165110_pb_bottled_water_5",
@@ -97,6 +98,7 @@
       "binding_jurisdiction": "AU",
       "binding_id": "nhmrc2025_cd_drinking_water_2",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
       "candidates": [
         {
           "id": "nhmrc2025_cd_drinking_water_2",
@@ -171,6 +173,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_tas_natural-mineral-waters_10",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_tas_natural-mineral-waters_10",
@@ -240,6 +243,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
@@ -269,6 +273,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_natural-mineral-waters_1",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_natural-mineral-waters_1",
@@ -345,6 +350,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_ni_natural-mineral-waters_20",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_ni_natural-mineral-waters_20",
@@ -393,6 +399,7 @@
       "source_id": "eu20202184_al_drinking_water_200",
       "source_jurisdiction": "EU",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "source_page": "regulations/eu-2020-2184-drinking-water",
       "source_scope": "water intended for human consumption",
       "label": "disclosed read-across from the packaged-drinking-water aluminium parameter; no government sets a direct aluminium maximum for natural mineral water",
       "stricter_unselected": [],
@@ -406,6 +413,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_crtotal_natural-mineral-waters_50",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_crtotal_natural-mineral-waters_50",
@@ -457,6 +465,7 @@
       "binding_jurisdiction": "US-CA",
       "binding_id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+      "binding_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
       "candidates": [
         {
           "id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",

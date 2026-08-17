@@ -28,6 +28,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_pb_poultry-eggs_200",
       "basis": "as sold, edible portion excluding shell (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_pb_poultry-eggs_200",
@@ -52,6 +53,7 @@
       "source_id": "hk_cap132v_cd_meat-of-poultry_50",
       "source_jurisdiction": "HK",
       "basis": "as sold, edible portion excluding shell (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Meat of poultry",
       "label": "read-across from the poultry-meat cadmium maximum level in the same sovereign instrument (Hong Kong Cap. 132V, 50 ug/kg)",
       "stricter_unselected": [],
@@ -65,6 +67,7 @@
       "source_id": "hk_cap132v_tas_meat-of-poultry_500",
       "source_jurisdiction": "HK",
       "basis": "as sold, edible portion excluding shell (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Meat of poultry",
       "label": "read-across from the poultry-meat total-arsenic maximum level in the same sovereign instrument (Hong Kong Cap. 132V, 500 ug/kg)",
       "stricter_unselected": [],
@@ -87,6 +90,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_poultry-eggs_50",
       "basis": "as sold, edible portion excluding shell (wet weight)",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_poultry-eggs_50",
@@ -147,6 +151,7 @@
       "source_id": "hk_cap132v_crtotal_meat-of-poultry_1000",
       "source_jurisdiction": "HK",
       "basis": "as sold, edible portion excluding shell (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Meat of poultry",
       "label": "read-across from the poultry-meat total-chromium maximum level in the same sovereign instrument (Hong Kong Cap. 132V, 1000 ug/kg), published as a screen",
       "stricter_unselected": [],

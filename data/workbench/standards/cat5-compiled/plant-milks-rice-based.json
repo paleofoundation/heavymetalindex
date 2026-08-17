@@ -28,6 +28,7 @@
       "source_id": "hk_cap132v_pb_milk_20",
       "source_jurisdiction": "HK",
       "basis": "as consumed, ready-to-drink liquid (read across from the sovereign dairy-milk cell)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Milk",
       "label": "No credible sovereign has written a lead maximum level for a plant-based drink. The nearest applicable sovereign value is the Hong Kong Cap 132V lead cell for Milk (20 ug/kg, as consumed), the dairy beverage this product form substitutes for and shares a serving format, consumption pattern and liquid as-consumed basis with. It is adopted by disclosed read-across.",
       "stricter_unselected": [],
@@ -59,6 +60,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_ias_rice_drinks_30",
       "basis": "wet weight, ready-to-drink rice-based drink",
+      "binding_page": "regulations/eu2023-arsenic-rice-based-drinks",
       "candidates": [
         {
           "id": "eu2023_ias_rice_drinks_30",
@@ -85,6 +87,7 @@
       "source_id": "hk_cap132v_thg_milk_10",
       "source_jurisdiction": "HK",
       "basis": "as consumed, ready-to-drink liquid (read across from the sovereign dairy-milk cell)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Milk",
       "label": "No credible sovereign has written a total-mercury maximum level for a plant-based drink. The Hong Kong Cap 132V total-mercury cell for Milk (10 ug/kg, as consumed) is the nearest applicable sovereign value in the identical liquid as-consumed basis and is adopted by disclosed read-across, consistent with the lead cell in this row.",
       "stricter_unselected": [],
@@ -110,6 +113,7 @@
       "source_id": "eu2024_ni_juice_250",
       "source_jurisdiction": "EU",
       "basis": "product as placed on market, ready-to-drink liquid (read across from the EU beverage nickel cell)",
+      "source_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "source_scope": "fruit/vegetable juices and nectars, general",
       "label": "No credible sovereign has written a nickel maximum level for a plant-based drink. EU 2024/1987's fruit and vegetable juices and nectars cell (250 ug/kg) is the only sovereign nickel value written for a ready-to-drink beverage and is adopted by disclosed read-across as the nearest applicable value in the identical liquid basis.",
       "stricter_unselected": [],
@@ -123,6 +127,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_sn_canned_beverages_100000",
       "basis": "product as placed on market, ready-to-drink liquid (inorganic tin)",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_sn_canned_beverages_100000",

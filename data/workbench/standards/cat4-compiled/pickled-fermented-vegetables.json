@@ -28,6 +28,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_pb_pickled-cucumbers-also-known-as-cucumber-pickles_100",
       "basis": "drained product as sold, wet weight",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_pb_pickled-cucumbers-also-known-as-cucumber-pickles_100",
@@ -84,6 +85,7 @@
       "binding_jurisdiction": "CH",
       "binding_id": "ch_vhk_2026_cd_tafeloliven_20",
       "basis": "drained product as sold, wet weight",
+      "binding_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
       "candidates": [
         {
           "id": "ch_vhk_2026_cd_tafeloliven_20",
@@ -108,6 +110,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_table_olives_tas_300",
       "basis": "drained product as sold, wet weight",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_table_olives_tas_300",
@@ -137,6 +140,7 @@
       "source_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
       "source_jurisdiction": "IL",
       "basis": "Israel fresh fruits-and-vegetables inorganic-arsenic maximum level applied to the drained pickled product as sold (comparable basis, disclosed)",
+      "source_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "source_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
       "label": "No jurisdiction writes an inorganic-arsenic maximum level for pickled, fermented or brined vegetables; the nearest applicable sovereign value is Israel MOH FCS-2016 category 3 for fruits and vegetables, 60 ug/kg, the only inorganic-arsenic maximum level any credible government writes for this commodity.",
       "stricter_unselected": [],
@@ -150,6 +154,7 @@
       "source_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
       "source_jurisdiction": "HK",
       "basis": "Hong Kong vegetable total-mercury maximum level applied to the drained pickled product as sold (comparable basis, disclosed)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Vegetables, other than edible fungi",
       "label": "No jurisdiction writes a total-mercury maximum level for pickled, fermented or brined vegetables; the nearest applicable sovereign value is Hong Kong Cap. 132V item 12 for vegetables other than edible fungi, 10 ug/kg, the strictest sovereign total-mercury maximum level for the underlying commodity.",
       "stricter_unselected": [],
@@ -175,6 +180,7 @@
       "source_id": "eu2024_ni_fruiting_veg_400",
       "source_jurisdiction": "EU",
       "basis": "EU fruiting-vegetable nickel maximum level applied to the drained pickled product as sold (comparable basis, disclosed)",
+      "source_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "source_scope": "fruiting vegetables",
       "label": "EU Reg. 2024/1987 writes no maximum level for pickled, fermented or brined vegetables; the nearest applicable sovereign value is its fruiting-vegetable row, 400 ug/kg, which governs the cucumbers and peppers that are the dominant raw material of this row and is the strictest nickel value the instrument sets for any vegetable class it contains.",
       "stricter_unselected": [],
@@ -208,6 +214,7 @@
       "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
       "source_jurisdiction": "HK",
       "basis": "Hong Kong vegetable total-chromium maximum level applied to the drained pickled product as sold (comparable basis, disclosed)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Vegetables, other than pulses",
       "label": "No jurisdiction writes a total-chromium maximum level for pickled, fermented or brined vegetables; the nearest applicable sovereign value is Hong Kong Cap. 132V item 7 for vegetables other than pulses, 500 ug/kg, the only dietary total-chromium maximum level in the register that reaches this commodity.",
       "stricter_unselected": [],

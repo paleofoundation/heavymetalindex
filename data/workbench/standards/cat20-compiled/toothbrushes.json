@@ -28,6 +28,7 @@
       "binding_jurisdiction": "CA",
       "binding_id": "ca_sor2018_83_pb_accessible_consumer_product_parts_90mgkg",
       "basis": "total lead content per accessible part, ug/kg of that component's material (article content basis, not migration)",
+      "binding_page": "regulations/canada-sor-2018-83-consumer-products-lead",
       "candidates": [
         {
           "id": "ca_sor2018_83_pb_accessible_consumer_product_parts_90mgkg",

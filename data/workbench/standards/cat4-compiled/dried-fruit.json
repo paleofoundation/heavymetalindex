@@ -28,6 +28,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_dried_fruits_pb_800",
       "basis": "dried fruit as offered to the consumer (dry as-sold)",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_dried_fruits_pb_800",
@@ -52,6 +53,7 @@
       "source_id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_cd_50",
       "source_jurisdiction": "MERCOSUR",
       "basis": "MERCOSUR fresh-fruit cadmium maximum level applied at face value to the dried product as offered (conservative direction, disclosed)",
+      "source_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "source_scope": "fresh fruits excluding berries and small fruits",
       "label": "MERCOSUR GMC Res. 12/2011 writes dried-fruit maximum levels for lead and total arsenic but none for cadmium, so the exact cell is unregulated; the nearest applicable sovereign value is the same instrument's fresh-fruit cadmium maximum level of 50 ug/kg for the same commodity, applied at face value to the dry product.",
       "stricter_unselected": [],
@@ -65,6 +67,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_dried_fruits_tas_800",
       "basis": "dried fruit as offered to the consumer (dry as-sold)",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_dried_fruits_tas_800",
@@ -94,6 +97,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
       "basis": "dried fruit as offered to the consumer (dry as-sold)",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
@@ -113,6 +117,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
       "basis": "dried fruit as offered to the consumer (dry as-sold)",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",

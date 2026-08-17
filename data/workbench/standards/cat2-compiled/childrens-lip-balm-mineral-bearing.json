@@ -28,6 +28,7 @@
       "source_id": "de_bvl2017_pb_toothpaste_500",
       "source_jurisdiction": "DE",
       "basis": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+      "source_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "source_scope": "toothpaste",
       "label": "Germany BVL 2017 TOOTHPASTE (swallowed-product) lead tier, read across to a children's lip product",
       "stricter_unselected": [],
@@ -41,6 +42,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_cd_cosmetics_general_100",
       "basis": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_cd_cosmetics_general_100",
@@ -75,6 +77,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_tas_cosmetics_general_500",
       "basis": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_tas_cosmetics_general_500",
@@ -118,6 +121,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_thg_cosmetics_general_100",
       "basis": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_thg_cosmetics_general_100",
@@ -169,6 +173,7 @@
       "source_id": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
       "source_jurisdiction": "KR",
       "basis": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+      "source_page": "regulations/korea-mfds-2025-63-cosmetics-safety-standards",
       "source_scope": "cosmetic products other than eye makeup or color makeup products",
       "label": "Korea MFDS non-colour-cosmetic nickel tier (10 ug/g), read across in place of the colour-cosmetic tier",
       "stricter_unselected": [],

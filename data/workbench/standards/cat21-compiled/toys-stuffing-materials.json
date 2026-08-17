@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_pb_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_pb_toy_migration",
@@ -59,6 +60,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_cd_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_cd_toy_migration",
@@ -90,6 +92,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_tas_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_tas_toy_migration",
@@ -128,6 +131,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_thg_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_thg_toy_migration",
@@ -166,6 +170,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_ni_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_ni_toy_migration",
@@ -192,6 +197,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_sn_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_sn_toy_migration",
@@ -218,6 +224,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_al_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_al_toy_migration",
@@ -246,6 +253,7 @@
       "binding_jurisdiction": "US",
       "binding_id": "astm_f963_crtotal_soluble",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/astm-f963-soluble-migration",
       "candidates": [
         {
           "id": "astm_f963_crtotal_soluble",
@@ -265,6 +273,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu_2009_48_cat1_crvi_toy_migration",
       "basis": "element MIGRATION from dry, brittle, powder-like or pliable toy material (EN 71-3 Category I, mg/kg of material) — a migration ceiling, not a total-content ceiling",
+      "binding_page": "regulations/eu-2009-48-toy-safety-migration-limits",
       "candidates": [
         {
           "id": "eu_2009_48_cat1_crvi_toy_migration",

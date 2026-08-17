@@ -28,6 +28,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_pb_cosmetics_general_2000",
       "basis": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_pb_cosmetics_general_2000",
@@ -92,6 +93,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_cd_cosmetics_general_100",
       "basis": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_cd_cosmetics_general_100",
@@ -141,6 +143,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_tas_cosmetics_general_500",
       "basis": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_tas_cosmetics_general_500",
@@ -204,6 +207,7 @@
       "binding_jurisdiction": "DE",
       "binding_id": "de_bvl2017_thg_cosmetics_general_100",
       "basis": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
       "candidates": [
         {
           "id": "de_bvl2017_thg_cosmetics_general_100",
@@ -280,6 +284,7 @@
       "binding_jurisdiction": "KR",
       "binding_id": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
       "basis": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
+      "binding_page": "regulations/korea-mfds-2025-63-cosmetics-safety-standards",
       "candidates": [
         {
           "id": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",

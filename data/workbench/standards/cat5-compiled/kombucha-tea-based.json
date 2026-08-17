@@ -28,6 +28,7 @@
       "source_id": "hk_cap132v_pb_tea-beverages-made-from-tea-green-black_200",
       "source_jurisdiction": "HK",
       "basis": "as consumed, ready-to-drink tea-based beverage (read across from the Hong Kong tea-beverage cell)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Tea beverages made from Tea, Green, Black",
       "label": "Hong Kong Cap 132V sets lead in Tea beverages made from Tea, Green, Black at 0.2 mg/kg = 200 ug/kg, with Note 11 scoping the cell to beverages that are, or are reconstituted to be, ready to drink. Kombucha is a ready-to-drink beverage made from tea, so this is the nearest applicable sovereign value and arguably a direct cell; it is recorded as a disclosed read-across because the instrument does not name the fermented form.",
       "stricter_unselected": [],
@@ -59,6 +60,7 @@
       "source_id": "eu2023_ias_fruit_juice_20",
       "source_jurisdiction": "EU",
       "basis": "wet weight, ready-to-drink beverage (read across from the EU fruit-juice inorganic-arsenic cell)",
+      "source_page": "regulations/eu2023-contaminants-maximum-levels",
       "source_scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
       "label": "No credible sovereign has written an inorganic-arsenic maximum level for a tea beverage or a fermented beverage. The EU 2023/915 section 3.4.4 fruit-juice cell (20 ug/kg) is the strictest sovereign inorganic-arsenic value for any ready-to-drink beverage and is adopted by disclosed read-across in the identical liquid basis.",
       "stricter_unselected": [],
@@ -93,6 +95,7 @@
       "source_id": "eu2024_ni_juice_250",
       "source_jurisdiction": "EU",
       "basis": "product as placed on market, ready-to-drink beverage (read across from the EU beverage nickel cell)",
+      "source_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "source_scope": "fruit/vegetable juices and nectars, general",
       "label": "No credible sovereign has written a nickel maximum level for a tea beverage or a fermented beverage. EU 2024/1987's fruit and vegetable juices and nectars cell (250 ug/kg) is the only sovereign nickel value written for a ready-to-drink beverage and is adopted by disclosed read-across in the identical liquid basis.",
       "stricter_unselected": [],
@@ -106,6 +109,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_sn_canned_beverages_100000",
       "basis": "product as placed on market, ready-to-drink liquid (inorganic tin)",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_sn_canned_beverages_100000",

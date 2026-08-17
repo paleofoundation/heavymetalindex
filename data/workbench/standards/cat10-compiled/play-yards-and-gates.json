@@ -28,6 +28,7 @@
       "binding_jurisdiction": "US",
       "binding_id": "cpsia_pb_surface_coating_90ppm",
       "basis": "total lead content of the accessible component, of the dried coating film and of any applied sticker or film (mg/kg)",
+      "binding_page": "regulations/us-cpsia-lead-childrens-products",
       "candidates": [
         {
           "id": "cpsia_pb_surface_coating_90ppm",
@@ -92,6 +93,7 @@
       "binding_component": "paint, lacquer and applied surface coatings on coated components",
       "binding_id": "au_customs_1956_cd_toys_coating_75mgkg",
       "binding_jurisdiction": "AU",
+      "binding_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
       "basis": "total cadmium content of the component material (mg/kg of the homogenised component or of the dried coating film)",
       "components": [
         {
@@ -153,6 +155,7 @@
       "source_id": "au_customs_1956_tas_toys_coating_25mgkg",
       "source_jurisdiction": "AU",
       "basis": "total arsenic content of the coating material and of the accessible component (mg/kg)",
+      "source_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
       "source_scope": "toys coated with a material",
       "label": "Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 item 2: 25 mg/kg arsenic in the non-volatile content of coating material on a coated toy, read across to the coatings and coated components of this durable good.",
       "stricter_unselected": [
@@ -194,6 +197,7 @@
       "binding_jurisdiction": "CA",
       "binding_id": "ca_sor2016_193_thg_surface_coating_material_10000",
       "basis": "total mercury content of a dried sample of the surface coating material (mg/kg)",
+      "binding_page": "regulations/canada-surface-coating-materials-heavy-metals-2016",
       "candidates": [
         {
           "id": "ca_sor2016_193_thg_surface_coating_material_10000",
@@ -267,6 +271,7 @@
       "source_id": "au_customs_1956_cr_total_toys_coating_60mgkg",
       "source_jurisdiction": "AU",
       "basis": "total chromium content of the coating material and of the accessible component (mg/kg)",
+      "source_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
       "source_scope": "toys coated with a material",
       "label": "Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 item 2: 60 mg/kg chromium in the non-volatile content of coating material on a coated toy, read across to the coatings and coated components of this durable good. Reported as a SCREEN.",
       "stricter_unselected": [],
@@ -281,6 +286,7 @@
       "source_id": "eu_301_2014_cr_vi_leather_articles_3mgkg",
       "source_jurisdiction": "EU",
       "basis": "hexavalent chromium content on the total dry weight of the component (mg/kg) — leather, coating film, or plated and conversion-coated metal part",
+      "source_page": "regulations/eu-reach-2014-301-chromium-vi-leather",
       "source_scope": "leather articles and articles containing leather parts coming into contact with the skin",
       "label": "EU REACH Annex XVII entry 47 paragraphs 5 and 6 (Regulation (EU) No 301/2014): 3 mg/kg hexavalent chromium on the total dry weight of leather, for leather articles and articles containing leather parts coming into contact with the skin. Applied article-wide.",
       "stricter_unselected": [

@@ -28,6 +28,7 @@
       "binding_component": "pulses (pea and other pulse protein source commodity)",
       "binding_id": "hk_cap132v_pb_pulses_100",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -64,6 +65,7 @@
       "binding_component": "pulses (pea and other pulse protein source commodity)",
       "binding_id": "eu2023_cd_pulses_40",
       "binding_jurisdiction": "EU",
+      "binding_page": "regulations/eu-2023-915-cadmium",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -100,6 +102,7 @@
       "binding_component": "cereals other than rice (wheat gluten source commodity)",
       "binding_id": "hk_cap132v_tas_cereals-other-than-rice_500",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -145,6 +148,7 @@
       "binding_component": "wheat and wheat flour (wheat gluten source commodity)",
       "binding_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -179,6 +183,7 @@
       "binding_component": "cereals (wheat gluten source commodity)",
       "binding_id": "eu2024_ni_cereals_800",
       "binding_jurisdiction": "EU",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -242,6 +247,7 @@
       "source_id": "hk_cap132v_crtotal_pulses_1000",
       "source_jurisdiction": "HK",
       "basis": "as sold, finished product (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Pulses",
       "label": "read-across from the Hong Kong Cap. 132V total-chromium maximum level for pulses (1000 ug/kg), published as a screen; the cereals entry in the same instrument carries the identical value",
       "stricter_unselected": [

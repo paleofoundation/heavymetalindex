@@ -28,6 +28,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2023_pb_root_tuber_vegetables_100",
       "basis": "wet weight, fresh root or tuber as sold, potatoes as peeled",
+      "binding_page": "regulations/eu2023-contaminants-maximum-levels",
       "candidates": [
         {
           "id": "eu2023_pb_root_tuber_vegetables_100",
@@ -82,6 +83,7 @@
       "binding_jurisdiction": "CH",
       "binding_id": "ch_vhk_2026_cd_tropisches-wurzel-und-knollengemuse_50",
       "basis": "wet weight, fresh root or tuber as sold, potatoes as peeled",
+      "binding_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
       "candidates": [
         {
           "id": "ch_vhk_2026_cd_tropisches-wurzel-und-knollengemuse_50",
@@ -151,6 +153,7 @@
       "binding_jurisdiction": "MERCOSUR",
       "binding_id": "mercosur_gmc12_2011_roots_and_tubers_tas_200",
       "basis": "wet weight, fresh root or tuber as sold",
+      "binding_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "candidates": [
         {
           "id": "mercosur_gmc12_2011_roots_and_tubers_tas_200",
@@ -185,6 +188,7 @@
       "binding_jurisdiction": "IL",
       "binding_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
       "basis": "product as placed on market",
+      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
       "candidates": [
         {
           "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
@@ -204,6 +208,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
       "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
@@ -237,6 +242,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2024_ni_root_tuber_bulb_veg_900",
       "basis": "wet weight, fresh root or tuber as sold",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "candidates": [
         {
           "id": "eu2024_ni_root_tuber_bulb_veg_900",
@@ -284,6 +290,7 @@
       "binding_jurisdiction": "HK",
       "binding_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
       "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "candidates": [
         {
           "id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",

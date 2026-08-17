@@ -37,6 +37,7 @@
       "binding_jurisdiction": "AU-NZ",
       "binding_id": "aunz_sch19_cd_chocolate_500",
       "basis": "dry cocoa or drinking-chocolate powder as sold (edible portion, no reconstitution applied)",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "candidates": [
         {
           "id": "aunz_sch19_cd_chocolate_500",
@@ -124,6 +125,7 @@
       "binding_jurisdiction": "EU",
       "binding_id": "eu2024_ni_cocoa_powder_15000",
       "basis": "product as placed on market, dry cocoa or drinking-chocolate powder",
+      "binding_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "candidates": [
         {
           "id": "eu2024_ni_cocoa_powder_15000",

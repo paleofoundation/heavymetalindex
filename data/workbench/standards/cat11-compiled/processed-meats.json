@@ -28,6 +28,7 @@
       "binding_component": "multi-species muscle meat excluding offal (FSANZ)",
       "binding_id": "aunz_sch19_pb_meat_100",
       "binding_jurisdiction": "AU-NZ",
+      "binding_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -64,6 +65,7 @@
       "binding_component": "multi-species muscle meat excluding offal (EU)",
       "binding_id": "eu2023_cd_meat_50",
       "binding_jurisdiction": "EU",
+      "binding_page": "regulations/eu-2023-915-cadmium",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -93,6 +95,7 @@
       "binding_component": "meat of animal",
       "binding_id": "hk_cap132v_tas_meat-of-animal_500",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -131,6 +134,7 @@
       "binding_component": "meat of animal",
       "binding_id": "hk_cap132v_thg_meat-of-animal_50",
       "binding_jurisdiction": "HK",
+      "binding_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "basis": "as sold, finished product (wet weight)",
       "components": [
         {
@@ -198,6 +202,7 @@
       "source_id": "hk_cap132v_crtotal_meat-of-animal_1000",
       "source_jurisdiction": "HK",
       "basis": "as sold, finished product (wet weight)",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "source_scope": "Meat of animal",
       "label": "read-across from the Hong Kong Cap. 132V total-chromium maximum level for meat of animal (1000 ug/kg), published as a screen; the meat-of-poultry entry in the same instrument carries the identical value",
       "stricter_unselected": [],
