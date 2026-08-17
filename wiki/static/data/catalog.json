@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "@id": "https://heavymetalindex.com/data#catalog",
+  "name": "Heavy Metal Index — open data catalog",
+  "url": "https://heavymetalindex.com/data",
+  "description": "Machine-readable open data from the Heavy Metal Index: measured heavy-metal occurrence distributions and the cross-jurisdiction regulatory-limit corpus. Literature-native; contains no HMTc certification thresholds.",
+  "generated_at": "2026-08-17T14:48:36.233Z",
+  "generated_commit": "abe989345efdc1193b390faa4d683afbe1ce55fa",
+  "license": {
+    "prose": "CC BY 4.0",
+    "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
+    "contact": "karen@paleofoundation.com"
+  },
+  "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
+  "publisher": "Institute of Contaminant Standards",
+  "datasets": [
+    {
+      "id": "hmi-occurrence",
+      "name": "Heavy Metal Index — food & ingredient occurrence data",
+      "description": "Measured heavy-metal occurrence distributions per ingredient and analyte (typical range, 95th percentile, study count, confidence, contributing sources), compiled from the peer-reviewed and regulatory literature. Values are in ppb (µg/kg) on the basis each source reported.",
+      "landing_page": "https://heavymetalindex.com/data",
+      "version": "2026-08-17+abe989345efd",
+      "date_modified": "2026-08-17",
+      "record_count": 230,
+      "unit": "ppb (µg/kg)",
+      "analyte_panel": [
+        "Pb",
+        "Cd",
+        "iAs",
+        "tAs",
+        "tHg",
+        "Ni",
+        "Al",
+        "Cr",
+        "Sn",
+        "U"
+      ],
+      "distributions": [
+        {
+          "format": "application/json",
+          "content_url": "https://heavymetalindex.com/static/data/occurrence.json",
+          "content_size": 884252
+        },
+        {
+          "format": "text/csv",
+          "content_url": "https://heavymetalindex.com/static/data/occurrence.csv",
+          "content_size": 392313
+        }
+      ]
+    },
+    {
+      "id": "hmi-regulations",
+      "name": "Heavy Metal Index — regulatory limit corpus",
+      "description": "Published maximum-level / regulatory-limit records for heavy metals in food and consumer-product matrices across jurisdictions, with agency, program, matrix, effective and sunset dates, and the source page carrying each rule.",
+      "landing_page": "https://heavymetalindex.com/data",
+      "version": "2026-08-17+abe989345efd",
+      "date_modified": "2026-08-17",
+      "record_count": 172,
+      "distributions": [
+        {
+          "format": "application/json",
+          "content_url": "https://heavymetalindex.com/static/data/regulations.json",
+          "content_size": 207113
+        },
+        {
+          "format": "text/csv",
+          "content_url": "https://heavymetalindex.com/static/data/regulations.csv",
+          "content_size": 61141
+        }
+      ]
+    }
+  ]
+}
