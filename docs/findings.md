@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-73 open item(s): 32 auto, 41 awaiting a decision.
+74 open item(s): 32 auto, 42 awaiting a decision.
 
 ### OI-20260817-cert-promote-pr30-pr31 — Stranded built work: cert PR #30 (brand journey + remediation reconciliation, 16 files) and PR #31 (hero reframe) are MERGEABLE/CLEAN and unpromoted since 2026-08-13
 
@@ -571,6 +571,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `.github/workflows/quality-gates.yml`
 - repro: cd ~/Desktop/heavymetalcertified. ls .github/workflows -> does not exist on main or locally. git log --all --oneline -- .github/workflows/ -> 8cf5330 'ci: run source, build, and rendered quality gates', 0f7c6b9 'fix(ci): resolve type errors exposed by quality gates', 440a05d (PR #7), then 625574b 'revert(site): restore pre-campaign design baseline' — the revert removed the guard and the content in one change. Every lint the program relies on (firewall-cert-lint, method-drift-lint, claim-discipline-lint, briefings-index-lint, regulatory-link-lint, design-lint, check:v3) currently runs only in prebuild on a developer machine or on Vercel. This is the audit's central structural lesson: the redesign was representational, not constitutional — it changed what the site said without changing the system that decides what the site may say.
 - done when: Protected workflow restored: npm ci, tsc --noEmit, all prebuild generators + lints, full quartz build, postbuild, check:v3 rendered assertions; NEW cross-surface consistency tests, each failing the build: (a) every public program count equals the generated snapshot, (b) no page contradicts data/method/method-v2.json, (c) certificate/mark/register/retailer status rules agree across /program/*, /mark and /verify, (d) laboratory-cost treatment is stated one way, (e) no page links to a page that does not exist; A test proves each new gate fails on the known-bad pre-fix content, not merely passes on the fixed content; The workflow file is covered by a rule that a revert cannot silently delete a gate: removing a gate requires its own commit that names the invariant being given up; Green on main
+
+### OI-20260817-cat9-total-cr-panel-gap — LIVE Category 9 omits the canonical total-chromium panel cell and puts its total-Cr SML on the Cr-VI cell instead
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `tools/standards/cat9-config.json`, `data/workbench/standards/cat9-compiled/`
+- repro: tools/standards/cat9-config.json declares panel [Pb,tAs,iAs,Cd,tHg,MeHg,Ni,Al,Cr-VI,Sn] - 10 analytes, omitting total chromium. The canonical HMTc panel (CLAUDE.md Part 14) is eight totals plus species controls, and total Cr is one of the eight mandatory totals. Separately, the food-contact rows (infant-bottles, infant-bottle-nipples, infant-food-storage-items, feeding-accessories-child-sized, sippy-cups-toddler-drinkware) publish their Cr-VI cell as a read_across from eu_10_2011_crtotal_sml_nd - a TOTAL-chromium specific-migration limit (not detectable, 10 ug/kg) - labelled bounded by the total-chromium SML. That is the total-Cr instrument mislocated onto the species cell: the EU 10/2011 total-Cr SML should populate a total-Cr cell (currently absent), and Cr-VI should be a reflex-speciation screen bounded by it, matching how Cat 21 and the other article categories handle the total-Cr/Cr-VI split. Surfaced by tools/standards/audit-compiled-standards.mjs on the live compiled records (C1 missing panel analyte Cr across all 8 rows; C6 Cr-VI anchored on a total-Cr limit on the 5 food-contact rows). Cat 9 is LIVE on heavymetalcertified.com.
+- done when: cat9-config.json panel includes total Cr; Each food-contact row publishes a total-Cr cell from eu_10_2011_crtotal_sml_nd (ND, 10 ug/kg) and a Cr-VI cell that is a reflex-speciation screen bounded by it, not a read_across that republishes the total-Cr number as a Cr-VI value; Category 9 recompiles and passes tools/standards/audit-compiled-standards.mjs C1/C5/C6; Karen rules on republishing, since these are live certification values
+- decision: _pending_
 
 ### OI-20260813-unify-food-standard-engines — Unify the two parallel food-standard engines: tools/standards/lib/food-standards-engine.mjs (Cat 33/34, adds form_split) vs tools/standards/lib/food-limit-compiler.mjs (Cat 27-32) — converge on one, ideally by adding form_split support to food-limit-compiler.mjs and migrating cat33/34
 
