@@ -513,7 +513,17 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-64 open item(s): 25 auto, 39 awaiting a decision.
+65 open item(s): 25 auto, 40 awaiting a decision.
+
+### OI-20260817-cat35-bone-broth-not-live — Cat 35 bone-broth standard is not live on cert; needs the Karen-approved HK/CN tHg control->50 tightening compiled then rendered to production
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `data/workbench/standards/cat35-compiled/bone-broth.json`, `heavymetalcertified: content/standards/bone-broth.md`, `heavymetalcertified: data/standards/ (cat35 render config)`
+- repro: heavymetalcertified.com/standards/bone-broth is 404 (not live) as of 2026-08-17; mixed-meals IS live. The only bone-broth compiled data (index branch claude/serene-meitner-009b2c, data/workbench/standards/cat35-compiled/bone-broth.json) has tHg as a BARE control (value null) — it does NOT carry the Karen-approved HK/China composite-allowlist tightening (bone-broth tHg control->50; mixed-meals total-Cr control->500) from the 2026-08-14 adversarial-audit blueprint ('KAREN RULED'). No tightened bone-broth compiled data exists on any ref. Cat 35 is owned by the remediation (task_222daa53), which is recompiling+re-rendering all food categories with the audit tightenings.
+- done when: bone-broth recompiled with HK/China admitted to the Cat 35 composite allowlist (tHg control->50 per the audit blueprint), canonical with the remediation's Cat 35 recompile; bone-broth rendered LIVE at heavymetalcertified.com/standards/bone-broth (HTTP 200, real ANALYTE/TIER/HMTC-LIMIT/BASIS table); bone-broth listed on the /standards index; mixed-meals tightenings (tHg, total-Cr control->500) confirmed consistent with the same recompile
+- evidence: cert /standards/bone-broth = 404 (2026-08-17) · branch claude/serene-meitner-009b2c bone-broth.json tHg = bare control (stale, pre-tightening) · audit blueprint: /private/tmp/.../adversarial-audit-blueprint-2026-08-14.md ('KAREN RULED' HK/China into composite allowlist)
+- decision: _pending_
+- notes: Safety-net capture. The finisher deliberately did NOT render bone-broth from the stale branch (would publish tHg=bare-control instead of the ratified ->50, and would race the remediation's canonical recompile). Owned by remediation task_222daa53; this item guarantees it survives peer/session churn. If remediation stalls, a session can enact by recompiling Cat 35 with HK/China in the composite allowlist then rendering. Cat 15 + Cat 25 (the finisher's owned scope) are fully LIVE; Cat 12 confirmed done (21 subcats).
 
 ### OI-20260817-cat25-vape-cartridge-fill-publish-decision — Cat 25 cannabis vape-cartridge-fill standard row is compiled and publishable (v1.1) but held unpublished pending a reserve decision
 
