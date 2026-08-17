@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-77 open item(s): 32 auto, 45 awaiting a decision.
+78 open item(s): 33 auto, 45 awaiting a decision.
 
 ### OI-20260817-taxonomy-v22-phaseb-stale — hmtc-v2.json still carries dissolved Category 7 rows and no slug aliases, so every coverage report overstates the standards gap
 
@@ -567,6 +567,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `content/index.md`, `content/apply.md`, `tools/`, `content/static/data/standards.json`
 - repro: cd ~/Desktop/heavymetalcertified. git show origin/main:content/index.md | grep -o 'Subcategory standards</span><span[^>]*>[0-9]*' -> 12. git show origin/main:content/apply.md | grep -o 'Subcategories open", v: "[0-9]*' -> 15. Actual: git ls-tree -r --name-only origin/main content/standards/ | grep -vci 'manual|index' -> 150 subcategory standard pages live, 1068 published analyte cells in content/static/data/standards.json. Both figures are typed into prose, both are wrong, they disagree with each other, and they understate the program by an order of magnitude on the two pages a brand reads first. Same class as the audit finding that a public count should be a query result, not a sentence.
 - done when: tools/build-program-snapshot.mjs derives every public program count (subcategory standards published, categories open, analytes per row, cells published, current edition) from content/static/data/standards.json + the category readiness source, and writes one generated JSON; content/index.md and content/apply.md consume the generated values; no count is typed into prose; A lint fails the build when a hand-authored integer appears in a program-count slot on index.md or apply.md; Added to prebuild so the counts cannot go stale between deploys; npm run build green; deployed to main (LIVE)
+
+### OI-20260817-cert-missing-regulation-pages — 32 instruments now cited by compiled standards have no cert /regulations page, so 925 cells render unlinked
+
+- scope: **auto** · type: content · status: open · repo: cert
+- paths: `content/regulations/`, `tools/build-cert-regulation-pages.mjs`
+- repro: The cert renderer now links each cell to the instrument it was actually derived from (build-category-standard-pages.mjs regForCell) instead of to a per-jurisdiction stand-in page. content/regulations/ holds 41 pages, essentially all food-law instruments. The 15 newly published categories are largely non-food, so 32 distinct instruments cited by compiled cells have no page and render as unlinked label text. Largest: germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics (210 cells), eu-2009-48-toy-safety-migration-limits (168), eu-10-2011-food-contact-plastics-sml (104), china-cosmetics-safety-technical-standards-2015 (52), korea-mfds-2025-63-cosmetics-safety-standards (47), eu-2024-1987-nickel-maximum-levels (27), astm-f963-soluble-migration (21), eu-2020-2184-drinking-water (19), us-cpsia-lead-childrens-products. Also note the register slug and the existing cert page slug diverge for instruments that DO have a page (register regulations/eu2023-contaminants-maximum-levels vs cert eu-2023-915), so some food cells lost a link they previously had via the jurisdiction fallback. Unlinked is correct behaviour versus citing the wrong instrument, but the links should come back.
+- done when: A cert /regulations page exists for each of the 32 instruments, generated the same way the existing 41 are; Register regulation_page slugs and cert regulation page slugs are reconciled, or a single explicit alias map is added so both resolve; Every compiled cell that names an instrument renders a working link to that instrument on its standard page; regulatory-link-lint continues to pass
 
 ### OI-20260817-cert-mark-repro-spec — The certification mark is being distributed from two live pages with an explicit admission that no reproduction specification exists
 
