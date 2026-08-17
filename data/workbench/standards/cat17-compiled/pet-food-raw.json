@@ -69,6 +69,11 @@
             "value": 100,
             "converted": false,
             "id": "vn_qcvn8_2_2011_pb_buffalo-meat-beef-pork-sheep-meat-poultry-meat_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": false,
+            "id": "hk_cap132v_pb_meat-of-cattle-pig-goat-and-sheep_100"
           }
         },
         "feed_floor": [
@@ -144,6 +149,11 @@
             "value": 50,
             "converted": false,
             "id": "vn_qcvn8_2_2011_cd_buffalo-meat-beef-pork-sheep-meat-poultry-meat_50"
+          },
+          "HK": {
+            "value": 50,
+            "converted": false,
+            "id": "hk_cap132v_cd_meat-of-cattle-pigs-goat-and-sheep_50"
           }
         },
         "feed_floor": [
@@ -199,6 +209,11 @@
             "value": 500,
             "converted": false,
             "id": "mercosur_gmc12_2011_raw_meats_sausages_breaded_products_tas_500"
+          },
+          "HK": {
+            "value": 500,
+            "converted": false,
+            "id": "hk_cap132v_tas_meat-of-animal_500"
           },
           "IL": {
             "value": 1000,
@@ -270,15 +285,20 @@
       "tHg": {
         "type": "read_across",
         "human_grade": true,
-        "value": 200,
-        "value_exact": 200,
-        "source_id": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200",
-        "source_jurisdiction": "IL",
+        "value": 50,
+        "value_exact": 50,
+        "source_id": "hk_cap132v_thg_meat-of-animal_50",
+        "source_jurisdiction": "HK",
         "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
-        "analog_scope": "Meat and meat products, including poultry, game, and offal",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (IL, 200 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Meat of animal",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (HK, 50 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "HK": {
+            "value": 50,
+            "converted": false,
+            "id": "hk_cap132v_thg_meat-of-animal_50"
+          },
           "IL": {
             "value": 200,
             "converted": false,
@@ -337,11 +357,23 @@
         "feed_floor": null
       },
       "Cr": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets a total-chromium maximum for general meat products; total chromium is measured on every lot as a mandatory surveillance control and gates the Cr(VI) reflex.",
-        "reference_method": "Total Cr by ICP-MS.",
-        "bounded_by": null,
+        "type": "read_across",
+        "human_grade": true,
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "hk_cap132v_crtotal_meat-of-animal_1000",
+        "source_jurisdiction": "HK",
+        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+        "analog_scope": "Meat of animal",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (HK, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_meat-of-animal_1000"
+          }
+        },
         "feed_floor": [
           {
             "jurisdiction": "CN",

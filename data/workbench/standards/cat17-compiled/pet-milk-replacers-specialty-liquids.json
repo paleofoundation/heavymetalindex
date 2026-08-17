@@ -64,6 +64,11 @@
             "value": 20,
             "converted": false,
             "id": "vn_qcvn8_2_2011_pb_fluid-milk-products-sterilized-fresh-whole-mil_20"
+          },
+          "HK": {
+            "value": 20,
+            "converted": false,
+            "id": "hk_cap132v_pb_secondary-milk-products_20"
           }
         },
         "feed_floor": [
@@ -245,15 +250,20 @@
       "tHg": {
         "type": "read_across",
         "human_grade": true,
-        "value": 50,
-        "value_exact": 50,
-        "source_id": "vn_qcvn8_2_2011_thg_fluid-milk-products_50",
-        "source_jurisdiction": "VN",
+        "value": 10,
+        "value_exact": 10,
+        "source_id": "hk_cap132v_thg_secondary-milk-products_10",
+        "source_jurisdiction": "HK",
         "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
-        "analog_scope": "Fluid milk products",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the liquid milk and dairy products sold for human consumption (as consumed) (VN, 50 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Secondary milk products",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the liquid milk and dairy products sold for human consumption (as consumed) (HK, 10 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "HK": {
+            "value": 10,
+            "converted": false,
+            "id": "hk_cap132v_thg_secondary-milk-products_10"
+          },
           "VN": {
             "value": 50,
             "converted": false,

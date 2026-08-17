@@ -20,7 +20,7 @@ Native basis: `as_consumed`.
 | Cd | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50` |
 | tAs | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50` |
 | iAs | control | control | Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation. (bounded by tAs) |
-| tHg | 50 | regulatory-alignment | VN · `vn_qcvn8_2_2011_thg_fluid-milk-products_50` |
+| tHg | 10 | regulatory-alignment | HK · `hk_cap132v_thg_secondary-milk-products_10` |
 | MeHg | control | control | There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction. (bounded by tHg) |
 | Ni | 100 | read-across | EU · `eu2024_ni_formula_liquid_100` — Conservative sovereign dairy read-across from the EU liquid infant/young-child formula nickel maximum (100 ug/kg) where no general-dairy nickel maximum exists. |
 | Sn | control | control | Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit. |
@@ -38,7 +38,7 @@ Native basis: `as_consumed`.
 | Cd | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50` |
 | tAs | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50` |
 | iAs | control | control | Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation. (bounded by tAs) |
-| tHg | 50 | regulatory-alignment | VN · `vn_qcvn8_2_2011_thg_fluid-milk-products_50` |
+| tHg | 10 | regulatory-alignment | HK · `hk_cap132v_thg_secondary-milk-products_10` |
 | MeHg | control | control | There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction. (bounded by tHg) |
 | Ni | 100 | read-across | EU · `eu2024_ni_formula_liquid_100` — Conservative sovereign dairy read-across from the EU liquid infant/young-child formula nickel maximum (100 ug/kg) where no general-dairy nickel maximum exists. |
 | Sn | control | control | Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit. |
@@ -56,7 +56,7 @@ Native basis: `as_consumed`.
 | Cd | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50` |
 | tAs | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50` |
 | iAs | control | control | Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation. (bounded by tAs) |
-| tHg | 50 | regulatory-alignment | VN · `vn_qcvn8_2_2011_thg_fluid-milk-products_50` |
+| tHg | 10 | regulatory-alignment | HK · `hk_cap132v_thg_secondary-milk-products_10` |
 | MeHg | control | control | There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction. (bounded by tHg) |
 | Ni | 100 | read-across | EU · `eu2024_ni_formula_liquid_100` — Conservative sovereign dairy read-across from the EU liquid infant/young-child formula nickel maximum (100 ug/kg) where no general-dairy nickel maximum exists. |
 | Sn | control | control | Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit. |
@@ -92,7 +92,7 @@ Native basis: `as_consumed`.
 | Cd | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50` |
 | tAs | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50` |
 | iAs | control | control | Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation. (bounded by tAs) |
-| tHg | 50 | regulatory-alignment | VN · `vn_qcvn8_2_2011_thg_fluid-milk-products_50` |
+| tHg | 10 | regulatory-alignment | HK · `hk_cap132v_thg_secondary-milk-products_10` |
 | MeHg | control | control | There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction. (bounded by tHg) |
 | Ni | 100 | read-across | EU · `eu2024_ni_formula_liquid_100` — Conservative sovereign dairy read-across from the EU liquid infant/young-child formula nickel maximum (100 ug/kg) where no general-dairy nickel maximum exists. |
 | Sn | control | control | Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit. |
@@ -110,7 +110,7 @@ Native basis: `as_consumed`.
 | Cd | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50` |
 | tAs | 50 | regulatory-alignment | MERCOSUR · `mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50` |
 | iAs | control | control | Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation. (bounded by tAs) |
-| tHg | 50 | regulatory-alignment | VN · `vn_qcvn8_2_2011_thg_fluid-milk-products_50` |
+| tHg | 10 | regulatory-alignment | HK · `hk_cap132v_thg_secondary-milk-products_10` |
 | MeHg | control | control | There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction. (bounded by tHg) |
 | Ni | 100 | read-across | EU · `eu2024_ni_formula_liquid_100` — Conservative sovereign dairy read-across from the EU liquid infant/young-child formula nickel maximum (100 ug/kg) where no general-dairy nickel maximum exists. |
 | Sn | control | control | Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit. |

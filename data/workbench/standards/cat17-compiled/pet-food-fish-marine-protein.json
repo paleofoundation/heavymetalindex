@@ -85,6 +85,11 @@
             "converted": false,
             "id": "vn_qcvn8_2_2011_pb_fish-fillets_300"
           },
+          "HK": {
+            "value": 300,
+            "converted": false,
+            "id": "hk_cap132v_pb_fish_300"
+          },
           "AU-NZ": {
             "value": 500,
             "converted": false,
@@ -184,6 +189,11 @@
             "value": 50,
             "converted": false,
             "id": "vn_qcvn8_2_2011_cd_aquatic-products_50"
+          },
+          "HK": {
+            "value": 100,
+            "converted": false,
+            "id": "hk_cap132v_cd_fish_100"
           },
           "IN": {
             "value": 300,
@@ -301,6 +311,11 @@
             "value": 100,
             "converted": false,
             "id": "eu20251891_ias_fish_other_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": false,
+            "id": "hk_cap132v_ias_fish_100"
           }
         },
         "feed_floor": [
@@ -453,15 +468,20 @@
       "Cr": {
         "type": "read_across",
         "human_grade": true,
-        "value": 12000,
-        "value_exact": 12000,
-        "source_id": "in_fssai2016_crtotal_001_all_fishery_products_12000",
-        "source_jurisdiction": "IN",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "hk_cap132v_crtotal_fish_1000",
+        "source_jurisdiction": "HK",
         "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
-        "analog_scope": "All fishery products",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (IN, 12000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Fish",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (HK, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_fish_1000"
+          },
           "IN": {
             "value": 12000,
             "converted": false,

@@ -11,15 +11,20 @@
       "Pb": {
         "type": "read_across",
         "human_grade": true,
-        "value": 100,
-        "value_exact": 100,
-        "source_id": "eu2023_pb_root_tuber_vegetables_100",
-        "source_jurisdiction": "EU",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20",
+        "source_jurisdiction": "HK",
         "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
-        "analog_scope": "root and tuber vegetables",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (EU, 100 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Cereal-based food intended to be consumed principally by persons under the age of 36 months",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "HK": {
+            "value": 20,
+            "converted": false,
+            "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20"
+          },
           "EU": {
             "value": 100,
             "converted": false,
@@ -194,6 +199,11 @@
             "value": 100,
             "converted": false,
             "id": "vn_qcvn8_2_2011_cd_legumes_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": false,
+            "id": "hk_cap132v_cd_legume-vegetables_100"
           }
         },
         "feed_floor": [
@@ -244,6 +254,11 @@
             "value": 100,
             "converted": false,
             "id": "mercosur_gmc12_2011_pulses_except_soybean_tas_100"
+          },
+          "HK": {
+            "value": 500,
+            "converted": false,
+            "id": "hk_cap132v_tas_cereals-other-than-rice_500"
           },
           "AU-NZ": {
             "value": 1000,
@@ -316,6 +331,11 @@
             "value": 200,
             "converted": false,
             "id": "ph_pns194_2017_polished_rice_ias_200"
+          },
+          "HK": {
+            "value": 200,
+            "converted": false,
+            "id": "hk_cap132v_ias_polished-rice_200"
           }
         },
         "feed_floor": [
@@ -340,15 +360,20 @@
       "tHg": {
         "type": "read_across",
         "human_grade": true,
-        "value": 30,
-        "value_exact": 30,
-        "source_id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
-        "source_jurisdiction": "IL",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+        "source_jurisdiction": "HK",
         "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
-        "analog_scope": "Cereals and cereal products, including wheat and rice",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (IL, 30 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Rice, husked rice, polished rice, maize, maize flour, wheat, wheat flour",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "HK": {
+            "value": 20,
+            "converted": false,
+            "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+          },
           "IL": {
             "value": 30,
             "converted": false,
@@ -424,11 +449,23 @@
         "feed_floor": null
       },
       "Cr": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets a total-chromium maximum for general cereal, pulse, or tuber human foods; total chromium is measured on every lot as a mandatory surveillance control and gates the Cr(VI) reflex.",
-        "reference_method": "Total Cr by ICP-MS.",
-        "bounded_by": null,
+        "type": "read_across",
+        "human_grade": true,
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+        "source_jurisdiction": "HK",
+        "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
+        "analog_scope": "Vegetables, other than pulses",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 500 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+        "per_country": {
+          "HK": {
+            "value": 500,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500"
+          }
+        },
         "feed_floor": [
           {
             "jurisdiction": "CN",

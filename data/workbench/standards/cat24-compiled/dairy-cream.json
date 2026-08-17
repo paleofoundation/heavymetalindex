@@ -58,6 +58,10 @@
           "value": 20,
           "id": "vn_qcvn8_2_2011_pb_fluid-milk-products-sterilized-fresh-whole-mil_20"
         },
+        "HK": {
+          "value": 20,
+          "id": "hk_cap132v_pb_secondary-milk-products_20"
+        },
         "SG": {
           "value": 500,
           "id": "sg_foodregs_2026_frozen_confections_pb_500"
@@ -133,12 +137,16 @@
     "tHg": {
       "type": "gov",
       "provenance": "regulatory-alignment",
-      "value": 50,
-      "value_exact": 50,
-      "binding_jurisdiction": "VN",
-      "binding_id": "vn_qcvn8_2_2011_thg_fluid-milk-products_50",
+      "value": 10,
+      "value_exact": 10,
+      "binding_jurisdiction": "HK",
+      "binding_id": "hk_cap132v_thg_secondary-milk-products_10",
       "basis_note": "strictest applicable sovereign maximum (face value)",
       "per_country": {
+        "HK": {
+          "value": 10,
+          "id": "hk_cap132v_thg_secondary-milk-products_10"
+        },
         "VN": {
           "value": 50,
           "id": "vn_qcvn8_2_2011_thg_fluid-milk-products_50"
