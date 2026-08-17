@@ -63,12 +63,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -172,12 +173,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -281,12 +283,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -390,12 +393,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -499,12 +503,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -608,12 +613,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case."
         },
@@ -1233,12 +1239,12 @@
       "basis_guard_note": "Every named anchor must carry a FINISHED-COSMETIC basis. The guard exists to keep three foreign bases out of these cells: (1) the 21 CFR 73/74 colour-additive ingredient specifications, which are purity limits for one raw material (iron oxides, ultramarines, henna, bismuth citrate, talc-bearing pigments) and not a ceiling on the finished product; (2) the EU Toy Safety Directive 2009/48 and ASTM F963 element-MIGRATION limits, which measure what leaches out of an article and are numerically incomparable to a total-content limit; and (3) food maximum levels expressed as-consumed or on an edible-portion basis. A cell whose named anchor fails the guard resolves to a GAP and fails the build rather than shipping a conflated number.",
       "cells": {
         "Pb": {
-          "read_across": {
-            "source_id": "de_bvl2017_pb_cosmetics_general_2000",
-            "label": "Germany BVL 2017 general-cosmetic lead tier (2.0 mg/kg), read across in place of the same instrument's adult decorative-cosmetics carve-out",
-            "substantiation": "DISCLOSED REFUSAL OF A LOOSENING CARVE-OUT. BVL 2017 writes an explicit higher-lead tier of 5.0 mg/kg for make-up powder, rouge, eye shadow, eyeliner, kajal, and theatrical, fan or carnival make-up - a list that plainly reaches a children's face paint, and by the letter of the instrument that is the exact cell for this product form. HMTc does not adopt it for a product marketed to ages 0-5. The carve-out exists because adult decorative cosmetics carry heavy pigment loads, not because a child's exposure justifies more lead; a 0-5 child's face paint or play make-up is transferred hand-to-mouth and licked, so the ingestion pathway is materially larger than the adult use the carve-out was written for. The cell therefore binds the SAME instrument's general-cosmetic tier at 2.0 mg/kg, which is stricter, is a real published sovereign number, and is disclosed here as a read-across rather than presented as a direct regulation of this form. This is over-compliance in the protective direction and it satisfies the Category 2 floor rule: the corresponding Category 13 adult row binds 5.0 mg/kg, so the child row is stricter and can never be the looser of the two. STRICTER-UNSELECTED DISPOSITION: the compiler's audit scan surfaces EU REACH Regulation 2020/2081 lead at 700 ug/kg for tattoo and permanent-make-up mixtures. It is not adopted. That instrument governs a mixture deposited INTRADERMALLY; its basis is a different exposure route with no skin-barrier attenuation, and its product class (tattoo and PMU inks) is not a surface-applied cosmetic. Borrowing an intradermal-injection ceiling for a wash-off surface cosmetic would be a route conflation in the opposite direction from the usual one, and it is not compelled by any instrument's scope."
-          },
-          "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)"
+          "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
+            "de_bvl2017_pb_cosmetics_general_2000"
+          ],
+          "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate"
         },
         "Cd": {
           "gov_ids": [
@@ -1335,12 +1341,12 @@
       "basis_guard_note": "Every named anchor must carry a FINISHED-COSMETIC basis. The guard exists to keep three foreign bases out of these cells: (1) the 21 CFR 73/74 colour-additive ingredient specifications, which are purity limits for one raw material (iron oxides, ultramarines, henna, bismuth citrate, talc-bearing pigments) and not a ceiling on the finished product; (2) the EU Toy Safety Directive 2009/48 and ASTM F963 element-MIGRATION limits, which measure what leaches out of an article and are numerically incomparable to a total-content limit; and (3) food maximum levels expressed as-consumed or on an edible-portion basis. A cell whose named anchor fails the guard resolves to a GAP and fails the build rather than shipping a conflated number.",
       "cells": {
         "Pb": {
-          "read_across": {
-            "source_id": "de_bvl2017_pb_cosmetics_general_2000",
-            "label": "Germany BVL 2017 general-cosmetic lead tier (2.0 mg/kg), read across in place of the same instrument's adult decorative-cosmetics carve-out",
-            "substantiation": "DISCLOSED REFUSAL OF A LOOSENING CARVE-OUT. BVL 2017 writes an explicit higher-lead tier of 5.0 mg/kg for make-up powder, rouge, eye shadow, eyeliner and kajal - which is precisely this row's form list, and by the letter of the instrument that is the exact cell for this product form. HMTc does not adopt it for a product marketed to ages 0-5. The carve-out exists because adult decorative cosmetics carry heavy pigment loads, not because a child's exposure justifies more lead; a 0-5 child's face paint or play make-up is transferred hand-to-mouth and licked, so the ingestion pathway is materially larger than the adult use the carve-out was written for. The cell therefore binds the SAME instrument's general-cosmetic tier at 2.0 mg/kg, which is stricter, is a real published sovereign number, and is disclosed here as a read-across rather than presented as a direct regulation of this form. This is over-compliance in the protective direction and it satisfies the Category 2 floor rule: the corresponding Category 13 adult row binds 5.0 mg/kg, so the child row is stricter and can never be the looser of the two. STRICTER-UNSELECTED DISPOSITION: the compiler's audit scan surfaces EU REACH Regulation 2020/2081 lead at 700 ug/kg for tattoo and permanent-make-up mixtures. It is not adopted. That instrument governs a mixture deposited INTRADERMALLY; its basis is a different exposure route with no skin-barrier attenuation, and its product class (tattoo and PMU inks) is not a surface-applied cosmetic. Borrowing an intradermal-injection ceiling for a wash-off surface cosmetic would be a route conflation in the opposite direction from the usual one, and it is not compelled by any instrument's scope."
-          },
-          "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)"
+          "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
+            "de_bvl2017_pb_cosmetics_general_2000"
+          ],
+          "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate"
         },
         "Cd": {
           "gov_ids": [
@@ -1441,12 +1447,13 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "hc_cosmetic_pb_10ppm",
             "cn_nmpa2015_pb_cosmetics_10",
             "tw_mohw2024_pb_cosmetic_residual_10ppm"
           ],
-          "label": "strictest applicable sovereign finished-cosmetic lead limit (Germany BVL 2017 Table 1, technically avoidable heavy-metal contents)",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "finished cosmetic as placed on market (total content, ug/kg of product as sold)",
           "substantiation": "Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case. STRICTER-UNSELECTED DISPOSITION: the compiler audit scan surfaces EU REACH Regulation 2020/2081 lead at 700 ug/kg (and nickel at 5000 ug/kg) for tattoo and permanent-make-up mixtures, both stricter than this row's bindings. Neither is adopted. That instrument governs a mixture deposited INTRADERMALLY, bypassing the skin barrier entirely; it is a different exposure route, a different product class and a different risk basis from a surface-applied children's cosmetic, and no instrument scope compels borrowing it. It is recorded here rather than suppressed so the reader can see that the candidate was examined and rejected on stated grounds."
         },

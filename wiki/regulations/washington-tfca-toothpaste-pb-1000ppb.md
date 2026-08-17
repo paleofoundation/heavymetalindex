@@ -57,7 +57,7 @@ The WA TFCA sits between the strict EU regulation and the more permissive Canadi
 
 ## Sources
 
-- TFCA statutory text (Washington State HB 1047, 2023): TBD — direct citation pending ingest
+- TFCA statutory text: RCW 70A.560.020 (Washington State HB 1047, 2023, Ch. 365 Laws of 2023), effective 2025-01-01. https://app.leg.wa.gov/RCW/default.aspx?cite=70A.560
 - Massarsky 2025 (this wiki): [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] cites the WA TFCA as the binding US cap for toothpaste Pb
 - Perkins 2025 news article (Lead Safe Mama): consumer-advocacy testing supporting TFCA enforcement
 

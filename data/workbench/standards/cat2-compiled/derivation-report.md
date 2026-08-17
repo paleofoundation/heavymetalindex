@@ -25,7 +25,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -51,7 +51,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -77,7 +77,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -103,7 +103,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -129,7 +129,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -155,7 +155,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -195,6 +195,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread.
   - **tAs substantiation:** BVL 2017 sets total arsenic at 0.5 mg/kg for cosmetic products in general. Its only exception is theatrical, fan or carnival make-up at 2.5 mg/kg, which does not reach this row. China NMPA (2 mg/kg), Taiwan MOHW (3 mg/kg) and Health Canada (3 mg/kg) are named for spread. Arsenic is reported as TOTAL arsenic; the inorganic species is controlled in its own cell and can never substitute for this one.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -221,6 +222,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case. Health Canada's cosmetic impurity guidance is NOT named on this row: the guidance states on its face that products regulated in Canada as drugs or natural health products - it names sunscreens, zinc-oxide skin protectants and therapeutic toothpaste - fall outside its cosmetic scope. Naming it here would be a scope conflation.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **tAs substantiation:** BVL 2017 sets total arsenic at 0.5 mg/kg for cosmetic products in general. Its only exception is theatrical, fan or carnival make-up at 2.5 mg/kg, which does not reach this row. China NMPA (2 mg/kg), Taiwan MOHW (3 mg/kg) and Health Canada (3 mg/kg) are named for spread. Arsenic is reported as TOTAL arsenic; the inorganic species is controlled in its own cell and can never substitute for this one. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -247,6 +249,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case. Health Canada's cosmetic impurity guidance is NOT named on this row: the guidance states on its face that products regulated in Canada as drugs or natural health products - it names sunscreens, zinc-oxide skin protectants and therapeutic toothpaste - fall outside its cosmetic scope. Naming it here would be a scope conflation.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **tAs substantiation:** BVL 2017 sets total arsenic at 0.5 mg/kg for cosmetic products in general. Its only exception is theatrical, fan or carnival make-up at 2.5 mg/kg, which does not reach this row. China NMPA (2 mg/kg), Taiwan MOHW (3 mg/kg) and Health Canada (3 mg/kg) are named for spread. Arsenic is reported as TOTAL arsenic; the inorganic species is controlled in its own cell and can never substitute for this one. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -273,6 +276,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Germany's BVL 2017 Table 1 is the strictest sovereign finished-cosmetic lead limit in the register at 2.0 mg/kg, roughly five times stricter than Health Canada (10 mg/kg), China NMPA 2015 (10 mg/kg) and Taiwan MOHW 2024 (10 mg/kg), which are named alongside it so the derivation shows the full sovereign spread rather than one convenient number. BVL is issued by a German federal authority and defines what counts as technically avoidable under Article 17 of EU Regulation 1223/2009, which is binding EU law; it is not a trade-association guideline. The US FDA draft cosmetic lead guidance (10 mg/kg) is gated as draft and is looser in any case. Health Canada's cosmetic impurity guidance is NOT named on this row: the guidance states on its face that products regulated in Canada as drugs or natural health products - it names sunscreens, zinc-oxide skin protectants and therapeutic toothpaste - fall outside its cosmetic scope. Naming it here would be a scope conflation.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **tAs substantiation:** BVL 2017 sets total arsenic at 0.5 mg/kg for cosmetic products in general. Its only exception is theatrical, fan or carnival make-up at 2.5 mg/kg, which does not reach this row. China NMPA (2 mg/kg), Taiwan MOHW (3 mg/kg) and Health Canada (3 mg/kg) are named for spread. Arsenic is reported as TOTAL arsenic; the inorganic species is controlled in its own cell and can never substitute for this one. Health Canada's cosmetic guidance is not named on this row because the form is regulated as a drug or natural health product in Canada and falls outside that guidance's stated cosmetic scope.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -311,7 +315,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | read-across | de_bvl2017_pb_cosmetics_general_2000 (DE) |  |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | read-across | de_bvl2017_tas_cosmetics_general_500 (DE) |  |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -324,7 +328,6 @@ Version: cat2-v1.0 (2026-08-17)
 | Cr-VI | control | control | — | No sovereign publishes a hexavalent-chromium limit for a finished cosm |
 
 **Audit / substantiation notes**
-  - **Pb substantiation:** DISCLOSED REFUSAL OF A LOOSENING CARVE-OUT. BVL 2017 writes an explicit higher-lead tier of 5.0 mg/kg for make-up powder, rouge, eye shadow, eyeliner, kajal, and theatrical, fan or carnival make-up - a list that plainly reaches a children's face paint, and by the letter of the instrument that is the exact cell for this product form. HMTc does not adopt it for a product marketed to ages 0-5. The carve-out exists because adult decorative cosmetics carry heavy pigment loads, not because a child's exposure justifies more lead; a 0-5 child's face paint or play make-up is transferred hand-to-mouth and licked, so the ingestion pathway is materially larger than the adult use the carve-out was written for. The cell therefore binds the SAME instrument's general-cosmetic tier at 2.0 mg/kg, which is stricter, is a real published sovereign number, and is disclosed here as a read-across rather than presented as a direct regulation of this form. This is over-compliance in the protective direction and it satisfies the Category 2 floor rule: the corresponding Category 13 adult row binds 5.0 mg/kg, so the child row is stricter and can never be the looser of the two. STRICTER-UNSELECTED DISPOSITION: the compiler's audit scan surfaces EU REACH Regulation 2020/2081 lead at 700 ug/kg for tattoo and permanent-make-up mixtures. It is not adopted. That instrument governs a mixture deposited INTRADERMALLY; its basis is a different exposure route with no skin-barrier attenuation, and its product class (tattoo and PMU inks) is not a surface-applied cosmetic. Borrowing an intradermal-injection ceiling for a wash-off surface cosmetic would be a route conflation in the opposite direction from the usual one, and it is not compelled by any instrument's scope.
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread.
   - **tAs substantiation:** DISCLOSED REFUSAL OF A LOOSENING CARVE-OUT. BVL 2017 raises total arsenic to 2.5 mg/kg for theatrical, fan or carnival make-up, and a children's face paint is plainly a carnival make-up by form. HMTc does not adopt that five-fold loosening for a product applied to a 0-5 child's face and transferred hand-to-mouth. The cell binds the same instrument's general-cosmetic tier at 0.5 mg/kg, disclosed as a read-across. Note that BVL's arsenic exception list is NARROWER than its lead exception list: it reaches only theatrical, fan and carnival make-up, so children's play make-up and nail polish take the 0.5 mg/kg tier as a direct regulation and only face paint needs this read-across.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -337,7 +340,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | read-across | de_bvl2017_pb_cosmetics_general_2000 (DE) |  |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |
@@ -350,7 +353,6 @@ Version: cat2-v1.0 (2026-08-17)
 | Cr-VI | control | control | — | No sovereign publishes a hexavalent-chromium limit for a finished cosm |
 
 **Audit / substantiation notes**
-  - **Pb substantiation:** DISCLOSED REFUSAL OF A LOOSENING CARVE-OUT. BVL 2017 writes an explicit higher-lead tier of 5.0 mg/kg for make-up powder, rouge, eye shadow, eyeliner and kajal - which is precisely this row's form list, and by the letter of the instrument that is the exact cell for this product form. HMTc does not adopt it for a product marketed to ages 0-5. The carve-out exists because adult decorative cosmetics carry heavy pigment loads, not because a child's exposure justifies more lead; a 0-5 child's face paint or play make-up is transferred hand-to-mouth and licked, so the ingestion pathway is materially larger than the adult use the carve-out was written for. The cell therefore binds the SAME instrument's general-cosmetic tier at 2.0 mg/kg, which is stricter, is a real published sovereign number, and is disclosed here as a read-across rather than presented as a direct regulation of this form. This is over-compliance in the protective direction and it satisfies the Category 2 floor rule: the corresponding Category 13 adult row binds 5.0 mg/kg, so the child row is stricter and can never be the looser of the two. STRICTER-UNSELECTED DISPOSITION: the compiler's audit scan surfaces EU REACH Regulation 2020/2081 lead at 700 ug/kg for tattoo and permanent-make-up mixtures. It is not adopted. That instrument governs a mixture deposited INTRADERMALLY; its basis is a different exposure route with no skin-barrier attenuation, and its product class (tattoo and PMU inks) is not a surface-applied cosmetic. Borrowing an intradermal-injection ceiling for a wash-off surface cosmetic would be a route conflation in the opposite direction from the usual one, and it is not compelled by any instrument's scope.
   - **Cd substantiation:** BVL 2017 sets cadmium at 0.1 mg/kg for cosmetic products in general with NO make-up or theatrical carve-out - the exception list BVL writes for lead and arsenic does not exist for cadmium - so 100 ug/kg binds every row in this category directly, including the decorative ones. It is thirty to fifty times stricter than Health Canada (3 mg/kg), China NMPA (5 mg/kg) and Taiwan MOHW (5 mg/kg), all named for spread.
   - **tAs substantiation:** BVL 2017 sets total arsenic at 0.5 mg/kg for cosmetic products in general. Its only exception is theatrical, fan or carnival make-up at 2.5 mg/kg, which does not reach this row. China NMPA (2 mg/kg), Taiwan MOHW (3 mg/kg) and Health Canada (3 mg/kg) are named for spread. Arsenic is reported as TOTAL arsenic; the inorganic species is controlled in its own cell and can never substitute for this one.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -363,7 +365,7 @@ Version: cat2-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 5000 [CN]; 5000 [TW] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 3000 [CA]; 3000 [TW] |
 | iAs | control | control | bounded by tAs | No jurisdiction anywhere in the register speciates arsenic in a cosmet |

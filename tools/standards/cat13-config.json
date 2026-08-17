@@ -64,6 +64,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -72,7 +73,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -189,6 +190,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -200,7 +202,7 @@
             "in_is3959_2004_pb_ecomark_skin_powders_10ppm",
             "eaeu_trcu009_2011_pb_natural_raw_material_cosmetics_5mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a mineral-base adult dusting powder: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Every form-specific sovereign instrument for this product form was surveyed and named so the derivation shows they were considered rather than missed: India IS 3959:2004 skin powders, 20000 ug/kg, and its ECO Mark tier, 10000; the EAEU TR CU 009/2011 natural-plant-or-mineral-raw-material tier, 5000, which does reach a talc base. All are looser than the German general cosmetic value of 2000 ug/kg, which therefore binds. The Korean clay-powder branch (50000) is both looser and scoped to clay rather than talc. A mineral-base dusting powder is not one of the make-up categories the German table lists at 5000, so the general branch is the applicable cell. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -319,6 +321,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -327,7 +330,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -444,6 +447,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -452,7 +456,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -569,6 +573,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "de_bvl2017_pb_decorative_theater_makeup_5000",
             "cn_nmpa2015_pb_cosmetics_10",
@@ -578,7 +583,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Germany BVL 2017: the general cosmetic branch, 2000 ug/kg, which is the strictest branch applicable to any form in this row.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Both branches of the German lead table are named so the split is visible in the derivation: the higher make-up branch at 5000 ug/kg covers make-up powder and rouge, and the general branch at 2000 covers the liquid and cream foundations, concealers and tinted products the higher branch does not list. The next instruments are China NMPA 2015, Health Canada and Taiwan MOHW 2024 at 10000, then Korea, Singapore, the ASEAN transpositions and Kenya at 20000. The compiler selects the strictest named value, 2000 ug/kg, which is the correct row-level ceiling because it is the government value for the row's unlisted forms and is protective of the listed ones. Binding at 5000 instead would let a liquid foundation ship at two and a half times the value Germany sets for it. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -695,6 +700,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "de_bvl2017_pb_decorative_theater_makeup_5000",
             "cn_nmpa2015_pb_cosmetics_10",
@@ -704,7 +710,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Germany BVL 2017: the general cosmetic branch, 2000 ug/kg, which is the strictest branch applicable to any form in this row.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "The German table places theatrical, fan and carnival make-up in its higher-lead group at 5000 ug/kg; make-up bases, primers and fixatives are not listed there and take the general branch at 2000. Both are named. The row binds at 2000 because that is the government value for the unlisted forms and is protective of the listed ones; the next instruments are China NMPA 2015, Health Canada and Taiwan MOHW 2024 at 10000. For the theatrical forms alone the German value would be 5000 and the strictest applicable instrument would be China at 10000, so the row's 2000 ug/kg is disclosed over-compliance for those forms. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -822,6 +828,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "de_bvl2017_pb_decorative_theater_makeup_5000",
             "cn_nmpa2015_pb_cosmetics_10",
@@ -831,7 +838,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Germany BVL 2017: the general cosmetic branch, 2000 ug/kg, which is the strictest branch applicable to any form in this row.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "The German table lists eye shadow, eyeliner and kajal in its higher-lead group at 5000 ug/kg; mascara, brow products, lash adhesives and lash serums are not listed and take the general branch at 2000. Both branches are named. The row binds at 2000 because that is the government value for the unlisted forms and is protective of the listed ones; the next instruments are China NMPA 2015, Health Canada and Taiwan MOHW 2024 at 10000, then Korea, Singapore, the ASEAN transpositions and Kenya at 20000. For eye shadow and eyeliner considered alone the government value is 5000, so this row's ceiling is disclosed over-compliance for those forms. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -948,6 +955,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -956,7 +964,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -1073,6 +1081,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -1081,7 +1090,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -1323,6 +1332,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -1331,7 +1341,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -1448,6 +1458,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -1456,7 +1467,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -1573,6 +1584,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -1581,7 +1593,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -1811,6 +1823,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -1819,7 +1832,7 @@
             "sg_hsa2024_pb_cosmetic_products_20ppm",
             "ke_ks2937_2021_pb_cosmetic_products_20mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a finished cosmetic: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },
@@ -2188,6 +2201,7 @@
       "cells": {
         "Pb": {
           "gov_ids": [
+            "wa_tfca_pb_cosmetics_general_1000",
             "de_bvl2017_pb_cosmetics_general_2000",
             "cn_nmpa2015_pb_cosmetics_10",
             "hc_cosmetic_pb_10ppm",
@@ -2199,7 +2213,7 @@
             "in_is3959_2004_pb_ecomark_skin_powders_10ppm",
             "eaeu_trcu009_2011_pb_natural_raw_material_cosmetics_5mgkg"
           ],
-          "label": "Strictest applicable sovereign lead maximum for a starch-base adult dusting powder: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg.",
+          "label": "the Washington Toxic-Free Cosmetics Act finished-cosmetic lead cap (RCW 70A.560.020, 1 ppm = 1000 ug/kg, including impurity lead), the strictest applicable sovereign finished-cosmetic lead maximum; the German BVL 2017 general-cosmetic value (2000) is retained as a disclosed looser candidate",
           "basis_label": "Finished cosmetic total content as placed on market (ug/kg of product as sold); technically-unavoidable-impurity basis. Not migration, not leachate, not dietary, not an ingredient purity specification.",
           "substantiation": "The form-specific instruments are named so the derivation shows they were considered: India IS 3959:2004 skin powders at 20000 ug/kg with its ECO Mark tier at 10000, both finished-product rows for a skin powder, and the EAEU TR CU 009/2011 natural-plant-or-mineral-raw-material tier at 5000, which a starch base can reach through its natural-plant limb. All are looser than the German general cosmetic value of 2000 ug/kg, which binds. A dusting powder is not one of the make-up categories the German table lists at 5000, so the general branch is the applicable cell. The Korean clay-powder branch (50000) is looser and is scoped to clay, which a starch base is not. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event."
         },

@@ -15,7 +15,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -41,7 +41,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -67,7 +67,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -93,7 +93,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -119,7 +119,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -145,7 +145,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 50000 [KR]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 50000 [KR]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 5000 [EAEU]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -171,7 +171,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -212,6 +212,7 @@ Version: cat14-v1.0 (2026-08-17)
 **Audit / substantiation notes**
   - **Pb substantiation:** BVL 2017 Table 1 (German Federal Office of Consumer Protection and Food Safety, with the Länder cosmetics working group) publishes the technically avoidable heavy-metal content of cosmetic products in general; lead is 2.0 mg/kg, and a content above the table is treated as technically avoidable under good manufacturing practice. Its status is a federal-authority guidance value rather than a statute, and it is disclosed as such, but it is the strictest published sovereign finished-cosmetic lead maximum and Method v2.0 takes the strictest applicable value. The named comparator set shows how far the binding sits below the field: Health Canada, China NMPA 2015 and Taiwan MOHW 2024 are five times looser at 10 mg/kg; Korea, ASEAN and its Singapore, Malaysia and Indonesia transpositions, and Kenya KS 2937:2021 are ten times looser at 20 mg/kg; Australia's Customs (Prohibited Imports) Regulations threshold is 125 times looser at 250 mg/kg. Two sovereign cosmetic lead values in the register are stricter than the binding — the BVL 2017 toothpaste tier at 500 µg/kg and Washington State's Toxics-Free Cosmetics Act toothpaste limit at 1000 µg/kg — and the compiler's stricter-unselected audit flags both on every row of this category. Neither is applicable. Both are scoped by their own instruments to toothpaste, a dentifrice that sits on the oral mucosa and is partly swallowed; that ingestion pathway is the stated reason the toothpaste tier is tighter. Categories 20 and 2 carry the dentifrice forms and use those instruments. A shampoo, body wash, scrub or depilatory has no ingestion pathway inside either instrument's scope, so reading a toothpaste tier onto a hair or body rinse-off product would have HMTc inventing a stricter number that no government set for this form. Method v2.0 forbids that as squarely as it forbids inventing a looser one: applicability is a real constraint, and the strictest APPLICABLE value governs. The compiler's audit also flags EU REACH Annex XVII entry 75, which sets 700 µg/kg for lead in mixtures placed on the market for tattooing and permanent make-up. That value is stricter than the binding and is deliberately not adopted: the instrument governs a mixture INJECTED INTO THE DERMIS, on a 'mixture for tattooing or permanent make-up by weight' basis, and a rinse-off shampoo or body wash is not such a mixture on any reading of the entry. The row is held out by this row's basis_guard as well as on scope. It is surfaced rather than filtered out of the scan so that the record shows it was found and disposed of, not missed. Colour-additive and colourant purity specifications (21 CFR 73 and 74, the New Zealand and Singapore carbon-black colourant profiles, the India Cosmetics Rules 2020 permitted-colours entries, the Brazil ANVISA RDC 628/2022 organic-colorant entries) are raw-material ingredient specifications, not finished-product maxima. They are held out of every cell by this row's basis_guard, and none of them is in any case stricter than the binding for this analyte.
   - ?? **Pb stricter-unselected (same-basis audit):** 500 µg/kg [DE] de_bvl2017_pb_toothpaste_500 — basis "cosmetic product; source unit mg/kg", scope "toothpaste"
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** BVL 2017 Table 1 sets cadmium in cosmetic products in general at 0.1 mg/kg. No sovereign cosmetic cadmium value in the register is stricter, including BVL's own toothpaste tier, which is the same 100 µg/kg — so unlike lead, cadmium carries no mucosal/dentifrice split anywhere and the general tier is the strictest value in every scope. The named comparator set runs thirty times looser (Health Canada and the ASEAN Thailand transposition at 3 mg/kg) to fifty times looser (China, Korea, Taiwan, Singapore, Malaysia, Indonesia and the ASEAN 2019 bloc value at 5 mg/kg). Colour-additive and colourant purity specifications (21 CFR 73 and 74, the New Zealand and Singapore carbon-black colourant profiles, the India Cosmetics Rules 2020 permitted-colours entries, the Brazil ANVISA RDC 628/2022 organic-colorant entries) are raw-material ingredient specifications, not finished-product maxima. They are held out of every cell by this row's basis_guard, and none of them is in any case stricter than the binding for this analyte.
   - **tAs substantiation:** BVL 2017 Table 1 sets arsenic in cosmetic products in general (excepting theatre, fan and carnival make-up, which are not rinse-off forms) at 0.5 mg/kg. This is a TOTAL-arsenic cell: the register value is mapped to tAs and is never substituted onto the inorganic-arsenic cell, which is a separate control. No sovereign cosmetic arsenic value is stricter; BVL's toothpaste tier is the same 500 µg/kg. The comparators run four times looser (China NMPA 2015 and Kenya KS 2937:2021 at 2 mg/kg), six times looser (Health Canada and Taiwan at 3 mg/kg), ten times looser (ASEAN 2019 and its Indonesia, Malaysia and Singapore transpositions at 5 mg/kg) and twenty times looser (Korea MFDS at 10 mg/kg). Colour-additive and colourant purity specifications (21 CFR 73 and 74, the New Zealand and Singapore carbon-black colourant profiles, the India Cosmetics Rules 2020 permitted-colours entries, the Brazil ANVISA RDC 628/2022 organic-colorant entries) are raw-material ingredient specifications, not finished-product maxima. They are held out of every cell by this row's basis_guard, and none of them is in any case stricter than the binding for this analyte.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -223,7 +224,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -249,7 +250,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -275,7 +276,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |
@@ -301,7 +302,7 @@ Version: cat14-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 50000 [KR]; 250000 [AU] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [MY]; 20000 [ID]; 20000 [ASEAN]; 20000 [KE]; 50000 [KR]; 250000 [AU] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [KR]; 5000 [CN]; 5000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [MY]; 5000 [ID]; 5000 [ASEAN]; 5000 [EAEU]; 10000 [KR] |
 | iAs | control | control | — | No jurisdiction sets an inorganic-arsenic content limit for any cosmet |

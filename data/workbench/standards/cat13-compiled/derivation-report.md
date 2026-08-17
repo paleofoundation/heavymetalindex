@@ -27,7 +27,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -55,7 +55,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 10000 [IN]; 20000 [KR]; 20000 [SG]; 20000 [KE]; 20000 [IN] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 10000 [IN]; 20000 [KR]; 20000 [SG]; 20000 [KE]; 20000 [IN] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [EAEU]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -83,7 +83,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -111,7 +111,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -139,7 +139,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -169,7 +169,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 2500 [DE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -197,7 +197,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -225,7 +225,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -253,7 +253,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -295,6 +295,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** Applicable sovereign maxima surveyed for a finished cosmetic: Germany BVL 2017, 100 ug/kg; Thailand (ASEAN transposition), 3000; Health Canada, 3000; China NMPA 2015, 5000; Taiwan MOHW 2024, 5000; Korea MFDS Notice 2025-63, 5000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 5000. The German value binds and is 30-fold stricter than the next instrument. Germany writes NO formulation split for cadmium — unlike lead and arsenic, where the same table raises the value for named make-up categories — so the 100 ug/kg value applies to every product form in this category without exception. Sri Lanka SLS 187:2025 (children's skin powder, 3000) carries draft status in the register and is gated out by the compiler.
   - **tAs substantiation:** Applicable sovereign maxima surveyed: Germany BVL 2017 general cosmetic value, 500 ug/kg; China NMPA 2015, 2000; Kenya KS 2937:2021, 2000; Health Canada, 3000; Taiwan MOHW 2024, 3000; Singapore HSA 2024 and the ASEAN directive with its transpositions, 5000; EAEU natural-raw-material tier, 5000; Korea MFDS Notice 2025-63, 10000. The German value binds. The only arsenic split the German table writes raises the value to 2500 ug/kg for theatre, fan and carnival make-up, which does not reach this row. The arsenic cells in this instrument family are TOTAL arsenic; no jurisdiction publishes an inorganic-arsenic maximum for a cosmetic, which is why the iAs cell on this row is a control bounded by this total-arsenic ceiling rather than a number.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -309,7 +310,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -337,7 +338,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -365,7 +366,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -421,7 +422,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 20000 [KR]; 20000 [SG]; 20000 [KE] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -464,6 +465,7 @@ Version: cat13-v1.0 (2026-08-17)
 **Audit / substantiation notes**
   - **Pb substantiation:** The German lead table has two branches and this form sits in the higher one: it lists 'make-up powder, rouge, eye shadow, eyeliner, kajal, and theater, fan, or carnival make-up' at 5000 ug/kg, and its general branch at 2000 is written 'except listed higher-lead make-up categories', which expressly excludes kajal. The exact cell for this row is therefore regulated at 5000 ug/kg and the general branch is NOT applicable to it. The next applicable instruments are China NMPA 2015, Health Canada and Taiwan MOHW 2024 at 10000, then Korea and Kenya at 20000, so 5000 ug/kg is the strictest applicable sovereign lead maximum for a kohl, kajal or surma product. The compiler's stricter-unselected audit flags the 2000 branch for this row and this substantiation is the record of why it is inapplicable: adopting it would mean asserting that the general branch covers a form its own text excludes. Tightening the cell below the government value on precautionary or occurrence grounds is retired under Method v2.0; the route to a lower value is the certified-lot ratchet. Note the resulting asymmetry plainly: this row's lead ceiling is two and a half times the ceiling on the conventional eye-makeup row, because that row is driven by the unlisted forms (mascara, brow products) that take the general branch. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event.
   - ?? **Pb stricter-unselected (same-basis audit):** 2000 µg/kg [DE] de_bvl2017_pb_cosmetics_general_2000 — basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except listed highe"
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** Applicable sovereign maxima surveyed for a finished cosmetic: Germany BVL 2017, 100 ug/kg; Thailand (ASEAN transposition), 3000; Health Canada, 3000; China NMPA 2015, 5000; Taiwan MOHW 2024, 5000; Korea MFDS Notice 2025-63, 5000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 5000. The German value binds and is 30-fold stricter than the next instrument. Germany writes NO formulation split for cadmium — unlike lead and arsenic, where the same table raises the value for named make-up categories — so the 100 ug/kg value applies to every product form in this category without exception. Sri Lanka SLS 187:2025 (children's skin powder, 3000) carries draft status in the register and is gated out by the compiler.
   - **tAs substantiation:** Applicable sovereign maxima surveyed: Germany BVL 2017 general cosmetic value, 500 ug/kg; China NMPA 2015, 2000; Kenya KS 2937:2021, 2000; Health Canada, 3000; Taiwan MOHW 2024, 3000; Singapore HSA 2024 and the ASEAN directive with its transpositions, 5000; EAEU natural-raw-material tier, 5000; Korea MFDS Notice 2025-63, 10000. The German value binds. The only arsenic split the German table writes raises the value to 2500 ug/kg for theatre, fan and carnival make-up, which does not reach this row. The arsenic cells in this instrument family are TOTAL arsenic; no jurisdiction publishes an inorganic-arsenic maximum for a cosmetic, which is why the iAs cell on this row is a control bounded by this total-arsenic ceiling rather than a number.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -495,6 +497,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** The EAEU TR CU 009/2011 tier for perfumery-cosmetic products containing more than one percent natural plant or mineral raw material (5000 ug/kg) is the only instrument in the register written for a mineral-bearing cosmetic, and a mineral sunscreen at typical filter loadings falls inside its scope. It is named and it is two and a half times looser than the German general value of 2000 ug/kg, which binds. A mineral sunscreen is not one of the make-up categories the German table lists at 5000, so the general branch is the applicable cell. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** Applicable sovereign maxima surveyed for a finished cosmetic: Germany BVL 2017, 100 ug/kg; Thailand (ASEAN transposition), 3000; Health Canada, 3000; China NMPA 2015, 5000; Taiwan MOHW 2024, 5000; Korea MFDS Notice 2025-63, 5000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 5000. The German value binds and is 30-fold stricter than the next instrument. Germany writes NO formulation split for cadmium — unlike lead and arsenic, where the same table raises the value for named make-up categories — so the 100 ug/kg value applies to every product form in this category without exception. Sri Lanka SLS 187:2025 (children's skin powder, 3000) carries draft status in the register and is gated out by the compiler.
   - **tAs substantiation:** The EAEU natural-plant-or-mineral-raw-material tier (5000 ug/kg) is named because it is the instrument written for exactly this kind of mineral-loaded product, and it is ten-fold looser than the German general value of 500 ug/kg, which binds. Zinc-oxide and titanium-dioxide filters carry geogenic arsenic from their ore and their production route, so 500 ug/kg on a high-loading mineral sunscreen is demanding; it is the government value nonetheless, and no feasibility adjustment is applied to it. The arsenic cells in this instrument family are TOTAL arsenic; no jurisdiction publishes an inorganic-arsenic maximum for a cosmetic, which is why the iAs cell on this row is a control bounded by this total-arsenic ceiling rather than a number.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
@@ -509,7 +512,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 2000 | regulatory-alignment | de_bvl2017_pb_cosmetics_general_2000 (DE) | 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 10000 [IN]; 20000 [KR]; 20000 [SG]; 20000 [KE]; 20000 [IN] |
+| Pb | 1000 | regulatory-alignment | wa_tfca_pb_cosmetics_general_1000 (US-WA) | 1000 [US-WA]; 2000 [DE]; 5000 [EAEU]; 10000 [CA]; 10000 [CN]; 10000 [TW]; 10000 [IN]; 20000 [KR]; 20000 [SG]; 20000 [KE]; 20000 [IN] |
 | Cd | 100 | regulatory-alignment | de_bvl2017_cd_cosmetics_general_100 (DE) | 100 [DE]; 3000 [CA]; 3000 [TH]; 5000 [CN]; 5000 [TW]; 5000 [KR]; 5000 [SG] |
 | tAs | 500 | regulatory-alignment | de_bvl2017_tas_cosmetics_general_500 (DE) | 500 [DE]; 2000 [CN]; 2000 [KE]; 3000 [CA]; 3000 [TW]; 5000 [SG]; 5000 [EAEU]; 10000 [KR] |
 | iAs | control | control | bounded by tAs | No jurisdiction publishes an inorganic-arsenic maximum for a finished  |
@@ -551,6 +554,7 @@ Version: cat13-v1.0 (2026-08-17)
 
 **Audit / substantiation notes**
   - **Pb substantiation:** Applicable sovereign maxima surveyed for this exact form: Germany BVL 2017 general cosmetic orientation value, 2000 ug/kg; China NMPA 2015, 10000; Health Canada, 10000; Taiwan MOHW 2024, 10000; Korea MFDS Notice 2025-63, 20000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 20000; Kenya KS 2937:2021, 20000. Looser and therefore non-binding: the EAEU natural-raw-material tier (5000), the Korean clay-powder tier (50000), the India IS 3959:2004 skin-powder rows (20000 and 10000) and the Australian customs value (250000). The German value binds. Its own scope excludes the make-up categories the same table lists at 5000 ug/kg (make-up powder, rouge, eye shadow, eyeliner, kajal and theatrical make-up); none of those forms falls in this row, so the general branch is the applicable cell. The US FDA draft lead guidance for lip and externally applied cosmetics (10000) carries draft status in the register, is gated out by the compiler, and is looser in any case. No colour-additive or ingredient purity specification is used as an anchor: the US 21 CFR 73/74 cosmetic-use specifications (10000-20000 ug/kg), the India permitted-colour specification (20000), the Brazil ANVISA RDC 628/2022 organic-colorant specification (20000) and the New Zealand / Singapore carbon-black colourant profiles (10000) bound one raw material's purity rather than the finished product, they are refused by this row's basis guard, and every one of them is looser than the binding value in any event.
+  - ?? **Pb stricter-unselected (same-basis audit):** 1000 µg/kg [US-WA] wa_tfca_pb_cosmetics_general_1000 — basis "finished cosmetic as sold; lead present at 1 ppm (1000 ug/kg) or above, including as an impurity", scope "cosmetic products (RCW 69.04.011 cosmetic defini"
   - **Cd substantiation:** Applicable sovereign maxima surveyed for a finished cosmetic: Germany BVL 2017, 100 ug/kg; Thailand (ASEAN transposition), 3000; Health Canada, 3000; China NMPA 2015, 5000; Taiwan MOHW 2024, 5000; Korea MFDS Notice 2025-63, 5000; Singapore HSA 2024 and the ASEAN directive with its Indonesian and Malaysian transpositions, 5000. The German value binds and is 30-fold stricter than the next instrument. Germany writes NO formulation split for cadmium — unlike lead and arsenic, where the same table raises the value for named make-up categories — so the 100 ug/kg value applies to every product form in this category without exception. Sri Lanka SLS 187:2025 (children's skin powder, 3000) carries draft status in the register and is gated out by the compiler.
   - **tAs substantiation:** Applicable sovereign maxima surveyed: Germany BVL 2017 general cosmetic value, 500 ug/kg; China NMPA 2015, 2000; Kenya KS 2937:2021, 2000; Health Canada, 3000; Taiwan MOHW 2024, 3000; Singapore HSA 2024 and the ASEAN directive with its transpositions, 5000; EAEU natural-raw-material tier, 5000; Korea MFDS Notice 2025-63, 10000. The German value binds. The only arsenic split the German table writes raises the value to 2500 ug/kg for theatre, fan and carnival make-up, which does not reach this row. The arsenic cells in this instrument family are TOTAL arsenic; no jurisdiction publishes an inorganic-arsenic maximum for a cosmetic, which is why the iAs cell on this row is a control bounded by this total-arsenic ceiling rather than a number.
   - **iAs cited register row (disclosure — not this cell's anchor):** de_bvl2017_tas_cosmetics_general_500 — 500 µg/kg [DE] tAs, basis "cosmetic product; source unit mg/kg", scope "cosmetic products in general except theater, fan, or carnival make-up"
