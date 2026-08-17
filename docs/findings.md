@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-73 open item(s): 32 auto, 41 awaiting a decision.
+74 open item(s): 32 auto, 42 awaiting a decision.
+
+### OI-20260817-notmaterial-unsubstantiated-live — Live categories 30/31/32/33/34 publish not-material cells with no substantiation in either the record or the registry
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards/cat30-compiled`, `data/workbench/standards/cat31-compiled`, `data/workbench/standards/cat32-compiled`, `data/workbench/standards/cat33-compiled`, `data/workbench/standards/cat34-compiled`, `data/evidence/standards-not-material.csv`, `tools/standards/sync-not-material.mjs`
+- repro: node tools/standards/audit-compiled-standards.mjs --dir=data/workbench/standards/cat32-compiled  -> FAIL [C7] fish-sauce :: Ni: not-material basis_class "" is not in the substantiation-gate vocabulary (checked neither). The compiled record carries type:not_material with no basis_class / regulatory_basis / jurisdictions_checked, AND there is no matching row in data/evidence/standards-not-material.csv (cut -d, -f1 data/evidence/standards-not-material.csv | grep -E "vinegar|soy-sauce|tomato|mustard|fish-sauce" returns nothing). Because the build-blocking gate tools/evidence/audit-not-material-substantiation.mjs only audits rows that are IN the registry, an unregistered not-material determination is invisible to it and ships live. These categories are live on heavymetalcertified.com. Survey across all 18 compiled dirs: node tools/standards/audit-compiled-standards.mjs --all
+- done when: Every not_material cell in cat30/31/32/33/34 configs carries basis_class (from the six-term CLASS_VOCAB), rationale, regulatory_basis and jurisdictions_checked, plus bounded_by where speciation-bounded; Each affected compiled dir is re-synced: node tools/standards/sync-not-material.mjs --dir=data/workbench/standards/catNN-compiled; node tools/standards/audit-compiled-standards.mjs --dir=<each dir> exits 0 on C7; A registry-coverage check is added so a not-material cell that is absent from standards-not-material.csv fails the build instead of bypassing the substantiation gate silently
+- decision: _pending_
 
 ### OI-20260817-cert-promote-pr30-pr31 — Stranded built work: cert PR #30 (brand journey + remediation reconciliation, 16 files) and PR #31 (hero reframe) are MERGEABLE/CLEAN and unpromoted since 2026-08-13
 
