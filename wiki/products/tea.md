@@ -1,4 +1,5 @@
 ---
+hmtc_category: 5
 type: product-category
 category: tea
 title: "Tea"

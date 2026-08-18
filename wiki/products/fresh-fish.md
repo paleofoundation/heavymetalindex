@@ -1,4 +1,5 @@
 ---
+hmtc_category: 6
 type: product-category
 category: fresh-fish
 aliases: [frozen-fish, freshwater-fish]

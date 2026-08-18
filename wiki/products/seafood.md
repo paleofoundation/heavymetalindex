@@ -1,4 +1,5 @@
 ---
+hmtc_category: 6
 type: product-category
 category: seafood
 title: "Seafood"

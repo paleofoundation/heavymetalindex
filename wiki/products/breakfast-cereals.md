@@ -1,4 +1,5 @@
 ---
+hmtc_category: 3
 type: product-category
 category: breakfast-cereals
 aliases: [cornflakes]

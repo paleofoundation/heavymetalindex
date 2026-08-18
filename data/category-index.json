@@ -4,7 +4,7 @@
     {
       "slug": "infant-and-child-foods",
       "label": "Infant and Child Foods",
-      "count": 16,
+      "count": 18,
       "samples": [
         "Infant formula (powder)",
         "Infant formula (ready-to-feed, liquid)",
@@ -26,7 +26,7 @@
     {
       "slug": "grains-cereals-and-rice-products",
       "label": "Grains, Cereals, and Rice Products",
-      "count": 15,
+      "count": 16,
       "samples": [
         "Flour (wheat, corn, other)",
         "Bread and baked goods",
@@ -48,7 +48,7 @@
     {
       "slug": "beverages",
       "label": "Beverages",
-      "count": 18,
+      "count": 19,
       "samples": [
         "Fruit juices, non-apple",
         "Fruit juices, apple-containing (iAs)",
@@ -59,7 +59,7 @@
     {
       "slug": "seafood",
       "label": "Seafood",
-      "count": 6,
+      "count": 8,
       "samples": [
         "Fish — freshwater (tilapia, catfish, trout)",
         "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",
@@ -291,7 +291,7 @@
       "label": "Nuts, Seeds, and Their Butters",
       "count": 5,
       "samples": [
-        "Tree nuts and seeds (whole, raw, roasted)",
+        "General tree nuts and seeds (whole, raw, roasted)",
         "Cashews",
         "Sunflower seeds",
         "Nut and seed butters, other"
@@ -302,7 +302,7 @@
       "label": "Edible Fungi",
       "count": 3,
       "samples": [
-        "Mushrooms — cultivated (clean counterpart)",
+        "Mushrooms — cultivated common (button/Agaricus; clean counterpart)",
         "Mushrooms — wild and processed-wild (contaminated)",
         "Other"
       ]
@@ -725,7 +725,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1350,
+      "count": 1347,
       "samples": [
         "United States",
         "Canada",
@@ -736,7 +736,7 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 151,
+      "count": 150,
       "samples": [
         "Brazil",
         "Peru",
@@ -758,7 +758,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 286,
+      "count": 285,
       "samples": [
         "Iran",
         "Turkey",
@@ -769,7 +769,7 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 190,
+      "count": 189,
       "samples": [
         "Nigeria",
         "Ethiopia",
@@ -780,18 +780,18 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 228,
+      "count": 226,
       "samples": [
         "India",
         "Bangladesh",
         "Pakistan",
-        "Sri Lanka"
+        "Kazakhstan"
       ]
     },
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 438,
+      "count": 439,
       "samples": [
         "China",
         "Japan",
@@ -813,7 +813,7 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 259,
+      "count": 258,
       "samples": [
         "International / multi-country",
         "EAC",

@@ -1,4 +1,5 @@
 ---
+hmtc_category: 1
 title: Infant Formula Powder
 type: product-category
 category: infant-formula-powder

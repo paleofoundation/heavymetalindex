@@ -1,6 +1,7 @@
 ---
+hmtc_category: 1
 type: product-category
-category: infant-cereal
+category: baby-cereals-dry
 title: "Infant Cereal"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
