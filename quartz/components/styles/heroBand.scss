@@ -132,13 +132,25 @@
   }
 }
 
+// The ORCID iD is shown as the official green iD glyph (the journal-byline
+// convention), not the spelled-out number, so this link carries no underline
+// and collapses to the icon's box.
 .hero-orcid {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 0;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+
+  .orcid-id-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
 
   &:hover {
-    color: #fff;
+    opacity: 0.82;
   }
 }
 
