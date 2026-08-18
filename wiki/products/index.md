@@ -5,22 +5,14 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-05-17
 ---
 
-## Overview
-
-Product-category pages describe heavy-metal evidence for consumer-facing product categories. Start here when the reader's question begins with a product type rather than a metal.
-
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
   <p>The most developed product layers are infant and child foods (HMTc Category 1) and children's personal care (HMTc Category 2). Pages summarize source-backed occurrence evidence, data gaps, and applicable regulation links; they do not rank brands or publish certification limits.</p>
-  <div class="hmi-pill-row">
-    <span class="hmi-pill">Infant formula</span>
-    <span class="hmi-pill">Baby cereal</span>
-    <span class="hmi-pill">Purees</span>
-    <span class="hmi-pill">Diaper cream</span>
-    <span class="hmi-pill">Sunscreen</span>
-    <span class="hmi-pill">Toothpaste</span>
-  </div>
 </div>
+
+## Overview
+
+Product-category pages describe heavy-metal evidence for consumer-facing product categories. Start here when the reader's question begins with a product type rather than a metal.
 
 ## Navigational domains
 
