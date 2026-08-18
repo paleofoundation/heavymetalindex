@@ -18,6 +18,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { sectionPageRefs } from "../evidence/section-page-refs.mjs"
 
 const repoRoot = process.cwd()
 const today = new Date().toISOString().slice(0, 10)
@@ -65,6 +66,12 @@ for (const cat of CATEGORIES) {
   const linkRe = new RegExp(`\\[\\[${escapeRe(cname)}/([a-z0-9][a-z0-9_-]*)`, "g")
   let lm
   while ((lm = linkRe.exec(curatedText)) !== null) referenced.add(lm[1])
+
+  // A leaf listed on a generated category section page (the v3 card grid's
+  // target) is reachable and must NOT be re-appended to the auto-stub block —
+  // otherwise stripping the index's redundant flat lists makes the daemon
+  // regenerate them here, a self-healing flat list.
+  for (const s of sectionPageRefs(cname)) referenced.add(s)
 
   const orphans = allSlugs.filter((slug) => !referenced.has(slug))
 

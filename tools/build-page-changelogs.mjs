@@ -210,10 +210,20 @@ for (const targetDir of TARGETS) {
       }
     }
 
-    const existingPattern = new RegExp(`\\n*${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}\\n*$`)
+    // Non-anchored, replace-first-in-place + strip duplicates. The old pattern was
+    // anchored to end-of-file ($); when another generator (link-orphans) appended a
+    // block AFTER the history, the history was no longer at EOF, the test failed,
+    // and a SECOND history block was appended at EOF — the duplicate-Update-history
+    // bug. This replaces the first history block where it sits (e.g. before the
+    // auto-linked-stubs block) and removes any duplicates.
+    const anyPattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`, "g")
     let next
-    if (existingPattern.test(raw)) {
-      next = raw.replace(existingPattern, `\n\n${block}\n`)
+    if (raw.match(anyPattern)) {
+      let seen = 0
+      next = raw
+        .replace(anyPattern, () => (seen++ === 0 ? block : ""))
+        .replace(/\n{3,}/g, "\n\n")
+        .replace(/\n+$/, "\n")
     } else {
       next = `${raw.replace(/\n+$/, "")}\n\n${block}\n`
     }

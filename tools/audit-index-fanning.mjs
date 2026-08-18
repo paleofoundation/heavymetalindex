@@ -30,6 +30,7 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 import { BROAD_PRODUCT_SCOPE_SET } from "./evidence/broad-product-scopes.mjs"
+import { sectionPageRefs } from "./evidence/section-page-refs.mjs"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -89,6 +90,12 @@ for (const s of indexSlugs.keys()) {
   surfacedCanonicals.add(s)
   if (aliasToCanonical.has(s)) surfacedCanonicals.add(aliasToCanonical.get(s))
 }
+// The v3 card grid links to category section pages that list the rows; a leaf
+// surfaced there is navigable even when the index body no longer lists it.
+for (const s of sectionPageRefs("products", path.join(repoRoot, "wiki"))) {
+  surfacedCanonicals.add(s)
+  if (aliasToCanonical.has(s)) surfacedCanonicals.add(aliasToCanonical.get(s))
+}
 
 // --- Source declaration counts per product slug (alias-aware, deduped per source).
 const declCount = new Map()
@@ -117,7 +124,7 @@ for (const [slug, n] of declCount) {
   if (n < MIN) continue
   if (BROAD_SCOPE.has(slug)) continue
   if (retiredPages.has(slug)) continue // retired/out-of-scope rows are intentionally unsurfaced
-  if (indexSlugs.has(slug)) continue
+  if (surfacedCanonicals.has(slug)) continue // index target OR a category section-page row
   if (aliasToCanonical.has(slug) && surfacedCanonicals.has(aliasToCanonical.get(slug))) continue
   leaks.push({ slug, n, hasPage: pageSlugs.has(slug) })
 }

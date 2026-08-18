@@ -39,6 +39,7 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 import { BROAD_PRODUCT_SCOPE_SET } from "./evidence/broad-product-scopes.mjs"
+import { sectionPageRefs } from "./evidence/section-page-refs.mjs"
 
 const repoRoot = process.cwd()
 const wikiDir = path.join(repoRoot, "wiki")
@@ -246,8 +247,16 @@ if (fs.existsSync(srcDir)) {
     }
   }
 }
+// Leaves surfaced on the generated category section pages (the v3 card grid's
+// targets) count as reachable/surfaced even when the index body no longer lists
+// them — see tools/evidence/section-page-refs.mjs.
+const sectionSurfaced = new Map([
+  ["products", sectionPageRefs("products", wikiDir)],
+  ["ingredients", sectionPageRefs("ingredients", wikiDir)],
+])
 const productIndexRefs = indexReferences.get("products")
 const surfacedProducts = new Set(productIndexRefs)
+for (const s of sectionSurfaced.get("products")) surfacedProducts.add(s)
 for (const s of productIndexRefs) if (aliasToCanonical.has(`products/${s}`)) surfacedProducts.add(simplify(aliasToCanonical.get(`products/${s}`)).split("/").pop())
 
 // ======================= CHECKS =======================
@@ -270,8 +279,10 @@ for (const p of pages.values()) {
       const q = pages.get(s)
       return q && !q.isIndex && q.type
     })
-    const inIndex = indexReferences.get(p.dir)?.has(p.slug.split("/").pop())
-    if (inbTopical.length === 0 && !inIndex) fails.orphan.push(p.slug)
+    const leaf = p.slug.split("/").pop()
+    const inIndex = indexReferences.get(p.dir)?.has(leaf)
+    const secSurf = sectionSurfaced.get(p.dir)?.has(leaf)
+    if (inbTopical.length === 0 && !inIndex && !secSurf) fails.orphan.push(p.slug)
   }
 
   // EMPTY_CONNECTIONS.
