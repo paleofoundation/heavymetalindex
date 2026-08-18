@@ -1,56 +1,64 @@
 ---
 type: product-category
 category: matcha
-aliases: [matcha-beverages]
+aliases:
+  - matcha-beverages
 hmtc_category: 5
 hmtc_row: 12
-label: "Matcha"
+label: Matcha
 base_taxonomy: tea-taxonomy
 variant_type: distinct_exposure_pathway
 provenance: category_5_step_0_locked
 ingredient_targets: []
-primary_metals_of_concern: [Al, Pb, Cd]
+primary_metals_of_concern:
+  - Al
+  - Pb
+  - Cd
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-09
+updated: 2026-05-09T00:00:00.000Z
 sources: 2
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '2'
+  - k: Ingredient inputs
+    v: '1'
 ---
 
 # Matcha
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is HMTc Category 5 row 12 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Aluminium, Lead and Cadmium.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on matcha typically center on aluminum and lead, with concentrations elevated relative to steeped tea because the powdered leaf is consumed entire. Source-of-origin and grade (ceremonial vs culinary) are the defensive core. Compare with <a href="/products/true-tea-camellia-sinensis">True Tea Camellia Sinensis</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=matcha">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for matcha, with leaf-consumption context for aluminum and lead.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/tea">Tea</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.</p></div>
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -111,8 +119,6 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 1 | [[sources/szymczykowska2026-matcha-elemental-composition\|Szymczykowska et al. 2026]]. *Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health*, Beverages | 2026 | Peer-reviewed | JP/PL Pb, Cr, Ni occurrence in Two Japanese organic matcha types (daily matcha and traditional matcha) from Uji region, Kyoto, Japan; two batches each,... (n=2) |
 | 2 | [[sources/masri2025-toxicant-foods-california\|Masri et al. 2025]]. *Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65*, Nutrients | 2025 | Peer-reviewed | US Pb, Cd, tAs, MeHg occurrence in Cross-sectional online dietary survey (Qualtrics) administered between 1 March and 15 June 2023 to Southern California residents (adults... (n=186) |
 <!-- END: hmi-source-legend -->
-## Who this page is for
-
 This page is for readers who need matcha treated as its own exposure pathway rather than as ordinary steeped tea. Brand legal and QA teams should focus on the distinction between powder-as-consumed and infusion-only evidence: matcha suspends the whole leaf powder, so powder-basis Pb, total Cr, and Ni findings can matter even when brewed-tea data look modest. Retailers and regulators should use the page as a literature map, not as a pass/fail table, because the current source base is one small organic Japanese sample set and contains paper-internal tensions for powder Pb and Cr that need supplementary-table confirmation before quantitative pooling.
 
 ## Methodology

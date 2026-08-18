@@ -3,54 +3,77 @@ type: product-category
 category: vegetable-juices-root-vegetable-containing
 hmtc_category: 5
 hmtc_row: 4
-label: "Vegetable juices, root-vegetable-containing"
+label: 'Vegetable juices, root-vegetable-containing'
 base_taxonomy: vegetable-juices
 variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked
-ingredient_targets: [vegetables, carrots, potatoes]
-primary_metals_of_concern: [Pb, Cd]
+ingredient_targets:
+  - vegetables
+  - carrots
+  - potatoes
+primary_metals_of_concern:
+  - Pb
+  - Cd
 vulnerable_population: general_population
-applicable_regulations: [fda2022_draft_pb_other_juice_20]
+applicable_regulations:
+  - fda2022_draft_pb_other_juice_20
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-09
+updated: 2026-05-09T00:00:00.000Z
 literature_scope: thin
 sources: 0
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Ingredient inputs
+    v: '3'
+  - k: Applicable limits
+    v: '1'
+  - k: Jurisdictions
+    v: '1'
 ---
 
 # Vegetable Juices, Root-Vegetable-Containing
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is HMTc Category 5 row 4 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Lead and Cadmium.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on root-vegetable-containing juices typically center on lead and cadmium uptake from the underlying root vegetable supply (carrot, beet, parsnip). Source provenance and varietal disclosure are the defensive core. Compare with <a href="/products/vegetable-juices-non-root">Vegetable Juices Non Root</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=vegetable-juices-root-vegetable-containing">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for root-vegetable-containing juices.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/carrot">Carrot</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — p95 384.2 ppb, 1 source, low confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/vegetables">Vegetables</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 80%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/potatoes">Potatoes</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--3" style="width: 12%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 30 ppb, 4 sources, medium confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/fda2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Literature scope
 

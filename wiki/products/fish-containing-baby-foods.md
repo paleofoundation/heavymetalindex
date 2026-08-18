@@ -5,29 +5,37 @@ category: fish-containing-baby-foods
 hmtc_row: 11
 hmtc_category: 1
 category_label: Infant and Child Foods
-age_range: "0-5"
+age_range: 0-5
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-label: "Fish-containing baby foods"
+label: Fish-containing baby foods
 base_taxonomy: fish-containing-baby-foods
 variant_type: higher-contamination-sibling
-platform_metals: [MeHg]
+platform_metals:
+  - MeHg
 provenance: added_step_0c_contamination_platform
-ingredient_targets: [fish-containing-baby-foods, fish, seafood]
-primary_metals_of_concern: [MeHg]
+ingredient_targets:
+  - fish-containing-baby-foods
+  - fish
+  - seafood
+primary_metals_of_concern:
+  - MeHg
 vulnerable_population: infants-0-24mo
 applicable_regulations: []
 cc_relationship:
   role: contamination_platform
   scope: aggregate_source
   partners:
-    - slug: "aggregate:category-1-non-fish-baby-foods"
+    - slug: 'aggregate:category-1-non-fish-baby-foods'
       partner_type: row_aggregate
       role_of_partner: clean_benchmark
-      metals: [MeHg]
-      notes: "MeHg variation across fish species is handled in the CC derivation for this row, not as additional rows."
+      metals:
+        - MeHg
+      notes: >-
+        MeHg variation across fish species is handled in the CC derivation for
+        this row, not as additional rows.
   aggregate_definition:
     handle: category-1-non-fish-baby-foods
     member_slugs:
@@ -46,45 +54,66 @@ cc_relationship:
       - fruit-juice-not-canned
       - teething-and-snacks-non-rice
       - teething-and-snacks-rice-based
-    rationale: "Non-fish baby foods constitute the lower-end reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the higher-contamination row characterized by this page."
-audience: [regulator, educator, consumer, app]
+    rationale: >-
+      Non-fish baby foods constitute the lower-end reference distribution for
+      MeHg in Category 1; fish-containing baby foods diverge from this
+      distribution because of bioaccumulation, which is the higher-contamination
+      row characterized by this page.
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-05-03T00:00:00.000Z
 sources: 17
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '17'
+  - k: Ingredient inputs
+    v: '3'
+  - k: Applicable limits
+    v: '3'
+  - k: Jurisdictions
+    v: '2'
 ---
 
 # Fish-Containing Baby Foods
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is a structural scaffold for HMTc Category 1 row 11. Four fish, mercury, or baby-food sources have been promoted, including a small Meli 2024 fish-homogenate summary; fish baby-food distributions and methylmercury-specific product rows are still pending.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Methylmercury.</p></div>
 
-## Who this page is for
+## Ingredient drivers
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on fish-containing baby foods typically center on methylmercury, where the regulatory ceiling (EPA / FDA action levels) is species-specific and the literature varies by predator-level. The Methodology section's MeHg-vs-total-mercury non-substitutability rule and species-level sourcing are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=fish-containing-baby-foods">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for fish-containing baby foods, with methylmercury treated as non-substitutable from total mercury.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/seafood">Seafood</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — p95 100 ppb, 18 sources, high confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/fish">Fish</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 91%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2000 ppb, 48 sources, high confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/fda2025-lead-processed-baby-foods\|FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children]] | Lead | 10 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

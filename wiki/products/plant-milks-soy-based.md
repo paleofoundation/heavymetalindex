@@ -3,56 +3,67 @@ type: product-category
 category: plant-milks-soy-based
 hmtc_category: 5
 hmtc_row: 6
-label: "Plant milks, soy-based"
+label: 'Plant milks, soy-based'
 base_taxonomy: plant-milks
 variant_type: higher-contamination-sibling
-platform_metals: [Al, Ni, Cd]
+platform_metals:
+  - Al
+  - Ni
+  - Cd
 provenance: category_5_step_0_locked
-ingredient_targets: [plant-milk, soy]
-primary_metals_of_concern: [Al, Ni, Cd]
+ingredient_targets:
+  - plant-milk
+  - soy
+primary_metals_of_concern:
+  - Al
+  - Ni
+  - Cd
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: phase3
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-09
+updated: 2026-05-09T00:00:00.000Z
 sources: 8
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '8'
+  - k: Ingredient inputs
+    v: '2'
 ---
 
 # Plant Milks, Soy-Based
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has early finished-product occurrence evidence, but the evidence is still insufficient for HMTc threshold-setting.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Aluminium, Nickel and Cadmium.</p></div>
 
-## Who this page is for
+## Ingredient drivers
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on soy-based plant milks typically center on cadmium uptake by the soy crop. Geographic and growing-region context are the defensive core. Compare with <a href="/products/plant-milks-non-soy-non-rice">Plant Milks Non Soy Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=plant-milks-soy-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for soy-based plant milks.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/soy">Soy</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 15 ppb, 7 sources, medium confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/plant-milk">Plant milk base</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></div>
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

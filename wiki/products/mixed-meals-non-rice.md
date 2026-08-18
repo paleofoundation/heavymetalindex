@@ -1,24 +1,33 @@
 ---
-title: Mixed Meals, Non-Rice
+title: 'Mixed Meals, Non-Rice'
 type: product-category
 category: mixed-meals-non-rice
-aliases: [mixed-dishes]
+aliases:
+  - mixed-dishes
 hmtc_row: 12
 hmtc_category: 1
 category_label: Infant and Child Foods
-age_range: "0-5"
+age_range: 0-5
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-label: "Mixed meals, non-rice"
+label: 'Mixed meals, non-rice'
 base_taxonomy: mixed-meals
 variant_type: clean_benchmark
 provenance: split_from_base
-ingredient_targets: [mixed-meals, non-rice-grains, vegetables, meat]
-primary_metals_of_concern: [iAs, Cd, Pb]
+ingredient_targets:
+  - mixed-meals
+  - non-rice-grains
+  - vegetables
+  - meat
+primary_metals_of_concern:
+  - iAs
+  - Cd
+  - Pb
 vulnerable_population: infants-6-60mo
-applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
+applicable_regulations:
+  - fda-ctz-Pb-babyfood-10ppb
 cc_relationship:
   role: clean_benchmark
   scope: within_row
@@ -26,45 +35,69 @@ cc_relationship:
     - slug: mixed-meals-rice-containing
       partner_type: row
       role_of_partner: contamination_platform
-      metals: [iAs, Cd, Pb]
-audience: [regulator, educator, consumer, app]
+      metals:
+        - iAs
+        - Cd
+        - Pb
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-05-03T00:00:00.000Z
 sources: 27
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '27'
+  - k: Ingredient inputs
+    v: '4'
+  - k: Applicable limits
+    v: '3'
+  - k: Jurisdictions
+    v: '2'
 ---
 
 # Mixed Meals, Non-Rice
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is a structural scaffold for HMTc Category 1 row 12. FDA compliance samples now provide a direct non-rice mixed-meal lower-bound distribution, while broader savoury infant-food evidence remains useful context.
+<div class="hmi-variant-group"><div class="hmi-variant-head"><span class="hmi-variant-kicker">Variant group · mixed meals</span><span class="hmi-variant-tabs"><span class="hmi-variant-tab hmi-variant-tab--active">Mixed meals, non-rice</span><a class="hmi-variant-tab" href="/products/mixed-meals-rice-containing">Mixed meals, rice-containing</a></span><span class="hmi-variant-note">Same category framing, different contamination profile. Both pages are separately citable.</span></div><div class="hmi-variant-grid"><div class="hmi-variant-k">Diverges on</div><div class="hmi-variant-a">Inorganic arsenic · Cadmium · Lead</div><div class="hmi-variant-b">Inorganic arsenic · Cadmium · Lead</div><div class="hmi-variant-k">Corpus depth</div><div class="hmi-variant-a">27 sources</div><div class="hmi-variant-b">26 sources</div></div></div>
 
-## Who this page is for
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Inorganic arsenic, Cadmium and Lead.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on non-rice mixed meals typically center on lead and cadmium from vegetable and grain ingredients. Source provenance and basis labeling (as-sold vs prepared) are the defensive core. Compare with <a href="/products/mixed-meals-rice-containing">Mixed Meals Rice Containing</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=mixed-meals-non-rice">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-rice mixed meals, against the FDA 2025 baby-food lead cap.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/non-rice-grains">Non Rice Grains</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 400 ppb, 11 sources, high confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/vegetables">Vegetables</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 76%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/meat">Meat and poultry</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--3" style="width: 46%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — p95 20 ppb, 2 sources, low confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/fda2025-lead-processed-baby-foods\|FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children]] | Lead | 10 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

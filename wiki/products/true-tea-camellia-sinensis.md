@@ -3,53 +3,60 @@ type: product-category
 category: true-tea-camellia-sinensis
 hmtc_category: 5
 hmtc_row: 11
-label: "True tea (Camellia sinensis)"
+label: True tea (Camellia sinensis)
 base_taxonomy: tea-taxonomy
 variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked
 ingredient_targets: []
-primary_metals_of_concern: [Al, Pb, Cd]
+primary_metals_of_concern:
+  - Al
+  - Pb
+  - Cd
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-09
+updated: 2026-05-09T00:00:00.000Z
 sources: 16
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '16'
+  - k: Ingredient inputs
+    v: '1'
 ---
 
 # True Tea (Camellia Sinensis)
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is HMTc Category 5 row 11 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Aluminium, Lead and Cadmium.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on tea (Camellia sinensis) typically center on aluminum, manganese, and lead uptake by the tea plant; elevation and provincial sourcing drive multi-fold variance. The aluminum case for true tea is one of the most-litigated heavy-metal-in-food categories. Geographic and elevation context is the defensive core. Compare with <a href="/products/matcha">Matcha</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=true-tea-camellia-sinensis">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for true tea, with aluminum and lead treated as primary concerns.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/tea">Tea</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.</p></div>
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -150,8 +157,6 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 40 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | CN/IN/TR Pb, Cd, tAs, Cr, Cu concentrations |
 | 41 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
 <!-- END: hmi-source-legend -->
-## Who this page is for
-
 _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed; this section will frame what each is looking for on this page._
 
 ## Methodology

@@ -5,17 +5,24 @@ category: teething-and-snacks-non-rice
 hmtc_row: 15
 hmtc_category: 1
 category_label: Infant and Child Foods
-age_range: "0-5"
+age_range: 0-5
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-label: "Teething & snacks (non-rice)"
+label: Teething & snacks (non-rice)
 base_taxonomy: teething-and-snacks
 variant_type: clean_benchmark
 provenance: split_from_base
-ingredient_targets: [teething-and-snacks, non-rice-grains, oat, wheat]
-primary_metals_of_concern: [iAs, Cd, Pb]
+ingredient_targets:
+  - teething-and-snacks
+  - non-rice-grains
+  - oat
+  - wheat
+primary_metals_of_concern:
+  - iAs
+  - Cd
+  - Pb
 vulnerable_population: infants-6-60mo
 applicable_regulations: []
 cc_relationship:
@@ -25,45 +32,55 @@ cc_relationship:
     - slug: teething-and-snacks-rice-based
       partner_type: row
       role_of_partner: contamination_platform
-      metals: [iAs, Cd, Pb]
-audience: [regulator, educator, consumer, app]
+      metals:
+        - iAs
+        - Cd
+        - Pb
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-05-03T00:00:00.000Z
 sources: 17
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '17'
+  - k: Ingredient inputs
+    v: '4'
 ---
 
 # Teething & Snacks (Non-Rice)
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is a structural scaffold for HMTc Category 1 row 15. FDA compliance samples add broad grain-based snack context, but non-rice snack-specific p10/p90/p100 distributions are still pending because rice status is not isolated.
+<div class="hmi-variant-group"><div class="hmi-variant-head"><span class="hmi-variant-kicker">Variant group · teething and snacks</span><span class="hmi-variant-tabs"><span class="hmi-variant-tab hmi-variant-tab--active">non-rice</span><a class="hmi-variant-tab" href="/products/teething-and-snacks-rice-based">rice-based</a></span><span class="hmi-variant-note">Same category framing, different contamination profile. Both pages are separately citable.</span></div><div class="hmi-variant-grid"><div class="hmi-variant-k">Diverges on</div><div class="hmi-variant-a">Inorganic arsenic · Cadmium · Lead</div><div class="hmi-variant-b">Inorganic arsenic · Cadmium · Lead</div><div class="hmi-variant-k">Corpus depth</div><div class="hmi-variant-a">17 sources</div><div class="hmi-variant-b">27 sources</div></div></div>
 
-## Who this page is for
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Inorganic arsenic, Cadmium and Lead.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on non-rice teething products typically center on lead and cadmium in grain bases and on contact-leaching from packaging. Source provenance and packaging context are the defensive core. Compare with <a href="/products/teething-and-snacks-rice-based">Teething And Snacks Rice Based</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=teething-and-snacks-non-rice">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-rice teething products and snacks.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/non-rice-grains">Non Rice Grains</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — 4 sources, medium confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/wheat">Wheat</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 88%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 650 ppb, 28 sources, high confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/oat">Oat</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--3" style="width: 57%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 310 ppb, 4 sources, medium confidence.</p></div>
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

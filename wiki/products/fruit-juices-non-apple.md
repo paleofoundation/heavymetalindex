@@ -3,55 +3,78 @@ type: product-category
 category: fruit-juices-non-apple
 hmtc_category: 5
 hmtc_row: 1
-label: "Fruit juices, non-apple"
+label: 'Fruit juices, non-apple'
 base_taxonomy: fruit-juices
 variant_type: clean_benchmark
 provenance: category_5_step_0_locked
-ingredient_targets: [fruit-juice]
-primary_metals_of_concern: [Pb, iAs]
+ingredient_targets:
+  - fruit-juice
+primary_metals_of_concern:
+  - Pb
+  - iAs
 vulnerable_population: general_population
-applicable_regulations: [fda2022_draft_pb_other_juice_20, fda2004_juice_haccp_pb_50]
+applicable_regulations:
+  - fda2022_draft_pb_other_juice_20
+  - fda2004_juice_haccp_pb_50
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: phase3
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-09
+updated: 2026-05-09T00:00:00.000Z
 sources: 34
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '34'
+  - k: Ingredient inputs
+    v: '1'
+  - k: Applicable limits
+    v: '4'
+  - k: Jurisdictions
+    v: '2'
 ---
 
 # Fruit Juices, Non-Apple
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is HMTc Category 5 row 1 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Lead and Inorganic arsenic.</p></div>
 
-## Who this page is for
+## Ingredient drivers
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on non-apple juices typically center on lead in grape juice (FDA 2022 draft action level applies to all juices) plus inorganic arsenic in cross-juice context. Source provenance and varietal disclosure are the defensive core. Compare with <a href="/products/fruit-juices-apple-containing">Fruit Juices Apple Containing</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=fruit-juices-non-apple">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-apple juice, against the FDA 2022 draft lead and iAs caps.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/fruit-purees">Fruit Purees</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/fruit-juice">Fruit Juice</a><span class="hmi-driver-metal">Total arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 61%"></div></div><p class="hmi-driver-desc">Leading total arsenic driver among this category's routed inputs — 2 sources, low confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/fda2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/fda2004-juice-haccp-lead\|fda2004 juice haccp lead]] | Lead | 50 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 30 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

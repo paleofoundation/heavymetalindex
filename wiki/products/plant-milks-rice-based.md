@@ -3,31 +3,87 @@ type: product-category
 category: plant-milks-rice-based
 hmtc_category: 5
 hmtc_row: 7
-label: "Plant milks, rice-based"
+label: 'Plant milks, rice-based'
 base_taxonomy: plant-milks
 variant_type: higher-contamination-sibling
-platform_metals: [iAs, Cd, Pb]
+platform_metals:
+  - iAs
+  - Cd
+  - Pb
 provenance: category_5_step_0_locked
-ingredient_targets: [plant-milk, rice]
-primary_metals_of_concern: [iAs, Cd, Pb]
+ingredient_targets:
+  - plant-milk
+  - rice
+primary_metals_of_concern:
+  - iAs
+  - Cd
+  - Pb
 vulnerable_population: general_population
-applicable_regulations: [eu2023_ias_rice_drinks_30]
+applicable_regulations:
+  - eu2023_ias_rice_drinks_30
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: retired
 retired: true
-retirement_date: 2026-04-28
+retirement_date: 2026-04-28T00:00:00.000Z
 retirement_amendment: Category5_Step_0_Amendment_1
 retirement_authority: Step Zero Protocol v1.4 §0G operation 2
 redirect_target: products/rice-beverages
 redirect_target_pending: true
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-14
+updated: 2026-05-14T00:00:00.000Z
 sources: 9
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '9'
+  - k: Ingredient inputs
+    v: '2'
+  - k: Applicable limits
+    v: '1'
+  - k: Jurisdictions
+    v: '1'
 ---
 
 # Plant Milks, Rice-Based — RETIRED
+
+<!-- BEGIN: hmi-subcategory-v3 -->
+## Overview
+
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Inorganic arsenic, Cadmium and Lead.</p></div>
+
+## Ingredient drivers
+
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/rice">Rice</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 160 ppb, 8 sources, medium confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/plant-milk">Plant milk base</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 10%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/eu2023-arsenic-rice-based-drinks\|EU inorganic arsenic maximum level for non-alcoholic rice-based drinks]] | Inorganic arsenic | 30 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
+
 
 > **This subcategory has been re-routed to Category 3, currently in build. The standards page will be available when Category 3 is finalized.**
 >
@@ -38,33 +94,6 @@ sources: 9
 ## Historical literature evidence (Category 5 row 7, retired)
 
 The content below was the original Category 5 row 7 literature synthesis. It is preserved verbatim for traceability under the locked-file-immutability principle. Standards inheritance moves to Category 3 row 10.
-
-## Who this page is for
-
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on rice-based plant milks typically center on inorganic arsenic from the rice base; the EU iAs cap on rice-based drinks (30 ppb for non-alcoholic rice-based drinks per EU 2023/915) is the public number. Source provenance and the iAs-vs-tAs speciation rule from the Methodology section are the defensive core. Compare with <a href="/products/plant-milks-non-soy-non-rice">Plant Milks Non Soy Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=plant-milks-rice-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for rice-based plant milks, against the EU 2023/915 30 ppb iAs cap on rice-based drinks.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
 
 ## Methodology
 

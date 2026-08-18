@@ -5,61 +5,95 @@ category: fruit-purees
 hmtc_row: 7
 hmtc_category: 1
 category_label: Infant and Child Foods
-age_range: "0-5"
+age_range: 0-5
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-label: "Fruit purees (general)"
+label: Fruit purees (general)
 base_taxonomy: fruit-purees
 variant_type: independent_no_split
 provenance: base_taxonomy
-ingredient_targets: [fruit-purees, apple, pear, peach, banana]
-primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+ingredient_targets:
+  - fruit-purees
+  - apple
+  - pear
+  - peach
+  - banana
+primary_metals_of_concern:
+  - Pb
+  - Cd
+  - iAs
+  - tAs
 vulnerable_population: infants-0-24mo
-applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
+applicable_regulations:
+  - fda-ctz-Pb-babyfood-10ppb
 cc_relationship:
   role: independent
   scope: none
   partners: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-05-03T00:00:00.000Z
 sources: 36
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '36'
+  - k: Ingredient inputs
+    v: '5'
+  - k: Applicable limits
+    v: '4'
+  - k: Jurisdictions
+    v: '2'
 ---
 
 # Fruit Purees
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
 
-This page is a structural scaffold for HMTc Category 1 row 7. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food category means, Meli homogenized fruit-product rows, and Parker fruit baby-food summaries; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The metals that govern it, in the routed corpus, are Lead, Cadmium and Inorganic arsenic.</p></div>
 
-## Who this page is for
+## Ingredient drivers
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Cherry-pick attack vectors on fruit purees typically center on lead in apple- and pear-derived ingredients (the Wanabana 2024 incident is the canonical example), plus inorganic arsenic when rice flour is added as a thickener. Lead-screen sourcing and ingredient-list scrutiny are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=fruit-purees">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for fruit purees, against the FDA 2025 baby-food lead cap.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/pear">Pear</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading inorganic arsenic driver among this category's routed inputs — 2 sources, low confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/apple">Apple</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 87%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 150 ppb, 6 sources, medium confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/fruit-purees">Fruit Purees</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--3" style="width: 9%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/peach">Peach</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--4" style="width: 8%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2.9 ppb, 2 sources, low confidence.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/banana">Banana</a><span class="hmi-driver-metal">Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--4" style="width: 8%"></div></div><p class="hmi-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2 ppb, 3 sources, low confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/fda2025-lead-processed-baby-foods\|FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children]] | Lead | 10 µg/kg | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 

@@ -1,22 +1,39 @@
 ---
-title: Infant Formula, Powder (Non-Soy)
+title: 'Infant Formula, Powder (Non-Soy)'
 type: product-category
 category: infant-formula-powder-non-soy
 hmtc_row: 1
 hmtc_category: 1
 category_label: Infant and Child Foods
-age_range: "0-5"
+age_range: 0-5
 evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-label: "Infant formula, powder (non-soy)"
+label: 'Infant formula, powder (non-soy)'
 base_taxonomy: infant-formula-powder
 variant_type: clean_benchmark
 provenance: split_from_base
-ingredient_targets: [infant-formula-powder, non-soy-protein-source, vitamin-mineral-premix]
-primary_metals_of_concern: [Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
-hmtc_tested_metals: [Pb, Cd, tAs, tHg]
+ingredient_targets:
+  - infant-formula-powder
+  - non-soy-protein-source
+  - vitamin-mineral-premix
+primary_metals_of_concern:
+  - Pb
+  - Cd
+  - tAs
+  - iAs
+  - MeHg
+  - tHg
+  - Ni
+  - Al
+  - Cr-VI
+  - Sn
+hmtc_tested_metals:
+  - Pb
+  - Cd
+  - tAs
+  - tHg
 vulnerable_population: infants-0-12mo
 applicable_regulations: []
 cc_relationship:
@@ -26,16 +43,42 @@ cc_relationship:
     - slug: infant-formula-powder-soy-based
       partner_type: row
       role_of_partner: contamination_platform
-      metals: [Al, Ni, Cd]
-audience: [regulator, educator, consumer, app]
+      metals:
+        - Al
+        - Ni
+        - Cd
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-05-03T00:00:00.000Z
 sources: 58
+kind: Subcategory
+dek: >-
+  A category profile assembled from its inputs. It reports what the routed
+  literature says about the ingredients that drive it, not brand-by-brand
+  product tests.
+snapshot:
+  - k: Corpus sources
+    v: '58'
+  - k: Ingredient inputs
+    v: '3'
+  - k: Applicable limits
+    v: '3'
+  - k: Jurisdictions
+    v: '1'
 ---
 
 # Infant Formula, Powder (Non-Soy)
 
+<!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
+
+<div class="hmi-variant-group"><div class="hmi-variant-head"><span class="hmi-variant-kicker">Variant group · infant formula powder</span><span class="hmi-variant-tabs"><span class="hmi-variant-tab hmi-variant-tab--active">non-soy</span><a class="hmi-variant-tab" href="/products/infant-formula-powder-soy-based">soy-based</a></span><span class="hmi-variant-note">Same category framing, different contamination profile. Both pages are separately citable.</span></div><div class="hmi-variant-grid"><div class="hmi-variant-k">Diverges on</div><div class="hmi-variant-a">Aluminium · Nickel · Cadmium</div><div class="hmi-variant-b">Aluminium · Nickel · Cadmium</div><div class="hmi-variant-k">Corpus depth</div><div class="hmi-variant-a">58 sources</div><div class="hmi-variant-b">34 sources</div></div></div>
+
+<div class="hmi-variant-group"><div class="hmi-variant-head"><span class="hmi-variant-kicker">Variant group · infant formula powder</span><span class="hmi-variant-tabs"><span class="hmi-variant-tab hmi-variant-tab--active">non-soy</span><a class="hmi-variant-tab" href="/products/infant-formula-powder-soy-based">soy-based</a></span><span class="hmi-variant-note">Same category framing, different contamination profile. Both pages are separately citable.</span></div><div class="hmi-variant-grid"><div class="hmi-variant-k">Diverges on</div><div class="hmi-variant-a">Aluminium · Nickel · Cadmium</div><div class="hmi-variant-b">Aluminium · Nickel · Cadmium</div><div class="hmi-variant-k">Corpus depth</div><div class="hmi-variant-a">58 sources</div><div class="hmi-variant-b">34 sources</div></div></div>
 
 <div class="hmi-quick-read">
  <div class="hmi-quick-read-label">Quick read</div>
@@ -55,34 +98,28 @@ sources: 58
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
-## Who this page is for
+## Ingredient drivers
 
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Start with the <a href="#methodology">Methodology</a> section for the speciation, basis, and non-detect rules that govern every numeric claim, then the <a href="#literature-evidence-summary">Literature Evidence Summary</a> for source-traceable concentration evidence by analyte. Every numeric claim links to its source page; the <a href="#sources">Sources</a> block at the bottom is the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to the cited field evidence on a like-for-like basis (with basis conversion shown when conversion is well-defined, and a methodology anchor when speciation differs). The <a href="#literature-evidence-summary">Literature Evidence Summary</a> gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-powder-non-soy">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix, against the applicable regulatory cap, with basis conversion explicit if applied. The comparator covers all ten HMT&amp;C analytes and links to mitigation guidance per analyte.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page in the <a href="#sources">Sources</a> block. The <a href="#methodology">Methodology</a> section states the rules that govern interpretation; the <a href="#evidence-governance">Evidence Governance</a> note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- <div>
- <dt>HMT&amp;C staff (internal)</dt>
- <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetalcertified.com">heavymetalcertified.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
- </div>
- </dl>
-</div>
+The inputs below are ordered by their share of the routed occurrence evidence for the metal each drives; the bar shows relative position within this category, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/infant-formula-powder">Infant Formula Powder</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 92%"></div></div><p class="hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 50 ppb, 3 sources, medium confidence.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to it. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 10 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data behind its action levels.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
+<!-- END: hmi-subcategory-v3 -->
 
 ## Methodology
 
