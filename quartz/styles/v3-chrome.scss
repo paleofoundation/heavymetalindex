@@ -720,6 +720,38 @@ footer.site-footer {
   max-width: none;
 }
 
+/* /ask is an app surface (Heavy Metal Index v3.dc.html, ASK THE INDEX branch).
+   Like the homepage it opts out of the 3-column rail grid and runs full-bleed:
+   its bespoke burgundy hero + two-column body own their own inner max-width.
+   Restated unlayered here for the same reason as .proof-home above — the
+   .proof-layout grid at line 703 is unlayered and would otherwise out-rank the
+   layered collapse rules (and component-CSS in askindex.scss). renderPage.tsx
+   tags the root .proof-ask and drops the HeroBand masthead for this slug. */
+.proof-ask .proof-layout {
+  display: block;
+  padding: 0;
+  max-width: none;
+}
+.proof-ask .snav,
+.proof-ask .rail,
+.proof-ask .page-header,
+.proof-ask .page-footer {
+  display: none;
+}
+.proof-ask .proof-container {
+  max-width: none;
+  padding: 0;
+}
+.proof-ask .proof-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.proof-ask .wiki-content {
+  font-size: inherit;
+}
+
 /* navAsideSt / railAsideSt (2010-2011). Both were sticky at top 88px with no
    padding; v3 clears the 92px top bar and pads each aside differently. */
 .snav {

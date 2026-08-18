@@ -268,6 +268,13 @@ export function renderPage(
   // The 404 page carries its own heading (pages/404.tsx). A research hero band
   // above it would be both meaningless and a second <h1> on the page.
   const isError = (slug as string) === "404"
+  // /ask is an app surface, not a document. The v3 design (Heavy Metal Index
+  // v3.dc.html, ASK THE INDEX branch, lines 264-360) gives it a bespoke
+  // full-bleed burgundy hero with the question card inside — NOT the standard
+  // masthead, whose Author / Cite-this-page / Version-history / snapshot chrome
+  // is meaningless on a chat interface. Like the homepage, it opts out of the
+  // masthead and the 3-column rail grid and carries its own hero in the body.
+  const isAsk = (slug as string) === "ask"
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
@@ -295,7 +302,7 @@ export function renderPage(
         )}
         {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
             outside #quartz-root so it spans the viewport; content pages only. */}
-        {!isHome && !isAuth && !isError && <HeroBand {...componentData} />}
+        {!isHome && !isAuth && !isError && !isAsk && <HeroBand {...componentData} />}
         {isAuth ? (
           <div id="quartz-root" class="page proof proof-auth">
             <main class="hmi-auth-page" id="main-content" tabindex={-1}>
@@ -303,7 +310,7 @@ export function renderPage(
             </main>
           </div>
         ) : (
-        <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
+        <div id="quartz-root" class={isHome ? "page proof proof-home" : isAsk ? "page proof proof-ask" : "page proof"}>
           <Body {...componentData}>
             {[<div key="proof-container" class="proof-container">
               <div class="proof-layout">

@@ -70,6 +70,14 @@ const SKIP_TAGS = new Set([
   "h4",
   "h5",
   "h6",
+  // Interactive / form controls: an <a> nested in a <button> is invalid HTML
+  // and hijacks the control's own click (e.g. the /ask example-question buttons,
+  // whose text mentions turmeric, cadmium, cocoa …). Never autolink into these.
+  "button",
+  "textarea",
+  "label",
+  "select",
+  "option",
 ])
 
 function normalize(slug: string): string {
