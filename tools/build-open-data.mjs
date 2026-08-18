@@ -59,6 +59,7 @@ const CHECK = process.argv.includes("--check")
 const WARN_ONLY = process.argv.includes("--warn-only")
 
 const INGREDIENTS_DIR = path.join(repoRoot, "wiki/ingredients")
+const SOURCES_DIR = path.join(repoRoot, "wiki/sources")
 const CONTAMINATION_JSON = path.join(repoRoot, "wiki/static/contamination.json")
 const REGULATIONS_JSON = path.join(repoRoot, "wiki/static/regulations.json")
 const OUT_DIR = path.join(repoRoot, "wiki/static/data")
@@ -270,6 +271,105 @@ function occurrenceCsv(occurrence) {
 }
 
 // ---------------------------------------------------------------------------
+// Source corpus DOI locator — a published DOI → source-page map.
+// ---------------------------------------------------------------------------
+// This is the artifact that lets the certification site (heavymetalcertified.com)
+// deep-link an inline citation to the Heavy Metal Index source page that carries
+// that document's structured record, WITHOUT breaching the one-way firewall: the
+// cert consumes this PUBLIC index (like any reader), and never reads Index private
+// data. It is literature-native (bibliographic locator + our public evidence tier),
+// carries no certification threshold, and only maps DOIs that resolve to a live,
+// non-draft /sources/<slug> page (RemoveDrafts is active, so the built set == the
+// non-draft set). The key is a bare, lowercased DOI (10.xxxx/yyyy); DOIs are
+// case-insensitive, so consumers must lowercase before lookup.
+function normalizeDoi(raw) {
+  if (raw == null) return null
+  let s = String(raw)
+    .trim()
+    .replace(/^["']|["']$/g, "")
+    .trim()
+    .toLowerCase()
+  s = s
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//, "")
+    .replace(/^doi:\s*/, "")
+    .trim()
+    .replace(/[).,;>\]]+$/, "") // trailing punctuation / brackets from prose
+  return /^10\.\d{4,9}\/\S+$/.test(s) ? s : null // rejects the template's 10.xxxx/xxxxx
+}
+
+function frontmatterBlock(raw) {
+  if (!raw.startsWith("---")) return ""
+  const end = raw.indexOf("\n---", 3)
+  return end === -1 ? "" : raw.slice(3, end)
+}
+function fmValue(block, key) {
+  const m = block.match(new RegExp(`^${key}:[ \\t]*(.+?)[ \\t]*$`, "m"))
+  return m ? m[1].replace(/^["']|["']$/g, "").trim() : null
+}
+
+function buildSources() {
+  const byDoi = {}
+  const rows = []
+  let scanned = 0
+  let collisions = 0
+  for (const file of fs
+    .readdirSync(SOURCES_DIR)
+    .filter((f) => f.endsWith(".md") && f !== "index.md" && !f.startsWith("_"))) {
+    const raw = fs.readFileSync(path.join(SOURCES_DIR, file), "utf8")
+    const block = frontmatterBlock(raw)
+    if (!block) continue
+    if (/^draft:[ \t]*true[ \t]*$/m.test(block)) continue // excluded from the public build
+    scanned++
+    const doi = normalizeDoi(fmValue(block, "doi"))
+    if (!doi) continue
+    const slug = file.replace(/\.md$/, "")
+    const title = fmValue(block, "title") || slug
+    const tier = fmValue(block, "evidence_tier") || null
+    const yearRaw = fmValue(block, "year")
+    const year = yearRaw && /^\d{4}$/.test(yearRaw) ? Number(yearRaw) : null
+    if (byDoi[doi]) {
+      // DOI-collision dedup (tools/dedup-doi-clusters.mjs) has already collapsed
+      // same-work duplicates upstream; a residual collision here is a wrong-DOI
+      // mis-ingest. First wins deterministically; count for the build log.
+      collisions++
+      continue
+    }
+    // The JSON map is a lean locator (the cert fetches it client-side): slug is
+    // all a consumer needs to build the page URL; tier/year are cheap trust/context.
+    // The human-readable title stays in the CSV so the tabular open-data form is
+    // self-describing without bloating the hot runtime path.
+    byDoi[doi] = { slug, tier, year }
+    rows.push({ doi, slug, title, tier, year })
+  }
+  rows.sort((a, b) => a.doi.localeCompare(b.doi))
+  const envelope = {
+    schema_version: SCHEMA_VERSION,
+    dataset: "hmi-sources",
+    title: "Heavy Metal Index — source corpus DOI locator",
+    description:
+      "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
+    site: SITE,
+    page_url_template: `${SITE}/sources/{slug}`,
+    generated_at: generatedAt,
+    generated_commit: generatedCommit,
+    license: LICENSE,
+    attribution: ATTRIBUTION,
+    record_count: rows.length,
+    by_doi: byDoi,
+  }
+  return { envelope, rows, stats: { scanned, mapped: rows.length, collisions } }
+}
+
+function sourcesCsv(rows) {
+  const header = ["doi", "slug", "title", "tier", "year", "page_url"]
+  const out = [header]
+  for (const r of rows) {
+    out.push([r.doi, r.slug, r.title, r.tier ?? "", r.year ?? "", `${SITE}/sources/${r.slug}`])
+  }
+  return toCsv(out)
+}
+
+// ---------------------------------------------------------------------------
 // Regulations: re-stamp and add a tidy CSV.
 // ---------------------------------------------------------------------------
 function buildRegulations(reg) {
@@ -331,7 +431,7 @@ function regulationsCsv(reg) {
 // ---------------------------------------------------------------------------
 // DataCatalog manifest — the machine index for the whole surface.
 // ---------------------------------------------------------------------------
-function buildCatalog(occurrence, regulations, sizes) {
+function buildCatalog(occurrence, regulations, sources, sizes) {
   const base = `${SITE}/static/data`
   return {
     schema_version: SCHEMA_VERSION,
@@ -374,6 +474,19 @@ function buildCatalog(occurrence, regulations, sizes) {
         distributions: [
           { format: "application/json", content_url: `${base}/regulations.json`, content_size: sizes.regulationsJson },
           { format: "text/csv", content_url: `${base}/regulations.csv`, content_size: sizes.regulationsCsv },
+        ],
+      },
+      {
+        id: "hmi-sources",
+        name: sources.title,
+        description: sources.description,
+        landing_page: `${SITE}/data`,
+        version: generatedCommit ? `${isoDay(generatedAt)}+${generatedCommit.slice(0, 12)}` : isoDay(generatedAt),
+        date_modified: isoDay(generatedAt),
+        record_count: sources.record_count,
+        distributions: [
+          { format: "application/json", content_url: `${base}/sources.json`, content_size: sizes.sourcesJson },
+          { format: "text/csv", content_url: `${base}/sources.csv`, content_size: sizes.sourcesCsv },
         ],
       },
     ],
@@ -453,25 +566,39 @@ if (CHECK) process.exit(0)
 
 const occurrence = buildOccurrence(contamination, tables)
 const regulations = buildRegulations(regulationsSrc)
+const { envelope: sources, rows: sourceRows, stats: sourceStats } = buildSources()
 const occurrenceJsonStr = JSON.stringify(occurrence, null, 2) + "\n"
 const occurrenceCsvStr = occurrenceCsv(occurrence)
 const regulationsJsonStr = JSON.stringify(regulations, null, 2) + "\n"
 const regulationsCsvStr = regulationsCsv(regulations)
+const sourcesJsonStr = JSON.stringify(sources, null, 2) + "\n"
+const sourcesCsvStr = sourcesCsv(sourceRows)
 
 const sizes = {
   occurrenceJson: Buffer.byteLength(occurrenceJsonStr),
   occurrenceCsv: Buffer.byteLength(occurrenceCsvStr),
   regulationsJson: Buffer.byteLength(regulationsJsonStr),
   regulationsCsv: Buffer.byteLength(regulationsCsvStr),
+  sourcesJson: Buffer.byteLength(sourcesJsonStr),
+  sourcesCsv: Buffer.byteLength(sourcesCsvStr),
 }
-const catalog = buildCatalog(occurrence, regulations, sizes)
+const catalog = buildCatalog(occurrence, regulations, sources, sizes)
 
 fs.mkdirSync(OUT_DIR, { recursive: true })
 fs.writeFileSync(path.join(OUT_DIR, "occurrence.json"), occurrenceJsonStr)
 fs.writeFileSync(path.join(OUT_DIR, "occurrence.csv"), occurrenceCsvStr)
 fs.writeFileSync(path.join(OUT_DIR, "regulations.json"), regulationsJsonStr)
 fs.writeFileSync(path.join(OUT_DIR, "regulations.csv"), regulationsCsvStr)
+fs.writeFileSync(path.join(OUT_DIR, "sources.json"), sourcesJsonStr)
+fs.writeFileSync(path.join(OUT_DIR, "sources.csv"), sourcesCsvStr)
 fs.writeFileSync(path.join(OUT_DIR, "catalog.json"), JSON.stringify(catalog, null, 2) + "\n")
+
+console.log(
+  `build-open-data: wrote sources.{json,csv} — ${sourceStats.mapped} DOI→source mappings ` +
+    `from ${sourceStats.scanned} non-draft source page(s)` +
+    (sourceStats.collisions ? `, ${sourceStats.collisions} residual DOI collision(s) skipped (first wins)` : "") +
+    ".",
+)
 
 const totalSources = occurrence.records.reduce(
   (a, r) => a + Object.values(r.analytes).reduce((b, c) => b + (c.sources?.length || 0), 0),

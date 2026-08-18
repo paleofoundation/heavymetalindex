@@ -16,8 +16,8 @@
     "Sn",
     "U"
   ],
-  "generated_at": "2026-08-17T14:48:36.233Z",
-  "generated_commit": "abe989345efdc1193b390faa4d683afbe1ce55fa",
+  "generated_at": "2026-08-18T17:44:45.010Z",
+  "generated_commit": "3f549345c820e1fd1454caf648bf024adfb586bb",
   "source_dataset_generated_at": "2026-08-11T06:38:49.626Z",
   "license": {
     "prose": "CC BY 4.0",
@@ -210,8 +210,7 @@
           "last_reviewed": "2026-06-14",
           "sources": [
             "sources/nasirpour2026-apple-wastewater-metals",
-            "sources/napier2024-wanabana-lead-apple-cinnamon",
-            "sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC"
+            "sources/napier2024-wanabana-lead-apple-cinnamon"
           ]
         },
         "Cd": {
@@ -689,7 +688,7 @@
             "sources/barber2025-baby-food-elements-us",
             "sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
             "sources/troeschel2024-cinnamon-applesauce-lead",
-            "sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC"
+            "sources/napier2024-wanabana-lead-apple-cinnamon"
           ]
         },
         "Cd": {
@@ -15824,7 +15823,7 @@
           "last_reviewed": "2026-05-16",
           "sources": [
             "sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan",
-            "sources/original2020-original-a",
+            "sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
             "sources/signes-pastor2022-infant-elements-nhbcs"
           ]
         },
@@ -15840,7 +15839,7 @@
           "last_reviewed": "2026-05-16",
           "sources": [
             "sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan",
-            "sources/original2020-original-a",
+            "sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
             "sources/signes-pastor2022-infant-elements-nhbcs"
           ]
         },
@@ -15855,7 +15854,7 @@
           "n_studies": 3,
           "last_reviewed": "2026-05-16",
           "sources": [
-            "sources/original2020-original-a",
+            "sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
             "sources/signes-pastor2018-infants-dietary-arsenic-solid-food",
             "sources/jackson2012-arsenic-organic-foods-brown-rice-syrup"
           ]
@@ -15931,7 +15930,7 @@
           "n_studies": 4,
           "last_reviewed": "2026-05-16",
           "sources": [
-            "sources/original2020-original-a",
+            "sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
             "sources/signes-pastor2022-infant-elements-nhbcs",
             "sources/signes-pastor2018-infants-dietary-arsenic-solid-food"
           ]
@@ -25829,7 +25828,7 @@
           "last_reviewed": "2026-05-16",
           "sources": [
             "sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
-            "sources/fda-iAs-rice-cereal-2020",
+            "sources/fda2020-ias-infant-rice-cereal-guidance",
             "sources/signes-pastor2018-infants-dietary-arsenic-solid-food"
           ]
         },
@@ -28586,7 +28585,7 @@
           "last_reviewed": "2026-05-31",
           "sources": [
             "sources/chime2025-nigerian-spices-as-cd-pb",
-            "sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC",
+            "sources/napier2024-wanabana-lead-apple-cinnamon",
             "sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices"
           ]
         },
