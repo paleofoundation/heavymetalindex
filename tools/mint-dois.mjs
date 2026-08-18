@@ -156,6 +156,7 @@ for (const c of batch) {
         publisher: "Institute of Contaminant Standards — Heavy Metal Index",
         publicationYear: new Date(updated).getFullYear() || new Date().getFullYear(),
         types: { resourceTypeGeneral: pageTypeToDataCite(c.dir) },
+        rightsList: [{ rights: "Creative Commons Attribution 4.0 International", rightsUri: "https://creativecommons.org/licenses/by/4.0/", schemeUri: "https://spdx.org/licenses/", rightsIdentifier: "CC-BY-4.0", rightsIdentifierScheme: "SPDX" }],
         url,
         event: "publish",
       },
