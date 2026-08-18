@@ -204,8 +204,9 @@
       "read_across": {
         "iAs": {
           "control_only": true,
+          "override": true,
           "bounded_by": "tAs",
-          "control": "Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit; total arsenic is measured on every lot and bounds the inorganic fraction, with speciation on an elevated total-arsenic result.",
+          "control": "The strictest sovereign total-arsenic ceiling for dairy is tighter than any separate sovereign inorganic-arsenic dairy maximum, so total arsenic is the binding ceiling and the inorganic fraction is controlled beneath it by reflex speciation: total arsenic is measured on every lot, and an elevated total-arsenic result triggers inorganic-arsenic speciation.",
           "reference_method": "Total As by ICP-MS; inorganic As by HPLC-ICP-MS (EN 16802) on an elevated total-As result."
         },
         "Ni": {

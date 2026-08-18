@@ -211,23 +211,11 @@
         ]
       },
       "iAs": {
-        "type": "read_across",
-        "human_grade": true,
-        "value": 100,
-        "value_exact": 100,
-        "source_id": "il_fcs2016_ias_1_1_dairy_products_100",
-        "source_jurisdiction": "IL",
-        "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
-        "analog_scope": "Dairy products",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the liquid milk and dairy products sold for human consumption (as consumed) (IL, 100 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
-        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
-        "per_country": {
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_ias_1_1_dairy_products_100"
-          }
-        },
+        "type": "control",
+        "value": null,
+        "control": "The strictest sovereign total-arsenic ceiling for dairy is tighter than any separate sovereign inorganic-arsenic dairy maximum, so total arsenic is the binding ceiling and the inorganic fraction is controlled beneath it by reflex speciation: total arsenic is measured on every lot, and an elevated total-arsenic result triggers inorganic-arsenic speciation.",
+        "reference_method": "Total As by ICP-MS; inorganic As by HPLC-ICP-MS (EN 16802) on an elevated total-As result.",
+        "bounded_by": "tAs",
         "feed_floor": [
           {
             "jurisdiction": "JP",
