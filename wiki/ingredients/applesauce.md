@@ -106,7 +106,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/barber2025-baby-food-elements-us\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]], [[sources/troeschel2024-cinnamon-applesauce-lead\|4]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|5]] |
+| Pb | n=2 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/barber2025-baby-food-elements-us\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]], [[sources/troeschel2024-cinnamon-applesauce-lead\|4]], [[sources/napier2024-wanabana-lead-apple-cinnamon\|5]] |
 | Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

@@ -70,6 +70,19 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
 | [79b06dd2c](https://github.com/paleofoundation/heavymetalindex/commit/79b06dd2c) | 2026-06-25 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
+<!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
@@ -78,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this directory and are reachable from here, but have not yet been placed in a curated section above. A future structural pass relocates them into the appropriate section._
 
 - [[regulations/asean-cosmetics-contaminants-guideline-v3-2019|ASEAN 2019 - cosmetic contaminant limits]]
+- [[regulations/asean-health-supplement-contaminant-limits-2017|ASEAN health supplement contaminant limits, Version 2.0]]
+- [[regulations/astm-f963-soluble-migration|ASTM F963 — soluble migrated element limits (mandatory US toy standard under CPSIA §106)]]
 - [[regulations/atsdr-aluminum-mrls|ATSDR — Minimal Risk Levels for Aluminum]]
 - [[regulations/atsdr-cadmium-mrls|ATSDR — Minimal Risk Levels for Cadmium]]
 - [[regulations/australia-customs-prohibited-imports-heavy-metal-imports|Australia Customs (Prohibited Imports) Regulations - heavy-metal import restrictions]]
@@ -90,7 +105,9 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/california-dcc-2026-cannabis-heavy-metals-testing|California DCC 2026 - cannabis heavy-metals action levels]]
 - [[regulations/california-sb929-metal-containing-jewelry|California SB 929 - children's metal-containing jewelry]]
 - [[regulations/california-swrcb-2024-inorganic-chemical-mcls|California SWRCB 2024 - inorganic chemical MCLs including Cr(VI)]]
+- [[regulations/canada-cfia-fertilizer-growing-media-heavy-metal-standards|Canada CFIA fertilizer and growing-media heavy-metal standards]]
 - [[regulations/canada-gdwq-summary-tables-2025|Health Canada 2025 drinking-water guideline summary]]
+- [[regulations/canada-natural-health-products-heavy-metal-limits-2015|Health Canada natural health product heavy-metal quality limits]]
 - [[regulations/canada-sor-2011-17-toys-regulations|Canada Toys Regulations - surface coating and removable material metals]]
 - [[regulations/canada-sor-2018-82-childrens-jewellery|Canada SOR/2018-82 - children's jewellery lead and cadmium]]
 - [[regulations/canada-sor-2018-83-consumer-products-lead|Canada SOR/2018-83 - accessible lead in consumer products]]
@@ -102,9 +119,12 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/china-gb-2762-2017-contaminants-superseded|China GB 2762-2017 - Maximum levels of contaminants in food (superseded)]]
 - [[regulations/china-gb-2762-2022-contaminants|China GB 2762-2022 - Maximum levels of contaminants in food]]
 - [[regulations/china-gb-28480-2012-adornment-harmful-elements|China GB 28480-2012 - harmful elements in adornments]]
+- [[regulations/china-gb14930-1-detergent-arsenic-limits-2022|China GB 14930.1-2022 detergent arsenic limits]]
+- [[regulations/china-pet-food-heavy-metal-limits-draft|China draft pet food heavy-metal limits]]
 - [[regulations/codex-cadmium-mls|Codex Alimentarius — Maximum Levels for Cadmium in Food]]
 - [[regulations/codex-cxs-193-1995-tin-canned-foods|Codex CXS 193-1995 - Tin maximum levels for canned foods]]
 - [[regulations/colombia-resolucion-4506-2013-contaminants|Colombia Resolucion 4506:2013 - food contaminant maximum levels]]
+- [[regulations/colorado-marijuana-heavy-metal-limits-2022|Colorado marijuana heavy-metal limits]]
 - [[regulations/connecticut-pa-10-113-cadmium-childrens-jewelry|Connecticut Public Act 10-113 - cadmium in children's jewelry]]
 - [[regulations/costa-rica-rtcr409-2008-fishery-contaminants|Costa Rica RTCR 409:2008 - fishery and aquaculture contaminants]]
 - [[regulations/cuba-nc877-2012-wheat-flour-metal-contaminants|Cuba NC 877:2012 - wheat flour metal contaminants]]
@@ -125,7 +145,9 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/epa-iris-lead-rfd|EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment]]
 - [[regulations/epa-iris-mercury-rfd|EPA IRIS — Mercuric Chloride Oral Reference Dose]]
 - [[regulations/epa-iris-methylmercury-rfd|EPA IRIS — Methylmercury Oral Reference Dose]]
+- [[regulations/eu-10-2011-food-contact-plastics-sml|EU Regulation 10/2011 — specific migration limits for metals (plastic food-contact, Annex II)]]
 - [[regulations/eu-1881-2006-contaminants-superseded|Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs]]
+- [[regulations/eu-2009-48-toy-safety-migration-limits|EU Toy Safety Directive 2009/48/EC — element migration limits (Annex II Part III)]]
 - [[regulations/eu-2015-1006-iAs-rice|EU Regulation 2015/1006 - inorganic arsenic in rice and rice products]]
 - [[regulations/eu-2020-2184-drinking-water|EU Directive 2020/2184 - drinking-water parametric values]]
 - [[regulations/eu-2021-1317-lead-cereals-superseded|EU Regulation 2021/1317 - Lead maximum level for cereals and pulses]]
@@ -138,7 +160,9 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/eu-batteries-2023-heavy-metal-restrictions|EU Regulation 2023/1542 - battery heavy-metal restrictions]]
 - [[regulations/eu-cosmetics-1223-2009|EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels]]
 - [[regulations/eu-directive-2002-32-animal-feed-heavy-metals|EU Directive 2002/32/EC - animal-feed heavy-metal maximum levels]]
+- [[regulations/eu-fertilising-products-heavy-metal-limits-2019|EU Regulation 2019/1009 fertilising-product heavy-metal limits]]
 - [[regulations/eu-nickel-directive-94-27-ec|EU Nickel Directive 94/27/EC]]
+- [[regulations/eu-reach-2009-annex-xvii-entry-20-organotin|EU REACH Annex XVII entry 20 — organotin compounds in skin-contact and childcare articles]]
 - [[regulations/eu-reach-2011-494-cadmium-annex-xvii|EU REACH Regulation 494/2011 - cadmium in plastics, paints, brazing fillers, and jewellery]]
 - [[regulations/eu-reach-2014-301-chromium-vi-leather|EU REACH Regulation 301/2014 - chromium VI in leather]]
 - [[regulations/eu-reach-2015-628-lead-mouthable-articles|EU Regulation 2015/628 - lead in mouthable consumer articles]]
@@ -163,17 +187,21 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/gso-193-2021-contaminants-toxins-food-feed|Gulf GSO 193:2021 - contaminants and toxins in food and feed]]
 - [[regulations/guyana-fisheries-products-regulations-2023-environmental-contaminants|Guyana Fisheries (Products) Regulations 2023 - environmental contaminants]]
 - [[regulations/health-canada-cosmetic-heavy-metal-impurities|Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10, As 3, Cd 3, Hg 1, Sb 5 ppm]]
+- [[regulations/hong-kong-cap-132v-metallic-contamination|Hong Kong Cap. 132V - Food Adulteration (Metallic Contamination) Regulations]]
 - [[regulations/hong-kong-mercury-control-ordinance-cosmetics|Hong Kong Mercury Control Ordinance - mercury in cosmetics]]
+- [[regulations/india-cosmetics-rules-2020-heavy-metal-limits|India Cosmetics Rules 2020 heavy-metal limits]]
 - [[regulations/india-cosmetics-rules-2020-heavy-metals|India Cosmetics Rules 2020 - mercury and colourant heavy-metal limits]]
 - [[regulations/india-fssai-2015-chromium-gelatin-amendment|India FSSAI 2015 chromium limit for gelatin]]
 - [[regulations/india-fssai-2016-heavy-metals-third-amendment|India FSSAI 2016 heavy-metal maximum levels amendment]]
 - [[regulations/india-is-3959-2004-skin-powders|India BIS IS 3959:2004 - skin powder heavy metals]]
 - [[regulations/india-is-6608-2004-skin-creams|India BIS IS 6608:2004 - skin cream heavy metals]]
 - [[regulations/indonesia-bpom-16-2024-cosmetic-contaminant-limits|Indonesia BPOM 16/2024 - cosmetic heavy-metal limits]]
+- [[regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016|Israel IMC-GMP cannabis heavy-metal limits]]
 - [[regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines|Israel Food Control Services - heavy metals and tin in food]]
 - [[regulations/japan-mhlw-foodstuffs-2008-drink-beverage-tin|Japan MHLW 2008 - tin in drink beverages]]
 - [[regulations/japan-mhlw-milk-products-standards|Japan MHLW milk and milk-product standards]]
 - [[regulations/japan-notice-370-food-contact-heavy-metals|Japan Notice 370 - food-contact heavy-metal composition limits]]
+- [[regulations/japan-pet-food-heavy-metal-standards-2021|Japan FAMIC pet-food heavy-metal standards]]
 - [[regulations/jecfa-arsenic-bmdl|JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)]]
 - [[regulations/jecfa-cadmium-ptmi|JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month]]
 - [[regulations/jecfa-lead-ptwi-withdrawn|JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)]]
@@ -183,12 +211,15 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/korea-mfds-2025-63-cosmetics-safety-standards|Korea MFDS Notice No. 2025-63 - cosmetic metal limits]]
 - [[regulations/korea-mfds-food-code-heavy-metals|Korea Food Code - heavy-metal limits]]
 - [[regulations/malaysia-npra-cosmetics-heavy-metal-limits-2022|Malaysia NPRA 2022 - cosmetic heavy-metal limits]]
+- [[regulations/maryland-cannabis-heavy-metal-action-limits-2025|Maryland cannabis heavy-metal action limits]]
+- [[regulations/massachusetts-cannabis-heavy-metal-protocol-2020|Massachusetts cannabis protocol heavy-metal limits]]
 - [[regulations/mercosur-gmc-res-12-2011-inorganic-contaminants|MERCOSUR GMC Resolution 12/11 - inorganic contaminants in food]]
 - [[regulations/mexico-nom-186-2013-cacao-chocolate-contaminants|Mexico NOM-186-SSA1/SCFI-2013 - cacao and chocolate contaminant reference levels]]
 - [[regulations/mexico-nom-252-ssa1-2011-toy-school-article-metals|Mexico NOM-252-SSA1-2011 - bioavailable metals in toys and school articles]]
 - [[regulations/minnesota-325e-3892-lead-cadmium-consumer-products|Minnesota 325E.3892 - lead and cadmium in covered consumer products]]
 - [[regulations/minnesota-ch347-cadmium-childrens-jewelry|Minnesota Chapter 347 - cadmium in children's jewelry]]
 - [[regulations/morocco-bo-7136-2022-contaminant-maximum-levels|Morocco Joint Order 2410-22 - food contaminant metal limits]]
+- [[regulations/nevada-cannabis-heavy-metal-action-levels-2020|Nevada cannabis heavy-metal action levels]]
 - [[regulations/new-zealand-cosmetic-products-group-standard-heavy-metals|New Zealand Cosmetic Products Group Standard - heavy-metal entries]]
 - [[regulations/oehha-nickel-prop65|California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)]]
 - [[regulations/pakistan-ps-3228-2017-skin-cream-heavy-metals|Pakistan PS 3228:2017 - skin-cream heavy-metal limits]]
@@ -199,10 +230,12 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/singapore-acd-2007-carbon-black-impurities|Singapore ACD Regulations - carbon black colourant impurity profile]]
 - [[regulations/singapore-food-regulations-heavy-metals-2026|Singapore Food Regulations: heavy metals, arsenic and lead]]
 - [[regulations/singapore-hsa-2024-cosmetic-heavy-metal-advisory|Singapore HSA 2024 advisory - cosmetic heavy-metal impurity limits]]
+- [[regulations/singapore-hsa-health-supplement-heavy-metal-limits-2024|Singapore HSA health supplement heavy-metal testing limits]]
 - [[regulations/south-africa-gn-r1227-1988-cosmetic-mercury-preservatives|South Africa GN R1227 - cosmetic mercury-preservative exceptions]]
 - [[regulations/south-korea-mfds-notice-2024-9-cosmetic-trace-metals|South Korea MFDS Notice 2024-9 - cosmetic trace-metal limits]]
 - [[regulations/sri-lanka-dsls-187-2025-skin-powder-heavy-metals|Sri Lanka DSLS 187 draft - skin powder for children heavy-metal limits]]
 - [[regulations/switzerland-vhk-817-022-15-metal-metalloid-limits|Switzerland VHK 817.022.15 - metal and metalloid maximum levels]]
+- [[regulations/taiwan-feed-import-phosphate-heavy-metal-limits-2017|Taiwan draft feed-import phosphate heavy-metal limits]]
 - [[regulations/taiwan-prohibited-ingredients-2024-cosmetic-heavy-metal-residuals|Taiwan MOHW prohibited cosmetic ingredients table - heavy-metal residual limits]]
 - [[regulations/thailand-moph-notification-414-2020-contaminants-food|Thailand MOPH Notification 414:2020 - food contaminant maximum levels]]
 - [[regulations/trinidad-tobago-food-drugs-metal-limits-2007|Trinidad and Tobago Food and Drugs metal limits]]
@@ -211,22 +244,9 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/us-cpsia-lead-childrens-products|US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings)]]
 - [[regulations/us-epa-2018-drinking-water-standards-health-advisories|US EPA 2018 drinking-water standards table - inorganic metal MCLs]]
 - [[regulations/us-fda-21cfr165-110-bottled-water-2024|US FDA 21 CFR 165.110 - bottled-water metal limits]]
+- [[regulations/usa-epa-40-cfr-503-biosolids-metal-limits|US EPA 40 CFR Part 503 biosolids metal limits]]
 - [[regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits|Vietnam QCVN 8-2:2011/BYT - heavy-metal limits in food]]
 - [[regulations/washington-cspa-childrens-products-lead-cadmium|Washington Children's Safe Product Act - lead and cadmium in children's products]]
 - [[regulations/washington-tfca-toothpaste-pb-1000ppb|Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit]]
 - [[regulations/who2022-drinking-water-guidelines|WHO 2022 drinking-water guideline values - metals]]
 <!-- END: hmi-auto-linked-stubs -->
-
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Change | Description |
-| --- | --- | --- | --- |
-| [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
-<!-- END: hmi-page-history -->

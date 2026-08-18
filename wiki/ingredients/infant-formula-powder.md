@@ -98,10 +98,10 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0.5–15 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/original2020-original-a\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
-| Cd | n=3 | 0.1–2 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/original2020-original-a\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
-| iAs | n=3 | 0.5–3 | medium | [[sources/original2020-original-a\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|3]] |
-| tAs | n=4 | 2–12 | medium | [[sources/original2020-original-a\|1]], [[sources/signes-pastor2022-infant-elements-nhbcs\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| Pb | n=3 | 0.5–15 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
+| Cd | n=3 | 0.1–2 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
+| iAs | n=3 | 0.5–3 | medium | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|3]] |
+| tAs | n=4 | 2–12 | medium | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\|1]], [[sources/signes-pastor2022-infant-elements-nhbcs\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
 | tHg | pending | — | — | — |
 | Ni | data gap | — | — | — |
 | Al | data gap | — | — | — |
