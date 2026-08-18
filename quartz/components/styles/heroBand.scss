@@ -11,7 +11,11 @@
 // fight it.
 
 .hero-band {
-  background: #8b2a4a;
+  // Very subtle depth: a slightly darker band across the top (nearest the nav)
+  // fading to the base burgundy — a restrained take on refinedesign.ai's
+  // darker-overlay-behind-the-header. The base #8b2a4a is preserved as the
+  // solid fallback and the gradient endpoint, so the artifact colour is intact.
+  background: linear-gradient(180deg, #7d2540 0, #8b2a4a 120px), #8b2a4a;
   color: #fff;
   width: 100%;
 }
