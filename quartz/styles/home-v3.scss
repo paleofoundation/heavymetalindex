@@ -25,7 +25,10 @@
 
 /* ══ hero ══════════════════════════════════════════════════════════════ */
 .hmi-v3-hero {
-  background: #8b2a4a;
+  // Very subtle depth: a slightly darker band across the top (nearest the nav)
+  // fading to the base burgundy — a restrained take on refinedesign.ai's
+  // darker-overlay-behind-the-header. Base colour preserved as fallback + endpoint.
+  background: linear-gradient(180deg, #7d2540 0, #8b2a4a 150px), #8b2a4a;
   color: #fff;
   width: 100%;
 }
