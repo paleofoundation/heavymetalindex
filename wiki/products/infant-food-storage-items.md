@@ -27,7 +27,7 @@ This page is the HMTc Taxonomy v2.2 Category 9 (Infant and Child Contact Product
 
 ## Literature scope
 
-The Heavy Metal Index contact-product corpus reports element migration and occurrence in food-contact materials; sources routed to this row are surfaced below as they are added. Until sources land, the literature-evidence sections are deliberately empty rather than guessed. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com), not on this public page; this page reports literature evidence and the applicable regulatory caps only.
+The Heavy Metal Index contact-product corpus reports element migration and occurrence in food-contact materials; sources routed to this row are surfaced below as they are added. Until sources land, the literature-evidence sections are deliberately empty rather than guessed. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page; this page reports literature evidence and the applicable regulatory caps only.
 
 ## Methodology
 
@@ -59,7 +59,7 @@ The applicable regulatory jurisdictions for this row are: **FDA (food-contact su
 
 ## How standards math uses this page
 
-HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page. For this row the certification limit is set by the Method v2.0 government-limit lookup — the strictest credible government specific-migration limit per analyte in the correct basis — not by an occurrence percentile. This public page reports literature evidence only.
+HMT&C certification thresholds for this row are developed under the certification program at heavymetalcertified.com, not on this page. For this row the certification limit is set by the Method v2.0 government-limit lookup — the strictest credible government specific-migration limit per analyte in the correct basis — not by an occurrence percentile. This public page reports literature evidence only.
 
 ## Historical recalls and enforcement
 

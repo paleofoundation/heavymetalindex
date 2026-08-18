@@ -48,7 +48,7 @@ const footerSections = [
       ["About", "/about"],
       ["Editorial standards", "/editorial-standards"],
       ["Errata and revisions", "/errata"],
-      ["Heavy Metal Tested", "https://heavymetaltested.com"],
+      ["Heavy Metal Tested", "https://heavymetalcertified.com"],
       ["Privacy notice", "/privacy"],
       ["Terms", "/terms"],
     ],

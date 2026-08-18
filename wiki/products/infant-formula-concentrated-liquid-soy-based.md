@@ -41,7 +41,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetaltested.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
+**HMT&C threshold-setting is separate.** Certification thresholds are developed under the program at heavymetalcertified.com, not on this page. See the [methodology](/methodology) for the wiki/HMT&C separation.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary

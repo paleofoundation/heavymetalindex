@@ -13,7 +13,7 @@ curators:
     credentials: "Founder and Chief Executive Officer, Institute of Contaminant Standards (ICS). Architect of the Heavy Metal Index and the Heavy Metal Tested & Certified (HMT&C) certification program. Curator of the corpus and editor of substantive synthesis claims."
     domain_expertise: "Heavy metals in food, food certification program design, supply-chain quality assurance, regulatory comparative analysis, standards-setting methodology"
     conflicts_of_interest:
-      - "Operates the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] § Editorial firewall and enforced architecturally (one-way linking, no brand-level data in the wiki, no HMT&C-certified brand mentions, evidence-state separation between public wiki claims and HMT&C internal records)."
+      - "Operates the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetalcertified.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] § Editorial firewall and enforced architecturally (one-way linking, no brand-level data in the wiki, no HMT&C-certified brand mentions, evidence-state separation between public wiki claims and HMT&C internal records)."
       - "Operates additional Institute of Contaminant Standards (ICS) certification programs unrelated to heavy metals. None of those programs interact with Heavy Metal Index editorial decisions."
     contact: "karen@paleofoundation.com"
     recusal_pages: []
@@ -92,7 +92,7 @@ The current composition is in the page frontmatter under `external_reviewers:`. 
 
 ## Conflicts of interest, principal disclosure
 
-The Institute of Contaminant Standards (ICS) operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
+The Institute of Contaminant Standards (ICS) operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetalcertified.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
 
 The firewall, as documented in [[editorial-standards|editorial-standards.md]] and:
 

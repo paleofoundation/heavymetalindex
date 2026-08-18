@@ -17,7 +17,7 @@ The stated aim is to be the canonical reference for heavy metals in food. "Canon
 
 ## Editorial independence
 
-Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (ICS), the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetaltested.com](https://heavymetaltested.com); the program is described at [[heavy-metal-tested-certified]]. These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
+Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (ICS), the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetalcertified.com](https://heavymetalcertified.com); the program is described at [[heavy-metal-tested-certified]]. These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
 
 ## Governance
 

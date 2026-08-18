@@ -42,7 +42,7 @@
 export const PROGRAM_FIREWALL_TERMS = [
   // Certification-program firewall (CLAUDE.md Part 2 / Part 12)
   /\bhmt\s*&?\s*c\b/i,
-  /\bheavymetaltested\b/i,
+  /\bheavymetal(?:tested|certified)\b/i,
   /\bthreshold[- ]setting\b/i,
   /\bstandards?[- ](?:workbench|book|briefing)\b/i,
   // Outside product / design shorthand

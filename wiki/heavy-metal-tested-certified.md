@@ -8,11 +8,11 @@ updated: 2026-06-09
 
 ## Overview
 
-Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consumer-product certification program operated by the Institute of Contaminant Standards (ICS), the standards organization. This reference, the Heavy Metal Index, is operated by the same organization; the Institute of Contaminant Standards is a trade name of Paleo Certified, Inc. The program tests consumer products against per-analyte thresholds for lead, cadmium, arsenic, mercury, and related elements, and is published at its own property, [heavymetaltested.com](https://heavymetaltested.com). This page explains what the program is and how it relates to the Index. It is maintained on the Index under the editorial firewall described at [[editorial-standards]], and it is a reference page, not a certification-claims or marketing page.
+Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consumer-product certification program operated by the Institute of Contaminant Standards (ICS), the standards organization. This reference, the Heavy Metal Index, is operated by the same organization; the Institute of Contaminant Standards is a trade name of Paleo Certified, Inc. The program tests consumer products against per-analyte thresholds for lead, cadmium, arsenic, mercury, and related elements, and is published at its own property, [heavymetalcertified.com](https://heavymetalcertified.com). This page explains what the program is and how it relates to the Index. It is maintained on the Index under the editorial firewall described at [[editorial-standards]], and it is a reference page, not a certification-claims or marketing page.
 
 ## What the program is
 
-HMT&C certifies consumer products that meet its published per-analyte limits for toxic elements. It is a voluntary, third-party certification: a brand submits products for testing, and certification depends on results meeting the program's threshold for each covered analyte in the relevant product category. The program is a ratcheting standard by design. Its thresholds may be set tighter than the prevailing regulatory floor in order to move a product category toward lower contamination over time, rather than only restating limits that regulators already enforce. The certification marks, the certified-product determinations, and the threshold values themselves are governed by the program at heavymetaltested.com and are not published on the Index.
+HMT&C certifies consumer products that meet its published per-analyte limits for toxic elements. It is a voluntary, third-party certification: a brand submits products for testing, and certification depends on results meeting the program's threshold for each covered analyte in the relevant product category. The program is a ratcheting standard by design. Its thresholds may be set tighter than the prevailing regulatory floor in order to move a product category toward lower contamination over time, rather than only restating limits that regulators already enforce. The certification marks, the certified-product determinations, and the threshold values themselves are governed by the program at heavymetalcertified.com and are not published on the Index.
 
 ## The HMTc-10 analytes
 
@@ -33,7 +33,7 @@ The distinctions between species, inorganic versus total arsenic, methylmercury 
 
 ## HMTc testing categories
 
-The program organizes consumer products into a testing-category taxonomy. Each category groups products that share a matrix and an exposure pattern, for example infant and child foods, or personal-care products, so that thresholds can be set against the occurrence distribution relevant to that category rather than a single limit applied across unlike products. The Index mirrors this taxonomy in how its product-category pages are organized, which is why references such as "HMTc Category 1, Infant and Child Foods" appear in Index prose. The category structure is a way of organizing evidence and standards; the specific thresholds attached to each category are program content at heavymetaltested.com, not Index content.
+The program organizes consumer products into a testing-category taxonomy. Each category groups products that share a matrix and an exposure pattern, for example infant and child foods, or personal-care products, so that thresholds can be set against the occurrence distribution relevant to that category rather than a single limit applied across unlike products. The Index mirrors this taxonomy in how its product-category pages are organized, which is why references such as "HMTc Category 1, Infant and Child Foods" appear in Index prose. The category structure is a way of organizing evidence and standards; the specific thresholds attached to each category are program content at heavymetalcertified.com, not Index content.
 
 ## How the Index relates to the program
 
@@ -49,7 +49,7 @@ The gap between what the literature supports and where a certification threshold
 
 ## Finding the program
 
-The Heavy Metal Tested & Certified program is at [heavymetaltested.com](https://heavymetaltested.com). Synthesis work that builds on the Index corpus is published in the [Journal of Food Metallomics](https://heavymetaltested.com/journal-of-food-metallomics). Questions about certification, eligibility, or the program's thresholds are handled by the program directly; the Index does not make certification determinations and cannot advise on them.
+The Heavy Metal Tested & Certified program is at [heavymetalcertified.com](https://heavymetalcertified.com). Synthesis work that builds on the Index corpus is published in the [Journal of Food Metallomics](https://heavymetalcertified.com/journal-of-food-metallomics). Questions about certification, eligibility, or the program's thresholds are handled by the program directly; the Index does not make certification determinations and cannot advise on them.
 
 ## Related governance pages
 

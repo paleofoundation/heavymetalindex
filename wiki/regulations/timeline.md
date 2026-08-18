@@ -231,7 +231,7 @@ The following regulation pages exist in the index but do not yet carry an `effec
 
 ## How to read this surface
 
-A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See wiki/HMTc separation policy for the rationale.
+A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See wiki/HMTc separation policy for the rationale.
 
 For the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].
 

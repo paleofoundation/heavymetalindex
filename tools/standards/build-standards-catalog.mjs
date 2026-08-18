@@ -2,7 +2,7 @@
 // build-standards-catalog.mjs
 //
 // Builds the GATED, machine-readable HMTc standards catalog for the separate
-// certification website (heavymetaltested.com). Reads the staff standards data
+// certification website (heavymetalcertified.com). Reads the staff standards data
 // (pooled distributions, outlier register, product-page frontmatter, taxonomy)
 // and emits one entry per LOCKED product subcategory, with every HMTc-10 panel
 // analyte graded "published" (firm, defensible value) or "in_development".
@@ -105,7 +105,7 @@ function main() {
     standard_version: standardVersion,
     panel: PANEL,
     firewall:
-      "workbench-side; feeds the heavymetaltested.com certification site only; never rendered on or imported into heavymetalindex.com. Contains percentile-derived values and clean/dirty designations forbidden under wiki/ per CLAUDE.md Part 2 / Part 19.",
+      "workbench-side; feeds the heavymetalcertified.com certification site only; never rendered on or imported into heavymetalindex.com. Contains percentile-derived values and clean/dirty designations forbidden under wiki/ per CLAUDE.md Part 2 / Part 19.",
     gating_note:
       "A subcategory analyte cell emits a firm published_limit_ppb ONLY when all 5 shipping gates pass AND classifyCell returns confidence 'firm'. Any gate failure or provisional/pending classification emits status 'in_development' with no firm value.",
     completeness_ledger: ledger,

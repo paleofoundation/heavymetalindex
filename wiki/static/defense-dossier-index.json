@@ -14,7 +14,7 @@
     "for_use": "Litigation exhibit, Daubert support, regulatory submission, retailer compliance review.",
     "what_this_is": "A point-in-time defense package for a single Heavy Metal Index product-category page: the page as published (git-pinned and hashed), every literature source the routing layer maps to it (each git-pinned and hashed), the regulatory caps the page declares, and a claim-by-claim provenance summary.",
     "verifiable_by": "Any party can clone https://github.com/paleofoundation/heavymetalindex at each named commit, hash the body of each named page, and confirm the content_sha256 values below. The contributing-source set is reproducible from data/evidence/product_source_routing_audit.csv at the same commit.",
-    "not_a_certification": "This dossier pins and traces the Heavy Metal Index's published literature evidence. It does not state, endorse, or warrant an HMTc certification threshold or a pass/fail determination. Certification thresholds are policy choices that live in the HMTc program (heavymetaltested.com), not in this evidence base. See /methodology and the wiki/HMTc separation described there.",
+    "not_a_certification": "This dossier pins and traces the Heavy Metal Index's published literature evidence. It does not state, endorse, or warrant an HMTc certification threshold or a pass/fail determination. Certification thresholds are policy choices that live in the HMTc program (heavymetalcertified.com), not in this evidence base. See /methodology and the wiki/HMTc separation described there.",
     "license_terms": "https://heavymetalindex.com/licensing"
   },
   "records": [

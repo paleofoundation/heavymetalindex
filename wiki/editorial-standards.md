@@ -13,7 +13,7 @@ This page is a stub and will be expanded. The governance posture below is not as
 
 ## Operator
 
-Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS), a trade name of Paleo Certified, Inc. The Institute also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
+Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS), a trade name of Paleo Certified, Inc. The Institute also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetalcertified.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
 
 Paleo Certified, Inc.'s operation of both projects is disclosed openly on every page of this index, in the site header, and is the central governance question this page exists to address. The remainder of this document describes how the two projects are kept editorially distinct.
 
@@ -27,7 +27,7 @@ The firewall is enforced in three concrete ways.
 
 First, one-way linking. HMT&C documentation may cite wiki entries as the literature baseline for its threshold rationale. Wiki entries do not endorse, mention, or rank HMT&C-certified brands, do not link to the HMT&C program from page bodies, and do not present certification status as evidence of safety.
 
-Second, architectural separation. The wiki lives at heavymetalindex.com. The certification program lives at heavymetaltested.com. The two sites are operated separately and treated as independent properties for legal and editorial purposes. Cross-linking between the two domains exists at the navigational level only.
+Second, architectural separation. The wiki lives at heavymetalindex.com. The certification program lives at heavymetalcertified.com. The two sites are operated separately and treated as independent properties for legal and editorial purposes. Cross-linking between the two domains exists at the navigational level only.
 
 Third, no brand-level data. Brand-specific lab results, certificates of analysis, and internal test data do not appear in this index. Where third-party testing has produced brand-by-brand contamination data (Consumer Reports, Healthy Babies Bright Futures, and similar), this index summarizes the category-level and ingredient-level signal and links to the source for brand-specific values. Brand-by-brand tables are not reproduced.
 
@@ -43,7 +43,7 @@ The named editorial board and external reviewers are listed at [[curators|wiki/c
 
 ## Conflict of interest posture
 
-The principal conflict of interest the Index operates with is the Institute of Contaminant Standards (ICS)'s parallel operation of the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The architectural firewall between the wiki and HMT&C is described above (Editorial firewall) and enforced in code; the per-curator and per-reviewer disclosures are at [[curators]].
+The principal conflict of interest the Index operates with is the Institute of Contaminant Standards (ICS)'s parallel operation of the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetalcertified.com. The architectural firewall between the wiki and HMT&C is described above (Editorial firewall) and enforced in code; the per-curator and per-reviewer disclosures are at [[curators]].
 
 The Foundation's bar for recusal is low: when in doubt, a curator recuses from substantive review of the page in question and another curator or external reviewer takes it. Recusals are logged per curator in the [[curators]] frontmatter and are themselves public.
 

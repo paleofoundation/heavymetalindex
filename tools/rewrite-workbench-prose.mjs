@@ -9,7 +9,7 @@
 //
 // This rewrites each known leak template to the literature-native boundary
 // statement already used across the corpus ("… developed under the certification
-// program at heavymetaltested.com, not on this page"). It is DETERMINISTIC and
+// program at heavymetalcertified.com, not on this page"). It is DETERMINISTIC and
 // IDEMPOTENT — running it twice is a no-op — so it can also serve as a lint/
 // backstop if a leak recurs. Bodies only; frontmatter is never touched.
 //
@@ -43,7 +43,7 @@ const SCAN_DIRS = [
 // Canonical literature-native replacements (kept identical to the fixed
 // generators so pages and generators converge on one wording).
 const HOW_BODY =
-  "This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold."
+  "This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetalcertified.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold."
 const BOUNDARY_PAIR =
   " Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page."
 
@@ -65,7 +65,7 @@ const RULES = [
   {
     name: "methodology-percentile-clause",
     re: /The percentile(?:-selection)? arithmetic that informs HMTc(?: Cat \d+)? thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only\./g,
-    to: "HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.",
+    to: "HMT&C certification thresholds for products in this row are developed under the certification program at heavymetalcertified.com, not on this page; this public page reports literature evidence only.",
   },
   {
     name: "who-internal-staff-routing-hub",
@@ -115,7 +115,7 @@ const RULES = [
   {
     name: "stub-percentile-selection",
     re: /Percentile-selection arithmetic does not appear on this public page \([^)]*firewall\); it lives on the staff Standards Workbench\./g,
-    to: "HMT&C certification thresholds are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.",
+    to: "HMT&C certification thresholds are developed under the certification program at heavymetalcertified.com, not on this page; this public page reports literature evidence only.",
   },
   {
     name: "kombucha-defensible-row-standard",
