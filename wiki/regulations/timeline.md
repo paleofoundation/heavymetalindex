@@ -3,13 +3,11 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-01
+updated: 2026-08-04
 noindex: false
 ---
 
 # Regulatory tightening over time
-
-## Overview
 
 This timeline is the historical view of every dated regulation the Heavy Metal Index tracks. Read top-to-bottom for the trajectory of the regulatory floor: which limits came in when, which superseded what, where international and EU framings drift apart from US framings.
 

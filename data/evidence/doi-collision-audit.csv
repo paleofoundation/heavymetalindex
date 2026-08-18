@@ -1,11 +1,11 @@
 doi,cluster_size,role,cite_key,refs,frontmatter_fields,title,confidence
-10.1007/s10653-025-02723-2,3,canonical,navaretnam-2025-rice-as-speciation,48,25,"Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment",high
+10.1007/s10653-025-02723-2,3,canonical,navaretnam-2025-rice-as-speciation,47,25,"Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment",high
 10.1007/s10653-025-02723-2,3,drop,arsenic2025-unknown,135,28,"Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment",high
 10.1007/s10653-025-02723-2,3,drop,arsenic2025-unknown-a,24,25,"Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment (near-duplicate cluster entry)",high
 10.1265/ehpm.24-00048,3,canonical,tatsuta2024-mehg-duplicate-diet-children-japan,237,26,"Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan",high
 10.1265/ehpm.24-00048,3,drop,tatsuta2024-methylmercury-intake-children-duplicate-diet,104,22,"Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",high
 10.1265/ehpm.24-00048,3,drop,tatsuta2024-mehg-japan-duplicate-diet,17,26,"Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",high
-10.1289/ehp.1104619,3,canonical,jackson2012-arsenic-organic-foods-brown-rice-syrup,223,24,"Arsenic, Organic Foods, and Brown Rice Syrup",high
+10.1289/ehp.1104619,3,canonical,jackson2012-arsenic-organic-foods-brown-rice-syrup,221,24,"Arsenic, Organic Foods, and Brown Rice Syrup",high
 10.1289/ehp.1104619,3,drop,jackson2012-brown-rice-syrup-arsenic,46,24,"Arsenic, Organic Foods, and Brown Rice Syrup",high
 10.1289/ehp.1104619,3,drop,arsenic2012-arsenic-organic-foods-brown,76,23,"Arsenic, Organic Foods, and Brown Rice Syrup",high
 10.1289/ehp.1408789,3,canonical,carignan2015-arsenic-exposure-breastfed-formula-fed-infants,88,25,"Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",high
@@ -25,7 +25,7 @@ doi,cluster_size,role,cite_key,refs,frontmatter_fields,title,confidence
 10.1007/s11356-015-5513-4,2,drop,saba2015-suillus-luteus-mercury-europe,18,21,"Accumulation and distribution of mercury in fruiting bodies by fungus Suillus luteus foraged in Poland, Belarus and Sweden",high
 10.1007/s11356-021-15884-1,2,canonical,falandysz2022-boletus-mercury-methylmercury,24,21,"Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages",high
 10.1007/s11356-021-15884-1,2,drop,falandysz2021-boletus-edulis-braising-mercury,21,21,"Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages",high
-10.1007/s12011-024-04438-4,2,canonical,cwielag-drabek2025-nuts-cd-pb-cr-ni-poland,144,24,"Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",review
+10.1007/s12011-024-04438-4,2,canonical,cwielag-drabek2025-nuts-cd-pb-cr-ni-poland,147,24,"Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",review
 10.1007/s12011-024-04438-4,2,drop,cwielagniec2025-nuts-cd-pb-cr-ni-poland,114,24,"Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",review
 10.1007/s40495-019-00206-4,2,canonical,coryell2019-gut-microbiome-arsenic-toxicity,35,21,"The Human Gut Microbiome's Influence on Arsenic Toxicity",high
 10.1007/s40495-019-00206-4,2,drop,coryell2019-human-gut-microbiome-arsenic-toxicity,20,22,"The Human Gut Microbiome's Influence on Arsenic Toxicity",high
@@ -43,7 +43,7 @@ doi,cluster_size,role,cite_key,refs,frontmatter_fields,title,confidence
 10.1038/s41598-024-53340-5,2,drop,subhanullah2024-panjkora-fish-water-metals,60,21,"The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus aplocheilus, and the well-being of human health",high
 10.1038/s41598-025-06896-9,2,canonical,shavali-gilani2025-canned-tomato-olive-pickle-iran,99,24,"Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers",high
 10.1038/s41598-025-06896-9,2,drop,shavalig2025-canned-tomato-olives-pickles-iran,60,24,"Investigation of heavy metal levels in canned tomato paste, olives, and pickled",high
-10.1038/s41598-025-29927-x,2,canonical,rabeey2025-bovine-hg-pb-cd-egypt,109,25,"Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt",high
+10.1038/s41598-025-29927-x,2,canonical,rabeey2025-bovine-hg-pb-cd-egypt,112,25,"Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt",high
 10.1038/s41598-025-29927-x,2,drop,rabeey2025-bovine-meat-organs-hg-pb-cd-egypt,31,26,"Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt",high
 10.1038/srep46545,2,canonical,li2017-mercury-vegetables-grains-coal-power-china,58,24,"Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants",high
 10.1038/srep46545,2,drop,li2017-mercury-coal-power-plants-vegetables-grains,40,24,"Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants",high
@@ -53,7 +53,7 @@ doi,cluster_size,role,cite_key,refs,frontmatter_fields,title,confidence
 10.1155/2018/2985698,2,drop,infant2018-research,27,25,"Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia",high
 10.1186/s12940-024-01115-w,2,canonical,kumar2024-arsenic-breast-milk-bihar-gangetic,61,24,"High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants",high
 10.1186/s12940-024-01115-w,2,drop,research2024-research-open-access-y,57,22,"High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants",high
-10.12688/f1000research.175538.1,2,canonical,dearing2025-nz-organic-nonorganic-vegetables-cyclone,186,23,"Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis",high
+10.12688/f1000research.175538.1,2,canonical,dearing2025-nz-organic-nonorganic-vegetables-cyclone,180,23,"Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis",high
 10.12688/f1000research.175538.1,2,drop,dearing2025-hawkes-bay-organic-nonorganic-vegetables,86,24,"Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis",high
 10.1289/ehp.11094,2,canonical,fangstrom2008-breastfeeding-arsenic-protection-bangladesh,20,24,"Breast-Feeding Protects against Arsenic Exposure in Bangladeshi Infants",review
 10.1289/ehp.11094,2,drop,breast-feeding2008-breast-feeding-protects-against-arsenic,15,25,"Breast-feeding Protects against Arsenic Exposure in Bangladeshi Infants",review

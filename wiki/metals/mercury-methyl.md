@@ -163,6 +163,42 @@ Hair mercury is the main long-term biomarker: it reflects systemic exposure over
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Methylmercury, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1984 | FDA | fda-cpg-540-600 | 1 ppm methyl mercury expressed as mercury |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 2001 | EPA | IRIS | 0.1 µg/kg-bw/day |
+| 2003 | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 1.6 µg/kg-bw/week |
+| 2007 | EU | ec-1881-2006 |  |
+| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
+| 2012 | EFSA | CONTAM Panel | 1.3 µg/kg-bw/week |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 11 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
+<!-- BEGIN: hmi-v3-refvalues -->
+## What the reference values mean in practice
+
+The 11 instruments recorded for Methylmercury are not 11 versions of one number. They are 5 different kinds of value, set by bodies doing different jobs:
+
+- Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
+- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
+- EPA set a reference dose: a daily intake estimated to be without appreciable risk over a lifetime.
+- FDA set an action level or guidance value, which the agency applies as an enforcement trigger rather than a safety threshold.
+- JECFA set an international health-based reference point intended for national authorities to implement.
+
+The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
+<!-- END: hmi-v3-refvalues -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -356,9 +392,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 20 sources removed; 2 sections removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 20 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

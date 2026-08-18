@@ -219,6 +219,14 @@ _No quantified data on packaging or storage effects on heavy metal content in eg
 Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for cadmium in pasta and noodle products follows the general cereal products framework: 0.10 mg/kg (100 ppb) wet weight for pasta, and stricter limits apply for products specifically marketed to infants and young children. For lead in pasta, the EU general cereal limit of 0.20 mg/kg (200 ppb) applies. The TDS Cd maximum of 26 ppb (wet weight, boiled) and Pb maximum of 6.6 ppb are within these EU limits. Codex Alimentarius (CXS 193-1995 and revisions) sets a general cereal cadmium limit of 0.10 mg/kg and a lead limit of 0.20 mg/kg. No US federal maximum level for cadmium or lead in pasta or egg noodles has been finalized as of 2026.
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -244,9 +252,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 1 section removed; narrative text revised |
+| [3eb44d227](https://github.com/paleofoundation/heavymetalindex/commit/3eb44d227) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

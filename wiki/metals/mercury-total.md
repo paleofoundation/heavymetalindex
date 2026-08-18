@@ -61,6 +61,39 @@ Total mercury is the compliance analyte for many fish rows, meaning it is the me
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Mercury, Total, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
+| 2007 | EU | ec-1881-2006 |  |
+| 2013 | Instituto Ecuatoriano de Normalización | nte-inen-184-2013 | 1 mg/kg total mercury as Hg |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2018 | European Commission | eu-reg-2018-73-mercury-compounds-mrls | 0.01 mg/kg as mercury |
+| 2022 | European Commission | Food contaminants maximum levels | 0.3,0.5,1,0.1 mg/kg ww |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 11 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
+<!-- BEGIN: hmi-v3-refvalues -->
+## What the reference values mean in practice
+
+The 12 instruments recorded for Mercury, Total are not 12 versions of one number. They are 2 different kinds of value, set by bodies doing different jobs:
+
+- Food Standards Australia New Zealand, Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
+- European Commission set a legally binding maximum level for a named food.
+
+The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
+<!-- END: hmi-v3-refvalues -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -786,9 +819,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 2 sections removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

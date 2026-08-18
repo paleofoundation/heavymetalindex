@@ -30,7 +30,7 @@ updated: 2026-07-31
 <div class="hmi-v3-ledger" aria-label="Corpus ledger">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Corpus ledger</span>
-    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-03</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-04</span>
   </div>
   <div class="hmi-v3-ledger-body">
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">1,802</span></div>

@@ -217,6 +217,48 @@ Under its Closer to Zero program (2025 final guidance), the FDA set action level
 Blood lead concentration (µg/dL) is the standard human biomarker; the CDC blood lead reference value is 3.5 µg/dL, a population-screening threshold rather than a health-based safety threshold ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]). Bone lead measured by K-shell X-ray fluorescence reflects cumulative lifetime exposure ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Lead in food and water is typically measured by ICP-MS ([[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]]).
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Lead, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
+| 2004 | EPA | IRIS |  not-derived |
+| 2007 | EU | ec-1881-2006 |  |
+| 2010 | EFSA | CONTAM Panel |  µg/kg-bw/day-BMDL |
+| 2010 | JECFA | FAO/WHO Joint Expert Committee on Food Additives |  µg/kg-bw/week |
+| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2021 | European Commission | Commission Regulation (EU) 2021/1317 | 0.2 mg/kg wet weight |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+| 2023 | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 0.02 mg/kg wet weight |
+| 2025 | Washington State Department of Ecology | Toxic-Free Cosmetics Act (TFCA) | 1000 ppb |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
+<!-- BEGIN: hmi-v3-refvalues -->
+## What the reference values mean in practice
+
+The 24 instruments recorded for Lead are not 24 versions of one number. They are 7 different kinds of value, set by bodies doing different jobs:
+
+- Food Standards Australia New Zealand, Ministry of Agriculture and Forestry, Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
+- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
+- EPA set a reference dose: a daily intake estimated to be without appreciable risk over a lifetime.
+- European Commission set a legally binding maximum level for a named food.
+- FDA set an action level or guidance value, which the agency applies as an enforcement trigger rather than a safety threshold.
+- JECFA set an international health-based reference point intended for national authorities to implement.
+- OEHHA set a warning threshold under state law, which triggers disclosure rather than prohibiting sale.
+
+The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
+<!-- END: hmi-v3-refvalues -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -1629,9 +1671,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 3 sources removed; 2 sections removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 3 sources added; 1 section added; narrative text revised |
 | [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added and 1 removed |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [0f0b1cd7c](https://github.com/paleofoundation/heavymetalindex/commit/0f0b1cd7c) | 2026-08-01 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

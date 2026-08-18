@@ -211,6 +211,32 @@ Aluminum content varies widely by product; [[sources/efsa-aluminium-afc-2008|EFS
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Aluminum, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 2008 | EFSA | AFC Panel | 1 mg/kg-bw/week |
+| 2008 | ATSDR | Toxicological Profile series | 1 mg/kg-bw/day |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 3 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
+<!-- BEGIN: hmi-v3-refvalues -->
+## What the reference values mean in practice
+
+The 3 instruments recorded for Aluminum are not 3 versions of one number. They are 3 different kinds of value, set by bodies doing different jobs:
+
+- ATSDR set a minimal risk level, screening guidance for a defined exposure duration.
+- Food Standards Australia New Zealand set a legally binding maximum level under national law.
+- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
+
+The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
+<!-- END: hmi-v3-refvalues -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -650,9 +676,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 2 sources removed; 2 sections removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 5 sources added; 9 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

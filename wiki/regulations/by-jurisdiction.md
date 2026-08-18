@@ -3,13 +3,11 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-01
+updated: 2026-08-04
 noindex: false
 ---
 
 # Regulations by jurisdiction
-
-## Overview
 
 This page is the cross-cut view of every regulation the Heavy Metal Index tracks, organised by jurisdiction. Brand-legal and regulatory-affairs readers comparing how different jurisdictions regulate the same metal should land here.
 
