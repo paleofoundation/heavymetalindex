@@ -513,7 +513,36 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-84 open item(s): 33 auto, 51 awaiting a decision.
+88 open item(s): 36 auto, 52 awaiting a decision.
+
+### OI-20260818-vercelignore-missing — No .vercelignore: gitless `vercel deploy --prod` source upload fails 'Request body too large' (sites/ 475M + public/ 352M)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `.vercelignore`
+- repro: vercel deploy --prod (source upload) errors 'Request body too large. Limit: 10mb' because the repo root has no .vercelignore and the untracked sites/ (475MB ICS scaffold) + public/ (352MB build output) get bundled. Today's deploy used the prebuilt path instead (vercel build --prod && vercel deploy --prebuilt --prod). Durable fix: add .vercelignore excluding sites/, public/, node_modules/, raw/, .vercel/output, .git so the simple source-deploy path works.
+- done when: .vercelignore excludes sites/, public/, node_modules/, raw/; vercel deploy --prod succeeds without the body-size error
+
+### OI-20260818-regindex-dup-update-history — wiki/regulations/index.md renders two identical '## Update history' blocks (duplicate hmi-page-history markers)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `wiki/regulations/index.md`
+- repro: grep -c 'BEGIN: hmi-page-history' wiki/regulations/index.md -> 2 (also 2 on origin/main; pre-existing, not caused by the orphan fix). The page renders the Update-history section twice. A page-history generator/injector double-wrote the marker block. Fix: de-dupe to a single hmi-page-history block and make the injector idempotent when its markers already exist.
+- done when: wiki/regulations/index.md has exactly one BEGIN: hmi-page-history block; the page-history injector is idempotent (re-run adds no second block)
+
+### OI-20260818-link-orphans-stale-v3 — link-orphans.mjs regresses the v3 ingredient/product indexes (re-adds removed flat list, drops product source-counts)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/link-orphans.mjs`, `wiki/ingredients/index.md`, `wiki/products/index.md`
+- repro: node tools/autonomy/link-orphans.mjs adds 257 [[ingredients/...]] flat-list links to wiki/ingredients/index.md — a list commit 2b8943fd9 deliberately removed for the v3 category-card grid — and rewrites wiki/products/index.md dropping 46 of 417 '(N sources)' annotations (417->371). It correctly links regulations (the only category with true audit-orphans this pass). The tool predates the v3 redesign. Fix: teach link-orphans that the ingredients index uses the v3 card grid (skip it) and the products index carries source-count annotations (preserve format), or scope it to categories whose index still uses a flat stub list. Until fixed, run it for regulations only and revert wiki/{products,ingredients}/index.md.
+- done when: link-orphans does not add [[ingredients/ flat links to wiki/ingredients/index.md; wiki/products/index.md retains all (N sources) annotations after a link-orphans run; regulations orphans still surface
+- decision: _pending_
+
+### OI-20260818-dedup-residual-dangling-refs — Dedup e0f4705c7 left dangling original2020-original-a refs in product pages + evidence CSVs
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `wiki/products/cereal-meals.md`, `wiki/products/biscuits.md`, `wiki/products/infant-formula-stage1.md`
+- repro: The dedup repointed 132 links but missed carried-forward table/citation cells. The 5 ingredient-page cases were fixed in 68af3fa51 (they blocked build-open-data). Residual dangling original2020-original-a refs remain OUTSIDE the drift-gated ingredient set: wiki/products/{cereal-meals,biscuits,infant-formula-stage1}.md and several data/evidence/*.csv. build-open-data only checks wiki/ingredients so these don't block the build, but they are dangling links. Repoint per the dedup canonical map (original2020-original-a -> alharbi2023-baby-foods-saudi-arabia-heavy-metals).
+- done when: grep -rl 'original2020-original-a' wiki/ returns nothing; grep -rl 'napier2024-wanabana-apple-cinnamon-puree-lead-NC' wiki/ returns nothing
 
 ### OI-20260817-wa-tfca-general-cosmetic-lead — Washington TFCA may set a 1 ppm finished-cosmetic lead cap; if so, 13 Category 2 child rows publish lead 2x too loose
 
