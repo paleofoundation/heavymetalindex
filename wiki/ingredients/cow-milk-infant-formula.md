@@ -7,7 +7,7 @@ category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-20
 provisional_reason: "heal-gaps: routing_unresolved entry from source unknown2016-risk-arsenic-rice-cereal declared ingredient/cow-milk-infant-formula, no close-slug match"
-provisional_source: "[[sources/unknown2016-risk-arsenic-rice-cereal]]"
+provisional_source: "[[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us]]"
 contamination_profile:
   Pb:
     status: pending
@@ -111,7 +111,7 @@ updated: 2026-05-20
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source unknown2016-risk-arsenic-rice-cereal declared ingredient/cow-milk-infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/unknown2016-risk-arsenic-rice-cereal]]
+> **Triggering source:** [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us]]
 
 ## Literature scope
 
@@ -122,7 +122,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/unknown2016-risk-arsenic-rice-cereal|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata, Tomoyuki, Meng, Can, Umoren, Josephine, and West, Heidi · International Journal of Environmental Research and Public Health · 2016</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata, Tomoyuki, Meng, Can, Umoren, Josephine, and West, Heidi · International Journal of Environmental Research and Public Health · 2016</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -91,7 +91,7 @@ Source pages whose evidence comes from **Sub-Saharan Africa**, grouped by jurisd
 - [[sources/abdulrasheed2026-nigeria-cookware-metals|Preliminary assessment of toxic metals in cookware, moulding materials and soils from manufacturing sites in southwest Nigeria, with evaluation of cookware leaching potential (2026)]]
 - [[sources/usman2022-pleurotus-mushroom-substrates|Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria (2022)]]
 - [[sources/igweze2020-al-as-hg-infant-formula-nigeria|Public Health and Paediatric Risk Assessment of Aluminium, Arsenic and Mercury in Infant Formulas Marketed in Nigeria (2020)]]
-- [[sources/omosigho2025-toothpastes-heavy-metals-nigeria|Quality assessment of some selected toothpastes used in Nigeria (2025)]]
+- [[sources/omosigho2025-nigeria-toothpaste-metals|Quality assessment of some selected toothpastes used in Nigeria (2025)]]
 - [[sources/omosigho2025-nigeria-toothpaste-metals|Quality Assessment of Some Selected Toothpastes Used in Nigeria (2025)]]
 - [[sources/uroko2020-ubani-canned-tomato-paste-metals|Quantification of Heavy Metals in Canned Tomato Paste Sold in Ubani-Umuahia, Nigeria (2020)]]
 - [[sources/gekpe2023-cadmium-quercetin-omega3-rats|Quercetin and Omega-3 fatty acid averts the deleterious effects of Cadmium on NO, NOS, anti-oxidants and MDA levels in rats (2023)]]

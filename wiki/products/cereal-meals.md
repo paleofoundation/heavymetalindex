@@ -7,7 +7,7 @@ hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source original2020-original-a declared product/cereal-meals, no close-slug match"
-provisional_source: "[[sources/original2020-original-a]]"
+provisional_source: "[[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]]"
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
@@ -23,7 +23,7 @@ updated: 2026-05-19
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source original2020-original-a declared product/cereal-meals, no close-slug match
 >
-> **Triggering source:** [[sources/original2020-original-a]]
+> **Triggering source:** [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]]
 
 ## Literature scope
 
@@ -34,7 +34,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/original2020-original-a|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia]]<span class="hmi-ref-meta">Najla S. Alharbi, Rawdah M. Akamsiei, Lama A. Almaiman, Mostafa A. AL-Samti, Hamad S. Al-Mutairi, Bandar S. Al-owais, et al. · Food Science & Nutrition · 2020</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia]]<span class="hmi-ref-meta">Najla S. Alharbi, Rawdah M. Akamsiei, Lama A. Almaiman, Mostafa A. AL-Samti, Hamad S. Al-Mutairi, Bandar S. Al-owais, et al. · Food Science & Nutrition · 2020</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -120,7 +120,7 @@ Source pages whose evidence comes from **South & Central Asia**, grouped by juri
 - [[sources/rokanuzzaman2022-bangladesh-eggs-metals|Assessment of Heavy Metals and Trace Elements in Eggs and Eggshells of Gallus gallus domesticus, Coturnix coturnix and Anas platyrhynchos from Bangladesh (2022)]]
 - [[sources/islam2018-tangail-food-crops-heavy-metals|Assessment of heavy metals in foods around the industrial areas: Health hazard inference in Bangladesh (2018)]]
 - [[sources/mohiuddin2015-bangladesh-edible-mushrooms-metals|Assessment of nutritional composition and heavy metal content in some edible mushroom varieties collected from different areas of Bangladesh (2015)]]
-- [[sources/abstract2011-availability-arsenic-human-milk|Availability of arsenic in human milk in women and its correlation with arsenic in urine of breastfed children living in arsenic contaminated areas in Bangladesh (2014)]]
+- [[sources/islam2014-arsenic-breast-milk-bangladesh|Availability of arsenic in human milk in women and its correlation with arsenic in urine of breastfed children living in arsenic contaminated areas in Bangladesh (2014)]]
 - [[sources/islam2014-arsenic-breast-milk-bangladesh|Availability of Arsenic in Human Milk in Women and Its Correlation with Arsenic in Urine of Breastfed Children Living in Arsenic Contaminated Areas in Bangladesh (2014)]]
 - [[sources/bsti2019-bds-1382-skin-creams|BDS 1382:2019 Skin Creams - Specification (2019)]]
 - [[sources/fangstrom2008-breastfeeding-arsenic-protection-bangladesh|Breast-Feeding Protects against Arsenic Exposure in Bangladeshi Infants (2008)]]
@@ -211,7 +211,7 @@ Source pages whose evidence comes from **South & Central Asia**, grouped by juri
 **Sri Lanka** (12)
 
 - [[sources/wijeyaratne2021-alternanthera-metals-sri-lanka|Cadmium, Chromium, and Lead Uptake Associated Health Risk Assessment of Alternanthera sessilis: A Commonly Consumed Green Leafy Vegetable (2021)]]
-- [[sources/toxicology2020-chronic-renal-failure-sri|Chronic renal failure in Sri Lanka caused by elevated dietary cadmium: Trojan horse of the green revolution (2010)]]
+- [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Chronic renal failure in Sri Lanka caused by elevated dietary cadmium: Trojan horse of the green revolution (2010)]]
 - [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution (2010)]]
 - [[sources/wickramaarachchige2022-sri-lanka-aquatic-elements|Comparative Study on the Distribution of Essential, Non-Essential Toxic, and Other Elements across Trophic Levels in Various Edible Aquatic Organisms in Sri Lanka and Dietary Human Risk Assessment (2022)]]
 - [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals|Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares) (2022)]]

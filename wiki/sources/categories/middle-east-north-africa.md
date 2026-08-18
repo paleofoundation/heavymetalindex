@@ -246,7 +246,7 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/farid2010-fruit-juices-jeddah-trace-elements|Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia (2010)]]
 - [[sources/cicero2022-minerals-spices-aromatic-herbs|Mineral and Microbiological Analysis of Spices and Aromatic Herbs (2022)]]
 - [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia (2023)]]
-- [[sources/original2020-original-a|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia (2020)]]
+- [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia (2020)]]
 - [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations (2022)]]
 - [[sources/aljubiri2024-sewage-sludge-carbon-cadmium-lead|Recycling of Sewage Sludge: Synthesis and Application of Sludge-Based Activated Carbon in the Efficient Removal of Cadmium (II) and Lead (II) from Wastewater (2024)]]
 - [[sources/al-otaibi2024-wadi-hanifah-metals-args|Screening for Antibiotic Resistance Genes in Bacteria and the Presence of Heavy Metals in the Upstream and Downstream Areas of the Wadi Hanifah Valley in Riyadh, Saudi Arabia (2024)]]

@@ -105,7 +105,7 @@ Source pages whose evidence comes from **Latin America & Caribbean**, grouped by
 - [[sources/gutierrez2022-ecuador-cacao-cadmium-compost|Cadmium fractionation in soils affected by organic matter application: Transfer of cadmium to cacao (Theobroma cacao L.) tissues (2022)]]
 - [[sources/meter2019-cadmium-cacao-lac-review|Cadmium in Cacao from Latin America and the Caribbean: A Review of Research and Potential Mitigation Solutions (2019)]]
 - [[sources/barraza2019-ecuador-cacao-cadmium-isotope|Cadmium isotope fractionation in the soil–cacao system in Ecuador: a pilot study (2019)]]
-- [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC|Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024 (2024)]]
+- [[sources/napier2024-wanabana-lead-apple-cinnamon|Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024 (2024)]]
 - [[sources/romero-estevez2019-ecuador-cocoa-cd-ni-pb|Content and the relationship between cadmium, nickel, and lead concentrations in Ecuadorian cocoa beans from nine provinces (2019)]]
 - [[sources/vela2023-quito-vegetables-cd-pb|Determination of cadmium and lead in vegetables marketed in Quito, Ecuador (2023)]]
 - [[sources/wade2022-cacao-cadmium-drivers|Drivers of cadmium accumulation in Theobroma cacao L. beans: A quantitative synthesis of soil-plant relationships across the Cacao Belt (2022)]]

@@ -125,7 +125,7 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 - [[sources/jia2025-gold-nanocluster-lead-cadmium-simultaneous-sensor|Gold Nanocluster-Based Fluorescence Sensor for Simultaneous Detection of Lead and Cadmium in Water (2025)]]
 - [[sources/kundu2026-gold-nanoparticle-arsenic-colorimetric-groundwater|Gold Nanoparticle-Based Colorimetric Sensing of Arsenic(III) and Arsenic(V) in Groundwater (2026)]]
 - [[sources/zheng2025-pueraria-carbon-dots-chromium-vi-fluorescence|Green Synthesis of Nitrogen-Doped Carbon Dots from Pueraria Residues for Cr(VI) Sensing in Water (2025)]]
-- [[sources/who-gdwq-2022-fourth-edition|Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda (2022)]]
+- [[sources/who2022-guidelines-drinking-water-quality|Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda (2022)]]
 - [[sources/who2022-guidelines-drinking-water-quality|Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda (2022)]]
 - [[sources/vaishaly2015-health-effects-metal-groundwater|Health effects caused by metal contaminated ground water (2015)]]
 - [[sources/kilbo-edlund2017-pm25-south-africa-health-risk|Health Risk Assessment of PM2.5 and PM2.5-Bound Trace Elements in Thohoyandou, South Africa (2017)]]
