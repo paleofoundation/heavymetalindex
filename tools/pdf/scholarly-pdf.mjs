@@ -316,7 +316,8 @@ function buildModel(fm, body, cfg) {
     masthead: cfg.masthead,
     dateLabel: monthYear(updated || established),
     title,
-    authorLine: "Karen Pendergrass · ORCID 0000-0002-2348-7259 · Heavy Metal Index, Institute of Contaminant Standards",
+    authorName: "Karen Pendergrass",
+    authorLine: "ORCID 0000-0002-2348-7259 · Heavy Metal Index, Institute of Contaminant Standards",
     gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (preprint)` : null,
     citeAs,
     keywords,
@@ -347,7 +348,8 @@ const s = StyleSheet.create({
   mastheadDate: { fontFamily: "IBMPlexMono", fontSize: 7.5, color: MUTE, letterSpacing: 0.5 },
   ruleBurgundy: { borderTopWidth: 1.4, borderTopColor: BURGUNDY, marginTop: 5, marginBottom: 16 },
   ruleFaint: { borderTopWidth: 0.75, borderTopColor: RULE_MED, marginTop: 16, marginBottom: 14 },
-  title: { fontFamily: "Lora", fontSize: 20, color: INK_TITLE, lineHeight: 1.2, letterSpacing: -0.2, marginBottom: 10 },
+  title: { fontFamily: "Lora", fontSize: 24, color: INK_TITLE, lineHeight: 1.2, letterSpacing: -0.2, marginBottom: 10 },
+  authorName: { fontFamily: "Inter", fontSize: 16, fontWeight: 500, color: INK_SUB, marginBottom: 3 },
   authorLine: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: MUTE, letterSpacing: 0.3, marginBottom: 4 },
   gradeLine: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: BURGUNDY, letterSpacing: 0.3, marginBottom: 12 },
 
@@ -531,7 +533,7 @@ function FrontMatter(m) {
 function BackMatter(m) {
   const finding = m.pathSeg === "synthesis" ? "finding" : "reference"
   const blocks = [
-    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as a preprint with its review state tracked on the article page. Released under CC BY 4.0.`],
+    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as a preprint with its review state tracked on the article page. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). © 2026 Institute of Contaminant Standards.`],
     ["Competing interests", "The Heavy Metal Index reports what the peer-reviewed and regulatory literature supports. It is operated separately from any certification program, does not evaluate or endorse brands, and does not use certification thresholds as evidence for the statements made here."],
     ["Data availability", `Every source behind this ${finding} is listed with its own extraction record at ${m.url}#sources, each linking to the ingest receipt, the extracted values, and the file hash of the document it was built from.`],
     ["Publication history", `${m.firstPublished ? "First published " + m.firstPublished + ". " : ""}${m.revision ? "This revision " + m.revision + ". " : ""}The full dated record is maintained at ${m.url}.`],
@@ -558,6 +560,7 @@ function ScholarlyDocument(m) {
       m.dateLabel ? h(Text, { key: "d", style: s.mastheadDate }, m.dateLabel) : null,
     ]),
     h(Text, { key: "t", style: s.title }, m.title),
+    h(Text, { key: "an", style: s.authorName }, m.authorName),
     h(Text, { key: "a", style: s.authorLine }, m.authorLine),
     m.gradeLine ? h(Text, { key: "g", style: s.gradeLine }, m.gradeLine) : null,
     h(View, { key: "rule", style: s.ruleBurgundy }),
