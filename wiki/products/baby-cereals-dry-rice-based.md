@@ -1,5 +1,16 @@
 ---
 title: Baby Cereals / Grain Products, Dry (Rice-Based)
+kind: Subcategory
+dek: "A category profile assembled from its inputs. Intake per unit body weight is unusually high for this population, so the same ingredient concentration produces a larger exposure than it would in an adult diet."
+snapshot:
+  - k: Corpus sources
+    v: "78"
+  - k: Ingredient inputs
+    v: "4"
+  - k: Applicable limits
+    v: "4"
+  - k: Jurisdictions
+    v: "2"
 type: product-category
 category: baby-cereals-dry-rice-based
 hmtc_row: 6
@@ -37,34 +48,38 @@ sources: 78
 
 ## Overview
 
-This page is a structural scaffold for HMTc Category 1 row 6. Quantitative evidence now includes FDA rice-cereal compliance samples, rice/rice-mix review evidence, a small grain baby-food distribution, a large U.S. baby-food lead/cadmium survey, and regulatory action-level context.
+<div class="hmi-variant-group"><div class="hmi-variant-head"><span class="hmi-variant-kicker">Variant group · dry baby cereal</span><span class="hmi-variant-tabs"><span class="hmi-variant-tab hmi-variant-tab--active">Rice-based</span><a class="hmi-variant-tab" href="/products/baby-cereals-dry-non-rice">Non-rice</a></span><span class="hmi-variant-note">Same category framing, different driver metal. Both pages are separately citable.</span></div><div class="hmi-variant-grid"><div class="hmi-variant-k">Driver metal</div><div class="hmi-variant-a">Inorganic arsenic</div><div class="hmi-variant-b">Lead</div><div class="hmi-variant-k">Governing limit</div><div class="hmi-variant-a">100 ppb, FDA action level</div><div class="hmi-variant-b">20 ppb, FDA and EU</div><div class="hmi-variant-k">Corpus depth</div><div class="hmi-variant-a">78 sources</div><div class="hmi-variant-b">37 sources</div></div></div>
 
-## Who this page is for
+<div class="hmi-category-framing"><div class="hmi-category-framing-kicker">Category framing</div><p>This is a category risk profile assembled from the ingredients that drive it. It does not test products, name brands, or publish brand-by-brand tables. The category is governed chiefly by inorganic arsenic, inherited from rice, with lead and cadmium entering through grain and fortification inputs.</p></div>
 
-<!-- BEGIN: hmi-stakeholder-guide -->
-<div class="hmi-stakeholder-guide">
- <div class="hmi-stakeholder-guide-label">Who this page is for</div>
- <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
- <dl>
- <div>
- <dt>Brand legal and regulatory affairs</dt>
- <dd>Inorganic arsenic in infant rice cereal is the highest-profile cherry-pick target in the entire HMT&C product set; the FDA 2020 100 ppb action level is the public number a plaintiff's expert anchors on. The literature shows wide cultivar, geography, and cooking-water variance, and basis (dry vs as-served) shifts values by 4-5x. Source provenance, geographic breakdown (when populated), and rinsing-and-cooking-method context are the defensive core. Compare with <a href="/products/baby-cereals-dry-non-rice">Baby Cereals Dry Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
- </div>
- <div>
- <dt>Retailer quality and compliance</dt>
- <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
- </div>
- <div>
- <dt>Brand QA and product development</dt>
- <dd>Use the <a href="/certification/lab-result-comparator?category=baby-cereals-dry-rice-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for rice cereal, against the FDA 2020 cap and EU 2023/915, with basis conversion explicit.</dd>
- </div>
- <div>
- <dt>Regulators, journalists, and adversarial readers</dt>
- <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
- </div>
- </dl>
-</div>
-<!-- END: hmi-stakeholder-guide -->
+## Ingredient drivers
+
+Category exposure is a weighted function of the inputs and of intake per unit body weight, which is unusually high for this population. The inputs below are ordered by their contribution to category-level exposure as ranked in the routed risk map; the bar shows relative position, not a comparison against any limit.
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/rice-cereal">Rice cereal</a><span class="hmi-driver-metal">Inorganic arsenic</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--1" style="width: 85%"></div></div><p class="hmi-driver-desc">The defining input. Rice takes up inorganic arsenic under flooded cultivation more efficiently than other cereals, so concentration tracks growing region and water management more than processing.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/rice-flour">Rice flour</a><span class="hmi-driver-metal">Inorganic arsenic · Cadmium</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--2" style="width: 58%"></div></div><p class="hmi-driver-desc">Milled rice carries the arsenic and cadmium the grain accumulated; polishing removes some of each but not the inorganic-arsenic fraction that governs the limit.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/baby-cereals-dry">Dry cereal grain base</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--3" style="width: 38%"></div></div><p class="hmi-driver-desc">Non-rice grain and the finished cereal contribute lead through soil contact and processing, governed by the 20 ppb dry-infant-cereal action level in both the FDA and EU instruments.</p></div>
+
+<div class="hmi-driver"><div class="hmi-driver-head"><a class="hmi-driver-name" href="/ingredients/vitamin-mineral-premix">Vitamin–mineral premix</a><span class="hmi-driver-metal">Lead</span></div><div class="hmi-driver-track"><div class="hmi-driver-bar hmi-driver-bar--4" style="width: 16%"></div></div><p class="hmi-driver-desc">A minor contributor. Fortification premixes are a documented but small lead pathway relative to the grain itself.</p></div>
+
+## Limits applicable to this category
+
+The category inherits the maximum levels and action levels that apply to infant cereals, and to rice specifically. These are regulatory limits, not certification thresholds.
+
+| Instrument | Metal | Value | Status |
+| --- | --- | --- | --- |
+| [[regulations/eu2023-contaminants-maximum-levels\|EU 2023/915]] | Lead | 20 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/fda-ctz-Pb-cereal-20ppb\|FDA Closer to Zero]] | Lead | 20 ppb | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+| [[regulations/eu-2023-915-cadmium\|EU 2023/915]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-status--binding">Binding</span> |
+| [[regulations/fda-iAs-rice-cereal-100ppb\|FDA infant rice cereal action level]] | Inorganic arsenic | 100 ppb | <span class="hmi-status hmi-status--guidance">Guidance</span> |
+
+## Testing and verification posture
+
+Occurrence values in this category are measured by ICP-MS in the source literature, the same method the FDA Toxic Elements Program uses for the survey data underlying the Closer to Zero action levels. Detection limits in the routed corpus resolve the 20 ppb lead level and the 100 ppb inorganic-arsenic action level that guidance specifies for infant rice cereal.
+
+<div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
 
 ## Methodology
 

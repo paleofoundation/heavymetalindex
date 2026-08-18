@@ -124,15 +124,23 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
           id: "evidence",
           label: "Evidence",
           children: [
+            // v3 subcategory screen leads Evidence with the ingredient-driver
+            // cards (artifact 1462); the source-backed detail nests under it.
+            { id: "drivers", patterns: [/^ingredient drivers$/i] },
             { id: "litsummary", patterns: [/literature evidence summary/i] },
             { id: "inventory", patterns: [/source evidence inventory/i] },
             { id: "broad", patterns: [/broad product context/i] },
           ],
         },
         {
-          id: "findings",
-          label: "Findings & Limits",
+          id: "limits",
+          label: "Limits",
           children: [
+            // v3 "Limits applicable to this category" (artifact 1478) + its
+            // "Testing and verification posture" sub (artifact 1501), then the
+            // legacy field-findings crosswalk and standards-math detail.
+            { id: "applicable", patterns: [/^limits applicable to this category$/i] },
+            { id: "testing", patterns: [/testing and verification posture/i] },
             { id: "crosswalk", patterns: [/limits vs field findings/i] },
             { id: "levers", patterns: [/levers to reduce/i] },
             { id: "math", patterns: [/how standards math/i] },
