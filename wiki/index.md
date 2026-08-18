@@ -30,7 +30,7 @@ updated: 2026-07-31
 <div class="hmi-v3-ledger" aria-label="Corpus ledger">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Corpus ledger</span>
-    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-12</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-18</span>
   </div>
   <div class="hmi-v3-ledger-body">
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,547</span></div>
@@ -43,189 +43,6 @@ updated: 2026-07-31
   </div>
 </div>
 <!-- END: hmi-corpus-counter -->
-
-<!-- BEGIN: hmi-home-most-referenced -->
-<section class="hmi-band hmi-band--light" data-no-cite>
-  <div class="hmi-band-inner">
-    <h2>Most-referenced pages</h2>
-    <p class="hmi-band-lede">Where the corpus is deepest, by the number of sources contributing to each page.</p>
-    <div class="hmi-home-top-grid">
-      <div class="hmi-home-top-col">
-        <h3>Metals</h3>
-        <ul>
-        <li><a href="metals/cadmium/"><span>Cadmium</span><span class="hmi-home-top-count">1,572</span></a></li>
-        <li><a href="metals/lead/"><span>Lead</span><span class="hmi-home-top-count">1,440</span></a></li>
-        <li><a href="metals/arsenic/"><span>Arsenic</span><span class="hmi-home-top-count">878</span></a></li>
-        <li><a href="metals/mercury/"><span>Mercury</span><span class="hmi-home-top-count">876</span></a></li>
-        <li><a href="metals/chromium/"><span>Chromium</span><span class="hmi-home-top-count">871</span></a></li>
-        <li><a href="metals/nickel/"><span>Nickel</span><span class="hmi-home-top-count">766</span></a></li>
-        </ul>
-        <a class="hmi-home-top-all" href="metals/">All 36 metals →</a>
-      </div>
-      <div class="hmi-home-top-col">
-        <h3>Ingredients</h3>
-        <ul>
-        <li><a href="ingredients/fish/"><span>Fish</span><span class="hmi-home-top-count">306</span></a></li>
-        <li><a href="ingredients/rice/"><span>Rice</span><span class="hmi-home-top-count">268</span></a></li>
-        <li><a href="ingredients/seafood/"><span>Seafood</span><span class="hmi-home-top-count">192</span></a></li>
-        <li><a href="ingredients/shellfish/"><span>Shellfish</span><span class="hmi-home-top-count">113</span></a></li>
-        <li><a href="ingredients/vegetables/"><span>Vegetables</span><span class="hmi-home-top-count">112</span></a></li>
-        <li><a href="ingredients/fruit/"><span>Fruit</span><span class="hmi-home-top-count">110</span></a></li>
-        </ul>
-        <a class="hmi-home-top-all" href="ingredients/">All 257 ingredients →</a>
-      </div>
-      <div class="hmi-home-top-col">
-        <h3>Products</h3>
-        <ul>
-        <li><a href="products/fish-marine-non-predatory/"><span>Fish — marine, non-predatory (sardines, anchovies, salmon, cod)</span><span class="hmi-home-top-count">821</span></a></li>
-        <li><a href="products/shellfish/"><span>Shellfish (shrimp, crab, lobster, clams, oysters, mussels)</span><span class="hmi-home-top-count">454</span></a></li>
-        <li><a href="products/fish-marine-predatory/"><span>Fish — marine, predatory (tuna, swordfish, shark, king mackerel)</span><span class="hmi-home-top-count">372</span></a></li>
-        <li><a href="products/seaweed-kelp-foods/"><span>Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)</span><span class="hmi-home-top-count">210</span></a></li>
-        <li><a href="products/root-vegetable-purees/"><span>Root-Vegetable Purees</span><span class="hmi-home-top-count">184</span></a></li>
-        <li><a href="products/seafood/"><span>Seafood</span><span class="hmi-home-top-count">161</span></a></li>
-        </ul>
-        <a class="hmi-home-top-all" href="products/">All 416 product categories →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- END: hmi-home-most-referenced -->
-
-<!-- BEGIN: hmi-home-changefeed -->
-<section class="hmi-band hmi-band--shade" data-no-cite>
-  <div class="hmi-band-inner">
-    <h2>What changed recently</h2>
-    <p class="hmi-band-lede">The 8 most recent evidence changes across the corpus, from 1,558 recorded events. Every page also carries its own update history.</p>
-    <ul class="hmi-home-feed">
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="regulations/philippines-pns-bafs-194-2017-contaminants-food-feed/">New regulation indexed: multiple mg/kg</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple-juice/">Cd in apple-juice confidence low → medium.</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/peanuts/">tAs in peanuts synthesis moved up 14.0x (typical [1,5]→[5,30] ppb).</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="regulations/trinidad-tobago-food-drugs-metal-limits-2007/">New regulation indexed: multiple ppm</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Pb in applesauce confidence medium → low.</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="regulations/uruguay-rbn-5th-edition-heavy-metal-limits/">New regulation indexed: multiple mg/kg or stated source unit</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/avocado/">Cr in avocado confidence medium → low.</a></span>
-      </li>
-      <li>
-        <time datetime="2026-08-11">2026-08-11</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/banana/">Cd in banana confidence medium → low.</a></span>
-      </li>
-    </ul>
-  </div>
-</section>
-<!-- END: hmi-home-changefeed -->
-
-<!-- BEGIN: hmi-home-faq -->
-<section class="hmi-band hmi-band--light" data-no-cite>
-  <div class="hmi-band-inner">
-    <h2>Common questions</h2>
-    <div class="hmi-home-faq">
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="which-metals" data-question="Which heavy metals turn up in food?">
-      <summary>Which heavy metals turn up in food?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>The ones that recur across the food supply are lead, cadmium, arsenic and mercury, with nickel, aluminium, chromium and tin appearing in narrower sets of products. Arsenic and mercury are tracked as species rather than totals, because inorganic arsenic and methylmercury are the forms that drive toxicity and the forms most regulatory limits are written against. The Index carries 36 metal pages, each covering the toxicology, the exposure routes and the limits that apply.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="how-do-they-get-in" data-question="How do heavy metals get into food in the first place?">
-      <summary>How do heavy metals get into food in the first place?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Mostly through the environment rather than through manufacturing. Lead and cadmium sit in soil from historical leaded fuel, paint and industrial emissions and are taken up by crops. Arsenic is drawn from groundwater and soil by rice, which floods during growing. Mercury accumulates up the marine food chain, so the largest predatory fish carry the most. Nickel and chromium can be picked up from processing equipment, and packaging contributes in specific categories. Because the pathways are environmental, contamination tends to track the commodity and where it was grown before it tracks any particular producer.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="safe-level-lead" data-question="Is there a safe level of lead in food?">
-      <summary>Is there a safe level of lead in food?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>No major regulatory body has identified a blood lead level in children below which harm is not observed. EFSA withdrew the tolerable weekly intake for lead in 2010 on the basis that no health-protective value could be derived, JECFA withdrew its own the same year, and the US EPA does not derive an oral reference dose. The operative framing across agencies is to reduce exposure as far as practicable rather than to stay under a single number. See the lead page for the full regulatory position and the studies behind it.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="which-foods" data-question="Which foods carry the most heavy metals?">
-      <summary>Which foods carry the most heavy metals?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>It depends on the metal. Rice and rice-derived ingredients dominate inorganic arsenic; large predatory fish dominate methylmercury; cocoa, leafy greens and some root vegetables carry the most cadmium; spices and some botanicals are recurring lead findings. The Index reports these at the ingredient level, where the contamination originates, and again at the product-category level, where a consumer encounters it — 257 ingredient profiles and 416 product categories.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="who-sets-limits" data-question="Who sets the limits for heavy metals in food?">
-      <summary>Who sets the limits for heavy metals in food?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programmes such as California's Proposition 65 set their own thresholds. The Index carries 173 regulation pages, each stating the exact value, the matrix it applies to and the basis it is measured on.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="testing-and-brands" data-question="Does the Index test products or rank brands?">
-      <summary>Does the Index test products or rank brands?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>No. The Index reports what the published literature and regulatory record say about metals, ingredients and product categories. It does not test products, does not name brands in its findings, and does not publish brand-by-brand tables. Where third-party testing is cited as a source, the category-level and ingredient-level signal is summarised and the reader is pointed at the original for anything brand-specific.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="how-complete" data-question="How complete is the evidence behind these pages?">
-      <summary>How complete is the evidence behind these pages?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Partially, and the Index says so on the record. The coverage page reports how many papers the literature search identified against how many have been promoted to source pages, broken out by category, so a reader can see where the corpus is deep and where it is thin. 3,065 source pages are indexed so far. Pages whose evidence is sparse carry a low confidence marker rather than a confident-looking number.</p>
-      </div>
-    </details>
-    <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="check-a-claim" data-question="Can I check a claim on any page back to its source?">
-      <summary>Can I check a claim on any page back to its source?</summary>
-      <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Yes, and that is the point of the structure. Every figure links to a source record carrying the study's citation, its methods, the values extracted from it and the file hash of the document those values were read out of. Each page also lists its references in citation order, alongside the wider set of sources routed to it, and records its own edit history so a page can be reconstructed as it stood on a given date.</p>
-      </div>
-    </details>
-    </div>
-  </div>
-</section>
-<!-- END: hmi-home-faq -->
-
-<!-- BEGIN: hmi-home-methodology -->
-<section class="hmi-band hmi-band--shade" data-no-cite>
-  <div class="hmi-band-inner">
-    <h2>How the Index is built</h2>
-    <p class="hmi-band-lede">Every page is the end of a traceable chain, and each step of it is documented.</p>
-    <div class="hmi-home-steps">
-      <div class="hmi-home-step">
-        <h3>Search the literature</h3>
-        <p>A standing search across bibliographic databases and agency publications identifies candidate studies. What was found, and what has been reviewed so far, is reported openly.</p>
-        <a href="methodology/search-strategy/">Search strategy →</a>
-      </div>
-      <div class="hmi-home-step">
-        <h3>Record the source</h3>
-        <p>Each admitted document gets a source page carrying its citation, methods, the values extracted from it, and the file hash of the document those values were read out of. 3,065 so far.</p>
-        <a href="sources/">Source archive →</a>
-      </div>
-      <div class="hmi-home-step">
-        <h3>Extract structured values</h3>
-        <p>Reported concentrations are normalised to a common unit and basis, with censoring and analyte species preserved rather than flattened, and held as machine-readable records.</p>
-        <a href="methodology/">Methodology →</a>
-      </div>
-      <div class="hmi-home-step">
-        <h3>Synthesise, and show the gaps</h3>
-        <p>Pages are written from the pooled records, with confidence stated and thin evidence marked as thin. Coverage and defensibility audits are published rather than kept internal.</p>
-        <a href="coverage/">Coverage →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- END: hmi-home-methodology -->
-
-
-
-
 
   </div>
 </section>
@@ -402,27 +219,27 @@ updated: 2026-07-31
     <div class="hmi-v3-rule"></div>
   </div>
   <div class="hmi-v3-split-body">
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="which-metals" data-hmi-faq="1" data-anchor="which-metals">
       <summary>Which heavy metals turn up in food?</summary>
       <p>The ones that recur across the food supply are lead, cadmium, arsenic, and mercury, with nickel, aluminum, chromium, and tin appearing in narrower sets of products. Arsenic and mercury are tracked as species rather than totals, because inorganic arsenic and methylmercury are the forms that drive toxicity and the forms most regulatory limits are written against.</p>
     </details>
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="how-they-get-in" data-hmi-faq="1" data-anchor="how-they-get-in">
       <summary>How do heavy metals get into food in the first place?</summary>
       <p>Mostly through the environment rather than through manufacturing. Lead and cadmium sit in soil from historical fuel, paint, and industrial emissions and are taken up by crops. Arsenic is drawn from groundwater and soil by rice, which floods during growing. Mercury accumulates up the marine food chain, so the largest predatory fish carry the most. Because the pathways are environmental, contamination tends to track the commodity and where it was grown before it tracks any particular producer.</p>
     </details>
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="safe-level-lead" data-hmi-faq="1" data-anchor="safe-level-lead">
       <summary>Is there a safe level of lead in food?</summary>
       <p>No major regulatory body has identified a blood lead level in children below which harm is not observed. EFSA withdrew its tolerable weekly intake for lead in 2010 on the basis that no health-protective value could be derived, JECFA withdrew its own the same year, and the US EPA does not derive an oral reference dose. The operative framing across agencies is to reduce exposure as far as practicable rather than to stay under a single number.</p>
     </details>
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="who-sets-limits" data-hmi-faq="1" data-anchor="who-sets-limits">
       <summary>Who sets the limits for heavy metals in food?</summary>
       <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programs such as California Proposition 65 set their own thresholds. Each regulation page states the exact value, the matrix it applies to, and the basis it is measured on.</p>
     </details>
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="tests-or-ranks" data-hmi-faq="1" data-anchor="tests-or-ranks">
       <summary>Does the Index test products or rank brands?</summary>
       <p>No. The Index reports what the published literature and regulatory record say about metals, ingredients, and product categories. It does not test products, does not name brands in its findings, and does not publish brand-by-brand tables. Where third-party testing is cited as a source, the category-level signal is summarized and the reader is pointed at the original for anything brand-specific.</p>
     </details>
-    <details class="hmi-v3-q">
+    <details class="hmi-v3-q" id="claim-to-source" data-hmi-faq="1" data-anchor="claim-to-source">
       <summary>Can I check a claim on any page back to its source?</summary>
       <p>Yes, and that is the point of the structure. Every figure links to a source record carrying the study citation, its methods, the values extracted from it, and the file hash of the document those values were read out of. Each page also lists its references in citation order, alongside the wider set of sources routed to it, and records its own update history.</p>
     </details>
