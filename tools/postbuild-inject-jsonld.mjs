@@ -56,6 +56,9 @@ const METAL_ENTITY_LINKS = {
   uranium: ["https://www.wikidata.org/wiki/Q1098", "https://pubchem.ncbi.nlm.nih.gov/element/92"],
 }
 
+// Element symbol -> metal name, so metals like [Ni] resolve to keywords and the entity links above.
+const METAL_SYMBOL_TO_NAME = { Pb: "lead", Cd: "cadmium", As: "arsenic", Hg: "mercury", Ni: "nickel", Al: "aluminum", Cr: "chromium", Sn: "tin", Sb: "antimony", U: "uranium" }
+
 const PUBLISHER = {
   // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
   // url stays on the live Foundation site until contaminantstandards.com
@@ -282,7 +285,13 @@ function buildJsonLd(category, slug, fm, meta, html) {
   if (category !== "sources") ld.author = AUTHOR
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
+  if (fm.established) ld.datePublished = toIso(fm.established)
   if (fm.description) ld.description = String(fm.description).slice(0, 500)
+  // Metal subject terms: metals stores element symbols like [Ni]; expand to names for keywords and (synthesis) about edges.
+  const metalSyms = Array.isArray(fm.metals) ? fm.metals : (fm.metals ? [fm.metals] : [])
+  const metalNames = metalSyms.map((s) => String(s).trim()).filter(Boolean).map((s) => METAL_SYMBOL_TO_NAME[s] || METAL_SYMBOL_TO_NAME[s.toLowerCase()] || s.toLowerCase())
+  if (metalNames.length) ld.keywords = [...new Set([...metalNames, "heavy metals", "food safety", "dietary exposure"])].join(", ")
+  if (category === "synthesis") { const about = metalNames.map((n) => { const links = METAL_ENTITY_LINKS[n]; return links ? { "@type": "Thing", name: n.charAt(0).toUpperCase() + n.slice(1), sameAs: links } : null }).filter(Boolean); if (about.length) ld.about = about }
 
   // Source pages: the wiki page describes the underlying paper, so populate
   // `about` with the paper's bibliographic metadata when available.
@@ -351,10 +360,10 @@ function buildJsonLd(category, slug, fm, meta, html) {
   if (category === "metals") {
     const entities = METAL_ENTITY_LINKS[slug]
     if (entities && entities.length) ld.sameAs = entities
-
-    const citations = citationEdgesFromHtml(html)
-    if (citations.length) ld.citation = citations
   }
+
+  // Citation-graph edges: every reference page (not the sources themselves) that links to sources becomes a node citing them (was metals-only).
+  if (category !== "sources" && meta.type === "ScholarlyArticle") { const citations = citationEdgesFromHtml(html); if (citations.length) ld.citation = citations }
 
   return ld
 }
