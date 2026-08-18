@@ -16,7 +16,7 @@ import categoryIndex from "../../../data/category-index.json"
 // original FolderContent, so nothing else changes. Grouping comes from
 // data/category-index.json (written by tools/build-category-pages.mjs).
 
-type Member = { slug: string; title: string; symbol?: string }
+type Member = { slug: string; title: string; symbol?: string; count?: number }
 type Cat = { slug: string; label: string; count: number; samples?: string[]; members?: Member[] }
 const INDEX = categoryIndex as unknown as Record<string, Cat[]>
 
@@ -71,22 +71,32 @@ export default ((opts?: { sort?: SortFn }) => {
 
     const directory =
       vertical === "metals" ? (
-        // Small enough for no sub-pages: two grouped columns of metal tiles.
-        cats.map((g) => (
-          <section class="cat-sec">
-            <h2 class="cat-sec-title">{g.label}</h2>
-            <ul class="cat-sec-list">
-              {(g.members ?? []).map((m) => (
-                <li>
-                  <a class="internal" href={resolveRelative(slug, m.slug as SimpleSlug)}>
-                    {m.symbol ? <span class="cat-sym">{m.symbol}</span> : null}
-                    {m.title}
+        // v3 "Full index": grouped grid-of-records — core toxic metals (4-col,
+        // with source counts) then also-tracked stubs (5-col, no count).
+        cats.map((g) => {
+          const isCore = /core/i.test(g.label)
+          return (
+            <section class={`mx-index${isCore ? "" : " mx-index--also"}`}>
+              <div class="mx-group-head">
+                <span class="mx-group-label">{g.label}</span>
+                <span class="mx-group-count">
+                  {g.count} {isCore ? "pages" : "stubs"}
+                </span>
+              </div>
+              <div class={`mx-grid ${isCore ? "mx-grid-4" : "mx-grid-5"}`}>
+                {(g.members ?? []).map((m) => (
+                  <a class="mx-cell" href={resolveRelative(slug, m.slug as SimpleSlug)}>
+                    <span class="mx-cell-sym">{m.symbol}</span>
+                    <span class="mx-cell-name">{m.title}</span>
+                    {isCore && m.count ? (
+                      <span class="mx-cell-count">{m.count.toLocaleString()}</span>
+                    ) : null}
                   </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))
+                ))}
+              </div>
+            </section>
+          )
+        })
       ) : (
         // products / ingredients: a grid of cards linking to the category pages.
         <div class="cat-dir">

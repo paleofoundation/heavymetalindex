@@ -184,7 +184,7 @@ for (const p of readPages("metals", "metal")) {
   const core = CORE_METALS.has(String(p.fm.symbol ?? ""))
   const key = core ? "core" : "other"
   const b = metalMap.get(key) ?? { slug: slugify(core ? "Core toxic metals" : "Also tracked"), label: core ? "Core toxic metals" : "Also tracked", order: core ? 0 : 1, members: [] }
-  b.members.push({ slug: p.slug, title: p.title, symbol: String(p.fm.symbol ?? "") })
+  b.members.push({ slug: p.slug, title: p.title, symbol: String(p.fm.symbol ?? ""), count: Number(p.fm.sources ?? 0) })
   metalMap.set(key, b)
 }
 const metalGroups = [...metalMap.values()].sort((a, b) => a.order - b.order)
@@ -297,7 +297,7 @@ const out = {
   generatedFrom: "tools/build-category-pages.mjs",
   products: productGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.count, samples: g.subs.slice(0, 4).map((s) => s.name) })),
   ingredients: ingredientGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.members.length, samples: g.members.slice(0, 4).map((m) => m.title) })),
-  metals: metalGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.members.length, members: g.members.map((m) => ({ slug: m.slug, title: m.title, symbol: m.symbol })) })),
+  metals: metalGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.members.length, members: g.members.map((m) => ({ slug: m.slug, title: m.title, symbol: m.symbol, count: m.count })) })),
   sources: sourceGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.count, samples: g.samples })),
 }
 fs.mkdirSync(path.join(ROOT, "data"), { recursive: true })

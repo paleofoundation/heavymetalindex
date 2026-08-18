@@ -117,3 +117,34 @@ li.section-li {
     display: none;
   }
 }
+
+// ── v3 metals "Full index" — grid-of-records (CategoryDirectory metals branch) ──
+.mx-index { margin-bottom: 34px; }
+.mx-index:last-child { margin-bottom: 0; }
+.mx-group-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 20px;
+  padding-bottom: 9px; border-bottom: 1px solid #e8e1db; margin-bottom: 14px;
+}
+.mx-group-label {
+  font-family: "IBM Plex Mono", monospace; font-size: 9.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: #8b2a4a;
+}
+.mx-index--also .mx-group-label { color: #a9a1a2; }
+.mx-group-count { font-family: "IBM Plex Mono", monospace; font-size: 10px; color: #b7aeb0; }
+.mx-grid { display: grid; gap: 1px; background: #e8e1db; border: 1px solid #e8e1db; }
+.mx-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.mx-grid-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+@media (max-width: 900px) { .mx-grid-4, .mx-grid-5 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.mx-cell {
+  display: flex; align-items: baseline; gap: 10px; background: #fffdfb;
+  padding: 13px 14px; text-decoration: none;
+  &:hover { background: #fbf5f7; text-decoration: none; }
+  &.internal { background: #fffdfb; border-radius: 0; padding: 13px 14px; }
+}
+.mx-cell-sym {
+  font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.04em;
+  color: #8b2a4a; flex: 0 0 auto;
+}
+.mx-index--also .mx-cell-sym { color: #a9a1a2; }
+.mx-cell-name { font-size: 13.5px; line-height: 1.4; color: #3f3a3f; flex: 1; }
+.mx-cell-count { font-family: "IBM Plex Mono", monospace; font-size: 10px; color: #b7aeb0; flex: 0 0 auto; }

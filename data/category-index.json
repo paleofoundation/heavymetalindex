@@ -534,87 +534,104 @@
         {
           "slug": "metals/aluminum",
           "title": "Aluminum",
-          "symbol": "Al"
+          "symbol": "Al",
+          "count": 534
         },
         {
           "slug": "metals/antimony",
           "title": "Antimony",
-          "symbol": "Sb"
+          "symbol": "Sb",
+          "count": 68
         },
         {
           "slug": "metals/arsenic",
           "title": "Arsenic",
-          "symbol": "As"
+          "symbol": "As",
+          "count": 878
         },
         {
           "slug": "metals/arsenic-inorganic",
           "title": "Arsenic, Inorganic",
-          "symbol": "iAs"
+          "symbol": "iAs",
+          "count": 106
         },
         {
           "slug": "metals/arsenic-total",
           "title": "Arsenic, Total",
-          "symbol": "tAs"
+          "symbol": "tAs",
+          "count": 364
         },
         {
           "slug": "metals/cadmium",
           "title": "Cadmium",
-          "symbol": "Cd"
+          "symbol": "Cd",
+          "count": 1572
         },
         {
           "slug": "metals/chromium",
           "title": "Chromium",
-          "symbol": "Cr"
+          "symbol": "Cr",
+          "count": 871
         },
         {
           "slug": "metals/chromium-hexavalent",
           "title": "Chromium, Hexavalent",
-          "symbol": "Cr-VI"
+          "symbol": "Cr-VI",
+          "count": 70
         },
         {
           "slug": "metals/lead",
           "title": "Lead",
-          "symbol": "Pb"
+          "symbol": "Pb",
+          "count": 1440
         },
         {
           "slug": "metals/mercury",
           "title": "Mercury",
-          "symbol": "Hg"
+          "symbol": "Hg",
+          "count": 876
         },
         {
           "slug": "metals/mercury-total",
           "title": "Mercury, Total",
-          "symbol": "tHg"
+          "symbol": "tHg",
+          "count": 270
         },
         {
           "slug": "metals/mercury-methyl",
           "title": "Methylmercury",
-          "symbol": "MeHg"
+          "symbol": "MeHg",
+          "count": 62
         },
         {
           "slug": "metals/nickel",
           "title": "Nickel",
-          "symbol": "Ni"
+          "symbol": "Ni",
+          "count": 766
         },
         {
           "slug": "metals/organotins",
           "title": "Organotins",
-          "symbol": "organotin"
+          "symbol": "organotin",
+          "count": 16
         },
         {
           "slug": "metals/tin",
           "title": "Tin",
-          "symbol": "Sn"
+          "symbol": "Sn",
+          "count": 227
         },
         {
           "slug": "metals/tin-inorganic",
           "title": "Tin, Inorganic",
-          "symbol": "Sn-inorganic"
+          "symbol": "Sn-inorganic",
+          "count": 14
         },
         {
           "slug": "metals/uranium",
           "title": "Uranium",
-          "symbol": "U"
+          "symbol": "U",
+          "count": 25
         }
       ]
     },
@@ -626,97 +643,116 @@
         {
           "slug": "metals/barium",
           "title": "Barium",
-          "symbol": "Ba"
+          "symbol": "Ba",
+          "count": 45
         },
         {
           "slug": "metals/beryllium",
           "title": "Beryllium",
-          "symbol": "Be"
+          "symbol": "Be",
+          "count": 11
         },
         {
           "slug": "metals/cesium",
           "title": "Cesium",
-          "symbol": "Cs"
+          "symbol": "Cs",
+          "count": 5
         },
         {
           "slug": "metals/cobalt",
           "title": "Cobalt",
-          "symbol": "Co"
+          "symbol": "Co",
+          "count": 133
         },
         {
           "slug": "metals/copper",
           "title": "Copper",
-          "symbol": "Cu"
+          "symbol": "Cu",
+          "count": 314
         },
         {
           "slug": "metals/gold",
           "title": "Gold",
-          "symbol": "Au"
+          "symbol": "Au",
+          "count": 3
         },
         {
           "slug": "metals/iron",
           "title": "Iron",
-          "symbol": "Fe"
+          "symbol": "Fe",
+          "count": 172
         },
         {
           "slug": "metals/lithium",
           "title": "Lithium",
-          "symbol": "Li"
+          "symbol": "Li",
+          "count": 13
         },
         {
           "slug": "metals/magnesium",
           "title": "Magnesium",
-          "symbol": "Mg"
+          "symbol": "Mg",
+          "count": 17
         },
         {
           "slug": "metals/manganese",
           "title": "Manganese",
-          "symbol": "Mn"
+          "symbol": "Mn",
+          "count": 164
         },
         {
           "slug": "metals/molybdenum",
           "title": "Molybdenum",
-          "symbol": "Mo"
+          "symbol": "Mo",
+          "count": 28
         },
         {
           "slug": "metals/palladium",
           "title": "Palladium",
-          "symbol": "Pd"
+          "symbol": "Pd",
+          "count": 4
         },
         {
           "slug": "metals/platinum",
           "title": "Platinum",
-          "symbol": "Pt"
+          "symbol": "Pt",
+          "count": 4
         },
         {
           "slug": "metals/silver",
           "title": "Silver",
-          "symbol": "Ag"
+          "symbol": "Ag",
+          "count": 20
         },
         {
           "slug": "metals/tellurium",
           "title": "Tellurium",
-          "symbol": "Te"
+          "symbol": "Te",
+          "count": 2
         },
         {
           "slug": "metals/thallium",
           "title": "Thallium",
-          "symbol": "Tl"
+          "symbol": "Tl",
+          "count": 13
         },
         {
           "slug": "metals/titanium",
           "title": "Titanium",
-          "symbol": "Ti"
+          "symbol": "Ti",
+          "count": 10
         },
         {
           "slug": "metals/vanadium",
           "title": "Vanadium",
-          "symbol": "V"
+          "symbol": "V",
+          "count": 34
         },
         {
           "slug": "metals/zinc",
           "title": "Zinc",
-          "symbol": "Zn"
+          "symbol": "Zn",
+          "count": 283
         }
       ]
     }
