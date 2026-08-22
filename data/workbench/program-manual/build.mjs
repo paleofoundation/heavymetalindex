@@ -31,10 +31,12 @@ const BUILD = path.join(HERE, "build")
 // Document order. `editions` restricts a file to specific editions.
 const MANIFEST = [
   { file: "00-internal-notice.md",       editions: ["internal"] },
+  { file: "07-primer-intro.md",          editions: ["primer"] },
   { file: "01-edition.md",               editions: ["internal", "public"] },
   { file: "02-toc.md",                   editions: ["internal", "public"] },
   { file: "03-how-to-read-internal.md",  editions: ["internal"] },
   { file: "03-how-to-read-public.md",    editions: ["public"] },
+  { file: "05-orientation.md",           editions: ["internal", "public", "primer"] },
   { file: "10-part1-why.md",             editions: ["internal", "public"] },
   { file: "20-part2-program.md",         editions: ["internal", "public"] },
   { file: "30-part3-standards.md",       editions: ["internal", "public"] },
@@ -43,6 +45,7 @@ const MANIFEST = [
   { file: "60-part6-operations.md",      editions: ["internal"] },
   { file: "90-colophon.md",              editions: ["internal", "public"] },
   { file: "95-references.md",            editions: ["internal", "public"] },
+  { file: "08-primer-next.md",           editions: ["primer"] },
 ]
 
 // Engine-implementation shibboleths that must never appear in either edition
@@ -78,7 +81,9 @@ function assemble(edition) {
   fs.mkdirSync(BUILD, { recursive: true })
   const outName = edition === "internal"
     ? "HMTc-Program-Manual-Internal-2026.md"
-    : "HMTc-Program-Manual-Public-2026.md"
+    : edition === "primer"
+      ? "HMTc-Program-Team-Primer-2026.md"
+      : "HMTc-Program-Manual-Public-2026.md"
   const out = path.join(BUILD, outName)
   fs.writeFileSync(out, master, "utf8")
   const words = master.split(/\s+/).length
@@ -86,6 +91,10 @@ function assemble(edition) {
   return out
 }
 
-const editionArg = (process.argv.find((a) => a.startsWith("--edition=")) || "--edition=both").split("=")[1]
-const editions = editionArg === "both" ? ["internal", "public"] : [editionArg]
+const editionArg = (process.argv.find((a) => a.startsWith("--edition=")) || "--edition=all").split("=")[1]
+const editions = editionArg === "both"
+  ? ["internal", "public"]
+  : editionArg === "all"
+    ? ["internal", "public", "primer"]
+    : [editionArg]
 for (const e of editions) assemble(e)
