@@ -6,30 +6,42 @@ set, certification, surveillance, methodology, and, in the internal edition, pro
 operations). It sits *above* the per-category standards manuals in
 `data/workbench/standards-book/`, which carry one category's master limit tables each.
 
-Two editions are generated from one content set:
+Three editions are generated from one content set:
 
 - **Internal** (`build/HMTc-Program-Manual-Internal-2026.pdf`) — the complete manual,
   including Part 6, Program Operations, and the internal-use notice. For ICS staff.
 - **Public** (`build/HMTc-Program-Manual-Public-2026.pdf`) — the external edition, with
   Part 6 and the internal notice dropped. Everything retained is firewall-safe (no
   brand-level data; the methodology it describes is published on heavymetalcertified.com).
+- **Team Primer** (`build/HMTc-Program-Team-Primer-2026.pdf`) — the ~8-page (body)
+  day-one onboarding doc: the plain-language intro, the end-to-end certification journey,
+  and the at-a-glance cheat sheet (the shared Orientation section), plus a pointer into
+  the full manual. Same source as the manual, so it cannot drift from it.
 
 ## Content files (document order)
 
-`00-internal-notice.md` (internal only) · `01-edition.md` · `02-toc.md` ·
-`03-how-to-read-{internal,public}.md` · `10-part1-why.md` · `20-part2-program.md` ·
-`30-part3-standards.md` · `40-part4-testing.md` · `50-part5-methodology.md` ·
-`60-part6-operations.md` (internal only) · `90-colophon.md` · `95-references.md`.
+`00-internal-notice.md` (internal only) · `07-primer-intro.md` (primer only) ·
+`01-edition.md` · `02-toc.md` · `03-how-to-read-{internal,public}.md` ·
+`05-orientation.md` (all editions: start-here + certification journey + at-a-glance) ·
+`10-part1-why.md` · `20-part2-program.md` · `30-part3-standards.md` ·
+`40-part4-testing.md` · `50-part5-methodology.md` · `60-part6-operations.md`
+(internal only) · `90-colophon.md` · `95-references.md` · `08-primer-next.md`
+(primer only).
 
 Edit the content files, never the assembled masters in `build/` (they are regenerated).
+`05-orientation.md` is shared by the manual and the primer; edit it once and both update.
 
 ## Rebuild
 
 ```
-node data/workbench/program-manual/build.mjs --edition=both
+node data/workbench/program-manual/build.mjs --edition=all
 node tools/standards/render-program-manual.mjs --input=data/workbench/program-manual/build/HMTc-Program-Manual-Internal-2026.md --subtitle="Program Manual" --edition="2026 Edition · Internal" --pdf
 node tools/standards/render-program-manual.mjs --input=data/workbench/program-manual/build/HMTc-Program-Manual-Public-2026.md   --subtitle="Program Manual" --edition="2026 Edition" --pdf
+node tools/standards/render-program-manual.mjs --input=data/workbench/program-manual/build/HMTc-Program-Team-Primer-2026.md     --subtitle="Team Primer"    --edition="2026 Edition · Internal" --pdf
 ```
+
+`--edition=all` builds internal + public + primer; `--edition=both` is internal + public;
+or pass a single edition (`internal`, `public`, `primer`).
 
 `build.mjs` runs a firewall check (engine shibboleths) and an em-dash guard on each
 master. The renderer reuses the shared Typst book template
