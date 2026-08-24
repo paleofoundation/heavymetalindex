@@ -2106,3 +2106,9 @@ Notes: Loaded 57 regulatory-limit rows from 7 non-manifest instruments covering 
 ## [2026-08-10] batch | regulatory-ingest - non-manifest continuation
 
 Loaded 89 regulatory limit rows from 9 additional non-manifest instruments (CA, CN, EU, IN, IL, JP, TW, US), created 9 regulation pages and 9 source pages, and gap-logged 39 remaining non-manifest files or non-routeable subprovisions. This batch follows Karen's override to handle every top-level PDF in /Volumes/HMI-Library/Regulatory documents, not only manifest-listed files.
+
+## [2026-08-24] batch | regulatory-watch primary-verification correction
+
+Pages touched: [[sources/gso2025-2783-heavy-metals-food-catalog]], [[regulations/gso-2783-2025-heavy-metals-food]], [[sources/indiafssai2026-contaminants-amendment-17]], [[regulations/india-fssai-2026-contaminants-amendment]], [[sources/vietnammoh2024-qcvn20-1-health-supplements]], [[regulations/vietnam-qcvn-20-1-2024-health-supplements]], [[sources/mercosur2025-sgt3-project-07-23-metals]], [[regulations/mercosur-project-07-23-metal-contaminants]].
+
+Notes: Re-ran the unresolved Regulatory Watch leads against official primary records. GSO 2783:2025 is verified at catalog-record level without inventing licensed table values or member-state dates. India Amendment 17 is verified as adopted with a 1 December 2026 effective date and a 100 µg/kg inorganic-arsenic fish-oil limit plus a total-arsenic screening sequence. Vietnam QCVN 20-1:2024/BYT is verified as an in-force health-supplement rule with six structured metal-limit rows. MERCOSUR Project Resolution 07/23 is verified as consultation-stage, not binding. The firewall-clean export now carries referenced neutral regulatory-limit records so the certification repository can perform auditable numerical comparisons.
