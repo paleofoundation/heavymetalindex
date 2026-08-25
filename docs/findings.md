@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-144 open item(s): 52 auto, 92 awaiting a decision.
+148 open item(s): 53 auto, 95 awaiting a decision.
 
 ### OI-20260825-standards-provisional-banner — Gate every standard page on the readiness-manifest: show a PROVISIONAL / not-certification-ready banner until COMPLETE+REGISTERED+CORRECTED
 
@@ -546,6 +546,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `heavymetalcertified-app/src/app/portal/application/actions.ts`, `heavymetalcertified-app/src/app/api/scope-panel/[productSlug]/route.ts`, `heavymetalcertified-app/src/lib/testing-cost.ts`, `data/workbench/standards/required-analytes.json`
 - repro: App portal quotes annualTestingCostCents with analyteSet=[...PANEL_CODES] (all 10) for every product regardless of category; scope-panel PDF lists all 11 rows with no per-lot/reflex/conditional distinction. required-analytes.json now encodes obligations per category but nothing reads it.
 - done when: app derives per-lot analyteSet from the registry (per_lot_total + conditional-if-met), not blanket PANEL_CODES; scope-panel marks each analyte per_lot/reflex/conditional; testing-cost excludes reflex+inapplicable analytes; olive-oil glass SKU quotes a 7-element panel
+- decision: _pending_
+
+### OI-20260825-recency-governance-propagation — Propagate cadence-based prior-data recency (§4.5) to governance docs + counsel
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `docs/governance: Lot Testing Schedule §4.3/§4.5`, `heavymetalcertified-app: src/lib/readiness/prior-data-recency.ts`
+- repro: The app now credits prior lots on a cadence-based recency window (continuous 12mo, periodic 18mo, seasonal/oils/honey 24mo) instead of the published flat 12-month §4.5 rule. This is what lets Kasandrinos (olive oil, ~13-month-old lot) credit both priors. The window values + per-category cadence assignment are a governance/counsel decision and must land in the Lot Testing Schedule before litigation-final.
+- done when: Lot Testing Schedule §4.5 states the cadence-based windows; counsel has reviewed the change
 - decision: _pending_
 
 ### OI-20260825-readiness-scoring-residuals — Readiness scoring residuals: onboarding finder assigns placeholder product slugs; government hard-stop never supplied at runtime
@@ -595,12 +603,28 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: prior_lab_report/lab_result store the raw AI extraction JSON alongside confirmed values; an attestation row captures attested_by_user_id, attested_at, and a field-level diff on save; lab_result + readiness_assessment are versioned (append-only) not updated in place; deletes are tombstoned (deleted_at, deleted_by, reason) not hard deletes
 - decision: _pending_
 
+### OI-20260825-public-panel-claim-reword — Reword public 10-analyte-per-product claims to the screened+triggered structure (DOI-registered the-big-8.md + ~10 surfaces)
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/briefings/the-big-8.md`, `content/mark.md`, `content/apply.md`, `content/verify.md`, `content/heavy-metal-testing.md`, `content/heavy-metals-in-baby-food.md`, `content/heavy-metals-in-rice.md`, `content/heavy-metals-in-protein-powder.md`, `content/heavy-metals-in-supplements.md`, `content/heavy-metals-in-dark-chocolate.md`, `content/brands/specimen.md`, `content/program/structure.md`, `heavymetalcertified-app/src/app/hmt/onboarding/OnboardingFlow.tsx`
+- repro: the-big-8.md:88 (DOI-registered flagship briefing) states verbatim the panel does not change by product; every certified product is tested on the full ten-analyte panel in every subcategory, nothing dropped by category. This is the literal negation of the ratified Required-Testing-Panel Ruling (8 totals + species on trigger/bounded). ~10 other public surfaces repeat measured on the ten-analyte panel per product; defense-counsel-briefing.md:66 already has the CORRECT framing (8 totals + species where product or reflex trigger requires) and is the template.
+- done when: every public surface reworded to two-part structure: guaranteed 8-total base panel screened every product (basis-appropriate) + 3 species measured on pathway/reflex trigger, bounded by parent total otherwise; distinguish screened vs governed (sovereign limit vs disclosed baseline-screen); the-big-8.md DOI implications reviewed with counsel before editing the registered artifact; no surface claims a flat ten-analyte-per-product measurement
+- decision: _pending_
+
 ### OI-20260825-portal-usda-fsis-deploy — Deploy portal USDA-inspection gate + FSIS briefing (branch feat/usda-inspected-fsis-gate in heavymetalcertified-app)
 
 - scope: **human-gated** · type: promote · status: open · repo: cert
 - paths: `~/Desktop/heavymetalcertified-app`
 - repro: Built + green on branch feat/usda-inspected-fsis-gate: brand Profile asks USDA-FSIS inspected? (Yes/No/Not-sure); Yes gates the FSIS briefing before-the-meat-label-prints into portal Briefings. next build green, 31/31 tests pass. Supabase column brands.usda_inspected already applied (prod fogsknlpvoxtlogzchkc). Branch also carries a build-unblock lint fix (dangling @typescript-eslint disable in auth/callback broke next build since commit 0053167 — pre-existing, independent of feature). NOT deployed: portal app deploy posture unknown; needs merge + deploy. Notion task 3c71a1bb assigned to Kimberly tracks this.
 - done when: Merge feat/usda-inspected-fsis-gate and deploy the heavymetalcertified-app portal; Brand answering Yes to USDA-inspected sees the FSIS briefing in portal Briefings; No/Not-sure does not; Confirm main portal build is green after merge (lint-unblock fix rides along)
+- decision: _pending_
+
+### OI-20260825-organotin-speciation-decision — Program decision: adopt organotin (TBT/DBT/TPT) speciation for seafood/marine oils?
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `docs/governance/hmtc-governing-principles.md`, `data/workbench/standards-book/source-documents/lot-testing-schedule.md`, `data/workbench/standards/required-analytes.json`
+- repro: HMTc Sn is TOTAL elemental tin, but the real tin hazard in seafood, marine oils, and silicone/PVC food-contact matrices is ORGANOTIN (TBT/DBT/TPT), whose Sn mass is trivial — total Sn passes while missing it (corpus: EFSA SCOOP fish TBT/DBT/TPT; sadighara2021; edible-oil TBT in Liu2016). Adding organotin speciation (LC-/GC-ICP-MS) is a NET-NEW analyte class: scope, methodology, lab availability, cost, and a new Daubert surface. Flagged in Required-Testing-Panel Ruling §5.
+- done when: decide whether organotin joins the analyte program (which categories, mandatory vs reflex); if yes: add organotin obligation to lot-testing-schedule §9 + registry with a disclosed method + phase-in; if no: document total-Sn-as-inorganic-screening framing as the deliberate scope boundary
 - decision: _pending_
 
 ### OI-20260825-olive-oil-cd-profile-stale — Re-synthesize olive-oil ingredient contamination_profile Cd (page says high; pooling engine says not-material at-floor)
@@ -645,14 +669,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: See saved memory project_hmtc_backend_gap_analysis for the full prioritized map. Firewall: none of these write brand data into the index; app is app.heavymetalcertified.com only.
 
-### OI-20260825-governance-policy-8-metals — Reconcile governance-policy.md 8-metals language to the 10-analyte vocabulary
-
-- scope: **human-gated** · type: content · status: open · repo: index
-- paths: `data/workbench/standards-book/source-documents/governance-policy.md`
-- repro: governance-policy.md 2.2 Covered Analytes still frames an eight priority metals grid; current vocab is 10 (Pb,tAs,Cd,iAs,tHg,MeHg,Ni,Al,Cr,Cr-VI). lot-testing-schedule.md 9.3 reconciled 2026-08-25; governance-policy.md not.
-- done when: governance-policy.md 2.2 lists the 10-analyte vocabulary; cross-references lot-testing-schedule 9.3
-- decision: _pending_
-
 ### OI-20260825-datacite-production-registration — Register standards with PRODUCTION DataCite DOIs (readiness gate 2) — blocked on membership approval
 
 - scope: **human-gated** · type: decision · status: open · repo: cert
@@ -660,6 +676,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: No standard carries a DOI; readiness ruling requires a resolvable PRODUCTION DOI. Credentials issued (LKPN.SCEVXU / prefix 10.84435) are TEST/sandbox only; membership is under DataCite Board review. Kimberly action items from Maria Levchenko: resubmit the application with correct annual-revenue bracket and WITHOUT the Claude-is-active-in-this-tab-group banner, set the repository password from the emailed link, then sign the shared application link. Production minting (mint-dois.mjs DATACITE_MODE=live) unblocks only after approval + live prefix in Vercel env.
 - done when: DataCite membership approved + production prefix issued; mint-dois extended to mint per-standard DOIs and stamp doi: frontmatter; standard-readiness-lint REGISTERED gate passes for shipped categories
 - decision: _pending_
+
+### OI-20260825-completing-lot-pricing — Replace placeholder completing-lot cost figures with the real fee schedule
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app: program_cost_inputs`, `heavymetalcertified-app: program_config (product_purchase_handling_cents, shipping_flat_cents, retail_shipping_cents)`
+- repro: The readiness portal now shows brands (e.g. Kasandrinos) an itemized completing-lot estimate: product at retail + shipping-to-us + shipping-to-lab + lab panel. All non-retail inputs are PLACEHOLDERS (is_placeholder=true): per-analyte lab cost $35 (iAs/CrVI $60, MeHg $70), handling $25, ship-to-lab $45, retail shipping $12. The UI marks them provisional. Replace with the real HMTc fee schedule / lab contract figures via the program_cost_inputs + program_config rows in Supabase project fogsknlpvoxtlogzchkc.
+- done when: program_cost_inputs + program_config carry real figures with is_placeholder=false; completing-lot estimate on /portal/readiness reflects real pricing
+- decision: _pending_
+
+### OI-20260825-cert-export-envelope-version — Cert Standards-Finder export top-level source_standard_version is stale (2.2 2026-06-09)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified: content/static/data/standards-finder-context.json (generator)`
+- repro: https://heavymetalcertified.com/static/data/standards-finder-context.json reports source_standard_version 2.2 (2026-06-09) even though per-product standard_version values are current (e.g. olive-oil 1.0 2026-08-14). The published export builder does not bump the top-level envelope version, so the export LOOKS stale even when product data is fresh. Bump the envelope version in the export generator whenever products change.
+- done when: published export source_standard_version reflects the latest standards build date
 
 ### OI-20260825-cat30-cr-gb2762-2025-recheck — Re-verify Cat-30 total-Cr read-across (300 ppb) against GB 2762-2025 after it supersedes GB 2762-2022 on 2026-09-02
 

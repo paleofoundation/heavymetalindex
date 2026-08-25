@@ -38,7 +38,7 @@ This Policy applies to finished products in the infant and young child food cate
 
 ### 2.2 Covered Analytes and Metal Classification
 
-The Program evaluates products against action levels for eight priority toxic heavy metals. For the purposes of governance, enforcement, and transitional allowances, these metals are classified into two tiers based on their toxicological profiles:
+The Program evaluates products against action levels for eight priority toxic heavy metals. Because arsenic, mercury, and chromium each carry a toxic *speciated* form in addition to their total, these eight metals resolve to the **ten-analyte certification vocabulary** — Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Al, total Cr, Cr-VI — measured as up to eleven cells where total chromium is reported alongside its hexavalent-chromium screen. The **eight base totals** (Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr) are the universal per-lot screening panel; the **three toxic species** (iAs, MeHg, Cr-VI) are assayed on trigger per the Required-Testing-Panel Ruling (HMTc Governing Principles) and Lot Testing Schedule §9 — mandatory where a defining pathway or a species-only regulatory limit applies, reflex otherwise, and not-applicable where the matrix reduces the species to a non-toxic form (Cr(VI)→Cr(III) in food/lipid). For the purposes of governance, enforcement, and transitional allowances, the metals are classified into two tiers based on their toxicological profiles:
 
 #### 2.2.1 Tier 1 Metals (Zero Tolerance for Exceedance)
 

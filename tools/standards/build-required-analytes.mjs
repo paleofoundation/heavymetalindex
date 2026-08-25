@@ -74,21 +74,35 @@ for (const [catId, cat] of Object.entries(reg.categories || {})) {
       if (a.obligation === "not_applicable" && a.tier === 1)
         fail.push(`${at}: not_applicable is never permitted on a Tier-1 analyte`);
 
-      // 3. speciation triggers reference a real per_lot_total parent
-      if (a.obligation === "reflex_speciation" || a.obligation === "mandatory_speciation") {
+      // 3. speciation obligations
+      if (a.obligation === "reflex_speciation") {
         const parent = a.parent_total;
         const p = parent ? analytes[parent] : undefined;
-        if (!p) { fail.push(`${at}: ${a.obligation} names parent_total "${parent}" which is not an analyte on this standard`); }
+        if (!p) { fail.push(`${at}: reflex_speciation names parent_total "${parent}" which is not an analyte on this standard`); }
         else {
           if (p.obligation !== "per_lot_total") fail.push(`${at}: parent_total "${parent}" must be per_lot_total so the screen always runs (got "${p.obligation}")`);
           if (typeof p.limit_ppb !== "number") fail.push(`${at}: parent_total "${parent}" has no numeric limit to screen against`);
-          if (a.obligation === "reflex_speciation") {
-            const trg = a.reflex_trigger_ppb;
-            if (typeof trg !== "number" || trg <= 0) fail.push(`${at}: reflex_trigger_ppb must be a positive number (got ${trg})`);
-            else if (typeof p.limit_ppb === "number" && trg > REFLEX_MAX_FRACTION * p.limit_ppb)
-              fail.push(`${at}: reflex trigger ${trg} exceeds 50% of parent ${parent} limit ${p.limit_ppb} (${REFLEX_MAX_FRACTION * p.limit_ppb}) — §9 forbids raising above 50%`);
+          const trg = a.reflex_trigger_ppb;
+          if (typeof trg !== "number" || trg <= 0) { fail.push(`${at}: reflex_trigger_ppb must be a positive number (got ${trg})`); }
+          else {
+            // corrected trigger: min(species limit if published, 50% of parent limit)
+            const cap = [];
+            if (typeof p.limit_ppb === "number") cap.push(REFLEX_MAX_FRACTION * p.limit_ppb);
+            if (typeof a.limit_ppb === "number") cap.push(a.limit_ppb); // published species limit
+            const ceiling = cap.length ? Math.min(...cap) : Infinity;
+            if (trg > ceiling)
+              fail.push(`${at}: reflex trigger ${trg} exceeds min(species limit, 50% parent) = ${ceiling} — under-catches; §4 corrected trigger`);
           }
         }
+      }
+      if (a.obligation === "mandatory_speciation") {
+        // valid EITHER via a per_lot_total parent (defining-pathway case) OR structurally
+        // (a published species limit with no bounding parent total, e.g. apple-juice iAs).
+        const parent = a.parent_total;
+        const p = parent ? analytes[parent] : undefined;
+        if (parent && !p) fail.push(`${at}: mandatory_speciation names parent_total "${parent}" which is not an analyte on this standard`);
+        else if (p && p.obligation !== "per_lot_total") fail.push(`${at}: parent_total "${parent}" must be per_lot_total (got "${p.obligation}")`);
+        else if (!p && typeof a.limit_ppb !== "number") fail.push(`${at}: mandatory_speciation with no parent_total must carry its own numeric species limit_ppb (structural condition)`);
       }
 
       // 4. conditional needs a condition

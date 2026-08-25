@@ -264,105 +264,160 @@ every "ready" claim reads from. No category may be flagged ready by hand.
 
 ## Required-Testing-Panel Ruling (which analytes a lot must be assayed for)
 
-Operative 2026-08-25, authored under standing `wwsaid` delegation in response to a
-directive to build a data-driven per-category testing rule (see changelog; conservative
-posture). Binding on every category, every subcategory, every row. Companion to the
-Certification-Readiness Ruling above.
+Ratified by Karen 2026-08-25; refined the same day after a program-wide stress-test across
+all 13 category archetypes and every public claim surface. Binding on every category, every
+subcategory, every row. Companion to the Certification-Readiness Ruling above.
 
 **Every analyte carries a published limit (the ruling above); not every analyte must be
 independently assayed on every lot.** These are two different axes, and conflating them is
 a defect in both directions: forcing a brand to pay for a test whose result is a foregone
-conclusion is waste that drives clean brands away, and waiving a test on a contaminant
-that is actually present is the indefensible gap a plaintiff's expert exploits. This
-ruling governs the second axis — the per-lot testing obligation — without ever touching
-the first. A waived, bounded, or conditional analyte keeps its published limit-of-record;
-the testing rule changes only whether the lot must carry an independent assay for it.
+conclusion is waste that drives clean brands away, and waiving a test on a contaminant that
+is actually present is the indefensible gap a plaintiff's expert exploits. This ruling
+governs the second axis — the per-lot testing obligation — without ever touching the first.
+A waived, bounded, or conditional analyte keeps its published limit-of-record; the testing
+rule changes only whether the lot must carry an independent assay for it.
 
-### 1. The invariant
+### 1. The invariant: two objects, two axes
 
-A standard's limit set and its required-testing panel are separate objects. The limit set
-is complete for every analyte (Certification-Readiness Ruling §1). The required-testing
-panel is a per-(standard, analyte) obligation drawn from a fixed vocabulary. Removing an
-analyte from the per-lot panel never removes or weakens its published limit; if a reflex
-or conditional trigger fires, the full published limit governs the resulting assay.
+A standard's **limit set** and its **required-testing panel** are separate objects. The
+limit set is complete for every analyte (Certification-Readiness Ruling §1). The
+required-testing panel is a per-(standard, analyte) obligation drawn from a fixed
+vocabulary. A second distinction governs how the panel is claimed publicly: an analyte is
+**screened** (measured on the base run for that product) versus **governed** (compared
+at-or-below a *sovereign* published limit). Every certified product is screened for the
+universal set; a cell is governed only where a real government limit exists. Where none
+exists the cell carries a disclosed baseline-screen (a testable "< LOQ by method X"), never
+a manufactured limit — inventing a number to look governed is the Daubert-exposed move
+Method v2.0 exists to avoid. "Screened for 8" and "governed by a sovereign limit" are
+therefore distinct claims and must never be collapsed into one sentence.
 
-### 2. The obligation vocabulary
+### 2. The universal 8-metal set is basis-appropriate, not basis-uniform
+
+Every certified product is screened for the **same eight heavy metals** — Pb, Cd, arsenic,
+mercury, Ni, Al, chromium, Sn — with **no metal dropped because a category is assumed not
+to carry it**. What varies is the **measurement basis**, set by how the category is legally
+regulated, not by which metals are looked for. Three bases:
+
+- **(a) Content basis** — foods, beverages and water, supplements, pet food, and topicals
+  (cosmetics, oral-care/mucosal, cannabis, home-care chemicals). The eight are measured as
+  total content in a single multi-element ICP-MS determination (total mercury by ICP-MS or a
+  validated dedicated method, CVAFS/DMA). The four Tier-1 toxic totals (Pb, Cd, tAs, tHg)
+  are `per_lot_total` on every such product without exception. The four Tier-2 totals (Ni,
+  Al, total Cr, Sn) are `per_lot_total` wherever they ride that same run — essentially
+  always for a digestible/soluble matrix, because the marginal cost of each added element is
+  ~nil.
+- **(b) Migration / release basis** — food-contact kitchenware and packaging (Cat-23),
+  infant feeding contact (Cat-9), toys and arts-and-crafts (Cat-21), and per-component
+  article goods (durable goods and textiles, Cat-10). The **same eight metals** are
+  evaluated, but as element *release* / specific migration into food or food simulant
+  (EU 10/2011), EN 71-3 soluble-scrape migration in mg/kg-of-material, or per-accessible-
+  component extractable/total content — **never** as a whole-product acid-digestion content
+  panel, which is the wrong instrument and is forbidden by each standard's `basis_guard`
+  ("BASIS NEVER CONFLATED"). In this basis total Cr is governed via a Cr-VI release control
+  and Sn is frequently `not_material`; that composition difference is basis-driven, not a
+  coverage gap.
+- **(c) Pharmacopeial-only basis** — classes with no sovereign content ML (peptides/SARMs,
+  Cat-26). The eight are measured against route-specific USP <232>/<2232> PDE-derived
+  ceilings, disclosed as dose-based elemental-impurity controls, never folded into an
+  "8 totals against published limits" sentence.
+
+The public claim is therefore over the **8-metal set and the coverage guarantee**, scoped
+by basis — not a flat "one acid digestion measures all 8 as content on every product,"
+which is false for contact materials.
+
+### 3. The obligation vocabulary
 
 Each analyte on each standard resolves to exactly one obligation:
 
-- **`per_lot_total`** — the total-element assay is required on every surveillance lot.
-  This is the base ICP-MS panel (one acid digestion, many elements measured together, so
-  the marginal cost of each added element is small). Every Tier-1 toxic total (Pb, Cd,
-  tAs, tHg) is `per_lot_total` on every food standard without exception — they are cheap,
-  they ride the same run, and they are the "we screened for everything" litigation shield.
-  A Tier-2 total (Ni, Al, total Cr, Sn) is `per_lot_total` wherever the corpus shows it
-  materially present or a plausible pathway exists.
-- **`reflex_speciation`** — the expensive species assay (iAs, MeHg, Cr-VI) is required
-  only when its parent total meets the reflex trigger (default: parent-total result ≥ 50%
-  of the parent-total limit — Lot Testing Schedule §9; the Program Operator may lower this,
-  never raise it). Below the trigger the species is bounded by its parent total
-  (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr), so a separate assay is mathematically
-  redundant, not skipped. The parent total is always `per_lot_total`, so the screen is
-  never absent.
-- **`mandatory_speciation`** — the species assay is required on every baseline and every
-  lot regardless of the parent total, because the category has a defining pathway or
-  materially-present toxic species (iAs for rice and rice-derived products; MeHg for fish
-  and marine ingredients). This is the strongest obligation and is set from the corpus,
-  not convenience.
-- **`conditional`** — required only when a stated, verifiable condition holds (e.g., tin
-  only when packaging is tinplate or a metal can; an ingredient-driven analyte only when
-  that ingredient is present). Outside the condition there is no pathway and the corpus
-  shows no occurrence.
-- **`baseline_monitor`** — assayed at program entry (the three-lot baseline) to establish
-  the limit-of-record, then not re-tested every lot unless a reflex, change, or
-  surveillance trigger fires. For analytes with a firm limit but low per-lot
-  value-of-information in that category.
-- **`not_applicable`** — no assay required in any lot; the published limit stands as a
-  bounded or read-across ceiling for the record. Reserved for the narrow case where the
-  corpus (at adequate n) shows the analyte never present at a material level AND no pathway
-  exists AND it is not a Tier-1 toxic. Never applied to a Tier-1 toxic total.
+- **`per_lot_total`** — total-element assay on every surveillance lot (the base run).
+- **`reflex_speciation`** — the species assay (iAs, MeHg, Cr-VI) is required only when its
+  parent total meets the reflex trigger (§4). Below it the species is bounded by its parent
+  total, so a separate assay is mathematically redundant, not skipped. The parent total is
+  always `per_lot_total`, so the screen is never absent.
+- **`mandatory_speciation`** — the species assay is required on baseline and every lot
+  regardless of the parent total, set from a defining pathway or a structural condition (§4).
+- **`conditional`** — required only when a stated, verifiable condition holds. Reserved for
+  net-new obligations (e.g. organotin speciation for marine matrices) and never used to
+  waive one of the eight base totals.
+- **`baseline_monitor`** — assayed at the three-lot baseline to establish the
+  limit-of-record, then not re-tested per lot unless a trigger fires. Permitted for a Tier-2
+  total in a category where no pathway and no sovereign limit exist.
+- **`not_applicable`** — no assay in any lot; the published limit stands for the record.
+  Permitted only for a Tier-2 total where a documented formulation fact removes the pathway
+  (e.g. total aluminium in an aluminium-salt antiperspirant, where the active is the analyte)
+  or a migration-basis category where the metal has no release pathway.
 
-### 3. The classification is data-driven
+**The guardrail (revised).** `conditional` / `baseline_monitor` / `not_applicable` are
+**forbidden on the four Tier-1 toxic totals** (Pb, Cd, tAs, tHg) on any content-basis
+product — those four are always `per_lot_total`, the "we screened for everything" shield.
+A Tier-2 total (Ni, Al, total Cr, Sn) **may** be `baseline_monitor` or a disclosed
+read-across/baseline-screen where the corpus shows no pathway and no sovereign limit (e.g.
+Al/total-Cr/Sn in a narrow-sovereign-panel cosmetic). **Tin (Sn) is `per_lot_total` on the
+base run wherever it rides free, and its value is framed as inorganic/packaging-tin
+screening — not organotin protection** (see §5). The rule may only ever remove a *redundant
+or inapplicable* assay (a parent-bounded speciation; a no-pathway Tier-2 total), never an
+*informative* one.
 
-An analyte's obligation for a category is derived, not asserted, from four inputs, in this
-order:
+### 4. Reflex trigger (corrected) and mandatory-speciation conditions
 
-1. **Occurrence in the curated corpus** — detection frequency and upper tail (p95) for
-   that analyte in that category, at adequate n. A high or regulated upper tail forces
-   `per_lot_total` (or `mandatory_speciation` for a species).
-2. **Pathway/mechanism** — is there a plausible contamination route (soil uptake, marine
-   bioaccumulation, packaging migration, processing/catalyst carryover)? A pathway that
-   exists only under a condition yields `conditional`; no pathway plus no occurrence is the
-   precondition for `baseline_monitor` or `not_applicable`.
-3. **Species-bounding** — for the three speciated pairs, the parent total mathematically
-   caps the species, which is what makes `reflex_speciation` defensible.
-4. **Regulatory presence** — informs but never overrides; the program screens even where
-   no government regulates.
+**Reflex trigger.** Speciate when the parent total reaches
+`min(species limit where one is published, 50% of the parent-total limit)`, accounting for
+measurement uncertainty. The flat 50%-of-parent heuristic alone *under-catches* whenever the
+species limit sits below half the parent limit: drinking-water Cr-VI (total-Cr 25, Cr-VI 10)
+and seaweed iAs (tAs 5000, iAs 1000) would both slip a compliant-looking total past a
+non-compliant species. The true mathematical bound is the species limit — below it the
+species cannot exceed it; at or above it, it can.
 
-The classification and its evidence live in
-`data/workbench/standards/required-analytes.json`, one obligation per (standard, analyte)
-with a cited rationale, and are re-derived when a cell's evidence base materially grows
-(the same trigger discipline as synthesis). No obligation is set by hand without a corpus
-basis recorded.
+**Matrix-stability qualifier.** The species-limit trigger applies only where the species
+*persists* in the matrix. Where a matrix documentedly reduces the species to a non-toxic
+form — hexavalent chromium reduces to trivalent chromium in food and lipid matrices — the
+species is `not_applicable` for that category: the parent total is still screened every lot
+and an anomalous total exceedance is investigated, but a routine species assay is not
+required. Without this qualifier the species-limit trigger would force Cr-VI speciation on
+nearly every food, because food total chromium routinely exceeds the small hexavalent-
+chromium ceiling — a cost with no informational return where the toxic species cannot
+survive the matrix. The qualifier never applies where the species is stable (Cr-VI in water;
+inorganic arsenic and methylmercury generally), which is exactly why those stay reflex or
+mandatory.
 
-### 4. Defensibility guardrail
+**Mandatory speciation** (not reflex) applies in two cases:
 
-The rule may only ever remove *redundant or inapplicable* assays, never *informative*
-ones. Concretely: never waive a Tier-1 toxic total; only skip a speciation the parent
-total already bounds, or a total for which the category has no pathway and no occurrence.
-The saving to a clean brand is real (a category that triggers no speciation runs one
-ICP-MS panel, not three separate LC-ICP-MS runs); the exposure created is nil, because
-every skipped assay is either mathematically bounded by one that was run or has no pathway
-to the product.
+1. **Defining pathway** (corpus-driven), enumerated in Lot Testing Schedule §9.2:
+   iAs for rice and rice-derived products, fruit juice, and seaweed/algae/clay-mineral
+   supplements; MeHg for fish/marine foods, fish-containing composites, fish sauces and
+   broths, and marine-protein pet food; Cr-VI for drinking water, toys and arts-and-crafts,
+   chrome-tanned leather and textiles, and pigment cosmetics and tattoo inks.
+2. **Structural** — wherever a regulator sets a **species limit with no bounding
+   parent-total limit**, reflex is impossible (there is no total to take a fraction of), so
+   the species must be assayed directly. The canonical case is apple/grape juice, where FDA
+   regulates iAs at 10 ppb and no total-arsenic ML exists.
 
-### 5. Enforcement
+### 5. Identified gaps requiring a program decision
 
-`tools/standards/build-required-analytes.mjs` validates the registry (every compiled
-analyte carries an obligation; obligations are in-vocabulary; each `reflex_speciation`
-names a `per_lot_total` parent whose limit exists and a trigger ≤ 50% of it; no Tier-1
-total is `not_applicable`) and emits the cert-side copy the panel-completeness lint reads.
-A standard is not testing-scope-complete until every one of its compiled analytes carries
-an obligation.
+Two items surfaced by the stress-test are **not resolved by this ruling** and require an
+explicit governance/counsel decision before they are treated as settled:
+
+- **Organotin.** In seafood, marine oils, and silicone/PVC food-contact matrices the real
+  tin hazard is *organotin* (TBT/DBT/TPT), whose elemental-Sn mass is trivial — so a total-Sn
+  assay passes while missing the hazard. Total Sn stays on the base run as inorganic/packaging
+  screening; adding organotin speciation (LC-/GC-ICP-MS) is a **net-new analyte class**
+  (scope, methodology, cost, Daubert surface) and is flagged for decision, not yet adopted.
+- **Claim-gating.** The public "every product screened for 8, each governed by a limit"
+  claim is honest only once the Certification-Readiness completion sweep has driven every
+  base-total cell to a non-null limit-of-record across the content-basis categories, verified
+  against the compiled records (not the finder projection). Until then the claim is gated.
+
+### 6. Classification is data-driven; enforcement
+
+An obligation is derived, not asserted, from corpus occurrence (detection frequency and
+upper tail at adequate n), pathway/mechanism, species-bounding, and regulatory presence, in
+that order. The classification and its cited evidence live in
+`data/workbench/standards/required-analytes.json`, re-derived when a cell's evidence base
+materially grows. `tools/standards/build-required-analytes.mjs` validates the registry
+(every compiled analyte carries an in-vocabulary obligation; no Tier-1 toxic total is
+exempt; each reflex trigger is `min(species limit, 50% parent)`; each mandatory-speciation
+names its defining-pathway or structural condition) and emits the cert-side copy the
+panel-completeness lint reads.
 
 ## Scope
 
@@ -375,11 +430,11 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.4 — August 2026**
+**Version 2.5 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.4 | 2026-08-25 | Added the **Required-Testing-Panel Ruling**, authored under standing `wwsaid` delegation in response to a directive to build a data-driven per-category testing rule (conservative posture — never waive a Tier-1 total or an informative assay). Separates the per-lot testing obligation (which analytes a lot must be independently assayed for) from the published limit set (every analyte still carries a limit per the Certification-Readiness Ruling). Fixed obligation vocabulary (`per_lot_total`, `reflex_speciation`, `mandatory_speciation`, `conditional`, `baseline_monitor`, `not_applicable`), a data-driven classification from corpus occurrence + pathway + species-bounding, and a defensibility guardrail. Machine registry at `data/workbench/standards/required-analytes.json`, validated and fanned to cert by `tools/standards/build-required-analytes.mjs`. First category operationalized: Cat-30 (olive oil, cooking oils). Not yet ratified by Karen — operative-by-delegation pending her read. |
+| 2.5 | 2026-08-25 | Added and ratified the **Required-Testing-Panel Ruling** (Karen: "if we say we test every product for 8 analytes, we should — test 8 totals universally, trigger speciation from findings"), then refined it the same day after a program-wide stress-test across all 13 category archetypes and every public claim surface. Separates the per-lot testing obligation from the published limit set, and the *screened* axis from the *governed* axis. The 8-metal set is universal but **basis-appropriate** (content ICP-MS for ingestibles/topicals; element-release/migration for contact materials; USP PDE for pharmacopeial-only classes). Guardrail: `conditional`/`baseline_monitor`/`not_applicable` forbidden on the four Tier-1 toxic totals; permitted for a Tier-2 total with no pathway and no sovereign limit. Reflex trigger corrected to `min(species limit, 50% of parent-total limit)` (flat-50% under-catches water Cr-VI, seaweed iAs). Mandatory speciation expanded (iAs: rice + fruit juice + seaweed/algae/clay supplements; MeHg: fish/marine + composites/sauces/broths + marine pet food; Cr-VI: water + toys/crafts + leather/textiles + pigment cosmetics/tattoo) and given a structural trigger (species limit with no parent total, e.g. apple-juice iAs). Two items flagged for a separate program/counsel decision: organotin speciation (net-new analyte class) and public-claim gating on the completion sweep. Registry `data/workbench/standards/required-analytes.json` (Cat-30 pilot; Sn flipped conditional→per_lot_total), validated + fanned by `tools/standards/build-required-analytes.mjs`. Downstream: DOI'd public content (the-big-8.md et al.) reword is human-gated, tracked in the ledger. |
 | 2.3 | 2026-08-25 | Added the **Certification-Readiness Ruling**: every analyte carries a limit-of-record (no empty `control`/`not-material` cells — firm number, species-bounded-by-total, or baseline/LOQ screen), under a mandatory provenance-honesty discipline; and a three-condition certification-readiness gate (COMPLETE + REGISTERED [production DOI] + CORRECTED). Supersedes the "no number where no government regulates" posture. Enforced by `standard-readiness-lint`. Ratified by Karen 2026-08-25. |
 | 1.0 | April 2026 | Initial version. |
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |
