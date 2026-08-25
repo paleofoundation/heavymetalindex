@@ -1,6 +1,8 @@
 {
   "slug": "canned-seafood",
   "name": "Canned seafood (canned tuna, canned fish)",
+  "category": 6,
+  "category_name": "Seafood",
   "native_basis": "as_consumed",
   "canned": true,
   "variants": {
@@ -78,6 +80,11 @@
             "converted": true,
             "id": "vn_qcvn8_2_2011_pb_fish-fillets_300"
           },
+          "HK": {
+            "value": 300,
+            "converted": true,
+            "id": "hk_cap132v_pb_fish_300"
+          },
           "AU-NZ": {
             "value": 500,
             "converted": true,
@@ -117,6 +124,11 @@
             "value": 100,
             "converted": true,
             "id": "cn_ias_canned-complementary-foods-for-infants-a_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_ias_fish_100"
           }
         }
       },
@@ -208,6 +220,11 @@
             "converted": true,
             "id": "vn_qcvn8_2_2011_thg_aquatic-products_500"
           },
+          "HK": {
+            "value": 500,
+            "converted": true,
+            "id": "hk_cap132v_thg_aquatic-animals-other-than-fish_500"
+          },
           "EU": {
             "value": 1000,
             "converted": true,
@@ -246,17 +263,48 @@
         }
       },
       "MeHg": {
-        "type": "subsumed",
-        "value": null,
-        "subsumed_by": "tHg",
-        "binding_tHg": 500,
-        "binding_tHg_source": "CR",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No government sets a methylmercury limit for this product below the binding total-mercury ceiling (500 µg/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.",
-        "candidate": {
-          "type": "gov",
-          "value": 500,
-          "source_jurisdiction": "MX",
-          "source_id": "mx_nom242_mehg_other_500"
+        "type": "gov",
+        "value": 500,
+        "value_exact": 500,
+        "binding_jurisdiction": "MX",
+        "binding_id": "mx_nom242_mehg_other_500",
+        "basis_note": "face value",
+        "per_country": {
+          "MX": {
+            "value": 500,
+            "converted": true,
+            "id": "mx_nom242_mehg_other_500"
+          },
+          "PH": {
+            "value": 500,
+            "converted": true,
+            "id": "ph_pns194_2017_fish_mehg_500"
+          },
+          "TT": {
+            "value": 500,
+            "converted": true,
+            "id": "tt_fooddrugs_2007_fish_except_predatory_mehg_500"
+          },
+          "VN": {
+            "value": 500,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_mehg_fish-excluding-carnivorous-fish_500"
+          },
+          "HK": {
+            "value": 500,
+            "converted": true,
+            "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
+          },
+          "TH": {
+            "value": 1000,
+            "converted": true,
+            "id": "th_moph414_2020_mehg_predator_fish_other_1000"
+          },
+          "GSO": {
+            "value": 1200,
+            "converted": true,
+            "id": "gso193_2021_mehg_tuna_1200"
+          }
         }
       },
       "Cd": {
@@ -317,6 +365,11 @@
             "converted": true,
             "id": "ma_2410_2022_cd_3_2_13_chair_musculaire_des_poissons_suivants_maquereau_scomber_sp_thon_thunn_100"
           },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_cd_fish_100"
+          },
           "IN": {
             "value": 300,
             "converted": true,
@@ -333,6 +386,46 @@
             "id": "th_moph414_2020_cd_fish_1000"
           }
         }
+      },
+      "Ni": {
+        "type": "read_across",
+        "value": 2000,
+        "value_exact": 2000,
+        "source_id": "eu2024_ni_husked_rice_2000",
+        "source_jurisdiction": "EU",
+        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed canned-fish nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Cr": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_crtotal_fish_1000",
+        "basis_note": "face value",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": true,
+            "id": "hk_cap132v_crtotal_fish_1000"
+          },
+          "IN": {
+            "value": 12000,
+            "converted": true,
+            "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
+          }
+        }
+      },
+      "Cr-VI": {
+        "type": "read_across",
+        "value": 10,
+        "value_exact": 10,
+        "source_id": "ca_swrcb_crvi_drinking_water_10",
+        "source_jurisdiction": "US-CA",
+        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
       },
       "Sn": {
         "type": "gov",
@@ -358,6 +451,16 @@
             "id": "cr_rtcr409_2008_sn_canned_200000"
           }
         }
+      },
+      "Al": {
+        "type": "read_across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; canned-fish aluminium occurrence (up to about 34000) sits below it, so clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
       }
     }
   },

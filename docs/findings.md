@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-148 open item(s): 53 auto, 95 awaiting a decision.
+154 open item(s): 53 auto, 101 awaiting a decision.
 
 ### OI-20260825-standards-provisional-banner — Gate every standard page on the readiness-manifest: show a PROVISIONAL / not-certification-ready banner until COMPLETE+REGISTERED+CORRECTED
 
@@ -546,6 +546,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `heavymetalcertified-app/src/app/portal/application/actions.ts`, `heavymetalcertified-app/src/app/api/scope-panel/[productSlug]/route.ts`, `heavymetalcertified-app/src/lib/testing-cost.ts`, `data/workbench/standards/required-analytes.json`
 - repro: App portal quotes annualTestingCostCents with analyteSet=[...PANEL_CODES] (all 10) for every product regardless of category; scope-panel PDF lists all 11 rows with no per-lot/reflex/conditional distinction. required-analytes.json now encodes obligations per category but nothing reads it.
 - done when: app derives per-lot analyteSet from the registry (per_lot_total + conditional-if-met), not blanket PANEL_CODES; scope-panel marks each analyte per_lot/reflex/conditional; testing-cost excludes reflex+inapplicable analytes; olive-oil glass SKU quotes a 7-element panel
+- decision: _pending_
+
+### OI-20260825-reg-provenance-wiki-pages — Create wiki regulations pages + archive primary PDFs for the restored register instruments (France CSHPF seaweed, China GB 2762-2022, Brazil IN 160/2022)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/regulations/france-cshpf-edible-seaweed.md`, `wiki/regulations/china-gb-2762-2022-contaminants.md`, `wiki/regulations/brazil-anvisa-in-160-2022-contaminants.md`, `raw/regulatory/`
+- repro: 15 register rows restored 2026-08-25 (France CSHPF x4, China GB2762 x9, Brazil IN160 x2) reference regulation_page slugs whose wiki pages do not exist. Values are primary-verified in the row notes (China: USDA CH2023-0040; Brazil: ANVISA IN160; French iAs corroborated by llorente-mirandes2011) so this is documentation, not defensibility-critical (90 pre-existing register rows already lack wiki pages, tolerated). Creating them needs the regulations-page template + routing/linking so they are not orphaned.
+- done when: wiki/regulations pages exist for the 3 instruments, following the regulations template, linked (not orphaned); primary PDFs archived under raw/regulatory/{fr,cn,br}/; index build + routing/orphan lint pass
+- decision: _pending_
+
+### OI-20260825-recompile-loosening-gate — HARD GATE: cat27/28/29/32/34 loosen or drop live limits on recompile (config/scope drift) — reconcile before the completion sweep touches them
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/outstanding/2026-08-25-cert-index-recompile-drift-map.md`, `tools/standards/compile-cat27.mjs`, `tools/standards/compile-cat28.mjs`, `tools/standards/compile-cat32.mjs`, `tools/standards/compile-cat34.mjs`, `tools/standards/cat29-config.json`
+- repro: Corpus audit while completing Cat-6. ID-traceability was restored (11 China GB2762 + Brazil IN160 + 4 France CSHPF rows re-added to the register, index 4de7dfa5b/774b7bf15; divergence audit now 0 unresolved across 321 live cert records). BUT a fresh recompile of cat27/28/29/32/34 still loosens 19 live limit cells (nut Pb 200->1000, soy-sauce Cd 100->1000, condiment Pb 1000->2000, etc.) and drops 6 (soy Cr, mushroom Ni x3, condiment iAs x2) — because the restored rows scopes and a deeper config/scope drift (present rows pa_decreto467/uy_rbn_general no longer win) mean these categories no longer reproduce their live values. Full map in the target report.
+- done when: OI-20260825 completion sweep skips cat27/28/29/32/34 until each is reconciled; For each of the 5 categories: recompile reproduces every live cert value (round-trip diff clean) before any recompile-and-ship; No live cert protective limit is loosened or dropped
 - decision: _pending_
 
 ### OI-20260825-recency-governance-propagation — Propagate cadence-based prior-data recency (§4.5) to governance docs + counsel
@@ -669,6 +685,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: See saved memory project_hmtc_backend_gap_analysis for the full prioritized map. Firewall: none of these write brand data into the index; app is app.heavymetalcertified.com only.
 
+### OI-20260825-fr-cshpf-seaweed-source-archival — Archive France CSHPF edible-seaweed primary source + create wiki regulations page
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/france-cshpf-edible-seaweed.md`, `raw/regulatory/fr/`
+- repro: Register rows fr_cshpf_seaweed_{ias_3000,cd_500,pb_5000,thg_100} were added to restore the live cert seaweed standard's binding values (a provenance gap: the cert cited these IDs but they were absent from the register). Values match documented French/CEVA edible-seaweed thresholds and the live cert; iAs 3 mg/kg corroborated in-corpus by llorente-mirandes2011. But the rows carry a placeholder regulation_page (regulations/france-cshpf-edible-seaweed) with no wiki page and no archived primary PDF.
+- done when: Primary CSHPF/CEVA edible-seaweed recommendation PDF archived in raw/regulatory/fr/; wiki/regulations/france-cshpf-edible-seaweed.md created with the citation + values; register url field populated for the 4 fr_cshpf_seaweed rows
+- decision: _pending_
+
+### OI-20260825-finder-panel-completeness-guard — Guard: Standards Finder export panel must equal the full compiled panel (Cr-VI/MeHg were silently dropped)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified/tools/build-standards-finder-context.mjs`, `heavymetalcertified/tools/panel-completeness-lint.mjs`
+- repro: FIXED the data: finder ANALYTE_ORDER dropped Cr-VI + MeHg (9 of 11), so the readiness app never received hexavalent chromium (cert 0904c71; app 55244ce reads Cr-VI + bounds species). REMAINING: add a lint that fails the cert build if the finder export panel != the compiled standard panel, so a future analyte can never be silently dropped from the app again (panel-completeness-lint guards the standard PAGES, not the finder export).
+- done when: A lint asserts finder ANALYTE_ORDER covers every analyte present in the compiled standards; Build fails if the finder drops a compiled analyte
+- decision: _pending_
+
 ### OI-20260825-datacite-production-registration — Register standards with PRODUCTION DataCite DOIs (readiness gate 2) — blocked on membership approval
 
 - scope: **human-gated** · type: decision · status: open · repo: cert
@@ -685,6 +717,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: program_cost_inputs + program_config carry real figures with is_placeholder=false; completing-lot estimate on /portal/readiness reflects real pricing
 - decision: _pending_
 
+### OI-20260825-cert-index-standard-provenance-divergence — Audit whether other live cert standards cite register binding-ids absent from the index register (or would GAP/loosen on recompile)
+
+- scope: **human-gated** · type: audit · status: open · repo: cert
+- paths: `data/standards/*-compiled/*.json`, `../heavy-metal-index/data/evidence/regulatory_limits.csv`
+- repro: The live cert seaweed JSON cited fr_cshpf_seaweed_* binding-ids that never existed in the index register, and cephalopod/predatory total-Cr had scope gaps that a fresh compile turns into GAPs. This means the live cert seafood standards had diverged from what the current index compiler+register reproduce. The same divergence may exist in other cert categories built before the current compiler/register state, so a recompile-and-complete sweep (the OI-20260825 program-wide backlog) could silently change or loosen live values.
+- done when: For each cert *-compiled record, every binding_id/source_id/candidate id resolves to a row in the index register; Flag any category where a fresh index recompile would change an existing firm government value (loosening) or introduce a GAP; Report is reviewed before the program-wide analyte-completion sweep touches those categories
+- decision: _pending_
+
 ### OI-20260825-cert-export-envelope-version — Cert Standards-Finder export top-level source_standard_version is stale (2.2 2026-06-09)
 
 - scope: **auto** · type: code-fix · status: open · repo: cert
@@ -698,6 +738,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/regulatory_limits.csv`, `tools/standards/cat30-config.json`
 - repro: Olive-oil + cooking-oils-other total-Cr reads across china_gb2762_cr_liquid_milk_300 (GB 2762-2022). GB 2762-2025 supersedes 2026-09-02; if the liquid-milk total-Cr value changes, update the register row + recompile Cat-30 and re-render cert.
 - done when: GB 2762-2025 liquid-milk total-Cr value confirmed vs 300 ppb; If changed: register updated, compile-cat30 rerun, cert re-rendered + pushed
+
+### OI-20260825-bounded-species-display — Show bounded species as "<= total (bounded)" across the cert standard page + the readiness portal
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `heavymetalcertified/tools/build-category-standard-pages.mjs`, `heavymetalcertified-app/src/app/portal/readiness/ReadinessWorkspace.tsx`, `heavymetalcertified-app/src/lib/readiness/compute-readiness.ts`
+- repro: Karen (2026-08-25) wants bounded species well understood. resolve-standard now returns a `bounded` flag (iAs<=tAs, MeHg<=tHg, bounded Cr-VI<=total Cr) and the number displays, but the portal/table does not yet render the "<=" / bounded tag (the value shows like a firm number). Thread `bounded` through compute-readiness -> perAnalyte -> the results table so a bounded cell reads "<= 100 (bounded by total arsenic, reflex-speciated)", and mirror the explicit ceiling on the cert standard page (show "<= 100" not the word "bounded"). Also settle the reflex-vs-baseline terminology Karen raised (baseline speciation != reflex).
+- done when: Portal + cert page show bounded species as an explicit <= ceiling with a bounded/reflex label; No bounded cell reads as a bare firm number or a blank
+- decision: _pending_
 
 ### OI-20260825-analytes-finder-context-stale — Re-sync app standards-finder-context + analytes.ts to Cat-30 v1.1 (Cr-VI=10 read-across, iAs bounded)
 
