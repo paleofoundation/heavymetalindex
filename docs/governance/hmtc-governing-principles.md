@@ -192,6 +192,76 @@ and improving limits.
 
 ---
 
+## Certification-Readiness Ruling (analyte completeness + DOI registration)
+
+Ratified 2026-08-25. Binding on every category, every subcategory, every row.
+
+**A standard is not a standard until every analyte carries a limit, and a category
+is not certification-ready until its standards are registered.** Two failures this
+ruling ends: (1) standards shipped with empty analyte cells (`control` /
+`not-material` with `value: null`), which give a laboratory no number to test a
+result against; (2) categories presented as "ready" on the website or in program
+materials when their standards are incomplete or unregistered.
+
+### 1. Every analyte carries a limit-of-record (no empty cells)
+
+No published or registered standard may leave any of the certification panel's
+analyte cells empty. Each cell must resolve to exactly one of:
+
+- **Firm numeric ceiling** — the strictest applicable government maximum level
+  (`regulatory-alignment`), or, where no government regulates the exact product,
+  a disclosed **read-across** to the nearest applicable sovereign instrument on the
+  row's native basis (`read-across`).
+- **Species bounded by its parent total** — a toxic species is a component of its
+  total and is bounded by it: iAs ≤ tAs, MeHg ≤ tHg, Cr(VI) ≤ total Cr. A bounded
+  cell is an enforceable ceiling (enforced by reflex speciation), not an empty cell.
+- **Baseline limit-of-record** — where no government limit, no exposure pathway, no
+  occurrence data, and no analogous matrix exist, the cell is still set: a baseline
+  screen at the method limit of quantification (a testable "< LOQ by method X"),
+  established once for the record. Some analytes are not meaningful to re-test every
+  lot; those are flagged **baseline / monitor** rather than per-lot, but the number
+  is still published. Absence of a pathway is a reason to set a baseline, never a
+  reason to leave the cell blank.
+
+`control` / `not-material` with `value: null` is **not permitted** on a certifiable
+standard. The prior "we do not publish a number where no government regulates"
+posture is superseded by this ruling.
+
+### 2. Honesty discipline (the non-negotiable condition)
+
+Completeness never licenses fabrication or overclaiming. Every filled cell carries
+its **true provenance tag** (`regulatory-alignment`, `read-across`, bounded/subsumed,
+or `baseline-screen`). A read-across is disclosed as a read-across and is never
+presented as direct governance of the product where none exists. A baseline is
+labeled as a baseline. Every number traces to a real basis in
+`data/evidence/regulatory_limits.csv` or a named method. This is the Part 2 / Part 12
+firewall and the verify-don't-fabricate rule applied to limit-setting: a defensible
+number honestly labeled, never a convenient number dressed up as science.
+
+### 3. The certification-readiness gate (three conditions, all required)
+
+A category or subcategory is **certification-ready** only when all three hold:
+
+1. **COMPLETE** — every panel analyte carries a limit-of-record per §1.
+2. **REGISTERED** — the standard has a resolvable, production DataCite DOI (a
+   test/sandbox DOI does not satisfy this; production registration depends on the
+   DataCite membership being approved and a live prefix configured).
+3. **CORRECTED** — the standard passes the full standards lint battery: values
+   verified against the register, panel coherence, method-drift, and the firewall.
+
+Until all three hold, the category is **not ready for certification** and must not be
+presented as ready anywhere — website, program materials, sales, or the readiness
+manifest. A scaffold (an empty or near-empty standard) is never described as a
+standard. "We can be ready" is the honest claim before registration; "ready" is
+reserved for categories that clear all three gates.
+
+### 4. Enforcement
+
+`standard-readiness-lint` (cert repo) is the machine: it fails the build if any
+published standard has an empty analyte cell, and it computes each category's
+readiness state (COMPLETE / REGISTERED / CORRECTED) into a readiness manifest that
+every "ready" claim reads from. No category may be flagged ready by hand.
+
 ## Scope
 
 This methodology applies to every category in the HMTc index, not to
@@ -203,10 +273,11 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.2 — August 2026**
+**Version 2.3 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.3 | 2026-08-25 | Added the **Certification-Readiness Ruling**: every analyte carries a limit-of-record (no empty `control`/`not-material` cells — firm number, species-bounded-by-total, or baseline/LOQ screen), under a mandatory provenance-honesty discipline; and a three-condition certification-readiness gate (COMPLETE + REGISTERED [production DOI] + CORRECTED). Supersedes the "no number where no government regulates" posture. Enforced by `standard-readiness-lint`. Ratified by Karen 2026-08-25. |
 | 1.0 | April 2026 | Initial version. |
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |
 | 1.2 | May 2026 | Clarified that benchmark percentiles are HMTc benchmark-pool calculations, not values individual studies are expected to report; added jurisdiction-aware benchmark pool rule. |
