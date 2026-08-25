@@ -513,7 +513,40 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-130 open item(s): 48 auto, 82 awaiting a decision.
+144 open item(s): 52 auto, 92 awaiting a decision.
+
+### OI-20260825-standards-provisional-banner — Gate every standard page on the readiness-manifest: show a PROVISIONAL / not-certification-ready banner until COMPLETE+REGISTERED+CORRECTED
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified/tools/build-category-standard-pages.mjs`, `heavymetalcertified/data/standards/readiness-manifest.json`
+- repro: A hollow/incomplete standard page (e.g. cat15 menstrual line: all 11 cells empty) currently renders as a real Standard, which is the false-ready problem Karen flagged. The renderer should read data/standards/readiness-manifest.json and render a clear PROVISIONAL / not-yet-certification-ready banner on any page whose entry is not ready:true, and every site claim of readiness (for-brands, apply, program/readiness, index) should read from the manifest rather than presenting all published standards as ready.
+- done when: Standard pages with manifest ready:false show a provisional banner; No surface presents an incomplete/unregistered category as certification-ready; Banner clears automatically when the category becomes COMPLETE+REGISTERED+CORRECTED
+- decision: _pending_
+
+### OI-20260825-standards-numeric-completeness — Founder rule: every analyte must carry a specified limit — apply Cat-30 read-across completion program-wide (control/not-material null cells)
+
+- scope: **human-gated** · type: decision · status: queued · repo: cert
+- paths: `tools/standards/*-config.json`, `data/standards/*-compiled/*.json`, `heavymetalcertified/tools/build-cert-cat9-pages.mjs`, `heavymetalcertified/tools/build-cert-cat17-pages.mjs`
+- repro: Karen (2026-08-25): a category is NOT finished until every analyte has a specified numeric limit; control/not-material with value=null is unacceptable. Fixed for Cat-30 olive oil + cooking-oils-other (Ni/Cr/Cr-VI/Sn/Al now numeric read-across; MeHg bounded). But many other live categories still ship null control/not-material cells (e.g. Cat-9 contact products, Cat-17 pet foods, and others), and the cert renderers for those categories PUBLICLY frame control/not-material as a deliberate we-do-not-invent-numbers defensibility posture. Applying the same read-across numeric completion program-wide changes disclosed cert content + methodology posture (Part 2 / Part 19), so it needs Karens explicit direction before a fleet drain.
+- done when: Karen decides: apply numeric read-across completion to ALL categories with null control/not-material cells, OR keep the disclosed control/not-material posture for genuinely-unregulated (esp. non-food) cells with a documented exemption list; Once decided, either drain the completion across categories or codify the exemption policy
+- decision: **APPROVE: Ruling ratified 2026-08-25 (governance v2.3). Every analyte carries a limit-of-record; readiness = COMPLETE + REGISTERED + CORRECTED. Applying program-wide via per-category chips + standard-readiness-lint.**
+- notes: Surfaced while fixing olive oil per Karens urgent request. The Cat-30 fix pattern (adversarially-verified read-across to nearest sovereign instrument, disclosed) is the reusable template.
+
+### OI-20260825-standards-fanout-deploy-hook — Close the last fan-out hop: cert standards deploy should auto-trigger an app redeploy (Vercel deploy hook)
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app/scripts/sync-standards.mjs`
+- repro: Fan-out is now: index compile -> cert (push main = deploy) -> app (prebuild fetches the LIVE published export on every build, fixed 2026-08-25 app 324a2e2). The app is fresh as of its last deploy, but a cert standards deploy does NOT automatically redeploy the app, so the app can lag until its next deploy. To make cert->app fully automatic, configure a Vercel Deploy Hook on the heavymetalcertified-app project and have the cert (heavymetalcertified) production deploy POST to it (Vercel dashboard: Project Settings > Git > Deploy Hooks; or a cert postbuild curl to the hook URL). Needs Vercel dashboard access — cannot be done from a code session without the hook URL/credentials.
+- done when: A cert production deploy triggers an app redeploy automatically; Verified: a standards change on cert appears on app.heavymetalcertified.com without a manual app deploy
+- decision: _pending_
+
+### OI-20260825-required-analytes-app-wiring — Wire cert app scope-panel + testing-cost to the required-analytes registry (stop costing all 10 analytes for every product)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified-app/src/app/portal/application/actions.ts`, `heavymetalcertified-app/src/app/api/scope-panel/[productSlug]/route.ts`, `heavymetalcertified-app/src/lib/testing-cost.ts`, `data/workbench/standards/required-analytes.json`
+- repro: App portal quotes annualTestingCostCents with analyteSet=[...PANEL_CODES] (all 10) for every product regardless of category; scope-panel PDF lists all 11 rows with no per-lot/reflex/conditional distinction. required-analytes.json now encodes obligations per category but nothing reads it.
+- done when: app derives per-lot analyteSet from the registry (per_lot_total + conditional-if-met), not blanket PANEL_CODES; scope-panel marks each analyte per_lot/reflex/conditional; testing-cost excludes reflex+inapplicable analytes; olive-oil glass SKU quotes a 7-element panel
+- decision: _pending_
 
 ### OI-20260825-readiness-scoring-residuals — Readiness scoring residuals: onboarding finder assigns placeholder product slugs; government hard-stop never supplied at runtime
 
@@ -530,6 +563,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: The 37 tests cover only the pure scoring engine; nothing tests the ingest->save->score seam where both live bugs lived. Separately, retention_class never promotes to of_record and there is no purge job, so any promised data lifecycle is copy-only (the false 90-day claim was removed today).
 - done when: a test exercises upload extraction -> grid confirm -> saveLabReport -> recomputeReadiness including nondetect rows; a promotion path sets retention_class=of_record when a lot supports certification; a scheduled purge removes exploratory reports + storage objects per the stated policy, OR the policy stays absent from UI
 - decision: _pending_
+
+### OI-20260825-readiness-hardening-promote — Ship readiness assessment-shape hardening (b59e63f) to app.heavymetalcertified.com prod
+
+- scope: **human-gated** · type: promote · status: queued · repo: cert
+- paths: `heavymetalcertified-app/src/app/portal/readiness/page.tsx`, `heavymetalcertified-app/scripts/seed-kasandrinos.mjs`
+- repro: Commit b59e63f on heavymetalcertified-app master normalizes the readiness_assessment shape (fixes /portal/readiness digest 4163486798, per_analyte + baseline). Committed but origin/master is still 6bae627 (prod). Ships on the next git push origin master, which also carries the peer session stacked commits a5b10d4 (grandfather) + 65b18bb (challenge). Karen already unblocked via a live DB data fix.
+- done when: origin/master contains b59e63f; app.heavymetalcertified.com /portal/readiness renders a brand with a stub/empty assessment without a 500
+- decision: **APPROVE: shipped live — Karen greenlit the GTM stack; peer pushed origin/master 6bae627->625b0c6 (ff), so b59e63f + 0000b35 readiness guards are LIVE. All 3 migrations (0006/0007/0008) confirmed applied. Kasandrinos DB row now carries real engine assessments (1/3, insufficient_data); synthetic row gone.**
+
+### OI-20260825-readiness-engine-test-tsc — Pre-existing tsc --noEmit error in readiness-engine.test.ts (analyte string not MeasuredAnalyte)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified-app/src/lib/readiness/readiness-engine.test.ts`
+- repro: cd ~/Desktop/heavymetalcertified-app && npx tsc --noEmit -> error TS2322 at readiness-engine.test.ts(188,52): mixed array literal widens analyte to string, not assignable to ReadinessResultInput[]. Does NOT block npm run build (build typecheck excludes tests); pollutes tsc --noEmit only. Pre-existing, unrelated to the readiness 500 fix.
+- done when: npx tsc --noEmit passes clean in heavymetalcertified-app; readiness-engine vitest suite still green
 
 ### OI-20260825-readiness-basis-integrity — Readiness portal: carry and convert measurement basis instead of hard-coding basisConvertible=true (P5)
 
@@ -555,6 +603,38 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Merge feat/usda-inspected-fsis-gate and deploy the heavymetalcertified-app portal; Brand answering Yes to USDA-inspected sees the FSIS briefing in portal Briefings; No/Not-sure does not; Confirm main portal build is green after merge (lint-unblock fix rides along)
 - decision: _pending_
 
+### OI-20260825-olive-oil-cd-profile-stale — Re-synthesize olive-oil ingredient contamination_profile Cd (page says high; pooling engine says not-material at-floor)
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `wiki/ingredients/olive-oil.md`
+- repro: wiki/ingredients/olive-oil.md contamination_profile (reviewed 2026-05-16) rates Cd high confidence typical 1-30 p95 50; later pooling engine + standards-not-material.csv put Cd at ~3 ug/kg floor, adjudicated not-material (partitions to press-cake).
+- done when: olive-oil.md Cd sub-block re-synthesized against current pool; confidence/typical/p95 reconciled with the not-material adjudication or divergence explained
+
+### OI-20260825-numeric-completeness-lint — Certification-readiness lint (analyte completeness + DOI gate) — SHIPPED
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified/tools/standard-readiness-lint.mjs`, `heavymetalcertified/data/standards/readiness-manifest.json`
+- repro: SHIPPED heavymetalcertified f7fb7f8: standard-readiness-lint + readiness-manifest, wired into prebuild warn-only, flips to --strict when empty-cell backlog=0.
+- done when: Lint live (done); Flip to --strict once readiness-manifest empty_cells=0
+- decision: _pending_
+
+### OI-20260825-hmtc-recency-cadence-governance — Propagate cadence-based prior-data recency into §4.5 governance + counsel review
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/workbench/standards-book/source-documents`
+- repro: The HMTc app readiness engine now sets the §4.5 prior-data-credit recency window by product testing cadence (continuous 12mo / periodic 18mo / seasonal 24mo) instead of a flat 12 months, because low-frequency categories (olive oil = per-harvest) were being wrongly disqualified. The published Governance §4.5 / Lot Testing Schedule §4.3 still say within 12 months. App and standard now DIVERGE until governance is updated.
+- done when: Governance §4.5 + Lot Testing Schedule §4.3 updated to cadence-based recency (or Karen sets the authoritative windows); Per-category cadence assignment ratified (which categories are continuous/periodic/seasonal); Counsel (Amanda Bruss, Trestle) reviews the change for defensibility; App src/lib/readiness/prior-data-recency.ts values reconciled to the ratified standard
+- evidence: heavymetalcertified-app commit 625b0c6 · memory project_hmtc_go_to_market
+- decision: _pending_
+- notes: Karen directed this (she owns standards). Defensibility: §4.5 is a litigation-facing rule; the app must not drift from the published standard. Values in the app are a first cut.
+
+### OI-20260825-hmtc-readiness-test-type-error — heavymetalcertified-app: readiness-engine.test.ts fails tsc (MeasuredAnalyte)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `/Users/karenpendergrass/Desktop/heavymetalcertified-app/src/lib/readiness/readiness-engine.test.ts`
+- repro: cd ~/Desktop/heavymetalcertified-app && npx tsc --noEmit -> TS2322 at readiness-engine.test.ts:188: a test fixture array types analyte as string, not MeasuredAnalyte. Pre-existing (unrelated to the grandfather build); tsc otherwise clean.
+- done when: npx tsc --noEmit exits 0; npx vitest run still green
+
 ### OI-20260825-hmtc-app-launch-gaps — HMTc brand portal: launch-readiness gap backlog vs paleofoundation backend
 
 - scope: **human-gated** · type: audit · status: open · repo: cert
@@ -564,6 +644,37 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - evidence: scratchpad/gap/{1,2,3,4}.md scout inventories · memory: project_hmt_onboarding_readiness_build · deliverable: HMTc launch-gap analysis artifact
 - decision: _pending_
 - notes: See saved memory project_hmtc_backend_gap_analysis for the full prioritized map. Firewall: none of these write brand data into the index; app is app.heavymetalcertified.com only.
+
+### OI-20260825-governance-policy-8-metals — Reconcile governance-policy.md 8-metals language to the 10-analyte vocabulary
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `data/workbench/standards-book/source-documents/governance-policy.md`
+- repro: governance-policy.md 2.2 Covered Analytes still frames an eight priority metals grid; current vocab is 10 (Pb,tAs,Cd,iAs,tHg,MeHg,Ni,Al,Cr,Cr-VI). lot-testing-schedule.md 9.3 reconciled 2026-08-25; governance-policy.md not.
+- done when: governance-policy.md 2.2 lists the 10-analyte vocabulary; cross-references lot-testing-schedule 9.3
+- decision: _pending_
+
+### OI-20260825-datacite-production-registration — Register standards with PRODUCTION DataCite DOIs (readiness gate 2) — blocked on membership approval
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`, `heavymetalcertified/docs/DOI-MINTING-LEDGER.md`
+- repro: No standard carries a DOI; readiness ruling requires a resolvable PRODUCTION DOI. Credentials issued (LKPN.SCEVXU / prefix 10.84435) are TEST/sandbox only; membership is under DataCite Board review. Kimberly action items from Maria Levchenko: resubmit the application with correct annual-revenue bracket and WITHOUT the Claude-is-active-in-this-tab-group banner, set the repository password from the emailed link, then sign the shared application link. Production minting (mint-dois.mjs DATACITE_MODE=live) unblocks only after approval + live prefix in Vercel env.
+- done when: DataCite membership approved + production prefix issued; mint-dois extended to mint per-standard DOIs and stamp doi: frontmatter; standard-readiness-lint REGISTERED gate passes for shipped categories
+- decision: _pending_
+
+### OI-20260825-cat30-cr-gb2762-2025-recheck — Re-verify Cat-30 total-Cr read-across (300 ppb) against GB 2762-2025 after it supersedes GB 2762-2022 on 2026-09-02
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `tools/standards/cat30-config.json`
+- repro: Olive-oil + cooking-oils-other total-Cr reads across china_gb2762_cr_liquid_milk_300 (GB 2762-2022). GB 2762-2025 supersedes 2026-09-02; if the liquid-milk total-Cr value changes, update the register row + recompile Cat-30 and re-render cert.
+- done when: GB 2762-2025 liquid-milk total-Cr value confirmed vs 300 ppb; If changed: register updated, compile-cat30 rerun, cert re-rendered + pushed
+
+### OI-20260825-analytes-finder-context-stale — Re-sync app standards-finder-context + analytes.ts to Cat-30 v1.1 (Cr-VI=10 read-across, iAs bounded)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified-app/src/data/standards-finder-context.json`, `heavymetalcertified-app/src/lib/readiness/analytes.ts`
+- repro: App finder context shows olive-oil iAs limit null and folds Cr-VI (regulatory_only); source-of-truth cat30-compiled/olive-oil.json v1.1 has iAs bounded-by-tAs and Cr-VI=10 read-across. analytes.ts header carries an OPEN STANDARDS DECISION about Cr-VI/MeHg that the 2026-08-25 Certification-Readiness Ruling resolved (bounded, not regulatory_only).
+- done when: finder context regenerated from v1.1 source; Cr-VI and MeHg treated as bounded per Readiness Ruling; analytes.ts OPEN STANDARDS DECISION comment updated
+- decision: _pending_
 
 ### OI-20260824-struggle-forecast-rollout — Roll out 'What is likely to struggle' to every compiled category (each subcategory) + render into cert
 

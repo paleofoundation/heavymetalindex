@@ -262,6 +262,108 @@ published standard has an empty analyte cell, and it computes each category's
 readiness state (COMPLETE / REGISTERED / CORRECTED) into a readiness manifest that
 every "ready" claim reads from. No category may be flagged ready by hand.
 
+## Required-Testing-Panel Ruling (which analytes a lot must be assayed for)
+
+Operative 2026-08-25, authored under standing `wwsaid` delegation in response to a
+directive to build a data-driven per-category testing rule (see changelog; conservative
+posture). Binding on every category, every subcategory, every row. Companion to the
+Certification-Readiness Ruling above.
+
+**Every analyte carries a published limit (the ruling above); not every analyte must be
+independently assayed on every lot.** These are two different axes, and conflating them is
+a defect in both directions: forcing a brand to pay for a test whose result is a foregone
+conclusion is waste that drives clean brands away, and waiving a test on a contaminant
+that is actually present is the indefensible gap a plaintiff's expert exploits. This
+ruling governs the second axis — the per-lot testing obligation — without ever touching
+the first. A waived, bounded, or conditional analyte keeps its published limit-of-record;
+the testing rule changes only whether the lot must carry an independent assay for it.
+
+### 1. The invariant
+
+A standard's limit set and its required-testing panel are separate objects. The limit set
+is complete for every analyte (Certification-Readiness Ruling §1). The required-testing
+panel is a per-(standard, analyte) obligation drawn from a fixed vocabulary. Removing an
+analyte from the per-lot panel never removes or weakens its published limit; if a reflex
+or conditional trigger fires, the full published limit governs the resulting assay.
+
+### 2. The obligation vocabulary
+
+Each analyte on each standard resolves to exactly one obligation:
+
+- **`per_lot_total`** — the total-element assay is required on every surveillance lot.
+  This is the base ICP-MS panel (one acid digestion, many elements measured together, so
+  the marginal cost of each added element is small). Every Tier-1 toxic total (Pb, Cd,
+  tAs, tHg) is `per_lot_total` on every food standard without exception — they are cheap,
+  they ride the same run, and they are the "we screened for everything" litigation shield.
+  A Tier-2 total (Ni, Al, total Cr, Sn) is `per_lot_total` wherever the corpus shows it
+  materially present or a plausible pathway exists.
+- **`reflex_speciation`** — the expensive species assay (iAs, MeHg, Cr-VI) is required
+  only when its parent total meets the reflex trigger (default: parent-total result ≥ 50%
+  of the parent-total limit — Lot Testing Schedule §9; the Program Operator may lower this,
+  never raise it). Below the trigger the species is bounded by its parent total
+  (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr), so a separate assay is mathematically
+  redundant, not skipped. The parent total is always `per_lot_total`, so the screen is
+  never absent.
+- **`mandatory_speciation`** — the species assay is required on every baseline and every
+  lot regardless of the parent total, because the category has a defining pathway or
+  materially-present toxic species (iAs for rice and rice-derived products; MeHg for fish
+  and marine ingredients). This is the strongest obligation and is set from the corpus,
+  not convenience.
+- **`conditional`** — required only when a stated, verifiable condition holds (e.g., tin
+  only when packaging is tinplate or a metal can; an ingredient-driven analyte only when
+  that ingredient is present). Outside the condition there is no pathway and the corpus
+  shows no occurrence.
+- **`baseline_monitor`** — assayed at program entry (the three-lot baseline) to establish
+  the limit-of-record, then not re-tested every lot unless a reflex, change, or
+  surveillance trigger fires. For analytes with a firm limit but low per-lot
+  value-of-information in that category.
+- **`not_applicable`** — no assay required in any lot; the published limit stands as a
+  bounded or read-across ceiling for the record. Reserved for the narrow case where the
+  corpus (at adequate n) shows the analyte never present at a material level AND no pathway
+  exists AND it is not a Tier-1 toxic. Never applied to a Tier-1 toxic total.
+
+### 3. The classification is data-driven
+
+An analyte's obligation for a category is derived, not asserted, from four inputs, in this
+order:
+
+1. **Occurrence in the curated corpus** — detection frequency and upper tail (p95) for
+   that analyte in that category, at adequate n. A high or regulated upper tail forces
+   `per_lot_total` (or `mandatory_speciation` for a species).
+2. **Pathway/mechanism** — is there a plausible contamination route (soil uptake, marine
+   bioaccumulation, packaging migration, processing/catalyst carryover)? A pathway that
+   exists only under a condition yields `conditional`; no pathway plus no occurrence is the
+   precondition for `baseline_monitor` or `not_applicable`.
+3. **Species-bounding** — for the three speciated pairs, the parent total mathematically
+   caps the species, which is what makes `reflex_speciation` defensible.
+4. **Regulatory presence** — informs but never overrides; the program screens even where
+   no government regulates.
+
+The classification and its evidence live in
+`data/workbench/standards/required-analytes.json`, one obligation per (standard, analyte)
+with a cited rationale, and are re-derived when a cell's evidence base materially grows
+(the same trigger discipline as synthesis). No obligation is set by hand without a corpus
+basis recorded.
+
+### 4. Defensibility guardrail
+
+The rule may only ever remove *redundant or inapplicable* assays, never *informative*
+ones. Concretely: never waive a Tier-1 toxic total; only skip a speciation the parent
+total already bounds, or a total for which the category has no pathway and no occurrence.
+The saving to a clean brand is real (a category that triggers no speciation runs one
+ICP-MS panel, not three separate LC-ICP-MS runs); the exposure created is nil, because
+every skipped assay is either mathematically bounded by one that was run or has no pathway
+to the product.
+
+### 5. Enforcement
+
+`tools/standards/build-required-analytes.mjs` validates the registry (every compiled
+analyte carries an obligation; obligations are in-vocabulary; each `reflex_speciation`
+names a `per_lot_total` parent whose limit exists and a trigger ≤ 50% of it; no Tier-1
+total is `not_applicable`) and emits the cert-side copy the panel-completeness lint reads.
+A standard is not testing-scope-complete until every one of its compiled analytes carries
+an obligation.
+
 ## Scope
 
 This methodology applies to every category in the HMTc index, not to
@@ -273,10 +375,11 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.3 — August 2026**
+**Version 2.4 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.4 | 2026-08-25 | Added the **Required-Testing-Panel Ruling**, authored under standing `wwsaid` delegation in response to a directive to build a data-driven per-category testing rule (conservative posture — never waive a Tier-1 total or an informative assay). Separates the per-lot testing obligation (which analytes a lot must be independently assayed for) from the published limit set (every analyte still carries a limit per the Certification-Readiness Ruling). Fixed obligation vocabulary (`per_lot_total`, `reflex_speciation`, `mandatory_speciation`, `conditional`, `baseline_monitor`, `not_applicable`), a data-driven classification from corpus occurrence + pathway + species-bounding, and a defensibility guardrail. Machine registry at `data/workbench/standards/required-analytes.json`, validated and fanned to cert by `tools/standards/build-required-analytes.mjs`. First category operationalized: Cat-30 (olive oil, cooking oils). Not yet ratified by Karen — operative-by-delegation pending her read. |
 | 2.3 | 2026-08-25 | Added the **Certification-Readiness Ruling**: every analyte carries a limit-of-record (no empty `control`/`not-material` cells — firm number, species-bounded-by-total, or baseline/LOQ screen), under a mandatory provenance-honesty discipline; and a three-condition certification-readiness gate (COMPLETE + REGISTERED [production DOI] + CORRECTED). Supersedes the "no number where no government regulates" posture. Enforced by `standard-readiness-lint`. Ratified by Karen 2026-08-25. |
 | 1.0 | April 2026 | Initial version. |
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |

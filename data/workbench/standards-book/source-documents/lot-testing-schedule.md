@@ -75,8 +75,8 @@ All SKUs entering the HMTc Program must undergo baseline testing across three (3
 ### 4.1 Baseline Testing Requirements
 
 - Three lots must be tested, each representing a distinct production run (different dates, shifts, or ingredient lots where possible).
-- Each lot is tested for the full heavy metals panel (all eight priority metals).
-- Speciation testing is performed where required by the Standards methodology (inorganic arsenic for rice-containing products; methylmercury for fish-containing products; hexavalent chromium where a credible pathway exists).
+- Each lot is tested for the full required testing panel for the product's category — the per-lot total analytes defined in §9 and the per-category registry (`data/workbench/standards/required-analytes.json`), across the ten-analyte certification vocabulary (Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Al, total Cr, Cr-VI). Baseline is where an analyte's obligation of `baseline / monitor` is discharged.
+- Speciation testing is performed per §9: mandatory where the category has a defining pathway (inorganic arsenic for rice-containing products; methylmercury for fish-containing products), reflex when a parent total reaches its trigger, and where a credible pathway exists for hexavalent chromium.
 - Sampling follows the composite method: each analytical sample is a composite drawn from multiple consumer units across the lot.
 - Chain-of-custody documentation is required for all baseline samples.
 
@@ -202,18 +202,39 @@ Reflex tests must use the full heavy metals panel and follow all standard sampli
 
 ---
 
-## 9. Speciation Requirements
+## 9. Required Testing Panel and Speciation Scope
 
-Speciation analysis determines the specific chemical form of a metal present, which is critical for accurate risk assessment. The following speciation requirements apply:
+Not every analyte that carries a published limit must be independently assayed on every lot. The **required testing panel** for a product is the set of analytes a lot must actually be tested for; it is distinct from the **limit set**, which is complete for every analyte on every standard (HMTc Governing Principles, Certification-Readiness Ruling §1). Removing an analyte from the per-lot panel never removes its published limit — a bounded or conditional analyte is still governed by its full limit whenever a trigger fires. The per-category panel is authored under the **Required-Testing-Panel Ruling** (Governing Principles) and recorded, one obligation per (standard, analyte) with a cited corpus rationale, in `data/workbench/standards/required-analytes.json`.
+
+### 9.1 Testing obligations
+
+Each analyte on each standard carries exactly one obligation:
+
+| Obligation | What the lot must do | Set when |
+|---|---|---|
+| **Per-lot total** | Total-element assay on every surveillance lot (base ICP-MS panel) | Every Tier-1 toxic total (Pb, Cd, tAs, tHg) always; any Tier-2 total (Ni, Al, total Cr, Sn) the corpus shows materially present or with a plausible pathway |
+| **Reflex speciation** | Species assay (iAs, MeHg, Cr-VI) only when the parent total reaches the reflex trigger | The category has no defining speciation pathway; the parent total bounds the species below the trigger |
+| **Mandatory speciation** | Species assay on baseline and every lot, regardless of the parent total | The category has a defining pathway or materially-present toxic species (iAs for rice; MeHg for fish/marine) |
+| **Conditional** | Assay required only when a stated condition holds (packaging, ingredient) | A pathway exists only under that condition (e.g., tin only for tinplate/metal-can packaging) |
+| **Baseline / monitor** | Assay at the three-lot baseline; not re-tested per lot unless a trigger fires | Firm limit but low per-lot value-of-information for the category |
+| **Not applicable** | No assay in any lot; the published limit stands for the record | Adequate-n corpus shows the analyte never materially present AND no pathway AND not a Tier-1 toxic |
+
+### 9.2 Speciation requirements
+
+Speciation analysis determines the specific chemical form of a metal present, which is critical for accurate risk assessment. The three speciated analytes default to reflex unless a category's pathway makes them mandatory:
 
 | Metal | Form of Concern | Mandatory Speciation | Reflex Speciation Trigger |
 |---|---|---|---|
-| Arsenic | Inorganic arsenic (iAs) | All products containing rice or rice-derived ingredients | Total As approaches or exceeds limit in any product |
-| Mercury | Methylmercury (MeHg) | All products containing fish or marine ingredients | Total Hg approaches or exceeds limit in any product |
-| Chromium | Hexavalent chromium (Cr(VI)) | Only if credible pathway exists (certain water sources, processing) | Total Cr is anomalously high or Program Operator directs |
-| Lead, Cadmium, Nickel, Aluminum, Tin | Total element only | Not required | Not applicable |
+| Arsenic | Inorganic arsenic (iAs) | All products containing rice or rice-derived ingredients | Total As reaches the reflex trigger in any product |
+| Mercury | Methylmercury (MeHg) | All products containing fish or marine ingredients | Total Hg reaches the reflex trigger in any product |
+| Chromium | Hexavalent chromium (Cr(VI)) | Only if credible pathway exists (certain water sources, industrial processing) | Total Cr reaches the reflex trigger, is anomalously high, or Program Operator directs |
+| Lead, Cadmium, Nickel, Aluminium, Tin, total Chromium | Total element only | Not required | Not applicable (these are totals, not speciated forms) |
 
-When speciation is performed, the speciated result (e.g., inorganic arsenic rather than total arsenic) becomes the compliance result for that metal, superseding the total element concentration. Failure to perform required speciation renders the lot ineligible for certification. The reflex speciation trigger of "approaches the limit" is operationally defined as reaching 50% of the applicable HMTc limit for total metal, consistent with the speciation triggers defined in the HMTc Infant and Child Foods Standards. The Program Operator may lower this threshold further based on risk analysis but may not raise it above 50%.
+When speciation is performed, the speciated result (e.g., inorganic arsenic rather than total arsenic) becomes the compliance result for that metal, superseding the total element concentration. Failure to perform required speciation renders the lot ineligible for certification. The reflex speciation trigger of "approaches the limit" is operationally defined as reaching 50% of the applicable HMTc limit for the parent total metal, consistent with the speciation triggers defined in the HMTc Infant and Child Foods Standards. The Program Operator may lower this threshold further based on risk analysis but may not raise it above 50%.
+
+### 9.3 Panel scope is the ten-analyte vocabulary
+
+The certification panel is the ten-analyte vocabulary — Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Al, total Cr, Cr-VI — measured as up to eleven cells where total chromium is reported alongside its Cr-VI reflex screen. Earlier references in this Schedule and in the Governance Policy to an "eight priority metals" grid are the legacy infant-foods framing and are reconciled to this ten-analyte vocabulary (see `docs/schema-history.md`). A standard's required panel is an obligation-map over this vocabulary, never a different vocabulary.
 
 ---
 
@@ -328,3 +349,4 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
 | 1.0 | March 2026 | Initial issuance (PDF). |
 | 2.0 | May 2026 | Markdown migration. No substantive change to testing protocols; reformatted for repo-based version control and cross-referencing with the Program Manual. |
 | 2.1 | June 2026 | Added §4.3 Expedited Baseline via Prior-Data Credit, the testing-schedule companion to Governance Policy §4.5. Completing lot uses independent sampling; new-analyte confirmation folds into routine surveillance. |
+| 2.2 | August 2026 | Generalized §9 from "Speciation Requirements" to "Required Testing Panel and Speciation Scope": added the per-lot testing-obligation vocabulary (§9.1) and the per-category registry reference implementing the Governing Principles **Required-Testing-Panel Ruling**, retained the speciation table + 50%-of-limit reflex trigger (§9.2), and reconciled the legacy "eight priority metals" language to the ten-analyte certification vocabulary (§9.3; §4.1). No change to sampling, chain-of-custody, or decision rules. |
