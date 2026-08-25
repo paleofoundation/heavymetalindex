@@ -265,7 +265,7 @@ function reconcileSpeciation(cells, speciesKey, totalKey, speciesName, totalName
       provenance_tag: t.provenance_tag === "read-across" ? "read-across" : "regulatory-alignment",
       value: null, subsumed_by: totalKey, binding_total: t.value,
       binding_total_source: t.binding_jurisdiction || t.source_jurisdiction || null,
-      label: `${speciesName} is a component of ${totalName} (${speciesKey} <= ${totalKey}). The ${speciesKey} value (${roundDisplay(sv)} ug/kg) is not below the binding ${totalName} ceiling (${t.value} ug/kg), so ${speciesName.toLowerCase()} is governed by and bounded by the ${totalName} ceiling; no separate ${speciesKey} ceiling is published. It is enforced by reflex speciation whenever ${totalKey} is elevated.`,
+      label: `${speciesName} is a component of ${totalName} (${speciesKey} <= ${totalKey}). The ${speciesKey} value (${roundDisplay(sv)} ug/kg) is not below the binding ${totalName} ceiling (${t.value} ug/kg), so ${speciesName.toLowerCase()} is governed by and bounded by the ${totalName} ceiling; no separate ${speciesKey} ceiling is published. The ${totalName} is measured on every lot; on ongoing lots ${speciesKey} is speciated whenever ${totalKey} exceeds its limit.`,
       candidate: { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null },
     }
   }

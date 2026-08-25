@@ -29,7 +29,7 @@
       "read_across": {
         "MeHg": {
           "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
-          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg) and enforced by reflex speciation whenever total mercury is elevated."
+          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg); total mercury is measured on every lot and methylmercury is speciated only on a total-mercury exceedance."
         },
         "Ni": {
           "source_id": "eu2024_ni_formula_liquid_100",
@@ -85,7 +85,7 @@
       "read_across": {
         "MeHg": {
           "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
-          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg) and enforced by reflex speciation whenever total mercury is elevated."
+          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg); total mercury is measured on every lot and methylmercury is speciated only on a total-mercury exceedance."
         },
         "Ni": {
           "source_id": "eu2024_ni_formula_liquid_100",

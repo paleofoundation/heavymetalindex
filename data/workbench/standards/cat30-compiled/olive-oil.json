@@ -159,7 +159,7 @@
         "subsumed_by": "tAs",
         "binding_total": 100,
         "binding_total_source": "CODEX",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). The iAs value (100 ug/kg) is not below the binding total arsenic ceiling (100 ug/kg), so inorganic arsenic is governed by and bounded by the total arsenic ceiling; no separate iAs ceiling is published. It is enforced by reflex speciation whenever tAs is elevated.",
+        "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). The iAs value (100 ug/kg) is not below the binding total arsenic ceiling (100 ug/kg), so inorganic arsenic is governed by and bounded by the total arsenic ceiling; no separate iAs ceiling is published. The total arsenic is measured on every lot; on ongoing lots iAs is speciated whenever tAs exceeds its limit.",
         "candidate": {
           "type": "gov",
           "value": 100,
@@ -194,7 +194,7 @@
         "subsumed_by": "tHg",
         "binding_total": 20,
         "binding_total_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (20 ug/kg) is not below the binding total mercury ceiling (20 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. It is enforced by reflex speciation whenever tHg is elevated.",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (20 ug/kg) is not below the binding total mercury ceiling (20 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its limit.",
         "candidate": {
           "type": "read_across",
           "value": 20,

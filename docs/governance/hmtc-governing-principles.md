@@ -419,6 +419,29 @@ exempt; each reflex trigger is `min(species limit, 50% parent)`; each mandatory-
 names its defining-pathway or structural condition) and emits the cert-side copy the
 panel-completeness lint reads.
 
+## Species, screens: display + terminology (ratified 2026-08-25)
+
+This complements the **Required-Testing-Panel Ruling** (which governs what is tested per
+lot and when speciation triggers). It fixes two presentation errors, both binding:
+
+1. **The total metal is a first-class, published limit — never hidden.** A toxic species
+   (iAs, MeHg, Cr(VI)) is bounded by its parent total (species ≤ total by identity). The
+   total is what a laboratory measures on every panel, so its limit appears as its own line
+   on the standard and in the portal, alongside the species. A standard that shows a species
+   limit but hides its total-metal limit is incomplete — the lab request cannot be built
+   from it. (Defect fixed 2026-08-25 for total chromium in the portal.)
+
+2. **"Baseline" is measurement; "reflex" is the ongoing regime — never conflate them.** At
+   baseline the total (and, where the species is material, the species itself) is *measured*
+   and established as a matter of record; this is baseline testing, not a reflex. Reflex
+   speciation is the *ongoing-lot* mechanism defined by the Required-Testing-Panel Ruling
+   (speciate when the total crosses its trigger). Standard and manual language must describe
+   baseline as measurement and reserve "reflex" for ongoing lots; "enforced by reflex
+   speciation" on a baseline record is the terminology error corrected 2026-08-25.
+
+**Display rule:** a bounded species renders as an explicit "≤ <total limit>" ceiling, never
+the bare word "bounded" and never a blank.
+
 ## Scope
 
 This methodology applies to every category in the HMTc index, not to
@@ -430,10 +453,11 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.5 — August 2026**
+**Version 2.6 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.6 | 2026-08-25 | Added **Species, screens: display + terminology** (complements the Required-Testing-Panel Ruling): the total metal is a first-class published limit shown as its own line (never hidden — the total-chromium portal defect); "baseline" is measurement and "reflex" is the ongoing-lot regime (never conflate — corrected the "enforced by reflex speciation" wording on baseline records); bounded species render as an explicit "≤ total" ceiling, never "bounded" or a blank. Applied in the cert standard-page renderer, the readiness portal, and the compiler speciation labels. |
 | 2.5 | 2026-08-25 | Added and ratified the **Required-Testing-Panel Ruling** (Karen: "if we say we test every product for 8 analytes, we should — test 8 totals universally, trigger speciation from findings"), then refined it the same day after a program-wide stress-test across all 13 category archetypes and every public claim surface. Separates the per-lot testing obligation from the published limit set, and the *screened* axis from the *governed* axis. The 8-metal set is universal but **basis-appropriate** (content ICP-MS for ingestibles/topicals; element-release/migration for contact materials; USP PDE for pharmacopeial-only classes). Guardrail: `conditional`/`baseline_monitor`/`not_applicable` forbidden on the four Tier-1 toxic totals; permitted for a Tier-2 total with no pathway and no sovereign limit. Reflex trigger corrected to `min(species limit, 50% of parent-total limit)` (flat-50% under-catches water Cr-VI, seaweed iAs). Mandatory speciation expanded (iAs: rice + fruit juice + seaweed/algae/clay supplements; MeHg: fish/marine + composites/sauces/broths + marine pet food; Cr-VI: water + toys/crafts + leather/textiles + pigment cosmetics/tattoo) and given a structural trigger (species limit with no parent total, e.g. apple-juice iAs). Two items flagged for a separate program/counsel decision: organotin speciation (net-new analyte class) and public-claim gating on the completion sweep. Registry `data/workbench/standards/required-analytes.json` (Cat-30 pilot; Sn flipped conditional→per_lot_total), validated + fanned by `tools/standards/build-required-analytes.mjs`. Downstream: DOI'd public content (the-big-8.md et al.) reword is human-gated, tracked in the ledger. |
 | 2.3 | 2026-08-25 | Added the **Certification-Readiness Ruling**: every analyte carries a limit-of-record (no empty `control`/`not-material` cells — firm number, species-bounded-by-total, or baseline/LOQ screen), under a mandatory provenance-honesty discipline; and a three-condition certification-readiness gate (COMPLETE + REGISTERED [production DOI] + CORRECTED). Supersedes the "no number where no government regulates" posture. Enforced by `standard-readiness-lint`. Ratified by Karen 2026-08-25. |
 | 1.0 | April 2026 | Initial version. |
