@@ -255,18 +255,23 @@ function resolveCell(sub, analyte, variant) {
 
 // --- mercury speciation reconciliation ----------------------------------------
 // Methylmercury is a COMPONENT of total mercury, so MeHg <= tHg by identity. tHg
-// and MeHg are therefore not two coordinate ceilings ("both must be met"): a
-// total-mercury limit at value V is at least as strict as a methylmercury limit
-// at the same V (it holds a larger quantity to the same number). A separate MeHg
-// ceiling is meaningful ONLY when it is strictly below the binding tHg — only
-// then does it constrain the toxic fraction tighter than the total-mercury
-// envelope already does. When the strictest MeHg source is >= the binding tHg
-// (which is every current seafood subcategory — and note US FDA's "MeHg 1.0 ppm"
-// is measured as total Hg), the MeHg number is vacuous and, published as a looser
-// ceiling, reads as a speciation error. In that case methylmercury is governed by
-// and bounded by the total-mercury ceiling, and no separate number is published.
-// The original MeHg candidate is retained under `candidate` for the derivation
-// audit / reconstructibility.
+// and MeHg are therefore not two coordinate ceilings that can both bind
+// independently: a published MeHg ceiling above the binding tHg is physically
+// impossible (a sample under tHg is automatically under any higher MeHg number)
+// and panel-coherence-lint fails it. So methylmercury is published as its own
+// firm regulatory-alignment ceiling ONLY when the strictest species-appropriate
+// government methylmercury ML is at or below the binding total-mercury ceiling
+// (mv <= tv); there it is a coherent, species-specific number (seafood: predatory
+// fish carry the higher 1000 tier, lower-trophic species 500). When the strictest
+// government methylmercury ML is STRICTLY ABOVE the binding tHg (mv > tv), the
+// methylmercury fraction is already bound tighter by the total-mercury ceiling, so
+// the cell is recorded as `subsumed` (a limit-of-record: bounded by tHg, not an
+// empty cell) with the real government methylmercury ML retained under `candidate`
+// for the derivation audit. Note US FDA's "MeHg 1.0 ppm" is measured as total Hg.
+// The threshold is strict `>` (not `>=`): at exact equality the methylmercury ML
+// equals the total-mercury ceiling, so it is coherent and is published as the real
+// sovereign methylmercury number rather than hidden (Certification-Readiness
+// Ruling: every analyte carries a limit-of-record, honestly tagged).
 function reconcileMercurySpeciation(cells) {
   const t = cells.tHg
   const m = cells.MeHg
@@ -274,7 +279,7 @@ function reconcileMercurySpeciation(cells) {
   const tv = typeof t.value_exact === "number" ? t.value_exact : typeof t.value === "number" ? t.value : null
   const mv = typeof m.value_exact === "number" ? m.value_exact : typeof m.value === "number" ? m.value : null
   if (tv == null || mv == null) return // tHg gap/not_material, or MeHg not a published number — leave as is
-  if (mv >= tv) {
+  if (mv > tv) {
     cells.MeHg = {
       type: "subsumed",
       value: null,
@@ -285,9 +290,11 @@ function reconcileMercurySpeciation(cells) {
       candidate: { type: m.type, value: m.value, source_jurisdiction: m.source_jurisdiction || m.binding_jurisdiction || null, source_id: m.source_id || m.binding_id || null },
     }
   }
-  // mv < tv: a genuine methylmercury limit stricter than the total-mercury
-  // envelope — keep both cells as published (this is where dual mercury earns its
-  // place). No current seafood subcategory hits this branch.
+  // mv <= tv: the government methylmercury ML is at or below the total-mercury
+  // ceiling, so it is coherent (MeHg <= tHg). Keep the MeHg cell as its published
+  // firm regulatory-alignment number. Seafood: predatory fish 1000 == tHg 1000,
+  // canned / shellfish 500 == tHg 500 (published firm); this is where dual mercury
+  // earns its place as a species-specific ceiling.
 }
 
 // --- drive --------------------------------------------------------------------
@@ -298,7 +305,7 @@ for (const slug of slugs) {
   const sub = config.subcategories[slug]
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const variants = sub.soy_split ? ["cow", "soy"] : ["both"]
-  const record = { slug, name: sub.name, native_basis: sub.native_basis, canned: !!sub.canned, variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
+  const record = { slug, name: sub.name, ...(config.category != null ? { category: config.category, category_name: config.category_name } : {}), native_basis: sub.native_basis, canned: !!sub.canned, variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
   for (const variant of variants) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)

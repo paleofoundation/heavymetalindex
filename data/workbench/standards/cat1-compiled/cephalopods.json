@@ -1,6 +1,8 @@
 {
   "slug": "cephalopods",
   "name": "Cephalopods (octopus, squid, cuttlefish; not canned)",
+  "category": 6,
+  "category_name": "Seafood",
   "native_basis": "as_consumed",
   "canned": false,
   "variants": {
@@ -226,14 +228,68 @@
             "value": 2000,
             "converted": true,
             "id": "vn_qcvn8_2_2011_cd_cephalopod-mollusks-without-internal-organs_2000"
+          },
+          "HK": {
+            "value": 2000,
+            "converted": true,
+            "id": "hk_cap132v_cd_cephalopods_2000"
           }
         }
       },
+      "Ni": {
+        "type": "read_across",
+        "value": 2000,
+        "value_exact": 2000,
+        "source_id": "eu2024_ni_husked_rice_2000",
+        "source_jurisdiction": "EU",
+        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Cr": {
+        "type": "gov",
+        "value": 12000,
+        "value_exact": 12000,
+        "binding_jurisdiction": "IN",
+        "binding_id": "in_fssai2016_crtotal_001_all_fishery_products_12000",
+        "basis_note": "face value",
+        "per_country": {
+          "IN": {
+            "value": 12000,
+            "converted": true,
+            "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
+          }
+        }
+      },
+      "Cr-VI": {
+        "type": "read_across",
+        "value": 10,
+        "value_exact": 10,
+        "source_id": "ca_swrcb_crvi_drinking_water_10",
+        "source_jurisdiction": "US-CA",
+        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Tin is a can-migration analyte; not material for fresh/frozen cephalopods placed on market without a tinplate container. Every government Sn ML for fishery products is a canned-only limit. Reflex to the canned-seafood subcategory standard if the product is canned.",
-        "reference_method": "ICP-MS per EN 15763 / AOAC 2015.01; applies only if canned."
+        "type": "read_across",
+        "value": 200000,
+        "value_exact": 200000,
+        "source_id": "eu2023_sn_canned_foods_200000",
+        "source_jurisdiction": "EU",
+        "label": "Tin is a can-migration analyte; no government sets a tin ML for non-canned seafood (every seafood tin ML is canned/tinplate-only). Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; fresh/frozen cephalopods have no tin source and pass. Canned product is certified under the canned-seafood subcategory.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Al": {
+        "type": "read_across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
       }
     }
   },
