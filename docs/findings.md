@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-154 open item(s): 53 auto, 101 awaiting a decision.
+155 open item(s): 53 auto, 102 awaiting a decision.
 
 ### OI-20260825-standards-provisional-banner — Gate every standard page on the readiness-manifest: show a PROVISIONAL / not-certification-ready banner until COMPLETE+REGISTERED+CORRECTED
 
@@ -554,6 +554,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/regulations/france-cshpf-edible-seaweed.md`, `wiki/regulations/china-gb-2762-2022-contaminants.md`, `wiki/regulations/brazil-anvisa-in-160-2022-contaminants.md`, `raw/regulatory/`
 - repro: 15 register rows restored 2026-08-25 (France CSHPF x4, China GB2762 x9, Brazil IN160 x2) reference regulation_page slugs whose wiki pages do not exist. Values are primary-verified in the row notes (China: USDA CH2023-0040; Brazil: ANVISA IN160; French iAs corroborated by llorente-mirandes2011) so this is documentation, not defensibility-critical (90 pre-existing register rows already lack wiki pages, tolerated). Creating them needs the regulations-page template + routing/linking so they are not orphaned.
 - done when: wiki/regulations pages exist for the 3 instruments, following the regulations template, linked (not orphaned); primary PDFs archived under raw/regulatory/{fr,cn,br}/; index build + routing/orphan lint pass
+- decision: _pending_
+
+### OI-20260825-reflex-terminology-manuals — Baseline-vs-reflex terminology sweep — DONE (renderers + manual generators + guard lint)
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `heavymetalcertified/tools/build-category-standard-pages.mjs`, `heavymetalcertified/tools/lib/occurrence-section.mjs`, `heavymetalcertified/tools/lib/manual-page.mjs`, `heavymetalcertified/tools/terminology-lint.mjs`
+- repro: DONE: standard-page renderers (both, cert c45bbf6) show bounded species as explicit <= total and drop reflex-on-baseline wording; manual generators (occurrence-section generates baseline-correct subsumed prose; manual-page + build-cat1-manual n/m note) fixed (cert a7a331b); food-limit-compiler subsumed label + governance v2.6 (index). Guard: terminology-lint --strict wired into prebuild, precise phrases only (legit Cr-VI confirmatory-reflex NOT flagged), verified CLEAN (0) after a full re-render of 299 pages + manuals. Remaining reflex usages are legitimate Cr(VI) confirmatory language.
+- done when: No rendered surface frames baseline as reflex (guard enforces); Bounded species shown as <= total everywhere
 - decision: _pending_
 
 ### OI-20260825-recompile-loosening-gate — HARD GATE: cat27/28/29/32/34 loosen or drop live limits on recompile (config/scope drift) — reconcile before the completion sweep touches them
