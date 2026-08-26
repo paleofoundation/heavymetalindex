@@ -513,7 +513,61 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-155 open item(s): 53 auto, 102 awaiting a decision.
+162 open item(s): 53 auto, 109 awaiting a decision.
+
+### OI-20260826-stripe-provisioning — Connect Stripe to heavymetalcertified-app to turn on the live completing-lot payment window
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app: Vercel Marketplace Stripe integration`, `heavymetalcertified-app: STRIPE_SECRET_KEY / STRIPE_WEBHOOK_SECRET env`, `heavymetalcertified-app: /api/stripe/webhook`
+- repro: The completing-lot CTA now routes to /portal/orders which shows the itemized price breakdown + a Pay button and creates a Stripe Checkout session (src/lib/stripe.ts, orders/actions startCheckout). It is gated on STRIPE_SECRET_KEY (isStripeConfigured); until Stripe is connected the Pay button says payment is coming online and the order is saved. To go live: connect Stripe (financial account OAuth — Karen only) via `vercel integration add stripe` from ~/Desktop/heavymetalcertified-app, or Vercel dashboard → the heavymetalcertified-app project → Integrations → Stripe. Ensure STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET are set (Prod+Preview) and a Stripe webhook points to https://app.heavymetalcertified.com/api/stripe/webhook for checkout.session.completed. Then redeploy. Claude must not connect the financial account or handle the secret.
+- done when: Stripe integration connected; STRIPE_SECRET_KEY + STRIPE_WEBHOOK_SECRET present; clicking Pay on /portal/orders opens the Stripe hosted checkout; paying flips the testing_order status to paid via the webhook
+- decision: _pending_
+
+### OI-20260826-portal-mis-certification-market-loosening — SAFETY: portal certifies to the selected-market looser local limit; government hard-stop dead in production
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified-app/src/lib/readiness/resolve-standard.ts`, `heavymetalcertified-app/src/lib/readiness/compute-readiness.ts`, `heavymetalcertified-app/src/lib/readiness/assess-brand.ts`, `data/workbench/standards/2026-08-26-portal-engine-correctness-audit.md`
+- repro: VERIFIED against code. resolve-standard.ts marketLimit() returns per_market[market] (selected market local ML) as the pass/fail ceiling, not the strictest-floor headline; 145+ Tier-1 cells loosen (infant-formula Pb 20 to 200 IN; canned-seafood Cd 50 to 1000 TH). compute-readiness.ts hardStop fires only against input.governmentLimits, but the only production caller assess-brand.ts:263 never passes it, so hardStop is always false (doc comment claims an HMTc-limit fallback the code does not implement). Net: a brand in a looser market certifies to that market law with no backstop, contradicting the strictest-existing-floor promise.
+- done when: POLICY CONFIRMED: the mark means strictest-floor everywhere (not per-market certification); marketLimit Tier-1 pass/fail uses strictest across per_country; a looser selected market never loosens a Tier-1 ceiling; assess-brand passes governmentLimits = lowest applicable per_country ML so the hard-stop is live; tests: Pb ceiling stays 20 for rice in IN; Cd stays 50 for canned seafood in TH; a Pb 150 lot routes to remediation
+- decision: _pending_
+
+### OI-20260826-portal-engine-registry-rebuild — Rebuild portal testing-scope engine to read one obligation+provenance engine-context (registry JOIN compiled), basis-aware, fail-safe for all entries
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/standards/build-engine-context.mjs`, `heavymetalcertified-app/src/lib/readiness/resolve-standard.ts`, `heavymetalcertified-app/src/lib/readiness/required-panel.ts`, `heavymetalcertified-app/src/lib/readiness/reporting-limits.ts`, `heavymetalcertified-app/src/lib/readiness/compute-readiness.ts`, `heavymetalcertified-app/src/app/api/scope-panel/route.ts`, `heavymetalcertified-app/src/app/portal/application/actions.ts`, `heavymetalcertified-app/src/lib/readiness/completion-cost.ts`, `data/workbench/standards/2026-08-26-portal-engine-correctness-audit.md`
+- repro: See data/workbench/standards/2026-08-26-portal-engine-correctness-audit.md (workflow wf_25bc5e0d-f6c). The engine reads only the folded, stale (2026-06-09) cert finder projection and never reads required-analytes.json or the compiled standards. Consequences for EVERY entry: flat 11-row panel identical for all products; analyteSet all-10 over-bills ~40% and omits total Cr; content acid-digest method ordered for migration/USP products; null control cells block certification forever; Cr-VI hardcoded regulatory-only; mandatory speciation subsumed; coverage dead-ends for ~18 products. Subsumes OI-20260825-required-analytes-app-wiring.
+- done when: index generator build-engine-context.mjs JOINs compiled cells with required-analytes.json obligations; fans out to cert+app with staleness fail/banner; one requiredPanel(standard) drives scope-panel + application cost + completion cost; methodFor basis-aware; deterministic obligation fallback for 34 non-registry categories; null limit never a pass or bare dash; absent category returns explicit not-yet-available; canary + 4 archetype tests pass per the audit test plan; no deploy without Karen
+- decision: _pending_
+
+### OI-20260826-per-product-lab-drop — Per-product lab-result drop + bulk COA PDF auto-matching to products
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app: src/app/portal/products`, `heavymetalcertified-app: src/lib/extract.ts`, `heavymetalcertified-app: src/app/portal/readiness`
+- done when: a lab PDF dropped on a product card creates a credited prior_lab_report for that product; a bulk PDF dump matches each COA to the right product with a review step for low-confidence matches
+- decision: _pending_
+
+### OI-20260826-infant-formula-cow-to-dairy — Infant formula standard says cow/soy where dairy/soy is more accurate
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `standards-finder-context.json (infant-formula variants)`, `docs/governance infant + child foods standard`, `heavymetalcertified standards render`
+- repro: Karen: in the Infant and Child standards, infant formula variants are labeled cow (cow-milk-based) vs soy, but dairy/soy is more accurate — dairy-based formula includes goat/sheep, not just cow. The finder variant key/label + the standard subcategory wording should read dairy(-based) rather than cow. CAUTION: this may be more than a label — confirm whether the cow-milk ML (e.g. EU nickel 250 non-soy) is intended to apply to ALL dairy-based formula (goat/sheep) or specifically cow; if broadening, it is a governance/standards decision, not a pure rename. Fix at the source (index standards) and re-fan index->cert->app so standards-finder-context.json, the cert standards pages, and the app finder all update consistently.
+- decision: _pending_
+
+### OI-20260826-hmi-origin-cultivar-facts — Expose origin/region/cultivar-level heavy-metals facts from HMI (e.g. Koroneiki olive oil = lower nickel) for brand pages
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `heavy-metal-index: api/contamination.mjs`, `heavy-metal-index: wiki/ingredients/*.md (Ranges by source/region/variety; Processing effects; drivers/lower_risk_variants/higher_risk_variants frontmatter)`, `heavymetalcertified-app: src/lib/hmi.ts`, `heavymetalcertified-app: src/app/portal/brand-preview`
+- repro: The cert brand-page generator now pulls cited category-level heavy-metals facts from HMI /api/contamination and shows them. The most striking facts Karen wants — origin/region/cultivar variance (Koroneiki region lower nickel than Cyprus/Italy; glass-bottled EVOO lower-risk vs pomace/flavoured; packaging drives lead) — exist in HMI only as PROSE + frontmatter (drivers, lower_risk_variants, higher_risk_variants) on ingredient pages, NOT as queryable structured data. To generate them per-brand: (1) index-side, expose drivers/lower_risk_variants/higher_risk_variants (already in ingredient frontmatter) and, longer-term, region/cultivar-resolved occurrence records in the /api/contamination (or a new /api/facts) response; (2) app-side, extend getCategoryFacts to surface them. Origin/cultivar-resolved DATA is a planned-not-built HMI feature (roadmap: sub-national sampling resolution). Lower-lift first step: publish the existing drivers/variant frontmatter via the API so the app can show glass-vs-pomace + packaging facts (cited), which is 80% of the wow without new corpus work.
+- done when: HMI API returns drivers + lower/higher-risk variants per ingredient; brand pages render cited origin/processing facts (glass-bottled lower-risk, pomace higher-risk, packaging-driven lead) via getCategoryFacts; origin/region facts staged separately as corpus work
+- decision: _pending_
+
+### OI-20260826-enrichment-in-onboarding — Move website-enrichment into onboarding: crawl runs (anonymous session) while the user reads the education cards
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app: src/app/hmt/onboarding`, `heavymetalcertified-app: src/app/portal/enrich`, `heavymetalcertified-app: Supabase Auth settings (anonymous sign-ins)`
+- repro: Karen wants the Firecrawl build to start BEFORE the portal, while the user reads the onboarding pop-up cards, so the review (their products + suggested category, the 'does this look right?' moment) is instant and lands inside onboarding. Recommended approach (agreed in discussion): on onboarding open, create an anonymous Supabase session + provisional brand, capture the website on card 1, run the existing enrichment pipeline authenticated in the background during the cards/finder/NDA, then at the account step UPGRADE the anonymous account to a real one (same user id) so the brand + finished draft carry over. Needs: Supabase ANONYMOUS SIGN-INS enabled (project Auth setting; add CAPTCHA), abuse guardrails (per-IP rate limit + Vercel BotID on the start-crawl call + existing ~page cap), and a sweep of abandoned anonymous sessions. Ready to build once Karen confirms + enables anon sign-ins.
+- done when: entering the website on card 1 starts the crawl during onboarding; the account step upgrades the anon account, carrying the brand + draft over; the review/does-this-look-right step appears inside onboarding, pre-populated
+- decision: _pending_
 
 ### OI-20260825-standards-provisional-banner — Gate every standard page on the readiness-manifest: show a PROVISIONAL / not-certification-ready banner until COMPLETE+REGISTERED+CORRECTED
 
@@ -556,12 +610,12 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: wiki/regulations pages exist for the 3 instruments, following the regulations template, linked (not orphaned); primary PDFs archived under raw/regulatory/{fr,cn,br}/; index build + routing/orphan lint pass
 - decision: _pending_
 
-### OI-20260825-reflex-terminology-manuals — Baseline-vs-reflex terminology sweep — DONE (renderers + manual generators + guard lint)
+### OI-20260825-reflex-terminology-manuals — Sweep baseline-vs-reflex terminology through the manual generators + remaining per-compiler JSON labels
 
 - scope: **human-gated** · type: content · status: open · repo: cert
-- paths: `heavymetalcertified/tools/build-category-standard-pages.mjs`, `heavymetalcertified/tools/lib/occurrence-section.mjs`, `heavymetalcertified/tools/lib/manual-page.mjs`, `heavymetalcertified/tools/terminology-lint.mjs`
-- repro: DONE: standard-page renderers (both, cert c45bbf6) show bounded species as explicit <= total and drop reflex-on-baseline wording; manual generators (occurrence-section generates baseline-correct subsumed prose; manual-page + build-cat1-manual n/m note) fixed (cert a7a331b); food-limit-compiler subsumed label + governance v2.6 (index). Guard: terminology-lint --strict wired into prebuild, precise phrases only (legit Cr-VI confirmatory-reflex NOT flagged), verified CLEAN (0) after a full re-render of 299 pages + manuals. Remaining reflex usages are legitimate Cr(VI) confirmatory language.
-- done when: No rendered surface frames baseline as reflex (guard enforces); Bounded species shown as <= total everywhere
+- paths: `heavymetalcertified/tools/build-cat1-manual.mjs`, `heavymetalcertified/tools/build-category-manual.mjs`, `heavymetalcertified/tools/lib/occurrence-section.mjs`, `heavymetalcertified/tools/lib/struggle-section.mjs`, `heavy-metal-index/tools/standards/compile-cat1.mjs`, `heavy-metal-index/tools/standards/compile-cat16.mjs`, `heavy-metal-index/tools/standards/compile-cat17.mjs`
+- repro: Standard-page renderers (both), the pantry compiler label, governance (v2.6), and the portal now use baseline=measured / reflex=ongoing and show bounded species as explicit '<= total'. Still carrying 'reflex' on baseline records: the manual generators (build-cat1-manual, build-category-manual, occurrence-section, struggle-section) and several per-category compiler subsumed-labels (cat1/15/16/17/27/28/29/35). The standard-page renderer overrides the JSON subsumed label for DISPLAY, so pages read correctly, but the manuals + raw JSON labels still need the same reword; recompile/re-render those surfaces.
+- done when: No manual or standard surface frames baseline establishment as 'reflex'; All compiler subsumed labels state total-is-measured + species-speciated-on-ongoing-exceedance; Manuals re-rendered
 - decision: _pending_
 
 ### OI-20260825-recompile-loosening-gate — HARD GATE: cat27/28/29/32/34 loosen or drop live limits on recompile (config/scope drift) — reconcile before the completion sweep touches them
