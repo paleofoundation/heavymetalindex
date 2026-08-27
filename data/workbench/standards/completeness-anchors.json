@@ -93,5 +93,115 @@
   "tree-nuts-high-nickel": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
     "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "menstrual-cups": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "menstrual-discs": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "menstrual-intimate-products-other": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "menstrual-pads": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "menstrual-tampons": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "period-underwear-reusable-garments": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "douches-vaginal-irrigation": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "feminine-deodorants": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "feminine-wipes": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "intimate-washes-cleansers": {
+    "Pb": "de_bvl2017_pb_toothpaste_500",
+    "Cd": "de_bvl2017_cd_cosmetics_general_100",
+    "tAs": "de_bvl2017_tas_cosmetics_general_500",
+    "tHg": "de_bvl2017_thg_cosmetics_general_100",
+    "Ni": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
+    "Sn": "eu_2009_48_cat2_sn_toy_migration",
+    "Al": "eu_2009_48_cat2_al_toy_migration"
   }
 }

@@ -55,11 +55,31 @@ for(const f of files){
     const r=byId.get(mid);
     if(!r){errors.push(`${slug}/${a}: manifest id ${mid} NOT in register`);continue}
     if(GATED.test(r.stat)){errors.push(`${slug}/${a}: manifest id ${mid} gated (${r.stat})`);continue}
-    if(r.met!==a){errors.push(`${slug}/${a}: manifest id ${mid} is metal ${r.met}, not ${a}`);continue}
-    cells[a]={type:"read_across",value:roundDisplay(r.val),value_exact:r.val,provenance:"read-across",source_id:mid,source_jurisdiction:r.jur,basis:r.basis,source_scope:r.scope,label:`${a} ${roundDisplay(r.val)} ug/kg: disclosed read-across from ${r.jur} ${mid} (${(r.scope||"").slice(0,48)}). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.`,substantiation:`Disclosed read-across, register-verified (${mid}). Nearest applicable sovereign ${a} ceiling for this product form. Not occurrence-derived.`,filled_by:"completeness-sweep"};
+    // Metal must match, with ONE documented exception: a total-chromium cell may take a drinking-water
+    // CHROMIUM guideline that the regulator writes on the hexavalent species (regulators express the
+    // drinking-water chromium ceiling as Cr-VI on the conservative assumption all chromium is hexavalent).
+    // Disclosed on the cell. Any other metal mismatch is rejected.
+    const crossOk=(a==="Cr"&&r.met==="Cr-VI"&&/drinking water|water intended|public water/i.test(r.scope||""));
+    if(r.met!==a&&!crossOk){errors.push(`${slug}/${a}: manifest id ${mid} is metal ${r.met}, not ${a}`);continue}
+    const crossNote=crossOk?" The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell.":"";
+    cells[a]={type:"read_across",value:roundDisplay(r.val),value_exact:r.val,provenance:"read-across",source_id:mid,source_jurisdiction:r.jur,basis:r.basis,source_scope:r.scope,label:`${a} ${roundDisplay(r.val)} ug/kg: disclosed read-across from ${r.jur} ${mid} (${(r.scope||"").slice(0,48)}). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.${crossNote}`,substantiation:`Disclosed read-across, register-verified (${mid}). Nearest applicable sovereign ${a} ceiling for this product form.${crossNote} Not occurrence-derived.`,filled_by:"completeness-sweep"};
     changed=true;filledTotal++;rowRep.push(`${a}=${roundDisplay(r.val)}[${r.jur}]`);
   }
-  // pass B: species subsumption
+  // pass A2: a species cell may carry its OWN direct sovereign limit that is stricter than its
+  // parent bound (e.g. feminine-care Cr-VI from the toy-safety migration limit). When the manifest
+  // names an anchor for a species cell, adopt it as a firm read-across instead of subsuming.
+  for(const[a,v]of Object.entries(cells)){
+    if(!isEmpty(v)||!PARENT[a])continue;
+    const mid=manifest[slug]&&manifest[slug][a];
+    if(!mid)continue;
+    const r=byId.get(mid);
+    if(!r){errors.push(`${slug}/${a}: manifest id ${mid} NOT in register`);continue}
+    if(GATED.test(r.stat)){errors.push(`${slug}/${a}: manifest id ${mid} gated (${r.stat})`);continue}
+    if(r.met!==a){errors.push(`${slug}/${a}: manifest id ${mid} is metal ${r.met}, not ${a}`);continue}
+    cells[a]={type:"read_across",value:roundDisplay(r.val),value_exact:r.val,provenance:"read-across",source_id:mid,source_jurisdiction:r.jur,basis:r.basis,source_scope:r.scope,label:`${a} ${roundDisplay(r.val)} ug/kg: disclosed read-across from ${r.jur} ${mid} (${(r.scope||"").slice(0,48)}). Direct species limit stricter than the parent-total bound; filled by the completeness sweep.`,substantiation:`Disclosed read-across, register-verified (${mid}). Direct sovereign limit for this species, stricter than bounding it to its parent total. Not occurrence-derived.`,filled_by:"completeness-sweep"};
+    changed=true;filledTotal++;rowRep.push(`${a}=${roundDisplay(r.val)}[${r.jur}]*`);
+  }
+  // pass B: species subsumption (only where no direct manifest anchor was applied above)
   for(const[a,v]of Object.entries(cells)){
     if(!isEmpty(v)||!PARENT[a])continue;
     const p=cells[PARENT[a]];
