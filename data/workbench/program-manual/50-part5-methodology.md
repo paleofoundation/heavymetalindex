@@ -62,7 +62,7 @@ Substantive changes to a published limit run through the Standards Ratchet, whic
 
 **Chain of custody.** The unbroken documented record of a sample from collection through laboratory receipt and analysis. A documented breach invalidates the result.
 
-**Licensee.** A brand or manufacturer under a license agreement authorizing participation and, on certification, use of the mark.
+**Licensee.** A brand or manufacturer that has executed the program's Certification Agreement, which licenses use of the mark on a certified product. The agreement is executed after the program's approval decision, not at entry.
 
 **Lot.** A quantity of product manufactured under uniform conditions, identified by common date, line, or shift codes.
 

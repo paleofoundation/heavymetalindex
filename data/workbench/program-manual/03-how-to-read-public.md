@@ -4,7 +4,7 @@ This manual serves four external readers, each opening it for a different reason
 
 ## For brand legal and quality teams
 
-You are evaluating whether the program is defensible enough to recommend, and whether participation increases or decreases your client's litigation exposure. Read Part 1 for the structural and financial argument, Part 2.5 for the Confidential Remediation Track and the two remediation pathways (the chapters most relevant to legal posture, because they convert a finding from a liability into a documented, third-party-verified improvement record), Part 2.7 and Part 2.8 for the analytical and documentary discipline that makes the program's record admissible, and Part 5.2 for the structured response to every category of attack you might face.
+You are evaluating whether the program is defensible enough to recommend, and whether participation increases or decreases your client's litigation exposure. Read Part 1 for the structural and financial argument, Part 2.5 for public-facing and private certification and the readiness and corrective-action tracks (the chapters most relevant to legal posture, because they let a brand choose its public exposure and convert a finding from a liability into a documented, third-party-verified improvement record), Part 2.7 and Part 2.8 for the analytical and documentary discipline that makes the program's record admissible, and Part 5.2 for the structured response to every category of attack you might face.
 
 ## For retailer compliance teams
 

@@ -12,7 +12,7 @@ You set and revise limits. Your center of gravity is Part 3.1 (how a limit is se
 
 ## For certification operations
 
-You run baselines, assign status, and manage surveillance and corrective action. Read Part 2.3 through Part 2.9 (entry and baseline, the five statuses, transitional variance and the remediation tracks, mark usage, decision rules under measurement uncertainty, data governance, and corrective and preventive action), then Part 4 in full (the lot testing schedule: risk tiers, frequency by status, reflex triggers, speciation, sampling, and chain of custody). Part 2.13 gives you the appeals and reinstatement paths.
+You run baselines, assign status, and manage surveillance and corrective action. Read Part 2.3 through Part 2.9 (entry, readiness, and baseline, the five statuses, certification visibility and the readiness and corrective-action tracks, mark usage, decision rules under measurement uncertainty, data governance, and corrective and preventive action), then Part 4 in full (the lot testing schedule: risk tiers, frequency by status, reflex triggers, speciation, sampling, and chain of custody). Part 2.13 gives you the appeals and reinstatement paths.
 
 ## For executive leadership and governance
 
