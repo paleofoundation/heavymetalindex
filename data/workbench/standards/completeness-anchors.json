@@ -56,43 +56,53 @@
   },
   "peanut-butter": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_beans_legumes_1000"
   },
   "peanuts": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_beans_legumes_1000"
   },
   "legumes-pulses-other": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_beans_legumes_1000"
   },
   "soy-products": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_beans_legumes_1000"
   },
   "cashews": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "nut-seed-butters-other": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "nuts-seeds-other": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "sunflower-seed-butter": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "sunflower-seeds": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "tree-nuts-high-nickel": {
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
-    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Cr": "china_gb2762_crtotal_grains_1000"
   },
   "menstrual-cups": {
     "Pb": "de_bvl2017_pb_toothpaste_500",
@@ -203,5 +213,23 @@
     "Cr-VI": "eu_2009_48_cat2_crvi_toy_migration",
     "Sn": "eu_2009_48_cat2_sn_toy_migration",
     "Al": "eu_2009_48_cat2_al_toy_migration"
+  },
+  "cultivated-mushrooms-oyster-shiitake": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Ni": "eu2024_ni_legume_vegetables_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "cultivated-mushrooms": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Ni": "eu2024_ni_legume_vegetables_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "wild-mushrooms": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Ni": "eu2024_ni_legume_vegetables_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
   }
 }
