@@ -83,6 +83,80 @@ const brandHit = (s) => {
   return BRAND_DENYLIST.find((b) => new RegExp(`(^|[^a-z0-9])${b}([^a-z0-9]|$)`, "i").test(hay)) || null
 }
 
+// ---------- Creator / publisher model (must agree with every other surface) ----------
+// The DataCite record's `creators` must match what the page itself declares:
+//   Head.tsx  -> citation_author "Pendergrass, Karen" (synthesis + metals)
+//   JSON-LD   -> author = Karen Pendergrass (ORCID)   (postbuild-inject-jsonld.mjs)
+//   PDF       -> "Pendergrass K. …" cite-as + ORCID byline (tools/pdf/scholarly-pdf.mjs)
+//   HeroBand  -> "Author: Karen Pendergrass" + ORCID iD
+// A resolved DOI whose creator read "Institute of Contaminant Standards" while
+// all of the above name a person is the single loudest "auto-generated, not a
+// real report" tell for a regulatory or plaintiff's-expert reviewer. So the
+// Index's authored analytical work (synthesis findings, developed metal reviews
+// — the set Head.tsx declares a citation_author for) mints with the PERSON as
+// creator; institutional compilations (ingredients/products/regulations) keep
+// the organization as creator; source pages never mint (third-party papers).
+const AUTHORED_DIRS = new Set(["wiki/synthesis", "wiki/metals"])
+const isAuthored = (dir) => AUTHORED_DIRS.has(dir)
+
+const ORG_NAME = "Institute of Contaminant Standards"
+const AUTHOR_ORCID = "https://orcid.org/0000-0002-2348-7259"
+// Publisher-of-record name on the permanent DOI. Kept as the operating org
+// because the ROR (below) identifies the ORGANIZATION, not the publication —
+// "Heavy Metal Index" is the publication and is carried in `container` on every
+// record (and is the venue in every human-readable citation). To make the
+// DataCite `publisher` field literally read "Heavy Metal Index" instead, change
+// this one constant (Karen's call — see the DOI-readiness note in the ledger).
+const PUBLISHER_NAME = ORG_NAME
+// Research Organization Registry ID for the Institute of Contaminant Standards.
+// Empty until the ROR is assigned; set HMI_ORG_ROR="https://ror.org/<id>" (same
+// env var read by postbuild-inject-jsonld.mjs) and every record below gains the
+// ROR on the creator affiliation, the publisher identifier, and the org creator
+// — no other change needed. Until then the affiliation/publisher carry name
+// only, which is valid DataCite.
+const ORG_ROR = process.env.HMI_ORG_ROR || ""
+
+const orgAffiliation = () => {
+  const a = { name: ORG_NAME }
+  if (ORG_ROR) {
+    a.affiliationIdentifier = ORG_ROR
+    a.affiliationIdentifierScheme = "ROR"
+    a.schemeUri = "https://ror.org"
+  }
+  return [a]
+}
+const personCreator = () => ({
+  name: "Pendergrass, Karen",
+  nameType: "Personal",
+  givenName: "Karen",
+  familyName: "Pendergrass",
+  nameIdentifiers: [
+    { nameIdentifier: AUTHOR_ORCID, nameIdentifierScheme: "ORCID", schemeUri: "https://orcid.org" },
+  ],
+  affiliation: orgAffiliation(),
+})
+const orgCreator = () => {
+  const c = { name: ORG_NAME, nameType: "Organizational" }
+  if (ORG_ROR) {
+    c.nameIdentifiers = [
+      { nameIdentifier: ORG_ROR, nameIdentifierScheme: "ROR", schemeUri: "https://ror.org" },
+    ]
+  }
+  return c
+}
+// `publisher` is a plain string today (valid, unchanged behaviour); it becomes a
+// DataCite 4.5 object only once a ROR exists to attach, so a live mint run today
+// sends exactly what it sent before.
+const publisherField = () =>
+  ORG_ROR
+    ? {
+        name: PUBLISHER_NAME,
+        publisherIdentifier: ORG_ROR,
+        publisherIdentifierScheme: "ROR",
+        schemeUri: "https://ror.org",
+      }
+    : PUBLISHER_NAME
+
 const auditDir = path.join(repoRoot, "data/evidence/migrations")
 fs.mkdirSync(auditDir, { recursive: true })
 const auditPath = path.join(auditDir, `dois-minted-${today}.csv`)
@@ -174,14 +248,20 @@ for (const c of batch) {
         doi,
         prefix: DATACITE_PREFIX,
         suffix,
-        // Editorial attribution is the Institute (CLAUDE.md Part 14); Paleo Certified, Inc. is the
-        // DataCite registrant/account, not the metadata creator. nameType prevents harvesters from
-        // splitting the org name into given/family.
-        creators: [{ name: "Institute of Contaminant Standards", nameType: "Organizational" }],
+        // Creator matches the page's own author declaration (see the model note
+        // above): a person for authored analytical work, the organization for
+        // institutional compilations. Paleo Certified, Inc. is the DataCite
+        // registrant/account, not the metadata creator.
+        creators: [isAuthored(c.dir) ? personCreator() : orgCreator()],
         titles: [{ title }],
-        publisher: "Institute of Contaminant Standards",
+        publisher: publisherField(),
         publicationYear: new Date(updated).getFullYear() || new Date().getFullYear(),
         types: { resourceTypeGeneral: pageTypeToDataCite(c.dir) },
+        // "Heavy Metal Index" is the publication these pages appear in — modeled
+        // as the container so it is explicit on the record regardless of the
+        // publisher-name choice above, and so a resolved DOI reads as an item in
+        // a named publication rather than a bare web page.
+        container: { type: "Series", title: "Heavy Metal Index" },
         url,
         ...(state === "draft" ? {} : { event: state }),
       },

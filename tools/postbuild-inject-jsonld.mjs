@@ -56,6 +56,11 @@ const METAL_ENTITY_LINKS = {
   uranium: ["https://www.wikidata.org/wiki/Q1098", "https://pubchem.ncbi.nlm.nih.gov/element/92"],
 }
 
+// Research Organization Registry ID for the Institute of Contaminant Standards.
+// Empty until assigned; set HMI_ORG_ROR="https://ror.org/<id>" (the same env var
+// tools/mint-dois.mjs reads) and the publisher/affiliation gain their ROR node
+// across every injected page. No-op until then.
+const ORG_ROR = process.env.HMI_ORG_ROR || ""
 const PUBLISHER = {
   // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
   // url stays on the live Foundation site until contaminantstandards.com
@@ -63,6 +68,7 @@ const PUBLISHER = {
   "@type": "Organization",
   name: "Institute of Contaminant Standards",
   url: "https://paleofoundation.com",
+  ...(ORG_ROR ? { "@id": ORG_ROR, identifier: ORG_ROR, sameAs: [ORG_ROR] } : {}),
 }
 // Named, ORCID-identified author of the Index's own content — the human
 // accountability signal Google E-E-A-T and the scholarly graph reward.
@@ -72,7 +78,11 @@ const AUTHOR = {
   "@id": "https://orcid.org/0000-0002-2348-7259",
   identifier: "https://orcid.org/0000-0002-2348-7259",
   sameAs: ["https://orcid.org/0000-0002-2348-7259"],
-  affiliation: { "@type": "Organization", name: "Institute of Contaminant Standards" },
+  affiliation: {
+    "@type": "Organization",
+    name: "Institute of Contaminant Standards",
+    ...(ORG_ROR ? { "@id": ORG_ROR, identifier: ORG_ROR } : {}),
+  },
 }
 const REFERENCE_WORK = {
   "@type": "WebSite",
