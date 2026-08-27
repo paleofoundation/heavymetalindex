@@ -99,20 +99,35 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const packetUrl = `/api/evidence-packet?slug=${encodeURIComponent(slug as string)}&download=1`
   const today = todayIsoDate()
 
-  const citationLine = wikiDoi
-    ? `Heavy Metal Index. "${title}". ${canonicalUrl} (DOI: ${wikiDoi}). Retrieved ${today}. CC BY 4.0.`
-    : `Heavy Metal Index. "${title}". ${canonicalUrl}. Retrieved ${today}. CC BY 4.0.`
-
   // Year for reference-manager records: prefer the page's updated/established
   // year, fall back to the retrieval year.
   const updated = frontmatter
     ? frontmatterString(frontmatter.updated) ?? frontmatterString(frontmatter.established)
     : undefined
   const year = (updated ?? today).slice(0, 4)
+
+  // Synthesis findings are personally-authored analytical reports: they carry a
+  // named byline + ORCID in the hero, the Highwire citation_author, the JSON-LD
+  // author, and the "Pendergrass K. …" cite-as in the typeset PDF. So their
+  // copied citation is author-first too, matching the PDF exactly — an authored
+  // report cited as an authored report reads as more authoritative than one
+  // cited as an anonymous corporate page, and it keeps the two citation surfaces
+  // from disagreeing on who wrote it. Institutional compilations (ingredient/
+  // product/metal/regulation reference pages) keep the corporate-author form
+  // that the licensing page specifies for Index prose.
+  const authored = typeof slug === "string" && slug.startsWith("synthesis/")
+  const citeAuthor = authored ? "Pendergrass, Karen" : "Heavy Metal Index"
+  const citePublisher = authored ? "Heavy Metal Index" : "Institute of Contaminant Standards (ICS)"
+  const doiSuffix = wikiDoi ? ` (DOI: ${wikiDoi})` : ""
+  const citationLine = authored
+    ? `Pendergrass K. "${title}". Heavy Metal Index, ${year}. ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
+    : `Heavy Metal Index. "${title}". ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
+
   const shareText = `${title} — Heavy Metal Index`
 
   return (
     <aside
+      id="cite-this-page"
       class="hmi-cite-page"
       aria-label="Cite this page"
       data-cite-title={title}
@@ -121,6 +136,9 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
       data-cite-doi={wikiDoi ?? ""}
       data-cite-today={today}
       data-cite-slug={slug as string}
+      data-cite-author={citeAuthor}
+      data-cite-author-type={authored ? "person" : "org"}
+      data-cite-publisher={citePublisher}
     >
       <div class="hmi-cite-summary">
         <div>

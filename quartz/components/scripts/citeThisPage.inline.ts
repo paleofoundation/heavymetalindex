@@ -82,6 +82,14 @@ function bind(root: HTMLElement) {
   const doi = d.citeDoi ?? ""
   const today = d.citeToday ?? ""
   const slug = d.citeSlug ?? "page"
+  // Author model, set server-side by CiteThisPage.tsx: authored synthesis
+  // reports are person-authored ("Pendergrass, Karen", published in Heavy Metal
+  // Index); institutional reference pages are corporate-authored (Heavy Metal
+  // Index, published by ICS). The BibTeX/RIS records follow that so a reference
+  // manager records the same author the page and its PDF name.
+  const author = d.citeAuthor ?? "Heavy Metal Index"
+  const authorType = d.citeAuthorType ?? "org"
+  const publisher = d.citePublisher ?? "Institute of Contaminant Standards (ICS)"
   const key = `heavymetalindex-${slug.replace(/[^a-z0-9]+/gi, "-").replace(/(^-|-$)/g, "")}`
 
   const download = (filename: string, text: string, mime: string) => {
@@ -102,8 +110,15 @@ function bind(root: HTMLElement) {
       const lines = [
         `@misc{${key},`,
         `  title        = {${title}},`,
-        `  author       = {{Heavy Metal Index}},`,
-        `  organization = {Institute of Contaminant Standards (ICS)},`,
+        // Person authors are wrapped in one set of braces (BibTeX parses
+        // "Last, First"); the corporate author keeps the double braces that
+        // stop BibTeX splitting the org name into a first/last.
+        authorType === "person"
+          ? `  author       = {${author}},`
+          : `  author       = {{${author}}},`,
+        authorType === "person"
+          ? `  publisher    = {${publisher}},`
+          : `  organization = {${publisher}},`,
         `  year         = {${year}},`,
         ...(doi ? [`  doi          = {${doi}},`] : []),
         `  howpublished = {\\url{${url}}},`,
@@ -120,10 +135,12 @@ function bind(root: HTMLElement) {
   if (risButton) {
     risButton.addEventListener("click", () => {
       const lines = [
-        "TY  - ELEC",
+        // RPRT (report) for an authored synthesis; ELEC (web page) for a
+        // corporate reference page.
+        `TY  - ${authorType === "person" ? "RPRT" : "ELEC"}`,
         `TI  - ${title}`,
-        "AU  - Heavy Metal Index",
-        "PB  - Institute of Contaminant Standards (ICS)",
+        `AU  - ${author}`,
+        `PB  - ${publisher}`,
         `PY  - ${year}`,
         ...(doi ? [`DO  - ${doi}`] : []),
         `UR  - ${url}`,

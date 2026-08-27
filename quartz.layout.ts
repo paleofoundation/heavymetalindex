@@ -32,11 +32,15 @@ import * as Component from "./quartz/components";
 // full-width <header class="hmi-topnav-shell"> OUTSIDE #quartz-root, so it spans
 // the viewport as a sticky bar rather than rendering inside the centered grid.
 //
-// CiteThisPage moved OUT of afterBody and INTO the right rail (see
-// defaultContentPageLayout.right) so the citation/provenance affordance lives in
-// the actions column. RelatedPages ("See also") stays in afterBody — it is the
-// rich in-body lateral-nav block, distinct from the compact left-rail
-// DedicatedPages group.
+// CiteThisPage is end matter here in afterBody — a full-width citation block
+// (masthead-style "how to cite" + Copy/BibTeX/RIS/evidence-packet + share),
+// which is what the hero's "Cite this page" action jumps to (#cite-this-page).
+// A stint in the right rail was attempted but never landed, which orphaned the
+// component: the hero link dangled and no citation block rendered on any page.
+// It self-gates via isCitable(slug), so it is null on the home/list/staff pages
+// and renders only on public reference + synthesis pages. RelatedPages ("See
+// also") is the rich in-body lateral-nav block, distinct from the compact
+// left-rail DedicatedPages group.
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.TopNav()],
@@ -45,6 +49,10 @@ export const sharedPageComponents: SharedLayout = {
     // Lives here, visible, instead of the hidden beforeBody `.page-header`.
     Component.BrandPreScreenTool(),
     Component.Corrections(),
+    // The citation apparatus: "how to cite" + Copy/BibTeX/RIS + evidence packet
+    // + share. Self-gates to citable public pages; the DOI flows into the
+    // citation line automatically once wiki_doi is minted.
+    Component.CiteThisPage(),
     // RelatedPages ("See also") removed: it rendered the SAME relatedByCategory
     // graph the right-rail "Connections" already shows compactly (cap 3),
     // including the inbound direction — a whole-graph duplicate at the page
@@ -117,12 +125,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Snav(),
   ],
   // Right rail = actions / provenance column.
-  //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
-  //     anchor sources / corpus count) read from frontmatter.
-  //   - CiteThisPage: moved from afterBody so the citation + evidence-packet
-  //     affordance lives in the actions column.
-  //   - Follow: placeholder control (no JS wiring yet) for a future
-  //     update-subscription affordance.
+  //   - Rail: the provenance/connections card + the evidence-packet action and
+  //     the Share popup. The full citation apparatus is CiteThisPage in the
+  //     shared afterBody (the rail is too narrow for the masthead-style block);
+  //     the rail's evidence-packet link and CiteThisPage's are intentional
+  //     siblings, one compact and one full.
   //   - SourceCitationPanel: renders only on source pages (self-gates on
   //     type === "source" / slug startsWith "sources/").
   // Proof's .rail: light action buttons + provenance card.
