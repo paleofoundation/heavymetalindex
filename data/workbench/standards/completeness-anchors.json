@@ -1,0 +1,97 @@
+{
+  "bread-and-baked-goods": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "grain-based-snacks": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "breakfast-cereal-non-rice": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "breakfast-cereal-rice-based": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "flour-non-rice": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "rice-bulk-grain": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "rice-snacks-crackers": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "other-grain-products": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "pasta-wheat-based": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "pasta-rice-based": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "rice-noodles": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Al": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "peanut-butter": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "peanuts": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "legumes-pulses-other": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "soy-products": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "cashews": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "nut-seed-butters-other": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "nuts-seeds-other": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "sunflower-seed-butter": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "sunflower-seeds": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "tree-nuts-high-nickel": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  }
+}
