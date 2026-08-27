@@ -293,6 +293,18 @@ function resolveCell(sub, analyte) {
       reference_method: spec.not_material.reference_method || null, bounded_by: spec.not_material.bounded_by || null, substantiation: spec.not_material.substantiation || null,
       basis_class: spec.not_material.basis_class || "", regulatory_basis: spec.not_material.regulatory_basis || "", jurisdictions_checked: spec.not_material.jurisdictions_checked || "", ...cited }
   }
+  if (spec.subsumed) {
+    // A toxic species that is a component of, and bounded by, its parent total (iAs <= tAs, MeHg <= tHg,
+    // Cr-VI <= total Cr). Per the 2026-08-25 Certification-Readiness Ruling this is an enforceable
+    // limit-of-record (the ceiling is the parent total, enforced by reflex speciation) — NOT an empty
+    // cell — so it emits type/provenance "subsumed", which the readiness lint counts as COMPLETE and the
+    // cert renderer displays as "bounded by <parent> — reflex speciation". No standalone number.
+    const b = spec.subsumed.bounded_by || spec.subsumed.subsumed_by || null
+    return { type: "subsumed", value: null, provenance: "subsumed", subsumed_by: b, bounded_by: b,
+      rationale: spec.subsumed.rationale || spec.subsumed, reference_method: spec.subsumed.reference_method || null,
+      basis_class: spec.subsumed.basis_class || "speciation-bounded", regulatory_basis: spec.subsumed.regulatory_basis || "",
+      jurisdictions_checked: spec.subsumed.jurisdictions_checked || "", substantiation: spec.subsumed.substantiation || null, ...cited }
+  }
   if (spec.control) {
     return { type: "control", value: null, provenance: "control", rationale: spec.control.rationale || spec.control,
       reference_method: spec.control.reference_method || null, bounded_by: spec.control.bounded_by || null, companion_ml: spec.control.companion_ml || null, ...cited }
