@@ -56,13 +56,32 @@ const dryRun = args.includes("--dry-run") || !credentialsReady
 const limitArg = args.find((a) => a.startsWith("--limit="))
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity
 const priorityArg = args.find((a) => a.startsWith("--priority="))
-const maxPriority = priorityArg ? Number(priorityArg.split("=")[1]) : 6
+// Source pages (priority 6) are summaries of THIRD-PARTY papers. Minting HMI DOIs for them would
+// register DataCite records asserting our authorship of other scientists' work (see the 2026-08-27
+// preflight audit) — a defensibility landmine and a misattribution problem. They are excluded from
+// the default run; `--include-sources` re-enables them, and doing so correctly requires deriving
+// creators from the page's real `authors` and adding an IsDerivedFrom relatedIdentifier to the
+// paper's own DOI (NOT the org-as-creator shape below). Until that lands, sources stay off.
+const includeSources = args.includes("--include-sources")
+const maxPriority = priorityArg ? Number(priorityArg.split("=")[1]) : (includeSources ? 6 : 5)
 
 const DATACITE_USER = process.env.DATACITE_USER
 const DATACITE_PASSWORD = process.env.DATACITE_PASSWORD
 const DATACITE_PREFIX = process.env.DATACITE_PREFIX
 const DATACITE_MODE = (process.env.DATACITE_MODE || "test").toLowerCase()
 const DATACITE_API = DATACITE_MODE === "live" ? "https://api.datacite.org/dois" : "https://api.test.datacite.org/dois"
+// draft (no event, reserve) | register (Registered, not yet Findable) | publish (Findable). Default publish.
+const state = (args.find((a) => a.startsWith("--state=")) || "--state=publish").split("=")[1]
+const TEST_PREFIXES = ["10.5072", "10.82"] // datacite sandbox families (10.5072 retired; test repos get their own)
+const isTestPrefix = (doi) => TEST_PREFIXES.some((p) => String(doi).startsWith(p))
+const persist = DATACITE_MODE === "live" // never stamp non-resolvable test DOIs into frontmatter
+// A DataCite record is permanent + public: screen each candidate title against a brand denylist so
+// a third-party paper title (or any brand) never becomes a minted HMI record. A hit aborts.
+const BRAND_DENYLIST = ["bobbie", "kasandrinos", "enfamil", "similac", "gerber", "kirkland", "clorox", "purina", "light labs"]
+const brandHit = (s) => {
+  const hay = String(s || "").toLowerCase()
+  return BRAND_DENYLIST.find((b) => new RegExp(`(^|[^a-z0-9])${b}([^a-z0-9]|$)`, "i").test(hay)) || null
+}
 
 const auditDir = path.join(repoRoot, "data/evidence/migrations")
 fs.mkdirSync(auditDir, { recursive: true })
@@ -86,7 +105,9 @@ for (const { dir, priority } of PRIORITY_DIRS) {
     const wikiDoiMatch = fm.match(/^wiki_doi:\s*(.+)$/m)
     if (!wikiDoiMatch) continue
     const value = wikiDoiMatch[1].trim()
-    if (value !== "null" && value !== '""' && value !== "'") continue
+    // Mintable when the de-quoted value is empty or the literal null (handles "", '', null).
+    const dequoted = value.replace(/^['"]|['"]$/g, "")
+    if (dequoted && dequoted.toLowerCase() !== "null") continue
     candidates.push({ filePath, dir, priority, raw, fm })
   }
 }
@@ -138,6 +159,8 @@ let failed = 0
 for (const c of batch) {
   const fm = c.fm
   const title = (fm.match(/^title:\s*"?(.+?)"?\s*$/m) || [])[1] || path.basename(c.filePath, ".md")
+  const brand = brandHit(title)
+  if (brand) { console.error(`  SKIP ${path.relative(repoRoot, c.filePath)}: brand/firewall hit "${brand}" in title — not minting.`); failed += 1; continue }
   const updated = (fm.match(/^updated:\s*(.+)$/m) || [])[1]?.trim() || today
   const slug = path.relative(path.join(repoRoot, "wiki"), c.filePath).replace(/\.md$/, "")
   const url = `https://heavymetalindex.com/${slug}`
@@ -151,13 +174,16 @@ for (const c of batch) {
         doi,
         prefix: DATACITE_PREFIX,
         suffix,
-        creators: [{ name: "Paleo Certified, Inc." }],
+        // Editorial attribution is the Institute (CLAUDE.md Part 14); Paleo Certified, Inc. is the
+        // DataCite registrant/account, not the metadata creator. nameType prevents harvesters from
+        // splitting the org name into given/family.
+        creators: [{ name: "Institute of Contaminant Standards", nameType: "Organizational" }],
         titles: [{ title }],
-        publisher: "Institute of Contaminant Standards — Heavy Metal Index",
+        publisher: "Institute of Contaminant Standards",
         publicationYear: new Date(updated).getFullYear() || new Date().getFullYear(),
         types: { resourceTypeGeneral: pageTypeToDataCite(c.dir) },
         url,
-        event: "publish",
+        ...(state === "draft" ? {} : { event: state }),
       },
     },
   }
@@ -179,11 +205,18 @@ for (const c of batch) {
     }
     const result = await r.json()
     const mintedDoi = result?.data?.attributes?.doi || doi
-    // Write back to the page
-    const newRaw = c.raw.replace(/^wiki_doi:\s*.+$/m, `wiki_doi: "${mintedDoi}"`)
-    fs.writeFileSync(c.filePath, newRaw, "utf8")
-    const sha256 = crypto.createHash("sha256").update(newRaw).digest("hex")
-    auditRows.push(`${path.relative(repoRoot, c.filePath)},${mintedDoi},${sha256},${DATACITE_MODE},${new Date().toISOString()}`)
+    if (persist) {
+      // Never write a non-resolvable sandbox DOI into a page's citation frontmatter.
+      if (isTestPrefix(mintedDoi)) { console.error(`  FAIL ${slug}: refusing to persist test-prefix DOI ${mintedDoi}`); failed += 1; continue }
+      const newRaw = c.raw.replace(/^wiki_doi:\s*.+$/m, `wiki_doi: "${mintedDoi}"`)
+      if (newRaw === c.raw) { console.error(`  ABORT ${slug}: write-back changed nothing — DOI ${mintedDoi} minted but unpersistable. Stopping.`); failed += 1; break }
+      fs.writeFileSync(c.filePath, newRaw, "utf8")
+      const sha256 = crypto.createHash("sha256").update(newRaw).digest("hex")
+      auditRows.push(`${path.relative(repoRoot, c.filePath)},${mintedDoi},${sha256},${DATACITE_MODE},${new Date().toISOString()}`)
+    } else {
+      // Test mode: verify the round-trip; do not stamp non-resolvable test DOIs into pages.
+      auditRows.push(`${path.relative(repoRoot, c.filePath)},${mintedDoi},(test-not-persisted),${DATACITE_MODE},${new Date().toISOString()}`)
+    }
     minted += 1
     if (minted % 25 === 0) console.log(`  minted ${minted}/${batch.length}...`)
   } catch (err) {
@@ -198,10 +231,10 @@ console.log(`  failed: ${failed}`)
 console.log(`  audit:  ${path.relative(repoRoot, auditPath)}`)
 
 function pageTypeToDataCite(dir) {
-  // DataCite resourceTypeGeneral controlled vocab
-  if (dir.includes("synthesis")) return "JournalArticle" // scholarly synthesis
-  if (dir.includes("metals") || dir.includes("ingredients") || dir.includes("products")) return "Text"
-  if (dir.includes("regulations")) return "Standard"
+  // DataCite resourceTypeGeneral controlled vocab. A wiki page is a Text reference, not a
+  // JournalArticle (the peer-reviewed venue is the separate Journal of Food Metallomics) and not a
+  // Standard (the Index REPORTS the literature; HMTc SETS standards — Part 2 firewall). "Standard"
+  // must never appear in the Index's DataCite metadata.
   if (dir.includes("sources")) return "Other"
   return "Text"
 }
