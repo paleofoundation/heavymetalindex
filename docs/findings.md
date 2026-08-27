@@ -513,7 +513,116 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-162 open item(s): 53 auto, 109 awaiting a decision.
+176 open item(s): 56 auto, 120 awaiting a decision.
+
+### OI-20260827-readiness-lint-cells-shape — standard-readiness-lint skips top-level-cells records (cat5 etc.) — invisible to the READY manifest
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/standard-readiness-lint.mjs`
+- repro: standard-readiness-lint.mjs does `if (!rec.variants) continue`, so compiled records shaped with top-level `cells` (cat5 coffee.json and every other non-variants category) are never evaluated for COMPLETE/REGISTERED/READY. Coffee does not appear in the readiness output at all despite having 1 empty cell (Al). Fix: fall back to rec.cells when rec.variants is absent (build-category-standard-pages already normalises both shapes).
+- done when: standard-readiness-lint evaluates rec.cells when rec.variants absent; coffee appears in the readiness report as INCOMPLETE (empty: Al)
+
+### OI-20260827-portal-backend-redesign-plan — Implement the approved HMTc brand-portal backend redesign (Product-first coverage cockpit + org layer + bulk ingest + service-request cart + revenue attestation)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert · blocked_on: OI-20260826-portal-engine-registry-rebuild
+- paths: `~/.claude/plans/from-https-app-heavymetalcertified-com-p-staged-petal.md`, `docs/architecture/application-crm-spec.md`, `heavymetalcertified-app/src/lib/grouping`, `heavymetalcertified-app/src/lib/suppliers`, `heavymetalcertified-app/supabase/migrations`
+- repro: Karen adversarial-reviewed app.heavymetalcertified.com/portal/products (2026-08-27): labs never FK to products (baseline runs brand-level); products modeled twice; no cart; no materially-similar grouping (+ no can-vs-bottle guard); no bulk COA/supplier ingest; one-brand-per-login (no parent signer/child brands); no revenue-at-signer or post-approval attestation. Full grounded design-of-record in the approved plan file. Phase 1 engine already in-flight via OI-20260826-portal-engine-registry-rebuild (feat/registry-engine-context, green).
+- done when: Phase 2: prior_lab_report gains product_id FK; documents/evidence_sets adopt CRM LOQ-aware reuse predicate; per-product 2-of-3 baseline; /portal/products coverage matrix; Phase 3: drag-drop bulk COA -> AI extract -> auto-match to products + auto-create drafts; bulk supplier extraction (DONE: dedup lib feat/product-grouping src/lib/suppliers, 12 tests); Phase 4: service_requests cart prices only owed analyte-lots (skip-labs => 3 program lots); wired to testing_order + Stripe; Phase 5: SKU packaging_material/basis guard + test_equivalence_groups (DONE: engine feat/product-grouping src/lib/grouping, 13 tests, can-vs-bottle guard + fan-out); still needs DB tables + UI wiring; Phase 6: accounts/billing_groups/memberships/account_brands + brands.parent_brand_id; backfill; RLS repoint behind getBrandSession shim; brand switcher; Phase 7: revenue at Account; revenue_attestations post-approval SignNow; brand_people on profile; All brand+lab data stays in portal DB/cert plane, never the index domain; no deploy or live-prod migration without Karen
+- evidence: branch feat/product-grouping @ 0c26207 (isolated worktree, NOT pushed): src/lib/grouping (test-equivalence + can-vs-bottle guard, 13 tests) + src/lib/suppliers (dedup lib, 12 tests); 25/25 green; zero touch to the engine branch or shared tree
+- decision: _pending_
+- notes: Design decided under wwsaid: grow the running app toward the ICS CRM design-of-record using its real entity names (staged in-place migration). Pricing NOT redesigned (CRM spec resolved). Strictest-floor-everywhere decided. Phases 3+5 have durable pure-lib components landed (see evidence) — wire, do not rebuild. Human-gated deps: recency-governance (counsel), SignNow creds, Stripe.
+
+### OI-20260827-portal-backend-cert-gaps — Brand portal backend is missing the certificate-issuance keystone (and dependent surfaces) promised by the public /portal specimen
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app/docs/portal-specimen-gap-audit.md`
+- repro: Compare https://heavymetalcertified.com/portal specimen sections against src/app/portal/** in heavymetalcertified-app.
+- done when: Karen prioritizes: certificate table + issuance flow (keystone; blocks Documents, Lot-record headroom, public program-controlled block, 3/4 snapshot tiles); Confidential Remediation Track register (distinct from existing pre-cert ingredient advisory); Documents/letters generation (permissions letter, CoC, lab-report ZIP) via @react-pdf/renderer; Seats/access RBAC + download audit log (largest net-new; independent of certificates)
+- decision: _pending_
+
+### OI-20260827-manual-vs-governance-cadence-reconcile — Reconcile controlled Governance Policy + Lot Testing Schedule to the as-built portal cadence now documented in the Program Manual
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/workbench/standards-book/source-documents/governance-policy.md`, `data/workbench/standards-book/source-documents/lot-testing-schedule.md`, `data/workbench/program-manual/20-part2-program.md`
+- repro: The program-level Program Manual (data/workbench/program-manual/) was corrected 2026-08-27 to document the AS-BUILT portal cadence: a confidentiality undertaking pre-signed by HMTc and in force from first contact (pre-account); free readiness; a 3-lot baseline whose completing lot is a PAID buy-and-test the program runs (buys the product at retail, ships to an accredited lab, runs the 8 totals; speciation reflex); the binding Certification Agreement executed only AFTER program approval, not a license at entry; and per-analyte prior-lab credit with LOQ<=limit/5. The controlled Governance Policy (governance-policy.md sec.4) still frames a license as the entry instrument and a flat 12-month recency window (lot-testing-schedule.md sec.4.3), which the running portal contradicts (cadence-based recency; agreement-late). Decide whether to update the controlled documents to the as-built cadence (with counsel) or ratify the as-built as canonical. Distinct from, but related to, the open recency items OI-20260825-hmtc-recency-cadence-governance and OI-20260825-recency-governance-propagation.
+- done when: Karen/counsel decide the canonical entry sequence and recency policy; governance-policy.md sec.4 and lot-testing-schedule.md sec.4.3 updated to match the as-built cadence, or a documented decision to keep them and correct the portal; Program Manual Part 6.8 note cleared once the docs and manual agree
+- decision: _pending_
+
+### OI-20260827-doi-publisher-name-of-record — Ratify DataCite publisher-of-record name for Index DOIs: Institute of Contaminant Standards vs Heavy Metal Index
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/mint-dois.mjs`, `quartz/components/Head.tsx`
+- repro: Karen asked the organoarsenical synthesis report note 'Heavy Metal Index as publisher.' Settled entity-naming rule (CLAUDE.md Part 14) sets citation_publisher=Institute of Contaminant Standards; the imminent ROR identifies that ORG, not the publication. Implemented default: publisher field = ICS (ROR attaches cleanly) + 'Heavy Metal Index' as the DataCite container/publication + the venue in every human-readable citation. One-constant switch (PUBLISHER_NAME in mint-dois.mjs) makes the publisher field literally read 'Heavy Metal Index' if preferred.
+- done when: Karen picks: (a) publisher=ICS + HMI container [implemented, recommended], or (b) publisher=Heavy Metal Index. If (b): flip PUBLISHER_NAME and re-verify Head.tsx citation_publisher + JSON-LD publisher agree.
+- decision: _pending_
+
+### OI-20260827-doi-license-posture-cc-by — Ratify content license for DOI'd Index pages: keep CC BY 4.0 (prose) + EU database-rights (structured) vs change
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/licensing.md`, `tools/postbuild-inject-jsonld.mjs`, `quartz/components/CiteThisPage.tsx`
+- repro: Karen: 'CC BY 4.0 may no longer be appropriate, since we will have a ROR.' A ROR ID (org identifier) is orthogonal to license choice — it does not make CC BY inappropriate; major ROR-holding publishers ship CC BY. Current implemented posture: prose = CC BY 4.0, structured evidence DB = EU sui generis database-rights reserved (the commercial lever). Recommend KEEP. NOTE: the Cyprus/EU database-rights posture is counsel-FROZEN (CLAUDE.md Part 14) — do not edit licensing.md into a new posture; this item is a ratify-or-instruct, not an auto-fix.
+- done when: Karen confirms keep CC BY 4.0 + DB-rights split, OR specifies a target license; if changing, route the DB-rights wording through counsel (frozen).
+- decision: _pending_
+
+### OI-20260827-completeness-backlog-corpus — Whole compiled-standards corpus predates the 2026-08-25 completeness ruling (426 empty cells / 107 standards)
+
+- scope: **human-gated** · type: audit · status: open · repo: cert
+- paths: `tools/standard-readiness-lint.mjs`, `data/standards`
+- repro: standard-readiness-lint reports 17 COMPLETE / 0 REGISTERED / 0 READY / 426 empty cells. Coffee is now near-complete via the pattern applied here (subsumed disposition for bounded species + per-cell sovereign re-scan incl general-food catch-alls + baseline-monitor for true gaps). The same completeness sweep needs to run across every category (menstrual products, rice-beverages, honey, condiments, etc. all show many empty cells). Large program initiative; coffee is the worked template.
+- done when: A per-category completeness sweep plan exists; Readiness-lint empty-cell count trends to zero and lint flips to --strict
+- decision: _pending_
+
+### OI-20260827-coffee-standard-pb-only-scaffold — Coffee HMTc standard is a Pb-only scaffold: 10 analytes marked status:published but 9 carry null limits — not certification-ready
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `heavymetalcertified-app/src/data/standards-finder-context.json`, `data/workbench/standards/`
+- repro: resolveStandard(coffee,US) returns Pb=500 (HK) and limit_ppb:null for iAs,tAs,tHg,MeHg,Cd,Cr,Cr-VI,Ni,Sn,Al; the coffee variant lists eligibility:firm/firm_count:10 yet only Pb resolves to a number. Surfaced by the Natural Force canary: a measured Cd 5.58 ppb resolves to insufficient_data because there is no coffee Cd ceiling. Locked in heavymetalcertified-app/src/lib/readiness/natural-force-scenario.test.ts.
+- done when: Coffee variant all has a firm ML / bounded species / disclosed baseline-screen for every one of the 10 HMTc analytes (no null under status:published), per the Certification-Readiness Ruling COMPLETE gate; standard-readiness-lint (cert) passes for coffee; After completion, Natural Force green-lot As/Cd/Hg credit toward the baseline (coffee reporting limits exist for them)
+- decision: _pending_
+
+### OI-20260827-coffee-sovereign-admission-programwide — Formalise the widened credible-sovereign anchor set program-wide (MERCOSUR/PY/VN/TH/SG/UY/CN)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat5-config.json`, `tools/standards/compile-category.mjs`
+- repro: Coffee (Cat 5) now anchors Cd/tAs/tHg/Sn on MERCOSUR, Paraguay, Vietnam, Thailand, Singapore, Uruguay national/regional food-contaminant limits (same tier as HK Cap132V + China GB already live-cited), named per-cell and disclosed. DEFAULT_CREDIBLE in compile-category.mjs is EU/UK/CODEX/US/AU-NZ/CA/HK only; these sovereigns are used per-cell via gov_ids/read_across which bypass CREDIBLE. Decision: formalise a widened _category.credible + credible_note program-wide (would ripple to every category auditScan and may surface stricter general-food anchors on other rows), or keep the per-cell disclosure approach.
+- done when: Karen rules: widen credible set program-wide, or keep per-cell disclosure; If widened: _category.credible + credible_note added and all categories re-audited
+- decision: _pending_
+
+### OI-20260827-coffee-occurrence-unit-inflation — Coffee occurrence figures look unit-inflated (Cd median 668 ppb, p95 18.5 mg/kg)
+
+- scope: **auto** · type: finding · status: open · repo: cert
+- paths: `content/standards/coffee.md`, `data/standards`
+- repro: The Occurrence and derivation section of content/standards/coffee.md reports cadmium in coffee at a pooled median of 668 ppb and p95 of 18.5 mg/kg across 63 samples — implausibly high for coffee (typical Cd ~10-30 ppb); likely a mg/kg-vs-ug/kg aggregation artifact or an outlier study. Pre-existing (occurrence layer, not the standard cells). Does not affect the government-limit-based standard but is displayed on the public page. Audit the coffee occurrence aggregation for unit scaling.
+- done when: Coffee occurrence Cd/other values audited for unit scaling; Implausible values corrected or the source study quarantined
+
+### OI-20260827-coffee-cat5-testing-panel — Add Cat-5 (Beverages)/coffee to the required-analytes testing-panel registry
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `data/workbench/standards/required-analytes.json`
+- repro: required-analytes.json has no Category 5 entry, so coffee (now a complete-minus-Al standard) has no per-lot TESTING obligations recorded (per_lot_total for the 8 totals; reflex_speciation for iAs<=tAs / MeHg<=tHg / Cr-VI<=Cr with triggers; Al baseline_monitor). Author the Cat-5 coffee entry following the Required-Testing-Panel Ruling vocabulary and validate with build-required-analytes.mjs.
+- done when: Cat-5 coffee entry added to required-analytes.json; node tools/standards/build-required-analytes.mjs validates clean
+
+### OI-20260827-coffee-cat5-datacite-doi — Coffee/Cat-5 standard not REGISTERED — needs a production DataCite DOI
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `content/standards/coffee.md`, `data/standards/cat5-pages.json`
+- repro: content/standards/coffee.md carries cert_doi:null and cites DOI: registration pending. The Certification-Readiness gate needs REGISTERED (a resolvable production DataCite DOI; a test/sandbox DOI does not count), which depends on the DataCite membership + a live prefix. Until then coffee is COMPLETE-minus-Al and CORRECTED but not certification-READY and must not be presented as ready.
+- done when: Production DataCite DOI minted for the Coffee standard; cert_doi populated; standard-readiness-lint marks it REGISTERED
+- decision: _pending_
+
+### OI-20260827-certified-but-private-build-or-forthcoming — Decide: build certified-but-private representation (visibility/consent + certificate register) and reconcile marketing copy, or present private certification as forthcoming
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `heavymetalcertified-app/supabase/migrations`, `heavymetalcertified/content/for-brands.md`, `heavymetalcertified/content/mark.md`, `data/workbench/program-manual/20-part2-program.md`
+- repro: Public-facing vs private certification is now stated program policy in the Program Manual (Part 2.5): a certified, non-remediation brand may elect private certification per product, and publicity is consent-based (authorized via the Certification Agreement). But the portal does not yet represent or enforce a certified-and-unlisted state (no visibility/consent column on brand/product/application, no live certificate-issuance/register flow; public register shows 0 certificates), and cert-site marketing copy (for-brands.md content asserting a product becomes public when certified) contradicts the consent-based rule. Decide: (a) build the visibility/consent field + certificate-issuance/register flow so private certification is enforceable, and reconcile the marketing copy to consent-based; or (b) present private certification externally as forthcoming until built. Program Manual states the policy in both editions and flags the build gap in the internal edition (Part 6.8).
+- done when: Karen decides build-vs-forthcoming for certified-but-private; if build: portal gains a per-product visibility/consent field + certificate register; marketing copy reconciled to consent-based publicity; if forthcoming: external framing updated to not imply an enforceable private-cert state yet
+- decision: _pending_
+
+### OI-20260827-baseline-loq-lightlabs — Coffee Al resolved via read-across (dry China GB 100000 / RTD drinking-water 200); LOQ dependency only for cells with NO read-across anywhere
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- decision: _pending_
+- notes: Karen ruled no empty cells; Al filled by disclosed read-across in both coffee forms rather than a baseline-monitor. The documented-lab-LOQ dependency now applies only to the rare cell where NO sovereign and NO analogous-matrix anchor exists at all across the whole corpus; coffee no longer needs it.
 
 ### OI-20260826-stripe-provisioning — Connect Stripe to heavymetalcertified-app to turn on the live completing-lot payment window
 
@@ -522,6 +631,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: The completing-lot CTA now routes to /portal/orders which shows the itemized price breakdown + a Pay button and creates a Stripe Checkout session (src/lib/stripe.ts, orders/actions startCheckout). It is gated on STRIPE_SECRET_KEY (isStripeConfigured); until Stripe is connected the Pay button says payment is coming online and the order is saved. To go live: connect Stripe (financial account OAuth — Karen only) via `vercel integration add stripe` from ~/Desktop/heavymetalcertified-app, or Vercel dashboard → the heavymetalcertified-app project → Integrations → Stripe. Ensure STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET are set (Prod+Preview) and a Stripe webhook points to https://app.heavymetalcertified.com/api/stripe/webhook for checkout.session.completed. Then redeploy. Claude must not connect the financial account or handle the secret.
 - done when: Stripe integration connected; STRIPE_SECRET_KEY + STRIPE_WEBHOOK_SECRET present; clicking Pay on /portal/orders opens the Stripe hosted checkout; paying flips the testing_order status to paid via the webhook
 - decision: _pending_
+
+### OI-20260826-readiness-lint-test-prefix-gap — standard-readiness-lint TEST_PREFIXES misses issued sandbox prefix 10.84435
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/standard-readiness-lint.mjs`
+- repro: standard-readiness-lint.mjs TEST_PREFIXES = [10.5072, 10.82] but the DataCite sandbox prefix actually issued to the program is 10.84435. productionDoi() rejects only the listed test prefixes, so a page stamped with a 10.84435 SANDBOX DOI would be wrongly counted as REGISTERED and could pass the certification-readiness gate. Harmless today because no doi: frontmatter exists yet, but becomes a real false-pass the moment sandbox DOIs are stamped during testing.
+- done when: TEST_PREFIXES includes 10.84435 (plus any other issued sandbox prefixes); a page whose doi resolves under 10.84435 is NOT counted REGISTERED by standard-readiness-lint
 
 ### OI-20260826-portal-mis-certification-market-loosening — SAFETY: portal certifies to the selected-market looser local limit; government hard-stop dead in production
 
@@ -729,13 +845,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - evidence: heavymetalcertified-app commit 625b0c6 · memory project_hmtc_go_to_market
 - decision: _pending_
 - notes: Karen directed this (she owns standards). Defensibility: §4.5 is a litigation-facing rule; the app must not drift from the published standard. Values in the app are a first cut.
-
-### OI-20260825-hmtc-readiness-test-type-error — heavymetalcertified-app: readiness-engine.test.ts fails tsc (MeasuredAnalyte)
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `/Users/karenpendergrass/Desktop/heavymetalcertified-app/src/lib/readiness/readiness-engine.test.ts`
-- repro: cd ~/Desktop/heavymetalcertified-app && npx tsc --noEmit -> TS2322 at readiness-engine.test.ts:188: a test fixture array types analyte as string, not MeasuredAnalyte. Pre-existing (unrelated to the grandfather build); tsc otherwise clean.
-- done when: npx tsc --noEmit exits 0; npx vitest run still green
 
 ### OI-20260825-hmtc-app-launch-gaps — HMTc brand portal: launch-readiness gap backlog vs paleofoundation backend
 
