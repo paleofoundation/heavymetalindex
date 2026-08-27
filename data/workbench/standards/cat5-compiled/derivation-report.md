@@ -476,3 +476,33 @@ Version: cat5-v1.1 (2026-08-17)
   - ?? **Ni stricter-unselected (same-basis audit):** 7000 µg/kg [EU] eu2024_ni_chocolate_7000 — basis "product as placed on market", scope "milk chocolate >= 30 % dry cocoa solids, and cho"
   - **Sn cited register row (disclosure — not this cell's anchor):** eu2023_sn_canned_beverages_100000 — 100000 µg/kg [EU] Sn, basis "product as placed on market", scope "canned beverages, including canned fruit and vegetable juices, except ca"
 
+### coffee-ready-to-drink — Coffee, ready-to-drink
+- native basis: ready-to-drink liquid coffee, as consumed at single strength (canned and bottled coffee, cold-brew and nitro coffee in sealed retail packaging, ready-to-drink coffee drinks); assessed on the liquid as sold ready to drink, the lot the applicant packages and the auditor samples
+
+| analyte | value (µg/kg) | provenance | binding source | component logic |
+|---|---|---|---|---|
+| Pb | 200 | regulatory-alignment | hk_cap132v_pb_coffee-beverages_200 (HK) | 200 [HK] |
+| Cd | 2 | read-across | nhmrc2025_cd_drinking_water_2 (AU) |  |
+| tAs | 10 | read-across | eu20202184_tas_drinking_water_10 (EU) |  |
+| iAs | subsumed | subsumed | bounded by tAs | Inorganic arsenic carries no coffee-beverage-specific sovereign cell;  |
+| tHg | 1 | read-across | eu20202184_thg_drinking_water_1 (EU) |  |
+| MeHg | subsumed | subsumed | bounded by tHg | Methylmercury has no formation pathway in a water-based coffee beverag |
+| Ni | 20 | read-across | eu20202184_ni_drinking_water_20 (EU) |  |
+| Sn | 100000 | read-across | eu2023_sn_canned_beverages_100000 (EU) |  |
+| Al | 200 | read-across | eu20202184_al_drinking_water_200 (EU) |  |
+| Cr | 50 | read-across | nhmrc2025_crvi_drinking_water_50 (AU) |  |
+| Cr-VI | 10 | read-across | us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl (US-CA) |  |
+
+**Audit / substantiation notes**
+  - **Pb substantiation:** Direct regulatory lookup on the exact product form and basis. Hong Kong Cap 132V is the only credible sovereign that regulates coffee beverages, and 200 ug/kg is the value it sets for the ready-to-drink form. The drinking-water lead limits (US bottled water 5, and the other packaged and public-water values) are stricter but are written for water sold as water, not for a coffee beverage; Hong Kong assessed the coffee beverage itself and set 200, and that product-specific value binds. Register-sourced, not occurrence-derived.
+  - **Cd substantiation:** Disclosed read-across, not direct governance. No sovereign regulates cadmium in coffee beverages. A ready-to-drink coffee is predominantly water, so the nearest applicable as-consumed instrument is the drinking-water quality standard; NHMRC's 0.002 mg/L is the strictest and binds by read-across. It is achievable: cadmium in brewed and canned coffee is characteristically well below this level. Register-sourced, not occurrence-derived.
+  - **tAs substantiation:** Disclosed read-across, not direct governance. No sovereign sets an arsenic limit for coffee beverages; the drinking-water arsenic ceiling is the nearest applicable as-consumed instrument for a water-based beverage. EU 2020/2184's 0.010 mg/L is the strictest and binds. Serves as the parent ceiling for reflex inorganic-arsenic speciation. Register-sourced, not occurrence-derived.
+  - **iAs substantiation:** Bounded by the total-arsenic cell (tAs = 10 ug/kg).
+  - **tHg substantiation:** Disclosed read-across, not direct governance. No sovereign sets a mercury limit for coffee beverages; the drinking-water mercury ceiling is the nearest applicable as-consumed instrument. EU 2020/2184's 0.001 mg/L is the strictest and binds. Register-sourced, not occurrence-derived.
+  - **MeHg substantiation:** Bounded by the total-mercury cell (tHg = 1 ug/kg).
+  - **Ni substantiation:** Disclosed read-across, not direct governance. No sovereign sets a nickel limit for coffee beverages; the drinking-water nickel ceiling is the nearest applicable as-consumed instrument. EU 2020/2184's 0.020 mg/L binds. Nickel is a Tier-2 analyte. Register-sourced, not occurrence-derived.
+  - **Sn substantiation:** Disclosed read-across from the sovereign canned-beverage tin cell, which governs the tinplate-can form directly and is the only tin source in a ready-to-drink coffee. EU 2023/915's 100 mg/kg binds; the looser Hong Kong canned-beverage cell (150 mg/kg) is disclosed and not adopted. Tin is a Tier-2 analyte. Register-sourced, not occurrence-derived.
+  - **Al substantiation:** Disclosed read-across, not direct governance. No sovereign sets an aluminium limit for coffee beverages; the drinking-water aluminium ceiling is the nearest applicable as-consumed instrument, and EU 2020/2184, US bottled water and NHMRC all set 200. Aluminium is a Tier-2 analyte with both an agronomic and an aluminium-can packaging pathway in this form. Register-sourced, not occurrence-derived.
+  - **Cr substantiation:** Disclosed read-across. No sovereign sets a total-chromium limit for a coffee beverage, and the register holds no as-consumed total-chromium cell because water regulators express chromium as the hexavalent species. The Australian drinking-water chromium guideline (0.05 mg/L, set on the conservative assumption that chromium is present as the hexavalent form) is the nearest applicable as-consumed chromium ceiling and is adopted as the total-chromium value; the health-relevant hexavalent fraction is bound more tightly at 10 ug/kg in the Cr-VI cell (US-California), so total chromium 50 and Cr-VI 10 are consistent (Cr-VI <= total Cr). The provenance is disclosed as a hexavalent-expressed drinking-water chromium value used as the total-chromium beverage ceiling. Register-sourced, not occurrence-derived.
+  - **Cr-VI substantiation:** Disclosed read-across, not direct governance. No sovereign sets a hexavalent-chromium limit for a coffee beverage; the US-California drinking-water hexavalent-chromium MCL (0.010 mg/L) is the strictest applicable as-consumed instrument and is the health-relevant chromium control. It is consistent with the total-chromium cell (Cr-VI 10 <= total Cr 50). Register-sourced, not occurrence-derived.
+
