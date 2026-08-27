@@ -46,7 +46,7 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/karimi2015-nail-polish-heavy-metals-iran|Heavy Metal Contamination of Popular Nail Polishes in Iran]]<span class="hmi-ref-meta">Karimi G and Ziarati P · Iranian Journal of Toxicology · 2015</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/karimi2015-nail-polish-heavy-metals-iran|Heavy Metal Contamination of Popular Nail Polishes in Iran]]<span class="hmi-ref-meta">Karimi G and Ziarati P · Iranian Journal of Toxicology · 2015</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -122,7 +122,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata, Tomoyuki, Meng, Can, Umoren, Josephine, and West, Heidi · International Journal of Environmental Research and Public Health · 2016</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata T, Meng C, Umoren J, and West H · International Journal of Environmental Research and Public Health 13(4):361 · 2016 · [doi.org/10.3390/ijerph13040361](https://doi.org/10.3390/ijerph13040361)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

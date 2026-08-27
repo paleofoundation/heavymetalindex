@@ -64,7 +64,7 @@ The corpus index pages under [[corpus/index|`wiki/corpus/`]] will surface additi
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/inoue-2024-rice-nramp5-cadmium|Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System]]<span class="hmi-ref-meta">Inoue J, Teramoto T, Kazama T, and Nakamura T · Frontiers in Plant Science 15:1482099 · 2024 · [doi.org/10.3389/fpls.2024.1482099](https://doi.org/10.3389/fpls.2024.1482099)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/inoue-2024-rice-nramp5-cadmium|Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System]]<span class="hmi-ref-meta">Inoue J, Teramoto T, Kazama T, and Nakamura T · Frontiers in Plant Science 15:1482099 · 2024 · [doi.org/10.3389/fpls.2024.1482099](https://doi.org/10.3389/fpls.2024.1482099)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 

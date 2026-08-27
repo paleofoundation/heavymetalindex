@@ -163,9 +163,9 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

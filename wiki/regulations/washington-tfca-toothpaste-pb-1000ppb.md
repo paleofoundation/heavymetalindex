@@ -66,7 +66,7 @@ The WA TFCA sits between the strict EU regulation and the more permissive Canadi
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

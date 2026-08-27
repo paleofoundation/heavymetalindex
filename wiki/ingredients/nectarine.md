@@ -122,7 +122,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/rezaei2020-fruits-markazi-essential-elements|Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study]]<span class="hmi-ref-meta">Mohammad Rezaei, Yousef Fakhri, Maryam Abtahi, Majid Keramati, Gholamreza Ghasemi, Mohammad H. Moradi, et al. · Quality Assurance and Safety of Crops & Foods · 2020 · [doi.org/10.15586/qas.v12i3.777](https://doi.org/10.15586/qas.v12i3.777)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/rezaei2020-fruits-markazi-essential-elements|Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study]]<span class="hmi-ref-meta">Mohammad Rezaei, Yousef Fakhri, Maryam Abtahi, Majid Keramati, Gholamreza Ghasemi, Mohammad H. Moradi, et al. · Quality Assurance and Safety of Crops & Foods · 2020 · [doi.org/10.15586/qas.v12i3.777](https://doi.org/10.15586/qas.v12i3.777)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -108,6 +108,18 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/usda-fas2023-china-gb-2762-2022-translation|China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)]]<span class="hmi-ref-meta">USDA Foreign Agricultural Service, FAS China Staff (Beijing) · USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 · 2023 · [www.fas.usda.gov](https://www.fas.usda.gov/data/china-china-releases-standard-maximum-levels-contaminants-foods-0)</span><span class="hmi-ref-tag">Regulation</span>
+2. [[sources/atsdr-lead-toxprofile-2020|Toxicological Profile for Lead]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2020 · [doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Role of Nickel in Microbial Pathogenesis]]<span class="hmi-ref-meta">Robert J. Maier and Stéphane L. Benoit · Inorganics 7(7):80 · 2019 · [doi.org/10.3390/inorganics7070080](https://doi.org/10.3390/inorganics7070080)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/alrajhi2021-imported-cookware-metal-release|Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia]]<span class="hmi-ref-meta">Alrajhi I M and Idriss H · Revista Internacional de Contaminacion Ambiental · 2021 · [doi.org/10.20937/RICA.53561](https://doi.org/10.20937/RICA.53561)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

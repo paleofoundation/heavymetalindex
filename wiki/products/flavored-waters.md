@@ -101,7 +101,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/zmudzinska2022-rte-baby-foods-poland|Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market]]<span class="hmi-ref-meta">Zmudzinska A, Puscion-Jakubik A, Bielecka J, Grabia M, Soroczynska J, Mielcarek K, et al. · Nutrients 14(11):2325 · 2022 · [doi.org/10.3390/nu14112325](https://doi.org/10.3390/nu14112325)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/zmudzinska2022-rte-baby-foods-poland|Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market]]<span class="hmi-ref-meta">Zmudzinska A, Puscion-Jakubik A, Bielecka J, Grabia M, Soroczynska J, Mielcarek K, et al. · Nutrients 14(11):2325 · 2022 · [doi.org/10.3390/nu14112325](https://doi.org/10.3390/nu14112325)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

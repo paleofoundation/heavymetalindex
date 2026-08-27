@@ -39,7 +39,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia]]<span class="hmi-ref-meta">Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR · Journal of Food Processing & Technology · 2015 · [doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia]]<span class="hmi-ref-meta">Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR · Journal of Food Processing & Technology · 2015 · [doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

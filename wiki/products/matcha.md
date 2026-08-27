@@ -106,7 +106,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/szymczykowska2026-matcha-elemental-composition|Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health]]<span class="hmi-ref-meta">Szymczykowska K, Kupnicka P, Skonieczna-Żydecka K, Melkis K, Chlubek D, and Jakubczyk K · Beverages · 2026 · [doi.org/10.3390/beverages12020021](https://doi.org/10.3390/beverages12020021)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/szymczykowska2026-matcha-elemental-composition|Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health]]<span class="hmi-ref-meta">Szymczykowska K, Kupnicka P, Skonieczna-Żydecka K, Melkis K, Chlubek D, and Jakubczyk K · Beverages · 2026 · [doi.org/10.3390/beverages12020021](https://doi.org/10.3390/beverages12020021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

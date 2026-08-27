@@ -169,7 +169,14 @@ export function referenceTag(fm) {
   if (/industry|trade|application-note/.test(s)) return "Industry"
   if (/ngo|non-?profit/.test(s)) return "NGO"
   if (/preprint/.test(s)) return "Preprint"
-  if (/review/.test(s)) return "Review" // peer-reviewed-review, systematic-review
+  // "review" only as a whole type token (review, systematic-review,
+  // review-article, peer-reviewed-review) — NOT the substring inside
+  // "peer-reviewed", which must fall through to Peer-reviewed below. Without the
+  // boundaries this fired first on all ~2,550 peer-reviewed primary studies
+  // (cohorts, in-vitro, analytical work) and mislabeled every one of them
+  // "Review" in the references blocks and the scholarly PDFs — the exact kind of
+  // miscategorised entry that discredits a reference list under expert scrutiny.
+  if (/(^|-)review(-|$)/.test(s)) return "Review"
   if (/peer-reviewed|journal|^article|^study$/.test(s)) return "Peer-reviewed"
   if (/textbook|book/.test(s)) return "Textbook"
   if (/thesis|dissertation/.test(s)) return "Thesis"
