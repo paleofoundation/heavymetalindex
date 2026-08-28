@@ -231,5 +231,92 @@
     "Ni": "eu2024_ni_legume_vegetables_1000",
     "Sn": "sg_foodregs_2026_any_food_sn_250000",
     "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "fruit-purees-general": {
+    "Cr": "china_gb2762_crtotal_grains_1000"
+  },
+  "teething-and-snacks-non-rice": {
+    "Cr": "china_gb2762_crtotal_grains_1000"
+  },
+  "teething-and-snacks-rice-based": {
+    "Cr": "china_gb2762_crtotal_grains_1000"
+  },
+  "fruit-juice": {
+    "Cr": "nhmrc2025_crvi_drinking_water_50"
+  },
+  "rice-beverages-rice-milk": {
+    "Pb": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50",
+    "tAs": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_tas_50",
+    "tHg": "eu20202184_thg_drinking_water_1",
+    "Cd": "nhmrc2025_cd_drinking_water_2",
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Cr-VI": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+    "Ni": "eu2024_ni_juice_250",
+    "Sn": "eu2023_sn_canned_beverages_100000",
+    "Al": "eu20202184_al_drinking_water_200"
+  },
+  "soy-sauce-fermented": {
+    "Cr": "china_gb2762_crtotal_beans_legumes_1000",
+    "Ni": "eu2024_ni_soy_beans_15000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "mustard-mayo-dressings": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "tomato-condiments": {
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000",
+    "Al": "cn_gb2760_2024_al_baked_foods_100000"
+  },
+  "vinegar": {
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Ni": "eu20202184_ni_drinking_water_20",
+    "Sn": "eu2023_sn_canned_beverages_100000",
+    "Al": "eu20202184_al_drinking_water_200"
+  },
+  "fish-sauce": {
+    "Cr": "nhmrc2025_crvi_drinking_water_50",
+    "Ni": "eu20202184_ni_drinking_water_20",
+    "Sn": "eu2023_sn_canned_beverages_100000",
+    "Al": "eu20202184_al_drinking_water_200"
+  },
+  "rice-grain-syrup": {
+    "tAs": "sg_foodregs_2026_other_sugars_syrups_tas_1000",
+    "Ni": "eu2024_ni_cereals_800",
+    "Cr": "china_gb2762_crtotal_grains_1000",
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "honey": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "refined-sugar": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "syrups-maple-agave-molasses": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-cheese": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-cream": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-milk-camel": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-milk-cow": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-milk-goat-sheep": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-milk-powders": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
+  },
+  "dairy-yogurt-cultured": {
+    "Sn": "sg_foodregs_2026_any_food_sn_250000"
   }
 }
