@@ -1332,12 +1332,20 @@
           "row": 10,
           "name": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)",
           "slug": "pet-food-fish-marine-protein"
+        },
+        {
+          "row": 11,
+          "name": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
+          "slug": "pet-food-fermentation-derived-protein",
+          "provisional_scaffold": true,
+          "status": "pending Step-0 category-review lock (novel_product_routing_protocol); ingredient-scoped subcategory, dry as-sold basis, human-grade read-across"
         }
       ],
       "boundary_rules": [
         "Product must be intended for animal consumption as food, not as a supplement.",
         "AAFCO nutritional adequacy statement or treat/snack positioning determines routing here.",
-        "Fish oil capsules for dogs route to Category 18 (Pet Supplements), not here."
+        "Fish oil capsules for dogs route to Category 18 (Pet Supplements), not here.",
+        "Fermentation-derived, precision-fermented, single-cell, cultured, or yeast-biomass PROTEIN INGREDIENTS intended as constituents of pet food (e.g. an FDA-CVM-reviewed animal-identical protein such as a fermentation-derived lamb protein) route to the fermentation-derived-protein subcategory (row 11) as an ingredient-scoped standard on a dry as-sold powder basis; the finished pet food that contains such an ingredient certifies under its own form subcategory (kibble, canned/wet, etc.). Yeast is kingdom Fungi, but Category 29 (Edible Fungi) is scoped to whole mushrooms and does not cover a fermentation-derived protein ingredient."
       ],
       "regulatory_anchors": "AAFCO model regulations; FDA CVM guidance on pet food contaminants; EU Directive 2002/32 on undesirable substances in animal feed (Pb, As, Hg, Cd limits)."
     },
