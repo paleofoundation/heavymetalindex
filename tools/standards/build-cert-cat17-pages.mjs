@@ -251,7 +251,7 @@ cert_doi: null
 audience: [regulator, brand-legal, retailer-compliance, certifier]
 rail_box:
   title: "Document versions"
-  body: "v1.0 · ${EFFECTIVE} · current. Every edition is dated and kept at a stable permalink; earlier editions and their DOIs appear here as the standard revises. Full change history below."
+  body: "v1.0 · ${EFFECTIVE} · current. First edition; as the standard revises, each edition keeps its own stable URL and DOI, and earlier editions stay resolvable here. Full change history below."
 snapshot:
   - { k: "Analytes limited", v: "${numericCount} / 10" }
   - { k: "Method", v: "Human-grade over-compliance" }
@@ -269,7 +269,7 @@ connections:
 
   const version = `## Version history
 
-The dated editions of this standard. Each is kept at a stable permalink, so a regulator or brand can reconstruct exactly what the standard required on any date.
+The dated editions of this standard. This standard is at its first edition; as it revises, each superseded edition keeps its own stable URL and its record here, so prior citations do not break, and a hash-verified snapshot of each edition is deposited as it is finalized.
 
 | Version | Date | Status | What changed |
 | --- | --- | --- | --- |

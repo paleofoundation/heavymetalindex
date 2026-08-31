@@ -78,6 +78,8 @@
     "briefing": "node tools/standards/build-standards-briefing.mjs",
     "standards:freeze": "node tools/standards/freeze-standard-version.mjs",
     "standards:freeze:verify": "node tools/standards/freeze-standard-version.mjs verify",
+    "standards:version-pages": "node tools/standards/build-version-pages.mjs",
+    "lint:version-integrity": "node tools/standards/lint-version-integrity.mjs",
     "evidence:standards-summary": "node tools/evidence/apply-product-hmtc-evidence-summaries.mjs",
     "evidence:standards-actions": "node tools/evidence/build-standards-action-queue.mjs && node tools/evidence/build-ai-adjudication-queue.mjs",
     "evidence:ai-adjudication": "node tools/evidence/build-ai-adjudication-queue.mjs",

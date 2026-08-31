@@ -221,7 +221,7 @@ function page(rec) {
     "audience: [regulator, brand-legal, retailer-compliance, certifier]",
     "rail_box:",
     `  title: "Document versions"`,
-    `  body: "v1.0 &middot; 2026-08-10 &middot; current. Every edition is dated and kept at a stable permalink; earlier editions and their DOIs appear here as the standard revises."`,
+    `  body: "v1.0 &middot; 2026-08-10 &middot; current. First edition; as the standard revises, each edition keeps its own stable URL and DOI, and earlier editions stay resolvable here."`,
     "snapshot:",
     `  - { k: "Analytes limited", v: "${firm} / ${PANEL.length}" }`,
     '  - { k: "Method", v: "Strictest government limit, correct basis" }',
