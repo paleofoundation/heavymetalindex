@@ -33,6 +33,11 @@
             "converted": true,
             "id": "br_pb_cereal-based-foods-for-infant-young-chil_20"
           },
+          "HK": {
+            "value": 20,
+            "converted": true,
+            "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20"
+          },
           "UK": {
             "value": 50,
             "converted": true,
@@ -54,51 +59,6 @@
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_pb_200"
           }
         }
-      },
-      "iAs": {
-        "type": "gov",
-        "value": 100,
-        "value_exact": 100,
-        "binding_jurisdiction": "US",
-        "binding_id": "fda2020_ias_infant_rice_cereal_100",
-        "basis_note": "face value",
-        "per_country": {
-          "US": {
-            "value": 100,
-            "converted": true,
-            "id": "fda2020_ias_infant_rice_cereal_100"
-          },
-          "CA": {
-            "value": 100,
-            "converted": true,
-            "id": "ca_ias_rice-based-foods-intended-specifically-f_100"
-          },
-          "KR": {
-            "value": 100,
-            "converted": true,
-            "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
-          },
-          "BR": {
-            "value": 150,
-            "converted": true,
-            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
-          },
-          "CN": {
-            "value": 200,
-            "converted": true,
-            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
-          }
-        }
-      },
-      "tHg": {
-        "type": "read_across",
-        "value": 8,
-        "value_exact": 8,
-        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "source_jurisdiction": "IL",
-        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
       },
       "Cd": {
         "type": "gov",
@@ -150,11 +110,63 @@
           }
         }
       },
-      "Cr": {
-        "type": "not_material",
+      "tAs": {
+        "type": "gov",
+        "value": 50,
+        "value_exact": 50,
+        "binding_jurisdiction": "IN",
+        "binding_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+        "basis_note": "face value",
+        "per_country": {
+          "IN": {
+            "value": 50,
+            "converted": true,
+            "id": "in_tas_infant-milk-substitute-and-infant-foods_50"
+          },
+          "PY": {
+            "value": 300,
+            "converted": true,
+            "id": "py_decreto1335_2019_cereals_excluding_wheat_rice_oils_tas_300"
+          },
+          "MERCOSUR": {
+            "value": 300,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_tas_300"
+          }
+        }
+      },
+      "iAs": {
+        "type": "subsumed",
         "value": null,
-        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+        "subsumed_by": "tAs",
+        "binding_parent_value": 50,
+        "binding_parent_source": "IN",
+        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic; no separate iAs ceiling is published.",
+        "candidate": {
+          "type": "gov",
+          "value": 100,
+          "source_jurisdiction": "US",
+          "source_id": "fda2020_ias_infant_rice_cereal_100"
+        }
+      },
+      "tHg": {
+        "type": "read_across",
+        "value": 8,
+        "value_exact": 8,
+        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+        "source_jurisdiction": "IL",
+        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "MeHg": {
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "tHg",
+        "binding_parent_value": 8,
+        "binding_parent_source": "IL",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null
       },
       "Ni": {
         "type": "gov",
@@ -195,6 +207,21 @@
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {}
+      },
+      "Cr": {
+        "type": "not_material",
+        "value": null,
+        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+      },
+      "Cr-VI": {
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "Cr",
+        "binding_parent_value": null,
+        "binding_parent_source": "reflex-speciation control",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null
       }
     }
   },
