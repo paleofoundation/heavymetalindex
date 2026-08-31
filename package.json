@@ -106,6 +106,8 @@
     "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
     "prepare": "husky",
     "lint:doi-collisions": "node tools/audit-doi-collisions.mjs",
+    "standards:version-pages": "node tools/standards/build-version-pages.mjs",
+    "lint:version-integrity": "node tools/standards/lint-version-integrity.mjs",
     "library:index": "node tools/library/backfill-identity.mjs",
     "library:snapshot": "node tools/library/snapshot.mjs",
     "wishlist:harvest": "node tools/wishlist/harvest-wishlist.mjs",
