@@ -3,7 +3,6 @@
   "name": "Mixed meals (meat & grain combos), rice-containing",
   "native_basis": "as_consumed",
   "canned": false,
-  "provisional_scaffold": false,
   "variants": {
     "both": {
       "Pb": {
@@ -56,51 +55,6 @@
           }
         }
       },
-      "iAs": {
-        "type": "gov",
-        "value": 20,
-        "value_exact": 20,
-        "binding_jurisdiction": "EU",
-        "binding_id": "eu2023_ias_babyfood_20",
-        "basis_note": "face value",
-        "per_country": {
-          "EU": {
-            "value": 20,
-            "converted": true,
-            "id": "eu2023_ias_babyfood_20"
-          },
-          "IL": {
-            "value": 25,
-            "converted": true,
-            "id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25"
-          },
-          "BR": {
-            "value": 150,
-            "converted": true,
-            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
-          },
-          "CN": {
-            "value": 200,
-            "converted": true,
-            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
-          }
-        }
-      },
-      "tHg": {
-        "type": "gov",
-        "value": 8,
-        "value_exact": 8,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "basis_note": "face value",
-        "per_country": {
-          "IL": {
-            "value": 8,
-            "converted": true,
-            "id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8"
-          }
-        }
-      },
       "Cd": {
         "type": "gov",
         "value": 40,
@@ -146,11 +100,84 @@
           }
         }
       },
-      "Cr": {
-        "type": "not_material",
+      "tAs": {
+        "type": "gov",
+        "value": 50,
+        "value_exact": 50,
+        "binding_jurisdiction": "IN",
+        "binding_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+        "basis_note": "face value",
+        "per_country": {
+          "IN": {
+            "value": 50,
+            "converted": true,
+            "id": "in_tas_infant-milk-substitute-and-infant-foods_50"
+          },
+          "SG": {
+            "value": 100,
+            "converted": true,
+            "id": "sg_foodregs_2026_baby_food_tas_100"
+          },
+          "IL": {
+            "value": 1000,
+            "converted": true,
+            "id": "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000"
+          }
+        }
+      },
+      "iAs": {
+        "type": "gov",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_ias_babyfood_20",
+        "basis_note": "face value",
+        "per_country": {
+          "EU": {
+            "value": 20,
+            "converted": true,
+            "id": "eu2023_ias_babyfood_20"
+          },
+          "IL": {
+            "value": 25,
+            "converted": true,
+            "id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25"
+          },
+          "BR": {
+            "value": 150,
+            "converted": true,
+            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+          }
+        }
+      },
+      "tHg": {
+        "type": "gov",
+        "value": 8,
+        "value_exact": 8,
+        "binding_jurisdiction": "IL",
+        "binding_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+        "basis_note": "face value",
+        "per_country": {
+          "IL": {
+            "value": 8,
+            "converted": true,
+            "id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8"
+          }
+        }
+      },
+      "MeHg": {
+        "type": "subsumed",
         "value": null,
-        "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
-        "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+        "subsumed_by": "tHg",
+        "binding_parent_value": 8,
+        "binding_parent_source": "IL",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null
       },
       "Ni": {
         "type": "gov",
@@ -191,6 +218,21 @@
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {}
+      },
+      "Cr": {
+        "type": "not_material",
+        "value": null,
+        "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
+        "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+      },
+      "Cr-VI": {
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "Cr",
+        "binding_parent_value": null,
+        "binding_parent_source": "reflex-speciation control",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null
       }
     }
   },

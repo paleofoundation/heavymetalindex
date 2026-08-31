@@ -90,23 +90,26 @@ const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
 // formula-only Tier-2 cells); Cat-1 falls back to the default panel.
 const PANEL = config.panel || DEFAULT_PANEL
 
-// --- analyte normalization to the Cat-1 panel ---------------------------------
+// --- analyte normalization to the HMTc panel ----------------------------------
 // The panel's iAs cell uses ONLY inorganic-arsenic rows; total-As (tAs) is a distinct analyte and
-// is never folded into iAs. The Cr cell is total chromium (Cr / Cr-total); Cr-VI is handled by the
-// reflex-speciation determination, not as a panel number. tHg is total mercury; MeHg is distinct.
+// is never folded into iAs. The Cr cell is total chromium (Cr / Cr-total); Cr-VI is a distinct
+// species cell, bounded by total Cr through the speciation reconciliation below (no infant-food
+// jurisdiction sets a direct Cr-VI ML, but analyteOf still recognises the species so a future
+// direct Cr-VI ML would resolve). tHg is total mercury; MeHg is distinct, bounded by tHg.
 function analyteOf(metal) {
   const m = (metal || "").trim()
   if (m === "Pb") return "Pb"
   if (m === "iAs") return "iAs"
-  if (m === "tAs") return "tAs"    // total arsenic — a distinct cell (seafood etc.); never folded into iAs
+  if (m === "tAs") return "tAs"    // total arsenic — a distinct cell (bounds iAs); never folded into iAs
   if (m === "tHg") return "tHg"
-  if (m === "MeHg") return "MeHg"  // methylmercury — the fish-critical form; distinct from tHg
+  if (m === "MeHg") return "MeHg"  // methylmercury — the fish-critical form; distinct from tHg, bounded by it
   if (m === "Cd") return "Cd"
   if (m === "Cr" || m === "Cr-total") return "Cr"
+  if (m === "Cr-VI") return "Cr-VI" // hexavalent chromium — distinct species cell, bounded by total Cr
   if (m === "Ni") return "Ni"
   if (m === "Sn") return "Sn"
   if (m === "Al") return "Al"
-  return null // tAs, MeHg, Cr-VI, Sb — not panel cells
+  return null // Sb, U, and other non-panel species
 }
 
 // --- basis conversion ---------------------------------------------------------
@@ -253,48 +256,73 @@ function resolveCell(sub, analyte, variant) {
   return { type: "gap", value: null, error: "no government ML and no read-across configured" }
 }
 
-// --- mercury speciation reconciliation ----------------------------------------
-// Methylmercury is a COMPONENT of total mercury, so MeHg <= tHg by identity. tHg
-// and MeHg are therefore not two coordinate ceilings that can both bind
-// independently: a published MeHg ceiling above the binding tHg is physically
-// impossible (a sample under tHg is automatically under any higher MeHg number)
-// and panel-coherence-lint fails it. So methylmercury is published as its own
-// firm regulatory-alignment ceiling ONLY when the strictest species-appropriate
-// government methylmercury ML is at or below the binding total-mercury ceiling
-// (mv <= tv); there it is a coherent, species-specific number (seafood: predatory
-// fish carry the higher 1000 tier, lower-trophic species 500). When the strictest
-// government methylmercury ML is STRICTLY ABOVE the binding tHg (mv > tv), the
-// methylmercury fraction is already bound tighter by the total-mercury ceiling, so
-// the cell is recorded as `subsumed` (a limit-of-record: bounded by tHg, not an
-// empty cell) with the real government methylmercury ML retained under `candidate`
-// for the derivation audit. Note US FDA's "MeHg 1.0 ppm" is measured as total Hg.
-// The threshold is strict `>` (not `>=`): at exact equality the methylmercury ML
-// equals the total-mercury ceiling, so it is coherent and is published as the real
-// sovereign methylmercury number rather than hidden (Certification-Readiness
-// Ruling: every analyte carries a limit-of-record, honestly tagged).
-function reconcileMercurySpeciation(cells) {
-  const t = cells.tHg
-  const m = cells.MeHg
-  if (!t || !m) return
-  const tv = typeof t.value_exact === "number" ? t.value_exact : typeof t.value === "number" ? t.value : null
-  const mv = typeof m.value_exact === "number" ? m.value_exact : typeof m.value === "number" ? m.value : null
-  if (tv == null || mv == null) return // tHg gap/not_material, or MeHg not a published number — leave as is
-  if (mv > tv) {
-    cells.MeHg = {
-      type: "subsumed",
-      value: null,
-      subsumed_by: "tHg",
-      binding_tHg: t.value,
-      binding_tHg_source: t.binding_jurisdiction || t.source_jurisdiction || null,
-      label: `Methylmercury is a component of total mercury (MeHg ≤ tHg). No government sets a methylmercury limit for this product below the binding total-mercury ceiling (${t.value} µg/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.`,
-      candidate: { type: m.type, value: m.value, source_jurisdiction: m.source_jurisdiction || m.binding_jurisdiction || null, source_id: m.source_id || m.binding_id || null },
-    }
+// --- species / parent-total speciation reconciliation -------------------------
+// A toxic species is a COMPONENT of, and bounded by, its parent total by identity:
+// iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr. A species and its total are therefore
+// not two coordinate ceilings that can both bind independently. Per the 2026-08-25
+// Certification-Readiness Ruling every such species is an ENFORCEABLE published
+// cell (never blank), resolving to exactly one of two states:
+//
+//   KEEP  — the species carries a firm sovereign ML at or below the binding parent
+//           total (sv <= pv). It is then the tighter, species-specific ceiling and
+//           is published as its own firm regulatory-alignment number (seafood MeHg:
+//           predatory fish 1000 == tHg 1000, lower-trophic 500 == tHg 500). For
+//           arsenic this is the non-rice infant-food case: iAs 10/20 ≤ tAs 50, so a
+//           real, product-appropriate iAs ML stands alongside the total-As ceiling.
+//
+//   BOUND — the species is subsumed by (governed by and bounded by) the parent
+//           total, published as a limit-of-record with no standalone number. Three
+//           ways a cell lands here:
+//             (a) sv > pv  — a sovereign species ML STRICTLY ABOVE the binding total
+//                 is physically already bound tighter by the total (rice iAs 100 vs
+//                 the India infant-foods total-As 50: total-As 50 binds, iAs bounded
+//                 ≤ 50 — a more-protective, more-coherent arsenic standard);
+//             (b) sv == null — no jurisdiction sets a species ML for this product
+//                 form at all (infant-food MeHg and Cr-VI: bounded by tHg / total Cr,
+//                 enforced by reflex speciation);
+//           The threshold is strict `>` (not `>=`): at exact equality the species ML
+//           equals the total ceiling, so it is coherent and published as the real
+//           sovereign species number rather than hidden.
+//
+// A species is NEVER bounded to a parent that carries no ceiling of its own: where
+// the parent total is a gap or a not_material determination WITH the species holding
+// a real ML (sv != null, pv == null), the species keeps its own enforceable ceiling.
+// The one exception is sv == null && pv == null — the infant-food Cr-VI-under-a-
+// not_material-total-Cr case — where the species is bounded by the parent's reflex-
+// speciation control (any quantifiable Cr-VI fails), which IS the enforceable ceiling.
+const SPECIES_LABEL = { iAs: "Inorganic arsenic", MeHg: "Methylmercury", "Cr-VI": "Hexavalent chromium" }
+const PARENT_LABEL = { tAs: "total arsenic", tHg: "total mercury", Cr: "total chromium" }
+function numOf(cell) {
+  if (!cell) return null
+  return typeof cell.value_exact === "number" ? cell.value_exact : typeof cell.value === "number" ? cell.value : null
+}
+function reconcileSpecies(cells, species, parent) {
+  const s = cells[species]
+  const p = cells[parent]
+  if (!s) return
+  const sv = numOf(s)
+  const pv = numOf(p)
+  // KEEP: the species is a firm ceiling at or below a firm parent total.
+  if (sv != null && pv != null && sv <= pv) return
+  // KEEP: the species holds a real ML but the parent carries no numeric ceiling
+  // (parent gap or not_material) — the species' own sovereign limit still governs.
+  if (sv != null && pv == null) return
+  // BOUND: subsume the species under the parent total (sv > pv, or the species has
+  // no direct ML for this product form). The parent's ceiling — a firm total number,
+  // or a not_material total's reflex-speciation control — is the enforceable bound.
+  const parentNumeric = pv != null
+  const boundStmt = parentNumeric
+    ? `the binding ${PARENT_LABEL[parent]} ceiling (${p.value} µg/kg)`
+    : `the ${PARENT_LABEL[parent]} determination (reflex speciation: any quantifiable ${species} fails)`
+  cells[species] = {
+    type: "subsumed",
+    value: null,
+    subsumed_by: parent,
+    binding_parent_value: parentNumeric ? p.value : null,
+    binding_parent_source: p ? (p.binding_jurisdiction || p.source_jurisdiction || (p.type === "not_material" ? "reflex-speciation control" : null)) : null,
+    label: `${SPECIES_LABEL[species] || species} is a component of ${PARENT_LABEL[parent] || parent} (${species} ≤ ${parent}). ${sv != null ? `The strictest applicable sovereign ${species} value (${s.value} µg/kg) is not below ${boundStmt}` : `No jurisdiction sets a ${species} limit for this product form below ${boundStmt}`}, so ${species} is governed by and bounded by ${PARENT_LABEL[parent] || parent}; no separate ${species} ceiling is published.`,
+    candidate: sv != null ? { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null } : null,
   }
-  // mv <= tv: the government methylmercury ML is at or below the total-mercury
-  // ceiling, so it is coherent (MeHg <= tHg). Keep the MeHg cell as its published
-  // firm regulatory-alignment number. Seafood: predatory fish 1000 == tHg 1000,
-  // canned / shellfish 500 == tHg 500 (published firm); this is where dual mercury
-  // earns its place as a species-specific ceiling.
 }
 
 // --- drive --------------------------------------------------------------------
@@ -305,18 +333,23 @@ for (const slug of slugs) {
   const sub = config.subcategories[slug]
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const variants = sub.soy_split ? ["cow", "soy"] : ["both"]
-  const record = { slug, name: sub.name, ...(config.category != null ? { category: config.category, category_name: config.category_name } : {}), native_basis: sub.native_basis, canned: !!sub.canned, provisional_scaffold: !!sub.provisional_scaffold, ...(sub.development_note ? { development_note: sub.development_note } : {}), variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
+  const record = { slug, name: sub.name, ...(config.category != null ? { category: config.category, category_name: config.category_name } : {}), ...(sub.provisional_scaffold ? { provisional_scaffold: true } : {}), ...(sub.scope_note ? { scope_note: sub.scope_note } : {}), native_basis: sub.native_basis, canned: !!sub.canned, variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
   for (const variant of variants) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
-    reconcileMercurySpeciation(cells) // enforce MeHg <= tHg (methylmercury is a subset of total mercury)
+    // Enforce species ≤ parent-total coherence (each species is a component of its total):
+    // iAs ≤ tAs (arsenic), MeHg ≤ tHg (mercury), Cr-VI ≤ total Cr (chromium). Runs after every
+    // cell resolves so it sees the binding totals; only fires for panels that carry the species.
+    reconcileSpecies(cells, "iAs", "tAs")
+    reconcileSpecies(cells, "MeHg", "tHg")
+    reconcileSpecies(cells, "Cr-VI", "Cr")
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
   summary.push(record)
 
   if (!QUIET) {
-    console.log(`\n### ${slug} — ${sub.name}${sub.provisional_scaffold ? "  (PROVISIONAL SCAFFOLD — not certification-ready)" : ""}  (native: ${sub.native_basis}${sub.soy_split ? ", cow/soy split" : ""})`)
+    console.log(`\n### ${slug} — ${sub.name}  (native: ${sub.native_basis}${sub.soy_split ? ", cow/soy split" : ""})`)
     for (const variant of Object.keys(record.variants)) {
       if (variants.length > 1) console.log(`  [${variant}]`)
       for (const a of PANEL) {

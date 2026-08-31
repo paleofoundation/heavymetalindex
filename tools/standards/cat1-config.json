@@ -1,9 +1,25 @@
 {
   "_doc": "Per-subcategory scope-selection + read-across config for the Cat-1 compiler. Every number the compiler emits traces to a register row selected by these rules. scope_include/exclude are case-insensitive regex fragments tested against product_scope. read_across names the register row for the nearest analogous government value where no government regulates the exact product. Audited configs for rows 2-9 are filled by the build workflow; formula-powder (row 1) is the regression anchor, calibrated to reproduce the deployed, audited standard.",
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
+  "_panel_note": "Full HMTc 11-analyte panel (8 totals Pb/Cd/tAs/tHg/Ni/Sn/Al/Cr + the 3 species iAs/MeHg/Cr-VI). Extended 2026-08-31 from the legacy 8-analyte set (Pb, iAs, tHg, Cd, Cr, Ni, Sn, Al) to add tAs, MeHg and Cr-VI as first-class published cells per the Certification-Readiness Ruling §1 (species bounded by total are enforceable published cells, never blank). MeHg and Cr-VI carry no direct infant-food ML anywhere, so they resolve to `subsumed` (bounded by tHg / total Cr, reflex-enforced) via the compiler's reconcileSpecies pass; iAs is bounded by tAs where the total-As ceiling is stricter (rice subcategories).",
   "_read_across_canon": {
+    "tAs": "in_tas_infant-milk-substitute-and-infant-foods_50 — India FSSAI total-As 50 for 'Infant Milk substitute and Infant foods', the strictest sovereign total-arsenic ML for any food intended for infants. Applied uniformly across every Cat-1 subcategory (each is an infant/child food), consistent with the program's existing use of India's infant-foods tin ML (in_sn_infant-milk-substitute-and-infant-foods_5000) as the Cat-1 tin read-across. Because iAs ≤ tAs by identity, this 50 also bounds inorganic arsenic: in rice subcategories where the direct iAs ML (100) exceeds 50, the compiler subsumes iAs under tAs (total-As 50 binds, iAs bounded ≤ 50).",
     "tHg": "cn_thg_canned-complementary-foods-for-infants-a_20 — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for these product forms anywhere.",
+    "MeHg": "no direct ML: methylmercury is a component of total mercury (MeHg ≤ tHg) and no jurisdiction sets a MeHg limit for non-fish infant food, so MeHg is subsumed under the binding tHg ceiling (reflex speciation). Fish-containing baby food additionally awaits the Cat-6 species-MeHg read-across decision.",
     "Cr": "china_gb2762_cr_milk_powder_2000 — China GB 2762 total-Cr 2000 for milk powder; dairy read-across. For non-dairy subcategories the nearest analogous Cr source may differ; the workflow adjudicates per subcategory.",
-    "Cr-VI": "not-material: reflex speciation under total-Cr; any quantifiable Cr-VI fails."
+    "Cr-VI": "no direct ML: subsumed under total Cr (Cr-VI ≤ total Cr), reflex-enforced — any quantifiable Cr-VI fails. Supersedes the prior not-material treatment per the v2.6 species/screens ruling (the species is a published limit-of-record, never a blank cell)."
   },
   "subcategories": {
     "infant-formula-powder": {
@@ -44,6 +60,10 @@
         "Cr": {
           "source_id": "china_gb2762_cr_milk_powder_2000",
           "label": "government read-across (China GB 2762 milk powder → formula)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
@@ -81,6 +101,18 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        }
+      },
+      "analyte_scope": {
+        "tAs": {
+          "exclude": [
+            "excluding juices",
+            "non-alcoholic beverages"
+          ]
         }
       }
     },
@@ -126,6 +158,10 @@
         "Cr": {
           "source_id": "china_gb2762_cr_liquid_milk_300",
           "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → liquid formula; basis-matched dairy analogy)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
       "reconstitution_8to1": true
@@ -165,6 +201,10 @@
           "not_material": true,
           "control": "Reflex Cr-VI speciation: any total-Cr result >100 ug/kg triggers Cr-VI speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. No credible government sets a total-Cr ML for a non-dairy root-vegetable food; the dairy milk-powder read-across (China 2000) is not a defensible analogy for a non-dairy matrix.",
           "reference_method": "IC-ICP-MS hexavalent-chromium speciation (EPA 218.6 or equivalent ISO/DIN method)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
@@ -200,6 +240,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
       "exclude_as_consumed": true
@@ -231,6 +275,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
       "exclude_as_consumed": true
@@ -265,6 +313,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
@@ -313,6 +365,9 @@
         "children.s product",
         "cosmetic",
         "muscle meat",
+        "fish",
+        "crustacean",
+        "mollusc",
         "salt",
         "destined for",
         "rice cereal",
@@ -334,6 +389,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
@@ -378,6 +437,9 @@
         "children.s product",
         "cosmetic",
         "muscle meat",
+        "fish",
+        "crustacean",
+        "mollusc",
         "salt",
         "rice",
         "destined for",
@@ -398,6 +460,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
@@ -435,6 +501,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
       "exclude_as_consumed": true
@@ -470,6 +540,10 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
       "exclude_as_consumed": true
@@ -514,20 +588,24 @@
           "not_material": true,
           "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
           "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)"
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       }
     },
     "single-ingredient-meats": {
-      "name": "Single-ingredient meats (infant)",
+      "name": "Single-ingredient meats (for children under 2)",
       "row": 10,
       "native_basis": "as_consumed",
       "canned": false,
       "soy_split": false,
-      "_derivation_note": "Single-ingredient infant meat/poultry purées (chicken, turkey, beef, lamb) and organ/liver. Scope pairs the US FDA processed-baby-food row (its scope enumerates 'single-ingredient meats for children under 2') with the general 'baby food' infant-food MLs. Pb therefore binds to the strictest infant-food action level (FDA 10) and iAs/Cd/Ni bind to the strictest EU infant-food MLs, whose scope ('baby food for infants and young children') covers meat-based baby food. This deliberately mirrors the sibling mixed-meals rows: a single-ingredient meat cannot carry a LOOSER limit than a mixed meal containing the same meat, so iAs is 20 (EU baby-food ML; corroborated by Israel FCS-2016 'meat and meat products, including poultry and game' iAs 20), NOT the looser China complementary-food 100. Organ/liver concentrate Cd and iAs, so holding the whole subcategory to the strictest infant-food Cd (40) and iAs (20) is the intended one-way ratchet. tHg/Sn/Al are the established baby-food read-across; Cr is not-material reflex speciation (non-dairy).",
       "scope_include": [
-        "single-ingredient meats?",
-        "single ingredient meat",
-        "baby food"
+        "single-ingredient meats",
+        "baby food",
+        "infant milk substitute and infant foods",
+        "other foods for infants"
       ],
       "scope_exclude": [
         "formula",
@@ -535,14 +613,20 @@
         "follow-up",
         "special medical",
         "medical purpose",
+        "dietotherap",
+        "dietary foods for special",
         "fsmp",
+        "milk powder and modified",
         "drink",
         "supplement",
-        "fish",
-        "crustacean",
-        "mollusc",
-        "aquatic",
-        "seafood"
+        "toys",
+        "paint",
+        "consumer product",
+        "children.s product",
+        "cosmetic",
+        "muscle meat",
+        "salt",
+        "destined for"
       ],
       "read_across": {
         "tHg": {
@@ -557,31 +641,31 @@
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
         },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
         "Cr": {
           "not_material": true,
-          "control": "No government sets a total-chromium ML for a non-dairy single-ingredient meat infant food; the only register Cr food values are dairy (China milk powder 2000, liquid milk 300) and do not transfer to a meat matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in a reducing meat matrix, so total-Cr is not a material toxic here. Firm control: reflex speciation — any total-Cr result > 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-          "reference_method": "Total-Cr screen by ICP-MS; on any result > 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or EN 15192 equivalent); LOQ-level quantifiable Cr(VI) = fail."
+          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a non-dairy matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
         }
       }
     },
     "dairy-desserts": {
-      "name": "Dairy-based infant desserts (yogurt, fromage frais, custard, pudding)",
+      "name": "Dairy desserts (yogurts, custards, puddings)",
       "row": 11,
       "native_basis": "as_consumed",
       "canned": false,
       "soy_split": false,
-      "_derivation_note": "Wet, ready-to-eat dairy infant desserts (yogurt, fromage frais, custard, pudding, milk-based dessert). Scope pairs the US FDA processed-baby-food row (its scope enumerates 'yogurts; custards/puddings') with the general 'baby food' infant-food MLs. Pb binds to FDA 10; iAs/Cd/Ni to the strictest EU infant-food MLs. Chromium is MATERIAL in a dairy matrix (unlike the non-dairy Cat-1 siblings, which are not-material): it is read across to China GB 2762 liquid-milk total-Cr 300 — a basis-matched wet-dairy analogy whose register scope 'raw, pasteurized, sterilized, modified and fermented milk' covers yogurt — NOT a not-material determination. tHg/Sn/Al are the established baby-food read-across.",
       "scope_include": [
-        "baby food",
         "yogurt",
         "yoghurt",
-        "fromage frais",
         "custard",
         "pudding",
-        "milk-based dessert",
-        "milk based dessert",
         "dairy dessert",
-        "dairy-based dessert"
+        "baby food",
+        "infant milk substitute and infant foods"
       ],
       "scope_exclude": [
         "formula",
@@ -589,20 +673,25 @@
         "follow-up",
         "special medical",
         "medical purpose",
+        "dietotherap",
+        "dietary foods for special",
         "fsmp",
+        "milk powder and modified",
         "drink",
-        "fish",
-        "crustacean",
-        "mollusc"
+        "supplement",
+        "toys",
+        "paint",
+        "consumer product",
+        "children.s product",
+        "cosmetic",
+        "muscle meat",
+        "salt",
+        "destined for"
       ],
       "read_across": {
-        "Cr": {
-          "source_id": "china_gb2762_cr_liquid_milk_300",
-          "label": "government read-across — China GB 2762 liquid-milk total-Cr 300 (scope: raw, pasteurized, sterilized, modified and fermented milk) applied at face value to a wet dairy infant dessert (basis-matched dairy analogy). Chromium IS material in a dairy matrix, so a not-material determination is not used; total Cr is a published ceiling and Cr(VI) is additionally controlled by reflex speciation (any total-Cr > 100 ppb triggers Cr(VI) speciation; any quantifiable Cr(VI) fails)."
-        },
         "tHg": {
           "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; stricter than the dairy-specific IL/HK milk total-Hg 10)."
+          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
         },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
@@ -611,44 +700,51 @@
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "tAs": {
+          "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
+          "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_cr_liquid_milk_300",
+          "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → dairy dessert; basis-matched wet-dairy analogy, mirroring the liquid-formula chromium read-across)."
         }
       }
     },
     "fish-containing-baby-food": {
-      "name": "Fish & seafood infant dinners",
+      "name": "Fish-containing baby food",
       "row": 12,
+      "provisional_scaffold": true,
+      "scope_note": "PROVISIONAL SCAFFOLD, grounded entirely by disclosed read-across (no scope-matched direct). Fish-containing baby food carries two naturally elevated, fish-driven analytes: total mercury (bioaccumulated methylmercury) and total arsenic (predominantly non-toxic organic arsenobetaine). Those two cells take aquatic sovereign limits (total-Hg from the EU fish general ML 500; total-As from the Israel seafood ML 1000), while the non-fish hazards (Pb, Cd, iAs, Ni) take strict infant baby-food ceilings, since a fish baby food is still an infant food and those hazards are not fish-elevated. The toxic inorganic-arsenic fraction stays capped at the infant limit (iAs 20 <= tAs 1000). Methylmercury is bounded by total mercury (MeHg <= tHg) for now. OPEN / NOT LOCKED: the fish-specific methylmercury read-across (a species-appropriate MeHg ceiling from the Cat-6 Seafood standard) and the infant-protective-vs-fish-realistic basis for the mercury cell await the Cat-6 species-MeHg read-across decision before this scaffold is promoted to a firm standard.",
       "native_basis": "as_consumed",
       "canned": false,
       "soy_split": false,
-      "provisional_scaffold": true,
-      "development_note": "SCAFFOLD — NOT certification-ready; do not publish as a standard. Purpose: give the Cat-1 mixed-meals fish-exclusion a routing destination. Fish's DEFINING hazards are methylmercury (MeHg) and inorganic/total arsenic (iAs/tAs), and neither is finished here: (1) the Cat-1 compiler panel (DEFAULT_PANEL / config.panel) does not include MeHg or tAs, so those cells are not emitted at all — the remaining work is to extend the panel for this subcategory; (2) the governing fish mercury ceiling must be derived by read-across to the Cat-6 seafood MeHg standard scaled by the dish's fish fraction — a methodology decision, not a register lookup. The 8-panel cells below resolve via DISCLOSED read-across to the nearest infant-food government values, but the total-mercury cell in particular is a baby-food PLACEHOLDER, not the fish-appropriate mercury control, and the iAs cell (China aquatic complementary 300) is a provisional aquatic-infant-food value that EU 2025/1891 fish-muscle iAs 100 may supersede once the fish-fraction basis is fixed. Remaining derivation: (a) extend the panel with MeHg + tAs for this subcategory; (b) derive the MeHg ceiling via Cat-6 read-across x fish-fraction; (c) re-derive iAs/tHg on a fish basis. Until COMPLETE + REGISTERED + CORRECTED this stays a scaffold.",
-      "scope_include": [
-        "fish-containing baby food",
-        "fish and seafood infant",
-        "seafood infant dinner",
-        "fish-based infant"
-      ],
+      "scope_include": [],
       "scope_exclude": [],
       "read_across": {
         "Pb": {
-          "source_id": "fda2025_pb_baby_food_10",
-          "label": "read-across — US FDA processed-baby-food Pb action level 10 (the strictest infant-food Pb value). FDA's enumerated scope does not itemise fish dinners, so 10 is applied here as a disclosed read-across, not direct governance."
-        },
-        "iAs": {
-          "source_id": "cn_ias_canned-complementary-foods-for-infants-a_300",
-          "label": "PROVISIONAL read-across — China GB 2762 canned complementary infant foods made from aquatic products / animal liver, iAs 300 (the nearest government iAs value for an aquatic infant complementary food). NOT final: EU 2025/1891 fish-muscle iAs 100 is a stricter fish-specific alternative; the finished fish iAs cell needs the fish-fraction derivation (see development_note)."
+          "source_id": "eu2023_pb_babyfood_cereal_20",
+          "label": "government read-across (infant-protective) — EU 2023/915 lead 20 for baby food and processed cereal-based food for infants and young children. Lead is not a fish-elevated hazard, so the strict infant ceiling governs."
         },
         "Cd": {
           "source_id": "eu2023_cd_babyfood_cereal_40",
-          "label": "read-across — EU 2023/915 baby-food / processed-cereal-based-food Cd 40 (the strictest infant-food Cd), applied to a fish-containing infant food as a disclosed read-across."
+          "label": "government read-across (infant-protective) — EU 2023/915 cadmium 40 for baby food and processed cereal-based food for infants and young children."
         },
-        "tHg": {
-          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
-          "label": "PLACEHOLDER read-across — China GB 2762 canned complementary infant foods total-Hg 20. This is a baby-food placeholder, NOT the fish-appropriate mercury control: fish concentrates methylmercury, and the governing ceiling must be derived from the Cat-6 seafood MeHg standard x fish fraction (in development). Do not treat this cell as final."
+        "iAs": {
+          "source_id": "eu2023_ias_babyfood_20",
+          "label": "government read-across (infant-protective) — EU 2023/915 inorganic arsenic 20 for baby food for infants and young children. The toxic inorganic fraction stays infant-capped even though the fish component's TOTAL arsenic is high (organic arsenobetaine); iAs <= tAs holds (20 <= 1000)."
         },
         "Ni": {
           "source_id": "eu2024_ni_babyfood_500",
-          "label": "read-across — EU 2024/1987 baby-food (except juices) Ni 500, applied to a fish-containing infant food as a disclosed read-across."
+          "label": "government read-across (infant-protective) — EU 2024/1987 nickel 500 for baby food except juices."
+        },
+        "tHg": {
+          "source_id": "eu2023_hg_fish_general_500",
+          "label": "government read-across (aquatic) — EU 2023/915 total mercury 500 for muscle meat of fish (general), the fish component's mercury ceiling. PROVISIONAL: pending the Cat-6 species-MeHg read-across decision on whether a fish infant food should carry an infant-protective mercury limit instead."
+        },
+        "tAs": {
+          "source_id": "il_fcs2016_tas_9_1_seafood_1000",
+          "label": "government read-across (aquatic) — Israel FCS-2016 seafood total-arsenic 1000, reflecting fish's naturally high total arsenic (predominantly non-toxic organic arsenobetaine). The toxic inorganic fraction (iAs) is separately capped at the infant baby-food limit (iAs <= tAs)."
         },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
@@ -660,8 +756,8 @@
         },
         "Cr": {
           "not_material": true,
-          "control": "Non-dairy fish matrix: no government sets a total-Cr ML; reflex Cr(VI) speciation on any total-Cr > 100 ug/kg, any quantifiable Cr(VI) fails.",
-          "reference_method": "Total Cr by ICP-MS; reflex Cr(VI) by EPA 3060A alkaline digestion + IC-ICP-MS (or EN 15192) on any total-Cr > 100 ug/kg."
+          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a non-dairy matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
         }
       }
     }
