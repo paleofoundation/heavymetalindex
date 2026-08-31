@@ -69,6 +69,63 @@ The running heads, the TOC, and the chapter styling all derive from these inputs
 
 A future iteration of `render-manual-typst.mjs` should accept a `--category <slug>` flag that reads category-specific config from `data/workbench/standards-book-<slug>/manual.config.json`. That's an obvious cleanup but not required for the current shape of work.
 
+## Freezing a standard version (tamper-evident snapshots)
+
+`freeze-standard-version.mjs` seals one `(standard, version)` into an immutable, self-hosted snapshot whose **date comes from a trusted third party, not from us**. A certified number becomes final when its version carries a DOI, and every material change mints a new version; freezing is what makes each version tamper-evident. It renders a version-pinned scholarly PDF of the standard from its compiled cells (`data/workbench/standards/cat1-compiled/<slug>.json`), computes the PDF's SHA-256, and requests an [RFC-3161](https://www.rfc-editor.org/rfc/rfc3161) trusted timestamp on that hash. Defensibility then rests on the frozen, dated PDF alone — no off-site hosting.
+
+The PDF is rendered with `@react-pdf/renderer` reusing the scholarly design tokens and the vendored fonts in `tools/pdf/fonts.mjs`. It is authored in the HMTc / Institute of Contaminant Standards voice (a certification standard is certification thresholds, so it is deliberately **not** run through the Index-voiced `tools/pdf/scholarly-pdf.mjs`, whose masthead, `heavymetalindex.com` base URL, and "does not use certification thresholds as evidence" competing-interests block are wrong for a standard).
+
+### Commands
+
+```bash
+cd ~/Desktop/heavy-metal-index
+
+# Freeze infant-formula-powder v1 (seal + fetch the TSA CA so the snapshot self-verifies).
+npm run standards:freeze -- infant-formula-powder --version 1 --effective-date 2026-08-04 --fetch-ca
+
+# Verify a frozen snapshot (re-checks the content hash and runs openssl ts -verify).
+npm run standards:freeze:verify -- infant-formula-powder --version 1
+
+# Or invoke directly:
+node tools/standards/freeze-standard-version.mjs infant-formula-powder --version 1 --fetch-ca
+```
+
+The snapshot lands at the shared-contract path `static/standards/<slug>/v<version>/`:
+
+```
+static/standards/infant-formula-powder/v1/
+├── standard.pdf          # the version-pinned standard (SHA-256 in the manifest)
+├── standard.pdf.tsr      # the RFC-3161 trusted-timestamp token (or .tsq if pending)
+├── tsa-cacert.pem        # the TSA CA chain, so the snapshot verifies offline
+└── manifest.json         # { slug, version, sha256, timestamp_utc | "pending", tsa_url, effective_date, doi, ... }
+```
+
+### Verify path (any third party, offline)
+
+```bash
+cd static/standards/infant-formula-powder/v1
+openssl ts -verify -data standard.pdf -in standard.pdf.tsr -CAfile tsa-cacert.pem   # => Verification: OK
+```
+
+A one-byte change to `standard.pdf` makes this fail with `message imprint mismatch` — that is the tamper-evidence.
+
+### Never a fabricated date
+
+If there is no network or the TSA POST fails, the tool still writes the PDF, the hash, and the request (`standard.pdf.tsq`), and marks `manifest.timestamp_utc: "pending"` — it never invents a time. Re-running when the network returns **reuses the same PDF bytes** (same hash) and completes the seal; the frozen document is not re-rendered. `manifest.machine_clock_utc` records when the freeze was *attempted* and is explicitly **not** a trusted timestamp — only `timestamp_utc` (from the token) is. An already-sealed version is protected: freezing it again is a no-op unless `--force` is passed (which mints a genuinely new snapshot with a new hash and a new timestamp).
+
+### TSA configuration
+
+| Control | Default | Purpose |
+| --- | --- | --- |
+| `--tsa-url` / `HMTC_TSA_URL` | `https://freetsa.org/tsr` | The RFC-3161 timestamping authority endpoint. |
+| `--tsa-ca <path>` / `HMTC_TSA_CA` | — | A pinned local CA chain (copied into the snapshot as `tsa-cacert.pem`). |
+| `--fetch-ca` / `HMTC_TSA_CA_URL` | `https://freetsa.org/files/cacert.pem` | Fetch the CA chain over the network. Pin it in production rather than re-fetching. |
+| `HMTC_TSA_TIMEOUT_MS` | `20000` | Network timeout for the POST and CA fetch. |
+| `--offline` | — | Skip the POST; write a pending snapshot to complete later. |
+| `--out-dir` | `static/standards` | Snapshot root (override for testing). |
+
+Any RFC-3161 TSA works; point `HMTC_TSA_URL` at a commercial authority (DigiCert, Sectigo, etc.) for production and pin its CA with `--tsa-ca`.
+
 ## Adversarial-audit and coherence-audit history
 
 See `data/workbench/standards-book/adversarial-audit.md` (Pre-work 6 audit findings) and `coherence-audit.md` (Pre-work 3 cross-document consistency check) for the methodology trail behind the current edition. New editions should re-run both audits before publication.
