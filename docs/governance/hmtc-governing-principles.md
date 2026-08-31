@@ -255,6 +255,41 @@ manifest. A scaffold (an empty or near-empty standard) is never described as a
 standard. "We can be ready" is the honest claim before registration; "ready" is
 reserved for categories that clear all three gates.
 
+### The confidence standard on the numbers (Rule #1, ratified 2026-08-31)
+
+The gate above requires a standard's numbers to be *correct*; this fixes what "≥95%
+confidence in the numbers" means, because read literally it would make every category
+permanently un-mintable. Under Method v2.0 most cells are not occurrence estimates at
+all — they are sovereign maximum levels or disclosed read-across, whose confidence is a
+matter of provenance, not statistics. The corpus carries percentile-grade occurrence
+depth only for Pb, Cd, tAs (and iAs on rice, cereal, and juice); Ni, Cr/Cr-VI, Al, Sn,
+and MeHg have little or no occurrence anywhere (nickel has no milk or formula occurrence
+in the corpus and is governed entirely by the EU 2024/1987 lookup). A literal
+≥95%-occurrence bar on all ten analytes is unmeetable on any category.
+
+The confidence standard is therefore defined per cell, matching the §1 limit-of-record
+taxonomy. A cell is **firm** — and clears the gate — when it is:
+
+- a **sovereign maximum level** by lookup (`regulatory-alignment`): confidence is
+  definitional, the number is the law;
+- a **disclosed read-across**, a **species bounded by its parent total**, or a
+  **baseline / LOQ screen**: confidence is in the disclosed, honestly-labeled
+  derivation (§2);
+- an **occurrence-derived value** — the Method v2.0 selective-pooling cells (the Tier-1
+  toxics where a clean subcategory's pooled occurrence binds below the government floor):
+  here, and only here, the ≥95% statistical-confidence standard applies to the estimate
+  itself (the classifier's `firm` state and a stable sensitivity band).
+
+A category clears the confidence gate when every cell of every subcategory is firm in
+one of these senses; it still fails any cell that is provisional, pending, or an
+undisclosed guess. This does not weaken the ≥95% intent — it recognizes that a
+government-limit-default method earns most of its confidence from sovereign provenance,
+and reserves the statistical bar for the cells actually estimated from data. (Karen's
+DOI-mint Rule #1. Rule #2 is §1 above — a limit for every analyte, read-across
+permitted. Rule #3 — the DOI naming and version-history discipline, every change logged
+with what changed, why, and the date and time — is enacted in the DOI-versioning
+system.)
+
 ### 4. Enforcement
 
 `standard-readiness-lint` (cert repo) is the machine: it fails the build if any
@@ -453,10 +488,11 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.6 — August 2026**
+**Version 2.7 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.7 | 2026-08-31 | Added **the confidence standard on the numbers (DOI-mint Rule #1)**, clarifying the §3 gate: "≥95% confidence in the numbers" is defined per cell against the §1 limit-of-record taxonomy. Sovereign-ML lookups and disclosed read-across / bounded / baseline cells are firm by provenance (confidence is definitional); the ≥95% *statistical* bar applies only to the Method v2.0 occurrence-derived pooling cells (the Tier-1 toxics where occurrence binds). A literal ≥95%-occurrence bar on all ten analytes is unmeetable — the corpus carries percentile occurrence depth only for Pb/Cd/tAs (+ iAs on rice/cereal/juice), while Ni/Cr/Al/Sn/MeHg are lookup or read-across by design — so the literal reading would make every category permanently un-mintable. Surfaced by the 2026-08-31 Cat-1 corpus audit; ratified as Karen's DOI-mint Rule #1 (Rule #2 = §1; Rule #3 = the DOI naming + version-history discipline, enacted in the versioning system). |
 | 2.6 | 2026-08-25 | Added **Species, screens: display + terminology** (complements the Required-Testing-Panel Ruling): the total metal is a first-class published limit shown as its own line (never hidden — the total-chromium portal defect); "baseline" is measurement and "reflex" is the ongoing-lot regime (never conflate — corrected the "enforced by reflex speciation" wording on baseline records); bounded species render as an explicit "≤ total" ceiling, never "bounded" or a blank. Applied in the cert standard-page renderer, the readiness portal, and the compiler speciation labels. |
 | 2.5 | 2026-08-25 | Added and ratified the **Required-Testing-Panel Ruling** (Karen: "if we say we test every product for 8 analytes, we should — test 8 totals universally, trigger speciation from findings"), then refined it the same day after a program-wide stress-test across all 13 category archetypes and every public claim surface. Separates the per-lot testing obligation from the published limit set, and the *screened* axis from the *governed* axis. The 8-metal set is universal but **basis-appropriate** (content ICP-MS for ingestibles/topicals; element-release/migration for contact materials; USP PDE for pharmacopeial-only classes). Guardrail: `conditional`/`baseline_monitor`/`not_applicable` forbidden on the four Tier-1 toxic totals; permitted for a Tier-2 total with no pathway and no sovereign limit. Reflex trigger corrected to `min(species limit, 50% of parent-total limit)` (flat-50% under-catches water Cr-VI, seaweed iAs). Mandatory speciation expanded (iAs: rice + fruit juice + seaweed/algae/clay supplements; MeHg: fish/marine + composites/sauces/broths + marine pet food; Cr-VI: water + toys/crafts + leather/textiles + pigment cosmetics/tattoo) and given a structural trigger (species limit with no parent total, e.g. apple-juice iAs). Two items flagged for a separate program/counsel decision: organotin speciation (net-new analyte class) and public-claim gating on the completion sweep. Registry `data/workbench/standards/required-analytes.json` (Cat-30 pilot; Sn flipped conditional→per_lot_total), validated + fanned by `tools/standards/build-required-analytes.mjs`. Downstream: DOI'd public content (the-big-8.md et al.) reword is human-gated, tracked in the ledger. |
 | 2.3 | 2026-08-25 | Added the **Certification-Readiness Ruling**: every analyte carries a limit-of-record (no empty `control`/`not-material` cells — firm number, species-bounded-by-total, or baseline/LOQ screen), under a mandatory provenance-honesty discipline; and a three-condition certification-readiness gate (COMPLETE + REGISTERED [production DOI] + CORRECTED). Supersedes the "no number where no government regulates" posture. Enforced by `standard-readiness-lint`. Ratified by Karen 2026-08-25. |
