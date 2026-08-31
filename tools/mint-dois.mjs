@@ -187,6 +187,32 @@ for (const { dir, priority } of PRIORITY_DIRS) {
 }
 
 candidates.sort((a, b) => a.priority - b.priority || a.filePath.localeCompare(b.filePath))
+
+// Collision guard: the basename-only suffix scheme (hmi.<basename>) can map two
+// pages in different directories to one DOI. That would mint both pages to the
+// same identifier, silently. Check the WHOLE mintable set (not just this batch,
+// which --limit may truncate). A dry-run reports collisions as warnings so the
+// planning report still renders; an EXECUTE run refuses before any network call.
+{
+  const slugOf = (c) => path.relative(path.join(repoRoot, "wiki"), c.filePath).replace(/\.md$/, "")
+  const bySuffix = new Map()
+  const collisions = []
+  for (const c of candidates) {
+    const suf = generateSuffix(slugOf(c))
+    if (bySuffix.has(suf)) collisions.push([suf, bySuffix.get(suf), c.filePath])
+    else bySuffix.set(suf, c.filePath)
+  }
+  if (collisions.length) {
+    console.error(`mint-dois: ${collisions.length} DOI suffix collision(s) — basename-only suffixes require unique page basenames across all minted dirs:`)
+    for (const [suf, a, b] of collisions) {
+      console.error(`  "${suf}": ${path.relative(repoRoot, a)}  <->  ${path.relative(repoRoot, b)}`)
+    }
+    console.error(`  Rename one page (or namespace this suffix) before minting.`)
+    if (!dryRun) process.exit(1)
+    console.error(`  (dry-run: continuing so the plan renders; an execute run would refuse.)`)
+  }
+}
+
 const batch = candidates.slice(0, limit === Infinity ? candidates.length : limit)
 
 console.log(`mint-dois: ${dryRun ? "DRY-RUN" : "EXECUTING"} (mode=${DATACITE_MODE})`)
@@ -320,9 +346,14 @@ function pageTypeToDataCite(dir) {
 }
 
 function generateSuffix(slug) {
-  // Suffix shape: hmi.<category>.<slug-hash>.<short-hash>
-  // Stable, predictable, no collisions across runs because the slug+category is unique.
-  const cleaned = slug.replace(/\//g, ".").toLowerCase()
-  const hash = crypto.createHash("sha256").update(slug).digest("hex").slice(0, 8)
-  return `hmi.${cleaned}.${hash}`
+  // Suffix shape: hmi.<page-basename> (lowercased) — the scheme the DOIs already
+  // registered under prefix 10.83376 actually use (verified against the live
+  // DataCite registry 2026-08-31; e.g. synthesis/aquaculture-vs-wild-… →
+  // 10.83376/hmi.aquaculture-vs-wild-…). The earlier hmi.<category>.<slug>.<hash>
+  // shape DIVERGED from what was minted, so the tool would have minted a second,
+  // differently-shaped DOI for a page that already had one. A page's DOI must be
+  // reproducible from its slug so a re-run can recognise and skip an existing
+  // mint. Basename-only can collide across directories; the collision guard in
+  // the batch loop fails loudly rather than mint two pages to one DOI.
+  return `hmi.${slug.split("/").pop().toLowerCase()}`
 }
