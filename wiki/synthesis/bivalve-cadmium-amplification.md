@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]", "
 products: ["[[products/seafood]]", "[[products/canned-fish]]"]
 anchor_sources: ["[[sources/bao2024-sp-icp-ms-nps-mussels]]", "[[sources/bruno2024-metals-mussels-clams-faro-lake-sicily]]", "[[sources/dogruyol2024-mediterranean-mussels-health-risk]]", "[[sources/rohonczy2024-arctic-foodweb-cd-hg]]", "[[sources/cardoso2023-mercury-portuguese-coast-seafood]]"]
 established: 2026-05-18
-wiki_doi: null
+wiki_doi: "10.83376/hmi.bivalve-cadmium-amplification"
 updated: 2026-05-18
 ---
 

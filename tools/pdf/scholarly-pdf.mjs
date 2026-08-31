@@ -337,6 +337,7 @@ function buildModel(fm, body, cfg) {
     bodySections,
     references,
     url,
+    doi,
     pathSeg: cfg.pathSeg,
   }
 }
@@ -363,6 +364,10 @@ const s = StyleSheet.create({
   authorText: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: MUTE, letterSpacing: 0.3 },
   orcidBadge: { marginHorizontal: 3 },
   gradeLine: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: BURGUNDY, letterSpacing: 0.3, marginBottom: 12 },
+  // The minted DOI, shown as a resolvable identifier under the byline — the
+  // journal-masthead convention. Burgundy signals it is the clickable citable
+  // link; it resolves through doi.org.
+  doiLine: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: BURGUNDY, letterSpacing: 0.3, marginBottom: 4, textDecoration: "none" },
 
   frontRow: { flexDirection: "row", gap: 30, marginBottom: 18 },
   frontLeft: { flexGrow: 1.45, flexBasis: 0 },
@@ -606,6 +611,17 @@ function ScholarlyDocument(m) {
       OrcidBadge(m.authorLine.orcid, "orcid"),
       h(Text, { key: "aff", style: s.authorText }, `· ${m.authorLine.affil}`),
     ]),
+    m.doi
+      ? h(
+          Link,
+          {
+            key: "doi",
+            style: m.gradeLine ? s.doiLine : [s.doiLine, { marginBottom: 12 }],
+            src: `https://doi.org/${m.doi}`,
+          },
+          `DOI  ${m.doi}`,
+        )
+      : null,
     m.gradeLine ? h(Text, { key: "g", style: s.gradeLine }, m.gradeLine) : null,
     h(View, { key: "rule", style: s.ruleBurgundy }),
     h(FrontMatter, { key: "fm", ...m }),

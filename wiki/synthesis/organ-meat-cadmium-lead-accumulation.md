@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/organ-meats]]", "[[ingredients/beef]]", "[[ingredie
 products: ["[[products/beef-product]]", "[[products/poultry-product]]", "[[products/game-meats]]"]
 anchor_sources: ["[[sources/rabeey2025-bovine-hg-pb-cd-egypt]]", "[[sources/hossain2023-bangladesh-chicken-metals]]", "[[sources/kamaly2023-egypt-poultry-metals]]", "[[sources/morshed2024-heavy-metals-poultry-organs-bangladesh]]", "[[sources/marcelino2026-liver-trace-metals-netherlands-herbivores]]", "[[sources/khatemeh2022-pb-cd-sheep-liver-flukes]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.organ-meat-cadmium-lead-accumulation"
 updated: 2026-07-27
 ---
 

@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/flaxseed]]", "[[ingredient
 products: ["[[products/dark-chocolate]]", "[[products/infant-formula]]", "[[products/tahini]]", "[[products/baby-food-pouches]]"]
 anchor_sources: ["[[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]]", "[[sources/brum2025-flaxseeds-ptes-organic-conventional]]", "[[sources/potorti2026-tahini-quality-safety-inorganic-elements]]", "[[sources/slepecka2017-ecological-cereal-heavy-metals-poland]]", "[[sources/gardener2019-pb-cd-us-infant-formula-baby-foods]]", "[[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland]]", "[[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone]]"]
 established: 2026-05-16
-wiki_doi: null
+wiki_doi: "10.83376/hmi.organic-certification-not-protective"
 updated: 2026-06-11
 ---
 

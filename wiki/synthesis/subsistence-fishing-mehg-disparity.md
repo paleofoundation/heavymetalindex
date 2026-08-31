@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]", "[[ingr
 products: ["[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/li2024-global-fisheries-mehg]]", "[[sources/wu2025-climate-meghan-freshwater-fish-china]]", "[[sources/auzier-guimaraes2025-mercury-tapajos-fish]]"]
 established: 2026-05-13
-wiki_doi: null
+wiki_doi: "10.83376/hmi.subsistence-fishing-mehg-disparity"
 updated: 2026-05-13
 ---
 

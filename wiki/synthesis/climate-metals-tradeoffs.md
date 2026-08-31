@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/rice]]", "[[ingredients/freshwater-fish]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/seyfferth2025-rice-water-management-as-hg-cd]]", "[[sources/limmer2024-arsenic-cadmium-rice-irrigation]]", "[[sources/wu2025-climate-meghan-freshwater-fish-china]]"]
 established: 2026-05-13
-wiki_doi: null
+wiki_doi: "10.83376/hmi.climate-metals-tradeoffs"
 updated: 2026-05-13
 ---
 

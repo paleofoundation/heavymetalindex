@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/shellfish]]", "[
 products: ["[[products/seafood]]"]
 anchor_sources: ["[[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other]]", "[[sources/liu2023-arsenic-seafood-digestion]]", "[[sources/kagawa2023-fish-arsenic-hypertension-japan]]", "[[sources/raab2024-arsenolipids-chlamydomonas]]", "[[sources/walenta2024-arsenic-speciation-mushrooms]]", "[[sources/sim2024-inorganic-arsenic-seaweed-hplc]]", "[[sources/hull2023-arsenic-lake-foodweb]]", "[[sources/sadee2023-arsenic-speciation-vegetables]]"]
 established: 2026-05-13
-wiki_doi: null
+wiki_doi: "10.83376/hmi.organoarsenical-inertness-assumption"
 updated: 2026-05-13
 ---
 

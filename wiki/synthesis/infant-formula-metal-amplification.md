@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/breastmilk]]", "[[ingredients/infant-formula-ingred
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 anchor_sources: ["[[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]", "[[sources/kazi2009-toxic-elements-in-infant-formulae]]", "[[sources/burrell2010-aluminium-in-infant-formulas]]", "[[sources/chuchu2013-aluminium-in-infant-formulas]]", "[[sources/collado-lopez2025-heavy-metals-baby-food-formula]]", "[[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility]]", "[[sources/milani2023-trace-elements-soy-based-beverages]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.infant-formula-metal-amplification"
 updated: 2026-07-27
 ---
 

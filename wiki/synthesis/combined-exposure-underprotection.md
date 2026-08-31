@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/
 products: []
 anchor_sources: ["[[sources/suomi2023-finland-dietary-metals-cumulative]]", "[[sources/jecfa-91st-cadmium-2022]]", "[[sources/efsa2024-risk-assessment-iAs-update]]"]
 established: 2026-05-13
-wiki_doi: null
+wiki_doi: "10.83376/hmi.combined-exposure-underprotection"
 updated: 2026-05-13
 ---
 

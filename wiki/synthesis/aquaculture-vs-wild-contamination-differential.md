@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingr
 products: ["[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/wu2025-climate-meghan-freshwater-fish-china]]", "[[sources/li2024-global-fisheries-mehg]]", "[[sources/rusko2026-mercury-fish-latvia-risk-benefit]]"]
 established: 2026-05-18
-wiki_doi: null
+wiki_doi: "10.83376/hmi.aquaculture-vs-wild-contamination-differential"
 updated: 2026-05-18
 ---
 

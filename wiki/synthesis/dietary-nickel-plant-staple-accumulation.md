@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredien
 products: ["[[products/chocolate]]", "[[products/legumes-pulses-other]]", "[[products/peanuts]]", "[[products/cashews]]", "[[products/nuts-seeds-other]]", "[[products/breakfast-cereals]]", "[[products/other-grain-products]]", "[[products/processed-meats]]", "[[products/poultry-product]]"]
 anchor_sources: ["[[sources/efsa2015-nickel-food-water]]", "[[sources/flyvholm1984-nickel-content-food-dietary-intake]]", "[[sources/mania2020-nickel-cereal-grains-poland]]", "[[sources/han2024-nickel-zhejiang-china]]", "[[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]", "[[sources/manfredi2025-nickel-meat-italy]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.dietary-nickel-plant-staple-accumulation"
 updated: 2026-08-11
 ---
 

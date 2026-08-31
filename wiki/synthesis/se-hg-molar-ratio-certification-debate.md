@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredie
 products: ["[[products/seafood]]", "[[products/canned-fish]]", "[[products/fresh-fish]]"]
 anchor_sources: ["[[sources/ralston2014-selenium-hbv-methylmercury-seafood]]", "[[sources/chamorro2024-bluefin-tuna-mercury-review]]", "[[sources/farina-rocha-aschner-2011-mehg-mechanism]]"]
 established: 2026-05-18
-wiki_doi: null
+wiki_doi: "10.83376/hmi.se-hg-molar-ratio-certification-debate"
 updated: 2026-05-18
 ---
 

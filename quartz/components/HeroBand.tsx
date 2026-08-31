@@ -267,6 +267,12 @@ export default (() => {
 
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
     const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
+    // Minted page-level DOI, shown in the masthead the way a journal article
+    // carries its DOI under the byline. Guarded against the YAML `null`
+    // placeholder that un-minted pages still carry, so the stamp appears only
+    // where a resolvable DOI exists.
+    const doiRaw = typeof fm.wiki_doi === "string" ? fm.wiki_doi.trim() : ""
+    const wikiDoi = doiRaw && doiRaw.toLowerCase() !== "null" ? doiRaw : undefined
     const rows = snapshotRows(fm, section, citedBy, isIndex)
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
@@ -312,6 +318,17 @@ export default (() => {
                   <OrcidIdIcon />
                 </a>
               </span>
+              {wikiDoi ? (
+                <a
+                  class="hero-doi"
+                  href={`https://doi.org/${wikiDoi}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={`Digital Object Identifier ${wikiDoi}`}
+                >
+                  DOI {wikiDoi}
+                </a>
+              ) : null}
               {updated ? <span class="hero-stamp">UPDATED {updated}</span> : null}
               {rev ? <span class="hero-stamp">REV {rev}</span> : null}
 

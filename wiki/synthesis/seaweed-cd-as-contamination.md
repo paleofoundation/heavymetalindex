@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/seaweed]]", "[[ingredients/kelp]]", "[[ingredients/
 products: ["[[products/seaweed-snacks]]", "[[products/dietary-supplements]]"]
 anchor_sources: ["[[sources/nepper-davidsen2023-kelp-biomass-composition-nz]]", "[[sources/hahn2022-salish-seaweed-contaminants]]", "[[sources/efsa2023-heavy-metals-seaweed]]"]
 established: 2026-05-16
-wiki_doi: null
+wiki_doi: "10.83376/hmi.seaweed-cd-as-contamination"
 updated: 2026-05-16
 ---
 

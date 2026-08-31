@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/seafood]]"]
 anchor_sources: ["[[sources/sonke2023-mercury-global-change]]", "[[sources/wang2023-climate-marine-mercury]]", "[[sources/motta2022-marine-hg-isotopes]]"]
 established: 2026-05-16
-wiki_doi: null
+wiki_doi: "10.83376/hmi.climate-fish-mehg-projections"
 updated: 2026-05-16
 ---
 

@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]"]
 products: ["[[products/freshwater-fish]]"]
 anchor_sources: ["[[sources/fuenteslopez2025-colombia-freshwater-fish-mercury]]", "[[sources/barquero2024-mercury-bass-almaden-spain]]", "[[sources/shumba2025-tilapia-mercury-zambia-mining]]", "[[sources/stahl2023-us-river-fish-mercury]]", "[[sources/lepak2023-sport-fish-mercury-colorado]]", "[[sources/shaalan2024-nile-tilapia-heavy-metals-egypt]]", "[[sources/willacker2023-mercury-fish-snake-river]]", "[[sources/leclerc2023-methylmercury-periphyton-river]]", "[[sources/lucchini2025-amazon-mercury-co-exposures]]", "[[sources/zhou2025-microbial-methylmercury-rice-china]]"]
 established: 2026-05-16
-wiki_doi: null
+wiki_doi: "10.83376/hmi.mining-impacted-freshwater-fish"
 updated: 2026-05-16
 ---
 

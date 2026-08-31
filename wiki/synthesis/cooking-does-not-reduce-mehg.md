@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingr
 products: ["[[products/seafood]]", "[[products/canned-fish]]", "[[products/fresh-fish]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/bfr2024-methylmercury-fish-seafood-germany]]", "[[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]", "[[sources/farina-rocha-aschner-2011-mehg-mechanism]]"]
 established: 2026-05-18
-wiki_doi: null
+wiki_doi: "10.83376/hmi.cooking-does-not-reduce-mehg"
 updated: 2026-05-18
 ---
 

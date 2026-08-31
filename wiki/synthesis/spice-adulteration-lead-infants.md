@@ -15,7 +15,7 @@ metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
 products: ["[[products/baby-food-purees]]", "[[products/infant-cereal]]"]
 audience: [regulator, brand-legal, educator]
-wiki_doi: null
+wiki_doi: "10.83376/hmi.spice-adulteration-lead-infants"
 updated: 2026-05-13
 ---
 

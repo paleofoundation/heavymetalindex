@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: ["[[products/tea]]", "[[products/tea-infusions]]"]
 anchor_sources: ["[[sources/brzezicha-cirocka2016-green-tea-geographic-origins]]", "[[sources/li2015-green-tea-jiangxi-al-heavy-metals]]", "[[sources/li2021-china-national-tea-reconnaissance]]", "[[sources/jurowski2023-heavy-metals-green-tea-poland]]", "[[sources/hu2023-china-tea-heavy-metals]]", "[[sources/fan2025-hangzhou-green-tea-metals]]", "[[sources/zhang2018-tea-puan-guizhou-heavy-metals]]", "[[sources/kazeminia2023-tea-heavy-metals-review]]"]
 established: 2026-06-04
-wiki_doi: null
+wiki_doi: "10.83376/hmi.tea-multi-metal-bioaccumulation"
 updated: 2026-06-04
 ---
 

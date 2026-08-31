@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/tomato]]", "[[ingredients/canned-tomatoes]]", "[[in
 products: ["[[products/canned-foods-general]]", "[[products/canned-fruit]]", "[[products/canned-tomatoes]]", "[[products/canned-vegetables]]", "[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]", "[[products/canned-fish]]"]
 anchor_sources: ["[[sources/benoy1971-tin-toxicity-canned-fruit-juices]]", "[[sources/eu-scf-2002-acute-tin-canned-foods]]", "[[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland]]", "[[sources/blunden2003-tin-canned-food-review]]", "[[sources/buculei2012-tin-iron-migration-canned-food-romania]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.tin-canned-food-acidic-matrix-migration"
 updated: 2026-07-27
 ---
 

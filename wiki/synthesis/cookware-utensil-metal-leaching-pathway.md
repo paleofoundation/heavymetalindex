@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/rice]]", "[[ingredients/meat]]"]
 products: ["[[products/cookware-metal-alloy]]", "[[products/cookware-nonstick-coated]]", "[[products/utensils-metal]]", "[[products/rice-bulk-grain]]", "[[products/game-meats]]"]
 anchor_sources: ["[[sources/sultan2023-cookware-metal-leaching]]", "[[sources/alrajhi2021-imported-cookware-metal-release]]", "[[sources/mahdi2024-meat-cooked-utensils-metals]]", "[[sources/abdulrasheed2026-nigeria-cookware-metals]]", "[[sources/rittirong2018-cooked-rice-utensil-metals-thailand]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.cookware-utensil-metal-leaching-pathway"
 updated: 2026-07-27
 ---
 

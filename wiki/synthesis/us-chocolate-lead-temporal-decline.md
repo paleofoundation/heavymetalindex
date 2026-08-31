@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: []
 anchor_sources: ["[[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]]", "[[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]]", "[[sources/zhao2024-toxic-metals-metalloids-food-review]]"]
 established: 2026-05-13
-wiki_doi: null
+wiki_doi: "10.83376/hmi.us-chocolate-lead-temporal-decline"
 updated: 2026-05-13
 ---
 

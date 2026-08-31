@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/spinach]]", "[[ingredients/leafy-greens]]", "[[ingr
 products: ["[[products/spinach]]", "[[products/leafy-vegetables-other]]", "[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]"]
 anchor_sources: ["[[sources/ali2022-lead-wastewater-crops-meta]]", "[[sources/adebayo2020-wastewater-irrigated-spinach]]", "[[sources/chiutula2025-wastewater-vegetables-malawi]]", "[[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina]]", "[[sources/pal2017-wastewater-vegetables-heavy-metals]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.wastewater-irrigation-multimetal-crop-pathway"
 updated: 2026-07-27
 ---
 

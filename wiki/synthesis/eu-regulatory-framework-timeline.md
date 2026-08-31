@@ -8,7 +8,7 @@ ingredients: []
 products: []
 anchor_sources: ["[[regulations/eu-466-2001-contaminants-superseded]]", "[[regulations/eu-1881-2006-contaminants-superseded]]", "[[regulations/eu-reg-2022-617-mercury-fishery]]", "[[regulations/eu-2021-1317-lead-cereals-superseded]]", "[[regulations/eu-2021-1323-cadmium-cereals-superseded]]", "[[regulations/eu2023-contaminants-maximum-levels]]"]
 established: 2026-05-18
-wiki_doi: null
+wiki_doi: "10.83376/hmi.eu-regulatory-framework-timeline"
 updated: 2026-05-18
 ---
 

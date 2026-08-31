@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/breastmilk]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 anchor_sources: ["[[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review]]", "[[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea]]", "[[sources/chen2023-breast-milk-ewaste-china]]", "[[sources/naspolini2024-human-milk-sao-paulo]]", "[[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]]", "[[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.breastmilk-heavy-metal-exposure-pathway"
 updated: 2026-07-27
 ---
 

@@ -164,6 +164,23 @@
   color: rgba(255, 255, 255, 0.72);
 }
 
+// The minted DOI, rendered as a mono identifier stamp that resolves through
+// doi.org — the journal-masthead treatment. Slightly brighter than the plain
+// UPDATED/REV stamps because it is the page's citable identifier.
+.hero-doi {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.42);
+  white-space: nowrap;
+
+  &:hover {
+    color: #fff;
+    text-decoration-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
 .hero-act {
   font-family: "IBM Plex Mono", monospace;
   font-size: 10.5px;

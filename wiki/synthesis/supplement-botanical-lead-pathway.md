@@ -8,7 +8,7 @@ ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: ["[[products/dietary-supplements]]", "[[products/supplements-botanicals-herbs]]"]
 anchor_sources: ["[[sources/porwollik2026-rhodiola-supplements-us-market]]", "[[sources/inada2023-herbal-medicine-heavy-metal-regulations]]", "[[sources/ciocan2021-ayurvedic-lead-hg-poisoning]]", "[[sources/thomas2024-lead-poisoning-ayurvedic-herbal]]"]
 established: 2026-07-27
-wiki_doi: null
+wiki_doi: "10.83376/hmi.supplement-botanical-lead-pathway"
 updated: 2026-07-27
 ---
 
