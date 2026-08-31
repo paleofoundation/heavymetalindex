@@ -3,6 +3,7 @@
   "name": "Infant formula (ready-to-feed, liquid)",
   "native_basis": "as_consumed",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "cow": {
       "Pb": {
@@ -72,6 +73,11 @@
             "value": 10,
             "converted": false,
             "id": "il_fcs2016_pb_15_infant_formula_ready_to_eat_and_follow_up_formula_10"
+          },
+          "HK": {
+            "value": 10,
+            "converted": false,
+            "id": "hk_cap132v_pb_infant-formula-and-follow-up-formula_10"
           },
           "IN": {
             "value": 20,
@@ -304,6 +310,11 @@
             "value": 10,
             "converted": false,
             "id": "il_fcs2016_pb_15_infant_formula_ready_to_eat_and_follow_up_formula_10"
+          },
+          "HK": {
+            "value": 10,
+            "converted": false,
+            "id": "hk_cap132v_pb_infant-formula-and-follow-up-formula_10"
           },
           "IN": {
             "value": 20,

@@ -313,9 +313,6 @@
         "children.s product",
         "cosmetic",
         "muscle meat",
-        "fish",
-        "crustacean",
-        "mollusc",
         "salt",
         "destined for",
         "rice cereal",
@@ -381,9 +378,6 @@
         "children.s product",
         "cosmetic",
         "muscle meat",
-        "fish",
-        "crustacean",
-        "mollusc",
         "salt",
         "rice",
         "destined for",
@@ -520,6 +514,154 @@
           "not_material": true,
           "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
           "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)"
+        }
+      }
+    },
+    "single-ingredient-meats": {
+      "name": "Single-ingredient meats (infant)",
+      "row": 10,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "_derivation_note": "Single-ingredient infant meat/poultry purées (chicken, turkey, beef, lamb) and organ/liver. Scope pairs the US FDA processed-baby-food row (its scope enumerates 'single-ingredient meats for children under 2') with the general 'baby food' infant-food MLs. Pb therefore binds to the strictest infant-food action level (FDA 10) and iAs/Cd/Ni bind to the strictest EU infant-food MLs, whose scope ('baby food for infants and young children') covers meat-based baby food. This deliberately mirrors the sibling mixed-meals rows: a single-ingredient meat cannot carry a LOOSER limit than a mixed meal containing the same meat, so iAs is 20 (EU baby-food ML; corroborated by Israel FCS-2016 'meat and meat products, including poultry and game' iAs 20), NOT the looser China complementary-food 100. Organ/liver concentrate Cd and iAs, so holding the whole subcategory to the strictest infant-food Cd (40) and iAs (20) is the intended one-way ratchet. tHg/Sn/Al are the established baby-food read-across; Cr is not-material reflex speciation (non-dairy).",
+      "scope_include": [
+        "single-ingredient meats?",
+        "single ingredient meat",
+        "baby food"
+      ],
+      "scope_exclude": [
+        "formula",
+        "follow-on",
+        "follow-up",
+        "special medical",
+        "medical purpose",
+        "fsmp",
+        "drink",
+        "supplement",
+        "fish",
+        "crustacean",
+        "mollusc",
+        "aquatic",
+        "seafood"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "No government sets a total-chromium ML for a non-dairy single-ingredient meat infant food; the only register Cr food values are dairy (China milk powder 2000, liquid milk 300) and do not transfer to a meat matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in a reducing meat matrix, so total-Cr is not a material toxic here. Firm control: reflex speciation — any total-Cr result > 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result > 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or EN 15192 equivalent); LOQ-level quantifiable Cr(VI) = fail."
+        }
+      }
+    },
+    "dairy-desserts": {
+      "name": "Dairy-based infant desserts (yogurt, fromage frais, custard, pudding)",
+      "row": 11,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "_derivation_note": "Wet, ready-to-eat dairy infant desserts (yogurt, fromage frais, custard, pudding, milk-based dessert). Scope pairs the US FDA processed-baby-food row (its scope enumerates 'yogurts; custards/puddings') with the general 'baby food' infant-food MLs. Pb binds to FDA 10; iAs/Cd/Ni to the strictest EU infant-food MLs. Chromium is MATERIAL in a dairy matrix (unlike the non-dairy Cat-1 siblings, which are not-material): it is read across to China GB 2762 liquid-milk total-Cr 300 — a basis-matched wet-dairy analogy whose register scope 'raw, pasteurized, sterilized, modified and fermented milk' covers yogurt — NOT a not-material determination. tHg/Sn/Al are the established baby-food read-across.",
+      "scope_include": [
+        "baby food",
+        "yogurt",
+        "yoghurt",
+        "fromage frais",
+        "custard",
+        "pudding",
+        "milk-based dessert",
+        "milk based dessert",
+        "dairy dessert",
+        "dairy-based dessert"
+      ],
+      "scope_exclude": [
+        "formula",
+        "follow-on",
+        "follow-up",
+        "special medical",
+        "medical purpose",
+        "fsmp",
+        "drink",
+        "fish",
+        "crustacean",
+        "mollusc"
+      ],
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_cr_liquid_milk_300",
+          "label": "government read-across — China GB 2762 liquid-milk total-Cr 300 (scope: raw, pasteurized, sterilized, modified and fermented milk) applied at face value to a wet dairy infant dessert (basis-matched dairy analogy). Chromium IS material in a dairy matrix, so a not-material determination is not used; total Cr is a published ceiling and Cr(VI) is additionally controlled by reflex speciation (any total-Cr > 100 ppb triggers Cr(VI) speciation; any quantifiable Cr(VI) fails)."
+        },
+        "tHg": {
+          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; stricter than the dairy-specific IL/HK milk total-Hg 10)."
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      }
+    },
+    "fish-containing-baby-food": {
+      "name": "Fish & seafood infant dinners",
+      "row": 12,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "provisional_scaffold": true,
+      "development_note": "SCAFFOLD — NOT certification-ready; do not publish as a standard. Purpose: give the Cat-1 mixed-meals fish-exclusion a routing destination. Fish's DEFINING hazards are methylmercury (MeHg) and inorganic/total arsenic (iAs/tAs), and neither is finished here: (1) the Cat-1 compiler panel (DEFAULT_PANEL / config.panel) does not include MeHg or tAs, so those cells are not emitted at all — the remaining work is to extend the panel for this subcategory; (2) the governing fish mercury ceiling must be derived by read-across to the Cat-6 seafood MeHg standard scaled by the dish's fish fraction — a methodology decision, not a register lookup. The 8-panel cells below resolve via DISCLOSED read-across to the nearest infant-food government values, but the total-mercury cell in particular is a baby-food PLACEHOLDER, not the fish-appropriate mercury control, and the iAs cell (China aquatic complementary 300) is a provisional aquatic-infant-food value that EU 2025/1891 fish-muscle iAs 100 may supersede once the fish-fraction basis is fixed. Remaining derivation: (a) extend the panel with MeHg + tAs for this subcategory; (b) derive the MeHg ceiling via Cat-6 read-across x fish-fraction; (c) re-derive iAs/tHg on a fish basis. Until COMPLETE + REGISTERED + CORRECTED this stays a scaffold.",
+      "scope_include": [
+        "fish-containing baby food",
+        "fish and seafood infant",
+        "seafood infant dinner",
+        "fish-based infant"
+      ],
+      "scope_exclude": [],
+      "read_across": {
+        "Pb": {
+          "source_id": "fda2025_pb_baby_food_10",
+          "label": "read-across — US FDA processed-baby-food Pb action level 10 (the strictest infant-food Pb value). FDA's enumerated scope does not itemise fish dinners, so 10 is applied here as a disclosed read-across, not direct governance."
+        },
+        "iAs": {
+          "source_id": "cn_ias_canned-complementary-foods-for-infants-a_300",
+          "label": "PROVISIONAL read-across — China GB 2762 canned complementary infant foods made from aquatic products / animal liver, iAs 300 (the nearest government iAs value for an aquatic infant complementary food). NOT final: EU 2025/1891 fish-muscle iAs 100 is a stricter fish-specific alternative; the finished fish iAs cell needs the fish-fraction derivation (see development_note)."
+        },
+        "Cd": {
+          "source_id": "eu2023_cd_babyfood_cereal_40",
+          "label": "read-across — EU 2023/915 baby-food / processed-cereal-based-food Cd 40 (the strictest infant-food Cd), applied to a fish-containing infant food as a disclosed read-across."
+        },
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "PLACEHOLDER read-across — China GB 2762 canned complementary infant foods total-Hg 20. This is a baby-food placeholder, NOT the fish-appropriate mercury control: fish concentrates methylmercury, and the governing ceiling must be derived from the Cat-6 seafood MeHg standard x fish fraction (in development). Do not treat this cell as final."
+        },
+        "Ni": {
+          "source_id": "eu2024_ni_babyfood_500",
+          "label": "read-across — EU 2024/1987 baby-food (except juices) Ni 500, applied to a fish-containing infant food as a disclosed read-across."
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Non-dairy fish matrix: no government sets a total-Cr ML; reflex Cr(VI) speciation on any total-Cr > 100 ug/kg, any quantifiable Cr(VI) fails.",
+          "reference_method": "Total Cr by ICP-MS; reflex Cr(VI) by EPA 3060A alkaline digestion + IC-ICP-MS (or EN 15192) on any total-Cr > 100 ug/kg."
         }
       }
     }

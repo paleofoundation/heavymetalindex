@@ -1,0 +1,90 @@
+{
+  "slug": "fish-containing-baby-food",
+  "name": "Fish & seafood infant dinners",
+  "native_basis": "as_consumed",
+  "canned": false,
+  "provisional_scaffold": true,
+  "development_note": "SCAFFOLD — NOT certification-ready; do not publish as a standard. Purpose: give the Cat-1 mixed-meals fish-exclusion a routing destination. Fish's DEFINING hazards are methylmercury (MeHg) and inorganic/total arsenic (iAs/tAs), and neither is finished here: (1) the Cat-1 compiler panel (DEFAULT_PANEL / config.panel) does not include MeHg or tAs, so those cells are not emitted at all — the remaining work is to extend the panel for this subcategory; (2) the governing fish mercury ceiling must be derived by read-across to the Cat-6 seafood MeHg standard scaled by the dish's fish fraction — a methodology decision, not a register lookup. The 8-panel cells below resolve via DISCLOSED read-across to the nearest infant-food government values, but the total-mercury cell in particular is a baby-food PLACEHOLDER, not the fish-appropriate mercury control, and the iAs cell (China aquatic complementary 300) is a provisional aquatic-infant-food value that EU 2025/1891 fish-muscle iAs 100 may supersede once the fish-fraction basis is fixed. Remaining derivation: (a) extend the panel with MeHg + tAs for this subcategory; (b) derive the MeHg ceiling via Cat-6 read-across x fish-fraction; (c) re-derive iAs/tHg on a fish basis. Until COMPLETE + REGISTERED + CORRECTED this stays a scaffold.",
+  "variants": {
+    "both": {
+      "Pb": {
+        "type": "read_across",
+        "value": 10,
+        "value_exact": 10,
+        "source_id": "fda2025_pb_baby_food_10",
+        "source_jurisdiction": "US",
+        "label": "read-across — US FDA processed-baby-food Pb action level 10 (the strictest infant-food Pb value). FDA's enumerated scope does not itemise fish dinners, so 10 is applied here as a disclosed read-across, not direct governance.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "iAs": {
+        "type": "read_across",
+        "value": 300,
+        "value_exact": 300,
+        "source_id": "cn_ias_canned-complementary-foods-for-infants-a_300",
+        "source_jurisdiction": "CN",
+        "label": "PROVISIONAL read-across — China GB 2762 canned complementary infant foods made from aquatic products / animal liver, iAs 300 (the nearest government iAs value for an aquatic infant complementary food). NOT final: EU 2025/1891 fish-muscle iAs 100 is a stricter fish-specific alternative; the finished fish iAs cell needs the fish-fraction derivation (see development_note).",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "tHg": {
+        "type": "read_across",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+        "source_jurisdiction": "CN",
+        "label": "PLACEHOLDER read-across — China GB 2762 canned complementary infant foods total-Hg 20. This is a baby-food placeholder, NOT the fish-appropriate mercury control: fish concentrates methylmercury, and the governing ceiling must be derived from the Cat-6 seafood MeHg standard x fish fraction (in development). Do not treat this cell as final.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Cd": {
+        "type": "read_across",
+        "value": 40,
+        "value_exact": 40,
+        "source_id": "eu2023_cd_babyfood_cereal_40",
+        "source_jurisdiction": "EU",
+        "label": "read-across — EU 2023/915 baby-food / processed-cereal-based-food Cd 40 (the strictest infant-food Cd), applied to a fish-containing infant food as a disclosed read-across.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Cr": {
+        "type": "not_material",
+        "value": null,
+        "control": "Non-dairy fish matrix: no government sets a total-Cr ML; reflex Cr(VI) speciation on any total-Cr > 100 ug/kg, any quantifiable Cr(VI) fails.",
+        "reference_method": "Total Cr by ICP-MS; reflex Cr(VI) by EPA 3060A alkaline digestion + IC-ICP-MS (or EN 15192) on any total-Cr > 100 ug/kg."
+      },
+      "Ni": {
+        "type": "read_across",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "eu2024_ni_babyfood_500",
+        "source_jurisdiction": "EU",
+        "label": "read-across — EU 2024/1987 baby-food (except juices) Ni 500, applied to a fish-containing infant food as a disclosed read-across.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Sn": {
+        "type": "read_across",
+        "value": 5000,
+        "value_exact": 5000,
+        "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+        "source_jurisdiction": "IN",
+        "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Al": {
+        "type": "read_across",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "aunz_sch19_al_formula_nonsoy_500",
+        "source_jurisdiction": "AU-NZ",
+        "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      }
+    }
+  },
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "method": "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)"
+}

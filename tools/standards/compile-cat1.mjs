@@ -305,7 +305,7 @@ for (const slug of slugs) {
   const sub = config.subcategories[slug]
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const variants = sub.soy_split ? ["cow", "soy"] : ["both"]
-  const record = { slug, name: sub.name, ...(config.category != null ? { category: config.category, category_name: config.category_name } : {}), native_basis: sub.native_basis, canned: !!sub.canned, variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
+  const record = { slug, name: sub.name, ...(config.category != null ? { category: config.category, category_name: config.category_name } : {}), native_basis: sub.native_basis, canned: !!sub.canned, provisional_scaffold: !!sub.provisional_scaffold, ...(sub.development_note ? { development_note: sub.development_note } : {}), variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
   for (const variant of variants) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
@@ -316,7 +316,7 @@ for (const slug of slugs) {
   summary.push(record)
 
   if (!QUIET) {
-    console.log(`\n### ${slug} — ${sub.name}  (native: ${sub.native_basis}${sub.soy_split ? ", cow/soy split" : ""})`)
+    console.log(`\n### ${slug} — ${sub.name}${sub.provisional_scaffold ? "  (PROVISIONAL SCAFFOLD — not certification-ready)" : ""}  (native: ${sub.native_basis}${sub.soy_split ? ", cow/soy split" : ""})`)
     for (const variant of Object.keys(record.variants)) {
       if (variants.length > 1) console.log(`  [${variant}]`)
       for (const a of PANEL) {

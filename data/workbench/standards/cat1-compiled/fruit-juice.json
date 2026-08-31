@@ -3,6 +3,7 @@
   "name": "Fruit juice (not canned)",
   "native_basis": "as_consumed",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "both": {
       "Pb": {
@@ -47,6 +48,11 @@
             "value": 30,
             "converted": true,
             "id": "ma_2410_2022_pb_3_1_19_jus_de_fruits_jus_de_fruits_concentres_reconstitues_et_nectars_de_frui_30"
+          },
+          "HK": {
+            "value": 30,
+            "converted": true,
+            "id": "hk_cap132v_pb_fruit-juices-other-than-fruit-juices-exclusively-from-b_30"
           },
           "US": {
             "value": 50,

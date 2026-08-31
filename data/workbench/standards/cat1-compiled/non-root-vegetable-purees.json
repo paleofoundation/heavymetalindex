@@ -3,6 +3,7 @@
   "name": "Non-root vegetable purees",
   "native_basis": "as_consumed",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "both": {
       "Pb": {

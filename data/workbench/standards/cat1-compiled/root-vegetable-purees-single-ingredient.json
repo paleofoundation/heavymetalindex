@@ -3,6 +3,7 @@
   "name": "Root-vegetable purées (single-ingredient)",
   "native_basis": "as_consumed",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "both": {
       "Pb": {
@@ -42,6 +43,11 @@
             "value": 100,
             "converted": true,
             "id": "ph_pns194_2017_root_tuber_vegetables_pb_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_pb_root-and-tuber-vegetables_100"
           },
           "SG": {
             "value": 200,
@@ -107,6 +113,11 @@
             "value": 100,
             "converted": true,
             "id": "ph_pns194_2017_root_tuber_vegetables_cd_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_cd_root-and-tuber-vegetables_100"
           }
         }
       },

@@ -3,6 +3,7 @@
   "name": "Infant formula (powder)",
   "native_basis": "as_sold",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "cow": {
       "Pb": {
@@ -72,6 +73,11 @@
             "value": 80,
             "converted": true,
             "id": "sg_foodregs_2026_infant_formula_as_consumed_pb_10"
+          },
+          "HK": {
+            "value": 80,
+            "converted": true,
+            "id": "hk_cap132v_pb_infant-formula-and-follow-up-formula_10"
           },
           "CO": {
             "value": 160,
@@ -294,6 +300,11 @@
             "value": 80,
             "converted": true,
             "id": "sg_foodregs_2026_infant_formula_as_consumed_pb_10"
+          },
+          "HK": {
+            "value": 80,
+            "converted": true,
+            "id": "hk_cap132v_pb_infant-formula-and-follow-up-formula_10"
           },
           "CO": {
             "value": 160,

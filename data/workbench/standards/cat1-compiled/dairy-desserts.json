@@ -1,0 +1,128 @@
+{
+  "slug": "dairy-desserts",
+  "name": "Dairy-based infant desserts (yogurt, fromage frais, custard, pudding)",
+  "native_basis": "as_consumed",
+  "canned": false,
+  "provisional_scaffold": false,
+  "variants": {
+    "both": {
+      "Pb": {
+        "type": "gov",
+        "value": 10,
+        "value_exact": 10,
+        "binding_jurisdiction": "US",
+        "binding_id": "fda2025_pb_baby_food_10",
+        "basis_note": "face value",
+        "per_country": {
+          "US": {
+            "value": 10,
+            "converted": true,
+            "id": "fda2025_pb_baby_food_10"
+          },
+          "SG": {
+            "value": 200,
+            "converted": true,
+            "id": "sg_foodregs_2026_baby_food_pb_200"
+          }
+        }
+      },
+      "iAs": {
+        "type": "gov",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_ias_babyfood_20",
+        "basis_note": "face value",
+        "per_country": {
+          "EU": {
+            "value": 20,
+            "converted": true,
+            "id": "eu2023_ias_babyfood_20"
+          }
+        }
+      },
+      "tHg": {
+        "type": "read_across",
+        "value": 8,
+        "value_exact": 8,
+        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+        "source_jurisdiction": "IL",
+        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; stricter than the dairy-specific IL/HK milk total-Hg 10).",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Cd": {
+        "type": "gov",
+        "value": 40,
+        "value_exact": 40,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_cd_babyfood_cereal_40",
+        "basis_note": "face value",
+        "per_country": {
+          "EU": {
+            "value": 40,
+            "converted": true,
+            "id": "eu2023_cd_babyfood_cereal_40"
+          },
+          "UK": {
+            "value": 40,
+            "converted": true,
+            "id": "uk_cd_processed-cereal-based-foods-and-baby-fo_40"
+          },
+          "GSO": {
+            "value": 40,
+            "converted": true,
+            "id": "gso193_2021_cd_processed_cereal_based_foods_and_baby_foods_for_infants_and_young_childr_40"
+          }
+        }
+      },
+      "Cr": {
+        "type": "read_across",
+        "value": 300,
+        "value_exact": 300,
+        "source_id": "china_gb2762_cr_liquid_milk_300",
+        "source_jurisdiction": "CN",
+        "label": "government read-across — China GB 2762 liquid-milk total-Cr 300 (scope: raw, pasteurized, sterilized, modified and fermented milk) applied at face value to a wet dairy infant dessert (basis-matched dairy analogy). Chromium IS material in a dairy matrix, so a not-material determination is not used; total Cr is a published ceiling and Cr(VI) is additionally controlled by reflex speciation (any total-Cr > 100 ppb triggers Cr(VI) speciation; any quantifiable Cr(VI) fails).",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Ni": {
+        "type": "gov",
+        "value": 500,
+        "value_exact": 500,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2024_ni_babyfood_500",
+        "basis_note": "face value",
+        "per_country": {
+          "EU": {
+            "value": 500,
+            "converted": true,
+            "id": "eu2024_ni_babyfood_500"
+          }
+        }
+      },
+      "Sn": {
+        "type": "read_across",
+        "value": 5000,
+        "value_exact": 5000,
+        "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+        "source_jurisdiction": "IN",
+        "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      },
+      "Al": {
+        "type": "read_across",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "aunz_sch19_al_formula_nonsoy_500",
+        "source_jurisdiction": "AU-NZ",
+        "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
+      }
+    }
+  },
+  "generated_from": "data/evidence/regulatory_limits.csv",
+  "method": "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)"
+}

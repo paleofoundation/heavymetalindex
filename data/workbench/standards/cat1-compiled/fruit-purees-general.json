@@ -3,6 +3,7 @@
   "name": "Fruit purées (general)",
   "native_basis": "as_consumed",
   "canned": false,
+  "provisional_scaffold": false,
   "variants": {
     "both": {
       "Pb": {
@@ -27,6 +28,11 @@
             "value": 20,
             "converted": true,
             "id": "br_pb_transition-weaning-foods-for-infants-and_20"
+          },
+          "HK": {
+            "value": 20,
+            "converted": true,
+            "id": "hk_cap132v_pb_ready-to-eat-complementary-food-other-than-cereal-based_20"
           },
           "MA": {
             "value": 30,
