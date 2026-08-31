@@ -513,7 +513,31 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-176 open item(s): 56 auto, 120 awaiting a decision.
+179 open item(s): 56 auto, 123 awaiting a decision.
+
+### OI-20260831-seafood-records-misplaced-cat1-compiled — 7 Cat-6 seafood standard records compiled into cat1-compiled/ (wrong directory)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `data/workbench/standards/cat1-compiled/`
+- repro: grep -l '"category": 6' data/workbench/standards/cat1-compiled/*.json -> canned-seafood, cephalopods, fish-freshwater, fish-marine-non-predatory, fish-marine-predatory, seaweed-kelp-foods, shellfish; seafood-config.json exists but its compiled output landed in cat1-compiled/, inflating the Cat-1 audit surface.
+- done when: Cat-6 seafood records relocated to their own compiled dir; cat1-compiled/ contains only Cat-1 records
+- decision: _pending_
+
+### OI-20260831-fish-baby-food-cat6-mehg-decision — Promote fish-containing-baby-food scaffold after the Cat-6 species-MeHg read-across decision
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/fish-containing-baby-food.json`
+- repro: fish-containing-baby-food carries provisional_scaffold:true; its tHg=500 (EU fish general) + tAs=1000 (IL seafood) are aquatic placeholders and MeHg is bounded <=tHg, pending the Cat-6 Seafood species-MeHg read-across + the infant-protective-vs-fish-realistic mercury basis decision.
+- done when: Cat-6 species-MeHg read-across decided; fish-containing-baby-food mercury/arsenic cells finalized; provisional_scaffold flag cleared via Step-0 lock
+- decision: _pending_
+
+### OI-20260831-cat1-total-cr-not-material-substantiation — Cat-1 total-Cr not_material cells fail audit C7 (no slug|Cr substantiation); consider v2.6 baseline-screen migration
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `data/evidence/standards-not-material.csv`
+- repro: node tools/standards/audit-compiled-standards.mjs --dir=data/workbench/standards/cat1-compiled -> 48 C7 FAILs, all on total-Cr not_material cells across the 12 non-dairy Cat-1 subcategories; standards-not-material.csv holds slug|Cr-VI rows but no slug|Cr rows, and the compiled not_material Cr cell carries no basis_class/rationale/regulatory_basis/jurisdictions_checked.
+- done when: audit C7 clean for every Cat-1 total-Cr cell, via either slug|Cr substantiation rows in standards-not-material.csv or migration of total-Cr to a baseline-screen/published limit-of-record per the v2.6 species/screens ruling
+- decision: _pending_
 
 ### OI-20260827-readiness-lint-cells-shape — standard-readiness-lint skips top-level-cells records (cat5 etc.) — invisible to the READY manifest
 
