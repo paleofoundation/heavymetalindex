@@ -16670,8 +16670,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -16681,14 +16681,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {
@@ -34664,8 +34664,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -34675,14 +34675,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {
@@ -53743,8 +53743,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -53754,14 +53754,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {
@@ -67650,8 +67650,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -67661,14 +67661,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {
@@ -123487,8 +123487,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -123498,14 +123498,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {
@@ -135856,8 +135856,8 @@
             }
           },
           {
-            "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
-            "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+            "slug": "sources/bruvold2024-sp-icp-ms-nps-mussels",
+            "title": "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
             "evidence_use": "broad_context_pending_row_fit",
@@ -135867,14 +135867,14 @@
               "Pb",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+            "canonical_url": "https://heavymetalindex.com/sources/bruvold2024-sp-icp-ms-nps-mussels",
             "content_pin": {
               "content_sha256": "fa2cc36fefb262c2e990bd4f775a58012e53763a91191ce0280fd1229e105829",
               "content_bytes": 2824,
               "last_commit_sha": "9882fa9f2",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show 9882fa9f2:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+              "verify_command": "git show 9882fa9f2:wiki/sources/bruvold2024-sp-icp-ms-nps-mussels.md | sha256sum"
             }
           },
           {

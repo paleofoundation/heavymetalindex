@@ -227,7 +227,7 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 - [[sources/islam2025-silver-nanoparticle-mercury-colorimetric-water|Silver Nanoparticle Colorimetric Sensor for Mercury(II) Detection in Water Samples (2025)]]
 - [[sources/tooba2026-silver-nanoparticle-mercury-colorimetric|Silver Nanoparticle-Based Colorimetric Sensor for Mercury(II) Detection in Water (2026)]]
 - [[sources/wang2025-mfc-chromium-vi-wastewater-sensor|Single-Chamber Microbial Fuel Cell for Cr(VI) Detection in Wastewater (2025)]]
-- [[sources/bao2024-sp-icp-ms-nps-mussels|Single-particle ICP-MS characterisation of metal nanoparticles in mussels (2024)]]
+- [[sources/bruvold2024-sp-icp-ms-nps-mussels|Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry (2024)]]
 - [[sources/oranges2015-skin-physiology-neonate-infant-clinical|Skin Physiology of the Neonate and Infant: Clinical Implications (2015)]]
 - [[sources/nassar2025-spectrophotometric-cadmium-method|Spectrophotometric Method for Cadmium(II) Determination: Validation and Application (2025)]]
 - [[sources/sigauke2024-spent-bleaching-earth-review|Spent Bleaching Earth: Synthesis, Properties, Characterisation, and Application (2024)]]

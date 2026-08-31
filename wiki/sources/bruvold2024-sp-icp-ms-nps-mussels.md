@@ -1,11 +1,11 @@
 ---
 type: source
 raw_handle: FM_11223760
-cite_key: bao2024-sp-icp-ms-nps-mussels
-title: "Single-particle ICP-MS characterisation of metal nanoparticles in mussels"
-authors: [Bao]
+cite_key: bruvold2024-sp-icp-ms-nps-mussels
+title: "Validation of a Method for Surveillance of Nanoparticles in Mussels Using Single-Particle Inductively Coupled Plasma-Mass Spectrometry"
+authors: [Bruvold A, Valdersnes S, Loeschner K, Bienfait AM]
 year: 2024
-publication: unknown
+publication: "Journal of AOAC International"
 doi: "10.1093/jaoacint/qsae024"
 access_url: "https://doi.org/10.1093/jaoacint/qsae024"
 source_type: peer-reviewed
