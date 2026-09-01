@@ -327,7 +327,7 @@ function buildModel(fm, body, cfg) {
       affil: "Heavy Metal Index, Institute of Contaminant Standards",
       orcid: "0000-0002-2348-7259",
     },
-    gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (preprint)` : null,
+    gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (technical report)` : null,
     citeAs,
     keywords,
     firstPublished: established,
@@ -549,7 +549,7 @@ function FrontMatter(m) {
 function BackMatter(m) {
   const finding = m.pathSeg === "synthesis" ? "finding" : "reference"
   const blocks = [
-    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as a preprint with its review state tracked on the article page. Released under CC BY 4.0.`],
+    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as an institutional technical report with its review state tracked on the article page. Released under CC BY 4.0.`],
     ["Competing interests", "The Heavy Metal Index reports what the peer-reviewed and regulatory literature supports. It is operated separately from any certification program, does not evaluate or endorse brands, and does not use certification thresholds as evidence for the statements made here."],
     ["Data availability", `Every source behind this ${finding} is listed with its own extraction record at ${m.url}#sources, each linking to the ingest receipt, the extracted values, and the file hash of the document it was built from.`],
     ["Publication history", `${m.firstPublished ? "First published " + m.firstPublished + ". " : ""}${m.revision ? "This revision " + m.revision + ". " : ""}The full dated record is maintained at ${m.url}.`],

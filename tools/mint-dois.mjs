@@ -282,7 +282,7 @@ for (const c of batch) {
         titles: [{ title }],
         publisher: publisherField(),
         publicationYear: new Date(updated).getFullYear() || new Date().getFullYear(),
-        types: { resourceTypeGeneral: pageTypeToDataCite(c.dir) },
+        types: pageTypeToDataCite(c.dir),
         // "Heavy Metal Index" is the publication these pages appear in — modeled
         // as the container so it is explicit on the record regardless of the
         // publisher-name choice above, and so a resolved DOI reads as an item in
@@ -337,12 +337,23 @@ console.log(`  failed: ${failed}`)
 console.log(`  audit:  ${path.relative(repoRoot, auditPath)}`)
 
 function pageTypeToDataCite(dir) {
-  // DataCite resourceTypeGeneral controlled vocab. A wiki page is a Text reference, not a
-  // JournalArticle (the peer-reviewed venue is the separate Journal of Food Metallomics) and not a
-  // Standard (the Index REPORTS the literature; HMTc SETS standards — Part 2 firewall). "Standard"
-  // must never appear in the Index's DataCite metadata.
-  if (dir.includes("sources")) return "Other"
-  return "Text"
+  // DataCite `types`. Authored analytical work — synthesis findings + developed
+  // metal reviews, the dirs Head.tsx gives a citation_author and a
+  // citation_technical_report_institution — is a **Report**, refined by the
+  // free-text resourceType to **"Technical Report"**. That is the one
+  // institutional-report label mirrorable across all three target surfaces so
+  // they tell ONE story: DataCite resourceTypeGeneral "Report", Google Scholar
+  // citation_technical_report_institution, and ORCID work type "report".
+  // NOT "Preprint": no journal version is coming (the Journal of Food
+  // Metallomics is not currently publishing), and Preprint implies one — it also
+  // isn't in Scholar's or ORCID's institutional-report class. Not "JournalArticle".
+  // "Standard" must NEVER appear (the Index REPORTS the literature; HMTc SETS
+  // standards — Part 2 firewall).
+  if (dir.includes("sources")) return { resourceTypeGeneral: "Other" }
+  if (AUTHORED_DIRS.has(dir)) return { resourceTypeGeneral: "Report", resourceType: "Technical Report" }
+  // Institutional reference compilations (ingredients / products / regulations):
+  // encyclopedic reference text, not authored reports.
+  return { resourceTypeGeneral: "Text" }
 }
 
 function generateSuffix(slug) {
