@@ -15,6 +15,14 @@
 // This means the script can be run today to verify the plan; minting begins
 // the day Karen completes the DataCite account setup.
 //
+// PDF media: after each live mint, if the page serves a PDF at <url>.pdf the tool
+// also registers it as media (MDS Media API — the only way to set the record's
+// read-only `contentUrl`) and adds a `formats` entry, so PDF-content-negotiating
+// clients (ReadCube preview, PDF crawlers) find the full text. Pages not yet
+// deployed at mint time are deferred to tools/datacite-reconcile-media.mjs, the
+// idempotent post-deploy backfill (which also fixed the 24 out-of-band-minted
+// synthesis DOIs that predate this wiring).
+//
 // Audit log: one row per minted DOI written to
 // data/evidence/migrations/dois-minted-<date>.csv with sha256 of the page
 // content at mint time. The audit log is the authoritative record of which
@@ -31,6 +39,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
+import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat } from "./datacite-media.mjs"
 
 const repoRoot = process.cwd()
 const today = new Date().toISOString().slice(0, 10)
@@ -255,6 +264,8 @@ if (!DATACITE_PREFIX) {
 
 let minted = 0
 let failed = 0
+let mediaSet = 0
+let mediaDeferred = 0
 
 for (const c of batch) {
   const fm = c.fm
@@ -324,6 +335,34 @@ for (const c of batch) {
       auditRows.push(`${path.relative(repoRoot, c.filePath)},${mintedDoi},(test-not-persisted),${DATACITE_MODE},${new Date().toISOString()}`)
     }
     minted += 1
+
+    // Associate the page's PDF with the record via the MDS Media API — this sets
+    // the read-only `contentUrl` that the REST mint above cannot, plus a
+    // `formats` entry. Without it a record reports contentUrl:null / formats:[]
+    // and PDF-content-negotiating clients (ReadCube's first-page preview,
+    // PDF-preferring crawlers, doi.org Accept: application/pdf) find no full text.
+    // HEAD-gated: only a URL that actually serves application/pdf is registered,
+    // so a reference page (no PDF) or a page not yet deployed is simply left for
+    // the standing post-deploy step (tools/datacite-reconcile-media.mjs), which
+    // is idempotent and safe to re-run. Live mode only — test DOIs and test PDFs
+    // do not line up.
+    if (persist) {
+      try {
+        const pdfUrl = pdfUrlFor(url)
+        const head = await headIsPdf(pdfUrl)
+        if (head.ok) {
+          await registerPdfMedia({ doi: mintedDoi, pdfUrl, user: DATACITE_USER, password: DATACITE_PASSWORD, live: true })
+          await ensurePdfFormat({ doi: mintedDoi, current: [], user: DATACITE_USER, password: DATACITE_PASSWORD })
+          mediaSet += 1
+        } else {
+          mediaDeferred += 1
+        }
+      } catch (e) {
+        console.error(`  media assoc deferred for ${slug}: ${e.message} — run tools/datacite-reconcile-media.mjs after deploy`)
+        mediaDeferred += 1
+      }
+    }
+
     if (minted % 25 === 0) console.log(`  minted ${minted}/${batch.length}...`)
   } catch (err) {
     console.error(`  mint error for ${slug}: ${err.message}`)
@@ -334,6 +373,13 @@ for (const c of batch) {
 fs.writeFileSync(auditPath, auditRows.join("\n") + "\n", "utf8")
 console.log(`\n  minted: ${minted}`)
 console.log(`  failed: ${failed}`)
+if (persist) {
+  console.log(`  pdf media associated: ${mediaSet}`)
+  if (mediaDeferred) {
+    console.log(`  pdf media deferred:   ${mediaDeferred} (no served PDF yet)`)
+    console.log(`    → after deploy, run: node --env-file=.env.local tools/datacite-reconcile-media.mjs --apply`)
+  }
+}
 console.log(`  audit:  ${path.relative(repoRoot, auditPath)}`)
 
 function pageTypeToDataCite(dir) {
