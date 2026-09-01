@@ -31,6 +31,13 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
+import {
+  HMI_BASE,
+  HMI_ORGANIZATION_ID,
+  HMI_WEBSITE_ID,
+  karenEntity,
+  organizationEntity,
+} from "./lib/entity-graph.mjs"
 
 const repoRoot = process.cwd()
 const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
@@ -61,33 +68,15 @@ const METAL_ENTITY_LINKS = {
 // tools/mint-dois.mjs reads) and the publisher/affiliation gain their ROR node
 // across every injected page. No-op until then.
 const ORG_ROR = process.env.HMI_ORG_ROR || ""
-const PUBLISHER = {
-  // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
-  // url stays on the live Foundation site until contaminantstandards.com
-  // serves; a correctly-branded dead link is worse than a live stale one.
-  "@type": "Organization",
-  name: "Institute of Contaminant Standards",
-  url: "https://paleofoundation.com",
-  ...(ORG_ROR ? { "@id": ORG_ROR, identifier: ORG_ROR, sameAs: [ORG_ROR] } : {}),
-}
+const PUBLISHER = organizationEntity(ORG_ROR)
 // Named, ORCID-identified author of the Index's own content — the human
 // accountability signal Google E-E-A-T and the scholarly graph reward.
-const AUTHOR = {
-  "@type": "Person",
-  name: "Karen Pendergrass",
-  "@id": "https://orcid.org/0000-0002-2348-7259",
-  identifier: "https://orcid.org/0000-0002-2348-7259",
-  sameAs: ["https://orcid.org/0000-0002-2348-7259"],
-  affiliation: {
-    "@type": "Organization",
-    name: "Institute of Contaminant Standards",
-    ...(ORG_ROR ? { "@id": ORG_ROR, identifier: ORG_ROR } : {}),
-  },
-}
+const AUTHOR = karenEntity(ORG_ROR)
 const REFERENCE_WORK = {
   "@type": "WebSite",
+  "@id": HMI_WEBSITE_ID,
   name: "Heavy Metal Index",
-  url: "https://heavymetalindex.com",
+  url: HMI_BASE,
 }
 
 // CC BY 4.0 is the license for the Index's own content and data (see PR #120:
@@ -133,9 +122,9 @@ function injectHomepage() {
   if (html.includes("HMI-JSONLD-START")) return "already present"
 
   const fm = matter(fs.readFileSync(path.join(wikiDir, "index.md"), "utf8")).data
-  const SITE = "https://heavymetalindex.com"
-  const orgId = `${SITE}/#organization`
-  const siteId = `${SITE}/#website`
+  const SITE = HMI_BASE
+  const orgId = HMI_ORGANIZATION_ID
+  const siteId = HMI_WEBSITE_ID
 
   const organization = {
     "@context": "https://schema.org",
@@ -161,6 +150,7 @@ function injectHomepage() {
     url: `${SITE}/`,
     inLanguage: "en",
     publisher: { "@id": orgId },
+    creator: PUBLISHER,
   }
 
   const collection = {

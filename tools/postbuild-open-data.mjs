@@ -14,23 +14,21 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import {
+  HMI_BASE,
+  HMI_DATA_CATALOG_ID,
+  HMI_WEBSITE_ID,
+  karenEntity,
+  organizationEntity,
+} from "./lib/entity-graph.mjs"
 
 const repoRoot = process.cwd()
 const publicDir = path.join(repoRoot, "public")
 const CATALOG = path.join(repoRoot, "wiki/static/data/catalog.json")
-const SITE = "https://heavymetalindex.com"
-
-const PUBLISHER = {
-  "@type": "Organization",
-  name: "Institute of Contaminant Standards",
-  url: "https://paleofoundation.com",
-}
-const CREATOR = {
-  "@type": "Person",
-  name: "Karen Pendergrass",
-  "@id": "https://orcid.org/0000-0002-2348-7259",
-  identifier: "https://orcid.org/0000-0002-2348-7259",
-}
+const SITE = HMI_BASE
+const ORG_ROR = process.env.HMI_ORG_ROR || ""
+const PUBLISHER = organizationEntity(ORG_ROR)
+const CREATOR = karenEntity(ORG_ROR)
 
 if (!fs.existsSync(publicDir)) {
   console.log("postbuild-open-data: public/ not present yet (skipping; ran before quartz build)")
@@ -63,7 +61,7 @@ const datasets = (catalog.datasets || []).map((d) => ({
   license,
   creator: CREATOR,
   publisher: PUBLISHER,
-  isPartOf: { "@type": "WebSite", name: "Heavy Metal Index", url: `${SITE}/` },
+  isPartOf: { "@type": "WebSite", "@id": HMI_WEBSITE_ID, name: "Heavy Metal Index", url: `${SITE}/` },
   ...(d.unit ? { unitText: d.unit } : {}),
   ...(Array.isArray(d.analyte_panel) ? { variableMeasured: d.analyte_panel } : {}),
   distribution: (d.distributions || []).map((dist) => ({
@@ -77,7 +75,7 @@ const datasets = (catalog.datasets || []).map((d) => ({
 const graph = {
   "@context": "https://schema.org",
   "@type": "DataCatalog",
-  "@id": `${SITE}/data#catalog`,
+  "@id": HMI_DATA_CATALOG_ID,
   name: catalog.name || "Heavy Metal Index — open data catalog",
   description: catalog.description,
   url: `${SITE}/data`,
