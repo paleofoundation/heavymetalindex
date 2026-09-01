@@ -39,7 +39,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
-import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat } from "./datacite-media.mjs"
+import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat, ensureContentUrl } from "./datacite-media.mjs"
 
 const repoRoot = process.cwd()
 const today = new Date().toISOString().slice(0, 10)
@@ -351,8 +351,12 @@ for (const c of batch) {
         const pdfUrl = pdfUrlFor(url)
         const head = await headIsPdf(pdfUrl)
         if (head.ok) {
-          await registerPdfMedia({ doi: mintedDoi, pdfUrl, user: DATACITE_USER, password: DATACITE_PASSWORD, live: true })
+          // contentUrl via REST PUT is the field that actually populates (the MDS
+          // media POST does not, for REST-created DOIs); formats declares the type;
+          // MDS media is a best-effort extra.
+          await ensureContentUrl({ doi: mintedDoi, pdfUrl, current: [], user: DATACITE_USER, password: DATACITE_PASSWORD })
           await ensurePdfFormat({ doi: mintedDoi, current: [], user: DATACITE_USER, password: DATACITE_PASSWORD })
+          try { await registerPdfMedia({ doi: mintedDoi, pdfUrl, user: DATACITE_USER, password: DATACITE_PASSWORD, live: true }) } catch {}
           mediaSet += 1
         } else {
           mediaDeferred += 1

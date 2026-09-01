@@ -14,7 +14,9 @@
 //      actually returns application/pdf is registered (never register a dead
 //      contentUrl). Records with no served PDF (reference pages, or a page not
 //      yet deployed) are skipped with a note.
-//   2. Registers "application/pdf=<url>" via the MDS Media API (sets contentUrl).
+//   2. Sets attributes.contentUrl to the PDF via a REST PUT — the mechanism that
+//      actually populates the field (the MDS Media API does not, for REST-created
+//      DOIs; verified 2026-09-01). The MDS media record is also POSTed, best-effort.
 //   3. Ensures attributes.formats includes "application/pdf" (REST PUT).
 // Both steps are idempotent: a record whose contentUrl already lists the PDF and
 // whose formats already include application/pdf is left untouched.
@@ -33,7 +35,7 @@
 // Pairs with tools/datacite-reconcile-types.mjs (same shape, different field) and
 // is the standing post-deploy PDF-association step for any future mint batch.
 
-import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat } from "./datacite-media.mjs"
+import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat, ensureContentUrl } from "./datacite-media.mjs"
 
 const PREFIX = "10.83376"
 const API = "https://api.datacite.org/dois"
@@ -115,9 +117,12 @@ for (const rec of records) {
 
   try {
     if (!mediaOk) {
-      const res = await registerPdfMedia({ doi, pdfUrl, user: USER, password: PASSWORD, live: true })
+      const { contentUrl } = await ensureContentUrl({ doi, pdfUrl, current: a.contentUrl, user: USER, password: PASSWORD })
       mediaSet++
-      console.log(`  ✓ ${doi}: media ${res} — contentUrl -> ${pdfUrl}`)
+      console.log(`  ✓ ${doi}: contentUrl -> ${JSON.stringify(contentUrl)}`)
+      // Belt-and-suspenders: also POST the MDS media record (best-effort). It does
+      // NOT populate contentUrl on its own, but some aggregators read /media.
+      try { await registerPdfMedia({ doi, pdfUrl, user: USER, password: PASSWORD, live: true }) } catch {}
     }
     if (!formatOk) {
       const { formats } = await ensurePdfFormat({ doi, current: a.formats, user: USER, password: PASSWORD })

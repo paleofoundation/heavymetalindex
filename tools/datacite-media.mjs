@@ -9,14 +9,25 @@
 // PDF to tools that content-negotiate (ReadCube's sidebar first-page preview,
 // PDF-preferring crawlers): the record never told them where the PDF was.
 //
-// Two DataCite surfaces, one purpose:
-//   - MDS Media API  (mds.datacite.org/media/{doi})  — POST text/plain
-//     "application/pdf=<url>" pairs. This is the ONLY way to set contentUrl.
-//     DOI goes in the path raw (slash NOT percent-encoded), per DataCite's docs.
-//   - REST API       (api.datacite.org/dois/{doi})   — PUT attributes.formats
-//     ["application/pdf"] for completeness. `formats` alone does not fix the
-//     preview (it names the type without saying where the file is), but a record
-//     that has media should also declare the format.
+// How contentUrl is actually populated (verified 2026-09-01 against the live
+// 10.83376 records): a REST **PUT of attributes.contentUrl** sets the field and
+// it sticks. The legacy **MDS Media API does NOT populate `contentUrl`** for
+// DOIs created through the REST/Fabrica backend — media POSTed there returns
+// "OK" and is retrievable at GET /media/{doi}, but `contentUrl` stayed null for
+// 4h+ and content negotiation never switched to the PDF. So the REST PUT is the
+// mechanism that matters; the MDS registration is kept only as belt-and-suspenders
+// (some aggregators read /media). NOTE: DataCite does not proxy full-text PDFs via
+// content negotiation at all — `Accept: application/pdf` resolves to the landing
+// page by design; `contentUrl` is the machine-readable pointer PDF-aware tools read.
+//
+// Three DataCite surfaces, one purpose:
+//   - REST contentUrl (api.datacite.org/dois/{doi}) — PUT attributes.contentUrl
+//     ["<pdf>"]. THE populator of the record's contentUrl. Primary.
+//   - REST formats    (api.datacite.org/dois/{doi}) — PUT attributes.formats
+//     ["application/pdf"] so the record also declares the format.
+//   - MDS Media API   (mds.datacite.org/media/{doi}) — POST text/plain
+//     "application/pdf=<url>" pairs. Supplementary; DOI raw in path (slash not
+//     percent-encoded), per DataCite's docs. Does not by itself set contentUrl.
 //
 // Both authenticate with the same repository credentials (repo id + password)
 // that the REST mint uses. These helpers do the network work only; the callers
@@ -94,4 +105,25 @@ export async function ensurePdfFormat({ doi, current = [], user, password }) {
   if (!r.ok) throw new Error(`formats PUT ${r.status}: ${(await r.text()).slice(0, 200)}`)
   const j = await r.json()
   return { changed: true, formats: j.data.attributes.formats }
+}
+
+// Ensure attributes.contentUrl contains the PDF (REST PUT). This is the field
+// PDF-aware clients (ReadCube, crawlers) read off the record to locate full text,
+// and — unlike the MDS Media API — a REST PUT actually populates it. Idempotent:
+// a no-op when the URL is already present.
+export async function ensureContentUrl({ doi, pdfUrl, current = null, user, password }) {
+  const have = Array.isArray(current) ? current : []
+  if (have.includes(pdfUrl)) return { changed: false, contentUrl: have }
+  const contentUrl = Array.from(new Set([...have, pdfUrl]))
+  const r = await fetch(`${REST_API}/${encodeURIComponent(doi)}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/vnd.api+json",
+      Authorization: authHeader(user, password),
+    },
+    body: JSON.stringify({ data: { type: "dois", attributes: { contentUrl } } }),
+  })
+  if (!r.ok) throw new Error(`contentUrl PUT ${r.status}: ${(await r.text()).slice(0, 200)}`)
+  const j = await r.json()
+  return { changed: true, contentUrl: j.data.attributes.contentUrl }
 }
