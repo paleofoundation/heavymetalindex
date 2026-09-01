@@ -15,6 +15,7 @@
 //                          Government Regulation it documents is mentioned in
 //                          `about`)
 //   wiki/synthesis/*     → ScholarlyArticle (analytic synthesis claim)
+//   wiki/reports/*       → Report (cross-corpus published report)
 //
 // All injected JSON-LD declares the Institute of Contaminant Standards as `publisher`, the
 // Heavy Metal Index as `isPartOf`, and a `creator` Organization. The
@@ -99,6 +100,7 @@ const TYPE_MAP = {
   regulations: { type: "ScholarlyArticle", section: "Regulation reference" },
   regulators: { type: "GovernmentOrganization", section: "Regulatory body profile" },
   synthesis: { type: "ScholarlyArticle", section: "Synthesis" },
+  reports: { type: "Report", section: "Published report" },
 }
 
 if (!fs.existsSync(publicDir)) {
@@ -282,7 +284,30 @@ function buildJsonLd(category, slug, fm, meta, html) {
   if (category !== "sources") ld.author = AUTHOR
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
+  if (fm.published) ld.datePublished = toIso(fm.published)
   if (fm.description) ld.description = String(fm.description).slice(0, 500)
+
+  // Reports are citable CreativeWork entities in their own right. Expose the
+  // reproducible data products from the same canonical report identifier so
+  // crawlers do not have to infer the relationship from body links alone.
+  if (category === "reports") {
+    ld.mainEntityOfPage = url
+    ld.genre = "Research report"
+    ld.distribution = [
+      {
+        "@type": "DataDownload",
+        name: `${fm.title || slug} — machine-readable JSON`,
+        encodingFormat: "application/json",
+        contentUrl: `${HMI_BASE}/static/data/${slug}.json`,
+      },
+      {
+        "@type": "DataDownload",
+        name: `${fm.title || slug} — finding register CSV`,
+        encodingFormat: "text/csv",
+        contentUrl: `${HMI_BASE}/static/data/${slug}.csv`,
+      },
+    ]
+  }
 
   // Source pages: the wiki page describes the underlying paper, so populate
   // `about` with the paper's bibliographic metadata when available.
