@@ -9,6 +9,8 @@ audience: [regulator, educator, consumer, brand-legal]
 
 This page is the index of the Heavy Metal Index's synthesis layer. Each linked subpage is a self-contained synthesis findings page: a thesis statement built on at least three corroborating A-tier sources, presenting a non-obvious finding that emerges from the corpus and would not be evident from any single source page. Synthesis pages sit one layer above the source and product pages and one layer below the strategic / certification documents, and the wiki's epistemic authority rests on them remaining provisional, source-traceable, and explicit about their own uncertainty.
 
+The current cross-corpus edition is published as [State of Heavy Metals in Food 2026](/reports/state-of-heavy-metals-in-food-2026), with a downloadable finding register in [JSON](/static/data/state-of-heavy-metals-in-food-2026.json) and [CSV](/static/data/state-of-heavy-metals-in-food-2026.csv). The report summarizes this register without setting thresholds or pooling unlike markets, species, product forms, or reporting bases.
+
 ## Synthesis findings pages
 
 Each row links to a self-contained synthesis page that carries the full anchor-source evidence and the reasoning behind the finding. Listed newest first.
