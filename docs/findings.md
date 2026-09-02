@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-216 open item(s): 68 auto, 148 awaiting a decision.
+214 open item(s): 67 auto, 147 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -828,16 +828,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Once cert_doi is minted onto standards, landing pages render the DOI (HeroBand row + citation_doi meta + CiteThisPage) — the hard DataCite obligation is met — but the schema.org JSON-LD carries no identifier node for the DOI (best-practice + Google Scholar). postbuild-cert-page-jsonld handles only the hand-authored /compare SEO page, not /standards/<slug>. Find/route the standards JSON-LD and add identifier=https://doi.org/<cert_doi>. Not blocking the first mint.
 - done when: A built /standards/<slug>.html with cert_doi set contains a schema.org identifier equal to https://doi.org/<cert_doi>; Zenodo-kept items (infant manual 10.5281/zenodo.20771543) emit their DOI as identifier too
 
-### OI-20260827-readiness-lint-cells-shape — standard-readiness-lint skips top-level-cells records (cat5 etc.) — invisible to the READY manifest
-
-- scope: **human-gated** · type: promote · status: open · repo: cert
-- paths: `tools/standard-readiness-lint.mjs`, `data/standards/readiness-manifest.json`
-- repro: Before: build log says 108 standards | 108 COMPLETE | 0 empty cells. After fix: 323 standards | 229 COMPLETE | 0 REGISTERED | 0 READY | 346 empty cells (94 incomplete standards).
-- done when: PR #65 merged to heavymetalcertified main; Build log reports 323 standards and the readiness manifest lists all 32 categories with real names
-- evidence: https://github.com/paleofoundation/heavymetalcertified/pull/65 (build green on branch; also closes OI-20260826-readiness-lint-test-prefix-gap)
-- decision: _pending_ — enact: `gh pr merge 65 --repo paleofoundation/heavymetalcertified --squash --delete-branch`
-- notes: Fix built and verified by the 2026-09-02 cert build audit; merge is the only remaining step (cert main push = LIVE, so merge is a deploy).
-
 ### OI-20260827-portal-backend-redesign-plan — Implement the approved HMTc brand-portal backend redesign (Product-first coverage cockpit + org layer + bulk ingest + service-request cart + revenue attestation)
 
 - scope: **human-gated** · type: code-fix · status: open · repo: cert · blocked_on: OI-20260826-portal-engine-registry-rebuild
@@ -954,13 +944,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: The completing-lot CTA now routes to /portal/orders which shows the itemized price breakdown + a Pay button and creates a Stripe Checkout session (src/lib/stripe.ts, orders/actions startCheckout). It is gated on STRIPE_SECRET_KEY (isStripeConfigured); until Stripe is connected the Pay button says payment is coming online and the order is saved. To go live: connect Stripe (financial account OAuth — Karen only) via `vercel integration add stripe` from ~/Desktop/heavymetalcertified-app, or Vercel dashboard → the heavymetalcertified-app project → Integrations → Stripe. Ensure STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET are set (Prod+Preview) and a Stripe webhook points to https://app.heavymetalcertified.com/api/stripe/webhook for checkout.session.completed. Then redeploy. Claude must not connect the financial account or handle the secret.
 - done when: Stripe integration connected; STRIPE_SECRET_KEY + STRIPE_WEBHOOK_SECRET present; clicking Pay on /portal/orders opens the Stripe hosted checkout; paying flips the testing_order status to paid via the webhook
 - decision: _pending_
-
-### OI-20260826-readiness-lint-test-prefix-gap — standard-readiness-lint TEST_PREFIXES misses issued sandbox prefix 10.84435
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/standard-readiness-lint.mjs`
-- repro: standard-readiness-lint.mjs TEST_PREFIXES = [10.5072, 10.82] but the DataCite sandbox prefix actually issued to the program is 10.84435. productionDoi() rejects only the listed test prefixes, so a page stamped with a 10.84435 SANDBOX DOI would be wrongly counted as REGISTERED and could pass the certification-readiness gate. Harmless today because no doi: frontmatter exists yet, but becomes a real false-pass the moment sandbox DOIs are stamped during testing.
-- done when: TEST_PREFIXES includes 10.84435 (plus any other issued sandbox prefixes); a page whose doi resolves under 10.84435 is NOT counted REGISTERED by standard-readiness-lint
 
 ### OI-20260826-portal-mis-certification-market-loosening — SAFETY: portal certifies to the selected-market looser local limit; government hard-stop dead in production
 
