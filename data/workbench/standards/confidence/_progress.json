@@ -11,7 +11,7 @@
       "cert_base": "c1d41c2"
     }
   ],
-  "phase": "B/C/E per category (session 1 pilots: cat30, seafood, cat1) + Phase F gates 0/2 closed",
+  "phase": "B/C/E per category (15 dirs reconciled: cat1*,3,4*,5,8*,11,21,27*,28,29*,30*,33,34*,35,seafood; * = records held for ratification) + Israel supersession fallout re-anchored + M1 g6.B and M2 seafood p1-p5 A/B agents running",
   "phase_a": {
     "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
     "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
@@ -217,15 +217,18 @@
     "used_today": 12,
     "daily_cap": 60,
     "hourly_cap": 12,
-    "note": "12 leases at ~10:05Z; next hour free ~11:05Z; work type standards-confidence"
+    "note": "12 leases at ~10:05Z; next hour free ~11:05Z; work type standards-confidence",
+    "leases_2026_09_02": "g1-g5 A/B + g6.A + deep read + g6.B (11:06) + M2 seafood p1-p5 A/B (11:07, count 10)",
+    "window": "12/hour cap; next free ~12:06 UTC"
   },
   "next_steps": [
-    "deep read (1 xhigh agent) confirming Israel status, then mark 162 il_fcs2016_* rows superseded in the register + wiki page status; log the cell inventory; re-anchor per category (raised numbers held)",
-    "launch g6.B; ingest g5/g6; dispatch M2 batches (seafood 24, cat30 5) in ≤5-batch agent calls; ingest; mirror manifests; lint --block-listed",
-    "cat30: re-anchor tHg → th_moph414_2020_thg_food_other_20 (same value); Cd decision (raise) → ratification list",
-    "seafood: seaweed Pb → GB 2762-2025 algae products 1000 (verify dry-weight basis); tAs → build C6d species-as-total read-across contract or hold",
-    "then cat3, cat5, cat4, cat8, cat11, cat21, cat33, cat35 (round-trip clean today) → C for their empty cells",
-    "Phase F: port datacite-media to cert (never run); DoD 9 dry runs; Phase G report"
+    "ingest M1 g6.B (confidence-run --cat=seafood --ingest-m1=_m1-verdicts/m1-20260902-g6.B.json) and M2 seafood A/B (--ingest-m2=<file> per verdict file), rerun runner, --mirror when index lint passes, add seafood to confidence-blocking.json",
+    "regenerate cat30 M2 packet (done by runner; p6) and dispatch A/B when governor frees",
+    "cat31/cat32 via LIMIT harvest shape (limit-compiler gov_ids pins landed), cat15 same",
+    "cat24/cat16/cat17/cat25/cat26 bespoke compilers: per-config harvest (cat26 PDE guard; 55 regressions)",
+    "cat2/10/13/14/19/20/22/23 wrong-basis C-phase (518 cells inventoried)",
+    "cat9 (10-cell, no cert dir) and cat12 (no config) per brief",
+    "Phase F rerun of the DoD 9 dry runs; Phase G report with held-raise ratification table"
   ],
   "closed_ois": [
     "OI-20260902-readiness-lint-still-overcounts-complete",
@@ -275,5 +278,15 @@
       "cat9": "index compile-cat9 (10-cell, no guards, no cert dir); cert has 8 hand pages",
       "cat12": "nothing in either repo; 21 hand pages"
     }
+  },
+  "updated": "2026-09-02T11:20Z",
+  "israel_supersession": {
+    "status": "APPLIED 2026-09-02 (index f975371e1)",
+    "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
+    "rows": 162,
+    "fallout": "179 orphaned cert cells across 14 dirs (survey confidence/_reanchor-2026-09-02.json)",
+    "tools": "tools/standards/drop-gated-pins.mjs (93 pins dropped), tools/standards/reanchor-superseded.mjs (--apply; overrides in confidence/_reanchor-overrides.json; held raises in confidence/_held-raises.json), roundtrip --copy-clean (held record: index dir updated, cert dir frozen)",
+    "held_for_ratification": "cat1 15 cells (infant tHg 8/15/4→20, juice Cd 10→20), cat4 (dried-fruit/fruit-snacks Pb 100→200; 8 iAs firm→bounded), cat8 water iAs 6→10 ×4, cat27 4 iAs firm→bounded, cat29 3 iAs firm→bounded, cat30 oils Cd 30→200 ×2, cat34 salt iAs 500→bounded",
+    "open": "OI-20260902-eu-successor-cells-missing-from-register (EU 2023/915 s.3.3 Hg / s.3.5 Sn, Reg 2018/73 mercury MRLs, Dir 2003/40/EC not in register: they would tighten plant-commodity tHg cells); unreconciled dirs (cat16/17/18/24) still carry Israel-anchored cert cells — handled in their own reconciliation"
   }
 }
