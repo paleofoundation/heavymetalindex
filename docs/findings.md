@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-227 open item(s): 76 auto, 151 awaiting a decision.
+228 open item(s): 77 auto, 151 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -655,6 +655,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: M2 verifier p5.B refuted shellfish Cd (EU crustacean 500 anchor sound) because Singapore reg 31(5) has no crustacean row so crustaceans fall to its other-food residual 200; the Israel-supersession re-anchoring (2026-09-02) used the same Thailand/Singapore residual rows as direct anchors for 30+ cells (tightenings applied, raises held).
 - done when: Governing principles state whether a residual (catch-all) sovereign row is a direct ML for products the instrument does not list, and whether non-target-market jurisdictions count for the government-limit lookup; reanchor-superseded.mjs and the M2 protocol encode the ruling; every cell anchored to a residual row on 2026-09-02 is re-run under the ruling
 - decision: _pending_
+
+### OI-20260902-cat26-aluminium-anchor — Cat-26 aluminium on oral/nasal routes is anchored to a drinking-water row (EU 2020/2184, water intended for human consumption): cross-basis read-across on a PDE-class product; find a route-appropriate instrument or a baseline screen
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `tools/standards/cat26-config.json`, `tools/standards/compile-cat26.mjs`
+- repro: node tools/standards/compile-cat26.mjs: the Al cells for the non-parenteral routes cite a water row; ICH Q3D and USP <232> set no aluminium PDE, and only 21 CFR 201.323 (large-volume parenterals) is route-appropriate
+- done when: every Cat-26 Al cell cites a permitted-daily-exposure or route-appropriate drug-product instrument, or a disclosed baseline screen with an LOQ from data/evidence/analytical_methods.csv; the Al exemption in compile-cat26 verify is removed
 
 ### OI-20260902-cat1-fruit-juice-apple-ias-form-split — Cat-1 fruit-juice: FDA 10 ppb inorganic-arsenic action level applies to apple juice only; publish as a form split rather than excluding it from the category scope
 

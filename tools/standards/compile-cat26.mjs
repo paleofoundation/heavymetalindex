@@ -208,7 +208,25 @@ function resolveNotMaterialCell(sub, analyte) {
   }
 }
 
+// Certification-readiness ruling (2026-08-25) + the Cat-26 public-protection decision (2026-08-13): every panel
+// cell carries a number. The route-appropriate ICH Q3D / USP <232> permitted-daily-exposure row, expressed as the
+// Option-1 concentration (10 g/day), is the disclosed read-across ceiling; a species with no row is bounded by its
+// parent total. The pre-ruling control-only form remains the fallback for a cell the config does not anchor.
+const byId = new Map(parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8")).map((r) => [r.regulatory_limit_id, r]))
 function resolveCell(sub, analyte) {
+  const spec = (sub.cells || {})[analyte]
+  if (spec && spec.read_across && spec.read_across.source_id) {
+    const src = byId.get(spec.read_across.source_id)
+    if (!src) return { type: "gap", provenance: null, value: null, error: `read_across source_id ${spec.read_across.source_id} not in register` }
+    if (DRAFT.test(src.status || "")) return { type: "gap", provenance: null, value: null, error: `read_across source_id ${spec.read_across.source_id} is gated (${src.status})` }
+    const v = Number(src.value_ug_kg)
+    if (!Number.isFinite(v)) return { type: "gap", provenance: null, value: null, error: "read_across source has no numeric value" }
+    return { type: "read_across", provenance: "read-across", value: v, value_exact: v, unit: "ug/kg", source_id: src.regulatory_limit_id, source_jurisdiction: src.jurisdiction, source_scope: src.product_scope, basis: src.basis || null, binding_page: src.regulation_page || null, label: spec.read_across.label || `read-across from ${src.jurisdiction} (${src.product_scope})`, substantiation: spec.read_across.substantiation || null, tier: config.tier[analyte] ?? null, reference_method: config.reference_method || null }
+  }
+  if (spec && spec.subsumed) {
+    const parent = spec.subsumed.bounded_by || spec.subsumed.subsumed_by || null
+    return { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: parent, bounded_by: parent, basis_class: spec.subsumed.basis_class || "speciation-bounded", rationale: spec.subsumed.rationale || `${analyte} is a component of ${parent} and bounded by it` }
+  }
   if (config.not_material[analyte]) return resolveNotMaterialCell(sub, analyte)
   return resolveControlCell(sub, analyte)
 }
@@ -223,7 +241,10 @@ function verifyRecord(record) {
     // V2: allowed provenance tags only
     if (!ALLOWED_PROVENANCE.has(c.provenance)) defects.push(`${a}: provenance '${c.provenance}' not in allowed set`)
     // V3: FIREWALL INVARIANT — no product-content number on ANY cell
-    if (c.value !== null) defects.push(`${a}: FIREWALL VIOLATION — cell publishes a product-content value (${c.value}); this class must carry no number`)
+    if (c.value !== null && c.type !== "read_across") defects.push(`${a}: a ${c.type} cell publishes a value (${c.value}); only a disclosed PDE read-across carries a number in this class`)
+    // Aluminium has no ICH Q3D / USP <232> PDE; its non-parenteral anchor is a disclosed cross-basis read-across
+    // (OI-20260902-cat26-aluminium-anchor) and is the only analyte exempt from the PDE-basis guard.
+    if (c.type === "read_across" && a !== "Al" && !/PDE|permitted daily exposure|USP <232>|ICH Q3D|µg\/day|ug\/day|parenteral/i.test(c.basis || "")) defects.push(`${a}: read-across basis "${c.basis}" is not a permitted-daily-exposure basis (basis_guard)`)
     if (c.type === "control") {
       // V4: control completeness
       if (!c.reference_method) defects.push(`${a}: control cell missing reference_method`)
@@ -240,7 +261,7 @@ function verifyRecord(record) {
       if (!c.basis_class) defects.push(`${a}: not_material missing basis_class`)
       if (!c.rationale) defects.push(`${a}: not_material missing rationale`)
       if (!c.registered_in_gate) defects.push(`${a}: not_material NOT registered in data/evidence/standards-not-material.csv (${record.slug}|${a}) — the standing substantiation gate would not cover it`)
-    } else {
+    } else if (c.type !== "read_across" && c.type !== "subsumed") {
       defects.push(`${a}: unexpected cell type '${c.type}'`)
     }
   }
@@ -293,7 +314,7 @@ for (const slug of slugs) {
 
   for (const a of PANEL) {
     const c = cells[a]
-    const anchor = c.type === "not_material" ? "—" : (c.tox_anchor.pde_ug_day != null ? `${c.tox_anchor.pde_ug_day} ug/day` : c.tox_anchor.framework.split("(")[0].trim())
+    const anchor = c.type === "not_material" ? "—" : c.type === "read_across" ? `${c.value} ug/kg (PDE Option-1 read-across, ${c.source_id})` : c.type === "subsumed" ? `≤ ${c.bounded_by}` : c.tox_anchor ? (c.tox_anchor.pde_ug_day != null ? `${c.tox_anchor.pde_ug_day} ug/day` : String(c.tox_anchor.framework || "").split("(")[0].trim()) : "—"
     summaryRows.push({ slug, analyte: a, tier: c.tier ?? "", type: c.type, provenance: c.provenance, route: sub.route, anchor })
   }
 
@@ -303,7 +324,7 @@ for (const slug of slugs) {
       const c = cells[a]
       const type = c.type === "not_material" ? "n/m" : "control"
       const anchor = c.type === "not_material" ? "(no methylation pathway; bounded by tHg)"
-        : (c.tox_anchor.pde_ug_day != null ? `${String(c.tox_anchor.pde_ug_day).padStart(6)} ug/day  ${c.tox_anchor.framework.includes("inhalation") ? "(Cr-VI floor)" : ""}`
+        : (c.type === "read_across" ? `${String(c.value).padStart(6)} ug/kg (PDE read-across)` : c.type === "subsumed" ? `     ≤ ${c.bounded_by}` : !c.tox_anchor ? "—" : c.tox_anchor.pde_ug_day != null ? `${String(c.tox_anchor.pde_ug_day).padStart(6)} ug/day  ${c.tox_anchor.framework.includes("inhalation") ? "(Cr-VI floor)" : ""}`
           : `  (${c.tox_anchor.framework.split("(")[0].trim()})`)
       console.log(`    ${a.padEnd(6)} T${c.tier ?? "-"} ${type.padEnd(8)} ${anchor}`)
     }

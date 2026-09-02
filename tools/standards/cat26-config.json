@@ -82,7 +82,97 @@
       "scope_note": "Gray-market injectable peptide hormones sold outside the drug-approval and supplement frameworks: GLP-1 receptor-agonist analogs, growth-hormone secretagogues, and other synthetic peptides supplied as lyophilised powder for reconstitution or as ready-to-inject solution. The injected route bypasses gut absorption, so per microgram it is the most severe pathway in the taxonomy and the escalation anchor is the parenteral ICH Q3D PDE. Collagen and protein-hydrolysate peptides with a Supplement Facts panel route to Category 16, not here.",
       "seed_evidence": [
         "craven2025-aas-heavy-metals-australia"
-      ]
+      ],
+      "cells": {
+        "Pb": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_pb_500",
+            "label": "Pb 500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_pb_500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_pb_500). Nearest applicable sovereign Pb ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cd_200",
+            "label": "Cd 200 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cd_200 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cd_200). Nearest applicable sovereign Cd ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_tas_1500",
+            "label": "tAs 1500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_tas_1500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_tas_1500). Nearest applicable sovereign tAs ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_thg_300",
+            "label": "tHg 300 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_thg_300 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_thg_300). Nearest applicable sovereign tHg ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_ni_2000",
+            "label": "Ni 2000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_ni_2000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_ni_2000). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_sn_60000",
+            "label": "Sn 60000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_sn_60000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_sn_60000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "fda_21cfr201323_parenteral_al_25",
+            "label": "Al 25 ug/kg: disclosed read-across from US fda_21cfr201323_parenteral_al_25 (parenteral (injectable) drug products; FDA 21 CF). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (fda_21cfr201323_parenteral_al_25). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cr_110000",
+            "label": "Cr 110000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cr_110000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cr_110000). Nearest applicable sovereign Cr ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "sarms-oral": {
       "row": 2,
@@ -92,7 +182,97 @@
       "scope_note": "Selective androgen receptor modulators supplied as oral capsules, tablets, or liquid droppers, sold as research chemicals outside any drug-approval or supplement framework. The oral route carries the larger per-gram toxic-metal burden in the seed evidence (Craven 2025: oral nickel mean 27.48 ug/g, near the 200 ug/day oral PDE depending on dose; oral aluminium mean 651 ug/g), so the escalation anchor is the oral ICH Q3D PDE.",
       "seed_evidence": [
         "craven2025-aas-heavy-metals-australia"
-      ]
+      ],
+      "cells": {
+        "Pb": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_pb_500",
+            "label": "Pb 500 ug/kg: disclosed read-across from ICH ich_q3d_oral_pb_500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_pb_500). Nearest applicable sovereign Pb ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_cd_500",
+            "label": "Cd 500 ug/kg: disclosed read-across from ICH ich_q3d_oral_cd_500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_cd_500). Nearest applicable sovereign Cd ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_tas_1500",
+            "label": "tAs 1500 ug/kg: disclosed read-across from ICH ich_q3d_oral_tas_1500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_tas_1500). Nearest applicable sovereign tAs ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_thg_3000",
+            "label": "tHg 3000 ug/kg: disclosed read-across from ICH ich_q3d_oral_thg_3000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_thg_3000). Nearest applicable sovereign tHg ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_ni_20000",
+            "label": "Ni 20000 ug/kg: disclosed read-across from ICH ich_q3d_oral_ni_20000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_ni_20000). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_sn_600000",
+            "label": "Sn 600000 ug/kg: disclosed read-across from ICH ich_q3d_oral_sn_600000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_sn_600000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "eu20202184_al_drinking_water_200",
+            "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu20202184_al_drinking_water_200). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_cr_1100000",
+            "label": "Cr 1100000 ug/kg: disclosed read-across from ICH ich_q3d_oral_cr_1100000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_cr_1100000). Nearest applicable sovereign Cr ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "aas-injectable": {
       "row": 3,
@@ -102,7 +282,97 @@
       "scope_note": "Illicit injectable anabolic-androgenic steroids supplied as oil-based solutions (testosterone esters, nandrolone, trenbolone, and similar), sold outside any drug-approval framework. The direct evidence anchor is Craven 2025 (16 injectable oils: lead in every sample, cadmium quantifiable only in injectables, aluminium mean 47.31 ug/mL). The injected route bypasses gut absorption, so the escalation anchor is the parenteral ICH Q3D PDE.",
       "seed_evidence": [
         "craven2025-aas-heavy-metals-australia"
-      ]
+      ],
+      "cells": {
+        "Pb": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_pb_500",
+            "label": "Pb 500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_pb_500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_pb_500). Nearest applicable sovereign Pb ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cd_200",
+            "label": "Cd 200 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cd_200 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cd_200). Nearest applicable sovereign Cd ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_tas_1500",
+            "label": "tAs 1500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_tas_1500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_tas_1500). Nearest applicable sovereign tAs ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_thg_300",
+            "label": "tHg 300 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_thg_300 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_thg_300). Nearest applicable sovereign tHg ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_ni_2000",
+            "label": "Ni 2000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_ni_2000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_ni_2000). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_sn_60000",
+            "label": "Sn 60000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_sn_60000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_sn_60000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "fda_21cfr201323_parenteral_al_25",
+            "label": "Al 25 ug/kg: disclosed read-across from US fda_21cfr201323_parenteral_al_25 (parenteral (injectable) drug products; FDA 21 CF). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (fda_21cfr201323_parenteral_al_25). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cr_110000",
+            "label": "Cr 110000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cr_110000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cr_110000). Nearest applicable sovereign Cr ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "research-chem-raw-powders": {
       "row": 4,
@@ -112,7 +382,97 @@
       "scope_note": "Bulk raw powders (active pharmaceutical ingredient grade or lower) sold pre-formulation for home reconstitution into injectable oils or oral preparations. Because the same powder may be reconstituted for injection, the most-protective route is applied and the escalation anchor is the parenteral ICH Q3D PDE, consistent with the Step Zero lock's treatment of the parenteral pathway as the most severe. Craven 2025 analysed 2 raw powders (lead 1.18 ug/g; aluminium 51.73 ug/g).",
       "seed_evidence": [
         "craven2025-aas-heavy-metals-australia"
-      ]
+      ],
+      "cells": {
+        "Pb": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_pb_500",
+            "label": "Pb 500 ug/kg: disclosed read-across from ICH ich_q3d_oral_pb_500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_pb_500). Nearest applicable sovereign Pb ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_cd_500",
+            "label": "Cd 500 ug/kg: disclosed read-across from ICH ich_q3d_oral_cd_500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_cd_500). Nearest applicable sovereign Cd ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_tas_1500",
+            "label": "tAs 1500 ug/kg: disclosed read-across from ICH ich_q3d_oral_tas_1500 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_tas_1500). Nearest applicable sovereign tAs ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_thg_3000",
+            "label": "tHg 3000 ug/kg: disclosed read-across from ICH ich_q3d_oral_thg_3000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_thg_3000). Nearest applicable sovereign tHg ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_ni_20000",
+            "label": "Ni 20000 ug/kg: disclosed read-across from ICH ich_q3d_oral_ni_20000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_ni_20000). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_sn_600000",
+            "label": "Sn 600000 ug/kg: disclosed read-across from ICH ich_q3d_oral_sn_600000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_sn_600000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "eu20202184_al_drinking_water_200",
+            "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu20202184_al_drinking_water_200). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "read_across": {
+            "source_id": "ich_q3d_oral_cr_1100000",
+            "label": "Cr 1100000 ug/kg: disclosed read-across from ICH ich_q3d_oral_cr_1100000 (oral drug products, nutraceutical/dietary active). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_oral_cr_1100000). Nearest applicable sovereign Cr ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "peptides-nasal-sublingual": {
       "row": 5,
@@ -122,9 +482,100 @@
       "scope_note": "Gray-market peptide preparations delivered across a mucosal membrane: nasal sprays, sublingual drops, and troches/lozenges. Mucosal absorption bypasses first-pass gut metabolism (like injection) and the nasal fraction adds a local respiratory pathway, so the escalation anchor is the most-protective of the parenteral and inhalation ICH Q3D PDE per analyte. No route-specific direct occurrence data yet; the contamination mechanism (overseas unregulated synthesis, no GMP) is shared with the injectable and oral rows.",
       "seed_evidence": [
         "craven2025-aas-heavy-metals-australia"
-      ]
+      ],
+      "cells": {
+        "Pb": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_pb_500",
+            "label": "Pb 500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_pb_500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_pb_500). Nearest applicable sovereign Pb ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cd_200",
+            "label": "Cd 200 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cd_200 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cd_200). Nearest applicable sovereign Cd ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_tas_1500",
+            "label": "tAs 1500 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_tas_1500 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_tas_1500). Nearest applicable sovereign tAs ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_thg_300",
+            "label": "tHg 300 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_thg_300 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_thg_300). Nearest applicable sovereign tHg ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_ni_2000",
+            "label": "Ni 2000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_ni_2000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_ni_2000). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_sn_60000",
+            "label": "Sn 60000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_sn_60000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_sn_60000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "fda_21cfr201323_parenteral_al_25",
+            "label": "Al 25 ug/kg: disclosed read-across from US fda_21cfr201323_parenteral_al_25 (parenteral (injectable) drug products; FDA 21 CF). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (fda_21cfr201323_parenteral_al_25). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "read_across": {
+            "source_id": "ich_q3d_parenteral_cr_110000",
+            "label": "Cr 110000 ug/kg: disclosed read-across from ICH ich_q3d_parenteral_cr_110000 (parenteral (injectable), nasal, and sublingual d). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (ich_q3d_parenteral_cr_110000). Nearest applicable sovereign Cr ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     }
   },
-  "basis_guard": "PDE|permitted daily exposure|USP <232>|ICH Q3D|µg/day|ug/day",
-  "basis_guard_note": "Cat-26 (peptides, SARMs, research chemicals) is governed on the pharmacopeial permitted-daily-exposure basis (USP <232> / ICH Q3D route-specific PDEs, µg/day); every anchor's register basis must be a PDE. A dietary-content ML or a migration limit is a different measured quantity and is refused (Required-Testing-Panel Ruling §2(c)). Added 2026-09-02 per docs/tasks/standards-95-confidence-completion-brief.md §B."
+  "basis_guard": "PDE|permitted daily exposure|USP <232>|ICH Q3D|µg/day|ug/day|parenteral",
+  "basis_guard_note": "Cat-26 (peptides, SARMs, research chemicals) is governed on the pharmacopeial permitted-daily-exposure basis (USP <232> / ICH Q3D route-specific PDEs, µg/day); every anchor's register basis must be a PDE. A dietary-content ML or a migration limit is a different measured quantity and is refused (Required-Testing-Panel Ruling §2(c)). Added 2026-09-02 per docs/tasks/standards-95-confidence-completion-brief.md §B. 'parenteral' admits the FDA 21 CFR 201.323 aluminium limit for large-volume parenterals (a drug-product concentration limit in law, disclosed as such).",
+  "_harvest_2026_09_02": "55 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat26-compiled.json"
 }
