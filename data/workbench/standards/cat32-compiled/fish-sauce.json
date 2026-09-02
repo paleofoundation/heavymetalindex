@@ -15,13 +15,15 @@
         "source_id": "eu2023_pb_fish_muscle_300",
         "source_jurisdiction": "EU",
         "source_scope": "muscle meat of fish, general",
+        "basis": "wet weight",
         "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
         "label": "read-across from EU 2023/915 muscle meat of fish Pb 300 — fish sauce is a marine (fish-derived) product; the fish-muscle lead ML is the source-appropriate sovereign value.",
         "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -31,13 +33,20 @@
         "source_id": "cr_rtcr409_2008_cd_fish_general_50",
         "source_jurisdiction": "CR",
         "source_scope": "fish in general, except sardine, eel, and swordfish",
+        "basis": "product as placed on market",
         "binding_instrument": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
         "label": "read-across from Costa Rica RTCR 409 'fish in general' Cd 50 — the strictest sovereign fish-muscle cadmium ML.",
-        "per_country": {},
+        "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_cd_fish_sauce_condiments_100"
+          }
+        },
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -47,6 +56,7 @@
         "source_id": "aunz_sch19_tas_fish_2000",
         "source_jurisdiction": "AU-NZ",
         "source_scope": "fish",
+        "basis": "portion ordinarily consumed",
         "binding_instrument": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
         "label": "read-across from AU-NZ Standard 1.4.1 fish tAs 2000 — total arsenic in fish is high but predominantly organic; the tighter inorganic control is the operative arsenic ceiling.",
         "per_country": {},
@@ -66,23 +76,30 @@
               "scope": "Sauce"
             }
           ]
-        }
+        },
+        "provenance": "read-across"
       },
       "iAs": {
-        "type": "read_across",
-        "provenance_tag": "read-across",
+        "type": "gov",
+        "provenance_tag": "regulatory-alignment",
         "value": 100,
         "value_exact": 100,
-        "source_id": "eu20251891_ias_fish_other_100",
-        "source_jurisdiction": "EU",
-        "source_scope": "muscle meat of fish, species other than those listed under Annex I 3.4.5.2",
-        "binding_instrument": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
-        "label": "read-across from EU 2025/1891 muscle meat of fish inorganic-arsenic 100 — the toxic-species control; strictly below the total-arsenic read-across, so both are published.",
-        "per_country": {},
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_ias_fish_sauce_condiments_100",
+        "binding_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 4, item 8.3); inorganic arsenic",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_ias_fish_sauce_condiments_100"
+          }
+        },
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "read_across",
@@ -92,6 +109,7 @@
         "source_id": "eu2023_hg_fish_low_300",
         "source_jurisdiction": "EU",
         "source_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+        "basis": "wet weight",
         "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
         "label": "read-across from EU 2023/915 lower-mercury fish tHg 300 — fish sauce is made from small forage fish (anchovy), which fall in the lower-mercury tier.",
         "per_country": {},
@@ -105,16 +123,19 @@
               "scope": "Sauce"
             }
           ]
-        }
+        },
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
-        "provenance_tag": "read-across",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
+        "bounded_by": "tHg",
         "binding_total": 300,
         "binding_total_source": "EU",
-        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (500 ug/kg) is not below the binding total mercury ceiling (300 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. It is enforced by reflex speciation whenever tHg is elevated.",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (500 ug/kg) is not below the binding total mercury ceiling (300 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its limit.",
         "candidate": {
           "type": "read_across",
           "value": 500,
@@ -123,59 +144,90 @@
         }
       },
       "Ni": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign nickel ML exists for fish sauce and fish are not nickel accumulators (the EU nickel regulation sets no fish ML). No concentration pathway comparable to a soybean or a hydrogenated fat operates. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "eu20202184_ni_drinking_water_20",
+        "source_jurisdiction": "EU",
+        "source_scope": "water intended for human consumption",
+        "basis": "water intended for human consumption",
+        "binding_instrument": "regulations/eu-2020-2184-drinking-water",
+        "label": "Ni 20 ug/kg: disclosed read-across from EU eu20202184_ni_drinking_water_20 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign total-chromium ML exists for fish sauce; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-        "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 50,
+        "value_exact": 50,
+        "source_id": "nhmrc2025_crvi_drinking_water_50",
+        "source_jurisdiction": "AU",
+        "source_scope": "drinking water",
+        "basis": "drinking water",
+        "binding_instrument": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+        "label": "Cr 50 ug/kg: disclosed read-across from AU nhmrc2025_crvi_drinking_water_50 (drinking water). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis. The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell. Disclosed species-as-total ceiling: the anchor is a hexavalent-chromium limit applied as the ceiling for total chromium, which is at least as protective (total Cr ≤ the Cr-VI limit bounds Cr-VI as well); no sovereign sets a total-chromium level for this product on its basis.",
+        "species_direction": "species-as-total-ceiling",
+        "audit_exception": "C6d",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Hexavalent chromium is never a panel number for a food; it is the reflex-speciation species. Any total-chromium exceedance is speciated, and any quantifiable Cr(VI) fails.",
-        "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
+        "binding_total": 50,
+        "binding_total_source": "AU",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (50 ug/kg); no separate Cr-VI ceiling is published. The total chromium is measured on every lot; on ongoing lots Cr-VI is speciated whenever Cr exceeds its reflex trigger.",
+        "candidate": null
       },
       "Sn": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "Tin migrates only from tinplate cans; fish sauce is sold in glass or plastic, not tinplate. No non-canned tin pathway exists.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "eu2023_sn_canned_beverages_100000",
+        "source_jurisdiction": "EU",
+        "source_scope": "canned beverages, including canned fruit and vegetable juices, except canned dried and canned powdered products",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
+        "label": "Sn 100000 ug/kg: disclosed read-across from EU eu2023_sn_canned_beverages_100000 (canned beverages, including canned fruit and veg). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign aluminium ML exists for fish sauce and no aluminium pathway operates. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 200,
+        "value_exact": 200,
+        "source_id": "eu20202184_al_drinking_water_200",
+        "source_jurisdiction": "EU",
+        "source_scope": "water intended for human consumption",
+        "basis": "water intended for human consumption",
+        "binding_instrument": "regulations/eu-2020-2184-drinking-water",
+        "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       }
     }
   },
@@ -183,9 +235,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "No sovereign sets a fish-sauce ML. Fish sauce is a fermented marine product (anchovy hydrolysate), so every metal reads across from the fish-muscle sovereign MLs of the marine source: Pb 300 (EU muscle meat of fish), Cd 50 (Costa Rica fish in general), tAs 2000 (AU-NZ fish), iAs 100 (EU 2025/1891 muscle meat of fish), tHg 300 (EU lower-mercury fish). The generic Vietnam 'Sauce' MLs (tHg 50 etc.) are deliberately NOT applied: fish sauce is a marine fermentate whose contaminant profile follows its fish source, not the condiment-sauce category — and Vietnam, the world's largest fish-sauce producer, does not cap nuoc mam mercury at the generic-sauce 50 (anchovy-based fish sauce routinely exceeds it), which confirms nuoc mam sits outside that category. The generic-sauce values are retained in the audit trail as a different product form. Methylmercury IS material here — the aquatic methylation pathway is the whole point of a marine read-across — and is read across from the fish MeHg ML (Mexico NOM-242 500); it is then reconciled against total mercury, and because 500 is not below the 300 total-mercury ceiling it is subsumed (bounded by tHg, enforced by reflex speciation). Inorganic arsenic (100) is published alongside total arsenic (2000) because it is a strictly tighter toxic-species control: arsenic in fish is high but predominantly organic (arsenobetaine).",

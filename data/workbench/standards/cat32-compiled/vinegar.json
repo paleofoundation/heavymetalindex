@@ -15,6 +15,7 @@
         "binding_jurisdiction": "VN",
         "binding_id": "vn_qcvn8_2_2011_pb_vinegar_500",
         "binding_scope": "Vinegar",
+        "basis": "food as listed; source unit mg/kg or mg/l",
         "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
         "per_country": {
           "VN": {
@@ -25,18 +26,24 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 1000,
-        "value_exact": 1000,
-        "binding_jurisdiction": "VN",
-        "binding_id": "vn_qcvn8_2_2011_cd_vinegar_1000",
-        "binding_scope": "Vinegar",
-        "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "UY",
+        "binding_id": "uy_rbn_general_cd_liquid_foods_0_1mgkg",
+        "binding_scope": "liquid foods in general except categories with particular limits",
+        "basis": "source unit mg/kg or ppm as noted; product/migration basis preserved in notes",
+        "binding_instrument": "regulations/uruguay-rbn-5th-edition-heavy-metal-limits",
         "per_country": {
+          "UY": {
+            "value": 100,
+            "id": "uy_rbn_general_cd_liquid_foods_0_1mgkg"
+          },
           "VN": {
             "value": 1000,
             "id": "vn_qcvn8_2_2011_cd_vinegar_1000"
@@ -45,18 +52,24 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 200,
-        "value_exact": 200,
-        "binding_jurisdiction": "VN",
-        "binding_id": "vn_qcvn8_2_2011_tas_vinegar_200",
-        "binding_scope": "Vinegar",
-        "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "UY",
+        "binding_id": "uy_rbn_general_tas_liquid_foods_0_1mgkg",
+        "binding_scope": "liquid foods in general except categories with particular limits",
+        "basis": "source unit mg/kg or ppm as noted; product/migration basis preserved in notes",
+        "binding_instrument": "regulations/uruguay-rbn-5th-edition-heavy-metal-limits",
         "per_country": {
+          "UY": {
+            "value": 100,
+            "id": "uy_rbn_general_tas_liquid_foods_0_1mgkg"
+          },
           "VN": {
             "value": 200,
             "id": "vn_qcvn8_2_2011_tas_vinegar_200"
@@ -65,18 +78,20 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "No sovereign inorganic-arsenic ML exists for vinegar; total arsenic is governed (200, Vietnam). Inorganic arsenic is the toxic species, obtained by reflex speciation on any elevated total arsenic.",
-        "reference_method": "Total As by ICP-MS; reflex iAs speciation (HPLC-ICP-MS) on any total-As exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "tAs",
+        "bounded_by": "tAs",
+        "binding_total": 100,
+        "binding_total_source": "UY",
+        "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (100 ug/kg); no separate iAs ceiling is published. The total arsenic is measured on every lot; on ongoing lots iAs is speciated whenever tAs exceeds its reflex trigger.",
+        "candidate": null
       },
       "tHg": {
         "type": "gov",
@@ -86,6 +101,7 @@
         "binding_jurisdiction": "VN",
         "binding_id": "vn_qcvn8_2_2011_thg_vinegar_50",
         "binding_scope": "Vinegar",
+        "basis": "food as listed; source unit mg/kg or mg/l",
         "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
         "per_country": {
           "VN": {
@@ -96,73 +112,106 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Vinegar is a fermented fruit- or grain-derived acid with no aquatic methylation pathway and no fish source. Total mercury is governed (50, Vietnam).",
-        "reference_method": null,
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "tHg",
+        "bounded_by": "tHg",
+        "binding_total": 50,
+        "binding_total_source": "VN",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its reflex trigger.",
+        "candidate": null
       },
       "Ni": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign nickel ML exists for vinegar, but an acidic food in prolonged contact with stainless steel (fermentation and storage vessels, tubing) leaches nickel. Because a real migration pathway exists, the cell is held under a reflex screen rather than declared not-material.",
-        "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "eu20202184_ni_drinking_water_20",
+        "source_jurisdiction": "EU",
+        "source_scope": "water intended for human consumption",
+        "basis": "water intended for human consumption",
+        "binding_instrument": "regulations/eu-2020-2184-drinking-water",
+        "label": "Ni 20 ug/kg: disclosed read-across from EU eu20202184_ni_drinking_water_20 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign total-chromium ML exists for vinegar, but an acidic food in prolonged stainless-steel contact leaches chromium alongside nickel. Held under a reflex screen; any total-chromium exceedance triggers Cr(VI) speciation.",
-        "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 50,
+        "value_exact": 50,
+        "source_id": "nhmrc2025_crvi_drinking_water_50",
+        "source_jurisdiction": "AU",
+        "source_scope": "drinking water",
+        "basis": "drinking water",
+        "binding_instrument": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+        "label": "Cr 50 ug/kg: disclosed read-across from AU nhmrc2025_crvi_drinking_water_50 (drinking water). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis. The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell. Disclosed species-as-total ceiling: the anchor is a hexavalent-chromium limit applied as the ceiling for total chromium, which is at least as protective (total Cr ≤ the Cr-VI limit bounds Cr-VI as well); no sovereign sets a total-chromium level for this product on its basis.",
+        "species_direction": "species-as-total-ceiling",
+        "audit_exception": "C6d",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Hexavalent chromium is never a panel number for a food; it is the reflex-speciation species. Any total-chromium exceedance is speciated, and any quantifiable Cr(VI) fails.",
-        "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
+        "binding_total": 50,
+        "binding_total_source": "AU",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (50 ug/kg); no separate Cr-VI ceiling is published. The total chromium is measured on every lot; on ongoing lots Cr-VI is speciated whenever Cr exceeds its reflex trigger.",
+        "candidate": null
       },
       "Sn": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "Tin migrates only from tinplate cans; vinegar is sold in glass or plastic, not tinplate. A canned/tinned acidic product would fall under the canned-food tin ML and is out of this subcategory's scope.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "eu2023_sn_canned_beverages_100000",
+        "source_jurisdiction": "EU",
+        "source_scope": "canned beverages, including canned fruit and vegetable juices, except canned dried and canned powdered products",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
+        "label": "Sn 100000 ug/kg: disclosed read-across from EU eu2023_sn_canned_beverages_100000 (canned beverages, including canned fruit and veg). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign aluminium ML exists for vinegar and no aluminium pathway operates in a bottled acid. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 200,
+        "value_exact": 200,
+        "source_id": "eu20202184_al_drinking_water_200",
+        "source_jurisdiction": "EU",
+        "source_scope": "water intended for human consumption",
+        "basis": "water intended for human consumption",
+        "binding_instrument": "regulations/eu-2020-2184-drinking-water",
+        "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       }
     }
   },
@@ -170,9 +219,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Vietnam QCVN 8-2 is the only sovereign that sets vinegar MLs (Pb 500, Cd 1000, tAs 200, tHg 50), so it governs directly. Hidden-hazard flag for the ratchet, NOT a missing limit: the FDA has issued balsamic- and wine-vinegar lead warning letters (grape-derived lead concentrated during must reduction, compounded historically by lead-bearing equipment), and measured balsamic lead can approach or exceed 500 ug/kg — so ALARA and the occurrence ratchet drive tightening after publication even though the sovereign ceiling is the correct initial value. Nickel and total chromium are held under a stainless-steel-migration screen because an acidic food in prolonged stainless contact leaches both.",

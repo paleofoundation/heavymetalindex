@@ -10,13 +10,18 @@
       "Pb": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 2000,
-        "value_exact": 2000,
-        "binding_jurisdiction": "SG",
-        "binding_id": "sg_foodregs_2026_tomato_ketchup_sauces_pb_2000",
-        "binding_scope": "tomato ketchup and other sauces",
-        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+        "binding_scope": "Condiments, excluding spices (GB 2762-2025 Table 1, item 13.1)",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
         "per_country": {
+          "CN": {
+            "value": 1000,
+            "id": "china_gb2762_2025_pb_condiments_excl_spices_1000"
+          },
           "SG": {
             "value": 2000,
             "id": "sg_foodregs_2026_tomato_ketchup_sauces_pb_2000"
@@ -42,18 +47,28 @@
               "scope": "Vegetable oils, edible (oils of arachis, babasu, coconut, cotton seed, grape seed, maize, mustard seed, palm kernel, palm, rape seed, safflower seed, sesame seed, soya bean, and sunflower seed, and palm olein, stearin and superolein and other oils but excluding cocoa butter)"
             }
           ]
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 1000,
-        "value_exact": 1000,
-        "binding_jurisdiction": "VN",
-        "binding_id": "vn_qcvn8_2_2011_cd_sauce_1000",
-        "binding_scope": "Sauce",
-        "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_cd_fish_sauce_condiments_100",
+        "binding_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 2, item 10.2)",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
         "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_cd_fish_sauce_condiments_100"
+          },
+          "UY": {
+            "value": 200,
+            "id": "uy_rbn_general_cd_solid_foods_0_2mgkg"
+          },
           "VN": {
             "value": 1000,
             "id": "vn_qcvn8_2_2011_cd_sauce_1000"
@@ -61,15 +76,9 @@
         },
         "audit": {
           "same_form": [],
-          "other_form": [
-            {
-              "id": "eu2023_cd_spinach_herbs_200",
-              "value": 200,
-              "jurisdiction": "EU",
-              "scope": "spinaches and similar leaves, mustard seedlings, and fresh herbs"
-            }
-          ]
-        }
+          "other_form": []
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -79,6 +88,7 @@
         "binding_jurisdiction": "SG",
         "binding_id": "sg_foodregs_2026_tomato_ketchup_sauces_tas_1000",
         "binding_scope": "tomato ketchup and other sauces",
+        "basis": "product as sold or imported",
         "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
         "per_country": {
           "SG": {
@@ -106,18 +116,30 @@
               "scope": "Vegetable oils, edible (oils of arachis, babasu, coconut, cottonseed, grapeseed, maize, mustardseed, palm kernel, palm, rapeseed, safflower seed, sesameseed, soya bean, and sunflowerseed, and palm olein, stearin and superolein)."
             }
           ]
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign inorganic-arsenic ML exists for these condiments; total arsenic is governed at 1000 (Vietnam 'Sauce'). Inorganic arsenic is controlled by reflex speciation on any elevated total arsenic.",
-        "reference_method": "Total As by ICP-MS; reflex iAs speciation (HPLC-ICP-MS) on any total-As exceedance.",
+        "type": "gov",
+        "provenance_tag": "regulatory-alignment",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_ias_fish_sauce_condiments_100",
+        "binding_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 4, item 8.3); inorganic arsenic",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_ias_fish_sauce_condiments_100"
+          }
+        },
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -127,6 +149,7 @@
         "binding_jurisdiction": "VN",
         "binding_id": "vn_qcvn8_2_2011_thg_sauce_50",
         "binding_scope": "Sauce",
+        "basis": "food as listed; source unit mg/kg or mg/l",
         "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
         "per_country": {
           "VN": {
@@ -137,73 +160,104 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "No methylation pathway and no fish source in a seed/oil/egg condiment.",
-        "reference_method": null,
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "tHg",
+        "bounded_by": "tHg",
+        "binding_total": 50,
+        "binding_total_source": "VN",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its reflex trigger.",
+        "candidate": null
       },
       "Ni": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign nickel ML exists for these condiments, but mustard is a brassica seed and mayonnaise and vinaigrettes are oil emulsions that carry any nickel from the oil fraction (residual hydrogenation catalyst in a hardened component). Held under a reflex screen.",
-        "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 800,
+        "value_exact": 800,
+        "source_id": "eu2024_ni_cereals_800",
+        "source_jurisdiction": "EU",
+        "source_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/eu-2024-1987-nickel-maximum-levels",
+        "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign total-chromium ML exists for these condiments; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-        "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "source_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Hexavalent chromium is never a panel number for a food; it is the reflex-speciation species. Any total-chromium exceedance is speciated, and any quantifiable Cr(VI) fails.",
-        "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
+        "binding_total": 1000,
+        "binding_total_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. The total chromium is measured on every lot; on ongoing lots Cr-VI is speciated whenever Cr exceeds its reflex trigger.",
+        "candidate": null
       },
       "Sn": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "Tin migrates only from tinplate cans; these condiments are sold in glass or plastic, not tinplate. No non-canned tin pathway exists.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "source_scope": "any food",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign aluminium ML exists for these condiments and no aluminium pathway operates. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "source_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "basis": "product as placed on market; dry sample, calculated as Al",
+        "binding_instrument": "regulations/china-gb-2760-2024-food-additives",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       }
     }
   },
@@ -211,9 +265,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Prepared mustard, mayonnaise and salad dressings are condiment SAUCES, so the Vietnam QCVN 8-2 generic 'Sauce' MLs govern directly (Pb 2000, Cd 1000, tAs 1000, tHg 50) — corroborated by the Singapore 'tomato ketchup and other sauces' finished-sauce ML (Pb 2000 / tAs 1000). Loose ceilings flagged for the occurrence ratchet. Nickel is held under a seed/oil-derived screen (mustard is a brassica seed; mayonnaise and vinaigrettes are oil emulsions carrying nickel from the oil fraction). The register's mustard OIL (India vegetable-oils) and mustard GREENS (EU leafy) MLs are different product forms and are excluded from selection and downgraded in the audit.",
@@ -223,7 +279,6 @@
     "defects": [],
     "warnings": [
       "mustard-mayo-dressings[default].Pb: informational — stricter rows exist for a different product form (IN 100 [Vegetable oils, crude (oils of arachis, ]; IN 100 [Vegetable oils, edible (oils of arachis,])",
-      "mustard-mayo-dressings[default].Cd: informational — stricter rows exist for a different product form (EU 200 [spinaches and similar leaves, mustard se])",
       "mustard-mayo-dressings[default].tAs: informational — stricter rows exist for a different product form (IN 100 [Vegetable oils, crude (oils of arachis, ]; IN 100 [Vegetable oils, edible (oils of arachis,])"
     ],
     "status": "PASS"

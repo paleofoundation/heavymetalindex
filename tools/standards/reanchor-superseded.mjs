@@ -47,6 +47,7 @@ const isNum = (v) => typeof v === "number" && Number.isFinite(v)
 
 // config shape per compiled dir (mirrors roundtrip-category's plan map)
 const CAT1_SHAPE = new Set(["cat1-compiled", "cat3-compiled", "seafood-compiled", "cat27-compiled", "cat28-compiled", "cat29-compiled"])
+const LIMIT_SHAPE = new Set(["cat15-compiled", "cat31-compiled", "cat32-compiled"]) // food-limit-compiler: read_across[an] = {gov_ids} | {source_id,label}
 const SUBSUMED_OK = new Set(["cat27-compiled", "cat28-compiled", "cat29-compiled"]) // cat1/cat3/seafood reconcile species themselves
 function configFor(dir) {
   if (dir === "seafood-compiled") return "seafood-config.json"
@@ -121,6 +122,9 @@ for (const dir of dirs) {
           const prev = sub.cells[analyteRaw] && typeof sub.cells[analyteRaw] === "object" ? sub.cells[analyteRaw] : {}
           const keep = {}; for (const k of ["basis_label", "screen", "label", "note"]) if (prev[k] !== undefined) keep[k] = prev[k]
           sub.cells[analyteRaw] = asReadAcross ? { read_across: { source_id: pick.id, label: ov.label || `read-across from ${pick.jurisdiction} (${pick.scope})` }, ...keep, reanchor_note: `${TODAY}: ${g.regulation_page} superseded; ${cls} → ${pick.id}` } : { gov_ids: [pick.id], ...keep, reanchor_note: `${TODAY}: ${g.regulation_page} superseded; ${cls} → ${pick.id}` }
+        } else if (LIMIT_SHAPE.has(dir)) {
+          sub.read_across = sub.read_across || {}
+          sub.read_across[analyteRaw] = asReadAcross ? { source_id: pick.id, label: ov.label || `read-across from ${pick.jurisdiction} (${pick.scope})`, reanchor_note: `${TODAY}: ${g.regulation_page} superseded; ${cls} → ${pick.id}` } : { gov_ids: [pick.id], reanchor_note: `${TODAY}: ${g.regulation_page} superseded; ${cls} → ${pick.id}` }
         } else {
           sub.read_across = sub.read_across || {}
           sub.read_across[analyteRaw] = { source_id: pick.id, ...(asReadAcross ? {} : { basis: "gov" }), label: asReadAcross ? (ov.label || `read-across from ${pick.jurisdiction} (${pick.scope})`) : /catch-all/.test(cls) ? `${pick.jurisdiction} general-food maximum level (${pick.scope})` : undefined, reanchor_note: `${TODAY}: ${g.regulation_page} superseded; ${cls} → ${pick.id}` }

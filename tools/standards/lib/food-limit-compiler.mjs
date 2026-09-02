@@ -202,7 +202,23 @@ function auditScan(register, sub, analyte, bindingValue, bindingPage, analyteExc
 function resolveCell(register, byId, sub, analyte) {
   const spec = (sub.read_across || {})[analyte] || {}
   const analyteExclude = ((sub.analyte_scope && sub.analyte_scope[analyte]) || {}).exclude || []
-  const { candidates, direct } = selectGov(register, sub, analyte)
+  let { candidates, direct } = selectGov(register, sub, analyte)
+  // gov_ids: NAMED register ids that DIRECTLY regulate this product (strictest wins). A pin is a
+  // sovereign anchor the scope scan cannot reach by keyword (the compile-category contract); every
+  // id must resolve to a non-gated row or the cell is a gap (never a silent fallback).
+  if (Array.isArray(spec.gov_ids) && spec.gov_ids.length) {
+    const pinned = []
+    for (const id of spec.gov_ids) {
+      const r = byId.get(id)
+      if (!r) return { type: "gap", value: null, provenance_tag: null, error: `gov_ids ${id} not in register` }
+      if (DRAFT.test(r.status) || QUARANTINE.test(r.status)) return { type: "gap", value: null, provenance_tag: null, error: `gov_ids ${id} is gated (${r.status})` }
+      const v = num(r.value_ug_kg); if (v == null) continue
+      pinned.push({ value: v, jur: r.jurisdiction, id: r.regulatory_limit_id, scope: r.product_scope, page: r.regulation_page || "", basis: r.basis || r.basis_class || "" })
+    }
+    const merged = new Map(candidates.map((c) => [c.id, c])); for (const c of pinned) merged.set(c.id, c)
+    candidates = [...merged.values()].sort((x, y) => (x.value - y.value) || (jurRank(x.jur) - jurRank(y.jur)))
+    direct = candidates[0] || null
+  }
   const perCountry = Object.fromEntries(candidates.map((c) => [c.jur, { value: roundDisplay(c.value), id: c.id }]))
 
   // Read-across as a comparator: compute whenever a source_id is configured, then take the
@@ -233,6 +249,7 @@ function resolveCell(register, byId, sub, analyte) {
       value: roundDisplay(raResult.value), value_exact: raResult.value,
       source_id: raResult.source_id, source_jurisdiction: raResult.jur, source_scope: raResult.scope, basis: raResult.basis || null,
       binding_instrument: raResult.page, label: raResult.label || `read-across from ${raResult.jur}`,
+      ...(spec.species_direction ? { species_direction: spec.species_direction, audit_exception: "C6d" } : {}),
       per_country: perCountry, audit,
     }
   }
@@ -262,7 +279,8 @@ function reconcileSpeciation(cells, speciesKey, totalKey, speciesName, totalName
   // Certification-readiness ruling: a species with NO in-force sovereign or read-across number of its own is
   // bounded by its firm parent total (species <= total), never left as a gap. Explicit dispositions
   // (control / not-material) are left as configured.
-  if (tv != null && (!s || s.type === "gap") ) {
+  // control / not-material are transitional (lib/provenance.mjs): a species so configured is bounded by its firm parent.
+  if (tv != null && (!s || s.type === "gap" || s.type === "control" || s.type === "not_material")) {
     cells[speciesKey] = {
       type: "subsumed", provenance_tag: "subsumed", provenance: "subsumed",
       value: null, subsumed_by: totalKey, bounded_by: totalKey, binding_total: t.value,
@@ -345,6 +363,7 @@ export function compileCategory(opts) {
     for (const a of panel) cells[a] = resolveCell(register, byId, sub, a)
     reconcileSpeciation(cells, "MeHg", "tHg", "Methylmercury", "total mercury")
     reconcileSpeciation(cells, "iAs", "tAs", "Inorganic arsenic", "total arsenic")
+    if (Object.prototype.hasOwnProperty.call(cells, "Cr-VI") || Object.prototype.hasOwnProperty.call(cells, "Cr")) reconcileSpeciation(cells, "Cr-VI", "Cr", "Hexavalent chromium", "total chromium")
     stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     const record = {
       slug, name: sub.name, category: categoryNumber, category_name: categoryName,

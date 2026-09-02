@@ -15,6 +15,7 @@
         "binding_jurisdiction": "MERCOSUR",
         "binding_id": "mercosur_gmc12_2011_sugars_pb_100",
         "binding_scope": "sugars",
+        "basis": "product as offered to consumer",
         "binding_instrument": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
         "per_country": {
           "MERCOSUR": {
@@ -25,13 +26,17 @@
             "value": 100,
             "id": "py_decreto1335_2019_sugars_pb_100"
           },
+          "HK": {
+            "value": 100,
+            "id": "hk_cap132v_pb_sugar-based-candies-and-honey_100"
+          },
+          "CN": {
+            "value": 500,
+            "id": "china_gb2762_2025_pb_sugar_and_starch_sugar_500"
+          },
           "SG": {
             "value": 500,
             "id": "sg_foodregs_2026_refined_white_sugar_dextrose_pb_500"
-          },
-          "IL": {
-            "value": 500,
-            "id": "il_fcs2016_pb_12_sugar_500"
           },
           "VN": {
             "value": 500,
@@ -41,21 +46,23 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 150,
-        "value_exact": 150,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_cd_11_sugar_150",
-        "binding_scope": "Sugar",
-        "binding_instrument": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+        "value": 200,
+        "value_exact": 200,
+        "binding_jurisdiction": "SG",
+        "binding_id": "sg_foodregs_2026_other_food_cd_200",
+        "binding_scope": "other food",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
         "per_country": {
-          "IL": {
-            "value": 150,
-            "id": "il_fcs2016_cd_11_sugar_150"
+          "SG": {
+            "value": 200,
+            "id": "sg_foodregs_2026_other_food_cd_200"
           },
           "VN": {
             "value": 1000,
@@ -65,40 +72,29 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "Total arsenic in rice/grain syrup is dominated by the rice-derived fraction, and the toxic species (inorganic arsenic) is the binding control at 150 ug/kg (read-across from the EU milled-rice iAs ML). The generic refined-sugar total-arsenic ML (100, MERCOSUR/Paraguay) is deliberately NOT applied here because it is incoherent with the rice-derived inorganic-arsenic load (inorganic <= total by identity, so a 100 total cannot coexist with a 150 inorganic control). Total arsenic is measured as a screen; the inorganic-arsenic ceiling governs.",
-        "reference_method": "Total As by ICP-MS as a screen; inorganic As by HPLC-ICP-MS is the binding measurement (150 ug/kg).",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "sg_foodregs_2026_other_sugars_syrups_tas_1000",
+        "source_jurisdiction": "SG",
+        "source_scope": "other sugars including sugar syrups",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "label": "tAs 1000 ug/kg: disclosed read-across from SG sg_foodregs_2026_other_sugars_syrups_tas_1000 (other sugars including sugar syrups). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": [
-            {
-              "id": "sg_foodregs_2026_refined_white_sugar_dextrose_tas_1000",
-              "value": 1000,
-              "jurisdiction": "SG",
-              "scope": "refined white sugar with sulphated ash not more than 0.03%, anhydrous dextrose, and dextrose monohydrate"
-            },
-            {
-              "id": "sg_foodregs_2026_other_sugars_syrups_tas_1000",
-              "value": 1000,
-              "jurisdiction": "SG",
-              "scope": "other sugars including sugar syrups"
-            },
             {
               "id": "py_decreto1335_2019_sugars_tas_100",
               "value": 100,
               "jurisdiction": "PY",
               "scope": "sugars"
-            },
-            {
-              "id": "il_fcs2016_tas_11_sugar_1000",
-              "value": 1000,
-              "jurisdiction": "IL",
-              "scope": "Sugar"
             },
             {
               "id": "mercosur_gmc12_2011_sugars_tas_100",
@@ -107,13 +103,14 @@
               "scope": "sugars"
             },
             {
-              "id": "vn_qcvn8_2_2011_tas_sugar_1000",
-              "value": 1000,
-              "jurisdiction": "VN",
-              "scope": "Sugar"
+              "id": "china_gb2762_2025_tas_sugar_and_starch_sugar_500",
+              "value": 500,
+              "jurisdiction": "CN",
+              "scope": "Sugar and starch sugars (GB 2762-2025 Table 4, item 9.1); total arsenic"
             }
           ]
-        }
+        },
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "read_across",
@@ -123,18 +120,15 @@
         "source_id": "eu2023_ias_rice_milled_150",
         "source_jurisdiction": "EU",
         "source_scope": "non-parboiled milled rice",
+        "basis": "product as placed on market",
         "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
         "label": "read-across from the EU 2023/915 non-parboiled milled-rice inorganic-arsenic ML (150 ug/kg): rice/grain syrup arsenic derives from the rice, and this rice-grain value is stricter and more source-appropriate than the generic sugar iAs (Israel 500). Infant-destined rice syrup escalates to the infant-rice iAs cell (100).",
-        "per_country": {
-          "IL": {
-            "value": 500,
-            "id": "il_fcs2016_ias_11_sugar_500"
-          }
-        },
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "gov",
@@ -144,87 +138,115 @@
         "binding_jurisdiction": "VN",
         "binding_id": "vn_qcvn8_2_2011_thg_sugar_50",
         "binding_scope": "Sugar",
+        "basis": "food as listed; source unit mg/kg or mg/l",
         "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
         "per_country": {
           "VN": {
             "value": 50,
             "id": "vn_qcvn8_2_2011_thg_sugar_50"
-          },
-          "IL": {
-            "value": 100,
-            "id": "il_fcs2016_thg_11_sugar_100"
           }
         },
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "No methylation pathway and no mercury source in a grain syrup. Total mercury is governed (50, Vietnam).",
-        "reference_method": null,
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "tHg",
+        "bounded_by": "tHg",
+        "binding_total": 50,
+        "binding_total_source": "VN",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its reflex trigger.",
+        "candidate": null
       },
       "Ni": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign nickel ML exists for rice/grain syrup, but rice and cereal grains accumulate nickel (EU regulates husked-rice Ni at 2000), so a source pathway exists. Held under a reflex screen rather than declared not-material.",
-        "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 800,
+        "value_exact": 800,
+        "source_id": "eu2024_ni_cereals_800",
+        "source_jurisdiction": "EU",
+        "source_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/eu-2024-1987-nickel-maximum-levels",
+        "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign total-chromium ML exists for rice/grain syrup; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-        "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "source_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Hexavalent chromium is never a panel number for a food; it is the reflex-speciation species. Any total-chromium exceedance is speciated, and any quantifiable Cr(VI) fails.",
-        "reference_method": "IC-ICP-MS Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
+        "binding_total": 1000,
+        "binding_total_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. The total chromium is measured on every lot; on ongoing lots Cr-VI is speciated whenever Cr exceeds its reflex trigger.",
+        "candidate": null
       },
       "Sn": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "Tin migrates only from tinplate cans; these syrups are sold in glass/plastic, not tinplate. No non-canned tin pathway exists.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "source_scope": "any food",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign aluminium ML exists for rice/grain syrup and no aluminium pathway operates. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "source_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "basis": "product as placed on market; dry sample, calculated as Al",
+        "binding_instrument": "regulations/china-gb-2760-2024-food-additives",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       }
     }
   },
@@ -232,9 +254,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Rice and grain syrups are treated as sugars for Pb/Cd/tAs/tHg (strictest sovereign sugar ML). Inorganic arsenic is the load-bearing cell: brown rice syrup is a documented iAs vector (it has been used as a sweetener in infant and toddler foods), and the arsenic derives from the rice, so the cell is a disclosed read-across from the EU non-parboiled milled-rice iAs ML (150) — stricter than the generic sugar iAs (Israel 500) and source-appropriate. Rice/grain syrup DESTINED FOR infant or young-child food falls under the stricter infant-rice iAs cell (100, EU/US/UK/CA) and must be certified there instead.",
@@ -242,7 +266,9 @@
   "config": "tools/standards/cat31-config.json",
   "verify": {
     "defects": [],
-    "warnings": [],
+    "warnings": [
+      "rice-grain-syrup[default].tAs: informational — stricter rows exist for a different product form (PY 100 [sugars]; MERCOSUR 100 [sugars]; CN 500 [Sugar and starch sugars (GB 2762-2025 Ta])"
+    ],
     "status": "PASS"
   }
 }

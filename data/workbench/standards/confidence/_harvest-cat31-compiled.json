@@ -1,0 +1,297 @@
+{
+  "compiled_dir": "cat31-compiled",
+  "generated": "2026-09-02T11:11:24.911Z",
+  "targets": 26,
+  "applied": [
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "sg_foodregs_2026_other_sugars_syrups_tas_1000"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "honey",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "refined-sugar",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "rice-grain-syrup",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "syrups-maple-agave-molasses",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    }
+  ]
+}

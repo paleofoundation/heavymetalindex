@@ -105,6 +105,18 @@
     "cat27-compiled|peanut-butter|*|Pb": {
       "id": "china_gb2762_2025_pb_nuts_and_seeds_200",
       "why": "GB 2762-2025 nuts and seeds 200 (equal)"
+    },
+    "cat31-compiled|refined-sugar|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat31-compiled|rice-grain-syrup|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat31-compiled|syrups-maple-agave-molasses|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
     }
   }
 }

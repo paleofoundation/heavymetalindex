@@ -1,0 +1,447 @@
+{
+  "compiled_dir": "cat32-compiled",
+  "generated": "2026-09-02T11:11:25.196Z",
+  "targets": 40,
+  "applied": [
+    {
+      "slug": "fish-sauce",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 20,
+      "anchor": "eu20202184_ni_drinking_water_20"
+    },
+    {
+      "slug": "fish-sauce",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "eu2023_sn_canned_beverages_100000"
+    },
+    {
+      "slug": "fish-sauce",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200"
+    },
+    {
+      "slug": "fish-sauce",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_pb_condiments_excl_spices_1000"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 200,
+      "anchor": "uy_rbn_general_cd_solid_foods_0_2mgkg"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_pb_condiments_excl_spices_1000"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "uy_rbn_general_cd_liquid_foods_0_1mgkg"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "uy_rbn_general_tas_liquid_foods_0_1mgkg"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 15000,
+      "anchor": "eu2024_ni_soy_beans_15000"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_beans_legumes_1000"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 200,
+      "anchor": "uy_rbn_general_cd_solid_foods_0_2mgkg"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "uy_rbn_general_cd_liquid_foods_0_1mgkg"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "(scope)",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "uy_rbn_general_tas_liquid_foods_0_1mgkg"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 20,
+      "anchor": "eu20202184_ni_drinking_water_20"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "eu2023_sn_canned_beverages_100000"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "fish-sauce",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "vinegar",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    }
+  ]
+}

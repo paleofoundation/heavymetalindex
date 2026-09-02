@@ -1,0 +1,111 @@
+{
+  "generated": "2026-09-02T11:12:11.540Z",
+  "cert": "/Users/karenpendergrass/Desktop/heavymetalcertified",
+  "dir": "cat32-compiled",
+  "applied": false,
+  "cells": 5,
+  "by_class": {
+    "needs-judgment:scan-raise": 1,
+    "none": 3,
+    "needs-judgment:scan-tighter-or-equal": 1
+  },
+  "cells_detail": [
+    {
+      "dir": "cat32-compiled",
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Pb",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_pb_condiments_excl_spices_1000",
+      "gated_scope": "condiments excluding spices (compound condiment, solid condiment, sauces, dressings)",
+      "class": "needs-judgment:scan-raise",
+      "pick": {
+        "id": "sg_foodregs_2026_tomato_ketchup_sauces_pb_2000",
+        "value": 2000,
+        "jurisdiction": "SG",
+        "scope": "tomato ketchup and other sauces",
+        "basis": "product as sold or imported"
+      },
+      "held": true,
+      "config": "cat32-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat32-compiled",
+      "slug": "mustard-mayo-dressings",
+      "variant": "default",
+      "analyte": "Cr",
+      "kind": "read_across",
+      "live_value": 1000,
+      "basis": "food as placed on market",
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_crtotal_grains_1000",
+      "gated_scope": "grains and grain products including cereals and milled grain products",
+      "class": "none",
+      "pick": null,
+      "held": false,
+      "config": "cat32-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat32-compiled",
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Pb",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_pb_condiments_excl_spices_1000",
+      "gated_scope": "condiments excluding spices (compound condiment, solid condiment, sauces, dressings)",
+      "class": "needs-judgment:scan-tighter-or-equal",
+      "pick": {
+        "id": "co_res4506_2013_pb_mango_hot_sauce_canned_1000",
+        "value": 1000,
+        "jurisdiction": "CO",
+        "scope": "mango hot sauce and canned mangoes",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat32-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat32-compiled",
+      "slug": "soy-sauce-fermented",
+      "variant": "default",
+      "analyte": "Cr",
+      "kind": "read_across",
+      "live_value": 1000,
+      "basis": "food as placed on market",
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_crtotal_beans_legumes_1000",
+      "gated_scope": "beans and bean products (legumes, pulses)",
+      "class": "none",
+      "pick": null,
+      "held": false,
+      "config": "cat32-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat32-compiled",
+      "slug": "tomato-condiments",
+      "variant": "default",
+      "analyte": "Cr",
+      "kind": "read_across",
+      "live_value": 1000,
+      "basis": "food as placed on market",
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_crtotal_grains_1000",
+      "gated_scope": "grains and grain products including cereals and milled grain products",
+      "class": "none",
+      "pick": null,
+      "held": false,
+      "config": "cat32-config.json",
+      "scope_terms": true
+    }
+  ]
+}

@@ -15,6 +15,7 @@
         "binding_jurisdiction": "MERCOSUR",
         "binding_id": "mercosur_gmc12_2011_tomato_concentrates_pb_500",
         "binding_scope": "tomato concentrates",
+        "basis": "product as offered to consumer",
         "binding_instrument": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
         "per_country": {
           "MERCOSUR": {
@@ -28,10 +29,6 @@
           "IN": {
             "value": 1500,
             "id": "in_fssai2016_pb_036_processed_tomato_concentrates_1500"
-          },
-          "IL": {
-            "value": 1500,
-            "id": "il_fcs2016_pb_20_2_tomato_puree_paste_1500"
           },
           "SG": {
             "value": 2000,
@@ -58,24 +55,34 @@
               "scope": "Preserved tomatoes"
             },
             {
-              "id": "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
+              "id": "hk_cap132v_pb_tomatoes-preserved-by-heat-treatment-and-hermetically-s_50",
               "value": 50,
-              "jurisdiction": "IL",
-              "scope": "Fruiting vegetables (including tomato, cucumber, pepper, and similar vegetables)"
+              "jurisdiction": "HK",
+              "scope": "Tomatoes, preserved by heat treatment and hermetically sealed"
             }
           ]
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
         "provenance_tag": "regulatory-alignment",
-        "value": 1000,
-        "value_exact": 1000,
-        "binding_jurisdiction": "VN",
-        "binding_id": "vn_qcvn8_2_2011_cd_sauce_1000",
-        "binding_scope": "Sauce",
-        "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_cd_fish_sauce_condiments_100",
+        "binding_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 2, item 10.2)",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
         "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_cd_fish_sauce_condiments_100"
+          },
+          "UY": {
+            "value": 200,
+            "id": "uy_rbn_general_cd_solid_foods_0_2mgkg"
+          },
           "VN": {
             "value": 1000,
             "id": "vn_qcvn8_2_2011_cd_sauce_1000"
@@ -95,9 +102,22 @@
               "value": 50,
               "jurisdiction": "IN",
               "scope": "Fruiting vegetables other than cucurbits (excluding tomatoes and edible fungi)"
+            },
+            {
+              "id": "vn_qcvn8_2_2011_cd_fruit-vegetables-excluding-tomatoes-and-mushro_50",
+              "value": 50,
+              "jurisdiction": "VN",
+              "scope": "Fruit vegetables (excluding tomatoes and mushrooms)"
+            },
+            {
+              "id": "hk_cap132v_cd_fruiting-vegetables-other-than-cucurbits-and-tomatoes_50",
+              "value": 50,
+              "jurisdiction": "HK",
+              "scope": "Fruiting vegetables, other than Cucurbits and tomatoes"
             }
           ]
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -107,6 +127,7 @@
         "binding_jurisdiction": "MERCOSUR",
         "binding_id": "mercosur_gmc12_2011_tomato_concentrates_tas_500",
         "binding_scope": "tomato concentrates",
+        "basis": "product as offered to consumer",
         "binding_instrument": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
         "per_country": {
           "MERCOSUR": {
@@ -129,18 +150,30 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "control",
-        "provenance_tag": "control",
-        "value": null,
-        "rationale": "No sovereign inorganic-arsenic ML exists for tomato condiments; total arsenic is governed (500, tomato concentrates). Inorganic arsenic is controlled by reflex speciation on any elevated total arsenic.",
-        "reference_method": "Total As by ICP-MS; reflex iAs speciation (HPLC-ICP-MS) on any total-As exceedance.",
+        "type": "gov",
+        "provenance_tag": "regulatory-alignment",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_ias_fish_sauce_condiments_100",
+        "binding_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 4, item 8.3); inorganic arsenic",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "per_country": {
+          "CN": {
+            "value": 100,
+            "id": "china_gb2762_2025_ias_fish_sauce_condiments_100"
+          }
+        },
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -150,6 +183,7 @@
         "binding_jurisdiction": "VN",
         "binding_id": "vn_qcvn8_2_2011_thg_sauce_50",
         "binding_scope": "Sauce",
+        "basis": "food as listed; source unit mg/kg or mg/l",
         "binding_instrument": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
         "per_country": {
           "VN": {
@@ -160,18 +194,20 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "No methylation pathway and no fish source in a tomato condiment.",
-        "reference_method": null,
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "tHg",
+        "bounded_by": "tHg",
+        "binding_total": 50,
+        "binding_total_source": "VN",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its reflex trigger.",
+        "candidate": null
       },
       "Ni": {
         "type": "read_across",
@@ -181,64 +217,81 @@
         "source_id": "eu2024_ni_fruiting_veg_400",
         "source_jurisdiction": "EU",
         "source_scope": "fruiting vegetables",
+        "basis": "wet weight",
         "binding_instrument": "regulations/eu-2024-1987-nickel-maximum-levels",
         "label": "read-across from EU 2024/1987 fruiting-vegetables nickel 400 — tomatoes are fruiting vegetables; the source-commodity nickel ML applied at face value.",
         "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign total-chromium ML exists for tomato condiments; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-        "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance.",
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "source_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+        "basis": "product as placed on market",
+        "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+        "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
-        "provenance_tag": "control",
+        "type": "subsumed",
+        "provenance_tag": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "rationale": "Hexavalent chromium is never a panel number for a food; it is the reflex-speciation species. Any total-chromium exceedance is speciated, and any quantifiable Cr(VI) fails.",
-        "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance.",
-        "audit": {
-          "same_form": [],
-          "other_form": []
-        }
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
+        "binding_total": 1000,
+        "binding_total_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. The total chromium is measured on every lot; on ongoing lots Cr-VI is speciated whenever Cr exceeds its reflex trigger.",
+        "candidate": null
       },
       "Sn": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "Tin migrates only from tinplate cans; this subcategory is bottled ketchup and salsa in glass or plastic. Canned tomato condiments carry the canned-food tin ML and are out of scope here.",
-        "reference_method": null,
-        "audit": {
-          "same_form": [],
-          "other_form": [
-            {
-              "id": "in_fssai2016_sn_017_processed_tomato_concentrates_250000",
-              "value": 250000,
-              "jurisdiction": "IN",
-              "scope": "Processed tomato concentrates"
-            }
-          ]
-        }
-      },
-      "Al": {
-        "type": "not_material",
-        "provenance_tag": "not-material",
-        "value": null,
-        "rationale": "No sovereign aluminium ML exists for tomato condiments and no aluminium pathway operates in a bottled product. Rebuttable and audited each build.",
-        "reference_method": null,
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "source_scope": "any food",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
+      },
+      "Al": {
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "source_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "basis": "product as placed on market; dry sample, calculated as Al",
+        "binding_instrument": "regulations/china-gb-2760-2024-food-additives",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "per_country": {},
+        "audit": {
+          "same_form": [],
+          "other_form": []
+        },
+        "provenance": "read-across"
       }
     }
   },
@@ -246,9 +299,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Ketchup and salsa are certified against the stricter tomato-CONCENTRATE lead and total-arsenic MLs (Pb/tAs 500, Paraguay/MERCOSUR) rather than the looser finished-ketchup (Singapore 2000) or generic-sauce (Vietnam 'Sauce' Pb 2000 / tAs 1000) MLs — a protective, government-cited choice; the finished-ketchup, generic-sauce, and canned/preserved whole-tomato MLs (Pb 50) are retained in the per-country audit trail as different product forms. Cadmium (1000) and total mercury (50) are governed by the Vietnam generic 'Sauce' category (no tomato-specific value exists — tomatoes are explicitly carved OUT of the fruiting-vegetable cadmium ML). Nickel reads across from the EU fruiting-vegetable Ni ML (400) because tomatoes are fruiting vegetables. Canned tomato condiments fall under the canned-food tin ML and are out of this bottled subcategory's scope.",
@@ -257,8 +312,8 @@
   "verify": {
     "defects": [],
     "warnings": [
-      "tomato-condiments[default].Pb: informational — stricter rows exist for a different product form (TH 50 [preserved tomatoes]; GSO 50 [Preserved tomatoes]; IL 50 [Fruiting vegetables (including tomato, c])",
-      "tomato-condiments[default].Cd: informational — stricter rows exist for a different product form (PH 50 [fruiting vegetables excluding tomatoes a]; IN 50 [Fruiting vegetables other than cucurbits])"
+      "tomato-condiments[default].Pb: informational — stricter rows exist for a different product form (TH 50 [preserved tomatoes]; GSO 50 [Preserved tomatoes]; HK 50 [Tomatoes, preserved by heat treatment an])",
+      "tomato-condiments[default].Cd: informational — stricter rows exist for a different product form (PH 50 [fruiting vegetables excluding tomatoes a]; IN 50 [Fruiting vegetables other than cucurbits]; VN 50 [Fruit vegetables (excluding tomatoes and]; HK 50 [Fruiting vegetables, other than Cucurbit])"
     ],
     "status": "PASS"
   }
