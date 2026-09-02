@@ -256,10 +256,23 @@ function resolveCell(register, byId, sub, analyte) {
 // for both mercury (MeHg/tHg) and arsenic (iAs/tAs).
 function reconcileSpeciation(cells, speciesKey, totalKey, speciesName, totalName) {
   const t = cells[totalKey], s = cells[speciesKey]
-  if (!t || !s) return
+  if (!t) return
   const tv = t.value_exact ?? (typeof t.value === "number" ? t.value : null)
-  const sv = s.value_exact ?? (typeof s.value === "number" ? s.value : null)
-  if (tv == null || sv == null) return // a control / not-material / gap on either side: leave as is
+  const sv = s ? (s.value_exact ?? (typeof s.value === "number" ? s.value : null)) : null
+  // Certification-readiness ruling: a species with NO in-force sovereign or read-across number of its own is
+  // bounded by its firm parent total (species <= total), never left as a gap. Explicit dispositions
+  // (control / not-material) are left as configured.
+  if (tv != null && (!s || s.type === "gap") ) {
+    cells[speciesKey] = {
+      type: "subsumed", provenance_tag: "subsumed", provenance: "subsumed",
+      value: null, subsumed_by: totalKey, bounded_by: totalKey, binding_total: t.value,
+      binding_total_source: t.binding_jurisdiction || t.source_jurisdiction || null,
+      label: `${speciesName} is a component of ${totalName} (${speciesKey} <= ${totalKey}). No in-force sovereign sets a separate ${speciesKey} maximum level for this product on its basis, so ${speciesName.toLowerCase()} is governed by and bounded by the ${totalName} ceiling (${t.value} ug/kg); no separate ${speciesKey} ceiling is published. The ${totalName} is measured on every lot; on ongoing lots ${speciesKey} is speciated whenever ${totalKey} exceeds its reflex trigger.`,
+      candidate: null,
+    }
+    return
+  }
+  if (tv == null || sv == null) return // a control / not-material on either side: leave as is
   if (sv >= tv) {
     cells[speciesKey] = {
       type: "subsumed",

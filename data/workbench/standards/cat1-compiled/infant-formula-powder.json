@@ -28,11 +28,6 @@
             "converted": false,
             "id": "uk_pb_infant-formulae-and-follow-on-formulae-m_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_pb_15_1_infant_formula_powder_50"
-          },
           "CODEX": {
             "value": 80,
             "converted": true,
@@ -114,11 +109,6 @@
             "converted": false,
             "id": "gso193_2021_cd_powdered_formulae_manufactured_from_cows_milk_proteins_or_protein_hydrol_10"
           },
-          "IL": {
-            "value": 10,
-            "converted": false,
-            "id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10"
-          },
           "BR": {
             "value": 80,
             "converted": true,
@@ -149,11 +139,6 @@
             "value": 100,
             "converted": false,
             "id": "sg_foodregs_2026_infant_formula_tas_100"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000"
           }
         },
         "provenance": "regulatory-alignment"
@@ -171,11 +156,6 @@
             "converted": false,
             "id": "eu2023_ias_formula_powder_20"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50"
-          },
           "BR": {
             "value": 160,
             "converted": true,
@@ -186,16 +166,16 @@
       },
       "tHg": {
         "type": "gov",
-        "value": 15,
-        "value_exact": 15,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
-        "basis_note": "same basis",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_thg_food_other_20",
+        "basis_note": "government maximum level by lookup",
         "per_country": {
-          "IL": {
-            "value": 15,
+          "TH": {
+            "value": 20,
             "converted": false,
-            "id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15"
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         },
         "provenance": "regulatory-alignment"
@@ -204,9 +184,9 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 15,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (15 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },
@@ -304,11 +284,6 @@
             "converted": false,
             "id": "uk_pb_infant-formulae-and-follow-on-formulae-m_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_pb_15_1_infant_formula_powder_50"
-          },
           "CODEX": {
             "value": 80,
             "converted": true,
@@ -390,11 +365,6 @@
             "converted": false,
             "id": "gso193_2021_cd_powdered_formulae_manufactured_from_soya_protein_isolates_alone_or_in_a__20"
           },
-          "IL": {
-            "value": 20,
-            "converted": false,
-            "id": "il_fcs2016_cd_14_3_infant_and_toddler_formulas_from_soy_or_containing_s_20"
-          },
           "BR": {
             "value": 80,
             "converted": true,
@@ -425,11 +395,6 @@
             "value": 100,
             "converted": false,
             "id": "sg_foodregs_2026_infant_formula_tas_100"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000"
           }
         },
         "provenance": "regulatory-alignment"
@@ -447,11 +412,6 @@
             "converted": false,
             "id": "eu2023_ias_formula_powder_20"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50"
-          },
           "BR": {
             "value": 160,
             "converted": true,
@@ -462,16 +422,16 @@
       },
       "tHg": {
         "type": "gov",
-        "value": 15,
-        "value_exact": 15,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
-        "basis_note": "same basis",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_thg_food_other_20",
+        "basis_note": "government maximum level by lookup",
         "per_country": {
-          "IL": {
-            "value": 15,
+          "TH": {
+            "value": 20,
             "converted": false,
-            "id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15"
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         },
         "provenance": "regulatory-alignment"
@@ -480,9 +440,9 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 15,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (15 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },

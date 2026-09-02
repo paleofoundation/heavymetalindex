@@ -31,6 +31,10 @@ const CAT = args.get("cat")
 if (!CAT) { console.error("roundtrip-category: --cat=<N|seafood> required"); process.exit(2) }
 const CERT = args.get("cert") || process.env.CERT_REPO || path.join(os.homedir(), "Desktop/heavymetalcertified")
 const COPY = args.has("copy")
+// --copy-clean: when the dir is NOT clean only because some records carry regressions or audit FAILs, copy the
+// OTHER records by slug and print the held ones. This is how a category ships its clean records while a
+// raised number (confidence/_held-raises.json) waits for ratification: the held record stays at its cert value.
+const COPY_CLEAN = args.has("copy-clean")
 const JSON_OUT = args.has("json")
 const SCRATCH = args.get("scratch") || fs.mkdtempSync(path.join(os.tmpdir(), `hmtc-rt-${CAT}-`))
 
@@ -90,6 +94,24 @@ else {
   console.log(`   ${clean ? "CLEAN — eligible for --copy" : "NOT CLEAN — fix config/register and rerun"}`)
 }
 
+// 4b. --copy-clean: per-record copy of the records without a regression or audit FAIL
+if (COPY_CLEAN && !COPY && compileOk && !audit.error && !diff.error) {
+  const heldSlugs = new Set([...diff.regressions.map((r) => r.slug), ...audit.fails.map((f) => f.slug || f.record || "")].filter(Boolean))
+  const idx = path.join(REPO, "data/workbench/standards", P.indexDir), crt = path.join(CERT, "data/standards", P.certDir)
+  const certSlugs = new Set(fs.readdirSync(crt).filter((f) => f.endsWith(".json") && !f.startsWith("_")).map((f) => f.replace(/\.json$/, "")))
+  let n = 0, held = 0, skipped = 0
+  for (const f of fs.readdirSync(SCRATCH).filter((x) => x.endsWith(".json") && !x.startsWith("_"))) {
+    const slug = f.replace(/\.json$/, ""), src = path.join(SCRATCH, f)
+    // a held record is the honest Method v2.0 value: it lands in the INDEX dir (the confidence pass verifies it
+    // there) and is withheld ONLY from the cert dir until ratified
+    if (heldSlugs.has(slug)) { held++; fs.copyFileSync(src, path.join(idx, `${slug}.json`)); continue }
+    if (!certSlugs.has(slug) && !args.has("add-new")) { skipped++; continue }
+    fs.copyFileSync(src, path.join(idx, `${slug}.json`)); fs.copyFileSync(src, path.join(crt, `${slug}.json`)); n++
+  }
+  const rep = path.join(SCRATCH, "derivation-report.md")
+  if (fs.existsSync(rep)) { fs.copyFileSync(rep, path.join(idx, "derivation-report.md")); fs.copyFileSync(rep, path.join(crt, "derivation-report.md")) }
+  console.log(`   copy-clean: copied ${n} record(s) by slug; HELD ${held} record(s) at their cert values (index dir updated) (${[...heldSlugs].join(", ")})${skipped ? `; ${skipped} index-only record(s) not copied (no --add-new)` : ""}`)
+}
 // 4. copy by slug (only when clean)
 if (COPY) {
   if (!clean) { console.error(`roundtrip-category: refusing --copy for ${P.key}: ${!compileOk ? "compile failed" : audit.fails.length ? `${audit.fails.length} audit FAIL` : diff.regressions.length ? `${diff.regressions.length} regression(s)` : "unreadable output"}`); process.exitCode = 1 }

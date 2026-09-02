@@ -100,23 +100,17 @@
         "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "read_across",
-        "value": 8,
-        "value_exact": 8,
-        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "source_jurisdiction": "IL",
-        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "gap",
+        "value": null,
+        "error": "no government ML and no read-across configured"
       },
       "MeHg": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": null,
+        "binding_parent_source": null,
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the total mercury determination (reflex speciation: any quantifiable MeHg fails), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },

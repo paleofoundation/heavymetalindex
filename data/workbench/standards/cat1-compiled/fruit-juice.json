@@ -43,11 +43,6 @@
             "converted": true,
             "id": "th_moph414_2020_pb_fruit_juices_general_30"
           },
-          "IL": {
-            "value": 30,
-            "converted": true,
-            "id": "il_fcs2016_pb_18_2_fruit_and_vegetable_juices_including_nectars_except_30"
-          },
           "MA": {
             "value": 30,
             "converted": true,
@@ -108,31 +103,16 @@
       },
       "Cd": {
         "type": "gov",
-        "value": 10,
-        "value_exact": 10,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_cd_infant_drinks_ready_20",
+        "basis_note": "government maximum level by lookup",
         "per_country": {
-          "IL": {
-            "value": 10,
-            "converted": true,
-            "id": "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10"
-          },
           "EU": {
             "value": 20,
-            "converted": true,
+            "converted": false,
             "id": "eu2023_cd_infant_drinks_ready_20"
-          },
-          "PY": {
-            "value": 20,
-            "converted": true,
-            "id": "py_decreto1335_2019_nonalcoholic_beverages_excluding_juices_cd_20"
-          },
-          "MERCOSUR": {
-            "value": 20,
-            "converted": true,
-            "id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_cd_20"
           }
         },
         "provenance": "regulatory-alignment"
@@ -160,11 +140,6 @@
             "value": 200,
             "converted": true,
             "id": "sg_foodregs_2026_fruit_vegetable_juice_excl_lime_lemon_tas_200"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_16_2_fruit_and_vegetable_juices_including_nectars_1000"
           }
         },
         "provenance": "read-across"
@@ -186,27 +161,22 @@
             "value": 30,
             "converted": true,
             "id": "ca_ias_grape-juice-and-grape-nectar-general-foo_30"
-          },
-          "IL": {
-            "value": 200,
-            "converted": true,
-            "id": "il_fcs2016_ias_16_2_fruit_and_vegetable_juices_including_nectars_200"
           }
         },
         "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
-        "value": 10,
-        "value_exact": 10,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_thg_food_other_20",
+        "basis_note": "government maximum level by lookup",
         "per_country": {
-          "IL": {
-            "value": 10,
-            "converted": true,
-            "id": "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10"
+          "TH": {
+            "value": 20,
+            "converted": false,
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         },
         "provenance": "regulatory-alignment"
@@ -215,9 +185,9 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 10,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (10 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },

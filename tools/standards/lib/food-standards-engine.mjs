@@ -244,6 +244,16 @@ export function makeEngine(registerPath) {
       if (!sub) { records.push({ slug, error: "no config for slug" }); continue }
       const cells = {}
       for (const a of PANEL) cells[a] = resolveCell(sub, a)
+      // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) with no in-force sovereign or read-across
+      // number of its own is bounded by its firm parent total (species <= total), never left as a gap.
+      for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+        if (!PANEL.includes(sp)) continue
+        const t = cells[tot], c = cells[sp]
+        const tv = t && typeof t.value === "number" ? t.value : null
+        if (tv == null || !(!c || c.cell_kind === "gap" || c.provenance === "gap" || c.error)) continue
+        cells[sp] = { analyte: sp, provenance: "subsumed", cell_kind: "subsumed", type: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
+          label: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${totName[0].toUpperCase() + totName.slice(1)} is measured on every lot; ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+      }
       stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
       records.push({
         slug, name: sub.name, category: config.category, category_name: config.category_name,

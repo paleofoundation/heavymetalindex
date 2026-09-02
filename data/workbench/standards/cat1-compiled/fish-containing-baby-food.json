@@ -30,15 +30,9 @@
         "provenance": "read-across"
       },
       "tAs": {
-        "type": "read_across",
-        "value": 1000,
-        "value_exact": 1000,
-        "source_id": "il_fcs2016_tas_9_1_seafood_1000",
-        "source_jurisdiction": "IL",
-        "label": "government read-across (aquatic) — Israel FCS-2016 seafood total-arsenic 1000, reflecting fish's naturally high total arsenic (predominantly non-toxic organic arsenobetaine). The toxic inorganic fraction (iAs) is separately capped at the infant baby-food limit (iAs <= tAs).",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "gap",
+        "value": null,
+        "error": "no government ML and no read-across configured"
       },
       "iAs": {
         "type": "read_across",

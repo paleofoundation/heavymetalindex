@@ -65,11 +65,6 @@
           "jurisdiction": "PY"
         },
         {
-          "id": "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IL"
-        },
-        {
           "id": "ch_vhk_2026_pb_schwarzwurzeln_300",
           "value": 300,
           "jurisdiction": "CH"
@@ -130,11 +125,6 @@
           "jurisdiction": "PY"
         },
         {
-          "id": "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IL"
-        },
-        {
           "id": "ch_vhk_2026_cd_knollensellerie_150",
           "value": 150,
           "jurisdiction": "CH"
@@ -173,11 +163,6 @@
           "id": "hk_cap132v_tas_vegetables_500",
           "value": 500,
           "jurisdiction": "HK"
-        },
-        {
-          "id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
-          "value": 1000,
-          "jurisdiction": "IL"
         }
       ],
       "stricter_unselected": [],
@@ -185,24 +170,17 @@
       "substantiation": "Direct maximum level for the exact product form. MERCOSUR's own decision to set roots and tubers at 200 ug/kg while holding other vegetable classes at 100 ug/kg is a government-written product-form split and is preserved rather than overridden with the stricter value from a class this row does not contain. The inorganic-arsenic species limit of 60 ug/kg remains the operative arsenic constraint."
     },
     "iAs": {
-      "type": "gov",
-      "value": 60,
-      "value_exact": 60,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "IL",
-      "binding_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-      "basis": "product as placed on market",
-      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "candidates": [
-        {
-          "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-          "value": 60,
-          "jurisdiction": "IL"
-        }
-      ],
-      "stricter_unselected": [],
-      "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-      "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+      "type": "subsumed",
+      "value": null,
+      "provenance": "subsumed",
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+      "reference_method": null,
+      "basis_class": "speciation-bounded",
+      "regulatory_basis": "",
+      "jurisdictions_checked": "register scan 2026-09-02",
+      "substantiation": null
     },
     "tHg": {
       "type": "gov",
@@ -218,11 +196,6 @@
           "id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
           "value": 10,
           "jurisdiction": "HK"
-        },
-        {
-          "id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
-          "value": 30,
-          "jurisdiction": "IL"
         }
       ],
       "stricter_unselected": [],

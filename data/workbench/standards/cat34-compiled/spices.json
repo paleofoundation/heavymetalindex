@@ -136,9 +136,9 @@
       "cell_kind": "gov",
       "value": 1000,
       "value_exact": 1000,
-      "basis": "dried spice (dry basis); spice-specific dried-basis limit. Fresh fruiting-vegetable Cd (50) and fresh-herb Cd (200) are a different, wet-weight basis and do not govern a dried spice.",
       "binding_jurisdiction": "VN",
       "binding_id": "vn_qcvn8_2_2011_cd_spices-including-curry-powder_1000",
+      "basis": "dried spice (dry basis); spice-specific dried-basis limit. Fresh fruiting-vegetable Cd (50) and fresh-herb Cd (200) are a different, wet-weight basis and do not govern a dried spice.",
       "binding_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "binding_url": "",
       "concurring": [
@@ -156,9 +156,9 @@
       "cell_kind": "gov",
       "value": 1500,
       "value_exact": 1500,
-      "basis": "dried herbs and spices (dry basis). Fresh-herb tAs (300) is a wet-weight basis and does not govern a dried spice.",
       "binding_jurisdiction": "SG",
       "binding_id": "sg_foodregs_2026_dried_herbs_spices_mustard_tas_1500",
+      "basis": "dried herbs and spices (dry basis). Fresh-herb tAs (300) is a wet-weight basis and does not govern a dried spice.",
       "binding_page": "regulations/singapore-food-regulations-heavy-metals-2026",
       "binding_url": "",
       "concurring": [
@@ -192,9 +192,9 @@
       "cell_kind": "gov",
       "value": 50,
       "value_exact": 50,
-      "basis": "dried spice (dry basis)",
       "binding_jurisdiction": "VN",
       "binding_id": "vn_qcvn8_2_2011_thg_spices-including-curry-powder_50",
+      "basis": "dried spice (dry basis)",
       "binding_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "binding_url": "",
       "concurring": [

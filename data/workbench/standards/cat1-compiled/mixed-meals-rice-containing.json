@@ -33,11 +33,6 @@
             "converted": true,
             "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20"
           },
-          "IL": {
-            "value": 40,
-            "converted": true,
-            "id": "il_fcs2016_pb_15_2_porridges_and_other_foods_for_infants_and_toddlers_r_40"
-          },
           "KR": {
             "value": 100,
             "converted": true,
@@ -79,11 +74,6 @@
             "converted": true,
             "id": "gso193_2021_cd_processed_cereal_based_foods_and_baby_foods_for_infants_and_young_childr_40"
           },
-          "IL": {
-            "value": 40,
-            "converted": true,
-            "id": "il_fcs2016_cd_14_4_porridges_and_other_foods_for_infants_and_toddlers_r_40"
-          },
           "BR": {
             "value": 50,
             "converted": true,
@@ -119,11 +109,6 @@
             "value": 100,
             "converted": true,
             "id": "sg_foodregs_2026_baby_food_tas_100"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000"
           }
         },
         "provenance": "regulatory-alignment"
@@ -141,11 +126,6 @@
             "converted": true,
             "id": "eu2023_ias_babyfood_20"
           },
-          "IL": {
-            "value": 25,
-            "converted": true,
-            "id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25"
-          },
           "BR": {
             "value": 150,
             "converted": true,
@@ -161,16 +141,16 @@
       },
       "tHg": {
         "type": "gov",
-        "value": 8,
-        "value_exact": 8,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+        "basis_note": "government maximum level by lookup",
         "per_country": {
-          "IL": {
-            "value": 8,
-            "converted": true,
-            "id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8"
+          "CN": {
+            "value": 20,
+            "converted": false,
+            "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20"
           }
         },
         "provenance": "regulatory-alignment"
@@ -179,9 +159,9 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": 20,
+        "binding_parent_source": "CN",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },

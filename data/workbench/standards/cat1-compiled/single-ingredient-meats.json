@@ -18,11 +18,6 @@
             "converted": true,
             "id": "fda2025_pb_baby_food_10"
           },
-          "IL": {
-            "value": 40,
-            "converted": true,
-            "id": "il_fcs2016_pb_15_2_porridges_and_other_foods_for_infants_and_toddlers_r_40"
-          },
           "KR": {
             "value": 100,
             "converted": true,
@@ -64,11 +59,6 @@
             "converted": true,
             "id": "gso193_2021_cd_processed_cereal_based_foods_and_baby_foods_for_infants_and_young_childr_40"
           },
-          "IL": {
-            "value": 40,
-            "converted": true,
-            "id": "il_fcs2016_cd_14_4_porridges_and_other_foods_for_infants_and_toddlers_r_40"
-          },
           "IN": {
             "value": 100,
             "converted": true,
@@ -94,11 +84,6 @@
             "value": 100,
             "converted": true,
             "id": "sg_foodregs_2026_baby_food_tas_100"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000"
           }
         },
         "provenance": "regulatory-alignment"
@@ -115,38 +100,22 @@
             "value": 20,
             "converted": true,
             "id": "eu2023_ias_babyfood_20"
-          },
-          "IL": {
-            "value": 25,
-            "converted": true,
-            "id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25"
           }
         },
         "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "gov",
-        "value": 8,
-        "value_exact": 8,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "basis_note": "face value",
-        "per_country": {
-          "IL": {
-            "value": 8,
-            "converted": true,
-            "id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8"
-          }
-        },
-        "provenance": "regulatory-alignment"
+        "type": "gap",
+        "value": null,
+        "error": "no government ML and no read-across configured"
       },
       "MeHg": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "binding_parent_value": null,
+        "binding_parent_source": null,
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the total mercury determination (reflex speciation: any quantifiable MeHg fails), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": null,
         "provenance": "subsumed"
       },

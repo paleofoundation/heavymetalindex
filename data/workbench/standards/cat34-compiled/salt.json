@@ -78,9 +78,9 @@
       "cell_kind": "gov",
       "value": 500,
       "value_exact": 500,
-      "basis": "food-grade salt (dry); Codex-aligned 0.5 mg/kg, concurred by many jurisdictions",
       "binding_jurisdiction": "GSO",
       "binding_id": "gso193_2021_cd_salt_food_grade_500",
+      "basis": "food-grade salt (dry); Codex-aligned 0.5 mg/kg, concurred by many jurisdictions",
       "binding_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
       "binding_url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
       "concurring": [
@@ -108,9 +108,9 @@
       "cell_kind": "gov",
       "value": 500,
       "value_exact": 500,
-      "basis": "food-grade salt (dry); total arsenic, EU Reg. 2025/1891 with FSANZ concurrence at 500",
       "binding_jurisdiction": "EU",
       "binding_id": "eu20251891_tas_salt_500",
+      "basis": "food-grade salt (dry); total arsenic, EU Reg. 2025/1891 with FSANZ concurrence at 500",
       "binding_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
       "binding_url": "http://data.europa.eu/eli/reg/2025/1891/oj",
       "concurring": [
@@ -129,23 +129,15 @@
     },
     "iAs": {
       "analyte": "iAs",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 500,
-      "value_exact": 500,
-      "basis": "food-grade salt (dry); inorganic arsenic. Israel FCS 2016 sets an explicit inorganic-arsenic salt limit (500 ug/kg), coincident with the total-As ceiling (iAs <= tAs).",
-      "binding_jurisdiction": "IL",
-      "binding_id": "il_fcs2016_ias_12_salt_500",
-      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "binding_url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-      "concurring": [
-        {
-          "id": "il_fcs2016_ias_12_salt_500",
-          "value": 500,
-          "jurisdiction": "IL"
-        }
-      ],
-      "stricter_unselected": []
+      "provenance": "subsumed",
+      "cell_kind": "subsumed",
+      "type": "subsumed",
+      "value": null,
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "binding_total": 500,
+      "basis_class": "speciation-bounded",
+      "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (500 ug/kg); no separate iAs ceiling is published. Total arsenic is measured on every lot; iAs is speciated whenever tAs exceeds its reflex trigger."
     },
     "tHg": {
       "analyte": "tHg",
@@ -153,9 +145,9 @@
       "cell_kind": "gov",
       "value": 100,
       "value_exact": 100,
-      "basis": "food-grade salt (dry); total mercury, EU Reg. 2022/617 with FSANZ concurrence at 100",
       "binding_jurisdiction": "EU",
       "binding_id": "eu2022_617_hg_salt_100",
+      "basis": "food-grade salt (dry); total mercury, EU Reg. 2022/617 with FSANZ concurrence at 100",
       "binding_page": "regulations/eu-reg-2022-617-mercury-fish",
       "binding_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617",
       "concurring": [

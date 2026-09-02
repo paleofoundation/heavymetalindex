@@ -14,9 +14,9 @@
       "cell_kind": "gov",
       "value": 1000,
       "value_exact": 1000,
-      "basis": "product as placed on market",
       "binding_jurisdiction": "CN",
       "binding_id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+      "basis": "product as placed on market",
       "binding_page": "regulations/china-gb-2762-2025-contaminants",
       "binding_url": "",
       "concurring": [
@@ -60,9 +60,9 @@
       "cell_kind": "gov",
       "value": 100,
       "value_exact": 100,
-      "basis": "product as placed on market",
       "binding_jurisdiction": "CN",
       "binding_id": "china_gb2762_2025_ias_compound_condiment_100",
+      "basis": "product as placed on market",
       "binding_page": "regulations/china-gb-2762-2025-contaminants",
       "binding_url": "",
       "concurring": [

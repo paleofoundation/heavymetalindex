@@ -50,10 +50,6 @@
             "value": 100,
             "id": "sg_foodregs_2026_edible_oils_fats_pb_100"
           },
-          "IL": {
-            "value": 100,
-            "id": "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100"
-          },
           "PY": {
             "value": 100,
             "id": "py_decreto1335_2019_fats_oils_margarine_pb_100"
@@ -97,26 +93,22 @@
         "provenance": "regulatory-alignment"
       },
       "Cd": {
-        "type": "gov",
-        "provenance_tag": "regulatory-alignment",
-        "value": 30,
-        "value_exact": 30,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
-        "binding_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
-        "basis": "product as placed on market",
-        "binding_instrument": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-        "per_country": {
-          "IL": {
-            "value": 30,
-            "id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
-          }
-        },
+        "type": "read_across",
+        "provenance_tag": "read-across",
+        "value": 200,
+        "value_exact": 200,
+        "source_id": "sg_foodregs_2026_other_food_cd_200",
+        "source_jurisdiction": "SG",
+        "source_scope": "other food",
+        "basis": "product as sold or imported",
+        "binding_instrument": "regulations/singapore-food-regulations-heavy-metals-2026",
+        "label": "SG general-food maximum level (other food)",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
         },
-        "provenance": "regulatory-alignment"
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "gov",
@@ -156,10 +148,6 @@
           "VN": {
             "value": 100,
             "id": "vn_qcvn8_2_2011_tas_animal-fats-and-oils_100"
-          },
-          "IL": {
-            "value": 1000,
-            "id": "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000"
           }
         },
         "audit": {
@@ -177,35 +165,26 @@
         "bounded_by": "tAs",
         "binding_total": 100,
         "binding_total_source": "CODEX",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). The iAs value (100 ug/kg) is not below the binding total arsenic ceiling (100 ug/kg), so inorganic arsenic is governed by and bounded by the total arsenic ceiling; no separate iAs ceiling is published. The total arsenic is measured on every lot; on ongoing lots iAs is speciated whenever tAs exceeds its limit.",
-        "candidate": {
-          "type": "gov",
-          "value": 100,
-          "source_jurisdiction": "IL",
-          "source_id": "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100"
-        }
+        "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (100 ug/kg); no separate iAs ceiling is published. The total arsenic is measured on every lot; on ongoing lots iAs is speciated whenever tAs exceeds its reflex trigger.",
+        "candidate": null
       },
       "tHg": {
-        "type": "gov",
-        "provenance_tag": "regulatory-alignment",
+        "type": "read_across",
+        "provenance_tag": "read-across",
         "value": 20,
         "value_exact": 20,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
-        "binding_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+        "source_id": "th_moph414_2020_thg_food_other_20",
+        "source_jurisdiction": "TH",
+        "source_scope": "food other than the listed total-mercury categories",
         "basis": "product as placed on market",
-        "binding_instrument": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-        "per_country": {
-          "IL": {
-            "value": 20,
-            "id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-          }
-        },
+        "binding_instrument": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+        "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+        "per_country": {},
         "audit": {
           "same_form": [],
           "other_form": []
         },
-        "provenance": "regulatory-alignment"
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
@@ -215,14 +194,9 @@
         "subsumed_by": "tHg",
         "bounded_by": "tHg",
         "binding_total": 20,
-        "binding_total_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (20 ug/kg) is not below the binding total mercury ceiling (20 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its limit.",
-        "candidate": {
-          "type": "read_across",
-          "value": 20,
-          "source_jurisdiction": "IL",
-          "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-        }
+        "binding_total_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (20 ug/kg); no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its reflex trigger.",
+        "candidate": null
       },
       "Ni": {
         "type": "read_across",
