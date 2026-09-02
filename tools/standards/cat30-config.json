@@ -39,10 +39,6 @@
         "essential oil"
       ],
       "read_across": {
-        "MeHg": {
-          "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
-          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg); total mercury is measured on every lot and methylmercury is speciated only on a total-mercury exceedance."
-        },
         "Ni": {
           "source_id": "eu2024_ni_formula_liquid_100",
           "label": "No government sets a nickel maximum level for an edible oil or fat in any jurisdiction. This reads across the nearest applicable sovereign nickel ML on olive oil's own product-as-placed-on-market (liquid) basis: EU Reg 2024/1987 nickel in infant and young-child formula (liquid form), 100 ug/kg. The more permissive EU fruiting-vegetable nickel ML (400 ug/kg) was the alternative food-type sibling; it was rejected because it would admit oil at concentrations the primary literature flags as contaminated (ground-harvest samples reported at 220-330 ug/kg). Disclosed as a read-across, not direct EU governance of oil; clean commercial olive oil clears 100 ug/kg with headroom (Kabaran 2020 Cyprus n=27 mean 30, max 54; Llorent-Martinez 2014 virgin olive oil below detection)."
@@ -65,7 +61,15 @@
         },
         "tHg": {
           "source_id": "th_moph414_2020_thg_food_other_20",
-          "label": "government read-across: Thailand MOPH Notification 414 (2020) total mercury 20 for food other than the listed total-mercury categories, the nearest in-force sovereign total-mercury ceiling on the as-sold basis (no government sets a mercury ML for edible oils). Binds once the Israel MoH 2016 guideline row (same value 20, marked not in force by the Ministry 19.02.2026) is gated in the register."
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        },
+        "Cd": {
+          "source_id": "sg_foodregs_2026_other_food_cd_200",
+          "basis": "gov",
+          "label": "SG general-food maximum level (other food)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → sg_foodregs_2026_other_food_cd_200"
         }
       }
     },
@@ -99,10 +103,6 @@
         "essential oil"
       ],
       "read_across": {
-        "MeHg": {
-          "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
-          "label": "Methylmercury is a component of total mercury (MeHg <= tHg by identity). A pressed or extracted plant oil has no aquatic methylation pathway and no government sets a methylmercury oil limit, so no independent MeHg source exists; the cell is bounded by the binding total-mercury ceiling (Israel FCS fats and oils, 20 ug/kg); total mercury is measured on every lot and methylmercury is speciated only on a total-mercury exceedance."
-        },
         "Ni": {
           "source_id": "eu2024_ni_formula_liquid_100",
           "label": "No government sets a nickel maximum level for an edible oil or fat in any jurisdiction. This reads across the nearest applicable sovereign nickel ML on the oil's own product-as-placed-on-market (liquid) basis: EU Reg 2024/1987 nickel in infant and young-child formula (liquid form), 100 ug/kg. The more permissive EU fruiting-vegetable nickel ML (400 ug/kg) was rejected because it would admit oil at concentrations reported in contaminated samples. Nickel can also enter a fat as residual hydrogenation catalyst (Raney nickel) in any hardened or partially hydrogenated fraction; this ceiling caps that pathway too. Disclosed as a read-across, not direct EU governance of oil."
@@ -125,7 +125,15 @@
         },
         "tHg": {
           "source_id": "th_moph414_2020_thg_food_other_20",
-          "label": "government read-across: Thailand MOPH Notification 414 (2020) total mercury 20 for food other than the listed total-mercury categories, the nearest in-force sovereign total-mercury ceiling on the as-sold basis (no government sets a mercury ML for edible oils). Binds once the Israel MoH 2016 guideline row (same value 20, marked not in force by the Ministry 19.02.2026) is gated in the register."
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        },
+        "Cd": {
+          "source_id": "sg_foodregs_2026_other_food_cd_200",
+          "basis": "gov",
+          "label": "SG general-food maximum level (other food)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → sg_foodregs_2026_other_food_cd_200"
         }
       }
     }

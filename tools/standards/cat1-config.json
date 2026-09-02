@@ -54,8 +54,9 @@
       ],
       "read_across": {
         "tHg": {
-          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
-          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         },
         "Cr": {
           "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
@@ -88,8 +89,9 @@
       ],
       "read_across": {
         "tHg": {
-          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
-          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_bottled-or-packaged-drinking-waters-other-than-natural_50",
@@ -106,6 +108,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "Cd": {
+          "source_id": "eu2023_cd_infant_drinks_ready_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → eu2023_cd_infant_drinks_ready_20"
         }
       },
       "analyte_scope": {
@@ -154,8 +161,9 @@
       ],
       "read_across": {
         "tHg": {
-          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
-          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         },
         "Cr": {
           "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
@@ -187,10 +195,6 @@
         "rhizome"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
           "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
@@ -207,6 +211,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "tHg": {
+          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
         }
       }
     },
@@ -230,10 +239,6 @@
         "destined for"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_cereals_1000",
           "basis": "gov",
@@ -250,6 +255,11 @@
         "iAs": {
           "source_id": "eu2023_ias_babyfood_20",
           "label": "government read-across (infant-protective): EU 2023/915 inorganic-arsenic ML 0.020 mg/kg for baby foods applied to rice-based infant cereals and snacks in place of the rice-specific 0.10 mg/kg, so the species ceiling sits below the India total-arsenic 50 and is published as its own number (audit wf2uta7ck; CAT1-ARSENIC-UPSTREAM-RECONCILIATION)"
+        },
+        "tHg": {
+          "source_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_rice_maize_wheat_20"
         }
       },
       "exclude_as_consumed": true
@@ -269,10 +279,6 @@
       ],
       "scope_exclude": [],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_cereals_1000",
           "basis": "gov",
@@ -285,6 +291,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         }
       },
       "exclude_as_consumed": true
@@ -307,10 +318,6 @@
         "dry infant cereal"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
           "basis": "gov",
@@ -323,6 +330,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "tHg": {
+          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
         }
       }
     },
@@ -385,7 +397,8 @@
       "read_across": {
         "tHg": {
           "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
-          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
         },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
@@ -456,7 +469,8 @@
       "read_across": {
         "tHg": {
           "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
-          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
         },
         "Cr": {
           "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
@@ -495,10 +509,6 @@
         "destined for"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Cr": {
           "source_id": "china_gb2762_2025_crtotal_cereals_1000",
           "label": "government read-across: China GB 2762-2025 Table 7 total chromium 1000 for cereals (grain-based finger snacks and purée bases; no government sets a total-chromium ML for this exact infant food)"
@@ -514,6 +524,11 @@
         "iAs": {
           "source_id": "eu2023_ias_babyfood_20",
           "label": "government read-across (infant-protective): EU 2023/915 inorganic-arsenic ML 0.020 mg/kg for baby foods applied to rice-based infant cereals and snacks in place of the rice-specific 0.10 mg/kg, so the species ceiling sits below the India total-arsenic 50 and is published as its own number (audit wf2uta7ck; CAT1-ARSENIC-UPSTREAM-RECONCILIATION)"
+        },
+        "tHg": {
+          "source_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_rice_maize_wheat_20"
         }
       },
       "exclude_as_consumed": true
@@ -537,10 +552,6 @@
         "rice"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Cr": {
           "source_id": "china_gb2762_2025_crtotal_cereals_1000",
           "label": "government read-across: China GB 2762-2025 Table 7 total chromium 1000 for cereals (grain-based finger snacks and purée bases; no government sets a total-chromium ML for this exact infant food)"
@@ -552,6 +563,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         }
       },
       "exclude_as_consumed": true
@@ -580,10 +596,6 @@
         "nectar"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
           "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
@@ -599,6 +611,11 @@
         "tAs": {
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
+        },
+        "tHg": {
+          "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
         }
       }
     },
@@ -636,10 +653,6 @@
         "destined for"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
           "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
@@ -696,10 +709,6 @@
         "destined for"
       ],
       "read_across": {
-        "tHg": {
-          "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20)."
-        },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
           "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
@@ -748,10 +757,6 @@
         "tHg": {
           "source_id": "eu2023_hg_fish_general_500",
           "label": "government read-across (aquatic) — EU 2023/915 total mercury 500 for muscle meat of fish (general), the fish component's mercury ceiling. PROVISIONAL: pending the Cat-6 species-MeHg read-across decision on whether a fish infant food should carry an infant-protective mercury limit instead."
-        },
-        "tAs": {
-          "source_id": "il_fcs2016_tas_9_1_seafood_1000",
-          "label": "government read-across (aquatic) — Israel FCS-2016 seafood total-arsenic 1000, reflecting fish's naturally high total arsenic (predominantly non-toxic organic arsenobetaine). The toxic inorganic fraction (iAs) is separately capped at the infant baby-food limit (iAs <= tAs)."
         },
         "Sn": {
           "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",

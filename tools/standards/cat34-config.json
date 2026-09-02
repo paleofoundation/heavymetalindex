@@ -192,10 +192,11 @@
           "basis_label": "food-grade salt (dry); total arsenic, EU Reg. 2025/1891 with FSANZ concurrence at 500"
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_12_salt_500"
-          ],
-          "basis_label": "food-grade salt (dry); inorganic arsenic. Israel FCS 2016 sets an explicit inorganic-arsenic salt limit (500 ug/kg), coincident with the total-As ceiling (iAs <= tAs)."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [

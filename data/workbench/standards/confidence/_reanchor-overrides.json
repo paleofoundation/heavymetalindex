@@ -1,0 +1,110 @@
+{
+  "_doc": "Session-judged anchors for cells the re-anchor engine cannot bind deterministically (scan picks are leads, never anchors). Every id is an in-force register row checked on the date; the engine refuses a gated or unknown id. Keyed dir|slug|variant|analyte (variant * = all).",
+  "updated": "2026-09-02",
+  "items": {
+    "cat4-compiled|fresh-fruit|_|iAs": {
+      "subsumed": true,
+      "why": "no in-force sovereign iAs ML for fresh fruit; bounded by tAs (Paraguay 300)"
+    },
+    "cat4-compiled|fresh-fruit|_|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no fruit-specific tHg ML in force; Thailand MoPH 414/2020 general-food row governs (GB fresh vegetables 10 is not fruit)"
+    },
+    "cat4-compiled|fruit-snacks|_|Pb": {
+      "id": "china_gb2762_2025_pb_fruit_products_200",
+      "why": "fruit purees, leathers and jams are fruit products under GB 2762-2025 Table 1 (raise 100→200, held)"
+    },
+    "cat4-compiled|fruit-snacks|_|Cd": {
+      "id": "china_gb2762_2025_cd_fresh_fruit_50",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg): no sovereign sets a cadmium level for fruit snacks, and the fresh-fruit level is the source-commodity cell",
+      "why": "equal to the live value"
+    },
+    "cat4-compiled|dried-fruit|_|Cd": {
+      "id": "china_gb2762_2025_cd_fresh_fruit_50",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg) applied to the dried product as sold; drying concentrates the fruit, so the fresh-fruit level is at least as protective on the dried basis",
+      "why": "equal to the live value"
+    },
+    "cat4-compiled|dried-fruit|_|Pb": {
+      "id": "china_gb2762_2025_pb_fruit_products_200",
+      "why": "dried fruit is a fruit product under GB 2762-2025 (raise 100→200, held)"
+    },
+    "cat8-compiled|bottled-drinking-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|infant-nursery-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|mineral-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|sparkling-carbonated-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat1-compiled|fruit-juice|*|Cd": {
+      "id": "eu2023_cd_infant_drinks_ready_20",
+      "why": "EU 2023/915 drinks for infants and young children, ready to drink (raise 10→20, held)"
+    },
+    "cat1-compiled|fruit-juice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no juice tHg ML in force; Thailand general-food row (raise 10→20, held)"
+    },
+    "cat1-compiled|fruit-purees-general|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|non-root-vegetable-purees|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|root-vegetable-purees-single-ingredient|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|mixed-meals-non-rice|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|mixed-meals-rice-containing|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|teething-and-snacks-rice-based|*|tHg": {
+      "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+      "why": "GB 2762-2025 cereals (raise 8→20, held)"
+    },
+    "cat1-compiled|teething-and-snacks-non-rice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "Thailand general-food row (raise 8→20, held)"
+    },
+    "cat1-compiled|baby-cereals-dry-non-rice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "Thailand general-food row (raise 8→20, held)"
+    },
+    "cat1-compiled|baby-cereals-dry-rice-based|*|tHg": {
+      "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+      "why": "GB 2762-2025 cereals (raise 8→20, held)"
+    },
+    "cat1-compiled|infant-formula-powder|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no formula tHg ML in force anywhere; Thailand general-food row (raise 15→20, held)"
+    },
+    "cat1-compiled|infant-formula-rtf-liquid|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no formula tHg ML in force anywhere; Thailand general-food row (raise 4→20, held)"
+    },
+    "cat27-compiled|peanuts|*|Pb": {
+      "id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+      "why": "GB 2762-2025 nuts and seeds 200 (equal)"
+    },
+    "cat27-compiled|peanut-butter|*|Pb": {
+      "id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+      "why": "GB 2762-2025 nuts and seeds 200 (equal)"
+    }
+  }
+}

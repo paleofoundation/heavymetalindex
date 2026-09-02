@@ -82,7 +82,6 @@
             "nhmrc2025_pb_drinking_water_5",
             "healthcanada2025_pb_drinking_water_5",
             "hk_cap132v_pb_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_pb_bottled-water_10",
             "who2022_pb_drinking_water_10"
           ],
@@ -107,7 +106,6 @@
             "nhmrc2025_tas_drinking_water_10",
             "healthcanada2025_tas_drinking_water_10",
             "hk_cap132v_tas_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_tas_bottled-water_10",
             "who2022_tas_drinking_water_10"
           ],
@@ -117,20 +115,17 @@
         },
         "iAs": {
           "gov_ids": [
-            "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
-            "epa_mcl_ias_drinking_water_10",
-            "cl_decreto977_1996_ias_mineral_bottled_water_10"
+            "epa_mcl_ias_drinking_water_10"
           ],
-          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, bottled drinking water and mineral water)",
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
-          "substantiation": "Inorganic arsenic at 6 µg/L is the Israel FCS 2016 maximum level for the exact product form ('Bottled drinking water and mineral water', source row 16.1, 0.006 mg/kg), the strictest sovereign inorganic-arsenic maximum for packaged water in the register. The alternatives are the US EPA drinking-water MCL recorded as inorganic arsenic at 10 µg/L and the Chilean Decreto 977/1996 Article 160 value of 10 µg/L for mineral and packaged drinking waters; both are named and neither is selected because 6 µg/L is applicable and stricter. The species cell is retained separately from total arsenic even though arsenic in potable water is effectively all inorganic, because the HMTc panel never allows a species to satisfy a total: a lot must clear both 10 µg/L total arsenic and 6 µg/L inorganic arsenic."
+          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, bottled drinking water and mineral water)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → epa_mcl_ias_drinking_water_10"
         },
         "tHg": {
           "gov_ids": [
             "eu20202184_thg_drinking_water_1",
             "nhmrc2025_thg_drinking_water_1",
             "healthcanada2025_thg_drinking_water_1",
-            "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
             "fda21cfr165110_thg_bottled_water_2",
             "us_ca_swrcb_2024_thg_mercury_mcl_2ugl",
             "vn_qcvn8_2_2011_thg_bottled-water_6"
@@ -222,7 +217,6 @@
             "nhmrc2025_pb_drinking_water_5",
             "healthcanada2025_pb_drinking_water_5",
             "hk_cap132v_pb_natural-mineral-waters_10",
-            "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
             "in_fssai2016_pb_058_natural_mineral_water_10",
             "gso193_2021_pb_natural_mineral_waters_10",
             "co_res4506_2013_pb_mineral_water_10",
@@ -249,7 +243,6 @@
             "gso193_2021_tas_natural_mineral_waters_10",
             "co_res4506_2013_tas_mineral_water_10",
             "vn_qcvn8_2_2011_tas_natural-mineral-water_10",
-            "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
             "fda21cfr165110_tas_bottled_water_10",
             "nhmrc2025_tas_drinking_water_10",
             "healthcanada2025_tas_drinking_water_10",
@@ -262,13 +255,11 @@
         },
         "iAs": {
           "gov_ids": [
-            "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
-            "epa_mcl_ias_drinking_water_10",
-            "cl_decreto977_1996_ias_mineral_bottled_water_10"
+            "epa_mcl_ias_drinking_water_10"
           ],
-          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, whose scope names mineral water expressly)",
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
-          "substantiation": "Inorganic arsenic at 6 µg/L is the Israel FCS 2016 maximum level for the exact product form ('Bottled drinking water and mineral water', source row 16.1, 0.006 mg/kg), the strictest sovereign inorganic-arsenic maximum for packaged water in the register. The alternatives are the US EPA drinking-water MCL recorded as inorganic arsenic at 10 µg/L and the Chilean Decreto 977/1996 Article 160 value of 10 µg/L for mineral and packaged drinking waters; both are named and neither is selected because 6 µg/L is applicable and stricter. The species cell is retained separately from total arsenic even though arsenic in potable water is effectively all inorganic, because the HMTc panel never allows a species to satisfy a total: a lot must clear both 10 µg/L total arsenic and 6 µg/L inorganic arsenic. Both named alternatives reach mineral water expressly: the Chilean value covers 'aguas minerales y aguas envasadas para bebida' and the EPA MCL reaches bottled mineral water through the FDA incorporation."
+          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, whose scope names mineral water expressly)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → epa_mcl_ias_drinking_water_10"
         },
         "tHg": {
           "gov_ids": [
@@ -277,7 +268,6 @@
             "gso193_2021_thg_natural_mineral_waters_1",
             "co_res4506_2013_thg_mineral_water_1",
             "vn_qcvn8_2_2011_thg_mineral-water_1",
-            "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
             "nhmrc2025_thg_drinking_water_1",
             "healthcanada2025_thg_drinking_water_1",
             "fda21cfr165110_thg_bottled_water_2",
@@ -365,7 +355,6 @@
             "nhmrc2025_pb_drinking_water_5",
             "healthcanada2025_pb_drinking_water_5",
             "hk_cap132v_pb_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_pb_bottled-water_10",
             "who2022_pb_drinking_water_10"
           ],
@@ -390,7 +379,6 @@
             "nhmrc2025_tas_drinking_water_10",
             "healthcanada2025_tas_drinking_water_10",
             "hk_cap132v_tas_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_tas_bottled-water_10",
             "who2022_tas_drinking_water_10"
           ],
@@ -400,20 +388,17 @@
         },
         "iAs": {
           "gov_ids": [
-            "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
-            "epa_mcl_ias_drinking_water_10",
-            "cl_decreto977_1996_ias_mineral_bottled_water_10"
+            "epa_mcl_ias_drinking_water_10"
           ],
-          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, bottled drinking water and mineral water)",
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
-          "substantiation": "Inorganic arsenic at 6 µg/L is the Israel FCS 2016 maximum level for the exact product form ('Bottled drinking water and mineral water', source row 16.1, 0.006 mg/kg), the strictest sovereign inorganic-arsenic maximum for packaged water in the register. The alternatives are the US EPA drinking-water MCL recorded as inorganic arsenic at 10 µg/L and the Chilean Decreto 977/1996 Article 160 value of 10 µg/L for mineral and packaged drinking waters; both are named and neither is selected because 6 µg/L is applicable and stricter. The species cell is retained separately from total arsenic even though arsenic in potable water is effectively all inorganic, because the HMTc panel never allows a species to satisfy a total: a lot must clear both 10 µg/L total arsenic and 6 µg/L inorganic arsenic."
+          "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, bottled drinking water and mineral water)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → epa_mcl_ias_drinking_water_10"
         },
         "tHg": {
           "gov_ids": [
             "eu20202184_thg_drinking_water_1",
             "nhmrc2025_thg_drinking_water_1",
             "healthcanada2025_thg_drinking_water_1",
-            "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
             "fda21cfr165110_thg_bottled_water_2",
             "us_ca_swrcb_2024_thg_mercury_mcl_2ugl",
             "vn_qcvn8_2_2011_thg_bottled-water_6"
@@ -506,7 +491,6 @@
             "nhmrc2025_pb_drinking_water_5",
             "healthcanada2025_pb_drinking_water_5",
             "hk_cap132v_pb_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_pb_bottled-water_10",
             "who2022_pb_drinking_water_10"
           ],
@@ -531,7 +515,6 @@
             "nhmrc2025_tas_drinking_water_10",
             "healthcanada2025_tas_drinking_water_10",
             "hk_cap132v_tas_bottled-or-packaged-drinking-waters-other-than-natural_10",
-            "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
             "vn_qcvn8_2_2011_tas_bottled-water_10",
             "who2022_tas_drinking_water_10"
           ],
@@ -541,20 +524,17 @@
         },
         "iAs": {
           "gov_ids": [
-            "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
-            "epa_mcl_ias_drinking_water_10",
-            "cl_decreto977_1996_ias_mineral_bottled_water_10"
+            "epa_mcl_ias_drinking_water_10"
           ],
-          "label": "strictest applicable sovereign maximum for the exact product form; stricter than every infant-specific instrument checked",
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
-          "substantiation": "Inorganic arsenic at 6 µg/L is the Israel FCS 2016 maximum level for the exact product form ('Bottled drinking water and mineral water', source row 16.1, 0.006 mg/kg), the strictest sovereign inorganic-arsenic maximum for packaged water in the register. The alternatives are the US EPA drinking-water MCL recorded as inorganic arsenic at 10 µg/L and the Chilean Decreto 977/1996 Article 160 value of 10 µg/L for mineral and packaged drinking waters; both are named and neither is selected because 6 µg/L is applicable and stricter. The species cell is retained separately from total arsenic even though arsenic in potable water is effectively all inorganic, because the HMTc panel never allows a species to satisfy a total: a lot must clear both 10 µg/L total arsenic and 6 µg/L inorganic arsenic. CHILD-PROTECTIVE CHECK: EU Regulation 2023/915 sets inorganic arsenic at 10 µg/kg for liquid infant formula (eu2023_ias_formula_liquid_10), Israel at 10 µg/kg for ready-to-eat infant and toddler formula and Brazil at 20 µg/kg for infant formulas. All are looser than the 6 µg/L value adopted here."
+          "label": "strictest applicable sovereign maximum for the exact product form; stricter than every infant-specific instrument checked",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → epa_mcl_ias_drinking_water_10"
         },
         "tHg": {
           "gov_ids": [
             "eu20202184_thg_drinking_water_1",
             "nhmrc2025_thg_drinking_water_1",
             "healthcanada2025_thg_drinking_water_1",
-            "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
             "fda21cfr165110_thg_bottled_water_2",
             "us_ca_swrcb_2024_thg_mercury_mcl_2ugl",
             "vn_qcvn8_2_2011_thg_bottled-water_6"

@@ -154,6 +154,12 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     },
@@ -189,10 +195,6 @@
           "basis": "gov",
           "label": "face value",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
-        },
-        "tHg": {
-          "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
-          "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)"
         },
         "Sn": {
           "source_id": "sg_foodregs_2026_any_food_sn_250000",
@@ -232,6 +234,12 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     },
@@ -308,6 +316,24 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "th_moph414_2020_pb_food_other_1000",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed lead categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_pb_food_other_1000"
+        },
+        "tAs": {
+          "source_id": "sg_foodregs_2026_other_food_tas_1000",
+          "basis": "gov",
+          "label": "SG general-food maximum level (other food not specified in the Tenth Schedule)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → sg_foodregs_2026_other_food_tas_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     },
@@ -402,6 +428,12 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     },
@@ -479,6 +511,24 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "th_moph414_2020_pb_food_other_1000",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed lead categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_pb_food_other_1000"
+        },
+        "tAs": {
+          "source_id": "sg_foodregs_2026_other_food_tas_1000",
+          "basis": "gov",
+          "label": "SG general-food maximum level (other food not specified in the Tenth Schedule)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → sg_foodregs_2026_other_food_tas_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     },
@@ -527,10 +577,6 @@
           "label": "face value",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
-        "tHg": {
-          "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
-          "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)"
-        },
         "Sn": {
           "source_id": "sg_foodregs_2026_any_food_sn_250000",
           "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
@@ -569,6 +615,12 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
       }
     }

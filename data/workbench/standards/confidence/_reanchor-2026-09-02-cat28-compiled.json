@@ -1,0 +1,242 @@
+{
+  "generated": "2026-09-02T11:03:22.744Z",
+  "cert": "/Users/karenpendergrass/Desktop/heavymetalcertified",
+  "dir": "cat28-compiled",
+  "applied": true,
+  "cells": 10,
+  "by_class": {
+    "catch-all-tighter": 10
+  },
+  "cells_detail": [
+    {
+      "dir": "cat28-compiled",
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "read_across",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "gov",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "gov",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "Pb",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+      "gated_scope": "Oilseeds and olives",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_pb_food_other_1000",
+        "value": 1000,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed lead categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "tAs",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_tas_5_3_oilseeds_1000",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "sg_foodregs_2026_other_food_tas_1000",
+        "value": 1000,
+        "jurisdiction": "SG",
+        "scope": "other food not specified in the Tenth Schedule",
+        "basis": "product as sold or imported"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "gov",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "Pb",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+      "gated_scope": "Oilseeds and olives",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_pb_food_other_1000",
+        "value": 1000,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed lead categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "tAs",
+      "kind": "gov",
+      "live_value": 1000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_tas_5_3_oilseeds_1000",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "sg_foodregs_2026_other_food_tas_1000",
+        "value": 1000,
+        "jurisdiction": "SG",
+        "scope": "other food not specified in the Tenth Schedule",
+        "basis": "product as sold or imported"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "gov",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat28-compiled",
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "tHg",
+      "kind": "read_across",
+      "live_value": 400,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_thg_4_1_oilseeds_400",
+      "gated_scope": "Oilseeds",
+      "class": "catch-all-tighter",
+      "pick": {
+        "id": "th_moph414_2020_thg_food_other_20",
+        "value": 20,
+        "jurisdiction": "TH",
+        "scope": "food other than the listed total-mercury categories",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat28-config.json",
+      "scope_terms": true
+    }
+  ]
+}

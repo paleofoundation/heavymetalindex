@@ -69,7 +69,6 @@
             "ch_vhk_2026_pb_obst_100",
             "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_pb_100",
             "py_decreto1335_2019_fresh_fruits_excluding_berries_small_fruits_pb_100",
-            "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
             "mercosur_gmc12_2011_fresh_berries_and_small_fruits_pb_200",
             "py_decreto1335_2019_fresh_berries_and_small_fruits_pb_200",
             "hk_cap132v_pb_cranberry_200",
@@ -95,8 +94,7 @@
             "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_cd_50",
             "py_decreto1335_2019_fresh_fruits_excluding_berries_small_fruits_cd_50",
             "mercosur_gmc12_2011_fresh_berries_and_small_fruits_cd_50",
-            "py_decreto1335_2019_fresh_berries_and_small_fruits_cd_50",
-            "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50"
+            "py_decreto1335_2019_fresh_berries_and_small_fruits_cd_50"
           ],
           "basis_label": "wet weight, fresh fruit as sold",
           "label": "Switzerland VHK 817.022.15 sets 20 ug/kg cadmium for pome fruit, stone fruit, citrus fruit and mango, the strictest sovereign cadmium maximum level applicable to any product in this row; MERCOSUR, Paraguay and Israel set 50 ug/kg for fresh fruit generally.",
@@ -107,27 +105,26 @@
             "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300",
             "py_decreto1335_2019_fresh_fruits_excluding_berries_small_fruits_tas_300",
             "mercosur_gmc12_2011_fresh_berries_and_small_fruits_tas_300",
-            "py_decreto1335_2019_fresh_berries_and_small_fruits_tas_300",
-            "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
+            "py_decreto1335_2019_fresh_berries_and_small_fruits_tas_300"
           ],
           "basis_label": "wet weight, fresh fruit as sold",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic for fresh fruit, berries and small fruit at 300 ug/kg; Israel MOH FCS-2016 sets 1000 ug/kg for the same commodity class.",
           "substantiation": "Direct total-arsenic maximum levels for fresh fruit in an as-offered basis. Total arsenic is reported for its own sake and is never satisfied by the inorganic-arsenic cell; the inorganic-arsenic species limit for this row (60 ug/kg) is far stricter and is the operative arsenic constraint."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          ],
-          "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-          "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+            "th_moph414_2020_thg_food_other_20"
           ],
           "basis_label": "wet weight, fresh fruit as sold",
           "label": "Israel MOH FCS-2016 category 3 sets total mercury for fruits and vegetables at 30 ug/kg, the only sovereign total-mercury maximum level whose scope reaches fresh fruit.",
-          "substantiation": "Direct maximum level for the commodity class. Hong Kong Cap. 132V item 12 sets a stricter 10 ug/kg but its scope is 'vegetables, other than edible fungi' and does not reach fruit, so it is not applicable to this row; it binds the four vegetable rows and the pickled row instead."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-tighter-or-equal → th_moph414_2020_thg_food_other_20"
         },
         "MeHg": {
           "control": {
@@ -185,47 +182,44 @@
       "cells": {
         "Pb": {
           "gov_ids": [
-            "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
-            "mercosur_gmc12_2011_dried_fruits_pb_800",
-            "py_decreto1335_2019_dried_fruits_pb_800"
+            "china_gb2762_2025_pb_fruit_products_200"
           ],
           "basis_label": "dried fruit as offered to the consumer (dry as-sold)",
           "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg, product as placed on market) is the strictest sovereign lead maximum level that reaches dried fruit in this row's own dry as-sold basis; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write an express dried-fruits lead row at 800 ug/kg, which is named so the government-written dried-fruit split stays visible.",
-          "substantiation": "R1 direct maximum level, no basis conversion required. THE ISRAELI INSTRUMENT'S OWN STRUCTURE IS DISPOSITIVE. Israel MOH FCS-2016 writes dried carve-outs where it intends them, and it writes them differently for different analytes: its mercury and arsenic tables carry an express category 3.1 'Dried fruits and vegetables, including mushrooms, edible plants, and herbs' (tHg 150 ug/kg, tAs 5000 ug/kg, iAs 300 ug/kg), which is why those three cells in this row are anchored on the dried category. Its LEAD table carries no dried-fruit category at all: the only lead dried carve-out is category 3.2 'Dried leafy vegetables, celery, mushrooms, edible plants, and herbs' at 1500 ug/kg, which is a Category 34 commodity and out of scope here. Dried fruit therefore falls in the residual lead category 3 'Fruits and vegetables, except listed categories' at 100 ug/kg. That the same instrument excepted dried produce for mercury and arsenic and declined to except dried fruit for lead is the regulator's own choice, not an omission this standard may read in; wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md records the same warning, that several Israeli commodity scopes are broad national categories and downstream standards mapping should use the structured product scope rather than assuming a narrower product row. BASIS. The Israeli row is expressed 'product as placed on market', i.e. the dry product as sold, so it passes this row's basis guard on its own terms and needs no reconstitution factor; the config already treats the identical residual row as an applicable anchor in fresh-fruit Pb and Cd and in non-root-vegetables Cd. This corrects an earlier draft of this cell, which published 800 ug/kg and asserted that stricter fruit lead maximum levels 'are deliberately not carried across the basis change'. That assertion was true of the wet-weight instruments (Hong Kong, AU-NZ, Switzerland and the MERCOSUR fresh-fruit rows, all 100 ug/kg on a fresh basis, all correctly excluded here, and AU-NZ Schedule 19 additionally calculates dried and dehydrated foods on the pre-drying basis) but it was NOT true of Israel, which requires no basis change at all. CONSEQUENCE, DISCLOSED NOT HIDDEN: at 100 ug/kg this row is eight times stricter than the MERCOSUR and Paraguayan dried-fruit lead ceiling, so a raisin lawful at 800 ug/kg in a MERCOSUR market of sale cannot be HMTc certified. That is the government-limit-only method operating as written (strictest applicable sovereign maximum, not the most convenient one), and it is the same over-compliance this category already accepts for the berry, table-olive and brassica members of other rows. The dried/fresh arithmetic argument does not survive contact with the instrument: a dry-basis ceiling written by a sovereign for the dry product as placed on market is not a number 'manufactured by a basis error', it is that sovereign's ceiling."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_pb_fruit_products_200"
         },
         "Cd": {
-          "gov_ids": [
-            "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50"
-          ],
+          "read_across": {
+            "source_id": "china_gb2762_2025_cd_fresh_fruit_50",
+            "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg) applied to the dried product as sold; drying concentrates the fruit, so the fresh-fruit level is at least as protective on the dried basis"
+          },
           "basis_label": "dried fruit as offered to the consumer (dry as-sold)",
           "label": "Israel MOH FCS-2016 cadmium category 3 (fruits and vegetables except listed categories, 50 ug/kg, product as placed on market) is a direct sovereign maximum level for dried fruit in this row's own dry as-sold basis: Israel's cadmium table carves out dried leafy vegetables and herbs only, so dried fruit sits in the residual row.",
-          "substantiation": "R1 direct maximum level. Israel's cadmium table has exactly one dried carve-out, category 3.2 'Dried leafy vegetables, celery, mushrooms, edible plants, and herbs' at 1000 ug/kg, which is a Category 34 commodity; category 3.1 in the cadmium table is 'Leafy vegetables, celery, mushrooms, edible plants, herbs, and horseradish' at 200 ug/kg, not a dried-fruit category. Dried fruit therefore falls in residual category 3 at 50 ug/kg on the product-as-placed-on-market basis, which is the dry product as sold and passes this row's basis guard without conversion. CORRECTION OF RECORD: an earlier draft of this cell resolved as a read-across from the MERCOSUR fresh-fruit cadmium row and justified declining Israel on the ground that 'Israel MOH FCS-2016 lists dried fruits as a separate category (3.1) without a cadmium entry'. That description of the instrument was wrong. The separate dried category 3.1 exists in Israel's mercury and arsenic tables, not in its cadmium table, and it was therefore not a reason to withhold the residual cadmium row. The published number is unchanged at 50 ug/kg because MERCOSUR's fresh-fruit cadmium row carries the identical value, but the provenance is corrected from read-across to regulatory-alignment and the binding jurisdiction from MERCOSUR to Israel, because a direct sovereign maximum level exists and a certification record that misdescribes a cited instrument is impeachable even where the arithmetic survives. MERCOSUR GMC Res. 12/2011 writes dried-fruit rows for lead and total arsenic but none for cadmium, and its fresh-fruit cadmium row (50 ug/kg, mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_cd_50, with the Paraguayan twin) is retained here as numerical corroboration at the identical value rather than as an anchor, since naming a fresh-form row as a direct maximum level for the dried form would be the basis conflation this row's guard exists to prevent."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-tighter-or-equal-read-across → china_gb2762_2025_cd_fresh_fruit_50"
         },
         "tAs": {
           "gov_ids": [
             "mercosur_gmc12_2011_dried_fruits_tas_800",
-            "py_decreto1335_2019_dried_fruits_tas_800",
-            "il_fcs2016_tas_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_5000"
+            "py_decreto1335_2019_dried_fruits_tas_800"
           ],
           "basis_label": "dried fruit as offered to the consumer (dry as-sold)",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic for dried fruits at 800 ug/kg; Israel MOH FCS-2016 category 3.1 sets 5000 ug/kg for dried fruits and vegetables.",
           "substantiation": "R1 direct maximum levels for the dried commodity on the dry as-sold basis. MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write an express dried-fruits total-arsenic row at 800 ug/kg and bind this cell; Israel's express dried category 3.1 at 5000 ug/kg is named and is looser. Israel's residual fruits-and-vegetables total-arsenic row (1000 ug/kg) is not the applicable Israeli category here, for the same reason as the inorganic-arsenic cell: Israel writes an express dried category for arsenic. It is looser than the binding value in any event. The inorganic-arsenic species limit for this row (300 ug/kg) is far stricter and is the operative arsenic constraint; total arsenic is reported for its own sake and is never satisfied by the species cell."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300"
-          ],
-          "basis_label": "dried fruit as offered to the consumer (dry as-sold)",
-          "label": "Israel MOH FCS-2016 category 3.1 sets inorganic arsenic for dried fruits and vegetables at 300 ug/kg, the only sovereign inorganic-arsenic maximum level written for a dried produce commodity.",
-          "substantiation": "R1 direct maximum level for the dried commodity on the product-as-placed-on-market basis. Israel's residual fruits-and-vegetables inorganic-arsenic row (60 ug/kg) is stricter but is NOT the applicable category: the same instrument writes an express category 3.1 'Dried fruits and vegetables, including mushrooms, edible plants, and herbs' for arsenic, so the dried commodity sits there rather than in the residual row. Both rows sit on the SAME product-as-placed-on-market basis, so the five-fold step between them is the regulator's own treatment of the dried form, not a basis conversion and not an HMTc adjustment. This is the precise contrast that decides the lead and cadmium cells of this same row in the opposite direction: Israel's lead and cadmium tables contain NO dried-fruit category (their only dried carve-out is dried leafy vegetables and herbs), so for those two analytes the residual row is the applicable one and binds at 100 and 50 ug/kg. An instrument that excepts the dried form for three analytes and not for two others has made two different choices, and this row follows each of them where it was made."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150"
+            "th_moph414_2020_thg_food_other_20"
           ],
           "basis_label": "dried fruit as offered to the consumer (dry as-sold)",
           "label": "Israel MOH FCS-2016 category 3.1 sets total mercury for dried fruits and vegetables at 150 ug/kg, the only sovereign total-mercury maximum level written for a dried produce commodity.",
-          "substantiation": "R1 direct maximum level for the dried commodity on the product-as-placed-on-market basis. The same instrument's residual fruits-and-vegetables row is 30 ug/kg; the five-fold step to the dried category 3.1 at 150 ug/kg is the regulator's own treatment of the dried form, made within a single basis rather than across two, which is why the residual row is not carried into this cell. Where the same instrument writes no dried carve-out at all, as in its lead and cadmium tables, the residual row IS the applicable cell and binds this row at 100 and 50 ug/kg respectively."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         },
         "MeHg": {
           "control": {
@@ -282,22 +276,20 @@
       "cells": {
         "Pb": {
           "gov_ids": [
-            "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
-            "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_pb_200",
-            "py_decreto1335_2019_fruit_vegetable_jams_sweets_pb_200",
-            "il_fcs2016_pb_21_jams_and_jellies_1000"
+            "china_gb2762_2025_pb_fruit_products_200"
           ],
           "basis_label": "manufactured fruit snack as offered to the consumer",
           "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg) is the strictest sovereign lead maximum level applicable to a member of this row and binds it; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 200 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets, and Israel writes a separate jams-and-jellies row at 1000 ug/kg, both named so the government-written splits stay visible.",
-          "substantiation": "R1 direct maximum levels; the row binds the strictest applicable to any member, as this category's cell-resolution rule requires. THE ROW IS WIDER THAN THE MERCOSUR SWEETS CLASS. MERCOSUR's class covers compotes, jellies, jams, marmalades and other fruit or vegetable sweets; this taxonomy row also carries fruit leathers, strips and rolls, fruit bars, fruit-puree pouches and cups, and fruit gummies and chews. For the jam and jelly members Israel writes an express category 21 at 1000 ug/kg, so those members sit at 1000 under Israeli law and 200 under MERCOSUR. For the leather, bar, gummy and puree members Israel writes no class at all, so they fall in the residual lead category 3 'Fruits and vegetables, except listed categories' at 100 ug/kg on a product-as-placed-on-market basis. 100 ug/kg is therefore the strictest sovereign maximum applicable to any member of the row and is what the row publishes; the jam members certify against a bar ten times stricter than their own Israeli class value and twice as strict as MERCOSUR's, which is the same disclosed over-compliance this category applies to berries, table olives and brassicas, and splitting jams and preserves out of this row is the recommended taxonomy fix. CONSISTENCY: this cell now uses the same Israeli residual row that this row's cadmium, inorganic-arsenic and total-mercury cells rely on; treating one instrument row as applicable to this product form for three analytes and ignoring it for a fourth where it is twice as strict was the defect corrected here. BASIS: the Israeli rows are expressed 'product as placed on market' and pass this row's basis guard. Hong Kong Cap. 132V item 9 independently writes jams, jellies and marmalades at 400 ug/kg, corroborating that sovereigns treat this product class as its own cell, but it is deliberately NOT named as an anchor: Cap. 132V expresses every value on a single 'food as listed in the Schedule' basis that the register cannot distinguish from that instrument's fresh wet-weight rows, so it fails this row's basis guard and naming it produces a hard compile failure. It is looser than the binding value in any event. AUDIT DISPOSITIONS: the scan surfaces MERCOSUR and Paraguayan 'fruit-based ice cream' lead at 70 ug/kg. FROZEN-DESSERT DISPOSITION (single wording used in every place this category states it): fruit-based ice cream and other frozen desserts are OUT OF SCOPE for this row and for Category 4 as a whole, and NO taxonomy row anywhere in hmtc-v2.json currently receives them. Category 24 (Dairy and Milk Products) has nine subcategories (cow milk; goat/sheep/other ruminant milk; camel milk; cheese; yogurt and cultured dairy; cream; milk powders; condensed and evaporated milks; butter and ghee) and contains no ice-cream or frozen-dessert row, so the earlier statement that these products 'route to Category 24' was false and has been removed. The consequence is recorded rather than buried: mercosur_gmc12_2011_fruit_based_ice_cream_pb_70 and py_decreto1335_2019_fruit_based_ice_cream_pb_70 (lead 70 ug/kg), the matching cadmium rows at 50 ug/kg, and mercosur_gmc12_2011_fruit_based_ice_cream_tas_100 with its Paraguayan twin (total arsenic 100 ug/kg) are STRICTER than this row's published lead and total-arsenic values and are currently orphaned, covered by no HMTc standard. This is logged as an open, human-gated taxonomy gap (a new frozen-dessert subcategory carrying those MERCOSUR and Paraguayan rows) and is not resolved by silently sweeping the frozen form into a produce row whose basis and product form it does not share. The broader register review additionally surfaces Hong Kong 'Canned chestnuts and canned chestnuts puree' at 50 ug/kg, a canned tree-nut product routing to Category 28; it was matched only by an over-broad 'puree' token in an earlier draft of this row's audit_scope, which has been narrowed to 'fruit puree' so the scan no longer reports a false positive."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_pb_fruit_products_200"
         },
         "Cd": {
-          "gov_ids": [
-            "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50"
-          ],
+          "read_across": {
+            "source_id": "china_gb2762_2025_cd_fresh_fruit_50",
+            "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg): no sovereign sets a cadmium level for fruit snacks, and the fresh-fruit level is the source-commodity cell"
+          },
           "basis_label": "manufactured fruit snack as offered to the consumer",
           "label": "Israel MOH FCS-2016 cadmium category 3 (fruits and vegetables except listed categories, 50 ug/kg) is a direct sovereign maximum level for every member of this row: Israel's cadmium table carves out only dried leafy vegetables and herbs, and writes no jam, preserve or manufactured-snack class at all.",
-          "substantiation": "R1 direct maximum level on the product-as-placed-on-market basis, which passes this row's basis guard. No jurisdiction writes a cadmium maximum level for manufactured fruit snacks specifically: MERCOSUR GMC Res. 12/2011 writes lead and total arsenic for its fruit-or-vegetable-sweets class but no cadmium row, and Israel writes no jams cadmium row, so every member of this row falls in the Israeli residual fruits-and-vegetables category at 50 ug/kg. An earlier draft resolved this cell as a read-across from mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_cd_50; the value is unchanged at 50 ug/kg because MERCOSUR's fresh-fruit row carries the identical number, but the provenance is corrected to regulatory-alignment because a direct sovereign maximum level covering this product form exists and does not require a fresh-to-manufactured read-across to reach it. The MERCOSUR fresh-fruit row is retained here as numerical corroboration only."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-tighter-or-equal-read-across → china_gb2762_2025_cd_fresh_fruit_50"
         },
         "tAs": {
           "gov_ids": [
@@ -309,22 +301,19 @@
           "substantiation": "R1 direct maximum level for the manufactured product class in the row's own basis. MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 300 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets. Israel MOH FCS-2016 is looser for this analyte in both of its applicable categories (residual fruits and vegetables 1000 ug/kg; dried fruits and vegetables 5000 ug/kg), so it does not bind here, which is why this cell does not name the Israeli rows that bind the lead, cadmium, inorganic-arsenic and total-mercury cells of the same row. Total arsenic is never satisfied by the inorganic-arsenic cell; both are reported, and the inorganic-arsenic species value of 60 ug/kg is the operative arsenic constraint for this row. AUDIT DISPOSITION: the scan surfaces MERCOSUR and Paraguayan 'fruit-based ice cream' total arsenic at 100 ug/kg. FROZEN-DESSERT DISPOSITION (single wording used in every place this category states it): fruit-based ice cream and other frozen desserts are OUT OF SCOPE for this row and for Category 4 as a whole, and NO taxonomy row anywhere in hmtc-v2.json currently receives them. Category 24 (Dairy and Milk Products) has nine subcategories (cow milk; goat/sheep/other ruminant milk; camel milk; cheese; yogurt and cultured dairy; cream; milk powders; condensed and evaporated milks; butter and ghee) and contains no ice-cream or frozen-dessert row, so the earlier statement that these products 'route to Category 24' was false and has been removed. The consequence is recorded rather than buried: mercosur_gmc12_2011_fruit_based_ice_cream_pb_70 and py_decreto1335_2019_fruit_based_ice_cream_pb_70 (lead 70 ug/kg), the matching cadmium rows at 50 ug/kg, and mercosur_gmc12_2011_fruit_based_ice_cream_tas_100 with its Paraguayan twin (total arsenic 100 ug/kg) are STRICTER than this row's published lead and total-arsenic values and are currently orphaned, covered by no HMTc standard. This is logged as an open, human-gated taxonomy gap (a new frozen-dessert subcategory carrying those MERCOSUR and Paraguayan rows) and is not resolved by silently sweeping the frozen form into a produce row whose basis and product form it does not share."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-            "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300"
-          ],
-          "basis_label": "manufactured fruit snack as offered to the consumer",
-          "label": "Israel MOH FCS-2016 writes the only inorganic-arsenic maximum levels any credible government sets for this commodity, and this row straddles both of its applicable categories: category 3 (fruits and vegetables, 60 ug/kg) covers the puree, pouch and gummy members and category 3.1 (dried fruits and vegetables, 300 ug/kg) is the nearer class for the leather and bar members. The row binds the strictest, 60 ug/kg.",
-          "substantiation": "R1 direct maximum level on the product-as-placed-on-market basis. This row spans roughly 15 to 80 percent moisture, so both Israeli categories reach some member of it; the cell names both and binds the stricter, which is the cell-resolution rule for every collapsed sovereign split in this category. Selecting the looser dried category for the whole row would be selecting for convenience rather than applicability. Inorganic arsenic never satisfies the total-arsenic cell; both are reported, and 60 ug/kg is the operative arsenic constraint here. An earlier draft resolved this cell as a read-across from the same Israeli category 3 row; the value is unchanged and the provenance is corrected to regulatory-alignment, consistent with the lead and cadmium cells of this row, which now rely on the same instrument's residual category as a direct maximum level."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
-            "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150"
+            "th_moph414_2020_thg_food_other_20"
           ],
           "basis_label": "manufactured fruit snack as offered to the consumer",
           "label": "Israel MOH FCS-2016 category 3 sets total mercury for fruits and vegetables at 30 ug/kg and category 3.1 sets 150 ug/kg for the dried commodity; this row straddles both, and binds the stricter at 30 ug/kg.",
-          "substantiation": "R1 direct maximum level on the product-as-placed-on-market basis, both applicable Israeli categories named and the stricter bound, on the same reasoning as this row's inorganic-arsenic cell. Hong Kong Cap. 132V item 12 sets a stricter 10 ug/kg but its scope is 'vegetables, other than edible fungi' and does not reach a fruit-based snack, so it is not applicable to this row. An earlier draft resolved this cell as a read-across from the same Israeli category 3 row; the value is unchanged and the provenance is corrected to regulatory-alignment."
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         },
         "MeHg": {
           "control": {
@@ -386,8 +375,7 @@
             "ch_vhk_2026_pb_blattkohle_300",
             "hk_cap132v_pb_leafy-vegetables-including-brassica-leafy-vegetables-ot_300",
             "mercosur_gmc12_2011_leaf_vegetables_herbs_pb_300",
-            "py_decreto1335_2019_leaf_vegetables_herbs_pb_300",
-            "il_fcs2016_pb_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_300"
+            "py_decreto1335_2019_leaf_vegetables_herbs_pb_300"
           ],
           "basis_label": "wet weight, fresh leafy vegetable as sold",
           "label": "AU-NZ Food Standards Code Schedule 19 sets lead at 100 ug/kg for vegetables except brassicas, which as a matter of Australian and New Zealand law caps lettuce, rocket, chard and every other non-brassica leaf vegetable in this row; the EU, Swiss, Hong Kong, MERCOSUR, Paraguayan and Israeli leaf-vegetable rows all sit at 300 ug/kg.",
@@ -401,8 +389,7 @@
             "aunz_sch19_cd_leafy_100",
             "hk_cap132v_cd_leafy-vegetables-including-brassica-leafy-vegetables_200",
             "mercosur_gmc12_2011_leaf_vegetables_herbs_cd_200",
-            "py_decreto1335_2019_leaf_vegetables_herbs_cd_200",
-            "il_fcs2016_cd_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_200"
+            "py_decreto1335_2019_leaf_vegetables_herbs_cd_200"
           ],
           "basis_label": "wet weight, fresh leafy vegetable as sold",
           "label": "EU Reg. 2023/915, its Swiss mirror (Blattgemüse and Blattkohle) and AU-NZ Schedule 19 all set cadmium for leaf vegetables at 100 ug/kg; Hong Kong, MERCOSUR, Paraguay and Israel set 200 ug/kg for the same class.",
@@ -412,24 +399,22 @@
           "gov_ids": [
             "mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300",
             "py_decreto1335_2019_leaf_vegetables_herbs_tas_300",
-            "hk_cap132v_tas_vegetables_500",
-            "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
+            "hk_cap132v_tas_vegetables_500"
           ],
           "basis_label": "wet weight, fresh leafy vegetable as sold",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic for leaf vegetables at 300 ug/kg; Hong Kong Cap. 132V item 2 sets 500 ug/kg for vegetables and Israel MOH FCS-2016 sets 1000 ug/kg.",
           "substantiation": "Direct maximum levels for the leaf-vegetable class. The inorganic-arsenic species limit for this row (60 ug/kg) is far stricter and is the operative arsenic constraint; total arsenic is reported for its own sake."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          ],
-          "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-          "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
           ],
           "label": "Hong Kong Cap. 132V item 12 sets total mercury for vegetables other than edible fungi at 10 ug/kg, the strictest sovereign total-mercury maximum level applicable to this product form; Israel MOH FCS-2016 category 3 sets 30 ug/kg for the same commodity class.",
           "substantiation": "Both named rows are direct maximum levels for the vegetable class in an as-sold basis. Hong Kong binds. Edible fungi are expressly outside the Hong Kong row (they carry 100 ug/kg under the same item) and route to Category 29, so the 10 ug/kg value is not being borrowed from a mushroom limit."
@@ -502,8 +487,7 @@
             "eu2023_pb_leaf_vegetables_300",
             "ch_vhk_2026_pb_blattgemuse_300",
             "mercosur_gmc12_2011_leaf_vegetables_herbs_pb_300",
-            "py_decreto1335_2019_leaf_vegetables_herbs_pb_300",
-            "il_fcs2016_pb_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_300"
+            "py_decreto1335_2019_leaf_vegetables_herbs_pb_300"
           ],
           "basis_label": "wet weight, fresh spinach as sold",
           "label": "AU-NZ Food Standards Code Schedule 19 sets lead at 100 ug/kg for vegetables except brassicas, which covers spinach as a matter of Australian and New Zealand law; the EU leaf-vegetable row (whose scope note records that it covers spinach), its Swiss mirror, MERCOSUR, Paraguay and Israel all sit at 300 ug/kg.",
@@ -516,8 +500,7 @@
             "ch_vhk_2026_cd_spinat-und-verwandte-arten-blatter_200",
             "hk_cap132v_cd_leafy-vegetables-including-brassica-leafy-vegetables_200",
             "mercosur_gmc12_2011_leaf_vegetables_herbs_cd_200",
-            "py_decreto1335_2019_leaf_vegetables_herbs_cd_200",
-            "il_fcs2016_cd_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_200"
+            "py_decreto1335_2019_leaf_vegetables_herbs_cd_200"
           ],
           "basis_label": "wet weight, fresh spinach as sold",
           "label": "AU-NZ Food Standards Code Schedule 19 sets cadmium at 100 ug/kg for leafy vegetables with no spinach carve-out, which caps spinach in Australia and New Zealand; the EU spinach row, its Swiss mirror, Hong Kong, MERCOSUR, Paraguay and Israel all sit at 200 ug/kg.",
@@ -527,24 +510,22 @@
           "gov_ids": [
             "mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300",
             "py_decreto1335_2019_leaf_vegetables_herbs_tas_300",
-            "hk_cap132v_tas_vegetables_500",
-            "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
+            "hk_cap132v_tas_vegetables_500"
           ],
           "basis_label": "wet weight, fresh spinach as sold",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic for leaf vegetables including loose-leaf brassicas and fresh aromatic herbs at 300 ug/kg; Hong Kong sets 500 ug/kg for vegetables and Israel 1000 ug/kg.",
           "substantiation": "No jurisdiction writes a spinach-specific total-arsenic maximum level, so the general leaf-vegetable rows of each instrument are the applicable cells for this product form. The inorganic-arsenic species limit of 60 ug/kg is the operative arsenic constraint."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          ],
-          "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-          "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
           ],
           "basis_label": "wet weight, fresh spinach as sold",
           "label": "Hong Kong Cap. 132V item 12 sets total mercury for vegetables other than edible fungi at 10 ug/kg; Israel MOH FCS-2016 category 3 sets 30 ug/kg for fruits and vegetables.",
@@ -617,7 +598,6 @@
             "ch_vhk_2026_pb_fruchtgemuse_50",
             "hk_cap132v_pb_fruiting-vegetables-cucurbits_50",
             "hk_cap132v_pb_fruiting-vegetables-other-than-cucurbits_50",
-            "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
             "ch_vhk_2026_pb_kopfkohle_100",
             "ch_vhk_2026_pb_blumenkohle_100",
             "ch_vhk_2026_pb_kohlrabi_100",
@@ -663,7 +643,6 @@
             "py_decreto1335_2019_bulb_vegetables_sheathing_leaves_cd_50",
             "py_decreto1335_2019_cucurbitaceae_fruiting_vegetables_cd_50",
             "py_decreto1335_2019_other_fruiting_vegetables_cd_50",
-            "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
             "hk_cap132v_cd_legume-vegetables_100",
             "hk_cap132v_cd_stalk-and-stem-vegetables_100",
             "mercosur_gmc12_2011_leguminous_vegetables_cd_100",
@@ -685,24 +664,22 @@
             "py_decreto1335_2019_leguminous_vegetables_tas_100",
             "mercosur_gmc12_2011_brassica_vegetables_excluding_loose_leaf_tas_300",
             "py_decreto1335_2019_brassica_vegetables_excluding_loose_leaf_tas_300",
-            "hk_cap132v_tas_vegetables_500",
-            "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
+            "hk_cap132v_tas_vegetables_500"
           ],
           "basis_label": "wet weight, fresh vegetable as sold",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic at 100 ug/kg for bulb, cucurbit, other fruiting and leguminous vegetables, against 300 ug/kg for brassicas; Hong Kong sets 500 ug/kg for vegetables and Israel 1000 ug/kg.",
           "substantiation": "Direct maximum levels for four of the five sub-classes in this row. The brassica carve-out at 300 ug/kg is named so the collapsed split is visible; head and flowering brassicas are held to the stricter 100 ug/kg value."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          ],
-          "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-          "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
           ],
           "label": "Hong Kong Cap. 132V item 12 sets total mercury for vegetables other than edible fungi at 10 ug/kg, the strictest sovereign total-mercury maximum level applicable to this product form; Israel MOH FCS-2016 category 3 sets 30 ug/kg for the same commodity class.",
           "substantiation": "Both named rows are direct maximum levels for the vegetable class in an as-sold basis. Hong Kong binds. Edible fungi are expressly outside the Hong Kong row (they carry 100 ug/kg under the same item) and route to Category 29, so the 10 ug/kg value is not being borrowed from a mushroom limit."
@@ -784,7 +761,6 @@
             "aunz_sch19_pb_vegetables_100",
             "mercosur_gmc12_2011_roots_and_tubers_pb_100",
             "py_decreto1335_2019_roots_and_tubers_pb_100",
-            "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100",
             "ch_vhk_2026_pb_schwarzwurzeln_300"
           ],
           "basis_label": "wet weight, fresh root or tuber as sold, potatoes as peeled",
@@ -801,7 +777,6 @@
             "hk_cap132v_cd_root-and-tuber-vegetables_100",
             "mercosur_gmc12_2011_roots_and_tubers_cd_100",
             "py_decreto1335_2019_roots_and_tubers_cd_100",
-            "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100",
             "ch_vhk_2026_cd_knollensellerie_150",
             "ch_vhk_2026_cd_schwarzwurzeln_200"
           ],
@@ -813,24 +788,22 @@
           "gov_ids": [
             "mercosur_gmc12_2011_roots_and_tubers_tas_200",
             "py_decreto1335_2019_roots_and_tubers_tas_200",
-            "hk_cap132v_tas_vegetables_500",
-            "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
+            "hk_cap132v_tas_vegetables_500"
           ],
           "basis_label": "wet weight, fresh root or tuber as sold",
           "label": "MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 set total arsenic for roots and tubers at 200 ug/kg, twice the value the same instrument sets for bulb, cucurbit and leguminous vegetables; Hong Kong sets 500 ug/kg for vegetables and Israel 1000 ug/kg.",
           "substantiation": "Direct maximum level for the exact product form. MERCOSUR's own decision to set roots and tubers at 200 ug/kg while holding other vegetable classes at 100 ug/kg is a government-written product-form split and is preserved rather than overridden with the stricter value from a class this row does not contain. The inorganic-arsenic species limit of 60 ug/kg remains the operative arsenic constraint."
         },
         "iAs": {
-          "gov_ids": [
-            "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          ],
-          "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-          "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "gov_ids": [
-            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
-            "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+            "hk_cap132v_thg_vegetables-other-than-edible-fungi_10"
           ],
           "label": "Hong Kong Cap. 132V item 12 sets total mercury for vegetables other than edible fungi at 10 ug/kg, the strictest sovereign total-mercury maximum level applicable to this product form; Israel MOH FCS-2016 category 3 sets 30 ug/kg for the same commodity class.",
           "substantiation": "Both named rows are direct maximum levels for the vegetable class in an as-sold basis. Hong Kong binds. Edible fungi are expressly outside the Hong Kong row (they carry 100 ug/kg under the same item) and route to Category 29, so the 10 ug/kg value is not being borrowed from a mushroom limit."
@@ -901,8 +874,6 @@
           "gov_ids": [
             "hk_cap132v_pb_pickled-cucumbers-also-known-as-cucumber-pickles_100",
             "hk_cap132v_pb_canned-vegetables_100",
-            "il_fcs2016_pb_20_canned_vegetables_except_listed_categories_100",
-            "il_fcs2016_pb_20_1_canned_brassica_and_leafy_vegetables_300",
             "hk_cap132v_pb_table-olives_400",
             "mercosur_gmc12_2011_table_olives_pb_500",
             "py_decreto1335_2019_table_olives_pb_500"
@@ -943,12 +914,11 @@
           "substantiation": "R1 direct maximum levels; the row binds the strictest applicable to any member. WHY THE COMMODITY CLASSES REACH THE PICKLED FORM UNDER THIS INSTRUMENT. MERCOSUR writes separate rows where it intends a processed form to have its own value: table olives and tomato concentrates each get one. It writes NO pickled-cucumber, sauerkraut, kimchi or pickled-onion row, and its vegetable classes are written without a 'fresh' qualifier ('fruiting vegetables of the Cucurbitaceae family', 'bulb vegetables and sheathing leaves'), in contrast to its fruit classes, which are expressly 'fresh fruits excluding berries and small fruits'. A pickled cucumber is a fruiting vegetable of the Cucurbitaceae family, so under MERCOSUR it sits in that class at 100 ug/kg, and a pickled onion sits in the bulb class at 100 ug/kg. This is the same canon of construction this category applies to Israel for dried fruit: where an instrument demonstrably knows how to write a carve-out for a processed form and declines to, the commodity class governs. CORRECTION OF RECORD: an earlier draft of this cell published 300 ug/kg on the table-olive rows alone, with Hong Kong vegetables at 500 ug/kg as the only other named candidate. Table olives are one member of this row; the dominant members had no named candidate at all, and the fresh commodity classes three times stricter were named nowhere and dispositioned nowhere. The row's scan could not surface them because its audit_scope carried only pickle, ferment and olive tokens and its exclusion list carried a bare 'fruit' token that also matched 'fruiting vegetables'; both have been widened and narrowed respectively so the scan can now see these rows. CONSISTENCY WITH THIS ROW'S OTHER ARSENIC CELL: the inorganic-arsenic cell already applies exactly this reasoning, reading 60 ug/kg across from the fresh fruits-and-vegetables class on the ground that acidification, fermentation and brining do not create or concentrate arsenic in the drained product. That argument is analyte-level, not species-level, so it applies with identical force to total arsenic; publishing 300 ug/kg for total arsenic while reading 60 ug/kg across for the species was internally contradictory. THE LEAD CELL IS DIFFERENT ON PURPOSE AND THAT IS NOT A CONTRADICTION: there, Hong Kong writes an express pickled-cucumber lead row at 100 ug/kg against its fresh cucurbit value of 50 ug/kg, so a sovereign has expressly ruled that brine contact adds a lead pathway the fresh value does not cover, and the express pickled row is the applicable cell. No sovereign writes any pickled-form arsenic row, so no such ruling exists for arsenic and the commodity class governs. CONSEQUENCE, DISCLOSED: the table-olive members are held at 100 ug/kg against the 300 ug/kg their own MERCOSUR class allows, which is the same strictest-member over-compliance this row already applies to lead (table olives held at the pickled-cucumber value) and cadmium (fermented brassicas held at the table-olive value). Splitting table olives out of this row is the recommended taxonomy fix. Total arsenic is never satisfied by the inorganic-arsenic cell; both are reported, and the 60 ug/kg species value remains the operative arsenic constraint."
         },
         "iAs": {
-          "read_across": {
-            "source_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-            "label": "No jurisdiction writes an inorganic-arsenic maximum level for pickled, fermented or brined vegetables; the nearest applicable sovereign value is Israel MOH FCS-2016 category 3 for fruits and vegetables, 60 ug/kg, the only inorganic-arsenic maximum level any credible government writes for this commodity.",
-            "substantiation": "R2 disclosed read-across from the same commodity in its fresh form. Acidification, fermentation and brining do not create or concentrate arsenic in the drained product, and the drained-product basis is comparable to the fresh vegetable for the cucumber, cabbage and onion forms that dominate this row, so face value is basis-appropriate rather than an invented conversion. Israel's dried-produce inorganic-arsenic row (300 ug/kg) is not used because this row is not a dried product."
-          },
-          "basis_label": "Israel fresh fruits-and-vegetables inorganic-arsenic maximum level applied to the drained pickled product as sold (comparable basis, disclosed)"
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
           "read_across": {

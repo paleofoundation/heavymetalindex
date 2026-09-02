@@ -11,14 +11,14 @@
         "type": "gov",
         "value": 1000,
         "value_exact": 1000,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
-        "basis_note": "face value",
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_pb_food_other_1000",
+        "basis_note": "TH general-food maximum level (food other than the listed lead categories)",
         "per_country": {
-          "IL": {
+          "TH": {
             "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_pb_6_oilseeds_and_olives_1000"
+            "converted": false,
+            "id": "th_moph414_2020_pb_food_other_1000"
           }
         },
         "provenance": "regulatory-alignment",
@@ -53,14 +53,14 @@
         "type": "gov",
         "value": 1000,
         "value_exact": 1000,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_tas_5_3_oilseeds_1000",
-        "basis_note": "face value",
+        "binding_jurisdiction": "SG",
+        "binding_id": "sg_foodregs_2026_other_food_tas_1000",
+        "basis_note": "SG general-food maximum level (other food not specified in the Tenth Schedule)",
         "per_country": {
-          "IL": {
+          "SG": {
             "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_5_3_oilseeds_1000"
+            "converted": false,
+            "id": "sg_foodregs_2026_other_food_tas_1000"
           }
         },
         "provenance": "regulatory-alignment",
@@ -81,16 +81,16 @@
       },
       "tHg": {
         "type": "gov",
-        "value": 400,
-        "value_exact": 400,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_4_1_oilseeds_400",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_thg_food_other_20",
+        "basis_note": "TH general-food maximum level (food other than the listed total-mercury categories)",
         "per_country": {
-          "IL": {
-            "value": 400,
-            "converted": true,
-            "id": "il_fcs2016_thg_4_1_oilseeds_400"
+          "TH": {
+            "value": 20,
+            "converted": false,
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         },
         "provenance": "regulatory-alignment"

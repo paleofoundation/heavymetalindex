@@ -1,0 +1,29 @@
+{
+  "generated": "2026-09-02T11:03:22.941Z",
+  "cert": "/Users/karenpendergrass/Desktop/heavymetalcertified",
+  "dir": "cat34-compiled",
+  "applied": true,
+  "cells": 1,
+  "by_class": {
+    "subsumed": 1
+  },
+  "cells_detail": [
+    {
+      "dir": "cat34-compiled",
+      "slug": "salt",
+      "variant": "_",
+      "analyte": "iAs",
+      "kind": "gov",
+      "live_value": 500,
+      "basis": "food-grade salt (dry); inorganic arsenic. Israel FCS 2016 sets an explicit inorganic-arsenic salt limit (500 ug/kg), coincident with the total-As ceiling (iAs <= tAs).",
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_ias_12_salt_500",
+      "gated_scope": "Salt",
+      "class": "subsumed",
+      "pick": null,
+      "held": true,
+      "config": "cat34-config.json",
+      "scope_terms": true
+    }
+  ]
+}

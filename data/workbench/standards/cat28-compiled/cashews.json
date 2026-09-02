@@ -52,15 +52,20 @@
         "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "read_across",
-        "value": 400,
-        "value_exact": 400,
-        "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
-        "source_jurisdiction": "IL",
-        "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)",
-        "basis_note": "face value (nearest sovereign value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "gov",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_thg_food_other_20",
+        "basis_note": "TH general-food maximum level (food other than the listed total-mercury categories)",
+        "per_country": {
+          "TH": {
+            "value": 20,
+            "converted": false,
+            "id": "th_moph414_2020_thg_food_other_20"
+          }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "subsumed",

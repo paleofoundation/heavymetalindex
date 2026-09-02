@@ -79,8 +79,28 @@
       "native_basis": "as_consumed",
       "canned": false,
       "soy_split": false,
-      "scope_include": ["raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
-      "scope_exclude": ["powder", "formula", "infant", "cheese", "cream", "condensed", "evaporated", "fermented", "yogurt", "tin-coated", "in tins", "canned"]
+      "scope_include": [
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
+      "scope_exclude": [
+        "powder",
+        "formula",
+        "infant",
+        "cheese",
+        "cream",
+        "condensed",
+        "evaporated",
+        "fermented",
+        "yogurt",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ]
     },
     "dairy-milk-goat-sheep": {
       "name": "Liquid milk — goat, sheep, and other ruminant",
@@ -88,16 +108,62 @@
       "canned": false,
       "soy_split": false,
       "_scope_note": "Sovereign fluid-milk and general-dairy contaminant maximums are species-agnostic (no regulator sets a separate goat/sheep Pb/Cd/As/Hg limit), so this row shares the general fluid-milk/dairy sovereign pool with cow milk rather than being under-scoped to species-named rows only.",
-      "scope_include": ["goat milk", "sheep milk", "goat dairy", "sheep dairy", "raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
-      "scope_exclude": ["powder", "formula", "infant", "cheese", "cream", "condensed", "evaporated", "fermented", "yogurt", "tin-coated", "in tins", "canned"]
+      "scope_include": [
+        "goat milk",
+        "sheep milk",
+        "goat dairy",
+        "sheep dairy",
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
+      "scope_exclude": [
+        "powder",
+        "formula",
+        "infant",
+        "cheese",
+        "cream",
+        "condensed",
+        "evaporated",
+        "fermented",
+        "yogurt",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ]
     },
     "dairy-milk-camel": {
       "name": "Camel milk",
       "native_basis": "as_consumed",
       "canned": false,
       "soy_split": false,
-      "scope_include": ["camel milk", "camel dairy", "raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
-      "scope_exclude": ["powder", "formula", "infant", "cheese", "cream", "condensed", "evaporated", "fermented", "yogurt", "tin-coated", "in tins", "canned"],
+      "scope_include": [
+        "camel milk",
+        "camel dairy",
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
+      "scope_exclude": [
+        "powder",
+        "formula",
+        "infant",
+        "cheese",
+        "cream",
+        "condensed",
+        "evaporated",
+        "fermented",
+        "yogurt",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ],
       "_scope_note": "No sovereign sets camel-milk-specific contaminant maximums. Government fluid-milk/general-dairy MLs are species-agnostic and apply to camel milk as fluid milk (a disclosed same-matrix government limit, not an occurrence analogy). The Step Zero lock's caution against cow-milk analogy applies to OCCURRENCE evidence, which this government-limit standard never uses."
     },
     "dairy-cheese": {
@@ -105,8 +171,19 @@
       "native_basis": "as_sold",
       "canned": false,
       "soy_split": false,
-      "scope_include": ["cheese", "cheeses", "cheese products"],
-      "scope_exclude": ["formula", "infant", "milk chocolate", "tin-coated", "in tins", "canned"]
+      "scope_include": [
+        "cheese",
+        "cheeses",
+        "cheese products"
+      ],
+      "scope_exclude": [
+        "formula",
+        "infant",
+        "milk chocolate",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ]
     },
     "dairy-yogurt-cultured": {
       "name": "Yogurt and cultured dairy",
@@ -114,8 +191,36 @@
       "canned": false,
       "soy_split": false,
       "_scope_note": "Yogurt/cultured dairy is fermented milk at the same contaminant concentration as its milk (culturing adds no Pb/Cd/As/Hg), so it shares the general fluid-milk/dairy sovereign pool. Concentrated dairy forms (cheese, powder, condensed, butter) are excluded so their higher form-specific limits never leak in.",
-      "scope_include": ["yogurt", "yoghurt", "fermented milk", "cultured dairy", "raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
-      "scope_exclude": ["formula", "infant", "baby", "young child", "under 2", "milk chocolate", "cheese", "\\bcream\\b", "condensed", "evaporated", "powder", "butter", "ghee", "tin-coated", "in tins", "canned"]
+      "scope_include": [
+        "yogurt",
+        "yoghurt",
+        "fermented milk",
+        "cultured dairy",
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
+      "scope_exclude": [
+        "formula",
+        "infant",
+        "baby",
+        "young child",
+        "under 2",
+        "milk chocolate",
+        "cheese",
+        "\\bcream\\b",
+        "condensed",
+        "evaporated",
+        "powder",
+        "butter",
+        "ghee",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ]
     },
     "dairy-cream": {
       "name": "Cream",
@@ -123,26 +228,67 @@
       "canned": false,
       "soy_split": false,
       "_scope_note": "Cream is a fluid-milk fraction; Pb/Cd/As/Hg are not fat-partitioned, so cream shares the general fluid-milk/dairy sovereign pool rather than being certified looser than milk on a cream-specific catch-all row. Concentrated and unrelated 'cream' products (cheese, ice cream, cosmetic creams) are excluded.",
-      "scope_include": ["milk cream", "\\bcream\\b", "raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
-      "scope_exclude": ["cream of tartar", "skin cream", "cosmetic", "shampoo", "thiomersal", "preservative", "ice cream", "cheese", "condensed", "evaporated", "powder", "yogurt", "yoghurt", "fermented", "butter", "ghee", "formula", "infant", "tin-coated", "in tins", "canned"]
+      "scope_include": [
+        "milk cream",
+        "\\bcream\\b",
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
+      "scope_exclude": [
+        "cream of tartar",
+        "skin cream",
+        "cosmetic",
+        "shampoo",
+        "thiomersal",
+        "preservative",
+        "ice cream",
+        "cheese",
+        "condensed",
+        "evaporated",
+        "powder",
+        "yogurt",
+        "yoghurt",
+        "fermented",
+        "butter",
+        "ghee",
+        "formula",
+        "infant",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ]
     },
     "dairy-milk-powders": {
       "name": "Milk powders — whole, skim, and specialty",
       "native_basis": "as_sold",
       "canned": false,
       "soy_split": false,
-      "scope_include": ["milk powder", "powder milk", "powdered milk", "modified milk powder"],
-      "scope_exclude": ["infant formula", "follow-on", "follow-up", "young-child", "young child", "excluding powder", "tin-coated", "in tins", "canned"],
+      "scope_include": [
+        "milk powder",
+        "powder milk",
+        "powdered milk",
+        "modified milk powder"
+      ],
+      "scope_exclude": [
+        "infant formula",
+        "follow-on",
+        "follow-up",
+        "young-child",
+        "young child",
+        "excluding powder",
+        "tin-coated",
+        "in tins",
+        "canned"
+      ],
       "exclude_as_consumed": true,
       "read_across": {
         "Ni": {
           "source_id": "eu2024_ni_formula_powder_250",
           "label": "Sovereign powder-basis dairy read-across from the EU non-soy infant/young-child formula nickel maximum (250 ug/kg)."
-        },
-        "Cr": {
-          "source_id": "china_gb2762_cr_milk_powder_2000",
-          "basis": "gov",
-          "label": "China GB 2762 total-chromium maximum for milk and modified milk powder (2000 ug/kg)."
         }
       }
     },
@@ -152,8 +298,18 @@
       "canned": true,
       "soy_split": false,
       "exclude_as_consumed": true,
-      "scope_include": ["condensed milk", "evaporated milk", "milk products in tins", "canned milk"],
-      "scope_exclude": ["formula", "infant", "milk chocolate", "powder"],
+      "scope_include": [
+        "condensed milk",
+        "evaporated milk",
+        "milk products in tins",
+        "canned milk"
+      ],
+      "scope_exclude": [
+        "formula",
+        "infant",
+        "milk chocolate",
+        "powder"
+      ],
       "read_across": {
         "Sn": {
           "source_id": "eu2023_sn_canned_foods_200000",
@@ -168,8 +324,27 @@
       "canned": false,
       "soy_split": false,
       "_cross_reference": "Also carried as Category 7 Row 3 (Oils, Condiments, and Specialty Foods) on the dairy-fat platform. This Category 24 Row 9 derivation is scope-aligned with the Cat 7 butter-and-ghee standard so the two never disagree; both anchor to the Vietnam QCVN 8-2:2011 dairy-fat-products sovereign limits.",
-      "scope_include": ["\\bbutter\\b", "\\bghee\\b", "milk fat", "milkfat", "dairy fat", "dairy-fat products"],
-      "scope_exclude": ["cocoa butter", "peanut butter", "nut butter", "shea butter", "body butter", "butter oil", "buttermilk", "butterfly", "cream of tartar", "infant", "formula"],
+      "scope_include": [
+        "\\bbutter\\b",
+        "\\bghee\\b",
+        "milk fat",
+        "milkfat",
+        "dairy fat",
+        "dairy-fat products"
+      ],
+      "scope_exclude": [
+        "cocoa butter",
+        "peanut butter",
+        "nut butter",
+        "shea butter",
+        "body butter",
+        "butter oil",
+        "buttermilk",
+        "butterfly",
+        "cream of tartar",
+        "infant",
+        "formula"
+      ],
       "read_across": {
         "Ni": {
           "control_only": true,
