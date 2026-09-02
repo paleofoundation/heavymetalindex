@@ -607,9 +607,18 @@ function ScholarlyDocument(m) {
     ]),
     h(Text, { key: "t", style: s.title }, m.title),
     h(View, { key: "a", style: s.authorRow }, [
-      h(Text, { key: "n", style: s.authorText }, `${m.authorLine.name} ·`),
+      // Byline: "Name  [ORCID iD glyph]  · Affiliation". The iD is a vector glyph
+      // with no text layer, so the separators must NOT flank it — otherwise text
+      // extraction (Google Scholar's PDF pass, any crawler, a human copy-paste)
+      // reads a doubled "· ·" with the glyph collapsed out. So the name carries
+      // no trailing dot and the single separator rides the affiliation run: the
+      // glyph sits between them visually, and extraction yields the clean
+      // "Karen Pendergrass · Heavy Metal Index, …". (The ORCID identifier itself
+      // lives on the glyph's link target and on every other surface — HTML
+      // citation_author, JSON-LD, the DataCite creator — so it is not lost.)
+      h(Text, { key: "n", style: s.authorText }, m.authorLine.name),
       OrcidBadge(m.authorLine.orcid, "orcid"),
-      h(Text, { key: "aff", style: s.authorText }, `· ${m.authorLine.affil}`),
+      h(Text, { key: "aff", style: s.authorText }, ` · ${m.authorLine.affil}`),
     ]),
     m.doi
       ? h(
