@@ -11,7 +11,7 @@
       "cert_base": "c1d41c2"
     }
   ],
-  "phase": "B/C/E per category (15 dirs reconciled: cat1*,3,4*,5,8*,11,21,27*,28,29*,30*,33,34*,35,seafood; * = records held for ratification) + Israel supersession fallout re-anchored + M1 g6.B and M2 seafood p1-p5 A/B agents running",
+  "phase": "B/C/E: 25 dirs reconciled through the round-trip (cat1*,3,4*,5,8*,11,16*,17*,21,24*,25,27*,28,29*,30*,31*,32,33,34*,35,seafood*; cat26 in progress; * = records held for ratification) + M2 round 1 on seafood done (10 verdicts, canary caught) + Israel supersession fallout re-anchored",
   "phase_a": {
     "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
     "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
@@ -222,13 +222,11 @@
     "window": "12/hour cap; next free ~12:06 UTC"
   },
   "next_steps": [
-    "ingest M1 g6.B (confidence-run --cat=seafood --ingest-m1=_m1-verdicts/m1-20260902-g6.B.json) and M2 seafood A/B (--ingest-m2=<file> per verdict file), rerun runner, --mirror when index lint passes, add seafood to confidence-blocking.json",
-    "regenerate cat30 M2 packet (done by runner; p6) and dispatch A/B when governor frees",
-    "cat31/cat32 via LIMIT harvest shape (limit-compiler gov_ids pins landed), cat15 same",
-    "cat24/cat16/cat17/cat25/cat26 bespoke compilers: per-config harvest (cat26 PDE guard; 55 regressions)",
-    "cat2/10/13/14/19/20/22/23 wrong-basis C-phase (518 cells inventoried)",
-    "cat9 (10-cell, no cert dir) and cat12 (no config) per brief",
-    "Phase F rerun of the DoD 9 dry runs; Phase G report with held-raise ratification table"
+    "dispatch M2 round 2 (seafood p1-p4 A/B = 8 leases) + cat30 p6 A/B (2) at the governor window; ingest; rerun confidence-run; --mirror when index lint passes",
+    "finish cat26 (verify defects) and render in cert",
+    "cat2/10/13/14/19/20/22/23 wrong-basis C-phase (518 cells; human-gated OI) and cat9/cat12 per brief",
+    "Phase F: rerun the DoD 9 dry runs; Phase G report with the held-raise ratification table (83 items), tightened-number table, and the batched escalation list",
+    "open index PR to main; commit governor spend ledger"
   ],
   "closed_ois": [
     "OI-20260902-readiness-lint-still-overcounts-complete",
@@ -279,7 +277,7 @@
       "cat12": "nothing in either repo; 21 hand pages"
     }
   },
-  "updated": "2026-09-02T11:20Z",
+  "updated": "2026-09-02T11:45Z",
   "israel_supersession": {
     "status": "APPLIED 2026-09-02 (index f975371e1)",
     "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
@@ -288,5 +286,12 @@
     "tools": "tools/standards/drop-gated-pins.mjs (93 pins dropped), tools/standards/reanchor-superseded.mjs (--apply; overrides in confidence/_reanchor-overrides.json; held raises in confidence/_held-raises.json), roundtrip --copy-clean (held record: index dir updated, cert dir frozen)",
     "held_for_ratification": "cat1 15 cells (infant tHg 8/15/4→20, juice Cd 10→20), cat4 (dried-fruit/fruit-snacks Pb 100→200; 8 iAs firm→bounded), cat8 water iAs 6→10 ×4, cat27 4 iAs firm→bounded, cat29 3 iAs firm→bounded, cat30 oils Cd 30→200 ×2, cat34 salt iAs 500→bounded",
     "open": "OI-20260902-eu-successor-cells-missing-from-register (EU 2023/915 s.3.3 Hg / s.3.5 Sn, Reg 2018/73 mercury MRLs, Dir 2003/40/EC not in register: they would tighten plant-commodity tHg cells); unreconciled dirs (cat16/17/18/24) still carry Israel-anchored cert cells — handled in their own reconciliation"
-  }
+  },
+  "m2": {
+    "seafood_round1": "p1-p5 A/B ingested: 17 confirmed, 31 refuted, 28 unverified (before the fixes); fixes applied in seafood-config (Cr-VI bounded, Ni→EU baby food 500, seaweed Cr→GB cereals 1000, predatory tHg/MeHg→500, Cd off GSO exceptions, disclosures)",
+    "seafood_round2": "packets m2-20260902b-p1..p4 built by tools/standards/build-m2-packets.mjs (24 batches); dispatch A+B when the governor frees (~12:06 UTC)",
+    "cat30": "packet m2-20260902-p6 (6 batches) not yet dispatched",
+    "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled"
+  },
+  "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)"
 }
