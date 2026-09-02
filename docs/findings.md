@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-220 open item(s): 72 auto, 148 awaiting a decision.
+222 open item(s): 74 auto, 148 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -546,6 +546,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: sed -n 60,66p tools/mint-dois.mjs (dryRun = --dry-run || !credentialsReady); grep -cE "^DATACITE_(USER|PASSWORD|PREFIX)=.+" .env.local (3); grep -n TEST_PREFIXES tools/mint-dois.mjs ~/Desktop/heavymetalcertified/tools/mint-dois.mjs (no 10.84435); git -C ~/Desktop/heavymetalcertified show wip/stranded-datacite-cat23-b090435:tools/datacite-preflight.mjs | grep -n "method: \"POST\"\|DELETE"
 - done when: index mint-dois.mjs requires an explicit --live (or --execute) flag to deposit; credentials alone never execute; 10.84435 added to TEST_PREFIXES in both mint-dois.mjs files; datacite-preflight.mjs header states it creates+deletes a DataCite draft record and requires an explicit --execute flag; it never prints DATACITE_USER
 - evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Ground truth / Hard rules
+
+### OI-20260902-gb2762-2025-repoint-cat-configs — Re-point every config and live cert record from superseded GB 2762-2022 ids to the GB 2762-2025 successors (values unchanged)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `tools/standards/cat17-config.json`, `tools/standards/cat30-config.json`, `tools/standards/cat24-config.json`, `tools/standards/cat5-config.json`, `tools/standards/seafood-config.json`, `data/workbench/standards/confidence/_gb2762-2025-registration.md`
+- repro: 29 GB 2762-2022 rows carry status superseded since 2026-09-02; audit C4 now fails every cell anchored on them (index cat1/17/24/30/5/seafood configs; live cert cat1, 3, 5, 16, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32, 34, seafood cite them). Successor ids and the old→new map are in the registration record; every value is unchanged, so the re-point is an anchor-change, not a numeric change.
+- done when: no config cites a superseded china_gb2762_/cn_ GB 2762-2022 id; audit C4 reports 0 gated GB 2762 anchors in every index and cert dir; diff-compiled-vs-cert classifies the re-pointed cells as anchor-change with zero regressions; OI-20260825-cat30-cr-gb2762-2025-recheck closed: value 300 confirmed unchanged in GB 2762-2025 Table 7 item 6.1
+- notes: Enacted category by category in the D→B→C→E pipeline of docs/tasks/standards-95-confidence-completion-brief.md; this item tracks the whole set.
+
+### OI-20260902-gb2762-2025-official-url — Capture the official NHC/SAMR posting URL for GB 2762-2025 into the raw manifest, the 169 register rows and the wiki page
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `raw/regulatory/_manifest-reg-all.csv`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/china-gb-2762-2025-contaminants.md`
+- repro: grep -i 2762 raw/regulatory/_manifest-reg-all.csv returns nothing; every china_gb2762_2025_* row has an empty url; the page carries source_url: null and source_file (raw path). Values were verified from the raw PDF, so this is a provenance-pointer gap, not a value gap.
+- done when: manifest row for cn/china-gb-2762-2025-effective-2026-09-02.pdf with the official URL; url filled on every china_gb2762_2025_* row; source_url set on the wiki page
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 
