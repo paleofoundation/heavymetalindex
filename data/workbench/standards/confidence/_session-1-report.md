@@ -119,3 +119,9 @@ Opened (auto): OI-20260902-eu-successor-cells-missing-from-register, OI-20260902
 2. Deep read for the FSSAI 2016 chromium row (g6 disagreement) and the France CSHPF seaweed rows.
 3. Ingest the missing EU successor rows (2023/915 Hg and Sn sections, Reg 2018/73 mercury MRLs, Directive 2003/40/EC) with primary sources and regulation pages; they tighten plant-commodity tHg.
 4. cat9 and cat12 configs; Phase C once ruled.
+
+## Addendum (13:45 UTC): M2 round 2
+
+Dispatched at 12:09 UTC (seafood p1–p4 and cat30 p6, roles A and B, ten leases). Four verdicts landed and were ingested (seafood p2.A, p2.B, p4.A; cat30 p6.A): seafood now 24 confirmed, 31 refuted, 21 unverified, 1 blocked; cat30 0 confirmed, 8 refuted, 14 unverified. The refutations repeat round 1 (Cr-VI water-MCL anchors, canned-food tin read-across on non-canned seafood, freshwater species scope, cat30 Ni nearest-instrument is GB 2762-2025 hydrogenated oils) because manifests verify the cert bytes and those fixes are held on the index side. The cat30 canary was refuted correctly.
+
+Six verifiers (seafood p1.A, p1.B, p3.A, p3.B, p4.B; cat30 p6.B) were terminated by the account's monthly spend limit (HTTP 429). They were not re-dispatched. Escalation item 11: raise the limit at claude.ai/settings/usage or accept that M2 rounds resume after the monthly reset; the packets stay on disk.
