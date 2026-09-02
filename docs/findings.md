@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-224 open item(s): 75 auto, 149 awaiting a decision.
+225 open item(s): 75 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -581,6 +581,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/datacite-reconcile-media.mjs`, `tools/mint-dois.mjs`
 - repro: GET api.datacite.org/dois/10.83376/hmi.organic-certification-not-protective -> container:{}. mint-dois.mjs ~L301 sends container {type:Series,title:Heavy Metal Index} but the 24 synthesis DOIs predate that wiring. Backfill via REST PUT during the same credentialed pass as OI-20260901-datacite-media-apply.
 - done when: All 24 10.83376 synthesis DOIs carry container {type:Series,title:Heavy Metal Index}; Backfill runs idempotently alongside the media-apply reconcile
+
+### OI-20260902-completion-pass-wrong-basis-inventory — Completion pass (Phase C): 518 live cert cells across cat2/10/13/14/18/19/20/22/23 cite anchors that fail their own basis_guard (toy-migration rows on content cells, Cr-VI water row on total-Cr) — each needs a same-basis in-force anchor, a disclosed protective read-across, or a baseline screen
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards/confidence/_c-inventory.json`, `tools/standards/cat2-config.json`, `tools/standards/cat10-config.json`, `tools/standards/cat13-config.json`, `tools/standards/cat14-config.json`, `tools/standards/cat18-config.json`, `tools/standards/cat19-config.json`, `tools/standards/cat20-config.json`, `tools/standards/cat22-config.json`, `tools/standards/cat23-config.json`
+- repro: node tools/standards/harvest-cert-anchors.mjs --cat=<N> reports the skipped cells with the failing basis; node tools/standards/roundtrip-category.mjs --cat=<N> shows them as cert-valued-index-empty regressions. Examples: baby-lotion-cream Sn 3,750,000 and Al 560,000 from EU 2009/48 category II toy migration; every cosmetic total-Cr 50 from the NHMRC Cr-VI drinking-water guideline.
+- done when: every inventoried cell is re-anchored by config (same-basis sovereign row, species-as-total or basis_bridge read-across with disclosure, or baseline_screen with a published-method LOQ) and the round-trip is clean; every correction that RAISES a published number is listed for Karen ratification before push; baseline-screen cells created are listed for the one-pass veto
+- decision: _pending_
+- notes: human-gated because corrections in this set will raise published numbers (the toy-migration Sn/Al values are absurdly loose, so most corrections tighten, but the Cr-VI-anchored total-Cr cells at 50 may rise) and because several categories will need baseline screens where no sovereign content instrument exists.
 
 ### OI-20260902-cert-stranded-datacite-cat23 — Stranded local cert commit b090435 bundles datacite-preflight tool plus STALE Cat-23 standards edits; must not be pushed as-is
 
