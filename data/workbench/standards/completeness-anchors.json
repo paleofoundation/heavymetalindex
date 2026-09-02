@@ -1188,74 +1188,74 @@
   "Cd": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg"
  },
  "cookware-metal-alloy": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "cookware-specialty-alloy": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "utensils-metal": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "tableware-metal-bottles-tumblers": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "food-prep-kettle-interiors": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "food-prep-coffee-maker-pathways": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "bakeware": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration",
-  "Al": "eu_2009_48_cat3_al_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_1000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "food-packaging-glass-jars": {
   "Pb": "ca_sb929_2010_pb_childrens_jewelry_glass_crystal_200ppm",
@@ -1288,13 +1288,14 @@
   "Al": "eu_2009_48_cat3_al_toy_migration"
  },
  "food-packaging-foils-wraps": {
-  "Pb": "kr_mfds2024_29_pb_metal_food_contact_1000000",
-  "tAs": "eu_2009_48_cat3_tas_toy_migration",
-  "tHg": "eu_2009_48_cat3_thg_toy_migration",
-  "Cd": "eu_2009_48_cat3_cd_toy_migration",
-  "Cr-VI": "eu_2009_48_cat3_crvi_toy_migration",
-  "Ni": "eu_2009_48_cat3_ni_toy_migration",
-  "Sn": "eu_2009_48_cat3_sn_toy_migration"
+  "Pb": "cn_pb_food-contact-metal-migration_10",
+  "Cd": "cn_cd_food-contact-metal-migration_2",
+  "tAs": "cn_tas_food-contact-metal-migration_2",
+  "Cr": "cn_cr-total_food-contact-metal-migration_250",
+  "Ni": "cn_ni_food-contact-metal-migration_140",
+  "Sn": "cn_sn_food-contact-metal-migration_100000",
+  "Al": "cn_al_food-contact-metal-migration_5000",
+  "tHg": "eu_10_2011_thg_sml_nd"
  },
  "filter-media-and-housings": {
   "Pb": "eu20202184_pb_drinking_water_5",

@@ -60,7 +60,8 @@ for(const f of files){
     // drinking-water chromium ceiling as Cr-VI on the conservative assumption all chromium is hexavalent).
     // Disclosed on the cell. Any other metal mismatch is rejected.
     const crossOk=(a==="Cr"&&r.met==="Cr-VI"&&/drinking water|water intended|public water/i.test(r.scope||""));
-    if(r.met!==a&&!crossOk){errors.push(`${slug}/${a}: manifest id ${mid} is metal ${r.met}, not ${a}`);continue}
+    const crTotalOk=(a==="Cr"&&r.met==="Cr-total"); // register labels total chromium "Cr-total"; the panel total-chromium cell is "Cr" — same element, accept it
+    if(r.met!==a&&!crossOk&&!crTotalOk){errors.push(`${slug}/${a}: manifest id ${mid} is metal ${r.met}, not ${a}`);continue}
     const crossNote=crossOk?" The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell.":"";
     cells[a]={type:"read_across",value:roundDisplay(r.val),value_exact:r.val,provenance:"read-across",source_id:mid,source_jurisdiction:r.jur,basis:r.basis,source_scope:r.scope,label:`${a} ${roundDisplay(r.val)} ug/kg: disclosed read-across from ${r.jur} ${mid} (${(r.scope||"").slice(0,48)}). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.${crossNote}`,substantiation:`Disclosed read-across, register-verified (${mid}). Nearest applicable sovereign ${a} ceiling for this product form.${crossNote} Not occurrence-derived.`,filled_by:"completeness-sweep"};
     changed=true;filledTotal++;rowRep.push(`${a}=${roundDisplay(r.val)}[${r.jur}]`);
