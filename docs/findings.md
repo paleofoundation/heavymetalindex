@@ -513,14 +513,339 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-176 open item(s): 56 auto, 120 awaiting a decision.
+217 open item(s): 69 auto, 148 awaiting a decision.
+
+### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/synthesis/aquaculture-vs-wild-contamination-differential.md`, `wiki/synthesis/bivalve-cadmium-amplification.md`, `wiki/synthesis/cooking-does-not-reduce-mehg.md`, `wiki/synthesis/se-hg-molar-ratio-certification-debate.md`
+- repro: aquaculture/bivalve/cooking/se-hg titles use an em-dash as the title-to-subtitle separator; the /synthesis/ index now renders them with a colon or comma. page title = H1 = minted 10.83376 DOI title (em-dash). Unifying to colons everywhere would require updating the live DataCite titles on 4 permanent Findable records (needs repo DataCite creds). NOT a DOI/Scholar-parity problem (index anchor is not the citation surface); purely house-style.
+- done when: Karen rules: keep the minted em-dash titles as-is, or de-em-dash page+H1+index+DOI together in one credentialed pass
+- decision: _pending_
+
+### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/datacite-reconcile-media.mjs`, `tools/mint-dois.mjs`
+- repro: GET api.datacite.org/dois/10.83376/hmi.organic-certification-not-protective -> container:{}. mint-dois.mjs ~L301 sends container {type:Series,title:Heavy Metal Index} but the 24 synthesis DOIs predate that wiring. Backfill via REST PUT during the same credentialed pass as OI-20260901-datacite-media-apply.
+- done when: All 24 10.83376 synthesis DOIs carry container {type:Series,title:Heavy Metal Index}; Backfill runs idempotently alongside the media-apply reconcile
+
+### OI-20260902-cert-stranded-datacite-cat23 — Stranded local cert commit b090435 bundles datacite-preflight tool plus STALE Cat-23 standards edits; must not be pushed as-is
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `tools/datacite-preflight.mjs`, `data/standards/cat23-compiled/`
+- repro: Local tag wip/stranded-datacite-cat23-b090435 (commit b090435, authored 2 days ago, never pushed) in heavymetalcertified contains (1) tools/datacite-preflight.mjs, a safe read-only DataCite connection+metadata preflight, on-mission for the approved DOI rollout and worth landing; and (2) edits to 14 data/standards/cat23-compiled/*.json that are STALE. Remote main already completed Cat-23 food-contact plastics correctly at 6016d24/72dfd03 via read-across, so a wholesale push of b090435 would clobber/loosen live Cat-23 standards.
+- done when: datacite-preflight.mjs lands on cert main via a fresh commit touching ONLY that file; Cat-23 compiled standards on main remain the 6016d24/72dfd03 versions not b090435; new commit diff shows no data/standards/cat23-compiled changes
+- decision: _pending_
+
+### OI-20260902-cert-seo-crawl-metadata-129 — Cert seo-audit release gate red: 129 crawl-metadata gaps on non-homepage pages (root causes identified, 4 deterministic fixes)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/audit-crawl-metadata.mjs`, `tools/import-briefings.mjs`, `tools/postbuild-article-pdf.mjs`, `tools/build-category-manual.mjs`, `tools/build-cat1-manual.mjs`, `quartz/components/Head.tsx`, `content/briefings`
+- repro: cd ~/Desktop/heavymetalcertified && npm run build && node tools/audit-crawl-metadata.mjs -> seo-audit: FAILED (129 issues). Tally: 69 = 23 Cat-16 supplements pages x (description, og:description, twitter:description) FALSE POSITIVE: the meta tag exists but its content contains an unescaped > (USP &lt;2232>) which the audit regex selectedAttribute() cannot parse; 27 = 9 briefings link to /briefings/<slug>.pdf that is never rendered (import-briefings emits pdf: for every briefing, postbuild-article-pdf renders only scholar_pdf:true -> 8 files; live 404 on hmtc-primer.pdf, after-palmquist.pdf, defense-counsel-briefing.pdf, brief-2/4/5/6/7/8); 5 manuals lack citation_technical_report_number (no report_number frontmatter emitted by the manual builders); 4 briefings have briefing_date "August 2026" -> citation_publication_date 2026/08 (Scholar needs YYYY/MM/DD); 3 on /requirements/supplements-heavy-metals same > escaping.
+- done when: audit meta()/selectedAttribute parses attribute values containing > (or Head escapes > as &gt;) and the 23+1 description false positives disappear; Either postbuild-article-pdf renders a PDF for every briefing that carries pdf:, or import-briefings emits pdf: only when scholar_pdf is true; zero internal-link-missing entries; live /briefings/hmtc-primer resolves its PDF link or shows none; Manual builders emit report_number (scheme hmtc.manual.<category>.<slug> v<version>) so citation_technical_report_number renders on all 5 manuals; Briefing dates carry a full ISO date (first-commit date of the file when only month is known) and citation_publication_date renders YYYY/MM/DD; node tools/audit-crawl-metadata.mjs exits 0 so npm run publish is unblocked
+- notes: Refined 2026-09-02 by the cert build audit from a human-gated finding to an auto code-fix; none of the four fixes touches a limit, a claim, or the firewall.
+
+### OI-20260902-cert-navpanels-seed-stale — Delete or repurpose stale cert navPanels.seed.ts (holds index-site taxonomy)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `quartz/components/navPanels.seed.ts`, `tools/build-nav-panels.mjs`
+- repro: heavymetalcertified/quartz/components/navPanels.seed.ts still holds the index site's Metals/Foods/Products taxonomy with wiki/ slugs; it is unused (MegaMenu imports the hand-maintained generated/navPanels.ts) and tools/build-nav-panels.mjs points at a nonexistent wiki/ dir. Either delete the stale seed, or author a cert-specific seed and wire the generator so a dangling-slug check runs at build.
+- done when: navPanels.seed.ts removed, or rewritten to the cert 3-door taxonomy; if the generator is wired into prebuild, a dangling slug fails the build; generated/navPanels.ts output matches the current hand-authored 3-door version
+
+### OI-20260902-cert-local-main-diverged — ~/Desktop/heavymetalcertified local main diverged from origin/main: unpushed fa47019 duplicates pushed 30b32c1 (same home fix, different sha)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `.git`
+- repro: cd ~/Desktop/heavymetalcertified && git fetch && git log --oneline origin/main..main (fa47019) && git log --oneline main..origin/main (6ab10f4 30b32c1 8066338) && git diff fa47019 30b32c1 -- content/index.md | wc -l (0)
+- done when: Working tree clean (stash or commit the 344 build-regenerated files first; do not discard untracked data/standards/doi-manifest.csv); git rebase origin/main completes with fa47019 dropped as already-applied; git status shows main up to date with origin/main; no force-push anywhere
+- notes: Found during the 2026-09-02 cert build audit; the audit session did not touch the local branch because an interactive session was committing there concurrently.
+
+### OI-20260902-cert-cat26-stale-framing-no-version-bump — LIVE: Cat-26 pages say no government limit / mandatory control / never a product-content ceiling while the table publishes ICH Q3D ceilings; values changed twice on 2026-09-02 with standard_version still 1.0 (2026-08-14) and no version-history record
+
+- scope: **auto** · type: content · status: open · repo: cert
+- paths: `content/standards/aas-injectable.md`, `content/standards/peptides-injectable-hormones.md`, `content/standards/peptides-nasal-sublingual.md`, `content/standards/research-chem-raw-powders.md`, `content/standards/sarms-oral.md`, `data/standards/cat26-compiled`, `data/standards/version-history`, `tools/render-all-standard-pages.mjs`
+- repro: git show origin/main:content/standards/aas-injectable.md | grep -E "^(description|standard_version|methodology_version)" ; live https://heavymetalcertified.com/standards/aas-injectable contains "No government sets a heavy-metal content limit for this class" and "Mandatory control (no government ML)" above a Master Limit Table with Pb 500 / Cd 200 / tHg 300 (ICH Q3D(R2) parenteral Option 1). Drinking-water proxy (3d4359b 06:56) then ICH Q3D (6ab10f4 10:15) both shipped under v1.0 (2026-08-14); ls data/standards/version-history has no cat26 record.
+- done when: description, methodology_version, snapshot Method row, and the How-limits-are-set prose on all 5 Cat-26 pages are generated from the compiled record and state: read-across from ICH Q3D(R2) Table A.2.2 Option-1 concentrations (10 g/day assumption, disclosed as conservative for sub-gram injectables) and FDA 21 CFR 201.323 for Al; no remaining no-ceiling or mandatory-control-only language; standard_version bumped to 1.1 with a version-history entry summarising both 2026-09-02 changes; the superseded v1.0 PDF stays resolvable; Manuals-page promise "superseded, never quietly corrected" holds for Cat-26
+- evidence: ICH Q3D(R2) Option-1 values in 6ab10f4 verified: oral Pb 500/Cd 500/As 1500/Hg 3000/Ni 20000/Sn 600000/Cr 1.1M ug/kg; parenteral Pb 500/Cd 200/As 1500/Hg 300/Ni 2000/Sn 60000/Cr 110000 ug/kg (numbers correct)
+- notes: Numbers are right; the framing and versioning are wrong. Same defect class as OI-20260831-version-doi-mint-flow (quiet correction on a dated standard).
+
+### OI-20260902-cert-cat23-release-basis-conflation — LIVE: Cat-23 metal/ceramic/glass food-contact standards publish alloy-composition and toy-migration values under a release-into-food basis label (cookware Pb 1,000,000 ppb)
+
+- scope: **auto** · type: finding · status: open · repo: cert
+- paths: `data/standards/cat23-compiled/cookware-metal-alloy.json`, `data/standards/cat23-compiled/cookware-specialty-alloy.json`, `data/standards/cat23-compiled/utensils-metal.json`, `data/standards/cat23-compiled/bakeware.json`, `data/standards/cat23-compiled/food-packaging-foils-wraps.json`, `data/standards/cat23-compiled/food-prep-kettle-interiors.json`, `data/standards/cat23-compiled/food-prep-coffee-maker-pathways.json`, `data/standards/cat23-compiled/tableware-metal-bottles-tumblers.json`, `data/standards/cat23-compiled/tableware-glassware.json`, `data/standards/cat23-compiled/tableware-ceramicware.json`, `data/evidence/regulatory_limits.csv`
+- repro: curl -s https://heavymetalcertified.com/standards/cookware-metal-alloy | sed -E "s/<[^>]+>/ /g" | grep -o "Lead (Pb) 1000000" ; node -e "const r=require(process.cwd()+"/data/standards/cat23-compiled/cookware-metal-alloy.json");console.log(r.native_basis, r.cells.Pb.basis, r.cells.Ni.basis)" -> native_basis = element RELEASE into food (ug/kg food) while Pb source = kr_mfds2024_29_pb_metal_food_contact_1000000 (alloy composition, percent by weight) and Ni/Sn/Al source = eu_2009_48_cat3_*_toy_migration (EN 71-3 Cat III scraped toy material). Cr cell rationale claims no sovereign sets a release ceiling for metal articles: false (China GB 4806.9-2016).
+- done when: Register (index data/evidence/regulatory_limits.csv) carries source-verified rows for China GB 4806.9-2016 metal food-contact migration limits (Pb 0.05, Cd 0.02, As 0.04, Cr 2.0, Ni 0.5 mg/kg; 4% acetic acid) citing the fetched source file, plus CoE CM/Res(2013)9 SRLs as a disclosed comparator; Every Cat-23 record whose native_basis is release/migration into food carries only release-basis instruments; no cell in a release-basis row cites an alloy-composition (percent by weight) or toy scraped-material (EN 71-3) instrument; A basis-guard lint fails the build when a cell basis kind (content / toy-migration / release / water) differs from the record native_basis kind; Recompiled Cat-23 pages render and export drift-check clean; live cookware-metal-alloy Pb is in the tens of ppb, not 1,000,000
+- evidence: build log 2026-09-02: origin/main 8066338 green; live page renders Lead (Pb) 1000000 read-across · register grep: 0 rows for GB 4806.9 / Council of Europe / CM/Res(2013)9 / Italy DM 21/03/1973
+- notes: Wrong-number-live class (feedback: fix now). Not fixed in the audit session because another interactive session is mid-flight on Cat-23 (16/30 complete via read-across) in the same checkout; three local sessions were messaged. Mirrors the Cat-9 rule BASIS NEVER CONFLATED.
+
+### OI-20260902-c5-formula-al-reconstitution-false-positive — audit-compiled-standards C5 false-positive on formula Al 8000 (8:1 reconstitution not modeled)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/audit-compiled-standards.mjs`
+- repro: C5 flags infant-formula-powder Al 8000 as not matching its cited anchor (AU-NZ infant-formula Al 1000). The value is CORRECT: 8000 = 1000 (as-consumed) x the 8:1 powder reconstitution factor. The C5 value-fidelity check compares published vs cited anchor WITHOUT applying the formula reconstitution factor, so it false-positives on formula cells where the 8:1 conversion applies. Pre-existing; not a mint gate (readiness-lint CORRECTED is COMPLETE-based).
+- done when: C5 applies the 8:1 reconstitution factor for reconstitution_8to1 subcategories when comparing published vs anchor, so a correct x8 value is not flagged
+
+### OI-20260901-datacite-media-apply — Apply DataCite PDF media association to the 24 live 10.83376 synthesis DOIs (contentUrl + formats) once repo creds land
+
+- scope: **human-gated** · type: promote · status: open · repo: index
+- paths: `tools/datacite-reconcile-media.mjs`, `.env.local`
+- repro: 24 records under prefix 10.83376 report contentUrl:null/formats:[]. Dry-run of tools/datacite-reconcile-media.mjs shows need-media=24 need-format=24 no-served-pdf=0 (all PDFs HEAD-verified live). Tooling shipped b5287f73b. Live apply blocked on real DATACITE_USER/DATACITE_PASSWORD for the 10.83376 repo (currently PENDING_* in .env.local; Kimberly holds the Fabrica creds that minted the 24). Pairs with the pending reconcile-types --apply.
+- done when: api.datacite.org/dois?prefix=10.83376 shows contentUrl as an array containing <url>.pdf AND formats containing application/pdf for all 24 records; curl -I -H 'Accept: application/pdf' https://doi.org/10.83376/hmi.wastewater-irrigation-multimetal-crop-pathway content-negotiates to the PDF; re-running tools/datacite-reconcile-media.mjs reports already-ok=24
+- decision: _pending_ — enact: `node --env-file=.env.local tools/datacite-reconcile-media.mjs --apply`
+
+### OI-20260901-datacite-contenturl-not-reflecting — DataCite REST contentUrl + content-negotiation not reflecting the registered MDS PDF media for the 24 index DOIs (10.83376)
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `tools/datacite-reconcile-media.mjs`
+- repro: After datacite-reconcile-media.mjs --apply, MDS GET /media/{doi} returns 200 application/pdf=<pdf> for all 24, but REST api.datacite.org contentUrl stayed null and data.datacite.org (crosscite) 303s Accept: application/pdf to the HTML landing page — unchanged across a 30-min/15-check watch. formats + types DID update via REST PUT. Likely slow DataCite reindex OR a legacy-MDS-media-to-REST-contentUrl decoupling. A 4h background watch (task bfxt56lpv) is running. Mitigation: HMI landing pages already expose citation_pdf_url so PDF discovery isn't solely dependent on this.
+- done when: REST contentUrl on all 24 is a non-null array containing the .pdf URL; data.datacite.org / doi.org with Accept: application/pdf 302/303-redirects to the .pdf (not the HTML page); if still unreflected ~24-48h after registration, a DataCite support ticket is filed re: MDS /media not populating REST contentUrl
+- decision: _pending_ — enact: `curl -s 'https://api.datacite.org/dois/10.83376/hmi.wastewater-irrigation-multimetal-crop-pathway' | node -e 'const a=JSON.parse(require("fs").readFileSync(0,"utf8")).data.attributes;console.log("contentUrl:",JSON.stringify(a.contentUrl))'`
+
+### OI-20260901-cert-datacite-media-port — Port DataCite PDF media association to heavymetalcertified before its first standards mint
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`, `tools/datacite-media.mjs`, `tools/datacite-reconcile-media.mjs`
+- repro: Index shipped PDF media association (b5287f73b): DataCite contentUrl is read-only in the REST API and set only via the MDS Media API. Cert's mint-dois.mjs has the same gap. Cert standard PDFs live at /static/standards/<slug>.pdf under the cert prefix. Port tools/datacite-media.mjs + tools/datacite-reconcile-media.mjs (adapt PDF URL scheme, prefix, and the Series container per the Part 2 firewall) and wire the post-mint association into cert mint-dois.mjs, so cert standard DOIs get contentUrl from day one. No cert DOIs minted yet, so no live backfill is needed if this lands before the first mint. Cert push = LIVE: commit local-only per cert discipline.
+- done when: heavymetalcertified has tools/datacite-media.mjs + tools/datacite-reconcile-media.mjs adapted to the cert prefix and /static/standards/<slug>.pdf; cert mint-dois.mjs associates the standard PDF after each live mint (HEAD-gated); dry-run of the cert reconcile tool derives correct /static/standards/*.pdf URLs for cert DOIs
+- decision: _pending_
+
+### OI-20260831-version-doi-mint-flow — Version-DOI mint FLOW: mint a .v<n> version DOI on material change (IsVersionOf/IsNewVersionOf) + PATCH the concept's HasVersion + freeze-on-mint
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`
+- repro: cert branch feat/doi-versioning-wiring (ce3a8d0) added the tamper-evidence + versioning METADATA to buildPayload (dates Issued, Series container, SHA-256 alternateIdentifier from the freeze manifest, HasVersion chain relations). The version-revision FLOW is still to wire (live-gated, needs credentials + the actual mint to exercise): mint a per-edition version DOI suffix .v<n> on material change carrying IsVersionOf(concept)+IsNewVersionOf(prior); PATCH the concept DOI to add HasVersion (the tool only POSTs today, needs a PUT/PATCH verb); invoke freeze-standard-version at mint; backfill manifest.doi with the minted version DOI. Pairs with OI-20260831-freeze-integration.
+- done when: version DOIs mint on material change with IsVersionOf+IsNewVersionOf; concept DOI PATCHed with HasVersion on each new edition; freeze invoked at mint + manifest.doi backfilled
+- decision: _pending_
+
+### OI-20260831-standard-pdf-recordless-gap — ~38 standard pages have no compiled record, so build-standard-pdf --all skips them (no downloadable PDF)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/build-standard-pdf.mjs`
+- repro: cert repo: grep -rl "^type: standard" content/standards/*.md => 351; build-standard-pdf.mjs --all rendered 313/313 (only slugs with a data/standards/*-compiled/<slug>.json). ~38 standards render from a different data path (e.g. Cat-1 build-cat1-standard-pages, or form-split/variant records) and got no PDF -> no Download button -> DOI-implies-PDF not yet complete for them. Extend findRecord()/the generator to those data paths, regenerate, commit; the prebuild wire step turns their buttons on automatically once each PDF exists.
+- done when: Every type:standard page with a DOI-eligible standard has a /static/standards/<slug>.pdf; build-standard-pdf --all covers all standard data paths; wire step turns on all buttons
+
+### OI-20260831-signnow-template-prep — Prepare the HMTc Confidentiality Undertaking SignNow template (real signature + signer role + prefill fields + 12-section text)
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `heavymetalcertified-app/src/lib/signnow.ts`
+- repro: SignNow template 91cd8985 has empty roles/fields; PR#3 template-path SignNow needs it prepared to carry Karen real signature + personalize per brand (kills the Natural Force sample).
+- done when: Template carries Karen real signature in the HMTc block; A Recipient 1 signer role with signature/date/title field; Prefill text fields named applicant_legal_name/signer_name/signer_title/reference/effective_date; Counsel-final 12-section text
+- decision: _pending_
+
+### OI-20260831-signnow-live-smoke-test — Live counter-sign smoke test of the render-and-upload SignNow path
+
+- scope: **human-gated** · type: audit · status: open · repo: cert
+- paths: `src/lib/signnow.ts`
+- repro: PR #2 swaps static-template-copy for render-NdaDoc + POST /document upload + free-form invite. Type-checks clean but the live SignNow upload+invite API shape is UNVERIFIED against a real account.
+- done when: One real counter-sign invite sent and completed against the live SignNow account; confidentiality_agreements row moves issued -> countersign_sent -> signed
+- decision: _pending_
+
+### OI-20260831-seafood-records-misplaced-cat1-compiled — 7 Cat-6 seafood records were compiled into cat1-compiled/ (wrong output dir) by an earlier run
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `data/workbench/standards/cat1-compiled`
+- repro: data/workbench/standards/cat1-compiled/ contains 7 Cat-6 seafood records (canned-seafood, cephalopods, fish-freshwater, fish-marine-*, seaweed-kelp, shellfish) from an earlier Cat-6 run that shared the outdir. Pre-existing clutter; they audit clean but do not belong in cat1-compiled. Remove or relocate to the Cat-6 output dir.
+- done when: the 7 Cat-6 records are removed from cat1-compiled/ or relocated to their own dir
+
+### OI-20260831-risk-flag-catalog-renderer — Catalog-locked-row standards (build-standards-pages.mjs) do not yet carry the Risk Flag section
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/build-standards-pages.mjs`
+- repro: Risk Flag adopted on the custom standard renderers (build-category-standard-pages.mjs #60, build-cat1-standard-pages.mjs #61). The third renderer, build-standards-pages.mjs (catalog-locked rows, gated standards API, uses descriptorFromCatalogAnalyte not compiled cells), still has no Risk Flag. Different data model: renderRiskFlagForStandard expects compiled record cells with .value; the catalog path needs a small adapter to map catalog analytes to {analyte:{value}} + occurrence keyed by product_slug. Wire it for full coverage, or confirm those pages are legacy/not-live and close.
+- done when: Catalog standard pages carry a Risk Flag section OR are confirmed not-live; occurrence + curated flags render with the catalog data model; lints green
+
+### OI-20260831-regwatch-to-version-mint-wiring — Wire the regulatory-watch change-detector to standard version bumps + version-DOI mint (close the staleness gap)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`, `data/regulations/cert-regulatory-watch-impact.json`, `data/standards/version-history`
+- repro: The transparency plan requires a NEW version DOI whenever a governing government ML changes. The detector already exists -- data/regulations/cert-regulatory-watch-impact.json (21 records; impact_class e.g. current-binding-limit-change; affected_analytes; related_standard_urls) -- but it is NOT wired to standard_version, version-history/*.json, or cert_doi. So a government ML change can occur with no version bump and no re-mint: the transparent record silently goes stale AND a certified product is now certified to a limit its own government has moved past. Also: version bumping is currently manual/hand-authored with no content-hash or limit-diff tie, so 'numbers changed but version did not' is undetectable. Only 18/351 standards have a version-history record.
+- done when: a regulatory-watch impact record of class current-binding-limit-change opens a needs-version-bump + version-DOI-mint queue for its related_standard_urls; a limit change with no matching standard_version bump + versions[] entry fails a lint (content-hash or limit-diff tie); every one of the 351 standards has a version-history record
+- decision: _pending_
+- notes: Part of realizing the versioned-DOI-for-transparency plan (OI-20260831-doi-granularity-two-tier). This is the 'under-reacting / staleness' failure mode from the 2026-08-31 re-run adversarial audit -- the real risk that replaces 'frequent re-minting' once the COMPLETE + audit-passing publish-gate (Karen's churn-avoidance point) is enforced.
+
+### OI-20260831-published-panel-8-not-10-11 — Cat-1 (and reduced-panel categories) publish only 8 analyte cells; official HMTc panel is 10-11 — tAs, MeHg, Cr-VI missing on every subcategory (violates Certification-Readiness Ruling §1)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat1.mjs`, `tools/standards/cat1-config.json`
+- repro: compile-cat1.mjs DEFAULT_PANEL = [Pb, iAs, tHg, Cd, Cr-total, Ni, Sn, Al] (8). Cat-1 config has no panel override, so infant-formula-powder etc. emit exactly 8 cells (verified: node inspection of cat1-compiled/infant-formula-powder.json). The official HMTc certification panel (CLAUDE.md Part 14) is 10 (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), or 11 with total-Cr published as its own line alongside Cr-VI (v2.6 Species/screens ruling: the total metal is a first-class published limit, never hidden). Missing published cells on EVERY Cat-1 subcategory: tAs, MeHg, Cr-VI. Violates Certification-Readiness Ruling section 1 (species bounded by total — iAs<=tAs, MeHg<=tHg, Cr-VI<=total-Cr — are enforceable published ceilings, never blank). The prior 8/8 COMPLETE readiness/confidence read measured the wrong panel and is retracted.
+- done when: Cat-1 publishes the full 10-11 panel: tAs, MeHg, Cr-VI added as cells on every subcategory; MeHg emitted as bounded <= tHg (reconcileMercurySpeciation, already present once MeHg is in the panel) or a direct species ML where one exists; Cr-VI emitted as a bounded <= total-Cr published cell (compiler enhancement mirroring the mercury reconciliation), superseding the hidden not_material reflex-only treatment per the v2.6 ruling; tAs sourced from total-arsenic baby-food MLs or a disclosed read-across per subcategory; every Cat-1 subcategory (existing 9 + new fish/meats/dairy-desserts) recompiles COMPLETE against the full panel; the same reduced-panel gap is audited across the other category compilers
+- decision: _pending_
+- notes: Systemic: the reduced 8-panel is the compiler default and likely affects other categories (seafood already re-adds MeHg via config.panel; audit tAs/Cr-VI everywhere). MeHg + Cr-VI are bounded-derivable from totals the compiler already computes (near-free); tAs is the one needing genuine sourcing. Caught by Karen 2026-08-31 (10-or-11-cells question). This is the real completeness gate for Cat-1, upstream of the DOI mint; supersedes the 8-cell confidence scorecard.
+
+### OI-20260831-onboarding-cadence-pr3-promote — Merge PR #3 (onboarding cadence redesign + template-path SignNow) to heavymetalcertified-app master; close superseded PR #2
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `heavymetalcertified-app`
+- repro: Harness blocks Claude from pushing cert-app master. PR paleofoundation/heavymetalcertified-app#3 open (based on PR#1 = 12-section NDA), build+tsc green. Reorders onboarding (account@step2 + background firecrawl + NDA details + finder removed) and switches SignNow to the template path. PR#2 (render-upload) is superseded → close.
+- done when: PR #3 merged to master (prod auto-deploys); PR #2 closed as superseded; Verified on preview per PR #3 description (background firecrawl + real-signature SignNow)
+- decision: _pending_
+
+### OI-20260831-nda-portal-prod-promote — Promote NDA portal PRs #1 (12-section text) and #2 (drift-proof SignNow) to heavymetalcertified-app production
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `src/lib/pdf/NdaDoc.tsx`, `src/lib/signnow.ts`, `src/lib/pdf/render-undertaking.ts`, `src/app/portal/confidentiality/actions.ts`
+- repro: Harness auto-mode classifier blocks Claude from `git push …:master` (prod). PRs paleofoundation/heavymetalcertified-app#1 and #2 are open, verified/type-checked, awaiting Karen's merge to deploy.
+- done when: #1 merged to master and live /legal/hmtc-confidentiality-undertaking.pdf shows 12 sections; #2 merged to master
+- decision: _pending_
+
+### OI-20260831-intelligent-manual-build-chain — RULE: creating a manual must auto-chain the next build steps (manifest register -> /manuals listing -> mega-menu nav -> PDF)
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `tools/build-manuals-page.mjs`, `data/manuals/manifest.json`, `tools/build-nav-panels.mjs`, `tools/build-cat17-manual-pdf.mjs`
+- repro: Program owner: after a manual is created, /manuals (and the logical next steps) must update automatically. Current chain audit: (1) build-category-manual writes content/manuals/<slug>.md. (2) build-manuals-page reads data/manuals/manifest.json (NOT a glob) and IS in the prebuild -> /manuals regenerates every build, but ONLY for manuals in the manifest; a created manual is NOT auto-registered in the manifest. (3) mega-menu/nav: build-nav-panels is NOT in the prebuild (hand-maintained; clobbers) -> a new manual does not auto-appear in the nav. (4) manual PDF: build-*-manual-pdf.mjs run manually -> no auto-PDF. All 8 manuals happen to be in the manifest today, so the gap is not biting yet. Intelligent-build fix: a prebuild reconciliation that upserts every content/manuals/<slug>.md into the manifest (as forthcoming/pending, metadata from frontmatter) so creation -> listing is automatic; decide nav auto-generation (careful: build-nav-panels clobbers hand-maintained navPanels.ts) and manual-PDF auto-generation (react-pdf, local-only like standards). Program owner noted the manuals architecture is being reworked, so align the implementation with that rework.
+- done when: Creating a manual auto-registers it in data/manuals/manifest.json (or build-manuals-page auto-discovers content/manuals/); /manuals + mega-menu reflect a newly created manual with no hand-editing; Manual PDF auto-generates or is explicitly flagged as the remaining human step; The rule is documented for future sessions
+- decision: _pending_
+
+### OI-20260831-infant-manual-v2-doi-supersession — Infant manual v2 still cites its v1 Zenodo DOI — mint a v2 DataCite DOI (IsNewVersionOf) and supersede on mint
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/manuals/infant-and-child-foods.md`, `tools/mint-dois.mjs`, `docs/DOI-MINTING-LEDGER.md`
+- repro: content/manuals/infant-and-child-foods.md is Method v2.0 (snapshot Method = Strictest government ML; rail_box says 2026-08-06 (Method v2.0); PDF is HMTc-Infant-and-Child-Foods-Program-Manual-2026-v2.pdf) but cert_doi = 10.5281/zenodo.20771543, which the page's own rail_box calls the earlier 384-page deposited editions (v1). So the live v2 page's Cite-this-page DOI resolves to superseded pre-government-ML (v1) methodology. A frontmatter comment instructs KEEP the existing Zenodo deposit ... do not re-mint and notes the tool's own-field check skips this item, so a normal mint run silently preserves the mismatch. Karen ruled 2026-08-31 that standards/manuals have moved v1->v2 and the v1 keep-do-not-re-mint logic no longer holds; a new edition getting its own DOI is correct versioning, not citation fragmentation.
+- done when: content/manuals/infant-and-child-foods.md cert_doi is a freshly-minted v2 DataCite DOI on our own prefix, not the Zenodo v1 DOI; the v2 DataCite record carries relatedIdentifier IsNewVersionOf 10.5281/zenodo.20771543 (relatedIdentifierType DOI); the Zenodo v1 deposit (10.5281/zenodo.20771543) is preserved (not deleted) and stays cited in the manual edition-history/rail_box as the earlier 384-page edition; tools/mint-dois.mjs has an explicit methodology-version supersede path so the Zenodo own-field skip does not silently skip a v1->v2 bump; the frontmatter comment on infant-and-child-foods.md is changed from KEEP...do-not-re-mint to the supersede instruction; the other 4 manuals (dairy-and-milk-products, grains-cereals-rice, pet-foods, seafood; cert_doi currently null) mint fresh v2 DataCite DOIs in the same run
+- decision: _pending_
+- notes: Blocked on DataCite credentials landing in cert .env.local (same gate as the standards batch; see the 'Connect DataCite to index + cert builds' chip, task_d77eba3a). Enact at connection/mint time. Registrar choice: mint v2 on DataCite to match the other 4 manuals + the standards batch, rather than adding a new version on Zenodo. Irreversible findable DOI on LIVE cert => human-gated; Karen has set the direction (supersede), the mint go-ahead rides the overall DataCite go-live gate.
+
+### OI-20260831-fish-baby-food-cat6-mehg-decision — fish-containing-baby-food scaffold: aquatic tHg 500 / tAs 1000 + MeHg-<=-tHg are placeholders pending a Cat-6 species-MeHg read-across decision
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`
+- repro: fish-containing-baby-food is a provisional_scaffold. Its fish-driven analytes (tHg 500, tAs 1000, MeHg bounded <=tHg) are placeholders read across from pure-seafood values; a fish BABY DINNER is not pure fish, so the correct MeHg/tHg limit is a Cat-6 seafood read-across x fish-fraction, not the pure-aquatic value. Must be decided before the scaffold is promoted to a certifiable standard.
+- done when: fish MeHg/tHg limit derived from Cat-6 x fish-fraction and disclosed; scaffold promoted or kept provisional by decision
+- decision: _pending_
+
+### OI-20260831-false-reconstructability-claim-live — Live standard/manual pages ship a FALSE reconstructability claim (superseded versions do NOT remain resolvable, and no edition has a DOI) — Daubert-facing, fix now
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/manuals/index.md`, `tools/build-manuals-page.mjs`, `data/standards/version-history`
+- repro: Re-verified 2026-09-02: /manuals says "A new edition gets a new DOI and the prior edition stays resolvable". data/standards/version-history/infant-formula-powder.json lists only 3.0 (superseded, PDF resolves 200) and 3.1 (current, pdf null, doi null); v1.0 and v2.0 have no record and no URL (404 on every guessed path). 0 of 323 standards carry a DOI (readiness manifest REGISTERED=0). Cat-26 values changed twice today under an unchanged v1.0 label with no version-history record.
+- done when: /manuals text states only what is true today: editions are dated; superseded PDFs are kept where they exist; DOIs are forthcoming on registration; Every material limit change bumps standard_version and writes a version-history entry with a resolvable prior-edition PDF (enforced by a lint, not convention)
+- decision: _pending_
+- notes: Karen decision needed only on wording of the interim claim; the lint is auto. Re-verified by the 2026-09-02 cert build audit.
+
+### OI-20260831-doi-mint-rule1-confidence-definition — Define DOI-mint Rule #1 '95% confidence' = firm-by-occurrence OR firm-by-sovereign-ML OR disclosed-read-across; NOT 95% occurrence for all 9 analytes (impossible under Method v2.0)
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `docs/governance/hmtc-governing-principles.md`, `tools/standard-readiness-lint.mjs`
+- repro: The Cat-1 corpus audit (2026-08-31) found only Pb/Cd/tAs (+iAs on rice/cereal/juice) have percentile-grade occurrence depth; Ni/Cr(Cr-VI)/Al/Sn/MeHg are government-lookup or read-across BY DESIGN under Method v2.0 (Ni = EU 2024/1987 lookup, and nickel has ZERO milk/formula percentile occurrence corpus-wide; Cr-VI = 0 occurrence rows; Al = no infant-specific occurrence; MeHg = zero direct baby-food occurrence, fish-species only). So DOI-mint Rule #1 ('every subcategory >=95% confidence in the numbers') cannot mean '95% occurrence confidence on all 9 analytes' — that is impossible for every category and would make the whole program un-mintable. Rule #1 must mean each cell is FIRM: an occurrence percentile at >=95% confidence where occurrence binds (Tier-1 toxics), OR a sovereign government ML (a lookup, definitionally firm), OR a disclosed read-across.
+- done when: Rule #1 is defined in docs/governance/hmtc-governing-principles.md as firm-by-occurrence-95% (where occurrence binds) OR firm-by-sovereign-ML OR disclosed-read-across; the readiness/confidence lint gates on that firm classification, not on occurrence depth for lookup/read-across cells; the definition is consistent with the existing classifyCell firm/provisional/pending machinery and the Tier-1/Tier-2 split
+- decision: _pending_
+- notes: Resolves the open Rule #1 definition from the DOI-mint-rules discussion (2026-08-31). Without it, Cat-1 and every category fail Ni/Cr/Al/Sn/MeHg forever. Pairs with OI-20260831-doi-granularity-two-tier (the per-subcategory versioned-DOI mint gate).
+
+### OI-20260831-doi-granularity-two-tier — Ratify DOI granularity as two-tier (per-subcategory Standard DOI + per-category manual/Series grouping); reject category-level and flat per-subcategory
+
+- scope: **human-gated** · type: decision · status: queued · repo: cert
+- paths: `docs/DOI-MINTING-LEDGER.md`, `tools/mint-dois.mjs`, `tools/standard-readiness-lint.mjs`, `content/manuals/index.md`
+- repro: A 4-lens adversarial audit (2026-08-31: legal, metadata, dependency-breakage, steelman) rejected the interim category-level (one-DOI-per-category) recommendation. Grounds: certification binds to the SUBCATEGORY standard, not the category (content/verify.md:49,56,60; content/standards/index.md declares 'Seafood 3.1' and 'Culinary Oils and Fats 3.1' different standards, each its own page); the ratified Certification-Readiness ruling REGISTERED clause says 'the standard has a resolvable production DataCite DOI', scoped to the subcategory exactly like COMPLETE/CORRECTED (governing-principles 3.2); per-subcategory DOIs are the already-ratified+shipped plan (rail_box on all 348 standard pages promises per-standard DOIs; DOI-MINTING-LEDGER.md:59,65). The category-level argument was an equivocation (readiness is ASSESSED per category; that is not the same as the DOI ATTACHING per category). Two-tier dominates: per-subcategory Standard DOIs (concept + version chain on material revisions only) GROUPED under the category via the manual Report DOI (IsPartOf/HasPart) where a manual exists (cats 1,3,6,17,24) or a DataCite Series container where not. It captures the certified atom AND the document-of-record; needs NO readiness-lint inheritance rewrite; needs NO ruling re-ratification (the ledger already carries both hmtc.std.cat.slug and hmtc.manual.cat suffixes); and is LESS work than category-level (Series grouping is a metadata field, not 30 net-new thin category landing pages).
+- done when: granularity ratified (two-tier) and DOI-MINTING-LEDGER.md :59/:65/:159 confirmed consistent (no loosening); tools/mint-dois.mjs emits a per-subcategory Standard DOI plus a category grouping (Report-DOI IsPartOf where a manual exists, else Series container); tools/standard-readiness-lint.mjs stays per-subcategory (no category-inheritance rewrite needed); optional later: a per-category or program-wide Dataset DOI for /data, related IsSupplementTo the Standard/Report DOIs
+- decision: **APPROVE: Karen ratified 2026-08-31 — per-subcategory concept DOI + a new version DOI on each MATERIAL change (government ML move, ceiling/analyte/basis/methodology change), named by version, for transparency. Churn is designed out by publishing/minting only COMPLETE (a firm limit for every analyte) + confidence/QC-audit-passing standards, so re-mints are rare and each is a meaningful regulatory event. Category grouping (Series container / manual Report DOI) is a compatible secondary layer, not separately contested. Enactment still gated on the immutable-snapshot mechanism choice + the pre-mint defensibility gates (OI-20260831-datacite-premint-defensibility-gates).**
+- notes: Karen requested this analyze/audit/adversarial-audit on 2026-08-31 after declining a 3-way multiple-choice. Recommendation to ratify: two-tier. Pairs with OI-20260831-datacite-premint-defensibility-gates (the granularity-independent gates that must clear before ANY mint) and OI-20260831-infant-manual-v2-doi-supersession (the Cat-1 v1->v2 case).
+
+### OI-20260831-datacite-premint-defensibility-gates — DataCite mint infrastructure is not defensibility-ready — 3 gates + 2 safety bugs before any production mint (frozen deposits, version chain+dates, identity firewall)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`, `tools/datacite-preflight.mjs`, `docs/DOI-MINTING-LEDGER.md`
+- repro: Legal + metadata adversarial audits (2026-08-31): minting on the current tooling would be a net defensibility NEGATIVE at any granularity. GATE 1 (frozen deposits): all 348 standards carry cert_doi:null; a minted DOI would resolve to a live, silently-editable page on the certifier own domain, with no immutable snapshot behind it. A DOI courtroom value is a third-party, tamper-evident version history; without a frozen deposit the mint buys the manufactured-authority attack and none of the upside. Cat-1 v1 (Zenodo, CERN-run frozen PDF) is currently MORE independent than the planned self-run 10.83138 prefix pointing at heavymetalcertified.com, so migrating the DOI-of-record to the self-run prefix is an independence downgrade unless a neutral external frozen deposit is retained. GATE 2 (version chain + dates): buildPayload (tools/mint-dois.mjs:224-251) emits only a version string, one References relatedIdentifier, NO dates array and NO IsNewVersionOf chain; publicationYear is derived from effective_date (:202) which can predate the real mint (never backdate). Must emit dates [Issued = true mint date] and the concept/version chain. GATE 3 (identity firewall): Karen is the sole creator on BOTH the index literature prefix (10.83376) and the cert standards prefix (10.83138) under one DataCite membership; the public DataCite graph therefore impeaches the two-independent-properties firewall (Part 2), and Paleo Certified, Inc. (the IP owner of record, Part 14) appears nowhere as rightsHolder. SAFETY BUG A: DATACITE_MODE=live with --state=draft would stamp non-resolvable draft DOIs into cert_doi (DOI-MINTING-LEDGER.md:185-189). SAFETY BUG B: mint-dois emits no container while datacite-preflight rehearses container {type Series} (mint/preflight drift).
+- done when: the document-of-record for each minted DOI resolves to an immutable, version-pinned snapshot (neutral external frozen deposit, as Cat-1 already does on Zenodo), not a live editable page; buildPayload emits a dates array with dateType Issued = the true mint date and a real IsNewVersionOf/IsPreviousVersionOf version chain; publicationYear never backdated; identity de-conflicts the two prefixes (named co-authors/reviewers or an organizational creator) and adds Paleo Certified, Inc. as rightsHolder -- COUNSEL-GATED, do not self-resolve (Part 2 / Part 14 frozen items); the live/draft write-back guard is closed (no draft DOIs written to cert_doi under MODE=live); the mint payload container matches the preflight (Series container present)
+- decision: _pending_
+- notes: Gates the production mint in the Connect-DataCite chip (task_d77eba3a) -- the chip is credential-blocked, so nothing mints prematurely, but it must NOT proceed to a production mint until these clear. GATE 3 and the external-deposit posture are counsel-frozen (firewall/entity-naming) -- flag, do not edit into consistency. GATES 1-2 and the 2 safety bugs are Claude-buildable code work once the two-tier granularity (OI-20260831-doi-granularity-two-tier) is ratified.
+
+### OI-20260831-cert-main-deploy-webhook-flaky — Cert main-merge to Vercel production deploy is unreliable (webhook intermittently missed)
+
+- scope: **human-gated** · type: finding · status: open · repo: cert
+- paths: `vercel.json`
+- repro: heavymetalcertified: git.deploymentEnabled.main=true, yet merging PR #57 (ef9c07f) and PR #59 (4acd716) to main did NOT create a production deployment (~20min, none created), while PR #58 (e7ab701) did. Workaround each time: push an empty commit to main to re-trigger. Preview (branch) deploys fire reliably; only main->production is flaky. Needs Vercel dashboard investigation (git integration / webhook delivery / production-branch setting). Karen-gated (Vercel dashboard access).
+- done when: Root cause of missed main->production webhooks identified; main merges deploy production without a manual empty-commit re-trigger
+- decision: _pending_
+
+### OI-20260831-cat1-total-cr-not-material-substantiation — Cat-1 total-Cr not_material cells fail audit C7 (no rationale/regulatory_basis/jurisdictions_checked substantiation)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat1.mjs`
+- repro: After the 11-panel extension, audit-compiled-standards.mjs shows 49 C7 fails on cat1-compiled: total-Cr not_material cells (12 non-dairy subcats) carry control+reference_method but not the substantiation fields C7 wants. Pre-existing (40) + 8 new. Per v2.6 Species/screens ruling may need migration to a baseline-screen rather than reflex-only. Design choice (reflex-control vs baseline-screen) is Karen's.
+- done when: audit C7 fails clear on Cat-1 not_material-Cr; the reflex-control-vs-baseline-screen choice is ratified
+- decision: _pending_
+
+### OI-20260831-cat1-missing-fish-meats-dairy-desserts — Cat-1 missing 3 regulator-named subcategories: fish/seafood baby dinners (ACTIVELY EXCLUDED, tox-critical MeHg/iAs), single-ingredient meats, dairy desserts
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `data/taxonomy/hmtc-v2.json`, `tools/standards/compile-cat1.mjs`
+- repro: 3-lens Cat-1 completeness sweep (2026-08-31). The 9 rows mirror FDA Jan-2025 'Closer to Zero' processed-baby-food LEAD cells MINUS three: single-ingredient meats (10 ppb), yogurts, custards/puddings — all FDA-named, none has a Cat-1 row. FISH/seafood baby dinners = highest toxicological priority (MeHg + iAs; measured tAs 212-435, tHg ~28 vs non-fish ~5/~0) AND ACTIVELY EXCLUDED: cat1-config.json mixed-meals scope_exclude lists fish/crustacean/mollusc, while a live wiki/products/fish-containing-baby-foods.md page + a workbench snapshot exist but are not config rows. Codex STAN 73 admits fish + meat; row 7 requires a grain+meat COMBO, so pure meat purees and fish dinners have no home. Dairy desserts: GEMS 'Yoghurt/cheese/milk-based dessert for infants' pool supports Pb/Cd/tAs at ~95%; rest lookup-fillable; currently out-of-scope flagged.
+- done when: a fish/seafood baby-food subcategory exists and mixed-meals no longer blanket-excludes fish; its limit = government baby-food MLs + a DISCLOSED MeHg/iAs read-across from fish content x fish fraction (method-consistent; the pre-v2.0 'Path blocked' status is a legacy-framework artifact, not a v2.0 blocker); a single-ingredient meats subcategory exists (organ/liver Cd noted); a dairy-desserts (yogurt + custard/pudding) subcategory exists with the out-of-scope flag lifted; each new row is COMPLETE per Method v2.0 (a firm limit for every analyte via ML/read-across)
+- decision: _pending_
+- notes: Phase-0 taxonomy expansion — gates Cat-1 finalization. Fish is the #1 tox-priority + defensibility gap (a heavy-metals infant-food certifier with no cell for the #1 mercury vector, that actively excludes it). Pairs with OI-20260831-cat1-formula-dairy-source-scope. Surfaced 2026-08-31.
+
+### OI-20260831-cat1-formula-dairy-source-scope — Cat-1 formula split is cow/soy but 'cow' silently absorbs goat & camel formula — relabel dairy/soy + split by animal source where data supports it
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`
+- repro: tools/standards/cat1-config.json infant-formula-powder + infant-formula-rtf-liquid use soy_split:true, rendered as 'cow / soy' (Ni 250 cow/400 soy, Al 4000/8000, Cd 10/20). 'cow' is really 'non-soy' and silently absorbs goat- and camel-based dairy formula: data/evidence/values.jsonl already carries an infant-formula-powder-non-soy-goat-based occurrence row (FSA2016, Al 950). Meanwhile Cat-24 Dairy ALREADY splits milk by animal source (cert content/standards/dairy-milk-cow.md, dairy-milk-goat-sheep.md, dairy-milk-camel.md are all category:24), so Cat-1 is internally inconsistent. Animal source materially changes the metal profile (camel elevated Ni per corpus wiki/metals/nickel.md; goat elevated Cd per WHO GEMS goat-milk p90~130). The camel Ni / lactoferrin bioavailability offset Karen raised is real biochemistry but NOT a defensible basis for a looser LIMIT (regulators set total-metal MLs; novel/Daubert-fragile; formula processing denatures lactoferrin) — route to the Heavy Metal Index wiki, never the HMTc limit (Part 2).
+- done when: the Cat-1 formula 'cow' bucket is relabeled to dairy/milk-based (covers cow/goat/camel/sheep) — correctness fix; camel and/or goat are split into their own subcategory ONLY where occurrence clears the 95% confidence gate + a defensible per-analyte limit, mirroring Cat-24; where data is thin they ride the dairy bucket with the struggle documented; the camel-nickel / lactoferrin science is documented on the Heavy Metal Index wiki, never used to loosen an HMTc limit; the full Cat-1 subcategory-completeness sweep (regulatory universe + corpus support) is applied before Cat-1 finalizes/mints
+- decision: _pending_
+- notes: Phase-0 taxonomy lock: the subcategory SET must be complete + correctly scoped before Cat-1 can finalize/mint (a wrong set = a wrong category, and it can't be un-minted). The same subcategory-completeness pass should gate every category before its DOI. Surfaced by Karen 2026-08-31; full 3-lens sweep in progress.
+
+### OI-20260830-fermentation-protein-step0-lock — Step-0 category lock + permanent-home fork for the new Cat-17 fermentation-derived-protein ingredient standard (Bond Pet Foods)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat17-config.json`, `data/taxonomy/hmtc-v2.json`, `data/workbench/standards/cat17-compiled/pet-food-fermentation-derived-protein.json`
+- repro: New subcategory pet-food-fermentation-derived-protein built + validated (audit fail-histogram identical to shipped kibble; coverage audit green; provisional_scaffold:true). Two rulings: (1) APPROVE/DECLINE the Cat-17 subcategory assignment for precision-fermented / single-cell / yeast-biomass protein INGREDIENTS; (2) PERMANENT-HOME FORK — keep it a Cat-17 (Pet Foods) subcategory, OR promote to a cross-cutting fermentation-derived / novel-protein INGREDIENT matrix-family that Cat-17 and the human-food categories both reference (the biosorption + arsenate-via-phosphate-transporter fingerprint is channel-agnostic; human precision-fermented protein will need the same analog machinery).
+- done when: Karen rules APPROVE or DECLINE on the Cat-17 subcategory; Karen chooses Cat-17-subcategory vs cross-cutting-novel-protein-category; On approve: provisional_scaffold flag cleared
+- decision: **DEFER: Cat-17 subcategory home ENACTED + going live via PR #57 (Karen: 'it needs to be live'). Step-0 lock effectively cleared for the Cat-17 placement. The permanent-home FORK (keep Cat-17 subcategory vs promote to a cross-cutting novel-protein/single-cell-protein category serving human food too) remains OPEN for a future call; shipping as Cat-17 does not foreclose a later lossless refactor. provisional_scaffold flag left set pending that fork.**
+
+### OI-20260830-fermentation-protein-gmo-counsel — Counsel: GMO-derived-ingredient + AGRN 79 posture for fermentation-protein standard (separate from heavy metals)
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `data/workbench/standards/cat17-compiled/pet-food-fermentation-derived-protein.json`
+- repro: FDA AGRN 79 is a 3-page CVM no-objection letter (adult DOGS only; feline pending) disclosing NO Pb/Cd/As/Hg numbers — no metal value may cite AGRN 79 (would be fabrication; the standard numbers are human-food read-across). Out-of-heavy-metals-scope counsel items before any marketing claim: (a) whether to obtain the underlying AGRN 79 notice + amendments for ingredient-native metal specs; (b) GMO-derived-ingredient posture (production strain removed from product; ORF/antibiotic-marker/Section 301(ll) flagged by FDA as outside its evaluation). Feline scope decided-and-logged: standard scoped to adult-dog diets pending CVM feline clearance.
+- done when: Counsel ruling on GMO-ingredient marketing posture recorded; Decision on obtaining AGRN 79 full notice recorded; Standard/marketing scoped to adult dogs until feline CVM clearance
+- decision: _pending_
+
+### OI-20260830-fermentation-protein-doi-cert-deploy — Mint DataCite DOI + render fermentation-derived-protein standard into cert + deploy to heavymetalcertified.com
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `data/workbench/standards/cat17-compiled/pet-food-fermentation-derived-protein.json`, `tools/standards/build-cert-cat17-pages.mjs`
+- repro: Compiled workbench standard is staff-only until (a) a PRODUCTION DataCite DOI is minted (test/sandbox does not count; certification-ready = COMPLETE + REGISTERED + CORRECTED) and (b) the SEPARATE cert render (add the new slug to build-cert-cat17-pages.mjs title map) + cert push to heavymetalcertified.com (cert push = LIVE). Gated on OI-20260830-fermentation-protein-step0-lock. Firewall: never publish workbench JSON as the standard; never surface derivation math on the index domain.
+- done when: Production DOI resolves; Cert page live on heavymetalcertified.com; Index domain shows no derivation math
+- decision: **DEFER: Cert page LIVE + downloadable PDF now shipped system-wide (PR #58 infra + #59 batch: /static/standards/<slug>.pdf; Rail Download button + citation_pdf_url via prebuild wire step). ONLY remaining: mint production DataCite DOI — needs DATACITE_USER/PASSWORD/PREFIX + DATACITE_MODE=live (secrets; Karen runs mint-dois.mjs --emit). scholar_pdf_url already feeds the PDF into DataCite/Scholar metadata.**
+
+### OI-20260830-cat17-not-material-substantiation-backlog — All 11 Cat-17 compiled standards fail audit-compiled-standards C7/C8 (legacy not-material/control field shape)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat17.mjs`, `data/evidence/standards-not-material.csv`
+- repro: node tools/standards/audit-compiled-standards.mjs --dir=data/workbench/standards/cat17-compiled => 139 FAIL across all 11 records (kibble/wet/fish incl.). compile-cat17 emits not_material cells with legacy fields (control text + reference_method) and control cells without rationale, so C7 (basis_class/rationale/regulatory_basis/jurisdictions_checked) and C8 (control rationale) fail. PRE-EXISTING; affects LIVE records; NOT introduced by the new fermentation subcategory (its histogram matches shipped kibble exactly, 12 C7 + 1 C8). Fix: emit the newer substantiation fields from compile-cat17, OR backfill standards-not-material.csv for every cat17 slug incl. pet-food-fermentation-derived-protein.
+- done when: audit-compiled-standards --dir=data/workbench/standards/cat17-compiled exits 0; No C7/C8 fails on any cat17 record; compile-cat17 remains byte-deterministic
+
+### OI-20260828-leadin-page-alignment — Decide whether analyte/briefing lead-in pages should present the crisp 3-column top line
+
+- scope: **human-gated** · type: decision · status: queued · repo: cert
+- paths: `quartz/components`
+- repro: After cert cf753e0, section-first cert pages (standards/manuals/regulations) align the left rail divider, center first section-heading underline, and right connections divider into one horizontal line. Pages that OPEN WITH A LEAD-IN before the first section do not: analyte pages start with a 13-Al kicker + lead paragraph, briefing pages with a THE CLAIM badge + lead. Their columns still start together (align-items:start) but the center first crisp line sits ~130-220px below the rail dividers. Karen wants the crisp alignment on ALL 3-column pages.
+- done when: Decide the treatment for lead-in reference pages: give the lead block a bottom rule at the shared line, OR start the center with the section heading and fold the lead-in under it / into the heroband, OR explicitly accept the lead-in design as-is; Apply the decision to the analyte + briefing page templates so their 3 columns present a crisp aligned top line (or record acceptance)
+- decision: **APPROVE: Karen ruled — analytes get a 'THE ANALYTE' badge (enacted cert dd5d991, matches briefings 'THE CLAIM'); briefings stay as-is; markdown-heading pages aligned via first-heading margin-zero (cert dd5d991). Remaining edge cases left as-is: panel-audit-banner standards (temporary completeness flag, self-resolves when the standard completes), 2 noindex specimen pages, a few landing pages with their own top notices.**
+
+### OI-20260828-doi-landing-page-lint — Build-lint: a page with a DOI in frontmatter must render it (DOI link + citation_doi + JSON-LD)
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `tools/`, `quartz/`
+- repro: DataCite requires every DOI resolve to a page displaying it. CiteThisPage was previously orphaned from quartz.layout.ts (fixed d5d28760d) — a silent regression that would have left minted DOIs with no visible citation. Add a postbuild lint (BOTH repos: index wiki_doi, cert cert_doi) that fails the build when a page frontmatter carries a non-test DOI but the built HTML lacks the doi.org link OR citation_doi meta OR JSON-LD identifier.
+- done when: Lint fails on a page with wiki_doi/cert_doi set whose built HTML omits the doi.org link or citation_doi meta; Runs in prebuild/postbuild in both repos; No-op pass while zero DOIs are minted
+
+### OI-20260828-cert-standards-jsonld-doi-identifier — Emit the DOI as a schema.org identifier in standards-page JSON-LD
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/postbuild-cert-page-jsonld.mjs`, `tools/postbuild-article-jsonld.mjs`
+- repro: Once cert_doi is minted onto standards, landing pages render the DOI (HeroBand row + citation_doi meta + CiteThisPage) — the hard DataCite obligation is met — but the schema.org JSON-LD carries no identifier node for the DOI (best-practice + Google Scholar). postbuild-cert-page-jsonld handles only the hand-authored /compare SEO page, not /standards/<slug>. Find/route the standards JSON-LD and add identifier=https://doi.org/<cert_doi>. Not blocking the first mint.
+- done when: A built /standards/<slug>.html with cert_doi set contains a schema.org identifier equal to https://doi.org/<cert_doi>; Zenodo-kept items (infant manual 10.5281/zenodo.20771543) emit their DOI as identifier too
 
 ### OI-20260827-readiness-lint-cells-shape — standard-readiness-lint skips top-level-cells records (cat5 etc.) — invisible to the READY manifest
 
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/standard-readiness-lint.mjs`
-- repro: standard-readiness-lint.mjs does `if (!rec.variants) continue`, so compiled records shaped with top-level `cells` (cat5 coffee.json and every other non-variants category) are never evaluated for COMPLETE/REGISTERED/READY. Coffee does not appear in the readiness output at all despite having 1 empty cell (Al). Fix: fall back to rec.cells when rec.variants is absent (build-category-standard-pages already normalises both shapes).
-- done when: standard-readiness-lint evaluates rec.cells when rec.variants absent; coffee appears in the readiness report as INCOMPLETE (empty: Al)
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `tools/standard-readiness-lint.mjs`, `data/standards/readiness-manifest.json`
+- repro: Before: build log says 108 standards | 108 COMPLETE | 0 empty cells. After fix: 323 standards | 229 COMPLETE | 0 REGISTERED | 0 READY | 346 empty cells (94 incomplete standards).
+- done when: PR #65 merged to heavymetalcertified main; Build log reports 323 standards and the readiness manifest lists all 32 categories with real names
+- evidence: https://github.com/paleofoundation/heavymetalcertified/pull/65 (build green on branch; also closes OI-20260826-readiness-lint-test-prefix-gap)
+- decision: _pending_ — enact: `gh pr merge 65 --repo paleofoundation/heavymetalcertified --squash --delete-branch`
+- notes: Fix built and verified by the 2026-09-02 cert build audit; merge is the only remaining step (cert main push = LIVE, so merge is a deploy).
 
 ### OI-20260827-portal-backend-redesign-plan — Implement the approved HMTc brand-portal backend redesign (Product-first coverage cockpit + org layer + bulk ingest + service-request cart + revenue attestation)
 
@@ -547,6 +872,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: The program-level Program Manual (data/workbench/program-manual/) was corrected 2026-08-27 to document the AS-BUILT portal cadence: a confidentiality undertaking pre-signed by HMTc and in force from first contact (pre-account); free readiness; a 3-lot baseline whose completing lot is a PAID buy-and-test the program runs (buys the product at retail, ships to an accredited lab, runs the 8 totals; speciation reflex); the binding Certification Agreement executed only AFTER program approval, not a license at entry; and per-analyte prior-lab credit with LOQ<=limit/5. The controlled Governance Policy (governance-policy.md sec.4) still frames a license as the entry instrument and a flat 12-month recency window (lot-testing-schedule.md sec.4.3), which the running portal contradicts (cadence-based recency; agreement-late). Decide whether to update the controlled documents to the as-built cadence (with counsel) or ratify the as-built as canonical. Distinct from, but related to, the open recency items OI-20260825-hmtc-recency-cadence-governance and OI-20260825-recency-governance-propagation.
 - done when: Karen/counsel decide the canonical entry sequence and recency policy; governance-policy.md sec.4 and lot-testing-schedule.md sec.4.3 updated to match the as-built cadence, or a documented decision to keep them and correct the portal; Program Manual Part 6.8 note cleared once the docs and manual agree
 - decision: _pending_
+
+### OI-20260827-index-prose-length-rule — Propagate the reading-surface paragraph cap (one idea per paragraph, <=120w) to the Index site
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `docs/writing-style`, `tools`
+- repro: Cert repo now enforces CONTENT-RULES.md section 8: reading-surface paragraphs are one idea, target 40-100 words, hard cap 120, with tools/lint-method-prose-length.mjs in prebuild. heavymetalindex.com has the same wall-of-text risk in its generated/authored prose but no equivalent rule or lint (memory: index language enforcement lags cert; em-dash rule already unenforced on index).
+- done when: A reading-surface paragraph-length rule (one idea per paragraph, <=120 words) is documented in the Index writing-style/design docs, mirroring cert CONTENT-RULES section 8; A method-prose / long-paragraph lint runs in the Index prebuild (warn-only then blocking at zero); Authored/generated long-prose walls (>120w) in Index content are split at idea boundaries with word-preservation verified (sentence-regroup only, no rewording)
 
 ### OI-20260827-doi-publisher-name-of-record — Ratify DataCite publisher-of-record name for Index DOIs: Institute of Contaminant Standards vs Heavy Metal Index
 
