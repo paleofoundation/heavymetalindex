@@ -11,7 +11,7 @@
       "cert_base": "c1d41c2"
     }
   ],
-  "phase": "B/C/E per category",
+  "phase": "B/C/E per category (session 1 pilots: cat30, seafood, cat1) + Phase F gates 0/2 closed",
   "phase_a": {
     "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
     "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
@@ -20,13 +20,88 @@
     "4_diff_compiled_vs_cert": "done (index fdb9e25d0; baseline 1,400 regressions in 23/32 dirs)",
     "5_provenance_vocabulary": "done (index 0f958a6af)",
     "6_status_regex_in_force": "done (index 38dcd8953; lib/register-gate.mjs)",
-    "7_baseline_screen_contract": "done (index 10027edfa; cert 96d9358; analytical_methods.csv header-only, no LOQ rows yet)",
+    "7_baseline_screen_contract": "done (index 10027edfa; cert 96d9358)",
     "8_gb2762_2025_rows": "done (index 5ee436494: 169 rows, 29 superseded; OI-20260902-gb2762-2025-repoint-cat-configs, OI-20260902-gb2762-2025-official-url)"
   },
   "phase_b0_unmerged": "done (index PR #118 closed as absorbed; #119 rows absorbed via 2025 successors, rest superseded; cert coffee branch absorbed; cert PRs #2/#42 superseded; OI-20260902-unmerged-standards-work-triage)",
-  "categories": {},
+  "categories": {
+    "cat30-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index 16be24b32, cert 2e73ca1; 0 regressions)",
+      "c_complete": "complete (22/22 cells) but 6 cells refuted at M1: Israel FCS 2016 superseded (Cd 30, tHg 20 on both records); tHg re-anchor candidate th_moph414_2020_thg_food_other_20 (same value); Cd has NO same-value in-force sovereign analog (raise to ≥100 would need ratification)",
+      "e_confidence": "manifest written; M1: 24 rows verified corpus-wide, 4 refuted (Israel), 2 needs-deep-read (France CSHPF, no primary); M2 not yet dispatched",
+      "pushed": false
+    },
+    "seafood-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index 16be24b32, cert 2e73ca1; scope fixes: condiments excluded, 'excluding predator' excluded)",
+      "c_complete": "complete (77/77) but seaweed Pb/tAs 5000 anchored on Israel (refuted); candidates: GB 2762-2025 algae products Pb 1000 (tightening; basis to verify), tAs needs the C6d species-as-total read-across contract (AU-NZ iAs seaweed 1000) — not built",
+      "e_confidence": "manifest written; 24 M2 batches queued; M1 pending rows 13 (packets g5 B, g6 B outstanding)",
+      "pushed": false
+    },
+    "cat1-compiled": {
+      "d_panel": "11-cell in cert (cert 66004b5: PANEL widened, _meta.panel, subsumed branches, mixed-meals rice variant, 9 PDFs)",
+      "b_reconciled": "done (index c085f422b; 0 regressions; Cr sovereign anchors; golden iAs/Cd reproduced; IL soy_class fix; apple-only rows excluded from juice scope)",
+      "c_complete": "complete (12 records / 9 pages)",
+      "e_confidence": "NOT started (Israel rows bind 15 Cat-1 cells: tHg on most rows, fruit-juice Cd/tHg — these will refute once the Israel status lands)",
+      "pushed": false
+    }
+  },
   "escalations_batched": [],
   "notes": [
     "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget"
+  ],
+  "phase_f": {
+    "gate0_registry": "done (cert fc7a463 + 9466c97: data/standards/doi-registry.json keyed by page slug; renderers + readiness read it; doi-registry-lint in prebuild)",
+    "gate2_dates_container": "done (cert fc7a463: publicationYear = mint year, dates Issued/Available, Series container, no fabricated version chain)",
+    "gate1_snapshot": "WRITTEN UP for Karen/counsel in cert docs/DOI-MINTING-LEDGER.md (not decided)",
+    "gate3_identity": "WRITTEN UP for counsel in cert docs/DOI-MINTING-LEDGER.md (payload diff, not applied)",
+    "datacite_media_port": "pending (OI-20260901-cert-datacite-media-port)",
+    "dry_runs": "cert: node tools/mint-dois.mjs --manifest → 0 eligible (none CORRECTED yet); the prefix-only chained form and the index --dry-run are still to be run at the end"
+  },
+  "m1": {
+    "packets": "data/workbench/standards/confidence/_m1-packets/m1-20260902-g1..g6.json (20 instruments, 44 rows)",
+    "verdicts_received": [
+      "g1.A",
+      "g1.B",
+      "g2.A",
+      "g2.B",
+      "g3.A",
+      "g3.B",
+      "g4.A",
+      "g4.B",
+      "g5.A",
+      "g6.A"
+    ],
+    "verdicts_pending": [
+      "g5.B (running)",
+      "g6.B (not launched: governor hourly cap; lease needed)"
+    ],
+    "ingested": [
+      "g1",
+      "g2",
+      "g3",
+      "g4"
+    ],
+    "findings": [
+      "Israel FCS 2016 guideline NOT IN FORCE (gov.il 19.02.2026; EU 2023/915 adopted 2023-01-01): 162 register rows, 131 live cert binding cells across 17 dirs — OI-20260902-il-fcs2016-not-in-force (human-gated)",
+      "France CSHPF seaweed avis unreachable (OI-20260902-fr-cshpf-seaweed-primary-archive)",
+      "Fiji FSR 2009 row url is the wrong document (OI-20260902-fiji-fsr2009-row-url-not-instrument)",
+      "CA SWRCB held copy is the proposed text (OI-20260902-ca-crvi-final-regulation-text-not-held)"
+    ]
+  },
+  "governor": {
+    "used_today": 12,
+    "daily_cap": 60,
+    "hourly_cap": 12,
+    "note": "12 leases at ~10:05Z; next hour free ~11:05Z; work type standards-confidence"
+  },
+  "next_steps": [
+    "deep read (1 xhigh agent) confirming Israel status, then mark 162 il_fcs2016_* rows superseded in the register + wiki page status; log the cell inventory; re-anchor per category (raised numbers held)",
+    "launch g6.B; ingest g5/g6; dispatch M2 batches (seafood 24, cat30 5) in ≤5-batch agent calls; ingest; mirror manifests; lint --block-listed",
+    "cat30: re-anchor tHg → th_moph414_2020_thg_food_other_20 (same value); Cd decision (raise) → ratification list",
+    "seafood: seaweed Pb → GB 2762-2025 algae products 1000 (verify dry-weight basis); tAs → build C6d species-as-total read-across contract or hold",
+    "then cat3, cat5, cat4, cat8, cat11, cat21, cat33, cat35 (round-trip clean today) → C for their empty cells",
+    "Phase F: port datacite-media to cert (never run); DoD 9 dry runs; Phase G report"
   ]
 }

@@ -1,5 +1,11 @@
 {
   "compiled_dir": "seafood-compiled",
   "run_id": "run-20260902-a",
-  "cells": {}
+  "cells": {
+    "canned-seafood|both|Cd#canary": {
+      "of": "canned-seafood|both|Cd",
+      "perturbed_value": 100,
+      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a"
+    }
+  }
 }

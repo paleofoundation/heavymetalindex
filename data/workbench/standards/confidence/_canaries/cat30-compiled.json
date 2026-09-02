@@ -1,5 +1,11 @@
 {
   "compiled_dir": "cat30-compiled",
   "run_id": "run-20260902-a",
-  "cells": {}
+  "cells": {
+    "cooking-oils-other|default|Pb#canary": {
+      "of": "cooking-oils-other|default|Pb",
+      "perturbed_value": 160,
+      "batch_id": "cat30-compiled-734d41bd319590ff-run-20260902-a"
+    }
+  }
 }

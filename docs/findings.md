@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-224 open item(s): 75 auto, 149 awaiting a decision.
+228 open item(s): 78 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -555,6 +555,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: index mint-dois.mjs requires an explicit --live (or --execute) flag to deposit; credentials alone never execute; 10.84435 added to TEST_PREFIXES in both mint-dois.mjs files; datacite-preflight.mjs header states it creates+deletes a DataCite draft record and requires an explicit --execute flag; it never prints DATACITE_USER
 - evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Ground truth / Hard rules
 
+### OI-20260902-il-fcs2016-not-in-force — Israel MoH 2016 heavy-metals guideline is marked not in force on gov.il (Israel adopted the EU contaminants regulation from 2023-01-01); register rows need status/successor update and every cell anchored on an il_fcs2016_* row re-adjudicated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`, `data/workbench/standards/confidence/_m1-verdicts/m1-20260902-g3.A.json`
+- repro: M1 verifier A (packet g3): the gov.il policy page hosting the register URL (fcs-reg-01022007) is titled not in force (updated 19.02.2026); the 2020 extension order carried the guideline only to 2022-01-06; the MoH notice of 2024-08-26 states the adopted EU contaminants regulation (1881/2006 → 2023/915 via Amendment 10) is in force since 2023-01-01. Values in the guideline text itself are correct. The EU successor sets no ML for Cd/Hg in fats and oils or Pb/As in dried seaweed, so those cells have no direct successor value (cat30 tHg 20, seafood seaweed Pb 5000 / tAs 5000, and every other il_fcs2016 anchor across the categories).
+- done when: verifier B verdict and one xhigh deep read agree on the in-force status; il_fcs2016_* rows carry a superseded/not-in-force status with successor named; every cell anchored on an il_fcs2016 row is re-anchored by config to an in-force same-basis instrument, or disclosed as a read-across from a superseded-but-technically-substantive instrument only if Karen ratifies that posture; any raised published value is held from push until ratified
+- decision: _pending_
+
 ### OI-20260902-gb2762-2025-repoint-cat-configs — Re-point every config and live cert record from superseded GB 2762-2022 ids to the GB 2762-2025 successors (values unchanged)
 
 - scope: **auto** · type: code-fix · status: open · repo: index
@@ -569,6 +577,20 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `raw/regulatory/_manifest-reg-all.csv`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/china-gb-2762-2025-contaminants.md`
 - repro: grep -i 2762 raw/regulatory/_manifest-reg-all.csv returns nothing; every china_gb2762_2025_* row has an empty url; the page carries source_url: null and source_file (raw path). Values were verified from the raw PDF, so this is a provenance-pointer gap, not a value gap.
 - done when: manifest row for cn/china-gb-2762-2025-effective-2026-09-02.pdf with the official URL; url filled on every china_gb2762_2025_* row; source_url set on the wiki page
+
+### OI-20260902-fr-cshpf-seaweed-primary-archive — Archive a primary copy of the CSHPF 1988/1990 edible-seaweed avis (or the DGCCRF restatement) under raw/regulatory/fr/
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `raw/regulatory/fr/`, `data/evidence/regulatory_limits.csv`
+- repro: fr_cshpf_seaweed_cd_500 and fr_cshpf_seaweed_thg_100 have no reachable primary text: the CSHPF avis was never published in the JO, raw/regulatory/fr/ does not exist, and the DGCCRF PDF (CA_RS_Algues_Janvier2019.pdf) returns HTTP 403. M1 verifier A could only corroborate the values (Cd 0.5, Hg 0.1 mg/kg dry matter) via ANSES avis 2017-SA-0070 Tableau 3 and CEVA 2024; the cells stay cannot-verify.
+- done when: raw/regulatory/fr/ holds the CSHPF avis text or the DGCCRF seaweed recommendations PDF; the two register rows carry a url or a raw path resolving to it; re-run of the g4 packet yields match for both rows
+
+### OI-20260902-fiji-fsr2009-row-url-not-instrument — Fiji FSR 2009 register rows cite a URL that is the 2002 WHO/FAO/SPC Pacific consultation report, not the Regulations
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/fiji-food-safety-regulations-2009-chemical-contaminants.md`
+- repro: fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200 (and sibling fj_fsr2009_* rows) carry url https://biotech.law.lsu.edu/obesity/who/report_food_safety_consultation.pdf; pdftotext shows the WHO-WPRO consultation report (Nadi, 2002; 59 pp) with no Eleventh Schedule. Both M1 verifiers matched the value against the held raw/regulatory/fj/fiji-food-safety-regulations-2009-chemical-contaminants.pdf instead (byte-identical to the Ministry of Health copy, sha256 96f00728...).
+- done when: url on every fj_fsr2009_* row points to the Food Safety Regulations 2009 (L.N. 20 of 2009) copy (health.gov.fj); register_urls for the instrument no longer list the LSU/WHO report; the M1 packet for the instrument lists the raw path
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 
@@ -641,6 +663,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/standards/cat1-config.json`, `tools/standards/compile-cat1.mjs`
 - repro: cat1-config.json fruit-juice scope_exclude now carries "apple juice" so the whole-category ceiling is EU 2023/915 fruit juices iAs 20 (golden value, audit wf2uta7ck); the stricter apple-only rows fda2023_ias_apple_juice_10 and us_ias_apple-juice-single-strength-ready-to-dri_10 are therefore not published on the page. compile-cat1 has no form_split cell kind (the engine used by cat33/34 does).
 - done when: fruit-juice iAs renders as a form split: apple juice 10 (FDA), other fruit juices 20 (EU 2023/915); panel-coherence golden fruit-juice iAs = 20 preserved for the category ceiling; audit --dir cat1 0 FAIL after the change
+
+### OI-20260902-ca-crvi-final-regulation-text-not-held — Hold the SWRCB hexavalent-chromium MCL final regulation text in raw/ (held copy is the Feb 2024 proposed text) and record adoption/effective/compliance dates on the register row
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `raw/regulatory/us-ca/`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/ca-swrcb-hexavalent-chromium-mcl.md`
+- repro: raw/regulatory/us-ca/ca-swrcb-hexavalent-chromium-mcl-regulation-text-2024.pdf is footed Regulation Text (proposed) with placeholder dates; the adopted text (waterboards.ca.gov .../2024/cr6-mcl-final-regulation-text.pdf, created 2024-07-25) carries the same MCL 0.010 mg/L with compliance dates 2026/2027/2028-10-01. Both M1 verifiers matched the value; the row has no url and no raw path in notes.
+- done when: final regulation text saved under raw/regulatory/us-ca/ with final in the filename; ca_swrcb_crvi_drinking_water_10 carries url + notes: adopted 2024-04-17 (Res. 2024-0015), OAL 2024-07-24, effective 2024-10-01, phased compliance; the M1 packet lists the final text
 
 ### OI-20260902-c5-formula-al-reconstitution-false-positive — audit-compiled-standards C5 false-positive on formula Al 8000 (8:1 reconstitution not modeled)
 

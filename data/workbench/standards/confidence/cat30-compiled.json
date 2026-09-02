@@ -5,9 +5,9 @@
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
   "run_id": "run-20260902-a",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:03:18.224Z",
-  "register_commit": "c9823e3b7",
-  "cert_commit": "5c542da",
+  "generated_at": "2026-09-02T10:21:54.264Z",
+  "register_commit": "c085f422b",
+  "cert_commit": "fc7a463",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -18,13 +18,13 @@
     "records": 2,
     "cells": 22,
     "confirmed": 0,
-    "refuted": 0,
-    "unverified": 20,
-    "blocked": 2,
+    "refuted": 6,
+    "unverified": 16,
+    "blocked": 0,
     "stale": 0,
-    "lens0_fail": 0,
-    "m1_pending_rows": 8,
-    "m2_batches_pending": 0
+    "lens0_fail": 6,
+    "m1_pending_rows": 2,
+    "m2_batches_pending": 5
   },
   "cells": {
     "cooking-oils-other|default|Pb": {
@@ -33,7 +33,7 @@
       "analyte": "Pb",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_2025_pb_fats_and_oils_80"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -53,10 +53,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "0c49705ccde78c730d369d8dacd69e1987f126f87bcaef684a0fe3bc7dd52481",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "china_gb2762_2025_pb_fats_and_oils_80"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -64,7 +64,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.220Z",
+      "verified_at": "2026-09-02T10:21:54.261Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -72,9 +72,9 @@
       "slug": "cooking-oils-other",
       "variant": "default",
       "analyte": "Cd",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
+        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law under the Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1 (Amendment 10, 4 Au))"
       ],
       "state": "firm",
       "kind": "gov",
@@ -95,17 +95,17 @@
       "cell_sha256": "e6d4cfcd1f2f31ea16d03177f811958d15808fa8631489b0d211ed5a3bc509fc",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.220Z",
+      "verified_at": "2026-09-02T10:21:54.261Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -146,7 +146,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.220Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -187,7 +187,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.221Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -195,9 +195,9 @@
       "slug": "cooking-oils-other",
       "variant": "default",
       "analyte": "tHg",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
       ],
       "state": "firm",
       "kind": "gov",
@@ -218,17 +218,17 @@
       "cell_sha256": "2cdf46608b39a46475ce441f7f6f1df09f4a73750b2351a0d309ea91c4666d6d",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.221Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -236,9 +236,9 @@
       "slug": "cooking-oils-other",
       "variant": "default",
       "analyte": "MeHg",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -259,17 +259,17 @@
       "cell_sha256": "6e2c745ac01b378b6ddd425aa8dac9076b82a7d7df38aa390b4db2bf8f5b7418",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.221Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -279,7 +279,7 @@
       "analyte": "Ni",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending eu2024_ni_formula_liquid_100"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -299,10 +299,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "7377607a801fc2ad0abb881804d87bea783705ece7a75f5c0eb058f3bb93016d",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "eu2024_ni_formula_liquid_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -310,7 +310,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.221Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -320,7 +320,7 @@
       "analyte": "Sn",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending eu2023_sn_canned_foods_200000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -340,10 +340,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "53b3476b46f505a3462e9fde0fac37051f095883c67b50ae3ebf667e9f97db84",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "eu2023_sn_canned_foods_200000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -351,7 +351,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.222Z",
+      "verified_at": "2026-09-02T10:21:54.262Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -392,7 +392,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.222Z",
+      "verified_at": "2026-09-02T10:21:54.263Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -402,7 +402,7 @@
       "analyte": "Cr",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_2025_crtotal_liquid_milk_300"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -422,10 +422,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "4cf84c4c986ae58765565392c197e62160cad5f0bd2583b0e3f97b6ae1a73069",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "china_gb2762_2025_crtotal_liquid_milk_300"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -433,7 +433,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.222Z",
+      "verified_at": "2026-09-02T10:21:54.263Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -441,9 +441,9 @@
       "slug": "cooking-oils-other",
       "variant": "default",
       "analyte": "Cr-VI",
-      "verdict": "blocked",
+      "verdict": "unverified",
       "reasons": [
-        "M1:no primary text for ca_swrcb_crvi_drinking_water_10"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -463,18 +463,18 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "0b1bd51ca923d17dd8fed76169b9b124830d678fccc60961162a0a0b7a46d02e",
       "m1": {
-        "verified": [],
-        "pending": [],
-        "blocked": [
+        "verified": [
           "ca_swrcb_crvi_drinking_water_10"
-        ]
+        ],
+        "pending": [],
+        "blocked": []
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.263Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -484,7 +484,7 @@
       "analyte": "Pb",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_2025_pb_fats_and_oils_80"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -504,10 +504,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "0c49705ccde78c730d369d8dacd69e1987f126f87bcaef684a0fe3bc7dd52481",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "china_gb2762_2025_pb_fats_and_oils_80"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -515,7 +515,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.263Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -523,9 +523,9 @@
       "slug": "olive-oil",
       "variant": "default",
       "analyte": "Cd",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
+        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law under the Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1 (Amendment 10, 4 Au))"
       ],
       "state": "firm",
       "kind": "gov",
@@ -546,17 +546,17 @@
       "cell_sha256": "e6d4cfcd1f2f31ea16d03177f811958d15808fa8631489b0d211ed5a3bc509fc",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.263Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -597,7 +597,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -638,7 +638,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -646,9 +646,9 @@
       "slug": "olive-oil",
       "variant": "default",
       "analyte": "tHg",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
       ],
       "state": "firm",
       "kind": "gov",
@@ -669,17 +669,17 @@
       "cell_sha256": "2cdf46608b39a46475ce441f7f6f1df09f4a73750b2351a0d309ea91c4666d6d",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -687,9 +687,9 @@
       "slug": "olive-oil",
       "variant": "default",
       "analyte": "MeHg",
-      "verdict": "unverified",
+      "verdict": "refuted",
       "reasons": [
-        "M1:pending il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -710,17 +710,17 @@
       "cell_sha256": "6e2c745ac01b378b6ddd425aa8dac9076b82a7d7df38aa390b4db2bf8f5b7418",
       "m1": {
         "verified": [],
-        "pending": [
+        "pending": [],
+        "blocked": [
           "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
-        ],
-        "blocked": []
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.223Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -730,7 +730,7 @@
       "analyte": "Ni",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending eu2024_ni_formula_liquid_100"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -750,10 +750,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "2bc745d47ca9bafeccfe05c9d5b142a163d069b99de26acb4d228d2208e6fea9",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "eu2024_ni_formula_liquid_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -761,7 +761,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.224Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -771,7 +771,7 @@
       "analyte": "Sn",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending eu2023_sn_canned_foods_200000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -791,10 +791,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "3633bcc7f1611c9897bb6e508bb6665115d021614b4d10f873059588e146db89",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "eu2023_sn_canned_foods_200000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -802,7 +802,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.224Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -843,7 +843,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.224Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -853,7 +853,7 @@
       "analyte": "Cr",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_2025_crtotal_liquid_milk_300"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -873,10 +873,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "a5d9a75858a3b846f3a15c73ef6d2be9e7b6808201103101e8df907969193f16",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "china_gb2762_2025_crtotal_liquid_milk_300"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -884,7 +884,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.224Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -892,9 +892,9 @@
       "slug": "olive-oil",
       "variant": "default",
       "analyte": "Cr-VI",
-      "verdict": "blocked",
+      "verdict": "unverified",
       "reasons": [
-        "M1:no primary text for ca_swrcb_crvi_drinking_water_10"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -914,18 +914,18 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "06ac7f3a186524d4e0a85500bb40e8b35e5d11b1eb526760c8535df54ac45320",
       "m1": {
-        "verified": [],
-        "pending": [],
-        "blocked": [
+        "verified": [
           "ca_swrcb_crvi_drinking_water_10"
-        ]
+        ],
+        "pending": [],
+        "blocked": []
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:03:18.224Z",
+      "verified_at": "2026-09-02T10:21:54.264Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     }

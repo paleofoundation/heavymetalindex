@@ -83,6 +83,12 @@ function ingestM1(files, register) {
     let status, reason
     if (deepRead) { status = matches(deepRead) ? "verified" : deepRead.verdict === "cannot-verify" ? "cannot-verify" : "refuted"; reason = `deep-read ${deepRead.verdict}${deepRead.note ? ": " + deepRead.note : ""}` }
     else if (blind.length >= 2 && blind.every(matches)) { status = "verified"; reason = "two blind agents match the register value" }
+    else if (blind.length >= 2 && blind.every((x) => x.verdict === "mismatch") && new Set(blind.map((x) => String(x.in_force || "").toLowerCase())).size === 1 && /superseded|repealed|revoked|withdrawn|not yet/.test(String(blind[0].in_force || "").toLowerCase())) {
+      // Two blind agents independently refute on the SAME in-force ground (superseded / repealed /
+      // not yet in force): that is agreement, not disagreement, and the row is refuted. A value
+      // disagreement between two mismatches still goes to the deep read below.
+      status = "refuted"; reason = `two blind agents agree: instrument ${blind[0].in_force}${blind[0].successor ? ` (successor: ${String(blind[0].successor).slice(0, 160)})` : ""}`
+    }
     else if (blind.some((x) => x.verdict === "cannot-verify")) { status = "needs-deep-read"; reason = "a blind agent could not verify" }
     else if (blind.length >= 2) { status = "needs-deep-read"; reason = "blind agents disagree or one refutes" }
     else { status = "needs-deep-read"; reason = `only ${blind.length} fresh blind verdict(s)` }

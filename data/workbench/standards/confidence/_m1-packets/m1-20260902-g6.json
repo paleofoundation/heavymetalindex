@@ -1,0 +1,172 @@
+{
+  "packet_id": "m1-20260902-g6",
+  "run_id": "run-20260902-a",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2025/1891/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2025-1891-inorganic-arsenic-fish-seafood.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20251891_ias_fish_other_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "muscle meat of fish, species other than those listed under Annex I 3.4.5.2",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.5.1; inorganic arsenic is sum of As(III) and As(V); wet-weight value 0.10 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a6f020f83800f828e5415223b1741f7f667c6ae1abaaff177b0af4a294eacc8f",
+          "row_sha256": "a6f020f83800f828e5415223b1741f7f667c6ae1abaaff177b0af4a294eacc8f"
+        },
+        {
+          "regulatory_limit_id": "eu20251891_ias_cephalopods_50",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "50",
+          "basis": "wet weight",
+          "product_scope": "cephalopods",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.8; value applies to the animal without viscera; wet-weight value 0.050 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "44fce1babb29c819bbb66e569c0a9ae36915b0be065a305d2cf1cacfd9356921",
+          "row_sha256": "44fce1babb29c819bbb66e569c0a9ae36915b0be065a305d2cf1cacfd9356921"
+        },
+        {
+          "regulatory_limit_id": "eu20251891_ias_crabs_prawns_shrimps_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "crabs and crab-like crustaceans (Brachyura and Anomura), prawns, and shrimps",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.6.1; value applies to muscle meat from appendages for crabs and crab-like crustaceans; wet-weight value 0.10 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "c3588759dc6d78771d70da21babdb1b660f0ca0426bc1fcd5cb3b7ba025f6ede",
+          "row_sha256": "c3588759dc6d78771d70da21babdb1b660f0ca0426bc1fcd5cb3b7ba025f6ede"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_fish_1000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fish",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 1 mg/kg; Note 2: edible portion after removal of the digestive tract (if any)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3e33af7d46ab85b891ebdd5df1283485a9477811cbb055a3f04531705b0fe375",
+          "row_sha256": "3e33af7d46ab85b891ebdd5df1283485a9477811cbb055a3f04531705b0fe375"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Crabs, prawns and shrimps",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 1 mg/kg; Note 3: crabs — whole commodity (incl. gonads, liver and other digestive organs) after removal of shell and gills",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "7dd8fd6f8a0dfa5d5cf94296cac4d4789178d2fb3ed01e5d42d5fb7181a8b0fc",
+          "row_sha256": "7dd8fd6f8a0dfa5d5cf94296cac4d4789178d2fb3ed01e5d42d5fb7181a8b0fc"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-10-2011-food-contact-plastics-sml.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_10_2011_al_sml",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "1000",
+          "basis": "specific migration into food; source unit mg/kg food",
+          "product_scope": "plastic food-contact materials and articles",
+          "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831",
+          "notes": "Regulation (EU) 10/2011 Annex II point 1, aluminium SML 1 mg/kg food (added by Reg (EU) 2016/1416).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912",
+          "row_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/india-fssai-2016-heavy-metals-third-amendment",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/india-fssai-2016-heavy-metals-third-amendment.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "in_fssai2016_crtotal_001_all_fishery_products_12000",
+          "jurisdiction": "IN",
+          "authority": "Food Safety and Standards Authority of India",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "12000",
+          "basis": "parts per million by weight",
+          "product_scope": "All fishery products",
+          "regulation_page": "regulations/india-fssai-2016-heavy-metals-third-amendment",
+          "url": "",
+          "notes": "Food Safety and Standards (Contaminants, toxins and Residues) Third Amendment Regulations, 2016; regulation 2 table insertion against serial number 9 Chromium; source value 12 parts per million by weight. Chromium is unspecified, recorded as Cr-total.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "438222ae7fd1f68e8942c3616014becd4b34159d6d0d033a9adbacad8d153806",
+          "row_sha256": "438222ae7fd1f68e8942c3616014becd4b34159d6d0d033a9adbacad8d153806"
+        }
+      ]
+    }
+  ],
+  "row_count": 7
+}
