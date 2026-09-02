@@ -5,9 +5,9 @@
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
   "run_id": "run-20260902-a",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:28:11.618Z",
-  "register_commit": "ba5f2e1b4",
-  "cert_commit": "09c1a9d",
+  "generated_at": "2026-09-02T10:35:04.801Z",
+  "register_commit": "aa65d2e1d",
+  "cert_commit": "a7cee61",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -23,8 +23,8 @@
     "blocked": 0,
     "stale": 0,
     "lens0_fail": 6,
-    "m1_pending_rows": 2,
-    "m2_batches_pending": 5
+    "m1_pending_rows": 1,
+    "m2_batches_pending": 7
   },
   "cells": {
     "cooking-oils-other|default|Pb": {
@@ -64,7 +64,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.615Z",
+      "verified_at": "2026-09-02T10:35:04.798Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -105,7 +105,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.615Z",
+      "verified_at": "2026-09-02T10:35:04.798Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -115,7 +115,7 @@
       "analyte": "tAs",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending codex_tas_named-vegetable-oils_100"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -135,10 +135,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "8d218c2b4709ae6b146b9a57f47848a8c4732dae95e3880a2f7d3308c73ce515",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "codex_tas_named-vegetable-oils_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -146,7 +146,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.798Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -156,7 +156,7 @@
       "analyte": "iAs",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending codex_tas_named-vegetable-oils_100"
+        "M2:no verdicts yet"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -176,10 +176,10 @@
       "record_sha256": "077fdf1e345b3f9de350f3c4e723b3b177a21a91cd85f1a3735110b567ae4944",
       "cell_sha256": "f4891bb39a3c82135f9a48323514393a9cd6eccf69b40c2a0a0b18dd1037d504",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "codex_tas_named-vegetable-oils_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -187,7 +187,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.798Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -228,7 +228,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -269,7 +269,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -310,7 +310,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -351,7 +351,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -392,7 +392,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.616Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -433,7 +433,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -474,7 +474,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.799Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -515,7 +515,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -556,7 +556,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -566,7 +566,7 @@
       "analyte": "tAs",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending codex_tas_named-vegetable-oils_100"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -586,10 +586,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "8d218c2b4709ae6b146b9a57f47848a8c4732dae95e3880a2f7d3308c73ce515",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "codex_tas_named-vegetable-oils_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -597,7 +597,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -607,7 +607,7 @@
       "analyte": "iAs",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending codex_tas_named-vegetable-oils_100"
+        "M2:no verdicts yet"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -627,10 +627,10 @@
       "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
       "cell_sha256": "f4891bb39a3c82135f9a48323514393a9cd6eccf69b40c2a0a0b18dd1037d504",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "codex_tas_named-vegetable-oils_100"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -638,7 +638,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -679,7 +679,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -720,7 +720,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -761,7 +761,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.617Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -802,7 +802,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.618Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -843,7 +843,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.618Z",
+      "verified_at": "2026-09-02T10:35:04.800Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -884,7 +884,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.618Z",
+      "verified_at": "2026-09-02T10:35:04.801Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -925,7 +925,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.618Z",
+      "verified_at": "2026-09-02T10:35:04.801Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     }

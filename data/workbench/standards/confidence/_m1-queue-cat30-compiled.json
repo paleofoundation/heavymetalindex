@@ -3,41 +3,6 @@
   "run_id": "run-20260902-a",
   "instruments": [
     {
-      "regulation_page": "regulations/codex-fats-oils-contaminants",
-      "primary_text": {
-        "register_urls": [
-          "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/"
-        ],
-        "raw_paths": [],
-        "wiki_page": null
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "codex_tas_named-vegetable-oils_100",
-          "jurisdiction": "CODEX",
-          "authority": "Codex Alimentarius Commission",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "100",
-          "basis": "as sold",
-          "product_scope": "Named vegetable oils",
-          "regulation_page": "regulations/codex-fats-oils-contaminants",
-          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
-          "notes": "CXS 210-1999 Standard for Named Vegetable Oils Sec 5.1 / CXS 19-1981 Edible Fats and Oils Sec 4 set total arsenic 0.1 mg/kg (and lead 0.1 mg/kg) as commodity-standard MLs. Confirmed in force; CCFO29 (2024) directed CCCF to consolidate these As/Pb oil MLs into horizontal CXS 193. Loaded 2026-08-10 (oils not-material audit): closes the As-in-oil no-ML gap so olive-oil/cooking-oils tAs adopt a real ceiling under Method v2.0 rather than being mislabelled not-material.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917",
-          "row_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917"
-        }
-      ],
-      "cells": [
-        "cooking-oils-other|default|tAs",
-        "cooking-oils-other|default|iAs",
-        "olive-oil|default|tAs",
-        "olive-oil|default|iAs"
-      ]
-    },
-    {
       "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
       "primary_text": {
         "register_urls": [

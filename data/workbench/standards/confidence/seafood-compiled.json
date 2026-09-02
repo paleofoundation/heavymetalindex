@@ -5,9 +5,9 @@
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
   "run_id": "run-20260902-a",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:28:11.465Z",
-  "register_commit": "ba5f2e1b4",
-  "cert_commit": "09c1a9d",
+  "generated_at": "2026-09-02T10:35:04.648Z",
+  "register_commit": "aa65d2e1d",
+  "cert_commit": "a7cee61",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -23,8 +23,8 @@
     "blocked": 1,
     "stale": 0,
     "lens0_fail": 0,
-    "m1_pending_rows": 14,
-    "m2_batches_pending": 25
+    "m1_pending_rows": 8,
+    "m2_batches_pending": 32
   },
   "cells": {
     "canned-seafood|both|Pb": {
@@ -33,7 +33,7 @@
       "analyte": "Pb",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cr_rtcr409_2008_pb_tuna_bonito_200"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -53,10 +53,10 @@
       "record_sha256": "75c66a2da086854a996d4e77aa5adbdd767e4053fb1914a48faca9cfe38d0a67",
       "cell_sha256": "2ec35fad482515157eb29d839b4252d929a678f65d1d66264c5e43efe4ca70a9",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cr_rtcr409_2008_pb_tuna_bonito_200"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -64,7 +64,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.456Z",
+      "verified_at": "2026-09-02T10:35:04.639Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -105,7 +105,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.456Z",
+      "verified_at": "2026-09-02T10:35:04.640Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -146,7 +146,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.457Z",
+      "verified_at": "2026-09-02T10:35:04.640Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -187,7 +187,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.457Z",
+      "verified_at": "2026-09-02T10:35:04.640Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -197,7 +197,7 @@
       "analyte": "tHg",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cr_rtcr409_2008_thg_fish_general_500"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -217,10 +217,10 @@
       "record_sha256": "75c66a2da086854a996d4e77aa5adbdd767e4053fb1914a48faca9cfe38d0a67",
       "cell_sha256": "79d8f60df9c99c27a4fccd24ed8eade9701e6ce9bbe574a69b33ffd0edf56904",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cr_rtcr409_2008_thg_fish_general_500"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -228,7 +228,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.457Z",
+      "verified_at": "2026-09-02T10:35:04.640Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -269,7 +269,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.458Z",
+      "verified_at": "2026-09-02T10:35:04.641Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -310,7 +310,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.458Z",
+      "verified_at": "2026-09-02T10:35:04.641Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -320,7 +320,7 @@
       "analyte": "Sn",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending mx_nom242_sn_canned_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -340,10 +340,10 @@
       "record_sha256": "75c66a2da086854a996d4e77aa5adbdd767e4053fb1914a48faca9cfe38d0a67",
       "cell_sha256": "6ecdf73f588c0374d6abac744a9a91f2a42c0ba52a11b874acfde24f09f704c9",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "mx_nom242_sn_canned_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -351,7 +351,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.458Z",
+      "verified_at": "2026-09-02T10:35:04.642Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -361,7 +361,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -381,10 +381,10 @@
       "record_sha256": "75c66a2da086854a996d4e77aa5adbdd767e4053fb1914a48faca9cfe38d0a67",
       "cell_sha256": "67c5cc30102e3a139d376c7849cfc85b9ce8975a15c52a180540d06371d3f535",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -392,7 +392,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.459Z",
+      "verified_at": "2026-09-02T10:35:04.642Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -433,7 +433,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.459Z",
+      "verified_at": "2026-09-02T10:35:04.642Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -474,7 +474,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.459Z",
+      "verified_at": "2026-09-02T10:35:04.642Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -515,7 +515,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.460Z",
+      "verified_at": "2026-09-02T10:35:04.643Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -556,7 +556,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.460Z",
+      "verified_at": "2026-09-02T10:35:04.643Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -597,7 +597,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.460Z",
+      "verified_at": "2026-09-02T10:35:04.643Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -638,7 +638,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.460Z",
+      "verified_at": "2026-09-02T10:35:04.643Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -679,7 +679,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.460Z",
+      "verified_at": "2026-09-02T10:35:04.643Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -720,7 +720,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -761,7 +761,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -802,7 +802,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -812,7 +812,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -832,10 +832,10 @@
       "record_sha256": "5a9b16a4190d12386b8ba53ccdea0cb85f122edafac3ad734a1c87312ce11858",
       "cell_sha256": "f9f5e330fefb572e3c04b4d2ec3561dbc74c2acfb089fc71ffaba9f175f26266",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -843,7 +843,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -884,7 +884,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -925,7 +925,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.644Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -966,7 +966,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1007,7 +1007,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.461Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1048,7 +1048,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1089,7 +1089,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1130,7 +1130,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1171,7 +1171,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1212,7 +1212,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1253,7 +1253,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1263,7 +1263,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -1283,10 +1283,10 @@
       "record_sha256": "ff6b863a85fd287ce868333fe052d87e0faf5c8d450fbfeb2547392bc063b9a4",
       "cell_sha256": "f9f5e330fefb572e3c04b4d2ec3561dbc74c2acfb089fc71ffaba9f175f26266",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -1294,7 +1294,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1335,7 +1335,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1376,7 +1376,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1417,7 +1417,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1458,7 +1458,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1499,7 +1499,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1540,7 +1540,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1581,7 +1581,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1622,7 +1622,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1663,7 +1663,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1704,7 +1704,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1714,7 +1714,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -1734,10 +1734,10 @@
       "record_sha256": "9d7d6a91c7d24ea7039f33817b7d97acea7348093ade65e7de1a079521c34d70",
       "cell_sha256": "f9f5e330fefb572e3c04b4d2ec3561dbc74c2acfb089fc71ffaba9f175f26266",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -1745,7 +1745,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1786,7 +1786,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.645Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1827,7 +1827,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1837,7 +1837,7 @@
       "analyte": "Pb",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cr_rtcr409_2008_pb_tuna_bonito_200"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -1857,10 +1857,10 @@
       "record_sha256": "e42b14141e51c8cfb0047047be8e12e388a03abf5511e8b7bac1e38dc31fd939",
       "cell_sha256": "6a16099fc1e14cfefae85b85be1cc7fb1c3d9ae865b3ca4610effa0ad515d4ec",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cr_rtcr409_2008_pb_tuna_bonito_200"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -1868,7 +1868,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1878,7 +1878,7 @@
       "analyte": "Cd",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cr_rtcr409_2008_cd_fish_general_50"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -1898,10 +1898,10 @@
       "record_sha256": "e42b14141e51c8cfb0047047be8e12e388a03abf5511e8b7bac1e38dc31fd939",
       "cell_sha256": "d4d1412c96a242871f9581748e03598d1ddd43d2f52e573c8d1d1df8f57b8053",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cr_rtcr409_2008_cd_fish_general_50"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -1909,7 +1909,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.462Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1950,7 +1950,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -1991,7 +1991,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2032,7 +2032,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2073,7 +2073,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2114,7 +2114,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2155,7 +2155,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2165,7 +2165,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -2185,10 +2185,10 @@
       "record_sha256": "e42b14141e51c8cfb0047047be8e12e388a03abf5511e8b7bac1e38dc31fd939",
       "cell_sha256": "f9f5e330fefb572e3c04b4d2ec3561dbc74c2acfb089fc71ffaba9f175f26266",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -2196,7 +2196,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2237,7 +2237,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2278,7 +2278,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2319,7 +2319,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2360,7 +2360,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2401,7 +2401,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2442,7 +2442,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2483,7 +2483,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2524,7 +2524,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2565,7 +2565,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2606,7 +2606,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.646Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2616,7 +2616,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -2636,10 +2636,10 @@
       "record_sha256": "6cedbebf29d44bd7f9c27649be3affd3b6b48957cc36af59d68b40048838f43b",
       "cell_sha256": "9cf3d88642fd54ed49bb04e320bceccaacd07f91896ff8695418c9d1b7ad4894",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -2647,7 +2647,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.463Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2688,7 +2688,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2729,7 +2729,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2770,7 +2770,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2811,7 +2811,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2852,7 +2852,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2893,7 +2893,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2934,7 +2934,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -2944,7 +2944,7 @@
       "analyte": "MeHg",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending mx_nom242_mehg_other_500"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -2964,10 +2964,10 @@
       "record_sha256": "257d75c4ac45ac904cafe4d8ba63c929b58c426a1358fe43d4240f5040d46780",
       "cell_sha256": "511c1b200268088f86925220140cb90cf3cdc3e3ab3c299a1c7867b07f6439b1",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "mx_nom242_mehg_other_500"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -2975,7 +2975,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.647Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -3016,7 +3016,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.648Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -3057,7 +3057,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.464Z",
+      "verified_at": "2026-09-02T10:35:04.648Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -3067,7 +3067,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending cn_gb2760_2024_al_baked_foods_100000"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -3087,10 +3087,10 @@
       "record_sha256": "257d75c4ac45ac904cafe4d8ba63c929b58c426a1358fe43d4240f5040d46780",
       "cell_sha256": "660e8152bd63817ead568f7f96106efb25d2531fffce327f7b25f757f5325141",
       "m1": {
-        "verified": [],
-        "pending": [
+        "verified": [
           "cn_gb2760_2024_al_baked_foods_100000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -3098,7 +3098,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.465Z",
+      "verified_at": "2026-09-02T10:35:04.648Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -3139,7 +3139,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.465Z",
+      "verified_at": "2026-09-02T10:35:04.648Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -3180,7 +3180,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:28:11.465Z",
+      "verified_at": "2026-09-02T10:35:04.648Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     }
