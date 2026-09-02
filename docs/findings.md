@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-213 open item(s): 66 auto, 147 awaiting a decision.
+215 open item(s): 68 auto, 147 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -545,6 +545,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: heavymetalcertified/quartz/components/navPanels.seed.ts still holds the index site's Metals/Foods/Products taxonomy with wiki/ slugs; it is unused (MegaMenu imports the hand-maintained generated/navPanels.ts) and tools/build-nav-panels.mjs points at a nonexistent wiki/ dir. Either delete the stale seed, or author a cert-specific seed and wire the generator so a dangling-slug check runs at build.
 - done when: navPanels.seed.ts removed, or rewritten to the cert 3-door taxonomy; if the generator is wired into prebuild, a dangling slug fails the build; generated/navPanels.ts output matches the current hand-authored 3-door version
 
+### OI-20260902-cert-duplicate-rice-milk-rows — Two LIVE cert standards cover the same product (rice milk): Cat 5 plant-milks-rice-based (5 firm analytes, v1.0 2026-08-17) and Cat 3 rice-beverages-rice-milk (10 firm analytes, v1.0 2026-08-10); taxonomy v2.2 marks Cat 5 r7 RETIRED -> Cat 3, so the Cat 5 page should be retired-in-place to a redirect, not published as a certifiable (and looser, 5-firm) standard
+
+- scope: **auto** · type: finding · status: open · repo: cert
+- paths: `content/standards/plant-milks-rice-based.md`, `content/standards/rice-beverages-rice-milk.md`, `content/standards/index.md`, `data/standards/cat5-pages.json`
+- repro: cd ~/Desktop/heavymetalcertified && grep -E "^(category|firm_analytes|standard_version):" content/standards/plant-milks-rice-based.md content/standards/rice-beverages-rice-milk.md ; grep -n "plant-milks-rice-based" content/standards/index.md  (register lists it as Beverages 3.12 - 5 firm). Index taxonomy: data/taxonomy/hmtc-v2.json Cat 5 row 7 name = "Plant milks, rice-based (RETIRED -> Cat 3 rice beverages)".
+- done when: Exactly one certifiable rice-milk standard is live (rice-beverages-rice-milk, Cat 3, EU 2023/915 iAs 30 ppb non-alcoholic rice drinks binding); /standards/plant-milks-rice-based is a retired-in-place redirect/landing to /standards/rice-beverages-rice-milk with no Master Limit Table of its own, and the register no longer lists it as a 5-firm standard; cat5-pages.json / finder context / open-data export no longer emit plant-milks-rice-based as a product a brand can select; standard-readiness-lint and firewall-cert-lint green
+- evidence: Both pages carry iAs 30 ppb, so no numeric contradiction today, but the Cat 5 page has only 5 firm analytes vs 10 on the Cat 3 page: a brand choosing the Cat 5 page certifies against a thinner panel for the identical product
+- notes: Found during the 2026-09-02 subcategory completeness sweep. Inverse of a missing-subcategory defect (a duplicate), but it is the same register-coherence problem a retailer buyer or plaintiff expert would notice. Never renumber; retire-in-place per taxonomy governance.
+
 ### OI-20260902-cert-cat26-stale-framing-no-version-bump — Cat-26: framing + v1.1 bump landed (9ee27a5); RESIDUAL = no version-history record and no retained v1.0 edition PDF for the 5 pages
 
 - scope: **auto** · type: content · status: open · repo: cert
@@ -568,6 +577,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/standards/audit-compiled-standards.mjs`
 - repro: C5 flags infant-formula-powder Al 8000 as not matching its cited anchor (AU-NZ infant-formula Al 1000). The value is CORRECT: 8000 = 1000 (as-consumed) x the 8:1 powder reconstitution factor. The C5 value-fidelity check compares published vs cited anchor WITHOUT applying the formula reconstitution factor, so it false-positives on formula cells where the 8:1 conversion applies. Pre-existing; not a mint gate (readiness-lint CORRECTED is COMPLETE-based).
 - done when: C5 applies the 8:1 reconstitution factor for reconstitution_8to1 subcategories when comparing published vs anchor, so a correct x8 value is not flagged
+
+### OI-20260902-app-onboarding-no-pet-foods-category — LIVE app.heavymetalcertified.com onboarding picker has NO Pet Foods category (Cat 17) and no pet-food-fermentation-derived-protein row: the deployed build carries a stale vendored standards-finder-context (309 slugs, 31 categories) while the live cert export already has Pet Foods (321 slugs, 32 categories)
+
+- scope: **auto** · type: code-fix · status: open · repo: tested
+- paths: `heavymetalcertified-app/src/data/standards-finder-context.json`, `heavymetalcertified-app/scripts/sync-standards.mjs`, `heavymetalcertified-app/package.json`
+- repro: curl -sL https://app.heavymetalcertified.com/hmt/onboarding | grep -c "Pet Foods"  -> 0 (page embeds Beverages etc. but no Pet Foods; browser check 2026-09-02 confirms hasPetFoods=false, hasFermentation=false). curl -sL https://heavymetalcertified.com/static/data/standards-finder-context.json | grep -c pet-food-fermentation-derived-protein -> present. App committed copy src/data/standards-finder-context.json: 309 slugs, categories=31, no Pet Foods; last refreshed 2026-08-25 (55244ce). package.json prebuild = sync-standards --build (fetches live at deploy, falls back silently to the committed copy on any fetch failure), so either the last app deploy predates the cert export gaining Cat 17 or the build-time fetch failed and fell back.
+- done when: Deployed onboarding picker lists Pet Foods and offers every live Cat 17 row including pet-food-fermentation-derived-protein; Committed src/data/standards-finder-context.json refreshed via node scripts/sync-standards.mjs so the fallback copy is not stale (>= 321 slugs, 32 categories); vitest run green in the app repo after the refresh; sync-standards --build logs loudly (and ideally the deploy summary shows) when it falls back to the committed copy, so a silent stale fallback cannot recur unnoticed
+- evidence: 2026-09-02 subcategory sweep: live cert export categories = 32 (missing only Cat 9 + Cat 12, see OI-20260817-standards-export-omits-39, now 29 standards); app vendored copy = 31 (additionally missing Pet Foods) · app repo working tree is on feat/registry-engine-context with uncommitted OnboardingFlow.tsx edits from another session; do the refresh on main/a clean worktree, not in that tree
+- notes: Directly undercuts the reason the fermentation-protein standard was built: the interested pet brand cannot select its category in the onboarding flow. Mechanism fix (cert deploy -> app redeploy hook) is OI-20260825-standards-fanout-deploy-hook; this item is the immediate stale state.
 
 ### OI-20260901-datacite-media-apply — Apply DataCite PDF media association to the 24 live 10.83376 synthesis DOIs (contentUrl + formats) once repo creds land
 
