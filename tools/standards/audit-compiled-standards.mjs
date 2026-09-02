@@ -29,6 +29,9 @@
 //                               the retired occurrence tags must never appear
 //   C11 tag/kind coherence      the tag matches the cell kind; a subsumed species names a parent that is
 //                               itself a firm numeric ceiling; ratchet carries a ratchet_event
+//   C12 baseline-screen contract a baseline screen names a published method in analytical_methods.csv
+//                               whose analyte, basis and LOQ match the cell, plus no_ml_checked /
+//                               no_analog_checked / no_pathway_rationale
 //   C10 basis disclosure        every numeric cell carries a basis string
 //   W1  stricter-unselected     a SAME-BASIS credible-regulator row stricter than the binding was left
 //                               unnamed (candidates outside the record's basis_guard are a different
@@ -79,6 +82,9 @@ function parseCsv(text) {
   return lines.slice(1).map((l) => Object.fromEntries(split(l).map((v, i) => [head[i], v])))
 }
 
+// Published-method LOQ register for baseline-screen cells (C12). HMTC_METHODS overrides for fixture tests.
+const METHODS_PATH = process.env.HMTC_METHODS || path.join(REPO, "data/evidence/analytical_methods.csv")
+const methodById = new Map((fs.existsSync(METHODS_PATH) ? parseCsv(fs.readFileSync(METHODS_PATH, "utf8")) : []).filter((m) => m.method_id).map((m) => [m.method_id, m]))
 const registerText = fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8")
 const register = parseCsv(registerText)
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
@@ -235,6 +241,28 @@ function auditRecord(rec, file) {
         }
       }
       if (prov === "ratchet" && !cell.ratchet_event) F("C11", `${L}: ratchet provenance without a ratchet_event`)
+
+      // C12 baseline-screen contract — a baseline screen without a resolvable published method and a
+      // numeric LOQ that matches it is not a limit-of-record; it FAILS.
+      if (kind === "baseline_screen" || prov === "baseline-screen") {
+        if (kind !== "baseline_screen") F("C12", `${L}: baseline-screen provenance on a ${kind} cell`)
+        if (cell.value == null) F("C12", `${L}: baseline screen without a numeric LOQ`)
+        if (!cell.reference_method) F("C12", `${L}: baseline screen names no reference_method`)
+        if (!cell.loq_source_id) F("C12", `${L}: baseline screen names no loq_source_id`)
+        else {
+          const m = methodById.get(cell.loq_source_id)
+          if (!m) F("C12", `${L}: loq_source_id "${cell.loq_source_id}" is not in ${path.relative(REPO, METHODS_PATH)}`)
+          else {
+            if (GATED_STATUS.test(m.status || "")) F("C12", `${L}: method ${cell.loq_source_id} is gated (status="${m.status}")`)
+            if ((m.analyte || "").trim() !== analyte) F("C12", `${L}: method ${cell.loq_source_id} is validated for ${m.analyte}, not ${analyte}`)
+            const loq = num(m.loq_ug_kg)
+            if (loq == null || roundDisplay(loq) !== cell.value) F("C12", `${L}: publishes ${cell.value} but the method LOQ is ${loq == null ? "not numeric" : roundDisplay(loq)}`)
+            if (m.reference_method && cell.reference_method !== m.reference_method) F("C12", `${L}: reference_method "${cell.reference_method}" differs from the method register ("${m.reference_method}")`)
+            if (recGuard && !recGuard.test(`${m.basis || ""} ${m.matrix_class || ""}`)) F("C12", `${L}: method basis "${m.basis}" fails the record's basis_guard`)
+          }
+        }
+        for (const k of ["no_ml_checked", "no_analog_checked", "no_pathway_rationale"]) if (!cell[k]) F("C12", `${L}: baseline screen missing ${k}`)
+      }
 
       const numeric = cell.value != null
       if (numeric && FIRM_KINDS.has(kind)) firm++

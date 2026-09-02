@@ -40,8 +40,11 @@ function compiledCells(refPath) {
   const abs = path.join(REPO, refPath);
   if (!fs.existsSync(abs)) return null;
   const j = JSON.parse(fs.readFileSync(abs, "utf8"));
-  const variant = j.variants ? (j.variants.default || j.variants[Object.keys(j.variants)[0]]) : j.cells;
-  return variant ? new Set(Object.keys(variant)) : null;
+  // every variant contributes its keys (the soy variant is never skipped)
+  const variants = j.variants && !j.cells ? Object.values(j.variants) : [j.cells];
+  const keys = new Set(); const baseline = new Set();
+  for (const v of variants) for (const [k, c] of Object.entries(v || {})) { keys.add(k); if (c && c.type === "baseline_screen") baseline.add(k); }
+  return keys.size ? Object.assign(keys, { baseline }) : null;
 }
 
 const reg = JSON.parse(fs.readFileSync(REGISTRY, "utf8"));
@@ -51,6 +54,16 @@ for (const [catId, cat] of Object.entries(reg.categories || {})) {
     const where = `cat${catId}/${slug}`;
     const analytes = std.analytes || {};
     const keys = Object.keys(analytes);
+
+    // 6. a baseline-screen cell (limit-of-record at a published method LOQ) is still assayed: a Tier-1
+    //    total stays per_lot_total; a Tier-2 total may be baseline_monitor or per_lot_total, never
+    //    not_applicable (the screen only means something if the lot is measured against it).
+    const compiledForBaseline = std.standard_ref ? compiledCells(std.standard_ref) : null;
+    for (const k of (compiledForBaseline && compiledForBaseline.baseline) || []) {
+      const ob = analytes[k] && analytes[k].obligation;
+      if (TIER1_TOTALS.has(k) && ob !== "per_lot_total") fail.push(`${where}: baseline-screen Tier-1 total "${k}" must be per_lot_total (got ${ob})`);
+      else if (!TIER1_TOTALS.has(k) && ob && !["per_lot_total", "baseline_monitor", "reflex_speciation", "mandatory_speciation"].includes(ob)) fail.push(`${where}: baseline-screen cell "${k}" cannot be ${ob}`);
+    }
 
     // 1. drift against the compiled standard record
     const compiled = std.standard_ref ? compiledCells(std.standard_ref) : null;
