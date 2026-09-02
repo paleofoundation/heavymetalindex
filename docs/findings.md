@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-214 open item(s): 66 auto, 148 awaiting a decision.
+213 open item(s): 66 auto, 147 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -538,16 +538,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: datacite-preflight.mjs lands on cert main via a fresh commit touching ONLY that file; Cat-23 compiled standards on main remain the 6016d24/72dfd03 versions not b090435; new commit diff shows no data/standards/cat23-compiled changes
 - decision: _pending_
 
-### OI-20260902-cert-seo-crawl-metadata-129 — Cert seo-audit release gate fix built and verified (129 -> PASS) on heavymetalcertified PR #66; merge = deploy
-
-- scope: **human-gated** · type: promote · status: open · repo: cert
-- paths: `tools/audit-crawl-metadata.mjs`, `tools/postbuild-article-pdf.mjs`, `tools/lib/manual-page.mjs`, `tools/build-category-manual.mjs`, `tools/build-cat1-manual.mjs`, `quartz/components/Head.tsx`
-- repro: On the branch: npm run build green; node tools/audit-crawl-metadata.mjs -> PASS (500 indexable pages, 44 Scholar records, 0 broken internal links); 17/17 briefing PDFs rendered; tsc clean.
-- done when: PR #66 merged to main (cert main push = LIVE); Production deploy of the squash commit succeeds
-- evidence: https://github.com/paleofoundation/heavymetalcertified/pull/66
-- decision: _pending_ — enact: `gh pr merge 66 --repo paleofoundation/heavymetalcertified --squash --delete-branch`
-- notes: Merge attempted by the audit session on 2026-09-02 was declined by the harness permission classifier; awaiting Karen or a session with merge permission.
-
 ### OI-20260902-cert-navpanels-seed-stale — Delete or repurpose stale cert navPanels.seed.ts (holds index-site taxonomy)
 
 - scope: **auto** · type: code-fix · status: open · repo: cert
@@ -569,7 +559,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/standards/cat23-compiled/cookware-metal-alloy.json`, `data/standards/cat23-compiled/cookware-specialty-alloy.json`, `data/standards/cat23-compiled/utensils-metal.json`, `data/standards/cat23-compiled/bakeware.json`, `data/standards/cat23-compiled/food-packaging-foils-wraps.json`, `data/standards/cat23-compiled/food-prep-kettle-interiors.json`, `data/standards/cat23-compiled/food-prep-coffee-maker-pathways.json`, `data/standards/cat23-compiled/tableware-metal-bottles-tumblers.json`, `data/standards/cat23-compiled/tableware-glassware.json`, `data/standards/cat23-compiled/tableware-ceramicware.json`, `data/evidence/regulatory_limits.csv`
 - repro: curl -s https://heavymetalcertified.com/standards/cookware-metal-alloy | sed -E "s/<[^>]+>/ /g" | grep -o "Lead (Pb) 1000000" ; node -e "const r=require(process.cwd()+"/data/standards/cat23-compiled/cookware-metal-alloy.json");console.log(r.native_basis, r.cells.Pb.basis, r.cells.Ni.basis)" -> native_basis = element RELEASE into food (ug/kg food) while Pb source = kr_mfds2024_29_pb_metal_food_contact_1000000 (alloy composition, percent by weight) and Ni/Sn/Al source = eu_2009_48_cat3_*_toy_migration (EN 71-3 Cat III scraped toy material). Cr cell rationale claims no sovereign sets a release ceiling for metal articles: false (China GB 4806.9-2016).
 - done when: Register (index data/evidence/regulatory_limits.csv) carries source-verified rows for China GB 4806.9-2016 metal food-contact migration limits (Pb 0.05, Cd 0.02, As 0.04, Cr 2.0, Ni 0.5 mg/kg; 4% acetic acid) citing the fetched source file, plus CoE CM/Res(2013)9 SRLs as a disclosed comparator; Every Cat-23 record whose native_basis is release/migration into food carries only release-basis instruments; no cell in a release-basis row cites an alloy-composition (percent by weight) or toy scraped-material (EN 71-3) instrument; A basis-guard lint fails the build when a cell basis kind (content / toy-migration / release / water) differs from the record native_basis kind; Recompiled Cat-23 pages render and export drift-check clean; live cookware-metal-alloy Pb is in the tens of ppb, not 1,000,000
-- evidence: build log 2026-09-02: origin/main 8066338 green; live page renders Lead (Pb) 1000000 read-across · register grep: 0 rows for GB 4806.9 / Council of Europe / CM/Res(2013)9 / Italy DM 21/03/1973
+- evidence: build log 2026-09-02: origin/main 8066338 green; live page renders Lead (Pb) 1000000 read-across · register grep: 0 rows for GB 4806.9 / Council of Europe / CM/Res(2013)9 / Italy DM 21/03/1973 · Index register targets built 2026-09-02 (index main 095e4ff9b): wiki/regulations/china-gb-4806-9-2023-food-contact-metal.md (CURRENT statutory instrument, supersedes GB 4806.9-2016) + wiki/regulations/coe-cm-res-2013-9-metals-alloys-food-contact.md (comparator, not sovereign law). +18 rows in regulatory_limits.csv: 9 GB statutory (cn_*_food-contact-metal-migration_*, status maximum level) + 9 CoE comparator (coe_*_food-contact-metal-srl_*, status guidance release limit (comparator)). Correct migration basis into food simulant (test GB 31604.49-2016), ug/kg: GB Pb 10, Cd 2, tAs 2, Sb 40, Al 1000 (5000 uncoated), Cr-total 250, Ni 140, Sn 100000. CoE SRL comparator ug/kg: Pb 10, Cd 5, tHg 3, tAs 2, Sb 40, Al 5000, Cr-total 250, Ni 140, Sn 100000. CRITICAL: use GB 4806.9-2023 not 2016 (2016 migration Pb 0.05 = 50 ug/kg, 5-20x looser). Verified vs USDA GAIN Tables 3-4 + EDQM Article 4 Tables 1-2 primary sources in raw/regulatory/{cn,coe}/. Cat-23 recompile can read-across the GB 4806.9-2023 migration ML in place of the KR alloy-composition cap.
 - notes: Wrong-number-live class (feedback: fix now). Not fixed in the audit session because another interactive session is mid-flight on Cat-23 (16/30 complete via read-across) in the same checkout; three local sessions were messaged. Mirrors the Cat-9 rule BASIS NEVER CONFLATED.
 
 ### OI-20260902-c5-formula-al-reconstitution-false-positive — audit-compiled-standards C5 false-positive on formula Al 8000 (8:1 reconstitution not modeled)
