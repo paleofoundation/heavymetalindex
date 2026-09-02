@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat30-compiled",
-  "run_id": "run-20260902-a",
+  "run_id": "run-202609021109",
   "batches": [
     {
       "evidence_key": "734d41bd319590ff",
@@ -55,10 +55,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-734d41bd319590ff-run-20260902-a"
+      "batch_id": "cat30-compiled-734d41bd319590ff-run-202609021109"
     },
     {
-      "evidence_key": "55a07a92093f5887",
+      "evidence_key": "2f70037ebec1f24f",
       "analyte": "Pb",
       "basis_class": "product as placed on market",
       "conversion": null,
@@ -98,7 +98,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-55a07a92093f5887-run-20260902-a"
+      "batch_id": "cat30-compiled-2f70037ebec1f24f-run-202609021109"
     },
     {
       "evidence_key": "47819561a70268aa",
@@ -153,7 +153,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-47819561a70268aa-run-20260902-a"
+      "batch_id": "cat30-compiled-47819561a70268aa-run-202609021109"
     },
     {
       "evidence_key": "efa9adfcf227c732",
@@ -208,7 +208,7 @@
           "subsumed_by": "tAs"
         }
       ],
-      "batch_id": "cat30-compiled-efa9adfcf227c732-run-20260902-a"
+      "batch_id": "cat30-compiled-efa9adfcf227c732-run-202609021109"
     },
     {
       "evidence_key": "a4d008e7f1ea835d",
@@ -263,7 +263,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-a4d008e7f1ea835d-run-20260902-a"
+      "batch_id": "cat30-compiled-a4d008e7f1ea835d-run-202609021109"
     },
     {
       "evidence_key": "a747c40f4ce5676b",
@@ -318,7 +318,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-a747c40f4ce5676b-run-20260902-a"
+      "batch_id": "cat30-compiled-a747c40f4ce5676b-run-202609021109"
     },
     {
       "evidence_key": "945322db88c74903",
@@ -373,7 +373,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-945322db88c74903-run-20260902-a"
+      "batch_id": "cat30-compiled-945322db88c74903-run-202609021109"
     },
     {
       "evidence_key": "ac5fd7f234f35533",
@@ -428,7 +428,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat30-compiled-ac5fd7f234f35533-run-20260902-a"
+      "batch_id": "cat30-compiled-ac5fd7f234f35533-run-202609021109"
     }
   ]
 }

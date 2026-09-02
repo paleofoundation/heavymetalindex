@@ -3,11 +3,11 @@
   "compiled_dir": "seafood-compiled",
   "category": 6,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-20260902-a",
+  "run_id": "run-202609021109",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:35:04.648Z",
-  "register_commit": "aa65d2e1d",
-  "cert_commit": "a7cee61",
+  "generated_at": "2026-09-02T11:09:08.242Z",
+  "register_commit": "9b0f6ea2d",
+  "cert_commit": "a4d28b9",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -64,8 +64,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.639Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.235Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cd": {
@@ -105,8 +105,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.640Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.235Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|tAs": {
@@ -146,8 +146,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.640Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.235Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|iAs": {
@@ -187,8 +187,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.640Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|tHg": {
@@ -228,8 +228,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.640Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|MeHg": {
@@ -269,8 +269,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.641Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Ni": {
@@ -310,8 +310,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.641Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Sn": {
@@ -351,8 +351,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.642Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Al": {
@@ -392,8 +392,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.642Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.236Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cr": {
@@ -433,8 +433,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.642Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cr-VI": {
@@ -474,8 +474,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.642Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Pb": {
@@ -515,8 +515,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.643Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cd": {
@@ -556,8 +556,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.643Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|tAs": {
@@ -597,8 +597,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.643Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|iAs": {
@@ -638,8 +638,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.643Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.237Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|tHg": {
@@ -679,8 +679,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.643Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|MeHg": {
@@ -720,8 +720,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Ni": {
@@ -761,8 +761,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Sn": {
@@ -802,8 +802,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Al": {
@@ -843,8 +843,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cr": {
@@ -884,8 +884,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cr-VI": {
@@ -925,8 +925,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.644Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Pb": {
@@ -966,8 +966,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cd": {
@@ -1007,8 +1007,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|tAs": {
@@ -1048,8 +1048,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.238Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|iAs": {
@@ -1089,8 +1089,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|tHg": {
@@ -1130,8 +1130,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|MeHg": {
@@ -1171,8 +1171,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Ni": {
@@ -1212,8 +1212,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Sn": {
@@ -1253,8 +1253,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Al": {
@@ -1294,8 +1294,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cr": {
@@ -1335,8 +1335,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cr-VI": {
@@ -1376,8 +1376,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Pb": {
@@ -1417,8 +1417,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cd": {
@@ -1458,8 +1458,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|tAs": {
@@ -1499,8 +1499,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|iAs": {
@@ -1540,8 +1540,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.239Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|tHg": {
@@ -1581,8 +1581,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|MeHg": {
@@ -1622,8 +1622,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Ni": {
@@ -1663,8 +1663,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Sn": {
@@ -1704,8 +1704,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Al": {
@@ -1745,8 +1745,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cr": {
@@ -1786,8 +1786,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.645Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cr-VI": {
@@ -1827,8 +1827,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Pb": {
@@ -1868,8 +1868,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cd": {
@@ -1909,8 +1909,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|tAs": {
@@ -1950,8 +1950,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|iAs": {
@@ -1991,8 +1991,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|tHg": {
@@ -2032,8 +2032,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|MeHg": {
@@ -2073,8 +2073,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Ni": {
@@ -2114,8 +2114,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Sn": {
@@ -2155,8 +2155,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Al": {
@@ -2196,8 +2196,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cr": {
@@ -2237,8 +2237,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cr-VI": {
@@ -2278,8 +2278,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Pb": {
@@ -2319,8 +2319,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cd": {
@@ -2360,8 +2360,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.240Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|tAs": {
@@ -2401,8 +2401,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|iAs": {
@@ -2442,8 +2442,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|tHg": {
@@ -2483,8 +2483,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|MeHg": {
@@ -2524,8 +2524,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Ni": {
@@ -2565,8 +2565,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Sn": {
@@ -2606,8 +2606,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.646Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Al": {
@@ -2647,8 +2647,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cr": {
@@ -2688,8 +2688,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cr-VI": {
@@ -2729,8 +2729,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Pb": {
@@ -2770,8 +2770,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cd": {
@@ -2811,8 +2811,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|tAs": {
@@ -2852,8 +2852,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|iAs": {
@@ -2893,8 +2893,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|tHg": {
@@ -2934,8 +2934,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|MeHg": {
@@ -2975,8 +2975,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.647Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Ni": {
@@ -3016,8 +3016,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.648Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Sn": {
@@ -3057,8 +3057,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.648Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Al": {
@@ -3098,8 +3098,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.648Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cr": {
@@ -3139,8 +3139,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.648Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.241Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cr-VI": {
@@ -3180,8 +3180,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.648Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T11:09:08.242Z",
+      "run_id": "run-202609021109",
       "session": "exciting-taussig-159366"
     }
   }
