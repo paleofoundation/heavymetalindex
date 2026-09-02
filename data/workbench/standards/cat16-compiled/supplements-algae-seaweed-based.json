@@ -50,12 +50,6 @@
               "scope": "Food supplements"
             },
             {
-              "jurisdiction": "IL",
-              "value": 3000,
-              "id": "il_fcs2016_pb_17_dietary_supplements_3000",
-              "scope": "Dietary supplements"
-            },
-            {
               "jurisdiction": "VN",
               "value": 3000,
               "id": "vn_qcvn8_2_2011_pb_dietary-supplements_3000",
@@ -82,7 +76,8 @@
             "madl_ug_per_day": 0.5,
             "endpoint": "reproductive/developmental"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "read_across",
@@ -105,7 +100,8 @@
             "conc_equiv_ug_per_kg_at_10g": 1500
           },
           "prop65_madl": null
-        }
+        },
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -140,12 +136,6 @@
               "scope": "health supplements in the Philippines national requirement note"
             },
             {
-              "jurisdiction": "IL",
-              "value": 1000,
-              "id": "il_fcs2016_tas_15_dietary_supplements_except_listed_categories_1000",
-              "scope": "Dietary supplements, except listed categories"
-            },
-            {
               "jurisdiction": "TH",
               "value": 2000,
               "id": "th_moph414_2020_tas_food_supplement_2000",
@@ -166,19 +156,20 @@
           ],
           "usp_2232": null,
           "prop65_madl": null
-        }
+        },
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "read_across",
         "child_protective": true,
-        "value": 4,
-        "value_exact": 4,
-        "source_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
-        "source_jurisdiction": "IL",
-        "analog_label": "Israel FCS-2016 infant/toddler-formula total-mercury maximum (the strictest sovereign infant total-mercury ML)",
-        "analog_scope": "Infant and toddler formulas, ready-to-eat",
-        "over_compliance_x": 25,
-        "label": "Child-protective read-across from the strictest sovereign infant-and-child-food total-mercury maximum (Israel infant/toddler formula ready-to-eat, 4 µg/kg). Adult supplement floors run 100-500 µg/kg; adult USP <2232> permits total mercury 15 µg/day (1500 µg/kg at 10 g/day). HMTc holds ALL supplements to 4 µg/kg.",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "th_moph414_2020_thg_food_other_20",
+        "source_jurisdiction": "TH",
+        "analog_label": "strictest sovereign infant-and-child-food maximum level (HMTc Category 1, Ages 0-5)",
+        "analog_scope": "food other than the listed total-mercury categories",
+        "over_compliance_x": 5,
+        "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
         "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
         "adult_floor": {
           "strictest_supplement_ml": {
@@ -199,12 +190,6 @@
               "value": 100,
               "id": "gso193_2021_thg_food_supplements_100",
               "scope": "Food supplements"
-            },
-            {
-              "jurisdiction": "IL",
-              "value": 100,
-              "id": "il_fcs2016_thg_15_dietary_supplements_100",
-              "scope": "Dietary supplements"
             },
             {
               "jurisdiction": "VN",
@@ -236,14 +221,17 @@
             "conc_equiv_ug_per_kg_at_10g": 1500
           },
           "prop65_madl": null
-        }
+        },
+        "provenance": "read-across"
       },
       "MeHg": {
-        "type": "control",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "This class carries a credible methylmercury methylation and biomagnification pathway (marine algae, seaweed, fish oil, marine-derived material). Methylmercury is measured on every lot by species-specific speciation, not only reflexively, and is bounded by the child-protective total-mercury ceiling; any methylmercury above the bounding total-mercury result triggers investigation and any exceedance of the total-mercury ceiling fails.",
-        "reference_method": "Total Hg by EPA 7473 or ICP-MS on every lot; MeHg by species-specific GC-ICP-MS / HPLC-ICP-MS on every lot of this class.",
+        "subsumed_by": "tHg",
         "bounded_by": "tHg",
+        "binding_total": 20,
+        "basis_class": "speciation-bounded",
         "adult_floor": {
           "strictest_supplement_ml": null,
           "laxest_supplement_ml": null,
@@ -253,7 +241,8 @@
             "conc_equiv_ug_per_kg_at_10g": 200
           },
           "prop65_madl": null
-        }
+        },
+        "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (20 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
       },
       "Cd": {
         "type": "read_across",
@@ -306,12 +295,6 @@
               "scope": "food supplements, general"
             },
             {
-              "jurisdiction": "IL",
-              "value": 1000,
-              "id": "il_fcs2016_cd_16_dietary_supplements_except_listed_categories_1000",
-              "scope": "Dietary supplements, except listed categories"
-            },
-            {
               "jurisdiction": "VN",
               "value": 1000,
               "id": "vn_qcvn8_2_2011_cd_dietary-supplements-not-derived-from-dried-sea_1000",
@@ -332,14 +315,17 @@
             "madl_ug_per_day": 4.1,
             "endpoint": "developmental (oral)"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "control",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Hexavalent chromium reduces to Cr(III) in a reducing supplement matrix and carries no stable burden; it is bounded by total chromium, measured on every lot. Any total-Cr result at or above 100 µg/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails certification. California lists Cr(VI) under Proposition 65 (oral MADL 8.2 µg/day) but sets no food concentration limit.",
-        "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (EPA 6800 / EN 15192) on a total-Cr exceedance; LOQ-level quantifiable Cr(VI) = fail.",
+        "subsumed_by": "Cr",
         "bounded_by": "Cr",
+        "binding_total": 1000,
+        "basis_class": "speciation-bounded",
         "adult_floor": {
           "strictest_supplement_ml": null,
           "laxest_supplement_ml": null,
@@ -349,7 +335,8 @@
             "madl_ug_per_day": 8.2,
             "endpoint": "oral"
           }
-        }
+        },
+        "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
       },
       "Ni": {
         "type": "read_across",
@@ -363,7 +350,8 @@
         "over_compliance_x": null,
         "label": "Child-protective read-across from the strictest sovereign infant-and-child-food nickel maximum (EU liquid infant/young-child formula, 100 µg/kg). No government sets a nickel supplement ML and adult USP <2232> sets none; the entire adult framework is silent on supplement nickel, a metal EFSA reports European diets already exceed the tolerable intake for, children most of all. HMTc holds ALL supplements to 100 µg/kg.",
         "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
-        "adult_floor": null
+        "adult_floor": null,
+        "provenance": "read-across"
       },
       "Sn": {
         "type": "read_across",
@@ -377,7 +365,8 @@
         "over_compliance_x": null,
         "label": "Child-protective read-across from the India FSSAI non-canned infant-food tin maximum (5000 µg/kg). Tin is a can-migration analyte; a non-canned supplement has no intrinsic tin source, so any quantifiable tin triggers a packaging investigation. No adult supplement tin ML exists. HMTc holds ALL supplements to 5000 µg/kg.",
         "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
-        "adult_floor": null
+        "adult_floor": null,
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -391,15 +380,23 @@
         "over_compliance_x": null,
         "label": "Child-protective read-across from the AU-NZ non-soy infant-formula aluminium maximum (500 µg/kg) — the only government aluminium ML for any food in any jurisdiction. No adult supplement aluminium ML exists and USP <2232> sets none. HMTc holds ALL supplements to 500 µg/kg.",
         "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
-        "adult_floor": null
+        "adult_floor": null,
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets a total-chromium maximum level for any infant-and-child food, so no child-protective numeric anchor exists and none is invented. Total chromium is measured on every lot as a mandatory surveillance control and gates the hexavalent-chromium reflex. Cr(III) is nutritionally essential; the toxic species is Cr(VI), controlled separately. No adult supplement total-chromium ML exists.",
-        "reference_method": "Total Cr by ICP-MS after microwave acid digestion.",
-        "bounded_by": null,
-        "adult_floor": null
+        "type": "read_across",
+        "child_protective": true,
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "analog_label": "strictest sovereign infant-and-child-food maximum level (HMTc Category 1, Ages 0-5)",
+        "analog_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+        "over_compliance_x": null,
+        "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
+        "adult_floor": null,
+        "provenance": "read-across"
       }
     }
   },

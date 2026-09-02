@@ -124,9 +124,10 @@
       "label": "Child-protective read-across from the AU-NZ non-soy infant-formula aluminium maximum (500 µg/kg) — the only government aluminium ML for any food in any jurisdiction. No adult supplement aluminium ML exists and USP <2232> sets none. HMTc holds ALL supplements to 500 µg/kg."
     },
     "Cr": {
-      "control_only": true,
-      "control": "No government sets a total-chromium maximum level for any infant-and-child food, so no child-protective numeric anchor exists and none is invented. Total chromium is measured on every lot as a mandatory surveillance control and gates the hexavalent-chromium reflex. Cr(III) is nutritionally essential; the toxic species is Cr(VI), controlled separately. No adult supplement total-chromium ML exists.",
-      "reference_method": "Total Cr by ICP-MS after microwave acid digestion."
+      "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+      "analog_label": "GB 2762-2025 total chromium in cereals (1000 ug/kg)",
+      "label": "Read-across from the GB 2762-2025 total-chromium maximum level for cereals (1000 ug/kg), the strictest in-force sovereign total-chromium row on a dry solid-food basis; no jurisdiction sets a total-chromium level for supplements or infant foods. Successor of the superseded GB 2762-2022 grains row the standard cited.",
+      "reanchor_note": "2026-09-02: GB 2762-2022 superseded; successor china_gb2762_2025_crtotal_cereals_1000"
     },
     "Cr-VI": {
       "control_only": true,
@@ -175,134 +176,447 @@
     "supplements-oral-solids-tablets": {
       "name": "Oral solids: tablets/caplets",
       "row": 1,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-capsules": {
       "name": "Oral solids: capsules",
       "row": 2,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-softgels": {
       "name": "Oral solids: softgels/gelcaps",
       "row": 3,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-gummies": {
       "name": "Oral solids: gummies/chewables",
       "row": 4,
       "profile": "solid",
-      "hazard_note": "Gummies and chewables are the supplement form most likely to be consumed by children directly (candy-like presentation); the child-protective limit is therefore not a read-across for this form but the literal binding case."
+      "hazard_note": "Gummies and chewables are the supplement form most likely to be consumed by children directly (candy-like presentation); the child-protective limit is therefore not a read-across for this form but the literal binding case.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-lozenges": {
       "name": "Oral solids: lozenges",
       "row": 5,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-powders": {
       "name": "Oral solids: powders (bulk tubs, sachets, stick packs)",
       "row": 6,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-solids-effervescent": {
       "name": "Oral solids: effervescent tablets",
       "row": 7,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-liquids-tinctures": {
       "name": "Oral liquids: tinctures/drops",
       "row": 8,
-      "profile": "liquid"
+      "profile": "liquid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-liquids-syrups": {
       "name": "Oral liquids: syrups",
       "row": 9,
       "profile": "liquid",
-      "hazard_note": "Pediatric syrups (children's multivitamin/mineral, iron, elderberry) are formulated and marketed for children; the child-protective limit is the literal binding case, not a read-across."
+      "hazard_note": "Pediatric syrups (children's multivitamin/mineral, iron, elderberry) are formulated and marketed for children; the child-protective limit is the literal binding case, not a read-across.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-liquids-shots": {
       "name": "Oral liquids: liquid shots",
       "row": 10,
-      "profile": "liquid"
+      "profile": "liquid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oral-liquids-droppers": {
       "name": "Oral liquids: droppers",
       "row": 11,
       "profile": "liquid",
-      "hazard_note": "Dropper-dosed liquids (infant vitamin D, probiotic drops) are dosed directly to infants and young children; the child-protective limit is the literal binding case."
+      "hazard_note": "Dropper-dosed liquids (infant vitamin D, probiotic drops) are dosed directly to infants and young children; the child-protective limit is the literal binding case.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-teas-labeled": {
       "name": "Food-like forms: teas (when labeled as supplement)",
       "row": 12,
       "profile": "solid",
-      "hazard_note": "Botanical tea material can hyperaccumulate lead, cadmium, and arsenic from soil; the child-protective limit is held on the dry material and never relaxed for occurrence."
+      "hazard_note": "Botanical tea material can hyperaccumulate lead, cadmium, and arsenic from soil; the child-protective limit is held on the dry material and never relaxed for occurrence.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-bars-labeled": {
       "name": "Food-like forms: bars (when labeled as supplement)",
       "row": 13,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-vitamin-mineral": {
       "name": "Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)",
       "row": 14,
       "profile": "solid",
-      "hazard_note": "Mineral raw materials (calcium, magnesium, trace-mineral concentrates) are a recognised lead and cadmium source; the child-protective limit is held on the finished product and never relaxed for occurrence."
+      "hazard_note": "Mineral raw materials (calcium, magnesium, trace-mineral concentrates) are a recognised lead and cadmium source; the child-protective limit is held on the finished product and never relaxed for occurrence.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-botanicals-herbs": {
       "name": "Ingredient class — botanicals/herbs/traditional formulas",
       "row": 15,
       "profile": "solid",
-      "hazard_note": "Botanicals and traditional herbal formulas are a documented lead and arsenic source (soil uptake, some Ayurvedic and traditional preparations intentionally metal-containing); the child-protective limit is held and never relaxed for occurrence."
+      "hazard_note": "Botanicals and traditional herbal formulas are a documented lead and arsenic source (soil uptake, some Ayurvedic and traditional preparations intentionally metal-containing); the child-protective limit is held and never relaxed for occurrence.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-amino-acids-isolates": {
       "name": "Ingredient class — amino acids & isolates",
       "row": 16,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-enzymes": {
       "name": "Ingredient class — enzymes",
       "row": 17,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-probiotics": {
       "name": "Ingredient class — live microbials/probiotics",
       "row": 18,
-      "profile": "solid"
+      "profile": "solid",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-algae-seaweed-based": {
       "name": "Ingredient class — algae/seaweed-based",
       "row": 19,
       "profile": "marine-solid",
-      "hazard_note": "Algae and seaweed hyperaccumulate cadmium and inorganic arsenic and carry a credible marine methylmercury pathway; the child-protective limits are held and never relaxed for occurrence, and methylmercury is measured on every lot."
+      "hazard_note": "Algae and seaweed hyperaccumulate cadmium and inorganic arsenic and carry a credible marine methylmercury pathway; the child-protective limits are held and never relaxed for occurrence, and methylmercury is measured on every lot.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-protein-collagen-powders": {
       "name": "Ingredient class — protein/collagen powders",
       "row": 20,
       "profile": "solid",
-      "hazard_note": "Plant-protein isolates (rice, pea) can carry inorganic arsenic and cadmium; marine collagen carries a methylmercury pathway (covered by the mercury reflex control). The child-protective limit is held and never relaxed for occurrence."
+      "hazard_note": "Plant-protein isolates (rice, pea) can carry inorganic arsenic and cadmium; marine collagen carries a methylmercury pathway (covered by the mercury reflex control). The child-protective limit is held and never relaxed for occurrence.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-oil-based": {
       "name": "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)",
       "row": 21,
       "profile": "marine-solid",
-      "hazard_note": "Fish-oil and marine-oil supplements carry a credible methylmercury pathway; methylmercury is measured on every lot. The child-protective limits are held and never relaxed for occurrence."
+      "hazard_note": "Fish-oil and marine-oil supplements carry a credible methylmercury pathway; methylmercury is measured on every lot. The child-protective limits are held and never relaxed for occurrence.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-clay-mineral-earth": {
       "name": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit)",
       "row": 22,
       "profile": "solid",
-      "hazard_note": "Geologic materials (bentonite, diatomaceous earth, zeolite, shilajit) are the highest lead- and arsenic-occurrence class in the category — shilajit in particular routinely carries lead and arsenic far above every child-food limit. The child-protective limits are held at full strictness and NEVER relaxed for occurrence; this class is where the over-compliance bites hardest and the adult framework is effectively silent."
+      "hazard_note": "Geologic materials (bentonite, diatomaceous earth, zeolite, shilajit) are the highest lead- and arsenic-occurrence class in the category — shilajit in particular routinely carries lead and arsenic far above every child-food limit. The child-protective limits are held at full strictness and NEVER relaxed for occurrence; this class is where the over-compliance bites hardest and the adult framework is effectively silent.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-mushroom-fungal": {
       "name": "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",
       "row": 23,
       "profile": "solid",
-      "hazard_note": "Fungi hyperaccumulate cadmium and mercury from substrate (chaga and reishi in particular); the child-protective limits are held and never relaxed for occurrence, and the mercury reflex control applies."
+      "hazard_note": "Fungi hyperaccumulate cadmium and mercury from substrate (chaga and reishi in particular); the child-protective limits are held and never relaxed for occurrence, and the mercury reflex control applies.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     },
     "supplements-greens-superfood": {
       "name": "Ingredient class — greens/superfood blends",
       "row": 24,
       "profile": "solid",
-      "hazard_note": "Greens and superfood blends combine leaf, root, algae, and cereal-grass material that hyperaccumulate lead, cadmium, and inorganic arsenic; the child-protective limits are held at full strictness and NEVER relaxed for occurrence. Blends containing algae/seaweed also carry the marine methylmercury reflex."
+      "hazard_note": "Greens and superfood blends combine leaf, root, algae, and cereal-grass material that hyperaccumulate lead, cadmium, and inorganic arsenic; the child-protective limits are held at full strictness and NEVER relaxed for occurrence. Blends containing algae/seaweed also carry the marine methylmercury reflex.",
+      "read_across": {
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      }
     }
-  }
+  },
+  "_harvest_2026_09_02": "24 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 48 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat16-compiled.json"
 }

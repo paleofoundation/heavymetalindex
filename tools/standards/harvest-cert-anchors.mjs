@@ -34,11 +34,11 @@ const CERT = args.get("cert") || process.env.CERT_REPO || path.join(os.homedir()
 if (!CAT) { console.error("harvest-cert-anchors: --cat=<N> required"); process.exit(2) }
 // compile-category configs plus the food-standards-engine configs (cat33/34), which share the cells{} spec
 // vocabulary (gov_ids / read_across / not_material / control / form_split).
-const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "25", "33", "34", "35"])
+const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "25", "26", "33", "34", "35"])
 // compile-cat1-shaped configs (read_across map per subcategory; direct rows selected by scope): cat3
 // (cat3-config.json) and seafood (seafood-config.json → cert seafood-compiled).
 const LIMIT_SHAPE = { "15": { config: "cat15-config.json", dir: "cat15-compiled" }, "31": { config: "cat31-config.json", dir: "cat31-compiled" }, "32": { config: "cat32-config.json", dir: "cat32-compiled" } }
-const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, "24": { config: "cat24-config.json", dir: "cat24-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" },
+const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, "16": { config: "cat16-config.json", dir: "cat16-compiled" }, "17": { config: "cat17-config.json", dir: "cat17-compiled" }, "24": { config: "cat24-config.json", dir: "cat24-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" },
   // compile-cat27/28/29 share the read_across-map shape (direct rows by scope; read_across as comparator)
   "27": { config: "cat27-config.json", dir: "cat27-compiled" }, "28": { config: "cat28-config.json", dir: "cat28-compiled" }, "29": { config: "cat29-config.json", dir: "cat29-compiled" } }
 if (!GENERIC.has(CAT) && !CAT1_SHAPE[CAT] && !LIMIT_SHAPE[CAT]) { console.error(`harvest-cert-anchors: cat ${CAT} has no harvestable config shape (legacy compilers need their own harvester)`); process.exit(2) }
@@ -88,7 +88,7 @@ for (const t of targets) {
     if (k === "subsumed") {
       // cat3 (compile-cat1) derives species cells from the parent by reconcileSpecies; cat27/28/29 take an
       // explicit subsumed spec (added 2026-09-02) so a bounded species reproduces from config.
-      if (CAT === "3" || CAT === "seafood") { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed is derived from the parent by reconcileSpecies (harvest the parent)" }); continue }
+      if (CAT === "3" || CAT === "seafood" || CAT === "16" || CAT === "17") { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed is derived from the parent by reconcileSpecies (harvest the parent)" }); continue }
       const parent = cell.subsumed_by || cell.bounded_by
       if (!parent) { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed without subsumed_by" }); continue }
       applied.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKind1, to: "subsumed", value: null, anchor: `≤ ${parent}` })

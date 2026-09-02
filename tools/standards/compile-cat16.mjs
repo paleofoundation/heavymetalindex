@@ -163,6 +163,7 @@ function resolveCell(sub, analyte) {
     return {
       type: "control", value: null,
       control: ra.control || "no sovereign infant-food maximum; mandatory surveillance control",
+      rationale: ra.rationale || ra.control || "no sovereign infant-food maximum; mandatory surveillance control",
       reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null, adult_floor,
     }
   }
@@ -282,6 +283,16 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) left as a control or a gap while its parent total is
+  // a firm number is bounded by that parent (species <= total); control is transitional (lib/provenance.mjs).
+  for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+    if (!PANEL.includes(sp)) continue
+    const t = cells[tot], c = cells[sp]
+    const tv = t && typeof t.value === "number" ? t.value : null
+    if (tv == null || !c || !(c.type === "control" || c.type === "gap" || c.error)) continue
+    cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded", adult_floor: c.adult_floor,
+      rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+  }
   stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   for (const a of PANEL) {
     const c = cells[a]
