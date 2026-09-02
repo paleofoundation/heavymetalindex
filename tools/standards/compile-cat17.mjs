@@ -48,8 +48,8 @@ const QUIET = args.has("quiet")
 
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Feed limits (2002/32 and equivalents) carry "feed" in the basis column. They must never be
 // selected as a certification value — they are the floor HMTc over-complies against, not the
 // standard. This is the load-bearing guard that makes the human-grade override real: with the

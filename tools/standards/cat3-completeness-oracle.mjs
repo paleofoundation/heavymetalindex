@@ -30,8 +30,8 @@ const reg = parse(fs.readFileSync(path.join(REPO,"data/evidence/regulatory_limit
 // government sets a grain ML for any of them (verified: zero non-canned grain rows in the register);
 // they carry no strictest-ML to cross-check and are not oracle cells.
 const SPECIES = { Pb:["Pb"], iAs:["iAs"], tAs:["tAs"], tHg:["tHg"], Cd:["Cd"], Ni:["Ni"] }
-const isDraft = (r)=>/draft|not for implementation|proposed/i.test(r.status)
-const isQuar  = (r)=>/quarantin/i.test(r.status)
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const isDraft = (r)=>STATUS_GATE.test(r.status)
+const isQuar  = (r)=>STATUS_GATE.test(r.status)
 const isPest  = (r)=>/pesticide|residue level/i.test(r.status)
 const isFeed  = (r)=>/\bfeed\b/i.test(r.basis||"")
 const isCanned= (r)=>/canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i.test(r.product_scope)

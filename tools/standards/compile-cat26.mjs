@@ -83,8 +83,8 @@ function splitCsvLine(line) {
   }
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const CREDIBLE = /\b(EU|EFSA|Codex|FDA|WHO|JECFA|FSANZ|Health Canada|CFIA|UK|FSA|EPA|ANZ|Australia|New Zealand|China|GB|India|FSSAI|Israel|Japan|Korea)\b/i
 
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))

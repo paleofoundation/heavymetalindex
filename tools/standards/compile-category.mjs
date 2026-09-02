@@ -96,8 +96,8 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Categorically non-contaminant-ML instruments, excluded from every scan (mirrors compile-cat1).
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i

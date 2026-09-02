@@ -62,8 +62,8 @@ const QUIET = args.has("quiet")
 // Canonical HMTc panel: eight totals + the two core species (iAs, Cr-VI) + conditional MeHg.
 const FULL_PANEL = ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"]
 const SPECIES = new Set(["iAs", "Cr-VI", "MeHg"])
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const FEED = /\bfeed\b/i
 const PESTICIDE = /pesticide|residue level/i
 const CANNED = /canned|tinplate|tin-plate|tin-coated|tin coated|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i

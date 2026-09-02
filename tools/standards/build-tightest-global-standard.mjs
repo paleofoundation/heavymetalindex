@@ -23,7 +23,7 @@ function parse(t) {
 }
 function split(line) { const o = []; let c = "", q = false; for (const ch of line) { if (ch === '"') q = !q; else if (ch === "," && !q) { o.push(c); c = "" } else c += ch } o.push(c); return o.map((s) => s.replace(/^"|"$/g, "")) }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const isDraft = (x) => /draft|not for implementation/i.test((x.status || "") + (x.notes || ""))
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const isDraft = (x) => STATUS_GATE.test(x.status) || /draft|not for implementation/i.test(x.notes || "")
 
 // infant FORMULA rows only (exclude cereal/complementary/juice/meal for the formula standard)
 const F = rows.filter((x) =>

@@ -51,7 +51,8 @@ const CLASS_VOCAB = new Set([
   "speciation-bounded", "method-artifact", "additive-permitted",
   "natural-accumulator", "no-migration-pathway", "refined-partition",
 ])
-const GATED_STATUS = /draft|not for implementation|proposed|quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"
+const GATED_STATUS = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6, lib/register-gate.mjs)
 // species that must never be substituted for their total-element parent, or the reverse
 const SPECIES_OF = { iAs: "tAs", MeHg: "tHg", "Cr-VI": "Cr" }
 const METAL_TOKEN = {

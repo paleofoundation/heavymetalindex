@@ -53,8 +53,8 @@ function splitCsvLine(line) {
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 
 // --- status / basis gates (systemic; mirror compile-cat1.mjs) -----------------
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
 // Canned/tinplate in the register's source languages: tin migrates from the can, so those limits govern

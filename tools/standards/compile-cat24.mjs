@@ -66,8 +66,8 @@ const ALLOWED_PROVENANCE = new Set(["regulatory-alignment", "read-across", "not-
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "MERCOSUR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) are not food MLs — exclude categorically.
 const FEED = /\bfeed\b/i
 // Pesticide-residue MRLs are a different legal instrument from contaminant maximum levels — exclude.

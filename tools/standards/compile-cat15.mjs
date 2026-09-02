@@ -59,8 +59,8 @@ const REPO = process.cwd()
 const REGISTER_PATH = path.join(REPO, "data/evidence/regulatory_limits.csv")
 
 // --- register gating patterns (systemic correctness guards, verbatim from the food engine) ------
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
 const CANNED = /canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i

@@ -55,8 +55,8 @@ const REPO = process.cwd()
 const REGISTER_PATH = path.join(REPO, "data/evidence/regulatory_limits.csv")
 
 // --- register gating patterns (systemic correctness guards, verbatim from Cat-1) ------
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Pesticide-residue MRLs cap an authorised plant-protection product residue, not the
 // background contaminant load; a different legal instrument that must never bind a
 // contamination standard.

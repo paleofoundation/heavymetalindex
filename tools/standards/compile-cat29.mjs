@@ -51,8 +51,8 @@ const SPECIES = new Set(["iAs", "Cr-VI", "MeHg"])
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CH", "CN", "IN", "BR", "GSO", "MERCOSUR", "TH", "PH", "PY", "IL", "CO", "VN", "SG", "MA", "PA", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio) — OFF here.
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) carry "feed" in the basis column. They are
 // not food MLs; categorically exclude them from food strictest-selection.
 const FEED = /\bfeed\b/i

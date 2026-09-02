@@ -38,13 +38,13 @@ const DEFAULT_PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"] // Cat-
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio)
-const DRAFT = /draft|not for implementation|proposed/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 // Quarantined rows: transcription/units artifacts confirmed against the source document and excluded
 // from strictest-selection (their data stays in the register for reconstructibility; status gates them
 // out). Set on the four Guyana Schedule-Four "ppb table" rows (fish Pb 25 / Cd 10 / tHg 200 / tAs 200),
 // a source-gazette typesetting error that contradicts the same instrument's own ppm table — see the
 // Cat-6 audit (wf_925293b1-55f). Would drive HMTc seafood below every enforced government limit on Earth.
-const QUARANTINE = /quarantin/i
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) carry "feed" in the basis column. They are
 // not food MLs; categorically exclude them from food strictest-selection. Load-bearing because four EU
 // feed mercury rows (100-200 ug/kg) are STRICTER than the strictest food-fish tHg (300) and would wrongly
