@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-7b5e59f213e493bf-run-20260902-a",
+  "evidence_key": "7b5e59f213e493bf",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "shellfish|both|Pb",
+      "derived_value": 500,
+      "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 1 item 9.2 'Fish and crustaceans (fresh and frozen)' 0.5 mg/kg, product as placed on market, entered into force on 2 September 2026 (today), unchanged from GB 2762-2022, and for fresh or frozen shellfish the as-sold edible portion is the as-consumed portion, so the null conversion is right. The same 0.5 mg/kg crustacean value is carried by HK Cap 132V item 9, MX NOM-242, CR RTCR 409, PA, GY, IN FSSAI, FJ, VN QCVN 8-2, MERCOSUR, PY and GSO 193, and no non-gated same-basis row is stricter for crustaceans (gy2023 25 ppb is quarantined; FJ 200 is fish muscle only); the EU 2023/915 crustacean line (0.50 mg/kg, appendage and abdomen muscle) is absent from the register but would not move the number. The cell also spans bivalve molluscs, which every sovereign row sets at 1.5 mg/kg (eu2023_pb_bivalve_1500, china_gb2762_2025_pb_bivalve_molluscs_1500, HK, IN, VN, GSO, MERCOSUR; AU-NZ molluscs 2.0), so the anchor does not cover that half of the cell; 500 is the crustacean row applied to the whole cell and is at least as protective as the law for bivalves, so the number stands, but the standard should disclose that the bivalve ML is 1500 and label the bivalve application precautionary rather than regulatory-alignment."
+    }
+  ]
+}

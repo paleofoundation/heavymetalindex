@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-c8accec5d287b266-run-20260902-a",
+  "evidence_key": "c8accec5d287b266",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Ni",
+      "derived_value": 30000,
+      "derived_anchor_id": "eu2024_ni_seaweed_30000",
+      "same_basis_candidates": [],
+      "blind_value": 30000,
+      "applicability": "refuted",
+      "reason": "Annex I point 3.6.8.1 reads 'Seaweed except wakame' at 30 mg/kg on the product as placed on the market, applying from 2025-07-01, so it covers the nori, kombu, kelp and dulse members of this row on the as-sold basis; but the row expressly names wakame, which the anchor's own scope excludes and which the same instrument governs separately at point 3.6.8.2 (eu2024_ni_wakame_40000, 40 mg/kg; Switzerland VHK mirrors the split, ch_vhk_2026_ni_seetang_30000 'ausgenommen Wakame' and ch_vhk_2026_ni_wakame-undaria-pinnatifida_40000). The 30000 value is at least as protective as the law for every member, so the number stands, but a 'gov / firm' cell cannot cite a scope that excludes a named member of its product: the law splits seaweed from wakame and the row should adopt that split or disclose the wakame tightening as precautionary. No non-gated same-basis nickel row stricter than 30000 covers seaweed (CH VHK Seetang is equal at 30000)."
+    }
+  ]
+}

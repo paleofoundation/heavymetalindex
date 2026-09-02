@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-9b7d1101bd267369-run-20260902-a",
+  "evidence_key": "9b7d1101bd267369",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, from Regulation (EU) 2023/915 Annex I 3.3.1.3 (cephalopods at 0.30 mg/kg wet weight), a firm sovereign ML in force that covers all cephalopods on a content basis, so MeHg <= tHg <= 300 holds. No non-gated content-basis methylmercury row scoped to cephalopods, molluscs or aquatic animals is stricter than 300 (MX other fishery products 500; TH other marine animals 500; CN aquatic animals 500; HK, PH, TT and VN fish 500; FDA action level 1000)."
+    },
+    {
+      "key": "fish-freshwater|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, which is a firm sovereign ML (Annex I 3.3.1.3) for carp, pangasius catfish and salmon/trout, so the species bound MeHg <= tHg <= 300 is valid and the subsumed test passes. It inherits the parent cell's scope caveat that tilapia, Ictalurus catfish and brown trout are governed by the EU at 0.50 total mercury under 3.3.1.1, so if the parent is re-anchored as a strictest-member value this bound should carry the same disclosure. No non-gated content-basis methylmercury row scoped to freshwater or non-predatory fish is stricter than 300 (VN fish excluding carnivorous 500; HK fish 500; PH fish 500; TT fish except predatory 500; CN aquatic animals 500; FDA 1000)."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, a firm sovereign ML (Annex I 3.3.1.3) covering the row's named species (anchovy, Atlantic cod, Atlantic herring, Scomber mackerel, salmon, sardine), so MeHg <= tHg <= 300 holds. No non-gated content-basis methylmercury row for non-predatory marine fish is stricter than 300 (MX other fishery products 500; TH other marine animals 500; HK, PH, TT, VN and CN 500; GSO crustaceans 1000; FDA 1000)."
+    }
+  ]
+}

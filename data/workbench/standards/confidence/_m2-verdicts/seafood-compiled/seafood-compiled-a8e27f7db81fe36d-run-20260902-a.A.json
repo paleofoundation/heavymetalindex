@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-a8e27f7db81fe36d-run-20260902-a",
+  "evidence_key": "a8e27f7db81fe36d",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "fish-marine-non-predatory|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Paraguay Decree 1335/2019, Annex Part II arsenic table, sets 1 mg/kg total arsenic for 'raw, frozen, or refrigerated fish' on the product as offered to the consumer, with no predatory or non-predatory split in the arsenic table, so fresh or frozen fillet of sardine, anchovy, salmon, cod, herring or mackerel is covered; content basis equals as-consumed for raw fish. The decree has been in force since 20 February 2019 as the national incorporation of MERCOSUR GMC 12/11. No non-gated tAs fish-content row is stricter (SG and MERCOSUR are equal at 1000; GY 200 is quarantined)."
+    },
+    {
+      "key": "fish-marine-predatory|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "The same 'raw, frozen, or refrigerated fish' row applies to all fish species, so tuna, swordfish, shark, king mackerel, marlin and billfish sold fresh or frozen are covered at 1 mg/kg total arsenic, product as offered to the consumer; content basis, in force since 20 February 2019. No non-gated same-analyte row on the food-content basis is stricter than 1000 for any of these species (SG 1000 equal, AU-NZ 2000, TT 5000)."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-c8accec5d287b266-run-20260902-a",
+  "evidence_key": "c8accec5d287b266",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Ni",
+      "derived_value": 30000,
+      "derived_anchor_id": "eu2024_ni_seaweed_30000",
+      "same_basis_candidates": [],
+      "blind_value": 30000,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2024/1987 inserts Annex I point 3.6.8.1 'Seaweed except wakame' 30 mg/kg, product as placed on the market, applying from 1 July 2025, so it is in force today and covers nori, kombu and dulse as sold; CH VHK 'Seetang' 30 mg/kg (ch_vhk_2026_ni_seetang_30000) concurs. The cell's product list also names wakame, which the law splits out at 40 mg/kg (point 3.6.8.2, eu2024_ni_wakame_40000; CH 40000): the cell's 30000 is the strictest row across its members and is at least as protective as the wakame row, so the number stands, but the standard should disclose that the sovereign ML for wakame is 40 mg/kg and that the cell adopts the stricter sibling row for it (precautionary for wakame, regulatory-alignment for the rest). No non-gated same-basis Ni row covering seaweed is stricter than 30000."
+    }
+  ]
+}

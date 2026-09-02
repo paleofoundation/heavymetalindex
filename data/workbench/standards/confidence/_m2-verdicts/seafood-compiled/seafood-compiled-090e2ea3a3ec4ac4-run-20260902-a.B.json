@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-20260902-a",
+  "evidence_key": "090e2ea3a3ec4ac4",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|MeHg",
+      "derived_value": 500,
+      "derived_anchor_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Table 3 item 1.1 reads 'Aquatic animals and their products, excluding predatory fish and their products' at 0.5 mg/kg; the same table places 'Tuna and tuna products' at 1.2 mg/kg (item 1.3, china_gb2762_2025_mehg_tuna_1200) and other predatory fish and their products at 1.0 mg/kg (item 1.2, china_gb2762_2025_mehg_predatory_fish_1000), so by its own wording the anchor excludes canned tuna, the cell's leading example, and covers only canned non-predatory fish. GB 2762-2025 is in force as of today (effective 2026-09-02) and 'product as placed on market' matches a canned product as consumed. No non-gated MeHg row stricter than 500 covers canned fish (MX other fishery products, TH other marine animals, PH fish, TT non-predatory fish, VN non-carnivorous fish and HK other fish are all 500; FDA CPG 540.600 covers 'fish... fresh, frozen or processed' at 1000). For canned tuna the strictest in-force MeHg values are 1000 (fda_cpg540600_mehg_fish_1000, mx_nom242_mehg_tuna_group_1000, PH/TT predatory fish, VN carnivorous fish) and 1200 (GB, HK, TH, GSO tuna rows), so 500 across this cell is a precautionary or occurrence-driven value for the tuna member, not a gov lookup, and must be tagged or the cell split."
+    }
+  ]
+}

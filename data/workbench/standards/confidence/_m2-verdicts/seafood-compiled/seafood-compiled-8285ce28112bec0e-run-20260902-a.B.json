@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-8285ce28112bec0e-run-20260902-a",
+  "evidence_key": "8285ce28112bec0e",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|Cd",
+      "derived_value": 1000,
+      "derived_anchor_id": "eu2023_cd_cephalopods_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I cadmium fishery row 'cephalopods' sets 1.0 mg/kg wet weight (animal without viscera), content basis, in force; the eu-2023-915-cadmium page carries the same 1000 ug/kg row. Non-gated content-basis rows scoped to cephalopods or molluscs are equal or looser (CR, GY and FJ cephalopods 1000; SG molluscs 1000; TH, PH, GSO, IN, HK, CN, VN, MERCOSUR and PY cephalopods 2000; MX molluscs 2000). Three residual rows were considered and excluded as not covering this form: Uruguay 'solid foods in general except categories with particular limits' 200 (the particular limit Uruguay applies is the MERCOSUR GMC 12/11 cephalopod-molluscs row at 2000), Vietnam QCVN 8-2 'Aquatic products' 50 (the same table carries a specific 'Cephalopod mollusks (without internal organs)' row at 2000, which governs), and Singapore reg 31(5) 'other food' 200 (cephalopods sit under the specific 'molluscs' row at 1000)."
+    }
+  ]
+}

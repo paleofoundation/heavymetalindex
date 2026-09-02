@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-20260902-a",
+  "evidence_key": "9985c4eb34ed76ea",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Schedule 19 sets inorganic arsenic 1 mg/kg for 'seaweed', and the Code's calculation rule exempts seaweed from the before-drying basis, so the ML is applied to dried seaweed as sold, matching this cell's as-sold basis; Standard 1.4.1 is in force (compilation C06, 13 September 2024), and nori, wakame, kombu and dulse are seaweed. No in-force sovereign sets a total-arsenic ML specific to edible seaweed (the Israeli fresh/dried seaweed tAs rows are superseded, FR CSHPF 3000 iAs is a recommendation, EU 2002/32 seaweed meal is feed basis), so the nearest same-basis instrument for arsenic in this product is the seaweed-specific inorganic-arsenic ML, of which AU-NZ 1000 is the strictest (tied with hk_cap132v_ias_seaweed_1000; SG 2000, TH 2000 looser); adopting it as a total-arsenic ceiling is the conservative direction (tAs is never below iAs) and is disclosed as read-across. Residual same-analyte catch-all rows that would legally reach unlisted seaweed (TT 'foods not named' 1000, UY solid foods 1000, SG 'other food' 1000 if seaweed is not treated as specified) all sit at the same 1000, so none is stricter and the blind value is unchanged."
+    }
+  ]
+}

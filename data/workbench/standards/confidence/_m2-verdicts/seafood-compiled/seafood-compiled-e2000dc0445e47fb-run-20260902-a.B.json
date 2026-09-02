@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-e2000dc0445e47fb-run-20260902-a",
+  "evidence_key": "e2000dc0445e47fb",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I 3.3.1.3 (introduced by Regulation (EU) 2022/617, in force 3 May 2022 and carried forward) sets 0.30 mg/kg wet weight total mercury for 'cephalopods, marine gastropods and the following fish', so the anchor covers all cephalopod species on a content basis; no conversion applies. Every other non-gated content-basis mercury row scoped to cephalopods, molluscs or aquatic animals is looser (EU general 500; GY, CR, PA, PY, MERCOSUR, IN, HK and VN 500; TH other marine animals MeHg 500; CN aquatic animals MeHg 500). Three residual total-mercury rows were considered and excluded as non-seafood fallbacks that do not govern cephalopods: Thailand 414 'food other than the listed total-mercury categories' 20 (mercury in aquatic animals is governed there by the methylmercury rows, with total mercury only a screen under Annex 1 note 4), Singapore reg 31(3)(c) 'other food' 50 (seafood falls under reg 31(3)(b) 'other fish or fish product' 500, and the Tenth Schedule treats fish, crustaceans and molluscs as one class) and Uruguay 'foods in general except categories with particular limits' 50 (the particular limit is the MERCOSUR GMC 12/11 cephalopod-molluscs row at 500)."
+    },
+    {
+      "key": "fish-freshwater|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "refuted",
+      "reason": "The anchor (Annex I 3.3.1.3, 0.30 mg/kg wet weight) lists carp (Cyprinidae), basa and striped/Mekong giant catfish (Pangasius and Pangasianodon), and salmon and trout (Salmo and Oncorhynchus except Salmo trutta), so it covers carp, pangasius catfish and farmed rainbow trout; it does not list tilapia, the row's first-named exemplar, nor channel catfish (Ictalurus) or brown trout, which fall under 3.3.1.1 'fishery products and muscle meat of fish, except species listed in 3.3.1.2 and 3.3.1.3' at 0.50 mg/kg (eu2023_hg_fish_general_500), while pike and eel sit at 1.0 under 3.3.1.2. The anchor's product_scope therefore does not cover the product form as defined and test (a) fails; 300 is the strictest ML among the row's members and is protective for all of them, so the number can stand as a strictest-member value, but the cell needs eu2023_hg_fish_general_500 as a co-anchor with the tilapia, Ictalurus catfish and brown-trout coverage at 500 disclosed rather than presented as direct governance at 300. No non-gated content-basis mercury row scoped to freshwater or general fish is stricter than 300 (SG other fish 500; UY fish muscle 500; PY and MERCOSUR fish except predators 500; CR, PA, GY, FJ and IN 500; VN aquatic products 500); Thailand's 20 ug/kg total-mercury residual is excluded because fish mercury is governed there by the methylmercury rows and the clause 4 Codex fallback, with total mercury only a screen."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Annex I 3.3.1.3 (via Regulation (EU) 2022/617, in force 3 May 2022) sets 0.30 mg/kg wet weight for anchovy (Engraulis spp.), Atlantic cod (Gadus morhua), Atlantic herring (Clupea harengus), mackerel (Scomber spp.), salmon (Salmo and Oncorhynchus spp.) and sardine/pilchard (Sardina, Sardinops, Sardinella, Dussumieria), which are the row's six named exemplars in their principal commercial species, on muscle meat, content basis, no conversion. Marine non-predatory species outside the 3.3.1.3 list (for example Pacific cod or Pacific herring, which the list names only by their Atlantic binomials) are governed at 0.50 under 3.3.1.1, so 300 is the strictest-member ML for the row and should be disclosed as such for those species. No non-gated content-basis mercury row scoped to non-predatory or general marine fish is stricter than 300 (EU general 500; SG other fish 500; PY, MERCOSUR, CR, PA, GY, FJ, IN and UY 500; TH other marine animals MeHg 500); Thailand's 20 ug/kg total-mercury residual is excluded because fish mercury is governed there by the methylmercury rows with total mercury only a screen (Annex 1 note 4)."
+    }
+  ]
+}

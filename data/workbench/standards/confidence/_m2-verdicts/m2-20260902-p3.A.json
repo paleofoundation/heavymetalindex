@@ -1,0 +1,158 @@
+{
+ "packet_id": "m2-20260902-p3",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "A",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-2559d6c78b422192-run-20260902-a",
+   "evidence_key": "2559d6c78b422192",
+   "cells": [
+    {
+     "key": "fish-freshwater|both|Pb",
+     "derived_value": 200,
+     "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+     "same_basis_candidates": [],
+     "blind_value": 200,
+     "applicability": "confirmed",
+     "reason": "Fiji Food Safety Regulations 2009, Eleventh Schedule para (15), sets Pb 0.2 mg/Kg for 'Muscle meat of fish, excluding those listed below'; the carve-outs in the next row (bonito, horse mackerel or scad, sardine, sardinops, spotted seabass, tuna) are all marine species, so tilapia, catfish, trout and carp sit under the 0.2 row. Basis is muscle-meat content in mg/Kg, which for raw fish is the same wet-weight number as consumed, and the instrument is active (Legal Notice 20 of 2009, no amendment or repeal recorded). No non-gated Pb food-content row for fish is stricter: GY 25 is quarantined as a transcription artifact, EU 2023/915 and the GSO/HK/IN/PY/MERCOSUR/TH/VN/PH/PA rows sit at 300, AU-NZ at 500, SG at 2000."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Pb",
+     "derived_value": 200,
+     "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+     "same_basis_candidates": [],
+     "blind_value": 200,
+     "applicability": "refuted",
+     "reason": "The anchor's scope is 'Muscle meat of fish, excluding those listed below', and the same Fiji table places sardine (Sardina pilchardus), sardinops and horse mackerel or scad at 0.4 mg/Kg (fj_fsr2009_pb_008); sardine is a named exemplar of this product form, so the anchor does not cover the form as written and condition (a) fails. The strictest sovereign row that covers every member including sardine is 300 (eu2023_pb_fish_muscle_300 'muscle meat of fish, general', with GSO, HK, IN, PY, MERCOSUR, TH, VN, PH and PA also at 300); no non-gated row is stricter than 200. Because 200 is at or below every member's strictest sovereign the number itself is publishable, but only if the sardine/sardinops/scad carve-out is scope-noted as a precautionary adoption for those species rather than presented as a Fiji lookup for the whole bucket; refuted on scope, not on value."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-8a034577272d83cf-run-20260902-a",
+   "evidence_key": "8a034577272d83cf",
+   "cells": [
+    {
+     "key": "fish-freshwater|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "Singapore Food Regulations Tenth Schedule (b)(15), arsenic column, sets 1 ppm total arsenic for 'fish, crustaceans, and molluscs' with no species or habitat carve-out, so freshwater tilapia, catfish, trout and carp are within scope; basis 'product as sold or imported' is food content and coincides with as-consumed for raw or frozen fish. The informal consolidation is in force from 30 January 2026 (regulation 31 prohibition). No non-gated tAs food-content row covering fish is stricter: GY 200 is quarantined, PY and MERCOSUR 'raw, frozen, or refrigerated fish' are equal at 1000, AU-NZ fish is 2000, TT 5000, IN 76000."
+    },
+    {
+     "key": "shellfish|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "The same Tenth Schedule row names crustaceans and molluscs expressly, and bivalves are molluscs, so uncanned shellfish is squarely within 'fish, crustaceans, and molluscs' at 1 ppm total arsenic on the product as sold. Instrument in force from 30 January 2026, content basis. No non-gated same-analyte row is stricter: AU-NZ molluscs 1000 and the PY/MERCOSUR crustacean, bivalve and cephalopod rows at 1000 are equal, HK regulates only inorganic arsenic for aquatic animals other than fish, and MX 80000 and IN 86000 are far looser."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-a8e27f7db81fe36d-run-20260902-a",
+   "evidence_key": "a8e27f7db81fe36d",
+   "cells": [
+    {
+     "key": "fish-marine-non-predatory|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "Paraguay Decree 1335/2019, Annex Part II arsenic table, sets 1 mg/kg total arsenic for 'raw, frozen, or refrigerated fish' on the product as offered to the consumer, with no predatory or non-predatory split in the arsenic table, so fresh or frozen fillet of sardine, anchovy, salmon, cod, herring or mackerel is covered; content basis equals as-consumed for raw fish. The decree has been in force since 20 February 2019 as the national incorporation of MERCOSUR GMC 12/11. No non-gated tAs fish-content row is stricter (SG and MERCOSUR are equal at 1000; GY 200 is quarantined)."
+    },
+    {
+     "key": "fish-marine-predatory|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "The same 'raw, frozen, or refrigerated fish' row applies to all fish species, so tuna, swordfish, shark, king mackerel, marlin and billfish sold fresh or frozen are covered at 1 mg/kg total arsenic, product as offered to the consumer; content basis, in force since 20 February 2019. No non-gated same-analyte row on the food-content basis is stricter than 1000 for any of these species (SG 1000 equal, AU-NZ 2000, TT 5000)."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-19561b03ce436ec9-run-20260902-a",
+   "evidence_key": "19561b03ce436ec9",
+   "cells": [
+    {
+     "key": "fish-marine-predatory|both|tHg",
+     "derived_value": 1000,
+     "derived_anchor_id": "eu2023_hg_fish_high_1000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2023_hg_fish_general_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Annex I 3.3.1.1 'muscle meat of fish except species listed at lower or higher mercury levels'; king mackerel (Scomberomorus cavalla) is not among the 26 species/groups of 3.3.1.2 (snake mackerel and escolar are different gempylids), so it takes the 0.50 mg/kg general level."
+      },
+      {
+       "id": "fj_fsr2009_thg_002_all_other_species_of_fish_other_than_those_described_in_section_16_abo_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Fiji section (16) list (sharks, tunas, bonitos, swordfish, sailfish, marlin, bass, dogfish, rays, anglerfish, orange roughy, grenadier, snake mackerel/butterfish) does not include king mackerel, which falls to 'All other species of fish' at 0.5 mg/Kg."
+      },
+      {
+       "id": "aunz_sch19_hg_fish_other_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Schedule 19 lists only gemfish, billfish, southern bluefin tuna, barramundi, ling, orange roughy, rays and sharks at 1.0 (mean); king mackerel and every tuna other than southern bluefin (yellowfin, bigeye, albacore, skipjack, Atlantic and Pacific bluefin) fall under 'other fish' at 0.5 mean with a 1.5 sample-unit ceiling."
+      },
+      {
+       "id": "cr_rtcr409_2008_thg_fish_general_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "'fish in general, except tuna, bonito, eel, marlin, ray, sharks, and swordfish' leaves king mackerel in the 0.5 general row."
+      },
+      {
+       "id": "vn_qcvn8_2_2011_thg_aquatic-products_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Vietnam's named 1.0 list (tuna, marlin, sailfish, shark, swordfish, snake mackerel and others) does not include king mackerel, which falls under 'Aquatic products' at 0.5."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "EU 2023/915 Annex I 3.3.1.2 (the species table carried over from Regulation 2022/617) covers tuna (Thunnus, Euthynnus, Katsuwonus), all shark species, swordfish, marlin and sail fish, so five of the six named exemplars are in scope, but king mackerel is not on the list and therefore falls under 3.3.1.1 at 0.50 mg/kg wet weight; Fiji, Costa Rica and Vietnam likewise leave king mackerel in their 0.5 general rows, and FSANZ places both king mackerel and every tuna other than southern bluefin under its 0.5 mean row. Basis (wet weight, edible portion) and in-force status are fine; the cell fails (a) and (d) for the bucket as written, so the strict same-basis lookup for the form including king mackerel is 500, while 1000 is the strictest sovereign for tuna, swordfish, shark, marlin and sailfish in every regime except FSANZ's non-southern-bluefin tuna row. The Singapore Fifteenth Schedule species list is not reproduced on the regulation page, so its 0.5 'other fish' row is not counted for king mackerel. Publishable at 1000 only with king mackerel removed or scope-noted and the FSANZ 0.5-mean tuna row disclosed."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-1408b285ffb5df2f-run-20260902-a",
+   "evidence_key": "1408b285ffb5df2f",
+   "cells": [
+    {
+     "key": "fish-marine-predatory|both|MeHg",
+     "derived_value": 1000,
+     "derived_anchor_id": "china_gb2762_2025_mehg_predatory_fish_1000",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Cap 132V Part 2 item 11 (mercury expressed as methyl-mercury, edible portion after removal of the digestive tract) specifies only tuna 1.2, alfonsino 1.5, marlin 1.7, shark 1.6, orange roughy 0.8 and pink cusk-eel 1.0; swordfish, sailfish and other billfish, and king mackerel are 'Fish (other than those fish specified in this item)' at 0.5 mg/kg."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "GB 2762-2025 Table 3 item 1.2 is 'Predatory fish and their products, excluding tuna, alfonsino, marlin, shark and the products of those fish', so three of the six named exemplars (tuna at 1.2 in item 1.3, marlin at 1.7 in item 1.5, shark at 1.6 in item 1.6) are expressly outside the anchor and condition (a) fails; the instrument is in force from today, 2 September 2026, on the product as placed on the market (content basis), and it does cover swordfish, king mackerel and sailfish. For those covered members Hong Kong Cap 132V item 11 sets 0.5 mg/kg methyl-mercury for every fish not specified in the item, and swordfish, sailfish and king mackerel are not specified, so a stricter same-basis non-gated row is missing and (d) also fails; the strict lookup for the bucket as written is 500. The strictest sovereign methylmercury level for tuna, marlin and shark is 1000 (FDA CPG 540.600 action level, PH, TT, VN carnivorous fish, MX tuna group), so 1000 survives for those species only under a different anchor and with swordfish/king mackerel/billfish either scope-noted against HK or split out."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-20260902-a",
+   "evidence_key": "9985c4eb34ed76ea",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "Schedule 19 sets inorganic arsenic 1 mg/kg for 'seaweed', and the Code's calculation rule exempts seaweed from the before-drying basis, so the ML is applied to dried seaweed as sold, matching this cell's as-sold basis; Standard 1.4.1 is in force (compilation C06, 13 September 2024), and nori, wakame, kombu and dulse are seaweed. No in-force sovereign sets a total-arsenic ML specific to edible seaweed (the Israeli fresh/dried seaweed tAs rows are superseded, FR CSHPF 3000 iAs is a recommendation, EU 2002/32 seaweed meal is feed basis), so the nearest same-basis instrument for arsenic in this product is the seaweed-specific inorganic-arsenic ML, of which AU-NZ 1000 is the strictest (tied with hk_cap132v_ias_seaweed_1000; SG 2000, TH 2000 looser); adopting it as a total-arsenic ceiling is the conservative direction (tAs is never below iAs) and is disclosed as read-across. Residual same-analyte catch-all rows that would legally reach unlisted seaweed (TT 'foods not named' 1000, UY solid foods 1000, SG 'other food' 1000 if seaweed is not treated as specified) all sit at the same 1000, so none is stricter and the blind value is unchanged."
+    }
+   ]
+  }
+ ]
+}

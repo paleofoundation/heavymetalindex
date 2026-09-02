@@ -20,11 +20,6 @@
             "converted": true,
             "id": "eu2023_pb_cephalopods_300"
           },
-          "IL": {
-            "value": 300,
-            "converted": true,
-            "id": "il_fcs2016_pb_10_3_octopus_and_squid_300"
-          },
           "IN": {
             "value": 1000,
             "converted": true,
@@ -189,11 +184,6 @@
             "converted": true,
             "id": "gy2023_cd_cephalopods_ppm_1000"
           },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_cd_9_3_shellfish_octopus_squid_and_cephalopods_1000"
-          },
           "FJ": {
             "value": 1000,
             "converted": true,
@@ -249,11 +239,11 @@
       },
       "Ni": {
         "type": "read_across",
-        "value": 2000,
-        "value_exact": 2000,
-        "source_id": "eu2024_ni_husked_rice_2000",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "eu2024_ni_babyfood_500",
         "source_jurisdiction": "EU",
-        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "label": "Read-across from Regulation (EU) 2024/1987 nickel in baby food except juices (500 ug/kg, product as placed on market): no sovereign sets a nickel maximum level for fish, crustaceans, molluscs or cephalopods, and the wet-basis baby-food row, whose scope includes fish-based foods, is the nearest same-basis instrument; the dry husked-rice row (2000) the standard previously cited is a different basis and was refuted by M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {},
         "provenance": "read-across"
@@ -275,15 +265,14 @@
         "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "read_across",
-        "value": 10,
-        "value_exact": 10,
-        "source_id": "ca_swrcb_crvi_drinking_water_10",
-        "source_jurisdiction": "US-CA",
-        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "Cr",
+        "binding_parent_value": 12000,
+        "binding_parent_source": "IN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (12000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Sn": {
         "type": "read_across",

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-96398ac8bfed9ac7-run-20260902-a",
+  "evidence_key": "96398ac8bfed9ac7",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Tenth Schedule row 'Canned fish and meat, meat extract, and hydrolysed protein' 1 ppm (1000 ug/kg) names canned fish directly, so canned tuna and other canned fish are inside its wording; the basis 'product as sold or imported' is the canned product itself, matching an as-consumed content cell with no conversion, and Regulation 31 is in force in the consolidation effective 30 January 2026. No non-gated same-basis total-arsenic row stricter than 1000 reaches canned fish: SG 'fish, crustaceans, and molluscs' 1000, AU-NZ molluscs 1000 and PY/MERCOSUR fish 1000 are equal, AU-NZ fish 2000, TT 'marine and fresh water animal products' 5000, IN 76000 and MX 80000 are looser, the Guyana 200 ppb row is quarantined, and the sub-1000 rows (food-grade salt 500, Uruguay liquid foods 100, SG beverages 100, SG baby food 100, IN infant foods 50) are scoped to other products; the EU 2025/1891 and GB 2762-2025 fish rows are inorganic arsenic, a different analyte."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-1408b285ffb5df2f-run-20260902-a",
+  "evidence_key": "1408b285ffb5df2f",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-marine-predatory|both|MeHg",
+      "derived_value": 1000,
+      "derived_anchor_id": "china_gb2762_2025_mehg_predatory_fish_1000",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Hong Kong Cap 132V Part 2 item 11 sets methylmercury 0.5 mg/kg for fish other than tuna (1.2), marlin (1.7) and shark (1.6), edible portion after removal of the digestive tract, in force (consolidated 2025-09-05); swordfish, king mackerel and sailfish are members of this cell and are capped at 0.5 there"
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "GB 2762-2025 Table 3 item 1.2 (1.0 mg/kg, product as placed on market, in force from today 2026-09-02, unchanged from GB 2762-2022) governs predatory fish other than tuna, alfonsino, marlin and shark, so it covers swordfish, king mackerel and non-marlin billfish; tuna, marlin and shark, three of the six named members, are expressly excluded and carry looser lines (1.3 tuna 1.2, 1.5 marlin 1.7, 1.6 shark 1.6), so for them the cell's 1000 is a protective group minimum rather than a lookup from this anchor. Hong Kong Cap 132V item 11 sets methylmercury 0.5 mg/kg for fish other than tuna, marlin and shark, so swordfish, king mackerel and sailfish are capped at 500 there, a stricter same-basis non-gated row this cell misses (condition (d)). Publish 500 for the group as named, or split it: swordfish, king mackerel and sailfish at 500 (HK), and tuna, marlin and shark at 1000 (VN QCVN 8-2 carnivorous fish, TT, PH predatory fish, FDA CPG 540.600)."
+    }
+  ]
+}

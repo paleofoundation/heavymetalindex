@@ -16,11 +16,6 @@
         "label": "government read-across: China GB 2762-2025 Table 1 item 6.3 lead 1.0 mg/kg for algae products (excluding spirulina products), product as placed on the market; the strictest in-force sovereign lead ceiling for a dried seaweed product. Replaces the Israel MoH 2016 dried-seaweed row (5000), which the Ministry marks not in force since 19.02.2026 (M1 verification 2026-09-02); a tightening from 5000 to 1000.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {
-          "IL": {
-            "value": 5000,
-            "converted": true,
-            "id": "il_fcs2016_pb_8_1_dried_seaweed_5000"
-          },
           "FR": {
             "value": 5000,
             "converted": true,
@@ -68,13 +63,7 @@
         "source_jurisdiction": "AU-NZ",
         "label": "disclosed species-as-total ceiling (audit exception C6d): no in-force government sets a total-arsenic ML for seaweed (the Israel MoH 2016 dried-seaweed row, 5000, is not in force since 19.02.2026), so total arsenic is held at the AU-NZ Schedule 19 inorganic-arsenic seaweed limit of 1 mg/kg; because inorganic arsenic is a component of total arsenic, a total at or below 1000 guarantees the inorganic species is too. This is a protective read-across in the species-to-total direction only, never the reverse.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {
-          "IL": {
-            "value": 5000,
-            "converted": true,
-            "id": "il_fcs2016_tas_7_1_dried_seaweed_5000"
-          }
-        },
+        "per_country": {},
         "species_direction": "species-as-total-ceiling",
         "audit_exception": "C6d",
         "provenance": "read-across"
@@ -91,11 +80,6 @@
             "value": 100,
             "converted": true,
             "id": "fr_cshpf_seaweed_thg_100"
-          },
-          "IL": {
-            "value": 2500,
-            "converted": true,
-            "id": "il_fcs2016_thg_7_1_dried_seaweed_2500"
           }
         },
         "provenance": "regulatory-alignment"
@@ -137,11 +121,6 @@
             "value": 2000,
             "converted": true,
             "id": "sg_foodregs_2026_seaweed_cd_2000"
-          },
-          "IL": {
-            "value": 5000,
-            "converted": true,
-            "id": "il_fcs2016_cd_7_1_dried_seaweed_5000"
           }
         },
         "provenance": "regulatory-alignment"
@@ -169,25 +148,24 @@
       },
       "Cr": {
         "type": "read_across",
-        "value": 2000,
-        "value_exact": 2000,
-        "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
         "source_jurisdiction": "CN",
-        "label": "No government sets a total-chromium ML for seaweed. Read-across to the nearest food total-chromium ML on an as-sold dry basis (China GB 2762 milk powder, 2000) as a monitor/baseline. Total chromium in edible seaweed is predominantly non-toxic Cr(III) from mineral accumulation, so the binding health control is hexavalent chromium (Cr-VI); total chromium is monitored, not a per-lot pass/fail.",
+        "label": "Read-across from the GB 2762-2025 total-chromium maximum level for cereals (1000 ug/kg), GB's own dry plant-food line; no sovereign sets total chromium for dried seaweed, milk powder (2000) is not a plant analog, and GB's aquatic-animal line (2000) concurs as the ceiling (M2 adjudication 2026-09-02 (two blind Fable verifiers agreed)).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {},
         "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "read_across",
-        "value": 10,
-        "value_exact": 10,
-        "source_id": "ca_swrcb_crvi_drinking_water_10",
-        "source_jurisdiction": "US-CA",
-        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. Marine chromium is Cr(III); Cr(VI) in seaweed is negligible, so clean product passes and a chromate-contaminated sample fails.",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "Cr",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Sn": {
         "type": "read_across",

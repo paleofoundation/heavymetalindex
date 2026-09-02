@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-28df1c012f001db3-run-20260902-a",
+  "evidence_key": "28df1c012f001db3",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not canned tuna or canned fish, a wet finished product eaten as packed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    },
+    {
+      "key": "cephalopods|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not octopus, squid or cuttlefish flesh eaten as consumed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    },
+    {
+      "key": "fish-freshwater|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not tilapia, catfish, trout or carp fillet eaten as consumed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not sardine, anchovy, salmon, cod, herring or mackerel muscle meat, fresh or frozen, eaten as consumed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    },
+    {
+      "key": "fish-marine-predatory|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not tuna, swordfish, shark, king mackerel, marlin or billfish muscle meat eaten as consumed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    },
+    {
+      "key": "shellfish|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 entry 3.6.11.3 'husked rice' 2.0 mg/kg applies from 1 July 2026 and is in force, and it is a food-content ML, but its scope is a dry raw cereal, not crustacean or bivalve-mollusc meat eaten as consumed. The register holds no sovereign nickel ML for fish, crustaceans, molluscs, cephalopods or any animal tissue (its 93 nickel rows are EU 2024/1987 and Swiss VHK plant-food rows, GB 2762-2025 hydrogenated oils, drinking and bottled water, cosmetics, fertiliser, biosolids, toy-migration, food-contact-migration and ICH Q3D rows), so a read-across is unavoidable, but husked rice is not the nearest same-basis instrument: within the same regulation the wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root, tuber and bulb vegetables 900) and the as-placed-on-market finished-food row 'baby food except juices' 500 (eu2024_ni_babyfood_500), whose legal scope includes meat- and fish-based foods, are nearer in moisture, basis and product form to wet animal tissue eaten as consumed than a roughly 12 percent-moisture grain at the second-loosest cereal level. Refuted as a non-nearest read-across; the nearer instrument is eu2024_ni_babyfood_500 at 500, and whichever analog is adopted must be disclosed as read-across, never as direct governance."
+    }
+  ]
+}

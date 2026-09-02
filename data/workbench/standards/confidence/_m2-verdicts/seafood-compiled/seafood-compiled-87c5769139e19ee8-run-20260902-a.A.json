@@ -1,0 +1,56 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-87c5769139e19ee8-run-20260902-a",
+  "evidence_key": "87c5769139e19ee8",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Product form: cephalopods (octopus, squid, cuttlefish; not canned). The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products', does not reach a product the cell defines as not canned, and it is not the nearest same-basis sovereign instrument: the register holds direct residual content rows that cover any fresh or frozen food, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, consolidation in force 30 January 2026), Thailand MOPH 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), all 250000 ug/kg. Those direct rows are looser than the 200000 read-across, so the published number sits below every applicable ML and no stricter same-basis candidate exists, but the provenance is wrong: the cell should either cite the direct residual rows as a gov cell (250000) or disclose 200000 as a precautionary value chosen below them. If a canned analog is nevertheless retained, the product-nearer canned rows are the canned fishery rows (MX NOM-242 'canned fishery products only' 100 mg/kg wet weight, CR RTCR 409 and India FSSAI canned fish 200 mg/kg), of which MX at 100000 is strictest, so the EU general canned-foods row is neither the direct instrument nor the nearest canned analog."
+    },
+    {
+      "key": "fish-freshwater|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Product form: freshwater finfish (tilapia, catfish, trout, carp), fresh or frozen. The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products', does not reach a product the cell defines as not canned, and it is not the nearest same-basis sovereign instrument: the register holds direct residual content rows that cover any fresh or frozen food, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, consolidation in force 30 January 2026), Thailand MOPH 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), all 250000 ug/kg. Those direct rows are looser than the 200000 read-across, so the published number sits below every applicable ML and no stricter same-basis candidate exists, but the provenance is wrong: the cell should either cite the direct residual rows as a gov cell (250000) or disclose 200000 as a precautionary value chosen below them. If a canned analog is nevertheless retained, the product-nearer canned rows are the canned fishery rows (MX NOM-242 'canned fishery products only' 100 mg/kg wet weight, CR RTCR 409 and India FSSAI canned fish 200 mg/kg), of which MX at 100000 is strictest, so the EU general canned-foods row is neither the direct instrument nor the nearest canned analog."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Product form: marine non-predatory fish fillet or muscle meat, fresh or frozen. The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products', does not reach a product the cell defines as not canned, and it is not the nearest same-basis sovereign instrument: the register holds direct residual content rows that cover any fresh or frozen food, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, consolidation in force 30 January 2026), Thailand MOPH 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), all 250000 ug/kg. Those direct rows are looser than the 200000 read-across, so the published number sits below every applicable ML and no stricter same-basis candidate exists, but the provenance is wrong: the cell should either cite the direct residual rows as a gov cell (250000) or disclose 200000 as a precautionary value chosen below them. If a canned analog is nevertheless retained, the product-nearer canned rows are the canned fishery rows (MX NOM-242 'canned fishery products only' 100 mg/kg wet weight, CR RTCR 409 and India FSSAI canned fish 200 mg/kg), of which MX at 100000 is strictest, so the EU general canned-foods row is neither the direct instrument nor the nearest canned analog."
+    },
+    {
+      "key": "fish-marine-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Product form: marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish), fresh or frozen. The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products', does not reach a product the cell defines as not canned, and it is not the nearest same-basis sovereign instrument: the register holds direct residual content rows that cover any fresh or frozen food, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, consolidation in force 30 January 2026), Thailand MOPH 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), all 250000 ug/kg. Those direct rows are looser than the 200000 read-across, so the published number sits below every applicable ML and no stricter same-basis candidate exists, but the provenance is wrong: the cell should either cite the direct residual rows as a gov cell (250000) or disclose 200000 as a precautionary value chosen below them. If a canned analog is nevertheless retained, the product-nearer canned rows are the canned fishery rows (MX NOM-242 'canned fishery products only' 100 mg/kg wet weight, CR RTCR 409 and India FSSAI canned fish 200 mg/kg), of which MX at 100000 is strictest, so the EU general canned-foods row is neither the direct instrument nor the nearest canned analog."
+    },
+    {
+      "key": "shellfish|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Product form: shellfish (crustaceans and bivalve molluscs, not canned). The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products', does not reach a product the cell defines as not canned, and it is not the nearest same-basis sovereign instrument: the register holds direct residual content rows that cover any fresh or frozen food, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, consolidation in force 30 January 2026), Thailand MOPH 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), all 250000 ug/kg. Those direct rows are looser than the 200000 read-across, so the published number sits below every applicable ML and no stricter same-basis candidate exists, but the provenance is wrong: the cell should either cite the direct residual rows as a gov cell (250000) or disclose 200000 as a precautionary value chosen below them. If a canned analog is nevertheless retained, the product-nearer canned rows are the canned fishery rows (MX NOM-242 'canned fishery products only' 100 mg/kg wet weight, CR RTCR 409 and India FSSAI canned fish 200 mg/kg), of which MX at 100000 is strictest, so the EU general canned-foods row is neither the direct instrument nor the nearest canned analog. Chile Decreto 977 'conservas de pescados y mariscos' 250 mg/kg is likewise canned-only and looser."
+    }
+  ]
+}

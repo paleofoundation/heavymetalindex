@@ -1,0 +1,26 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-1408b285ffb5df2f-run-20260902-a",
+  "evidence_key": "1408b285ffb5df2f",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "fish-marine-predatory|both|MeHg",
+      "derived_value": 1000,
+      "derived_anchor_id": "china_gb2762_2025_mehg_predatory_fish_1000",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Cap 132V Part 2 item 11 (mercury expressed as methyl-mercury, edible portion after removal of the digestive tract) specifies only tuna 1.2, alfonsino 1.5, marlin 1.7, shark 1.6, orange roughy 0.8 and pink cusk-eel 1.0; swordfish, sailfish and other billfish, and king mackerel are 'Fish (other than those fish specified in this item)' at 0.5 mg/kg."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "GB 2762-2025 Table 3 item 1.2 is 'Predatory fish and their products, excluding tuna, alfonsino, marlin, shark and the products of those fish', so three of the six named exemplars (tuna at 1.2 in item 1.3, marlin at 1.7 in item 1.5, shark at 1.6 in item 1.6) are expressly outside the anchor and condition (a) fails; the instrument is in force from today, 2 September 2026, on the product as placed on the market (content basis), and it does cover swordfish, king mackerel and sailfish. For those covered members Hong Kong Cap 132V item 11 sets 0.5 mg/kg methyl-mercury for every fish not specified in the item, and swordfish, sailfish and king mackerel are not specified, so a stricter same-basis non-gated row is missing and (d) also fails; the strict lookup for the bucket as written is 500. The strictest sovereign methylmercury level for tuna, marlin and shark is 1000 (FDA CPG 540.600 action level, PH, TT, VN carnivorous fish, MX tuna group), so 1000 survives for those species only under a different anchor and with swordfish/king mackerel/billfish either scope-noted against HK or split out."
+    }
+  ]
+}

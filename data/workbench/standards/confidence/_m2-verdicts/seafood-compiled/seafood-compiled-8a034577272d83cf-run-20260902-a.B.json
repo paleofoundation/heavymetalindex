@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-8a034577272d83cf-run-20260902-a",
+  "evidence_key": "8a034577272d83cf",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-freshwater|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Singapore Food Regulations Tenth Schedule (b)(15) sets total arsenic 1 ppm for 'fish, crustaceans, and molluscs' with no marine/freshwater distinction, so tilapia, catfish, trout and carp are covered; the loaded text is the consolidation in force from 30 January 2026 (status active). Basis is the product as sold or imported, which for fresh or frozen fish is the as-consumed fillet (no conversion). No non-gated tAs row on fish is stricter than 1000 (PY/MERCOSUR 1000 equal, AU-NZ fish 2000, IN 76000; the Guyana 200 row is quarantined); the HK, EU 2025/1891 and GB 2762-2025 fish arsenic rows are inorganic-arsenic species rows, not same-analyte comparators."
+    },
+    {
+      "key": "shellfish|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "The same Tenth Schedule (b)(15) line names crustaceans and molluscs expressly, which covers crustaceans and bivalve molluscs sold fresh or frozen (canned fish sits on a separate line at the same 1 ppm). Instrument in force (consolidation from 2026-01-30); basis product as sold matches the as-consumed cell. No stricter non-gated same-basis tAs row exists for either member: AU-NZ molluscs 1000 (equal) and crustacea 2000, PY/MERCOSUR crustaceans and bivalve molluscs 1000 (equal), MX 80000, IN 76000 and 86000."
+    }
+  ]
+}

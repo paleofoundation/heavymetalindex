@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-e253d63c28db7e96-run-20260902-a",
+  "evidence_key": "e253d63c28db7e96",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Cr",
+      "derived_value": 2000,
+      "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "Table 7 item 6.2 'Milk powder and modified milk powder' (乳粉和调制乳粉) at 2.0 mg/kg total chromium is an as-sold line in force from 2026-09-02, but it does not cover algae, which GB 2762-2025 Annex A treats as their own category (Table 1 items 6.1 to 6.4) with no chromium line, so 2000 is a read-across at face value. Milk powder is not the nearest same-basis analog: within the same instrument the dry plant-food lines, item 3.1 beans (dried pulses) and items 1.1/1.2 cereals and milled cereal products, are as-sold dry-basis lines at 1000 (china_gb2762_2025_crtotal_beans_legumes_1000, china_gb2762_2025_crtotal_cereals_1000), and the marine-origin line item 5.1 'Aquatic animals and their products' concurs at 2000 (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000); the dairy analog is the least defensible of the three and, if the program re-anchors to the nearest dry plant-food line, the value becomes 1000. Hong Kong Cap 132V 'Vegetables, other than pulses' 500 (hk_cap132v_crtotal_vegetables-other-than-pulses_500) is not listed as a stricter candidate because the Schedule names 'Seaweed' separately where it means seaweed and Reg 3(2)(b) scales dried-food maxima by the concentration change, so it is neither shown to cover seaweed nor stricter on a dried basis; no direct sovereign total-chromium level for seaweed exists in the register."
+    }
+  ]
+}

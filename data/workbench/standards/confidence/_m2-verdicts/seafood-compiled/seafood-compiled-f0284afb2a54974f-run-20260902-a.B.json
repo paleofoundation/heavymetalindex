@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-f0284afb2a54974f-run-20260902-a",
+  "evidence_key": "f0284afb2a54974f",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "The anchor's scope is 'canned foods other than canned beverages, except canned dried and canned powdered products' (Annex I 3.5.1, inorganic tin): a dried seaweed sold in non-can packaging is not a canned food, and even a canned dried product is expressly carved out, so criterion (a) fails. The read-across is also not the nearest same-basis sovereign instrument: two in-force content MLs govern dried seaweed directly on the as-sold basis, Singapore Food Regulations reg 31(4) 'Any food' tin 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported) and Thailand MoPH Notification 414 'Foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, product as placed on market), and HK's former 230 mg/kg all-food tin limit was repealed by L.N. 113 of 2018 so it is not a third. Derived value 200000 is the anchor's face value; a government-limit lookup yields 250000 from SG/TH as a gov cell, and 200000 is sustainable only as a disclosed precautionary value with the EU canned-food row cited as a comparator, not as the governing instrument."
+    }
+  ]
+}

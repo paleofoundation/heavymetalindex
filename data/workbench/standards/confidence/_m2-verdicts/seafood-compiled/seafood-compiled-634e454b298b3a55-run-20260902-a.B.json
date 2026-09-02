@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-634e454b298b3a55-run-20260902-a",
+  "evidence_key": "634e454b298b3a55",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 50,
+      "applicability": "refuted",
+      "reason": "The anchor record is internally inconsistent: its regulatory_limit_id, value (50), url, notes and basis_class are the GSO 193:2021 'Muscle meat of fish with exception mentioned' content row, while its jurisdiction (EU), authority (Directive 2009/48/EC), basis ('soluble element migration from toy material (EN 71-3 category III), mg/kg of material'), product_scope ('toys and toy components (soluble element migration)') and regulation_page (eu-2009-48-toy-safety-migration-limits) are the Toy Safety Directive migration row, whose actual Category III cadmium limit is 17 mg/kg (17000 ug/kg), not 50. As presented the anchor is a migration-basis, toy-scoped instrument on a food-content cell, failing (a) and (b); resolved by id to the register's GSO row it inherits the batch-1 defect that tuna is an exception at 0.1 mg/kg and the basis is fresh muscle meat rather than canned product as consumed. The evidence record must be rebuilt from the register row before the cell can be adjudicated as gov; 50 remains the strictest value only for canned non-exception fish (GSO general, CR, GY, VN 'Aquatic products'), 100 is the strictest row naming tuna, and GB 2762-2025 canned fish is 200."
+    }
+  ]
+}

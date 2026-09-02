@@ -1,6 +1,6 @@
 {
   "compiled_dir": "seafood-compiled",
-  "run_id": "run-202609021109",
+  "run_id": "run-202609021123",
   "batches": [
     {
       "evidence_key": "2f68af6557623e66",
@@ -55,10 +55,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609021109"
+      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609021123"
     },
     {
-      "evidence_key": "3486df6abf432e43",
+      "evidence_key": "bb87f3a68497eabc",
       "analyte": "Pb",
       "basis_class": "as_consumed",
       "conversion": null,
@@ -98,7 +98,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-3486df6abf432e43-run-202609021109"
+      "batch_id": "seafood-compiled-bb87f3a68497eabc-run-202609021123"
     },
     {
       "evidence_key": "e8b5dd23b9f12a25",
@@ -141,18 +141,6 @@
           "subsumed_by": null
         },
         {
-          "key": "fish-freshwater|both|Cd",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
           "key": "fish-marine-non-predatory|both|Cd",
           "slug": "fish-marine-non-predatory",
           "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
@@ -165,50 +153,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-202609021109"
-    },
-    {
-      "evidence_key": "96398ac8bfed9ac7",
-      "analyte": "tAs",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
-          "jurisdiction": "SG",
-          "authority": "Singapore Food Agency",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "1000",
-          "basis": "product as sold or imported",
-          "product_scope": "canned fish and meat, meat extract, and hydrolysed protein",
-          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
-          "url": "",
-          "notes": "Tenth Schedule (b)(2) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "0c926d0cfa810ad98ad26bbbe9b31f58e2a0316a986a0dd14313005f66abf92a",
-          "row_sha256": "0c926d0cfa810ad98ad26bbbe9b31f58e2a0316a986a0dd14313005f66abf92a"
-        }
-      ],
-      "cells": [
-        {
-          "key": "canned-seafood|both|tAs",
-          "slug": "canned-seafood",
-          "product": "Canned seafood (canned tuna, canned fish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-96398ac8bfed9ac7-run-202609021109"
+      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-202609021123"
     },
     {
       "evidence_key": "7fbb918c726855d1",
@@ -251,7 +196,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609021109"
+      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609021123"
     },
     {
       "evidence_key": "090e2ea3a3ec4ac4",
@@ -294,7 +239,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609021109"
+      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609021123"
     },
     {
       "evidence_key": "28df1c012f001db3",
@@ -397,7 +342,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-28df1c012f001db3-run-202609021109"
+      "batch_id": "seafood-compiled-28df1c012f001db3-run-202609021123"
     },
     {
       "evidence_key": "96d83a643fe19d59",
@@ -440,7 +385,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-96d83a643fe19d59-run-202609021109"
+      "batch_id": "seafood-compiled-96d83a643fe19d59-run-202609021123"
     },
     {
       "evidence_key": "1fcffde23c86c892",
@@ -543,7 +488,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-1fcffde23c86c892-run-202609021109"
+      "batch_id": "seafood-compiled-1fcffde23c86c892-run-202609021123"
     },
     {
       "evidence_key": "82a34805c720f325",
@@ -646,270 +591,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-82a34805c720f325-run-202609021109"
-    },
-    {
-      "evidence_key": "743f5abc678c0856",
-      "analyte": "Pb",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_pb_cephalopods_300",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "Pb",
-          "value_ug_kg": "300",
-          "basis": "wet weight",
-          "product_scope": "cephalopods",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.1.15.2; the maximum level applies to the animal without viscera; wet-weight value 0.30 mg/kg normalized to 300 ug/kg.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "a4e345d31dc112e41c25c09d469c54854648f11ccffb8d8187d36f3dc2c443a5",
-          "row_sha256": "a4e345d31dc112e41c25c09d469c54854648f11ccffb8d8187d36f3dc2c443a5"
-        }
-      ],
-      "cells": [
-        {
-          "key": "cephalopods|both|Pb",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-743f5abc678c0856-run-202609021109"
-    },
-    {
-      "evidence_key": "8285ce28112bec0e",
-      "analyte": "Cd",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_cd_cephalopods_1000",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "Cd",
-          "value_ug_kg": "1000",
-          "basis": "wet weight",
-          "product_scope": "cephalopods",
-          "regulation_page": "regulations/eu-2023-915-cadmium",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Fishery commodity row.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "89fa0185ed7e26b5a49aa0cb56836c8601af9e0b8be7930442057c6a36753734",
-          "row_sha256": "89fa0185ed7e26b5a49aa0cb56836c8601af9e0b8be7930442057c6a36753734"
-        }
-      ],
-      "cells": [
-        {
-          "key": "cephalopods|both|Cd",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-8285ce28112bec0e-run-202609021109"
-    },
-    {
-      "evidence_key": "6ef9f66b08852cbe",
-      "analyte": "tAs",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "py_decreto1335_2019_cephalopod_molluscs_tas_1000",
-          "jurisdiction": "PY",
-          "authority": "Paraguay Ministry of Public Health and Social Welfare",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "1000",
-          "basis": "product as offered to consumer",
-          "product_scope": "cephalopod molluscs",
-          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
-          "url": "",
-          "notes": "Annex Part II arsenic table total arsenic row; source value 1 mg/kg normalized to 1000 ug/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "d725972ba6aa67f608bdf51aaf2f0a886d2b825f7a117a21edeab9bb370ffe5e",
-          "row_sha256": "d725972ba6aa67f608bdf51aaf2f0a886d2b825f7a117a21edeab9bb370ffe5e"
-        }
-      ],
-      "cells": [
-        {
-          "key": "cephalopods|both|tAs",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-6ef9f66b08852cbe-run-202609021109"
-    },
-    {
-      "evidence_key": "e2000dc0445e47fb",
-      "analyte": "tHg",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_hg_fish_low_300",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "tHg",
-          "value_ug_kg": "300",
-          "basis": "wet weight",
-          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.3.1.3.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
-          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
-        }
-      ],
-      "cells": [
-        {
-          "key": "cephalopods|both|tHg",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-freshwater|both|tHg",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-non-predatory|both|tHg",
-          "slug": "fish-marine-non-predatory",
-          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609021109"
-    },
-    {
-      "evidence_key": "9b7d1101bd267369",
-      "analyte": "MeHg",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_hg_fish_low_300",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "tHg",
-          "value_ug_kg": "300",
-          "basis": "wet weight",
-          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.3.1.3.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
-          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
-        }
-      ],
-      "cells": [
-        {
-          "key": "cephalopods|both|MeHg",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "subsumed",
-          "state": "bounded",
-          "subsumed_by": "tHg"
-        },
-        {
-          "key": "fish-freshwater|both|MeHg",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "subsumed",
-          "state": "bounded",
-          "subsumed_by": "tHg"
-        },
-        {
-          "key": "fish-marine-non-predatory|both|MeHg",
-          "slug": "fish-marine-non-predatory",
-          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "subsumed",
-          "state": "bounded",
-          "subsumed_by": "tHg"
-        }
-      ],
-      "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609021109"
+      "batch_id": "seafood-compiled-82a34805c720f325-run-202609021123"
     },
     {
       "evidence_key": "87c5769139e19ee8",
@@ -1000,7 +682,93 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021109"
+      "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021123"
+    },
+    {
+      "evidence_key": "e2000dc0445e47fb",
+      "analyte": "tHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_low_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.3.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
+          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-freshwater|both|tHg",
+          "slug": "fish-freshwater",
+          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609021123"
+    },
+    {
+      "evidence_key": "9b7d1101bd267369",
+      "analyte": "MeHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_low_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.3.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
+          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-freshwater|both|MeHg",
+          "slug": "fish-freshwater",
+          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "tHg"
+        }
+      ],
+      "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609021123"
     },
     {
       "evidence_key": "2559d6c78b422192",
@@ -1031,18 +799,6 @@
       ],
       "cells": [
         {
-          "key": "fish-freshwater|both|Pb",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
           "key": "fish-marine-non-predatory|both|Pb",
           "slug": "fish-marine-non-predatory",
           "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
@@ -1055,117 +811,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2559d6c78b422192-run-202609021109"
-    },
-    {
-      "evidence_key": "8a034577272d83cf",
-      "analyte": "tAs",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
-          "jurisdiction": "SG",
-          "authority": "Singapore Food Agency",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "1000",
-          "basis": "product as sold or imported",
-          "product_scope": "fish, crustaceans, and molluscs",
-          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
-          "url": "",
-          "notes": "Tenth Schedule (b)(15) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9",
-          "row_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9"
-        }
-      ],
-      "cells": [
-        {
-          "key": "fish-freshwater|both|tAs",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "shellfish|both|tAs",
-          "slug": "shellfish",
-          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-8a034577272d83cf-run-202609021109"
-    },
-    {
-      "evidence_key": "a8e27f7db81fe36d",
-      "analyte": "tAs",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
-          "jurisdiction": "PY",
-          "authority": "Paraguay Ministry of Public Health and Social Welfare",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "1000",
-          "basis": "product as offered to consumer",
-          "product_scope": "raw, frozen, or refrigerated fish",
-          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
-          "url": "",
-          "notes": "Annex Part II arsenic table total arsenic row; source value 1 mg/kg normalized to 1000 ug/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075",
-          "row_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075"
-        }
-      ],
-      "cells": [
-        {
-          "key": "fish-marine-non-predatory|both|tAs",
-          "slug": "fish-marine-non-predatory",
-          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-predatory|both|tAs",
-          "slug": "fish-marine-predatory",
-          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-a8e27f7db81fe36d-run-202609021109"
+      "batch_id": "seafood-compiled-2559d6c78b422192-run-202609021123"
     },
     {
       "evidence_key": "618c5f56cc5185c4",
@@ -1208,7 +854,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-618c5f56cc5185c4-run-202609021109"
+      "batch_id": "seafood-compiled-618c5f56cc5185c4-run-202609021123"
     },
     {
       "evidence_key": "19561b03ce436ec9",
@@ -1251,7 +897,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-19561b03ce436ec9-run-202609021109"
+      "batch_id": "seafood-compiled-19561b03ce436ec9-run-202609021123"
     },
     {
       "evidence_key": "1408b285ffb5df2f",
@@ -1294,93 +940,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-1408b285ffb5df2f-run-202609021109"
-    },
-    {
-      "evidence_key": "9985c4eb34ed76ea",
-      "analyte": "tAs",
-      "basis_class": "as_sold",
-      "conversion": null,
-      "native_basis": "as_sold",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
-          "jurisdiction": "AU-NZ",
-          "authority": "FSANZ",
-          "status": "maximum level",
-          "metal_species": "iAs",
-          "value_ug_kg": "1000",
-          "basis": "portion ordinarily consumed",
-          "product_scope": "seaweed",
-          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
-          "url": "https://www.legislation.gov.au/F2015L00454/latest",
-          "notes": "Inorganic arsenic.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
-          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
-        }
-      ],
-      "cells": [
-        {
-          "key": "seaweed-kelp-foods|both|tAs",
-          "slug": "seaweed-kelp-foods",
-          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-202609021109"
-    },
-    {
-      "evidence_key": "7081da69b07981c9",
-      "analyte": "iAs",
-      "basis_class": "as_sold",
-      "conversion": null,
-      "native_basis": "as_sold",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
-          "jurisdiction": "AU-NZ",
-          "authority": "FSANZ",
-          "status": "maximum level",
-          "metal_species": "iAs",
-          "value_ug_kg": "1000",
-          "basis": "portion ordinarily consumed",
-          "product_scope": "seaweed",
-          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
-          "url": "https://www.legislation.gov.au/F2015L00454/latest",
-          "notes": "Inorganic arsenic.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
-          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
-        }
-      ],
-      "cells": [
-        {
-          "key": "seaweed-kelp-foods|both|iAs",
-          "slug": "seaweed-kelp-foods",
-          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-7081da69b07981c9-run-202609021109"
+      "batch_id": "seafood-compiled-1408b285ffb5df2f-run-202609021123"
     },
     {
       "evidence_key": "c8accec5d287b266",
@@ -1423,7 +983,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-c8accec5d287b266-run-202609021109"
+      "batch_id": "seafood-compiled-c8accec5d287b266-run-202609021123"
     },
     {
       "evidence_key": "f0284afb2a54974f",
@@ -1466,7 +1026,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-f0284afb2a54974f-run-202609021109"
+      "batch_id": "seafood-compiled-f0284afb2a54974f-run-202609021123"
     },
     {
       "evidence_key": "2d20593ce4a0fc94",
@@ -1509,7 +1069,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021109"
+      "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021123"
     },
     {
       "evidence_key": "e253d63c28db7e96",
@@ -1552,7 +1112,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-e253d63c28db7e96-run-202609021109"
+      "batch_id": "seafood-compiled-e253d63c28db7e96-run-202609021123"
     },
     {
       "evidence_key": "69bc926b7cf83ece",
@@ -1595,7 +1155,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021109"
+      "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021123"
     },
     {
       "evidence_key": "7b5e59f213e493bf",
@@ -1638,7 +1198,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021109"
+      "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021123"
     },
     {
       "evidence_key": "42be502b999b13ba",
@@ -1681,50 +1241,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021109"
-    },
-    {
-      "evidence_key": "b4ec70b82573cc26",
-      "analyte": "tHg",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_hg_fish_general_500",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "tHg",
-          "value_ug_kg": "500",
-          "basis": "wet weight",
-          "product_scope": "crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.3.1.1.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369",
-          "row_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369"
-        }
-      ],
-      "cells": [
-        {
-          "key": "shellfish|both|tHg",
-          "slug": "shellfish",
-          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-b4ec70b82573cc26-run-202609021109"
+      "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021123"
     },
     {
       "evidence_key": "b25d29ae3469be77",
@@ -1767,7 +1284,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021109"
+      "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021123"
     }
   ]
 }

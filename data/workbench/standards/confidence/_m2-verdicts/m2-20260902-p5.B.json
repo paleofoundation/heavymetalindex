@@ -1,0 +1,45 @@
+{
+ "packet_id": "m2-20260902-p5",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "B",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-42be502b999b13ba-run-20260902-a",
+   "evidence_key": "42be502b999b13ba",
+   "cells": [
+    {
+     "key": "shellfish|both|Cd",
+     "derived_value": 500,
+     "derived_anchor_id": "eu2023_cd_crustaceans_500",
+     "same_basis_candidates": [
+      {
+       "id": "sg_foodregs_2026_other_food_cd_200",
+       "value_ug_kg": 200,
+       "why_it_applies": "Singapore Food Regulations reg 31(5) (informal consolidation in force from 2026-01-30, status maximum level) sets cadmium at 1 ppm for 'molluscs or dried mushrooms', 2 ppm seaweed, 0.5 ppm cocoa/salt and 0.2 ppm for 'other food'; there is no crustacean row, so crustaceans (the first half of this cell's product form) fall to the 0.2 ppm = 200 ug/kg residual. Basis 'product as sold or imported' is the same food-content family as the EU wet-weight row. Bivalve molluscs remain at the SG molluscs row (1000), which is looser than the derived value."
+      }
+     ],
+     "blind_value": 200,
+     "applicability": "refuted",
+     "reason": "Anchor eu2023_cd_crustaceans_500 (EU 2023/915 Annex I 3.2.16, 'crustaceans', 0.50 mg/kg wet weight, applying to muscle meat of appendages and abdomen and excluding brown crab meat and lobster head/thorax meat) is in force today, is a food-content ML on an as-consumed content cell, and covers the crustacean half of 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the EU bivalve-molluscs Cd ML on the regulation page is 1.0 mg/kg, so 500 is the strictest-of-union value and holds bivalves tighter than their own EU ceiling, which is protective rather than a scope failure. Conditions (a)-(c) therefore hold and the refute rests on (d) alone: the register carries a stricter, non-gated, same-basis sovereign row, Singapore reg 31(5) 'other food' 200 ug/kg, which is the operative Singapore cadmium limit for crustaceans because Singapore's cadmium paragraph names only molluscs, dried mushrooms, seaweed, cocoa and salt specifically; a crustacean product at 300 ug/kg Cd would pass this cell yet be unsaleable in Singapore. Two further sub-500 rows were considered and not listed: Vietnam QCVN 8-2:2011 'Aquatic products' 50 (row 38) is that instrument's generic fish-muscle default and is displaced for this product form by Vietnam's own specific crustacean (500, row 35) and bivalve (2000, row 36) rows; Uruguay RBN 'solid foods in general except categories with particular limits' 200 cannot be resolved from the register or the Uruguay page, which records no shellfish-specific Cd row and does not state whether MERCOSUR GMC 12/2011 (crustaceans 500, bivalves 2000) is internalised as a particular limit. Every other in-force seafood-specific Cd row in the register (China GB 2762-2025 effective 2026-09-02, Costa Rica, Panama, Fiji, MERCOSUR/Paraguay, India, GSO, Morocco, Vietnam, Mexico, Guyana ppm rows) sits at 500 for crustaceans and 1000-3000 for bivalves; Hong Kong is 2000; Israel FCS 2016 rows are gated as not in force and the Guyana ppb rows as quarantined."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-b4ec70b82573cc26-run-20260902-a",
+   "evidence_key": "b4ec70b82573cc26",
+   "cells": [
+    {
+     "key": "shellfish|both|tHg",
+     "derived_value": 500,
+     "derived_anchor_id": "eu2023_hg_fish_general_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "confirmed",
+     "reason": "Anchor eu2023_hg_fish_general_500 (EU 2023/915 Annex I 3.3.1.1, 'crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels', 0.50 mg/kg wet weight) names both crustaceans and molluscs expressly, so it covers the whole product form 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the sibling 300 row (3.3.1.3) reaches only cephalopods, marine gastropods and the listed low-mercury fish, and the 1000 row only listed predatory fish, so neither displaces 500 for crustaceans or bivalves. The instrument is in force today (2026-09-02) and the row is a total-mercury food-content ML on an as-consumed content cell, so (a)-(c) hold. No stricter same-basis non-gated row covers this product form: every in-force seafood-specific tHg row in the register (Hong Kong Cap 132V 'aquatic animals, other than fish' 500; India FSSAI 'non-predatory fish, crustaceans, cephalopods, molluscs' 500; AU-NZ Schedule 19 'other fish, fish products, crustacea, and molluscs' 500 mean; MERCOSUR/Paraguay crustaceans and bivalves 500; Costa Rica crustaceans/cephalopods/bivalves 500; Panama 500; Vietnam crustaceans and aquatic products 500; Morocco 500; Guyana ppm rows 500) equals the derived value, and GSO 193:2021 is looser at 1000. The two sub-500 rows examined are residual catch-alls that do not displace those specific seafood rows: Singapore reg 31(3) 'other food' 50 sits beneath a 'fish or fish product' 500 tier that on the ordinary reading captures shellfish (Singapore's own Tenth Schedule groups 'fish, crustaceans, and molluscs' as one seafood row), and Uruguay RBN 'foods in general' 50 sits beneath a 'fish muscle' 500 particular row with no shellfish row recorded either way in the register or on the Uruguay page, so neither is shown to reach this product form. MeHg rows (FDA CPG 540.600, Mexico NOM-242, Thailand, China GB 2762-2025, Codex-mirror rows) are a different analyte and were not compared; Israel FCS 2016 rows are gated as not in force and the Guyana ppb rows as quarantined."
+    }
+   ]
+  }
+ ]
+}

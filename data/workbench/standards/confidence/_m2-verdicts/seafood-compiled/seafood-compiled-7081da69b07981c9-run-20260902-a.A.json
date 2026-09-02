@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-7081da69b07981c9-run-20260902-a",
+  "evidence_key": "7081da69b07981c9",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|iAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Schedule 19 lists 'Arsenic (inorganic) | Seaweed | 1 mg/kg', and the regulation page records that the before-drying calculation rule for dried, dehydrated or concentrated foods does not apply to seaweed, so the level is read against seaweed in the form sold and matches this dried as-sold cell at face value; the instrument (compilation F2024C00908, Schedule commenced 2016-03-01) is in force on 2026-09-02. No non-gated same-basis iAs row is stricter: Hong Kong Cap 132V Part 2 'Seaweed' concurs at 1000 (hk_cap132v_ias_seaweed_1000, and its Reg 3(2)(b) dried-food adjustment can only loosen it on a dried basis), Singapore reg. 31 'Seaweed' is 2000, the French CSHPF recommendation is 3000 dw, and neither EU 2023/915 as amended by 2025/1891 (fish, crustaceans, bivalves, cephalopods only) nor GB 2762-2025 Table 4 sets an inorganic-arsenic level for algae. The register's basis string 'portion ordinarily consumed' is the Standard 1.4.1 edible-portion rule, not a moisture conversion, so no conversion is owed."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-20260902-a",
+  "evidence_key": "090e2ea3a3ec4ac4",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|MeHg",
+      "derived_value": 500,
+      "derived_anchor_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "GB 2762-2025 Table 3 item 1.1 (0.5 mg/kg) reads 'Aquatic animals and their products, excluding predatory fish and their products'; tuna is carved out to item 1.3 'Tuna and tuna products' at 1.2 mg/kg (item 1.2 predatory fish at 1.0), so the anchor does not cover canned tuna, the cell's named product, and scope test (a) fails, although it does cover canned non-predatory fish such as sardine and mackerel, the basis (product as placed on market) is as consumed for canned fish, and the instrument is in force today (effective 2026-09-02). No non-gated MeHg row stricter than 500 covers canned fish. The strictest sovereign MeHg instrument that covers tuna is 1000 (FDA CPG 540.600 action level for fish, fresh, frozen or processed; Mexico NOM-242 'fish such as tuna, marlin, grouper, and bonito'; Trinidad and Tobago and Viet Nam predatory/carnivorous fish including tuna), with Hong Kong, Thailand, GSO and China all setting tuna at 1200; either split the row (500 canned non-predatory fish / 1000 canned tuna) or keep 500 for tuna under a precautionary or literature-baseline tag, not a 'gov' tag."
+    }
+  ]
+}

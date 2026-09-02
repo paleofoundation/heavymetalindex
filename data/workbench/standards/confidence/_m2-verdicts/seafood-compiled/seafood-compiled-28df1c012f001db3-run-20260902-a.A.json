@@ -1,0 +1,131 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-28df1c012f001db3-run-20260902-a",
+  "evidence_key": "28df1c012f001db3",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed canned tuna and canned fish (drained fish content), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+      "key": "cephalopods|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed cephalopod muscle (octopus, squid, cuttlefish), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+      "key": "fish-freshwater|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed freshwater finfish muscle (tilapia, catfish, trout, carp), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed marine non-predatory fish fillet (sardine, anchovy, salmon, cod, herring, mackerel), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+      "key": "fish-marine-predatory|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed marine predatory fish muscle (tuna, swordfish, shark, king mackerel, marlin, billfish), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+      "key": "shellfish|both|Ni",
+      "derived_value": 2000,
+      "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2024_ni_babyfood_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+        },
+        {
+          "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed crustacean and bivalve mollusc meat, and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    }
+  ]
+}

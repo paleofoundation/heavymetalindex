@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-634e454b298b3a55-run-20260902-a",
+  "evidence_key": "634e454b298b3a55",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 100,
+      "applicability": "refuted",
+      "reason": "As presented, the anchor is Directive 2009/48/EC toy-material migration ('toys and toy components (soluble element migration)', EN 71-3 category III, mg/kg of material), a migration basis and a non-food scope, so tests (a) and (b) both fail for a food-content cell. The record is also internally inconsistent: its regulatory_limit_id, URL, notes and row hash belong to the GSO 193:2021 'Muscle meat of fish with exception mentioned' row (verified in regulatory_limits.csv as GSO, muscle meat, as_sold, 50), while jurisdiction, authority, basis, product_scope and regulation_page are the EU toy directive, and no EN 71-3 cadmium migration limit equals 50 ug/kg (the categories are 1300 / 300 / 17000). The evidence record needs repair; even read as the GSO fish row it does not cover canned tuna (GSO tuna 100; see the e8b5dd23b9f12a25 verdict), so the blind gov value for the cell as scoped is 100."
+    }
+  ]
+}

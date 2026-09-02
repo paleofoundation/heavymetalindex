@@ -1,0 +1,46 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-19561b03ce436ec9-run-20260902-a",
+  "evidence_key": "19561b03ce436ec9",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "fish-marine-predatory|both|tHg",
+      "derived_value": 1000,
+      "derived_anchor_id": "eu2023_hg_fish_high_1000",
+      "same_basis_candidates": [
+        {
+          "id": "eu2023_hg_fish_general_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Annex I 3.3.1.1 'muscle meat of fish except species listed at lower or higher mercury levels'; king mackerel (Scomberomorus cavalla) is not among the 26 species/groups of 3.3.1.2 (snake mackerel and escolar are different gempylids), so it takes the 0.50 mg/kg general level."
+        },
+        {
+          "id": "fj_fsr2009_thg_002_all_other_species_of_fish_other_than_those_described_in_section_16_abo_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Fiji section (16) list (sharks, tunas, bonitos, swordfish, sailfish, marlin, bass, dogfish, rays, anglerfish, orange roughy, grenadier, snake mackerel/butterfish) does not include king mackerel, which falls to 'All other species of fish' at 0.5 mg/Kg."
+        },
+        {
+          "id": "aunz_sch19_hg_fish_other_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Schedule 19 lists only gemfish, billfish, southern bluefin tuna, barramundi, ling, orange roughy, rays and sharks at 1.0 (mean); king mackerel and every tuna other than southern bluefin (yellowfin, bigeye, albacore, skipjack, Atlantic and Pacific bluefin) fall under 'other fish' at 0.5 mean with a 1.5 sample-unit ceiling."
+        },
+        {
+          "id": "cr_rtcr409_2008_thg_fish_general_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "'fish in general, except tuna, bonito, eel, marlin, ray, sharks, and swordfish' leaves king mackerel in the 0.5 general row."
+        },
+        {
+          "id": "vn_qcvn8_2_2011_thg_aquatic-products_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Vietnam's named 1.0 list (tuna, marlin, sailfish, shark, swordfish, snake mackerel and others) does not include king mackerel, which falls under 'Aquatic products' at 0.5."
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "EU 2023/915 Annex I 3.3.1.2 (the species table carried over from Regulation 2022/617) covers tuna (Thunnus, Euthynnus, Katsuwonus), all shark species, swordfish, marlin and sail fish, so five of the six named exemplars are in scope, but king mackerel is not on the list and therefore falls under 3.3.1.1 at 0.50 mg/kg wet weight; Fiji, Costa Rica and Vietnam likewise leave king mackerel in their 0.5 general rows, and FSANZ places both king mackerel and every tuna other than southern bluefin under its 0.5 mean row. Basis (wet weight, edible portion) and in-force status are fine; the cell fails (a) and (d) for the bucket as written, so the strict same-basis lookup for the form including king mackerel is 500, while 1000 is the strictest sovereign for tuna, swordfish, shark, marlin and sailfish in every regime except FSANZ's non-southern-bluefin tuna row. The Singapore Fifteenth Schedule species list is not reproduced on the regulation page, so its 0.5 'other fish' row is not counted for king mackerel. Publishable at 1000 only with king mackerel removed or scope-noted and the FSANZ 0.5-mean tuna row disclosed."
+    }
+  ]
+}

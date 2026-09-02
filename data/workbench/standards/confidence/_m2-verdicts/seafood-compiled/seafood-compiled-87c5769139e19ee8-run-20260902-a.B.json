@@ -1,0 +1,56 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-87c5769139e19ee8-run-20260902-a",
+  "evidence_key": "87c5769139e19ee8",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (cephalopods, expressly not canned) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+    },
+    {
+      "key": "fish-freshwater|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen freshwater finfish) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen marine non-predatory fish fillet/muscle) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+    },
+    {
+      "key": "fish-marine-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen marine predatory fish) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+    },
+    {
+      "key": "shellfish|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (crustaceans and bivalve molluscs, expressly not canned) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+    }
+  ]
+}

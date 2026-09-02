@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-743f5abc678c0856-run-20260902-a",
+  "evidence_key": "743f5abc678c0856",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|Pb",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_pb_cephalopods_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "EU 2023/915 Annex I lead row 'cephalopods' (0.30 mg/kg wet weight, the animal without viscera) covers octopus, squid and cuttlefish sold fresh or frozen; wet-weight edible-portion content is the cell's as-consumed content basis, and the regulation has applied since 25 May 2023 (the 0.30 value dates from Reg. 2015/1005, carried into 2023/915). No non-gated same-basis Pb row is stricter: every other cephalopod or mollusc row in the register (CR, PA, GY, PY and MERCOSUR 12/11, GSO 193, India FSSAI, Fiji, Vietnam, Hong Kong 'aquatic animals other than fish, crustaceans and bivalve molluscs', China GB 2762-2025, Mexico NOM-242, AU-NZ Schedule 19, Singapore 'fish, crustaceans and molluscs') sits at 1000 to 2000 ug/kg, and the only rows at or below 300 are gated (Israel FCS 2016 'octopus and squid' 300 superseded; Guyana 25 ppb quarantined) or scoped to fish muscle rather than cephalopods."
+    }
+  ]
+}

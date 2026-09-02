@@ -65,11 +65,6 @@
             "converted": true,
             "id": "ph_pns194_2017_fish_pb_300"
           },
-          "IL": {
-            "value": 300,
-            "converted": true,
-            "id": "il_fcs2016_pb_10_fish_and_fish_products_300"
-          },
           "MERCOSUR": {
             "value": 300,
             "converted": true,
@@ -157,11 +152,6 @@
             "converted": true,
             "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000"
           },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_9_fish_and_fish_products_1000"
-          },
           "MERCOSUR": {
             "value": 1000,
             "converted": true,
@@ -202,11 +192,6 @@
             "value": 500,
             "converted": true,
             "id": "py_decreto1335_2019_fish_except_predators_thg_500"
-          },
-          "IL": {
-            "value": 500,
-            "converted": true,
-            "id": "il_fcs2016_thg_9_fish_and_fish_products_except_listed_categories_500"
           },
           "FJ": {
             "value": 500,
@@ -277,47 +262,12 @@
         "value_exact": 500,
         "binding_jurisdiction": "CN",
         "binding_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
-        "basis_note": "face value",
+        "basis_note": "GB 2762-2025 methylmercury in aquatic animals and their products other than predatory fish (500 ug/kg); canned tuna is a predatory-fish product governed at 1000 (FDA CPG 540.600; MX NOM-242) and is certified to the stricter 500 as the group minimum, disclosed here (M2 adjudication 2026-09-02 (two blind Fable verifiers agreed)).",
         "per_country": {
           "CN": {
             "value": 500,
-            "converted": true,
+            "converted": false,
             "id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500"
-          },
-          "MX": {
-            "value": 500,
-            "converted": true,
-            "id": "mx_nom242_mehg_other_500"
-          },
-          "PH": {
-            "value": 500,
-            "converted": true,
-            "id": "ph_pns194_2017_fish_mehg_500"
-          },
-          "TT": {
-            "value": 500,
-            "converted": true,
-            "id": "tt_fooddrugs_2007_fish_except_predatory_mehg_500"
-          },
-          "VN": {
-            "value": 500,
-            "converted": true,
-            "id": "vn_qcvn8_2_2011_mehg_fish-excluding-carnivorous-fish_500"
-          },
-          "HK": {
-            "value": 500,
-            "converted": true,
-            "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          },
-          "TH": {
-            "value": 1000,
-            "converted": true,
-            "id": "th_moph414_2020_mehg_predator_fish_other_1000"
-          },
-          "GSO": {
-            "value": 1200,
-            "converted": true,
-            "id": "gso193_2021_mehg_tuna_1200"
           }
         },
         "provenance": "regulatory-alignment"
@@ -326,95 +276,25 @@
         "type": "gov",
         "value": 50,
         "value_exact": 50,
-        "binding_jurisdiction": "GSO",
-        "binding_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
-        "basis_note": "face value",
+        "binding_jurisdiction": "CR",
+        "binding_id": "cr_rtcr409_2008_cd_fish_general_50",
+        "basis_note": "Costa Rica RTCR 409:2008 cadmium in fish in general (50 ug/kg), concurred by Guyana and Fiji general-fish rows; the GSO 193:2021 general row (also 50) is not cited because its own exception rows govern tuna (100), sardine and anchovy (250) and mackerel (100), species this row names (M2 adjudication 2026-09-02 (two blind Fable verifiers agreed)).",
         "per_country": {
-          "GSO": {
-            "value": 50,
-            "converted": true,
-            "id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50"
-          },
           "CR": {
             "value": 50,
-            "converted": true,
+            "converted": false,
             "id": "cr_rtcr409_2008_cd_fish_general_50"
-          },
-          "GY": {
-            "value": 50,
-            "converted": true,
-            "id": "gy2023_cd_fish_general_ppm_50"
-          },
-          "PA": {
-            "value": 50,
-            "converted": true,
-            "id": "pa_res368_2009_cd_fish_general_50"
-          },
-          "PY": {
-            "value": 50,
-            "converted": true,
-            "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_other_cd_50"
-          },
-          "IL": {
-            "value": 50,
-            "converted": true,
-            "id": "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50"
-          },
-          "FJ": {
-            "value": 50,
-            "converted": true,
-            "id": "fj_fsr2009_cd_002_muscle_meat_of_fish_excluding_those_listed_below_50"
-          },
-          "MERCOSUR": {
-            "value": 50,
-            "converted": true,
-            "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_other_cd_50"
-          },
-          "VN": {
-            "value": 50,
-            "converted": true,
-            "id": "vn_qcvn8_2_2011_cd_aquatic-products_50"
-          },
-          "CN": {
-            "value": 100,
-            "converted": true,
-            "id": "china_gb2762_2025_cd_fresh_frozen_fish_100"
-          },
-          "MA": {
-            "value": 100,
-            "converted": true,
-            "id": "ma_2410_2022_cd_3_2_13_chair_musculaire_des_poissons_suivants_maquereau_scomber_sp_thon_thunn_100"
-          },
-          "HK": {
-            "value": 100,
-            "converted": true,
-            "id": "hk_cap132v_cd_fish_100"
-          },
-          "IN": {
-            "value": 300,
-            "converted": true,
-            "id": "in_fssai2016_cd_016_fish_300"
-          },
-          "MX": {
-            "value": 500,
-            "converted": true,
-            "id": "mx_nom242_cd_fishery_other_500"
-          },
-          "TH": {
-            "value": 1000,
-            "converted": true,
-            "id": "th_moph414_2020_cd_fish_1000"
           }
         },
         "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
-        "value": 2000,
-        "value_exact": 2000,
-        "source_id": "eu2024_ni_husked_rice_2000",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "eu2024_ni_babyfood_500",
         "source_jurisdiction": "EU",
-        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed canned-fish nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "label": "Read-across from Regulation (EU) 2024/1987 nickel in baby food except juices (500 ug/kg, product as placed on market): no sovereign sets a nickel maximum level for fish, crustaceans, molluscs or cephalopods, and the wet-basis baby-food row, whose scope includes fish-based foods, is the nearest same-basis instrument; the dry husked-rice row (2000) the standard previously cited is a different basis and was refuted by M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {},
         "provenance": "read-across"
@@ -446,15 +326,14 @@
         "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "read_across",
-        "value": 10,
-        "value_exact": 10,
-        "source_id": "ca_swrcb_crvi_drinking_water_10",
-        "source_jurisdiction": "US-CA",
-        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {},
-        "provenance": "read-across"
+        "type": "subsumed",
+        "value": null,
+        "subsumed_by": "Cr",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "HK",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Sn": {
         "type": "gov",

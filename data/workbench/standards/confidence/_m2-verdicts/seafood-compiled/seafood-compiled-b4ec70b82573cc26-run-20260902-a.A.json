@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p5",
+  "batch_id": "seafood-compiled-b4ec70b82573cc26-run-20260902-a",
+  "evidence_key": "b4ec70b82573cc26",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "shellfish|both|tHg",
+      "derived_value": 500,
+      "derived_anchor_id": "eu2023_hg_fish_general_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "Anchor eu2023_hg_fish_general_500 (EU 2023/915 Annex I 3.3.1.1, register scope 'crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels', 0.50 mg/kg wet weight; the Annex text applies it to crustaceans excluding brown meat of crab and head and thorax meat of lobster and similar large crustaceans) is a content ML on a content cell, in force today, and covers both constituents of 'Shellfish (crustaceans and bivalve molluscs, not canned)': crustaceans expressly and bivalve molluscs as fishery products outside the 0.30 mg/kg row (eu2023_hg_fish_low_300), which reaches only cephalopods, marine gastropods and listed fish species. No stricter same-basis non-gated row is established to cover this form: AU-NZ Schedule 19 'other fish, fish products, crustacea, and molluscs' 500, HK Cap 132V 'Aquatic animals, other than fish' 500, IN 'non-predatory fish, crustaceans, cephalopods, molluscs' 500, MERCOSUR/PY, CR, GY, PA, MA and VN crustacean and bivalve rows at 500 are equal, GSO 1000 is looser, CN GB 2762-2025 governs aquatic animals as MeHg 500 (different analyte), and TH 'food other than the listed total-mercury categories' 20 is excluded because Thai marine animals are governed by the MeHg 'other marine animals or plants' 500 row with total mercury as screening only. Two residual rows are flagged but not listed as applying: SG reg 31(3)(c) 'other food' 50 binds only if shellfish fall outside 'other fish or fish product' (reg 31(3)(b), 500), and UY 'foods in general except categories with particular limits' 50 binds only if shellfish fall outside RBN section 14.1.16 'fish muscle' 500; neither the register nor the regulation pages define 'fish' for those instruments, and the Singapore Tenth Schedule's separate listing of 'Fish, crustaceans, and molluscs' means that reading cannot be excluded, so it is surfaced for the register owner rather than treated as a refutation."
+    }
+  ]
+}

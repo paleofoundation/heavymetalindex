@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-7081da69b07981c9-run-20260902-a",
+  "evidence_key": "7081da69b07981c9",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|iAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Schedule 19 line 'Arsenic (inorganic) | Seaweed | 1 mg/kg' covers seaweed as a food class (register product_scope 'seaweed'), the compilation in force (F2024C00908, C06) is current, and the Schedule 19 page records that the before-drying calculation for dried, dehydrated or concentrated foods does not apply to seaweed, so 1 mg/kg binds the seaweed as presented, which for nori, wakame, kombu and dulse sold dried is the as-sold basis the cell uses; conversion null is correct. HK Cap 132V item 3 'Seaweed' 1 mg/kg (hk_cap132v_ias_seaweed_1000, as sold) concurs at the same number, although HK reg 3(2)(b) scales limits for dried foods proportionally, so it is a weaker as-sold concurrence than the FSANZ line. No non-gated same-basis iAs row is stricter: SG seaweed 2000, TH 'other marine animals or plants and their products' 2000, FR CSHPF 3000 (a recommendation), CH hijiki 35000."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-19561b03ce436ec9-run-20260902-a",
+  "evidence_key": "19561b03ce436ec9",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-marine-predatory|both|tHg",
+      "derived_value": 1000,
+      "derived_anchor_id": "eu2023_hg_fish_high_1000",
+      "same_basis_candidates": [
+        {
+          "id": "aunz_sch19_hg_fish_other_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "FSANZ Schedule 19 gives the 1.0 mean level only to southern bluefin tuna, billfish, all sharks, gemfish, barramundi, ling, orange roughy and rays; tuna other than southern bluefin and king mackerel are 'other fish' at 0.5 mean (sample-unit maximum 1.5), wet content basis, in force"
+        },
+        {
+          "id": "eu2023_hg_fish_general_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "EU 2023/915 Annex I 3.3.1.1: king mackerel (Scomberomorus) is not among the 3.3.1.2 listed species, so the 0.5 mg/kg general fish-muscle level applies to it"
+        },
+        {
+          "id": "fj_fsr2009_thg_002_all_other_species_of_fish_other_than_those_described_in_section_16_abo_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Fiji paragraph (16) list names tuna, little tuna, bonito, swordfish, sailfish, marlin, sharks and others but not king mackerel, which therefore falls under 'all other species of fish' at 0.5"
+        },
+        {
+          "id": "cr_rtcr409_2008_thg_fish_general_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Costa Rica RTCR 409: 'fish in general, except tuna, bonito, eel, marlin, ray, sharks, and swordfish' covers king mackerel at 0.5"
+        },
+        {
+          "id": "ma_2410_2022_thg_3_3_1_produits_de_la_peche_et_chair_musculaire_de_poissons_a_l_exclusion_des_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Morocco Joint Order 2410-22 mirrors the EU list (3.3.2 names marlin, sharks, swordfish, tuna, pike and others but not king mackerel), so king mackerel sits at 0.5"
+        },
+        {
+          "id": "vn_qcvn8_2_2011_thg_aquatic-products_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Vietnam QCVN 8-2:2011 tHg row 18 (1.0) names tuna, marlin, sailfish, shark, swordfish, snake mackerel and others but not king mackerel, which falls to the aquatic-products 0.5 row"
+        },
+        {
+          "id": "ba_pravilnik_2022_thg_3_3_1_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Bosnia Pravilnik 2022 mirrors EU 3.3.1 structure; king mackerel is not among the higher-level species in 3.3.2, so 0.5 applies"
+        },
+        {
+          "id": "ch_vhk_2026_thg_fischereierzeugnisse-und-muskelfleisch-von-fisch_500",
+          "value_ug_kg": 500,
+          "why_it_applies": "Swiss VHK general fish-muscle mercury 0.5 applies to species not on the VHK listed-species rows, which follow the EU list; king mackerel is not listed"
+        },
+        {
+          "id": "uy_rbn_thg_fish_muscle_0_5ppm",
+          "value_ug_kg": 500,
+          "why_it_applies": "Uruguay RBN 5th edition section 14.1.16 rejects fish muscle above 0.5 ppm mercury with no predatory carve-out; carried non-gated as a statutory limit, though MERCOSUR GMC 12/11 as incorporated nationally sets predatory fish at 1.0, so its reach over tuna is uncertain"
+        }
+      ],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "EU 2023/915 Annex I 3.3.1.2 (1.0 mg/kg wet weight, in force) lists tuna, shark, swordfish, marlin and sailfish and so governs five of the six named members, but king mackerel (Scomberomorus) is not a listed species and falls under the 3.3.1.1 general fish-muscle level of 0.5 mg/kg, and Fiji, Costa Rica, Morocco, Vietnam, Bosnia and Switzerland treat it the same way. More materially, FSANZ Schedule 19 gives the 1.0 mean level only to southern bluefin tuna, billfish, shark, gemfish, barramundi, ling, orange roughy and rays, so tuna other than southern bluefin sits at the 0.5 'other fish' level, and Uruguay RBN 14.1.16 rejects any fish muscle above 0.5 ppm without a predatory carve-out; condition (d) therefore fails for the cell as named. Publish 500 for the group, or split it: tuna other than southern bluefin and king mackerel at 500, and swordfish, shark, marlin, sailfish and southern bluefin tuna at 1000 on the EU anchor. Singapore's Fifteenth Schedule species list is not reproduced in the register, so whether king mackerel is 'predatory' there could not be checked."
+    }
+  ]
+}

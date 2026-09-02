@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-2559d6c78b422192-run-20260902-a",
+  "evidence_key": "2559d6c78b422192",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-freshwater|both|Pb",
+      "derived_value": 200,
+      "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+      "same_basis_candidates": [],
+      "blind_value": 200,
+      "applicability": "confirmed",
+      "reason": "Fiji Food Safety Regulations 2009, Eleventh Schedule paragraph (15), sets Pb 0.2 mg/kg for 'Muscle meat of fish, excluding those listed below'; the carve-out list (bonito, horse mackerel/scad, sardine, sardinops, spotted seabass, tuna) contains no freshwater species, so tilapia, catfish, trout and carp fall under the 0.2 line. It is a wet-weight content ML on fish muscle, the same family as this as-consumed fillet cell (no conversion), and the instrument is active (Gazetted 2009, status active on the regulation page). No non-gated same-basis Pb row on fish muscle is stricter than 200 (EU, HK, GY, PA, PH, TH, VN, MERCOSUR/PY, IN, BA, CH all sit at 300; the Guyana 25 row is quarantined); the register URL points to a WHO consultation PDF rather than the Fiji Gazette text, which is a provenance rather than an applicability gap."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Pb",
+      "derived_value": 200,
+      "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+      "same_basis_candidates": [],
+      "blind_value": 200,
+      "applicability": "confirmed",
+      "reason": "'Muscle meat of fish, excluding those listed below' at 0.2 mg/kg covers anchovy, salmon, cod, herring and Scomber mackerel; the paragraph (15) carve-out at 0.4 mg/kg names sardine (Sardina pilchardus) and Sardinops, which are members of this cell, and horse mackerel/scad (Trachurus), which is not the cell's mackerel. For sardine and sardinops the 200 is tighter than the Fiji line (400) and than every other sovereign fish-muscle Pb row (300), so the cell stays at or below every applicable ML; the anchor governs the cell's generic product form, the instrument is in force, the basis is wet-weight content on an as-consumed fillet, and no stricter same-basis non-gated row exists. Flag for the reconciler: for sardine and sardinops the 200 is a group minimum applied protectively rather than a Fiji lookup, so the provenance for those species should be footnoted as such."
+    }
+  ]
+}

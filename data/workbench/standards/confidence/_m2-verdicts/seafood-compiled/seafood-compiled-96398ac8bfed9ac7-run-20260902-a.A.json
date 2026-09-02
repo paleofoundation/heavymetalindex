@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-96398ac8bfed9ac7-run-20260902-a",
+  "evidence_key": "96398ac8bfed9ac7",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Singapore Food Regulations Tenth Schedule (b)(2) sets 1 ppm total arsenic for 'canned fish and meat, meat extract, and hydrolysed protein' on the product as sold or imported, which for a canned product is the as-consumed basis without conversion; canned tuna and canned fish sit squarely inside 'canned fish'. The consolidation is in force from 30 January 2026 (status active). No non-gated same-basis tAs row is stricter than 1000 for canned or other fish (Guyana 200 is a quarantined transcription artifact; Singapore's 'fish, crustaceans, and molluscs' row is also 1000), and GB 2762-2025 governs fish arsenic as inorganic arsenic (Table 4 item 2.2, 100 ug/kg), a different analyte that does not bound total arsenic."
+    }
+  ]
+}

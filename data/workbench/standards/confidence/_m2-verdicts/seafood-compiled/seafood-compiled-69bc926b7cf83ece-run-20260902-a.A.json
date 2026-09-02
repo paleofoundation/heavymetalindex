@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-69bc926b7cf83ece-run-20260902-a",
+  "evidence_key": "69bc926b7cf83ece",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor is a drinking-water MCL (0.010 mg/L for 'community and nontransient-noncommunity public water systems', effective 2024-10-01) and the regulation page itself states it 'is a drinking-water standard, not a food limit' that 'should not be compared directly to a food-occurrence concentration'; carrying 10 µg/L onto a dried as-sold seaweed content cell crosses basis families, which condition (b) forbids, so the 10 derived at face value is not an applicable number. The register holds no food-content Cr-VI row for any food (its 19 Cr-VI rows are drinking water, EN 71-3 toy migration, textiles, leather, RoHS homogeneous materials, tattoo inks and fertilisers), so no same-basis sovereign instrument exists to read across from. The same-basis treatment available is species-bounded-by-parent (Cr-VI at or below the Cr-total cell, currently 2000) or a disclosed baseline screen, not the water MCL."
+    }
+  ]
+}
