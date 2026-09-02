@@ -41,7 +41,7 @@
           "CN": {
             "value": 10,
             "converted": false,
-            "id": "cn_pb_liquid-ready-to-feed-infant-formula_10"
+            "id": "china_gb2762_2025_pb_infant_formula_liquid_8to1_10"
           },
           "BR": {
             "value": 10,
@@ -98,7 +98,8 @@
             "converted": false,
             "id": "vn_qcvn8_2_2011_pb_formulae-for-young-children-aged-under-36-mont_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -138,7 +139,8 @@
             "converted": true,
             "id": "in_cd_infant-milk-substitute-and-infant-foods_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -163,7 +165,8 @@
             "converted": false,
             "id": "il_fcs2016_tas_14_infant_and_toddler_formulas_ready_to_eat_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -193,7 +196,8 @@
             "converted": true,
             "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -208,7 +212,8 @@
             "converted": false,
             "id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "subsumed",
@@ -217,7 +222,8 @@
         "binding_parent_value": 4,
         "binding_parent_source": "IL",
         "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (4 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -232,7 +238,8 @@
             "converted": false,
             "id": "eu2024_ni_formula_liquid_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -247,7 +254,8 @@
             "converted": true,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "gov",
@@ -262,17 +270,19 @@
             "converted": false,
             "id": "aunz_sch19_al_formula_nonsoy_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr": {
         "type": "read_across",
         "value": 300,
         "value_exact": 300,
-        "source_id": "china_gb2762_cr_liquid_milk_300",
+        "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
         "source_jurisdiction": "CN",
         "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → liquid formula; basis-matched dairy analogy)",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
@@ -281,7 +291,8 @@
         "binding_parent_value": 300,
         "binding_parent_source": "CN",
         "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (300 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       }
     },
     "soy": {
@@ -321,7 +332,7 @@
           "CN": {
             "value": 10,
             "converted": false,
-            "id": "cn_pb_liquid-ready-to-feed-infant-formula_10"
+            "id": "china_gb2762_2025_pb_infant_formula_liquid_8to1_10"
           },
           "BR": {
             "value": 10,
@@ -378,21 +389,17 @@
             "converted": false,
             "id": "vn_qcvn8_2_2011_pb_formulae-for-young-children-aged-under-36-mont_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
-        "value": 5,
-        "value_exact": 5,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_cd_14_infant_and_toddler_formulas_ready_to_eat_5",
+        "value": 10,
+        "value_exact": 10,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_cd_formula_soy_liquid_10",
         "basis_note": "same basis",
         "per_country": {
-          "IL": {
-            "value": 5,
-            "converted": false,
-            "id": "il_fcs2016_cd_14_infant_and_toddler_formulas_ready_to_eat_5"
-          },
           "EU": {
             "value": 10,
             "converted": false,
@@ -413,12 +420,18 @@
             "converted": false,
             "id": "gso193_2021_cd_liquid_formulae_manufactured_from_soya_protein_isolates_alone_or_in_a_mi_10"
           },
+          "IL": {
+            "value": 10,
+            "converted": false,
+            "id": "il_fcs2016_cd_14_2_infant_and_toddler_formulas_from_soy_or_containing_s_10"
+          },
           "IN": {
             "value": 100,
             "converted": true,
             "id": "in_cd_infant-milk-substitute-and-infant-foods_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -443,7 +456,8 @@
             "converted": false,
             "id": "il_fcs2016_tas_14_infant_and_toddler_formulas_ready_to_eat_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -473,7 +487,8 @@
             "converted": true,
             "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -488,7 +503,8 @@
             "converted": false,
             "id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "subsumed",
@@ -497,7 +513,8 @@
         "binding_parent_value": 4,
         "binding_parent_source": "IL",
         "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (4 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -512,7 +529,8 @@
             "converted": false,
             "id": "eu2024_ni_formula_liquid_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -527,7 +545,8 @@
             "converted": true,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "gov",
@@ -542,17 +561,19 @@
             "converted": false,
             "id": "aunz_sch19_al_formula_soy_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr": {
         "type": "read_across",
         "value": 300,
         "value_exact": 300,
-        "source_id": "china_gb2762_cr_liquid_milk_300",
+        "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
         "source_jurisdiction": "CN",
         "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → liquid formula; basis-matched dairy analogy)",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
@@ -561,7 +582,8 @@
         "binding_parent_value": 300,
         "binding_parent_source": "CN",
         "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (300 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

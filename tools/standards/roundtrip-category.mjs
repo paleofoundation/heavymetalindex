@@ -97,12 +97,19 @@ if (COPY) {
     const idx = path.join(REPO, "data/workbench/standards", P.indexDir)
     const crt = path.join(CERT, "data/standards", P.certDir)
     fs.mkdirSync(idx, { recursive: true }); fs.mkdirSync(crt, { recursive: true })
-    let n = 0
+    let n = 0, skipped = []
+    const ADD_NEW = args.has("add-new")
     for (const slug of slugs) {
       const src = path.join(SCRATCH, `${slug}.json`)
       if (!fs.existsSync(src)) continue
-      fs.copyFileSync(src, path.join(idx, `${slug}.json`)); fs.copyFileSync(src, path.join(crt, `${slug}.json`)); n++
+      fs.copyFileSync(src, path.join(idx, `${slug}.json`))
+      // A slug the live cert dir does not hold would become a PAGELESS cert record (no *-pages.json maps
+      // it). Index-only records (e.g. the three Cat-1 rows with no cert page, or a provisional scaffold)
+      // stay index-side unless --add-new is passed deliberately together with a pages.json change.
+      if (!fs.existsSync(path.join(crt, `${slug}.json`)) && !ADD_NEW) { skipped.push(slug); continue }
+      fs.copyFileSync(src, path.join(crt, `${slug}.json`)); n++
     }
+    if (skipped.length) console.log(`   NOT copied to cert (index-only, no cert record; pass --add-new with a pages.json mapping): ${skipped.join(", ")}`)
     const rep = path.join(SCRATCH, "derivation-report.md")
     if (fs.existsSync(rep)) { fs.copyFileSync(rep, path.join(idx, "derivation-report.md")); fs.copyFileSync(rep, path.join(crt, "derivation-report.md")) }
     console.log(`   copied ${n} record(s) by slug → ${path.relative(REPO, idx)} and ${crt}`)

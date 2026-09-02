@@ -33,6 +33,11 @@
             "converted": true,
             "id": "hk_cap132v_pb_ready-to-eat-complementary-food-other-than-cereal-based_20"
           },
+          "CN": {
+            "value": 30,
+            "converted": true,
+            "id": "china_gb2762_2025_pb_fruit_vegetable_juices_30"
+          },
           "MA": {
             "value": 30,
             "converted": true,
@@ -98,7 +103,8 @@
             "converted": true,
             "id": "tt_fooddrugs_2007_div6_fresh_fruits_pb_7000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -151,14 +157,15 @@
           "CN": {
             "value": 60,
             "converted": true,
-            "id": "cn_cd_cereal-based-complementary-foods-for-inf_60"
+            "id": "china_gb2762_2025_cd_cereal_complementary_foods_infants_60"
           },
           "BR": {
             "value": 100,
             "converted": true,
             "id": "br_cd_transition-weaning-foods-for-infants-and_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "read_across",
@@ -199,7 +206,8 @@
             "converted": true,
             "id": "tt_fooddrugs_2007_div6_fresh_fruits_tas_2000"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "gov",
@@ -227,9 +235,10 @@
           "CN": {
             "value": 200,
             "converted": true,
-            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+            "id": "china_gb2762_2025_ias_cereal_complementary_foods_infants_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "read_across",
@@ -245,7 +254,8 @@
             "converted": true,
             "id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
@@ -254,7 +264,8 @@
         "binding_parent_value": 8,
         "binding_parent_source": "IL",
         "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -269,7 +280,8 @@
             "converted": true,
             "id": "eu2024_ni_babyfood_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "read_across",
@@ -279,7 +291,8 @@
         "source_jurisdiction": "IN",
         "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -289,26 +302,29 @@
         "source_jurisdiction": "AU-NZ",
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
-        "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)",
-        "basis_class": "method-artifact",
-        "rationale": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "read_across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "label": "government read-across: China GB 2762-2025 Table 7 total chromium 1000 for cereals (grain-based finger snacks and purée bases; no government sets a total-chromium ML for this exact infant food)",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

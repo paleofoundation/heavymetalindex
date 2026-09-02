@@ -15,7 +15,8 @@
         "source_jurisdiction": "EU",
         "label": "government read-across (infant-protective) — EU 2023/915 lead 20 for baby food and processed cereal-based food for infants and young children. Lead is not a fish-elevated hazard, so the strict infant ceiling governs.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -25,7 +26,8 @@
         "source_jurisdiction": "EU",
         "label": "government read-across (infant-protective) — EU 2023/915 cadmium 40 for baby food and processed cereal-based food for infants and young children.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -35,7 +37,8 @@
         "source_jurisdiction": "IL",
         "label": "government read-across (aquatic) — Israel FCS-2016 seafood total-arsenic 1000, reflecting fish's naturally high total arsenic (predominantly non-toxic organic arsenobetaine). The toxic inorganic fraction (iAs) is separately capped at the infant baby-food limit (iAs <= tAs).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "read_across",
@@ -45,7 +48,8 @@
         "source_jurisdiction": "EU",
         "label": "government read-across (infant-protective) — EU 2023/915 inorganic arsenic 20 for baby food for infants and young children. The toxic inorganic fraction stays infant-capped even though the fish component's TOTAL arsenic is high (organic arsenobetaine); iAs <= tAs holds (20 <= 1000).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "read_across",
@@ -55,7 +59,8 @@
         "source_jurisdiction": "EU",
         "label": "government read-across (aquatic) — EU 2023/915 total mercury 500 for muscle meat of fish (general), the fish component's mercury ceiling. PROVISIONAL: pending the Cat-6 species-MeHg read-across decision on whether a fish infant food should carry an infant-protective mercury limit instead.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
@@ -64,7 +69,8 @@
         "binding_parent_value": 500,
         "binding_parent_source": "EU",
         "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (500 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "read_across",
@@ -74,7 +80,8 @@
         "source_jurisdiction": "EU",
         "label": "government read-across (infant-protective) — EU 2024/1987 nickel 500 for baby food except juices.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Sn": {
         "type": "read_across",
@@ -84,7 +91,8 @@
         "source_jurisdiction": "IN",
         "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -94,26 +102,34 @@
         "source_jurisdiction": "AU-NZ",
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a non-dairy matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail.",
-        "basis_class": "method-artifact",
-        "rationale": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a non-dairy matrix. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_crtotal_fish_1000",
+        "basis_note": "government maximum level by lookup: Hong Kong Cap 132V Schedule total chromium 1000 for fish (provisional scaffold; never presented as a standard until its Step 0 lock clears)",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_fish_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 1000,
+        "binding_parent_source": "HK",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

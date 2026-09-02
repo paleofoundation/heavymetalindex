@@ -28,7 +28,8 @@
             "converted": true,
             "id": "sg_foodregs_2026_baby_food_pb_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -58,7 +59,8 @@
             "converted": true,
             "id": "in_cd_infant-milk-substitute-and-infant-foods_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -78,7 +80,8 @@
             "converted": true,
             "id": "sg_foodregs_2026_baby_food_tas_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -93,7 +96,8 @@
             "converted": true,
             "id": "eu2023_ias_babyfood_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "read_across",
@@ -103,7 +107,8 @@
         "source_jurisdiction": "IL",
         "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
@@ -112,7 +117,8 @@
         "binding_parent_value": 8,
         "binding_parent_source": "IL",
         "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -127,7 +133,8 @@
             "converted": true,
             "id": "eu2024_ni_babyfood_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -142,7 +149,8 @@
             "converted": true,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "read_across",
@@ -152,17 +160,19 @@
         "source_jurisdiction": "AU-NZ",
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "read_across",
         "value": 300,
         "value_exact": 300,
-        "source_id": "china_gb2762_cr_liquid_milk_300",
+        "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
         "source_jurisdiction": "CN",
         "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → dairy dessert; basis-matched wet-dairy analogy, mirroring the liquid-formula chromium read-across).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
@@ -171,7 +181,8 @@
         "binding_parent_value": 300,
         "binding_parent_source": "CN",
         "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (300 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },
