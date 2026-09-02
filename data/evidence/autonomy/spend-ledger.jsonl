@@ -15,3 +15,4 @@
 {"id":"lease-1788347195189-62076","event":"spawn","ts":"2026-09-02T11:06:35.189Z","ts_ms":1788347195189,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":1,"est_tokens":75000}
 {"id":"lease-1788347274030-62076","event":"spawn","ts":"2026-09-02T11:07:54.030Z","ts_ms":1788347274030,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":10,"est_tokens":750000}
 {"event":"refused","ts":"2026-09-02T11:22:24.507Z","ts_ms":1788348144507,"reason":"hourly cap: 12+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T11:38:32.527Z","ts_ms":1788349112527,"reason":"hourly cap: 11+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}

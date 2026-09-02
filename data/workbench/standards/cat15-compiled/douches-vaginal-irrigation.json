@@ -19,10 +19,15 @@
         "source_id": "de_bvl2017_pb_toothpaste_500",
         "source_jurisdiction": "DE",
         "source_scope": "toothpaste",
+        "basis": "cosmetic product; source unit mg/kg",
         "binding_instrument": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
         "label": "German BVL 2017 sovereign mucosal-contact cosmetic tier (toothpaste, 500 ug/kg)",
         "mucosal_note": "Adopted over the general-cosmetic lead tier (2000 ug/kg) because vaginal mucosa is more permeable and bioavailable than the oral mucosa the toothpaste limit was written for; 500 ug/kg is the strictest sovereign cosmetic lead value for a mucosal-contact product.",
         "per_country": {
+          "US-WA": {
+            "value": 1000,
+            "id": "wa_tfca_pb_cosmetics_general_1000"
+          },
           "DE": {
             "value": 2000,
             "id": "de_bvl2017_pb_cosmetics_general_2000"
@@ -91,7 +96,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "gov",
@@ -101,6 +107,7 @@
         "binding_jurisdiction": "DE",
         "binding_id": "de_bvl2017_cd_cosmetics_general_100",
         "binding_scope": "cosmetic products in general",
+        "basis": "cosmetic product; source unit mg/kg",
         "binding_instrument": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
         "basis_note": "Cadmium, total arsenic and total mercury bind the strictest general-cosmetic sovereign value (German BVL 2017 = the strictest cosmetic tier for these three); no stricter mucosal-contact tier exists for them, so no further mucosal adjustment applies. Lead binds the stricter sovereign mucosal-contact tier (500 vs the general-cosmetic 2000 ug/kg), because vaginal mucosa is more permeable than the oral mucosa the toothpaste tier was written for.",
         "per_country": {
@@ -152,7 +159,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -162,6 +170,7 @@
         "binding_jurisdiction": "DE",
         "binding_id": "de_bvl2017_tas_cosmetics_general_500",
         "binding_scope": "cosmetic products in general except theater, fan, or carnival make-up",
+        "basis": "cosmetic product; source unit mg/kg",
         "binding_instrument": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
         "basis_note": "Cadmium, total arsenic and total mercury bind the strictest general-cosmetic sovereign value (German BVL 2017 = the strictest cosmetic tier for these three); no stricter mucosal-contact tier exists for them, so no further mucosal adjustment applies. Lead binds the stricter sovereign mucosal-contact tier (500 vs the general-cosmetic 2000 ug/kg), because vaginal mucosa is more permeable than the oral mucosa the toothpaste tier was written for.",
         "per_country": {
@@ -221,7 +230,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "control",
@@ -237,7 +247,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "tHg": {
         "type": "gov",
@@ -247,6 +258,7 @@
         "binding_jurisdiction": "DE",
         "binding_id": "de_bvl2017_thg_cosmetics_general_100",
         "binding_scope": "cosmetic products in general",
+        "basis": "cosmetic product; source unit mg/kg",
         "binding_instrument": "regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics",
         "basis_note": "Cadmium, total arsenic and total mercury bind the strictest general-cosmetic sovereign value (German BVL 2017 = the strictest cosmetic tier for these three); no stricter mucosal-contact tier exists for them, so no further mucosal adjustment applies. Lead binds the stricter sovereign mucosal-contact tier (500 vs the general-cosmetic 2000 ug/kg), because vaginal mucosa is more permeable than the oral mucosa the toothpaste tier was written for.",
         "per_country": {
@@ -314,7 +326,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "not_material",
@@ -330,7 +343,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "not-material"
       },
       "Ni": {
         "type": "gov",
@@ -340,6 +354,7 @@
         "binding_jurisdiction": "KR",
         "binding_id": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000",
         "binding_scope": "cosmetic products other than eye makeup or color makeup products",
+        "basis": "cosmetic product; source unit microgram/g",
         "binding_instrument": "regulations/korea-mfds-2025-63-cosmetics-safety-standards",
         "basis_note": "Nickel binds the only sovereign cosmetic nickel content limit (Korea MFDS 2025, cosmetic products other than eye/color makeup, 10000 ug/kg). Under the mucosal route the program additionally holds nickel to ALARA post-publication (a known contact sensitizer).",
         "per_country": {
@@ -351,7 +366,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr": {
         "type": "control",
@@ -367,7 +383,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Cr-VI": {
         "type": "control",
@@ -383,7 +400,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Sn": {
         "type": "not_material",
@@ -399,7 +417,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "not-material"
       },
       "Al": {
         "type": "control",
@@ -415,7 +434,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       }
     }
   },
@@ -423,9 +443,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Initial Cat-15 Feminine Care government-limit standard (HMTc Method v2.0). Flagship mucosal-exposure category. Device subcategories (tampons, pads, cups, discs, period underwear, other) carry no sovereign heavy-metal content limit (medical-device law governs ISO 10993 biocompatibility, not content) and resolve to mandatory control on every occurrence- or pathway-established metal (Pb, Cd, tAs, tHg, Ni, Cr, Sn, Al; iAs and Cr-VI reflex-speciation controls); methylmercury is the sole not-material cell (no biological methylation pathway; bounded by the total-mercury control). Cosmetic subcategories (feminine wipes, deodorants, douches, intimate washes) read across the German BVL 2017 sovereign cosmetic contaminant limits, adopting the mucosal-contact (toothpaste) tier for lead (500 vs the general-cosmetic 2000 ug/kg) because vaginal mucosa is more permeable than the oral mucosa those limits were written for; Cd/tAs/tHg bind the strictest general-cosmetic value (100/500/100), nickel the only sovereign cosmetic Ni limit (Korea MFDS 2025 = 10000). Materiality anchored to shearston2024, ica2024, ellison2026, carlin2020, nic-corcrain2025, marcelis2024. Direction: toward the literature (CLAUDE.md Part 2/19).",

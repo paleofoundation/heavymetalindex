@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-227 open item(s): 77 auto, 150 awaiting a decision.
+228 open item(s): 78 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -646,6 +646,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: M2 verifier p5.B refuted shellfish Cd (EU crustacean 500 anchor sound) because Singapore reg 31(5) has no crustacean row so crustaceans fall to its other-food residual 200; the Israel-supersession re-anchoring (2026-09-02) used the same Thailand/Singapore residual rows as direct anchors for 30+ cells (tightenings applied, raises held).
 - done when: Governing principles state whether a residual (catch-all) sovereign row is a direct ML for products the instrument does not list, and whether non-target-market jurisdictions count for the government-limit lookup; reanchor-superseded.mjs and the M2 protocol encode the ruling; every cell anchored to a residual row on 2026-09-02 is re-run under the ruling
 - decision: _pending_
+
+### OI-20260902-cat9-cat12-no-compiled-config — Cat-9 (contact products, 10-cell hand pages, no cert compiled dir) and Cat-12 (household cleaning, 21 live pages, no index config) have no config-driven compile, so the round-trip, audit and confidence pass cannot reach them
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/cat9-config.json`, `tools/standards/cat12-config.json`, `tools/standards/compile-category.mjs`, `data/workbench/standards/cat9-compiled`, `data/workbench/standards/cat12-compiled`
+- repro: node tools/standards/roundtrip-category.mjs --cat=9 and --cat=12 report no plan; the cert readiness lint counts 29 recordless pages from these two categories
+- done when: a cat9 config on the migration/release basis (BASIS NEVER CONFLATED) and a cat12 config (GB 14930.1 read-across per the live standard) compile to records whose projection matches the live pages with 0 regressions; both dirs carry a Lens 0 confidence manifest and enter the M1/M2 queues; the 29 recordless pages resolve through *-pages.json joins
 
 ### OI-20260902-cat26-aluminium-anchor — Cat-26 aluminium on oral/nasal routes is anchored to a drinking-water row (EU 2020/2184, water intended for human consumption): cross-basis read-across on a PDE-class product; find a route-appropriate instrument or a baseline screen
 
