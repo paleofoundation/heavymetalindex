@@ -151,6 +151,90 @@
     "cat24-compiled|dairy-milk-powders|*|Pb": {
       "id": "china_gb2762_2025_pb_milk_products_other_200",
       "why": "GB 2762-2025 lead in other milk products (200) on the product-as-placed-on-market basis is the strictest in-force sovereign row reaching milk powder as sold (the India FSSAI secondary-milk row is as-consumed; Cat-24 is no-reconstitution); raise 20→200, held. Verify whether GB 2762-2025 carries a separate milk-powder lead row (the 2022 text had 0.5 mg/kg) that the extraction missed."
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
     }
   }
 }

@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-228 open item(s): 77 auto, 151 awaiting a decision.
+227 open item(s): 77 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -537,14 +537,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/mint-dois.mjs`, `wiki/ingredients/`, `wiki/products/`
 - repro: node tools/mint-dois.mjs --dry-run → 27 collision(s), e.g. hmi.baby-food (wiki/ingredients/baby-food.md vs wiki/products/baby-food.md), hmi.coffee, hmi.chocolate, hmi.cashews. The basename-only suffix scheme (hmi.<basename>) was chosen to match the 24 live 10.83376 DOIs; the collision guard refuses an execute run but a dry run only warns.
 - done when: suffix scheme disambiguates products vs ingredients without changing the 24 live DOIs (e.g. hmi.products.<basename> for the colliding set only, or a per-dir namespace for new mints); node tools/mint-dois.mjs --dry-run reports 0 collisions; the change is recorded in docs/DOI-MINTING-LEDGER (index) before any index mint
-
-### OI-20260902-il-fcs2016-not-in-force — Israel MoH 2016 heavy-metals guideline is marked not in force on gov.il (Israel adopted the EU contaminants regulation from 2023-01-01); register rows need status/successor update and every cell anchored on an il_fcs2016_* row re-adjudicated
-
-- scope: **human-gated** · type: finding · status: open · repo: index
-- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`, `data/workbench/standards/confidence/_m1-verdicts/m1-20260902-g3.A.json`
-- repro: M1 verifier A (packet g3): the gov.il policy page hosting the register URL (fcs-reg-01022007) is titled not in force (updated 19.02.2026); the 2020 extension order carried the guideline only to 2022-01-06; the MoH notice of 2024-08-26 states the adopted EU contaminants regulation (1881/2006 → 2023/915 via Amendment 10) is in force since 2023-01-01. Values in the guideline text itself are correct. The EU successor sets no ML for Cd/Hg in fats and oils or Pb/As in dried seaweed, so those cells have no direct successor value (cat30 tHg 20, seafood seaweed Pb 5000 / tAs 5000, and every other il_fcs2016 anchor across the categories).
-- done when: verifier B verdict and one xhigh deep read agree on the in-force status; il_fcs2016_* rows carry a superseded/not-in-force status with successor named; every cell anchored on an il_fcs2016 row is re-anchored by config to an in-force same-basis instrument, or disclosed as a read-across from a superseded-but-technically-substantive instrument only if Karen ratifies that posture; any raised published value is held from push until ratified
-- decision: _pending_
 
 ### OI-20260902-gb2762-2025-repoint-cat-configs — Re-point every config and live cert record from superseded GB 2762-2022 ids to the GB 2762-2025 successors (values unchanged)
 

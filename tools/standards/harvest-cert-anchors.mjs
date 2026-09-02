@@ -37,7 +37,7 @@ if (!CAT) { console.error("harvest-cert-anchors: --cat=<N> required"); process.e
 const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "25", "26", "33", "34", "35"])
 // compile-cat1-shaped configs (read_across map per subcategory; direct rows selected by scope): cat3
 // (cat3-config.json) and seafood (seafood-config.json → cert seafood-compiled).
-const LIMIT_SHAPE = { "15": { config: "cat15-config.json", dir: "cat15-compiled" }, "31": { config: "cat31-config.json", dir: "cat31-compiled" }, "32": { config: "cat32-config.json", dir: "cat32-compiled" } }
+const LIMIT_SHAPE = { "15": { config: "cat15-config.json", dir: "cat15-compiled", map: "dispositions", sourceOnly: true }, "31": { config: "cat31-config.json", dir: "cat31-compiled" }, "32": { config: "cat32-config.json", dir: "cat32-compiled" } }
 const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, "16": { config: "cat16-config.json", dir: "cat16-compiled" }, "17": { config: "cat17-config.json", dir: "cat17-compiled" }, "24": { config: "cat24-config.json", dir: "cat24-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" },
   // compile-cat27/28/29 share the read_across-map shape (direct rows by scope; read_across as comparator)
   "27": { config: "cat27-config.json", dir: "cat27-compiled" }, "28": { config: "cat28-config.json", dir: "cat28-compiled" }, "29": { config: "cat29-config.json", dir: "cat29-compiled" } }
@@ -110,7 +110,9 @@ for (const t of targets) {
     // food-limit-compiler shape (cat15/31/32): read_across[analyte] = { gov_ids } (direct pins, strictest wins) |
     // { source_id, label } (disclosed read-across); species with no anchor are bounded by the parent automatically;
     // control / not_material dispositions are left as configured.
-    const ra = (sub.read_across = sub.read_across || {})
+    const mapKey = (LIMIT_SHAPE[CAT] && LIMIT_SHAPE[CAT].map) || "read_across"
+    const sourceOnly = !!(LIMIT_SHAPE[CAT] && LIMIT_SHAPE[CAT].sourceOnly)
+    const ra = (sub[mapKey] = sub[mapKey] || {})
     const curL = ra[t.analyte]
     const curKindL = !curL ? "(scope)" : curL.gov_ids ? "gov_ids" : curL.source_id ? "read_across" : curL.control ? "control" : curL.not_material ? "not_material" : "?"
     if (k === "subsumed") { skipped.push({ ...t, from: curKindL, cert_kind: k, why: "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)" }); continue }
@@ -120,7 +122,7 @@ for (const t of targets) {
     const chk = rowOk(id, guard)
     if (!rawId || !chk.ok) { skipped.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKindL, cert_kind: k, value: cell.value ?? null, anchor: rawId || null, why: chk.why || "no anchor id" }); continue }
     if (t.cls === "index-tighter" && curKindL !== "(scope)") { skipped.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKindL, cert_kind: k, value: cell.value ?? null, anchor: rawId, why: "index already tighter on a register anchor; kept" }); continue }
-    const specL = k === "gov"
+    const specL = k === "gov" && !sourceOnly
       ? { gov_ids: [...new Set([id, ...(curL && curL.gov_ids ? curL.gov_ids : [])])], _harvest: stamp + (id !== rawId ? `; ${rawId} → successor ${id}` : "") }
       : { source_id: id, label: cell.label || `government read-across: ${chk.row.jurisdiction} ${chk.row.product_scope.slice(0, 80)}`, _harvest: stamp + (id !== rawId ? `; ${rawId} → successor ${id}` : "") }
     applied.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKindL, to: k === "gov" ? "gov_ids" : "read_across", value: cell.value ?? null, anchor: id })
