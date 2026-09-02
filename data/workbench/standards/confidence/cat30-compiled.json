@@ -5,9 +5,9 @@
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
   "run_id": "run-20260902-a",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:21:54.264Z",
-  "register_commit": "c085f422b",
-  "cert_commit": "fc7a463",
+  "generated_at": "2026-09-02T10:28:11.618Z",
+  "register_commit": "ba5f2e1b4",
+  "cert_commit": "09c1a9d",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -64,7 +64,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.261Z",
+      "verified_at": "2026-09-02T10:28:11.615Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -105,7 +105,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.261Z",
+      "verified_at": "2026-09-02T10:28:11.615Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -146,7 +146,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -187,7 +187,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -228,7 +228,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -269,7 +269,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -310,7 +310,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -351,7 +351,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.262Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -392,7 +392,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.263Z",
+      "verified_at": "2026-09-02T10:28:11.616Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -433,7 +433,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.263Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -474,7 +474,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.263Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -515,7 +515,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.263Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -556,7 +556,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.263Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -597,7 +597,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -638,7 +638,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -679,7 +679,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -720,7 +720,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -761,7 +761,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.617Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -802,7 +802,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.618Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -843,7 +843,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.618Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -884,7 +884,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.618Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     },
@@ -925,7 +925,7 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:21:54.264Z",
+      "verified_at": "2026-09-02T10:28:11.618Z",
       "run_id": "run-20260902-a",
       "session": "exciting-taussig-159366"
     }

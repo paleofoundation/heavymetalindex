@@ -65,9 +65,40 @@
           "kind": "gov",
           "state": "firm",
           "subsumed_by": null
-        },
+        }
+      ],
+      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a"
+    },
+    {
+      "evidence_key": "634e454b298b3a55",
+      "analyte": "Cd",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
         {
-          "key": "canned-seafood|both|Cd#canary",
+          "regulatory_limit_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a",
+          "row_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|Cd",
           "slug": "canned-seafood",
           "product": "Canned seafood (canned tuna, canned fish)",
           "scope_note": null,
@@ -79,7 +110,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a"
+      "batch_id": "seafood-compiled-634e454b298b3a55-run-20260902-a"
     },
     {
       "evidence_key": "96398ac8bfed9ac7",
@@ -977,6 +1008,49 @@
         }
       ],
       "batch_id": "seafood-compiled-1408b285ffb5df2f-run-20260902-a"
+    },
+    {
+      "evidence_key": "9985c4eb34ed76ea",
+      "analyte": "tAs",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "1000",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "seaweed",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Inorganic arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
+          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|tAs",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-20260902-a"
     },
     {
       "evidence_key": "7081da69b07981c9",

@@ -111,16 +111,25 @@ function ingestM2(files, dir) {
   fs.mkdirSync(vd, { recursive: true })
   const canaries = readJsonSafe(path.join(CONF, "_canaries", `${dir}.json`)) || { cells: {} }
   const voided = readJsonSafe(path.join(CONF, "_voided.json")) || { batches: [] }
+  // A verdict FILE is one agent's run over one packet: { packet_id, agent, model, effort, run_id,
+  // batches: [{ batch_id, evidence_key, cells: [...] }] }. Canary batches are keyed by batch_id in the
+  // ledger; a "confirmed" on one voids every batch in that file (the same run rubber-stamped).
   for (const f of files) {
     const v = JSON.parse(fs.readFileSync(f, "utf8"))
     if (!ALLOWED_LENS_MODELS.has(v.model)) { console.error(`ingest-m2: ${f}: model ${v.model} not allowed`); process.exitCode = 1; continue }
-    const confirmedCanary = (v.cells || []).find((c) => canaries.cells[c.key] && c.applicability === "confirmed" && c.blind_value === canaries.cells[c.key].perturbed_value)
-    if (confirmedCanary) {
-      voided.batches.push({ batch_id: v.batch_id, dir, agent: v.agent, model: v.model, run_id: v.run_id, canary: confirmedCanary.key, at: new Date().toISOString() })
+    const batches = v.batches || [v]
+    const tripped = batches.filter((b) => canaries.cells[b.batch_id] && (b.cells || []).some((c) => c.applicability === "confirmed"))
+    if (tripped.length) {
+      for (const b of batches) voided.batches.push({ batch_id: b.batch_id, dir, agent: v.agent, model: v.model, run_id: v.run_id, packet_id: v.packet_id, canary: tripped.map((t) => t.batch_id).join(","), at: new Date().toISOString() })
       fs.writeFileSync(path.join(CONF, "_voided.json"), JSON.stringify(voided, null, 2) + "\n")
-      console.error(`ingest-m2: batch ${v.batch_id} VOIDED — canary ${confirmedCanary.key} was confirmed by ${v.agent}`)
+      console.error(`ingest-m2: packet ${v.packet_id} by ${v.agent} VOIDED — canary batch(es) ${tripped.map((t) => t.batch_id).join(", ")} were confirmed`)
     }
-    fs.copyFileSync(f, path.join(vd, `${v.batch_id || "batch"}.${v.agent || "agent"}.${path.basename(f)}`))
+    // store one file per batch so m2StatusFor can pair agents per evidence_key
+    for (const b of batches) {
+      if (canaries.cells[b.batch_id]) continue // canary verdicts are never stored as evidence
+      const rec = { packet_id: v.packet_id, batch_id: b.batch_id, evidence_key: b.evidence_key, model: v.model, effort: v.effort, run_id: v.run_id, agent: v.agent, cells: b.cells || [] }
+      fs.writeFileSync(path.join(vd, `${b.batch_id}.${v.agent || "agent"}.json`), JSON.stringify(rec, null, 2) + "\n")
+    }
   }
   console.log(`ingest-m2: ${files.length} verdict file(s) stored under ${path.relative(REPO, vd)}`)
 }
@@ -335,26 +344,27 @@ function m2StatusFor(key, evidenceKey, files, voided, cell, register, analyte) {
   return { status: "confirmed", reasons: [], lenses, batch_ids, blind_value: bv[0] }
 }
 
-// ~3% canaries per batch: a copy of a real cell packet whose expected blind value is perturbed (×2) —
-// the runner records the perturbation in the ledger; the packet itself is unmarked. A batch in which an
-// agent CONFIRMS a canary at the perturbed value is voided at ingest.
+// ~3% canaries: an extra batch that LOOKS like a real one but carries a known defect — its anchor row is
+// rewritten to a toy-migration instrument (EN 71-3 soluble-element basis, toy scope) that can never govern
+// a dietary or content cell. The honest applicability verdict is "refuted" (basis and scope do not apply).
+// An agent that returns "confirmed" for a canary rubber-stamped the packet, and every batch that agent
+// returned in that packet run is voided at ingest. The packet carries no marker; only the ledger
+// (_canaries/<dir>.json, never given to an agent) knows which batch is the canary.
 function makeCanaries(batches) {
   const ledger = {}
   const out = []
   let i = 0
   for (const b of batches) {
     const batch = { ...b, batch_id: `${b.compiled_dir}-${b.evidence_key}-${RUN_ID}` }
-    const canary = batch.cells.length && i++ % 33 === 0 ? batch.cells[0] : null
-    if (canary) {
-      const anchors = batch.anchors.filter(Boolean)
-      const base = anchors.length ? Number(anchors[0].value_ug_kg) : null
-      const perturbed = base != null ? roundDisplay(base * 2) : null
-      const ck = `${canary.key}#canary`
-      batch.cells = [...batch.cells, { ...canary, key: ck }]
-      batch.canary_note = undefined
-      ledger[ck] = { of: canary.key, perturbed_value: perturbed, batch_id: batch.batch_id }
-    }
     out.push(batch)
+    if (batch.cells.length && i++ % 33 === 0) {
+      const src = batch.cells[0]
+      const fakeKey = sha256(`canary|${batch.batch_id}`).slice(0, 16)
+      const anchors = batch.anchors.filter(Boolean).map((a, j) => (j === 0 ? { ...a, basis: "soluble element migration from toy material (EN 71-3 category III), mg/kg of material", product_scope: "toys and toy components (soluble element migration)", regulation_page: "regulations/eu-2009-48-toy-safety-migration-limits", jurisdiction: "EU", authority: "European Parliament and Council (Directive 2009/48/EC)" } : a))
+      const canary = { ...batch, evidence_key: fakeKey, batch_id: `${b.compiled_dir}-${fakeKey}-${RUN_ID}`, basis_class: b.basis_class, anchors, cells: [{ ...src }] }
+      out.push(canary)
+      ledger[canary.batch_id] = { kind: "wrong-basis-anchor", of_batch: batch.batch_id, key: src.key, honest_verdict: "refuted" }
+    }
   }
   return { batches: out, ledger }
 }
