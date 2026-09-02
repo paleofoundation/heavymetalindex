@@ -222,7 +222,7 @@
     "window": "12/hour cap; next free ~12:06 UTC"
   },
   "next_steps": [
-    "dispatch M2 round 2: seafood m2-20260902b-p1..p4 A/B (8 leases) + cat30 m2-20260902-p6 A/B (2) when the governor frees (12:06 UTC); ingest; rerun; mirror",
+    "ingest the 10 round-2 verdict files when they land (background agents; if this session ended, the files are on disk), rerun confidence-run for seafood and cat30, apply agreed fixes, --mirror when a dir passes block-mode lint",
     "Karen: ratify/decline the 83 held items (confidence/_held-raises.json), rule OI-20260902-catch-all-rows-bind-program-wide, rule the wrong-basis inventory (Phase C), then push cert",
     "M1 deep read: FSSAI 2016 chromium row (g6 disagreement) and the France CSHPF seaweed rows",
     "cat9/cat12 configs per brief; EU successor rows (2023/915 Hg/Sn, 2018/73 MRLs) ingest"
@@ -276,7 +276,7 @@
       "cat12": "nothing in either repo; 21 hand pages"
     }
   },
-  "updated": "2026-09-02T11:40Z",
+  "updated": "2026-09-02T12:10Z",
   "israel_supersession": {
     "status": "APPLIED 2026-09-02 (index f975371e1)",
     "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
@@ -288,8 +288,8 @@
   },
   "m2": {
     "seafood_round1": "p1-p5 A/B ingested: 17 confirmed, 31 refuted, 28 unverified (before the fixes); fixes applied in seafood-config (Cr-VI bounded, Ni→EU baby food 500, seaweed Cr→GB cereals 1000, predatory tHg/MeHg→500, Cd off GSO exceptions, disclosures)",
-    "seafood_round2": "packets m2-20260902b-p1..p4 built by tools/standards/build-m2-packets.mjs (24 batches); dispatch A+B when the governor frees (~12:06 UTC)",
-    "cat30": "packet m2-20260902-p6 (6 batches) not yet dispatched",
+    "seafood_round2": "DISPATCHED 12:09 UTC (lease-1788350934387): m2-20260902b-p1..p4 roles A+B; verdicts land in _m2-verdicts/; ingest with confidence-run --cat=seafood --ingest-m2=<file>",
+    "cat30": "DISPATCHED 12:09 UTC: m2-20260902-p6 roles A+B; ingest with --cat=30",
     "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled"
   },
   "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)",
