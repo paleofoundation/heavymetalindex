@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-1fcffde23c86c892-run-202609021123",
+  "evidence_key": "1fcffde23c86c892",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers canned tuna and canned fish or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    },
+    {
+      "key": "cephalopods|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers octopus, squid and cuttlefish (not canned) or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    },
+    {
+      "key": "fish-freshwater|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers freshwater finfish (tilapia, catfish, trout, carp) or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel) or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    },
+    {
+      "key": "fish-marine-predatory|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish) or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    },
+    {
+      "key": "shellfish|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "The register holds 17 Al rows and none covers crustaceans and bivalve molluscs (not canned) or any fish, aquatic-animal, meat or animal-origin food (the rest are drinking/bottled water, infant formula, toy and food-contact migration, and parenterals), so a read-across is the only route and the GB 2760-2024 finished-product residue cap of 100 mg/kg calculated as Al for 'baked foods ...; deep-fried flour products; batter, breading, and frying powder' is the strictest general solid-food aluminium content ML in the register (the GB 2760-2024 starch-noodle row is looser at 200 mg/kg; AU-NZ Schedule 19 formula 500/1000 ug/kg is an as-consumed infant-liquid row, not a nearer analog for a fish). Instrument in force 2025-02-08 per the register note (primary-verified 2026-08-10), food-content on food-content, so (a)-(d) are met for a disclosed read-across. Two caveats for the arbiter: the anchor is expressed on a dry sample while this cell is as-consumed wet weight and the packet declares no conversion, so 100000 is a face-value transfer that reads looser than the anchor would on a moisture-normalised basis (fish at roughly 75% water would sit near 25000 wet), and the anchor's regulation_page pointer regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so in-force status rests on the register row alone."
+    }
+  ]
+}

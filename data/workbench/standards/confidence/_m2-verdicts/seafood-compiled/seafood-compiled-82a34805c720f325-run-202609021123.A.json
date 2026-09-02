@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-82a34805c720f325-run-202609021123",
+  "evidence_key": "82a34805c720f325",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for canned tuna and canned fish; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is HK Cap 132V Part 2 item 7 'Fish' 1 mg/kg (hk_cap132v_crtotal_fish_1000; the schedule applies to food as sold, canned fish included), with GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000, effective 2026-09-02) as the products-inclusive fallback. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    },
+    {
+      "key": "cephalopods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for octopus, squid and cuttlefish; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg total Cr (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000, effective 2026-09-02); HK Cap 132V has no cephalopod chromium item. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    },
+    {
+      "key": "fish-freshwater|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for tilapia, catfish, trout and carp; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is HK Cap 132V Part 2 item 7 'Fish' 1 mg/kg total Cr, edible portion (hk_cap132v_crtotal_fish_1000); GB 2762-2025 item 5.1 aquatic animals 2.0 mg/kg is looser. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for sardine, anchovy, salmon, cod, herring and mackerel muscle; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is HK Cap 132V Part 2 item 7 'Fish' 1 mg/kg total Cr, edible portion (hk_cap132v_crtotal_fish_1000); GB 2762-2025 item 5.1 aquatic animals 2.0 mg/kg is looser. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    },
+    {
+      "key": "fish-marine-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for tuna, swordfish, shark, king mackerel, marlin and billfish; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is HK Cap 132V Part 2 item 7 'Fish' 1 mg/kg total Cr, edible portion (hk_cap132v_crtotal_fish_1000); GB 2762-2025 item 5.1 aquatic animals 2.0 mg/kg is looser. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    },
+    {
+      "key": "shellfish|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL for hexavalent chromium (0.010 mg/L, CCR Title 22 s.64431, scope 'drinking water' delivered by public water systems, effective 2024-10-01), which is a different basis family from an as-consumed food-content cell for crustaceans and bivalve molluscs; the protocol names drinking-water rows as non-food-content and the wiki's own regulation page states the MCL 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', so (b) fails. No sovereign Cr-VI food-content ML exists anywhere in the register (its 19 Cr-VI rows are water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), so the readiness ruling's route is a species bounded by its parent total (Cr-VI <= total Cr) on the same food basis, or a disclosed baseline-screen, never a water number presented as firm; the nearest same-basis sovereign instrument is HK Cap 132V Part 2 item 7 'Crabs, prawns and shrimps' 1 mg/kg and 'Oysters' 1 mg/kg total Cr (hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000, hk_cap132v_crtotal_oysters_1000), with GB 2762-2025 item 5.1 aquatic animals 2.0 mg/kg covering bivalves HK does not name. Blind value is that parent-total bound; derived value 10 is the anchor at face value and is reported only because the packet implies it."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-96d83a643fe19d59-run-202609021123",
+  "evidence_key": "96d83a643fe19d59",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Sn",
+      "derived_value": 100000,
+      "derived_anchor_id": "mx_nom242_sn_canned_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "NOM-242-SSA1-2009 section 7.1.8 (processed fishery products) sets tin at 100 mg/kg for 'canned products only' (register scope 'canned fishery products only'), which covers canned tuna and canned fish directly; the instrument entered into force 2011-05-10 and is unrepealed, and its wet-weight basis on the product as placed on market is the as-consumed basis of a canned fish. A sweep of all 138 Sn register rows finds no live same-basis row covering canned fish that is stricter than 100000: EU 2023/915 3.5.1 canned foods 200000, CR RTCR 409 canned fishery products 200000, IN FSSAI canned fish products 200000, CO/MA/BA/CH canned foods 200000, and Codex/AU-NZ/HK/TH/CL/GB 2762-2025/SG at 250000 are all looser, and the 50000 and 5000 rows are scoped to canned infant foods, a different product."
+    }
+  ]
+}

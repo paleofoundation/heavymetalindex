@@ -291,7 +291,8 @@
     "seafood_round1": "p1-p5 A/B ingested: 17 confirmed, 31 refuted, 28 unverified (before the fixes); fixes applied in seafood-config (Cr-VI bounded, Ni→EU baby food 500, seaweed Cr→GB cereals 1000, predatory tHg/MeHg→500, Cd off GSO exceptions, disclosures)",
     "seafood_round2": "DISPATCHED 12:09 UTC (lease-1788350934387): m2-20260902b-p1..p4 roles A+B; verdicts land in _m2-verdicts/; ingest with confidence-run --cat=seafood --ingest-m2=<file>",
     "cat30": "DISPATCHED 12:09 UTC: m2-20260902-p6 roles A+B; ingest with --cat=30",
-    "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled"
+    "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled",
+    "round2_status": "12:2x UTC: p4.A, p2.A (seafood) and p6.A (cat30) ingested; p4.B (seafood) and p6.B (cat30) FAILED on the API session limit (429, resets 13:40 UTC / 16:40 Asia/Nicosia) and must be re-dispatched (2 leases); p1.A, p3.A, p1.B, p2.B, p3.B still running at the time of writing. The cat30 batch 55a07a92093f5887 refuted by p6.A is the runner canary (wrong-basis-anchor), not a compile defect: canary passed."
   },
   "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)",
   "categories_state": {

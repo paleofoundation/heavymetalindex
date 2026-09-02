@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-ac5fd7f234f35533-run-20260902-a",
+  "evidence_key": "ac5fd7f234f35533",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The California SWRCB hexavalent-chromium MCL of 0.010 mg/L = 10 ug/L (CCR Title 22 section 64431, effective 2024-10-01) is in force, but its product_scope is 'drinking water' delivered by public water systems and its basis is drinking water, not the as-placed-on-market food-content basis of this cooking-oil cell; the regulation page itself states that it does not set a food contaminant level and should not be compared directly to a food concentration, so condition (b) fails. No sovereign food-content Cr-VI limit exists anywhere in the register (every other Cr-VI row is drinking water, toy migration, textile, leather, RoHS, tattoo ink or fertiliser) and GB 2762-2025 expressly sets total chromium only, so there is no same-basis candidate and 10 reproduces only at face value. The nearest same-basis treatment is to bound the species by its parent total (Cr-VI at or below the cell's Cr-total read-across of 300 ug/kg, kind subsumed) or to disclose a baseline screen, not a water MCL presented as a product limit."
+    },
+    {
+      "key": "olive-oil|default|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The California SWRCB hexavalent-chromium MCL of 0.010 mg/L = 10 ug/L (CCR Title 22 section 64431, effective 2024-10-01) is in force, but its product_scope is 'drinking water' delivered by public water systems and its basis is drinking water, not the as-placed-on-market food-content basis of this olive-oil cell; the regulation page itself states that it does not set a food contaminant level and should not be compared directly to a food concentration, so condition (b) fails. No sovereign food-content Cr-VI limit exists anywhere in the register (every other Cr-VI row is drinking water, toy migration, textile, leather, RoHS, tattoo ink or fertiliser) and GB 2762-2025 expressly sets total chromium only, so there is no same-basis candidate and 10 reproduces only at face value. The nearest same-basis treatment is to bound the species by its parent total (Cr-VI at or below the cell's Cr-total read-across of 300 ug/kg, kind subsumed) or to disclose a baseline screen, not a water MCL presented as a product limit."
+    }
+  ]
+}

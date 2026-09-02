@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-734d41bd319590ff-run-20260902-a",
+  "evidence_key": "734d41bd319590ff",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Pb",
+      "derived_value": 80,
+      "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+      "same_basis_candidates": [],
+      "blind_value": 80,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 1 item 12.1 'Fats, oils and their products' (油脂及其制品) sets 0.08 mg/kg = 80 ug/kg on the product as placed on market; the standard entered into force 2026-09-02 and the line is unchanged from GB 2762-2022, so it governs today, and it is a content ML on a content cell with no conversion. Annex A category 12 covers vegetable oils and fats generally, which includes canola, sunflower, coconut, avocado and sesame cooking oils. The only other in-force fats-and-oils lead rows are equal (HK Cap 132V, Thailand MoPH 414/2020 and GSO 193:2021 'edible fats and oils' at 80) or looser (EU 2023/915 'fats and oils, including milk fat' 100; SG, IN, VN, PY, MERCOSUR, UY, PA and FJ at 100 to 200); the 40 ug/kg rows are 'fat spreads and blended spreads' and the 20 ug/kg Vietnamese row is 'dairy fat products', both different products, so no stricter same-basis row is missing."
+    },
+    {
+      "key": "olive-oil|default|Pb",
+      "derived_value": 80,
+      "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+      "same_basis_candidates": [],
+      "blind_value": 80,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 1 item 12.1 'Fats, oils and their products' (油脂及其制品) sets 0.08 mg/kg = 80 ug/kg on the product as placed on market; the standard entered into force 2026-09-02 and the line is unchanged from GB 2762-2022, so it governs today, and it is a content ML on a content cell with no conversion. Annex A category 12 covers vegetable oils and fats generally, which includes virgin, refined and pomace olive oil; the India FSSAI 2016 olive-oil lines (refined, virgin, pomace) sit at 100 and EU 2023/915 at 100. The only other in-force fats-and-oils lead rows are equal (HK Cap 132V, Thailand MoPH 414/2020 and GSO 193:2021 'edible fats and oils' at 80) or looser (EU 2023/915 'fats and oils, including milk fat' 100; SG, IN, VN, PY, MERCOSUR, UY, PA and FJ at 100 to 200); the 40 ug/kg rows are 'fat spreads and blended spreads' and the 20 ug/kg Vietnamese row is 'dairy fat products', both different products, so no stricter same-basis row is missing."
+    }
+  ]
+}
