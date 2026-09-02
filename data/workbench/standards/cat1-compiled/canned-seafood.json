@@ -90,6 +90,11 @@
             "converted": true,
             "id": "aunz_sch19_pb_fish_500"
           },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_pb_fish_products_500"
+          },
           "MX": {
             "value": 1000,
             "converted": true,
@@ -105,7 +110,8 @@
             "converted": true,
             "id": "tt_fooddrugs_2007_fish_fishery_products_pb_2000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -123,14 +129,15 @@
           "CN": {
             "value": 100,
             "converted": true,
-            "id": "cn_ias_canned-complementary-foods-for-infants-a_100"
+            "id": "china_gb2762_2025_ias_fish_and_fish_products_100"
           },
           "HK": {
             "value": 100,
             "converted": true,
             "id": "hk_cap132v_ias_fish_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -165,7 +172,8 @@
             "converted": true,
             "id": "aunz_sch19_tas_fish_2000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -260,16 +268,22 @@
             "converted": true,
             "id": "gso193_2021_thg_tuna_1200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "gov",
         "value": 500,
         "value_exact": 500,
-        "binding_jurisdiction": "MX",
-        "binding_id": "mx_nom242_mehg_other_500",
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
         "basis_note": "face value",
         "per_country": {
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500"
+          },
           "MX": {
             "value": 500,
             "converted": true,
@@ -305,7 +319,8 @@
             "converted": true,
             "id": "gso193_2021_mehg_tuna_1200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -360,6 +375,11 @@
             "converted": true,
             "id": "vn_qcvn8_2_2011_cd_aquatic-products_50"
           },
+          "CN": {
+            "value": 100,
+            "converted": true,
+            "id": "china_gb2762_2025_cd_fresh_frozen_fish_100"
+          },
           "MA": {
             "value": 100,
             "converted": true,
@@ -385,7 +405,8 @@
             "converted": true,
             "id": "th_moph414_2020_cd_fish_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
@@ -395,7 +416,8 @@
         "source_jurisdiction": "EU",
         "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed canned-fish nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "gov",
@@ -410,12 +432,18 @@
             "converted": true,
             "id": "hk_cap132v_crtotal_fish_1000"
           },
+          "CN": {
+            "value": 2000,
+            "converted": true,
+            "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000"
+          },
           "IN": {
             "value": 12000,
             "converted": true,
             "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "read_across",
@@ -425,7 +453,8 @@
         "source_jurisdiction": "US-CA",
         "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Sn": {
         "type": "gov",
@@ -450,7 +479,8 @@
             "converted": true,
             "id": "cr_rtcr409_2008_sn_canned_200000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "read_across",
@@ -460,7 +490,8 @@
         "source_jurisdiction": "CN",
         "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; canned-fish aluminium occurrence (up to about 34000) sits below it, so clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       }
     }
   },

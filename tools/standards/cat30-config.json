@@ -36,7 +36,7 @@
           "label": "No government sets a nickel maximum level for an edible oil or fat in any jurisdiction. This reads across the nearest applicable sovereign nickel ML on olive oil's own product-as-placed-on-market (liquid) basis: EU Reg 2024/1987 nickel in infant and young-child formula (liquid form), 100 ug/kg. The more permissive EU fruiting-vegetable nickel ML (400 ug/kg) was the alternative food-type sibling; it was rejected because it would admit oil at concentrations the primary literature flags as contaminated (ground-harvest samples reported at 220-330 ug/kg). Disclosed as a read-across, not direct EU governance of oil; clean commercial olive oil clears 100 ug/kg with headroom (Kabaran 2020 Cyprus n=27 mean 30, max 54; Llorent-Martinez 2014 virgin olive oil below detection)."
         },
         "Cr": {
-          "source_id": "china_gb2762_cr_liquid_milk_300",
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
           "label": "No government sets a total-chromium maximum level for an edible oil or fat in any jurisdiction. This reads across the strictest real food total-chromium ML on the matching liquid, product-as-placed-on-market basis: China GB 2762-2022 total chromium in liquid milk, 300 ug/kg (test method GB 5009.123). Clean commercial olive oil passes (Kabaran 2020 Cyprus n=27 mean 124, max 218; Llorent-Martinez 2014 virgin olive oil below detection); grossly contaminated oil fails. This total-chromium ceiling is the reflex-speciation screen for the hexavalent-chromium control below. GB 2762-2025 supersedes GB 2762-2022 on 2026-09-02; re-verify this value against the 2025 revision at that time."
         },
         "Cr-VI": {
@@ -92,7 +92,7 @@
           "label": "No government sets a nickel maximum level for an edible oil or fat in any jurisdiction. This reads across the nearest applicable sovereign nickel ML on the oil's own product-as-placed-on-market (liquid) basis: EU Reg 2024/1987 nickel in infant and young-child formula (liquid form), 100 ug/kg. The more permissive EU fruiting-vegetable nickel ML (400 ug/kg) was rejected because it would admit oil at concentrations reported in contaminated samples. Nickel can also enter a fat as residual hydrogenation catalyst (Raney nickel) in any hardened or partially hydrogenated fraction; this ceiling caps that pathway too. Disclosed as a read-across, not direct EU governance of oil."
         },
         "Cr": {
-          "source_id": "china_gb2762_cr_liquid_milk_300",
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
           "label": "No government sets a total-chromium maximum level for an edible oil or fat in any jurisdiction. This reads across the strictest real food total-chromium ML on the matching liquid, product-as-placed-on-market basis: China GB 2762-2022 total chromium in liquid milk, 300 ug/kg (test method GB 5009.123). Clean commercial cooking oil sits well below this ceiling; grossly contaminated oil fails. This total-chromium ceiling is the reflex-speciation screen for the hexavalent-chromium control below. GB 2762-2025 supersedes GB 2762-2022 on 2026-09-02; re-verify this value against the 2025 revision at that time."
         },
         "Cr-VI": {

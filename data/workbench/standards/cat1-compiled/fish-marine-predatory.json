@@ -55,7 +55,8 @@
             "converted": true,
             "id": "fj_fsr2009_pb_008_muscle_meat_of_bonito_sarda_sarda_horse_mackerel_or_scad_trachurus_tra_400"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -69,8 +70,14 @@
             "value": 100,
             "converted": true,
             "id": "eu20251891_ias_fish_other_100"
+          },
+          "CN": {
+            "value": 100,
+            "converted": true,
+            "id": "china_gb2762_2025_ias_fish_and_fish_products_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -95,7 +102,8 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_tas_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -175,16 +183,22 @@
             "converted": true,
             "id": "gso193_2021_thg_tuna_1200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "gov",
         "value": 1000,
         "value_exact": 1000,
-        "binding_jurisdiction": "MX",
-        "binding_id": "mx_nom242_mehg_tuna_group_1000",
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_mehg_predatory_fish_1000",
         "basis_note": "face value",
         "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": true,
+            "id": "china_gb2762_2025_mehg_predatory_fish_1000"
+          },
           "MX": {
             "value": 1000,
             "converted": true,
@@ -220,7 +234,8 @@
             "converted": true,
             "id": "hk_cap132v_mehg_tuna_1200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -275,7 +290,8 @@
             "converted": true,
             "id": "il_fcs2016_cd_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_250"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
@@ -285,7 +301,8 @@
         "source_jurisdiction": "EU",
         "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "gov",
@@ -305,7 +322,8 @@
             "converted": true,
             "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "read_across",
@@ -315,7 +333,8 @@
         "source_jurisdiction": "US-CA",
         "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean fish passes and a chromate-contaminated sample fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Sn": {
         "type": "read_across",
@@ -325,7 +344,8 @@
         "source_jurisdiction": "EU",
         "label": "Tin is a can-migration analyte; no government sets a tin ML for non-canned seafood (every seafood tin ML is canned/tinplate-only). Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; fresh/frozen predatory fish has no tin source and passes. Canned product is certified under the canned-seafood subcategory.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -335,7 +355,8 @@
         "source_jurisdiction": "CN",
         "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       }
     }
   },

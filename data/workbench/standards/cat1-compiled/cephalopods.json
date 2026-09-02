@@ -70,7 +70,8 @@
             "converted": true,
             "id": "vn_qcvn8_2_2011_pb_cephalopod-mollusks-without-internal-organs_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -85,7 +86,8 @@
             "converted": true,
             "id": "eu20251891_ias_cephalopods_50"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -105,7 +107,8 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cephalopod_molluscs_tas_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -145,21 +148,23 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cephalopod_molluscs_thg_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_tHg": 300,
-        "binding_tHg_source": "EU",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No government sets a methylmercury limit for this product below the binding total-mercury ceiling (300 µg/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.",
+        "binding_parent_value": 300,
+        "binding_parent_source": "EU",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). The strictest applicable sovereign MeHg value (500 µg/kg) is not below the binding total mercury ceiling (300 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
         "candidate": {
           "type": "read_across",
           "value": 500,
           "source_jurisdiction": "MX",
           "source_id": "mx_nom242_mehg_other_500"
-        }
+        },
+        "provenance": "subsumed"
       },
       "Cd": {
         "type": "gov",
@@ -193,6 +198,11 @@
             "value": 1000,
             "converted": true,
             "id": "fj_fsr2009_cd_005_cephalopods_without_viscera_1000"
+          },
+          "CN": {
+            "value": 2000,
+            "converted": true,
+            "id": "china_gb2762_2025_cd_bivalves_gastropods_cephalopods_echinoderms_2000"
           },
           "IN": {
             "value": 2000,
@@ -234,7 +244,8 @@
             "converted": true,
             "id": "hk_cap132v_cd_cephalopods_2000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
@@ -244,7 +255,8 @@
         "source_jurisdiction": "EU",
         "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "gov",
@@ -259,7 +271,8 @@
             "converted": true,
             "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "read_across",
@@ -269,7 +282,8 @@
         "source_jurisdiction": "US-CA",
         "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean product passes and a chromate-contaminated sample fails.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Sn": {
         "type": "read_across",
@@ -279,7 +293,8 @@
         "source_jurisdiction": "EU",
         "label": "Tin is a can-migration analyte; no government sets a tin ML for non-canned seafood (every seafood tin ML is canned/tinplate-only). Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; fresh/frozen cephalopods have no tin source and pass. Canned product is certified under the canned-seafood subcategory.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -289,7 +304,8 @@
         "source_jurisdiction": "CN",
         "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       }
     }
   },

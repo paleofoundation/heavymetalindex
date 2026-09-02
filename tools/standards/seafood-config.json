@@ -52,7 +52,7 @@
           "label": "Seaweed is a marine primary producer, not a predator; methylmercury does not biomagnify into algae, so it is a negligible fraction of total mercury. No seaweed methylmercury ML exists; the general-fishery methylmercury value (Mexico NOM-242 other fishery products, 500) is read across only to establish the bound, and it is subsumed by the far stricter dried-seaweed total-mercury ceiling. Methylmercury is governed by and bounded by tHg."
         },
         "Cr": {
-          "source_id": "china_gb2762_cr_milk_powder_2000",
+          "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
           "label": "No government sets a total-chromium ML for seaweed. Read-across to the nearest food total-chromium ML on an as-sold dry basis (China GB 2762 milk powder, 2000) as a monitor/baseline. Total chromium in edible seaweed is predominantly non-toxic Cr(III) from mineral accumulation, so the binding health control is hexavalent chromium (Cr-VI); total chromium is monitored, not a per-lot pass/fail."
         },
         "Cr-VI": {
@@ -192,7 +192,8 @@
       "scope_exclude": [
         "all fish, crustaceans, and molluscs",
         "feed",
-        "oil"
+        "oil",
+        "condiment"
       ],
       "read_across": {
         "Ni": {
@@ -257,7 +258,8 @@
         "feed",
         "fish oil",
         "fats and oil",
-        "\\boil\\b"
+        "\\boil\\b",
+        "condiment"
       ],
       "read_across": {
         "iAs": {
@@ -295,7 +297,8 @@
         "derived thereof",
         "\\boil",
         "fats and oil",
-        "^(?!.*(lower|except|excluding|other than|exception|in general|\\bgeneral\\b)).*(predator|carnivorous|higher.?mercury|\\btuna\\b|\\bshark|swordfish|\\bmarlin\\b|sailfish|\\bpike\\b|elasmobranch|billfish|\\bbonito\\b|halibut|sturgeon|kingfish|\\bdogfish|snake mackerel|orange roughy|gemfish|barramundi|\\brays?\\b|scabbard|hairtail|\\bsierra\\b|alfonsino)"
+        "^(?!.*(lower|except|excluding|other than|exception|in general|\\bgeneral\\b)).*(predator|carnivorous|higher.?mercury|\\btuna\\b|\\bshark|swordfish|\\bmarlin\\b|sailfish|\\bpike\\b|elasmobranch|billfish|\\bbonito\\b|halibut|sturgeon|kingfish|\\bdogfish|snake mackerel|orange roughy|gemfish|barramundi|\\brays?\\b|scabbard|hairtail|\\bsierra\\b|alfonsino)",
+        "condiment"
       ],
       "read_across": {
         "Ni": {
@@ -381,7 +384,8 @@
         "other than those described",
         "\\bfeed",
         "fur animal",
-        "fish oil"
+        "fish oil",
+        "excluding predator"
       ],
       "analyte_scope": {
         "Cr": {
@@ -411,5 +415,6 @@
       }
     }
   },
-  "_doc": "Category-6 (Seafood) config. Species-specific dual-mercury (tHg+MeHg), arsenic iAs+tAs, canned-tin gating, dedicated cephalopod subcategory. Built by derive workflow ws6q2oktn and corrected by adversarial audit wf_925293b1-55f (predatory Cd 100->50 CR general-fish; canned tHg/MeHg/Cd 1000/1000/100->500/500/50 general-fish floor; freshwater tHg 500->300 EU lower-mercury/trout; seaweed basis as_sold dried; cephalopods added) against the complete 2634-row register. 2026-08-25 Certification-Readiness completion: panel expanded to the full 11-analyte certification panel; every no-ML cell now carries a disclosed numeric limit-of-record. MeHg resolves to the strictest species-appropriate government methylmercury ML (predatory 1000, general/other-fishery 500) and is published firm where it is at or below the binding total-mercury ceiling (predatory/canned/shellfish), else bounded by tHg (reconcile threshold strict >). Ni read-across EU 2024/1987 husked-rice 2000 (matrix-nearest, occurrence-cleared; no animal-seafood nickel ML exists); Cr-VI read-across CA SWRCB drinking-water 10 (kept <= total Cr); non-canned Sn read-across EU 2023/915 canned-food inorganic tin 200000 (packaging-migration baseline); Al read-across China GB 2760 baked-foods 100000 (monitor/baseline; occurrence up to ~34000 in canned product would fail the generic 1000 FCM anchor); seaweed total Cr read-across China GB 2762 milk-powder 2000 (monitor; Cr-VI is the binding health control)."
+  "_doc": "Category-6 (Seafood) config. Species-specific dual-mercury (tHg+MeHg), arsenic iAs+tAs, canned-tin gating, dedicated cephalopod subcategory. Built by derive workflow ws6q2oktn and corrected by adversarial audit wf_925293b1-55f (predatory Cd 100->50 CR general-fish; canned tHg/MeHg/Cd 1000/1000/100->500/500/50 general-fish floor; freshwater tHg 500->300 EU lower-mercury/trout; seaweed basis as_sold dried; cephalopods added) against the complete 2634-row register. 2026-08-25 Certification-Readiness completion: panel expanded to the full 11-analyte certification panel; every no-ML cell now carries a disclosed numeric limit-of-record. MeHg resolves to the strictest species-appropriate government methylmercury ML (predatory 1000, general/other-fishery 500) and is published firm where it is at or below the binding total-mercury ceiling (predatory/canned/shellfish), else bounded by tHg (reconcile threshold strict >). Ni read-across EU 2024/1987 husked-rice 2000 (matrix-nearest, occurrence-cleared; no animal-seafood nickel ML exists); Cr-VI read-across CA SWRCB drinking-water 10 (kept <= total Cr); non-canned Sn read-across EU 2023/915 canned-food inorganic tin 200000 (packaging-migration baseline); Al read-across China GB 2760 baked-foods 100000 (monitor/baseline; occurrence up to ~34000 in canned product would fail the generic 1000 FCM anchor); seaweed total Cr read-across China GB 2762 milk-powder 2000 (monitor; Cr-VI is the binding health control).",
+  "_scope_note_2026_09_02": "2026-09-02: GB 2762-2025 rows entered the register. Two scope false positives were caught by the round-trip diff and fixed here, never in the register: (1) the condiments total-arsenic row (Table 4 item 8.1, whose scope text reads 'excluding aquatic condiments') matched the fish scopes' 'aquatic' include and would have bound canned seafood and non-predatory fish at 500 in place of the live 1000; 'condiment' is now excluded. (2) the aquatic-animals methylmercury row (Table 3 item 1.1, 'excluding predatory fish') matched the predatory subcategory's 'predator' include; 'excluding predator' is now excluded so the predatory row (item 1.2, 1000) binds instead. Part 2 direction: toward the literature (each instrument applied within its own stated scope)."
 }
