@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-213 open item(s): 66 auto, 147 awaiting a decision.
+214 open item(s): 66 auto, 148 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -537,6 +537,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Local tag wip/stranded-datacite-cat23-b090435 (commit b090435, authored 2 days ago, never pushed) in heavymetalcertified contains (1) tools/datacite-preflight.mjs, a safe read-only DataCite connection+metadata preflight, on-mission for the approved DOI rollout and worth landing; and (2) edits to 14 data/standards/cat23-compiled/*.json that are STALE. Remote main already completed Cat-23 food-contact plastics correctly at 6016d24/72dfd03 via read-across, so a wholesale push of b090435 would clobber/loosen live Cat-23 standards.
 - done when: datacite-preflight.mjs lands on cert main via a fresh commit touching ONLY that file; Cat-23 compiled standards on main remain the 6016d24/72dfd03 versions not b090435; new commit diff shows no data/standards/cat23-compiled changes
 - decision: _pending_
+
+### OI-20260902-cert-seo-crawl-metadata-129 — Cert seo-audit release gate fix built and verified (129 -> PASS) on heavymetalcertified PR #66; merge = deploy
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `tools/audit-crawl-metadata.mjs`, `tools/postbuild-article-pdf.mjs`, `tools/lib/manual-page.mjs`, `tools/build-category-manual.mjs`, `tools/build-cat1-manual.mjs`, `quartz/components/Head.tsx`
+- repro: On the branch: npm run build green; node tools/audit-crawl-metadata.mjs -> PASS (500 indexable pages, 44 Scholar records, 0 broken internal links); 17/17 briefing PDFs rendered; tsc clean.
+- done when: PR #66 merged to main (cert main push = LIVE); Production deploy of the squash commit succeeds
+- evidence: https://github.com/paleofoundation/heavymetalcertified/pull/66
+- decision: _pending_ — enact: `gh pr merge 66 --repo paleofoundation/heavymetalcertified --squash --delete-branch`
+- notes: Merge attempted by the audit session on 2026-09-02 was declined by the harness permission classifier; awaiting Karen or a session with merge permission.
 
 ### OI-20260902-cert-navpanels-seed-stale — Delete or repurpose stale cert navPanels.seed.ts (holds index-site taxonomy)
 
