@@ -1,0 +1,4 @@
+{
+  "_doc": "Compiled dirs whose confidence manifest must be 100% confirmed for the build to pass (tools/standards/lint-standards-confidence.mjs --block-listed). A dir is listed only once its manifest reaches zero unconfirmed cells; when every dir is listed the prebuild flips to --block together with the cert readiness --strict flip.",
+  "dirs": []
+}

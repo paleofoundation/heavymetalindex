@@ -1,0 +1,32 @@
+{
+  "_doc": "Resume file for docs/tasks/standards-95-confidence-completion-brief.md. Read first on every session start. Written by the session, never by a generator.",
+  "brief": "docs/tasks/standards-95-confidence-completion-brief.md",
+  "sessions": [
+    {
+      "id": "exciting-taussig-159366",
+      "started": "2026-09-02",
+      "model": "claude-fable-5-1",
+      "index_branch": "claude/exciting-taussig-159366",
+      "index_base": "5c6f8bd2c",
+      "cert_base": "c1d41c2"
+    }
+  ],
+  "phase": "B/C/E per category",
+  "phase_a": {
+    "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
+    "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
+    "2_harden_readiness_lint": "done (cert 259dbae; baseline 349 pages/230 COMPLETE/359 empty/29 recordless/2 scaffolds; mint gate cert 4651891)",
+    "3_land_datacite_preflight": "done (cert 1ec06c0 cherry-pick b090435, file only, never run)",
+    "4_diff_compiled_vs_cert": "done (index fdb9e25d0; baseline 1,400 regressions in 23/32 dirs)",
+    "5_provenance_vocabulary": "done (index 0f958a6af)",
+    "6_status_regex_in_force": "done (index 38dcd8953; lib/register-gate.mjs)",
+    "7_baseline_screen_contract": "done (index 10027edfa; cert 96d9358; analytical_methods.csv header-only, no LOQ rows yet)",
+    "8_gb2762_2025_rows": "done (index 5ee436494: 169 rows, 29 superseded; OI-20260902-gb2762-2025-repoint-cat-configs, OI-20260902-gb2762-2025-official-url)"
+  },
+  "phase_b0_unmerged": "done (index PR #118 closed as absorbed; #119 rows absorbed via 2025 successors, rest superseded; cert coffee branch absorbed; cert PRs #2/#42 superseded; OI-20260902-unmerged-standards-work-triage)",
+  "categories": {},
+  "escalations_batched": [],
+  "notes": [
+    "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget"
+  ]
+}

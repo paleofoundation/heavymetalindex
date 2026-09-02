@@ -1,0 +1,277 @@
+{
+  "compiled_dir": "cat30-compiled",
+  "run_id": "run-20260902-a",
+  "instruments": [
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_fats_and_oils_80",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "80",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils and their products (GB 2762-2025 Table 1, item 12.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 12.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.08 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c",
+          "row_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Pb",
+        "cooking-oils-other|default|Cr",
+        "olive-oil|default|Pb",
+        "olive-oil|default|Cr"
+      ]
+    },
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8",
+          "row_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74",
+          "row_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Cd",
+        "cooking-oils-other|default|tHg",
+        "cooking-oils-other|default|MeHg",
+        "olive-oil|default|Cd",
+        "olive-oil|default|tHg",
+        "olive-oil|default|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/codex-fats-oils-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/"
+        ],
+        "raw_paths": [],
+        "wiki_page": null
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "codex_tas_named-vegetable-oils_100",
+          "jurisdiction": "CODEX",
+          "authority": "Codex Alimentarius Commission",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "as sold",
+          "product_scope": "Named vegetable oils",
+          "regulation_page": "regulations/codex-fats-oils-contaminants",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "notes": "CXS 210-1999 Standard for Named Vegetable Oils Sec 5.1 / CXS 19-1981 Edible Fats and Oils Sec 4 set total arsenic 0.1 mg/kg (and lead 0.1 mg/kg) as commodity-standard MLs. Confirmed in force; CCFO29 (2024) directed CCCF to consolidate these As/Pb oil MLs into horizontal CXS 193. Loaded 2026-08-10 (oils not-material audit): closes the As-in-oil no-ML gap so olive-oil/cooking-oils tAs adopt a real ceiling under Method v2.0 rather than being mislabelled not-material.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917",
+          "row_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|tAs",
+        "cooking-oils-other|default|iAs",
+        "olive-oil|default|tAs",
+        "olive-oil|default|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Ni",
+        "olive-oil|default|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Sn",
+        "olive-oil|default|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-10-2011-food-contact-plastics-sml.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_10_2011_al_sml",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "1000",
+          "basis": "specific migration into food; source unit mg/kg food",
+          "product_scope": "plastic food-contact materials and articles",
+          "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831",
+          "notes": "Regulation (EU) 10/2011 Annex II point 1, aluminium SML 1 mg/kg food (added by Reg (EU) 2016/1416).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912",
+          "row_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Al",
+        "olive-oil|default|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/ca-swrcb-hexavalent-chromium-mcl.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
+          "jurisdiction": "US-CA",
+          "authority": "CA SWRCB",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+          "url": "",
+          "notes": "Hexavalent chromium MCL.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585",
+          "row_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Cr-VI",
+        "olive-oil|default|Cr-VI"
+      ]
+    }
+  ]
+}
