@@ -5,9 +5,35 @@
   "version": "cat25-v1.1",
   "version_date": "2026-08-14",
   "method": "HMTc Method v2.0 (government-limit default, route-preserving; strictest applicable sovereign cannabis maximum; occurrence never selects a value)",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
-  "jur_priority": ["US-CA", "US-CO", "US-MA", "US-MD", "US-NV", "IL"],
-  "allowed_provenance": ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
+  "jur_priority": [
+    "US-CA",
+    "US-CO",
+    "US-MA",
+    "US-MD",
+    "US-NV",
+    "IL"
+  ],
+  "allowed_provenance": [
+    "regulatory-alignment",
+    "read-across",
+    "not-material",
+    "control",
+    "ratchet",
+    "subsumed"
+  ],
   "default_controls": {
     "iAs": {
       "provenance": "control",
@@ -66,11 +92,107 @@
       "route_basis_label": "finished inhalable cannabis, product-as-tested (as sold); no reconstitution",
       "scope_note": "Inhaled route. Applicable pool = route-agnostic all-uses cannabis rules plus inhalation-specific rules (California inhalable, Colorado inhaled/nasal, Maryland inhalation). Non-inhaled route limits are not applied.",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_pb_inhalable_cannabis_0_5ugg", "co2022_pb_cannabis_inhaled_nasal_500", "ma2020_pb_cannabis_all_uses_500", "md2025_pb_cannabis_inhalation_1000", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400", "ma2020_cd_cannabis_all_uses_500", "il_imcgmp152_2016_cd_cannabis_500", "nv2020_cd_cannabis_820"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400", "ma2020_tas_cannabis_all_uses_500", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_thg_inhalable_cannabis_0_1ugg", "co2022_thg_cannabis_inhaled_nasal_100", "il_imcgmp152_2016_thg_cannabis_100", "md2025_thg_cannabis_inhalation_200", "ma2020_thg_cannabis_all_uses_500", "nv2020_thg_cannabis_400"] },
-        "Cr": { "provenance": "regulatory-alignment", "gov_ids": ["md2025_cr_total_cannabis_inhalation_600"], "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's sovereign cannabis total-Cr action level for the inhalation route (the only sovereign cannabis program that sets total Cr). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification" }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_pb_inhalable_cannabis_0_5ugg",
+            "co2022_pb_cannabis_inhaled_nasal_500",
+            "ma2020_pb_cannabis_all_uses_500",
+            "md2025_pb_cannabis_inhalation_1000",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400",
+            "ma2020_cd_cannabis_all_uses_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "nv2020_cd_cannabis_820"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400",
+            "ma2020_tas_cannabis_all_uses_500",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_thg_inhalable_cannabis_0_1ugg",
+            "co2022_thg_cannabis_inhaled_nasal_100",
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "md2025_thg_cannabis_inhalation_200",
+            "ma2020_thg_cannabis_all_uses_500",
+            "nv2020_thg_cannabis_400"
+          ]
+        },
+        "Cr": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "md2025_cr_total_cannabis_inhalation_600"
+          ],
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's sovereign cannabis total-Cr action level for the inhalation route (the only sovereign cannabis program that sets total Cr). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "cannabis-edibles": {
@@ -82,11 +204,125 @@
       "scope_note": "Ingested food-form route. Applicable pool = route-agnostic all-uses cannabis rules plus ingestion-specific rules (California non-inhalable, Colorado oral, MA ingestion-only, Maryland edible). Inhalation-route limits are not applied (see audit_excluded_ids).",
       "route_exclusion_reason": "inhalation-route sovereign limit; not applicable to an ingested edible product",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg", "md2025_pb_cannabis_edible_500", "ma2020_pb_cannabis_all_uses_500", "co2022_pb_cannabis_oral_rectal_vaginal_1000", "ma2020_pb_cannabis_ingestion_only_1000", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg", "md2025_cd_cannabis_edible_500", "ma2020_cd_cannabis_all_uses_500", "co2022_cd_cannabis_oral_rectal_vaginal_500", "il_imcgmp152_2016_cd_cannabis_500", "nv2020_cd_cannabis_820", "ma2020_cd_cannabis_ingestion_only_1000"], "audit_excluded_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_tas_cannabis_all_uses_500", "ma2020_tas_cannabis_ingestion_only_1000", "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg", "co2022_tas_cannabis_oral_rectal_vaginal_1500", "md2025_tas_cannabis_edible_1500", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"], "audit_excluded_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["il_imcgmp152_2016_thg_cannabis_100", "nv2020_thg_cannabis_400", "ma2020_thg_cannabis_all_uses_500", "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg", "co2022_thg_cannabis_oral_rectal_vaginal_1500", "md2025_thg_cannabis_edible_3000", "ma2020_thg_cannabis_ingestion_only_1000"] },
-        "Cr": { "provenance": "read-across", "read_across": { "source_id": "md2025_cr_total_cannabis_oral_1100000", "label": "read-across from Maryland's oral-route total-chromium action level; Maryland omits chromium from its edible row and excludes edibles from its oral row, so the nearest analogous sovereign ingested-route value is applied as a disclosed read-across" }, "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's oral-route sovereign total-Cr action level (1,100,000 ug/kg), back-calculated from the USP <232> oral chromium PDE at an assumed serving mass and therefore non-protective (no product approaches it). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification", "audit_excluded_ids": ["md2025_cr_total_cannabis_inhalation_600"] }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg",
+            "md2025_pb_cannabis_edible_500",
+            "ma2020_pb_cannabis_all_uses_500",
+            "co2022_pb_cannabis_oral_rectal_vaginal_1000",
+            "ma2020_pb_cannabis_ingestion_only_1000",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg",
+            "md2025_cd_cannabis_edible_500",
+            "ma2020_cd_cannabis_all_uses_500",
+            "co2022_cd_cannabis_oral_rectal_vaginal_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "nv2020_cd_cannabis_820",
+            "ma2020_cd_cannabis_ingestion_only_1000"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_tas_cannabis_all_uses_500",
+            "ma2020_tas_cannabis_ingestion_only_1000",
+            "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg",
+            "co2022_tas_cannabis_oral_rectal_vaginal_1500",
+            "md2025_tas_cannabis_edible_1500",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "nv2020_thg_cannabis_400",
+            "ma2020_thg_cannabis_all_uses_500",
+            "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg",
+            "co2022_thg_cannabis_oral_rectal_vaginal_1500",
+            "md2025_thg_cannabis_edible_3000",
+            "ma2020_thg_cannabis_ingestion_only_1000"
+          ]
+        },
+        "Cr": {
+          "provenance": "read-across",
+          "read_across": {
+            "source_id": "md2025_cr_total_cannabis_oral_1100000",
+            "label": "read-across from Maryland's oral-route total-chromium action level; Maryland omits chromium from its edible row and excludes edibles from its oral row, so the nearest analogous sovereign ingested-route value is applied as a disclosed read-across"
+          },
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's oral-route sovereign total-Cr action level (1,100,000 ug/kg), back-calculated from the USP <232> oral chromium PDE at an assumed serving mass and therefore non-protective (no product approaches it). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification",
+          "audit_excluded_ids": [
+            "md2025_cr_total_cannabis_inhalation_600"
+          ]
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "cannabis-tinctures-oils": {
@@ -98,11 +334,124 @@
       "scope_note": "Oral/sublingual route (not a food 'edible' form). Applicable pool = route-agnostic all-uses cannabis rules plus oral-route rules (California non-inhalable, Colorado oral, MA ingestion-only, Maryland oral). Inhalation-route limits are not applied (see audit_excluded_ids).",
       "route_exclusion_reason": "inhalation-route sovereign limit; not applicable to an orally/sublingually administered product",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg", "md2025_pb_cannabis_oral_500", "ma2020_pb_cannabis_all_uses_500", "co2022_pb_cannabis_oral_rectal_vaginal_1000", "ma2020_pb_cannabis_ingestion_only_1000", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg", "md2025_cd_cannabis_oral_500", "ma2020_cd_cannabis_all_uses_500", "co2022_cd_cannabis_oral_rectal_vaginal_500", "il_imcgmp152_2016_cd_cannabis_500", "nv2020_cd_cannabis_820", "ma2020_cd_cannabis_ingestion_only_1000"], "audit_excluded_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_tas_cannabis_all_uses_500", "ma2020_tas_cannabis_ingestion_only_1000", "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg", "co2022_tas_cannabis_oral_rectal_vaginal_1500", "md2025_tas_cannabis_oral_1500", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"], "audit_excluded_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["il_imcgmp152_2016_thg_cannabis_100", "nv2020_thg_cannabis_400", "ma2020_thg_cannabis_all_uses_500", "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg", "co2022_thg_cannabis_oral_rectal_vaginal_1500", "md2025_thg_cannabis_oral_3000", "ma2020_thg_cannabis_ingestion_only_1000"] },
-        "Cr": { "provenance": "regulatory-alignment", "gov_ids": ["md2025_cr_total_cannabis_oral_1100000"], "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's oral-route sovereign total-Cr action level (1,100,000 ug/kg, directly applicable to a non-edible oral cannabis product), back-calculated from the USP <232> oral chromium PDE and therefore non-protective. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification", "audit_excluded_ids": ["md2025_cr_total_cannabis_inhalation_600"] }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg",
+            "md2025_pb_cannabis_oral_500",
+            "ma2020_pb_cannabis_all_uses_500",
+            "co2022_pb_cannabis_oral_rectal_vaginal_1000",
+            "ma2020_pb_cannabis_ingestion_only_1000",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg",
+            "md2025_cd_cannabis_oral_500",
+            "ma2020_cd_cannabis_all_uses_500",
+            "co2022_cd_cannabis_oral_rectal_vaginal_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "nv2020_cd_cannabis_820",
+            "ma2020_cd_cannabis_ingestion_only_1000"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_tas_cannabis_all_uses_500",
+            "ma2020_tas_cannabis_ingestion_only_1000",
+            "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg",
+            "co2022_tas_cannabis_oral_rectal_vaginal_1500",
+            "md2025_tas_cannabis_oral_1500",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "nv2020_thg_cannabis_400",
+            "ma2020_thg_cannabis_all_uses_500",
+            "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg",
+            "co2022_thg_cannabis_oral_rectal_vaginal_1500",
+            "md2025_thg_cannabis_oral_3000",
+            "ma2020_thg_cannabis_ingestion_only_1000"
+          ]
+        },
+        "Cr": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "md2025_cr_total_cannabis_oral_1100000"
+          ],
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's oral-route sovereign total-Cr action level (1,100,000 ug/kg, directly applicable to a non-edible oral cannabis product), back-calculated from the USP <232> oral chromium PDE and therefore non-protective. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification",
+          "audit_excluded_ids": [
+            "md2025_cr_total_cannabis_inhalation_600"
+          ]
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "cannabis-topicals": {
@@ -114,11 +463,120 @@
       "scope_note": "Cutaneous/dermal route. Applicable pool = route-agnostic all-uses cannabis rules plus dermal rules (California non-inhalable, Colorado topical/transdermal, Maryland cutaneous). Inhalation-route limits are not applied (see audit_excluded_ids); MA ingestion-only does not apply to a topical.",
       "route_exclusion_reason": "inhalation-route sovereign limit; not applicable to a topically applied product",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg", "ma2020_pb_cannabis_all_uses_500", "md2025_pb_cannabis_cutaneous_5000", "co2022_pb_cannabis_topical_transdermal_10000", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg", "ma2020_cd_cannabis_all_uses_500", "il_imcgmp152_2016_cd_cannabis_500", "md2025_cd_cannabis_cutaneous_2000", "co2022_cd_cannabis_topical_transdermal_3000", "nv2020_cd_cannabis_820"], "audit_excluded_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_tas_cannabis_all_uses_500", "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg", "md2025_tas_cannabis_cutaneous_3000", "co2022_tas_cannabis_topical_transdermal_3000", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"], "audit_excluded_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["il_imcgmp152_2016_thg_cannabis_100", "nv2020_thg_cannabis_400", "ma2020_thg_cannabis_all_uses_500", "co2022_thg_cannabis_topical_transdermal_1000", "md2025_thg_cannabis_cutaneous_3000", "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg"] },
-        "Cr": { "provenance": "regulatory-alignment", "gov_ids": ["md2025_cr_total_cannabis_cutaneous_1100000"], "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's cutaneous-route sovereign total-Cr action level (1,100,000 ug/kg, directly applicable to a topical), back-calculated from the USP <232> chromium PDE and therefore non-protective. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification", "audit_excluded_ids": ["md2025_cr_total_cannabis_inhalation_600"] }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg",
+            "ma2020_pb_cannabis_all_uses_500",
+            "md2025_pb_cannabis_cutaneous_5000",
+            "co2022_pb_cannabis_topical_transdermal_10000",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg",
+            "ma2020_cd_cannabis_all_uses_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "md2025_cd_cannabis_cutaneous_2000",
+            "co2022_cd_cannabis_topical_transdermal_3000",
+            "nv2020_cd_cannabis_820"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_tas_cannabis_all_uses_500",
+            "us_ca_dcc_2026_tas_non_inhalable_cannabis_1_5ugg",
+            "md2025_tas_cannabis_cutaneous_3000",
+            "co2022_tas_cannabis_topical_transdermal_3000",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "nv2020_thg_cannabis_400",
+            "ma2020_thg_cannabis_all_uses_500",
+            "co2022_thg_cannabis_topical_transdermal_1000",
+            "md2025_thg_cannabis_cutaneous_3000",
+            "us_ca_dcc_2026_thg_non_inhalable_cannabis_3ugg"
+          ]
+        },
+        "Cr": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "md2025_cr_total_cannabis_cutaneous_1100000"
+          ],
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's cutaneous-route sovereign total-Cr action level (1,100,000 ug/kg, directly applicable to a topical), back-calculated from the USP <232> chromium PDE and therefore non-protective. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification",
+          "audit_excluded_ids": [
+            "md2025_cr_total_cannabis_inhalation_600"
+          ]
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "cannabis-concentrates": {
@@ -130,11 +588,106 @@
       "scope_note": "Concentrates span more than one route of use. The row is certified on the route-agnostic all-uses cannabis rules only (MA all-uses, Nevada, Israel), plus Maryland's inhalation total-chromium value as a route-protective disclosed read-across (a concentrate may be inhaled). A concentrate marketed exclusively for a single route must additionally satisfy that route's own row.",
       "route_exclusion_reason": "route-specific sovereign limit; concentrates are certified on the route-agnostic all-uses basis, so route-specific stricter limits are not applied to this multi-route row (a single-route concentrate must also meet that route's row)",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_pb_cannabis_all_uses_500", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_cd_cannabis_all_uses_500", "il_imcgmp152_2016_cd_cannabis_500", "nv2020_cd_cannabis_820"], "audit_excluded_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["ma2020_tas_cannabis_all_uses_500", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"], "audit_excluded_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["il_imcgmp152_2016_thg_cannabis_100", "nv2020_thg_cannabis_400", "ma2020_thg_cannabis_all_uses_500"] },
-        "Cr": { "provenance": "read-across", "read_across": { "source_id": "md2025_cr_total_cannabis_inhalation_600", "label": "route-protective read-across from Maryland's inhalation total-chromium action limit; a concentrate may be inhaled, so the strict inhalation chromium value governs this multi-route row rather than the non-protective oral/cutaneous value" }, "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's inhalation-route sovereign total-Cr action level (600 ug/kg), applied route-protectively because a concentrate may be inhaled. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification" }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_pb_cannabis_all_uses_500",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_cd_cannabis_all_uses_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "nv2020_cd_cannabis_820"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "ma2020_tas_cannabis_all_uses_500",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ],
+          "audit_excluded_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "nv2020_thg_cannabis_400",
+            "ma2020_thg_cannabis_all_uses_500"
+          ]
+        },
+        "Cr": {
+          "provenance": "read-across",
+          "read_across": {
+            "source_id": "md2025_cr_total_cannabis_inhalation_600",
+            "label": "route-protective read-across from Maryland's inhalation total-chromium action limit; a concentrate may be inhaled, so the strict inhalation chromium value governs this multi-route row rather than the non-protective oral/cutaneous value"
+          },
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's inhalation-route sovereign total-Cr action level (600 ug/kg), applied route-protectively because a concentrate may be inhaled. The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "cannabis-vape-cartridge-fill": {
@@ -147,12 +700,109 @@
       "scope_note": "The filled cartridge / vape oil is a finished INHALED cannabis product, directly governed by the inhaled-route sovereign limits (same applicable pool as flower). This row sets total-CONTENT limits for the consumable. It does NOT cover metal RELEASE from the device heating element into the inhaled aerosol, which is a different measured quantity (emissions basis, ug emitted) and remains reserved — see reserved.cannabis-vape-hardware.",
       "route_exclusion_reason": "non-inhalation-route sovereign limit; not applicable to an inhaled vape consumable",
       "cells": {
-        "Pb": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_pb_inhalable_cannabis_0_5ugg", "co2022_pb_cannabis_inhaled_nasal_500", "ma2020_pb_cannabis_all_uses_500", "md2025_pb_cannabis_inhalation_1000", "nv2020_pb_cannabis_1200", "il_imcgmp152_2016_pb_cannabis_5000"] },
-        "Cd": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg", "co2022_cd_cannabis_inhaled_nasal_200", "md2025_cd_cannabis_inhalation_400", "ma2020_cd_cannabis_all_uses_500", "il_imcgmp152_2016_cd_cannabis_500", "nv2020_cd_cannabis_820"] },
-        "tAs": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg", "co2022_tas_cannabis_inhaled_nasal_200", "md2025_tas_cannabis_inhalation_400", "ma2020_tas_cannabis_all_uses_500", "nv2020_tas_cannabis_2000", "il_imcgmp152_2016_tas_cannabis_2500"] },
-        "tHg": { "provenance": "regulatory-alignment", "gov_ids": ["us_ca_dcc_2026_thg_inhalable_cannabis_0_1ugg", "co2022_thg_cannabis_inhaled_nasal_100", "il_imcgmp152_2016_thg_cannabis_100", "md2025_thg_cannabis_inhalation_200", "ma2020_thg_cannabis_all_uses_500", "nv2020_thg_cannabis_400"] },
-        "Cr": { "provenance": "regulatory-alignment", "gov_ids": ["md2025_cr_total_cannabis_inhalation_600"], "screen": true, "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's inhalation-route sovereign total-Cr action level (600 ug/kg). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.", "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification" }
+        "Pb": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_pb_inhalable_cannabis_0_5ugg",
+            "co2022_pb_cannabis_inhaled_nasal_500",
+            "ma2020_pb_cannabis_all_uses_500",
+            "md2025_pb_cannabis_inhalation_1000",
+            "nv2020_pb_cannabis_1200",
+            "il_imcgmp152_2016_pb_cannabis_5000"
+          ]
+        },
+        "Cd": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+            "co2022_cd_cannabis_inhaled_nasal_200",
+            "md2025_cd_cannabis_inhalation_400",
+            "ma2020_cd_cannabis_all_uses_500",
+            "il_imcgmp152_2016_cd_cannabis_500",
+            "nv2020_cd_cannabis_820"
+          ]
+        },
+        "tAs": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+            "co2022_tas_cannabis_inhaled_nasal_200",
+            "md2025_tas_cannabis_inhalation_400",
+            "ma2020_tas_cannabis_all_uses_500",
+            "nv2020_tas_cannabis_2000",
+            "il_imcgmp152_2016_tas_cannabis_2500"
+          ]
+        },
+        "tHg": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "us_ca_dcc_2026_thg_inhalable_cannabis_0_1ugg",
+            "co2022_thg_cannabis_inhaled_nasal_100",
+            "il_imcgmp152_2016_thg_cannabis_100",
+            "md2025_thg_cannabis_inhalation_200",
+            "ma2020_thg_cannabis_all_uses_500",
+            "nv2020_thg_cannabis_400"
+          ]
+        },
+        "Cr": {
+          "provenance": "regulatory-alignment",
+          "gov_ids": [
+            "md2025_cr_total_cannabis_inhalation_600"
+          ],
+          "screen": true,
+          "screen_note": "Total chromium is a screening ceiling, not a health limit: it is dominated by benign Cr(III) while the health-relevant species is Cr(VI). The value is Maryland's inhalation-route sovereign total-Cr action level (600 ug/kg). The binding health control is Cr(VI): any quantifiable Cr(VI) fails certification.",
+          "binding_control": "Cr(VI) — any quantifiable Cr(VI) fails certification"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "read_across": {
+            "source_id": "eu2024_ni_cereals_800",
+            "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (eu2024_ni_cereals_800). Nearest applicable sovereign Ni ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "read_across": {
+            "source_id": "sg_foodregs_2026_any_food_sn_250000",
+            "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (sg_foodregs_2026_any_food_sn_250000). Nearest applicable sovereign Sn ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "read_across": {
+            "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+            "substantiation": "Disclosed read-across, register-verified (cn_gb2760_2024_al_baked_foods_100000). Nearest applicable sovereign Al ceiling for this product form. Not occurrence-derived."
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "36 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat25-compiled.json"
 }
