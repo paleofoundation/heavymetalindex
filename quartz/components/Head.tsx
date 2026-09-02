@@ -89,6 +89,17 @@ function CitationMetadata({
   if (!frontmatter) return null
   const slugStr = (slug ?? "") as string
 
+  // Folder-index pages (synthesis/index, metals/index, sources/index) are
+  // navigation surfaces, not works. Suppress Highwire/Google Scholar citation
+  // metadata for them so a contentless index — citation_title "Synthesis",
+  // "Metals", "Sources" — never registers as a thin technical report under the
+  // author's name and dilutes the citation graph. Mirrors the index guard the
+  // OG article-type helper already applies above.
+  const indexType = frontmatterString(frontmatter.type)?.toLowerCase()
+  if (slugStr === "index" || slugStr.endsWith("/index") || (indexType?.endsWith("-index") ?? false)) {
+    return null
+  }
+
   // Source pages represent the underlying paper — emit its real bibliographic
   // record (author, journal, the paper's own DOI).
   const isSourcePage = frontmatter.type === "source" || slugStr.startsWith("sources/")
