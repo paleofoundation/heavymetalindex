@@ -17,9 +17,11 @@
   "provenance_tags_allowed": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "cells": {
     "Pb": {

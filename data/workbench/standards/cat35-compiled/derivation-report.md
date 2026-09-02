@@ -6,7 +6,7 @@ COMPOSITE CONVENTION. No credible sovereign government sets a contaminant maximu
 Native basis family: dietary as-consumed wet weight (the composite is assessed ready-to-eat or ready-to-serve; component maximum levels expressed as wet weight, as sold, as placed on the market, or as the portion ordinarily consumed are comparable at face value within this family).
 Credible-regulator set: EU, UK, CODEX, international, US, AU-NZ, CA, HK.
 Credible-set note: Restated explicitly rather than widened: this set is identical to the compiler default. Hong Kong (Food Adulteration (Metallic Contamination) Regulations, Cap. 132V) was admitted on 2026-08-17 on the bone-broth precedent, because its Part 2 Schedule is a comprehensive per-commodity metallic-contamination schedule that reaches commodities the EU, Codex and FSANZ leave unregulated: terrestrial-animal, vegetable and cereal mercury, vegetable and meat total arsenic, and total chromium in vegetables, pulses, cereals, meat and poultry. That admission is what finishes the two composite rows, because those Cap. 132V component values are stricter than the bindings v1.0 selected.
-Provenance tags: regulatory-alignment | read-across | not-material | control | ratchet.
+Provenance tags (lib/provenance.mjs): regulatory-alignment | read-across | subsumed | baseline-screen | ratchet; transitional control | not-material.
 STAFF / HMTc content — not public wiki (CLAUDE.md Part 19 firewall). Generated from
 data/evidence/regulatory_limits.csv via tools/standards/compile-category.mjs + cat35-config.json.
 Version: cat35-v1.2 (2026-08-17)
