@@ -1,0 +1,3120 @@
+[
+ {
+  "certDir": "cat1-compiled",
+  "indexDir": "cat1-compiled",
+  "records": [
+   {
+    "slug": "baby-cereals-dry-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "baby-cereals-dry-rice-based",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-desserts",
+    "status": "index-only"
+   },
+   {
+    "slug": "fish-containing-baby-food",
+    "status": "index-only"
+   },
+   {
+    "slug": "fruit-juice",
+    "status": "both"
+   },
+   {
+    "slug": "fruit-purees-general",
+    "status": "both"
+   },
+   {
+    "slug": "infant-formula-powder",
+    "status": "both"
+   },
+   {
+    "slug": "infant-formula-rtf-liquid",
+    "status": "both"
+   },
+   {
+    "slug": "mixed-meals-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "mixed-meals-rice-containing",
+    "status": "both"
+   },
+   {
+    "slug": "non-root-vegetable-purees",
+    "status": "both"
+   },
+   {
+    "slug": "root-vegetable-purees-single-ingredient",
+    "status": "both"
+   },
+   {
+    "slug": "single-ingredient-meats",
+    "status": "index-only"
+   },
+   {
+    "slug": "teething-and-snacks-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "teething-and-snacks-rice-based",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 97,
+   "kind-change": 4,
+   "index-bounded-cert-empty": 28,
+   "cert-valued-index-empty": 12,
+   "prose-only": 6,
+   "index-tighter": 3,
+   "anchor-change": 4
+  },
+  "regressions": [
+   "baby-cereals-dry-non-rice[both] Cr: R2:non-null→null (1000→not_material)",
+   "baby-cereals-dry-rice-based[both] iAs: R2:non-null→null (20→subsumed)",
+   "baby-cereals-dry-rice-based[both] Cr: R2:non-null→null (1000→not_material)",
+   "fruit-juice[both] Cr: R2:non-null→null (50→not_material)",
+   "fruit-purees-general[both] Cr: R2:non-null→null (1000→not_material)",
+   "mixed-meals-non-rice[both] Cr: R2:non-null→null (500→not_material)",
+   "mixed-meals-rice-containing[both] Cr: R2:non-null→null (500→not_material)",
+   "non-root-vegetable-purees[both] Cr: R2:non-null→null (500→not_material)",
+   "root-vegetable-purees-single-ingredient[both] Cr: R2:non-null→null (500→not_material)",
+   "teething-and-snacks-non-rice[both] Cr: R2:non-null→null (1000→not_material)",
+   "teething-and-snacks-rice-based[both] iAs: R2:non-null→null (20→subsumed)",
+   "teething-and-snacks-rice-based[both] Cr: R2:non-null→null (1000→not_material)"
+  ]
+ },
+ {
+  "certDir": "cat10-compiled",
+  "indexDir": "cat10-compiled",
+  "records": [
+   {
+    "slug": "bibs",
+    "status": "both"
+   },
+   {
+    "slug": "blankets-and-sleep-sacks",
+    "status": "both"
+   },
+   {
+    "slug": "car-seats",
+    "status": "both"
+   },
+   {
+    "slug": "clasps-fasteners-infant-products",
+    "status": "both"
+   },
+   {
+    "slug": "cribs-and-bassinets",
+    "status": "both"
+   },
+   {
+    "slug": "high-chairs-and-booster-seats",
+    "status": "both"
+   },
+   {
+    "slug": "infant-carriers",
+    "status": "both"
+   },
+   {
+    "slug": "infant-clothing",
+    "status": "both"
+   },
+   {
+    "slug": "play-yards-and-gates",
+    "status": "both"
+   },
+   {
+    "slug": "strollers",
+    "status": "both"
+   },
+   {
+    "slug": "swings-and-bouncers",
+    "status": "both"
+   },
+   {
+    "slug": "walkers",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 69,
+   "cert-bounded-index-empty": 24,
+   "cert-valued-index-empty": 39
+  },
+  "regressions": [
+   "bibs[_] iAs: R3:subsumed→not_material",
+   "bibs[_] tHg: R2:non-null→null (1900→control)",
+   "bibs[_] MeHg: R3:subsumed→not_material",
+   "bibs[_] Ni: R2:non-null→null (18800→control)",
+   "bibs[_] Sn: R2:non-null→null (1000000→control)",
+   "bibs[_] Al: R2:non-null→null (560000→control)",
+   "blankets-and-sleep-sacks[_] iAs: R3:subsumed→not_material",
+   "blankets-and-sleep-sacks[_] tHg: R2:non-null→null (1900→control)",
+   "blankets-and-sleep-sacks[_] MeHg: R3:subsumed→not_material",
+   "blankets-and-sleep-sacks[_] Ni: R2:non-null→null (18800→control)",
+   "blankets-and-sleep-sacks[_] Sn: R2:non-null→null (1000000→control)",
+   "blankets-and-sleep-sacks[_] Al: R2:non-null→null (560000→control)",
+   "car-seats[_] iAs: R3:subsumed→control",
+   "car-seats[_] MeHg: R3:subsumed→not_material",
+   "car-seats[_] Ni: R2:non-null→null (930000→control)",
+   "car-seats[_] Sn: R2:non-null→null (180000000→control)",
+   "car-seats[_] Al: R2:non-null→null (28130000→control)",
+   "clasps-fasteners-infant-products[_] iAs: R3:subsumed→control",
+   "clasps-fasteners-infant-products[_] MeHg: R3:subsumed→not_material",
+   "clasps-fasteners-infant-products[_] Ni: R2:non-null→null (930000→control)",
+   "clasps-fasteners-infant-products[_] Sn: R2:non-null→null (180000000→control)",
+   "clasps-fasteners-infant-products[_] Al: R2:non-null→null (28130000→control)",
+   "cribs-and-bassinets[_] iAs: R3:subsumed→control",
+   "cribs-and-bassinets[_] MeHg: R3:subsumed→not_material",
+   "cribs-and-bassinets[_] Ni: R2:non-null→null (930000→control)",
+   "cribs-and-bassinets[_] Sn: R2:non-null→null (180000000→control)",
+   "cribs-and-bassinets[_] Al: R2:non-null→null (28130000→control)",
+   "high-chairs-and-booster-seats[_] iAs: R3:subsumed→control",
+   "high-chairs-and-booster-seats[_] MeHg: R3:subsumed→not_material",
+   "high-chairs-and-booster-seats[_] Ni: R2:non-null→null (930000→control)",
+   "high-chairs-and-booster-seats[_] Sn: R2:non-null→null (180000000→control)",
+   "high-chairs-and-booster-seats[_] Al: R2:non-null→null (28130000→control)",
+   "infant-carriers[_] iAs: R3:subsumed→control",
+   "infant-carriers[_] MeHg: R3:subsumed→not_material",
+   "infant-carriers[_] Ni: R2:non-null→null (930000→control)",
+   "infant-carriers[_] Sn: R2:non-null→null (180000000→control)",
+   "infant-carriers[_] Al: R2:non-null→null (28130000→control)",
+   "infant-clothing[_] iAs: R3:subsumed→not_material",
+   "infant-clothing[_] tHg: R2:non-null→null (1900→control)",
+   "infant-clothing[_] MeHg: R3:subsumed→not_material",
+   "infant-clothing[_] Ni: R2:non-null→null (18800→control)",
+   "infant-clothing[_] Sn: R2:non-null→null (1000000→control)",
+   "infant-clothing[_] Al: R2:non-null→null (560000→control)",
+   "play-yards-and-gates[_] iAs: R3:subsumed→control",
+   "play-yards-and-gates[_] MeHg: R3:subsumed→not_material",
+   "play-yards-and-gates[_] Ni: R2:non-null→null (930000→control)",
+   "play-yards-and-gates[_] Sn: R2:non-null→null (180000000→control)",
+   "play-yards-and-gates[_] Al: R2:non-null→null (28130000→control)",
+   "strollers[_] iAs: R3:subsumed→control",
+   "strollers[_] MeHg: R3:subsumed→not_material",
+   "strollers[_] Ni: R2:non-null→null (930000→control)",
+   "strollers[_] Sn: R2:non-null→null (180000000→control)",
+   "strollers[_] Al: R2:non-null→null (28130000→control)",
+   "swings-and-bouncers[_] iAs: R3:subsumed→control",
+   "swings-and-bouncers[_] MeHg: R3:subsumed→not_material",
+   "swings-and-bouncers[_] Ni: R2:non-null→null (930000→control)",
+   "swings-and-bouncers[_] Sn: R2:non-null→null (180000000→control)",
+   "swings-and-bouncers[_] Al: R2:non-null→null (28130000→control)",
+   "walkers[_] iAs: R3:subsumed→control",
+   "walkers[_] MeHg: R3:subsumed→not_material",
+   "walkers[_] Ni: R2:non-null→null (930000→control)",
+   "walkers[_] Sn: R2:non-null→null (180000000→control)",
+   "walkers[_] Al: R2:non-null→null (28130000→control)"
+  ]
+ },
+ {
+  "certDir": "cat11-compiled",
+  "indexDir": "cat11-compiled",
+  "records": [
+   {
+    "slug": "beef-product",
+    "status": "both"
+   },
+   {
+    "slug": "canned-meats",
+    "status": "both"
+   },
+   {
+    "slug": "eggs-product",
+    "status": "both"
+   },
+   {
+    "slug": "game-meats",
+    "status": "both"
+   },
+   {
+    "slug": "lamb-mutton",
+    "status": "both"
+   },
+   {
+    "slug": "plant-based-meat-alternatives",
+    "status": "both"
+   },
+   {
+    "slug": "pork-product",
+    "status": "both"
+   },
+   {
+    "slug": "poultry-product",
+    "status": "both"
+   },
+   {
+    "slug": "processed-meats",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 99
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat13-compiled",
+  "indexDir": "cat13-compiled",
+  "records": [
+   {
+    "slug": "antiperspirant",
+    "status": "both"
+   },
+   {
+    "slug": "body-hand-leave-on-skin-care",
+    "status": "both"
+   },
+   {
+    "slug": "deodorants",
+    "status": "both"
+   },
+   {
+    "slug": "dusting-powder-cornstarch-adult",
+    "status": "both"
+   },
+   {
+    "slug": "dusting-talc-powders-adult",
+    "status": "both"
+   },
+   {
+    "slug": "eye-makeup",
+    "status": "both"
+   },
+   {
+    "slug": "face-neck-leave-on-skin-care",
+    "status": "both"
+   },
+   {
+    "slug": "fragrance-preparations",
+    "status": "both"
+   },
+   {
+    "slug": "leave-on-hair-preparations",
+    "status": "both"
+   },
+   {
+    "slug": "leave-on-preparations-other",
+    "status": "both"
+   },
+   {
+    "slug": "lipstick",
+    "status": "both"
+   },
+   {
+    "slug": "makeup-body-paints-bases-fixatives",
+    "status": "both"
+   },
+   {
+    "slug": "makeup-foundation-powders-blush",
+    "status": "both"
+   },
+   {
+    "slug": "manicuring-preparations-leave-on",
+    "status": "both"
+   },
+   {
+    "slug": "permanent-hair-dyes-tints",
+    "status": "both"
+   },
+   {
+    "slug": "sun-suntan-mineral",
+    "status": "both"
+   },
+   {
+    "slug": "sun-suntan-products",
+    "status": "both"
+   },
+   {
+    "slug": "tattoo-inks",
+    "status": "both"
+   },
+   {
+    "slug": "traditional-eye-cosmetics",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 100,
+   "cert-bounded-index-empty": 38,
+   "cert-valued-index-empty": 71
+  },
+  "regressions": [
+   "antiperspirant[_] iAs: R3:subsumed→control",
+   "antiperspirant[_] MeHg: R3:subsumed→not_material",
+   "antiperspirant[_] Sn: R2:non-null→null (3750000→control)",
+   "antiperspirant[_] Cr: R2:non-null→null (50→control)",
+   "antiperspirant[_] Cr-VI: R2:non-null→null (5→control)",
+   "body-hand-leave-on-skin-care[_] iAs: R3:subsumed→control",
+   "body-hand-leave-on-skin-care[_] MeHg: R3:subsumed→not_material",
+   "body-hand-leave-on-skin-care[_] Sn: R2:non-null→null (3750000→control)",
+   "body-hand-leave-on-skin-care[_] Al: R2:non-null→null (560000→control)",
+   "body-hand-leave-on-skin-care[_] Cr: R2:non-null→null (50→control)",
+   "body-hand-leave-on-skin-care[_] Cr-VI: R2:non-null→null (5→control)",
+   "deodorants[_] iAs: R3:subsumed→control",
+   "deodorants[_] MeHg: R3:subsumed→not_material",
+   "deodorants[_] Sn: R2:non-null→null (3750000→control)",
+   "deodorants[_] Al: R2:non-null→null (560000→control)",
+   "deodorants[_] Cr: R2:non-null→null (50→control)",
+   "deodorants[_] Cr-VI: R2:non-null→null (5→control)",
+   "dusting-powder-cornstarch-adult[_] iAs: R3:subsumed→control",
+   "dusting-powder-cornstarch-adult[_] MeHg: R3:subsumed→not_material",
+   "dusting-powder-cornstarch-adult[_] Sn: R2:non-null→null (3750000→control)",
+   "dusting-powder-cornstarch-adult[_] Al: R2:non-null→null (560000→control)",
+   "dusting-powder-cornstarch-adult[_] Cr: R2:non-null→null (50→control)",
+   "dusting-powder-cornstarch-adult[_] Cr-VI: R2:non-null→null (5→control)",
+   "dusting-talc-powders-adult[_] iAs: R3:subsumed→control",
+   "dusting-talc-powders-adult[_] MeHg: R3:subsumed→not_material",
+   "dusting-talc-powders-adult[_] Sn: R2:non-null→null (3750000→control)",
+   "dusting-talc-powders-adult[_] Al: R2:non-null→null (560000→control)",
+   "dusting-talc-powders-adult[_] Cr: R2:non-null→null (50→control)",
+   "dusting-talc-powders-adult[_] Cr-VI: R2:non-null→null (5→control)",
+   "eye-makeup[_] iAs: R3:subsumed→control",
+   "eye-makeup[_] MeHg: R3:subsumed→not_material",
+   "eye-makeup[_] Sn: R2:non-null→null (3750000→control)",
+   "eye-makeup[_] Al: R2:non-null→null (560000→control)",
+   "eye-makeup[_] Cr: R2:non-null→null (50→control)",
+   "eye-makeup[_] Cr-VI: R2:non-null→null (5→control)",
+   "face-neck-leave-on-skin-care[_] iAs: R3:subsumed→control",
+   "face-neck-leave-on-skin-care[_] MeHg: R3:subsumed→not_material",
+   "face-neck-leave-on-skin-care[_] Sn: R2:non-null→null (3750000→control)",
+   "face-neck-leave-on-skin-care[_] Al: R2:non-null→null (560000→control)",
+   "face-neck-leave-on-skin-care[_] Cr: R2:non-null→null (50→control)",
+   "face-neck-leave-on-skin-care[_] Cr-VI: R2:non-null→null (5→control)",
+   "fragrance-preparations[_] iAs: R3:subsumed→control",
+   "fragrance-preparations[_] MeHg: R3:subsumed→not_material",
+   "fragrance-preparations[_] Sn: R2:non-null→null (3750000→control)",
+   "fragrance-preparations[_] Al: R2:non-null→null (560000→control)",
+   "fragrance-preparations[_] Cr: R2:non-null→null (50→control)",
+   "fragrance-preparations[_] Cr-VI: R2:non-null→null (5→control)",
+   "leave-on-hair-preparations[_] iAs: R3:subsumed→control",
+   "leave-on-hair-preparations[_] MeHg: R3:subsumed→not_material",
+   "leave-on-hair-preparations[_] Sn: R2:non-null→null (3750000→control)",
+   "leave-on-hair-preparations[_] Al: R2:non-null→null (560000→control)",
+   "leave-on-hair-preparations[_] Cr: R2:non-null→null (50→control)",
+   "leave-on-hair-preparations[_] Cr-VI: R2:non-null→null (5→control)",
+   "leave-on-preparations-other[_] iAs: R3:subsumed→control",
+   "leave-on-preparations-other[_] MeHg: R3:subsumed→not_material",
+   "leave-on-preparations-other[_] Sn: R2:non-null→null (3750000→control)",
+   "leave-on-preparations-other[_] Al: R2:non-null→null (560000→control)",
+   "leave-on-preparations-other[_] Cr: R2:non-null→null (50→control)",
+   "leave-on-preparations-other[_] Cr-VI: R2:non-null→null (5→control)",
+   "lipstick[_] iAs: R3:subsumed→control",
+   "lipstick[_] MeHg: R3:subsumed→not_material",
+   "lipstick[_] Sn: R2:non-null→null (3750000→control)",
+   "lipstick[_] Al: R2:non-null→null (560000→control)",
+   "lipstick[_] Cr: R2:non-null→null (50→control)",
+   "lipstick[_] Cr-VI: R2:non-null→null (5→control)",
+   "makeup-body-paints-bases-fixatives[_] iAs: R3:subsumed→control",
+   "makeup-body-paints-bases-fixatives[_] MeHg: R3:subsumed→not_material",
+   "makeup-body-paints-bases-fixatives[_] Sn: R2:non-null→null (3750000→control)",
+   "makeup-body-paints-bases-fixatives[_] Al: R2:non-null→null (560000→control)",
+   "makeup-body-paints-bases-fixatives[_] Cr: R2:non-null→null (50→control)",
+   "makeup-body-paints-bases-fixatives[_] Cr-VI: R2:non-null→null (5→control)",
+   "makeup-foundation-powders-blush[_] iAs: R3:subsumed→control",
+   "makeup-foundation-powders-blush[_] MeHg: R3:subsumed→not_material",
+   "makeup-foundation-powders-blush[_] Sn: R2:non-null→null (3750000→control)",
+   "makeup-foundation-powders-blush[_] Al: R2:non-null→null (560000→control)",
+   "makeup-foundation-powders-blush[_] Cr: R2:non-null→null (50→control)",
+   "makeup-foundation-powders-blush[_] Cr-VI: R2:non-null→null (5→control)",
+   "manicuring-preparations-leave-on[_] iAs: R3:subsumed→control",
+   "manicuring-preparations-leave-on[_] MeHg: R3:subsumed→not_material",
+   "manicuring-preparations-leave-on[_] Sn: R2:non-null→null (3750000→control)",
+   "manicuring-preparations-leave-on[_] Al: R2:non-null→null (560000→control)",
+   "manicuring-preparations-leave-on[_] Cr: R2:non-null→null (50→control)",
+   "manicuring-preparations-leave-on[_] Cr-VI: R2:non-null→null (5→control)",
+   "permanent-hair-dyes-tints[_] iAs: R3:subsumed→control",
+   "permanent-hair-dyes-tints[_] MeHg: R3:subsumed→not_material",
+   "permanent-hair-dyes-tints[_] Sn: R2:non-null→null (3750000→control)",
+   "permanent-hair-dyes-tints[_] Al: R2:non-null→null (560000→control)",
+   "permanent-hair-dyes-tints[_] Cr: R2:non-null→null (50→control)",
+   "permanent-hair-dyes-tints[_] Cr-VI: R2:non-null→null (5→control)",
+   "sun-suntan-mineral[_] iAs: R3:subsumed→control",
+   "sun-suntan-mineral[_] MeHg: R3:subsumed→not_material",
+   "sun-suntan-mineral[_] Sn: R2:non-null→null (3750000→control)",
+   "sun-suntan-mineral[_] Al: R2:non-null→null (560000→control)",
+   "sun-suntan-mineral[_] Cr: R2:non-null→null (50→control)",
+   "sun-suntan-mineral[_] Cr-VI: R2:non-null→null (5→control)",
+   "sun-suntan-products[_] iAs: R3:subsumed→control",
+   "sun-suntan-products[_] MeHg: R3:subsumed→not_material",
+   "sun-suntan-products[_] Sn: R2:non-null→null (3750000→control)",
+   "sun-suntan-products[_] Al: R2:non-null→null (560000→control)",
+   "sun-suntan-products[_] Cr: R2:non-null→null (50→control)",
+   "sun-suntan-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "tattoo-inks[_] iAs: R3:subsumed→control",
+   "tattoo-inks[_] MeHg: R3:subsumed→not_material",
+   "traditional-eye-cosmetics[_] iAs: R3:subsumed→control",
+   "traditional-eye-cosmetics[_] MeHg: R3:subsumed→not_material",
+   "traditional-eye-cosmetics[_] Sn: R2:non-null→null (3750000→control)",
+   "traditional-eye-cosmetics[_] Al: R2:non-null→null (560000→control)",
+   "traditional-eye-cosmetics[_] Cr: R2:non-null→null (50→control)",
+   "traditional-eye-cosmetics[_] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat14-compiled",
+  "indexDir": "cat14-compiled",
+  "records": [
+   {
+    "slug": "bar-bath-soap",
+    "status": "both"
+   },
+   {
+    "slug": "body-wash-shower-gel",
+    "status": "both"
+   },
+   {
+    "slug": "conditioner-adult-rinse-out",
+    "status": "both"
+   },
+   {
+    "slug": "deep-conditioning-treatments-rinse-off",
+    "status": "both"
+   },
+   {
+    "slug": "exfoliants-scrubs",
+    "status": "both"
+   },
+   {
+    "slug": "facial-cleansers",
+    "status": "both"
+   },
+   {
+    "slug": "hair-dye-rinse-off",
+    "status": "both"
+   },
+   {
+    "slug": "hair-removal-products",
+    "status": "both"
+   },
+   {
+    "slug": "hand-soap",
+    "status": "both"
+   },
+   {
+    "slug": "rinse-off-preparations-other",
+    "status": "both"
+   },
+   {
+    "slug": "shampoo-adult",
+    "status": "both"
+   },
+   {
+    "slug": "shaving-cream-gel-foam",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 60,
+   "cert-bounded-index-empty": 24,
+   "cert-valued-index-empty": 48
+  },
+  "regressions": [
+   "bar-bath-soap[_] iAs: R3:subsumed→control",
+   "bar-bath-soap[_] MeHg: R3:subsumed→not_material",
+   "bar-bath-soap[_] Sn: R2:non-null→null (3750000→control)",
+   "bar-bath-soap[_] Al: R2:non-null→null (560000→control)",
+   "bar-bath-soap[_] Cr: R2:non-null→null (50→control)",
+   "bar-bath-soap[_] Cr-VI: R2:non-null→null (5→control)",
+   "body-wash-shower-gel[_] iAs: R3:subsumed→control",
+   "body-wash-shower-gel[_] MeHg: R3:subsumed→not_material",
+   "body-wash-shower-gel[_] Sn: R2:non-null→null (3750000→control)",
+   "body-wash-shower-gel[_] Al: R2:non-null→null (560000→control)",
+   "body-wash-shower-gel[_] Cr: R2:non-null→null (50→control)",
+   "body-wash-shower-gel[_] Cr-VI: R2:non-null→null (5→control)",
+   "conditioner-adult-rinse-out[_] iAs: R3:subsumed→control",
+   "conditioner-adult-rinse-out[_] MeHg: R3:subsumed→not_material",
+   "conditioner-adult-rinse-out[_] Sn: R2:non-null→null (3750000→control)",
+   "conditioner-adult-rinse-out[_] Al: R2:non-null→null (560000→control)",
+   "conditioner-adult-rinse-out[_] Cr: R2:non-null→null (50→control)",
+   "conditioner-adult-rinse-out[_] Cr-VI: R2:non-null→null (5→control)",
+   "deep-conditioning-treatments-rinse-off[_] iAs: R3:subsumed→control",
+   "deep-conditioning-treatments-rinse-off[_] MeHg: R3:subsumed→not_material",
+   "deep-conditioning-treatments-rinse-off[_] Sn: R2:non-null→null (3750000→control)",
+   "deep-conditioning-treatments-rinse-off[_] Al: R2:non-null→null (560000→control)",
+   "deep-conditioning-treatments-rinse-off[_] Cr: R2:non-null→null (50→control)",
+   "deep-conditioning-treatments-rinse-off[_] Cr-VI: R2:non-null→null (5→control)",
+   "exfoliants-scrubs[_] iAs: R3:subsumed→control",
+   "exfoliants-scrubs[_] MeHg: R3:subsumed→not_material",
+   "exfoliants-scrubs[_] Sn: R2:non-null→null (3750000→control)",
+   "exfoliants-scrubs[_] Al: R2:non-null→null (560000→control)",
+   "exfoliants-scrubs[_] Cr: R2:non-null→null (50→control)",
+   "exfoliants-scrubs[_] Cr-VI: R2:non-null→null (5→control)",
+   "facial-cleansers[_] iAs: R3:subsumed→control",
+   "facial-cleansers[_] MeHg: R3:subsumed→not_material",
+   "facial-cleansers[_] Sn: R2:non-null→null (3750000→control)",
+   "facial-cleansers[_] Al: R2:non-null→null (560000→control)",
+   "facial-cleansers[_] Cr: R2:non-null→null (50→control)",
+   "facial-cleansers[_] Cr-VI: R2:non-null→null (5→control)",
+   "hair-dye-rinse-off[_] iAs: R3:subsumed→control",
+   "hair-dye-rinse-off[_] MeHg: R3:subsumed→not_material",
+   "hair-dye-rinse-off[_] Sn: R2:non-null→null (3750000→control)",
+   "hair-dye-rinse-off[_] Al: R2:non-null→null (560000→control)",
+   "hair-dye-rinse-off[_] Cr: R2:non-null→null (50→control)",
+   "hair-dye-rinse-off[_] Cr-VI: R2:non-null→null (5→control)",
+   "hair-removal-products[_] iAs: R3:subsumed→control",
+   "hair-removal-products[_] MeHg: R3:subsumed→not_material",
+   "hair-removal-products[_] Sn: R2:non-null→null (3750000→control)",
+   "hair-removal-products[_] Al: R2:non-null→null (560000→control)",
+   "hair-removal-products[_] Cr: R2:non-null→null (50→control)",
+   "hair-removal-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "hand-soap[_] iAs: R3:subsumed→control",
+   "hand-soap[_] MeHg: R3:subsumed→not_material",
+   "hand-soap[_] Sn: R2:non-null→null (3750000→control)",
+   "hand-soap[_] Al: R2:non-null→null (560000→control)",
+   "hand-soap[_] Cr: R2:non-null→null (50→control)",
+   "hand-soap[_] Cr-VI: R2:non-null→null (5→control)",
+   "rinse-off-preparations-other[_] iAs: R3:subsumed→control",
+   "rinse-off-preparations-other[_] MeHg: R3:subsumed→not_material",
+   "rinse-off-preparations-other[_] Sn: R2:non-null→null (3750000→control)",
+   "rinse-off-preparations-other[_] Al: R2:non-null→null (560000→control)",
+   "rinse-off-preparations-other[_] Cr: R2:non-null→null (50→control)",
+   "rinse-off-preparations-other[_] Cr-VI: R2:non-null→null (5→control)",
+   "shampoo-adult[_] iAs: R3:subsumed→control",
+   "shampoo-adult[_] MeHg: R3:subsumed→not_material",
+   "shampoo-adult[_] Sn: R2:non-null→null (3750000→control)",
+   "shampoo-adult[_] Al: R2:non-null→null (560000→control)",
+   "shampoo-adult[_] Cr: R2:non-null→null (50→control)",
+   "shampoo-adult[_] Cr-VI: R2:non-null→null (5→control)",
+   "shaving-cream-gel-foam[_] iAs: R3:subsumed→control",
+   "shaving-cream-gel-foam[_] MeHg: R3:subsumed→not_material",
+   "shaving-cream-gel-foam[_] Sn: R2:non-null→null (3750000→control)",
+   "shaving-cream-gel-foam[_] Al: R2:non-null→null (560000→control)",
+   "shaving-cream-gel-foam[_] Cr: R2:non-null→null (50→control)",
+   "shaving-cream-gel-foam[_] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat15-compiled",
+  "indexDir": "cat15-compiled",
+  "records": [
+   {
+    "slug": "douches-vaginal-irrigation",
+    "status": "both"
+   },
+   {
+    "slug": "feminine-deodorants",
+    "status": "both"
+   },
+   {
+    "slug": "feminine-wipes",
+    "status": "both"
+   },
+   {
+    "slug": "intimate-washes-cleansers",
+    "status": "both"
+   },
+   {
+    "slug": "menstrual-cups",
+    "status": "both"
+   },
+   {
+    "slug": "menstrual-discs",
+    "status": "both"
+   },
+   {
+    "slug": "menstrual-intimate-products-other",
+    "status": "both"
+   },
+   {
+    "slug": "menstrual-pads",
+    "status": "both"
+   },
+   {
+    "slug": "menstrual-tampons",
+    "status": "both"
+   },
+   {
+    "slug": "period-underwear-reusable-garments",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 20,
+   "cert-bounded-index-empty": 20,
+   "cert-valued-index-empty": 70
+  },
+  "regressions": [
+   "douches-vaginal-irrigation[default] iAs: R3:subsumed→control",
+   "douches-vaginal-irrigation[default] MeHg: R3:subsumed→not_material",
+   "douches-vaginal-irrigation[default] Sn: R2:non-null→null (3750000→not_material)",
+   "douches-vaginal-irrigation[default] Al: R2:non-null→null (560000→control)",
+   "douches-vaginal-irrigation[default] Cr: R2:non-null→null (50→control)",
+   "douches-vaginal-irrigation[default] Cr-VI: R2:non-null→null (5→control)",
+   "feminine-deodorants[default] iAs: R3:subsumed→control",
+   "feminine-deodorants[default] MeHg: R3:subsumed→not_material",
+   "feminine-deodorants[default] Sn: R2:non-null→null (3750000→not_material)",
+   "feminine-deodorants[default] Al: R2:non-null→null (560000→control)",
+   "feminine-deodorants[default] Cr: R2:non-null→null (50→control)",
+   "feminine-deodorants[default] Cr-VI: R2:non-null→null (5→control)",
+   "feminine-wipes[default] iAs: R3:subsumed→control",
+   "feminine-wipes[default] MeHg: R3:subsumed→not_material",
+   "feminine-wipes[default] Sn: R2:non-null→null (3750000→not_material)",
+   "feminine-wipes[default] Al: R2:non-null→null (560000→control)",
+   "feminine-wipes[default] Cr: R2:non-null→null (50→control)",
+   "feminine-wipes[default] Cr-VI: R2:non-null→null (5→control)",
+   "intimate-washes-cleansers[default] iAs: R3:subsumed→control",
+   "intimate-washes-cleansers[default] MeHg: R3:subsumed→not_material",
+   "intimate-washes-cleansers[default] Sn: R2:non-null→null (3750000→not_material)",
+   "intimate-washes-cleansers[default] Al: R2:non-null→null (560000→control)",
+   "intimate-washes-cleansers[default] Cr: R2:non-null→null (50→control)",
+   "intimate-washes-cleansers[default] Cr-VI: R2:non-null→null (5→control)",
+   "menstrual-cups[default] Pb: R2:non-null→null (500→control)",
+   "menstrual-cups[default] Cd: R2:non-null→null (100→control)",
+   "menstrual-cups[default] tAs: R2:non-null→null (500→control)",
+   "menstrual-cups[default] iAs: R3:subsumed→control",
+   "menstrual-cups[default] tHg: R2:non-null→null (100→control)",
+   "menstrual-cups[default] MeHg: R3:subsumed→not_material",
+   "menstrual-cups[default] Ni: R2:non-null→null (10000→control)",
+   "menstrual-cups[default] Sn: R2:non-null→null (3750000→control)",
+   "menstrual-cups[default] Al: R2:non-null→null (560000→control)",
+   "menstrual-cups[default] Cr: R2:non-null→null (50→control)",
+   "menstrual-cups[default] Cr-VI: R2:non-null→null (5→control)",
+   "menstrual-discs[default] Pb: R2:non-null→null (500→control)",
+   "menstrual-discs[default] Cd: R2:non-null→null (100→control)",
+   "menstrual-discs[default] tAs: R2:non-null→null (500→control)",
+   "menstrual-discs[default] iAs: R3:subsumed→control",
+   "menstrual-discs[default] tHg: R2:non-null→null (100→control)",
+   "menstrual-discs[default] MeHg: R3:subsumed→not_material",
+   "menstrual-discs[default] Ni: R2:non-null→null (10000→control)",
+   "menstrual-discs[default] Sn: R2:non-null→null (3750000→control)",
+   "menstrual-discs[default] Al: R2:non-null→null (560000→control)",
+   "menstrual-discs[default] Cr: R2:non-null→null (50→control)",
+   "menstrual-discs[default] Cr-VI: R2:non-null→null (5→control)",
+   "menstrual-intimate-products-other[default] Pb: R2:non-null→null (500→control)",
+   "menstrual-intimate-products-other[default] Cd: R2:non-null→null (100→control)",
+   "menstrual-intimate-products-other[default] tAs: R2:non-null→null (500→control)",
+   "menstrual-intimate-products-other[default] iAs: R3:subsumed→control",
+   "menstrual-intimate-products-other[default] tHg: R2:non-null→null (100→control)",
+   "menstrual-intimate-products-other[default] MeHg: R3:subsumed→not_material",
+   "menstrual-intimate-products-other[default] Ni: R2:non-null→null (10000→control)",
+   "menstrual-intimate-products-other[default] Sn: R2:non-null→null (3750000→control)",
+   "menstrual-intimate-products-other[default] Al: R2:non-null→null (560000→control)",
+   "menstrual-intimate-products-other[default] Cr: R2:non-null→null (50→control)",
+   "menstrual-intimate-products-other[default] Cr-VI: R2:non-null→null (5→control)",
+   "menstrual-pads[default] Pb: R2:non-null→null (500→control)",
+   "menstrual-pads[default] Cd: R2:non-null→null (100→control)",
+   "menstrual-pads[default] tAs: R2:non-null→null (500→control)",
+   "menstrual-pads[default] iAs: R3:subsumed→control",
+   "menstrual-pads[default] tHg: R2:non-null→null (100→control)",
+   "menstrual-pads[default] MeHg: R3:subsumed→not_material",
+   "menstrual-pads[default] Ni: R2:non-null→null (10000→control)",
+   "menstrual-pads[default] Sn: R2:non-null→null (3750000→control)",
+   "menstrual-pads[default] Al: R2:non-null→null (560000→control)",
+   "menstrual-pads[default] Cr: R2:non-null→null (50→control)",
+   "menstrual-pads[default] Cr-VI: R2:non-null→null (5→control)",
+   "menstrual-tampons[default] Pb: R2:non-null→null (500→control)",
+   "menstrual-tampons[default] Cd: R2:non-null→null (100→control)",
+   "menstrual-tampons[default] tAs: R2:non-null→null (500→control)",
+   "menstrual-tampons[default] iAs: R3:subsumed→control",
+   "menstrual-tampons[default] tHg: R2:non-null→null (100→control)",
+   "menstrual-tampons[default] MeHg: R3:subsumed→not_material",
+   "menstrual-tampons[default] Ni: R2:non-null→null (10000→control)",
+   "menstrual-tampons[default] Sn: R2:non-null→null (3750000→control)",
+   "menstrual-tampons[default] Al: R2:non-null→null (560000→control)",
+   "menstrual-tampons[default] Cr: R2:non-null→null (50→control)",
+   "menstrual-tampons[default] Cr-VI: R2:non-null→null (5→control)",
+   "period-underwear-reusable-garments[default] Pb: R2:non-null→null (500→control)",
+   "period-underwear-reusable-garments[default] Cd: R2:non-null→null (100→control)",
+   "period-underwear-reusable-garments[default] tAs: R2:non-null→null (500→control)",
+   "period-underwear-reusable-garments[default] iAs: R3:subsumed→control",
+   "period-underwear-reusable-garments[default] tHg: R2:non-null→null (100→control)",
+   "period-underwear-reusable-garments[default] MeHg: R3:subsumed→not_material",
+   "period-underwear-reusable-garments[default] Ni: R2:non-null→null (10000→control)",
+   "period-underwear-reusable-garments[default] Sn: R2:non-null→null (3750000→control)",
+   "period-underwear-reusable-garments[default] Al: R2:non-null→null (560000→control)",
+   "period-underwear-reusable-garments[default] Cr: R2:non-null→null (50→control)",
+   "period-underwear-reusable-garments[default] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat16-compiled",
+  "indexDir": "cat16-compiled",
+  "records": [
+   {
+    "slug": "supplements-algae-seaweed-based",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-amino-acids-isolates",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-bars-labeled",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-botanicals-herbs",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-clay-mineral-earth",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-enzymes",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-greens-superfood",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-mushroom-fungal",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oil-based",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-liquids-droppers",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-liquids-shots",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-liquids-syrups",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-liquids-tinctures",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-capsules",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-effervescent",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-gummies",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-lozenges",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-powders",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-softgels",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-oral-solids-tablets",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-probiotics",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-protein-collagen-powders",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-teas-labeled",
+    "status": "both"
+   },
+   {
+    "slug": "supplements-vitamin-mineral",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 96,
+   "prose-only": 96,
+   "cert-bounded-index-empty": 48,
+   "cert-valued-index-empty": 24
+  },
+  "regressions": [
+   "supplements-algae-seaweed-based[both] MeHg: R3:subsumed→control",
+   "supplements-algae-seaweed-based[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-algae-seaweed-based[both] Cr-VI: R3:subsumed→control",
+   "supplements-amino-acids-isolates[both] MeHg: R3:subsumed→control",
+   "supplements-amino-acids-isolates[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-amino-acids-isolates[both] Cr-VI: R3:subsumed→control",
+   "supplements-bars-labeled[both] MeHg: R3:subsumed→control",
+   "supplements-bars-labeled[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-bars-labeled[both] Cr-VI: R3:subsumed→control",
+   "supplements-botanicals-herbs[both] MeHg: R3:subsumed→control",
+   "supplements-botanicals-herbs[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-botanicals-herbs[both] Cr-VI: R3:subsumed→control",
+   "supplements-clay-mineral-earth[both] MeHg: R3:subsumed→control",
+   "supplements-clay-mineral-earth[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-clay-mineral-earth[both] Cr-VI: R3:subsumed→control",
+   "supplements-enzymes[both] MeHg: R3:subsumed→control",
+   "supplements-enzymes[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-enzymes[both] Cr-VI: R3:subsumed→control",
+   "supplements-greens-superfood[both] MeHg: R3:subsumed→control",
+   "supplements-greens-superfood[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-greens-superfood[both] Cr-VI: R3:subsumed→control",
+   "supplements-mushroom-fungal[both] MeHg: R3:subsumed→control",
+   "supplements-mushroom-fungal[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-mushroom-fungal[both] Cr-VI: R3:subsumed→control",
+   "supplements-oil-based[both] MeHg: R3:subsumed→control",
+   "supplements-oil-based[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oil-based[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-liquids-droppers[both] MeHg: R3:subsumed→control",
+   "supplements-oral-liquids-droppers[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-liquids-droppers[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-liquids-shots[both] MeHg: R3:subsumed→control",
+   "supplements-oral-liquids-shots[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-liquids-shots[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-liquids-syrups[both] MeHg: R3:subsumed→control",
+   "supplements-oral-liquids-syrups[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-liquids-syrups[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-liquids-tinctures[both] MeHg: R3:subsumed→control",
+   "supplements-oral-liquids-tinctures[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-liquids-tinctures[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-capsules[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-capsules[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-capsules[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-effervescent[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-effervescent[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-effervescent[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-gummies[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-gummies[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-gummies[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-lozenges[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-lozenges[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-lozenges[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-powders[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-powders[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-powders[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-softgels[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-softgels[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-softgels[both] Cr-VI: R3:subsumed→control",
+   "supplements-oral-solids-tablets[both] MeHg: R3:subsumed→control",
+   "supplements-oral-solids-tablets[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-oral-solids-tablets[both] Cr-VI: R3:subsumed→control",
+   "supplements-probiotics[both] MeHg: R3:subsumed→control",
+   "supplements-probiotics[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-probiotics[both] Cr-VI: R3:subsumed→control",
+   "supplements-protein-collagen-powders[both] MeHg: R3:subsumed→control",
+   "supplements-protein-collagen-powders[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-protein-collagen-powders[both] Cr-VI: R3:subsumed→control",
+   "supplements-teas-labeled[both] MeHg: R3:subsumed→control",
+   "supplements-teas-labeled[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-teas-labeled[both] Cr-VI: R3:subsumed→control",
+   "supplements-vitamin-mineral[both] MeHg: R3:subsumed→control",
+   "supplements-vitamin-mineral[both] Cr: R2:non-null→null (1000→control)",
+   "supplements-vitamin-mineral[both] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat17-compiled",
+  "indexDir": "cat17-compiled",
+  "records": [
+   {
+    "slug": "pet-chews-dental",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-canned-wet",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-dry-kibble",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-fermentation-derived-protein",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-fish-marine-protein",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-freeze-dried",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-raw",
+    "status": "both"
+   },
+   {
+    "slug": "pet-food-semi-moist",
+    "status": "both"
+   },
+   {
+    "slug": "pet-milk-replacers-specialty-liquids",
+    "status": "both"
+   },
+   {
+    "slug": "pet-toppers-mixers-broths",
+    "status": "both"
+   },
+   {
+    "slug": "pet-treats-snacks",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 79,
+   "cert-bounded-index-empty": 20,
+   "cert-valued-index-empty": 22
+  },
+  "regressions": [
+   "pet-chews-dental[both] MeHg: R3:subsumed→not_material",
+   "pet-chews-dental[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-chews-dental[both] Al: R2:non-null→null (100000→control)",
+   "pet-chews-dental[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-canned-wet[both] MeHg: R3:subsumed→not_material",
+   "pet-food-canned-wet[both] Ni: R2:non-null→null (800→control)",
+   "pet-food-canned-wet[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-canned-wet[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-dry-kibble[both] MeHg: R3:subsumed→not_material",
+   "pet-food-dry-kibble[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-food-dry-kibble[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-dry-kibble[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-fish-marine-protein[both] Ni: R2:non-null→null (800→control)",
+   "pet-food-fish-marine-protein[both] Sn: R2:non-null→null (200000→not_material)",
+   "pet-food-fish-marine-protein[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-fish-marine-protein[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-freeze-dried[both] MeHg: R3:subsumed→not_material",
+   "pet-food-freeze-dried[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-food-freeze-dried[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-freeze-dried[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-raw[both] MeHg: R3:subsumed→not_material",
+   "pet-food-raw[both] Ni: R2:non-null→null (800→control)",
+   "pet-food-raw[both] Sn: R2:non-null→null (200000→not_material)",
+   "pet-food-raw[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-raw[both] Cr-VI: R3:subsumed→not_material",
+   "pet-food-semi-moist[both] MeHg: R3:subsumed→not_material",
+   "pet-food-semi-moist[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-food-semi-moist[both] Al: R2:non-null→null (100000→control)",
+   "pet-food-semi-moist[both] Cr-VI: R3:subsumed→not_material",
+   "pet-milk-replacers-specialty-liquids[both] iAs: R3:subsumed→control",
+   "pet-milk-replacers-specialty-liquids[both] MeHg: R3:subsumed→not_material",
+   "pet-milk-replacers-specialty-liquids[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-milk-replacers-specialty-liquids[both] Cr-VI: R3:subsumed→not_material",
+   "pet-toppers-mixers-broths[both] MeHg: R3:subsumed→not_material",
+   "pet-toppers-mixers-broths[both] Ni: R2:non-null→null (800→control)",
+   "pet-toppers-mixers-broths[both] Sn: R2:non-null→null (200000→not_material)",
+   "pet-toppers-mixers-broths[both] Al: R2:non-null→null (100000→control)",
+   "pet-toppers-mixers-broths[both] Cr-VI: R3:subsumed→not_material",
+   "pet-treats-snacks[both] MeHg: R3:subsumed→not_material",
+   "pet-treats-snacks[both] Sn: R2:non-null→null (250000→not_material)",
+   "pet-treats-snacks[both] Al: R2:non-null→null (100000→control)",
+   "pet-treats-snacks[both] Cr-VI: R3:subsumed→not_material"
+  ]
+ },
+ {
+  "certDir": "cat18-compiled",
+  "indexDir": "cat18-compiled",
+  "records": [
+   {
+    "slug": "pet-supplements-botanical-herbal",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-calming-behavioral",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-functional-blends",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-oils",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-other",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-probiotics-digestive",
+    "status": "both"
+   },
+   {
+    "slug": "pet-supplements-vitamin-mineral",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 49,
+   "cert-bounded-index-empty": 14,
+   "cert-valued-index-empty": 14
+  },
+  "regressions": [
+   "pet-supplements-botanical-herbal[_] MeHg: R3:subsumed→control",
+   "pet-supplements-botanical-herbal[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-botanical-herbal[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-botanical-herbal[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-calming-behavioral[_] MeHg: R3:subsumed→control",
+   "pet-supplements-calming-behavioral[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-calming-behavioral[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-calming-behavioral[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-functional-blends[_] MeHg: R3:subsumed→control",
+   "pet-supplements-functional-blends[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-functional-blends[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-functional-blends[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-oils[_] MeHg: R3:subsumed→control",
+   "pet-supplements-oils[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-oils[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-oils[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-other[_] MeHg: R3:subsumed→control",
+   "pet-supplements-other[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-other[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-other[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-probiotics-digestive[_] MeHg: R3:subsumed→control",
+   "pet-supplements-probiotics-digestive[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-probiotics-digestive[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-probiotics-digestive[_] Cr-VI: R3:subsumed→control",
+   "pet-supplements-vitamin-mineral[_] MeHg: R3:subsumed→control",
+   "pet-supplements-vitamin-mineral[_] Al: R2:non-null→null (500→control)",
+   "pet-supplements-vitamin-mineral[_] Cr: R2:non-null→null (1000→control)",
+   "pet-supplements-vitamin-mineral[_] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat19-compiled",
+  "indexDir": "cat19-compiled",
+  "records": [
+   {
+    "slug": "anti-static-products",
+    "status": "both"
+   },
+   {
+    "slug": "anti-wrinkle-wrinkle-release-products",
+    "status": "both"
+   },
+   {
+    "slug": "bleaching-whitening-additives",
+    "status": "both"
+   },
+   {
+    "slug": "fabric-contact-combination-products",
+    "status": "both"
+   },
+   {
+    "slug": "fabric-contact-products-other",
+    "status": "both"
+   },
+   {
+    "slug": "fabric-protectants",
+    "status": "both"
+   },
+   {
+    "slug": "fabric-refresher-products",
+    "status": "both"
+   },
+   {
+    "slug": "fabric-softeners",
+    "status": "both"
+   },
+   {
+    "slug": "laundry-detergent-boosters-additives",
+    "status": "both"
+   },
+   {
+    "slug": "laundry-detergents",
+    "status": "both"
+   },
+   {
+    "slug": "laundry-prewash-products",
+    "status": "both"
+   },
+   {
+    "slug": "laundry-starch-sizing-fabric-finish",
+    "status": "both"
+   },
+   {
+    "slug": "pre-treaters-stain-removers",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 65,
+   "cert-bounded-index-empty": 26,
+   "cert-valued-index-empty": 52
+  },
+  "regressions": [
+   "anti-static-products[_] iAs: R3:subsumed→not_material",
+   "anti-static-products[_] MeHg: R3:subsumed→not_material",
+   "anti-static-products[_] Sn: R2:non-null→null (3750000→control)",
+   "anti-static-products[_] Al: R2:non-null→null (560000→control)",
+   "anti-static-products[_] Cr: R2:non-null→null (50→control)",
+   "anti-static-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "anti-wrinkle-wrinkle-release-products[_] iAs: R3:subsumed→not_material",
+   "anti-wrinkle-wrinkle-release-products[_] MeHg: R3:subsumed→not_material",
+   "anti-wrinkle-wrinkle-release-products[_] Sn: R2:non-null→null (3750000→control)",
+   "anti-wrinkle-wrinkle-release-products[_] Al: R2:non-null→null (560000→control)",
+   "anti-wrinkle-wrinkle-release-products[_] Cr: R2:non-null→null (50→control)",
+   "anti-wrinkle-wrinkle-release-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "bleaching-whitening-additives[_] iAs: R3:subsumed→not_material",
+   "bleaching-whitening-additives[_] MeHg: R3:subsumed→not_material",
+   "bleaching-whitening-additives[_] Sn: R2:non-null→null (3750000→control)",
+   "bleaching-whitening-additives[_] Al: R2:non-null→null (560000→control)",
+   "bleaching-whitening-additives[_] Cr: R2:non-null→null (50→control)",
+   "bleaching-whitening-additives[_] Cr-VI: R2:non-null→null (5→control)",
+   "fabric-contact-combination-products[_] iAs: R3:subsumed→not_material",
+   "fabric-contact-combination-products[_] MeHg: R3:subsumed→not_material",
+   "fabric-contact-combination-products[_] Sn: R2:non-null→null (3750000→control)",
+   "fabric-contact-combination-products[_] Al: R2:non-null→null (560000→control)",
+   "fabric-contact-combination-products[_] Cr: R2:non-null→null (50→control)",
+   "fabric-contact-combination-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "fabric-contact-products-other[_] iAs: R3:subsumed→not_material",
+   "fabric-contact-products-other[_] MeHg: R3:subsumed→not_material",
+   "fabric-contact-products-other[_] Sn: R2:non-null→null (3750000→control)",
+   "fabric-contact-products-other[_] Al: R2:non-null→null (560000→control)",
+   "fabric-contact-products-other[_] Cr: R2:non-null→null (50→control)",
+   "fabric-contact-products-other[_] Cr-VI: R2:non-null→null (5→control)",
+   "fabric-protectants[_] iAs: R3:subsumed→not_material",
+   "fabric-protectants[_] MeHg: R3:subsumed→not_material",
+   "fabric-protectants[_] Sn: R2:non-null→null (3750000→control)",
+   "fabric-protectants[_] Al: R2:non-null→null (560000→control)",
+   "fabric-protectants[_] Cr: R2:non-null→null (50→control)",
+   "fabric-protectants[_] Cr-VI: R2:non-null→null (5→control)",
+   "fabric-refresher-products[_] iAs: R3:subsumed→not_material",
+   "fabric-refresher-products[_] MeHg: R3:subsumed→not_material",
+   "fabric-refresher-products[_] Sn: R2:non-null→null (3750000→control)",
+   "fabric-refresher-products[_] Al: R2:non-null→null (560000→control)",
+   "fabric-refresher-products[_] Cr: R2:non-null→null (50→control)",
+   "fabric-refresher-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "fabric-softeners[_] iAs: R3:subsumed→not_material",
+   "fabric-softeners[_] MeHg: R3:subsumed→not_material",
+   "fabric-softeners[_] Sn: R2:non-null→null (3750000→control)",
+   "fabric-softeners[_] Al: R2:non-null→null (560000→control)",
+   "fabric-softeners[_] Cr: R2:non-null→null (50→control)",
+   "fabric-softeners[_] Cr-VI: R2:non-null→null (5→control)",
+   "laundry-detergent-boosters-additives[_] iAs: R3:subsumed→not_material",
+   "laundry-detergent-boosters-additives[_] MeHg: R3:subsumed→not_material",
+   "laundry-detergent-boosters-additives[_] Sn: R2:non-null→null (3750000→control)",
+   "laundry-detergent-boosters-additives[_] Al: R2:non-null→null (560000→control)",
+   "laundry-detergent-boosters-additives[_] Cr: R2:non-null→null (50→control)",
+   "laundry-detergent-boosters-additives[_] Cr-VI: R2:non-null→null (5→control)",
+   "laundry-detergents[_] iAs: R3:subsumed→not_material",
+   "laundry-detergents[_] MeHg: R3:subsumed→not_material",
+   "laundry-detergents[_] Sn: R2:non-null→null (3750000→control)",
+   "laundry-detergents[_] Al: R2:non-null→null (560000→control)",
+   "laundry-detergents[_] Cr: R2:non-null→null (50→control)",
+   "laundry-detergents[_] Cr-VI: R2:non-null→null (5→control)",
+   "laundry-prewash-products[_] iAs: R3:subsumed→not_material",
+   "laundry-prewash-products[_] MeHg: R3:subsumed→not_material",
+   "laundry-prewash-products[_] Sn: R2:non-null→null (3750000→control)",
+   "laundry-prewash-products[_] Al: R2:non-null→null (560000→control)",
+   "laundry-prewash-products[_] Cr: R2:non-null→null (50→control)",
+   "laundry-prewash-products[_] Cr-VI: R2:non-null→null (5→control)",
+   "laundry-starch-sizing-fabric-finish[_] iAs: R3:subsumed→not_material",
+   "laundry-starch-sizing-fabric-finish[_] MeHg: R3:subsumed→not_material",
+   "laundry-starch-sizing-fabric-finish[_] Sn: R2:non-null→null (3750000→control)",
+   "laundry-starch-sizing-fabric-finish[_] Al: R2:non-null→null (560000→control)",
+   "laundry-starch-sizing-fabric-finish[_] Cr: R2:non-null→null (50→control)",
+   "laundry-starch-sizing-fabric-finish[_] Cr-VI: R2:non-null→null (5→control)",
+   "pre-treaters-stain-removers[_] iAs: R3:subsumed→not_material",
+   "pre-treaters-stain-removers[_] MeHg: R3:subsumed→not_material",
+   "pre-treaters-stain-removers[_] Sn: R2:non-null→null (3750000→control)",
+   "pre-treaters-stain-removers[_] Al: R2:non-null→null (560000→control)",
+   "pre-treaters-stain-removers[_] Cr: R2:non-null→null (50→control)",
+   "pre-treaters-stain-removers[_] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat2-compiled",
+  "indexDir": "cat2-compiled",
+  "records": [
+   {
+    "slug": "baby-lotion-cream",
+    "status": "both"
+   },
+   {
+    "slug": "baby-oil",
+    "status": "both"
+   },
+   {
+    "slug": "baby-powder-cornstarch",
+    "status": "both"
+   },
+   {
+    "slug": "baby-shampoo-body-wash",
+    "status": "both"
+   },
+   {
+    "slug": "baby-sunscreen-chemical",
+    "status": "both"
+   },
+   {
+    "slug": "baby-sunscreen-mineral",
+    "status": "both"
+   },
+   {
+    "slug": "baby-talcum-powder",
+    "status": "both"
+   },
+   {
+    "slug": "baby-wipes",
+    "status": "both"
+   },
+   {
+    "slug": "childrens-lip-balm-mineral-bearing",
+    "status": "both"
+   },
+   {
+    "slug": "childrens-lip-balm-plain",
+    "status": "both"
+   },
+   {
+    "slug": "childrens-makeup",
+    "status": "both"
+   },
+   {
+    "slug": "childrens-nail-polish",
+    "status": "both"
+   },
+   {
+    "slug": "diaper-cream-non-zno",
+    "status": "both"
+   },
+   {
+    "slug": "diaper-cream-zno",
+    "status": "both"
+   },
+   {
+    "slug": "face-paint",
+    "status": "both"
+   },
+   {
+    "slug": "toothpaste",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 80,
+   "cert-bounded-index-empty": 32,
+   "cert-valued-index-empty": 64
+  },
+  "regressions": [
+   "baby-lotion-cream[_] iAs: R3:subsumed→control",
+   "baby-lotion-cream[_] MeHg: R3:subsumed→not_material",
+   "baby-lotion-cream[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-lotion-cream[_] Al: R2:non-null→null (560000→control)",
+   "baby-lotion-cream[_] Cr: R2:non-null→null (50→control)",
+   "baby-lotion-cream[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-oil[_] iAs: R3:subsumed→control",
+   "baby-oil[_] MeHg: R3:subsumed→not_material",
+   "baby-oil[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-oil[_] Al: R2:non-null→null (560000→control)",
+   "baby-oil[_] Cr: R2:non-null→null (50→control)",
+   "baby-oil[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-powder-cornstarch[_] iAs: R3:subsumed→control",
+   "baby-powder-cornstarch[_] MeHg: R3:subsumed→not_material",
+   "baby-powder-cornstarch[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-powder-cornstarch[_] Al: R2:non-null→null (560000→control)",
+   "baby-powder-cornstarch[_] Cr: R2:non-null→null (50→control)",
+   "baby-powder-cornstarch[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-shampoo-body-wash[_] iAs: R3:subsumed→control",
+   "baby-shampoo-body-wash[_] MeHg: R3:subsumed→not_material",
+   "baby-shampoo-body-wash[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-shampoo-body-wash[_] Al: R2:non-null→null (560000→control)",
+   "baby-shampoo-body-wash[_] Cr: R2:non-null→null (50→control)",
+   "baby-shampoo-body-wash[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-sunscreen-chemical[_] iAs: R3:subsumed→control",
+   "baby-sunscreen-chemical[_] MeHg: R3:subsumed→not_material",
+   "baby-sunscreen-chemical[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-sunscreen-chemical[_] Al: R2:non-null→null (560000→control)",
+   "baby-sunscreen-chemical[_] Cr: R2:non-null→null (50→control)",
+   "baby-sunscreen-chemical[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-sunscreen-mineral[_] iAs: R3:subsumed→control",
+   "baby-sunscreen-mineral[_] MeHg: R3:subsumed→not_material",
+   "baby-sunscreen-mineral[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-sunscreen-mineral[_] Al: R2:non-null→null (560000→control)",
+   "baby-sunscreen-mineral[_] Cr: R2:non-null→null (50→control)",
+   "baby-sunscreen-mineral[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-talcum-powder[_] iAs: R3:subsumed→control",
+   "baby-talcum-powder[_] MeHg: R3:subsumed→not_material",
+   "baby-talcum-powder[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-talcum-powder[_] Al: R2:non-null→null (560000→control)",
+   "baby-talcum-powder[_] Cr: R2:non-null→null (50→control)",
+   "baby-talcum-powder[_] Cr-VI: R2:non-null→null (5→control)",
+   "baby-wipes[_] iAs: R3:subsumed→control",
+   "baby-wipes[_] MeHg: R3:subsumed→not_material",
+   "baby-wipes[_] Sn: R2:non-null→null (3750000→control)",
+   "baby-wipes[_] Al: R2:non-null→null (560000→control)",
+   "baby-wipes[_] Cr: R2:non-null→null (50→control)",
+   "baby-wipes[_] Cr-VI: R2:non-null→null (5→control)",
+   "childrens-lip-balm-mineral-bearing[_] iAs: R3:subsumed→control",
+   "childrens-lip-balm-mineral-bearing[_] MeHg: R3:subsumed→not_material",
+   "childrens-lip-balm-mineral-bearing[_] Sn: R2:non-null→null (3750000→control)",
+   "childrens-lip-balm-mineral-bearing[_] Al: R2:non-null→null (560000→control)",
+   "childrens-lip-balm-mineral-bearing[_] Cr: R2:non-null→null (50→control)",
+   "childrens-lip-balm-mineral-bearing[_] Cr-VI: R2:non-null→null (5→control)",
+   "childrens-lip-balm-plain[_] iAs: R3:subsumed→control",
+   "childrens-lip-balm-plain[_] MeHg: R3:subsumed→not_material",
+   "childrens-lip-balm-plain[_] Sn: R2:non-null→null (3750000→control)",
+   "childrens-lip-balm-plain[_] Al: R2:non-null→null (560000→control)",
+   "childrens-lip-balm-plain[_] Cr: R2:non-null→null (50→control)",
+   "childrens-lip-balm-plain[_] Cr-VI: R2:non-null→null (5→control)",
+   "childrens-makeup[_] iAs: R3:subsumed→control",
+   "childrens-makeup[_] MeHg: R3:subsumed→not_material",
+   "childrens-makeup[_] Sn: R2:non-null→null (3750000→control)",
+   "childrens-makeup[_] Al: R2:non-null→null (560000→control)",
+   "childrens-makeup[_] Cr: R2:non-null→null (50→control)",
+   "childrens-makeup[_] Cr-VI: R2:non-null→null (5→control)",
+   "childrens-nail-polish[_] iAs: R3:subsumed→control",
+   "childrens-nail-polish[_] MeHg: R3:subsumed→not_material",
+   "childrens-nail-polish[_] Sn: R2:non-null→null (3750000→control)",
+   "childrens-nail-polish[_] Al: R2:non-null→null (560000→control)",
+   "childrens-nail-polish[_] Cr: R2:non-null→null (50→control)",
+   "childrens-nail-polish[_] Cr-VI: R2:non-null→null (5→control)",
+   "diaper-cream-non-zno[_] iAs: R3:subsumed→control",
+   "diaper-cream-non-zno[_] MeHg: R3:subsumed→not_material",
+   "diaper-cream-non-zno[_] Sn: R2:non-null→null (3750000→control)",
+   "diaper-cream-non-zno[_] Al: R2:non-null→null (560000→control)",
+   "diaper-cream-non-zno[_] Cr: R2:non-null→null (50→control)",
+   "diaper-cream-non-zno[_] Cr-VI: R2:non-null→null (5→control)",
+   "diaper-cream-zno[_] iAs: R3:subsumed→control",
+   "diaper-cream-zno[_] MeHg: R3:subsumed→not_material",
+   "diaper-cream-zno[_] Sn: R2:non-null→null (3750000→control)",
+   "diaper-cream-zno[_] Al: R2:non-null→null (560000→control)",
+   "diaper-cream-zno[_] Cr: R2:non-null→null (50→control)",
+   "diaper-cream-zno[_] Cr-VI: R2:non-null→null (5→control)",
+   "face-paint[_] iAs: R3:subsumed→control",
+   "face-paint[_] MeHg: R3:subsumed→not_material",
+   "face-paint[_] Sn: R2:non-null→null (3750000→control)",
+   "face-paint[_] Al: R2:non-null→null (560000→control)",
+   "face-paint[_] Cr: R2:non-null→null (50→control)",
+   "face-paint[_] Cr-VI: R2:non-null→null (5→control)",
+   "toothpaste[_] iAs: R3:subsumed→control",
+   "toothpaste[_] MeHg: R3:subsumed→not_material",
+   "toothpaste[_] Sn: R2:non-null→null (3750000→control)",
+   "toothpaste[_] Al: R2:non-null→null (560000→control)",
+   "toothpaste[_] Cr: R2:non-null→null (50→control)",
+   "toothpaste[_] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat20-compiled",
+  "indexDir": "cat20-compiled",
+  "records": [
+   {
+    "slug": "breath-fresheners",
+    "status": "both"
+   },
+   {
+    "slug": "dentifrices",
+    "status": "both"
+   },
+   {
+    "slug": "denture-orthodontic-care",
+    "status": "both"
+   },
+   {
+    "slug": "floss-interdental-cleaners",
+    "status": "both"
+   },
+   {
+    "slug": "mouthwash-oral-rinse",
+    "status": "both"
+   },
+   {
+    "slug": "oral-irrigators-water-flossers",
+    "status": "both"
+   },
+   {
+    "slug": "oral-products-other",
+    "status": "both"
+   },
+   {
+    "slug": "tongue-cleaners-scrapers",
+    "status": "both"
+   },
+   {
+    "slug": "toothbrushes",
+    "status": "both"
+   },
+   {
+    "slug": "whitening-products",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 41,
+   "cert-bounded-index-empty": 20,
+   "cert-valued-index-empty": 49
+  },
+  "regressions": [
+   "breath-fresheners[_] iAs: R3:subsumed→control",
+   "breath-fresheners[_] MeHg: R3:subsumed→not_material",
+   "breath-fresheners[_] Sn: R2:non-null→null (3750000→control)",
+   "breath-fresheners[_] Al: R2:non-null→null (560000→control)",
+   "breath-fresheners[_] Cr: R2:non-null→null (50→control)",
+   "breath-fresheners[_] Cr-VI: R2:non-null→null (5→control)",
+   "dentifrices[_] iAs: R3:subsumed→control",
+   "dentifrices[_] MeHg: R3:subsumed→not_material",
+   "dentifrices[_] Al: R2:non-null→null (560000→control)",
+   "dentifrices[_] Cr: R2:non-null→null (50→control)",
+   "dentifrices[_] Cr-VI: R2:non-null→null (5→control)",
+   "denture-orthodontic-care[_] iAs: R3:subsumed→control",
+   "denture-orthodontic-care[_] MeHg: R3:subsumed→not_material",
+   "denture-orthodontic-care[_] Sn: R2:non-null→null (3750000→control)",
+   "denture-orthodontic-care[_] Al: R2:non-null→null (560000→control)",
+   "denture-orthodontic-care[_] Cr: R2:non-null→null (50→control)",
+   "denture-orthodontic-care[_] Cr-VI: R2:non-null→null (5→control)",
+   "floss-interdental-cleaners[_] Cd: R2:non-null→null (17000→control)",
+   "floss-interdental-cleaners[_] tAs: R2:non-null→null (47000→control)",
+   "floss-interdental-cleaners[_] iAs: R3:subsumed→control",
+   "floss-interdental-cleaners[_] tHg: R2:non-null→null (94000→control)",
+   "floss-interdental-cleaners[_] MeHg: R3:subsumed→control",
+   "floss-interdental-cleaners[_] Ni: R2:non-null→null (930000→control)",
+   "floss-interdental-cleaners[_] Sn: R2:non-null→null (180000000→control)",
+   "floss-interdental-cleaners[_] Al: R2:non-null→null (28130000→control)",
+   "floss-interdental-cleaners[_] Cr-VI: R2:non-null→null (53→control)",
+   "mouthwash-oral-rinse[_] iAs: R3:subsumed→control",
+   "mouthwash-oral-rinse[_] MeHg: R3:subsumed→not_material",
+   "mouthwash-oral-rinse[_] Al: R2:non-null→null (560000→control)",
+   "mouthwash-oral-rinse[_] Cr: R2:non-null→null (50→control)",
+   "mouthwash-oral-rinse[_] Cr-VI: R2:non-null→null (5→control)",
+   "oral-irrigators-water-flossers[_] Cd: R2:non-null→null (17000→control)",
+   "oral-irrigators-water-flossers[_] tAs: R2:non-null→null (47000→control)",
+   "oral-irrigators-water-flossers[_] iAs: R3:subsumed→control",
+   "oral-irrigators-water-flossers[_] tHg: R2:non-null→null (94000→control)",
+   "oral-irrigators-water-flossers[_] MeHg: R3:subsumed→control",
+   "oral-irrigators-water-flossers[_] Ni: R2:non-null→null (930000→control)",
+   "oral-irrigators-water-flossers[_] Sn: R2:non-null→null (180000000→control)",
+   "oral-irrigators-water-flossers[_] Al: R2:non-null→null (28130000→control)",
+   "oral-irrigators-water-flossers[_] Cr-VI: R2:non-null→null (53→control)",
+   "oral-products-other[_] iAs: R3:subsumed→control",
+   "oral-products-other[_] MeHg: R3:subsumed→not_material",
+   "oral-products-other[_] Sn: R2:non-null→null (3750000→control)",
+   "oral-products-other[_] Al: R2:non-null→null (560000→control)",
+   "oral-products-other[_] Cr: R2:non-null→null (50→control)",
+   "oral-products-other[_] Cr-VI: R2:non-null→null (5→control)",
+   "tongue-cleaners-scrapers[_] Cd: R2:non-null→null (17000→control)",
+   "tongue-cleaners-scrapers[_] tAs: R2:non-null→null (47000→control)",
+   "tongue-cleaners-scrapers[_] iAs: R3:subsumed→control",
+   "tongue-cleaners-scrapers[_] tHg: R2:non-null→null (94000→control)",
+   "tongue-cleaners-scrapers[_] MeHg: R3:subsumed→control",
+   "tongue-cleaners-scrapers[_] Ni: R2:non-null→null (930000→control)",
+   "tongue-cleaners-scrapers[_] Sn: R2:non-null→null (180000000→control)",
+   "tongue-cleaners-scrapers[_] Al: R2:non-null→null (28130000→control)",
+   "tongue-cleaners-scrapers[_] Cr-VI: R2:non-null→null (53→control)",
+   "toothbrushes[_] Cd: R2:non-null→null (17000→control)",
+   "toothbrushes[_] tAs: R2:non-null→null (47000→control)",
+   "toothbrushes[_] iAs: R3:subsumed→control",
+   "toothbrushes[_] tHg: R2:non-null→null (94000→control)",
+   "toothbrushes[_] MeHg: R3:subsumed→control",
+   "toothbrushes[_] Ni: R2:non-null→null (930000→control)",
+   "toothbrushes[_] Sn: R2:non-null→null (180000000→control)",
+   "toothbrushes[_] Al: R2:non-null→null (28130000→control)",
+   "toothbrushes[_] Cr-VI: R2:non-null→null (53→control)",
+   "whitening-products[_] iAs: R3:subsumed→control",
+   "whitening-products[_] MeHg: R3:subsumed→not_material",
+   "whitening-products[_] Al: R2:non-null→null (560000→control)",
+   "whitening-products[_] Cr: R2:non-null→null (50→control)",
+   "whitening-products[_] Cr-VI: R2:non-null→null (5→control)"
+  ]
+ },
+ {
+  "certDir": "cat21-compiled",
+  "indexDir": "cat21-compiled",
+  "records": [
+   {
+    "slug": "art-craft-materials",
+    "status": "both"
+   },
+   {
+    "slug": "toy-chests",
+    "status": "both"
+   },
+   {
+    "slug": "toy-pacifiers",
+    "status": "both"
+   },
+   {
+    "slug": "toys-attached-cribs-playpens",
+    "status": "both"
+   },
+   {
+    "slug": "toys-balloons",
+    "status": "both"
+   },
+   {
+    "slug": "toys-balls",
+    "status": "both"
+   },
+   {
+    "slug": "toys-battery-electronic",
+    "status": "both"
+   },
+   {
+    "slug": "toys-crafts-other",
+    "status": "both"
+   },
+   {
+    "slug": "toys-marbles",
+    "status": "both"
+   },
+   {
+    "slug": "toys-painted",
+    "status": "both"
+   },
+   {
+    "slug": "toys-pompoms-fibrous-craft",
+    "status": "both"
+   },
+   {
+    "slug": "toys-projectile-guns",
+    "status": "both"
+   },
+   {
+    "slug": "toys-rattles",
+    "status": "both"
+   },
+   {
+    "slug": "toys-sound-producing",
+    "status": "both"
+   },
+   {
+    "slug": "toys-squeeze",
+    "status": "both"
+   },
+   {
+    "slug": "toys-stroller-carriage",
+    "status": "both"
+   },
+   {
+    "slug": "toys-stuffed-bean-bag",
+    "status": "both"
+   },
+   {
+    "slug": "toys-stuffing-materials",
+    "status": "both"
+   },
+   {
+    "slug": "toys-substrate-materials",
+    "status": "both"
+   },
+   {
+    "slug": "toys-with-magnets",
+    "status": "both"
+   },
+   {
+    "slug": "toys-yo-yo-elastic-tether",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 231
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat22-compiled",
+  "indexDir": "cat22-compiled",
+  "records": [
+   {
+    "slug": "air-product-refill-materials",
+    "status": "both"
+   },
+   {
+    "slug": "automatic-puff-releasers",
+    "status": "both"
+   },
+   {
+    "slug": "capillary-reed-wood-diffusers",
+    "status": "both"
+   },
+   {
+    "slug": "electric-plug-in-evaporators",
+    "status": "both"
+   },
+   {
+    "slug": "gel-diffusers",
+    "status": "both"
+   },
+   {
+    "slug": "heated-oil-diffusers",
+    "status": "both"
+   },
+   {
+    "slug": "home-air-emission-products-other",
+    "status": "both"
+   },
+   {
+    "slug": "incense-sticks-cones",
+    "status": "both"
+   },
+   {
+    "slug": "instant-air-refreshment-sprays",
+    "status": "both"
+   },
+   {
+    "slug": "nebula-diffusers",
+    "status": "both"
+   },
+   {
+    "slug": "potpourri-sachets",
+    "status": "both"
+   },
+   {
+    "slug": "scented-candles",
+    "status": "both"
+   },
+   {
+    "slug": "scented-wax-blocks-melts",
+    "status": "both"
+   },
+   {
+    "slug": "sensor-puff-releasers",
+    "status": "both"
+   },
+   {
+    "slug": "vacuum-cleaner-fragrance-additives",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 75,
+   "cert-bounded-index-empty": 45,
+   "cert-valued-index-empty": 45
+  },
+  "regressions": [
+   "air-product-refill-materials[_] iAs: R3:subsumed→control",
+   "air-product-refill-materials[_] MeHg: R3:subsumed→not_material",
+   "air-product-refill-materials[_] Ni: R2:non-null→null (18800→control)",
+   "air-product-refill-materials[_] Sn: R2:non-null→null (3750000→control)",
+   "air-product-refill-materials[_] Al: R2:non-null→null (560000→control)",
+   "air-product-refill-materials[_] Cr-VI: R3:subsumed→control",
+   "automatic-puff-releasers[_] iAs: R3:subsumed→control",
+   "automatic-puff-releasers[_] MeHg: R3:subsumed→not_material",
+   "automatic-puff-releasers[_] Ni: R2:non-null→null (18800→control)",
+   "automatic-puff-releasers[_] Sn: R2:non-null→null (3750000→control)",
+   "automatic-puff-releasers[_] Al: R2:non-null→null (560000→control)",
+   "automatic-puff-releasers[_] Cr-VI: R3:subsumed→control",
+   "capillary-reed-wood-diffusers[_] iAs: R3:subsumed→control",
+   "capillary-reed-wood-diffusers[_] MeHg: R3:subsumed→not_material",
+   "capillary-reed-wood-diffusers[_] Ni: R2:non-null→null (18800→control)",
+   "capillary-reed-wood-diffusers[_] Sn: R2:non-null→null (3750000→control)",
+   "capillary-reed-wood-diffusers[_] Al: R2:non-null→null (560000→control)",
+   "capillary-reed-wood-diffusers[_] Cr-VI: R3:subsumed→control",
+   "electric-plug-in-evaporators[_] iAs: R3:subsumed→control",
+   "electric-plug-in-evaporators[_] MeHg: R3:subsumed→not_material",
+   "electric-plug-in-evaporators[_] Ni: R2:non-null→null (18800→control)",
+   "electric-plug-in-evaporators[_] Sn: R2:non-null→null (3750000→control)",
+   "electric-plug-in-evaporators[_] Al: R2:non-null→null (560000→control)",
+   "electric-plug-in-evaporators[_] Cr-VI: R3:subsumed→control",
+   "gel-diffusers[_] iAs: R3:subsumed→control",
+   "gel-diffusers[_] MeHg: R3:subsumed→not_material",
+   "gel-diffusers[_] Ni: R2:non-null→null (18800→control)",
+   "gel-diffusers[_] Sn: R2:non-null→null (3750000→control)",
+   "gel-diffusers[_] Al: R2:non-null→null (560000→control)",
+   "gel-diffusers[_] Cr-VI: R3:subsumed→control",
+   "heated-oil-diffusers[_] iAs: R3:subsumed→control",
+   "heated-oil-diffusers[_] MeHg: R3:subsumed→not_material",
+   "heated-oil-diffusers[_] Ni: R2:non-null→null (18800→control)",
+   "heated-oil-diffusers[_] Sn: R2:non-null→null (3750000→control)",
+   "heated-oil-diffusers[_] Al: R2:non-null→null (560000→control)",
+   "heated-oil-diffusers[_] Cr-VI: R3:subsumed→control",
+   "home-air-emission-products-other[_] iAs: R3:subsumed→control",
+   "home-air-emission-products-other[_] MeHg: R3:subsumed→control",
+   "home-air-emission-products-other[_] Ni: R2:non-null→null (18800→control)",
+   "home-air-emission-products-other[_] Sn: R2:non-null→null (3750000→control)",
+   "home-air-emission-products-other[_] Al: R2:non-null→null (560000→control)",
+   "home-air-emission-products-other[_] Cr-VI: R3:subsumed→control",
+   "incense-sticks-cones[_] iAs: R3:subsumed→control",
+   "incense-sticks-cones[_] MeHg: R3:subsumed→control",
+   "incense-sticks-cones[_] Ni: R2:non-null→null (18800→control)",
+   "incense-sticks-cones[_] Sn: R2:non-null→null (3750000→control)",
+   "incense-sticks-cones[_] Al: R2:non-null→null (560000→control)",
+   "incense-sticks-cones[_] Cr-VI: R3:subsumed→control",
+   "instant-air-refreshment-sprays[_] iAs: R3:subsumed→control",
+   "instant-air-refreshment-sprays[_] MeHg: R3:subsumed→not_material",
+   "instant-air-refreshment-sprays[_] Ni: R2:non-null→null (18800→control)",
+   "instant-air-refreshment-sprays[_] Sn: R2:non-null→null (3750000→control)",
+   "instant-air-refreshment-sprays[_] Al: R2:non-null→null (560000→control)",
+   "instant-air-refreshment-sprays[_] Cr-VI: R3:subsumed→control",
+   "nebula-diffusers[_] iAs: R3:subsumed→control",
+   "nebula-diffusers[_] MeHg: R3:subsumed→not_material",
+   "nebula-diffusers[_] Ni: R2:non-null→null (18800→control)",
+   "nebula-diffusers[_] Sn: R2:non-null→null (3750000→control)",
+   "nebula-diffusers[_] Al: R2:non-null→null (560000→control)",
+   "nebula-diffusers[_] Cr-VI: R3:subsumed→control",
+   "potpourri-sachets[_] iAs: R3:subsumed→control",
+   "potpourri-sachets[_] MeHg: R3:subsumed→control",
+   "potpourri-sachets[_] Ni: R2:non-null→null (18800→control)",
+   "potpourri-sachets[_] Sn: R2:non-null→null (3750000→control)",
+   "potpourri-sachets[_] Al: R2:non-null→null (560000→control)",
+   "potpourri-sachets[_] Cr-VI: R3:subsumed→control",
+   "scented-candles[_] iAs: R3:subsumed→control",
+   "scented-candles[_] MeHg: R3:subsumed→not_material",
+   "scented-candles[_] Ni: R2:non-null→null (18800→control)",
+   "scented-candles[_] Sn: R2:non-null→null (3750000→control)",
+   "scented-candles[_] Al: R2:non-null→null (560000→control)",
+   "scented-candles[_] Cr-VI: R3:subsumed→control",
+   "scented-wax-blocks-melts[_] iAs: R3:subsumed→control",
+   "scented-wax-blocks-melts[_] MeHg: R3:subsumed→not_material",
+   "scented-wax-blocks-melts[_] Ni: R2:non-null→null (18800→control)",
+   "scented-wax-blocks-melts[_] Sn: R2:non-null→null (3750000→control)",
+   "scented-wax-blocks-melts[_] Al: R2:non-null→null (560000→control)",
+   "scented-wax-blocks-melts[_] Cr-VI: R3:subsumed→control",
+   "sensor-puff-releasers[_] iAs: R3:subsumed→control",
+   "sensor-puff-releasers[_] MeHg: R3:subsumed→not_material",
+   "sensor-puff-releasers[_] Ni: R2:non-null→null (18800→control)",
+   "sensor-puff-releasers[_] Sn: R2:non-null→null (3750000→control)",
+   "sensor-puff-releasers[_] Al: R2:non-null→null (560000→control)",
+   "sensor-puff-releasers[_] Cr-VI: R3:subsumed→control",
+   "vacuum-cleaner-fragrance-additives[_] iAs: R3:subsumed→control",
+   "vacuum-cleaner-fragrance-additives[_] MeHg: R3:subsumed→not_material",
+   "vacuum-cleaner-fragrance-additives[_] Ni: R2:non-null→null (18800→control)",
+   "vacuum-cleaner-fragrance-additives[_] Sn: R2:non-null→null (3750000→control)",
+   "vacuum-cleaner-fragrance-additives[_] Al: R2:non-null→null (560000→control)",
+   "vacuum-cleaner-fragrance-additives[_] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat23-compiled",
+  "indexDir": "cat23-compiled",
+  "records": [
+   {
+    "slug": "bakeware",
+    "status": "both"
+   },
+   {
+    "slug": "cookware-ceramic-coated",
+    "status": "both"
+   },
+   {
+    "slug": "cookware-metal-alloy",
+    "status": "both"
+   },
+   {
+    "slug": "cookware-nonstick-coated",
+    "status": "both"
+   },
+   {
+    "slug": "cookware-specialty-alloy",
+    "status": "both"
+   },
+   {
+    "slug": "cutting-boards",
+    "status": "both"
+   },
+   {
+    "slug": "filter-media-and-housings",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-cans-lids",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-caps-closures",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-flexible-pouches-films",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-foils-wraps",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-glass-jars",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-paperboard-cartons",
+    "status": "both"
+   },
+   {
+    "slug": "food-packaging-plastic-tubs",
+    "status": "both"
+   },
+   {
+    "slug": "food-prep-blender-jars",
+    "status": "both"
+   },
+   {
+    "slug": "food-prep-coffee-maker-pathways",
+    "status": "both"
+   },
+   {
+    "slug": "food-prep-kettle-interiors",
+    "status": "both"
+   },
+   {
+    "slug": "food-prep-processor-bowls",
+    "status": "both"
+   },
+   {
+    "slug": "food-storage-glass-containers",
+    "status": "both"
+   },
+   {
+    "slug": "food-storage-lids-gaskets",
+    "status": "both"
+   },
+   {
+    "slug": "food-storage-plastic-containers",
+    "status": "both"
+   },
+   {
+    "slug": "food-storage-silicone",
+    "status": "both"
+   },
+   {
+    "slug": "tableware-ceramicware",
+    "status": "both"
+   },
+   {
+    "slug": "tableware-decorative-decals-coatings",
+    "status": "both"
+   },
+   {
+    "slug": "tableware-glassware",
+    "status": "both"
+   },
+   {
+    "slug": "tableware-metal-bottles-tumblers",
+    "status": "both"
+   },
+   {
+    "slug": "tableware-plastic-drinkware",
+    "status": "both"
+   },
+   {
+    "slug": "utensils-metal",
+    "status": "both"
+   },
+   {
+    "slug": "utensils-plastic-silicone-tools",
+    "status": "both"
+   },
+   {
+    "slug": "water-filters",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "cert-valued-index-empty": 144,
+   "cert-bounded-index-empty": 88,
+   "identical": 98
+  },
+  "regressions": [
+   "bakeware[_] Pb: R2:non-null→null (10→control)",
+   "bakeware[_] Cd: R2:non-null→null (2→control)",
+   "bakeware[_] tAs: R2:non-null→null (2→control)",
+   "bakeware[_] iAs: R3:subsumed→control",
+   "bakeware[_] tHg: R2:non-null→null (10→control)",
+   "bakeware[_] MeHg: R3:subsumed→not_material",
+   "bakeware[_] Ni: R2:non-null→null (140→control)",
+   "bakeware[_] Sn: R2:non-null→null (100000→control)",
+   "bakeware[_] Al: R2:non-null→null (1000→control)",
+   "bakeware[_] Cr: R2:non-null→null (250→control)",
+   "bakeware[_] Cr-VI: R3:subsumed→control",
+   "cookware-ceramic-coated[_] Pb: R2:non-null→null (1500→control)",
+   "cookware-ceramic-coated[_] Cd: R2:non-null→null (100→control)",
+   "cookware-ceramic-coated[_] tAs: R2:non-null→null (10→control)",
+   "cookware-ceramic-coated[_] iAs: R3:subsumed→control",
+   "cookware-ceramic-coated[_] tHg: R2:non-null→null (10→control)",
+   "cookware-ceramic-coated[_] MeHg: R3:subsumed→not_material",
+   "cookware-ceramic-coated[_] Ni: R2:non-null→null (20→control)",
+   "cookware-ceramic-coated[_] Sn: R2:non-null→null (100000→control)",
+   "cookware-ceramic-coated[_] Al: R2:non-null→null (1000→control)",
+   "cookware-ceramic-coated[_] Cr: R2:non-null→null (10→control)",
+   "cookware-ceramic-coated[_] Cr-VI: R3:subsumed→control",
+   "cookware-metal-alloy[_] Pb: R2:non-null→null (10→control)",
+   "cookware-metal-alloy[_] Cd: R2:non-null→null (2→control)",
+   "cookware-metal-alloy[_] tAs: R2:non-null→null (2→control)",
+   "cookware-metal-alloy[_] iAs: R3:subsumed→control",
+   "cookware-metal-alloy[_] tHg: R2:non-null→null (10→control)",
+   "cookware-metal-alloy[_] MeHg: R3:subsumed→not_material",
+   "cookware-metal-alloy[_] Ni: R2:non-null→null (140→control)",
+   "cookware-metal-alloy[_] Sn: R2:non-null→null (100000→control)",
+   "cookware-metal-alloy[_] Al: R2:non-null→null (1000→control)",
+   "cookware-metal-alloy[_] Cr: R2:non-null→null (250→control)",
+   "cookware-metal-alloy[_] Cr-VI: R3:subsumed→control",
+   "cookware-nonstick-coated[_] iAs: R3:subsumed→not_material",
+   "cookware-nonstick-coated[_] MeHg: R3:subsumed→not_material",
+   "cookware-nonstick-coated[_] Sn: R2:non-null→null (1000000→control)",
+   "cookware-nonstick-coated[_] Cr-VI: R3:subsumed→not_material",
+   "cookware-specialty-alloy[_] Pb: R2:non-null→null (10→control)",
+   "cookware-specialty-alloy[_] Cd: R2:non-null→null (2→control)",
+   "cookware-specialty-alloy[_] tAs: R2:non-null→null (2→control)",
+   "cookware-specialty-alloy[_] iAs: R3:subsumed→control",
+   "cookware-specialty-alloy[_] tHg: R2:non-null→null (10→control)",
+   "cookware-specialty-alloy[_] MeHg: R3:subsumed→not_material",
+   "cookware-specialty-alloy[_] Ni: R2:non-null→null (140→control)",
+   "cookware-specialty-alloy[_] Sn: R2:non-null→null (100000→control)",
+   "cookware-specialty-alloy[_] Al: R2:non-null→null (1000→control)",
+   "cookware-specialty-alloy[_] Cr: R2:non-null→null (250→control)",
+   "cookware-specialty-alloy[_] Cr-VI: R3:subsumed→control",
+   "cutting-boards[_] iAs: R3:subsumed→not_material",
+   "cutting-boards[_] MeHg: R3:subsumed→not_material",
+   "cutting-boards[_] Sn: R2:non-null→null (1000000→control)",
+   "cutting-boards[_] Cr-VI: R3:subsumed→not_material",
+   "filter-media-and-housings[_] Pb: R2:non-null→null (5→control)",
+   "filter-media-and-housings[_] Cd: R2:non-null→null (2→control)",
+   "filter-media-and-housings[_] tAs: R2:non-null→null (10→control)",
+   "filter-media-and-housings[_] iAs: R3:subsumed→control",
+   "filter-media-and-housings[_] tHg: R2:non-null→null (1→control)",
+   "filter-media-and-housings[_] MeHg: R3:subsumed→control",
+   "filter-media-and-housings[_] Ni: R2:non-null→null (20→control)",
+   "filter-media-and-housings[_] Sn: R2:non-null→null (100000→control)",
+   "filter-media-and-housings[_] Al: R2:non-null→null (200→control)",
+   "filter-media-and-housings[_] Cr: R2:non-null→null (50→control)",
+   "filter-media-and-housings[_] Cr-VI: R2:non-null→null (10→control)",
+   "food-packaging-cans-lids[_] iAs: R3:subsumed→not_material",
+   "food-packaging-cans-lids[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-cans-lids[_] Sn: R2:non-null→null (1000000→control)",
+   "food-packaging-cans-lids[_] Cr-VI: R3:subsumed→not_material",
+   "food-packaging-caps-closures[_] iAs: R3:subsumed→not_material",
+   "food-packaging-caps-closures[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-caps-closures[_] Sn: R2:non-null→null (1000000→control)",
+   "food-packaging-caps-closures[_] Cr-VI: R3:subsumed→not_material",
+   "food-packaging-flexible-pouches-films[_] iAs: R3:subsumed→not_material",
+   "food-packaging-flexible-pouches-films[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-flexible-pouches-films[_] Sn: R2:non-null→null (1000000→control)",
+   "food-packaging-flexible-pouches-films[_] Cr-VI: R3:subsumed→not_material",
+   "food-packaging-foils-wraps[_] Pb: R2:non-null→null (10→control)",
+   "food-packaging-foils-wraps[_] Cd: R2:non-null→null (2→control)",
+   "food-packaging-foils-wraps[_] tAs: R2:non-null→null (2→control)",
+   "food-packaging-foils-wraps[_] iAs: R3:subsumed→control",
+   "food-packaging-foils-wraps[_] tHg: R2:non-null→null (10→control)",
+   "food-packaging-foils-wraps[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-foils-wraps[_] Ni: R2:non-null→null (140→control)",
+   "food-packaging-foils-wraps[_] Sn: R2:non-null→null (100000→control)",
+   "food-packaging-foils-wraps[_] Al: R2:non-null→null (5000→control)",
+   "food-packaging-foils-wraps[_] Cr: R2:non-null→null (250→control)",
+   "food-packaging-foils-wraps[_] Cr-VI: R3:subsumed→control",
+   "food-packaging-glass-jars[_] Pb: R2:non-null→null (10→control)",
+   "food-packaging-glass-jars[_] Cd: R2:non-null→null (2→control)",
+   "food-packaging-glass-jars[_] tAs: R2:non-null→null (10→control)",
+   "food-packaging-glass-jars[_] iAs: R3:subsumed→control",
+   "food-packaging-glass-jars[_] tHg: R2:non-null→null (10→control)",
+   "food-packaging-glass-jars[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-glass-jars[_] Ni: R2:non-null→null (20→control)",
+   "food-packaging-glass-jars[_] Sn: R2:non-null→null (100000→control)",
+   "food-packaging-glass-jars[_] Al: R2:non-null→null (1000→control)",
+   "food-packaging-glass-jars[_] Cr: R2:non-null→null (10→control)",
+   "food-packaging-glass-jars[_] Cr-VI: R3:subsumed→control",
+   "food-packaging-paperboard-cartons[_] iAs: R3:subsumed→not_material",
+   "food-packaging-paperboard-cartons[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-paperboard-cartons[_] Sn: R2:non-null→null (1000000→control)",
+   "food-packaging-paperboard-cartons[_] Cr-VI: R3:subsumed→not_material",
+   "food-packaging-plastic-tubs[_] iAs: R3:subsumed→not_material",
+   "food-packaging-plastic-tubs[_] MeHg: R3:subsumed→not_material",
+   "food-packaging-plastic-tubs[_] Sn: R2:non-null→null (1000000→control)",
+   "food-packaging-plastic-tubs[_] Cr-VI: R3:subsumed→not_material",
+   "food-prep-blender-jars[_] iAs: R3:subsumed→not_material",
+   "food-prep-blender-jars[_] MeHg: R3:subsumed→not_material",
+   "food-prep-blender-jars[_] Sn: R2:non-null→null (1000000→control)",
+   "food-prep-blender-jars[_] Cr-VI: R3:subsumed→not_material",
+   "food-prep-coffee-maker-pathways[_] Pb: R2:non-null→null (10→control)",
+   "food-prep-coffee-maker-pathways[_] Cd: R2:non-null→null (2→control)",
+   "food-prep-coffee-maker-pathways[_] tAs: R2:non-null→null (2→control)",
+   "food-prep-coffee-maker-pathways[_] iAs: R3:subsumed→control",
+   "food-prep-coffee-maker-pathways[_] tHg: R2:non-null→null (10→control)",
+   "food-prep-coffee-maker-pathways[_] MeHg: R3:subsumed→not_material",
+   "food-prep-coffee-maker-pathways[_] Ni: R2:non-null→null (140→control)",
+   "food-prep-coffee-maker-pathways[_] Sn: R2:non-null→null (100000→control)",
+   "food-prep-coffee-maker-pathways[_] Al: R2:non-null→null (1000→control)",
+   "food-prep-coffee-maker-pathways[_] Cr: R2:non-null→null (250→control)",
+   "food-prep-coffee-maker-pathways[_] Cr-VI: R3:subsumed→control",
+   "food-prep-kettle-interiors[_] Pb: R2:non-null→null (10→control)",
+   "food-prep-kettle-interiors[_] Cd: R2:non-null→null (2→control)",
+   "food-prep-kettle-interiors[_] tAs: R2:non-null→null (2→control)",
+   "food-prep-kettle-interiors[_] iAs: R3:subsumed→control",
+   "food-prep-kettle-interiors[_] tHg: R2:non-null→null (10→control)",
+   "food-prep-kettle-interiors[_] MeHg: R3:subsumed→not_material",
+   "food-prep-kettle-interiors[_] Ni: R2:non-null→null (140→control)",
+   "food-prep-kettle-interiors[_] Sn: R2:non-null→null (100000→control)",
+   "food-prep-kettle-interiors[_] Al: R2:non-null→null (1000→control)",
+   "food-prep-kettle-interiors[_] Cr: R2:non-null→null (250→control)",
+   "food-prep-kettle-interiors[_] Cr-VI: R3:subsumed→control",
+   "food-prep-processor-bowls[_] iAs: R3:subsumed→not_material",
+   "food-prep-processor-bowls[_] MeHg: R3:subsumed→not_material",
+   "food-prep-processor-bowls[_] Sn: R2:non-null→null (1000000→control)",
+   "food-prep-processor-bowls[_] Cr-VI: R3:subsumed→not_material",
+   "food-storage-glass-containers[_] Pb: R2:non-null→null (10→control)",
+   "food-storage-glass-containers[_] Cd: R2:non-null→null (2→control)",
+   "food-storage-glass-containers[_] tAs: R2:non-null→null (10→control)",
+   "food-storage-glass-containers[_] iAs: R3:subsumed→control",
+   "food-storage-glass-containers[_] tHg: R2:non-null→null (10→control)",
+   "food-storage-glass-containers[_] MeHg: R3:subsumed→not_material",
+   "food-storage-glass-containers[_] Ni: R2:non-null→null (20→control)",
+   "food-storage-glass-containers[_] Sn: R2:non-null→null (100000→control)",
+   "food-storage-glass-containers[_] Al: R2:non-null→null (1000→control)",
+   "food-storage-glass-containers[_] Cr: R2:non-null→null (10→control)",
+   "food-storage-glass-containers[_] Cr-VI: R3:subsumed→control",
+   "food-storage-lids-gaskets[_] iAs: R3:subsumed→not_material",
+   "food-storage-lids-gaskets[_] MeHg: R3:subsumed→not_material",
+   "food-storage-lids-gaskets[_] Sn: R2:non-null→null (1000000→control)",
+   "food-storage-lids-gaskets[_] Cr-VI: R3:subsumed→not_material",
+   "food-storage-plastic-containers[_] iAs: R3:subsumed→not_material",
+   "food-storage-plastic-containers[_] MeHg: R3:subsumed→not_material",
+   "food-storage-plastic-containers[_] Sn: R2:non-null→null (1000000→control)",
+   "food-storage-plastic-containers[_] Cr-VI: R3:subsumed→not_material",
+   "food-storage-silicone[_] iAs: R3:subsumed→not_material",
+   "food-storage-silicone[_] MeHg: R3:subsumed→not_material",
+   "food-storage-silicone[_] Sn: R2:non-null→null (1000000→control)",
+   "food-storage-silicone[_] Cr-VI: R3:subsumed→not_material",
+   "tableware-ceramicware[_] Pb: R2:non-null→null (4000→control)",
+   "tableware-ceramicware[_] Cd: R2:non-null→null (300→control)",
+   "tableware-ceramicware[_] tAs: R2:non-null→null (10→control)",
+   "tableware-ceramicware[_] iAs: R3:subsumed→control",
+   "tableware-ceramicware[_] tHg: R2:non-null→null (10→control)",
+   "tableware-ceramicware[_] MeHg: R3:subsumed→not_material",
+   "tableware-ceramicware[_] Ni: R2:non-null→null (20→control)",
+   "tableware-ceramicware[_] Sn: R2:non-null→null (100000→control)",
+   "tableware-ceramicware[_] Al: R2:non-null→null (1000→control)",
+   "tableware-ceramicware[_] Cr: R2:non-null→null (10→control)",
+   "tableware-ceramicware[_] Cr-VI: R3:subsumed→control",
+   "tableware-decorative-decals-coatings[_] Pb: R2:non-null→null (4000→control)",
+   "tableware-decorative-decals-coatings[_] Cd: R2:non-null→null (300→control)",
+   "tableware-decorative-decals-coatings[_] tAs: R2:non-null→null (10→control)",
+   "tableware-decorative-decals-coatings[_] iAs: R3:subsumed→control",
+   "tableware-decorative-decals-coatings[_] tHg: R2:non-null→null (10→control)",
+   "tableware-decorative-decals-coatings[_] MeHg: R3:subsumed→not_material",
+   "tableware-decorative-decals-coatings[_] Ni: R2:non-null→null (20→control)",
+   "tableware-decorative-decals-coatings[_] Sn: R2:non-null→null (100000→control)",
+   "tableware-decorative-decals-coatings[_] Al: R2:non-null→null (1000→control)",
+   "tableware-decorative-decals-coatings[_] Cr: R2:non-null→null (10→control)",
+   "tableware-decorative-decals-coatings[_] Cr-VI: R3:subsumed→control",
+   "tableware-glassware[_] Pb: R2:non-null→null (10→control)",
+   "tableware-glassware[_] Cd: R2:non-null→null (2→control)",
+   "tableware-glassware[_] tAs: R2:non-null→null (10→control)",
+   "tableware-glassware[_] iAs: R3:subsumed→control",
+   "tableware-glassware[_] tHg: R2:non-null→null (10→control)",
+   "tableware-glassware[_] MeHg: R3:subsumed→not_material",
+   "tableware-glassware[_] Ni: R2:non-null→null (20→control)",
+   "tableware-glassware[_] Sn: R2:non-null→null (100000→control)",
+   "tableware-glassware[_] Al: R2:non-null→null (1000→control)",
+   "tableware-glassware[_] Cr: R2:non-null→null (10→control)",
+   "tableware-glassware[_] Cr-VI: R3:subsumed→control",
+   "tableware-metal-bottles-tumblers[_] Pb: R2:non-null→null (10→control)",
+   "tableware-metal-bottles-tumblers[_] Cd: R2:non-null→null (2→control)",
+   "tableware-metal-bottles-tumblers[_] tAs: R2:non-null→null (2→control)",
+   "tableware-metal-bottles-tumblers[_] iAs: R3:subsumed→control",
+   "tableware-metal-bottles-tumblers[_] tHg: R2:non-null→null (10→control)",
+   "tableware-metal-bottles-tumblers[_] MeHg: R3:subsumed→not_material",
+   "tableware-metal-bottles-tumblers[_] Ni: R2:non-null→null (140→control)",
+   "tableware-metal-bottles-tumblers[_] Sn: R2:non-null→null (100000→control)",
+   "tableware-metal-bottles-tumblers[_] Al: R2:non-null→null (1000→control)",
+   "tableware-metal-bottles-tumblers[_] Cr: R2:non-null→null (250→control)",
+   "tableware-metal-bottles-tumblers[_] Cr-VI: R3:subsumed→control",
+   "tableware-plastic-drinkware[_] iAs: R3:subsumed→not_material",
+   "tableware-plastic-drinkware[_] MeHg: R3:subsumed→not_material",
+   "tableware-plastic-drinkware[_] Sn: R2:non-null→null (1000000→control)",
+   "tableware-plastic-drinkware[_] Cr-VI: R3:subsumed→not_material",
+   "utensils-metal[_] Pb: R2:non-null→null (10→control)",
+   "utensils-metal[_] Cd: R2:non-null→null (2→control)",
+   "utensils-metal[_] tAs: R2:non-null→null (2→control)",
+   "utensils-metal[_] iAs: R3:subsumed→control",
+   "utensils-metal[_] tHg: R2:non-null→null (10→control)",
+   "utensils-metal[_] MeHg: R3:subsumed→not_material",
+   "utensils-metal[_] Ni: R2:non-null→null (140→control)",
+   "utensils-metal[_] Sn: R2:non-null→null (100000→control)",
+   "utensils-metal[_] Al: R2:non-null→null (1000→control)",
+   "utensils-metal[_] Cr: R2:non-null→null (250→control)",
+   "utensils-metal[_] Cr-VI: R3:subsumed→control",
+   "utensils-plastic-silicone-tools[_] iAs: R3:subsumed→not_material",
+   "utensils-plastic-silicone-tools[_] MeHg: R3:subsumed→not_material",
+   "utensils-plastic-silicone-tools[_] Sn: R2:non-null→null (1000000→control)",
+   "utensils-plastic-silicone-tools[_] Cr-VI: R3:subsumed→not_material",
+   "water-filters[_] Pb: R2:non-null→null (5→control)",
+   "water-filters[_] Cd: R2:non-null→null (2→control)",
+   "water-filters[_] tAs: R2:non-null→null (10→control)",
+   "water-filters[_] iAs: R3:subsumed→control",
+   "water-filters[_] tHg: R2:non-null→null (1→control)",
+   "water-filters[_] MeHg: R3:subsumed→control",
+   "water-filters[_] Ni: R2:non-null→null (20→control)",
+   "water-filters[_] Sn: R2:non-null→null (100000→control)",
+   "water-filters[_] Al: R2:non-null→null (200→control)",
+   "water-filters[_] Cr: R2:non-null→null (50→control)",
+   "water-filters[_] Cr-VI: R2:non-null→null (10→control)"
+  ]
+ },
+ {
+  "certDir": "cat24-compiled",
+  "indexDir": "cat24-compiled",
+  "records": [
+   {
+    "slug": "butter-and-ghee",
+    "status": "index-only"
+   },
+   {
+    "slug": "dairy-cheese",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-condensed-evaporated",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-cream",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-milk-camel",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-milk-cow",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-milk-goat-sheep",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-milk-powders",
+    "status": "both"
+   },
+   {
+    "slug": "dairy-yogurt-cultured",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 52,
+   "cert-bounded-index-empty": 24,
+   "cert-valued-index-empty": 7,
+   "prose-only": 5
+  },
+  "regressions": [
+   "dairy-cheese[both] iAs: R3:subsumed→control",
+   "dairy-cheese[both] MeHg: R3:subsumed→control",
+   "dairy-cheese[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-cheese[both] Cr-VI: R3:subsumed→control",
+   "dairy-condensed-evaporated[both] iAs: R3:subsumed→control",
+   "dairy-condensed-evaporated[both] MeHg: R3:subsumed→control",
+   "dairy-condensed-evaporated[both] Cr-VI: R3:subsumed→control",
+   "dairy-cream[both] iAs: R3:subsumed→control",
+   "dairy-cream[both] MeHg: R3:subsumed→control",
+   "dairy-cream[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-cream[both] Cr-VI: R3:subsumed→control",
+   "dairy-milk-camel[both] iAs: R3:subsumed→control",
+   "dairy-milk-camel[both] MeHg: R3:subsumed→control",
+   "dairy-milk-camel[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-milk-camel[both] Cr-VI: R3:subsumed→control",
+   "dairy-milk-cow[both] iAs: R3:subsumed→control",
+   "dairy-milk-cow[both] MeHg: R3:subsumed→control",
+   "dairy-milk-cow[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-milk-cow[both] Cr-VI: R3:subsumed→control",
+   "dairy-milk-goat-sheep[both] iAs: R3:subsumed→control",
+   "dairy-milk-goat-sheep[both] MeHg: R3:subsumed→control",
+   "dairy-milk-goat-sheep[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-milk-goat-sheep[both] Cr-VI: R3:subsumed→control",
+   "dairy-milk-powders[both] iAs: R3:subsumed→control",
+   "dairy-milk-powders[both] MeHg: R3:subsumed→control",
+   "dairy-milk-powders[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-milk-powders[both] Cr-VI: R3:subsumed→control",
+   "dairy-yogurt-cultured[both] iAs: R3:subsumed→control",
+   "dairy-yogurt-cultured[both] MeHg: R3:subsumed→control",
+   "dairy-yogurt-cultured[both] Sn: R2:non-null→null (250000→control)",
+   "dairy-yogurt-cultured[both] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat25-compiled",
+  "indexDir": "cat25-compiled",
+  "records": [
+   {
+    "slug": "cannabis-concentrates",
+    "status": "both"
+   },
+   {
+    "slug": "cannabis-edibles",
+    "status": "both"
+   },
+   {
+    "slug": "cannabis-flower",
+    "status": "both"
+   },
+   {
+    "slug": "cannabis-tinctures-oils",
+    "status": "both"
+   },
+   {
+    "slug": "cannabis-topicals",
+    "status": "both"
+   },
+   {
+    "slug": "cannabis-vape-cartridge-fill",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 30,
+   "cert-bounded-index-empty": 18,
+   "cert-valued-index-empty": 18
+  },
+  "regressions": [
+   "cannabis-concentrates[_] iAs: R3:subsumed→control",
+   "cannabis-concentrates[_] MeHg: R3:subsumed→control",
+   "cannabis-concentrates[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-concentrates[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-concentrates[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-concentrates[_] Cr-VI: R3:subsumed→control",
+   "cannabis-edibles[_] iAs: R3:subsumed→control",
+   "cannabis-edibles[_] MeHg: R3:subsumed→control",
+   "cannabis-edibles[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-edibles[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-edibles[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-edibles[_] Cr-VI: R3:subsumed→control",
+   "cannabis-flower[_] iAs: R3:subsumed→control",
+   "cannabis-flower[_] MeHg: R3:subsumed→control",
+   "cannabis-flower[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-flower[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-flower[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-flower[_] Cr-VI: R3:subsumed→control",
+   "cannabis-tinctures-oils[_] iAs: R3:subsumed→control",
+   "cannabis-tinctures-oils[_] MeHg: R3:subsumed→control",
+   "cannabis-tinctures-oils[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-tinctures-oils[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-tinctures-oils[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-tinctures-oils[_] Cr-VI: R3:subsumed→control",
+   "cannabis-topicals[_] iAs: R3:subsumed→control",
+   "cannabis-topicals[_] MeHg: R3:subsumed→control",
+   "cannabis-topicals[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-topicals[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-topicals[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-topicals[_] Cr-VI: R3:subsumed→control",
+   "cannabis-vape-cartridge-fill[_] iAs: R3:subsumed→control",
+   "cannabis-vape-cartridge-fill[_] MeHg: R3:subsumed→control",
+   "cannabis-vape-cartridge-fill[_] Ni: R2:non-null→null (800→control)",
+   "cannabis-vape-cartridge-fill[_] Sn: R2:non-null→null (250000→control)",
+   "cannabis-vape-cartridge-fill[_] Al: R2:non-null→null (100000→control)",
+   "cannabis-vape-cartridge-fill[_] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat26-compiled",
+  "indexDir": "cat26-compiled",
+  "records": [
+   {
+    "slug": "aas-injectable",
+    "status": "both"
+   },
+   {
+    "slug": "peptides-injectable-hormones",
+    "status": "both"
+   },
+   {
+    "slug": "peptides-nasal-sublingual",
+    "status": "both"
+   },
+   {
+    "slug": "research-chem-raw-powders",
+    "status": "both"
+   },
+   {
+    "slug": "sarms-oral",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "cert-valued-index-empty": 40,
+   "cert-bounded-index-empty": 15
+  },
+  "regressions": [
+   "aas-injectable[_] Pb: R2:non-null→null (500→control)",
+   "aas-injectable[_] Cd: R2:non-null→null (200→control)",
+   "aas-injectable[_] tAs: R2:non-null→null (1500→control)",
+   "aas-injectable[_] iAs: R3:subsumed→control",
+   "aas-injectable[_] tHg: R2:non-null→null (300→control)",
+   "aas-injectable[_] MeHg: R3:subsumed→not_material",
+   "aas-injectable[_] Ni: R2:non-null→null (2000→control)",
+   "aas-injectable[_] Sn: R2:non-null→null (60000→control)",
+   "aas-injectable[_] Al: R2:non-null→null (25→control)",
+   "aas-injectable[_] Cr: R2:non-null→null (110000→control)",
+   "aas-injectable[_] Cr-VI: R3:subsumed→control",
+   "peptides-injectable-hormones[_] Pb: R2:non-null→null (500→control)",
+   "peptides-injectable-hormones[_] Cd: R2:non-null→null (200→control)",
+   "peptides-injectable-hormones[_] tAs: R2:non-null→null (1500→control)",
+   "peptides-injectable-hormones[_] iAs: R3:subsumed→control",
+   "peptides-injectable-hormones[_] tHg: R2:non-null→null (300→control)",
+   "peptides-injectable-hormones[_] MeHg: R3:subsumed→not_material",
+   "peptides-injectable-hormones[_] Ni: R2:non-null→null (2000→control)",
+   "peptides-injectable-hormones[_] Sn: R2:non-null→null (60000→control)",
+   "peptides-injectable-hormones[_] Al: R2:non-null→null (25→control)",
+   "peptides-injectable-hormones[_] Cr: R2:non-null→null (110000→control)",
+   "peptides-injectable-hormones[_] Cr-VI: R3:subsumed→control",
+   "peptides-nasal-sublingual[_] Pb: R2:non-null→null (500→control)",
+   "peptides-nasal-sublingual[_] Cd: R2:non-null→null (200→control)",
+   "peptides-nasal-sublingual[_] tAs: R2:non-null→null (1500→control)",
+   "peptides-nasal-sublingual[_] iAs: R3:subsumed→control",
+   "peptides-nasal-sublingual[_] tHg: R2:non-null→null (300→control)",
+   "peptides-nasal-sublingual[_] MeHg: R3:subsumed→not_material",
+   "peptides-nasal-sublingual[_] Ni: R2:non-null→null (2000→control)",
+   "peptides-nasal-sublingual[_] Sn: R2:non-null→null (60000→control)",
+   "peptides-nasal-sublingual[_] Al: R2:non-null→null (25→control)",
+   "peptides-nasal-sublingual[_] Cr: R2:non-null→null (110000→control)",
+   "peptides-nasal-sublingual[_] Cr-VI: R3:subsumed→control",
+   "research-chem-raw-powders[_] Pb: R2:non-null→null (500→control)",
+   "research-chem-raw-powders[_] Cd: R2:non-null→null (500→control)",
+   "research-chem-raw-powders[_] tAs: R2:non-null→null (1500→control)",
+   "research-chem-raw-powders[_] iAs: R3:subsumed→control",
+   "research-chem-raw-powders[_] tHg: R2:non-null→null (3000→control)",
+   "research-chem-raw-powders[_] MeHg: R3:subsumed→not_material",
+   "research-chem-raw-powders[_] Ni: R2:non-null→null (20000→control)",
+   "research-chem-raw-powders[_] Sn: R2:non-null→null (600000→control)",
+   "research-chem-raw-powders[_] Al: R2:non-null→null (200→control)",
+   "research-chem-raw-powders[_] Cr: R2:non-null→null (1100000→control)",
+   "research-chem-raw-powders[_] Cr-VI: R3:subsumed→control",
+   "sarms-oral[_] Pb: R2:non-null→null (500→control)",
+   "sarms-oral[_] Cd: R2:non-null→null (500→control)",
+   "sarms-oral[_] tAs: R2:non-null→null (1500→control)",
+   "sarms-oral[_] iAs: R3:subsumed→control",
+   "sarms-oral[_] tHg: R2:non-null→null (3000→control)",
+   "sarms-oral[_] MeHg: R3:subsumed→not_material",
+   "sarms-oral[_] Ni: R2:non-null→null (20000→control)",
+   "sarms-oral[_] Sn: R2:non-null→null (600000→control)",
+   "sarms-oral[_] Al: R2:non-null→null (200→control)",
+   "sarms-oral[_] Cr: R2:non-null→null (1100000→control)",
+   "sarms-oral[_] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat27-compiled",
+  "indexDir": "cat27-compiled",
+  "records": [
+   {
+    "slug": "legumes-pulses-other",
+    "status": "both"
+   },
+   {
+    "slug": "peanut-butter",
+    "status": "both"
+   },
+   {
+    "slug": "peanuts",
+    "status": "both"
+   },
+   {
+    "slug": "soy-products",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "prose-only": 4,
+   "cert-tighter": 1,
+   "identical": 19,
+   "cert-bounded-index-empty": 8,
+   "cert-valued-index-empty": 12
+  },
+  "regressions": [
+   "legumes-pulses-other[both] Cd: R1:numeric-increase 10→40",
+   "legumes-pulses-other[both] MeHg: R3:subsumed→not_material",
+   "legumes-pulses-other[both] Sn: R2:non-null→null (250000→not_material)",
+   "legumes-pulses-other[both] Al: R2:non-null→null (100000→control)",
+   "legumes-pulses-other[both] Cr: R2:non-null→null (1000→control)",
+   "legumes-pulses-other[both] Cr-VI: R3:subsumed→not_material",
+   "peanut-butter[both] MeHg: R3:subsumed→not_material",
+   "peanut-butter[both] Sn: R2:non-null→null (250000→not_material)",
+   "peanut-butter[both] Al: R2:non-null→null (100000→control)",
+   "peanut-butter[both] Cr: R2:non-null→null (1000→control)",
+   "peanut-butter[both] Cr-VI: R3:subsumed→not_material",
+   "peanuts[both] MeHg: R3:subsumed→not_material",
+   "peanuts[both] Sn: R2:non-null→null (250000→not_material)",
+   "peanuts[both] Al: R2:non-null→null (100000→control)",
+   "peanuts[both] Cr: R2:non-null→null (1000→control)",
+   "peanuts[both] Cr-VI: R3:subsumed→not_material",
+   "soy-products[both] MeHg: R3:subsumed→not_material",
+   "soy-products[both] Sn: R2:non-null→null (250000→not_material)",
+   "soy-products[both] Al: R2:non-null→null (100000→control)",
+   "soy-products[both] Cr: R2:non-null→null (1000→control)",
+   "soy-products[both] Cr-VI: R3:subsumed→not_material"
+  ]
+ },
+ {
+  "certDir": "cat28-compiled",
+  "indexDir": "cat28-compiled",
+  "records": [
+   {
+    "slug": "cashews",
+    "status": "both"
+   },
+   {
+    "slug": "nut-seed-butters-other",
+    "status": "both"
+   },
+   {
+    "slug": "nuts-seeds-other",
+    "status": "both"
+   },
+   {
+    "slug": "sunflower-seed-butter",
+    "status": "both"
+   },
+   {
+    "slug": "sunflower-seeds",
+    "status": "both"
+   },
+   {
+    "slug": "tree-nuts-high-nickel",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "cert-tighter": 8,
+   "identical": 22,
+   "cert-bounded-index-empty": 18,
+   "cert-valued-index-empty": 18
+  },
+  "regressions": [
+   "cashews[both] Pb: R1:numeric-increase 200→1000",
+   "cashews[both] tAs: R1:numeric-increase 800→1000",
+   "cashews[both] iAs: R3:subsumed→not_material",
+   "cashews[both] MeHg: R3:subsumed→not_material",
+   "cashews[both] Sn: R2:non-null→null (250000→not_material)",
+   "cashews[both] Al: R2:non-null→null (100000→control)",
+   "cashews[both] Cr: R2:non-null→null (1000→control)",
+   "cashews[both] Cr-VI: R3:subsumed→not_material",
+   "nut-seed-butters-other[both] Pb: R1:numeric-increase 200→1000",
+   "nut-seed-butters-other[both] tAs: R1:numeric-increase 800→1000",
+   "nut-seed-butters-other[both] iAs: R3:subsumed→not_material",
+   "nut-seed-butters-other[both] MeHg: R3:subsumed→not_material",
+   "nut-seed-butters-other[both] Sn: R2:non-null→null (250000→not_material)",
+   "nut-seed-butters-other[both] Al: R2:non-null→null (100000→control)",
+   "nut-seed-butters-other[both] Cr: R2:non-null→null (1000→control)",
+   "nut-seed-butters-other[both] Cr-VI: R3:subsumed→not_material",
+   "nuts-seeds-other[both] Pb: R1:numeric-increase 200→1000",
+   "nuts-seeds-other[both] tAs: R1:numeric-increase 800→1000",
+   "nuts-seeds-other[both] iAs: R3:subsumed→not_material",
+   "nuts-seeds-other[both] MeHg: R3:subsumed→not_material",
+   "nuts-seeds-other[both] Sn: R2:non-null→null (250000→not_material)",
+   "nuts-seeds-other[both] Al: R2:non-null→null (100000→control)",
+   "nuts-seeds-other[both] Cr: R2:non-null→null (1000→control)",
+   "nuts-seeds-other[both] Cr-VI: R3:subsumed→not_material",
+   "sunflower-seed-butter[both] iAs: R3:subsumed→not_material",
+   "sunflower-seed-butter[both] MeHg: R3:subsumed→not_material",
+   "sunflower-seed-butter[both] Sn: R2:non-null→null (250000→not_material)",
+   "sunflower-seed-butter[both] Al: R2:non-null→null (100000→control)",
+   "sunflower-seed-butter[both] Cr: R2:non-null→null (1000→control)",
+   "sunflower-seed-butter[both] Cr-VI: R3:subsumed→not_material",
+   "sunflower-seeds[both] iAs: R3:subsumed→not_material",
+   "sunflower-seeds[both] MeHg: R3:subsumed→not_material",
+   "sunflower-seeds[both] Sn: R2:non-null→null (250000→not_material)",
+   "sunflower-seeds[both] Al: R2:non-null→null (100000→control)",
+   "sunflower-seeds[both] Cr: R2:non-null→null (1000→control)",
+   "sunflower-seeds[both] Cr-VI: R3:subsumed→not_material",
+   "tree-nuts-high-nickel[both] Pb: R1:numeric-increase 200→1000",
+   "tree-nuts-high-nickel[both] tAs: R1:numeric-increase 800→1000",
+   "tree-nuts-high-nickel[both] iAs: R3:subsumed→not_material",
+   "tree-nuts-high-nickel[both] MeHg: R3:subsumed→not_material",
+   "tree-nuts-high-nickel[both] Sn: R2:non-null→null (250000→not_material)",
+   "tree-nuts-high-nickel[both] Al: R2:non-null→null (100000→control)",
+   "tree-nuts-high-nickel[both] Cr: R2:non-null→null (1000→control)",
+   "tree-nuts-high-nickel[both] Cr-VI: R3:subsumed→not_material"
+  ]
+ },
+ {
+  "certDir": "cat29-compiled",
+  "indexDir": "cat29-compiled",
+  "records": [
+   {
+    "slug": "cultivated-mushrooms",
+    "status": "both"
+   },
+   {
+    "slug": "cultivated-mushrooms-oyster-shiitake",
+    "status": "both"
+   },
+   {
+    "slug": "wild-mushrooms",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 15,
+   "cert-bounded-index-empty": 6,
+   "cert-valued-index-empty": 12
+  },
+  "regressions": [
+   "cultivated-mushrooms[both] MeHg: R3:subsumed→not_material",
+   "cultivated-mushrooms[both] Ni: R2:non-null→null (400→control)",
+   "cultivated-mushrooms[both] Sn: R2:non-null→null (250000→not_material)",
+   "cultivated-mushrooms[both] Al: R2:non-null→null (100000→control)",
+   "cultivated-mushrooms[both] Cr: R2:non-null→null (1000→control)",
+   "cultivated-mushrooms[both] Cr-VI: R3:subsumed→not_material",
+   "cultivated-mushrooms-oyster-shiitake[both] MeHg: R3:subsumed→not_material",
+   "cultivated-mushrooms-oyster-shiitake[both] Ni: R2:non-null→null (400→control)",
+   "cultivated-mushrooms-oyster-shiitake[both] Sn: R2:non-null→null (250000→not_material)",
+   "cultivated-mushrooms-oyster-shiitake[both] Al: R2:non-null→null (100000→control)",
+   "cultivated-mushrooms-oyster-shiitake[both] Cr: R2:non-null→null (1000→control)",
+   "cultivated-mushrooms-oyster-shiitake[both] Cr-VI: R3:subsumed→not_material",
+   "wild-mushrooms[both] MeHg: R3:subsumed→control",
+   "wild-mushrooms[both] Ni: R2:non-null→null (400→control)",
+   "wild-mushrooms[both] Sn: R2:non-null→null (250000→not_material)",
+   "wild-mushrooms[both] Al: R2:non-null→null (100000→control)",
+   "wild-mushrooms[both] Cr: R2:non-null→null (1000→control)",
+   "wild-mushrooms[both] Cr-VI: R3:subsumed→not_material"
+  ]
+ },
+ {
+  "certDir": "cat3-compiled",
+  "indexDir": "cat3-compiled",
+  "records": [
+   {
+    "slug": "bread-and-baked-goods",
+    "status": "both"
+   },
+   {
+    "slug": "breakfast-cereal-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "breakfast-cereal-rice-based",
+    "status": "both"
+   },
+   {
+    "slug": "flour-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "grain-based-snacks",
+    "status": "both"
+   },
+   {
+    "slug": "other-grain-products",
+    "status": "both"
+   },
+   {
+    "slug": "pasta-rice-based",
+    "status": "both"
+   },
+   {
+    "slug": "pasta-wheat-based",
+    "status": "both"
+   },
+   {
+    "slug": "rice-beverages-rice-milk",
+    "status": "both"
+   },
+   {
+    "slug": "rice-bulk-grain",
+    "status": "both"
+   },
+   {
+    "slug": "rice-noodles",
+    "status": "both"
+   },
+   {
+    "slug": "rice-snacks-crackers",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "prose-only": 26,
+   "cert-bounded-index-empty": 29,
+   "cert-tighter": 12,
+   "identical": 24,
+   "cert-valued-index-empty": 18,
+   "kind-change": 7,
+   "cert-valued-index-absent": 12,
+   "index-tighter": 4
+  },
+  "regressions": [
+   "bread-and-baked-goods[both] iAs: R3:subsumed→not_material",
+   "bread-and-baked-goods[both] tHg: R1:numeric-increase 20→30",
+   "bread-and-baked-goods[both] MeHg: R3:subsumed→not_material",
+   "bread-and-baked-goods[both] Sn: R2:non-null→null (250000→not_material)",
+   "bread-and-baked-goods[both] Cr: R2:non-null→absent",
+   "bread-and-baked-goods[both] Cr-VI: R3:subsumed→not_material",
+   "breakfast-cereal-non-rice[both] iAs: R3:subsumed→not_material",
+   "breakfast-cereal-non-rice[both] tHg: R1:numeric-increase 20→30",
+   "breakfast-cereal-non-rice[both] MeHg: R3:subsumed→not_material",
+   "breakfast-cereal-non-rice[both] Sn: R2:non-null→null (250000→not_material)",
+   "breakfast-cereal-non-rice[both] Cr: R2:non-null→absent",
+   "breakfast-cereal-non-rice[both] Cr-VI: R3:subsumed→not_material",
+   "breakfast-cereal-rice-based[both] tHg: R1:numeric-increase 20→30",
+   "breakfast-cereal-rice-based[both] MeHg: R3:subsumed→not_material",
+   "breakfast-cereal-rice-based[both] Sn: R2:non-null→null (250000→not_material)",
+   "breakfast-cereal-rice-based[both] Cr: R2:non-null→absent",
+   "breakfast-cereal-rice-based[both] Cr-VI: R3:subsumed→not_material",
+   "flour-non-rice[both] iAs: R3:subsumed→not_material",
+   "flour-non-rice[both] tHg: R1:numeric-increase 20→30",
+   "flour-non-rice[both] MeHg: R3:subsumed→not_material",
+   "flour-non-rice[both] Sn: R2:non-null→null (250000→not_material)",
+   "flour-non-rice[both] Cr: R2:non-null→absent",
+   "flour-non-rice[both] Cr-VI: R3:subsumed→not_material",
+   "grain-based-snacks[both] iAs: R3:subsumed→not_material",
+   "grain-based-snacks[both] tHg: R1:numeric-increase 20→30",
+   "grain-based-snacks[both] MeHg: R3:subsumed→not_material",
+   "grain-based-snacks[both] Sn: R2:non-null→null (250000→not_material)",
+   "grain-based-snacks[both] Cr: R2:non-null→absent",
+   "grain-based-snacks[both] Cr-VI: R3:subsumed→not_material",
+   "other-grain-products[both] iAs: R3:subsumed→not_material",
+   "other-grain-products[both] tHg: R1:numeric-increase 20→30",
+   "other-grain-products[both] MeHg: R3:subsumed→not_material",
+   "other-grain-products[both] Sn: R2:non-null→null (250000→not_material)",
+   "other-grain-products[both] Cr: R2:non-null→absent",
+   "other-grain-products[both] Cr-VI: R3:subsumed→not_material",
+   "pasta-rice-based[both] tHg: R1:numeric-increase 20→30",
+   "pasta-rice-based[both] MeHg: R3:subsumed→not_material",
+   "pasta-rice-based[both] Sn: R2:non-null→null (250000→not_material)",
+   "pasta-rice-based[both] Cr: R2:non-null→absent",
+   "pasta-rice-based[both] Cr-VI: R3:subsumed→not_material",
+   "pasta-wheat-based[both] iAs: R3:subsumed→not_material",
+   "pasta-wheat-based[both] tHg: R1:numeric-increase 20→30",
+   "pasta-wheat-based[both] MeHg: R3:subsumed→not_material",
+   "pasta-wheat-based[both] Sn: R2:non-null→null (250000→not_material)",
+   "pasta-wheat-based[both] Cr: R2:non-null→absent",
+   "pasta-wheat-based[both] Cr-VI: R3:subsumed→not_material",
+   "rice-beverages-rice-milk[both] Pb: R2:non-null→null (50→not_material)",
+   "rice-beverages-rice-milk[both] Cd: R2:non-null→null (2→not_material)",
+   "rice-beverages-rice-milk[both] tAs: R2:non-null→null (50→not_material)",
+   "rice-beverages-rice-milk[both] tHg: R2:non-null→null (1→not_material)",
+   "rice-beverages-rice-milk[both] MeHg: R3:subsumed→not_material",
+   "rice-beverages-rice-milk[both] Ni: R2:non-null→null (250→not_material)",
+   "rice-beverages-rice-milk[both] Sn: R2:non-null→null (100000→not_material)",
+   "rice-beverages-rice-milk[both] Al: R1:numeric-increase 200→1000",
+   "rice-beverages-rice-milk[both] Cr: R2:non-null→absent",
+   "rice-beverages-rice-milk[both] Cr-VI: R2:non-null→null (10→not_material)",
+   "rice-bulk-grain[both] tHg: R1:numeric-increase 20→30",
+   "rice-bulk-grain[both] MeHg: R3:subsumed→not_material",
+   "rice-bulk-grain[both] Sn: R2:non-null→null (250000→not_material)",
+   "rice-bulk-grain[both] Cr: R2:non-null→absent",
+   "rice-bulk-grain[both] Cr-VI: R3:subsumed→not_material",
+   "rice-noodles[both] tHg: R1:numeric-increase 20→30",
+   "rice-noodles[both] MeHg: R3:subsumed→not_material",
+   "rice-noodles[both] Sn: R2:non-null→null (250000→not_material)",
+   "rice-noodles[both] Cr: R2:non-null→absent",
+   "rice-noodles[both] Cr-VI: R3:subsumed→not_material",
+   "rice-snacks-crackers[both] tHg: R1:numeric-increase 20→30",
+   "rice-snacks-crackers[both] MeHg: R3:subsumed→not_material",
+   "rice-snacks-crackers[both] Sn: R2:non-null→null (250000→not_material)",
+   "rice-snacks-crackers[both] Cr: R2:non-null→absent",
+   "rice-snacks-crackers[both] Cr-VI: R3:subsumed→not_material"
+  ]
+ },
+ {
+  "certDir": "cat30-compiled",
+  "indexDir": "cat30-compiled",
+  "records": [
+   {
+    "slug": "cooking-oils-other",
+    "status": "both"
+   },
+   {
+    "slug": "olive-oil",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 18,
+   "prose-only": 4
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat31-compiled",
+  "indexDir": "cat31-compiled",
+  "records": [
+   {
+    "slug": "honey",
+    "status": "both"
+   },
+   {
+    "slug": "refined-sugar",
+    "status": "both"
+   },
+   {
+    "slug": "rice-grain-syrup",
+    "status": "both"
+   },
+   {
+    "slug": "syrups-maple-agave-molasses",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "prose-only": 5,
+   "identical": 13,
+   "cert-bounded-index-empty": 9,
+   "cert-valued-index-empty": 17
+  },
+  "regressions": [
+   "honey[default] iAs: R3:subsumed→control",
+   "honey[default] MeHg: R3:subsumed→not_material",
+   "honey[default] Ni: R2:non-null→null (800→not_material)",
+   "honey[default] Sn: R2:non-null→null (250000→not_material)",
+   "honey[default] Al: R2:non-null→null (100000→not_material)",
+   "honey[default] Cr: R2:non-null→null (1000→not_material)",
+   "honey[default] Cr-VI: R3:subsumed→control",
+   "refined-sugar[default] MeHg: R3:subsumed→not_material",
+   "refined-sugar[default] Ni: R2:non-null→null (800→not_material)",
+   "refined-sugar[default] Sn: R2:non-null→null (250000→not_material)",
+   "refined-sugar[default] Al: R2:non-null→null (100000→not_material)",
+   "refined-sugar[default] Cr: R2:non-null→null (1000→not_material)",
+   "refined-sugar[default] Cr-VI: R3:subsumed→control",
+   "rice-grain-syrup[default] tAs: R2:non-null→null (1000→control)",
+   "rice-grain-syrup[default] MeHg: R3:subsumed→not_material",
+   "rice-grain-syrup[default] Ni: R2:non-null→null (800→control)",
+   "rice-grain-syrup[default] Sn: R2:non-null→null (250000→not_material)",
+   "rice-grain-syrup[default] Al: R2:non-null→null (100000→not_material)",
+   "rice-grain-syrup[default] Cr: R2:non-null→null (1000→not_material)",
+   "rice-grain-syrup[default] Cr-VI: R3:subsumed→control",
+   "syrups-maple-agave-molasses[default] MeHg: R3:subsumed→not_material",
+   "syrups-maple-agave-molasses[default] Ni: R2:non-null→null (800→control)",
+   "syrups-maple-agave-molasses[default] Sn: R2:non-null→null (250000→not_material)",
+   "syrups-maple-agave-molasses[default] Al: R2:non-null→null (100000→not_material)",
+   "syrups-maple-agave-molasses[default] Cr: R2:non-null→null (1000→not_material)",
+   "syrups-maple-agave-molasses[default] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat32-compiled",
+  "indexDir": "cat32-compiled",
+  "records": [
+   {
+    "slug": "fish-sauce",
+    "status": "both"
+   },
+   {
+    "slug": "mustard-mayo-dressings",
+    "status": "both"
+   },
+   {
+    "slug": "soy-sauce-fermented",
+    "status": "both"
+   },
+   {
+    "slug": "tomato-condiments",
+    "status": "both"
+   },
+   {
+    "slug": "vinegar",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 12,
+   "cert-valued-index-empty": 19,
+   "cert-bounded-index-empty": 13,
+   "cert-tighter": 8,
+   "prose-only": 2,
+   "field-change": 1
+  },
+  "regressions": [
+   "fish-sauce[default] Ni: R2:non-null→null (20→not_material)",
+   "fish-sauce[default] Sn: R2:non-null→null (100000→not_material)",
+   "fish-sauce[default] Al: R2:non-null→null (200→not_material)",
+   "fish-sauce[default] Cr: R2:non-null→null (50→not_material)",
+   "fish-sauce[default] Cr-VI: R3:subsumed→control",
+   "mustard-mayo-dressings[default] Pb: R1:numeric-increase 1000→2000",
+   "mustard-mayo-dressings[default] Cd: R1:numeric-increase 200→1000",
+   "mustard-mayo-dressings[default] iAs: R3:subsumed→control",
+   "mustard-mayo-dressings[default] MeHg: R3:subsumed→not_material",
+   "mustard-mayo-dressings[default] Ni: R2:non-null→null (800→control)",
+   "mustard-mayo-dressings[default] Sn: R2:non-null→null (250000→not_material)",
+   "mustard-mayo-dressings[default] Al: R2:non-null→null (100000→not_material)",
+   "mustard-mayo-dressings[default] Cr: R2:non-null→null (1000→not_material)",
+   "mustard-mayo-dressings[default] Cr-VI: R3:subsumed→control",
+   "soy-sauce-fermented[default] Pb: R1:numeric-increase 1000→2000",
+   "soy-sauce-fermented[default] Cd: R1:numeric-increase 100→1000",
+   "soy-sauce-fermented[default] tAs: R1:numeric-increase 100→1000",
+   "soy-sauce-fermented[default] iAs: R3:subsumed→control",
+   "soy-sauce-fermented[default] MeHg: R3:subsumed→not_material",
+   "soy-sauce-fermented[default] Ni: R2:non-null→null (15000→control)",
+   "soy-sauce-fermented[default] Sn: R2:non-null→null (250000→not_material)",
+   "soy-sauce-fermented[default] Al: R2:non-null→null (100000→not_material)",
+   "soy-sauce-fermented[default] Cr: R2:non-null→null (1000→not_material)",
+   "soy-sauce-fermented[default] Cr-VI: R3:subsumed→control",
+   "tomato-condiments[default] Cd: R1:numeric-increase 200→1000",
+   "tomato-condiments[default] iAs: R3:subsumed→control",
+   "tomato-condiments[default] MeHg: R3:subsumed→not_material",
+   "tomato-condiments[default] Sn: R2:non-null→null (250000→not_material)",
+   "tomato-condiments[default] Al: R2:non-null→null (100000→not_material)",
+   "tomato-condiments[default] Cr: R2:non-null→null (1000→not_material)",
+   "tomato-condiments[default] Cr-VI: R3:subsumed→control",
+   "vinegar[default] Cd: R1:numeric-increase 100→1000",
+   "vinegar[default] tAs: R1:numeric-increase 100→200",
+   "vinegar[default] iAs: R3:subsumed→control",
+   "vinegar[default] MeHg: R3:subsumed→not_material",
+   "vinegar[default] Ni: R2:non-null→null (20→control)",
+   "vinegar[default] Sn: R2:non-null→null (100000→not_material)",
+   "vinegar[default] Al: R2:non-null→null (200→not_material)",
+   "vinegar[default] Cr: R2:non-null→null (50→control)",
+   "vinegar[default] Cr-VI: R3:subsumed→control"
+  ]
+ },
+ {
+  "certDir": "cat33-compiled",
+  "indexDir": "cat33-compiled",
+  "records": [
+   {
+    "slug": "chocolate",
+    "status": "both"
+   },
+   {
+    "slug": "confectionery-candy",
+    "status": "both"
+   },
+   {
+    "slug": "gummies-jellies",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 32,
+   "kind-change-empty": 1
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat34-compiled",
+  "indexDir": "cat34-compiled",
+  "records": [
+   {
+    "slug": "bouillon-seasoning-blends",
+    "status": "both"
+   },
+   {
+    "slug": "hot-chili-sauces",
+    "status": "both"
+   },
+   {
+    "slug": "salt",
+    "status": "both"
+   },
+   {
+    "slug": "spices",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "cert-tighter": 2,
+   "identical": 38,
+   "cert-valued-index-empty": 2,
+   "identical-empty": 1,
+   "prose-only": 1
+  },
+  "regressions": [
+   "bouillon-seasoning-blends[_] Pb: R1:numeric-increase 1000→2000",
+   "bouillon-seasoning-blends[_] iAs: R2:non-null→null (100→not_material)",
+   "hot-chili-sauces[_] Pb: R1:numeric-increase 1000→2000",
+   "hot-chili-sauces[_] Pb: R4:cell-basis \"sauce as consumed (liquid). A chili/hot sauce is a compound condiment (semi-solid fu he tiao wei liao), which China GB 2762-2022/2025 caps under 'condiments excluding spices' at lead 1.0 mg/kg (1000 ug/kg) — the strictest sovereign reaching a bottled chili sauce and stricter than the general savoury-sauce sovereigns (Singapore 'tomato ketchup and other sauces' 2000 / Vietnam 'sauce' 2000), which are retained as concurring context. Lead in a hot/chili sauce is chili-borne (the same adulteration platform as turmeric). DOCUMENTED EXCLUSION: Colombia Res. 4506/2013 sets a Pb 1000 for 'mango hot sauce and canned mangoes' (co_res4506_2013_pb_mango_hot_sauce_canned_1000) — that is a FRUIT-PRODUCT entry (a mango/fruit sauce bundled with canned mangoes; fruit-borne lead, canned-fruit basis), a different product class and contamination platform, so it does not govern a bottled chili/pepper sauce and is not adopted (and no longer needed as a Pb-1000 justification now that the GB compound-condiment line binds directly). This exclusion is a product-class judgement, not the mechanical canned-token filter.\"→\"sauce as consumed (liquid), general savoury-sauce category (Singapore 'tomato ketchup and other sauces' / Vietnam 'sauce', both 2000). Lead in a hot/chili sauce is chili-borne (the same adulteration platform as turmeric). DOCUMENTED EXCLUSION: Colombia Res. 4506/2013 sets a stricter Pb 1000 for 'mango hot sauce and canned mangoes' (co_res4506_2013_pb_mango_hot_sauce_canned_1000) — that is a FRUIT-PRODUCT entry (a mango/fruit sauce bundled with canned mangoes; fruit-borne lead, canned-fruit basis), a different product class and contamination platform, so it does not govern a bottled chili/pepper sauce and is not adopted. This exclusion is a product-class judgement, not the mechanical canned-token filter.\"",
+   "hot-chili-sauces[_] iAs: R2:non-null→null (100→not_material)"
+  ]
+ },
+ {
+  "certDir": "cat35-compiled",
+  "indexDir": "cat35-compiled",
+  "records": [
+   {
+    "slug": "bone-broth",
+    "status": "both"
+   },
+   {
+    "slug": "mixed-meals-prepared-foods",
+    "status": "both"
+   },
+   {
+    "slug": "soups-broths-stocks",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 33
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat4-compiled",
+  "indexDir": "cat4-compiled",
+  "records": [
+   {
+    "slug": "dried-fruit",
+    "status": "both"
+   },
+   {
+    "slug": "fresh-fruit",
+    "status": "both"
+   },
+   {
+    "slug": "fruit-snacks",
+    "status": "both"
+   },
+   {
+    "slug": "leafy-vegetables-other",
+    "status": "both"
+   },
+   {
+    "slug": "non-root-vegetables",
+    "status": "both"
+   },
+   {
+    "slug": "pickled-fermented-vegetables",
+    "status": "both"
+   },
+   {
+    "slug": "root-tuber-vegetables",
+    "status": "both"
+   },
+   {
+    "slug": "spinach",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 88
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat5-compiled",
+  "indexDir": "cat5-compiled",
+  "records": [
+   {
+    "slug": "cocoa-beverage-mixes",
+    "status": "both"
+   },
+   {
+    "slug": "coffee",
+    "status": "both"
+   },
+   {
+    "slug": "coffee-ready-to-drink",
+    "status": "both"
+   },
+   {
+    "slug": "fermented-beverages-non-tea-based",
+    "status": "both"
+   },
+   {
+    "slug": "flavored-waters",
+    "status": "both"
+   },
+   {
+    "slug": "fruit-juices-apple-containing",
+    "status": "both"
+   },
+   {
+    "slug": "fruit-juices-non-apple",
+    "status": "both"
+   },
+   {
+    "slug": "herbal-botanical-infusions",
+    "status": "both"
+   },
+   {
+    "slug": "kombucha-tea-based",
+    "status": "both"
+   },
+   {
+    "slug": "matcha",
+    "status": "both"
+   },
+   {
+    "slug": "plant-milks-non-soy-non-rice",
+    "status": "both"
+   },
+   {
+    "slug": "plant-milks-rice-based",
+    "status": "both"
+   },
+   {
+    "slug": "plant-milks-soy-based",
+    "status": "both"
+   },
+   {
+    "slug": "soft-drinks-carbonated-beverages",
+    "status": "both"
+   },
+   {
+    "slug": "sports-energy-drinks",
+    "status": "both"
+   },
+   {
+    "slug": "true-tea-camellia-sinensis",
+    "status": "both"
+   },
+   {
+    "slug": "vegetable-juices-non-root",
+    "status": "both"
+   },
+   {
+    "slug": "vegetable-juices-root-vegetable-containing",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 198
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "cat8-compiled",
+  "indexDir": "cat8-compiled",
+  "records": [
+   {
+    "slug": "bottled-drinking-water",
+    "status": "both"
+   },
+   {
+    "slug": "infant-nursery-water",
+    "status": "both"
+   },
+   {
+    "slug": "mineral-water",
+    "status": "both"
+   },
+   {
+    "slug": "sparkling-carbonated-water",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 44
+  },
+  "regressions": []
+ },
+ {
+  "certDir": "seafood-compiled",
+  "indexDir": "cat1-compiled",
+  "records": [
+   {
+    "slug": "canned-seafood",
+    "status": "both"
+   },
+   {
+    "slug": "cephalopods",
+    "status": "both"
+   },
+   {
+    "slug": "fish-freshwater",
+    "status": "both"
+   },
+   {
+    "slug": "fish-marine-non-predatory",
+    "status": "both"
+   },
+   {
+    "slug": "fish-marine-predatory",
+    "status": "both"
+   },
+   {
+    "slug": "seaweed-kelp-foods",
+    "status": "both"
+   },
+   {
+    "slug": "shellfish",
+    "status": "both"
+   }
+  ],
+  "counts": {
+   "identical": 77
+  },
+  "regressions": []
+ }
+]
