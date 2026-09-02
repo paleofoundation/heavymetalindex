@@ -32,7 +32,9 @@ const CAT = args.get("cat")
 const APPLY = args.has("apply")
 const CERT = args.get("cert") || process.env.CERT_REPO || path.join(os.homedir(), "Desktop/heavymetalcertified")
 if (!CAT) { console.error("harvest-cert-anchors: --cat=<N> required"); process.exit(2) }
-const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "35"])
+// compile-category configs plus the food-standards-engine configs (cat33/34), which share the cells{} spec
+// vocabulary (gov_ids / read_across / not_material / control / form_split).
+const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "33", "34", "35"])
 // compile-cat1-shaped configs (read_across map per subcategory; direct rows selected by scope): cat3
 // (cat3-config.json) and seafood (seafood-config.json → cert seafood-compiled).
 const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" },
@@ -53,7 +55,7 @@ const dif = spawnSync("node", ["tools/standards/diff-compiled-vs-cert.mjs", `--d
 const diff = JSON.parse(dif.stdout)[0]
 // generic shape: cells the index leaves empty. cat1 shape: also cells where the index publishes a value with
 // NO register anchor (the retired inline value_ppb path) or a looser value (a live tighter sovereign cell).
-const targets = (diff.cells || []).filter((c) => /^cert-valued-index-empty|^cert-bounded-index-empty|^cert-valued-index-absent/.test(c.cls) || (SHAPE === "cat1" && /^cert-tighter|^index-tighter|^anchor-change|^kind-change/.test(c.cls)))
+const targets = (diff.cells || []).filter((c) => /^cert-valued-index-empty|^cert-bounded-index-empty|^cert-valued-index-absent/.test(c.cls) || (SHAPE === "cat1" && /^cert-tighter|^index-tighter|^anchor-change|^kind-change/.test(c.cls)) || (SHAPE === "generic" && /^cert-tighter/.test(c.cls)))
 
 const certDir = path.join(CERT, "data/standards", dir)
 const applied = [], skipped = []
@@ -71,7 +73,7 @@ for (const t of targets) {
   if (!sub) { skipped.push({ ...t, why: "slug not in config" }); continue }
   const rec = JSON.parse(fs.readFileSync(path.join(certDir, `${t.slug}.json`), "utf8"))
   const vmap = new Map(variantsOf(rec))
-  const cell = (vmap.get(t.variant) || [...vmap.values()][0] || {})[t.analyte]
+  let cell = (vmap.get(t.variant) || [...vmap.values()][0] || {})[t.analyte]
   if (!cell) { skipped.push({ ...t, why: "cert cell missing" }); continue }
   const k = kindOf(cell)
   const guard = guardOf(sub)
@@ -108,7 +110,8 @@ for (const t of targets) {
 
   let spec = null, why = null
   if (k === "gov") {
-    const ids = [cell.binding_id, ...(cell.candidates || []).map((c) => c.id)].filter(Boolean)
+    const ids = [cell.binding_id, ...(cell.candidates || []).map((c) => c.id)].filter(Boolean).map(successor)
+    if (successor(cell.binding_id) !== cell.binding_id) cell = { ...cell, binding_id: successor(cell.binding_id) }
     const ok = ids.filter((id) => rowOk(id, guard).ok)
     const bad = ids.filter((id) => !rowOk(id, guard).ok).map((id) => rowOk(id, guard).why)
     if (!ok.includes(cell.binding_id)) why = `binding ${cell.binding_id}: ${rowOk(cell.binding_id, guard).why}`
@@ -119,9 +122,10 @@ for (const t of targets) {
     if (!comps.some((c) => c.source_id === cell.binding_id)) why = `binding component ${cell.binding_id}: ${rowOk(cell.binding_id, guard).why}`
     else spec = { component_read_across: { components: comps.map((c) => ({ component: c.component, source_id: c.source_id })), label: cell.label || undefined, basis_label: cell.basis || undefined, substantiation: cell.substantiation || undefined }, _harvest: stamp + (bad.length ? `; dropped components: ${bad.map((c) => rowOk(c.source_id, guard).why).join("; ")}` : "") }
   } else if (k === "read_across") {
-    const chk = rowOk(cell.source_id, guard)
+    const sid = successor(cell.source_id)
+    const chk = rowOk(sid, guard)
     if (!chk.ok) why = chk.why
-    else spec = { read_across: { source_id: cell.source_id, label: cell.label || undefined, substantiation: cell.substantiation || undefined }, screen: cell.screen === true || cell.type === "screen" ? true : undefined, screen_note: cell.screen_note || undefined, binding_control: cell.binding_control || undefined, _harvest: stamp }
+    else spec = { read_across: { source_id: sid, label: cell.label || undefined, substantiation: cell.substantiation || undefined }, screen: cell.screen === true || cell.type === "screen" ? true : undefined, screen_note: cell.screen_note || undefined, binding_control: cell.binding_control || undefined, _harvest: stamp }
   } else if (k === "subsumed") {
     const parent = cell.subsumed_by || cell.bounded_by
     if (!parent) why = "subsumed without subsumed_by"

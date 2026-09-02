@@ -1,0 +1,44 @@
+{
+  "compiled_dir": "cat34-compiled",
+  "generated": "2026-09-02T10:45:43.615Z",
+  "targets": 4,
+  "applied": [
+    {
+      "slug": "bouillon-seasoning-blends",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "read_across",
+      "to": "gov_ids",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_pb_condiments_excl_spices_1000"
+    },
+    {
+      "slug": "bouillon-seasoning-blends",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "gov_ids",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "china_gb2762_2025_ias_compound_condiment_100"
+    },
+    {
+      "slug": "hot-chili-sauces",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "gov_ids",
+      "to": "gov_ids",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_pb_condiments_excl_spices_1000"
+    },
+    {
+      "slug": "hot-chili-sauces",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "gov_ids",
+      "to": "gov_ids",
+      "value": 100,
+      "anchor": "china_gb2762_2025_ias_compound_condiment_100"
+    }
+  ],
+  "skipped": []
+}

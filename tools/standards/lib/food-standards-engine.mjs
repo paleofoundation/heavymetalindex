@@ -184,7 +184,7 @@ export function makeEngine(registerPath) {
       const src = byId.get(ra.source_id)
       if (!src) return { analyte, provenance: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
       const v = num(src.value_ug_kg)
-      return { analyte, provenance: "read-across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id, source_jurisdiction: src.jurisdiction, source_scope: src.product_scope, binding_page: src.regulation_page, binding_url: src.url, label: ra.label || `read-across from ${src.jurisdiction} (${src.product_scope})`, not_detectable: notDetectable(src.notes) }
+      return { analyte, provenance: "read-across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id, source_jurisdiction: src.jurisdiction, basis: src.basis || null, source_scope: src.product_scope, binding_page: src.regulation_page, binding_url: src.url, label: ra.label || `read-across from ${src.jurisdiction} (${src.product_scope})`, not_detectable: notDetectable(src.notes) }
     }
     if (spec.form_split) {
       const forms = []
