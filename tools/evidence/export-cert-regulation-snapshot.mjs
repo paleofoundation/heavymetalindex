@@ -22,6 +22,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { STATUS_GATE } from "../standards/lib/register-gate.mjs"
 
 const REPO = process.cwd()
 const args = process.argv.slice(2)
@@ -41,7 +42,9 @@ const CURATED = {
   "uk-1881-2006": ["uk-infant-food-contaminants"],
   "codex-cxs-193": ["codex-cxs-193-1995-tin-canned-foods", "codex-infant-food-contaminants"],
   "canada-contaminants": ["ca-infant-food-contaminants"],
-  "china-gb-2762": ["china-gb-2762-2022-contaminants", "cn-gb2762-2022", "cn-infant-food-contaminants"],
+  // GB 2762-2025 replaced GB 2762-2022 on 2026-09-02; the 2022 keys' rows are status-superseded and
+  // are gated out below, so the page folds the in-force edition only.
+  "china-gb-2762": ["china-gb-2762-2025-contaminants"],
   "india-fssai": ["india-fssai-2016-heavy-metals-third-amendment", "india-fssai-2015-chromium-gelatin-amendment"],
   "brazil-anvisa": ["br-infant-food-contaminants"],
   "gso-193": ["gso-193-2021-contaminants-toxins-food-feed"],
@@ -85,7 +88,7 @@ function rowsToLimits(grp, ci) {
     status: (r[ci.status] || "").trim(),
     url: (r[ci.url] || "").trim(),
     notes: (r[ci.notes] || "").trim(),
-  })).filter((l) => l.analyte && Number.isFinite(l.value_ug_kg) && !/^quarantin/i.test(l.status))
+  })).filter((l) => l.analyte && Number.isFinite(l.value_ug_kg) && !STATUS_GATE.test(l.status))
   // Quarantined rows (status "quarantined-*", e.g. the Guyana ppb-table
   // transcription artifact) are excluded, matching the seafood compiler.
 }
