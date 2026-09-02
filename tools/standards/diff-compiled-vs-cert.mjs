@@ -123,6 +123,20 @@ export function categoryMap() {
   return out
 }
 
+// R4 is about basis CONFLATION, not wording: a same-value anchor swap legitimately changes the free-text
+// basis string ("drinking water" → "food as listed in Cap 132V ..."). Only a change of basis FAMILY —
+// dietary/content (as sold, as consumed, wet/dry weight, edible portion, water) vs migration/release
+// (element migration, leachate, simulant, extraction) vs material content (mg/kg of material,
+// homogeneous material, composition, percent by weight) — is a regression; a wording-only change is
+// reported as basis-wording-change (non-regression) through the anchor-change class.
+export function basisFamily(b) {
+  const t = String(b || "").toLowerCase()
+  if (!t) return null
+  if (/migrat|leach|release|simulant|extract|soluble element/.test(t)) return "migration"
+  if (/mg\/kg of (the )?(material|article|product mass)|homogeneous material|composition|percent by weight|% by weight|by weight of the (article|material)|content of the material/.test(t)) return "material-content"
+  if (/pde|permitted daily exposure|µg\/day|ug\/day/.test(t)) return "daily-exposure"
+  return "dietary-content"
+}
 function classifyCell(ic, cc, ib, cb) {
   const ik = kindOf(ic), ck = kindOf(cc)
   const iv = ic && isNum(ic.value) ? ic.value : null
@@ -144,8 +158,8 @@ function classifyCell(ic, cc, ib, cb) {
     else cls = ik === ck ? "identical-empty" : "kind-change-empty"
   }
   // basis
-  if (cp && ip && cp.basis && ip.basis && cp.basis !== ip.basis && cv != null && iv != null) regressions.push(`R4:cell-basis "${cp.basis}"→"${ip.basis}"`)
-  if (cb && ib && cb !== ib) regressions.push(`R4:native_basis "${cb}"→"${ib}"`)
+  if (cp && ip && cp.basis && ip.basis && cp.basis !== ip.basis && cv != null && iv != null && basisFamily(cp.basis) !== basisFamily(ip.basis)) regressions.push(`R4:cell-basis family ${basisFamily(cp.basis)}→${basisFamily(ip.basis)} ("${cp.basis}"→"${ip.basis}")`)
+  if (cb && ib && cb !== ib && basisFamily(cb) !== basisFamily(ib)) regressions.push(`R4:native_basis "${cb}"→"${ib}"`)
   // refinements on identical values
   if (cls === "identical-value") {
     if (JSON.stringify(cp.anchors) !== JSON.stringify(ip.anchors)) cls = "anchor-change"
