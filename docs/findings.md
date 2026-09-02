@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-214 open item(s): 67 auto, 147 awaiting a decision.
+213 open item(s): 66 auto, 147 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -537,14 +537,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Local tag wip/stranded-datacite-cat23-b090435 (commit b090435, authored 2 days ago, never pushed) in heavymetalcertified contains (1) tools/datacite-preflight.mjs, a safe read-only DataCite connection+metadata preflight, on-mission for the approved DOI rollout and worth landing; and (2) edits to 14 data/standards/cat23-compiled/*.json that are STALE. Remote main already completed Cat-23 food-contact plastics correctly at 6016d24/72dfd03 via read-across, so a wholesale push of b090435 would clobber/loosen live Cat-23 standards.
 - done when: datacite-preflight.mjs lands on cert main via a fresh commit touching ONLY that file; Cat-23 compiled standards on main remain the 6016d24/72dfd03 versions not b090435; new commit diff shows no data/standards/cat23-compiled changes
 - decision: _pending_
-
-### OI-20260902-cert-seo-crawl-metadata-129 — Cert seo-audit release gate red: 129 crawl-metadata gaps on non-homepage pages (root causes identified, 4 deterministic fixes)
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/audit-crawl-metadata.mjs`, `tools/import-briefings.mjs`, `tools/postbuild-article-pdf.mjs`, `tools/build-category-manual.mjs`, `tools/build-cat1-manual.mjs`, `quartz/components/Head.tsx`, `content/briefings`
-- repro: cd ~/Desktop/heavymetalcertified && npm run build && node tools/audit-crawl-metadata.mjs -> seo-audit: FAILED (129 issues). Tally: 69 = 23 Cat-16 supplements pages x (description, og:description, twitter:description) FALSE POSITIVE: the meta tag exists but its content contains an unescaped > (USP &lt;2232>) which the audit regex selectedAttribute() cannot parse; 27 = 9 briefings link to /briefings/<slug>.pdf that is never rendered (import-briefings emits pdf: for every briefing, postbuild-article-pdf renders only scholar_pdf:true -> 8 files; live 404 on hmtc-primer.pdf, after-palmquist.pdf, defense-counsel-briefing.pdf, brief-2/4/5/6/7/8); 5 manuals lack citation_technical_report_number (no report_number frontmatter emitted by the manual builders); 4 briefings have briefing_date "August 2026" -> citation_publication_date 2026/08 (Scholar needs YYYY/MM/DD); 3 on /requirements/supplements-heavy-metals same > escaping.
-- done when: audit meta()/selectedAttribute parses attribute values containing > (or Head escapes > as &gt;) and the 23+1 description false positives disappear; Either postbuild-article-pdf renders a PDF for every briefing that carries pdf:, or import-briefings emits pdf: only when scholar_pdf is true; zero internal-link-missing entries; live /briefings/hmtc-primer resolves its PDF link or shows none; Manual builders emit report_number (scheme hmtc.manual.<category>.<slug> v<version>) so citation_technical_report_number renders on all 5 manuals; Briefing dates carry a full ISO date (first-commit date of the file when only month is known) and citation_publication_date renders YYYY/MM/DD; node tools/audit-crawl-metadata.mjs exits 0 so npm run publish is unblocked
-- notes: Refined 2026-09-02 by the cert build audit from a human-gated finding to an auto code-fix; none of the four fixes touches a limit, a claim, or the firewall.
 
 ### OI-20260902-cert-navpanels-seed-stale — Delete or repurpose stale cert navPanels.seed.ts (holds index-site taxonomy)
 
