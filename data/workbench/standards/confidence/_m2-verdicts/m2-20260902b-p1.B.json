@@ -1,0 +1,173 @@
+{
+  "packet_id": "m2-20260902b-p1",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "batches": [
+    {
+      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609021123",
+      "evidence_key": "2f68af6557623e66",
+      "cells": [
+        {
+          "key": "canned-seafood|both|Pb",
+          "derived_value": 200,
+          "derived_anchor_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+          "same_basis_candidates": [],
+          "blind_value": 200,
+          "applicability": "confirmed",
+          "reason": "RTCR 409:2008 Article 1 covers products and subproducts of fishing and aquaculture commercialized for human consumption, and its section 3.4 tin row is written for canned fishery products, so the decree reaches canned product; section 3.3 row 3 'tuna and bonito' 0.2 mg/kg binds canned tuna on the product-as-placed-on-market basis, which for a canned product is the as-consumed basis with no conversion. For the other canned-fish members the sovereign floor is 300 (CR 3.3 row 2 'fish in general, except tuna and bonito'; EU 2023/915 3.1.8 muscle meat of fish; GSO 193 fish; HK, TH, PH, IN, GY, PA) or 200 (Fiji 2009 general muscle-meat row, whose 0.4 list carves out bonito, horse mackerel, sardine, sardinops, spotted seabass and tuna), so 200 is the strictest same-basis value across the class and no non-gated food-content row below 200 covers any canned fish. Instrument in force (effective 2008-09-20; no amendment recorded)."
+        },
+        {
+          "key": "fish-marine-predatory|both|Pb",
+          "derived_value": 200,
+          "derived_anchor_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+          "same_basis_candidates": [],
+          "blind_value": 200,
+          "applicability": "confirmed",
+          "reason": "'Tuna and bonito' (RTCR 409 section 3.3 row 3, 0.2 mg/kg, product as placed on market) covers tuna, a named member of the product, on fresh or frozen muscle where as-placed equals as-consumed. Swordfish, shark, king mackerel, marlin and billfish fall under CR 3.3 row 2 (300), EU 2023/915 3.1.8 (300) and Fiji's general muscle-meat row (200; its 0.4 list names bonito, horse mackerel, sardine, sardinops, spotted seabass and tuna, not swordfish, shark or marlin), so 200 is the class-strictest ceiling and never exceeds any member's sovereign limit; no non-gated food-content lead row below 200 covers any of these species. In force."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-bb87f3a68497eabc-run-202609021123",
+      "evidence_key": "bb87f3a68497eabc",
+      "cells": [
+        {
+          "key": "canned-seafood|both|Pb",
+          "derived_value": 200,
+          "derived_anchor_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+          "same_basis_candidates": [],
+          "blind_value": 200,
+          "applicability": "refuted",
+          "reason": "The anchor record is internally inconsistent: its regulatory_limit_id, url, notes, basis_class and row_sha256 (d0e635ad...) are those of the Costa Rica RTCR 409 tuna-and-bonito lead row, while its jurisdiction, authority, basis ('soluble element migration from toy material (EN 71-3 category III), mg/kg of material'), product_scope ('toys and toy components (soluble element migration)') and regulation_page (eu-2009-48-toy-safety-migration-limits) are those of the EU Toy Safety Directive. As presented, (a) fails because toys and toy components do not cover canned seafood, and (b) fails because a soluble-migration limit per kilogram of toy material is not a food-content basis and can never be cited on an as-consumed content cell (Directive 2009/48/EC Annex II Part III lead is 2.0 / 0.5 / 23 mg/kg by material category, not 200 ug/kg of food). The 200 ug/kg value survives only through the genuine Costa Rica row adjudicated under evidence_key 2f68af6557623e66; this evidence record must be rebuilt from the register row and must not be published as it stands."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-202609021123",
+      "evidence_key": "e8b5dd23b9f12a25",
+      "cells": [
+        {
+          "key": "canned-seafood|both|Cd",
+          "derived_value": 50,
+          "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "same_basis_candidates": [],
+          "blind_value": 50,
+          "applicability": "refuted",
+          "reason": "GSO 193:2021 'Muscle meat of fish with exception mentioned' (0.05 mg/kg, muscle meat) is the residual row of a species-split table whose exceptions are 'mackerel, tuna and bichique' (0.1), 'bullet tuna' (0.15) and 'anchovy, swordfish and sardine' (0.25); it therefore does not cover canned tuna, the first-named product, for which the cited instrument itself sets 100 ug/kg, so (a) fails. Fifty remains the strictest sovereign same-basis ceiling for canned tuna only through cr_rtcr409_2008_cd_fish_general_50 (RTCR 409 section 3.2 row 2, 'fish in general' excepting only sardine, eel and swordfish, in a decree whose scope expressly reaches canned fishery products) and, for the canned form generically, vn_qcvn8_2_2011_cd_aquatic-products_50 and gy2023_cd_fish_general_ppm_50; note that GB 2762-2025 Table 2 item 8.5 sets an explicit canned-fish cadmium line at 200 ug/kg, twice its fresh-fish line, so 'canned' is a form regulators treat separately. Value stands at 50; re-cite the Costa Rica row as the tuna anchor, keep the GSO row for non-excepted canned fish, and disclose that the ceiling is the fresh-muscle floor applied to canned product. GSO 193:2021 in force (2021-07-01); GSO 2783:2025 exists only as an unverified catalog record with no loaded rows."
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Cd",
+          "derived_value": 50,
+          "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "same_basis_candidates": [],
+          "blind_value": 50,
+          "applicability": "refuted",
+          "reason": "The GSO residual row covers salmon, cod and herring on fresh or frozen muscle meat, matching the cell's fillet basis, but expressly excepts three of the six named species: mackerel (GSO 0.1 mg/kg), anchovy and sardine (GSO 0.25 mg/kg), so the instrument the cell cites assigns looser limits to half the product as defined and (a) fails for sardine, anchovy and mackerel. Fifty is nonetheless a sovereign same-basis ceiling for every named species: sardine and anchovy under gy2023_cd_fish_general_ppm_50 (Guyana 2023 Schedule Four ppm table, fish general, excepting only the tuna group, bullet tuna and swordfish; the ppb table is quarantined and excluded), and anchovy and mackerel under cr_rtcr409_2008_cd_fish_general_50 (excepting only sardine, eel and swordfish) and fj_fsr2009_cd_002 (excepting bonito, horse mackerel, sardine, sardinops, spotted seabass and tuna). Method v2.0 adopts the law's own split where the law splits by species: either split the row (sardine and anchovy 250 under EU 2023/915, GSO, Morocco and Bosnia or 100 under CR, PA, MERCOSUR, PY, FJ, VN; mackerel 100) or keep 50 with the Guyana and Costa Rica rows added as anchors and the class-strictest choice disclosed. Value unchanged."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609021123",
+      "evidence_key": "7fbb918c726855d1",
+      "cells": [
+        {
+          "key": "canned-seafood|both|tHg",
+          "derived_value": 500,
+          "derived_anchor_id": "cr_rtcr409_2008_thg_fish_general_500",
+          "same_basis_candidates": [
+            {
+              "id": "eu2023_hg_fish_low_300",
+              "value_ug_kg": 300,
+              "why_it_applies": "EU 2023/915 Annex I 3.3.1.3, total mercury 0.30 mg/kg wet weight for the listed lower-mercury species (sardine/pilchard, mackerel, herring, salmon and trout, cod, whiting, sole, cephalopods); Article 3 applies the muscle-meat ML to processed forms such as canned fish with a processing factor, so canned sardines, mackerel, salmon, herring and cod, all members of 'canned fish', are covered; in force."
+            },
+            {
+              "id": "ba_pravilnik_2022_thg_3_3_3_300",
+              "value_ug_kg": 300,
+              "why_it_applies": "Bosnia 2022 Pravilnik point 3.3.3, the same lower-mercury species list plus cephalopods and marine gastropods, mg/kg wet mass of the edible part; in force."
+            }
+          ],
+          "blind_value": 300,
+          "applicability": "refuted",
+          "reason": "RTCR 409 section 3.1 row 2 is 'fish in general, except tuna, bonito, eel, marlin, ray, sharks, and swordfish', so it expressly excludes canned tuna, the first-named product, which the same decree sets at 1000 (row 3), as do EU 3.3.1.2, PA, GY, SG, PY, MERCOSUR, IN, FJ, VN, BA, MA, AU-NZ and Ecuador's canned-tuna-specific NTE INEN 184:2013 (ec_nte184_thg_canned_tuna_1000, the only register row scoped to the canned form); (a) fails. For the non-tuna canned members (sardine, mackerel, salmon, herring, cod) the EU 2023/915 lower-mercury list at 300, mirrored by Bosnia, is stricter than 500 and is missing, so (d) fails as well. The law splits total mercury three ways (300 / 500 / 1000) and no single sovereign row covers 'canned seafood'; the class-strictest number for the cell as written is 300, and the defensible fix is to split canned tuna (1000) from canned non-predatory fish (300) rather than publish 500 or 300 for both. The Costa Rica mercury heading does not speciate, so its row is correctly a tHg row. In force."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609021123",
+      "evidence_key": "090e2ea3a3ec4ac4",
+      "cells": [
+        {
+          "key": "canned-seafood|both|MeHg",
+          "derived_value": 500,
+          "derived_anchor_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "GB 2762-2025 Table 3 item 1.1 'Aquatic animals and their products, excluding predatory fish and their products' expressly covers processed (canned) non-predatory fish and expressly excludes canned tuna, which the same table governs at item 1.3 'Tuna and tuna products' 1.2 mg/kg (china_gb2762_2025_mehg_tuna_1200); every other non-gated methylmercury row reaching tuna is 1000 (US FDA CPG 540.600 action level for fish fresh, frozen or processed; VN carnivorous fish; PH and TT predatory fish; MX tuna group) or 1200 (HK, TH, GSO), so (a) fails for the first-named product. No non-gated same-basis methylmercury row below 500 covers any canned fish (MX other fishery products, TH other marine animals, PH fish, TT, VN, and HK 'fish, fish balls and fish cakes' are all 500), so 500 is the class-strictest sovereign ceiling for canned non-predatory fish but a precautionary ratchet two to 2.4 times below every sovereign ceiling for canned tuna and cannot be labelled gov/firm for tuna on this anchor; split canned tuna out (1000 to 1200) or relabel the tuna component as precautionary. Basis is product as placed on market, which for a canned product is as consumed, no conversion. GB 2762-2025 is in force as of today (effective 2026-09-02; the GB 2762-2022 rows are gated as superseded), item 1.1 is unchanged from the 2022 text, and footnote a allows total mercury to screen for compliance."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-28df1c012f001db3-run-202609021123",
+      "evidence_key": "28df1c012f001db3",
+      "cells": [
+        {
+          "key": "canned-seafood|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Canned seafood (canned tuna, canned fish). No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question. The EU 2023/915 page records that canned composite meals carry no finished-product nickel ML and that constituent ingredients are compounded under Article 3; fish has no constituent row, so the gap is real and the read-across must be disclosed as such, with the infant-category origin of the nearer instrument stated."
+        },
+        {
+          "key": "cephalopods|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Cephalopods (octopus, squid, cuttlefish; not canned). No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question. No cephalopod-specific nickel row exists in any jurisdiction in the register; the same nearest instrument applies."
+        },
+        {
+          "key": "fish-freshwater|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Freshwater finfish (tilapia, catfish, trout, carp). No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question."
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Marine non-predatory fish, fillet or muscle meat, fresh or frozen. No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question."
+        },
+        {
+          "key": "fish-marine-predatory|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish). No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question."
+        },
+        {
+          "key": "shellfish|both|Ni",
+          "derived_value": 2000,
+          "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+          "same_basis_candidates": [],
+          "blind_value": 500,
+          "applicability": "refuted",
+          "reason": "Shellfish (crustaceans and bivalve molluscs, not canned). No non-gated sovereign food-content nickel maximum level covers this product: the register's nickel rows are the EU 2024/1987 plant, cereal, cocoa, seaweed, juice and infant/baby-food entries, their Swiss VHK mirror, the GB 2762-2025 hydrogenated-oil line, and water, cosmetic, fertiliser, toy-migration and food-contact rows that belong to other basis families, so a read-across is required. Husked rice (EU 2024/1987 point 3.6.11.3, 2.0 mg/kg, a dry cereal grain on the as-placed basis and the loosest cereal row after oats and pseudocereals) is not the nearest same-basis instrument for wet animal tissue on an as-consumed cell; the nearer instrument is eu2024_ni_babyfood_500 (point 3.6.15, baby food except juices, 0.50 mg/kg, product as placed on the market), the only sovereign nickel ML that reaches a food made from fish or shellfish because the EU baby-food category includes fish- and meat-based infant foods, and the EU wet-weight rows (fruiting vegetables 400, brassica and leafy vegetables 500, root/tuber/bulb vegetables 900) are also nearer in basis than a dry grain. Carrying a dry-grain as-placed number onto a wet as-consumed matrix with no basis adjustment is a further basis defect. The husked-rice row itself is in force (applies from 2026-07-01), which is not the question. Nickel occurrence in bivalves runs higher than in finfish, which is a feasibility question for the occurrence pool and rationale tag, not an applicability ground for a rice analog."
+        }
+      ]
+    }
+  ]
+}

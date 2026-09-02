@@ -1,0 +1,56 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021123",
+  "evidence_key": "87c5769139e19ee8",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach cephalopods (octopus, squid, cuttlefish; not canned), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+      "key": "fish-freshwater|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach freshwater finfish (tilapia, catfish, trout, carp), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+      "key": "fish-marine-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+      "key": "shellfish|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach shellfish (crustaceans and bivalve molluscs, not canned), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    }
+  ]
+}

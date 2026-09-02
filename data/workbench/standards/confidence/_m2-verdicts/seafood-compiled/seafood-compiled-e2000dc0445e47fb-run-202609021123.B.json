@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609021123",
+  "evidence_key": "e2000dc0445e47fb",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-freshwater|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.3.1.3 (the 0.30 mg/kg wet-weight tier introduced by Regulation (EU) 2022/617, in force since 2022-05-03 and carried into 2023/915) lists 'Carp (Cyprinidae family)', 'Salmon and trout (Salmo species and Oncorhynchus species, except Salmo trutta)', basa and striped catfish (Pangasius/Pangasianodon) and Mekong giant catfish, so the anchor directly covers carp, rainbow trout and pangasius-type catfish in this freshwater-finfish row; tilapia (Oreochromis), channel catfish (Ictalurus) and brown trout are not listed and fall under point 3.3.1.1 'muscle meat of fish' at 0.50 mg/kg (eu2023_hg_fish_general_500), so 300 is the strictest anchor that applies within the row and is at least as protective for every member species. It is a wet-weight content ML on an as-consumed content cell, and no non-gated same-basis tHg row for fish is stricter than 300 (all other fish rows are 500 or 1000; Guyana 200 is quarantined as a transcription artifact; Singapore 'other food' 50 and Israel infant-porridge 8 are not fish rows and the Israel row is not in force; EU 2002/32 rows are feed-basis). Disclosure note: the 'gov' label is exact for carp, rainbow trout and pangasius and precautionary by one EU tier for tilapia, channel catfish and brown trout, which the rationale text should state."
+    }
+  ]
+}

@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-228 open item(s): 78 auto, 150 awaiting a decision.
+229 open item(s): 79 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -552,6 +552,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `raw/regulatory/_manifest-reg-all.csv`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/china-gb-2762-2025-contaminants.md`
 - repro: grep -i 2762 raw/regulatory/_manifest-reg-all.csv returns nothing; every china_gb2762_2025_* row has an empty url; the page carries source_url: null and source_file (raw path). Values were verified from the raw PDF, so this is a provenance-pointer gap, not a value gap.
 - done when: manifest row for cn/china-gb-2762-2025-effective-2026-09-02.pdf with the official URL; url filled on every china_gb2762_2025_* row; source_url set on the wiki page
+
+### OI-20260902-gb2760-regulation-page-missing — Regulation page china-gb-2760-2024-food-additives is cited by two aluminium register rows but does not exist under wiki/regulations/
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/regulations/china-gb-2760-2024-food-additives.md`, `data/evidence/regulatory_limits.csv`
+- repro: grep -l 2760 wiki/regulations/*.md returns nothing; rows cn_gb2760_2024_al_baked_foods_100000 and cn_gb2760_2024_al_starch_noodles_vermicelli_200000 cite regulations/china-gb-2760-2024-food-additives (found by M2 verifiers p2.B and p4.A, 2026-09-02)
+- done when: wiki/regulations/china-gb-2760-2024-food-additives.md exists with the 100 mg/kg baked-foods and 200 mg/kg starch-noodle aluminium residue rows on the dry-sample basis and the in-force date; no register row cites a regulation_page that does not exist (add the check to the register lint)
 
 ### OI-20260902-fr-cshpf-seaweed-primary-archive — Archive a primary copy of the CSHPF 1988/1990 edible-seaweed avis (or the DGCCRF restatement) under raw/regulatory/fr/
 

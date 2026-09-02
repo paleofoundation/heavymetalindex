@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609021123",
+  "evidence_key": "9b7d1101bd267369",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-freshwater|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Subsumed cell: the derived value is the parent tHg cell's derived value of 300 ug/kg from Regulation (EU) 2023/915 Annex I point 3.3.1.3, which is a firm sovereign wet-weight ML in force and on the same as-consumed content basis, and methylmercury cannot exceed total mercury, so MeHg is bounded at 300. No non-gated same-basis MeHg row that reaches freshwater or non-predatory fish is stricter (Vietnam QCVN 8-2 fish excluding carnivorous fish 500, HK Cap 132V fish 500, GB 2762-2025 aquatic animals excluding predatory fish 500, MX NOM-242 other fishery products 500, PH PNS 194 fish 500, TT 500, FDA CPG 540.600 1000). The same scope disclosure as the parent applies: the EU 0.30 tier names carp, non-brown trout and pangasius directly, while tilapia, channel catfish and brown trout sit at the 0.50 general tier, so the bound is exact for the former and precautionary for the latter."
+    }
+  ]
+}

@@ -170,7 +170,9 @@
       "records": 3
     }
   },
-  "escalations_batched": [],
+  "escalations_batched": [
+    "Claude API monthly spend limit reached 2026-09-02 ~12:20 UTC: six M2 verifiers died mid-run. Raise the limit (claude.ai/settings/usage) or accept that M2 rounds resume next month; each lost verifier is ~200k tokens."
+  ],
   "notes": [
     "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget",
     "DESIGN (2026-09-02): confidence-run computes every manifest and M2 packet against the CERT record bytes (the published standard). A held correction lives only in the index dir until ratified, so M2 keeps refuting the frozen cert cell (e.g. seafood seaweed Cr milk-powder anchor, Cr-VI water MCL) until the ratified fix is copied to cert; that is expected, not a regression."
@@ -277,7 +279,7 @@
       "cat12": "nothing in either repo; 21 hand pages"
     }
   },
-  "updated": "2026-09-02T12:10Z",
+  "updated": "2026-09-02T13:45Z",
   "israel_supersession": {
     "status": "APPLIED 2026-09-02 (index f975371e1)",
     "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
@@ -292,7 +294,7 @@
     "seafood_round2": "DISPATCHED 12:09 UTC (lease-1788350934387): m2-20260902b-p1..p4 roles A+B; verdicts land in _m2-verdicts/; ingest with confidence-run --cat=seafood --ingest-m2=<file>",
     "cat30": "DISPATCHED 12:09 UTC: m2-20260902-p6 roles A+B; ingest with --cat=30",
     "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled",
-    "round2_status": "12:2x UTC: p4.A, p2.A (seafood) and p6.A (cat30) ingested; p4.B (seafood) and p6.B (cat30) FAILED on the API session limit (429, resets 13:40 UTC / 16:40 Asia/Nicosia) and must be re-dispatched (2 leases); p1.A, p3.A, p1.B, p2.B, p3.B still running at the time of writing. The cat30 batch 55a07a92093f5887 refuted by p6.A is the runner canary (wrong-basis-anchor), not a compile defect: canary passed."
+    "round2_status": "4 of 10 verdicts landed and ingested (seafood p2.A, p2.B, p4.A; cat30 p6.A). SIX verifiers (seafood p1.A, p1.B, p3.A, p3.B, p4.B; cat30 p6.B) were terminated by the ACCOUNT MONTHLY SPEND LIMIT (HTTP 429: monthly spend limit, raise at claude.ai/settings/usage). Do NOT re-dispatch until Karen raises the limit or the month resets; the packets stay on disk (_m2-packets/m2-20260902b-p1, p3, p4 and m2-20260902-p6)."
   },
   "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)",
   "categories_state": {

@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-82a34805c720f325-run-202609021123",
+  "evidence_key": "82a34805c720f325",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for canned seafood (canned tuna, canned fish). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total Cr 2000 ug/kg (effective 2026-09-02; explicitly reaches processed/canned fish products) and HK Cap 132V 'Fish' total Cr 1000 ug/kg where the Schedule's fish entry is read to reach canned fish in the edible portion. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+      "key": "cephalopods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for cephalopods (octopus, squid, cuttlefish; not canned). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total Cr 2000 ug/kg (effective 2026-09-02); HK Cap 132V carries no cephalopod chromium row and IN FSSAI 'all fishery products' 12000 is looser. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+      "key": "fish-freshwater|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for freshwater finfish (tilapia, catfish, trout, carp). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+      "key": "fish-marine-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+      "key": "shellfish|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for shellfish (crustaceans and bivalve molluscs, not canned). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Crabs, prawns and shrimps' 1000 ug/kg and 'Oysters' 1000 ug/kg total Cr (in force), with GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg covering the remaining bivalves. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    }
+  ]
+}
