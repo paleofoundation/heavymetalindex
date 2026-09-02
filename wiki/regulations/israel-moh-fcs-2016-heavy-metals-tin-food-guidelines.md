@@ -7,12 +7,14 @@ metal: [Pb, Cd, tHg, tAs, iAs, Sn]
 matrix: [foodstuffs, infant-formula, infant-food, seafood, canned-foods, bottled-water, beverages, dairy, produce, cereals, rice, supplements, salt]
 limit_value: multiple
 limit_unit: "mg/kg"
-status: active
+status: superseded
 effective_date: 2016-05-01
 sunset_date: null
 source_refs: ["[[sources/israelmoh2016-heavy-metals-tin-food-guidelines]]"]
-updated: 2026-08-06
+updated: 2026-09-02
 audience: [regulator, educator, commercial, app, legal]
+superseded_by: "Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3A, Second Schedule A item 1; Amendment 10, S.H. 3276, 2024-08-04)"
+effective_until: 2024-08-04
 ---
 
 # Israel Food Control Services - heavy metals and tin in food

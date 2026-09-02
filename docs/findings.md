@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-225 open item(s): 75 auto, 150 awaiting a decision.
+226 open item(s): 76 auto, 150 awaiting a decision.
 
 ### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
 
@@ -574,6 +574,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/fiji-food-safety-regulations-2009-chemical-contaminants.md`
 - repro: fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200 (and sibling fj_fsr2009_* rows) carry url https://biotech.law.lsu.edu/obesity/who/report_food_safety_consultation.pdf; pdftotext shows the WHO-WPRO consultation report (Nadi, 2002; 59 pp) with no Eleventh Schedule. Both M1 verifiers matched the value against the held raw/regulatory/fj/fiji-food-safety-regulations-2009-chemical-contaminants.pdf instead (byte-identical to the Ministry of Health copy, sha256 96f00728...).
 - done when: url on every fj_fsr2009_* row points to the Food Safety Regulations 2009 (L.N. 20 of 2009) copy (health.gov.fj); register_urls for the instrument no longer list the LSU/WHO report; the M1 packet for the instrument lists the raw path
+
+### OI-20260902-eu-successor-cells-missing-from-register — Register lacks the EU successor cells the Israel deep-read maps to (2023/915 s.3.3 mercury and s.3.5 inorganic tin, Reg 2018/73 mercury MRLs, Directive 2003/40/EC mineral water)
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `data/workbench/standards/confidence/_m1-deep/il-fcs2016-instrument.deep.json`
+- repro: grep -c eu2023_ data/evidence/regulatory_limits.csv shows Pb/Cd/iAs/Ni rows but no 2023/915 mercury (3.3.x) or inorganic-tin (3.5.x) rows, no Reg 2018/73 rows and no Directive 2003/40/EC rows, although the Israel deep-read maps 85 il_fcs2016 rows onto those cells
+- done when: EU 2023/915 s.3.3 mercury and s.3.5 inorganic tin rows present in regulatory_limits.csv with consolidated-text citations; Reg 2018/73 mercury MRLs and Directive 2003/40/EC Annex I limits ingested as EU rows or explicitly logged out-of-scope; every il_fcs2016 row carries status superseded (done 2026-09-02 by supersede-instrument.mjs)
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 

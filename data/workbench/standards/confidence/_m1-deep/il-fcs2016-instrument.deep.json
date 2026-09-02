@@ -1,0 +1,1732 @@
+{
+ "packet_id": "m1-deep-20260902-il-fcs2016",
+ "model": "claude-fable-5-1",
+ "effort": "xhigh",
+ "agent": "deep",
+ "run_id": "run-20260902-a",
+ "instrument_status": "not in force",
+ "status_evidence": [
+  {
+   "source": "https://www.gov.il/he/pages/fcs-reg-01022007 (guideline's own register page, read via Chrome 2026-09-02)",
+   "quote": "לא בתוקף - קוים מנחים לכמות מרבית של מתכות כבדות במזון",
+   "what_it_shows": "The Ministry page for this exact register entry (fcs-reg-01022007; published 25.02.2008, updated 19.02.2026) carries the not-in-force label in its title and in the attached-file name; it is the guideline's own status page, not a generic list."
+  },
+  {
+   "source": "https://www.gov.il/he/departments/dynamiccollectors/fcs-regulations (collector, read via Chrome)",
+   "quote": "סטאטוס בתוקף לא בתוקף",
+   "what_it_shows": "'לא בתוקף' is a formal status field of the National Food Service guidelines collector (213 entries), so the label is a curated status, not free text. The collector's header blurb is stale (still cites the 16.06.21 extension)."
+  },
+  {
+   "source": "raw/regulatory/il/israel-moh-fcs-2016-heavy-metals-tin-food.pdf (sha256 7c0521c5..., 7 pp., pdftotext)",
+   "quote": "קווים מנחים לכמות מרבית של מתכות כבדות ובדיל במזון מיום 01.05.2016",
+   "what_it_shows": "The held PDF is the 01.05.2016 update (doc no. 35954916); all 162 packet values match its tables (mg/kg x1000); it contains no validity or sunset clause of its own."
+  },
+  {
+   "source": "https://m.knesset.gov.il/Activity/committees/Labor/RegulationApproved/health150620-b.pdf, schedule item 32",
+   "quote": "עדכון קווים מנחים לכמות מרבית של מתכות כבדות ובדיל במזון מיום 01.05.2016",
+   "what_it_shows": "The guideline was a pre-Law instrument kept alive only by s.321(d) of the Food Law and listed as item 32 in the 2020 extension order."
+  },
+  {
+   "source": "https://www.nevo.co.il/law_html/law01/502_298.htm (2020 order with amendments)",
+   "quote": "עד יום ד' בשבט התשפ\"ב (6 בינואר 2022)",
+   "what_it_shows": "The order's own extension chain ended 6.1.2022 (16.12.2020 -> 16.6.2021 -> 6.1.2022). This is NOT the end of the guideline's life: the statute itself was then amended."
+  },
+  {
+   "source": "https://www.nevo.co.il/law_html/law01/049_062.htm, s.321(d) with amendment history",
+   "quote": "או עד יום כ' באלול התשפ\"ט (31 באוגוסט 2029), לפי המוקדם",
+   "what_it_shows": "Amendment 3 (S.H. 2933, 18.11.2021) reset the s.321(d) sunset to 30.6.2023, Amendment 5 (6.6.2023) to 31.12.2024, Amendment 10 (from 1.1.2025) to 31.8.2029. Pre-Law guidelines therefore did not lapse by time; they end earlier only when 'provisions replacing them are set under this Law' or the Minister cancels/declares them not in force (s.321(o1))."
+  },
+  {
+   "source": "nevo law s.3A(a),(b),(y) and footnotes",
+   "quote": "יגברו ההוראות המאומצות",
+   "what_it_shows": "s.3A applies the EU provisions listed in Schedule 2A 'in Israel to food' (all food operators), the English text is binding, and s.3A(y) makes adopted provisions prevail over local food legislation on the matters they regulate."
+  },
+  {
+   "source": "faolex isr217948 consolidated text, Schedule 2A item 1 (pre-Amendment-10 version) + nevo footnote on Amendment 3",
+   "quote": "תקנות האיחוד האירופי 1881/2006 בעניין מזהמים כימיים במזון",
+   "what_it_shows": "Regulation (EC) 1881/2006 was the item-1 adopted provision from 1.1.2023 (Economic Plan Law 2021 = Amendment 3), with its Articles 7-9 disapplied."
+  },
+  {
+   "source": "Sefer HaChukkim 3276 (4.8.2024) s.44 and nevo Schedule 2A item 1",
+   "quote": "1. תקנה 2023/915 ... לא יחולו על בשר גולמי, חלב גולמי, דבש, ביצים טריות בקליפתן",
+   "what_it_shows": "Amendment 10 replaced Schedule 2A; item 1 is now Regulation (EU) 2023/915 with three column-A exclusions: raw meat, raw milk, honey, fresh shell eggs; Annex I sampling/analysis provisions; and entries 2.6.1-2.6.2."
+  },
+  {
+   "source": "Sefer HaChukkim 3276 s.56(a) and Director's notice 26.08.2024 (ref 262994724, via gain.fas.usda.gov p=2546)",
+   "quote": "ביום פרסום התיקון לחוק, דהיינו ביום 4.8.24",
+   "what_it_shows": "Items 1-4 (contaminants, mercury MRLs, microbiology, pesticides) commenced on publication day 4.8.2024 because they had already been in force since 1.1.2023; the notice says the 2023/915 text published is the EU version as of 25.04.2024."
+  },
+  {
+   "source": "Sefer HaChukkim 3276 s.52 / nevo Thirteenth Schedule Part B item (9)",
+   "quote": "בפרטים 1 עד 3, 32, 48 עד 55 ו-61",
+   "what_it_shows": "The legislature classified item 32 of the 2020 order (this heavy-metals guideline) as an instrument 'on matters regulated by adopted provisions' that does not apply, during 1.1.2025-31.8.2029, to proper importers on the European track and to producers/importers who declared compliance with the adopted provisions (s.321A(b))."
+  },
+  {
+   "source": "Director's notice 26.08.2024 section B",
+   "quote": "על כלל העוסקים במזון - יצרנים, יבואנים ומשווקים",
+   "what_it_shows": "The adopted provisions apply to all food operators: producers, importers and marketers (domestic and imported food alike)."
+  },
+  {
+   "source": "https://www.nevo.co.il/law_html/law00/239306.htm (Director's notice 2025, current to 28.12.2025)",
+   "quote": "הוספת פרט 3.6 ... 1 בינואר 2026",
+   "what_it_shows": "EU amendments 2024/1003, 1022, 1038, 1756, 1808 apply in Israel from 20.5.2025; nickel (2024/1987) and inorganic-arsenic-in-seafood (2025/1891) from 1.1.2026, so Israel tracks the consolidated 2023/915 with a short lag."
+  },
+  {
+   "source": "USDA GAIN IS2024-0020 (15.10.2024) and IS2025-0003 (06.02.2025)",
+   "quote": "transitional provision was applied until December 31, 2024",
+   "what_it_shows": "Independent corroboration: contaminants regulation adopted 1.1.2023, re-adopted as 2023/915 on 4.8.2024, transition for non-proper importers/producers to 31.12.2024, further annex updates 2025."
+  }
+ ],
+ "successor": {
+  "instrument": "Commission Regulation (EU) 2023/915 (consolidated, as amended through 2025/1891) as Schedule 2A item 1 of the Public Health Protection (Food) Law 5776-2015; plus Schedule 2A item 2 (Reg 2018/73 mercury-compound MRLs in Reg 396/2005) and item 25 (Directive 2003/40/EC natural-mineral-water limits)",
+  "adopted_via": "s.3A of the Public Health Protection (Food) Law 5776-2015: Amendment 3 (Economic Plan Law 2021, S.H. 2933 of 18.11.2021) adopted (EC) 1881/2006 from 1.1.2023; Amendment 10 (S.H. 3276 of 4.8.2024) replaced Schedule 2A with 2023/915 (items 1-4 commencing 4.8.2024 under s.56(a); transitional to 31.12.2024 under s.58(a) for non-proper-importer producers/importers who filed a form); annex updates applied by Director's notices under s.3A(d1) (20.5.2025 and 1.1.2026); mineral-water items 24-26 commence 1.1.2025 (deferrable 12 months, s.55(d)(2))",
+  "binding_from": "2023-01-01",
+  "evidence": [
+   "nevo 049_062.htm footnote: Amendment 3 'תחילתו ביום 1.1.2023'; faolex isr217948 Schedule 2A item 1 = 1881/2006",
+   "S.H. 3276 s.44 (new Schedule 2A, item 1 = 2023/915) and s.56(a) (items 1-4 commence on publication 4.8.2024)",
+   "Director's notice 26.08.2024 sections C-D (2023/915 replaces 1881/2006 'ושנכנס לתוקף כבר ב 1.1.2023'; transitional to 31.12.2024)",
+   "nevo 239306.htm (2025 notice): Israeli application dates 20.5.2025 and 1.1.2026 for the 2024-2025 EU amendments",
+   "s.3A(a) 'יחולו בישראל על מזון' and notice 26.08.2024 'על כלל העוסקים במזון - יצרנים, יבואנים ומשווקים' (domestic and imported alike; proper importers on the European track may apply adopted provisions earlier)"
+  ]
+ },
+ "transitional_provisions": "(1) s.321(d) keeps pre-Law guidelines alive until replaced by provisions under the Law, cancelled by the Minister, or 31.8.2029, whichever first; for heavy metals the replacement occurred on 1.1.2023 (1881/2006) and 4.8.2024 (2023/915), and the Ministry now lists the guideline as not in force (page updated 19.02.2026). (2) Amendment 10 s.58(a): a producer or importer who is not a proper importer could, by online form, keep producing/importing to the law as it stood on 31.12.2022 until 31.12.2024; that window has closed. (3) Thirteenth Schedule Part B(9) with s.321A(b): during 1.1.2025-31.8.2029 the guideline (order item 32) does not apply to operators applying the adopted provisions; it is not listed as surviving for anyone else on a contaminants matter. (4) s.3A(d)(4) and 2025 notice s.3: food produced/imported before an annex update takes effect may be sold to end of shelf life under the pre-update text. (5) Residual exception: raw meat, raw milk, honey and fresh shell eggs are excluded from the adopted 2023/915 (and from item 2), so no adopted EU ML governs them; whether any 2016 value retains effect for those four raw foods is unresolved (no s.321(o1) Reshumot notice found; the Ministry label is unqualified). (6) No grace period keeps the 2016 values for any other product class.",
+ "product_classes": [
+  {
+   "class": "Milk and dairy products",
+   "rows": [
+    "il_fcs2016_pb_1_milk_20",
+    "il_fcs2016_pb_1_1_dairy_products_20",
+    "il_fcs2016_pb_18_beverages_except_dairy_products_and_listed_categorie_20",
+    "il_fcs2016_cd_1_milk_5",
+    "il_fcs2016_cd_1_1_dairy_products_50",
+    "il_fcs2016_thg_1_milk_10",
+    "il_fcs2016_thg_1_1_dairy_products_100",
+    "il_fcs2016_tas_1_milk_1000",
+    "il_fcs2016_ias_1_milk_10",
+    "il_fcs2016_tas_1_1_dairy_products_1000",
+    "il_fcs2016_ias_1_1_dairy_products_100"
+   ],
+   "successor_ml": "Pb 20 ug/kg heat-treated milk (3.1.16); Hg 10 ug/kg milk (2018/73); no Cd/As ML; no dairy-product ML (Art 3)",
+   "note": "Raw milk excluded from adoption (col. A)."
+  },
+  {
+   "class": "Fats, oils, fat emulsions",
+   "rows": [
+    "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+    "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+    "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+    "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000",
+    "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100"
+   ],
+   "successor_ml": "Pb 100 ug/kg (3.1.18); none for Cd, Hg, tAs, iAs",
+   "note": ""
+  },
+  {
+   "class": "Fruits and vegetables (fresh, incl. leafy, root, fruiting, mushrooms, herbs)",
+   "rows": [
+    "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
+    "il_fcs2016_pb_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_300",
+    "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100",
+    "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
+    "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
+    "il_fcs2016_cd_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_200",
+    "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100",
+    "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
+    "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
+    "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
+   ],
+   "successor_ml": "Pb 50-300 (3.1.1-3.1.9); Cd 20-500 (3.2.1-3.2.9); Hg 10/30/50/500 (2018/73); no As ML",
+   "note": "EU cells are finer-grained; several tighter than the 2016 values."
+  },
+  {
+   "class": "Dried fruits, vegetables, mushrooms, herbs",
+   "rows": [
+    "il_fcs2016_pb_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1500",
+    "il_fcs2016_cd_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1000",
+    "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
+    "il_fcs2016_tas_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_5000",
+    "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300"
+   ],
+   "successor_ml": "none direct; 2023/915 Art 3(1) concentration factor; dried spices Pb 600-2000 (3.1.12)",
+   "note": ""
+  },
+  {
+   "class": "Dried legumes, peanuts, soybeans",
+   "rows": [
+    "il_fcs2016_pb_4_dried_legumes_except_listed_categories_200",
+    "il_fcs2016_pb_4_1_peanuts_and_soybeans_200",
+    "il_fcs2016_cd_4_dried_legumes_100",
+    "il_fcs2016_cd_4_1_peanuts_and_soybeans_200",
+    "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30",
+    "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000",
+    "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+   ],
+   "successor_ml": "Pb 200 pulses (3.1.10); Cd 40 pulses / 200 peanuts-soy (3.2.10, 3.2.11.3); Hg 10-20 (2018/73); no As ML",
+   "note": ""
+  },
+  {
+   "class": "Cereals, wheat, rice and rice products",
+   "rows": [
+    "il_fcs2016_pb_5_cereals_and_cereal_products_except_listed_categories_200",
+    "il_fcs2016_cd_5_cereals_and_cereal_products_except_listed_categories_100",
+    "il_fcs2016_cd_5_1_wheat_and_rice_200",
+    "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
+    "il_fcs2016_tas_5_cereals_and_cereal_products_except_listed_categories_1000",
+    "il_fcs2016_tas_5_1_wheat_1000",
+    "il_fcs2016_tas_5_2_rice_1000",
+    "il_fcs2016_ias_5_2_rice_200",
+    "il_fcs2016_tas_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_1000",
+    "il_fcs2016_ias_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_100",
+    "il_fcs2016_tas_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_1000",
+    "il_fcs2016_ias_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_300"
+   ],
+   "successor_ml": "Pb 200 (3.1.11); Cd 100 cereals / 150 rice / 180 durum (3.2.12); Hg 10 (2018/73); iAs rice 150/250, infant rice 100, rice cakes 300 (3.4.1); no tAs ML",
+   "note": ""
+  },
+  {
+   "class": "Oilseeds and olives",
+   "rows": [
+    "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+    "il_fcs2016_cd_5_2_oilseeds_500",
+    "il_fcs2016_thg_4_1_oilseeds_400",
+    "il_fcs2016_tas_5_3_oilseeds_1000"
+   ],
+   "successor_ml": "Cd 100-1200 by seed (3.2.11); Hg 20 (2018/73); no Pb/As ML (olives Pb 100 as fruit)",
+   "note": ""
+  },
+  {
+   "class": "Tea and plants for infusion",
+   "rows": [
+    "il_fcs2016_pb_7_raw_tea_and_plants_for_infusion_5000",
+    "il_fcs2016_cd_6_raw_tea_and_plants_for_infusion_100",
+    "il_fcs2016_thg_6_raw_tea_and_plants_for_infusion_50",
+    "il_fcs2016_tas_6_raw_tea_and_plants_for_infusion_1000",
+    "il_fcs2016_ias_6_raw_tea_and_plants_for_infusion_100"
+   ],
+   "successor_ml": "Hg 20 (2018/73 teas/herbal infusions); no Pb/Cd/As ML",
+   "note": ""
+  },
+  {
+   "class": "Seaweed (fresh and dried)",
+   "rows": [
+    "il_fcs2016_pb_8_fresh_seaweed_1000",
+    "il_fcs2016_pb_8_1_dried_seaweed_5000",
+    "il_fcs2016_cd_7_fresh_seaweed_1000",
+    "il_fcs2016_cd_7_1_dried_seaweed_5000",
+    "il_fcs2016_thg_7_fresh_seaweed_500",
+    "il_fcs2016_thg_7_1_dried_seaweed_2500",
+    "il_fcs2016_tas_7_fresh_seaweed_1000",
+    "il_fcs2016_tas_7_1_dried_seaweed_5000"
+   ],
+   "successor_ml": "Hg 10 (2018/73 algae); no Pb/Cd/As ML for seaweed as food (Ni 30/40 mg/kg from 1.1.2026 not an Israeli-row analyte)",
+   "note": ""
+  },
+  {
+   "class": "Meat, offal, liver",
+   "rows": [
+    "il_fcs2016_pb_9_meat_fat_and_their_products_including_poultry_and_ga_100",
+    "il_fcs2016_pb_9_1_offal_of_cattle_sheep_and_poultry_500",
+    "il_fcs2016_cd_8_meat_and_meat_products_including_poultry_and_game_ex_50",
+    "il_fcs2016_cd_8_1_fat_and_offal_of_cattle_sheep_and_poultry_except_lis_500",
+    "il_fcs2016_cd_8_2_turkey_liver_1000",
+    "il_fcs2016_cd_8_3_kidneys_of_cattle_lamb_pig_and_poultry_1000",
+    "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200",
+    "il_fcs2016_tas_8_meat_and_meat_products_including_poultry_and_game_ex_1000",
+    "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20",
+    "il_fcs2016_tas_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_1000",
+    "il_fcs2016_ias_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_200",
+    "il_fcs2016_tas_8_2_chicken_and_turkey_liver_1000",
+    "il_fcs2016_ias_8_2_chicken_and_turkey_liver_500"
+   ],
+   "successor_ml": "Pb 100 meat / 100-200 offal; Cd 50 meat / 500 liver / 1000 kidney; Hg 10-40 (2018/73); no As ML",
+   "note": "Raw meat excluded from adoption (col. A)."
+  },
+  {
+   "class": "Fish and seafood",
+   "rows": [
+    "il_fcs2016_pb_10_fish_and_fish_products_300",
+    "il_fcs2016_pb_10_1_crabs_muscle_500",
+    "il_fcs2016_pb_10_2_shellfish_1500",
+    "il_fcs2016_pb_10_3_octopus_and_squid_300",
+    "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50",
+    "il_fcs2016_cd_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_250",
+    "il_fcs2016_cd_9_2_crabs_muscle_500",
+    "il_fcs2016_cd_9_3_shellfish_octopus_squid_and_cephalopods_1000",
+    "il_fcs2016_thg_9_fish_and_fish_products_except_listed_categories_500",
+    "il_fcs2016_thg_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_1000",
+    "il_fcs2016_thg_9_2_seafood_500",
+    "il_fcs2016_tas_9_fish_and_fish_products_1000",
+    "il_fcs2016_tas_9_1_seafood_1000"
+   ],
+   "successor_ml": "Pb 300/500/1500/300; Cd 50-250 fish, 500 crustaceans, 1000 bivalves/cephalopods; Hg 500/1000/300; iAs 100/500 fish, 100-1500 crustaceans, 100/500 bivalves, 50 cephalopods (Israel 1.1.2026); no tAs ML",
+   "note": ""
+  },
+  {
+   "class": "Eggs and egg powder",
+   "rows": [
+    "il_fcs2016_pb_11_eggs_and_egg_powder_100",
+    "il_fcs2016_cd_10_eggs_and_egg_powder_10",
+    "il_fcs2016_thg_10_eggs_and_egg_powder_30",
+    "il_fcs2016_tas_10_eggs_and_egg_powder_1000"
+   ],
+   "successor_ml": "Hg 10 (2018/73 birds eggs); no Pb/Cd/As ML",
+   "note": "Fresh shell eggs excluded from adoption (col. A)."
+  },
+  {
+   "class": "Sugar",
+   "rows": [
+    "il_fcs2016_pb_12_sugar_500",
+    "il_fcs2016_cd_11_sugar_150",
+    "il_fcs2016_thg_11_sugar_100",
+    "il_fcs2016_tas_11_sugar_1000",
+    "il_fcs2016_ias_11_sugar_500"
+   ],
+   "successor_ml": "none",
+   "note": ""
+  },
+  {
+   "class": "Salt",
+   "rows": [
+    "il_fcs2016_pb_13_salt_2000",
+    "il_fcs2016_cd_12_salt_500",
+    "il_fcs2016_thg_12_salt_100",
+    "il_fcs2016_tas_12_salt_1000",
+    "il_fcs2016_ias_12_salt_500"
+   ],
+   "successor_ml": "Pb 1000 (2000 fleur de sel); Cd 500; Hg 100; tAs 500",
+   "note": ""
+  },
+  {
+   "class": "Cocoa and chocolate",
+   "rows": [
+    "il_fcs2016_pb_14_cocoa_powder_1000",
+    "il_fcs2016_cd_13_cocoa_chocolate_and_cocoa_chocolate_products_500",
+    "il_fcs2016_thg_13_cocoa_powder_200",
+    "il_fcs2016_tas_13_cocoa_powder_1000"
+   ],
+   "successor_ml": "Cd 100-800 chocolate / 600 cocoa powder (3.2.15); Hg 20 cocoa beans (2018/73); no Pb/As ML",
+   "note": ""
+  },
+  {
+   "class": "Infant formula, follow-on formula (RTE and powder, incl. soy)",
+   "rows": [
+    "il_fcs2016_pb_15_infant_formula_ready_to_eat_and_follow_up_formula_10",
+    "il_fcs2016_pb_15_1_infant_formula_powder_50",
+    "il_fcs2016_cd_14_infant_and_toddler_formulas_ready_to_eat_5",
+    "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10",
+    "il_fcs2016_cd_14_2_infant_and_toddler_formulas_from_soy_or_containing_s_10",
+    "il_fcs2016_cd_14_3_infant_and_toddler_formulas_from_soy_or_containing_s_20",
+    "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
+    "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
+    "il_fcs2016_tas_14_infant_and_toddler_formulas_ready_to_eat_1000",
+    "il_fcs2016_ias_14_infant_and_toddler_formulas_ready_to_eat_10",
+    "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000",
+    "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50"
+   ],
+   "successor_ml": "Pb 20 powder / 10 liquid; Cd 10/5 cow, 20/10 soy; iAs 20 powder / 10 liquid; no Hg ML; no tAs ML",
+   "note": ""
+  },
+  {
+   "class": "Baby food, porridges and other foods for infants/toddlers",
+   "rows": [
+    "il_fcs2016_pb_15_2_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+    "il_fcs2016_pb_15_3_porridges_and_other_foods_for_infants_and_toddlers_p_80",
+    "il_fcs2016_cd_14_4_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+    "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+    "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000",
+    "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25"
+   ],
+   "successor_ml": "Pb 20, Cd 40, iAs 20 (product as placed on market); no Hg/tAs ML",
+   "note": "Basis differs: EU as placed on market vs Israeli as-consumed/powder."
+  },
+  {
+   "class": "Food for special dietary purpose",
+   "rows": [
+    "il_fcs2016_pb_16_food_for_special_dietary_purpose_10",
+    "il_fcs2016_cd_15_food_for_special_dietary_purpose_5",
+    "il_fcs2016_thg_16_food_for_special_dietary_purpose_4"
+   ],
+   "successor_ml": "FSMP for infants only: Pb 20/10, Cd 10/5, iAs 20/10; none for other special-purpose foods",
+   "note": ""
+  },
+  {
+   "class": "Dietary supplements",
+   "rows": [
+    "il_fcs2016_pb_17_dietary_supplements_3000",
+    "il_fcs2016_cd_16_dietary_supplements_except_listed_categories_1000",
+    "il_fcs2016_cd_16_1_dietary_supplements_mainly_containing_dried_seaweed_3000",
+    "il_fcs2016_thg_15_dietary_supplements_100",
+    "il_fcs2016_tas_15_dietary_supplements_except_listed_categories_1000",
+    "il_fcs2016_tas_15_1_dietary_supplements_mainly_containing_dried_seaweed_5000"
+   ],
+   "successor_ml": "Pb 3000; Cd 1000 (3000 seaweed-based); Hg 100; no As ML",
+   "note": ""
+  },
+  {
+   "class": "Beverages, juices, nectars",
+   "rows": [
+    "il_fcs2016_pb_18_beverages_except_dairy_products_and_listed_categorie_20",
+    "il_fcs2016_pb_18_2_fruit_and_vegetable_juices_including_nectars_except_30",
+    "il_fcs2016_pb_18_3_juices_containing_only_berries_and_small_fruits_50",
+    "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10",
+    "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10",
+    "il_fcs2016_tas_16_beverages_except_listed_categories_1000",
+    "il_fcs2016_ias_16_beverages_except_listed_categories_100",
+    "il_fcs2016_tas_16_2_fruit_and_vegetable_juices_including_nectars_1000",
+    "il_fcs2016_ias_16_2_fruit_and_vegetable_juices_including_nectars_200"
+   ],
+   "successor_ml": "Pb 30 juices / 50 berry juices; iAs 20 juices; no ML for other beverages or for Cd/Hg",
+   "note": ""
+  },
+  {
+   "class": "Bottled drinking water and mineral water",
+   "rows": [
+    "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+    "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
+    "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+    "il_fcs2016_cd_17_bottled_drinking_water_and_mineral_water_3",
+    "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+    "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
+    "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000",
+    "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+    "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
+    "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6"
+   ],
+   "successor_ml": "Directive 2003/40/EC Annex I (natural mineral/spring water, Schedule 2A item 25, commencement 1.1.2025 deferrable): As 10 ug/l total, Cd 3, Pb 10, Hg 1; no iAs limit",
+   "note": "Values identical to the 2016 rows; non-mineral bottled drinking water is outside the adopted provisions (Israeli drinking-water regulations, not verified here)."
+  },
+  {
+   "class": "Canned fruits and vegetables, tomato paste, jams, wine",
+   "rows": [
+    "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
+    "il_fcs2016_pb_19_canned_fruits_except_listed_categories_100",
+    "il_fcs2016_pb_19_1_canned_small_fruits_raspberries_and_strawberries_1000",
+    "il_fcs2016_pb_20_canned_vegetables_except_listed_categories_100",
+    "il_fcs2016_pb_20_1_canned_brassica_and_leafy_vegetables_300",
+    "il_fcs2016_pb_20_2_tomato_puree_paste_1500",
+    "il_fcs2016_pb_21_jams_and_jellies_1000",
+    "il_fcs2016_pb_22_wine_200"
+   ],
+   "successor_ml": "underlying fruit/vegetable Pb MLs via Art 3; wine Pb 200/150/100 by harvest; no fixed ML for tomato paste or jams",
+   "note": ""
+  },
+  {
+   "class": "Honey",
+   "rows": [
+    "il_fcs2016_pb_23_honey_100"
+   ],
+   "successor_ml": "none in Israel (EU honey Pb 100 exists but honey is excluded from the adopted regulation)",
+   "note": "Residual applicability unresolved."
+  },
+  {
+   "class": "Canned foods (inorganic tin)",
+   "rows": [
+    "il_fcs2016_sn_1_canned_foods_except_beverages_200000",
+    "il_fcs2016_sn_1_1_ready_to_eat_canned_foods_intended_for_infants_and_t_50000",
+    "il_fcs2016_sn_1_2_canned_beverages_100000"
+   ],
+   "successor_ml": "Sn 200 mg/kg canned food; 100 canned beverages; 50 canned infant foods (3.5)",
+   "note": "Identical values."
+  }
+ ],
+ "verdict_for_rows": "refuted",
+ "rows": [
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_1_milk_20",
+   "row_sha256": "6419d76125b41ca771c51f049b407eae1ed3cd93056be74b2bde6bb6501de22e",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.16 raw/heat-treated milk Pb 0.020 mg/kg (=20 ug/kg)",
+   "note": "Value 20 ug/kg (Pb, 'Milk') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for heat-treated milk; Israel col. A exclusion: adopted 2023/915 does not apply to raw meat, raw milk, honey, fresh shell eggs (local food legislation applies; no successor ML identified for the excluded raw form)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_1_1_dairy_products_20",
+   "row_sha256": "836d68e8410d7774327e8e3f08032d6583ded3dba506d71c8aadaa9dd08bb190",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; 2023/915 Art 3(1)-(2) applies milk ML 0.020 with processing/concentration factor",
+   "note": "Value 20 ug/kg (Pb, 'Dairy products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). EU sets no fixed Pb ML for dairy products."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+   "row_sha256": "2c0e8a63770a89cc7d90ce4695cb8dfcd73f20ccd0bafaad77e59c2a2d4469a4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.18 fats and oils Pb 0.10 mg/kg (=100 ug/kg)",
+   "note": "Value 100 ug/kg (Pb, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
+   "row_sha256": "0ed9e6a1db7e42ac57dc09b4f1e35fa00929a2fd3b602d402ecd1870d3ca1a09",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.1.2 fruits 0.10; 3.1.2.1 root/tuber 0.10; 3.1.3 bulb 0.10; 3.1.5.1 brassica 0.10; 3.1.7 legume veg 0.10; 3.1.8 stem 0.10 (cranberries/currants/elderberries 0.20; ginger/turmeric 0.80; salsify 0.30)",
+   "note": "Value 100 ug/kg (Pb, 'Fruits and vegetables, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same headline value; EU splits finer."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_300",
+   "row_sha256": "3b42f22ea8a1d2b9046271dd74104945f15d2735418f1c8fd5f6e17d9fda7427",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.6 leaf veg 0.30; 3.1.5.2 leafy brassica 0.30; 3.1.9.1 cultivated fungi 0.30 (wild 0.80); celery=stem 0.10; horseradish=root 0.10; fresh herbs: no Pb ML",
+   "note": "Value 300 ug/kg (Pb, 'Leafy vegetables, celery, mushrooms, edible plants, herbs, brassicas, and horseradish') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: leafy/fungi match 300; celery/horseradish/non-leafy brassica tighter at 100; fresh herbs uncovered."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1500",
+   "row_sha256": "145496518865628a46c7b8fcc82b7ba2cd32432d0707cbe0936c6b4b73e368dd",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; 2023/915 Art 3(1) concentration factor on fresh ML; dried spices 3.1.12 Pb 0.60-2.0",
+   "note": "Value 1500 ug/kg (Pb, 'Dried leafy vegetables, celery, mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). EU has no fixed ML for dried vegetables/herbs."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100",
+   "row_sha256": "0373d3fe32b5d0557df5027505b70fa202e488dd45b9350960937224fb5cd097",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.2.1 root/tuber 0.10; 3.1.8 stem 0.10",
+   "note": "Value 100 ug/kg (Pb, 'Root, stem, and tuber vegetables') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
+   "row_sha256": "b73ddbe575a684b64d0e81f0bccf86300f1bc58b72784557bdc122d2acfcf1aa",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.4.1 fruiting vegetables Pb 0.050 (sweetcorn 0.10)",
+   "note": "Value 50 ug/kg (Pb, 'Fruiting vegetables (including tomato, cucumber, pepper, and similar vegetables)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_4_dried_legumes_except_listed_categories_200",
+   "row_sha256": "ff711d194458cfb630cc94692261261b63ae4386b9d2071c378fc4f0cbf5afec",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.10 pulses Pb 0.20",
+   "note": "Value 200 ug/kg (Pb, 'Dried legumes, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_4_1_peanuts_and_soybeans_200",
+   "row_sha256": "a76efe1b54d932e6b30ee2ef63aa2cfc2da44f0f3c9f56647ce997cc5ba01e9f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for oilseeds (peanuts, soybeans)",
+   "note": "Value 200 ug/kg (Pb, 'Peanuts and soybeans') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_5_cereals_and_cereal_products_except_listed_categories_200",
+   "row_sha256": "5124b4e49c106e4bf5a076f60244aaa4eafa4d3665d977a1bff561a304b9ebb9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.11 cereals Pb 0.20",
+   "note": "Value 200 ug/kg (Pb, 'Cereals and cereal products, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for cereals; cereal products via Art 3."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+   "row_sha256": "af7d7d3de6773974310467cd02912d6fc201f81ebee06a5f730171f77ecbef20",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for oilseeds; table olives = 3.1.1.2 fruits 0.10",
+   "note": "Value 1000 ug/kg (Pb, 'Oilseeds and olives') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No Pb ML for oilseeds in 2023/915."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_7_raw_tea_and_plants_for_infusion_5000",
+   "row_sha256": "f3af6bab129b2d329bbe231cd9e04f91246ab76d4a241bce6a47a8250b439986",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for tea/herbal infusions",
+   "note": "Value 5000 ug/kg (Pb, 'Raw tea and plants for infusion') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_8_fresh_seaweed_1000",
+   "row_sha256": "5859de76168592cf68754ddfabfe881b93cf96de28d18707a64751233afb54aa",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for seaweed (Rec. 2018/464 monitoring only)",
+   "note": "Value 1000 ug/kg (Pb, 'Fresh seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
+   "row_sha256": "2e4fafdcf99f3f3637dbf578747afa9746ff4bfbe8099b84b0970e48e891462a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for seaweed",
+   "note": "Value 5000 ug/kg (Pb, 'Dried seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_9_meat_fat_and_their_products_including_poultry_and_ga_100",
+   "row_sha256": "e417a33374f82f7520536c0e020318b64b01f51318e1909d42da5bd8d08f84b9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.13 meat of bovine/sheep/pig/poultry Pb 0.10",
+   "note": "Value 100 ug/kg (Pb, 'Meat, fat, and their products, including poultry and game, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for meat products; Israel col. A exclusion: adopted 2023/915 does not apply to raw meat, raw milk, honey, fresh shell eggs (local food legislation applies; no successor ML identified for the excluded raw form)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_9_1_offal_of_cattle_sheep_and_poultry_500",
+   "row_sha256": "038b4bea9d26d40aae777b29a7e9fa9d4178897b3cb349b152ba9d0377098d44",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.14.1 offal bovine/sheep 0.20; 3.1.14.2 pig 0.15; 3.1.14.3 poultry 0.10",
+   "note": "Value 500 ug/kg (Pb, 'Offal of cattle, sheep, and poultry') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (100-200 vs 500). Raw-meat exclusion may reach raw offal."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_10_fish_and_fish_products_300",
+   "row_sha256": "56c7e31e8716dc47ae0f8336fa0e164573669c238a8e40b931cd49928e17f553",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.15.1 muscle meat of fish Pb 0.30",
+   "note": "Value 300 ug/kg (Pb, 'Fish and fish products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_10_1_crabs_muscle_500",
+   "row_sha256": "51851ae14ad19b03010f78f35a6b38f49ec815032b793ec1e0e6eb624f60fa10",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.15.3 crustaceans Pb 0.50",
+   "note": "Value 500 ug/kg (Pb, 'Crabs (muscle)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_10_2_shellfish_1500",
+   "row_sha256": "7f9dc0a78efeac1ec415aff5f60ed822a024fb006cc972ddd8e64ee452a2e3e0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.15.4 bivalve molluscs Pb 1.50",
+   "note": "Value 1500 ug/kg (Pb, 'Shellfish') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_10_3_octopus_and_squid_300",
+   "row_sha256": "c05598c564ff77cf41a9697aeb35eb0c7373fc80b1d6add38c74119411f36d19",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.15.2 cephalopods Pb 0.30",
+   "note": "Value 300 ug/kg (Pb, 'Octopus and squid') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_11_eggs_and_egg_powder_100",
+   "row_sha256": "cd16cf7e445e5199493264f3267be2eb0d8ca4d08f48081791832595d85555a9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for eggs",
+   "note": "Value 100 ug/kg (Pb, 'Eggs and egg powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor; fresh shell eggs also excluded from adoption (col. A)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_12_sugar_500",
+   "row_sha256": "359f74f4ead26af85ed5b3011f2143d9a744f1fc337c15447884459397a0ce3e",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for sugar",
+   "note": "Value 500 ug/kg (Pb, 'Sugar') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_13_salt_2000",
+   "row_sha256": "b5e8c80151487cdf33bf0a4ddbaddb0e78f527ae7fb9fdf75b18d674fb850c1c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.23.1 salts Pb 1.0 (3.1.23.2 fleur de sel/grey salt 2.0)",
+   "note": "Value 2000 ug/kg (Pb, 'Salt') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter for ordinary salt (1000 vs 2000)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_14_cocoa_powder_1000",
+   "row_sha256": "c982ebcaadc902708e898513154b9c501e1fd3d82039ef12208471910ebb9050",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Pb ML for cocoa",
+   "note": "Value 1000 ug/kg (Pb, 'Cocoa powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_15_infant_formula_ready_to_eat_and_follow_up_formula_10",
+   "row_sha256": "beab1a0b09e5a0f4a01277467cb3bb04b4a6b32787d90849856b19c5bb1fea5d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.24.2 infant/follow-on/young-child formula as liquid Pb 0.010",
+   "note": "Value 10 ug/kg (Pb, 'Infant formula ready-to-eat and follow-up formula') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_15_1_infant_formula_powder_50",
+   "row_sha256": "e3851537088c54060c7324ba44e413b5869654200ac347e79d1b61ecaca067f0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.24.1 formula as powder Pb 0.020",
+   "note": "Value 50 ug/kg (Pb, 'Infant formula powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (20 vs 50)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_15_2_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+   "row_sha256": "95fa7ac4f63c00d07e0d7f83315c34541c532d0c0a01640cd3aaf5b16f04eef1",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.26 baby food and processed cereal-based food Pb 0.020 (product as placed on market)",
+   "note": "Value 40 ug/kg (Pb, 'Porridges and other foods for infants and toddlers, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (20 vs 40) and on as-sold basis."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_15_3_porridges_and_other_foods_for_infants_and_toddlers_p_80",
+   "row_sha256": "e882bde9ab5efe8c4201e3f46595e403157abe5e7c9ef80724a368ef5ff3a166",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.26 baby food and processed cereal-based food Pb 0.020 (product as placed on market)",
+   "note": "Value 80 ug/kg (Pb, 'Porridges and other foods for infants and toddlers, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (20 vs 80)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_16_food_for_special_dietary_purpose_10",
+   "row_sha256": "84f19aade490e4bbbbef5b5db889807b4a87fcaf457c62469ee8751e386b0a8a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.27 FSMP for infants/young children Pb 0.020 powder / 0.010 liquid; no ML for other special-purpose foods",
+   "note": "Value 10 ug/kg (Pb, 'Food for special dietary purpose') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_17_dietary_supplements_3000",
+   "row_sha256": "e4be26f3522aaabf980b55cc8582e671b443e276a5d2a341b66e767af94d4ef8",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.28 food supplements Pb 3.0",
+   "note": "Value 3000 ug/kg (Pb, 'Dietary supplements') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_18_beverages_except_dairy_products_and_listed_categorie_20",
+   "row_sha256": "b59a000645d8cc5df405282e38e0e1d8f24ca2c796ea863ed6328df3a6805bd0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no general beverage Pb ML (infant drinks 3.1.25.1 0.020)",
+   "note": "Value 20 ug/kg (Pb, 'Beverages, except dairy products and listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
+   "row_sha256": "c652e4611f3569909dd23180c5d6b04fff865a315870cbe38ca72643750c59ec",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Directive 2003/40/EC Annex I lead 0.010 mg/l (natural mineral water; Schedule 2A item 25)",
+   "note": "Value 10 ug/kg (Pb, 'Bottled drinking water and mineral water') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for natural mineral/spring water; non-mineral bottled water not covered by adopted provisions."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_18_2_fruit_and_vegetable_juices_including_nectars_except_30",
+   "row_sha256": "d7b3944df215e4c249bd762d72635c8c37097cafca700ccb4522f7ea16dd9ca9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.19.2 fruit juices/nectars Pb 0.03",
+   "note": "Value 30 ug/kg (Pb, 'Fruit and vegetable juices, including nectars, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value (fruit juices; vegetable juices uncovered)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_18_3_juices_containing_only_berries_and_small_fruits_50",
+   "row_sha256": "38b1c71bd0a8fb8d22bd8466bd21c46665a702e3855b291e3b221e5f99703545",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.19.1 juices exclusively from berries/small fruits Pb 0.05",
+   "note": "Value 50 ug/kg (Pb, 'Juices containing only berries and small fruits') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_19_canned_fruits_except_listed_categories_100",
+   "row_sha256": "d113e32991a5b6924c5cdbe0332d53f5dfe2079e71d3c3cb6d5f86b06d7e157d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.1.2 fruits 0.10 applied via Art 3 to processed/canned",
+   "note": "Value 100 ug/kg (Pb, 'Canned fruits, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Equivalent via Art 3; no canned-specific ML."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_19_1_canned_small_fruits_raspberries_and_strawberries_1000",
+   "row_sha256": "b9799331f384287459d2c01f9d07f61557fffa72273b3bc9f578b0cc23dfadcf",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.1.1 cranberries/currants/elderberries 0.20; other fruits incl. raspberries/strawberries 0.10 (via Art 3)",
+   "note": "Value 1000 ug/kg (Pb, 'Canned small fruits (raspberries and strawberries)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor far tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_20_canned_vegetables_except_listed_categories_100",
+   "row_sha256": "0466169b3db3fabb92435b524304552781aad2c930951fb855c6e59e228dbbbe",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 vegetable MLs 0.050-0.10 applied via Art 3",
+   "note": "Value 100 ug/kg (Pb, 'Canned vegetables, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Equivalent via Art 3."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_20_1_canned_brassica_and_leafy_vegetables_300",
+   "row_sha256": "1601eebbb519048c206dd18546c0c3841185d370ec26cd3e237f50cf86f7fe16",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.5.2 leafy brassica 0.30 / 3.1.6 leaf veg 0.30 via Art 3 (non-leafy brassica 0.10)",
+   "note": "Value 300 ug/kg (Pb, 'Canned brassica and leafy vegetables') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial match via Art 3."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_20_2_tomato_puree_paste_1500",
+   "row_sha256": "d5fe9708a0a926a6afd8be72b750453f2abe69a0985f63a0b0a24533d1060d4c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; 2023/915 3.1.4.1 fruiting veg 0.050 with Art 3(1) concentration factor",
+   "note": "Value 1500 ug/kg (Pb, 'Tomato puree/paste') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed ML for tomato paste."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_21_jams_and_jellies_1000",
+   "row_sha256": "df9f421bd03b54870a99cd174c722d009d65c32f8f4f330161f4e21c295ad6b4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; fruit ML 0.10 via Art 3",
+   "note": "Value 1000 ug/kg (Pb, 'Jams and jellies') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed ML for jams."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_22_wine_200",
+   "row_sha256": "e5e8bb7611ffd358e15f9ac6e4766807947df01987f80d98713b53e4f37d3b5c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.1.20.1-3 wine Pb 0.20 (2001-2015 harvests) / 0.15 (2016-2021) / 0.10 (2022 onward)",
+   "note": "Value 200 ug/kg (Pb, 'Wine') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter for current harvests."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_pb_23_honey_100",
+   "row_sha256": "b1cb1acb9988a610871ac9965e4513553a62e301b07798566d91f776b13ad8f3",
+   "verdict": "cannot-verify",
+   "in_force": "unknown",
+   "successor": "none in Israel: EU 3.1.17 honey Pb 0.10 exists but honey is excluded from adopted 2023/915 (col. A)",
+   "note": "Value 100 ug/kg (Pb, 'Honey') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Ministry register marks the whole guideline not in force, but honey is excluded from the adopted EU regulation, so no Israeli successor exists and residual applicability of this value to honey is unresolved (no s.321(o1) Reshumot notice found). Same value in EU text; not adopted for honey in Israel. Israel col. A exclusion: adopted 2023/915 does not apply to raw meat, raw milk, honey, fresh shell eggs (local food legislation applies; no successor ML identified for the excluded raw form)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_1_milk_5",
+   "row_sha256": "26fccbce59a659c7afde99e68277480352adadeb41c953c2a6d0db99e24ed61a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for milk",
+   "note": "Value 5 ug/kg (Cd, 'Milk') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor; raw milk also excluded (col. A)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_1_1_dairy_products_50",
+   "row_sha256": "2f5176d8828c510be037ad4c8df524c4780d3645c133344060b368588f7fe18a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for dairy products",
+   "note": "Value 50 ug/kg (Cd, 'Dairy products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+   "row_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for fats/oils",
+   "note": "Value 30 ug/kg (Cd, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
+   "row_sha256": "29d5b3dc4a39d6673312fe15dde2aec880e0dcb51597bc09aeca68f00a75552a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.1.1 fruits 0.050 (citrus/pome/stone/olives/bananas 0.020; berries 0.030; raspberries 0.040); bulb 0.030; fruiting 0.020; brassica 0.040; legume veg 0.020; stem 0.030",
+   "note": "Value 50 ug/kg (Cd, 'Fruits and vegetables, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: EU mostly tighter than 50."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_200",
+   "row_sha256": "058ff660a7083804ab6ba28f0593df46822a5292909ccc24dc10ccb024294b89",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.6.1 leaf veg 0.10; 3.2.6.2 spinach/fresh herbs 0.20; celery 0.10; celeriac 0.15; horseradish 0.20; fungi 3.2.9 0.050/0.15/0.50",
+   "note": "Value 200 ug/kg (Cd, 'Leafy vegetables, celery, mushrooms, edible plants, herbs, and horseradish') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: herbs/horseradish match 200; leafy veg/celery tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1000",
+   "row_sha256": "2922bd5cb7ef558500967d51743a397cbe219757e387e832e9fccfd932e16e5b",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; 2023/915 Art 3(1) concentration factor on fresh MLs",
+   "note": "Value 1000 ug/kg (Cd, 'Dried leafy vegetables, celery, mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed ML for dried vegetables/herbs."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100",
+   "row_sha256": "cb0a575d4dbc01a152df84959c0f52848b07ee6145f5240b74520c7f255ca99a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.2.1 root/tuber 0.10 (beetroot 0.060; celeriac 0.15; horseradish/parsnip/salsify 0.20; radish 0.020; tropical roots 0.050); stem 3.2.8 0.030-0.10",
+   "note": "Value 100 ug/kg (Cd, 'Root, stem, and tuber vegetables') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Headline root/tuber value matches 100; stem tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_4_dried_legumes_100",
+   "row_sha256": "9b6809e8b2c7729f20aedb26110ff80287f6cab1d208116af0860d2ef3e8b819",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.10.1 pulses Cd 0.040",
+   "note": "Value 100 ug/kg (Cd, 'Dried legumes') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (40 vs 100)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_4_1_peanuts_and_soybeans_200",
+   "row_sha256": "4193d73abba64bcba4a953e90f8ae29928b57ec35bd78b47e3d5afc20674329a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.11.3 peanuts and soy beans Cd 0.20",
+   "note": "Value 200 ug/kg (Cd, 'Peanuts and soybeans') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_5_cereals_and_cereal_products_except_listed_categories_100",
+   "row_sha256": "b909193eddff127cbcc6f5db8adacfb7e46f134853fdc0d56b709fe337e9abc5",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.12.1 cereals Cd 0.10 (barley/rye 0.050)",
+   "note": "Value 100 ug/kg (Cd, 'Cereals and cereal products, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same headline value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_5_1_wheat_and_rice_200",
+   "row_sha256": "b1f09b2c500e61cfa9b5858e93648641f19ba4725a668193f27bc4ef70b43524",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.12.3 rice/quinoa/wheat bran/gluten 0.15; 3.2.12.4 durum 0.18; 3.2.12.5 wheat germ 0.20; common wheat 0.10",
+   "note": "Value 200 ug/kg (Cd, 'Wheat and rice') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_5_2_oilseeds_500",
+   "row_sha256": "66772adae2ae76dbb59f6e5204b3458a5516df1e4fdc68dffd0b95b1f60e7895",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.11.1 oilseeds 0.10 (rape 0.15; peanuts/soy 0.20; mustard 0.30; linseed/sunflower 0.50; poppy 1.20)",
+   "note": "Value 500 ug/kg (Cd, 'Oilseeds') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: only linseed/sunflower at 500."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_6_raw_tea_and_plants_for_infusion_100",
+   "row_sha256": "f2f424946edefae29ebee0fe67379a3d122940194f5c83f52bc0922a7de0a893",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for tea/infusions",
+   "note": "Value 100 ug/kg (Cd, 'Raw tea and plants for infusion') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_7_fresh_seaweed_1000",
+   "row_sha256": "ae12209d12b57f036920e3a6f2daadf12aaabfdb2ff72624676cc207d57f727f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for seaweed as food (supplements >=80% seaweed 3.0)",
+   "note": "Value 1000 ug/kg (Cd, 'Fresh seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_7_1_dried_seaweed_5000",
+   "row_sha256": "1852a58be52930c08184336e46a27f12350df186bc7af2b3c8b0284ad3ea214d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for seaweed as food",
+   "note": "Value 5000 ug/kg (Cd, 'Dried seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_8_meat_and_meat_products_including_poultry_and_game_ex_50",
+   "row_sha256": "ede766346e304902da42d3f4ae34bc060e5b4092a98aba207e5ab13214fe06b6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.13.1 meat of bovine/sheep/pig/poultry Cd 0.050",
+   "note": "Value 50 ug/kg (Cd, 'Meat and meat products, including poultry and game, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value; Israel col. A exclusion: adopted 2023/915 does not apply to raw meat, raw milk, honey, fresh shell eggs (local food legislation applies; no successor ML identified for the excluded raw form)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_8_1_fat_and_offal_of_cattle_sheep_and_poultry_except_lis_500",
+   "row_sha256": "eb040d090152bbe88f0420e10bdcdd99411e24a2d542fb3276cf3e2416fb8621",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.13.3 liver 0.50; 3.2.13.4 kidney 1.0; no ML for fat",
+   "note": "Value 500 ug/kg (Cd, 'Fat and offal of cattle, sheep, and poultry, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Liver matches 500."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_8_2_turkey_liver_1000",
+   "row_sha256": "90335b3ce7e15427608e267bbbadf7c3cbbe03078c533db428fd1aae756fd3c2",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.13.3 liver of bovine/sheep/pig/poultry/horse Cd 0.50",
+   "note": "Value 1000 ug/kg (Cd, 'Turkey liver') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (500 vs 1000)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_8_3_kidneys_of_cattle_lamb_pig_and_poultry_1000",
+   "row_sha256": "fb4b1cd708b47a507c2976366e7cd78ba53635b42cb01e29d9890f214560f18b",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.13.4 kidney Cd 1.0",
+   "note": "Value 1000 ug/kg (Cd, 'Kidneys of cattle, lamb, pig, and poultry') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50",
+   "row_sha256": "9b2ec8143e9c32f0f0b13fa72caad3ed4801c4bf5d56599940ca8150e1c82b69",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.14.1 muscle meat of fish Cd 0.050",
+   "note": "Value 50 ug/kg (Cd, 'Fish and fish products, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_250",
+   "row_sha256": "51c7068a647c99b3f913aae0ff6e787bc1f863bac5b6b5a71211bd90219711af",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.14.2 mackerel/tuna 0.10; 3.2.14.3 bullet tuna 0.15; 3.2.14.4 anchovy/swordfish/sardine 0.25; pike/shark 0.050",
+   "note": "Value 250 ug/kg (Cd, 'Pike, tuna, anchovy, sardines, swordfish, shark, and other predatory fish') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: anchovy/swordfish/sardine match 250; others tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_9_2_crabs_muscle_500",
+   "row_sha256": "f0040bf81aa404915bfc731434c0dd16b7fe073ac7af89eedfb9a0ecae073399",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.14.5 crustaceans Cd 0.50",
+   "note": "Value 500 ug/kg (Cd, 'Crabs (muscle)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_9_3_shellfish_octopus_squid_and_cephalopods_1000",
+   "row_sha256": "49c74687fd330afad207eda90cb8e2cb120634b1e0d3e394b30f0ee575831010",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.14.6 bivalve molluscs 1.0; 3.2.14.7 cephalopods 1.0",
+   "note": "Value 1000 ug/kg (Cd, 'Shellfish, octopus, squid, and cephalopods') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_10_eggs_and_egg_powder_10",
+   "row_sha256": "5864fa8f50da837224c0b67577284d46f73c107db8f9be3de2ffa3fdc38b4140",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for eggs",
+   "note": "Value 10 ug/kg (Cd, 'Eggs and egg powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor; shell eggs excluded (col. A)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_11_sugar_150",
+   "row_sha256": "cd29f6b305d865ce1105da943c43182b5478e4d62e7e86a76e46068c088e372a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for sugar",
+   "note": "Value 150 ug/kg (Cd, 'Sugar') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_12_salt_500",
+   "row_sha256": "e587d8580534295a3849d0e73944ac90f8bcda050668c92b92eb1662ae98b3b6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.16 salt Cd 0.50",
+   "note": "Value 500 ug/kg (Cd, 'Salt') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_13_cocoa_chocolate_and_cocoa_chocolate_products_500",
+   "row_sha256": "754bf9098e71b2ec810e6cb0a21c9cea794a71f9a3f7c009a1b12504071ed540",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.15.1-4 milk chocolate <30% 0.10; chocolate <50% 0.30; >=50% 0.80; cocoa powder 0.60",
+   "note": "Value 500 ug/kg (Cd, 'Cocoa, chocolate, and cocoa/chocolate products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor differs by product."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_14_infant_and_toddler_formulas_ready_to_eat_5",
+   "row_sha256": "e2e627c56647e9ea84ee5efcf4a31ed07f4cb58e0a140aa6c4f20492d4cf6996",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.17.2 formula as liquid, cows-milk protein Cd 0.005",
+   "note": "Value 5 ug/kg (Cd, 'Infant and toddler formulas, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10",
+   "row_sha256": "219ab58e839d1b77f57ae61246730eee114c57f04990f55a5f8bb2d7ff56dfc6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.17.1 formula as powder, cows-milk protein Cd 0.010",
+   "note": "Value 10 ug/kg (Cd, 'Infant and toddler formulas, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_14_2_infant_and_toddler_formulas_from_soy_or_containing_s_10",
+   "row_sha256": "68a72e1e24740cececf05672a6379be044c3033fd1d1322a01905f020e6d104c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.17.4 formula as liquid, soy protein isolates Cd 0.010",
+   "note": "Value 10 ug/kg (Cd, 'Infant and toddler formulas from soy or containing soy, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_14_3_infant_and_toddler_formulas_from_soy_or_containing_s_20",
+   "row_sha256": "c20bd3260f7a21ac7ffbe4ece94bfcc6e979daa9db7f88d2523ae3ae85a122c6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.17.3 formula as powder, soy protein isolates Cd 0.020",
+   "note": "Value 20 ug/kg (Cd, 'Infant and toddler formulas from soy or containing soy, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_14_4_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+   "row_sha256": "bce8ad393ae7627fd9cb42a530418fe9c32b8d1c4f6dfd5862407d6882bb6d51",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.20 baby food and processed cereal-based food Cd 0.040 (product as placed on market)",
+   "note": "Value 40 ug/kg (Cd, 'Porridges and other foods for infants and toddlers, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same number, different basis (EU as-sold vs Israeli as-consumed)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_15_food_for_special_dietary_purpose_5",
+   "row_sha256": "ee068b3ecc65f865749603659511ae175ec01e36e539441527f7bbcd6304610d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.17.2 FSMP for infants liquid 0.005 (powder 0.010); no ML for other special-purpose foods",
+   "note": "Value 5 ug/kg (Cd, 'Food for special dietary purpose') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_16_dietary_supplements_except_listed_categories_1000",
+   "row_sha256": "702333862e2fc09593e8d4aa6c01129373f3b1e070c55ce81dd6f208f7afcd29",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.21.1 food supplements Cd 1.0",
+   "note": "Value 1000 ug/kg (Cd, 'Dietary supplements, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_16_1_dietary_supplements_mainly_containing_dried_seaweed_3000",
+   "row_sha256": "ad3390e3268266e4ca5bf9034c8cca103371a405a135f3daea426a76f4cbd805",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.2.21.2 supplements >=80% dried seaweed/seaweed products/dried bivalves Cd 3.0",
+   "note": "Value 3000 ug/kg (Cd, 'Dietary supplements mainly containing dried seaweed and seaweed products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_17_bottled_drinking_water_and_mineral_water_3",
+   "row_sha256": "07381340f428aaf4678ef87c145fbf63e9ddd79fb585e57351856e41f8709fa4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Directive 2003/40/EC Annex I cadmium 0.003 mg/l (natural mineral water; Schedule 2A item 25)",
+   "note": "Value 3 ug/kg (Cd, 'Bottled drinking water and mineral water') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for natural mineral/spring water."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10",
+   "row_sha256": "852be1d4ff50884807023f98992d43205fbbbe26ee071d3d7765e04241008366",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Cd ML for beverages/juices",
+   "note": "Value 10 ug/kg (Cd, 'Beverages, juices, and nectars') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_1_milk_10",
+   "row_sha256": "ce66a671678170fc1940cf03c3c0751363b628b990f459ce7bb6dd1917dae3bd",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) milk 0.01 mg/kg (=10 ug/kg)",
+   "note": "Value 10 ug/kg (tHg, 'Milk') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value; raw milk excluded from item 2 (col. A)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_1_1_dairy_products_100",
+   "row_sha256": "43aa20d2694a840c8fdf229681a3ff50adceb654761d0942819fabbb4446316f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for dairy; 2018/73 milk MRL 0.01 via processing factor",
+   "note": "Value 100 ug/kg (tHg, 'Dairy products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+   "row_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for fats/oils; Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) oilseeds 0.02 (raw)",
+   "note": "Value 20 ug/kg (tHg, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
+   "row_sha256": "b8606a6ebf8c072f288861bf5b9123935c4b66fabec91086ca3092668c67e7d4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) fruits/vegetables 0.01; fresh herbs 0.03; cultivated fungi 0.05; wild fungi 0.5",
+   "note": "Value 30 ug/kg (tHg, 'Fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: herbs match 30; most produce tighter at 10."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
+   "row_sha256": "f8b70f4aa1d2bc276b6d2d70a75e4c53c302f4894cb1f5c6b9e2b40f97fd4e2a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none direct; 2018/73 MRLs with Reg 396/2005 Art 20 processing factors",
+   "note": "Value 150 ug/kg (tHg, 'Dried fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
+   "row_sha256": "58445edfdbfdf6013dc2cfc14c3fd87286739f00b004f1715c061272817efdc5",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) cereals 0.01",
+   "note": "Value 30 ug/kg (tHg, 'Cereals and cereal products, including wheat and rice') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (10 vs 30)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_4_1_oilseeds_400",
+   "row_sha256": "b6b7643eea0b8fe27e7ead55a40af41a3e96f3063f09cddc923f0a7e4b99f38f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) oilseeds 0.02",
+   "note": "Value 400 ug/kg (tHg, 'Oilseeds') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor far tighter (20 vs 400)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30",
+   "row_sha256": "617e45a80e9f28a7d35c90e4cdd01627e6d298d0e6d4fea07b7456e5875ecfa2",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) pulses 0.01; peanuts/soybeans (oilseeds) 0.02",
+   "note": "Value 30 ug/kg (tHg, 'Dried legumes, including peanuts and soybeans') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_6_raw_tea_and_plants_for_infusion_50",
+   "row_sha256": "c508e292bcf2171bc747cd4e9958355b2cc35dfa437d05ae6a589a851188cf16",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) teas/herbal infusions 0.02",
+   "note": "Value 50 ug/kg (tHg, 'Raw tea and plants for infusion') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (20 vs 50)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_7_fresh_seaweed_500",
+   "row_sha256": "299771e51fdf31be721cd4ff04bde9a09e2590bd8234368e9da18319dc9e8dc2",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) algae and prokaryote organisms 0.01",
+   "note": "Value 500 ug/kg (tHg, 'Fresh seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor far tighter (10 vs 500)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_7_1_dried_seaweed_2500",
+   "row_sha256": "6c949b6563a3163fd164c1ea315a6ed91d129b68bf17f6d8adc3229d363355da",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) algae 0.01 (raw basis; processing factor for dried)",
+   "note": "Value 2500 ug/kg (tHg, 'Dried seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No dried-specific successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200",
+   "row_sha256": "4288f3049963942c28e15568145d0d2786999083ca06db0c46efba8c6d07a3f9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) muscle/fat 0.01; liver/kidney/offal 0.02; duck and wild game 0.04",
+   "note": "Value 200 ug/kg (tHg, 'Meat and meat products, including poultry, game, and offal') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor far tighter; Israel col. A exclusion: adopted 2023/915 does not apply to raw meat, raw milk, honey, fresh shell eggs (local food legislation applies; no successor ML identified for the excluded raw form)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_9_fish_and_fish_products_except_listed_categories_500",
+   "row_sha256": "0cca1b4d69f39639256cff598bf7e78a6c2a1333ca31342b8cd0c451afdf9936",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.3.1.1 crustaceans, molluscs and muscle meat of fish Hg 0.50",
+   "note": "Value 500 ug/kg (tHg, 'Fish and fish products, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_1000",
+   "row_sha256": "a0597bffbade42477c032032a9f1a1083eee0390cc0cc366f4b1f9a14d1906c9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.3.1.2 listed species (tuna, swordfish, shark, pike, bonito etc.) Hg 1.0; anchovy and sardine are 3.3.1.3 at 0.30",
+   "note": "Value 1000 ug/kg (tHg, 'Pike, tuna, anchovy, sardines, swordfish, shark, and other predatory fish') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial: anchovy/sardine tighter (300)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_9_2_seafood_500",
+   "row_sha256": "875d46ee3f25f2efd92316872e0e80c656ebd30b0bbcfe63bb192b91fc39d846",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.3.1.1 crustaceans/molluscs 0.50; 3.3.1.3 cephalopods and marine gastropods 0.30",
+   "note": "Value 500 ug/kg (tHg, 'Seafood') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Partial."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_10_eggs_and_egg_powder_30",
+   "row_sha256": "021fd33c02dff23ce22bc962277b0c6e13c44adad369e52881e12a4b67836021",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) birds eggs 0.01",
+   "note": "Value 30 ug/kg (tHg, 'Eggs and egg powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter; shell eggs excluded (col. A)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_11_sugar_100",
+   "row_sha256": "2fb250dc086e285dbf887b9940641297328a12e36b8dd3ff2282691396749ac4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for sugar; Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) sugar plants 0.01 (raw)",
+   "note": "Value 100 ug/kg (tHg, 'Sugar') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_12_salt_100",
+   "row_sha256": "6b7843432d2771426b986e31054917de6a8b13e18ca9d0416bddc40f994817a0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.3.3 salt Hg 0.10",
+   "note": "Value 100 ug/kg (tHg, 'Salt') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_13_cocoa_powder_200",
+   "row_sha256": "bb38c462b97b03b6e8ecadf2933f0465f1820fd88a29dc81da92702305693f62",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for cocoa powder; Reg 2018/73 (396/2005 Annex III mercury compounds, Schedule 2A item 2) cocoa beans 0.02",
+   "note": "Value 200 ug/kg (tHg, 'Cocoa powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
+   "row_sha256": "b9b021558cc12ee45d2d36081af37d2f13df37356c5f4502be23c74353ebe74d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for infant formula",
+   "note": "Value 4 ug/kg (tHg, 'Infant and toddler formulas, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
+   "row_sha256": "ed9ed548bf45b76fd6e6decd33b1161ac7ac9e8d69d1d150d12ec21c3423fb91",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for infant formula",
+   "note": "Value 15 ug/kg (tHg, 'Infant and toddler formulas, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+   "row_sha256": "d5f186664841b691fd0abfb844cd3ba077c72c534497ae4bce8b77681ecb77f8",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for baby food",
+   "note": "Value 8 ug/kg (tHg, 'Porridges and other foods for infants and toddlers, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_15_dietary_supplements_100",
+   "row_sha256": "526385e38cdd7d7e930ad3f9bbb1b0c899ee7d155dbf1b896d0ae2bfc11dfdf1",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.3.2 food supplements Hg 0.10",
+   "note": "Value 100 ug/kg (tHg, 'Dietary supplements') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_16_food_for_special_dietary_purpose_4",
+   "row_sha256": "077a16ce806c6652f79dce1cc9fe23587152d7072924f8823334f2f9f9bc6463",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for special-purpose foods",
+   "note": "Value 4 ug/kg (tHg, 'Food for special dietary purpose') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
+   "row_sha256": "fcb1a197e75f518af4c43964b06aa7848e3df9f912518a37c0feabe080040078",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Directive 2003/40/EC Annex I mercury 0.0010 mg/l (natural mineral water; Schedule 2A item 25)",
+   "note": "Value 1 ug/kg (tHg, 'Bottled drinking water and mineral water') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for natural mineral/spring water."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10",
+   "row_sha256": "a430b2441bee1b5bda979c8819e460c4f579c9224a1b13de7e8a880f0f03bb7d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no Hg ML for beverages/juices",
+   "note": "Value 10 ug/kg (tHg, 'Beverages, juices, and nectars') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_1_milk_1000",
+   "row_sha256": "f3265f385e8893cbfb11bda5e19ba1871002e10edd673ed4cc5146030d98dba0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Milk') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_1_milk_10",
+   "row_sha256": "74703945b018fb5086f0d371445d7ce24c19fb778097354de42d38bf767d662a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 10 ug/kg (iAs, 'Milk') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_1_1_dairy_products_1000",
+   "row_sha256": "c3c726d3c74347df3f3055090c0b2b9784c5f9a09b9b80b68565fc57e0020af7",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Dairy products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_1_1_dairy_products_100",
+   "row_sha256": "d7246c61e3ec9dcbd4bfe14ae1e513562dc29f7710b56a6d566dde6e09b72c21",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 100 ug/kg (iAs, 'Dairy products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000",
+   "row_sha256": "48cbbd752e0256e8756d04155b25e5492aeec843859e4cf13947da184e66249d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+   "row_sha256": "180b07673e44671e33f1c02b1cd00704d05d26f8f095423a51df10eab0b0fd7d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 100 ug/kg (iAs, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
+   "row_sha256": "ad6a4848a6bbd2da1a599ef9d9fb5b79365e0490cdf055a7bf1c5b48a592767f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
+   "row_sha256": "70c523ef32c1bccddc3378395d6c4754185c49647d4b0d1b5e42c789492c66cc",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 60 ug/kg (iAs, 'Fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_5000",
+   "row_sha256": "c323d7c7a9efd3f595f1e13ab92d59becafdf51230cb03f55691b7541101f408",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 5000 ug/kg (tAs, 'Dried fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
+   "row_sha256": "b8fcb65946c42800f9e29055d827b378fbbe0e8a1b7b608b98a2deabbb786558",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 300 ug/kg (iAs, 'Dried fruits and vegetables, including mushrooms, edible plants, and herbs') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000",
+   "row_sha256": "0398790a8a5b06ae1db3474ae8f83c01a4803775add17c564ebfa77d33e4f7f0",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Dried legumes, including peanuts and soybeans') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100",
+   "row_sha256": "85f55ae76dfac5065e9cf8baada8193ca8687e1006ebeb52266a6b57b5298e71",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 100 ug/kg (iAs, 'Dried legumes, including peanuts and soybeans') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_cereals_and_cereal_products_except_listed_categories_1000",
+   "row_sha256": "39bde4fcca0a2a3d2a3230f491a3cca0d3e0a2d36aad071a7d215e1355a6f355",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Cereals and cereal products, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_1_wheat_1000",
+   "row_sha256": "a6f2c68553d4cd3de9ba69e9c0083f819708a2e4618dd463cc828633fa8b6aa8",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Wheat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_2_rice_1000",
+   "row_sha256": "a44a538fd19c2ce103552801c0ea1c145c25583cd38eb2b6e5553bf8ae9ad0c1",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; inorganic As governs rice (3.4.1.1-3.4.1.3 0.15/0.25)",
+   "note": "Value 1000 ug/kg (tAs, 'Rice') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ: EU regulates iAs, not tAs."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_5_2_rice_200",
+   "row_sha256": "22c4fc38a085c1cb113d9d9376602d49eaaeabab3f75ca924c4482da4b59bbb2",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.1.1 non-parboiled milled rice iAs 0.15; 3.4.1.2 parboiled/husked 0.25; 3.4.1.3 rice flour 0.25",
+   "note": "Value 200 ug/kg (iAs, 'Rice') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter for white rice (150 vs 200); husked/parboiled looser (250)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_1000",
+   "row_sha256": "51b78139e01d996bcb0917f0fd2f4873b0b02f732624095c82d673741dda4d50",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.1.5 0.10",
+   "note": "Value 1000 ug/kg (tAs, 'Rice used for production of food for infants and toddlers') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_100",
+   "row_sha256": "3e30155d1dac1bd4bc680e11e8537afb9b9d38da2300c4505b970df3d4f135f6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.1.5 rice destined for infant food iAs 0.10",
+   "note": "Value 100 ug/kg (iAs, 'Rice used for production of food for infants and toddlers') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_1000",
+   "row_sha256": "374ca8a1558091369b7dcd361fc4dbb8b0b56c9e68c16c838c6ff7a1d9b3c8b4",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.1.4 0.30",
+   "note": "Value 1000 ug/kg (tAs, 'Wafers, crackers, and cakes in which rice is a main ingredient') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_300",
+   "row_sha256": "385d7ebf043c6c9c6d385b63e2c32c4d53dea898394960af0030edc96a9b4193",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.1.4 rice waffles/wafers/crackers/cakes iAs 0.30",
+   "note": "Value 300 ug/kg (iAs, 'Wafers, crackers, and cakes in which rice is a main ingredient') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_5_3_oilseeds_1000",
+   "row_sha256": "c0d0a4b7faca703ed4bb6f91d28f484b30c1b5d97c224e16788418a09938e48c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Oilseeds') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_6_raw_tea_and_plants_for_infusion_1000",
+   "row_sha256": "9fa22600757c60aaed73bad9e865e3058edb78b2a83d979e6f8cd63278a7479d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Raw tea and plants for infusion') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_6_raw_tea_and_plants_for_infusion_100",
+   "row_sha256": "a2e432e0a23f0ddcf8ec5f7c2db671cc348aead51896ffb99c7f4434443ef417",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 100 ug/kg (iAs, 'Raw tea and plants for infusion') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_7_fresh_seaweed_1000",
+   "row_sha256": "60b4a807d0de22a691b4d742c1166ee0837b3fb071e299ec78ba0eef402b225d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Fresh seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
+   "row_sha256": "103fae9d83d066d5c37514a7026d83836cf39af7ab174f37c2423bc278d33a0d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 5000 ug/kg (tAs, 'Dried seaweed') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_8_meat_and_meat_products_including_poultry_and_game_ex_1000",
+   "row_sha256": "c45c3b6c29e6f1ea24427b763ba67d2cb39e3b9b6d98d19751cee817526359ed",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Meat and meat products, including poultry and game, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20",
+   "row_sha256": "99dc11fdd94013619998a276eb72901ecb7a4da626f07fe05ae29032b3413bb3",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 20 ug/kg (iAs, 'Meat and meat products, including poultry and game, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_1000",
+   "row_sha256": "1dc70dec4090f999b228478f84ba62581e3192f85547c1a3f3ee5a77dbe2930b",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Offal of cattle, sheep, and poultry, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_200",
+   "row_sha256": "ca7d2a9cb7f61c2da5c6efc8c87ad0d3ba8531283a1cfacf742886fe41812a84",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 200 ug/kg (iAs, 'Offal of cattle, sheep, and poultry, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_8_2_chicken_and_turkey_liver_1000",
+   "row_sha256": "eadc0d1368f98fa40f3336729762501d04f51a5d029447159bf585b542202b85",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Chicken and turkey liver') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_8_2_chicken_and_turkey_liver_500",
+   "row_sha256": "05f8b529feb469b438e41edba583533588c579e926d3359ed614e70b9851bb4c",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 500 ug/kg (iAs, 'Chicken and turkey liver') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_9_fish_and_fish_products_1000",
+   "row_sha256": "f86e9f6b73fb89008e31931f7154d240142435d25f0d157e21d7267aa0bf7599",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; inorganic As 3.4.5.1 fish 0.10 / 3.4.5.2 listed species 0.50 (Reg 2025/1891; Israel from 1.1.2026)",
+   "note": "Value 1000 ug/kg (tAs, 'Fish and fish products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ (tAs vs iAs)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_9_1_seafood_1000",
+   "row_sha256": "c513970b286c61bc73cf30697320e27ebcdd3bd907a57d12d95ce64adb855596",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.6 crustaceans 0.10/0.20/1.5, 3.4.7 bivalves 0.10/0.50, 3.4.8 cephalopods 0.050 (Israel from 1.1.2026)",
+   "note": "Value 1000 ug/kg (tAs, 'Seafood') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_10_eggs_and_egg_powder_1000",
+   "row_sha256": "4273115822e5a13d6f6cb0cde099e74cc4bc538712b6968dfd0994e9d765cc98",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Eggs and egg powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_11_sugar_1000",
+   "row_sha256": "e61ffd6e2a374afa91a5c159c78d9483b28520ae226e9b81e28af509664892f2",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Sugar') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_11_sugar_500",
+   "row_sha256": "5c64aa0f804f3297f174adbea18ced48f87a1ee8a07b66a7082012ecd9f5ab2a",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 500 ug/kg (iAs, 'Sugar') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_12_salt_1000",
+   "row_sha256": "71878c2897f2ebcf406bfbfdb92c7a69be58d42484bc16a1e0f1557583c35ba3",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.9 salt total As 0.50",
+   "note": "Value 1000 ug/kg (tAs, 'Salt') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (500 vs 1000)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_12_salt_500",
+   "row_sha256": "8248311251921569294c03b9510cd400d5e599124cd9bdd1d9e09d43c883fa7f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.9 salt total As 0.50 (no separate iAs)",
+   "note": "Value 500 ug/kg (iAs, 'Salt') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ; EU uses total As at same number."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_13_cocoa_powder_1000",
+   "row_sha256": "0877cad50f72ca41aace05fc721bfde8c63732f4c6d12f1966109d1f8bff1eb5",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Cocoa powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_14_infant_and_toddler_formulas_ready_to_eat_1000",
+   "row_sha256": "0d74bbb855ca98e91e4468ca02fd2fae67a38218b2972ec16d8ad086e2837562",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.2.2 liquid 0.010",
+   "note": "Value 1000 ug/kg (tAs, 'Infant and toddler formulas, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_14_infant_and_toddler_formulas_ready_to_eat_10",
+   "row_sha256": "8fb243605ca012d4f8bddee25c7e0fc8e79b1b3fec4d0ee8e7914a113bf1a5b3",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.2.2 formula/FSMP as liquid iAs 0.010",
+   "note": "Value 10 ug/kg (iAs, 'Infant and toddler formulas, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000",
+   "row_sha256": "27cc787160860f66db0a1ae26fc9521df5eecfc00e495425a199cbd44d986f58",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.2.1 powder 0.020",
+   "note": "Value 1000 ug/kg (tAs, 'Infant and toddler formulas, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50",
+   "row_sha256": "e39a714c909e091f15ed4bc01fbde7cb9600cb6838b26a5dac65e1aca167ef18",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.2.1 formula/FSMP as powder iAs 0.020",
+   "note": "Value 50 ug/kg (iAs, 'Infant and toddler formulas, powder') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter (20 vs 50)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000",
+   "row_sha256": "a40b60b0b642cafd95567b9c4e5dc08aeffdee75b3a7ea58808fcda9efb5e594",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for total As; iAs 3.4.3 baby food 0.020",
+   "note": "Value 1000 ug/kg (tAs, 'Porridges and other foods for infants and toddlers, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25",
+   "row_sha256": "d306369d4ee5080a9f297d4ec9c2ae96baea72a44503b753c54505ffa1196dc9",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.3 baby food iAs 0.020 (product as placed on market)",
+   "note": "Value 25 ug/kg (iAs, 'Porridges and other foods for infants and toddlers, ready-to-eat') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor tighter and different basis."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_15_dietary_supplements_except_listed_categories_1000",
+   "row_sha256": "4831278dde8d20ff071d3dde2401a7cd205c3e3392b5d8606ebc8b62aac66162",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Dietary supplements, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_15_1_dietary_supplements_mainly_containing_dried_seaweed_5000",
+   "row_sha256": "4bb94f515dca21d16b80b50c20caf5aa362b8e9f79adf9899228df6f78179f33",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 5000 ug/kg (tAs, 'Dietary supplements mainly containing dried seaweed and seaweed products') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_16_beverages_except_listed_categories_1000",
+   "row_sha256": "27e26a93cf75ab6ad584ebb05a856fa14f5007f864e2b6ab690dc466971ba23f",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Beverages, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_16_beverages_except_listed_categories_100",
+   "row_sha256": "11e8cdfad247733c7b462a1d8fdfe11a1cae5aa687bbfeefb7a0af12230b0931",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no inorganic-arsenic ML for this food",
+   "note": "Value 100 ug/kg (iAs, 'Beverages, except listed categories') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No iAs successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
+   "row_sha256": "9a09c500a580be5362e6ef6fa7decc4f8485b99cc923470680a3c013dc0dccb5",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "Directive 2003/40/EC Annex I arsenic 0.010 mg/l (as total) (natural mineral water; Schedule 2A item 25)",
+   "note": "Value 10 ug/kg (tAs, 'Bottled drinking water and mineral water') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value for natural mineral/spring water."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
+   "row_sha256": "5f1d1d50147cb77559fc4a0d2619172b240aa5e247320218b4b554a5569df284",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none for iAs; Directive 2003/40/EC arsenic 0.010 mg/l as total",
+   "note": "Value 6 ug/kg (iAs, 'Bottled drinking water and mineral water') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Species differ."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_tas_16_2_fruit_and_vegetable_juices_including_nectars_1000",
+   "row_sha256": "3b58b15d2f1d2807ad4c9234aef43398a995a3761bd04408db7ec4656999b3d1",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "none; 2023/915 sets no total-arsenic ML for this food (total As only for salt 3.4.9)",
+   "note": "Value 1000 ug/kg (tAs, 'Fruit and vegetable juices, including nectars') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No total-As successor cell."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_ias_16_2_fruit_and_vegetable_juices_including_nectars_200",
+   "row_sha256": "16693942cefc17480bcdf3b81d450b5d41b2bcfdafc522929104f3d86a0d29b6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.4.4 fruit juices/nectars iAs 0.020",
+   "note": "Value 200 ug/kg (iAs, 'Fruit and vegetable juices, including nectars') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Successor far tighter (20 vs 200)."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_sn_1_canned_foods_except_beverages_200000",
+   "row_sha256": "8e2eb5e9db5ea34c074e57527c51db4b4d8033013b65e82664314e0ac4b3f2f6",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.5.1 canned food inorganic Sn 200 mg/kg",
+   "note": "Value 200000 ug/kg (Sn, 'Canned foods, except beverages') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_sn_1_1_ready_to_eat_canned_foods_intended_for_infants_and_t_50000",
+   "row_sha256": "48b127511b1abb5efdd64e7b676dfc4551d806351605d3d313cfe33d14ee547d",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.5.3-3.5.5 canned formula / baby food / FSMP for infants Sn 50 mg/kg",
+   "note": "Value 50000 ug/kg (Sn, 'Ready-to-eat canned foods intended for infants and toddlers') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  },
+  {
+   "regulatory_limit_id": "il_fcs2016_sn_1_2_canned_beverages_100000",
+   "row_sha256": "63075e937092ea5cbe53b8fc800c1bca3ffd79036857b4707ae00e50ccd7ee43",
+   "verdict": "mismatch",
+   "in_force": "superseded",
+   "successor": "EU 2023/915 3.5.2 canned beverages Sn 100 mg/kg",
+   "note": "Value 100000 ug/kg (Sn, 'Canned beverages') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). Same value."
+  }
+ ],
+ "confidence_note": "High confidence on status and successor: the Ministry's own register page for this guideline is labelled not in force (verified in Chrome; WebFetch/curl are Cloudflare-blocked), the statute (nevo consolidated text and the S.H. 3276 gazette) shows adoption of 1881/2006 from 1.1.2023 and 2023/915 from 4.8.2024 with item 32 of the 2020 order expressly listed as displaced, and two USDA GAIN reports corroborate. The two verifiers' conclusion is confirmed, but their reasoning needs correction: the 2020 order's 6.1.2022 end date did not extinguish the guideline, because s.321(d) was re-extended by Amendments 3, 5 and 10 to 31.8.2029; the operative reason it is not in force is statutory replacement by the adopted EU regulation (s.321(d) 'until provisions replacing them are set', s.3A(y) primacy, Thirteenth Schedule Part B(9)). All 162 packet values were re-read against the held PDF and match. Residual uncertainty: the gov.il annotated Hebrew translation and the underlying policy PDF could not be downloaded (403), so exclusions were taken from the gazette and nevo; the four excluded raw foods (raw meat, raw milk, honey, shell eggs) have no adopted successor and the honey row is marked cannot-verify; non-mineral bottled drinking water sits under Israeli drinking-water regulations that were not read. Redundancy answer: for every product class the Israeli successor value is the EU value verbatim (English text binding), so Israeli rows would duplicate the register's EU 2023/915 rows; what Israel adds is only jurisdiction coverage, the four-food exclusion, and later application dates for nickel and seafood iAs (1.1.2026)."
+}

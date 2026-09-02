@@ -3,11 +3,11 @@
   "compiled_dir": "cat30-compiled",
   "category": 30,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-20260902-a",
+  "run_id": "run-202609021050",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T10:35:04.801Z",
-  "register_commit": "aa65d2e1d",
-  "cert_commit": "a7cee61",
+  "generated_at": "2026-09-02T10:50:57.554Z",
+  "register_commit": "246c161b4",
+  "cert_commit": "9277298",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -64,8 +64,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.798Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.551Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cd": {
@@ -74,7 +74,7 @@
       "analyte": "Cd",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law under the Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1 (Amendment 10, 4 Au))"
+        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (deep-read mismatch: Value 30 ug/kg (Cd, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell.)"
       ],
       "state": "firm",
       "kind": "gov",
@@ -105,8 +105,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.798Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.551Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|tAs": {
@@ -146,8 +146,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.798Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.551Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|iAs": {
@@ -187,8 +187,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.798Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.551Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|tHg": {
@@ -197,7 +197,7 @@
       "analyte": "tHg",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (deep-read mismatch: Value 20 ug/kg (tHg, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor.)"
       ],
       "state": "firm",
       "kind": "gov",
@@ -228,8 +228,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.552Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|MeHg": {
@@ -238,7 +238,7 @@
       "analyte": "MeHg",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (deep-read mismatch: Value 20 ug/kg (tHg, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor.)"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -269,8 +269,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.552Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Ni": {
@@ -310,8 +310,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.552Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Sn": {
@@ -351,8 +351,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.552Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Al": {
@@ -392,8 +392,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.553Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cr": {
@@ -433,8 +433,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.553Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cr-VI": {
@@ -474,8 +474,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.799Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.553Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Pb": {
@@ -515,8 +515,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.553Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cd": {
@@ -525,7 +525,7 @@
       "analyte": "Cd",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law under the Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1 (Amendment 10, 4 Au))"
+        "M1:refuted il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30 (deep-read mismatch: Value 30 ug/kg (Cd, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No successor cell.)"
       ],
       "state": "firm",
       "kind": "gov",
@@ -556,8 +556,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.553Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|tAs": {
@@ -597,8 +597,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|iAs": {
@@ -638,8 +638,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|tHg": {
@@ -648,7 +648,7 @@
       "analyte": "tHg",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (deep-read mismatch: Value 20 ug/kg (tHg, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor.)"
       ],
       "state": "firm",
       "kind": "gov",
@@ -679,8 +679,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|MeHg": {
@@ -689,7 +689,7 @@
       "analyte": "MeHg",
       "verdict": "refuted",
       "reasons": [
-        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (two blind agents agree: instrument superseded (successor: Regulation (EU) 2023/915 as adopted into Israeli law (Public Health Protection (Food) Law 5776-2015 s.3a / Second Schedule A item 1; Amendment 10, 4 Aug 2024; p))"
+        "M1:refuted il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20 (deep-read mismatch: Value 20 ug/kg (tHg, 'Fats, oils, and fat emulsions (water-in-oil type)') is transcribed correctly from the held 2016 PDF, but the instrument is not in force on 2026-09-02 (Ministry status 'lo be-tokef'; displaced by adopted EU 2023/915 under s.3A / Thirteenth Schedule Part B(9)). No fixed successor.)"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -720,8 +720,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Ni": {
@@ -761,8 +761,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Sn": {
@@ -802,8 +802,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Al": {
@@ -843,8 +843,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.800Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cr": {
@@ -884,8 +884,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.801Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cr-VI": {
@@ -925,8 +925,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T10:35:04.801Z",
-      "run_id": "run-20260902-a",
+      "verified_at": "2026-09-02T10:50:57.554Z",
+      "run_id": "run-202609021050",
       "session": "exciting-taussig-159366"
     }
   }
