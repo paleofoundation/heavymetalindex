@@ -57,6 +57,7 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
+import { stampProvenance } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 
@@ -191,6 +192,7 @@ for (const slug of slugs) {
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, category: 9, category_name: "Infant and Child Contact Products (Ages 0-5)",
     governing_basis: sub.governing_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null, cells,

@@ -38,6 +38,7 @@ const DEFAULT_PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"] // Cat-
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio)
+import { stampProvenance } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 // Quarantined rows: transcription/units artifacts confirmed against the source document and excluded
 // from strictest-selection (their data stays in the register for reconstructibility; status gates them
@@ -357,6 +358,7 @@ for (const slug of slugs) {
     reconcileSpecies(cells, "iAs", "tAs")
     reconcileSpecies(cells, "MeHg", "tHg")
     reconcileSpecies(cells, "Cr-VI", "Cr")
+    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))

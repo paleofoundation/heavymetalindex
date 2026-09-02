@@ -53,6 +53,7 @@ function splitCsvLine(line) {
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 
 // --- status / basis gates (systemic; mirror compile-cat1.mjs) -----------------
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./provenance.mjs"
 import { STATUS_GATE } from "./register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const PESTICIDE = /pesticide|residue level/i
@@ -243,6 +244,7 @@ export function makeEngine(registerPath) {
       if (!sub) { records.push({ slug, error: "no config for slug" }); continue }
       const cells = {}
       for (const a of PANEL) cells[a] = resolveCell(sub, a)
+      stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
       records.push({
         slug, name: sub.name, category: config.category, category_name: config.category_name,
         native_basis: sub.native_basis, native_basis_label: sub.native_basis_label,
@@ -284,7 +286,7 @@ export function runCli({ repo, configPath, defaultOutdir }) {
   }
 
   // VERIFY: provenance-tag legality, cell coverage, form_split id integrity, not-material registration.
-  const ALLOWED = new Set(["regulatory-alignment", "read-across", "not-material", "control"])
+  const ALLOWED = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
   const verify = { illegal_tags: [], gaps: [], unregistered_not_material: [], forms_with_errors: [] }
   const nmRegPath = path.join(repo, "data/evidence/standards-not-material.csv")
   const nmReg = fs.existsSync(nmRegPath) ? parseCsv(fs.readFileSync(nmRegPath, "utf8")) : []

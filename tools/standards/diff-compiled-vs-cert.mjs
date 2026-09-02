@@ -207,4 +207,4 @@ else {
   }
   console.log(`\n=== ${results.length} categor${results.length === 1 ? "y" : "ies"}: ${totalReg} regression(s) ===`)
 }
-process.exit(totalReg && BLOCK ? 1 : 0)
+process.exitCode = totalReg && BLOCK ? 1 : 0 // never process.exit() after a large piped --json write

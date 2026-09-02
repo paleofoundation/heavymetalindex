@@ -69,6 +69,7 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const CANNABIS = /cannabis|marijuana/i
@@ -77,7 +78,7 @@ const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulat
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
 const PANEL = config.panel
-const ALLOWED_PROVENANCE = new Set(config.allowed_provenance || ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_PROVENANCE = new Set(config.allowed_provenance || [...CANON_ALLOWED]) // lib/provenance.mjs is the vocabulary of record
 const JUR_PRIORITY = config.jur_priority || []
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 
@@ -244,6 +245,7 @@ for (const slug of slugs) {
       defects.push(`${slug}/${a}: disallowed provenance '${c.provenance}'`)
     cells[a] = c
   }
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, category: 25, category_name: config.category_name,
     row: sub.row, route: sub.route, native_basis: sub.native_basis,

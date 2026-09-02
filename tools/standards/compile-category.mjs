@@ -22,7 +22,8 @@
 //   control                → testing mandatory, no defensible sovereign number for this exact cell
 //                            and no supportable near-neighbour read-across. No number is invented.
 //                            Tag: control.
-// Allowed provenance tags: regulatory-alignment | read-across | not-material | control | ratchet.
+// Provenance vocabulary of record: tools/standards/lib/provenance.mjs (regulatory-alignment | read-across |
+// subsumed | baseline-screen | ratchet; control and not-material transitional). One source, every compiler.
 // The retired occurrence tags (literature-baseline, precautionary, feasibility-selected percentile)
 // are forbidden and never emitted.
 //
@@ -96,6 +97,7 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
+import { stampProvenance, provenanceOf, CANONICAL_PROVENANCE, TRANSITIONAL_PROVENANCE } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Categorically non-contaminant-ML instruments, excluded from every scan (mirrors compile-cat1).
@@ -359,7 +361,7 @@ function reconcileMercurySpeciation(cells) {
   const mv = typeof m.value_exact === "number" ? m.value_exact : typeof m.value === "number" ? m.value : null
   if (tv == null || mv == null) return
   if (mv >= tv) {
-    cells.MeHg = { type: "subsumed", value: null, provenance: "not-material", subsumed_by: "tHg", binding_tHg: t.value,
+    cells.MeHg = { type: "subsumed", value: null, provenance: "subsumed", subsumed_by: "tHg", bounded_by: "tHg", binding_tHg: t.value,
       label: `Methylmercury is a component of total mercury (MeHg <= tHg). No credible sovereign sets a methylmercury limit for this composite below the binding total-mercury ceiling (${t.value} ug/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.`,
       candidate: { type: m.type, value: m.value } }
   }
@@ -370,7 +372,7 @@ fs.mkdirSync(OUTDIR, { recursive: true })
 const slugs = only.length ? only : Object.keys(config.subcategories)
 let anyDefect = false
 const reportBlocks = []
-const provTag = (c) => c.provenance || (c.type === "gov" ? "regulatory-alignment" : c.type === "read_across" ? "read-across" : c.type === "not_material" || c.type === "subsumed" ? "not-material" : c.type === "control" ? "control" : "—")
+const provTag = (c) => provenanceOf(c) || "—"
 
 for (const slug of slugs) {
   const sub = config.subcategories[slug]
@@ -378,6 +380,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
   const missing = missingCanonicalAnalytes(PANEL)
   if (missing.length) { console.error(`!! panel missing canonical analytes: ${missing.join(", ")}`); anyDefect = true }
@@ -395,7 +398,7 @@ for (const slug of slugs) {
     material: sub.material || null, components: sub.components || null,
     basis_guard: sub.basis_guard || null, basis_guard_note: sub.basis_guard_note || null,
     method: CAT.method_label || "HMTc Method v2.0 (government-limit default; strictest applicable sovereign maximum in the row's native basis, disclosed read-across where the exact cell is unregulated; never occurrence-derived)",
-    provenance_tags_allowed: ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"],
+    provenance_tags_allowed: [...CANONICAL_PROVENANCE, ...TRANSITIONAL_PROVENANCE],
     cells, generated_from: "data/evidence/regulatory_limits.csv", config: path.relative(REPO, CONFIG_PATH),
     version: config.version || null, generated_at_note: "run date recorded in git commit; Date.now() intentionally not embedded",
   }
@@ -467,7 +470,7 @@ const header = [
   `Credible-regulator set: ${[...CREDIBLE].join(", ")}.`,
   CAT.credible_note ? `Credible-set note: ${CAT.credible_note}` : ``,
   ``,
-  `Provenance tags: regulatory-alignment | read-across | not-material | control | ratchet.`,
+  `Provenance tags (lib/provenance.mjs): ${CANONICAL_PROVENANCE.join(" | ")}; transitional ${TRANSITIONAL_PROVENANCE.join(" | ")}.`,
   `STAFF / HMTc content — not public wiki (CLAUDE.md Part 19 firewall). Generated from`,
   `data/evidence/regulatory_limits.csv via tools/standards/compile-category.mjs + ${path.basename(CONFIG_PATH)}.`,
   config.version ? `Version: ${config.version}` : ``,

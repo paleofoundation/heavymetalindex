@@ -55,6 +55,7 @@ const REPO = process.cwd()
 const REGISTER_PATH = path.join(REPO, "data/evidence/regulatory_limits.csv")
 
 // --- register gating patterns (systemic correctness guards, verbatim from Cat-1) ------
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./provenance.mjs"
 import { STATUS_GATE } from "./register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Pesticide-residue MRLs cap an authorised plant-protection product residue, not the
@@ -75,7 +76,7 @@ const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99
 // The closed provenance vocabulary (CLAUDE.md Part 19). Any cell whose tag is outside this
 // set fails the verify pass. `ratchet` is allowed but never emitted at initial compilation
 // (it is a post-publication, occurrence-driven tightening tag).
-const ALLOWED_TAGS = new Set(["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_TAGS = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
 
 // --- CSV --------------------------------------------------------------------------------
 function parseCsv(text) {
@@ -212,7 +213,7 @@ function resolveCell(register, byId, sub, analyte) {
     const src = byId.get(spec.source_id)
     if (!src) return { type: "gap", value: null, provenance_tag: null, error: `read_across source_id ${spec.source_id} not in register` }
     const v = num(src.value_ug_kg)
-    if (v != null) raResult = { value: v, source_id: spec.source_id, jur: src.jurisdiction, page: src.regulation_page || "", label: spec.label, scope: src.product_scope }
+    if (v != null) raResult = { value: v, source_id: spec.source_id, jur: src.jurisdiction, page: src.regulation_page || "", label: spec.label, scope: src.product_scope, basis: src.basis || src.basis_class || "" }
   }
 
   // Government direct limit wins when it exists and is at least as strict as any read-across.
@@ -221,7 +222,7 @@ function resolveCell(register, byId, sub, analyte) {
     return {
       type: "gov", provenance_tag: "regulatory-alignment",
       value: roundDisplay(direct.value), value_exact: direct.value,
-      binding_jurisdiction: direct.jur, binding_id: direct.id, binding_scope: direct.scope,
+      binding_jurisdiction: direct.jur, binding_id: direct.id, binding_scope: direct.scope, basis: direct.basis || null,
       binding_instrument: direct.page, per_country: perCountry, audit,
     }
   }
@@ -230,7 +231,7 @@ function resolveCell(register, byId, sub, analyte) {
     return {
       type: "read_across", provenance_tag: "read-across",
       value: roundDisplay(raResult.value), value_exact: raResult.value,
-      source_id: raResult.source_id, source_jurisdiction: raResult.jur, source_scope: raResult.scope,
+      source_id: raResult.source_id, source_jurisdiction: raResult.jur, source_scope: raResult.scope, basis: raResult.basis || null,
       binding_instrument: raResult.page, label: raResult.label || `read-across from ${raResult.jur}`,
       per_country: perCountry, audit,
     }
@@ -262,8 +263,8 @@ function reconcileSpeciation(cells, speciesKey, totalKey, speciesName, totalName
   if (sv >= tv) {
     cells[speciesKey] = {
       type: "subsumed",
-      provenance_tag: t.provenance_tag === "read-across" ? "read-across" : "regulatory-alignment",
-      value: null, subsumed_by: totalKey, binding_total: t.value,
+      provenance_tag: "subsumed", provenance: "subsumed", // one vocabulary (lib/provenance.mjs): a bounded species is tagged subsumed, never with its parent's tag
+      value: null, subsumed_by: totalKey, bounded_by: totalKey, binding_total: t.value,
       binding_total_source: t.binding_jurisdiction || t.source_jurisdiction || null,
       label: `${speciesName} is a component of ${totalName} (${speciesKey} <= ${totalKey}). The ${speciesKey} value (${roundDisplay(sv)} ug/kg) is not below the binding ${totalName} ceiling (${t.value} ug/kg), so ${speciesName.toLowerCase()} is governed by and bounded by the ${totalName} ceiling; no separate ${speciesKey} ceiling is published. The ${totalName} is measured on every lot; on ongoing lots ${speciesKey} is speciated whenever ${totalKey} exceeds its limit.`,
       candidate: { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null },
@@ -331,6 +332,7 @@ export function compileCategory(opts) {
     for (const a of panel) cells[a] = resolveCell(register, byId, sub, a)
     reconcileSpeciation(cells, "MeHg", "tHg", "Methylmercury", "total mercury")
     reconcileSpeciation(cells, "iAs", "tAs", "Inorganic arsenic", "total arsenic")
+    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     const record = {
       slug, name: sub.name, category: categoryNumber, category_name: categoryName,
       native_basis: sub.native_basis || "as sold", canned: !!sub.canned,

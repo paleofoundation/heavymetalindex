@@ -48,6 +48,7 @@ const QUIET = args.has("quiet")
 
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
+import { stampProvenance } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Feed limits (2002/32 and equivalents) carry "feed" in the basis column. They must never be
@@ -298,6 +299,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   record.variants.both = cells
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
   summary.push(record)

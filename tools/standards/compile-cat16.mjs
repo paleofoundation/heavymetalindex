@@ -62,6 +62,7 @@ const QUIET = args.has("quiet")
 // Canonical HMTc panel: eight totals + the two core species (iAs, Cr-VI) + conditional MeHg.
 const FULL_PANEL = ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"]
 const SPECIES = new Set(["iAs", "Cr-VI", "MeHg"])
+import { stampProvenance } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const FEED = /\bfeed\b/i
@@ -281,6 +282,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   for (const a of PANEL) {
     const c = cells[a]
     if (c.type === "read_across") {

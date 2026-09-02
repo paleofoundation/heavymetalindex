@@ -37,7 +37,7 @@ const QUIET = args.has("quiet")
 
 // --- canonical HMTc analyte panel (inlined so the compiler is self-contained) --------------------
 const FULL_PANEL = ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"]
-const ALLOWED_PROVENANCE = new Set(["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_PROVENANCE = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
 
 // --- ICH Q3D R1 / USP <232> permitted daily exposures (ug/day), Table A.2.1 ----------------------
 // TOXICOLOGICAL anchors only. As is the inorganic-arsenic basis; Hg is the inorganic-mercury basis.
@@ -83,6 +83,7 @@ function splitCsvLine(line) {
   }
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const CREDIBLE = /\b(EU|EFSA|Codex|FDA|WHO|JECFA|FSANZ|Health Canada|CFIA|UK|FSA|EPA|ANZ|Australia|New Zealand|China|GB|India|FSSAI|Israel|Japan|Korea)\b/i
@@ -258,6 +259,7 @@ for (const slug of slugs) {
   if (!config.subcategories[slug]) { console.error(`!! no config for ${slug}`); anyDefect = true; continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const tagsUsed = [...new Set(PANEL.map((a) => cells[a].provenance))].sort()
 
   const record = {

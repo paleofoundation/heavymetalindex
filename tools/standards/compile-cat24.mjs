@@ -60,12 +60,13 @@ const RUN_AUDIT = !args.has("no-audit")
 const DERIVATION_DATE = "2026-08-13"
 const METHOD = "HMTc Method v2.0 (government-limit default; no dairy reconstitution; disclosed read-across; species/packaging controls)"
 
-const ALLOWED_PROVENANCE = new Set(["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_PROVENANCE = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
 
 // Canonical order for naming the binding jurisdiction when two governments tie at the strictest value.
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "MERCOSUR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./lib/provenance.mjs"
 import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) are not food MLs — exclude categorically.
@@ -249,6 +250,7 @@ for (const slug of slugs) {
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, native_basis: sub.native_basis, canned: !!sub.canned,
     hmtc_category: 24, hmtc_category_name: "Dairy and Milk Products",
