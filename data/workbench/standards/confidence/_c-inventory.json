@@ -1,0 +1,3740 @@
+{
+  "generated": "2026-09-02T10:34:50.784Z",
+  "_doc": "Completion-pass (Phase C) inventory: live cert cells the compiler cannot reproduce because their anchor fails the record's basis_guard or is gated. Each needs a same-basis in-force anchor, a disclosed protective read-across (species_direction / basis_bridge), or a baseline screen at a published method LOQ; a raised published value is held for ratification.",
+  "dirs": {
+    "cat10-compiled": {
+      "targets": 63,
+      "harvested": 24,
+      "pending": 39,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 9,
+        "basis \"organotin (dioctyltin/DOT) content as tin in skin-contact artic": 3,
+        "basis \"element migration from scraped-off toy material (Category III);": 27
+      },
+      "cells": [
+        {
+          "slug": "bibs",
+          "analyte": "tHg",
+          "live_value": 1900,
+          "live_anchor": "eu_2009_48_cat2_thg_toy_migration",
+          "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bibs",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bibs",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "bibs",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "blankets-and-sleep-sacks",
+          "analyte": "tHg",
+          "live_value": 1900,
+          "live_anchor": "eu_2009_48_cat2_thg_toy_migration",
+          "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "blankets-and-sleep-sacks",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "blankets-and-sleep-sacks",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "blankets-and-sleep-sacks",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "car-seats",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "car-seats",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "car-seats",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "clasps-fasteners-infant-products",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "clasps-fasteners-infant-products",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "clasps-fasteners-infant-products",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "cribs-and-bassinets",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "cribs-and-bassinets",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "cribs-and-bassinets",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "high-chairs-and-booster-seats",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "high-chairs-and-booster-seats",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "high-chairs-and-booster-seats",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-carriers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-carriers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-carriers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-clothing",
+          "analyte": "tHg",
+          "live_value": 1900,
+          "live_anchor": "eu_2009_48_cat2_thg_toy_migration",
+          "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-clothing",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "infant-clothing",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "infant-clothing",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "play-yards-and-gates",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "play-yards-and-gates",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "play-yards-and-gates",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "strollers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "strollers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "strollers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "swings-and-bouncers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "swings-and-bouncers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "swings-and-bouncers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "walkers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "walkers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "walkers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat13-compiled": {
+      "targets": 109,
+      "harvested": 38,
+      "pending": 71,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 53,
+        "basis \"drinking water\" fails basis_guard": 18
+      },
+      "cells": [
+        {
+          "slug": "antiperspirant",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "antiperspirant",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "antiperspirant",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-hand-leave-on-skin-care",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-hand-leave-on-skin-care",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-hand-leave-on-skin-care",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "body-hand-leave-on-skin-care",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deodorants",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deodorants",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deodorants",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "deodorants",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-powder-cornstarch-adult",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-powder-cornstarch-adult",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-powder-cornstarch-adult",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-powder-cornstarch-adult",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-talc-powders-adult",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-talc-powders-adult",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-talc-powders-adult",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "dusting-talc-powders-adult",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "eye-makeup",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "eye-makeup",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "eye-makeup",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "eye-makeup",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-neck-leave-on-skin-care",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-neck-leave-on-skin-care",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-neck-leave-on-skin-care",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "face-neck-leave-on-skin-care",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fragrance-preparations",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fragrance-preparations",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fragrance-preparations",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fragrance-preparations",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-hair-preparations",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-hair-preparations",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-hair-preparations",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-hair-preparations",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-preparations-other",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-preparations-other",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-preparations-other",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "leave-on-preparations-other",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "lipstick",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "lipstick",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "lipstick",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "lipstick",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-body-paints-bases-fixatives",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-body-paints-bases-fixatives",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-body-paints-bases-fixatives",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-body-paints-bases-fixatives",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-foundation-powders-blush",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-foundation-powders-blush",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-foundation-powders-blush",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "makeup-foundation-powders-blush",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "manicuring-preparations-leave-on",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "manicuring-preparations-leave-on",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "manicuring-preparations-leave-on",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "manicuring-preparations-leave-on",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "permanent-hair-dyes-tints",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "permanent-hair-dyes-tints",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "permanent-hair-dyes-tints",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "permanent-hair-dyes-tints",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-mineral",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-mineral",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-mineral",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-mineral",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "sun-suntan-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "traditional-eye-cosmetics",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "traditional-eye-cosmetics",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "traditional-eye-cosmetics",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "traditional-eye-cosmetics",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat14-compiled": {
+      "targets": 72,
+      "harvested": 24,
+      "pending": 48,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 36,
+        "basis \"drinking water\" fails basis_guard": 12
+      },
+      "cells": [
+        {
+          "slug": "bar-bath-soap",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bar-bath-soap",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bar-bath-soap",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "bar-bath-soap",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-wash-shower-gel",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-wash-shower-gel",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "body-wash-shower-gel",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "body-wash-shower-gel",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "conditioner-adult-rinse-out",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "conditioner-adult-rinse-out",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "conditioner-adult-rinse-out",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "conditioner-adult-rinse-out",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deep-conditioning-treatments-rinse-off",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deep-conditioning-treatments-rinse-off",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "deep-conditioning-treatments-rinse-off",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "deep-conditioning-treatments-rinse-off",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "exfoliants-scrubs",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "exfoliants-scrubs",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "exfoliants-scrubs",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "exfoliants-scrubs",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "facial-cleansers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "facial-cleansers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "facial-cleansers",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "facial-cleansers",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-dye-rinse-off",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-dye-rinse-off",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-dye-rinse-off",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "hair-dye-rinse-off",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-removal-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-removal-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hair-removal-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "hair-removal-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hand-soap",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hand-soap",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "hand-soap",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "hand-soap",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "rinse-off-preparations-other",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "rinse-off-preparations-other",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "rinse-off-preparations-other",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "rinse-off-preparations-other",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shampoo-adult",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shampoo-adult",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shampoo-adult",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "shampoo-adult",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shaving-cream-gel-foam",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shaving-cream-gel-foam",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "shaving-cream-gel-foam",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "shaving-cream-gel-foam",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat18-compiled": {
+      "targets": 28,
+      "harvested": 14,
+      "pending": 14,
+      "by_reason": {
+        "basis \"portion ordinarily consumed\" fails basis_guard": 7,
+        "gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not": 7
+      },
+      "cells": [
+        {
+          "slug": "pet-supplements-botanical-herbal",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-botanical-herbal",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-calming-behavioral",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-calming-behavioral",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-functional-blends",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-functional-blends",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-oils",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-oils",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-other",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-other",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-probiotics-digestive",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-probiotics-digestive",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        },
+        {
+          "slug": "pet-supplements-vitamin-mineral",
+          "analyte": "Al",
+          "live_value": 500,
+          "live_anchor": "aunz_sch19_al_formula_nonsoy_500",
+          "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+        },
+        {
+          "slug": "pet-supplements-vitamin-mineral",
+          "analyte": "Cr",
+          "live_value": 1000,
+          "live_anchor": "china_gb2762_crtotal_grains_1000",
+          "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        }
+      ]
+    },
+    "cat19-compiled": {
+      "targets": 78,
+      "harvested": 26,
+      "pending": 52,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 39,
+        "basis \"drinking water\" fails basis_guard": 13
+      },
+      "cells": [
+        {
+          "slug": "anti-static-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "anti-static-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "anti-static-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "anti-static-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "anti-wrinkle-wrinkle-release-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "anti-wrinkle-wrinkle-release-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "anti-wrinkle-wrinkle-release-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "anti-wrinkle-wrinkle-release-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bleaching-whitening-additives",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bleaching-whitening-additives",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "bleaching-whitening-additives",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "bleaching-whitening-additives",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-combination-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-combination-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-combination-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-combination-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-products-other",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-products-other",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-products-other",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-contact-products-other",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-protectants",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-protectants",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-protectants",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-protectants",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-refresher-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-refresher-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-refresher-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-refresher-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-softeners",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-softeners",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-softeners",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "fabric-softeners",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergent-boosters-additives",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergent-boosters-additives",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergent-boosters-additives",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergent-boosters-additives",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergents",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergents",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergents",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-detergents",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-prewash-products",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-prewash-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-prewash-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-prewash-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-starch-sizing-fabric-finish",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-starch-sizing-fabric-finish",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-starch-sizing-fabric-finish",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "laundry-starch-sizing-fabric-finish",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "pre-treaters-stain-removers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "pre-treaters-stain-removers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "pre-treaters-stain-removers",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "pre-treaters-stain-removers",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat2-compiled": {
+      "targets": 96,
+      "harvested": 32,
+      "pending": 64,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 48,
+        "basis \"drinking water\" fails basis_guard": 16
+      },
+      "cells": [
+        {
+          "slug": "baby-lotion-cream",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-lotion-cream",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-lotion-cream",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-lotion-cream",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-oil",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-oil",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-oil",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-oil",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-powder-cornstarch",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-powder-cornstarch",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-powder-cornstarch",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-powder-cornstarch",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-shampoo-body-wash",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-shampoo-body-wash",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-shampoo-body-wash",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-shampoo-body-wash",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-chemical",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-chemical",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-chemical",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-chemical",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-mineral",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-mineral",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-mineral",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-sunscreen-mineral",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-talcum-powder",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-talcum-powder",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-talcum-powder",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-talcum-powder",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-wipes",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-wipes",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "baby-wipes",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "baby-wipes",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-mineral-bearing",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-mineral-bearing",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-mineral-bearing",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-mineral-bearing",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-plain",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-plain",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-plain",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-lip-balm-plain",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-makeup",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-makeup",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-makeup",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-makeup",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-nail-polish",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-nail-polish",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-nail-polish",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "childrens-nail-polish",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-non-zno",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-non-zno",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-non-zno",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-non-zno",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-zno",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-zno",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-zno",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "diaper-cream-zno",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-paint",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-paint",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "face-paint",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "face-paint",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothpaste",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothpaste",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothpaste",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "toothpaste",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat20-compiled": {
+      "targets": 69,
+      "harvested": 20,
+      "pending": 49,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 15,
+        "basis \"drinking water\" fails basis_guard": 6,
+        "basis \"element migration from scraped-off toy material (Category III);": 28
+      },
+      "cells": [
+        {
+          "slug": "breath-fresheners",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "breath-fresheners",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "breath-fresheners",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "breath-fresheners",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dentifrices",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "dentifrices",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "dentifrices",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "denture-orthodontic-care",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "denture-orthodontic-care",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "denture-orthodontic-care",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "denture-orthodontic-care",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "Cd",
+          "live_value": 17000,
+          "live_anchor": "eu_2009_48_cat3_cd_toy_migration",
+          "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "tAs",
+          "live_value": 47000,
+          "live_anchor": "eu_2009_48_cat3_tas_toy_migration",
+          "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "tHg",
+          "live_value": 94000,
+          "live_anchor": "eu_2009_48_cat3_thg_toy_migration",
+          "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "floss-interdental-cleaners",
+          "analyte": "Cr-VI",
+          "live_value": 53,
+          "live_anchor": "eu_2009_48_cat3_crvi_toy_migration",
+          "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "mouthwash-oral-rinse",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "mouthwash-oral-rinse",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "mouthwash-oral-rinse",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "Cd",
+          "live_value": 17000,
+          "live_anchor": "eu_2009_48_cat3_cd_toy_migration",
+          "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "tAs",
+          "live_value": 47000,
+          "live_anchor": "eu_2009_48_cat3_tas_toy_migration",
+          "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "tHg",
+          "live_value": 94000,
+          "live_anchor": "eu_2009_48_cat3_thg_toy_migration",
+          "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-irrigators-water-flossers",
+          "analyte": "Cr-VI",
+          "live_value": 53,
+          "live_anchor": "eu_2009_48_cat3_crvi_toy_migration",
+          "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-products-other",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-products-other",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "oral-products-other",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "oral-products-other",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "Cd",
+          "live_value": 17000,
+          "live_anchor": "eu_2009_48_cat3_cd_toy_migration",
+          "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "tAs",
+          "live_value": 47000,
+          "live_anchor": "eu_2009_48_cat3_tas_toy_migration",
+          "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "tHg",
+          "live_value": 94000,
+          "live_anchor": "eu_2009_48_cat3_thg_toy_migration",
+          "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "tongue-cleaners-scrapers",
+          "analyte": "Cr-VI",
+          "live_value": 53,
+          "live_anchor": "eu_2009_48_cat3_crvi_toy_migration",
+          "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "Cd",
+          "live_value": 17000,
+          "live_anchor": "eu_2009_48_cat3_cd_toy_migration",
+          "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "tAs",
+          "live_value": 47000,
+          "live_anchor": "eu_2009_48_cat3_tas_toy_migration",
+          "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "tHg",
+          "live_value": 94000,
+          "live_anchor": "eu_2009_48_cat3_thg_toy_migration",
+          "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "Ni",
+          "live_value": 930000,
+          "live_anchor": "eu_2009_48_cat3_ni_toy_migration",
+          "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "Sn",
+          "live_value": 180000000,
+          "live_anchor": "eu_2009_48_cat3_sn_toy_migration",
+          "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "Al",
+          "live_value": 28130000,
+          "live_anchor": "eu_2009_48_cat3_al_toy_migration",
+          "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "toothbrushes",
+          "analyte": "Cr-VI",
+          "live_value": 53,
+          "live_anchor": "eu_2009_48_cat3_crvi_toy_migration",
+          "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "whitening-products",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "whitening-products",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "whitening-products",
+          "analyte": "Cr-VI",
+          "live_value": 5,
+          "live_anchor": "eu_2009_48_cat2_crvi_toy_migration",
+          "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat22-compiled": {
+      "targets": 90,
+      "harvested": 45,
+      "pending": 45,
+      "by_reason": {
+        "basis \"element migration from liquid or sticky toy material (Category ": 45
+      },
+      "cells": [
+        {
+          "slug": "air-product-refill-materials",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "air-product-refill-materials",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "air-product-refill-materials",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "automatic-puff-releasers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "automatic-puff-releasers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "automatic-puff-releasers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "capillary-reed-wood-diffusers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "capillary-reed-wood-diffusers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "capillary-reed-wood-diffusers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "electric-plug-in-evaporators",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "electric-plug-in-evaporators",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "electric-plug-in-evaporators",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "gel-diffusers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "gel-diffusers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "gel-diffusers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "heated-oil-diffusers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "heated-oil-diffusers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "heated-oil-diffusers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "home-air-emission-products-other",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "home-air-emission-products-other",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "home-air-emission-products-other",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "incense-sticks-cones",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "incense-sticks-cones",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "incense-sticks-cones",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "instant-air-refreshment-sprays",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "instant-air-refreshment-sprays",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "instant-air-refreshment-sprays",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "nebula-diffusers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "nebula-diffusers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "nebula-diffusers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "potpourri-sachets",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "potpourri-sachets",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "potpourri-sachets",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-candles",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-candles",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-candles",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-wax-blocks-melts",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-wax-blocks-melts",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "scented-wax-blocks-melts",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sensor-puff-releasers",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sensor-puff-releasers",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "sensor-puff-releasers",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "vacuum-cleaner-fragrance-additives",
+          "analyte": "Ni",
+          "live_value": 18800,
+          "live_anchor": "eu_2009_48_cat2_ni_toy_migration",
+          "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "vacuum-cleaner-fragrance-additives",
+          "analyte": "Sn",
+          "live_value": 3750000,
+          "live_anchor": "eu_2009_48_cat2_sn_toy_migration",
+          "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        },
+        {
+          "slug": "vacuum-cleaner-fragrance-additives",
+          "analyte": "Al",
+          "live_value": 560000,
+          "live_anchor": "eu_2009_48_cat2_al_toy_migration",
+          "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+        }
+      ]
+    },
+    "cat23-compiled": {
+      "targets": 232,
+      "harvested": 96,
+      "pending": 136,
+      "by_reason": {
+        "basis \"specific migration into food simulant (GB 31604.49-2016 Part Tw": 55,
+        "basis \"specific migration into food, not detectable at LOD; source uni": 31,
+        "basis \"source unit mg/kg or ppm as noted; product/migration basis pres": 6,
+        "basis \"specific migration into food; source unit mg/kg food\" fails bas": 12,
+        "basis \"organotin (dioctyltin/DOT) content as tin in skin-contact artic": 14,
+        "basis \"water intended for human consumption\" fails basis_guard": 10,
+        "basis \"drinking water\" fails basis_guard": 4,
+        "basis \"product as placed on market\" fails basis_guard": 2,
+        "basis \"drinking water; source unit mg/L\" fails basis_guard": 2
+      },
+      "cells": [
+        {
+          "slug": "bakeware",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "bakeware",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Pb",
+          "live_value": 1500,
+          "live_anchor": "uy_rbn_pb_cookware_storage_gt3l_1_5mgkg",
+          "why": "uy_rbn_pb_cookware_storage_gt3l_1_5mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Cd",
+          "live_value": 100,
+          "live_anchor": "uy_rbn_cd_cookware_storage_gt3l_0_1mgkg",
+          "why": "uy_rbn_cd_cookware_storage_gt3l_0_1mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-ceramic-coated",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-metal-alloy",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-nonstick-coated",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cookware-specialty-alloy",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "cutting-boards",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Pb",
+          "live_value": 5,
+          "live_anchor": "eu20202184_pb_drinking_water_5",
+          "why": "eu20202184_pb_drinking_water_5 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "nhmrc2025_cd_drinking_water_2",
+          "why": "nhmrc2025_cd_drinking_water_2 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu20202184_tas_drinking_water_10",
+          "why": "eu20202184_tas_drinking_water_10 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "tHg",
+          "live_value": 1,
+          "live_anchor": "eu20202184_thg_drinking_water_1",
+          "why": "eu20202184_thg_drinking_water_1 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu20202184_ni_drinking_water_20",
+          "why": "eu20202184_ni_drinking_water_20 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "eu2023_sn_canned_beverages_100000",
+          "why": "eu2023_sn_canned_beverages_100000 basis \"product as placed on market\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Al",
+          "live_value": 200,
+          "live_anchor": "eu20202184_al_drinking_water_200",
+          "why": "eu20202184_al_drinking_water_200 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "filter-media-and-housings",
+          "analyte": "Cr-VI",
+          "live_value": 10,
+          "live_anchor": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "why": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl basis \"drinking water; source unit mg/L\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-cans-lids",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-caps-closures",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-flexible-pouches-films",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_pb_sml_nd",
+          "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "eu_10_2011_cd_sml_nd",
+          "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-glass-jars",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-paperboard-cartons",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-packaging-plastic-tubs",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-blender-jars",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-coffee-maker-pathways",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-kettle-interiors",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-prep-processor-bowls",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_pb_sml_nd",
+          "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "eu_10_2011_cd_sml_nd",
+          "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-glass-containers",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-lids-gaskets",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-plastic-containers",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "food-storage-silicone",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Pb",
+          "live_value": 4000,
+          "live_anchor": "uy_rbn_pb_ceramic_fillable_objects_4mgkg",
+          "why": "uy_rbn_pb_ceramic_fillable_objects_4mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Cd",
+          "live_value": 300,
+          "live_anchor": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg",
+          "why": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-ceramicware",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Pb",
+          "live_value": 4000,
+          "live_anchor": "uy_rbn_pb_ceramic_fillable_objects_4mgkg",
+          "why": "uy_rbn_pb_ceramic_fillable_objects_4mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Cd",
+          "live_value": 300,
+          "live_anchor": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg",
+          "why": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-decorative-decals-coatings",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_pb_sml_nd",
+          "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "eu_10_2011_cd_sml_nd",
+          "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_tas_sml_nd",
+          "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu_10_2011_ni_sml",
+          "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "eu_10_2011_al_sml",
+          "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-glassware",
+          "analyte": "Cr",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_crtotal_sml_nd",
+          "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-metal-bottles-tumblers",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "tableware-plastic-drinkware",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Pb",
+          "live_value": 10,
+          "live_anchor": "cn_pb_food-contact-metal-migration_10",
+          "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "cn_cd_food-contact-metal-migration_2",
+          "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "tAs",
+          "live_value": 2,
+          "live_anchor": "cn_tas_food-contact-metal-migration_2",
+          "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "tHg",
+          "live_value": 10,
+          "live_anchor": "eu_10_2011_thg_sml_nd",
+          "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Ni",
+          "live_value": 140,
+          "live_anchor": "cn_ni_food-contact-metal-migration_140",
+          "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "cn_sn_food-contact-metal-migration_100000",
+          "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Al",
+          "live_value": 1000,
+          "live_anchor": "cn_al_food-contact-metal-migration_1000",
+          "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-metal",
+          "analyte": "Cr",
+          "live_value": 250,
+          "live_anchor": "cn_cr-total_food-contact-metal-migration_250",
+          "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+        },
+        {
+          "slug": "utensils-plastic-silicone-tools",
+          "analyte": "Sn",
+          "live_value": 1000000,
+          "live_anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Pb",
+          "live_value": 5,
+          "live_anchor": "eu20202184_pb_drinking_water_5",
+          "why": "eu20202184_pb_drinking_water_5 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Cd",
+          "live_value": 2,
+          "live_anchor": "nhmrc2025_cd_drinking_water_2",
+          "why": "nhmrc2025_cd_drinking_water_2 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "tAs",
+          "live_value": 10,
+          "live_anchor": "eu20202184_tas_drinking_water_10",
+          "why": "eu20202184_tas_drinking_water_10 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "tHg",
+          "live_value": 1,
+          "live_anchor": "eu20202184_thg_drinking_water_1",
+          "why": "eu20202184_thg_drinking_water_1 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Ni",
+          "live_value": 20,
+          "live_anchor": "eu20202184_ni_drinking_water_20",
+          "why": "eu20202184_ni_drinking_water_20 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Sn",
+          "live_value": 100000,
+          "live_anchor": "eu2023_sn_canned_beverages_100000",
+          "why": "eu2023_sn_canned_beverages_100000 basis \"product as placed on market\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Al",
+          "live_value": 200,
+          "live_anchor": "eu20202184_al_drinking_water_200",
+          "why": "eu20202184_al_drinking_water_200 basis \"water intended for human consumption\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Cr",
+          "live_value": 50,
+          "live_anchor": "nhmrc2025_crvi_drinking_water_50",
+          "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+        },
+        {
+          "slug": "water-filters",
+          "analyte": "Cr-VI",
+          "live_value": 10,
+          "live_anchor": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "why": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl basis \"drinking water; source unit mg/L\" fails basis_guard"
+        }
+      ]
+    }
+  },
+  "total_pending": 518
+}
