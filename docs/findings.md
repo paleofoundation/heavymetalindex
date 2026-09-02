@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-215 open item(s): 68 auto, 147 awaiting a decision.
+220 open item(s): 72 auto, 148 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -522,6 +522,30 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: aquaculture/bivalve/cooking/se-hg titles use an em-dash as the title-to-subtitle separator; the /synthesis/ index now renders them with a colon or comma. page title = H1 = minted 10.83376 DOI title (em-dash). Unifying to colons everywhere would require updating the live DataCite titles on 4 permanent Findable records (needs repo DataCite creds). NOT a DOI/Scholar-parity problem (index anchor is not the citation surface); purely house-style.
 - done when: Karen rules: keep the minted em-dash titles as-is, or de-em-dash page+H1+index+DOI together in one credentialed pass
 - decision: _pending_
+
+### OI-20260902-readiness-lint-still-overcounts-complete — cert standard-readiness-lint (post PR #65) still overcounts COMPLETE: panel falls back to Object.keys(cells) so 9-key Cat-1 records pass; any non-null value is firm (valued control counts); only the first variant is read (soy never checked); provisional_scaffold records count; corrected is a pass-through of complete; committed readiness-manifest.json at HEAD is stale (107/107/0) and is what mint-dois.mjs gates on
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/standard-readiness-lint.mjs`, `data/standards/readiness-manifest.json`, `data/standards/cat1-pages.json`
+- repro: cd ~/Desktop/heavymetalcertified && sed -n 41,66p tools/standard-readiness-lint.mjs && node -e "const r=require(\"./data/standards/cat1-compiled/infant-formula-powder.json\");console.log(Object.keys(r.variants),Object.keys(r.variants.cow))" && git show HEAD:data/standards/readiness-manifest.json | head -30
+- done when: panel = canonical 11 constant; missing key = EMPTY; cell COMPLETE only for gov/read_across/form_split numeric with resolvable anchor, subsumed with firm parent, or baseline screen with numeric LOQ + reference_method; control/not_material always EMPTY; all variant keys iterated; provisional_scaffold reported separately, never COMPLETE; page→record via *-pages.json; recordless type:standard pages reported NOT COMPLETE; corrected computed from the confidence manifest, not complete; readiness-manifest.json regenerated and committed with the JSON it describes
+- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Phase A
+
+### OI-20260902-no-roundtrip-diff-tool-loosening-universal — No cert↔index round-trip diff tool exists (drift-map scratchpad scripts gone); copying today index recompiles to cert would LOOSEN ~31 live cells and DROP ~1,362 live firm/bounded cells across 22 of 32 dirs; the 2026-08-25 five-category gate is a sample, not the gate
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/diff-compiled-vs-cert.mjs`, `data/evidence/outstanding/2026-08-25-cert-index-recompile-drift-map.md`
+- repro: ls tools/standards | grep -iE "diff|round|drift" (none); corpus scan cert vs index 11-panel: loosen/drop per dir cat1 0/12, cat2 0/96, cat3 12/59, cat13 0/109, cat15 0/90, cat22 0/90, cat23 0/226, cat27 1/20, cat28 8/36, cat32 8/32, cat34 2/2 (totals 31 / 1,362)
+- done when: tools/standards/diff-compiled-vs-cert.mjs exists: reads $CERT_REPO/data/standards/<dir>, iterates every variant, restricts to config/pages.json slugs, maps index cat1-compiled seafood slugs ↔ cert seafood-compiled; regression = numeric increase | non-null→null/absent | subsumed→non-subsumed-null | basis change | record disappears; prose-only reported separately; wired as a gate before any copy to cert
+- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Phase A(4)
+
+### OI-20260902-mint-dois-safety-index-executes-without-dryrun — SAFETY: index tools/mint-dois.mjs executes whenever DATACITE creds are in the environment unless --dry-run is passed (index .env.local now carries populated sandbox creds); cert datacite-preflight.mjs is a WRITE tool (POST/GET/DELETE a draft DOI, prints USER+PREFIX); TEST_PREFIXES in both mint-dois.mjs files lack the issued sandbox prefix 10.84435
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/mint-dois.mjs`, `../heavymetalcertified/tools/mint-dois.mjs`, `../heavymetalcertified/tools/datacite-preflight.mjs`
+- repro: sed -n 60,66p tools/mint-dois.mjs (dryRun = --dry-run || !credentialsReady); grep -cE "^DATACITE_(USER|PASSWORD|PREFIX)=.+" .env.local (3); grep -n TEST_PREFIXES tools/mint-dois.mjs ~/Desktop/heavymetalcertified/tools/mint-dois.mjs (no 10.84435); git -C ~/Desktop/heavymetalcertified show wip/stranded-datacite-cat23-b090435:tools/datacite-preflight.mjs | grep -n "method: \"POST\"\|DELETE"
+- done when: index mint-dois.mjs requires an explicit --live (or --execute) flag to deposit; credentials alone never execute; 10.84435 added to TEST_PREFIXES in both mint-dois.mjs files; datacite-preflight.mjs header states it creates+deletes a DataCite draft record and requires an explicit --execute flag; it never prints DATACITE_USER
+- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Ground truth / Hard rules
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 
@@ -545,6 +569,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: heavymetalcertified/quartz/components/navPanels.seed.ts still holds the index site's Metals/Foods/Products taxonomy with wiki/ slugs; it is unused (MegaMenu imports the hand-maintained generated/navPanels.ts) and tools/build-nav-panels.mjs points at a nonexistent wiki/ dir. Either delete the stale seed, or author a cert-specific seed and wire the generator so a dangling-slug check runs at build.
 - done when: navPanels.seed.ts removed, or rewritten to the cert 3-door taxonomy; if the generator is wired into prebuild, a dangling slug fails the build; generated/navPanels.ts output matches the current hand-authored 3-door version
 
+### OI-20260902-cert-live-cells-fail-own-basis-guard — ~511 live cert numeric cells cite register rows whose basis fails the record own basis_guard (cat23 ~136, cat13 71, cat2 64, cat19 52, cat20 49, cat14 48, cat22 45, cat10 39): EU 2009/48 toy-migration rows on cosmetic/textile content cells; NHMRC Cr-VI drinking-water row anchoring 82 total-Cr cells (C6); ~130 non-contact cells on migration rows. Written around the compiler in cert; compile-category.mjs refuses them
+
+- scope: **human-gated** · type: finding · status: open · repo: cert · blocked_on: OI-20260825-recompile-loosening-gate
+- paths: `data/standards/*-compiled`, `tools/standards/compile-category.mjs`, `tools/standards/audit-compiled-standards.mjs`, `tools/standards/cat9-config.json`, `tools/standards/cat26-config.json`
+- repro: cd ~/Desktop/heavy-metal-index && for d in ../heavymetalcertified/data/standards/*-compiled; do node tools/standards/audit-compiled-standards.mjs --dir=$d --json; done | grep -c "C6\|C5"; plus a basis_guard regex check of each binding_id/source_id row basis against the record basis_guard (511 under the compiler i-flag semantics). cat9-config.json and cat26-config.json have 0 basis_guards.
+- done when: every value-determining row of every cert record satisfies the record basis_guard (D2) or carries a disclosed protective basis_bridge / species_direction exception; corrections that RAISE a published number are held from push until Karen ratifies (they look like loosenings); cat9-config.json and cat26-config.json carry basis_guards
+- evidence: found by the 2026-09-02 chip-brief verification workflow (two judges recomputed 598 raw / 511 i-flag); brief: docs/tasks/standards-95-confidence-completion-brief.md
+- decision: _pending_
+
 ### OI-20260902-cert-duplicate-rice-milk-rows — Two LIVE cert standards cover the same product (rice milk): Cat 5 plant-milks-rice-based (5 firm analytes, v1.0 2026-08-17) and Cat 3 rice-beverages-rice-milk (10 firm analytes, v1.0 2026-08-10); taxonomy v2.2 marks Cat 5 r7 RETIRED -> Cat 3, so the Cat 5 page should be retired-in-place to a redirect, not published as a certifiable (and looser, 5-firm) standard
 
 - scope: **auto** · type: finding · status: open · repo: cert
@@ -553,6 +586,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Exactly one certifiable rice-milk standard is live (rice-beverages-rice-milk, Cat 3, EU 2023/915 iAs 30 ppb non-alcoholic rice drinks binding); /standards/plant-milks-rice-based is a retired-in-place redirect/landing to /standards/rice-beverages-rice-milk with no Master Limit Table of its own, and the register no longer lists it as a 5-firm standard; cat5-pages.json / finder context / open-data export no longer emit plant-milks-rice-based as a product a brand can select; standard-readiness-lint and firewall-cert-lint green
 - evidence: Both pages carry iAs 30 ppb, so no numeric contradiction today, but the Cat 5 page has only 5 firm analytes vs 10 on the Cat 3 page: a brand choosing the Cat 5 page certifies against a thinner panel for the identical product
 - notes: Found during the 2026-09-02 subcategory completeness sweep. Inverse of a missing-subcategory defect (a duplicate), but it is the same register-coherence problem a retailer buyer or plaintiff expert would notice. Never renumber; retire-in-place per taxonomy governance.
+
+### OI-20260902-cert-doi-writeback-reset-gate0 — GATE 0: cert mint-dois.mjs writes cert_doi into rendered content/standards/*.md, but both renderers regenerate that line from pages.json (which carries no cert_doi), so the first prebuild after a mint resets every DOI to null and REGISTERED flips back to false
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `tools/mint-dois.mjs`, `tools/build-cat1-standard-pages.mjs`, `tools/build-category-standard-pages.mjs`, `tools/standard-readiness-lint.mjs`, `data/standards/*-pages.json`
+- repro: cd ~/Desktop/heavymetalcertified && grep -c cert_doi data/standards/*-pages.json (0 for all 32) && grep -n "cert_doi" tools/build-cat1-standard-pages.mjs tools/build-category-standard-pages.mjs (emit from page.cert_doi || null) && sed -n 335,350p tools/mint-dois.mjs (writes into the .md). Also productionDoi(slug) in the readiness lint keys by RECORD slug so Cat-1 (9 pages ↔ 12 records via cat1-pages.json) can never become REGISTERED.
+- done when: write-back target is committed source (pages[].cert_doi or data/standards/doi-registry.json keyed by page slug) and both renderers read it; a lint fails when a rendered page cert_doi differs from the registry; productionDoi resolves page→record through the pages.json join; a prebuild after a (dry) write-back does not reset any cert_doi
+- evidence: found by the 2026-09-02 chip-brief verification workflow (4 fact-checkers, 4 red-teamers); brief: docs/tasks/standards-95-confidence-completion-brief.md Phase F GATE 0
 
 ### OI-20260902-cert-cat26-stale-framing-no-version-bump — Cat-26: framing + v1.1 bump landed (9ee27a5); RESIDUAL = no version-history record and no retained v1.0 edition PDF for the 5 pages
 
