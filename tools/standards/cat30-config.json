@@ -1,6 +1,18 @@
 {
   "_doc": "Category-30 (Culinary Oils and Fats) compiler config for tools/standards/compile-cat30.mjs — HMTc Method v2.0 (government-limit default). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex, strictest across jurisdictions, at FACE VALUE (no reconstitution — an oil is not reconstituted). Pb/Cd/tAs/iAs/tHg are directly regulated for edible oils (EU 2023/915, Codex named-vegetable-oils, GSO 193:2021, Thailand MOPH 414/2020, Singapore Food Regs 2026, India FSSAI 2016, Israel FCS 2016). No government sets an oil ML for Ni/Cr/Cr-VI/Sn/Al, so each of those cells carries a NUMERIC read-across to the nearest applicable sovereign instrument, disclosed as a read-across (never as direct oil governance): Ni <- EU 2024/1987 formula-liquid 100 (nearest sovereign Ni ML on the matching liquid basis; the more-permissive fruiting-veg 400 was rejected because it would admit literature-flagged-contaminated oil); Cr(total) <- China GB2762 liquid-milk 300 (strictest food total-Cr, matching liquid basis); Cr-VI <- California SWRCB drinking-water MCL 10 (strictest oral-intake Cr-VI; a feasibility-set enforceable limit adopted as a conservative species ceiling, sitting far below the total-Cr screen; in a lipid matrix Cr(VI) reduces to Cr(III) and is caught by reflex speciation); Sn <- EU 2023/915 canned-food inorganic-tin 200000 (the tin pathway in a bottled oil is packaging migration); Al <- EU 10/2011 aluminium migration limit 1000 (the aluminium pathway in a bottled oil is packaging migration; the specific-migration limit is applied at face value as a conservative total-content ceiling). MeHg is bounded by the binding total-mercury ceiling (MeHg <= tHg by identity; no aquatic methylation pathway in a plant oil and no sovereign MeHg oil limit). Every one of the 11 panel cells therefore terminates in a testable numeric ceiling — firm or bounded-by-parent-total — with a register-verified basis; there are no null control/not-material cells (founder rule 2026-08-25: a category is not finished until every analyte carries a specified limit). The honey-Pb near-miss failure mode remains structurally impossible: the audit pass scans every oil-scoped register row for each analyte every build, and there is no oil-scoped government row for Ni/Cr/Cr-VI/Sn/Al anywhere, so each read-across is audit-clean. No occurrence percentiles are computed.",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Cr", "Cr-VI", "Sn", "Al"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Cr",
+    "Cr-VI",
+    "Sn",
+    "Al"
+  ],
   "subcategories": {
     "olive-oil": {
       "name": "Olive oil (virgin, refined, pomace)",
@@ -50,6 +62,10 @@
         "Al": {
           "source_id": "eu_10_2011_al_sml",
           "label": "No government sets an aluminium maximum level for an edible oil or fat. The demonstrated aluminium pathway in a bottled oil is migration from packaging (Charfi 2026: 670 ug/kg from aluminium containers versus 120 ug/kg or below for glass and PET). This reads across the EU Reg 10/2011 aluminium specific-migration limit, 1000 ug/kg, the sovereign instrument that bounds aluminium migrating into food from a contact material (derived against the EFSA aluminium tolerable weekly intake). The specific-migration limit is applied at face value as a conservative total-content ceiling; the elevated case arose from aluminium metal containers, and the migration limit is disclosed as the nearest sovereign anchor, not direct total-content governance of oil."
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "label": "government read-across: Thailand MOPH Notification 414 (2020) total mercury 20 for food other than the listed total-mercury categories, the nearest in-force sovereign total-mercury ceiling on the as-sold basis (no government sets a mercury ML for edible oils). Binds once the Israel MoH 2016 guideline row (same value 20, marked not in force by the Ministry 19.02.2026) is gated in the register."
         }
       }
     },
@@ -106,8 +122,13 @@
         "Al": {
           "source_id": "eu_10_2011_al_sml",
           "label": "No government sets an aluminium maximum level for an edible oil or fat. The demonstrated aluminium pathway in a bottled oil is migration from packaging. This reads across the EU Reg 10/2011 aluminium specific-migration limit, 1000 ug/kg, the sovereign instrument that bounds aluminium migrating into food from a contact material (derived against the EFSA aluminium tolerable weekly intake). The specific-migration limit is applied at face value as a conservative total-content ceiling, disclosed as the nearest sovereign anchor, not direct total-content governance of oil."
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "label": "government read-across: Thailand MOPH Notification 414 (2020) total mercury 20 for food other than the listed total-mercury categories, the nearest in-force sovereign total-mercury ceiling on the as-sold basis (no government sets a mercury ML for edible oils). Binds once the Israel MoH 2016 guideline row (same value 20, marked not in force by the Ministry 19.02.2026) is gated in the register."
         }
       }
     }
-  }
+  },
+  "_israel_note_2026_09_02": "2026-09-02: M1 verification found the Israel MoH 2016 heavy-metals guideline not in force (gov.il, 19.02.2026; Israel adopted EU 2023/915). tHg re-anchored to Thailand MOPH 414/2020 at the same value 20. Cd (Israel fats-and-oils 0.03 mg/kg) has NO same-value in-force sovereign analog on the as-sold basis: the nearest are EU 2023/915 oilseeds 100 and Uruguay liquid foods 100, a raise from 30 that is held for ratification (OI-20260902-il-fcs2016-not-in-force); the Cd cell keeps the Israel anchor until ratified and is refuted in the confidence manifest meanwhile."
 }

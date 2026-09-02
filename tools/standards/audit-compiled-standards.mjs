@@ -284,7 +284,12 @@ function auditRecord(rec, file) {
         if (norm && norm !== analyte) {
           const parent = SPECIES_OF[analyte]
           const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
-          if (norm === parent || norm === childOf) {
+          // C6d: a species instrument anchoring its TOTAL cell as a DISCLOSED protective read-across
+          // (species ≤ total by identity) is admitted when the cell declares
+          // species_direction "species-as-total-ceiling"; a total instrument never anchors a species.
+          if (norm === childOf && cell.species_direction === "species-as-total-ceiling" && kind === "read_across") {
+            W("C6d", `${L}: total-element cell anchored on the ${norm} instrument "${id}" as a disclosed species-as-total ceiling`)
+          } else if (norm === parent || norm === childOf) {
             F("C6", `${L}: anchor "${id}" is a ${norm} limit — a species and its total-element parent are never interchangeable`)
           } else {
             F("C6", `${L}: anchor "${id}" is a ${norm} limit, not ${analyte}`)
@@ -303,7 +308,11 @@ function auditRecord(rec, file) {
           .filter((id) => byId.has(id) && !GATED_STATUS.test(byId.get(id).status || ""))
           .filter((id) => {
             const m = (byId.get(id).metal_species || "").trim()
-            return (m === "Cr-total" ? "Cr" : m) === analyte
+            const norm = m === "Cr-total" ? "Cr" : m
+            if (norm === analyte) return true
+            // C6d: the species row IS the value-determining row of a species-as-total ceiling
+            const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
+            return cell.species_direction === "species-as-total-ceiling" && norm === childOf
           })
           .map((id) => num(byId.get(id).value_ug_kg))
           .filter((v) => v != null)

@@ -66,6 +66,15 @@
         "Sn": {
           "source_id": "eu2023_sn_canned_foods_200000",
           "label": "Tin is a can-migration analyte; dried seaweed foods are sold in non-metal packaging with no tinplate contact, and no government sets a tin ML for seaweed. Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; with no tin source clean product passes, and a mispackaged or contaminated sample fails."
+        },
+        "Pb": {
+          "source_id": "china_gb2762_2025_pb_algae_products_1000",
+          "label": "government read-across: China GB 2762-2025 Table 1 item 6.3 lead 1.0 mg/kg for algae products (excluding spirulina products), product as placed on the market; the strictest in-force sovereign lead ceiling for a dried seaweed product. Replaces the Israel MoH 2016 dried-seaweed row (5000), which the Ministry marks not in force since 19.02.2026 (M1 verification 2026-09-02); a tightening from 5000 to 1000."
+        },
+        "tAs": {
+          "source_id": "aunz_sch19_ias_seaweed_1000",
+          "species_direction": "species-as-total-ceiling",
+          "label": "disclosed species-as-total ceiling (audit exception C6d): no in-force government sets a total-arsenic ML for seaweed (the Israel MoH 2016 dried-seaweed row, 5000, is not in force since 19.02.2026), so total arsenic is held at the AU-NZ Schedule 19 inorganic-arsenic seaweed limit of 1 mg/kg; because inorganic arsenic is a component of total arsenic, a total at or below 1000 guarantees the inorganic species is too. This is a protective read-across in the species-to-total direction only, never the reverse."
         }
       }
     },

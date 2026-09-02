@@ -8,12 +8,13 @@
   "variants": {
     "both": {
       "Pb": {
-        "type": "gov",
-        "value": 5000,
-        "value_exact": 5000,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
-        "basis_note": "face value",
+        "type": "read_across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_pb_algae_products_1000",
+        "source_jurisdiction": "CN",
+        "label": "government read-across: China GB 2762-2025 Table 1 item 6.3 lead 1.0 mg/kg for algae products (excluding spirulina products), product as placed on the market; the strictest in-force sovereign lead ceiling for a dried seaweed product. Replaces the Israel MoH 2016 dried-seaweed row (5000), which the Ministry marks not in force since 19.02.2026 (M1 verification 2026-09-02); a tightening from 5000 to 1000.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {
           "IL": {
             "value": 5000,
@@ -26,7 +27,7 @@
             "id": "fr_cshpf_seaweed_pb_5000"
           }
         },
-        "provenance": "regulatory-alignment"
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "gov",
@@ -60,12 +61,13 @@
         "provenance": "regulatory-alignment"
       },
       "tAs": {
-        "type": "gov",
-        "value": 5000,
-        "value_exact": 5000,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
-        "basis_note": "face value",
+        "type": "read_across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "aunz_sch19_ias_seaweed_1000",
+        "source_jurisdiction": "AU-NZ",
+        "label": "disclosed species-as-total ceiling (audit exception C6d): no in-force government sets a total-arsenic ML for seaweed (the Israel MoH 2016 dried-seaweed row, 5000, is not in force since 19.02.2026), so total arsenic is held at the AU-NZ Schedule 19 inorganic-arsenic seaweed limit of 1 mg/kg; because inorganic arsenic is a component of total arsenic, a total at or below 1000 guarantees the inorganic species is too. This is a protective read-across in the species-to-total direction only, never the reverse.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {
           "IL": {
             "value": 5000,
@@ -73,7 +75,9 @@
             "id": "il_fcs2016_tas_7_1_dried_seaweed_5000"
           }
         },
-        "provenance": "regulatory-alignment"
+        "species_direction": "species-as-total-ceiling",
+        "audit_exception": "C6d",
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "gov",

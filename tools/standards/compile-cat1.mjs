@@ -235,7 +235,7 @@ function resolveCell(sub, analyte, variant) {
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
-    if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label }
+    if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label, species_direction: ra.species_direction || null }
   }
 
   // basis:"gov" override — the borrowed register row is a government maximum level that DIRECTLY
@@ -249,7 +249,10 @@ function resolveCell(sub, analyte, variant) {
     return { type: "gov", value: roundDisplay(direct.value), value_exact: direct.value, binding_jurisdiction: direct.jur, binding_id: direct.id, basis_note: direct.note, per_country: perCountry }
   }
   if (raResult) {
-    return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry }
+    // C6d: a SPECIES instrument may anchor a TOTAL cell only as a disclosed protective read-across
+    // (species ≤ total by identity, so holding the total at the species limit is at least as protective);
+    // the cell carries species_direction so the audit admits the cross-species anchor knowingly.
+    return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry, ...(raResult.species_direction ? { species_direction: raResult.species_direction, audit_exception: "C6d" } : {}) }
   }
   if (ra && ra.not_material) {
     return {

@@ -193,7 +193,8 @@ export function dSet({ rec, cell, analyte, cells, register, repo, methodById }) 
   for (const b of BRAND_DENYLIST) if (new RegExp(`(^|[^a-z0-9])${b.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`).test(hay)) fails.push(`D6:brand "${b}"`)
   // D9 derive-strictest: published value == roundDisplay(min over the named anchors' register values, same analyte, after the disclosed conversion)
   if (isNum(cell.value) && k !== "baseline_screen" && k !== "special") {
-    const vals = ids.map((id) => register.get(id)).filter((r) => r && !STATUS_GATE.test(r.status) && normMetal(r.metal_species) === analyte).map((r) => Number(r.value_ug_kg)).filter(Number.isFinite)
+    const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
+    const vals = ids.map((id) => register.get(id)).filter((r) => r && !STATUS_GATE.test(r.status) && (normMetal(r.metal_species) === analyte || (cell.species_direction === "species-as-total-ceiling" && normMetal(r.metal_species) === childOf))).map((r) => Number(r.value_ug_kg)).filter(Number.isFinite)
     if (vals.length) {
       const note = String(cell.basis_note || "")
       const factor = /×\s*8\b/.test(note) ? 8 : /÷\s*8\b|\/\s*8\b/.test(note) ? 1 / 8 : 1
