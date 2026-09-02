@@ -81,7 +81,7 @@ const DATACITE_MODE = (process.env.DATACITE_MODE || "test").toLowerCase()
 const DATACITE_API = DATACITE_MODE === "live" ? "https://api.datacite.org/dois" : "https://api.test.datacite.org/dois"
 // draft (no event, reserve) | register (Registered, not yet Findable) | publish (Findable). Default publish.
 const state = (args.find((a) => a.startsWith("--state=")) || "--state=publish").split("=")[1]
-const TEST_PREFIXES = ["10.5072", "10.82"] // datacite sandbox families (10.5072 retired; test repos get their own)
+const TEST_PREFIXES = ["10.5072", "10.82", "10.84435"] // datacite sandbox families + the issued sandbox prefix (must match standard-readiness-lint in cert)
 const isTestPrefix = (doi) => TEST_PREFIXES.some((p) => String(doi).startsWith(p))
 const persist = DATACITE_MODE === "live" // never stamp non-resolvable test DOIs into frontmatter
 // A DataCite record is permanent + public: screen each candidate title against a brand denylist so
