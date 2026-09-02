@@ -251,7 +251,21 @@ function resolveCell(sub, analyte, variant) {
     return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry }
   }
   if (ra && ra.not_material) {
-    return { type: "not_material", value: null, control: ra.control || "not material", reference_method: ra.reference_method || null }
+    return {
+      type: "not_material", value: null,
+      control: ra.control || "not material",
+      reference_method: ra.reference_method || null,
+      // Substantiation contract (audit C7 / audit-not-material-substantiation): a not-material cell
+      // carries basis_class (in the vocabulary) + rationale + regulatory_basis + jurisdictions_checked.
+      // Total chromium: the toxic species Cr(VI) is separately bounded (Cr-VI <= total Cr) and reflex-
+      // speciation-controlled; total-Cr is dominated by nutritionally essential Cr(III) and overstates
+      // the toxic burden -> method-artifact. A non-Cr not-material cell must name its class in config
+      // (undefined here -> the substantiation gate flags it, by design).
+      basis_class: ra.basis_class || (analyte === "Cr" ? "method-artifact" : undefined),
+      rationale: ra.rationale || ra.control || "not material",
+      regulatory_basis: ra.regulatory_basis || `No government maximum level for ${analyte} in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.`,
+      jurisdictions_checked: ra.jurisdictions_checked || JUR_PRIORITY.filter((j) => j !== "international").join("; "),
+    }
   }
   return { type: "gap", value: null, error: "no government ML and no read-across configured" }
 }

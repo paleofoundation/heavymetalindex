@@ -168,7 +168,11 @@
         "type": "not_material",
         "value": null,
         "control": "Reflex Cr-VI speciation on any total-Cr result >100 ug/kg; any quantifiable Cr-VI fails. Non-dairy matrix: the China milk-powder total-Cr 2000 read-across is a weak dairy analogy and is not adopted.",
-        "reference_method": "EPA 3060A alkaline digestion + IC-ICP-MS for Cr-VI; ICP-MS for total Cr"
+        "reference_method": "EPA 3060A alkaline digestion + IC-ICP-MS for Cr-VI; ICP-MS for total Cr",
+        "basis_class": "method-artifact",
+        "rationale": "Reflex Cr-VI speciation on any total-Cr result >100 ug/kg; any quantifiable Cr-VI fails. Non-dairy matrix: the China milk-powder total-Cr 2000 read-across is a weak dairy analogy and is not adopted.",
+        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
+        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
       },
       "Cr-VI": {
         "type": "subsumed",
