@@ -392,6 +392,11 @@
           "bounded_by": "tHg",
           "control": "There is no methylmercury bioaccumulation pathway in dairy; bounded by total mercury, measured on every lot.",
           "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only on an elevated total-Hg result."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "label": "GB 2762-2025 total chromium in liquid milk (300 ug/kg), the human-food maximum level for the dairy fraction (Cat-17 certifies to the strictest human-food ML); successor of the superseded GB 2762-2022 row the standard cited.",
+          "reanchor_note": "2026-09-02: GB 2762-2022 superseded; successor china_gb2762_2025_crtotal_liquid_milk_300"
         }
       }
     },
@@ -522,7 +527,19 @@
   "subcategories": {
     "pet-food-dry-kibble": {
       "name": "Complete & balanced dry (kibble)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-canned-wet": {
       "name": "Complete & balanced canned/wet",
@@ -546,45 +563,174 @@
           "source_id": "eu2023_sn_canned_foods_200000",
           "analog_label": "EU canned-food tin maximum (canned foods other than beverages)",
           "label": "Human-grade read-across from the strictest general canned-food tin maximum that matches the container (EU 200,000 µg/kg for canned foods other than beverages, as consumed). Tin is material for canned wet pet food because it migrates from the tin-coated can, exactly as for canned human food; the cured-meat non-tinplate tin limits are a different container class and are not applied to a tin-canned product."
+        },
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
     "pet-food-semi-moist": {
       "name": "Semi-moist pet foods",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-raw": {
       "name": "Raw pet foods (frozen/chilled raw diets)",
-      "profile": "wet-meat-composite"
+      "profile": "wet-meat-composite",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-freeze-dried": {
       "name": "Freeze-dried / dehydrated pet foods (including freeze-dried raw)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-treats-snacks": {
       "name": "Pet treats / snacks",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-chews-dental": {
       "name": "Pet chews (including dental chews)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-toppers-mixers-broths": {
       "name": "Toppers / mixers / broths",
-      "profile": "wet-meat-composite"
+      "profile": "wet-meat-composite",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-milk-replacers-specialty-liquids": {
       "name": "Milk replacers and specialty pet liquids",
-      "profile": "dairy-milk"
+      "profile": "dairy-milk",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-fish-marine-protein": {
       "name": "Fish-based / marine-protein complete diets",
-      "profile": "seafood-marine"
+      "profile": "seafood-marine",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-fermentation-derived-protein": {
       "name": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
       "profile": "fermentation-derived-protein",
-      "provisional_scaffold": true
+      "provisional_scaffold": true,
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Human-grade read-across: Singapore Food Regulations tin in any food (250000 ug/kg, product as sold); the dried single-cell-protein ingredient is not a canned product, and no sovereign sets a tin level for it.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Human-grade read-across: GB 2760-2024 aluminium (as Al, from aluminium-containing additives) in baked foods (100000 ug/kg, dry product), the strictest dry human-food aluminium row; no sovereign sets an aluminium content level for a fermentation-derived protein ingredient.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation)"
+        }
+      }
     }
-  }
+  },
+  "_harvest_2026_09_02": "22 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 20 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat17-compiled.json"
 }

@@ -30,6 +30,11 @@
             "converted": false,
             "id": "eu2023_pb_root_tuber_vegetables_100"
           },
+          "CN": {
+            "value": 100,
+            "converted": false,
+            "id": "china_gb2762_2025_pb_fresh_vegetables_100"
+          },
           "IN": {
             "value": 100,
             "converted": false,
@@ -59,11 +64,6 @@
             "value": 100,
             "converted": false,
             "id": "ph_pns194_2017_legume_vegetables_pb_100"
-          },
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100"
           },
           "MERCOSUR": {
             "value": 100,
@@ -112,16 +112,9 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_pb_formula_5000",
-            "scope": "compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -139,6 +132,11 @@
             "value": 40,
             "converted": false,
             "id": "eu2023_cd_pulses_40"
+          },
+          "CN": {
+            "value": 50,
+            "converted": false,
+            "id": "china_gb2762_2025_cd_fresh_vegetables_50"
           },
           "AU-NZ": {
             "value": 100,
@@ -180,11 +178,6 @@
             "converted": false,
             "id": "ph_pns194_2017_legume_vegetables_cd_100"
           },
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100"
-          },
           "MA": {
             "value": 100,
             "converted": false,
@@ -222,16 +215,9 @@
             "scope": "complete feed for pet animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_cd_all_2000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -255,6 +241,11 @@
             "converted": false,
             "id": "mercosur_gmc12_2011_pulses_except_soybean_tas_100"
           },
+          "CN": {
+            "value": 500,
+            "converted": false,
+            "id": "china_gb2762_2025_tas_cereals_excl_paddy_rice_500"
+          },
           "HK": {
             "value": 500,
             "converted": false,
@@ -264,11 +255,6 @@
             "value": 1000,
             "converted": false,
             "id": "aunz_sch19_tas_cereal_grains_1000"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
           }
         },
         "feed_floor": [
@@ -279,38 +265,31 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_tas_non_aquatic_formula_2000",
-            "scope": "non-aquatic/non-algae compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "read_across",
         "human_grade": true,
-        "value": 100,
-        "value_exact": 100,
-        "source_id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100",
-        "source_jurisdiction": "IL",
+        "value": 150,
+        "value_exact": 150,
+        "source_id": "eu2023_ias_rice_milled_150",
+        "source_jurisdiction": "EU",
         "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
-        "analog_scope": "Dried legumes, including peanuts and soybeans",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (IL, 100 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "non-parboiled milled rice",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (EU, 150 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-          },
           "EU": {
             "value": 150,
             "converted": false,
             "id": "eu2023_ias_rice_milled_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": false,
+            "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
           },
           "GSO": {
             "value": 200,
@@ -346,38 +325,31 @@
             "scope": "pet food",
             "instrument": "feed maximum level",
             "status": "statutory limit"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_ias_aquatic_algae_2000",
-            "scope": "pet feed containing aquatic animals/products or algae/products",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "read_across",
         "human_grade": true,
         "value": 20,
         "value_exact": 20,
-        "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
-        "source_jurisdiction": "HK",
+        "source_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+        "source_jurisdiction": "CN",
         "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
-        "analog_scope": "Rice, husked rice, polished rice, maize, maize flour, wheat, wheat flour",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Paddy rice (as brown rice, footnote b), brown rice, rice and rice flour, maize, maize flour, maize grits, wheat and wheat flour (GB 2762-2025 Table 3, item 2.1); total mercury",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (CN, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "CN": {
+            "value": 20,
+            "converted": false,
+            "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
+          },
           "HK": {
             "value": 20,
             "converted": false,
             "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
-          },
-          "IL": {
-            "value": 30,
-            "converted": false,
-            "id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
           },
           "GSO": {
             "value": 1000,
@@ -393,24 +365,19 @@
             "scope": "compound feed for dogs, cats, ornamental fish and fur animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 300,
-            "id": "cn_petfood_draft_thg_all_300",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Methylmercury forms by microbial methylation in aquatic food chains and biomagnifies in fish; there is no methylmercury pathway in terrestrial cereal, pulse, or tuber crops. It is bounded by total mercury, which is measured on every lot.",
-        "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation (GC-ICP-MS) only on an elevated total-Hg result.",
+        "subsumed_by": "tHg",
         "bounded_by": "tHg",
-        "feed_floor": null
+        "binding_total": 20,
+        "basis_class": "speciation-bounded",
+        "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (20 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
       },
       "Ni": {
         "type": "read_across",
@@ -430,23 +397,44 @@
             "id": "eu2024_ni_cereals_800"
           }
         },
-        "feed_floor": null
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Tin is a can-migration analyte: it enters food by dissolution from tin-coated can walls. Dry, non-tinplate pet food (kibble, semi-moist, freeze-dried, treats, chews) has no tin source. Every human-food tin maximum is scoped to canned/tin-coated product; a canned pet product is certified under the canned-wet tin read-across instead.",
-        "reference_method": "Total Sn by ICP-MS; any quantifiable tin on a non-canned product triggers a packaging/contact-material investigation.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
+        "analog_scope": "any food",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets an aluminium contaminant maximum for general (non-infant) human foods; aluminium is a ubiquitous crustal element with no established food maximum for adult foods, and the only human-food aluminium numbers on the books are permitted food-additive residue limits (e.g. alum firming agents), which are not contaminant maxima. Aluminium is measured on every lot as a mandatory surveillance control rather than limited to a number no sovereign sets as a contaminant ceiling.",
-        "reference_method": "Total Al by ICP-MS after microwave acid digestion.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
+        "analog_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {
+          "CN": {
+            "value": 200000,
+            "converted": false,
+            "id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
+          }
+        },
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "read_across",
@@ -457,33 +445,32 @@
         "source_jurisdiction": "HK",
         "analog_label": "the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold)",
         "analog_scope": "Vegetables, other than pulses",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 500 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the plant-carbohydrate fraction of a complete diet — cereals, grains, pulses, and starchy tubers (adult/general human food, as sold) (HK, 500 µg/kg, as sold basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
           "HK": {
             "value": 500,
             "converted": false,
             "id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500"
+          },
+          "CN": {
+            "value": 1000,
+            "converted": false,
+            "id": "china_gb2762_2025_crtotal_cereals_1000"
           }
         },
-        "feed_floor": [
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_crtotal_all_5000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Hexavalent chromium is a measurement artifact in a reducing food matrix: it reduces to Cr(III) in the presence of organic matter and gastric conditions, so a food does not carry a stable Cr(VI) burden. It is bounded by total chromium, which is measured on every lot; any total-Cr result at or above the reflex trigger prompts Cr(VI) speciation, and any quantifiable Cr(VI) fails certification.",
-        "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 or equivalent on a total-Cr exceedance.",
+        "subsumed_by": "Cr",
         "bounded_by": "Cr",
-        "feed_floor": null
+        "binding_total": 500,
+        "basis_class": "speciation-bounded",
+        "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (500 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
       }
     }
   },

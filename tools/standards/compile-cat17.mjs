@@ -183,7 +183,7 @@ function resolveCell(sub, analyte) {
     if (!prev || cand.value < prev.value) perJur.set(r.jurisdiction, cand)
   }
   const candidates = [...perJur.values()].sort((a, b) => (a.value - b.value) || (jurRank(a.jur) - jurRank(b.jur)))
-  const direct = candidates.length ? candidates[0] : null
+  let direct = candidates.length ? candidates[0] : null
   const perCountry = Object.fromEntries(candidates.map((c) => [c.jur, { value: roundDisplay(c.value), converted: false, id: c.id }]))
 
   const ra = (sub.read_across || {})[analyte]
@@ -201,6 +201,13 @@ function resolveCell(sub, analyte) {
   }
 
   // Human-grade read-across from the strictest human-food analog ML found by the scan.
+  // A named sovereign source on the subcategory (ra.source_id) is a comparator against the profile scan: the
+  // stricter of the two binds, so a hand-anchored tighter analog is never loosened by a looser scan hit.
+  if (direct && ra && ra.source_id && !ra.override) {
+    const srcC = byId.get(ra.source_id)
+    const rawC = srcC ? num(srcC.value_ug_kg) : null
+    if (rawC != null && rawC < direct.value) direct = null
+  }
   if (direct) {
     return {
       type: "read_across",
@@ -299,6 +306,16 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) left as a control or a gap while its parent total is
+  // a firm number is bounded by that parent (species <= total); control is transitional (lib/provenance.mjs).
+  for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+    if (!PANEL.includes(sp)) continue
+    const t = cells[tot], c = cells[sp]
+    const tv = t && typeof t.value === "number" ? t.value : null
+    if (tv == null || !c || !(c.type === "control" || c.type === "not_material" || c.type === "gap" || c.error)) continue
+    cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded", adult_floor: c.adult_floor,
+      rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+  }
   stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   record.variants.both = cells
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
