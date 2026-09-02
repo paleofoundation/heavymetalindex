@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-217 open item(s): 69 auto, 148 awaiting a decision.
+216 open item(s): 68 auto, 148 awaiting a decision.
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -553,22 +553,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: heavymetalcertified/quartz/components/navPanels.seed.ts still holds the index site's Metals/Foods/Products taxonomy with wiki/ slugs; it is unused (MegaMenu imports the hand-maintained generated/navPanels.ts) and tools/build-nav-panels.mjs points at a nonexistent wiki/ dir. Either delete the stale seed, or author a cert-specific seed and wire the generator so a dangling-slug check runs at build.
 - done when: navPanels.seed.ts removed, or rewritten to the cert 3-door taxonomy; if the generator is wired into prebuild, a dangling slug fails the build; generated/navPanels.ts output matches the current hand-authored 3-door version
 
-### OI-20260902-cert-local-main-diverged — ~/Desktop/heavymetalcertified local main diverged from origin/main: unpushed fa47019 duplicates pushed 30b32c1 (same home fix, different sha)
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `.git`
-- repro: cd ~/Desktop/heavymetalcertified && git fetch && git log --oneline origin/main..main (fa47019) && git log --oneline main..origin/main (6ab10f4 30b32c1 8066338) && git diff fa47019 30b32c1 -- content/index.md | wc -l (0)
-- done when: Working tree clean (stash or commit the 344 build-regenerated files first; do not discard untracked data/standards/doi-manifest.csv); git rebase origin/main completes with fa47019 dropped as already-applied; git status shows main up to date with origin/main; no force-push anywhere
-- notes: Found during the 2026-09-02 cert build audit; the audit session did not touch the local branch because an interactive session was committing there concurrently.
-
-### OI-20260902-cert-cat26-stale-framing-no-version-bump — LIVE: Cat-26 pages say no government limit / mandatory control / never a product-content ceiling while the table publishes ICH Q3D ceilings; values changed twice on 2026-09-02 with standard_version still 1.0 (2026-08-14) and no version-history record
+### OI-20260902-cert-cat26-stale-framing-no-version-bump — Cat-26: framing + v1.1 bump landed (9ee27a5); RESIDUAL = no version-history record and no retained v1.0 edition PDF for the 5 pages
 
 - scope: **auto** · type: content · status: open · repo: cert
-- paths: `content/standards/aas-injectable.md`, `content/standards/peptides-injectable-hormones.md`, `content/standards/peptides-nasal-sublingual.md`, `content/standards/research-chem-raw-powders.md`, `content/standards/sarms-oral.md`, `data/standards/cat26-compiled`, `data/standards/version-history`, `tools/render-all-standard-pages.mjs`
-- repro: git show origin/main:content/standards/aas-injectable.md | grep -E "^(description|standard_version|methodology_version)" ; live https://heavymetalcertified.com/standards/aas-injectable contains "No government sets a heavy-metal content limit for this class" and "Mandatory control (no government ML)" above a Master Limit Table with Pb 500 / Cd 200 / tHg 300 (ICH Q3D(R2) parenteral Option 1). Drinking-water proxy (3d4359b 06:56) then ICH Q3D (6ab10f4 10:15) both shipped under v1.0 (2026-08-14); ls data/standards/version-history has no cat26 record.
-- done when: description, methodology_version, snapshot Method row, and the How-limits-are-set prose on all 5 Cat-26 pages are generated from the compiled record and state: read-across from ICH Q3D(R2) Table A.2.2 Option-1 concentrations (10 g/day assumption, disclosed as conservative for sub-gram injectables) and FDA 21 CFR 201.323 for Al; no remaining no-ceiling or mandatory-control-only language; standard_version bumped to 1.1 with a version-history entry summarising both 2026-09-02 changes; the superseded v1.0 PDF stays resolvable; Manuals-page promise "superseded, never quietly corrected" holds for Cat-26
-- evidence: ICH Q3D(R2) Option-1 values in 6ab10f4 verified: oral Pb 500/Cd 500/As 1500/Hg 3000/Ni 20000/Sn 600000/Cr 1.1M ug/kg; parenteral Pb 500/Cd 200/As 1500/Hg 300/Ni 2000/Sn 60000/Cr 110000 ug/kg (numbers correct)
-- notes: Numbers are right; the framing and versioning are wrong. Same defect class as OI-20260831-version-doi-mint-flow (quiet correction on a dated standard).
+- paths: `data/standards/version-history`, `content/standards/aas-injectable.md`, `content/standards/peptides-injectable-hormones.md`, `content/standards/peptides-nasal-sublingual.md`, `content/standards/research-chem-raw-powders.md`, `content/standards/sarms-oral.md`
+- repro: git show 9ee27a5 --stat: descriptions, methodology_version (v2.1), method prose and standard_version 1.1 (2026-09-02) fixed on all 5 pages; compiled values unchanged. ls data/standards/version-history | grep -iE "aas|peptid|sarms|research-chem" -> nothing. The manuals page promises a superseded edition stays resolvable; v1.0 (2026-08-14) of these 5 standards has no record and no PDF.
+- done when: data/standards/version-history/<slug>.json exists for all 5 Cat-26 slugs with 1.0 (superseded, 2026-08-14) and 1.1 (current, 2026-09-02) entries summarising both 2026-09-02 value changes (drinking-water proxy then ICH Q3D); build-cert-version-history renders the Document versions rail and history section on the 5 pages; a v1.0 PDF is retained at a stable /static/standards/ path or the entry states honestly that no v1.0 PDF was archived
+- notes: Narrowed 2026-09-02 07:40Z by the cert build audit after the interactive cert session shipped the framing fix.
 
 ### OI-20260902-cert-cat23-release-basis-conflation — LIVE: Cat-23 metal/ceramic/glass food-contact standards publish alloy-composition and toy-migration values under a release-into-food basis label (cookware Pb 1,000,000 ppb)
 
