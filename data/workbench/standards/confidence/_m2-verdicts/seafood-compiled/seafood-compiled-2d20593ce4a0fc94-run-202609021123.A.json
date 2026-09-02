@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p4",
+  "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021123",
+  "evidence_key": "2d20593ce4a0fc94",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "Read-across: the anchor's scope ('baked foods ...; deep-fried flour products; batter, breading, and frying powder', dry sample, calculated as Al, product as placed on market) does not name seaweed, but no jurisdiction in the register sets an aluminium content ML for seaweed, algae or any plant food, and the only other food-content Al rows are the looser GB 2760-2024 starch-noodle line (200 000) and the AU/NZ infant-formula lines (500/1000, as-consumed formula, a different product and basis family). The 100 mg/kg dry-sample cap is therefore the nearest and strictest same-basis (dry, as-sold content) sovereign Al instrument for dried seaweed as sold; GB 2760-2024 is in force since 2025-02-08 and the row is primary-verified. Note for the register: the row's regulation_page pointer 'regulations/china-gb-2760-2024-food-additives' has no page under wiki/regulations/, so the instrument is verifiable only from the register row itself."
+    }
+  ]
+}

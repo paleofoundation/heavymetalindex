@@ -1,0 +1,121 @@
+{
+ "packet_id": "m2-20260902b-p4",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-b",
+ "agent": "A",
+ "adjudicated_on": "2026-09-02",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021123",
+   "evidence_key": "2d20593ce4a0fc94",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "Read-across: the anchor's scope ('baked foods ...; deep-fried flour products; batter, breading, and frying powder', dry sample, calculated as Al, product as placed on market) does not name seaweed, but no jurisdiction in the register sets an aluminium content ML for seaweed, algae or any plant food, and the only other food-content Al rows are the looser GB 2760-2024 starch-noodle line (200 000) and the AU/NZ infant-formula lines (500/1000, as-consumed formula, a different product and basis family). The 100 mg/kg dry-sample cap is therefore the nearest and strictest same-basis (dry, as-sold content) sovereign Al instrument for dried seaweed as sold; GB 2760-2024 is in force since 2025-02-08 and the row is primary-verified. Note for the register: the row's regulation_page pointer 'regulations/china-gb-2760-2024-food-additives' has no page under wiki/regulations/, so the instrument is verifiable only from the register row itself."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-e253d63c28db7e96-run-202609021123",
+   "evidence_key": "e253d63c28db7e96",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Cr",
+     "derived_value": 2000,
+     "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+     "same_basis_candidates": [
+      {
+       "id": "china_gb2762_2025_crtotal_beans_legumes_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Nearer read-across analog than milk powder: GB 2762-2025 Table 7 item 3.1 'Beans (dried pulses and flours milled from dried pulses)' is a dry-as-sold plant food, matching dried seaweed on both product origin (plant) and basis (dry, product as placed on market); in force 2026-09-02."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_cereals_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Same instrument, Table 7 item 1.1 'Cereals': a second dry-as-sold plant staple at 1.0 mg/kg total Cr, concurring with the dried-pulse line as the nearest dry plant-food analog."
+      },
+      {
+       "id": "hk_cap132v_crtotal_pulses_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Hong Kong Cap 132V Part 2 item 7 'Pulses' at 1 mg/kg total Cr, solid food recorded as-sold; concurring second sovereign for dry plant foods."
+      },
+      {
+       "id": "hk_cap132v_crtotal_cereals_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Hong Kong Cap 132V Part 2 item 7 'Cereals' at 1 mg/kg total Cr, as-sold; concurring second sovereign for dry plant foods."
+      }
+     ],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor's scope 'Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2)' does not cover seaweed, and the read-across is not the nearest same-basis sovereign instrument: the same Table 7 carries dry-as-sold plant-food lines (beans/dried pulses item 3.1 and cereals item 1.1, both 1.0 mg/kg total Cr) that match dried nori/wakame/kombu/dulse on plant origin and dry basis, whereas milk powder matches on dryness only; Hong Kong Cap 132V pulses and cereals concur at 1 mg/kg. GB 2762-2025 sets no chromium line for its Annex A algae category and clause 3.5 restricts fresh-to-dried conversion to dried aquatic products and dried edible fungi, so no direct sovereign Cr ML exists for dried seaweed and the nearest dry plant-food analog at 1000 should bind. The fresh-vegetable rows (GB Table 7 item 2.1 and HK 'Vegetables, other than pulses', both 500) are fresh-weight lines that would scale up under HK regulation 3(2)(b) for dried product, and the HK schedule names 'Seaweed' as its own item where it means to cover it, so they are not taken at face value on this dry cell."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021123",
+   "evidence_key": "69bc926b7cf83ece",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor is the California SWRCB hexavalent-chromium MCL of 0.010 mg/L for water delivered by public water systems (scope 'drinking water'; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'); a drinking-water row is not a food-content row, so basis condition (b) fails for an as-sold dried-seaweed content cell. The register holds no food-content Cr-VI maximum level in any jurisdiction (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), and GB 2762-2025 Table 7 expressly sets total chromium only. The cell should be published as a species-bounded cell, Cr-VI <= total Cr, with the parent total as its number: 1000 on this packet's adjudication of the Cr parent (2000 if the milk-powder parent is retained), never a read-across from a water MCL."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021123",
+   "evidence_key": "7b5e59f213e493bf",
+   "cells": [
+    {
+     "key": "shellfish|both|Pb",
+     "derived_value": 500,
+     "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "confirmed",
+     "reason": "The anchor's scope 'Fish and crustaceans (fresh and frozen) (GB 2762-2025 Table 1, item 9.2)' covers the crustacean member of this shellfish row on a wet-weight, product-as-placed-on-market basis, which for fresh and frozen shellfish is the same as the cell's as-consumed basis (no conversion). GB 2762-2025 entered into force today, 2026-09-02, and the line is unchanged from GB 2762-2022, so there is no gap in force. The bivalve-mollusc member is governed by looser sovereign lines (GB 2762-2025 item 9.3, EU 2023/915, HK Cap 132V, CR, PA, GY, GSO, IN, VN, MERCOSUR, PY, MA all 1500; MX NOM-242 molluscs 1000; AU/NZ molluscs 2000) and processed non-canned shellfish by GB item 9.4 at 1000, so 500 applied row-wide sits at or below every member's legal ceiling; every non-gated crustacean lead row in the register (HK, MX, CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY, MA) concurs at 500 and none is stricter (the GY 25 line is quarantined and excluded)."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021123",
+   "evidence_key": "42be502b999b13ba",
+   "cells": [
+    {
+     "key": "shellfish|both|Cd",
+     "derived_value": 500,
+     "derived_anchor_id": "eu2023_cd_crustaceans_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "confirmed",
+     "reason": "The anchor's scope 'crustaceans' (EU 2023/915 Annex I, 0.50 mg/kg wet weight, muscle meat from appendages and abdomen, appendages only for crabs and crab-like crustaceans) covers the crustacean member on the cell's as-consumed wet-weight basis, and Regulation (EU) 2023/915 is in force. The bivalve member carries looser sovereign lines (EU 2023/915 bivalve molluscs 1000; GB 2762-2025 item 8.4, HK, TH, PH, GSO, IN, VN, MERCOSUR, PY 2000; MA 1000), so 500 row-wide is at or below every member's ceiling; GB 2762-2025 item 8.2, MX NOM-242 'other fishery products', CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY and MA concur at 500 for crustaceans and no non-gated row is stricter. The VN QCVN 8-2:2011 'Aquatic products' line at 50 (table row 38, 0.05 mg/kg) is a general line displaced by that instrument's own specific crustacean (row 35, 0.5) and bivalve (2.0) rows, so it does not bind shellfish, and the GY 10 line is quarantined; GB item 8.3 (sea crab and mantis shrimp, 3000) is looser and does not disturb the min."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021123",
+   "evidence_key": "b25d29ae3469be77",
+   "cells": [
+    {
+     "key": "shellfish|both|MeHg",
+     "derived_value": 500,
+     "derived_anchor_id": "mx_nom242_mehg_other_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "confirmed",
+     "reason": "NOM-242-SSA1-2009 section 7.1.8 (fresh, refrigerated and frozen products) sets methylmercury at 1.0 mg/kg for 'fish such as tuna, marlin, grouper, and bonito' and 0.5 mg/kg for 'other fishery products', in a table whose cadmium and lead lines separately name molluscs and crustaceans, and the standard's scope expressly covers bivalve-mollusc capture areas and crustacean products; crustaceans and bivalve molluscs therefore fall directly inside 'other fishery products', and the processed-products table repeats 0.5 mg/kg for 'other processed fishery products', covering non-canned processed shellfish. The instrument has been in force since 2011-05-10 on a wet-weight basis matching the cell. This is direct sovereign coverage rather than a read-across (the cell's kind label should be gov), and it is corroborated at the same value by GB 2762-2025 Table 3 item 1.1 'Aquatic animals and their products, excluding predatory fish' (MeHg 0.5 mg/kg, in force 2026-09-02) and TH MOPH 414/2020 'other marine animals or plants' (0.5 mg/kg); no non-gated MeHg row is stricter, the FDA CPG 540.600 and GSO crustacean lines are looser at 1000, and the total-mercury ceilings for crustaceans and bivalves (EU 2023/915, AU/NZ, HK, MERCOSUR, PY, GY, CR, IN, VN) are also 500, so MeHg <= tHg <= 500 is internally consistent."
+    }
+   ]
+  }
+ ]
+}

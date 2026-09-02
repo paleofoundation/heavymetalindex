@@ -172,7 +172,8 @@
   },
   "escalations_batched": [],
   "notes": [
-    "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget"
+    "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget",
+    "DESIGN (2026-09-02): confidence-run computes every manifest and M2 packet against the CERT record bytes (the published standard). A held correction lives only in the index dir until ratified, so M2 keeps refuting the frozen cert cell (e.g. seafood seaweed Cr milk-powder anchor, Cr-VI water MCL) until the ratified fix is copied to cert; that is expected, not a regression."
   ],
   "phase_f": {
     "gate0_registry": "done (cert fc7a463 + 9466c97: data/standards/doi-registry.json keyed by page slug; renderers + readiness read it; doi-registry-lint in prebuild)",

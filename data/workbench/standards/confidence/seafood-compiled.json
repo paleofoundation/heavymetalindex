@@ -3,11 +3,11 @@
   "compiled_dir": "seafood-compiled",
   "category": 6,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-202609021137",
+  "run_id": "run-202609021217",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T11:37:28.339Z",
-  "register_commit": "b6b53a479",
-  "cert_commit": "e4ee816",
+  "generated_at": "2026-09-02T12:17:47.209Z",
+  "register_commit": "750c5bfb8",
+  "cert_commit": "9ff16f2",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -64,8 +64,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.331Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.202Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cd": {
@@ -129,8 +129,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.332Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|tAs": {
@@ -190,8 +190,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.332Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|iAs": {
@@ -231,8 +231,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.332Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|tHg": {
@@ -272,8 +272,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.332Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|MeHg": {
@@ -337,8 +337,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.333Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Ni": {
@@ -402,8 +402,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.333Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Sn": {
@@ -443,8 +443,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.333Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.203Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Al": {
@@ -484,8 +484,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.333Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.204Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cr": {
@@ -525,8 +525,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.334Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.204Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "canned-seafood|both|Cr-VI": {
@@ -590,8 +590,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.334Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.204Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Pb": {
@@ -651,8 +651,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.334Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.204Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cd": {
@@ -712,8 +712,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.334Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.204Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|tAs": {
@@ -773,8 +773,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|iAs": {
@@ -814,8 +814,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|tHg": {
@@ -875,8 +875,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|MeHg": {
@@ -936,8 +936,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Ni": {
@@ -1001,8 +1001,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Sn": {
@@ -1066,8 +1066,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Al": {
@@ -1107,8 +1107,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.335Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cr": {
@@ -1148,8 +1148,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.336Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "cephalopods|both|Cr-VI": {
@@ -1213,8 +1213,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.336Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.205Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Pb": {
@@ -1274,8 +1274,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.336Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cd": {
@@ -1335,8 +1335,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.336Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|tAs": {
@@ -1396,8 +1396,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|iAs": {
@@ -1437,8 +1437,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|tHg": {
@@ -1502,8 +1502,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|MeHg": {
@@ -1566,8 +1566,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Ni": {
@@ -1631,8 +1631,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.206Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Sn": {
@@ -1696,8 +1696,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Al": {
@@ -1737,8 +1737,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cr": {
@@ -1778,8 +1778,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-freshwater|both|Cr-VI": {
@@ -1843,8 +1843,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Pb": {
@@ -1907,8 +1907,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cd": {
@@ -1972,8 +1972,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|tAs": {
@@ -2033,8 +2033,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|iAs": {
@@ -2074,8 +2074,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|tHg": {
@@ -2135,8 +2135,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|MeHg": {
@@ -2196,8 +2196,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Ni": {
@@ -2261,8 +2261,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Sn": {
@@ -2326,8 +2326,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Al": {
@@ -2367,8 +2367,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cr": {
@@ -2408,8 +2408,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-non-predatory|both|Cr-VI": {
@@ -2473,8 +2473,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.337Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Pb": {
@@ -2514,8 +2514,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cd": {
@@ -2555,8 +2555,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|tAs": {
@@ -2616,8 +2616,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|iAs": {
@@ -2657,8 +2657,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|tHg": {
@@ -2722,8 +2722,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.207Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|MeHg": {
@@ -2787,8 +2787,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Ni": {
@@ -2852,8 +2852,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Sn": {
@@ -2917,8 +2917,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Al": {
@@ -2958,8 +2958,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cr": {
@@ -2999,8 +2999,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "fish-marine-predatory|both|Cr-VI": {
@@ -3064,8 +3064,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Pb": {
@@ -3105,8 +3105,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cd": {
@@ -3146,8 +3146,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|tAs": {
@@ -3207,8 +3207,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|iAs": {
@@ -3268,8 +3268,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|tHg": {
@@ -3309,8 +3309,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|MeHg": {
@@ -3350,8 +3350,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Ni": {
@@ -3414,8 +3414,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.338Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Sn": {
@@ -3479,8 +3479,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Al": {
@@ -3489,7 +3489,7 @@
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
-        "M2:no verdicts yet"
+        "M2:1 blind verdict(s), need 2"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -3517,11 +3517,24 @@
       },
       "m2": {
         "status": "pending",
-        "batch_ids": [],
-        "lenses": []
+        "batch_ids": [
+          "seafood-compiled-2d20593ce4a0fc94-run-202609021123"
+        ],
+        "lenses": [
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021123",
+            "applicability": "confirmed",
+            "blind_value": 100000,
+            "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+            "reason": "Read-across: the anchor's scope ('baked foods ...; deep-fried flour products; batter, breading, and frying powder', dry sample, calculated as Al, product as placed on market) does not name seaweed, but no jurisdiction in the register sets an aluminium content ML for seaweed, algae or any plant food, and the only other food-content Al rows are the looser GB 2760-2024 starch-noodle line (200 000) and the AU/NZ infant-formula lines (500/1000, as-consumed formula, a different product and basis family). The 100 mg/kg dry-sample cap is therefore the nearest and strictest same-basis (dry, as-sold content) sovereign Al instrument for dried seaweed as sold; GB 2760-2024 is in force since 2025-02-08 and the row is primary-verified. Note for the register: the row's regulation_page pointer 'regulations/china-gb-2760-2024-food-additives' has no page under wiki/regulations/, so the instrument is verifiable only from the register row itself."
+          }
+        ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cr": {
@@ -3530,7 +3543,8 @@
       "analyte": "Cr",
       "verdict": "refuted",
       "reasons": [
-        "M2:A refuted: Table 7 item 6.2 'Milk powder and modified milk powder' (乳粉和调制乳粉) at 2.0 mg/kg total chromium is an as-sold line in force from 2026-09-02, but it does not cover algae, which GB 2762-2025 Annex A treats as their own category (Table 1 items 6.1 to 6.4) with no chromium line, so 2000 is a read-across at face value. Milk powder is not the nearest same-basis analog: within the same instrument the dry plant-food lines, item 3.1 beans (dried pulses) and items 1.1/1.2 cereals and milled cereal products, are as-sold dry-basis lines at 1000 (china_gb2762_2025_crtotal_beans_legumes_1000, china_gb2762_2025_crtotal_cereals_1000), and the marine-origin line item 5.1 'Aquatic animals and their products' concurs at 2000 (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000); the dairy analog is the least defensible of the three and, if the program re-anchors to the nearest dry plant-food line, the value becomes 1000. Hong Kong Cap 132V 'Vegetables, other than pulses' 500 (hk_cap132v_crtotal_vegetables-other-than-pulses_500) is not listed as a stricter candidate because the Schedule names 'Seaweed' separately where it means seaweed and Reg 3(2)(b) scales dried-food maxima by the concentration change, so it is neither shown to cover seaweed nor stricter on a dried basis; no direct sovereign total-chromium level for seaweed exists in the register."
+        "M2:A refuted: Table 7 item 6.2 'Milk powder and modified milk powder' (乳粉和调制乳粉) at 2.0 mg/kg total chromium is an as-sold line in force from 2026-09-02, but it does not cover algae, which GB 2762-2025 Annex A treats as their own category (Table 1 items 6.1 to 6.4) with no chromium line, so 2000 is a read-across at face value. Milk powder is not the nearest same-basis analog: within the same instrument the dry plant-food lines, item 3.1 beans (dried pulses) and items 1.1/1.2 cereals and milled cereal products, are as-sold dry-basis lines at 1000 (china_gb2762_2025_crtotal_beans_legumes_1000, china_gb2762_2025_crtotal_cereals_1000), and the marine-origin line item 5.1 'Aquatic animals and their products' concurs at 2000 (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000); the dairy analog is the least defensible of the three and, if the program re-anchors to the nearest dry plant-food line, the value becomes 1000. Hong Kong Cap 132V 'Vegetables, other than pulses' 500 (hk_cap132v_crtotal_vegetables-other-than-pulses_500) is not listed as a stricter candidate because the Schedule names 'Seaweed' separately where it means seaweed and Reg 3(2)(b) scales dried-food maxima by the concentration change, so it is neither shown to cover seaweed nor stricter on a dried basis; no direct sovereign total-chromium level for seaweed exists in the register.",
+        "M2:A refuted: The anchor's scope 'Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2)' does not cover seaweed, and the read-across is not the nearest same-basis sovereign instrument: the same Table 7 carries dry-as-sold plant-food lines (beans/dried pulses item 3.1 and cereals item 1.1, both 1.0 mg/kg total Cr) that match dried nori/wakame/kombu/dulse on plant origin and dry basis, whereas milk powder matches on dryness only; Hong Kong Cap 132V pulses and cereals concur at 1 mg/kg. GB 2762-2025 sets no chromium line for its Annex A algae category and clause 3.5 restricts fresh-to-dried conversion to dried aquatic products and dried edible fungi, so no direct sovereign Cr ML exists for dried seaweed and the nearest dry plant-food analog at 1000 should bind. The fresh-vegetable rows (GB Table 7 item 2.1 and HK 'Vegetables, other than pulses', both 500) are fresh-weight lines that would scale up under HK regulation 3(2)(b) for dried product, and the HK schedule names 'Seaweed' as its own item where it means to cover it, so they are not taken at face value on this dry cell."
       ],
       "state": "firm",
       "kind": "read_across",
@@ -3559,7 +3573,8 @@
       "m2": {
         "status": "refuted",
         "batch_ids": [
-          "seafood-compiled-e253d63c28db7e96-run-20260902-a"
+          "seafood-compiled-e253d63c28db7e96-run-20260902-a",
+          "seafood-compiled-e253d63c28db7e96-run-202609021123"
         ],
         "lenses": [
           {
@@ -3581,11 +3596,21 @@
             "blind_value": 2000,
             "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
             "reason": "GB 2762-2025 Table 7 item 6.2 'Milk powder and modified milk powder' 2.0 mg/kg total Cr, product as placed on market, entered into force on 2 September 2026 (today) with the value unchanged from GB 2762-2022, so the disclosed read-across is in force and on the cell's as-sold content basis. No sovereign instrument in the register sets a chromium ML for algae: GB 2762-2025 Table 7 has no algae line and its Annex A keeps algae (Table 1 group 6) distinct from vegetables (group 2), and HK Cap 132V lists 'Seaweed' as its own arsenic item separate from 'Vegetables', so the fresh-basis vegetable rows (china_gb2762_2025_crtotal_fresh_vegetables_500, hk_cap132v_crtotal_vegetables-other-than-pulses_500) do not cover this product and are not listed as candidates. The nearest same-instrument analogs, milk powder (dried product) and Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000, marine origin, includes dried products), both give 2000, so the number is stable whichever analog is cited; citing item 5.1 alongside 6.2 would strengthen the disclosure."
+          },
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-e253d63c28db7e96-run-202609021123",
+            "applicability": "refuted",
+            "blind_value": 1000,
+            "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+            "reason": "The anchor's scope 'Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2)' does not cover seaweed, and the read-across is not the nearest same-basis sovereign instrument: the same Table 7 carries dry-as-sold plant-food lines (beans/dried pulses item 3.1 and cereals item 1.1, both 1.0 mg/kg total Cr) that match dried nori/wakame/kombu/dulse on plant origin and dry basis, whereas milk powder matches on dryness only; Hong Kong Cap 132V pulses and cereals concur at 1 mg/kg. GB 2762-2025 sets no chromium line for its Annex A algae category and clause 3.5 restricts fresh-to-dried conversion to dried aquatic products and dried edible fungi, so no direct sovereign Cr ML exists for dried seaweed and the nearest dry plant-food analog at 1000 should bind. The fresh-vegetable rows (GB Table 7 item 2.1 and HK 'Vegetables, other than pulses', both 500) are fresh-weight lines that would scale up under HK regulation 3(2)(b) for dried product, and the HK schedule names 'Seaweed' as its own item where it means to cover it, so they are not taken at face value on this dry cell."
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "seaweed-kelp-foods|both|Cr-VI": {
@@ -3595,7 +3620,8 @@
       "verdict": "refuted",
       "reasons": [
         "M2:A refuted: The anchor is a drinking-water MCL (0.010 mg/L for 'community and nontransient-noncommunity public water systems', effective 2024-10-01) and the regulation page itself states it 'is a drinking-water standard, not a food limit' that 'should not be compared directly to a food-occurrence concentration'; carrying 10 µg/L onto a dried as-sold seaweed content cell crosses basis families, which condition (b) forbids, so the 10 derived at face value is not an applicable number. The register holds no food-content Cr-VI row for any food (its 19 Cr-VI rows are drinking water, EN 71-3 toy migration, textiles, leather, RoHS homogeneous materials, tattoo inks and fertilisers), so no same-basis sovereign instrument exists to read across from. The same-basis treatment available is species-bounded-by-parent (Cr-VI at or below the Cr-total cell, currently 2000) or a disclosed baseline screen, not the water MCL.",
-        "M2:B refuted: The anchor is the California drinking-water MCL for hexavalent chromium, 0.010 mg/L for community and nontransient-noncommunity public water systems (scope 'drinking water'; regulation page: 'This is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'), while the cell is an as-sold dried-food content cell, so criterion (b) fails: a water row is not a food-content row and the face-value transfer of 10 ug/L to 10 ug/kg of dried seaweed is supported by no instrument. The register holds no food-content Cr-VI sovereign row anywhere (the remaining Cr-VI rows are AU/CA water, EU toy migration, REACH textiles and leather, RoHS, tattoo ink and fertiliser), so no same-basis read-across exists; the defensible treatment is a subsumed cell bounded by the parent total-chromium cell (Cr-VI <= Cr-total 2000 as sold) or a disclosed baseline screen, not a firm 10 ug/kg."
+        "M2:B refuted: The anchor is the California drinking-water MCL for hexavalent chromium, 0.010 mg/L for community and nontransient-noncommunity public water systems (scope 'drinking water'; regulation page: 'This is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'), while the cell is an as-sold dried-food content cell, so criterion (b) fails: a water row is not a food-content row and the face-value transfer of 10 ug/L to 10 ug/kg of dried seaweed is supported by no instrument. The register holds no food-content Cr-VI sovereign row anywhere (the remaining Cr-VI rows are AU/CA water, EU toy migration, REACH textiles and leather, RoHS, tattoo ink and fertiliser), so no same-basis read-across exists; the defensible treatment is a subsumed cell bounded by the parent total-chromium cell (Cr-VI <= Cr-total 2000 as sold) or a disclosed baseline screen, not a firm 10 ug/kg.",
+        "M2:A refuted: The anchor is the California SWRCB hexavalent-chromium MCL of 0.010 mg/L for water delivered by public water systems (scope 'drinking water'; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'); a drinking-water row is not a food-content row, so basis condition (b) fails for an as-sold dried-seaweed content cell. The register holds no food-content Cr-VI maximum level in any jurisdiction (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), and GB 2762-2025 Table 7 expressly sets total chromium only. The cell should be published as a species-bounded cell, Cr-VI <= total Cr, with the parent total as its number: 1000 on this packet's adjudication of the Cr parent (2000 if the milk-powder parent is retained), never a read-across from a water MCL."
       ],
       "state": "firm",
       "kind": "read_across",
@@ -3624,7 +3650,8 @@
       "m2": {
         "status": "refuted",
         "batch_ids": [
-          "seafood-compiled-69bc926b7cf83ece-run-20260902-a"
+          "seafood-compiled-69bc926b7cf83ece-run-20260902-a",
+          "seafood-compiled-69bc926b7cf83ece-run-202609021123"
         ],
         "lenses": [
           {
@@ -3646,11 +3673,21 @@
             "blind_value": 10,
             "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
             "reason": "The anchor is the California drinking-water MCL for hexavalent chromium, 0.010 mg/L for community and nontransient-noncommunity public water systems (scope 'drinking water'; regulation page: 'This is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'), while the cell is an as-sold dried-food content cell, so criterion (b) fails: a water row is not a food-content row and the face-value transfer of 10 ug/L to 10 ug/kg of dried seaweed is supported by no instrument. The register holds no food-content Cr-VI sovereign row anywhere (the remaining Cr-VI rows are AU/CA water, EU toy migration, REACH textiles and leather, RoHS, tattoo ink and fertiliser), so no same-basis read-across exists; the defensible treatment is a subsumed cell bounded by the parent total-chromium cell (Cr-VI <= Cr-total 2000 as sold) or a disclosed baseline screen, not a firm 10 ug/kg."
+          },
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021123",
+            "applicability": "refuted",
+            "blind_value": 1000,
+            "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+            "reason": "The anchor is the California SWRCB hexavalent-chromium MCL of 0.010 mg/L for water delivered by public water systems (scope 'drinking water'; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'); a drinking-water row is not a food-content row, so basis condition (b) fails for an as-sold dried-seaweed content cell. The register holds no food-content Cr-VI maximum level in any jurisdiction (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), and GB 2762-2025 Table 7 expressly sets total chromium only. The cell should be published as a species-bounded cell, Cr-VI <= total Cr, with the parent total as its number: 1000 on this packet's adjudication of the Cr parent (2000 if the milk-powder parent is retained), never a read-across from a water MCL."
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Pb": {
@@ -3688,7 +3725,8 @@
       "m2": {
         "status": "refuted",
         "batch_ids": [
-          "seafood-compiled-7b5e59f213e493bf-run-20260902-a"
+          "seafood-compiled-7b5e59f213e493bf-run-20260902-a",
+          "seafood-compiled-7b5e59f213e493bf-run-202609021123"
         ],
         "lenses": [
           {
@@ -3710,11 +3748,21 @@
             "blind_value": 500,
             "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
             "reason": "GB 2762-2025 Table 1 item 9.2 'Fish and crustaceans (fresh and frozen)' 0.5 mg/kg, product as placed on market, entered into force on 2 September 2026 (today), unchanged from GB 2762-2022, and for fresh or frozen shellfish the as-sold edible portion is the as-consumed portion, so the null conversion is right. The same 0.5 mg/kg crustacean value is carried by HK Cap 132V item 9, MX NOM-242, CR RTCR 409, PA, GY, IN FSSAI, FJ, VN QCVN 8-2, MERCOSUR, PY and GSO 193, and no non-gated same-basis row is stricter for crustaceans (gy2023 25 ppb is quarantined; FJ 200 is fish muscle only); the EU 2023/915 crustacean line (0.50 mg/kg, appendage and abdomen muscle) is absent from the register but would not move the number. The cell also spans bivalve molluscs, which every sovereign row sets at 1.5 mg/kg (eu2023_pb_bivalve_1500, china_gb2762_2025_pb_bivalve_molluscs_1500, HK, IN, VN, GSO, MERCOSUR; AU-NZ molluscs 2.0), so the anchor does not cover that half of the cell; 500 is the crustacean row applied to the whole cell and is at least as protective as the law for bivalves, so the number stands, but the standard should disclose that the bivalve ML is 1500 and label the bivalve application precautionary rather than regulatory-alignment."
+          },
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021123",
+            "applicability": "confirmed",
+            "blind_value": 500,
+            "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+            "reason": "The anchor's scope 'Fish and crustaceans (fresh and frozen) (GB 2762-2025 Table 1, item 9.2)' covers the crustacean member of this shellfish row on a wet-weight, product-as-placed-on-market basis, which for fresh and frozen shellfish is the same as the cell's as-consumed basis (no conversion). GB 2762-2025 entered into force today, 2026-09-02, and the line is unchanged from GB 2762-2022, so there is no gap in force. The bivalve-mollusc member is governed by looser sovereign lines (GB 2762-2025 item 9.3, EU 2023/915, HK Cap 132V, CR, PA, GY, GSO, IN, VN, MERCOSUR, PY, MA all 1500; MX NOM-242 molluscs 1000; AU/NZ molluscs 2000) and processed non-canned shellfish by GB item 9.4 at 1000, so 500 applied row-wide sits at or below every member's legal ceiling; every non-gated crustacean lead row in the register (HK, MX, CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY, MA) concurs at 500 and none is stricter (the GY 25 line is quarantined and excluded)."
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cd": {
@@ -3753,7 +3801,8 @@
       "m2": {
         "status": "refuted",
         "batch_ids": [
-          "seafood-compiled-42be502b999b13ba-run-20260902-a"
+          "seafood-compiled-42be502b999b13ba-run-20260902-a",
+          "seafood-compiled-42be502b999b13ba-run-202609021123"
         ],
         "lenses": [
           {
@@ -3775,11 +3824,21 @@
             "blind_value": 200,
             "derived_anchor_id": "eu2023_cd_crustaceans_500",
             "reason": "Anchor eu2023_cd_crustaceans_500 (EU 2023/915 Annex I 3.2.16, 'crustaceans', 0.50 mg/kg wet weight, applying to muscle meat of appendages and abdomen and excluding brown crab meat and lobster head/thorax meat) is in force today, is a food-content ML on an as-consumed content cell, and covers the crustacean half of 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the EU bivalve-molluscs Cd ML on the regulation page is 1.0 mg/kg, so 500 is the strictest-of-union value and holds bivalves tighter than their own EU ceiling, which is protective rather than a scope failure. Conditions (a)-(c) therefore hold and the refute rests on (d) alone: the register carries a stricter, non-gated, same-basis sovereign row, Singapore reg 31(5) 'other food' 200 ug/kg, which is the operative Singapore cadmium limit for crustaceans because Singapore's cadmium paragraph names only molluscs, dried mushrooms, seaweed, cocoa and salt specifically; a crustacean product at 300 ug/kg Cd would pass this cell yet be unsaleable in Singapore. Two further sub-500 rows were considered and not listed: Vietnam QCVN 8-2:2011 'Aquatic products' 50 (row 38) is that instrument's generic fish-muscle default and is displaced for this product form by Vietnam's own specific crustacean (500, row 35) and bivalve (2000, row 36) rows; Uruguay RBN 'solid foods in general except categories with particular limits' 200 cannot be resolved from the register or the Uruguay page, which records no shellfish-specific Cd row and does not state whether MERCOSUR GMC 12/2011 (crustaceans 500, bivalves 2000) is internalised as a particular limit. Every other in-force seafood-specific Cd row in the register (China GB 2762-2025 effective 2026-09-02, Costa Rica, Panama, Fiji, MERCOSUR/Paraguay, India, GSO, Morocco, Vietnam, Mexico, Guyana ppm rows) sits at 500 for crustaceans and 1000-3000 for bivalves; Hong Kong is 2000; Israel FCS 2016 rows are gated as not in force and the Guyana ppb rows as quarantined."
+          },
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021123",
+            "applicability": "confirmed",
+            "blind_value": 500,
+            "derived_anchor_id": "eu2023_cd_crustaceans_500",
+            "reason": "The anchor's scope 'crustaceans' (EU 2023/915 Annex I, 0.50 mg/kg wet weight, muscle meat from appendages and abdomen, appendages only for crabs and crab-like crustaceans) covers the crustacean member on the cell's as-consumed wet-weight basis, and Regulation (EU) 2023/915 is in force. The bivalve member carries looser sovereign lines (EU 2023/915 bivalve molluscs 1000; GB 2762-2025 item 8.4, HK, TH, PH, GSO, IN, VN, MERCOSUR, PY 2000; MA 1000), so 500 row-wide is at or below every member's ceiling; GB 2762-2025 item 8.2, MX NOM-242 'other fishery products', CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY and MA concur at 500 for crustaceans and no non-gated row is stricter. The VN QCVN 8-2:2011 'Aquatic products' line at 50 (table row 38, 0.05 mg/kg) is a general line displaced by that instrument's own specific crustacean (row 35, 0.5) and bivalve (2.0) rows, so it does not bind shellfish, and the GY 10 line is quarantined; GB item 8.3 (sea crab and mantis shrimp, 3000) is looser and does not disturb the min."
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|tAs": {
@@ -3839,8 +3898,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.208Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|iAs": {
@@ -3880,8 +3939,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|tHg": {
@@ -3941,8 +4000,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|MeHg": {
@@ -3951,7 +4010,7 @@
       "analyte": "MeHg",
       "verdict": "unverified",
       "reasons": [
-        "M2:no verdicts yet"
+        "M2:1 blind verdict(s), need 2"
       ],
       "state": "firm",
       "kind": "read_across",
@@ -3979,11 +4038,24 @@
       },
       "m2": {
         "status": "pending",
-        "batch_ids": [],
-        "lenses": []
+        "batch_ids": [
+          "seafood-compiled-b25d29ae3469be77-run-202609021123"
+        ],
+        "lenses": [
+          {
+            "agent": "A",
+            "model": "claude-fable-5-1",
+            "effort": "high",
+            "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021123",
+            "applicability": "confirmed",
+            "blind_value": 500,
+            "derived_anchor_id": "mx_nom242_mehg_other_500",
+            "reason": "NOM-242-SSA1-2009 section 7.1.8 (fresh, refrigerated and frozen products) sets methylmercury at 1.0 mg/kg for 'fish such as tuna, marlin, grouper, and bonito' and 0.5 mg/kg for 'other fishery products', in a table whose cadmium and lead lines separately name molluscs and crustaceans, and the standard's scope expressly covers bivalve-mollusc capture areas and crustacean products; crustaceans and bivalve molluscs therefore fall directly inside 'other fishery products', and the processed-products table repeats 0.5 mg/kg for 'other processed fishery products', covering non-canned processed shellfish. The instrument has been in force since 2011-05-10 on a wet-weight basis matching the cell. This is direct sovereign coverage rather than a read-across (the cell's kind label should be gov), and it is corroborated at the same value by GB 2762-2025 Table 3 item 1.1 'Aquatic animals and their products, excluding predatory fish' (MeHg 0.5 mg/kg, in force 2026-09-02) and TH MOPH 414/2020 'other marine animals or plants' (0.5 mg/kg); no non-gated MeHg row is stricter, the FDA CPG 540.600 and GSO crustacean lines are looser at 1000, and the total-mercury ceilings for crustaceans and bivalves (EU 2023/915, AU/NZ, HK, MERCOSUR, PY, GY, CR, IN, VN) are also 500, so MeHg <= tHg <= 500 is internally consistent."
+          }
+        ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Ni": {
@@ -4047,8 +4119,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Sn": {
@@ -4112,8 +4184,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Al": {
@@ -4153,8 +4225,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cr": {
@@ -4194,8 +4266,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     },
     "shellfish|both|Cr-VI": {
@@ -4259,8 +4331,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T11:37:28.339Z",
-      "run_id": "run-202609021137",
+      "verified_at": "2026-09-02T12:17:47.209Z",
+      "run_id": "run-202609021217",
       "session": "exciting-taussig-159366"
     }
   }
