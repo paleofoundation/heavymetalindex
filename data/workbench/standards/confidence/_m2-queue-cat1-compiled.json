@@ -1,0 +1,324 @@
+{
+  "compiled_dir": "cat1-compiled",
+  "run_id": "run-202609021136",
+  "batches": [
+    {
+      "evidence_key": "e253d63c28db7e96",
+      "analyte": "Cr",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-powder|cow|Cr",
+          "slug": "infant-formula-powder",
+          "product": "Infant formula (powder)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "infant-formula-powder|soy|Cr",
+          "slug": "infant-formula-powder",
+          "product": "Infant formula (powder)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "soy",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat1-compiled-e253d63c28db7e96-run-202609021136"
+    },
+    {
+      "evidence_key": "f75c930708426ddb",
+      "analyte": "Cr",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-powder|cow|Cr",
+          "slug": "infant-formula-powder",
+          "product": "Infant formula (powder)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat1-compiled-f75c930708426ddb-run-202609021136"
+    },
+    {
+      "evidence_key": "01819d57e4965f58",
+      "analyte": "Cr-VI",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-powder|cow|Cr-VI",
+          "slug": "infant-formula-powder",
+          "product": "Infant formula (powder)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "infant-formula-powder|soy|Cr-VI",
+          "slug": "infant-formula-powder",
+          "product": "Infant formula (powder)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "soy",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat1-compiled-01819d57e4965f58-run-202609021136"
+    },
+    {
+      "evidence_key": "733a7533cdf79609",
+      "analyte": "Ni",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-rtf-liquid|cow|Ni",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "infant-formula-rtf-liquid|soy|Ni",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "soy",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat1-compiled-733a7533cdf79609-run-202609021136"
+    },
+    {
+      "evidence_key": "05375f0142564509",
+      "analyte": "Cr",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-rtf-liquid|cow|Cr",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "infant-formula-rtf-liquid|soy|Cr",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "soy",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat1-compiled-05375f0142564509-run-202609021136"
+    },
+    {
+      "evidence_key": "0ca76d45e8affd2c",
+      "analyte": "Cr-VI",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 1,
+      "compiled_dir": "cat1-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "infant-formula-rtf-liquid|cow|Cr-VI",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "cow",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "infant-formula-rtf-liquid|soy|Cr-VI",
+          "slug": "infant-formula-rtf-liquid",
+          "product": "Infant formula (ready-to-feed, liquid)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "soy",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat1-compiled-0ca76d45e8affd2c-run-202609021136"
+    }
+  ]
+}

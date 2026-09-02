@@ -1,0 +1,92 @@
+{
+  "compiled_dir": "cat11-compiled",
+  "run_id": "run-202609021136",
+  "batches": [
+    {
+      "evidence_key": "d1808cb7815362b9",
+      "analyte": "Sn",
+      "basis_class": "as sold, whole can contents as packed (wet weight)",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 11,
+      "compiled_dir": "cat11-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-meats|_|Sn",
+          "slug": "canned-meats",
+          "product": "Canned meats (with tin flag)",
+          "scope_note": "Meat and poultry products hermetically sealed in a metal can and retort-processed: canned corned beef, canned luncheon meat and spiced ham, canned chicken and turkey, canned stewed and braised meat, canned meat pate and spread, and canned pet-food-adjacent human-grade meat. Canned fish and shellfish route to Category 6; canned soups, stews and complete meals whose meat content is one component among many route to Category 35; canned pet food routes to Category 17. THE TIN FLAG IS THIS ROW'S REASON TO EXIST: tin migrates from the internal surface of an unlacquered or damaged tinplate can into the food, so the canned-foods tin maximum level applies to this row and to no other row in Category 11.",
+          "material": null,
+          "basis_guard": "(wet weight|portion ordinarily consumed|product as placed on market|food as listed|as sold|as consumed|commodity|edible part|fresh weight)",
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat11-compiled-d1808cb7815362b9-run-202609021136"
+    },
+    {
+      "evidence_key": "1c3bd7632b2f703a",
+      "analyte": "Sn",
+      "basis_class": "as sold, whole can contents as packed (wet weight)",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 11,
+      "compiled_dir": "cat11-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-meats|_|Sn",
+          "slug": "canned-meats",
+          "product": "Canned meats (with tin flag)",
+          "scope_note": "Meat and poultry products hermetically sealed in a metal can and retort-processed: canned corned beef, canned luncheon meat and spiced ham, canned chicken and turkey, canned stewed and braised meat, canned meat pate and spread, and canned pet-food-adjacent human-grade meat. Canned fish and shellfish route to Category 6; canned soups, stews and complete meals whose meat content is one component among many route to Category 35; canned pet food routes to Category 17. THE TIN FLAG IS THIS ROW'S REASON TO EXIST: tin migrates from the internal surface of an unlacquered or damaged tinplate can into the food, so the canned-foods tin maximum level applies to this row and to no other row in Category 11.",
+          "material": null,
+          "basis_guard": "(wet weight|portion ordinarily consumed|product as placed on market|food as listed|as sold|as consumed|commodity|edible part|fresh weight)",
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat11-compiled-1c3bd7632b2f703a-run-202609021136"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat25-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat25-compiled-bcd0e2cb5d6bca16-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat25-compiled-2d20593ce4a0fc94-run-202609021136",
+      "key": "cannabis-concentrates|_|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

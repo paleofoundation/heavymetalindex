@@ -1,0 +1,395 @@
+{
+  "compiled_dir": "cat25-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/massachusetts-cannabis-heavy-metal-protocol-2020",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/massachusetts-cannabis-heavy-metal-protocol-2020.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "ma2020_pb_cannabis_all_uses_500",
+          "jurisdiction": "US-MA",
+          "authority": "Massachusetts Cannabis Control Commission",
+          "status": "guidance impurity limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "product as tested; micrograms per kilogram of product",
+          "product_scope": "finished marijuana products, all uses",
+          "regulation_page": "regulations/massachusetts-cannabis-heavy-metal-protocol-2020",
+          "url": "",
+          "notes": "Protocol states four metals in Exhibit 4; paragraph gives 500 ppb for all uses and 1000 ppb for ingestion only. Arsenic and mercury loaded as total species.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ade11f8b4765e26daf1953eb03293debc8609f8c8005e13baafeaab40fac2b45",
+          "row_sha256": "ade11f8b4765e26daf1953eb03293debc8609f8c8005e13baafeaab40fac2b45"
+        },
+        {
+          "regulatory_limit_id": "ma2020_cd_cannabis_all_uses_500",
+          "jurisdiction": "US-MA",
+          "authority": "Massachusetts Cannabis Control Commission",
+          "status": "guidance impurity limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "product as tested; micrograms per kilogram of product",
+          "product_scope": "finished marijuana products, all uses",
+          "regulation_page": "regulations/massachusetts-cannabis-heavy-metal-protocol-2020",
+          "url": "",
+          "notes": "Protocol states four metals in Exhibit 4; paragraph gives 500 ppb for all uses and 1000 ppb for ingestion only. Arsenic and mercury loaded as total species.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1dc63b884dfcf46df40a3bc2e97c4a476b7b7d177457fa947bb14f70a654c12f",
+          "row_sha256": "1dc63b884dfcf46df40a3bc2e97c4a476b7b7d177457fa947bb14f70a654c12f"
+        },
+        {
+          "regulatory_limit_id": "ma2020_tas_cannabis_all_uses_500",
+          "jurisdiction": "US-MA",
+          "authority": "Massachusetts Cannabis Control Commission",
+          "status": "guidance impurity limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as tested; micrograms per kilogram of product",
+          "product_scope": "finished marijuana products, all uses",
+          "regulation_page": "regulations/massachusetts-cannabis-heavy-metal-protocol-2020",
+          "url": "",
+          "notes": "Protocol states four metals in Exhibit 4; paragraph gives 500 ppb for all uses and 1000 ppb for ingestion only. Arsenic and mercury loaded as total species.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c47c09784911a83bc5af67aef8329971a5496ae1676e62051fab30a1bb4e8522",
+          "row_sha256": "c47c09784911a83bc5af67aef8329971a5496ae1676e62051fab30a1bb4e8522"
+        }
+      ],
+      "cells": [
+        "cannabis-concentrates|_|Pb",
+        "cannabis-concentrates|_|Cd",
+        "cannabis-concentrates|_|tAs",
+        "cannabis-concentrates|_|iAs",
+        "cannabis-edibles|_|tAs",
+        "cannabis-edibles|_|iAs",
+        "cannabis-tinctures-oils|_|tAs",
+        "cannabis-tinctures-oils|_|iAs",
+        "cannabis-topicals|_|tAs",
+        "cannabis-topicals|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_imcgmp152_2016_thg_cannabis_100",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health Medical Cannabis Unit",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "100",
+          "basis": "cannabis inflorescences after drying and cannabis products; source unit ppm",
+          "product_scope": "medical cannabis inflorescences after drying and cannabis products",
+          "regulation_page": "regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016",
+          "url": "",
+          "notes": "IMC-GMP Procedure 152 heavy-metals table: mercury maximum 0.1 ppm; mercury unspecified, loaded as total mercury.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e55fe0d6d1c69a0f562e8c17c5f38ccf5fc052310a67deba6f87930038c398a4",
+          "row_sha256": "e55fe0d6d1c69a0f562e8c17c5f38ccf5fc052310a67deba6f87930038c398a4"
+        }
+      ],
+      "cells": [
+        "cannabis-concentrates|_|tHg",
+        "cannabis-concentrates|_|MeHg",
+        "cannabis-edibles|_|tHg",
+        "cannabis-edibles|_|MeHg",
+        "cannabis-tinctures-oils|_|tHg",
+        "cannabis-tinctures-oils|_|MeHg",
+        "cannabis-topicals|_|tHg",
+        "cannabis-topicals|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_cereals_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "800",
+          "basis": "product as placed on market",
+          "product_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4",
+          "row_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4"
+        }
+      ],
+      "cells": [
+        "cannabis-concentrates|_|Ni",
+        "cannabis-edibles|_|Ni",
+        "cannabis-flower|_|Ni",
+        "cannabis-tinctures-oils|_|Ni",
+        "cannabis-topicals|_|Ni",
+        "cannabis-vape-cartridge-fill|_|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "cannabis-concentrates|_|Sn",
+        "cannabis-edibles|_|Sn",
+        "cannabis-flower|_|Sn",
+        "cannabis-tinctures-oils|_|Sn",
+        "cannabis-topicals|_|Sn",
+        "cannabis-vape-cartridge-fill|_|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/maryland-cannabis-heavy-metal-action-limits-2025.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "md2025_cr_total_cannabis_inhalation_600",
+          "jurisdiction": "US-MD",
+          "authority": "Maryland Cannabis Administration",
+          "status": "statutory limit",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "600",
+          "basis": "product as tested",
+          "product_scope": "usable cannabis and cannabis products except edible products; inhalation route",
+          "regulation_page": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+          "url": "",
+          "notes": "Maryland Technical Authority Rev. 6.0 Table 10 or 11; arsenic and mercury are unspecified and loaded as total species; chromium is plain Cr and loaded as total chromium.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "925717e9cbda0c377f77378147247620684b8cb993b5d292c3c4aa1377278e09",
+          "row_sha256": "925717e9cbda0c377f77378147247620684b8cb993b5d292c3c4aa1377278e09"
+        },
+        {
+          "regulatory_limit_id": "md2025_cr_total_cannabis_oral_1100000",
+          "jurisdiction": "US-MD",
+          "authority": "Maryland Cannabis Administration",
+          "status": "statutory limit",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1100000",
+          "basis": "product as tested",
+          "product_scope": "usable cannabis and cannabis products except edible products; oral route",
+          "regulation_page": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+          "url": "",
+          "notes": "Maryland Technical Authority Rev. 6.0 Table 10 or 11; arsenic and mercury are unspecified and loaded as total species; chromium is plain Cr and loaded as total chromium.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "8f684e2ed7bf967256b8504e239fd43c4bb49a2002a5945d6c2d3ab05668c7b1",
+          "row_sha256": "8f684e2ed7bf967256b8504e239fd43c4bb49a2002a5945d6c2d3ab05668c7b1"
+        },
+        {
+          "regulatory_limit_id": "md2025_cr_total_cannabis_cutaneous_1100000",
+          "jurisdiction": "US-MD",
+          "authority": "Maryland Cannabis Administration",
+          "status": "statutory limit",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1100000",
+          "basis": "product as tested",
+          "product_scope": "usable cannabis and cannabis products except edible products; cutaneous route",
+          "regulation_page": "regulations/maryland-cannabis-heavy-metal-action-limits-2025",
+          "url": "",
+          "notes": "Maryland Technical Authority Rev. 6.0 Table 10 or 11; arsenic and mercury are unspecified and loaded as total species; chromium is plain Cr and loaded as total chromium.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ab780f1b7af05338f6bc114db391e4f1328c762cffade12a37371f1d4810bf18",
+          "row_sha256": "ab780f1b7af05338f6bc114db391e4f1328c762cffade12a37371f1d4810bf18"
+        }
+      ],
+      "cells": [
+        "cannabis-concentrates|_|Cr",
+        "cannabis-concentrates|_|Cr-VI",
+        "cannabis-edibles|_|Cr",
+        "cannabis-edibles|_|Cr-VI",
+        "cannabis-flower|_|Cr",
+        "cannabis-flower|_|Cr-VI",
+        "cannabis-tinctures-oils|_|Cr",
+        "cannabis-tinctures-oils|_|Cr-VI",
+        "cannabis-topicals|_|Cr",
+        "cannabis-topicals|_|Cr-VI",
+        "cannabis-vape-cartridge-fill|_|Cr",
+        "cannabis-vape-cartridge-fill|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/california-dcc-2026-cannabis-heavy-metals-testing.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_pb_non_inhalable_cannabis_0_5ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "non-inhalable cannabis and non-inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for non-inhalable cannabis/cannabis products: 0.5 ug/g, normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "17b564d04b696e6d1c44c9226f6646b34c034758fb8bd46f7645e6f16ed7132e",
+          "row_sha256": "17b564d04b696e6d1c44c9226f6646b34c034758fb8bd46f7645e6f16ed7132e"
+        },
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_cd_non_inhalable_cannabis_0_5ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "non-inhalable cannabis and non-inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for non-inhalable cannabis/cannabis products: 0.5 ug/g, normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c69a11639411faa30332f0ae6e30cd793c2e3d31711cbe2369e12cbbe48c052a",
+          "row_sha256": "c69a11639411faa30332f0ae6e30cd793c2e3d31711cbe2369e12cbbe48c052a"
+        },
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_pb_inhalable_cannabis_0_5ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "inhalable cannabis and inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for inhalable cannabis/cannabis products: 0.5 ug/g, normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "36710d80d67ae76e254d516424c46e1ea31e11001d5c4c49da5d7ba45e240c4e",
+          "row_sha256": "36710d80d67ae76e254d516424c46e1ea31e11001d5c4c49da5d7ba45e240c4e"
+        },
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_cd_inhalable_cannabis_0_2ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "200",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "inhalable cannabis and inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for inhalable cannabis/cannabis products: 0.2 ug/g, normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ffbac949b7b3f9a3b2ca9dd7cd408c8576c2c4ae587b57c185d4f9b2991ef311",
+          "row_sha256": "ffbac949b7b3f9a3b2ca9dd7cd408c8576c2c4ae587b57c185d4f9b2991ef311"
+        },
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_tas_inhalable_cannabis_0_2ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "200",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "inhalable cannabis and inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for inhalable cannabis/cannabis products: 0.2 ug/g, normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e7bb176cb0122ad220df8e6bc116dff00d4d6be42f7751548920a71ea7e38589",
+          "row_sha256": "e7bb176cb0122ad220df8e6bc116dff00d4d6be42f7751548920a71ea7e38589"
+        },
+        {
+          "regulatory_limit_id": "us_ca_dcc_2026_thg_inhalable_cannabis_0_1ugg",
+          "jurisdiction": "US-CA",
+          "authority": "California Department of Cannabis Control",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "100",
+          "basis": "cannabis or cannabis product; source unit ug/g",
+          "product_scope": "inhalable cannabis and inhalable cannabis products",
+          "regulation_page": "regulations/california-dcc-2026-cannabis-heavy-metals-testing",
+          "url": "",
+          "notes": "Section 15723 heavy metals action level for inhalable cannabis/cannabis products: 0.1 ug/g, normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "b52f520751282e955215c7a0f4a8988896e829af1954f79b09a7da239ef310b5",
+          "row_sha256": "b52f520751282e955215c7a0f4a8988896e829af1954f79b09a7da239ef310b5"
+        }
+      ],
+      "cells": [
+        "cannabis-edibles|_|Pb",
+        "cannabis-edibles|_|Cd",
+        "cannabis-flower|_|Pb",
+        "cannabis-flower|_|Cd",
+        "cannabis-flower|_|tAs",
+        "cannabis-flower|_|iAs",
+        "cannabis-flower|_|tHg",
+        "cannabis-flower|_|MeHg",
+        "cannabis-tinctures-oils|_|Pb",
+        "cannabis-tinctures-oils|_|Cd",
+        "cannabis-topicals|_|Pb",
+        "cannabis-topicals|_|Cd",
+        "cannabis-vape-cartridge-fill|_|Pb",
+        "cannabis-vape-cartridge-fill|_|Cd",
+        "cannabis-vape-cartridge-fill|_|tAs",
+        "cannabis-vape-cartridge-fill|_|iAs",
+        "cannabis-vape-cartridge-fill|_|tHg",
+        "cannabis-vape-cartridge-fill|_|MeHg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "compiled_dir": "cat4-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Fruits and vegetables, except listed categories",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.1 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d94b533258a02e4a0b7110b5a7b929fff092666911d0c74b07423b8f1adef6c6",
+          "row_sha256": "d94b533258a02e4a0b7110b5a7b929fff092666911d0c74b07423b8f1adef6c6"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "product as placed on market",
+          "product_scope": "Fruits and vegetables, except listed categories",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.05 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "81d762725f395f394874ab76d5cc3300a842225c1336b46e8951f31525c0c636",
+          "row_sha256": "81d762725f395f394874ab76d5cc3300a842225c1336b46e8951f31525c0c636"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "iAs",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 3.1; limit 0.3 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "77598b38b5c9d53b66bdc8deced891bd28997df4bf7d87c29d241bddfd840293",
+          "row_sha256": "77598b38b5c9d53b66bdc8deced891bd28997df4bf7d87c29d241bddfd840293"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "tHg",
+          "value_ug_kg": "150",
+          "basis": "product as placed on market",
+          "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3.1; limit 0.15 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "92729967279ef01b00c8297712a6fff07566d9425c6c85e22609d49ee2d79149",
+          "row_sha256": "92729967279ef01b00c8297712a6fff07566d9425c6c85e22609d49ee2d79149"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "iAs",
+          "value_ug_kg": "60",
+          "basis": "product as placed on market",
+          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 3; limit 0.06 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5",
+          "row_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "tHg",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83",
+          "row_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83"
+        }
+      ],
+      "cells": [
+        "dried-fruit|_|Pb",
+        "dried-fruit|_|Cd",
+        "dried-fruit|_|iAs",
+        "dried-fruit|_|tHg",
+        "fresh-fruit|_|iAs",
+        "fresh-fruit|_|tHg",
+        "fruit-snacks|_|Pb",
+        "fruit-snacks|_|Cd",
+        "fruit-snacks|_|iAs",
+        "fruit-snacks|_|tHg",
+        "leafy-vegetables-other|_|iAs",
+        "non-root-vegetables|_|iAs",
+        "pickled-fermented-vegetables|_|iAs",
+        "root-tuber-vegetables|_|iAs",
+        "spinach|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_dried_fruits_tas_800",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "800",
+          "basis": "product as offered to consumer",
+          "product_scope": "dried fruits",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.8 mg/kg normalized to 800 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d887a7d6758d62314344b38189f51e41d11bfa5cf63df83033f3d16d70811075",
+          "row_sha256": "d887a7d6758d62314344b38189f51e41d11bfa5cf63df83033f3d16d70811075"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "fresh fruits excluding berries and small fruits",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "5dd61eb4c12690e95790b5b2c0ec19e563093ab12c30bfa4f2813a334cc80e89",
+          "row_sha256": "5dd61eb4c12690e95790b5b2c0ec19e563093ab12c30bfa4f2813a334cc80e89"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "compotes, jellies, jams, marmalades, and other fruit or vegetable sweets",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "de88e28a62ce3684c27e13c447b867af14394e0afde8663c4e846aeaa11babb6",
+          "row_sha256": "de88e28a62ce3684c27e13c447b867af14394e0afde8663c4e846aeaa11babb6"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "leaf vegetables including loose-leaf Brassicas and fresh aromatic herbs",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e551b338de98054cf2e7ca0f1973cafe19a7d56fed8faca86977f292b5f7a159",
+          "row_sha256": "e551b338de98054cf2e7ca0f1973cafe19a7d56fed8faca86977f292b5f7a159"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_bulb_vegetables_sheathing_leaves_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "bulb vegetables and sheathing leaves",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c9a9dab00483717db9bdc69238ecb718f50a9d79d54c3dbdc95768b85c93d745",
+          "row_sha256": "c9a9dab00483717db9bdc69238ecb718f50a9d79d54c3dbdc95768b85c93d745"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_cucurbitaceae_fruiting_vegetables_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "fruiting vegetables of the Cucurbitaceae family",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "5e3c608de54fb412a8f07c65adba211aff510516cf15df74453e96eab9d66881",
+          "row_sha256": "5e3c608de54fb412a8f07c65adba211aff510516cf15df74453e96eab9d66881"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_roots_and_tubers_tas_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "roots and tubers",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6f292b36a49b64a5df18107adddfad19450c313b78ebb60a1f4efd1822d63df9",
+          "row_sha256": "6f292b36a49b64a5df18107adddfad19450c313b78ebb60a1f4efd1822d63df9"
+        }
+      ],
+      "cells": [
+        "dried-fruit|_|tAs",
+        "fresh-fruit|_|tAs",
+        "fruit-snacks|_|tAs",
+        "leafy-vegetables-other|_|tAs",
+        "non-root-vegetables|_|tAs",
+        "pickled-fermented-vegetables|_|tAs",
+        "root-tuber-vegetables|_|tAs",
+        "spinach|_|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/switzerland-vhk-817-022-15-metal-metalloid-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "ch_vhk_2026_pb_obst_100",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "Obst",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 998; source species Blei; source value 0,1 mg/kg. ausgenommen Cranbeeren, Erdbeerbaumfrüchte,",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d63cf086d2a61afedb16e760b71953abc162d1591031300a7f63306019266bb7",
+          "row_sha256": "d63cf086d2a61afedb16e760b71953abc162d1591031300a7f63306019266bb7"
+        },
+        {
+          "regulatory_limit_id": "ch_vhk_2026_cd_kernobst_20",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "20",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "Kernobst",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 1073; source species Cadmium; source value 0,02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c7cfc3e97e75f7287f35c58e5491af811ae5c0c7125876954facaa0051c0f5f3",
+          "row_sha256": "c7cfc3e97e75f7287f35c58e5491af811ae5c0c7125876954facaa0051c0f5f3"
+        },
+        {
+          "regulatory_limit_id": "ch_vhk_2026_pb_fruchtgemuse_50",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "50",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "Fruchtgemüse",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 930; source species Blei; source value 0,05 mg/kg. ausgenommen Zuckermais",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3bd8c23cb96ea3b14aa8321b2c808f4b6f7387bfd3cfc992df1c16a1cf6f7604",
+          "row_sha256": "3bd8c23cb96ea3b14aa8321b2c808f4b6f7387bfd3cfc992df1c16a1cf6f7604"
+        },
+        {
+          "regulatory_limit_id": "ch_vhk_2026_cd_fruchtgemuse_20",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "20",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "Fruchtgemüse",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 1056; source species Cadmium; source value 0,02 mg/kg. ausgenommen Auberginen",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "36eb0dcc541de7b4eeba4244094dda6f6e7eee9517e91020ece2b8629f45088b",
+          "row_sha256": "36eb0dcc541de7b4eeba4244094dda6f6e7eee9517e91020ece2b8629f45088b"
+        },
+        {
+          "regulatory_limit_id": "ch_vhk_2026_cd_tafeloliven_20",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "20",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "Tafeloliven",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 1196; source species Cadmium; source value 0,02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "be4643cf43041543471aeacc8a1acff201ce51d4fc95946fae3a54599beb30ba",
+          "row_sha256": "be4643cf43041543471aeacc8a1acff201ce51d4fc95946fae3a54599beb30ba"
+        },
+        {
+          "regulatory_limit_id": "ch_vhk_2026_cd_tropisches-wurzel-und-knollengemuse_50",
+          "jurisdiction": "CH",
+          "authority": "Swiss Federal Department of Home Affairs (EDI)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "food as listed in VHK metal/metalloid annex; source unit mg/kg",
+          "product_scope": "tropisches Wurzel- und Knollengemüse",
+          "regulation_page": "regulations/switzerland-vhk-817-022-15-metal-metalloid-limits",
+          "url": "",
+          "notes": "VHK metal/metalloid table line 1197; source species Cadmium; source value 0,05 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "428dc1c257e07faed5695ad8437d44109e909a1a1159c18c59ee23c72bce1a2d",
+          "row_sha256": "428dc1c257e07faed5695ad8437d44109e909a1a1159c18c59ee23c72bce1a2d"
+        }
+      ],
+      "cells": [
+        "fresh-fruit|_|Pb",
+        "fresh-fruit|_|Cd",
+        "non-root-vegetables|_|Pb",
+        "non-root-vegetables|_|Cd",
+        "pickled-fermented-vegetables|_|Cd",
+        "root-tuber-vegetables|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_pb_vegetables_100",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "vegetables except brassicas",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "51d44ade89b816d69358c97d671d0ef8546e8510e6ce31109c998f0ce477a1aa",
+          "row_sha256": "51d44ade89b816d69358c97d671d0ef8546e8510e6ce31109c998f0ce477a1aa"
+        },
+        {
+          "regulatory_limit_id": "aunz_sch19_cd_leafy_100",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "leafy vegetables",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "3c1abb9ba5d426215000dd74387597a4daff270d4b8781b6a6e18b1c3acbd517",
+          "row_sha256": "3c1abb9ba5d426215000dd74387597a4daff270d4b8781b6a6e18b1c3acbd517"
+        }
+      ],
+      "cells": [
+        "leafy-vegetables-other|_|Pb",
+        "spinach|_|Pb",
+        "spinach|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_leaf_vegetables_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "leaf vegetables, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Except spinaches/similar leaves row (200).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "f1fc1cf29527fab8f9f6aa2aba90c1203e315523c2f4103d3e81f997bfed445c",
+          "row_sha256": "f1fc1cf29527fab8f9f6aa2aba90c1203e315523c2f4103d3e81f997bfed445c"
+        }
+      ],
+      "cells": [
+        "leafy-vegetables-other|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "10",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables, other than edible fungi",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.01 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e5906ad860207c31f447845e47cc294696fbe734103225cb8f4f3a3dc71ce44b",
+          "row_sha256": "e5906ad860207c31f447845e47cc294696fbe734103225cb8f4f3a3dc71ce44b"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables, other than pulses",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e",
+          "row_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_pickled-cucumbers-also-known-as-cucumber-pickles_100",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Pickled cucumbers (also known as cucumber pickles)",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.1 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "afd1e4cfc2da5c920260512519df957ed2560f99d3161f37214d247b0712ca5b",
+          "row_sha256": "afd1e4cfc2da5c920260512519df957ed2560f99d3161f37214d247b0712ca5b"
+        }
+      ],
+      "cells": [
+        "leafy-vegetables-other|_|tHg",
+        "leafy-vegetables-other|_|Cr",
+        "non-root-vegetables|_|tHg",
+        "non-root-vegetables|_|Cr",
+        "pickled-fermented-vegetables|_|Pb",
+        "pickled-fermented-vegetables|_|tHg",
+        "pickled-fermented-vegetables|_|Cr",
+        "root-tuber-vegetables|_|tHg",
+        "root-tuber-vegetables|_|Cr",
+        "spinach|_|tHg",
+        "spinach|_|Cr"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_leafy_veg_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "leafy vegetables except fresh herbs",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "66fac8646584c3df7919017313a8f80b70ef65e0b3b05102b1e27463dad701a1",
+          "row_sha256": "66fac8646584c3df7919017313a8f80b70ef65e0b3b05102b1e27463dad701a1"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_fruiting_veg_400",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "400",
+          "basis": "wet weight",
+          "product_scope": "fruiting vegetables",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5",
+          "row_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_root_tuber_bulb_veg_900",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "900",
+          "basis": "wet weight",
+          "product_scope": "root, tuber and bulb vegetables",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "0f07380f0ca5c71c639060c5aece867f78187c49190a625c68428e86b41f1d10",
+          "row_sha256": "0f07380f0ca5c71c639060c5aece867f78187c49190a625c68428e86b41f1d10"
+        }
+      ],
+      "cells": [
+        "leafy-vegetables-other|_|Ni",
+        "non-root-vegetables|_|Ni",
+        "pickled-fermented-vegetables|_|Ni",
+        "root-tuber-vegetables|_|Ni",
+        "spinach|_|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_pb_root_tuber_vegetables_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "root and tuber vegetables",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "After washing and edible-part separation; potatoes as peeled.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "de43edc75647837fa823641124ef40c5434db6a2865a2389401d804fa596e85e",
+          "row_sha256": "de43edc75647837fa823641124ef40c5434db6a2865a2389401d804fa596e85e"
+        }
+      ],
+      "cells": [
+        "root-tuber-vegetables|_|Pb"
+      ]
+    }
+  ]
+}

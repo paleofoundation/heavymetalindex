@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat28-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat28-compiled-a31a36aadfa7986b-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat28-compiled-2d20593ce4a0fc94-run-202609021136",
+      "key": "cashews|both|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

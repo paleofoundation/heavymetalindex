@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat27-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat27-compiled-a024b55498178d96-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat27-compiled-2d20593ce4a0fc94-run-202609021136",
+      "key": "legumes-pulses-other|both|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

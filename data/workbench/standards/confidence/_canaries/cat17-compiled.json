@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat17-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat17-compiled-4c8807a323c8925e-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat17-compiled-865aa8f23f1575b6-run-202609021136",
+      "key": "pet-chews-dental|both|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

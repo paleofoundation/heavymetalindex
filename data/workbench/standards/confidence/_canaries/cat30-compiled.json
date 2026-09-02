@@ -1,10 +1,10 @@
 {
   "compiled_dir": "cat30-compiled",
-  "run_id": "run-202609021109",
+  "run_id": "run-202609021136",
   "cells": {
-    "cat30-compiled-2f70037ebec1f24f-run-202609021109": {
+    "cat30-compiled-d136b4580f324297-run-202609021136": {
       "kind": "wrong-basis-anchor",
-      "of_batch": "cat30-compiled-734d41bd319590ff-run-202609021109",
+      "of_batch": "cat30-compiled-734d41bd319590ff-run-202609021136",
       "key": "cooking-oils-other|default|Pb",
       "honest_verdict": "refuted"
     }

@@ -1,0 +1,1061 @@
+{
+  "compiled_dir": "cat5-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_cd_chocolate_500",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "chocolate and cocoa products",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "55626fdf6fd9dff7c8e4d5b4c82fa9ab449837f1a52d472e16c980cc4048a709",
+          "row_sha256": "55626fdf6fd9dff7c8e4d5b4c82fa9ab449837f1a52d472e16c980cc4048a709"
+        },
+        {
+          "regulatory_limit_id": "aunz_sch19_cd_root_tuber_100",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "root and tuber vegetables",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "460f7aeb394f67891503e599b4508f54197666f3a26c31794b2d344a975943e0",
+          "row_sha256": "460f7aeb394f67891503e599b4508f54197666f3a26c31794b2d344a975943e0"
+        }
+      ],
+      "cells": [
+        "cocoa-beverage-mixes|_|Cd",
+        "vegetable-juices-root-vegetable-containing|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_cocoa_powder_15000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "15000",
+          "basis": "product as placed on market",
+          "product_scope": "cocoa powder / fat-reduced cocoa powder (drinking chocolate)",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "8da8d33970d95fe3ea3d977eee72181cc3505a5715f8d8da0735b95446658adc",
+          "row_sha256": "8da8d33970d95fe3ea3d977eee72181cc3505a5715f8d8da0735b95446658adc"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_juice_250",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "250",
+          "basis": "product as placed on market",
+          "product_scope": "fruit/vegetable juices and nectars, general",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "191672ce3a18898bfb01c681cbad43cf7ddfbf1627b2a851b8a6a2149ad3f2d8",
+          "row_sha256": "191672ce3a18898bfb01c681cbad43cf7ddfbf1627b2a851b8a6a2149ad3f2d8"
+        }
+      ],
+      "cells": [
+        "cocoa-beverage-mixes|_|Ni",
+        "coffee|_|Ni",
+        "fermented-beverages-non-tea-based|_|Ni",
+        "fruit-juices-apple-containing|_|Ni",
+        "fruit-juices-non-apple|_|Ni",
+        "kombucha-tea-based|_|Ni",
+        "plant-milks-non-soy-non-rice|_|Ni",
+        "plant-milks-rice-based|_|Ni",
+        "plant-milks-soy-based|_|Ni",
+        "soft-drinks-carbonated-beverages|_|Ni",
+        "sports-energy-drinks|_|Ni",
+        "vegetable-juices-non-root|_|Ni",
+        "vegetable-juices-root-vegetable-containing|_|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_coffee-beverages_200",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Coffee beverages",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.2 mg/kg; Note 11: beverages that are, or are reconstituted to be, ready to drink",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "69a45a5e51e67389f4ef9ecbb14527d1f1153ccbfa4e6c3f7e9d728637fc6583",
+          "row_sha256": "69a45a5e51e67389f4ef9ecbb14527d1f1153ccbfa4e6c3f7e9d728637fc6583"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_bottled-or-packaged-drinking-waters-other-than-natural_50",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "50",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Bottled or packaged drinking waters, other than natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.05 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1f94da3efddd644ba416b17cb97db7b03c4cb49d5c1afa0c43229de711296724",
+          "row_sha256": "1f94da3efddd644ba416b17cb97db7b03c4cb49d5c1afa0c43229de711296724"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_coffee-beans_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Coffee beans",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "b2f8d7742b9090a0751fe73d2633f555e52b1ba7e7dca0b9f1c2d45eaba29956",
+          "row_sha256": "b2f8d7742b9090a0751fe73d2633f555e52b1ba7e7dca0b9f1c2d45eaba29956"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_wine_200",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Wine",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.2 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "433638c025bf13865d059db4bea8b45be8324a10b1ed9f3bfbb0239e1f96a7d6",
+          "row_sha256": "433638c025bf13865d059db4bea8b45be8324a10b1ed9f3bfbb0239e1f96a7d6"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_cd_bottled-or-packaged-drinking-waters-other-than-natural_3",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "3",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Bottled or packaged drinking waters, other than natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 6 (Cadmium); source value 0.003 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e72e6c2efcc6844fce5029b36825a8b4bba4ba80f60833f3a8bffc811dc54f40",
+          "row_sha256": "e72e6c2efcc6844fce5029b36825a8b4bba4ba80f60833f3a8bffc811dc54f40"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_ni_bottled-or-packaged-drinking-waters-other-than-natural_70",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "70",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Bottled or packaged drinking waters, other than natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 14 (Nickel); source value 0.07 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "05053802098346400dd48d07f12f9df0ff1c79250bbe1811088b7a8f1269609c",
+          "row_sha256": "05053802098346400dd48d07f12f9df0ff1c79250bbe1811088b7a8f1269609c"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_broadleaf-holly-leaves_2000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "2000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Broadleaf Holly leaves",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 2 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "86c854315bc7cde2f826711cb657e05cb367c48f8359c1ae445ac4dc6719f0a4",
+          "row_sha256": "86c854315bc7cde2f826711cb657e05cb367c48f8359c1ae445ac4dc6719f0a4"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_tea-beverages-made-from-tea-green-black_200",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Tea beverages made from Tea, Green, Black",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.2 mg/kg; Note 11: beverages that are, or are reconstituted to be, ready to drink",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "c0aa2385f2488a88a0a98bfccec65f719b000356a059d154ac1b51bf3430879c",
+          "row_sha256": "c0aa2385f2488a88a0a98bfccec65f719b000356a059d154ac1b51bf3430879c"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_tea-green-black_5000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "5000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Tea, Green, Black",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1fdca3ee9aa9e0e43221ed9314f856423ec1d0b9c2622949d7d3e2aeb21bebe8",
+          "row_sha256": "1fdca3ee9aa9e0e43221ed9314f856423ec1d0b9c2622949d7d3e2aeb21bebe8"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_milk_20",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "20",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Milk",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.02 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e5c06befaaea23283e4da2738aac01b779a78309c025b96efe240c1500f36e11",
+          "row_sha256": "e5c06befaaea23283e4da2738aac01b779a78309c025b96efe240c1500f36e11"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_milk_10",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "10",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Milk",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.01 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e592528d5643f542e131245ba1cbc8fb7309a39f26899e35465cb276a87833a8",
+          "row_sha256": "e592528d5643f542e131245ba1cbc8fb7309a39f26899e35465cb276a87833a8"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_carbonated-beverages_200",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Carbonated beverages",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.2 mg/kg; Note 11: beverages that are, or are reconstituted to be, ready to drink",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "569f5d6d9baea6b45646099d72aa8a8d1489020f2000efb0ec0f19aab237b3bc",
+          "row_sha256": "569f5d6d9baea6b45646099d72aa8a8d1489020f2000efb0ec0f19aab237b3bc"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_cd_fruiting-vegetables-cucurbits_50",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fruiting vegetables, Cucurbits",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 6 (Cadmium); source value 0.05 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "0f49bfb92595b78a9a4ec1cff01d9a525a935807b13ae0d91d1f6e113498585a",
+          "row_sha256": "0f49bfb92595b78a9a4ec1cff01d9a525a935807b13ae0d91d1f6e113498585a"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_cd_fruiting-vegetables-other-than-cucurbits-and-tomatoes_50",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fruiting vegetables, other than Cucurbits and tomatoes",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 6 (Cadmium); source value 0.05 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "84f17567b969070c21a1fb5ba099cf33004a7db833fd69a45ece9680cd534e7b",
+          "row_sha256": "84f17567b969070c21a1fb5ba099cf33004a7db833fd69a45ece9680cd534e7b"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_cd_vegetables-other-than-those-vegetables-specified-in-thi_100",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables (other than those vegetables specified in this item)",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 6 (Cadmium); source value 0.1 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "8633c6a3e9c3e1e9e79fdafe2f04fc60f5e0972e2fee99874faf997bcc4351df",
+          "row_sha256": "8633c6a3e9c3e1e9e79fdafe2f04fc60f5e0972e2fee99874faf997bcc4351df"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_tas_vegetables_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 2 (Arsenic (expressed as total arsenic)); source value 0.5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a668b70e2047192d1921e0a36a2b6e61c709cd23e1560b9440efd1c2a1516c80",
+          "row_sha256": "a668b70e2047192d1921e0a36a2b6e61c709cd23e1560b9440efd1c2a1516c80"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "10",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables, other than edible fungi",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.01 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e5906ad860207c31f447845e47cc294696fbe734103225cb8f4f3a3dc71ce44b",
+          "row_sha256": "e5906ad860207c31f447845e47cc294696fbe734103225cb8f4f3a3dc71ce44b"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables, other than pulses",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e",
+          "row_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_cd_root-and-tuber-vegetables_100",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Root and tuber vegetables",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 6 (Cadmium); source value 0.1 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1a0ecc1bfcd0273ec9ce8e26373553f904ccd81bac3f04b1635b17f56219f2e6",
+          "row_sha256": "1a0ecc1bfcd0273ec9ce8e26373553f904ccd81bac3f04b1635b17f56219f2e6"
+        }
+      ],
+      "cells": [
+        "coffee-ready-to-drink|_|Pb",
+        "coffee-ready-to-drink|_|Cr",
+        "coffee|_|Pb",
+        "fermented-beverages-non-tea-based|_|Pb",
+        "flavored-waters|_|Cd",
+        "flavored-waters|_|Ni",
+        "flavored-waters|_|Cr",
+        "herbal-botanical-infusions|_|Pb",
+        "kombucha-tea-based|_|Pb",
+        "matcha|_|Pb",
+        "plant-milks-non-soy-non-rice|_|Pb",
+        "plant-milks-non-soy-non-rice|_|tHg",
+        "plant-milks-rice-based|_|Pb",
+        "plant-milks-rice-based|_|tHg",
+        "plant-milks-soy-based|_|Pb",
+        "plant-milks-soy-based|_|tHg",
+        "soft-drinks-carbonated-beverages|_|Pb",
+        "sports-energy-drinks|_|Pb",
+        "true-tea-camellia-sinensis|_|Pb",
+        "vegetable-juices-non-root|_|Cd",
+        "vegetable-juices-non-root|_|Cd",
+        "vegetable-juices-non-root|_|Cd",
+        "vegetable-juices-non-root|_|tAs",
+        "vegetable-juices-non-root|_|tHg",
+        "vegetable-juices-non-root|_|Cr",
+        "vegetable-juices-root-vegetable-containing|_|Cd",
+        "vegetable-juices-root-vegetable-containing|_|tAs",
+        "vegetable-juices-root-vegetable-containing|_|tHg",
+        "vegetable-juices-root-vegetable-containing|_|Cr"
+      ]
+    },
+    {
+      "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/australia-nhmrc-adwg-6-v4-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "nhmrc2025_cd_drinking_water_2",
+          "jurisdiction": "AU",
+          "authority": "National Health and Medical Research Council",
+          "status": "maximum contaminant level",
+          "metal_species": "Cd",
+          "value_ug_kg": "2",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+          "url": "",
+          "notes": "Health-based guideline 0.002 mg/L; water conversion uses 1 mg/L = 1000 µg/kg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be",
+          "row_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be"
+        }
+      ],
+      "cells": [
+        "coffee-ready-to-drink|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2020-2184-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2020-2184-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20202184_tas_drinking_water_10",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "10",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; directive states arsenic without speciation, recorded as tAs; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "01d72a436935fbd3ad749b744a9f8d3039c068d6409729c47dcdf9fe02443850",
+          "row_sha256": "01d72a436935fbd3ad749b744a9f8d3039c068d6409729c47dcdf9fe02443850"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_thg_drinking_water_1",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "1",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; directive states mercury without speciation, recorded as tHg; source value 1,0 µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382",
+          "row_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_ni_drinking_water_20",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Ni",
+          "value_ug_kg": "20",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204",
+          "row_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_al_drinking_water_200",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "200",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part C indicator parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7",
+          "row_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7"
+        }
+      ],
+      "cells": [
+        "coffee-ready-to-drink|_|tAs",
+        "coffee-ready-to-drink|_|iAs",
+        "coffee-ready-to-drink|_|tHg",
+        "coffee-ready-to-drink|_|MeHg",
+        "coffee-ready-to-drink|_|Ni",
+        "coffee-ready-to-drink|_|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_beverages_100000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market",
+          "product_scope": "canned beverages, including canned fruit and vegetable juices, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.2; inorganic tin.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c",
+          "row_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c"
+        },
+        {
+          "regulatory_limit_id": "eu2023_ias_fruit_juice_20",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "20",
+          "basis": "wet weight or reconstituted juice",
+          "product_scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.4.4.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "e7640b86acfdd2c180ae0a4105145ce8187b96d9c21bd6a63ce8a6a4a42d09e3",
+          "row_sha256": "e7640b86acfdd2c180ae0a4105145ce8187b96d9c21bd6a63ce8a6a4a42d09e3"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_fruit_juice_other_30",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "30",
+          "basis": "wet weight or reconstituted juice",
+          "product_scope": "fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.1.19.2.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "7e56ca5515078801439c92c418651642c2eb1cbc9d1545222451ae85c7c1b910",
+          "row_sha256": "7e56ca5515078801439c92c418651642c2eb1cbc9d1545222451ae85c7c1b910"
+        }
+      ],
+      "cells": [
+        "coffee-ready-to-drink|_|Sn",
+        "fermented-beverages-non-tea-based|_|iAs",
+        "fermented-beverages-non-tea-based|_|Sn",
+        "flavored-waters|_|Sn",
+        "fruit-juices-apple-containing|_|Pb",
+        "fruit-juices-apple-containing|_|Sn",
+        "fruit-juices-non-apple|_|Pb",
+        "fruit-juices-non-apple|_|iAs",
+        "fruit-juices-non-apple|_|Sn",
+        "kombucha-tea-based|_|iAs",
+        "kombucha-tea-based|_|Sn",
+        "plant-milks-non-soy-non-rice|_|iAs",
+        "plant-milks-non-soy-non-rice|_|Sn",
+        "plant-milks-rice-based|_|Sn",
+        "plant-milks-soy-based|_|iAs",
+        "plant-milks-soy-based|_|Sn",
+        "soft-drinks-carbonated-beverages|_|iAs",
+        "soft-drinks-carbonated-beverages|_|Sn",
+        "sports-energy-drinks|_|iAs",
+        "sports-energy-drinks|_|Sn",
+        "vegetable-juices-non-root|_|Pb",
+        "vegetable-juices-non-root|_|iAs",
+        "vegetable-juices-non-root|_|Sn",
+        "vegetable-juices-root-vegetable-containing|_|Pb",
+        "vegetable-juices-root-vegetable-containing|_|iAs",
+        "vegetable-juices-root-vegetable-containing|_|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/california-swrcb-2024-inorganic-chemical-mcls.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "jurisdiction": "US-CA",
+          "authority": "California State Water Resources Control Board",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water; source unit mg/L",
+          "product_scope": "public water systems in California",
+          "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+          "url": "",
+          "notes": "Section 64431 Table 64431-A Chromium hexavalent MCL 0.01 mg/L, normalized as 10 ug/kg-equivalent for water.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047",
+          "row_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047"
+        }
+      ],
+      "cells": [
+        "coffee-ready-to-drink|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_roasted_coffee_beans_powder_cd_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "roasted coffee beans and powder",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6a5b23f314e2fc98073c0bbb62bb935207b17771a2e19d2727a1952df353578c",
+          "row_sha256": "6a5b23f314e2fc98073c0bbb62bb935207b17771a2e19d2727a1952df353578c"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_roasted_coffee_beans_powder_tas_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "roasted coffee beans and powder",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "7fbe7d06bcd23d1419f4e993836fde1dccebd453b97d19cc28284f2f999f6c03",
+          "row_sha256": "7fbe7d06bcd23d1419f4e993836fde1dccebd453b97d19cc28284f2f999f6c03"
+        }
+      ],
+      "cells": [
+        "coffee|_|Cd",
+        "coffee|_|tAs",
+        "coffee|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
+        }
+      ],
+      "cells": [
+        "coffee|_|tHg",
+        "coffee|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "coffee|_|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "coffee|_|Cr",
+        "coffee|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/us-fda-21cfr165-110-bottled-water-2024.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "fda21cfr165110_pb_bottled_water_5",
+          "jurisdiction": "US",
+          "authority": "U.S. Food and Drug Administration",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "5",
+          "basis": "bottled water",
+          "product_scope": "bottled water",
+          "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+          "url": "",
+          "notes": "21 CFR 165.110 allowable level 0.005 mg/L; water conversion uses 1 mg/L = 1000 µg/kg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "3bccdbc2f33faf313ffdf70f95e4b685921523e3f5ccfe9b69a7e97556607a71",
+          "row_sha256": "3bccdbc2f33faf313ffdf70f95e4b685921523e3f5ccfe9b69a7e97556607a71"
+        },
+        {
+          "regulatory_limit_id": "fda21cfr165110_tas_bottled_water_10",
+          "jurisdiction": "US",
+          "authority": "U.S. Food and Drug Administration",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "10",
+          "basis": "bottled water",
+          "product_scope": "bottled water",
+          "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+          "url": "",
+          "notes": "21 CFR 165.110 allowable level 0.010 mg/L; source states arsenic without speciation, recorded as tAs.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "355c4de97a8e17e45e0a394089636e85a4a28b1e4fca67695ad67557c62afa3b",
+          "row_sha256": "355c4de97a8e17e45e0a394089636e85a4a28b1e4fca67695ad67557c62afa3b"
+        },
+        {
+          "regulatory_limit_id": "fda21cfr165110_thg_bottled_water_2",
+          "jurisdiction": "US",
+          "authority": "U.S. Food and Drug Administration",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "2",
+          "basis": "bottled water",
+          "product_scope": "bottled water",
+          "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+          "url": "",
+          "notes": "21 CFR 165.110 allowable level 0.002 mg/L; source states mercury without speciation, recorded as tHg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "4fb0c34923bc0529c7f8c292214406f9dae1752e8ef5b9394b4b4aed3efb48b4",
+          "row_sha256": "4fb0c34923bc0529c7f8c292214406f9dae1752e8ef5b9394b4b4aed3efb48b4"
+        },
+        {
+          "regulatory_limit_id": "fda21cfr165110_al_bottled_water_200",
+          "jurisdiction": "US",
+          "authority": "U.S. Food and Drug Administration",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "200",
+          "basis": "bottled water",
+          "product_scope": "bottled water",
+          "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+          "url": "",
+          "notes": "21 CFR 165.110 secondary allowable level 0.2 mg/L; mineral water is exempt from aesthetically based allowable levels.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "3624289a3ad843be0fc0adfb10f79bad487f733c124c77158ab7d680b04bd83a",
+          "row_sha256": "3624289a3ad843be0fc0adfb10f79bad487f733c124c77158ab7d680b04bd83a"
+        }
+      ],
+      "cells": [
+        "flavored-waters|_|Pb",
+        "flavored-waters|_|tAs",
+        "flavored-waters|_|tHg",
+        "flavored-waters|_|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/fda2023-inorganic-arsenic-apple-juice",
+      "primary_text": {
+        "register_urls": [
+          "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "fda2023_ias_apple_juice_10",
+          "jurisdiction": "US",
+          "authority": "US-FDA",
+          "status": "final guidance action level",
+          "metal_species": "iAs",
+          "value_ug_kg": "10",
+          "basis": "juice",
+          "product_scope": "apple juice",
+          "regulation_page": "regulations/fda2023-inorganic-arsenic-apple-juice",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice",
+          "notes": "Apple-juice-specific; apple-containing blends need applicability review.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "962bdfc7db778648fdf44c96088d9bda915ab550ed914a8bb21b5372fc3e71f5",
+          "row_sha256": "962bdfc7db778648fdf44c96088d9bda915ab550ed914a8bb21b5372fc3e71f5"
+        }
+      ],
+      "cells": [
+        "fruit-juices-apple-containing|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-arsenic-rice-based-drinks",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-arsenic-rice-based-drinks.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_ias_rice_drinks_30",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "30",
+          "basis": "wet weight",
+          "product_scope": "non-alcoholic rice-based drinks",
+          "regulation_page": "regulations/eu2023-arsenic-rice-based-drinks",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Current value in Commission Regulation (EU) 2023/915 Annex I section 3.4.1.6; introduced by Commission Regulation (EU) 2023/465.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "806a37533dccd5642a5c537c8617882610e67431f79eaa5a77088b98c80d2ae5",
+          "row_sha256": "806a37533dccd5642a5c537c8617882610e67431f79eaa5a77088b98c80d2ae5"
+        }
+      ],
+      "cells": [
+        "plant-milks-rice-based|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_leaf_vegetables_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "leaf vegetables, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Except spinaches/similar leaves row (200).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "f1fc1cf29527fab8f9f6aa2aba90c1203e315523c2f4103d3e81f997bfed445c",
+          "row_sha256": "f1fc1cf29527fab8f9f6aa2aba90c1203e315523c2f4103d3e81f997bfed445c"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_root_tuber_vegetables_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "root and tuber vegetables, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Potatoes as peeled.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "73e4bf2ce02f7ea29458da02d46b7de5622687684f333f6dddb94aabb615e1b6",
+          "row_sha256": "73e4bf2ce02f7ea29458da02d46b7de5622687684f333f6dddb94aabb615e1b6"
+        }
+      ],
+      "cells": [
+        "vegetable-juices-non-root|_|Cd",
+        "vegetable-juices-root-vegetable-containing|_|Cd"
+      ]
+    }
+  ]
+}

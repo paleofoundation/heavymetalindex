@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat3-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat3-compiled-071c85741808789f-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat3-compiled-2d20593ce4a0fc94-run-202609021136",
+      "key": "bread-and-baked-goods|both|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "compiled_dir": "cat24-compiled",
+  "run_id": "run-202609021136",
+  "batches": [
+    {
+      "evidence_key": "295b86e6d4541038",
+      "analyte": "Ni",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cheese|_|Ni",
+          "slug": "dairy-cheese",
+          "product": "Cheese",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-condensed-evaporated|_|Ni",
+          "slug": "dairy-condensed-evaporated",
+          "product": "Condensed and evaporated milks",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-295b86e6d4541038-run-202609021136"
+    },
+    {
+      "evidence_key": "dd9bda9796318a6b",
+      "analyte": "Ni",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cheese|_|Ni",
+          "slug": "dairy-cheese",
+          "product": "Cheese",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-dd9bda9796318a6b-run-202609021136"
+    },
+    {
+      "evidence_key": "123f76df027d9e22",
+      "analyte": "Cr",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cheese|_|Cr",
+          "slug": "dairy-cheese",
+          "product": "Cheese",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-condensed-evaporated|_|Cr",
+          "slug": "dairy-condensed-evaporated",
+          "product": "Condensed and evaporated milks",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-123f76df027d9e22-run-202609021136"
+    },
+    {
+      "evidence_key": "b1c8b5e984ebc8be",
+      "analyte": "Cr-VI",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cheese|_|Cr-VI",
+          "slug": "dairy-cheese",
+          "product": "Cheese",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "dairy-condensed-evaporated|_|Cr-VI",
+          "slug": "dairy-condensed-evaporated",
+          "product": "Condensed and evaporated milks",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat24-compiled-b1c8b5e984ebc8be-run-202609021136"
+    },
+    {
+      "evidence_key": "f0284afb2a54974f",
+      "analyte": "Sn",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-condensed-evaporated|_|Sn",
+          "slug": "dairy-condensed-evaporated",
+          "product": "Condensed and evaporated milks",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-f0284afb2a54974f-run-202609021136"
+    },
+    {
+      "evidence_key": "733a7533cdf79609",
+      "analyte": "Ni",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cream|_|Ni",
+          "slug": "dairy-cream",
+          "product": "Cream",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-camel|_|Ni",
+          "slug": "dairy-milk-camel",
+          "product": "Camel milk",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-cow|_|Ni",
+          "slug": "dairy-milk-cow",
+          "product": "Liquid milk — cow",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-goat-sheep|_|Ni",
+          "slug": "dairy-milk-goat-sheep",
+          "product": "Liquid milk — goat, sheep, and other ruminant",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-yogurt-cultured|_|Ni",
+          "slug": "dairy-yogurt-cultured",
+          "product": "Yogurt and cultured dairy",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-733a7533cdf79609-run-202609021136"
+    },
+    {
+      "evidence_key": "05375f0142564509",
+      "analyte": "Cr",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cream|_|Cr",
+          "slug": "dairy-cream",
+          "product": "Cream",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-camel|_|Cr",
+          "slug": "dairy-milk-camel",
+          "product": "Camel milk",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-cow|_|Cr",
+          "slug": "dairy-milk-cow",
+          "product": "Liquid milk — cow",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-milk-goat-sheep|_|Cr",
+          "slug": "dairy-milk-goat-sheep",
+          "product": "Liquid milk — goat, sheep, and other ruminant",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "dairy-yogurt-cultured|_|Cr",
+          "slug": "dairy-yogurt-cultured",
+          "product": "Yogurt and cultured dairy",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-05375f0142564509-run-202609021136"
+    },
+    {
+      "evidence_key": "0ca76d45e8affd2c",
+      "analyte": "Cr-VI",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-cream|_|Cr-VI",
+          "slug": "dairy-cream",
+          "product": "Cream",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "dairy-milk-camel|_|Cr-VI",
+          "slug": "dairy-milk-camel",
+          "product": "Camel milk",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "dairy-milk-cow|_|Cr-VI",
+          "slug": "dairy-milk-cow",
+          "product": "Liquid milk — cow",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "dairy-milk-goat-sheep|_|Cr-VI",
+          "slug": "dairy-milk-goat-sheep",
+          "product": "Liquid milk — goat, sheep, and other ruminant",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        },
+        {
+          "key": "dairy-yogurt-cultured|_|Cr-VI",
+          "slug": "dairy-yogurt-cultured",
+          "product": "Yogurt and cultured dairy",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat24-compiled-0ca76d45e8affd2c-run-202609021136"
+    }
+  ]
+}

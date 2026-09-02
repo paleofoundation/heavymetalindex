@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat11-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat11-compiled-1c3bd7632b2f703a-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat11-compiled-d1808cb7815362b9-run-202609021136",
+      "key": "canned-meats|_|Sn",
+      "honest_verdict": "refuted"
+    }
+  }
+}

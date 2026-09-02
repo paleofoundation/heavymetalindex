@@ -1,0 +1,405 @@
+{
+  "compiled_dir": "cat31-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_pb_sugar-based-candies-and-honey_100",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Sugar-based candies and honey",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.1 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9e8a963ac01e81a8130e51c6a83b31c8eec275e307b1e8080471d2371a468fe9",
+          "row_sha256": "9e8a963ac01e81a8130e51c6a83b31c8eec275e307b1e8080471d2371a468fe9"
+        }
+      ],
+      "cells": [
+        "honey|default|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_honey_cd_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "honey",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "00ba4b4f2e7c84aae1fce487294e7ca855677a3dc1fa23b5fba10118e32a520a",
+          "row_sha256": "00ba4b4f2e7c84aae1fce487294e7ca855677a3dc1fa23b5fba10118e32a520a"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_honey_tas_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "honey",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "70be518bf50c7f9cf11f6c70717c3d59120441dcb6a13ef2826fa00b8b1b1c2f",
+          "row_sha256": "70be518bf50c7f9cf11f6c70717c3d59120441dcb6a13ef2826fa00b8b1b1c2f"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_sugars_pb_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "sugars",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4d977f91a242aedccd2d0c9c59a4220c02363166f0199d7ede3598fd7c49eb20",
+          "row_sha256": "4d977f91a242aedccd2d0c9c59a4220c02363166f0199d7ede3598fd7c49eb20"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_sugars_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "sugars",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "cdd0939fc090545b9f7f5ef6aa8398f6ba02507c2d5664f65f1b864f7021bc10",
+          "row_sha256": "cdd0939fc090545b9f7f5ef6aa8398f6ba02507c2d5664f65f1b864f7021bc10"
+        }
+      ],
+      "cells": [
+        "honey|default|Cd",
+        "honey|default|tAs",
+        "honey|default|iAs",
+        "refined-sugar|default|Pb",
+        "refined-sugar|default|tAs",
+        "refined-sugar|default|iAs",
+        "rice-grain-syrup|default|Pb",
+        "syrups-maple-agave-molasses|default|Pb",
+        "syrups-maple-agave-molasses|default|tAs",
+        "syrups-maple-agave-molasses|default|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_honey_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Honey",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 12; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "cea493dc4a49ed893eeecdfaff4251185776603114c82a223e6fccd605de9e6a",
+          "row_sha256": "cea493dc4a49ed893eeecdfaff4251185776603114c82a223e6fccd605de9e6a"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_sugar_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Sugar",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 11; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "53cbcb70b5e29c35dba7847145614a968a02ae0fd4bd9f208a12d2eb9e0d5961",
+          "row_sha256": "53cbcb70b5e29c35dba7847145614a968a02ae0fd4bd9f208a12d2eb9e0d5961"
+        }
+      ],
+      "cells": [
+        "honey|default|tHg",
+        "honey|default|MeHg",
+        "refined-sugar|default|tHg",
+        "refined-sugar|default|MeHg",
+        "rice-grain-syrup|default|tHg",
+        "rice-grain-syrup|default|MeHg",
+        "syrups-maple-agave-molasses|default|tHg",
+        "syrups-maple-agave-molasses|default|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_cereals_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "800",
+          "basis": "product as placed on market",
+          "product_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4",
+          "row_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4"
+        }
+      ],
+      "cells": [
+        "honey|default|Ni",
+        "refined-sugar|default|Ni",
+        "rice-grain-syrup|default|Ni",
+        "syrups-maple-agave-molasses|default|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_other_sugars_syrups_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "other sugars including sugar syrups",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(23)(b) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "81e0e1c4e88427f1372f07853f0e6619536cc0a44f99baec358da3016c87b94d",
+          "row_sha256": "81e0e1c4e88427f1372f07853f0e6619536cc0a44f99baec358da3016c87b94d"
+        }
+      ],
+      "cells": [
+        "honey|default|Sn",
+        "refined-sugar|default|Sn",
+        "rice-grain-syrup|default|tAs",
+        "rice-grain-syrup|default|Sn",
+        "syrups-maple-agave-molasses|default|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "honey|default|Cr",
+        "honey|default|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_cd_11_sugar_150",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "Cd",
+          "value_ug_kg": "150",
+          "basis": "product as placed on market",
+          "product_scope": "Sugar",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 11; limit 0.15 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "08c135f44e31c36f175f544500baf79ed4a8e42e86f806b4c146cde56a9332cd",
+          "row_sha256": "08c135f44e31c36f175f544500baf79ed4a8e42e86f806b4c146cde56a9332cd"
+        }
+      ],
+      "cells": [
+        "refined-sugar|default|Cd",
+        "rice-grain-syrup|default|Cd",
+        "syrups-maple-agave-molasses|default|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2022-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=China+Releases+the+Standard+for+Maximum+Levels+of+Contaminants+in+Foods_Beijing_China+-+People%27s+Republic+of_CH2023-0040.pdf",
+          "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/china-gb-2762-2022-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_crtotal_grains_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission (NHC) and SAMR",
+          "status": "superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation",
+          "metal_species": "Cr",
+          "value_ug_kg": "1000",
+          "basis": "food as placed on market",
+          "product_scope": "grains and grain products including cereals and milled grain products",
+          "regulation_page": "regulations/china-gb-2762-2022-contaminants",
+          "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=China+Releases+the+Standard+for+Maximum+Levels+of+Contaminants+in+Foods_Beijing_China+-+People%27s+Republic+of_CH2023-0040.pdf",
+          "notes": "China GB 2762-2022 maximum level. Restores a binding/context row the live cert already cites but which was absent from the register (provenance gap, 2026-08-25); value PRIMARY-VERIFIED 2026-08-25 against the USDA FAS translation of GB 2762-2022 (report CH2023-0040), Tables 1/6/7.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d59382be8b90e8da8937b0b1bdbd030c420937ebf8f1644cab30766f2af3f3ef",
+          "row_sha256": "d59382be8b90e8da8937b0b1bdbd030c420937ebf8f1644cab30766f2af3f3ef"
+        }
+      ],
+      "cells": [
+        "refined-sugar|default|Cr",
+        "refined-sugar|default|Cr-VI",
+        "rice-grain-syrup|default|Cr",
+        "rice-grain-syrup|default|Cr-VI",
+        "syrups-maple-agave-molasses|default|Cr",
+        "syrups-maple-agave-molasses|default|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_ias_rice_milled_150",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "150",
+          "basis": "product as placed on market",
+          "product_scope": "non-parboiled milled rice",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Rice as defined in Codex Standard 198-1995.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da",
+          "row_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da"
+        }
+      ],
+      "cells": [
+        "rice-grain-syrup|default|iAs"
+      ]
+    }
+  ]
+}

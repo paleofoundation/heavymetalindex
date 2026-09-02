@@ -1,0 +1,376 @@
+{
+  "compiled_dir": "cat27-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_fresh_vegetables_100",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Fresh vegetables, excluding brassica vegetables, leafy vegetables, legume vegetables, ginger and tubers (GB 2762-2025 Table 1, item 2.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 2.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.4; source value 0.1 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "17361a64f2197ecad8ffee2b117ffab2fe3ff43a8a51af5bdf4de6518fabd7cf",
+          "row_sha256": "17361a64f2197ecad8ffee2b117ffab2fe3ff43a8a51af5bdf4de6518fabd7cf"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_beans_legumes_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Beans (dried pulses and flours milled from dried pulses, per Annex A) (GB 2762-2025 Table 7, item 3.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 3.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_beans_legumes_1000; the old row described its scope as beans and bean products; the Table 7 line is 豆类 (beans) only and bean products carry no chromium limit in this standard; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
+          "row_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|Pb",
+        "legumes-pulses-other|both|Cr",
+        "legumes-pulses-other|both|Cr-VI",
+        "peanut-butter|both|Cr",
+        "peanut-butter|both|Cr-VI",
+        "peanuts|both|Cr",
+        "peanuts|both|Cr-VI",
+        "soy-products|both|Cr",
+        "soy-products|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/panama-decreto-467-2007-plant-product-heavy-metals",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/panama-decreto-467-2007-plant-product-heavy-metals.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "pa_decreto467_2007_cd_cereals_legumes_leguminous_vegetables",
+          "jurisdiction": "PA",
+          "authority": "Ministerio de Salud de Panama",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "10",
+          "basis": "plant product as marketed; source unit ppm",
+          "product_scope": "cereals, legumes, and leguminous vegetables",
+          "regulation_page": "regulations/panama-decreto-467-2007-plant-product-heavy-metals",
+          "url": "",
+          "notes": "Decreto Ejecutivo 467/2007 heavy-metals table, Gaceta Oficial Digital No. 25932 page 24; ppm normalized to ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4794571e80be2f6b663b33fa19db7aac7d090c6e1ef89ee7065f9609dcf7d155",
+          "row_sha256": "4794571e80be2f6b663b33fa19db7aac7d090c6e1ef89ee7065f9609dcf7d155"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_leguminous_vegetables_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "leguminous vegetables",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d871fdbf945384bc75322925744f2a1ec456bcb322cba717d4763377fd7c396b",
+          "row_sha256": "d871fdbf945384bc75322925744f2a1ec456bcb322cba717d4763377fd7c396b"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_soybean_grain_pb_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "soybean grain",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "7d1c340a1c89f0a3963aab452b414c37bca852914f0135ed9562e8cc10c11c67",
+          "row_sha256": "7d1c340a1c89f0a3963aab452b414c37bca852914f0135ed9562e8cc10c11c67"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|tAs",
+        "soy-products|both|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Dried legumes, including peanuts and soybeans",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 4; limit 0.1 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
+          "row_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "tHg",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Dried legumes, including peanuts and soybeans",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 5; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
+          "row_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_pb_4_1_peanuts_and_soybeans_200",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "Peanuts and soybeans",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 4.1; limit 0.2 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "43c6b79fc8bcdabc1ce99d8ddc2cdd8e2a16499ad9a98c305597b3ab3cb957cd",
+          "row_sha256": "43c6b79fc8bcdabc1ce99d8ddc2cdd8e2a16499ad9a98c305597b3ab3cb957cd"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Dried legumes, including peanuts and soybeans",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew arsenic table total-arsenic column; English commodity scope is translated from the source row. Source row 4; limit 1 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2f390139afc9686dd35c565b7bb4cd83a12fdd284dbb7d267d1d8bd273cf3b6f",
+          "row_sha256": "2f390139afc9686dd35c565b7bb4cd83a12fdd284dbb7d267d1d8bd273cf3b6f"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|iAs",
+        "legumes-pulses-other|both|tHg",
+        "legumes-pulses-other|both|MeHg",
+        "peanut-butter|both|Pb",
+        "peanut-butter|both|tAs",
+        "peanut-butter|both|iAs",
+        "peanut-butter|both|tHg",
+        "peanut-butter|both|MeHg",
+        "peanuts|both|Pb",
+        "peanuts|both|tAs",
+        "peanuts|both|iAs",
+        "peanuts|both|tHg",
+        "peanuts|both|MeHg",
+        "soy-products|both|tAs",
+        "soy-products|both|iAs",
+        "soy-products|both|tHg",
+        "soy-products|both|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_pulses_4000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "4000",
+          "basis": "product as placed on market",
+          "product_scope": "pulses except dry beans/lupins",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "dacc7d34207c9dbb165798c50e75090b6e71faded65ae2ec2f044a6b7354e1a3",
+          "row_sha256": "dacc7d34207c9dbb165798c50e75090b6e71faded65ae2ec2f044a6b7354e1a3"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_peanuts_12000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "12000",
+          "basis": "edible part",
+          "product_scope": "peanuts",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "038291eec5bc7103dc7469cb762f6b0415f45e1ba87a6b9a1479b3d1e7317ffc",
+          "row_sha256": "038291eec5bc7103dc7469cb762f6b0415f45e1ba87a6b9a1479b3d1e7317ffc"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_soybeans_edamame_6000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "6000",
+          "basis": "product as placed on market",
+          "product_scope": "soy beans / edamame (Glycine max), legume-vegetable row",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "007dad38e4543197f149a32ace67a0d83d3cdd85fb6d966937f67683dd012628",
+          "row_sha256": "007dad38e4543197f149a32ace67a0d83d3cdd85fb6d966937f67683dd012628"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|Ni",
+        "peanut-butter|both|Ni",
+        "peanuts|both|Ni",
+        "soy-products|both|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "legumes-pulses-other|both|Sn",
+        "peanut-butter|both|Sn",
+        "peanuts|both|Sn",
+        "soy-products|both|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_peanuts_soybeans_200",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "peanuts and soy beans",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Oilseed commodity row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "7d7b3e3717613a4de6af92a7c824fa565853d9658b94244362560a0bc4284c85",
+          "row_sha256": "7d7b3e3717613a4de6af92a7c824fa565853d9658b94244362560a0bc4284c85"
+        }
+      ],
+      "cells": [
+        "peanut-butter|both|Cd",
+        "peanuts|both|Cd",
+        "soy-products|both|Cd"
+      ]
+    }
+  ]
+}

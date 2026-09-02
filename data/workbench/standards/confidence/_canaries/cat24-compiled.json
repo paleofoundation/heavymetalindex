@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat24-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat24-compiled-dd9bda9796318a6b-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat24-compiled-295b86e6d4541038-run-202609021136",
+      "key": "dairy-cheese|_|Ni",
+      "honest_verdict": "refuted"
+    }
+  }
+}

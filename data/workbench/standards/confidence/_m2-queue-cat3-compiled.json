@@ -1,0 +1,176 @@
+{
+  "compiled_dir": "cat3-compiled",
+  "run_id": "run-202609021136",
+  "batches": [
+    {
+      "evidence_key": "2d20593ce4a0fc94",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 3,
+      "compiled_dir": "cat3-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "bread-and-baked-goods|both|Al",
+          "slug": "bread-and-baked-goods",
+          "product": "Bread and baked goods (non-rice)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "breakfast-cereal-non-rice|both|Al",
+          "slug": "breakfast-cereal-non-rice",
+          "product": "Breakfast cereal (non-rice)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "breakfast-cereal-rice-based|both|Al",
+          "slug": "breakfast-cereal-rice-based",
+          "product": "Breakfast cereal (rice-based)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "flour-non-rice|both|Al",
+          "slug": "flour-non-rice",
+          "product": "Flour (wheat, corn, other — non-rice)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "grain-based-snacks|both|Al",
+          "slug": "grain-based-snacks",
+          "product": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels — non-rice)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "other-grain-products|both|Al",
+          "slug": "other-grain-products",
+          "product": "Other grain products (oat, millet, quinoa, barley)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "rice-bulk-grain|both|Al",
+          "slug": "rice-bulk-grain",
+          "product": "Rice (white, brown, wild — bulk grain)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "rice-snacks-crackers|both|Al",
+          "slug": "rice-snacks-crackers",
+          "product": "Rice snacks / crackers (rice cakes, wafers)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat3-compiled-2d20593ce4a0fc94-run-202609021136"
+    },
+    {
+      "evidence_key": "071c85741808789f",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 3,
+      "compiled_dir": "cat3-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "bread-and-baked-goods|both|Al",
+          "slug": "bread-and-baked-goods",
+          "product": "Bread and baked goods (non-rice)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat3-compiled-071c85741808789f-run-202609021136"
+    }
+  ]
+}

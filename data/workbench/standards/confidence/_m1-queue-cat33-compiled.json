@@ -1,0 +1,294 @@
+{
+  "compiled_dir": "cat33-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_less_40_cocoa_pb_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa products with less than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9a1b06cef165358968b7838311b6097e7b0e8616b318f0e43498131c12036fbd",
+          "row_sha256": "9a1b06cef165358968b7838311b6097e7b0e8616b318f0e43498131c12036fbd"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_more_40_cocoa_pb_400",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "400",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa-based products with more than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.4 mg/kg normalized to 400 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4c6b6855d7c4dd6a8538a9b2e3fb08bcaa38cfdf09dd1e4368f531226b06e371",
+          "row_sha256": "4c6b6855d7c4dd6a8538a9b2e3fb08bcaa38cfdf09dd1e4368f531226b06e371"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_less_40_cocoa_cd_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa products with less than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2887c559c3c61eb7d912fbaddbdad5cc7157c8344cced36b22cfda17280cb1ae",
+          "row_sha256": "2887c559c3c61eb7d912fbaddbdad5cc7157c8344cced36b22cfda17280cb1ae"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_more_40_cocoa_cd_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa-based products with more than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "bc4b152d1c17287e5a535940b94f98913366e5eed7131eb3d9efe46675819da3",
+          "row_sha256": "bc4b152d1c17287e5a535940b94f98913366e5eed7131eb3d9efe46675819da3"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_less_40_cocoa_tas_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa products with less than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ccbfbf885ec6490a3ba7f15f684fde6aafad64d2c175b1556f1c52fa1b2d3b1c",
+          "row_sha256": "ccbfbf885ec6490a3ba7f15f684fde6aafad64d2c175b1556f1c52fa1b2d3b1c"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_chocolate_more_40_cocoa_tas_400",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "400",
+          "basis": "product as offered to consumer",
+          "product_scope": "chocolate and cocoa-based products with more than 40% cocoa",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.4 mg/kg normalized to 400 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "db0edf32327a05786ff1ab5c6b3d86883832369177fef30e0babb85be6e122b8",
+          "row_sha256": "db0edf32327a05786ff1ab5c6b3d86883832369177fef30e0babb85be6e122b8"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_candies_chewing_gum_pb_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "hard and soft candies and similar products including chewing gum",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "56627f0423e371f9a7b4ea5af712f02f66f7a63a07c8adbfb749d1a0d8db12dd",
+          "row_sha256": "56627f0423e371f9a7b4ea5af712f02f66f7a63a07c8adbfb749d1a0d8db12dd"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_candies_chewing_gum_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "hard and soft candies and similar products including chewing gum",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6c3e64b43aa6d85cd9b1e4febecf0bfc3fe91063406398a0c9ba026765210b89",
+          "row_sha256": "6c3e64b43aa6d85cd9b1e4febecf0bfc3fe91063406398a0c9ba026765210b89"
+        }
+      ],
+      "cells": [
+        "chocolate|_|Pb",
+        "chocolate|_|Pb",
+        "chocolate|_|Cd",
+        "chocolate|_|Cd",
+        "chocolate|_|tAs",
+        "chocolate|_|tAs",
+        "confectionery-candy|_|Pb",
+        "confectionery-candy|_|tAs",
+        "gummies-jellies|_|Pb",
+        "gummies-jellies|_|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_chocolate_lowcocoa_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "milk chocolate with less than 30 percent total dry cocoa solids",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.2.15.1.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "539b164e07778c27d9056050fd8f59e5ab4d717243fca0cb660dea74fd3e4267",
+          "row_sha256": "539b164e07778c27d9056050fd8f59e5ab4d717243fca0cb660dea74fd3e4267"
+        }
+      ],
+      "cells": [
+        "chocolate|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_cacao-and-cacao-products-including-chocolate_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Cacao and cacao products (including chocolate)",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 8; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1b5f400072fc26c8481c5f4c92a16bd1c1c6e8db91f91b22162e0fb980684923",
+          "row_sha256": "1b5f400072fc26c8481c5f4c92a16bd1c1c6e8db91f91b22162e0fb980684923"
+        }
+      ],
+      "cells": [
+        "chocolate|_|tHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_chocolate_7000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "7000",
+          "basis": "product as placed on market",
+          "product_scope": "milk chocolate >= 30 % dry cocoa solids, and chocolate",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "6239e9c8f460617bd244f64c86f95c8b9b07b14d2428288e1170ccb4a5688025",
+          "row_sha256": "6239e9c8f460617bd244f64c86f95c8b9b07b14d2428288e1170ccb4a5688025"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_chocolate_milk_low_2500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "2500",
+          "basis": "product as placed on market",
+          "product_scope": "milk chocolate < 30 % dry cocoa solids",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "f3c8b9b5862e11c477ade7dac06c0cf74b4e49007e4789ca8d3e8c2030f6e11b",
+          "row_sha256": "f3c8b9b5862e11c477ade7dac06c0cf74b4e49007e4789ca8d3e8c2030f6e11b"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_cocoa_powder_15000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "15000",
+          "basis": "product as placed on market",
+          "product_scope": "cocoa powder / fat-reduced cocoa powder (drinking chocolate)",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "8da8d33970d95fe3ea3d977eee72181cc3505a5715f8d8da0735b95446658adc",
+          "row_sha256": "8da8d33970d95fe3ea3d977eee72181cc3505a5715f8d8da0735b95446658adc"
+        }
+      ],
+      "cells": [
+        "chocolate|_|Ni",
+        "chocolate|_|Ni",
+        "chocolate|_|Ni"
+      ]
+    }
+  ]
+}

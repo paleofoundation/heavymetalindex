@@ -1,0 +1,787 @@
+{
+  "compiled_dir": "cat3-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/cuba-nc877-2012-wheat-flour-metal-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://faolex.fao.org/docs/pdf/cub233628.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/cuba-nc877-2012-wheat-flour-metal-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "cu_nc877_2012_pb_processed_cereals_100",
+          "jurisdiction": "CU",
+          "authority": "Oficina Nacional de Normalizacion",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "processed cereals; wheat flour under NC 877:2012",
+          "regulation_page": "regulations/cuba-nc877-2012-wheat-flour-metal-contaminants",
+          "url": "https://faolex.fao.org/docs/pdf/cub233628.pdf",
+          "notes": "NC 877:2012 section 6.1 quotes NC 493:2008 for processed cereals; value 0.1 mg/kg lead normalized to 100 ug/kg. Source PDF is NC 877:2012, not the full NC 493:2008 table.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "7dc127ddeac4734ff08a64441a52989b0f878a8bfd72ff8261790c8d51c2d7d5",
+          "row_sha256": "7dc127ddeac4734ff08a64441a52989b0f878a8bfd72ff8261790c8d51c2d7d5"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|Pb",
+        "breakfast-cereal-non-rice|both|Pb",
+        "flour-non-rice|both|Pb",
+        "grain-based-snacks|both|Pb",
+        "other-grain-products|both|Pb",
+        "pasta-wheat-based|both|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_cereals_general_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "commodity",
+          "product_scope": "cereals except listed cereal-specific rows",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.2.12.1.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "9484677fbf196ddaca9adf8aab99dd51e5bed33ed2222aad18fca7efdacd5c36",
+          "row_sha256": "9484677fbf196ddaca9adf8aab99dd51e5bed33ed2222aad18fca7efdacd5c36"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_barley_rye_50",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "product as placed on market",
+          "product_scope": "barley and rye",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "89876b297e31da2138536cc86e1f4a76da510957e5a146dd12f480642a5a0b42",
+          "row_sha256": "89876b297e31da2138536cc86e1f4a76da510957e5a146dd12f480642a5a0b42"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|Cd",
+        "breakfast-cereal-non-rice|both|Cd",
+        "flour-non-rice|both|Cd",
+        "grain-based-snacks|both|Cd",
+        "other-grain-products|both|Cd",
+        "pasta-wheat-based|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_cereals_excluding_wheat_rice_oils_tas_300",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "cereals and cereal-based products excluding wheat, rice, derivatives, and oils",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "b7b70b0b06560489ab214f2401cf1c7d3158d9b9a13411d72075a2a301511d48",
+          "row_sha256": "b7b70b0b06560489ab214f2401cf1c7d3158d9b9a13411d72075a2a301511d48"
+        },
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_wheat_derivatives_except_oil_tas_200",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "wheat and derivatives except oil",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "17e4195b158f00af630d61c2186b6ea539862806ba81fd6921d03637a043b039",
+          "row_sha256": "17e4195b158f00af630d61c2186b6ea539862806ba81fd6921d03637a043b039"
+        },
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_rice_derivatives_except_oil_pb_200",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "rice and derivatives except oil",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II lead table lead row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "662691199b690ca92ebb54829e7f6e9923aadbc7f2f6f0fe30493a0816dcd43b",
+          "row_sha256": "662691199b690ca92ebb54829e7f6e9923aadbc7f2f6f0fe30493a0816dcd43b"
+        },
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_rice_derivatives_except_oil_tas_300",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "rice and derivatives except oil",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "15a3ef32ca7cfbca94d30633c4b8b1dc0c4cab5c81157086c24e89e1bec17a44",
+          "row_sha256": "15a3ef32ca7cfbca94d30633c4b8b1dc0c4cab5c81157086c24e89e1bec17a44"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|tAs",
+        "bread-and-baked-goods|both|iAs",
+        "breakfast-cereal-non-rice|both|tAs",
+        "breakfast-cereal-non-rice|both|iAs",
+        "breakfast-cereal-rice-based|both|Pb",
+        "breakfast-cereal-rice-based|both|tAs",
+        "flour-non-rice|both|tAs",
+        "flour-non-rice|both|iAs",
+        "grain-based-snacks|both|tAs",
+        "grain-based-snacks|both|iAs",
+        "other-grain-products|both|tAs",
+        "other-grain-products|both|iAs",
+        "pasta-rice-based|both|Pb",
+        "pasta-rice-based|both|tAs",
+        "pasta-wheat-based|both|tAs",
+        "pasta-wheat-based|both|iAs",
+        "rice-bulk-grain|both|Pb",
+        "rice-bulk-grain|both|tAs",
+        "rice-noodles|both|Pb",
+        "rice-noodles|both|tAs",
+        "rice-snacks-crackers|both|Pb",
+        "rice-snacks-crackers|both|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Rice, husked rice, polished rice, maize, maize flour, wheat, wheat flour",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.02 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1013bd9c6315fe4b240b67e7a0af8ff0e8af40cfd32bd3264822ba8a76b61bd6",
+          "row_sha256": "1013bd9c6315fe4b240b67e7a0af8ff0e8af40cfd32bd3264822ba8a76b61bd6"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_bottled-or-packaged-drinking-waters-other-than-natural_50",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "50",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Bottled or packaged drinking waters, other than natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.05 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1f94da3efddd644ba416b17cb97db7b03c4cb49d5c1afa0c43229de711296724",
+          "row_sha256": "1f94da3efddd644ba416b17cb97db7b03c4cb49d5c1afa0c43229de711296724"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|tHg",
+        "bread-and-baked-goods|both|MeHg",
+        "breakfast-cereal-non-rice|both|tHg",
+        "breakfast-cereal-non-rice|both|MeHg",
+        "breakfast-cereal-rice-based|both|tHg",
+        "breakfast-cereal-rice-based|both|MeHg",
+        "flour-non-rice|both|tHg",
+        "flour-non-rice|both|MeHg",
+        "grain-based-snacks|both|tHg",
+        "grain-based-snacks|both|MeHg",
+        "other-grain-products|both|tHg",
+        "other-grain-products|both|MeHg",
+        "pasta-rice-based|both|tHg",
+        "pasta-rice-based|both|MeHg",
+        "pasta-wheat-based|both|tHg",
+        "pasta-wheat-based|both|MeHg",
+        "rice-beverages-rice-milk|both|Cr",
+        "rice-bulk-grain|both|tHg",
+        "rice-bulk-grain|both|MeHg",
+        "rice-noodles|both|tHg",
+        "rice-noodles|both|MeHg",
+        "rice-snacks-crackers|both|tHg",
+        "rice-snacks-crackers|both|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_cereals_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "800",
+          "basis": "product as placed on market",
+          "product_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4",
+          "row_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_durum_rice_1500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "1500",
+          "basis": "product as placed on market",
+          "product_scope": "durum wheat and rice except husked rice",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "0f19403b8f3a2981f4860a1c6d22eed94ef033e96f0f8105a12dc0741f134587",
+          "row_sha256": "0f19403b8f3a2981f4860a1c6d22eed94ef033e96f0f8105a12dc0741f134587"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_juice_250",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "250",
+          "basis": "product as placed on market",
+          "product_scope": "fruit/vegetable juices and nectars, general",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "191672ce3a18898bfb01c681cbad43cf7ddfbf1627b2a851b8a6a2149ad3f2d8",
+          "row_sha256": "191672ce3a18898bfb01c681cbad43cf7ddfbf1627b2a851b8a6a2149ad3f2d8"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|Ni",
+        "breakfast-cereal-non-rice|both|Ni",
+        "breakfast-cereal-rice-based|both|Ni",
+        "flour-non-rice|both|Ni",
+        "grain-based-snacks|both|Ni",
+        "other-grain-products|both|Ni",
+        "pasta-rice-based|both|Ni",
+        "pasta-wheat-based|both|Ni",
+        "rice-beverages-rice-milk|both|Ni",
+        "rice-bulk-grain|both|Ni",
+        "rice-noodles|both|Ni",
+        "rice-snacks-crackers|both|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|Sn",
+        "breakfast-cereal-non-rice|both|Sn",
+        "breakfast-cereal-rice-based|both|Sn",
+        "flour-non-rice|both|Sn",
+        "grain-based-snacks|both|Sn",
+        "other-grain-products|both|Sn",
+        "pasta-rice-based|both|Sn",
+        "pasta-wheat-based|both|Sn",
+        "rice-bulk-grain|both|Sn",
+        "rice-noodles|both|Sn",
+        "rice-snacks-crackers|both|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_ias_rice_and_rice_flour_200",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "Rice and rice flour (GB 2762-2025 Table 4, item 1.5); inorganic arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 1.5; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.9; source value 0.2 mg/kg; screening rule: total arsenic may be measured first and compliance concluded when it does not exceed the iAs limit; test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "10251b60d307926c48a1ede1dc77b71cac22c8a5b6ebc575c5cd3ed35c363af2",
+          "row_sha256": "10251b60d307926c48a1ede1dc77b71cac22c8a5b6ebc575c5cd3ed35c363af2"
+        }
+      ],
+      "cells": [
+        "bread-and-baked-goods|both|Cr",
+        "bread-and-baked-goods|both|Cr-VI",
+        "breakfast-cereal-non-rice|both|Cr",
+        "breakfast-cereal-non-rice|both|Cr-VI",
+        "breakfast-cereal-rice-based|both|Cr",
+        "breakfast-cereal-rice-based|both|Cr-VI",
+        "flour-non-rice|both|Cr",
+        "flour-non-rice|both|Cr-VI",
+        "grain-based-snacks|both|Cr",
+        "grain-based-snacks|both|Cr-VI",
+        "other-grain-products|both|Cr",
+        "other-grain-products|both|Cr-VI",
+        "pasta-rice-based|both|iAs",
+        "pasta-rice-based|both|Cr",
+        "pasta-rice-based|both|Cr-VI",
+        "pasta-wheat-based|both|Cr",
+        "pasta-wheat-based|both|Cr-VI",
+        "rice-bulk-grain|both|Cr",
+        "rice-bulk-grain|both|Cr-VI",
+        "rice-noodles|both|iAs",
+        "rice-noodles|both|Cr",
+        "rice-noodles|both|Cr-VI",
+        "rice-snacks-crackers|both|Cr",
+        "rice-snacks-crackers|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_cd_rice_100",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "rice",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4e946d0efc3a8db83fc45de7f875a9bf74b81056c2f167dda3c712bc13bb7e20",
+          "row_sha256": "4e946d0efc3a8db83fc45de7f875a9bf74b81056c2f167dda3c712bc13bb7e20"
+        }
+      ],
+      "cells": [
+        "breakfast-cereal-rice-based|both|Cd",
+        "pasta-rice-based|both|Cd",
+        "rice-bulk-grain|both|Cd",
+        "rice-noodles|both|Cd",
+        "rice-snacks-crackers|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_ias_rice_products_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "rice waffles, rice wafers, rice crackers, rice cakes, rice flakes, and popped breakfast rice",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.4.1.4.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "26434593248851e2ae9da06fdfc03cdf6045f70466ad9aafae39c6edd3b92ba4",
+          "row_sha256": "26434593248851e2ae9da06fdfc03cdf6045f70466ad9aafae39c6edd3b92ba4"
+        },
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_beverages_100000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market",
+          "product_scope": "canned beverages, including canned fruit and vegetable juices, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.2; inorganic tin.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c",
+          "row_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c"
+        },
+        {
+          "regulatory_limit_id": "eu2023_ias_rice_milled_150",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "150",
+          "basis": "product as placed on market",
+          "product_scope": "non-parboiled milled rice",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Rice as defined in Codex Standard 198-1995.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da",
+          "row_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da"
+        }
+      ],
+      "cells": [
+        "breakfast-cereal-rice-based|both|iAs",
+        "rice-beverages-rice-milk|both|Sn",
+        "rice-bulk-grain|both|iAs",
+        "rice-snacks-crackers|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+      "primary_text": {
+        "register_urls": [
+          "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024"
+        ],
+        "raw_paths": [],
+        "wiki_page": null
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "starch noodles and vermicelli (fensi/fentiao) including rice noodles and rice vermicelli",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 aluminium residue limit 200 mg/kg (dry sample; as Al) for starch noodles and vermicelli (category 06.05.02.01) — the alum-firming form-specific carve-out. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4d0e8e8cd6bb20f05507b12f3509c3b24fd95f3e3fdc5430469c4a241bd8f5a3",
+          "row_sha256": "4d0e8e8cd6bb20f05507b12f3509c3b24fd95f3e3fdc5430469c4a241bd8f5a3"
+        }
+      ],
+      "cells": [
+        "pasta-rice-based|both|Al",
+        "pasta-wheat-based|both|Al",
+        "rice-noodles|both|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "50",
+          "basis": "product as offered to consumer",
+          "product_scope": "non-alcoholic beverages excluding juices",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.05 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ec430025ce8d13f80f559d84014fbbcd4fbd496a631f2e3a9d828a4860fa87bf",
+          "row_sha256": "ec430025ce8d13f80f559d84014fbbcd4fbd496a631f2e3a9d828a4860fa87bf"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_tas_50",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "50",
+          "basis": "product as offered to consumer",
+          "product_scope": "non-alcoholic beverages excluding juices",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.05 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c10f7cbbe11eb84aa70d28d09f604da77acd5ab7b52720f84750a205323a34dd",
+          "row_sha256": "c10f7cbbe11eb84aa70d28d09f604da77acd5ab7b52720f84750a205323a34dd"
+        }
+      ],
+      "cells": [
+        "rice-beverages-rice-milk|both|Pb",
+        "rice-beverages-rice-milk|both|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/australia-nhmrc-adwg-6-v4-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "nhmrc2025_cd_drinking_water_2",
+          "jurisdiction": "AU",
+          "authority": "National Health and Medical Research Council",
+          "status": "maximum contaminant level",
+          "metal_species": "Cd",
+          "value_ug_kg": "2",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+          "url": "",
+          "notes": "Health-based guideline 0.002 mg/L; water conversion uses 1 mg/L = 1000 µg/kg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be",
+          "row_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be"
+        }
+      ],
+      "cells": [
+        "rice-beverages-rice-milk|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-arsenic-rice-based-drinks",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-arsenic-rice-based-drinks.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_ias_rice_drinks_30",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "30",
+          "basis": "wet weight",
+          "product_scope": "non-alcoholic rice-based drinks",
+          "regulation_page": "regulations/eu2023-arsenic-rice-based-drinks",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Current value in Commission Regulation (EU) 2023/915 Annex I section 3.4.1.6; introduced by Commission Regulation (EU) 2023/465.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "806a37533dccd5642a5c537c8617882610e67431f79eaa5a77088b98c80d2ae5",
+          "row_sha256": "806a37533dccd5642a5c537c8617882610e67431f79eaa5a77088b98c80d2ae5"
+        }
+      ],
+      "cells": [
+        "rice-beverages-rice-milk|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2020-2184-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2020-2184-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20202184_thg_drinking_water_1",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "1",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; directive states mercury without speciation, recorded as tHg; source value 1,0 µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382",
+          "row_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_al_drinking_water_200",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "200",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part C indicator parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7",
+          "row_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7"
+        }
+      ],
+      "cells": [
+        "rice-beverages-rice-milk|both|tHg",
+        "rice-beverages-rice-milk|both|MeHg",
+        "rice-beverages-rice-milk|both|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/california-swrcb-2024-inorganic-chemical-mcls.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "jurisdiction": "US-CA",
+          "authority": "California State Water Resources Control Board",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water; source unit mg/L",
+          "product_scope": "public water systems in California",
+          "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+          "url": "",
+          "notes": "Section 64431 Table 64431-A Chromium hexavalent MCL 0.01 mg/L, normalized as 10 ug/kg-equivalent for water.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047",
+          "row_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047"
+        }
+      ],
+      "cells": [
+        "rice-beverages-rice-milk|both|Cr-VI"
+      ]
+    }
+  ]
+}
