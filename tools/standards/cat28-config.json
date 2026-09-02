@@ -5,7 +5,19 @@
   "category": 28,
   "category_name": "Nuts, Seeds, and Their Butters",
   "lineage": "Cat-28 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (Cd: sunflower/linseed 500, tree nuts 200, oilseeds general 100, pine nuts 300), EU Reg. 2024/1987 (Ni: general tree nuts 3500 / listed high-Ni nuts — cashew, walnut, pine nut, Brazil nut, chestnut — 10000 / sunflower seed 8000), Israel FCS-2016 (oilseeds: Pb 1000 / Cd 500 / tAs 1000 / tHg 400), Switzerland VHK 2026 (cashew Ni 10000). High-nickel tree-nut split (walnut/pine/Brazil/chestnut → tree-nuts-high-nickel) ratified 2026-08-13 per OI-20260813-nuts-high-nickel-split.",
-  "panel": ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"],
+  "panel": [
+    "Pb",
+    "iAs",
+    "tAs",
+    "tHg",
+    "MeHg",
+    "Cd",
+    "Cr-VI",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr"
+  ],
   "default_read_across": {
     "Cr": {
       "control_only": true,
@@ -90,7 +102,60 @@
         "follow-on",
         "formula",
         "\\btoy"
-      ]
+      ],
+      "read_across": {
+        "Pb": {
+          "source_id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_nuts_and_seeds_200 → successor china_gb2762_2025_pb_nuts_and_seeds_200"
+        },
+        "tAs": {
+          "source_id": "br_in160_2022_tas_tree_nuts_800",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "cashews": {
       "name": "Cashews (cashew nuts, whole and pieces)",
@@ -114,16 +179,59 @@
       ],
       "read_across": {
         "Pb": {
-          "source_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
-          "label": "read-across from Israel FCS-2016 oilseeds and olives Pb 1000 ug/kg (nearest sovereign nut/seed lead anchor; no tree-nut-specific Pb ML exists)"
+          "source_id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_nuts_and_seeds_200 → successor china_gb2762_2025_pb_nuts_and_seeds_200"
         },
         "tAs": {
-          "source_id": "il_fcs2016_tas_5_3_oilseeds_1000",
-          "label": "read-across from Israel FCS-2016 oilseeds tAs 1000 ug/kg (nearest sovereign nut/seed total-arsenic anchor)"
+          "source_id": "br_in160_2022_tas_tree_nuts_800",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
           "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -145,9 +253,62 @@
         "\\btoy"
       ],
       "analyte_scope": {
-        "Pb": { "include": ["oilseed"] },
-        "tAs": { "include": ["oilseed"] },
-        "tHg": { "include": ["oilseed"] }
+        "Pb": {
+          "include": [
+            "oilseed"
+          ]
+        },
+        "tAs": {
+          "include": [
+            "oilseed"
+          ]
+        },
+        "tHg": {
+          "include": [
+            "oilseed"
+          ]
+        }
+      },
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "nut-seed-butters-other": {
@@ -189,7 +350,60 @@
         "follow-on",
         "formula",
         "\\btoy"
-      ]
+      ],
+      "read_across": {
+        "Pb": {
+          "source_id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_nuts_and_seeds_200 → successor china_gb2762_2025_pb_nuts_and_seeds_200"
+        },
+        "tAs": {
+          "source_id": "br_in160_2022_tas_tree_nuts_800",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "sunflower-seed-butter": {
       "name": "Sunflower seed butter (ground sunflower seeds)",
@@ -210,9 +424,62 @@
         "\\btoy"
       ],
       "analyte_scope": {
-        "Pb": { "include": ["oilseed"] },
-        "tAs": { "include": ["oilseed"] },
-        "tHg": { "include": ["oilseed"] }
+        "Pb": {
+          "include": [
+            "oilseed"
+          ]
+        },
+        "tAs": {
+          "include": [
+            "oilseed"
+          ]
+        },
+        "tHg": {
+          "include": [
+            "oilseed"
+          ]
+        }
+      },
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
       }
     },
     "tree-nuts-high-nickel": {
@@ -249,18 +516,62 @@
       ],
       "read_across": {
         "Pb": {
-          "source_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
-          "label": "read-across from Israel FCS-2016 oilseeds and olives Pb 1000 ug/kg (nearest sovereign nut/seed lead anchor; no tree-nut-specific Pb ML exists)"
+          "source_id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_nuts_and_seeds_200 → successor china_gb2762_2025_pb_nuts_and_seeds_200"
         },
         "tAs": {
-          "source_id": "il_fcs2016_tas_5_3_oilseeds_1000",
-          "label": "read-across from Israel FCS-2016 oilseeds tAs 1000 ug/kg (nearest sovereign nut/seed total-arsenic anchor)"
+          "source_id": "br_in160_2022_tas_tree_nuts_800",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "source_id": "il_fcs2016_thg_4_1_oilseeds_400",
           "label": "read-across from Israel FCS-2016 oilseeds tHg 400 ug/kg (nearest sovereign nut/seed total-mercury anchor)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "44 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat28-compiled.json"
 }

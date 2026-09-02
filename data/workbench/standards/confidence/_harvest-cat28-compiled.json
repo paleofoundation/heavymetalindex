@@ -1,0 +1,404 @@
+{
+  "compiled_dir": "cat28-compiled",
+  "generated": "2026-09-02T10:41:57.801Z",
+  "targets": 44,
+  "applied": [
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 200,
+      "anchor": "china_gb2762_2025_pb_nuts_and_seeds_200"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 800,
+      "anchor": "br_in160_2022_tas_tree_nuts_800"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "cashews",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 200,
+      "anchor": "china_gb2762_2025_pb_nuts_and_seeds_200"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 800,
+      "anchor": "br_in160_2022_tas_tree_nuts_800"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "nut-seed-butters-other",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 200,
+      "anchor": "china_gb2762_2025_pb_nuts_and_seeds_200"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 800,
+      "anchor": "br_in160_2022_tas_tree_nuts_800"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "nuts-seeds-other",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "sunflower-seed-butter",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "sunflower-seeds",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 200,
+      "anchor": "china_gb2762_2025_pb_nuts_and_seeds_200"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 800,
+      "anchor": "br_in160_2022_tas_tree_nuts_800"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "iAs",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "tree-nuts-high-nickel",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": []
+}

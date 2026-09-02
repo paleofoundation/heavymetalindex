@@ -177,7 +177,7 @@ function resolveCell(sub, analyte, variant) {
   // ratchets the standard back up above a defensible near-neighbour value).
   const ra = (sub.read_across || {})[analyte] || (config.default_read_across || {})[analyte]
   let raResult = null
-  if (ra && !ra.not_material && !ra.control_only) {
+  if (ra && !ra.not_material && !ra.control_only && !ra.subsumed) {
     // Inline numeric read-across belonged to the retired occurrence/precautionary method. A current
     // numeric read-across must cite a sovereign register row by source_id; otherwise the cell is a gap.
     if (ra.value_ppb != null) {
@@ -200,6 +200,15 @@ function resolveCell(sub, analyte, variant) {
   }
   if (raResult) {
     return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest sovereign value; comparator vs any direct limit)", per_country: perCountry }
+  }
+  if (ra && ra.subsumed) {
+    // A toxic species bounded by its FIRM parent total (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ Cr): an enforceable
+    // limit-of-record (Certification-Readiness Ruling §1), tagged subsumed (lib/provenance.mjs); the audit
+    // (C11) and the readiness lint refuse it unless the parent carries a firm numeric ceiling.
+    const b = ra.subsumed.bounded_by || ra.subsumed.subsumed_by || null
+    return { type: "subsumed", value: null, provenance: "subsumed", subsumed_by: b, bounded_by: b, basis_class: ra.subsumed.basis_class || "speciation-bounded",
+      rationale: ra.subsumed.rationale || `${analyte} is a component of ${b} and is bounded by it (${analyte} <= ${b}); no sovereign sets a separate ${analyte} ceiling for this product, so the parent ceiling is the species ceiling, established at baseline and speciated on any lot whose total exceeds its limit.`,
+      regulatory_basis: ra.subsumed.regulatory_basis || null, jurisdictions_checked: ra.subsumed.jurisdictions_checked || null, reference_method: ra.subsumed.reference_method || null }
   }
   if (ra && ra.not_material) {
     return { type: "not_material", value: null, basis_class: ra.basis_class || null, control: ra.control || ra.rationale || "not material", reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null, regulatory_basis: ra.regulatory_basis || null, jurisdictions_checked: ra.jurisdictions_checked || null }

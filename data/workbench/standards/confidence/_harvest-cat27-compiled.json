@@ -1,0 +1,197 @@
+{
+  "compiled_dir": "cat27-compiled",
+  "generated": "2026-09-02T10:41:57.508Z",
+  "targets": 21,
+  "applied": [
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "Cd",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 10,
+      "anchor": "pa_decreto467_2007_cd_cereals_legumes_leguminous_vegetables"
+    },
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_beans_legumes_1000"
+    },
+    {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "peanut-butter",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "peanut-butter",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "peanut-butter",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "peanut-butter",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_beans_legumes_1000"
+    },
+    {
+      "slug": "peanut-butter",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "peanuts",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "peanuts",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "peanuts",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "peanuts",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_beans_legumes_1000"
+    },
+    {
+      "slug": "peanuts",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "soy-products",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "soy-products",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "soy-products",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "soy-products",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_beans_legumes_1000"
+    },
+    {
+      "slug": "soy-products",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": []
+}

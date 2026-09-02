@@ -31,7 +31,14 @@
             "id": "il_fcs2016_pb_4_1_peanuts_and_soybeans_200"
           }
         },
+        "provenance": "regulatory-alignment",
         "stricter_unselected": [
+          {
+            "id": "china_gb2762_2025_pb_soy_milk_50",
+            "value": 50,
+            "jurisdiction": "CN",
+            "scope": "Soy milk (dou jiang) (GB 2762-2025 Table 1, item 5.3)"
+          },
           {
             "id": "in_fssai2016_pb_054_vegetable_oils_crude_oils_of_arachis_babasu_coconut_cotton_seed_grape_100",
             "value": 100,
@@ -59,7 +66,8 @@
             "converted": true,
             "id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -75,6 +83,7 @@
             "id": "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
           }
         },
+        "provenance": "regulatory-alignment",
         "stricter_unselected": [
           {
             "id": "us_fda_21cfr73_73_520_tas_50",
@@ -121,17 +130,20 @@
             "converted": true,
             "id": "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "basis_class": "speciation-bounded",
-        "control": "No government sets a methylmercury ML for any legume, pulse, peanut, or soy product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Legumes and pulses are not a mercury-methylation matrix, and any mercury present is controlled by and bounded by the total-mercury ceiling for the subcategory. No methylmercury ML exists to look up.",
-        "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ceiling; legume/pulse methylmercury is characteristically < LOQ.",
+        "provenance": "subsumed",
+        "subsumed_by": "tHg",
         "bounded_by": "tHg",
-        "regulatory_basis": "No regulatory MeHg ML for legume/pulse/peanut/soy products in any jurisdiction; methylmercury MLs are scoped to fish and seafood only. Total mercury is bounded by Israel FCS-2016 dried-legumes tHg 30 ug/kg.",
-        "jurisdictions_checked": "EU 2023/915; EU 2024/1987; Israel FCS-2016; MERCOSUR GMC 12/2011; Paraguay Decreto 1335/2019; GSO 193; FDA; AU/NZ Sch 19; China GB 2762"
+        "basis_class": "speciation-bounded",
+        "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+        "regulatory_basis": null,
+        "jurisdictions_checked": null,
+        "reference_method": null
       },
       "Cd": {
         "type": "gov",
@@ -172,6 +184,7 @@
             "id": "co_res4506_2013_cd_soybeans_200"
           }
         },
+        "provenance": "regulatory-alignment",
         "stricter_unselected": [
           {
             "id": "eu2023_cd_formula_soy_liquid_10",
@@ -248,14 +261,16 @@
         ]
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
+        "provenance": "subsumed",
+        "subsumed_by": "Cr",
+        "bounded_by": "Cr",
         "basis_class": "speciation-bounded",
-        "control": "No government sets a total-chromium or hexavalent-chromium maximum level for any legume, pulse, peanut, or soy product in any jurisdiction. Chromium in this plant matrix is dominated by nutritionally-essential Cr(III), and Cr(VI) reduces to Cr(III) in the organic-rich matrix. Firm control: reflex speciation - any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails; Cr(VI) is never a panel number.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail.",
-        "bounded_by": "Cr-total",
-        "regulatory_basis": "No regulatory total-Cr or Cr(VI) ML for legume/pulse/peanut/soy products in any jurisdiction; the only register total-Cr MLs are for dairy powder, drinking water, and fertiliser.",
-        "jurisdictions_checked": "EU 2023/915; EU 2024/1987; Israel FCS-2016; MERCOSUR GMC 12/2011; Paraguay Decreto 1335/2019; GSO 193; FDA; AU/NZ Sch 19; China GB 2762"
+        "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+        "regulatory_basis": null,
+        "jurisdictions_checked": null,
+        "reference_method": null
       },
       "Ni": {
         "type": "gov",
@@ -276,6 +291,7 @@
             "id": "ch_vhk_2026_ni_sojabohnen-edamame-glycine-max_6000"
           }
         },
+        "provenance": "regulatory-alignment",
         "stricter_unselected": [
           {
             "id": "eu2024_ni_formula_powder_250",
@@ -298,32 +314,50 @@
         ]
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "basis_class": "no-migration-pathway",
-        "control": "Every government tin maximum level in the register is scoped to canned / tin-coated product; tin migrates from tinplate, and that packaging-migration pathway is the contamination these MLs regulate. Dried legumes, pulses, peanuts, peanut butter, and soy products are not sold in tinplate, so that pathway is absent. Routed occurrence that has screened tin in these matrices reports it at or near non-detect (Roman-Ochoa 2021 measured bean tin at ~0.00 mg/kg against a sub-ppb LOD), i.e. dietary background rather than tinplate migration. Canned legume/pea products route to the canned-foods category and carry the tin ML there.",
-        "reference_method": "Mandatory total-element screen by ICP-MS; tin is screened but not a binding numeric ceiling for non-canned product.",
-        "bounded_by": null,
-        "regulatory_basis": "Tin MLs (EU/UK/GSO/IN 50000+ ug/kg; IN canned green peas / canned mushrooms) apply to canned product only; no non-canned legume/pulse Sn ML exists in any jurisdiction.",
-        "jurisdictions_checked": "EU 2023/915; EU 2024/1987; Israel FCS-2016; MERCOSUR GMC 12/2011; Paraguay Decreto 1335/2019; GSO 193; FDA; AU/NZ Sch 19; China GB 2762"
+        "type": "read_across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "face value (nearest sovereign value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "control",
-        "value": null,
-        "control": "No credible sovereign government sets an aluminium contaminant maximum for plain legumes, pulses, peanuts, peanut butter, or soy products. Under the government-limit-only method HMTc publishes no standalone numeric Al limit for this matrix; naturally present or additive-derived aluminium remains a surveillance and formulation-control issue governed by the additive rules of the markets of sale.",
-        "reference_method": "Screen total Al by ICP-MS and document any aluminium-containing additive or processing-aid use; investigate elevated results and comply with all additive rules in markets of sale.",
-        "bounded_by": null,
-        "regulatory_basis": null,
-        "jurisdictions_checked": null
+        "type": "read_across",
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "face value (nearest sovereign value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across",
+        "stricter_unselected": [
+          {
+            "id": "aunz_sch19_al_formula_soy_1000",
+            "value": 1000,
+            "jurisdiction": "AU-NZ",
+            "scope": "soy-based infant formula products"
+          }
+        ]
       },
       "Cr": {
-        "type": "control",
-        "value": null,
-        "control": "No credible sovereign government sets a total-chromium contaminant maximum for legumes, pulses, peanuts, or soy products in any jurisdiction (the only register total-Cr MLs are for dairy powder, drinking water, and fertiliser). Under the government-limit-only method HMTc publishes no standalone numeric total-Cr limit for this matrix; total chromium is monitored and hexavalent chromium is controlled by reflex speciation (see Cr-VI).",
-        "reference_method": "Total-Cr screen by ICP-MS on every lot; investigate any elevated total-Cr result and reflex-speciate per the Cr-VI control.",
-        "bounded_by": null,
-        "regulatory_basis": null,
-        "jurisdictions_checked": null
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_crtotal_beans_legumes_1000",
+        "basis_note": "face value",
+        "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": false,
+            "id": "china_gb2762_2025_crtotal_beans_legumes_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       }
     }
   },

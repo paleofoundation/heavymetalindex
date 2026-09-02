@@ -35,7 +35,9 @@ if (!CAT) { console.error("harvest-cert-anchors: --cat=<N> required"); process.e
 const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "35"])
 // compile-cat1-shaped configs (read_across map per subcategory; direct rows selected by scope): cat3
 // (cat3-config.json) and seafood (seafood-config.json → cert seafood-compiled).
-const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" } }
+const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" },
+  // compile-cat27/28/29 share the read_across-map shape (direct rows by scope; read_across as comparator)
+  "27": { config: "cat27-config.json", dir: "cat27-compiled" }, "28": { config: "cat28-config.json", dir: "cat28-compiled" }, "29": { config: "cat29-config.json", dir: "cat29-compiled" } }
 if (!GENERIC.has(CAT) && !CAT1_SHAPE[CAT]) { console.error(`harvest-cert-anchors: cat ${CAT} has no harvestable config shape (legacy compilers need their own harvester)`); process.exit(2) }
 const SHAPE = CAT1_SHAPE[CAT] ? "cat1" : "generic"
 const cfgPath = path.join(REPO, "tools/standards", CAT1_SHAPE[CAT] ? CAT1_SHAPE[CAT].config : `cat${CAT}-config.json`)
@@ -80,7 +82,16 @@ for (const t of targets) {
     const ra = (sub.read_across = sub.read_across || {})
     const cur1 = ra[t.analyte]
     const curKind1 = !cur1 ? "(scope)" : cur1.not_material ? "not_material" : cur1.value_ppb != null ? "inline-value" : cur1.source_id ? "read_across" : "?"
-    if (k === "subsumed") { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed is derived from the parent by reconcileSpecies (harvest the parent)" }); continue }
+    if (k === "subsumed") {
+      // cat3 (compile-cat1) derives species cells from the parent by reconcileSpecies; cat27/28/29 take an
+      // explicit subsumed spec (added 2026-09-02) so a bounded species reproduces from config.
+      if (CAT === "3" || CAT === "seafood") { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed is derived from the parent by reconcileSpecies (harvest the parent)" }); continue }
+      const parent = cell.subsumed_by || cell.bounded_by
+      if (!parent) { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed without subsumed_by" }); continue }
+      applied.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKind1, to: "subsumed", value: null, anchor: `≤ ${parent}` })
+      if (APPLY) ra[t.analyte] = { subsumed: { bounded_by: parent, rationale: cell.rationale || cell.label || undefined, basis_class: cell.basis_class || "speciation-bounded" }, _harvest: stamp }
+      continue
+    }
     const rawId = cell.binding_id || cell.source_id
     const id = successor(rawId)
     const chk = rowOk(id, guard)
