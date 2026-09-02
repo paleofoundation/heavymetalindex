@@ -1,0 +1,615 @@
+{
+  "compiled_dir": "cat10-compiled",
+  "generated": "2026-09-02T10:34:14.928Z",
+  "targets": 63,
+  "applied": [
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "car-seats",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "car-seats",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "clasps-fasteners-infant-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "clasps-fasteners-infant-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cribs-and-bassinets",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cribs-and-bassinets",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "high-chairs-and-booster-seats",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "high-chairs-and-booster-seats",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "infant-carriers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "infant-carriers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "play-yards-and-gates",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "play-yards-and-gates",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "strollers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "strollers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "swings-and-bouncers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "swings-and-bouncers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "walkers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "walkers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1900,
+      "anchor": "eu_2009_48_cat2_thg_toy_migration",
+      "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "bibs",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1900,
+      "anchor": "eu_2009_48_cat2_thg_toy_migration",
+      "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "blankets-and-sleep-sacks",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "car-seats",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "car-seats",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "car-seats",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "clasps-fasteners-infant-products",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "clasps-fasteners-infant-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "clasps-fasteners-infant-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "cribs-and-bassinets",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "cribs-and-bassinets",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "cribs-and-bassinets",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "high-chairs-and-booster-seats",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "high-chairs-and-booster-seats",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "high-chairs-and-booster-seats",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-carriers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-carriers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-carriers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1900,
+      "anchor": "eu_2009_48_cat2_thg_toy_migration",
+      "why": "eu_2009_48_cat2_thg_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "infant-clothing",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "play-yards-and-gates",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "play-yards-and-gates",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "play-yards-and-gates",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "strollers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "strollers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "strollers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "swings-and-bouncers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "swings-and-bouncers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "swings-and-bouncers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "walkers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "walkers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "walkers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

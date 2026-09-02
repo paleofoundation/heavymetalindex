@@ -1,0 +1,679 @@
+{
+  "compiled_dir": "cat20-compiled",
+  "generated": "2026-09-02T10:34:15.423Z",
+  "targets": 69,
+  "applied": [
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "dentifrices",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "dentifrices",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "mouthwash-oral-rinse",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "mouthwash-oral-rinse",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "whitening-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "whitening-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "breath-fresheners",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dentifrices",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dentifrices",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "dentifrices",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "denture-orthodontic-care",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 17000,
+      "anchor": "eu_2009_48_cat3_cd_toy_migration",
+      "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 47000,
+      "anchor": "eu_2009_48_cat3_tas_toy_migration",
+      "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 94000,
+      "anchor": "eu_2009_48_cat3_thg_toy_migration",
+      "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "floss-interdental-cleaners",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 53,
+      "anchor": "eu_2009_48_cat3_crvi_toy_migration",
+      "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "mouthwash-oral-rinse",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "mouthwash-oral-rinse",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "mouthwash-oral-rinse",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 17000,
+      "anchor": "eu_2009_48_cat3_cd_toy_migration",
+      "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 47000,
+      "anchor": "eu_2009_48_cat3_tas_toy_migration",
+      "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 94000,
+      "anchor": "eu_2009_48_cat3_thg_toy_migration",
+      "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-irrigators-water-flossers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 53,
+      "anchor": "eu_2009_48_cat3_crvi_toy_migration",
+      "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "oral-products-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 17000,
+      "anchor": "eu_2009_48_cat3_cd_toy_migration",
+      "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 47000,
+      "anchor": "eu_2009_48_cat3_tas_toy_migration",
+      "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 94000,
+      "anchor": "eu_2009_48_cat3_thg_toy_migration",
+      "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "tongue-cleaners-scrapers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 53,
+      "anchor": "eu_2009_48_cat3_crvi_toy_migration",
+      "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 17000,
+      "anchor": "eu_2009_48_cat3_cd_toy_migration",
+      "why": "eu_2009_48_cat3_cd_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 47000,
+      "anchor": "eu_2009_48_cat3_tas_toy_migration",
+      "why": "eu_2009_48_cat3_tas_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 94000,
+      "anchor": "eu_2009_48_cat3_thg_toy_migration",
+      "why": "eu_2009_48_cat3_thg_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 930000,
+      "anchor": "eu_2009_48_cat3_ni_toy_migration",
+      "why": "eu_2009_48_cat3_ni_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 180000000,
+      "anchor": "eu_2009_48_cat3_sn_toy_migration",
+      "why": "eu_2009_48_cat3_sn_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 28130000,
+      "anchor": "eu_2009_48_cat3_al_toy_migration",
+      "why": "eu_2009_48_cat3_al_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "toothbrushes",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 53,
+      "anchor": "eu_2009_48_cat3_crvi_toy_migration",
+      "why": "eu_2009_48_cat3_crvi_toy_migration basis \"element migration from scraped-off toy material (Category III); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "whitening-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "whitening-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "whitening-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

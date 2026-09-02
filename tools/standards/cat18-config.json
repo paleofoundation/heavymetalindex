@@ -87,12 +87,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. A not-material determination is not available for this row either, because marine and freshwater material (fish oil, krill, algal and seaweed material, marine collagen, fish-derived palatants and flavourings) is common enough in pet supplement formulation that a categorical 'no methylation pathway' claim would be false for part of the row. Control is the fail-safe and is what is published.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Reflex methylmercury speciation by GC-ICP-MS or HPLC-ICP-MS whenever the formulation declares marine or freshwater-derived material of any kind, or whenever total mercury reaches half the published ceiling. Any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -124,11 +124,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -183,12 +184,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "This row carries a credible methylmercury methylation and biomagnification pathway: marine and freshwater material (fish oil, krill, algal and seaweed material, green-lipped mussel, marine collagen, fish-derived palatants) is routine in this form. No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. No number is invented. Methylmercury is instead controlled by mandatory speciation bounded by the total-mercury ceiling.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Methylmercury on every lot of this row by species-specific GC-ICP-MS or HPLC-ICP-MS. Any methylmercury result exceeding the bounding total-mercury result is an analytical failure and the lot is re-run; any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -220,11 +221,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -279,12 +281,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. A not-material determination is not available for this row either, because marine and freshwater material (fish oil, krill, algal and seaweed material, marine collagen, fish-derived palatants and flavourings) is common enough in pet supplement formulation that a categorical 'no methylation pathway' claim would be false for part of the row. Control is the fail-safe and is what is published.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Reflex methylmercury speciation by GC-ICP-MS or HPLC-ICP-MS whenever the formulation declares marine or freshwater-derived material of any kind, or whenever total mercury reaches half the published ceiling. Any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -316,11 +318,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -375,12 +378,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. A not-material determination is not available for this row either, because marine and freshwater material (fish oil, krill, algal and seaweed material, marine collagen, fish-derived palatants and flavourings) is common enough in pet supplement formulation that a categorical 'no methylation pathway' claim would be false for part of the row. Control is the fail-safe and is what is published.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Reflex methylmercury speciation by GC-ICP-MS or HPLC-ICP-MS whenever the formulation declares marine or freshwater-derived material of any kind, or whenever total mercury reaches half the published ceiling. Any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -412,11 +415,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification. Lead chromate adulteration of dried rhizome and root spice material is a documented, deliberate practice and is a hexavalent-chromium route independent of soil uptake, which is a further reason no not-material claim is available for this row.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -471,12 +475,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "This row carries a credible methylmercury methylation and biomagnification pathway: marine and freshwater material (fish oil, krill, algal and seaweed material, green-lipped mussel, marine collagen, fish-derived palatants) is routine in this form. No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. No number is invented. Methylmercury is instead controlled by mandatory speciation bounded by the total-mercury ceiling.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Methylmercury on every lot of this row by species-specific GC-ICP-MS or HPLC-ICP-MS. Any methylmercury result exceeding the bounding total-mercury result is an analytical failure and the lot is re-run; any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -508,11 +512,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -567,12 +572,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. A not-material determination is not available for this row either, because marine and freshwater material (fish oil, krill, algal and seaweed material, marine collagen, fish-derived palatants and flavourings) is common enough in pet supplement formulation that a categorical 'no methylation pathway' claim would be false for part of the row. Control is the fail-safe and is what is published.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Reflex methylmercury speciation by GC-ICP-MS or HPLC-ICP-MS whenever the formulation declares marine or freshwater-derived material of any kind, or whenever total mercury reaches half the published ceiling. Any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -604,11 +609,12 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -663,12 +669,12 @@
           "basis_label": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied"
         },
         "MeHg": {
-          "control": {
-            "rationale": "This row carries a credible methylmercury methylation and biomagnification pathway: marine and freshwater material (fish oil, krill, algal and seaweed material, green-lipped mussel, marine collagen, fish-derived palatants) is routine in this form. No sovereign government sets a methylmercury maximum for any supplement, and every methylmercury maximum on the register is scoped to fish and fishery products at values far above the total-mercury ceiling this row already carries, so no read-across from them would bind anything: methylmercury is a component of total mercury and cannot exceed it. No number is invented. Methylmercury is instead controlled by mandatory speciation bounded by the total-mercury ceiling.",
-            "reference_method": "Total mercury on every lot by EPA 7473 thermal decomposition/amalgamation AAS or ICP-MS, against the published total-mercury ceiling. Methylmercury on every lot of this row by species-specific GC-ICP-MS or HPLC-ICP-MS. Any methylmercury result exceeding the bounding total-mercury result is an analytical failure and the lot is re-run; any total-mercury exceedance fails certification.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "companion_ml": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -700,13 +706,15 @@
           }
         },
         "Cr-VI": {
-          "control": {
-            "rationale": "No government sets a hexavalent-chromium maximum for any food, any supplement or any pet product. Every hexavalent-chromium row on the register is a migration limit for toys, a drinking-water maximum contaminant level, or a content limit for textiles, leather, fertiliser and electrical equipment, all of which are different matrices in different bases and none of which is a dietary ceiling. A not-material determination is deliberately not claimed: the method-artifact argument that hexavalent chromium reduces to trivalent chromium holds in an acidic reducing food matrix, but this category routinely contains dry alkaline mineral and geologic carriers (bentonite, kaolin, zeolite, diatomaceous earth, calcium and magnesium salts) in which hexavalent chromium is not reliably reduced, so the claim would not be substantiable across the row. Control is the fail-safe and is what is published: hexavalent chromium is bounded by total chromium, which is measured on every lot, and any quantifiable hexavalent chromium fails certification.",
-            "reference_method": "Total chromium on every lot by ICP-MS. Hexavalent chromium by EPA 3060A alkaline digestion with IC-ICP-MS, EPA 6800 or EN 15192, run on any lot that trips the total-chromium reflex trigger and on any lot whose formulation declares a mineral, clay, zeolite or geologic carrier. Quantifiable hexavalent chromium at the method limit of quantification is a certification failure, not a deviation.",
-            "bounded_by": "Cr"
-          }
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "14 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 14 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat18-compiled.json"
 }

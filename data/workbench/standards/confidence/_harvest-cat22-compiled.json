@@ -1,0 +1,864 @@
+{
+  "compiled_dir": "cat22-compiled",
+  "generated": "2026-09-02T10:34:15.530Z",
+  "targets": 90,
+  "applied": [
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "air-product-refill-materials",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "automatic-puff-releasers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "capillary-reed-wood-diffusers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "electric-plug-in-evaporators",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "gel-diffusers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "heated-oil-diffusers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "home-air-emission-products-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "incense-sticks-cones",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "instant-air-refreshment-sprays",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "nebula-diffusers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "potpourri-sachets",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-candles",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "scented-wax-blocks-melts",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sensor-puff-releasers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 18800,
+      "anchor": "eu_2009_48_cat2_ni_toy_migration",
+      "why": "eu_2009_48_cat2_ni_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "vacuum-cleaner-fragrance-additives",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

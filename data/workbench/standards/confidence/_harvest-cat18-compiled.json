@@ -1,0 +1,275 @@
+{
+  "compiled_dir": "cat18-compiled",
+  "generated": "2026-09-02T10:34:15.229Z",
+  "targets": 28,
+  "applied": [
+    {
+      "slug": "pet-supplements-botanical-herbal",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-botanical-herbal",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-calming-behavioral",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-calming-behavioral",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-functional-blends",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-functional-blends",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-oils",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-oils",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-probiotics-digestive",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-probiotics-digestive",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "pet-supplements-vitamin-mineral",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pet-supplements-vitamin-mineral",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "pet-supplements-botanical-herbal",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-botanical-herbal",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-calming-behavioral",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-calming-behavioral",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-functional-blends",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-functional-blends",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-oils",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-oils",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-other",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-probiotics-digestive",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-probiotics-digestive",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    },
+    {
+      "slug": "pet-supplements-vitamin-mineral",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 500,
+      "anchor": "aunz_sch19_al_formula_nonsoy_500",
+      "why": "aunz_sch19_al_formula_nonsoy_500 basis \"portion ordinarily consumed\" fails basis_guard"
+    },
+    {
+      "slug": "pet-supplements-vitamin-mineral",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_crtotal_grains_1000",
+      "why": "china_gb2762_crtotal_grains_1000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+    }
+  ]
+}
