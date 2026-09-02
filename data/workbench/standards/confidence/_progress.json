@@ -138,8 +138,36 @@
       "pushed": false
     },
     "cat3-compiled": {
-      "b_reconciled": "NOT started: 36 audit FAIL (C1 no Cr on the 10-cell cat3 panel; C5 inline Al values 5000/1500/1000 from the retired cross-source path with no register anchor; C7 not-material without basis_class) + 71 regressions incl. 12 loosenings (tHg 20→30 on 11 records, rice-beverages Al 200→1000)",
-      "pushed": false
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index ae2d68cc2, cert 97f5b15; Cr added; rice iAs 250→200 tightening)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 12
+    },
+    "cat27-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 4
+    },
+    "cat28-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 6
+    },
+    "cat29-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 3
     }
   },
   "escalations_batched": [],
@@ -216,5 +244,36 @@
     "OI-20260902-ca-crvi-final-regulation-text-not-held",
     "OI-20260902-cat1-fruit-juice-apple-ias-form-split",
     "OI-20260902-index-doi-suffix-collisions"
-  ]
+  ],
+  "remaining_categories": {
+    "wrong-basis (compile-category shape, harvest applied, C-phase corrections needed)": {
+      "dirs": [
+        "cat2",
+        "cat10",
+        "cat13",
+        "cat14",
+        "cat18",
+        "cat19",
+        "cat20",
+        "cat22",
+        "cat23"
+      ],
+      "pending_cells": 518,
+      "inventory": "data/workbench/standards/confidence/_c-inventory.json"
+    },
+    "legacy shapes needing a harvester variant + subsumed kind": {
+      "cat31/cat32 (food-limit-compiler; read_across map with control:true / not_material:true)": "cat31 26 regressions + 51 C7; cat32 34 regressions (5 R1) + 57 C7 — C7 = not_material cells without basis_class/regulatory_basis/jurisdictions_checked (compiler emits none)",
+      "cat34 (food-standards-engine)": "4 regressions: bouillon/hot-chili Pb 1000→2000 (R1) and iAs 100 dropped; 4 C10",
+      "cat24 (compile-cat24, scope-only config)": "31 regressions (24 bounded, 7 valued) + 38 C8 control-without-rationale + 6 C4 superseded GB 2762 anchors",
+      "cat25 (compile-cat25, gov_ids+provenance shape)": "36 regressions (18 bounded, 18 valued) + 36 C8",
+      "cat26 (compile-cat26, all control; PDE basis_guard still to add per brief)": "55 regressions (40 valued, 15 bounded) — live cert has firm PDE-derived cells the index config does not",
+      "cat15 (compile-cat15)": "90 regressions (70 valued incl. toy-migration Sn 3,750,000 on douches = wrong-basis, 20 bounded)",
+      "cat16 (profiles)": "72 regressions (48 bounded, 24 valued) + 72 C8",
+      "cat17 (compile-cat17)": "46 regressions + 124 C7 + 15 C8 + 1 C4 (superseded GB 2762) + 1 C5"
+    },
+    "no compiled record at all": {
+      "cat9": "index compile-cat9 (10-cell, no guards, no cert dir); cert has 8 hand pages",
+      "cat12": "nothing in either repo; 21 hand pages"
+    }
+  }
 }
