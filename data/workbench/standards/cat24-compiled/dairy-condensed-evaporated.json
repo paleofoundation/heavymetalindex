@@ -79,31 +79,32 @@
       }
     },
     "iAs": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation.",
-      "reference_method": "Total As by ICP-MS; iAs by HPLC-ICP-MS (EN 16802 or equivalent) on an elevated total-As result.",
-      "bounded_by": "tAs"
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "basis_class": "speciation-bounded",
+      "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell."
     },
     "tHg": {
-      "type": "read_across",
-      "provenance": "read-across",
-      "value": 100,
-      "value_exact": 100,
-      "source_id": "il_fcs2016_thg_1_1_dairy_products_100",
-      "source_jurisdiction": "IL",
-      "label": "Sovereign general-dairy read-across from Israel's 100 ug/kg total-mercury maximum where the government register has no exact dairy-form row.",
-      "basis_note": "nearest sovereign value, face value (disclosed read-across; no government ML for this product form)",
+      "type": "gov",
+      "provenance": "regulatory-alignment",
+      "value": 20,
+      "value_exact": 20,
+      "binding_jurisdiction": "TH",
+      "binding_id": "th_moph414_2020_thg_food_other_20",
+      "basis_note": "TH general-food maximum level (food other than the listed total-mercury categories)",
       "per_country": {}
     },
     "MeHg": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction.",
-      "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only if total Hg approaches the category ceiling.",
-      "bounded_by": "tHg"
+      "subsumed_by": "tHg",
+      "bounded_by": "tHg",
+      "basis_class": "speciation-bounded",
+      "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell."
     },
     "Ni": {
       "type": "read_across",
@@ -142,19 +143,20 @@
       "provenance": "read-across",
       "value": 300,
       "value_exact": 300,
-      "source_id": "china_gb2762_cr_liquid_milk_300",
+      "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
       "source_jurisdiction": "CN",
-      "label": "China GB 2762 total-chromium maximum for liquid milk (300 ug/kg), directly applicable to liquid/fermented milk and used as a disclosed dairy-matrix read-across for other non-powder dairy products.",
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
       "basis_note": "nearest sovereign value, face value (disclosed read-across; no government ML for this product form)",
       "per_country": {}
     },
     "Cr-VI": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "Total chromium is measured on every lot. Any total-Cr result at or above 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails certification.",
-      "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 or equivalent.",
-      "bounded_by": "Cr"
+      "subsumed_by": "Cr",
+      "bounded_by": "Cr",
+      "basis_class": "speciation-bounded",
+      "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell."
     }
   }
 }

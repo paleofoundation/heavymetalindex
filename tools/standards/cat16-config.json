@@ -108,11 +108,6 @@
       "analog_label": "EU 2023/915 infant-formula inorganic-arsenic maximum (the strictest sovereign infant iAs ML)",
       "label": "Child-protective read-across from the strictest sovereign infant-and-child-food inorganic-arsenic maximum (EU infant formula, 10 µg/kg). No government sets an inorganic-arsenic supplement ML; adult USP <2232> permits inorganic arsenic 15 µg/day (1500 µg/kg at 10 g/day). HMTc holds ALL supplements to 10 µg/kg inorganic arsenic — 150x below the adult USP concentration floor."
     },
-    "tHg": {
-      "source_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
-      "analog_label": "Israel FCS-2016 infant/toddler-formula total-mercury maximum (the strictest sovereign infant total-mercury ML)",
-      "label": "Child-protective read-across from the strictest sovereign infant-and-child-food total-mercury maximum (Israel infant/toddler formula ready-to-eat, 4 µg/kg). Adult supplement floors run 100-500 µg/kg; adult USP <2232> permits total mercury 15 µg/day (1500 µg/kg at 10 g/day). HMTc holds ALL supplements to 4 µg/kg."
-    },
     "Ni": {
       "source_id": "eu2024_ni_formula_liquid_100",
       "analog_label": "EU 2024/1987 liquid infant/young-child-formula nickel maximum (the strictest sovereign infant nickel ML)",

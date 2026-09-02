@@ -227,6 +227,21 @@
       "status": "held-for-ratification"
     },
     {
+      "key": "cat24-compiled|dairy-milk-powders|both|Pb",
+      "dir": "cat24-compiled",
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "Pb",
+      "live_value": 20,
+      "new_value": 200,
+      "new_kind": "gov",
+      "anchor": "china_gb2762_2025_pb_milk_products_other_200",
+      "gated_anchor": "il_fcs2016_pb_1_1_dairy_products_20",
+      "class": "override-raise",
+      "recorded": "2026-09-02",
+      "status": "held-for-ratification"
+    },
+    {
       "key": "cat27-compiled|legumes-pulses-other|both|iAs",
       "dir": "cat27-compiled",
       "slug": "legumes-pulses-other",

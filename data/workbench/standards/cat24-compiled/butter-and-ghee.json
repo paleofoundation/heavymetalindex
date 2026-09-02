@@ -67,12 +67,14 @@
       }
     },
     "iAs": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation.",
-      "reference_method": "Total As by ICP-MS; iAs by HPLC-ICP-MS (EN 16802 or equivalent) on an elevated total-As result.",
-      "bounded_by": "tAs"
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "binding_total": 500,
+      "basis_class": "speciation-bounded",
+      "rationale": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (500 ug/kg); no separate iAs ceiling is published. iAs is speciated whenever tAs exceeds its reflex trigger."
     },
     "tHg": {
       "type": "gov",
@@ -90,12 +92,14 @@
       }
     },
     "MeHg": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction.",
-      "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only if total Hg approaches the category ceiling.",
-      "bounded_by": "tHg"
+      "subsumed_by": "tHg",
+      "bounded_by": "tHg",
+      "binding_total": 50,
+      "basis_class": "speciation-bounded",
+      "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
     },
     "Ni": {
       "type": "control",

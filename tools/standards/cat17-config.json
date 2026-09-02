@@ -369,11 +369,6 @@
           "analog_label": "EU liquid infant/young-child formula nickel maximum",
           "label": "Human-grade read-across from the EU liquid milk-based formula nickel maximum (100 µg/kg, as consumed) where no general liquid-milk nickel maximum exists — the nearest human-food milk-matrix nickel limit."
         },
-        "Cr": {
-          "source_id": "china_gb2762_cr_liquid_milk_300",
-          "analog_label": "China GB 2762 total-chromium maximum for liquid milk",
-          "label": "Human-grade read-across from China's GB 2762 total-chromium maximum for liquid milk (300 µg/kg, as consumed) — the nearest human-food milk-matrix total-chromium limit, and the value the human dairy standard adopts."
-        },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
           "analog_label": "AU-NZ non-soy infant-formula aluminium maximum",

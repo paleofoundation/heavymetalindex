@@ -150,12 +150,18 @@ function directiveFor(sub, analyte) {
 function resolveCell(sub, analyte) {
   const d = directiveFor(sub, analyte)
 
+  // 0) explicit subsumed spec (harvested from the published standard): a species bounded by its parent total
+  if (d && d.subsumed) {
+    const parent = d.subsumed.bounded_by || d.subsumed.subsumed_by || null
+    return { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: parent, bounded_by: parent, basis_class: d.subsumed.basis_class || "speciation-bounded", rationale: d.subsumed.rationale || `${analyte} is a component of ${parent} and bounded by it` }
+  }
   // 1) HARD control — species control (iAs, MeHg, Cr-VI) or packaging control (Sn on non-canned forms),
   //    or a subcategory override that declares the analyte a control (butter Ni/Al/Cr). No register lookup.
   if (d && d.control_only === true) {
     return {
       type: "control", provenance: "control", value: null,
       control: d.control || "not a certification number for this product form",
+      rationale: d.rationale || d.control || "not a certification number for this product form",
       reference_method: d.reference_method || null,
       bounded_by: d.bounded_by ?? null,
     }
@@ -195,6 +201,7 @@ function resolveCell(sub, analyte) {
   if (d && d.basis === "gov" && d.source_id) {
     const src = byId.get(d.source_id)
     if (!src) return { type: "gap", provenance: null, value: null, error: `basis:gov source_id ${d.source_id} not in register` }
+    if (STATUS_GATE.test(src.status || "")) return { type: "gap", provenance: null, value: null, error: `basis:gov source_id ${d.source_id} is gated (${src.status})` }
     const v = num(src.value_ug_kg)
     if (v != null) { injected = { value: v, jur: src.jurisdiction, id: d.source_id, scope: src.product_scope, label: d.label }; govCandidates.push(injected) }
   }
@@ -223,6 +230,7 @@ function resolveCell(sub, analyte) {
   if (d && d.source_id) {
     const src = byId.get(d.source_id)
     if (!src) return { type: "gap", provenance: null, value: null, error: `read_across source_id ${d.source_id} not in register` }
+    if (STATUS_GATE.test(src.status || "")) return { type: "gap", provenance: null, value: null, error: `read_across source_id ${d.source_id} is gated (${src.status})` }
     const v = num(src.value_ug_kg)
     if (v == null) return { type: "gap", provenance: null, value: null, error: `read_across source_id ${d.source_id} has no numeric value` }
     return {
@@ -250,6 +258,16 @@ for (const slug of slugs) {
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) left as a control or a gap while its parent total is
+  // a firm number is bounded by that parent (species <= total); control is transitional (lib/provenance.mjs).
+  for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+    if (!PANEL.includes(sp)) continue
+    const t = cells[tot], c = cells[sp]
+    const tv = t && typeof t.value === "number" ? t.value : null
+    if (tv == null || !c || !(c.type === "control" || c.type === "gap")) continue
+    cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
+      rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+  }
   stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, native_basis: sub.native_basis, canned: !!sub.canned,

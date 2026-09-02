@@ -1,0 +1,82 @@
+{
+  "generated": "2026-09-02T11:18:04.568Z",
+  "cert": "/Users/karenpendergrass/Desktop/heavymetalcertified",
+  "dir": "cat24-compiled",
+  "applied": true,
+  "cells": 3,
+  "by_class": {
+    "override-raise": 1,
+    "needs-judgment:scan-tighter-or-equal": 2
+  },
+  "cells_detail": [
+    {
+      "dir": "cat24-compiled",
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "Pb",
+      "kind": "read_across",
+      "live_value": 20,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "il_fcs2016_pb_1_1_dairy_products_20",
+      "gated_scope": "Dairy products",
+      "class": "override-raise",
+      "pick": {
+        "id": "china_gb2762_2025_pb_milk_products_other_200",
+        "value": 200,
+        "jurisdiction": "CN",
+        "scope": "Milk and milk products, excluding raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 1, item 10.1)",
+        "basis": "product as placed on market"
+      },
+      "held": true,
+      "config": "cat24-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat24-compiled",
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "tAs",
+      "kind": "gov",
+      "live_value": 500,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_tas_milk_powder_500",
+      "gated_scope": "milk powder and modified milk powder (GB 2762-2022 Table 4, sections 4.4.1-4.4.2); total arsenic",
+      "class": "needs-judgment:scan-tighter-or-equal",
+      "pick": {
+        "id": "china_gb2762_2025_tas_milk_powder_500",
+        "value": 500,
+        "jurisdiction": "CN",
+        "scope": "Milk powder and modified milk powder (GB 2762-2025 Table 4, item 6.2); total arsenic",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat24-config.json",
+      "scope_terms": true
+    },
+    {
+      "dir": "cat24-compiled",
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "Cr",
+      "kind": "gov",
+      "live_value": 2000,
+      "basis": null,
+      "basis_family": "dietary-content",
+      "gated_anchor": "china_gb2762_cr_milk_powder_2000",
+      "gated_scope": "milk powder and modified milk powder (GB 2762-2022 Table 7, section 4.7); total Cr, not Cr-VI",
+      "class": "needs-judgment:scan-tighter-or-equal",
+      "pick": {
+        "id": "china_gb2762_2025_crtotal_milk_powder_2000",
+        "value": 2000,
+        "jurisdiction": "CN",
+        "scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+        "basis": "product as placed on market"
+      },
+      "held": false,
+      "config": "cat24-config.json",
+      "scope_terms": true
+    }
+  ]
+}

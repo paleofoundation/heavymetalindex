@@ -14,21 +14,6 @@
     "Cr-VI"
   ],
   "default_read_across": {
-    "Pb": {
-      "source_id": "il_fcs2016_pb_1_1_dairy_products_20",
-      "gap_only": true,
-      "label": "Sovereign general-dairy read-across from Israel's 20 ug/kg lead maximum where the government register has no exact dairy-form row."
-    },
-    "Cd": {
-      "source_id": "il_fcs2016_cd_1_1_dairy_products_50",
-      "gap_only": true,
-      "label": "Sovereign general-dairy read-across from Israel's 50 ug/kg cadmium maximum where the government register has no exact dairy-form row."
-    },
-    "tAs": {
-      "source_id": "il_fcs2016_tas_1_1_dairy_products_1000",
-      "gap_only": true,
-      "label": "Sovereign general-dairy read-across from Israel's 1000 ug/kg total-arsenic maximum where the government register has no exact dairy-form row."
-    },
     "iAs": {
       "control_only": true,
       "bounded_by": "tAs",
@@ -40,11 +25,6 @@
       "bounded_by": "tHg",
       "control": "There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction.",
       "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only if total Hg approaches the category ceiling."
-    },
-    "tHg": {
-      "source_id": "il_fcs2016_thg_1_1_dairy_products_100",
-      "gap_only": true,
-      "label": "Sovereign general-dairy read-across from Israel's 100 ug/kg total-mercury maximum where the government register has no exact dairy-form row."
     },
     "Ni": {
       "source_id": "eu2024_ni_formula_liquid_100",
@@ -60,11 +40,6 @@
       "source_id": "aunz_sch19_al_formula_nonsoy_500",
       "gap_only": true,
       "label": "Conservative sovereign dairy read-across from the AU-NZ non-soy infant-formula aluminium maximum (500 ug/kg); no general-dairy aluminium maximum is loaded."
-    },
-    "Cr": {
-      "source_id": "china_gb2762_cr_liquid_milk_300",
-      "gap_only": true,
-      "label": "China GB 2762 total-chromium maximum for liquid milk (300 ug/kg), directly applicable to liquid/fermented milk and used as a disclosed dairy-matrix read-across for other non-powder dairy products."
     },
     "Cr-VI": {
       "control_only": true,
@@ -100,7 +75,49 @@
         "tin-coated",
         "in tins",
         "canned"
-      ]
+      ],
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
+          "basis": "gov",
+          "label": "strictest applicable sovereign maximum (face value)",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal → china_gb2762_2025_crtotal_liquid_milk_300"
+        }
+      }
     },
     "dairy-milk-goat-sheep": {
       "name": "Liquid milk — goat, sheep, and other ruminant",
@@ -133,7 +150,49 @@
         "tin-coated",
         "in tins",
         "canned"
-      ]
+      ],
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
+          "basis": "gov",
+          "label": "strictest applicable sovereign maximum (face value)",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal → china_gb2762_2025_crtotal_liquid_milk_300"
+        }
+      }
     },
     "dairy-milk-camel": {
       "name": "Camel milk",
@@ -164,7 +223,49 @@
         "in tins",
         "canned"
       ],
-      "_scope_note": "No sovereign sets camel-milk-specific contaminant maximums. Government fluid-milk/general-dairy MLs are species-agnostic and apply to camel milk as fluid milk (a disclosed same-matrix government limit, not an occurrence analogy). The Step Zero lock's caution against cow-milk analogy applies to OCCURRENCE evidence, which this government-limit standard never uses."
+      "_scope_note": "No sovereign sets camel-milk-specific contaminant maximums. Government fluid-milk/general-dairy MLs are species-agnostic and apply to camel milk as fluid milk (a disclosed same-matrix government limit, not an occurrence analogy). The Step Zero lock's caution against cow-milk analogy applies to OCCURRENCE evidence, which this government-limit standard never uses.",
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
+          "basis": "gov",
+          "label": "strictest applicable sovereign maximum (face value)",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal → china_gb2762_2025_crtotal_liquid_milk_300"
+        }
+      }
     },
     "dairy-cheese": {
       "name": "Cheese",
@@ -183,7 +284,43 @@
         "tin-coated",
         "in tins",
         "canned"
-      ]
+      ],
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal-read-across → china_gb2762_2025_crtotal_liquid_milk_300"
+        }
+      }
     },
     "dairy-yogurt-cultured": {
       "name": "Yogurt and cultured dairy",
@@ -220,7 +357,38 @@
         "tin-coated",
         "in tins",
         "canned"
-      ]
+      ],
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "dairy-cream": {
       "name": "Cream",
@@ -260,7 +428,49 @@
         "tin-coated",
         "in tins",
         "canned"
-      ]
+      ],
+      "read_across": {
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "source_id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
+          "basis": "gov",
+          "label": "strictest applicable sovereign maximum (face value)",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal-read-across → china_gb2762_2025_crtotal_liquid_milk_300"
+        }
+      }
     },
     "dairy-milk-powders": {
       "name": "Milk powders — whole, skim, and specialty",
@@ -289,6 +499,52 @@
         "Ni": {
           "source_id": "eu2024_ni_formula_powder_250",
           "label": "Sovereign powder-basis dairy read-across from the EU non-soy infant/young-child formula nickel maximum (250 ug/kg)."
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "source_id": "china_gb2762_2025_tas_milk_powder_500",
+          "basis": "gov",
+          "label": "strictest applicable sovereign maximum (face value)",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_tas_milk_powder_500 → successor china_gb2762_2025_tas_milk_powder_500"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "basis": "gov",
+          "label": "government maximum level by lookup",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_cr_milk_powder_2000 → successor china_gb2762_2025_crtotal_milk_powder_2000"
+        },
+        "Pb": {
+          "source_id": "china_gb2762_2025_pb_milk_products_other_200",
+          "basis": "gov",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_pb_milk_products_other_200"
         }
       }
     },
@@ -315,6 +571,41 @@
           "source_id": "eu2023_sn_canned_foods_200000",
           "basis": "gov",
           "label": "EU inorganic-tin maximum for canned foods other than beverages (200000 ug/kg) applies directly to canned condensed and evaporated milk (tin migrates from the tinplate can)."
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+          "reanchor_note": "2026-09-02: regulations/china-gb-2762-2022-contaminants superseded; override-tighter-or-equal-read-across → china_gb2762_2025_crtotal_liquid_milk_300"
         }
       }
     },
@@ -364,5 +655,6 @@
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "6 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat24-compiled.json"
 }

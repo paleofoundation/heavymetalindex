@@ -117,6 +117,40 @@
     "cat31-compiled|syrups-maple-agave-molasses|*|Cd": {
       "id": "sg_foodregs_2026_other_food_cd_200",
       "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat24-compiled|dairy-milk-cow|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-milk-goat-sheep|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-milk-camel|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-cheese|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-cream|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-condensed-evaporated|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-milk-powders|*|Pb": {
+      "id": "china_gb2762_2025_pb_milk_products_other_200",
+      "why": "GB 2762-2025 lead in other milk products (200) on the product-as-placed-on-market basis is the strictest in-force sovereign row reaching milk powder as sold (the India FSSAI secondary-milk row is as-consumed; Cat-24 is no-reconstitution); raise 20→200, held. Verify whether GB 2762-2025 carries a separate milk-powder lead row (the 2022 text had 0.5 mg/kg) that the extraction missed."
     }
   }
 }

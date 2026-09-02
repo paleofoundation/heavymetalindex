@@ -51,7 +51,11 @@ for (const f of files) {
   // generic deep walk: a gated id in any string array (candidate sets, companion lists, jurisdictions_checked) is removed
   const walk = (node, trail) => {
     if (Array.isArray(node)) { for (let i = node.length - 1; i >= 0; i--) { const v = node[i]; if (typeof v === "string") { const g = gated(v); if (g) { dropped.push(`${trail}[${i}] ${v} [${g}]`); node.splice(i, 1) } } else if (v && typeof v === "object") walk(v, `${trail}[${i}]`) } }
-    else if (node && typeof node === "object") for (const [k, v] of Object.entries(node)) walk(v, trail ? `${trail}.${k}` : k)
+    else if (node && typeof node === "object") for (const [k, v] of Object.entries(node)) {
+      const t = trail ? `${trail}.${k}` : k
+      if (v && typeof v === "object" && !Array.isArray(v)) { const id = v.source_id || v.binding_id; const g = id && gated(id); if (g) { dropped.push(`${t} ${id} [${g}]`); delete node[k]; continue } }
+      walk(v, t)
+    }
   }
   walk(cfg, "")
   if (dropped.length) { total += dropped.length; console.log(`${f}: ${dropped.length} gated pin(s)${APPLY ? " dropped" : " (dry-run)"}`); for (const d of dropped) console.log("   - " + d); if (APPLY) fs.writeFileSync(p, JSON.stringify(cfg, null, 2) + "\n") }

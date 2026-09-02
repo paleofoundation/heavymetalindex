@@ -1,0 +1,62 @@
+{
+  "compiled_dir": "cat24-compiled",
+  "generated": "2026-09-02T11:15:52.097Z",
+  "targets": 6,
+  "applied": [
+    {
+      "slug": "dairy-cream",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20"
+    },
+    {
+      "slug": "dairy-milk-camel",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20"
+    },
+    {
+      "slug": "dairy-milk-cow",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20"
+    },
+    {
+      "slug": "dairy-milk-goat-sheep",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20"
+    },
+    {
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 500,
+      "anchor": "china_gb2762_2025_tas_milk_powder_500"
+    },
+    {
+      "slug": "dairy-milk-powders",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 2000,
+      "anchor": "china_gb2762_2025_crtotal_milk_powder_2000"
+    }
+  ],
+  "skipped": []
+}
