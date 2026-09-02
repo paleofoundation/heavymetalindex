@@ -4,9 +4,33 @@
   "category_name": "Peptides, SARMs, and Research Chemicals",
   "taxonomy_version": "2.1",
   "method": "HMTc Method v2.0 — no-regulatory-anchor (control) form. Government-limit lookup returns nothing for this class, so cells resolve to `control` or a substantiated `not_material`; ICH Q3D / USP <232> route-appropriate PDEs are toxicological anchors only, never product-content limits.",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
   "reference_method": "ICP-MS per USP General Chapter <233> (or an equivalently validated ICP-MS / ICP-OES elemental method) on the finished product in its as-sold form: total-element quantitation for the eight totals (Pb, Cd, tAs, tHg, Ni, Sn, Al, total Cr), with reflex inorganic-arsenic speciation (HPLC-ICP-MS) on an elevated total-arsenic result and reflex hexavalent-chromium speciation on an elevated total-chromium result.",
-  "tier": { "Pb": 1, "Cd": 1, "tAs": 1, "iAs": 1, "tHg": 1, "MeHg": 1, "Ni": 2, "Sn": 2, "Al": 2, "Cr": 2, "Cr-VI": 2 },
+  "tier": {
+    "Pb": 1,
+    "Cd": 1,
+    "tAs": 1,
+    "iAs": 1,
+    "tHg": 1,
+    "MeHg": 1,
+    "Ni": 2,
+    "Sn": 2,
+    "Al": 2,
+    "Cr": 2,
+    "Cr-VI": 2
+  },
   "tier_note": "Tiers follow the toxicology-based HMTc framework (project_hmtc_status_tier_framework): Tier 1 = Pb, Cd, iAs, MeHg (no safe threshold; zero tolerance for exceeding the escalation anchor). Total As and total Hg are Tier-1-adjacent screens for their toxic species (iAs; inorganic Hg is an ICH Q3D Class-1 toxicant). Tier 2 = Ni, Sn, Al, Cr-VI (established tolerable intakes / acute-not-chronic; the Status B 150% transitional band applies). Total Cr is the screen for the Tier-2 hexavalent species.",
   "vacuum_scan": {
     "scope_regex": "peptide|sarm|selective androgen|anabolic|androgenic|\\bsteroid\\b|research chemical|unapproved drug|misbranded drug|injectable drug|nootropic|\\bGLP-1\\b|secretagogue",
@@ -56,7 +80,9 @@
       "route": "parenteral",
       "route_label": "parenteral",
       "scope_note": "Gray-market injectable peptide hormones sold outside the drug-approval and supplement frameworks: GLP-1 receptor-agonist analogs, growth-hormone secretagogues, and other synthetic peptides supplied as lyophilised powder for reconstitution or as ready-to-inject solution. The injected route bypasses gut absorption, so per microgram it is the most severe pathway in the taxonomy and the escalation anchor is the parenteral ICH Q3D PDE. Collagen and protein-hydrolysate peptides with a Supplement Facts panel route to Category 16, not here.",
-      "seed_evidence": ["craven2025-aas-heavy-metals-australia"]
+      "seed_evidence": [
+        "craven2025-aas-heavy-metals-australia"
+      ]
     },
     "sarms-oral": {
       "row": 2,
@@ -64,7 +90,9 @@
       "route": "oral",
       "route_label": "oral",
       "scope_note": "Selective androgen receptor modulators supplied as oral capsules, tablets, or liquid droppers, sold as research chemicals outside any drug-approval or supplement framework. The oral route carries the larger per-gram toxic-metal burden in the seed evidence (Craven 2025: oral nickel mean 27.48 ug/g, near the 200 ug/day oral PDE depending on dose; oral aluminium mean 651 ug/g), so the escalation anchor is the oral ICH Q3D PDE.",
-      "seed_evidence": ["craven2025-aas-heavy-metals-australia"]
+      "seed_evidence": [
+        "craven2025-aas-heavy-metals-australia"
+      ]
     },
     "aas-injectable": {
       "row": 3,
@@ -72,7 +100,9 @@
       "route": "parenteral",
       "route_label": "parenteral",
       "scope_note": "Illicit injectable anabolic-androgenic steroids supplied as oil-based solutions (testosterone esters, nandrolone, trenbolone, and similar), sold outside any drug-approval framework. The direct evidence anchor is Craven 2025 (16 injectable oils: lead in every sample, cadmium quantifiable only in injectables, aluminium mean 47.31 ug/mL). The injected route bypasses gut absorption, so the escalation anchor is the parenteral ICH Q3D PDE.",
-      "seed_evidence": ["craven2025-aas-heavy-metals-australia"]
+      "seed_evidence": [
+        "craven2025-aas-heavy-metals-australia"
+      ]
     },
     "research-chem-raw-powders": {
       "row": 4,
@@ -80,7 +110,9 @@
       "route": "parenteral",
       "route_label": "parenteral (most-protective; a pre-formulation raw material may be reconstituted for injection)",
       "scope_note": "Bulk raw powders (active pharmaceutical ingredient grade or lower) sold pre-formulation for home reconstitution into injectable oils or oral preparations. Because the same powder may be reconstituted for injection, the most-protective route is applied and the escalation anchor is the parenteral ICH Q3D PDE, consistent with the Step Zero lock's treatment of the parenteral pathway as the most severe. Craven 2025 analysed 2 raw powders (lead 1.18 ug/g; aluminium 51.73 ug/g).",
-      "seed_evidence": ["craven2025-aas-heavy-metals-australia"]
+      "seed_evidence": [
+        "craven2025-aas-heavy-metals-australia"
+      ]
     },
     "peptides-nasal-sublingual": {
       "row": 5,
@@ -88,7 +120,11 @@
       "route": "mucosal",
       "route_label": "mucosal (nasal / sublingual)",
       "scope_note": "Gray-market peptide preparations delivered across a mucosal membrane: nasal sprays, sublingual drops, and troches/lozenges. Mucosal absorption bypasses first-pass gut metabolism (like injection) and the nasal fraction adds a local respiratory pathway, so the escalation anchor is the most-protective of the parenteral and inhalation ICH Q3D PDE per analyte. No route-specific direct occurrence data yet; the contamination mechanism (overseas unregulated synthesis, no GMP) is shared with the injectable and oral rows.",
-      "seed_evidence": ["craven2025-aas-heavy-metals-australia"]
+      "seed_evidence": [
+        "craven2025-aas-heavy-metals-australia"
+      ]
     }
-  }
+  },
+  "basis_guard": "PDE|permitted daily exposure|USP <232>|ICH Q3D|µg/day|ug/day",
+  "basis_guard_note": "Cat-26 (peptides, SARMs, research chemicals) is governed on the pharmacopeial permitted-daily-exposure basis (USP <232> / ICH Q3D route-specific PDEs, µg/day); every anchor's register basis must be a PDE. A dietary-content ML or a migration limit is a different measured quantity and is refused (Required-Testing-Panel Ruling §2(c)). Added 2026-09-02 per docs/tasks/standards-95-confidence-completion-brief.md §B."
 }

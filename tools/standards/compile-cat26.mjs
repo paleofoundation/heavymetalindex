@@ -264,6 +264,10 @@ for (const slug of slugs) {
 
   const record = {
     slug, name: sub.name, row: sub.row, category: 26, category_name: config.category_name,
+    // BASIS GUARD (brief §B): Cat-26 stays on pharmacopeial permitted-daily-exposure ceilings; a dietary
+    // content or migration row can never anchor a PDE cell. Carried on the record so the audit's basis-aware
+    // checks (W1, D2) and the harvester refuse cross-family anchors.
+    basis_guard: sub.basis_guard || config.basis_guard || null, basis_guard_note: sub.basis_guard_note || config.basis_guard_note || null,
     route: sub.route, route_label: sub.route_label,
     method: config.method,
     governing_basis: "No lawful product heavy-metal content limit exists for this unapproved-drug class; the Method v2.0 ceiling term is absent and the occurrence term is firewalled staff-only. Every cell is `control` (test + method + toxicology-anchored escalation, no number) or a substantiated `not_material`. ICH Q3D / USP <232> route-appropriate PDEs are toxicological anchors only, never product-content limits.",
