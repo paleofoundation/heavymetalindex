@@ -11,7 +11,7 @@
       "cert_base": "c1d41c2"
     }
   ],
-  "phase": "B/C/E: 25 dirs reconciled through the round-trip (cat1*,3,4*,5,8*,11,16*,17*,21,24*,25,27*,28,29*,30*,31*,32,33,34*,35,seafood*; cat26 in progress; * = records held for ratification) + M2 round 1 on seafood done (10 verdicts, canary caught) + Israel supersession fallout re-anchored",
+  "phase": "Phase B/C/E: 27 of 32 dirs reconciled through the round-trip (clean or held); Lens 0 manifests for all 32; M2 round 1 done on seafood; Phase F dry runs executed; Phase G report delivered 2026-09-02 (session 1)",
   "phase_a": {
     "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
     "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
@@ -222,11 +222,10 @@
     "window": "12/hour cap; next free ~12:06 UTC"
   },
   "next_steps": [
-    "dispatch M2 round 2 (seafood p1-p4 A/B = 8 leases) + cat30 p6 A/B (2) at the governor window; ingest; rerun confidence-run; --mirror when index lint passes",
-    "finish cat26 (verify defects) and render in cert",
-    "cat2/10/13/14/19/20/22/23 wrong-basis C-phase (518 cells; human-gated OI) and cat9/cat12 per brief",
-    "Phase F: rerun the DoD 9 dry runs; Phase G report with the held-raise ratification table (83 items), tightened-number table, and the batched escalation list",
-    "open index PR to main; commit governor spend ledger"
+    "dispatch M2 round 2: seafood m2-20260902b-p1..p4 A/B (8 leases) + cat30 m2-20260902-p6 A/B (2) when the governor frees (12:06 UTC); ingest; rerun; mirror",
+    "Karen: ratify/decline the 83 held items (confidence/_held-raises.json), rule OI-20260902-catch-all-rows-bind-program-wide, rule the wrong-basis inventory (Phase C), then push cert",
+    "M1 deep read: FSSAI 2016 chromium row (g6 disagreement) and the France CSHPF seaweed rows",
+    "cat9/cat12 configs per brief; EU successor rows (2023/915 Hg/Sn, 2018/73 MRLs) ingest"
   ],
   "closed_ois": [
     "OI-20260902-readiness-lint-still-overcounts-complete",
@@ -277,7 +276,7 @@
       "cat12": "nothing in either repo; 21 hand pages"
     }
   },
-  "updated": "2026-09-02T11:45Z",
+  "updated": "2026-09-02T11:40Z",
   "israel_supersession": {
     "status": "APPLIED 2026-09-02 (index f975371e1)",
     "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
@@ -293,5 +292,54 @@
     "cat30": "packet m2-20260902-p6 (6 batches) not yet dispatched",
     "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled"
   },
-  "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)"
+  "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)",
+  "categories_state": {
+    "clean_copied": [
+      "cat3",
+      "cat5",
+      "cat11",
+      "cat21",
+      "cat25",
+      "cat26",
+      "cat28",
+      "cat32",
+      "cat33",
+      "cat35"
+    ],
+    "held_records": {
+      "cat1": 12,
+      "cat4": 8,
+      "cat8": 4,
+      "cat16": 24,
+      "cat17": 9,
+      "cat18": 7,
+      "cat24": 1,
+      "cat27": 4,
+      "cat29": 3,
+      "cat30": 2,
+      "cat31": 3,
+      "cat34": 1,
+      "seafood": 7
+    },
+    "wrong_basis_phase_c_human_gated": [
+      "cat2",
+      "cat10",
+      "cat13",
+      "cat14",
+      "cat19",
+      "cat20",
+      "cat22",
+      "cat23",
+      "cat15 (toy-migration/water anchors)",
+      "cat18 Al"
+    ],
+    "no_config_per_brief": [
+      "cat9 (10-cell, hand pages)",
+      "cat12 (no config)"
+    ]
+  },
+  "dod9_dry_runs": {
+    "index": "node tools/mint-dois.mjs --dry-run → DRY-RUN mode=test, 763 candidates, 27 DOI suffix collisions (OI-20260902-index-doi-suffix-collisions)",
+    "cert": "standard-readiness-lint (349 pages, 239 COMPLETE, 331 empty cells, 29 recordless, 2 scaffolds, 110 not COMPLETE) && mint-dois --manifest --emit → eligible 0, skipped 351 (349 held), doi-manifest.csv 0 rows"
+  }
 }

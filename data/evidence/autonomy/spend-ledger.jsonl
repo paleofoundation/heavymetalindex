@@ -1,0 +1,17 @@
+{"id":"lease-1788341068394-62076","event":"spawn","ts":"2026-09-02T09:24:28.394Z","ts_ms":1788341068394,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":1,"est_tokens":75000}
+{"id":"lease-1788343542182-62076","event":"spawn","ts":"2026-09-02T10:05:42.182Z","ts_ms":1788343542182,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":6,"est_tokens":450000}
+{"event":"refused","ts":"2026-09-02T10:05:42.185Z","ts_ms":1788343542185,"reason":"hourly cap: 7+6 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"id":"lease-1788343569424-62076","event":"spawn","ts":"2026-09-02T10:06:09.424Z","ts_ms":1788343569424,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":5,"est_tokens":375000}
+{"event":"refused","ts":"2026-09-02T10:28:11.665Z","ts_ms":1788344891666,"reason":"hourly cap: 11+8 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"id":"lease-1788344922528-62076","event":"spawn","ts":"2026-09-02T10:28:42.528Z","ts_ms":1788344922528,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":1,"est_tokens":75000}
+{"event":"refused","ts":"2026-09-02T10:31:21.001Z","ts_ms":1788345081002,"reason":"hourly cap: 12+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T10:34:50.926Z","ts_ms":1788345290927,"reason":"hourly cap: 12+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T10:35:33.365Z","ts_ms":1788345333366,"reason":"per-run cap: requested 11 > max_invocations_per_run 10","workType":"standards-confidence","engine":"anthropic","count":11}
+{"event":"refused","ts":"2026-09-02T10:43:31.885Z","ts_ms":1788345811885,"reason":"hourly cap: 12+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T10:55:53.168Z","ts_ms":1788346553169,"reason":"hourly cap: 12+1 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T11:00:16.527Z","ts_ms":1788346816527,"reason":"hourly cap: 12+1 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T11:03:36.027Z","ts_ms":1788347016027,"reason":"hourly cap: 12+1 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"event":"refused","ts":"2026-09-02T11:05:20.914Z","ts_ms":1788347120915,"reason":"hourly cap: 12+1 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
+{"id":"lease-1788347195189-62076","event":"spawn","ts":"2026-09-02T11:06:35.189Z","ts_ms":1788347195189,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":1,"est_tokens":75000}
+{"id":"lease-1788347274030-62076","event":"spawn","ts":"2026-09-02T11:07:54.030Z","ts_ms":1788347274030,"workType":"standards-confidence","engine":"anthropic","model":"claude-fable-5-1","effort":"high","count":10,"est_tokens":750000}
+{"event":"refused","ts":"2026-09-02T11:22:24.507Z","ts_ms":1788348144507,"reason":"hourly cap: 12+10 > max_invocations_per_hour 12","workType":"standards-confidence","engine":"anthropic"}
