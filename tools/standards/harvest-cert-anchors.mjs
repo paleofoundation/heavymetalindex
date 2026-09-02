@@ -33,16 +33,25 @@ const APPLY = args.has("apply")
 const CERT = args.get("cert") || process.env.CERT_REPO || path.join(os.homedir(), "Desktop/heavymetalcertified")
 if (!CAT) { console.error("harvest-cert-anchors: --cat=<N> required"); process.exit(2) }
 const GENERIC = new Set(["2", "4", "5", "8", "10", "11", "13", "14", "18", "19", "20", "21", "22", "23", "35"])
-if (!GENERIC.has(CAT)) { console.error(`harvest-cert-anchors: cat ${CAT} is not a compile-category config (legacy compilers need their own harvester)`); process.exit(2) }
-const cfgPath = path.join(REPO, "tools/standards", `cat${CAT}-config.json`)
+// compile-cat1-shaped configs (read_across map per subcategory; direct rows selected by scope): cat3
+// (cat3-config.json) and seafood (seafood-config.json → cert seafood-compiled).
+const CAT1_SHAPE = { "3": { config: "cat3-config.json", dir: "cat3-compiled" }, seafood: { config: "seafood-config.json", dir: "seafood-compiled" } }
+if (!GENERIC.has(CAT) && !CAT1_SHAPE[CAT]) { console.error(`harvest-cert-anchors: cat ${CAT} has no harvestable config shape (legacy compilers need their own harvester)`); process.exit(2) }
+const SHAPE = CAT1_SHAPE[CAT] ? "cat1" : "generic"
+const cfgPath = path.join(REPO, "tools/standards", CAT1_SHAPE[CAT] ? CAT1_SHAPE[CAT].config : `cat${CAT}-config.json`)
 const cfg = JSON.parse(fs.readFileSync(cfgPath, "utf8"))
-const dir = `cat${CAT}-compiled`
+const dir = CAT1_SHAPE[CAT] ? CAT1_SHAPE[CAT].dir : `cat${CAT}-compiled`
+// GB 2762-2022 → GB 2762-2025 successor map (the 2022 rows are superseded since 2026-09-02)
+const SUCCESSOR = (() => { try { const ex = JSON.parse(fs.readFileSync(path.join(REPO, "data/workbench/standards/confidence/_gb2762-2025-extraction.json"), "utf8")); const m = {}; for (const r of ex) if (r.supersedes_id) for (const old of String(r.supersedes_id).split(/[;,]\s*/)) m[old.trim()] = r.new_id; return m } catch { return {} } })()
+const successor = (id) => SUCCESSOR[id] || id
 const register = loadRegister(REPO)
 
 // round-trip diff → the cells to harvest
 const dif = spawnSync("node", ["tools/standards/diff-compiled-vs-cert.mjs", `--dir=${dir}`, `--cert=${CERT}`, "--json"], { cwd: REPO, encoding: "utf8", maxBuffer: 1 << 28 })
 const diff = JSON.parse(dif.stdout)[0]
-const targets = (diff.cells || []).filter((c) => /^cert-valued-index-empty|^cert-bounded-index-empty|^cert-valued-index-absent/.test(c.cls))
+// generic shape: cells the index leaves empty. cat1 shape: also cells where the index publishes a value with
+// NO register anchor (the retired inline value_ppb path) or a looser value (a live tighter sovereign cell).
+const targets = (diff.cells || []).filter((c) => /^cert-valued-index-empty|^cert-bounded-index-empty|^cert-valued-index-absent/.test(c.cls) || (SHAPE === "cat1" && /^cert-tighter|^index-tighter|^anchor-change|^kind-change/.test(c.cls)))
 
 const certDir = path.join(CERT, "data/standards", dir)
 const applied = [], skipped = []
@@ -64,9 +73,28 @@ for (const t of targets) {
   if (!cell) { skipped.push({ ...t, why: "cert cell missing" }); continue }
   const k = kindOf(cell)
   const guard = guardOf(sub)
+  const stamp = `harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)`
+  if (SHAPE === "cat1") {
+    // compile-cat1 shape: read_across[analyte] = { source_id, basis:"gov" (direct sovereign lookup), label };
+    // subsumed species are produced by reconcileSpecies from the parent, never configured.
+    const ra = (sub.read_across = sub.read_across || {})
+    const cur1 = ra[t.analyte]
+    const curKind1 = !cur1 ? "(scope)" : cur1.not_material ? "not_material" : cur1.value_ppb != null ? "inline-value" : cur1.source_id ? "read_across" : "?"
+    if (k === "subsumed") { skipped.push({ ...t, from: curKind1, cert_kind: k, why: "subsumed is derived from the parent by reconcileSpecies (harvest the parent)" }); continue }
+    const rawId = cell.binding_id || cell.source_id
+    const id = successor(rawId)
+    const chk = rowOk(id, guard)
+    if (!rawId || !chk.ok) { skipped.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKind1, cert_kind: k, value: cell.value ?? null, anchor: rawId || null, why: chk.why || "no anchor id" }); continue }
+    // an index cell that is ALREADY tighter than cert on a real anchor is kept (never loosen)
+    if (t.cls === "index-tighter" && curKind1 !== "inline-value") { skipped.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKind1, cert_kind: k, value: cell.value ?? null, anchor: rawId, why: "index already tighter on a register anchor; kept" }); continue }
+    const spec = { source_id: id, ...(k === "gov" ? { basis: "gov" } : {}), label: cell.label || cell.basis_note || `${k === "gov" ? "government maximum level by lookup" : "government read-across"}: ${chk.row.jurisdiction} ${chk.row.product_scope.slice(0, 80)}`, _harvest: stamp + (id !== rawId ? `; ${rawId} → successor ${id}` : "") }
+    applied.push({ slug: t.slug, variant: t.variant, analyte: t.analyte, from: curKind1, to: k === "gov" ? "read_across(basis:gov)" : "read_across", value: cell.value ?? null, anchor: id })
+    if (APPLY) ra[t.analyte] = spec
+    continue
+  }
   const cur = (sub.cells || {})[t.analyte]
   const curKind = cur ? Object.keys(cur).find((x) => ["gov_ids", "read_across", "component_read_across", "subsumed", "control", "not_material", "baseline_screen"].includes(x)) : "(none)"
-  const stamp = `harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)`
+
   let spec = null, why = null
   if (k === "gov") {
     const ids = [cell.binding_id, ...(cell.candidates || []).map((c) => c.id)].filter(Boolean)
@@ -104,6 +132,7 @@ const out = { compiled_dir: dir, generated: new Date().toISOString(), targets: t
 fs.mkdirSync(path.join(REPO, "data/workbench/standards/confidence"), { recursive: true })
 fs.writeFileSync(path.join(REPO, "data/workbench/standards/confidence", `_harvest-${dir}.json`), JSON.stringify(out, null, 2) + "\n")
 if (APPLY) {
+  if (SHAPE === "cat1" && Array.isArray(cfg.panel) && !cfg.panel.includes("Cr")) { cfg.panel.push("Cr"); console.log("panel: Cr added (canonical 11-cell panel)") }
   cfg._harvest_2026_09_02 = `${applied.length} cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); ${skipped.length} cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-${dir}.json`
   fs.writeFileSync(cfgPath, JSON.stringify(cfg, null, 2) + "\n")
 }

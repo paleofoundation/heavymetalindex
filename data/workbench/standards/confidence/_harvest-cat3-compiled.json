@@ -1,0 +1,921 @@
+{
+  "compiled_dir": "cat3-compiled",
+  "generated": "2026-09-02T10:38:08.679Z",
+  "targets": 82,
+  "applied": [
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "inline-value",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "inline-value",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "inline-value",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Pb",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Cd",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 2,
+      "anchor": "nhmrc2025_cd_drinking_water_2"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "tAs",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_tas_50"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 1,
+      "anchor": "eu20202184_thg_drinking_water_1"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250,
+      "anchor": "eu2024_ni_juice_250"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "eu2023_sn_canned_beverages_100000"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "inline-value",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 10,
+      "anchor": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "inline-value",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "tHg",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 20,
+      "anchor": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across(basis:gov)",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "bread-and-baked-goods",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "breakfast-cereal-non-rice",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "breakfast-cereal-rice-based",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "flour-non-rice",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "grain-based-snacks",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "other-grain-products",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pasta-rice-based",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pasta-wheat-based",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-beverages-rice-milk",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-bulk-grain",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-noodles",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "rice-snacks-crackers",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    }
+  ]
+}

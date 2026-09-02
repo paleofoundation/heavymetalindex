@@ -23,16 +23,22 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_rice_derivatives_except_oil_pb_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
-        "value": 250,
-        "value_exact": 250,
-        "binding_jurisdiction": "EU",
-        "binding_id": "eu2023_ias_rice_parboiled_husked_flour_250",
+        "value": 200,
+        "value_exact": 200,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_ias_rice_and_rice_flour_200",
         "basis_note": "face value",
         "per_country": {
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
+          },
           "EU": {
             "value": 250,
             "converted": true,
@@ -43,7 +49,8 @@
             "converted": true,
             "id": "gso193_2021_ias_rice_products_300"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -63,28 +70,34 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_rice_derivatives_except_oil_tas_300"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
-        "value": 30,
-        "value_exact": 30,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+        "basis_note": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
         "per_country": {
-          "IL": {
-            "value": 30,
-            "converted": true,
-            "id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+          "HK": {
+            "value": 20,
+            "converted": false,
+            "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
-        "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        "subsumed_by": "tHg",
+        "binding_parent_value": 20,
+        "binding_parent_source": "HK",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Cd": {
         "type": "gov",
@@ -99,10 +112,20 @@
             "converted": true,
             "id": "aunz_sch19_cd_rice_100"
           },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_cd_cereals-other-than-buckwheat-ca-ihua-quinoa-wheat-and-r_100"
+          },
           "EU": {
             "value": 150,
             "converted": true,
             "id": "eu2023_cd_rice_quinoa_wheatbran_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "china_gb2762_2025_cd_paddy_brown_rice_rice_200"
           },
           "CO": {
             "value": 200,
@@ -139,13 +162,18 @@
             "converted": true,
             "id": "vn_qcvn8_2_2011_cd_white-rice_400"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
-        "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+        "subsumed_by": "Cr",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -160,13 +188,19 @@
             "converted": true,
             "id": "eu2024_ni_durum_rice_1500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Canned-only analyte; dry rice noodles not sold in tinplate.",
-        "reference_method": null
+        "type": "read_across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "gov",
@@ -174,14 +208,31 @@
         "value_exact": 200000,
         "binding_jurisdiction": "CN",
         "binding_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
-        "basis_note": "China GB 2760-2024 starch-noodle/vermicelli Al residue 200 mg/kg (dry, as Al)",
+        "basis_note": "face value",
         "per_country": {
           "CN": {
             "value": 200000,
-            "converted": false,
+            "converted": true,
             "id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
+      },
+      "Cr": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "basis_note": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+        "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": false,
+            "id": "china_gb2762_2025_crtotal_cereals_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       }
     }
   },
