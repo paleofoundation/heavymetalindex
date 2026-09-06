@@ -11,7 +11,7 @@
       "cert_base": "c1d41c2"
     }
   ],
-  "phase": "Phase B/C/E: 27 of 32 dirs reconciled through the round-trip (clean or held); Lens 0 manifests for all 32; M2 round 1 done on seafood; Phase F dry runs executed; Phase G report delivered 2026-09-02 (session 1)",
+  "phase": "wwsaid enactment (2026-09-06): precautionary provenance in force (docs/governance/decisions-under-standing-permission.md); all 104 held items enacted as precautionary cells with sovereign_floor; 25 dirs clean and copied to cert; remaining holds: cat1 3 non-page gap records, cat18 7 Al wrong-basis cells; Phase C wrong-basis dirs (cat2/10/13/14/15/19/20/22/23) open; M2 rounds blocked by the account monthly spend limit (re-dispatch seafood p1/p3/p4.B and cat30 p6.B when lifted, then a round on the precautionary cells per the protocol addendum). Earlier: Phase B/C/E 27 of 32 dirs reconciled; Lens 0 manifests for all 32; M2 round 1 done on seafood; Phase F dry runs executed; Phase G report delivered 2026-09-02 (session 1)",
   "phase_a": {
     "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
     "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",

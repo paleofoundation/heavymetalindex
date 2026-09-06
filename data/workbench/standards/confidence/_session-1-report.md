@@ -125,3 +125,13 @@ Opened (auto): OI-20260902-eu-successor-cells-missing-from-register, OI-20260902
 Dispatched at 12:09 UTC (seafood p1–p4 and cat30 p6, roles A and B, ten leases). Four verdicts landed and were ingested (seafood p2.A, p2.B, p4.A; cat30 p6.A): seafood now 24 confirmed, 31 refuted, 21 unverified, 1 blocked; cat30 0 confirmed, 8 refuted, 14 unverified. The refutations repeat round 1 (Cr-VI water-MCL anchors, canned-food tin read-across on non-canned seafood, freshwater species scope, cat30 Ni nearest-instrument is GB 2762-2025 hydrogenated oils) because manifests verify the cert bytes and those fixes are held on the index side. The cat30 canary was refuted correctly.
 
 Six verifiers (seafood p1.A, p1.B, p3.A, p3.B, p4.B; cat30 p6.B) were terminated by the account's monthly spend limit (HTTP 429). They were not re-dispatched. Escalation item 11: raise the limit at claude.ai/settings/usage or accept that M2 rounds resume after the monthly reset; the packets stay on disk.
+
+## Addendum (2026-09-06): enacted under standing permission
+
+Karen answered the escalation list with `wwsaid`. Three decisions were enacted and recorded in `docs/governance/decisions-under-standing-permission.md` (ledger: OI-20260902-precautionary-provenance-tag, OI-20260902-catch-all-rows-bind-program-wide); ratification via `decide.mjs` stays open.
+
+1. `precautionary` is a compiled cell kind: the compiler resolves the honest Method v2.0 floor, then `lib/provenance.mjs` overlays the program value and records the floor as `sovereign_floor`; a value not below its floor is refused. Audit C13, the confidence lens, the cert readiness lint, renderers, PDFs and the export all carry it.
+2. All 104 held items became precautionary cells (`tools/standards/held-to-precautionary.mjs`). Every affected dir round-trips with 0 regressions; 25 dirs are copied to cert; cert prebuild exit 0. Remaining holds: three non-page Cat-1 records with pre-existing gaps, and the seven Cat-18 aluminium cells whose only anchor is a wrong-basis row (no same-basis floor exists, so no precautionary value can be formed).
+3. Residual "other food" rows bind as direct maximum levels; group rows stay at the strictest member with the split disclosed. The M2 protocol addendum tells verifiers how to judge a precautionary cell.
+
+Still yours: the account monthly spend limit (blocks every verifier), the DataCite gates, and the Phase C wrong-basis inventory where no same-basis floor exists (those cells need published-method LOQs in `analytical_methods.csv` before they can be anything but controls).
